@@ -1,0 +1,99 @@
+{
+ "item": "13276366324",
+ "client": "sfcg",
+ "note": "The plan says let the song breathe with no captions on the singing, captions only on the talk and nothing on the last note, and the client finds animation in the middle inauthentic. Use these only if more is asked for.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Classical singer tag",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "Classical singer"
+   },
+   "src": "Kalindi, 764_3906 [00:07] “i just ran into this classical singer”",
+   "rows": [
+    "00:04–00:06"
+   ],
+   "use": "Small tag as Kalindi says it, after the hook text is off. No name, no place."
+  },
+  {
+   "n": 2,
+   "title": "A gift",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "what a gift your voice is"
+   },
+   "src": "Kalindi, 764_3908 [00:15]",
+   "rows": [
+    "00:15–00:17"
+   ],
+   "use": "Over Kalindi's reaction as she says it. Keep captions on."
+  },
+  {
+   "n": 3,
+   "title": "Like at home",
+   "tpl": "statement_card",
+   "dur": 2.5,
+   "text": {
+    "main": "I feel like I'm like at home",
+    "emph": [
+     "home"
+    ]
+   },
+   "src": "Courtney, 764_3908 [00:51]",
+   "rows": [
+    "00:15–00:17"
+   ],
+   "use": "Only if you add this line to the cut, right before “all the nerves went away”. Keep her grammar."
+  },
+  {
+   "n": 4,
+   "title": "Nerves went away",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "all the nerves went away"
+   },
+   "src": "Courtney, 764_3908 [00:51]–[00:59]",
+   "rows": [
+    "00:17–00:23"
+   ],
+   "use": "Over Courtney as she says it. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "Let it go",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "I've been able to just let it go"
+   },
+   "src": "Courtney, 764_3908 [01:06]",
+   "rows": [
+    "00:23–00:30"
+   ],
+   "use": "Over Courtney as she says it. Keep captions on."
+  },
+  {
+   "n": 6,
+   "title": "In this moment",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "let it resonate like right here in this moment"
+   },
+   "src": "Courtney, 764_3908 [01:06]–[01:10]",
+   "rows": [
+    "00:23–00:30"
+   ],
+   "use": "Over her face as she says it, after MG 5. Off before the 0.5 s hold ends."
+  }
+ ]
+}

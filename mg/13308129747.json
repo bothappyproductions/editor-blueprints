@@ -1,0 +1,92 @@
+{
+ "item": "13308129747",
+ "client": "niwrc",
+ "note": "Short three-bite cut and the plan wants only her key words on screen, so 5 graphics.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Policy and advocacy tag",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "Policy and advocacy"
+   },
+   "src": "Kerri Colfer, C1 Event 18 [01:03] “how policy and advocacy can help create the conditions”.",
+   "rows": [
+    "00:00-00:07"
+   ],
+   "use": "Only after the hook text is gone. Small, as she says “policy and advocacy”."
+  },
+  {
+   "n": 2,
+   "title": "Policy-driven data",
+   "tpl": "word_stack",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "items": [
+     "policy-driven data"
+    ]
+   },
+   "src": "Key words in row 00:07-00:24 of this blueprint. Kerri Colfer, C2 Event 10 [01:31].",
+   "rows": [
+    "00:07-00:24"
+   ],
+   "use": "The first key word the plan asks for. Lands as she says it, after the name super is gone."
+  },
+  {
+   "n": 3,
+   "title": "Policy change",
+   "tpl": "word_stack",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "items": [
+     "policy change"
+    ]
+   },
+   "src": "Key words in row 00:07-00:24 of this blueprint. Kerri Colfer, C2 Event 10 [01:37].",
+   "rows": [
+    "00:07-00:24"
+   ],
+   "use": "The second key word. Lands as she says it, after MG 2 is gone."
+  },
+  {
+   "n": 4,
+   "title": "What lets people thrive",
+   "tpl": "word_stack",
+   "dur": 5,
+   "pos": "top",
+   "text": {
+    "items": [
+     "stable housing",
+     "economic security",
+     "culturally tailored services"
+    ]
+   },
+   "src": "Key words in the BUTTON row of this blueprint. Kerri Colfer, C1 Event 18 [03:11].",
+   "rows": [
+    "00:24-00:32"
+   ],
+   "use": "The key words the plan asks for. Each line lands on her word. Then MG 5."
+  },
+  {
+   "n": 5,
+   "title": "Thrive",
+   "tpl": "word_stack",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "items": [
+     "thrive"
+    ]
+   },
+   "src": "Key word in the BUTTON row of this blueprint. Kerri Colfer, C1 Event 18 [03:17].",
+   "rows": [
+    "00:24-00:32"
+   ],
+   "use": "“thrive” alone, as she says it, after MG 4 is gone. Then hold one second on her face."
+  }
+ ]
+}

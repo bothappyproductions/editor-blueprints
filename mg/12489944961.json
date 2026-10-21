@@ -1,0 +1,69 @@
+{
+ "item": "12489944961",
+ "client": "lions",
+ "note": "Lions asked for much simpler graphics or none and the plan has captions only from 00:06 to 00:16, so 4 graphics. Use them only if Jacqui or Atdhe asks for more.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Austria pin",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "Austria"
+   },
+   "src": "Location pin from this blueprint (row 00:16–00:23).",
+   "rows": [
+    "00:16–00:23"
+   ],
+   "use": "Use it as the Austria pin, 00:16.5 to 00:18.5, small, upper left."
+  },
+  {
+   "n": 2,
+   "title": "The twinning line",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "since the clubs had a twinning"
+   },
+   "src": "Austria Leo, IMG_8027.MOV [01:17]",
+   "rows": [
+    "00:16–00:23"
+   ],
+   "use": "Over him as he says it, after the Austria pin is gone. Keep captions on."
+  },
+  {
+   "n": 3,
+   "title": "Same values",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "who are sharing the same values"
+   },
+   "src": "Austria Leo, IMG_8027.MOV [00:14]",
+   "rows": [
+    "00:23–00:35"
+   ],
+   "use": "Only after the top question goes out. Over him as he says it."
+  },
+  {
+   "n": 4,
+   "title": "Very happy",
+   "tpl": "statement_card",
+   "dur": 3,
+   "text": {
+    "main": "make me very happy",
+    "emph": [
+     "happy"
+    ]
+   },
+   "src": "Austria Leo, IMG_8027.MOV [00:24]",
+   "rows": [
+    "00:23–00:35"
+   ],
+   "use": "Full-frame cutaway on his last words. Cut back to his face after."
+  }
+ ]
+}

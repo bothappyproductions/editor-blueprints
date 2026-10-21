@@ -1,0 +1,129 @@
+{
+ "item": "13197359938",
+ "client": "aij",
+ "note": "The plan shows each prompt as text and keeps captions only on the one-word answers. Use these only if Nick or Andrés asks for more, and never join two people's words.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Your future",
+   "tpl": "kinetic_quote",
+   "dur": 5,
+   "pos": "top",
+   "text": {
+    "main": "hope is knowing that your future is not defined by your immigration status",
+    "emph": [
+     "hope",
+     "future"
+    ]
+   },
+   "src": "Paul Chavez, C9279 [01:42]–[01:49]",
+   "rows": [
+    "00:02–00:13"
+   ],
+   "use": "Over Paul as he says it, after his name plate is gone. Keep captions on."
+  },
+  {
+   "n": 2,
+   "title": "Stand with you",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "someone will stand with you"
+   },
+   "src": "Paul Chavez, C9279 [01:49]",
+   "rows": [
+    "00:02–00:13"
+   ],
+   "use": "Over Paul on the second half of his line. Not at the same time as MG 1."
+  },
+  {
+   "n": 3,
+   "title": "Keep hope alive",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "Keep hope alive."
+   },
+   "src": "Cheryl Little, FX3-3760 [00:50]",
+   "rows": [
+    "00:13–00:15"
+   ],
+   "use": "Over Cheryl as she says it. Top band only, her name plate stays lower left."
+  },
+  {
+   "n": 4,
+   "title": "In one word is hope",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "Americans for Immigrant Justice in one word is hope."
+   },
+   "src": "Sui Chung, FX3-3732 [01:18]",
+   "rows": [
+    "00:15–00:19"
+   ],
+   "use": "Over Sui on “is hope”, only after the section text is gone. Org name in full."
+  },
+  {
+   "n": 5,
+   "title": "Fearless",
+   "tpl": "quote_card",
+   "dur": 4,
+   "text": {
+    "main": "Americans for Immigrant Justice in one word, I would say is fearless.",
+    "who": "Paul Chavez"
+   },
+   "src": "Paul Chavez, C9279 [01:09] (take 2)",
+   "rows": [
+    "00:23–00:27"
+   ],
+   "use": "Full-frame cutaway on Paul's take 2. Keep his audio under."
+  },
+  {
+   "n": 6,
+   "title": "AIJ color wipe",
+   "tpl": "brand_wipe",
+   "dur": 1.6,
+   "text": {},
+   "src": "Transition, no text.",
+   "rows": [
+    "00:27–00:36"
+   ],
+   "use": "Cut into the last section at the middle of the wipe, before the section text. Use it once."
+  },
+  {
+   "n": 7,
+   "title": "Something within reach",
+   "tpl": "list_card",
+   "dur": 5,
+   "text": {
+    "main": "Where hope meets the law",
+    "items": [
+     "Something accessible",
+     "Something within reach",
+     "Something you can aspire to"
+    ]
+   },
+   "src": "Sui Chung, FX3-3732 [02:53]",
+   "rows": [
+    "00:27–00:36"
+   ],
+   "use": "Full-frame cutaway over Sui's answer. Let each line land on her words. Back to Sui for the 1 s hold."
+  },
+  {
+   "n": 8,
+   "title": "Focus on Cheryl",
+   "tpl": "corner_frame",
+   "dur": 2,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:19–00:23"
+   ],
+   "use": "Brackets around Cheryl on the close B-cam angle. Move it to where she sits."
+  }
+ ]
+}

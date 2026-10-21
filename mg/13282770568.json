@@ -1,0 +1,138 @@
+{
+ "item": "13282770568",
+ "client": "dream-center-dallas",
+ "note": "The plan wants the number cards and captions only from 00:12 on. Use the rest only if Nick or Kacie asks for more.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "500 a month",
+   "tpl": "stat_counter",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "number": "500",
+    "label": "a month (2025)"
+   },
+   "src": "Number card in the hook row of this blueprint: 500 a month (2025). Kacie, Interview 8 [00:18].",
+   "rows": [
+    "00:00-00:06"
+   ],
+   "use": "The number card the hook asks for. Under the hook text, as she says “five hundred”."
+  },
+  {
+   "n": 2,
+   "title": "2,500 a month",
+   "tpl": "stat_counter",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "number": "2,500",
+    "label": "a month (Sept 2026)"
+   },
+   "src": "Number card in the hook row of this blueprint: 2,500 a month (Sept 2026). Kacie, Interview 8 [00:18]–[00:30].",
+   "rows": [
+    "00:00-00:06"
+   ],
+   "use": "Replaces MG 1 as she says “2,500”. One number at a time."
+  },
+  {
+   "n": 3,
+   "title": "1,400 in 2 hours",
+   "tpl": "stat_counter",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "number": "1,400",
+    "label": "people in 2 hours"
+   },
+   "src": "Card in row 00:06-00:12 of this blueprint: 1,400 people in 2 hours. Kacie, Interview 2 [00:09]–[00:18].",
+   "rows": [
+    "00:06-00:12"
+   ],
+   "use": "Over the car line as she says it. Top of frame, the name super is lower left."
+  },
+  {
+   "n": 4,
+   "title": "Adopt-A-Block tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Adopt-A-Block"
+   },
+   "src": "Program name from this blueprint (the 10 Oct Adopt-A-Block).",
+   "rows": [
+    "00:12-00:26"
+   ],
+   "use": "Small tag over the trunk loading shots. Gone before she is back on camera."
+  },
+  {
+   "n": 5,
+   "title": "Focus on the sign",
+   "tpl": "corner_frame",
+   "dur": 3,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:26-00:32"
+   ],
+   "use": "Brackets around the arrow sign in Clip45.MOV. Move it to where the sign sits. No trash in frame."
+  },
+  {
+   "n": 6,
+   "title": "Green color wipe",
+   "tpl": "brand_wipe",
+   "dur": 1.6,
+   "text": {},
+   "src": "Transition, no text.",
+   "rows": [
+    "00:26-00:32"
+   ],
+   "use": "At the end of the street shots, into Kacie on camera. Cut at the middle of the wipe. Use it once."
+  },
+  {
+   "n": 7,
+   "title": "Is there a need",
+   "tpl": "question_card",
+   "dur": 2,
+   "text": {
+    "main": "Is there really a need?"
+   },
+   "src": "Kalindi's question, as this blueprint writes it (row 00:32-00:52).",
+   "rows": [
+    "00:32-00:52"
+   ],
+   "use": "The small question card the plan allows instead of her voice. Before Kacie answers."
+  },
+  {
+   "n": 8,
+   "title": "We'll be here",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "As long as people need it, we'll be here to meet it."
+   },
+   "src": "Kacie, Interview 6 [01:01]–[01:18] (VOICE line in row 00:32-00:52)",
+   "rows": [
+    "00:32-00:52"
+   ],
+   "use": "Over Kacie on camera as she says it, at the end of the row."
+  },
+  {
+   "n": 9,
+   "title": "Just the way you are",
+   "tpl": "quote_card",
+   "dur": 4,
+   "text": {
+    "main": "we're gonna love you just the way you are.",
+    "who": "Kacie Kintz"
+   },
+   "src": "Kacie, Interview 3 [00:20]–[00:30] (VOICE line in row 00:52-00:58)",
+   "rows": [
+    "00:52-00:58"
+   ],
+   "use": "Full-frame cutaway on the end of her line, then back to the smiles."
+  }
+ ]
+}

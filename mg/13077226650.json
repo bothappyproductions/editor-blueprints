@@ -1,0 +1,131 @@
+{
+ "item": "13077226650",
+ "client": "sfcg",
+ "note": "The plan says captions only on most rows, and Kalindi called animation in the middle of a video inauthentic. Use one graphic only where a line needs it.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Middle East tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Middle East"
+   },
+   "src": "Youssef, FX6_LVH_6399 [00:31] “how peace can be achieved in the Middle East”",
+   "rows": [
+    "00:11–00:17"
+   ],
+   "use": "Only after the name super is gone, from 00:15. Small, upper left, as he says “Middle East”."
+  },
+  {
+   "n": 2,
+   "title": "Success is rare",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "success in this area is very rare and far apart"
+   },
+   "src": "Youssef, FX6_LVH_6399 [01:09]",
+   "rows": [
+    "00:17–00:31"
+   ],
+   "use": "Top band over him as he says it. Keep captions on."
+  },
+  {
+   "n": 3,
+   "title": "Work together",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "work together rather than fight each other."
+   },
+   "src": "Youssef, FX6_LVH_6399 [02:16]",
+   "rows": [
+    "00:31–00:46"
+   ],
+   "use": "Top band over him or the cards B-roll as he says “work together”."
+  },
+  {
+   "n": 4,
+   "title": "Include them",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "you still have to include them"
+   },
+   "src": "Youssef, FX6_LVH_6399 [04:11]",
+   "rows": [
+    "00:54–01:01"
+   ],
+   "use": "Top band over him or the street B-roll as he says it."
+  },
+  {
+   "n": 5,
+   "title": "We can not give up",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "But this does not mean that we can give up"
+   },
+   "src": "Youssef, FX6_LVH_6399 [04:29]",
+   "rows": [
+    "01:01–01:10"
+   ],
+   "use": "Top band over him as he says it, before the speech ramp."
+  },
+  {
+   "n": 6,
+   "title": "Ready to fail",
+   "tpl": "quote_card",
+   "dur": 6,
+   "text": {
+    "main": "But those who are ready to fail time and again perhaps this is where they should focus their efforts.",
+    "who": "Youssef"
+   },
+   "src": "Youssef, FX6_LVH_6399 [01:25]",
+   "rows": [
+    "00:17–00:31"
+   ],
+   "use": "Full-frame cutaway on the second line. It can cover the speech ramp. Keep his audio under."
+  },
+  {
+   "n": 7,
+   "title": "Young people matter",
+   "tpl": "statement_card",
+   "dur": 4,
+   "text": {
+    "main": "the role of young people is crucial",
+    "emph": [
+     "young people"
+    ]
+   },
+   "src": "Youssef, FX6_LVH_6399 [03:16]",
+   "rows": [
+    "00:46–00:54"
+   ],
+   "use": "Full-frame cutaway on “crucial”, then back to him."
+  },
+  {
+   "n": 8,
+   "title": "On the ground",
+   "tpl": "statement_card",
+   "dur": 4,
+   "text": {
+    "main": "civil society is on the ground.",
+    "emph": [
+     "on the ground"
+    ]
+   },
+   "src": "Youssef, FX6_LVH_6399 [06:32]",
+   "rows": [
+    "01:10–01:15"
+   ],
+   "use": "Full-frame cutaway on this line. Back to him for the next one."
+  }
+ ]
+}

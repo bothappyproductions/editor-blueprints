@@ -1,0 +1,133 @@
+{
+ "item": "13239698729",
+ "client": "wny-womens-foundation",
+ "note": "The plan wants the recording in real time, the client's images as given and captions only on most rows. Use the full-frame cards only if the client asks for more.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "The website",
+   "tpl": "statement_card",
+   "dur": 5,
+   "text": {
+    "main": "First, you need to make sure that you are on voterlookup.elections.ny.gov.",
+    "emph": [
+     "voterlookup.elections.ny.gov"
+    ]
+   },
+   "src": "Rebecca, Main St.m4a [00:01.5]–[00:08.2]",
+   "rows": [
+    "00:07–00:14"
+   ],
+   "use": "Full-frame as she says it, in place of the still frame with the top band text. Use one, not both."
+  },
+  {
+   "n": 2,
+   "title": "Brackets on the QR code",
+   "tpl": "corner_frame",
+   "dur": 3,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:14–00:22"
+   ],
+   "use": "Frames the QR code as she says “QR code”. Never over the code itself."
+  },
+  {
+   "n": 3,
+   "title": "Select your county",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Select your county"
+   },
+   "src": "Rebecca, Main St.m4a [00:20.4] “you're going to select your county”",
+   "rows": [
+    "00:22–00:28"
+   ],
+   "use": "In the top purple band as she says it. Keep it off the form."
+  },
+  {
+   "n": 4,
+   "title": "The four fields",
+   "tpl": "word_stack",
+   "dur": 6,
+   "pos": "top",
+   "text": {
+    "items": [
+     "Last name",
+     "First name",
+     "Date of birth",
+     "Zip code"
+    ]
+   },
+   "src": "Rebecca, Main St.m4a [00:27.0]",
+   "rows": [
+    "00:28–00:42"
+   ],
+   "use": "In the top band. Each field name lands on her word. Never over the blurred values."
+  },
+  {
+   "n": 5,
+   "title": "Click search",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "And then you click search."
+   },
+   "src": "Rebecca, Main St.m4a [00:41.1]",
+   "rows": [
+    "00:42–00:45"
+   ],
+   "use": "In the top band. Time it so “search” lands on the click."
+  },
+  {
+   "n": 6,
+   "title": "Registration information",
+   "tpl": "statement_card",
+   "dur": 3,
+   "text": {
+    "main": "And this will give you all of your registration information.",
+    "emph": [
+     "registration"
+    ]
+   },
+   "src": "Rebecca, Main St.m4a [00:45.1]–[00:49.2]",
+   "rows": [
+    "00:45–00:49"
+   ],
+   "use": "Full-frame only while the blurred result page loads, as she says it. Be off before the push to Active."
+  },
+  {
+   "n": 7,
+   "title": "Status is active",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "my voter status is active."
+   },
+   "src": "Rebecca, Main St.m4a [00:49.2]",
+   "rows": [
+    "00:49–00:56"
+   ],
+   "use": "In the top band. Land it on “active”, when the push arrives on the line."
+  },
+  {
+   "n": 8,
+   "title": "It's all there",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "It's all there for you."
+   },
+   "src": "Rebecca, Main St.m4a [00:56.7]",
+   "rows": [
+    "00:56–00:58"
+   ],
+   "use": "In the top band only, as she says it. The held Active line stays clear and sharp."
+  }
+ ]
+}

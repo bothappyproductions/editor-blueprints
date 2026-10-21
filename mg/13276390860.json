@@ -1,0 +1,96 @@
+{
+ "item": "13276390860",
+ "client": "sfcg",
+ "note": "Kalindi called animation in the middle of a video inauthentic, and the plan says captions only on most rows. Use one of these only where a line needs it.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "A part of them",
+   "tpl": "statement_card",
+   "dur": 3,
+   "text": {
+    "main": "there's a part of them that doesn't really want to do all of the bad things that they do",
+    "emph": [
+     "part"
+    ]
+   },
+   "src": "GV, 764_3897 [00:24]–[00:32]",
+   "rows": [
+    "00:04–00:12"
+   ],
+   "use": "Full-frame cutaway to hide the cut after “they do”. Then back on GV."
+  },
+  {
+   "n": 2,
+   "title": "Made feel seen",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "they need to be made feel seen"
+   },
+   "src": "GV, 764_3897 [00:32]–[00:37]",
+   "rows": [
+    "00:12–00:17"
+   ],
+   "use": "Over the card B-roll as GV says it. Keep the words exactly."
+  },
+  {
+   "n": 3,
+   "title": "Focus on the wish",
+   "tpl": "corner_frame",
+   "dur": 3,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:12–00:17"
+   ],
+   "use": "Frames the card as the wish is written. Not at the same time as MG 2."
+  },
+  {
+   "n": 4,
+   "title": "Going through something",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "And they might be going through something."
+   },
+   "src": "GV, 764_3898 [00:04]",
+   "rows": [
+    "00:17–00:21"
+   ],
+   "use": "Over GV, in sync, as the line starts."
+  },
+  {
+   "n": 5,
+   "title": "Aspire to be",
+   "tpl": "quote_card",
+   "dur": 4,
+   "text": {
+    "main": "Maybe there's something that they see in me that they wish that they could aspire to be or can be.",
+    "who": "GV"
+   },
+   "src": "GV, 764_3898 [00:09]",
+   "rows": [
+    "00:21–00:27"
+   ],
+   "use": "Only if Nick wants a card here, the plan holds on GV. Full-frame while GV says it, then back for the last line."
+  },
+  {
+   "n": 6,
+   "title": "Empathize with that",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "So even I empathize with that."
+   },
+   "src": "GV, 764_3898 [00:17]",
+   "rows": [
+    "00:21–00:27"
+   ],
+   "use": "Over GV as the line is said. Check “empathize” by ear. Out with the last caption after the 0.5 s hold."
+  }
+ ]
+}

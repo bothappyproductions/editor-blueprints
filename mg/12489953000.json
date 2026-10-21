@@ -1,0 +1,143 @@
+{
+ "item": "12489953000",
+ "client": "lions",
+ "note": "Lions asked for much simpler graphics, or none. Use one only if the cut needs it, never two at once.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Kampala pin",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "📍 Kampala, Uganda"
+   },
+   "src": "Location pin text written in the blueprint row 00:05–00:09.",
+   "rows": [
+    "00:05–00:09"
+   ],
+   "use": "The location pin the plan asks for, 00:05 to 00:07, after the top text is out."
+  },
+  {
+   "n": 2,
+   "title": "Found a family",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "I found a family of Lions"
+   },
+   "src": "Uganda Lion, IMG_7819.MOV [01:09]–[01:13]",
+   "rows": [
+    "00:05–00:09"
+   ],
+   "use": "Only after the pin goes out at 00:07, as he says it."
+  },
+  {
+   "n": 3,
+   "title": "We became together",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "We became together"
+   },
+   "src": "Uganda Lion, IMG_7819.MOV [01:13] “and we became together”",
+   "rows": [
+    "00:09–00:13"
+   ],
+   "use": "Small tag as he says it. Gone before MG 4."
+  },
+  {
+   "n": 4,
+   "title": "My best friends",
+   "tpl": "statement_card",
+   "dur": 2,
+   "text": {
+    "main": "one of them is my best friends",
+    "emph": [
+     "best friends"
+    ]
+   },
+   "src": "Uganda Lion, IMG_7819.MOV [01:13]–[01:19]. Check “friend/friends” by ear.",
+   "rows": [
+    "00:09–00:13"
+   ],
+   "use": "Short full-frame cutaway on “best friends”. Cut out before the name."
+  },
+  {
+   "n": 5,
+   "title": "Club president",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "going to be my club president"
+   },
+   "src": "Uganda Lion, IMG_7819.MOV [01:24]–[01:26]",
+   "rows": [
+    "00:13–00:17"
+   ],
+   "use": "Over him on the 105% punch-in as he says it. Keep his laugh clear."
+  },
+  {
+   "n": 6,
+   "title": "People in need",
+   "tpl": "statement_card",
+   "dur": 4,
+   "text": {
+    "main": "In the entire world, we have so many people in need of our hands, of our help.",
+    "emph": [
+     "our help"
+    ]
+   },
+   "src": "Uganda Lion, IMG_7821.MOV [00:06]",
+   "rows": [
+    "00:13–00:17"
+   ],
+   "use": "Only if you add this line to the cut, after “club president” and before the tie-back."
+  },
+  {
+   "n": 7,
+   "title": "Find him in the hall",
+   "tpl": "corner_frame",
+   "dur": 2,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:17–00:23"
+   ],
+   "use": "Frames him at the cut to the wider hall IMG_7822. Move it to where he stands."
+  },
+  {
+   "n": 8,
+   "title": "Talk to any Lion",
+   "tpl": "quote_card",
+   "dur": 4,
+   "text": {
+    "main": "talk to any Lion, they are willing to receive you",
+    "who": "Uganda Lion"
+   },
+   "src": "Uganda Lion, IMG_7822.MOV [00:23]–[00:28]. The transcript tool wrote “land”; the blueprint says “Lion”.",
+   "rows": [
+    "00:17–00:23"
+   ],
+   "use": "Full-frame cutaway as he says it, then back to him."
+  },
+  {
+   "n": 9,
+   "title": "Friends all over the world",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "you will create new friends from all over the world"
+   },
+   "src": "Uganda Lion, IMG_7822.MOV [00:38]",
+   "rows": [
+    "00:23–00:27"
+   ],
+   "use": "Over him as he says it. Gone by the 0.5 s hold after “world”."
+  }
+ ]
+}

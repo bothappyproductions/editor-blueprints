@@ -1,0 +1,255 @@
+{
+ "id": "13099641527",
+ "client": "aij",
+ "eyebrow": "Americans for Immigrant Justice · Roberto, client interview (phone, Spanish) · recorded 5 Feb 2026 · Social short",
+ "title": "Roberto:",
+ "title_q": "“A year at Krome”",
+ "title_short": "Roberto · A year at Krome",
+ "editor": "Qendrim",
+ "due": "2026-10-26",
+ "format": "9:16 only · 1080×1920",
+ "length": "about 70 s",
+ "edit_key": "AIJRobertoKromeDetention001",
+ "headline": "He went to his ICE appointment and spent a year inside Krome. AIJ stood by him, and his asylum was approved.",
+ "story": [
+  "Roberto, an AIJ client from Colombia, reported to his ICE appointment with an asylum case pending. He spent <b>a year inside Krome</b>. Going back to Colombia was never an option.",
+  "AIJ was beside him the whole year, and on <b>30 October 2025 his asylum was approved</b>. His face and his words only. Calm and grounded, and it ends on relief."
+ ],
+ "feel": [
+  "Calm",
+  "Human",
+  "Grounded",
+  "Hopeful"
+ ],
+ "do": [
+  "Open on his strongest line and <q>A year inside Krome.</q> on frame 1.",
+  "Keep Andrés’s line order after the hook.",
+  "Time every English caption to his Spanish words.",
+  "Clean the call audio: noise reduction and a level pass.",
+  "Send the in/out list with V1."
+ ],
+ "dont": [
+  "No logo, title card or name at 0:00.",
+  "Don’t lead with the arrest history or the NTA paperwork.",
+  "No stock footage of detention. No B-roll.",
+  "No outrage music or alarm graphics.",
+  "No second aspect ratio."
+ ],
+ "links": {
+  "brief": null,
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Atdhe owes it. Andrés asked in writing (9 Sep) to match Robert video 1. That is the client’s suggestion: <a href=\"https://f.io/NbjKPXvV\">Robert video 1 on Frame.io ↗</a>."
+  },
+  "footage": {
+   "title": "Roberto interview + transcripts",
+   "url": "https://drive.google.com/drive/folders/16u3yGXdG4o1pLo3oBA5pdAba9olbHXaE",
+   "note": "Roberto Client Interview.mp4, 46 min, recorded on his phone over a video call. Spanish. One talking head."
+  }
+ },
+ "bp_intro": "One source file: <span class=\"mono\">Roberto Client Interview.mp4</span>. Times are the transcript’s block markers (a speaker block start or an inline [MM:SS] marker in the translation). They are close, not frame-exact: find each line inside the marked block on scrub. No frames were pulled; it is one talking-head shot.",
+ "rows": [
+  {
+   "tc": "00:00–00:03",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Roberto, cold, mid-sentence, face centred. 3 s pulled forward from Line 2.",
+   "motion": "Hook text on <b>frame 1</b>, top third, big: <q>A year inside Krome.</q> Captions on. No logo, no name, no fade.",
+   "voice": {
+    "who": "Roberto (Spanish audio)",
+    "quote": "I was going to spend a year at the Krome Detention Center in Miami",
+    "src": "Roberto Client Interview.mp4 [01:37] block, just before the [5:37] marker (about 05:00–05:37) · ES: “casi duré un-un año en el centro de detención KRON Miami”"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">None.</span>"
+  },
+  {
+   "tc": "00:03–00:15",
+   "beat": "LINE 1",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Back to the start of his order. Same shot. Cover the join with a 2-frame dip or a small push-in, as video 1 does.",
+   "motion": "Name super at <span class=\"mono\">00:03</span>, lower left, 2 s: <b>Roberto · AI Justice client</b> (spelling: see decision). Optional, match video 1.",
+   "voice": {
+    "who": "Roberto (Spanish audio)",
+    "quote": "I went and reported to the ICE appointment, which was in January 2025, and I was and I had a pending asylum case.",
+    "src": "Roberto Client Interview.mp4 [01:37] block, after the [03:37] marker (about 04:00–04:30) · ES: “yo fui y me presenté otra vez al departamento de ICE, que fue en enero del 2025 … y-y yo tenía un asilo pendiente”"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">None.</span>"
+  },
+  {
+   "tc": "00:15–00:35",
+   "beat": "LINE 2",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Hold on his face on “desmembrados, desaparecidos”. No push-in there.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Roberto (Spanish audio)",
+    "quote": "Little did I know then that I was going to spend a year at the Krome Detention Center in Miami. Um, really, I never considered – never considered going back to Colombia because my situation in Colombia is delicate, given the violence from armed gangs and problems that my family has gone through, with family members who were dismembered and have gone missing.",
+    "src": "Roberto Client Interview.mp4 [01:37] block, just before [5:37] (about 05:00–05:37) · ES: “cuando menos pensé, casi duré un-un año en el centro de detención KRON Miami, eh, dado que la verdad no pensaba-- no pensaba volver a Colombia porque mi situación en Colombia es delicada, dado a la violencia de grupos armados, problemas que pasaron en medio de mi familia, familiares que fueron desmembrados, desaparecidos”"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music swell. A soft bed only if video 1 has one.</span>"
+  },
+  {
+   "tc": "00:35–00:58",
+   "beat": "LINE 3",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same shot. Small push-in on “me dieron la esperanza”.",
+   "motion": "Captions only. Caption “Americans for Immigrant Justice” (the translation has a typo here: “Immigration”).",
+   "voice": {
+    "who": "Roberto (Spanish audio)",
+    "quote": "I made the decision to continue with my immigration case inside the detention center, and it lasted for a year. During that year, I met Americans for Immigrant Justice, who gave me very essential support at all times. They prepared me, gave me hope and a sigh of relief, and were by my side the entire time. And – and to my surprise, my asylum was approved.",
+    "src": "Roberto Client Interview.mp4 [05:40] block (about 05:50–06:37) · ES: “tomé la decisión de … continuar mi proceso dentro del centro de detención y se me duró un año. Entre ese año pude conocer a American for Immigrant Justice, quienes fueron los que me dieron un apoyo muy fundamental en todo momento me capacitaron, me dieron la esperanza, me dieron una voz de aliento y estuvieron ahí conmigo en todo momento. Y para la sorpresa, mi asilo fue garantizado”"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Lift toward hope."
+  },
+  {
+   "tc": "00:58–01:08",
+   "beat": "BUTTON",
+   "kind": "end",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Hold on his face after “excelente labor”. Keep or cut his “Muchas gracias”: your call.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Roberto (Spanish audio)",
+    "quote": "On October 30, 2025, my asylum was approved, because I had God’s blessing and Americans for Immigrant Justice’s support, who sincerely did an excellent job.",
+    "src": "Roberto Client Interview.mp4 [06:37] marker to the end of the block (about 06:37–07:00) · ES: “de octubre 30 del 2025, mi asilo fue garantizado, dado que tuve la bendición de Dios y conté con el apoyo de American for Immigrant Justice, que sinceramente hicieron una excelente labor.”"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Resolve."
+  },
+  {
+   "tc": "01:08–01:12",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "End card as on Robert video 1.",
+   "motion": "Americans for Immigrant Justice logo + <span class=\"mono\">aijustice.org</span>. Client’s <a href=\"https://drive.google.com/file/d/1kWNgJV7LcI0PGoVBp9oZ1dqiN_eEK7yL/view\">Vertical intro outro</a> if video 1 uses it. Logo here only.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">As video 1.</span>"
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Production brief",
+   "None. AIJ recorded this call themselves."
+  ],
+  [
+   "Reference",
+   "Not chosen. Client’s suggestion: <a href=\"https://f.io/NbjKPXvV\">Robert video 1</a>"
+  ],
+  [
+   "Folder",
+   "<a href=\"https://drive.google.com/drive/folders/16u3yGXdG4o1pLo3oBA5pdAba9olbHXaE\">Roberto interview + transcripts</a>"
+  ],
+  [
+   "Clip",
+   "<a href=\"https://drive.google.com/file/d/1WZxFaw7QlmQr--_wtVluqYWRkTbXHvLY/view\">Roberto Client Interview.mp4</a> · 177 MB · 46 min"
+  ],
+  [
+   "Transcript (Spanish)",
+   "<a href=\"https://drive.google.com/file/d/1NAtcU8-Cq3EjMUPszmYL-8PzlwZPub7W/view\">Spanish interview transcript (.docx)</a> · Speaker 2 = Roberto"
+  ],
+  [
+   "Translation",
+   "<a href=\"https://drive.google.com/file/d/1Tr6esEUDV4IkqB_EalFq7Wq91bBAtOq6/view\">Translation with notes from Andres.docx</a> · same block times · caption text comes from here"
+  ],
+  [
+   "Andrés’s SOT doc",
+   "<a href=\"https://docs.google.com/document/d/1V06Aul29yLfbo2jYOozzejOjVFv0ip_hZAdBWgg54FU/edit\">Video to produce with Robert Sot</a>"
+  ],
+  [
+   "visual.json",
+   "None. One shot for the whole interview."
+  ],
+  [
+   "Brand pack",
+   "<a href=\"https://drive.google.com/drive/folders/1fK0DGGuao4eeb4wEpOdsEj296tTiUjU0\">AIJ Outros/Intros</a> (<a href=\"https://drive.google.com/file/d/1ZNS4-rCJFJ37At_QRXE3DzBZz_H24xC0/view\">Horizontal Animated logo</a>, <a href=\"https://drive.google.com/file/d/1kWNgJV7LcI0PGoVBp9oZ1dqiN_eEK7yL/view\">Vertical intro outro</a>) · Fonts: Filson Pro (Heavy, Bold), Inter, OVO only in the “30 Years” mark. The 30th Anniversary Branding Style Guide came from Andrés by email (25 Sep). Ask Atdhe for the file."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "Phone recording of a video call. Resolution and frame rate not measured: check on import. His face is mid-frame until 07:02, then higher (Andrés asked him to move the phone)."
+  ],
+  [
+   "Timeline",
+   "1080×1920. Use the source frame rate."
+  ],
+  [
+   "Crop",
+   "Centre crop on his face for 9:16. The source is low resolution: no punch-ins above 105%. Stabilise if the phone drifts."
+  ],
+  [
+   "Audio",
+   "Not measured, check the meters. Call audio in the same file: noise reduction and a level pass."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. Music 18–20 dB under voice."
+  ],
+  [
+   "Captions",
+   "English captions of every line, word for word from the translation, timed to his Spanish. White #FFFFFF text on a navy #163966 box. Red #EE2F26 only as an accent. Max 2 lines. Org name always “Americans for Immigrant Justice” in full."
+  ],
+  [
+   "Export",
+   "H.264 MP4. One file. Send the in/out time of every line you used with the V1 (Andrés asked)."
+  ]
+ ],
+ "checklist": [
+  "Frame 1 is his face and the hook text. No logo, no name, no fade.",
+  "Every caption matches the translation word for word. One fix: the translation writes “Americans for Immigration Justice” once. Caption it “Americans for Immigrant Justice”.",
+  "Krome, never “KRON” or “Krohn”. Colombia, never “Columbia”.",
+  "On screen he is only Robert or Roberto (see the decision below). Never any other name, in captions or in the file name.",
+  "No interviewer voice (Speaker 1).",
+  "No domestic-violence passage ([01:37] block, about 02:00–04:00) and nothing after [26:44].",
+  "Captions sit on the Spanish words they translate.",
+  "The in/out time list goes with the V1."
+ ],
+ "decisions": [
+  {
+   "t": "Robert or Roberto?",
+   "b": "Name super: “Roberto” or “Robert”? Andrés writes “Robert” in his requests and in the gala script (Clip 2 VO says “Robert”). Confirm one spelling before the super is burned in."
+  },
+  {
+   "t": "No visual reference",
+   "b": "Nobody has picked one. Andrés asked to match Robert video 1. A producer has to confirm it."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> AIJ rarely has a client who can show his face. Roberto can. Andrés chose these lines himself.",
+ "ask_examples": [
+  "What did Andrés ask for in the captions?",
+  "Which parts of the interview are off limits?",
+  "How do I spell Krome on screen?",
+  "Where is Robert video 1?"
+ ],
+ "transcript": "Roberto Client Interview.mp4. English translation by AIJ (Translation with notes from Andres.docx). Times are the transcript's block markers, not frame-exact. Speaker 1 = Andres (interviewer), Speaker 2 = Roberto. Only the blocks these cuts use are here.\n[00:56] Speaker 2: Um, I would like to share part of my story; how my immigration process was like in this country, um, how Americans for Immigrant Justice, um, lent me a helping hand, with a lot of - of support in this immigration process, while I was in a detention center in Miami - Krome in Miami...and a bit more about that.\n[01:37] Speaker 2: Um, well, I would mainly like to send out, well, a message, because this message is especially for people, or...um, their family members, who are currently in a situation like the one I went through, since right now, the immigration situation in this country is a bit rigorous. So, this message is especially for all those people, and it's to not give up and to keep knocking on doors, because there are always people and foundations, or companies, like Americans for Immigrant Justice, who are willing to lend a helping hand in some way. [...do not use: arrest history, about 02:00-04:00...]\n[~04:00] After I moved to Orlando, I went and reported to the ICE appointment, which was in January 2025, and I was aand I had a pending asylum case. I showed them that I had my license, that I had no criminal convictions, but I was still arrested [...] little did I know then that I was going to spend a year at the Krome Detention Center in Miami. Um, really, I never considered - never considered going back to Colombia because my situation in Colombia is delicated, given the violence from armed gangs and problems that my family has gone through, with family members who were dismembered and have gone missing.\n[05:37] So, because of that, I painfully made the decision. [...] so I made the decision to continue with my immigration case inside the detention center, and it lasted for a year. During that year, I met Americans for Immigration Justice, who gave me very essential support at all times. They prepared me, gave me hope and a sigh of relief, and were by my side the entire time. And - and to my surprise, my asylum was approved in\n[06:37] 2025 in October of 20 - sorry. On October 30, 2025, my asylum was approved, because I had God's blessing and Americans for Immigrant Justice's support, who sincerely did an excellent job.\n[07:02] Speaker 1 asks him to move the phone so his head sits higher in the frame.\n[08:06] Speaker 2: Umm, well, um, what I can say, since it's common knowledge, is that Colombia is a country, a country that has always been ruled by a drug - it's a narco-state, so a lot of criminal groups have been created, which operate outside the law, affecting some sectors and several parts of Colombia, and they suff - the civilian population is the one that is worst off in this situation. They face hostility - a high risk of hostility from - through the use of powerful weapons, forced displacement, people going missing, murders, dismemberments, and bodies of murder victims in full view of us. So, it's something that led us to raise our voices, and for doing so,\n[09:06] our lives were always at risk, and for that decis - for that reason, I made the decision to seek asylum in this country.\n[09:46] Speaker 2: Well the word to immigrate is a synonym for several things that can't be described with just one word. Sometimes we make the decision to leave our country, not because of money, but rather, because we don't have peace, we don't have a safe place, so we need to leave our families behind. Well that, to me, has been one of the saddest situations I have experienced, because it was either keep living that way, or be without them for the rest of my life, or risk my own life. So, it's something that's sad, and simply put, people that have gone through that are the ones that truly understand the circumstances.\n[13:16] Speaker 2: Umm. Well, um, honestly, the truth is, they gave us a - a - a document that had um - um...the contact information of law firms, who could represent us at no cost or also for - for an added cost. So, we would try, but during that time, the whole situation was very difficult; several of those law firms would not answer. Others wouldn't answer, but Americans for Immigrants is one of those who always did, um. I honestly don't know how they did it, but they did a very good job. They were always there, they always answered, even when, um, several times, I was denied the opportunity to be represented by them, since it was - was free legal representation.\n[14:16] But I insisted, and insisted, and insisted, and they finally decided to represent me, once they saw that it had been 7 months and that I was still not deported. They said: \"No, come, we will represent you.\" They represented me and did their best, because now, here I am outside of detention; I'm free and thank God my case was approved and thanks to them for their excellent work. My message is: to everyone, um, who is currently going through this process, leave this type of work to people like them. Honestly, we think we know a lot of things or we rush to make decisions, but really, we don't know anything. So, it's important to have guidance from a - from people, um, who know about the matter, subject matter experts like Americans for Immigrant Justice, who honestly, to me, they have highly valuable expertise.\n[23:15] Speaker 2: [...] So, we should not stop supporting one another and keep fighting, so that those people in those situations could know their worth or their rights, um, and to - to - to more united in that situation, because honestly, um...you could never imagine what it's like being locked up, or that you would like to drink a - of cold water and you can't - you can't even drink a glass of cold water. [...]\n[25:34] Speaker 2: E - exactly. My experience with Americans for Immigrant Justice was that they always had people who spoke to me in Spanish, who had the time to talk to me, because honestly, when you are there, you don't...you have time, time to spare, and you don't know how it's like outside, but Americans for Immigrant Justice always had time to explain to me, to give me that, like, hope. So, that's why it's very important for me that...I don't know where the funding comes from, however they get it, I don't know how that's done...but it's very important that [Americans for Immigrant Justice] remains or that it withstands, for the people who truly deserve it, because we know that there are also people who come with one idea or those that get lost in other ideas, and they do\n[26:34] bad things. So, it's very important that you all keep doing the work that you do because there are people who truly need it.\n[26:44] Speaker 1: (do not use anything after this point)"
+}

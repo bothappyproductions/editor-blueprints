@@ -1,0 +1,79 @@
+{
+ "item": "12489939555",
+ "client": "lions",
+ "note": "The plan says captions only on most rows, and Lions want graphics much simpler, or none. Use these only if Atdhe asks for graphics, and never more than one on screen.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Focus on her smile",
+   "tpl": "corner_frame",
+   "dur": 1.6,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:00–00:03"
+   ],
+   "use": "Only after the Are you happy? top text goes out. Brackets on her smile."
+  },
+  {
+   "n": 2,
+   "title": "Register very quickly",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "You have to register very quickly."
+   },
+   "src": "French Lion, IMG_7941.MOV [02:07]",
+   "rows": [
+    "00:06–00:16"
+   ],
+   "use": "Over her face as she says it, late in the row. Check the line by ear first."
+  },
+  {
+   "n": 3,
+   "title": "See you in Washington",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "very happy to see you in Washington next year"
+   },
+   "src": "French Lion, IMG_7941.MOV [02:15]",
+   "rows": [
+    "00:16–00:21"
+   ],
+   "use": "Top text as she says it. Keep her friends in frame under it."
+  },
+  {
+   "n": 4,
+   "title": "Proud to be a Lion",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Yes, proud to be a Lion."
+   },
+   "src": "French Lion and friends, IMG_7941.MOV [02:22]",
+   "rows": [
+    "00:21–00:26"
+   ],
+   "use": "Over the group as they shout it. Let the voices carry it."
+  },
+  {
+   "n": 5,
+   "title": "Long live France",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "Long live France."
+   },
+   "src": "French Lion, IMG_7941.MOV [02:25]",
+   "rows": [
+    "00:26–00:28"
+   ],
+   "use": "Small, in the top band, as she says it. Keep the selfie clear under it."
+  }
+ ]
+}

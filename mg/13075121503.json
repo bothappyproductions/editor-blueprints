@@ -1,0 +1,141 @@
+{
+ "item": "13075121503",
+ "client": "sfcg",
+ "note": "The plan says stay on her face for reconciliation is not an event, and Kalindi finds animation in the middle of a video inauthentic. Use these only if Atdhe asks for more.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Truth Commission tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Truth Commission"
+   },
+   "src": "Hayley, FX6_LVH_6402.MXF [03:17] “The South African Truth Commission”",
+   "rows": [
+    "00:14–00:23"
+   ],
+   "use": "Small tag when she says Truth Commission. The name super is gone by then."
+  },
+  {
+   "n": 2,
+   "title": "Peace and unity",
+   "tpl": "statement_card",
+   "dur": 4,
+   "text": {
+    "main": "advancing and promoting peace, national unity and reconciliation",
+    "emph": [
+     "peace"
+    ]
+   },
+   "src": "Hayley, FX6_LVH_6402.MXF [03:27]",
+   "rows": [
+    "00:14–00:23"
+   ],
+   "use": "Full-frame cutaway on peace to hide her closed eyes, only if the cards B-roll does not fit."
+  },
+  {
+   "n": 3,
+   "title": "Read the page first",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "first that page needed to be read"
+   },
+   "src": "Hayley, FX6_LVH_6402.MXF [04:10]",
+   "rows": [
+    "00:23–00:31"
+   ],
+   "use": "Over Hayley on the end of the line. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "Frame Hayley",
+   "tpl": "corner_frame",
+   "dur": 3,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:31–00:38"
+   ],
+   "use": "Brackets around her face on a frame where her eyes are open. Keep it still and simple."
+  },
+  {
+   "n": 5,
+   "title": "Not enough",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "truth commissions are meaningful but I think that they are not enough."
+   },
+   "src": "Hayley, FX6_LVH_6402.MXF [05:14]–[05:22]",
+   "rows": [
+    "00:38–00:50"
+   ],
+   "use": "Over Hayley as she says it, before the cut to the street B-roll."
+  },
+  {
+   "n": 6,
+   "title": "A space to tell",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "giving people a space to tell what is on their hearts"
+   },
+   "src": "Hayley, FX6_LVH_6402.MXF [05:22]–[05:27]",
+   "rows": [
+    "00:38–00:50"
+   ],
+   "use": "Over the street B-roll as she says it. Keep captions on."
+  },
+  {
+   "n": 7,
+   "title": "Not an event",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "reconciliation is not an event"
+   },
+   "src": "Hayley, FX6_LVH_6402.MXF [06:00]",
+   "rows": [
+    "00:50–00:59"
+   ],
+   "use": "Over her face as she says it. Stay on her. Keep captions on."
+  },
+  {
+   "n": 8,
+   "title": "Engage civil society",
+   "tpl": "quote_card",
+   "dur": 4,
+   "text": {
+    "main": "continue engaging with civil society",
+    "who": "Hayley"
+   },
+   "src": "Hayley, FX6_LVH_6402.MXF [07:23]",
+   "rows": [
+    "00:59–01:05"
+   ],
+   "use": "Short full-frame cutaway on her words, then back to her face."
+  },
+  {
+   "n": 9,
+   "title": "From the bottom up",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "actually come from the bottom up as well"
+   },
+   "src": "Hayley, FX6_LVH_6402.MXF [07:36]–[07:43]",
+   "rows": [
+    "01:05–01:14"
+   ],
+   "use": "Over her last words. Take it out for the 0.5 s hold."
+  }
+ ]
+}

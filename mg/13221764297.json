@@ -1,0 +1,85 @@
+{
+ "item": "13221764297",
+ "client": "gateway-gaston",
+ "note": "The plan is one built frame with captions only, so 6 graphics. The Comment I'm in ask is the planned one; use the others only if Nick asks.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "We need volunteers",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "We need volunteers."
+   },
+   "src": "Dwayne, Day 3 AM .mov [00:07.8]",
+   "rows": [
+    "00:07–00:09"
+   ],
+   "use": "After the hook text goes off at 00:07, as he says it. Over the top of the picture."
+  },
+  {
+   "n": 2,
+   "title": "Caring for our neighbor",
+   "tpl": "kinetic_quote",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "preaching about homelessness and caring for our neighbor",
+    "emph": [
+     "neighbor"
+    ]
+   },
+   "src": "Dwayne, Day 3 AM .mov [00:09.8]–[00:16.3]",
+   "rows": [
+    "00:09–00:17"
+   ],
+   "use": "Words pop in with his voice. Captions stay on at the bottom."
+  },
+  {
+   "n": 3,
+   "title": "Churches tag",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "Churches"
+   },
+   "src": "Dwayne, Day 3 AM .mov [00:18.4] “our leadership and churches”",
+   "rows": [
+    "00:17–00:21"
+   ],
+   "use": "Small tag on the word “churches”, over the top of the picture."
+  },
+  {
+   "n": 4,
+   "title": "Your congregation",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "If you are interested in taking this to your congregation"
+   },
+   "src": "Dwayne, Day 3 AM .mov [00:22.3]",
+   "rows": [
+    "00:21–00:35"
+   ],
+   "use": "From 00:22 as he says it. Gone before the word “comment” and the ask text."
+  },
+  {
+   "n": 5,
+   "title": "Comment I'm in",
+   "tpl": "highlight_callout",
+   "dur": 10,
+   "pos": "center",
+   "text": {
+    "main": "Comment “I'm in”"
+   },
+   "src": "The ask text in the plan, row 00:21–00:35. Dwayne, Day 3 AM .mov [00:22.3] “please comment and let me know, yes, I'm in”",
+   "rows": [
+    "00:21–00:35"
+   ],
+   "use": "The one ask. In on the word “comment”, big and centered. Hold it to the end card."
+  }
+ ]
+}

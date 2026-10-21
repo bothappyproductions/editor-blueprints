@@ -1,0 +1,120 @@
+{
+ "item": "13221773468",
+ "client": "gateway-gaston",
+ "note": "The plan has captions only on most rows, brings the question back as silent top text, and ends on the Comment “I'm in” ask. Use these only if more is asked for, never with the ask text.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "No options",
+   "tpl": "quote_card",
+   "dur": 4,
+   "text": {
+    "main": "an unhoused person contacted us at the Gateway, we could find no options for them",
+    "who": "Dwayne Burks"
+   },
+   "src": "Dwayne Burks, Day 2 am .MOV [00:07.4]–[00:10.7]",
+   "rows": [
+    "00:06–00:14"
+   ],
+   "use": "Full-frame cutaway as he says it. Keep his voice under. Never start on “several years”."
+  },
+  {
+   "n": 2,
+   "title": "No affordable housing",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "there's just no affordable housing."
+   },
+   "src": "Dwayne Burks, Day 2 am .MOV [00:13.8]",
+   "rows": [
+    "00:06–00:14"
+   ],
+   "use": "Over his face as he says it, at the end of the row."
+  },
+  {
+   "n": 3,
+   "title": "Elected officials",
+   "tpl": "word_stack",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "items": [
+     "Elected officials",
+     "And he did"
+    ]
+   },
+   "src": "Dwayne Burks, Day 2 am .MOV [00:17.7]–[00:21.9]",
+   "rows": [
+    "00:14–00:18"
+   ],
+   "use": "Each line lands on his word. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "Nothing really changed",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "nothing really changed"
+   },
+   "src": "Dwayne Burks, Day 2 am .MOV [00:25.7]",
+   "rows": [
+    "00:18–00:27"
+   ],
+   "use": "Over his face as he says it. Off before “that said,” when the question comes back as top text."
+  },
+  {
+   "n": 5,
+   "title": "Let that sink in",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "Let that sink in"
+   },
+   "src": "Dwayne Burks, Day 2 am .MOV [00:37.4]",
+   "rows": [
+    "00:27–00:38"
+   ],
+   "use": "On his words, right after the question top text goes off."
+  },
+  {
+   "n": 6,
+   "title": "All it takes",
+   "tpl": "kinetic_quote",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "think about all it takes to go get an apartment",
+    "emph": [
+     "apartment"
+    ]
+   },
+   "src": "Dwayne Burks, Day 2 am .MOV [00:37.4]–[00:40.0]",
+   "rows": [
+    "00:27–00:38"
+   ],
+   "use": "Follows MG 5, as he says it. Keep captions on."
+  },
+  {
+   "n": 7,
+   "title": "Reestablish yourself",
+   "tpl": "statement_card",
+   "dur": 2,
+   "text": {
+    "main": "and you're trying to reestablish yourself.",
+    "emph": [
+     "reestablish"
+    ]
+   },
+   "src": "Dwayne Burks, Day 2 am .MOV [00:49.4]",
+   "rows": [
+    "00:38–00:41"
+   ],
+   "use": "Full-frame cutaway as he says it, then back to him for the punch-in."
+  }
+ ]
+}

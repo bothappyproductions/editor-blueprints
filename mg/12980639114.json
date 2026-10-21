@@ -1,0 +1,82 @@
+{
+ "item": "12980639114",
+ "client": "niwrc",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Chapter 1 card",
+   "tpl": "highlight_callout",
+   "dur": 3.5,
+   "pos": "center",
+   "text": {
+    "main": "Learn from each other."
+   },
+   "src": "Chapter 1 text in this blueprint. No voice.",
+   "rows": [
+    "00:04–00:08"
+   ],
+   "use": "The chapter 1 text card over the breakout room shot. Same position as chapters 2, 3 and 4."
+  },
+  {
+   "n": 2,
+   "title": "Chapter 2 card",
+   "tpl": "highlight_callout",
+   "dur": 3.5,
+   "pos": "center",
+   "text": {
+    "main": "Practical tools you can take home."
+   },
+   "src": "Chapter 2 text in this blueprint. No voice.",
+   "rows": [
+    "00:08–00:12"
+   ],
+   "use": "The chapter 2 text card over presenters and workbooks. Same position as chapter 1."
+  },
+  {
+   "n": 3,
+   "title": "Chapter 3 card",
+   "tpl": "highlight_callout",
+   "dur": 3.5,
+   "pos": "center",
+   "text": {
+    "main": "Culture at the center."
+   },
+   "src": "Chapter 3 text in this blueprint. No voice.",
+   "rows": [
+    "00:12–00:16"
+   ],
+   "use": "The chapter 3 text card over hands making something. Keep the hands clear of the text."
+  },
+  {
+   "n": 4,
+   "title": "Chapter 4 card",
+   "tpl": "highlight_callout",
+   "dur": 3.5,
+   "pos": "center",
+   "text": {
+    "main": "People who get it."
+   },
+   "src": "Chapter 4 text in this blueprint. No voice.",
+   "rows": [
+    "00:16–00:20"
+   ],
+   "use": "The chapter 4 text card over hallway talk and laughter. Same position as the others."
+  },
+  {
+   "n": 5,
+   "title": "Conference tag",
+   "tpl": "tag_label",
+   "dur": 4,
+   "pos": "upper",
+   "text": {
+    "main": "Women Are Sacred 2027"
+   },
+   "src": "Room text in this blueprint (row 00:20–00:26) and NIWRC's title (Miranda Raney, Slack, 8 Oct 2026).",
+   "rows": [
+    "00:20–00:26"
+   ],
+   "use": "The room text from the plan, over the widest, warmest room shot."
+  }
+ ],
+ "note": "Short text-only teaser with one card per chapter, so 6 graphics."
+}

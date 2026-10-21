@@ -1,0 +1,160 @@
+{
+ "item": "12954642569",
+ "client": "aij",
+ "note": "The plan says captions only on most VO and audio rows. Use the graphics on those rows only if Andrés asks for more, and keep them in the top band.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "The only hotline",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "the only detention hotline in the state of Florida"
+   },
+   "src": "Sui Chung, C9276.MP4 [28:38]",
+   "rows": [
+    "00:54–01:12"
+   ],
+   "use": "Over Sui as she says it, after her name plate is gone."
+  },
+  {
+   "n": 2,
+   "title": "Answering the phone",
+   "tpl": "quote_card",
+   "dur": 5,
+   "text": {
+    "main": "Americans for Immigrant Justice is the only place that is answering the phone.",
+    "who": "Sui Chung"
+   },
+   "src": "Sui Chung, C9276.MP4 [29:09]–[29:11]",
+   "rows": [
+    "00:54–01:12"
+   ],
+   "use": "Full-frame cutaway on the end of Sui's line. Keep her audio under."
+  },
+  {
+   "n": 3,
+   "title": "I am free",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "Today, I am outside of detention, and I am free"
+   },
+   "src": "Robert, client's trimmed translation (Roberto Client Interview.mp4 ≈05:50–06:37)",
+   "rows": [
+    "01:17–01:40"
+   ],
+   "use": "Top band, as his subtitle says it. Use the client's text word for word."
+  },
+  {
+   "n": 4,
+   "title": "Alligator Alcatraz tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Alligator Alcatraz"
+   },
+   "src": "Place named by Paul Chavez, C9279.MP4 [08:30] and in the VO",
+   "rows": [
+    "01:46–02:16"
+   ],
+   "use": "Small tag over the first Alligator Alcatraz shot, after Paul's name plate is gone."
+  },
+  {
+   "n": 5,
+   "title": "An enormous victory",
+   "tpl": "statement_card",
+   "dur": 5,
+   "text": {
+    "main": "the closure of Alligator Alcatraz was an enormous victory.",
+    "emph": [
+     "victory"
+    ]
+   },
+   "src": "Paul Chavez, C9279.MP4 [09:23]",
+   "rows": [
+    "01:46–02:16"
+   ],
+   "use": "Full-frame cutaway as Paul says it, at the end of his section. Keep his audio under."
+  },
+  {
+   "n": 6,
+   "title": "Before anybody",
+   "tpl": "kinetic_quote",
+   "dur": 3.5,
+   "pos": "top",
+   "text": {
+    "main": "we started talking about DREAMers before anybody was calling them DREAMers.",
+    "emph": [
+     "DREAMers"
+    ],
+    "who": "Cheryl Little"
+   },
+   "src": "Cheryl Little, C9278.MP4 [20:45]–[20:52]",
+   "rows": [
+    "02:39–02:43"
+   ],
+   "use": "Over Cheryl as she says it. Top band, clear of her name plate."
+  },
+  {
+   "n": 7,
+   "title": "Drive out to Krome",
+   "tpl": "kinetic_quote",
+   "dur": 4.5,
+   "pos": "top",
+   "text": {
+    "main": "I had the privilege of being able to drive out to Krome myself to pick him up",
+    "emph": [
+     "privilege"
+    ],
+    "who": "Paul Chavez"
+   },
+   "src": "Paul Chavez, C9279.MP4 [23:12]–[23:19]. Spelled Krome, not Chrome.",
+   "rows": [
+    "03:19–03:26"
+   ],
+   "use": "Over Paul as he says it, top band. Never show or name the client."
+  },
+  {
+   "n": 8,
+   "title": "Reunited with my son",
+   "tpl": "kinetic_quote",
+   "dur": 5,
+   "pos": "top",
+   "text": {
+    "main": "I have reunited with my son, and I get to see him graduate from high school.",
+    "emph": [
+     "reunited",
+     "graduate"
+    ]
+   },
+   "src": "A.D. audio file (client script, Clip 2)",
+   "rows": [
+    "03:26–03:33"
+   ],
+   "use": "Over the father and son animation as he says it. No name on screen."
+  },
+  {
+   "n": 9,
+   "title": "No child alone",
+   "tpl": "word_stack",
+   "dur": 5,
+   "pos": "top",
+   "text": {
+    "items": [
+     "no child should face",
+     "a legal process",
+     "essentially a prosecution alone"
+    ]
+   },
+   "src": "Sui Chung, C9276.MP4 [37:11]–[37:17]",
+   "rows": [
+    "04:00–04:17"
+   ],
+   "use": "Over the child-at-court video. Each line lands on Sui's words. Never show Sui."
+  }
+ ]
+}

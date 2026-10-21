@@ -1,0 +1,109 @@
+{
+ "item": "12489946791",
+ "client": "lions",
+ "note": "The plan says captions only on most rows, plus the small Nepal pin at 00:04.5, and Jacqui asked for much simpler graphics, or none. Use the others only if Atdhe asks for more.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Frame the cap",
+   "tpl": "corner_frame",
+   "dur": 1.6,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:00–00:04"
+   ],
+   "use": "Brackets only, no text. Not before 0:03. Frames his Nepali cap, the visual hook. Move them to where the cap sits."
+  },
+  {
+   "n": 2,
+   "title": "Nepal pin",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "Nepal"
+   },
+   "src": "Raju, IMG_7885 [00:18] “I belongs to Nepal”. Pin asked for in the plan (row 00:04–00:10).",
+   "rows": [
+    "00:04–00:10"
+   ],
+   "use": "This is the location pin the plan asks for. Show it 00:04.5 to 00:06.5, small, upper left."
+  },
+  {
+   "n": 3,
+   "title": "2015 tag",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "2015"
+   },
+   "src": "Raju, IMG_7885 [00:50] “in 19 2015 there is a great earthquake”",
+   "rows": [
+    "00:04–00:10"
+   ],
+   "use": "Small tag as he says “in 2015”, after the Nepal pin is gone. One text at a time."
+  },
+  {
+   "n": 4,
+   "title": "Very proud",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "I feel very proud"
+   },
+   "src": "Raju, IMG_7885 [01:13]",
+   "rows": [
+    "00:10–00:15"
+   ],
+   "use": "Over Raju as he says it. Keep it on his pride, not the earthquake."
+  },
+  {
+   "n": 5,
+   "title": "I prefer Lions Club",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "I prefer Lions Club"
+   },
+   "src": "Raju, IMG_7893 [00:43]. Spelled “Lions Club” as the plan asks.",
+   "rows": [
+    "00:15–00:23"
+   ],
+   "use": "Over the standing shot as he says it."
+  },
+  {
+   "n": 6,
+   "title": "Glad and happy",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "I'm very glad and very happy"
+   },
+   "src": "Raju, IMG_7885 [01:24]",
+   "rows": [
+    "00:23–00:31"
+   ],
+   "use": "Over the seated shot on his last words. Take it out with the line."
+  },
+  {
+   "n": 7,
+   "title": "Born to serve",
+   "tpl": "quote_card",
+   "dur": 4,
+   "text": {
+    "main": "We are born to serve.",
+    "who": "Raju"
+   },
+   "src": "Raju, IMG_7893 [01:03] “Since our motto is We Sharp, we are born to serve.”",
+   "rows": [
+    "00:23–00:31"
+   ],
+   "use": "Only if you add this line to the cut. Keep his audio under it, then back to his face."
+  }
+ ]
+}

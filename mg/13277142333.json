@@ -1,0 +1,105 @@
+{
+ "item": "13277142333",
+ "client": "curegrin",
+ "mg": [
+  {
+   "n": 1,
+   "title": "What It Is",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "We see it as a medicine to treat GRIN-related neurodevelopmental disorder."
+   },
+   "src": "Bruce Leuchter, 20261008_C5186 [03:47]–[03:51]",
+   "rows": [
+    "00:04-00:08"
+   ],
+   "use": "Over Bruce as he says it, after the hook text is gone. Top of frame, away from the name super."
+  },
+  {
+   "n": 2,
+   "title": "Patients and Caregivers",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Patients and caregivers"
+   },
+   "src": "Bruce Leuchter, 20261008_C5186 [00:34] “for patients and caregivers”",
+   "rows": [
+    "00:08-00:14"
+   ],
+   "use": "Small tag over the morning meeting B-roll, on his words. Keep captions on."
+  },
+  {
+   "n": 3,
+   "title": "No Available Treatments",
+   "tpl": "statement_card",
+   "dur": 3,
+   "text": {
+    "main": "where there's no available treatments",
+    "emph": [
+     "no available"
+    ]
+   },
+   "src": "Bruce Leuchter, 20261008_C5186 [00:31]",
+   "rows": [
+    "00:08-00:14"
+   ],
+   "use": "Full-frame cutaway as he says these words, then back to the meeting B-roll."
+  },
+  {
+   "n": 4,
+   "title": "The Lives of Families",
+   "tpl": "kinetic_quote",
+   "dur": 4.5,
+   "pos": "top",
+   "text": {
+    "main": "I like to step back and think about the lives of these patients and their families.",
+    "emph": [
+     "families"
+    ]
+   },
+   "src": "Bruce Leuchter, 20261008_C5186 [13:51]–[13:55]",
+   "rows": [
+    "00:14-00:19"
+   ],
+   "use": "Over the side angle as he says it. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "Every Parent",
+   "tpl": "quote_card",
+   "dur": 5,
+   "text": {
+    "main": "What I want every parent in this community to know is that we care deeply about your lived experiences.",
+    "who": "Bruce Leuchter"
+   },
+   "src": "Bruce Leuchter, 20261008_C5186 [25:22]–[25:29] (last take)",
+   "rows": [
+    "00:19-00:42"
+   ],
+   "use": "Full-frame cutaway at the start of the button, as he says it. Keep his audio under."
+  },
+  {
+   "n": 6,
+   "title": "Learned From You",
+   "tpl": "word_stack",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "items": [
+     "We've learned a lot",
+     "From you"
+    ]
+   },
+   "src": "Bruce Leuchter, 20261008_C5186 [25:29] (last take)",
+   "rows": [
+    "00:19-00:42"
+   ],
+   "use": "Each line lands on his word, in the upper band. Keep captions on."
+  }
+ ],
+ "note": "The plan is captions only with planned B-roll and ends on his face, so 6 graphics."
+}

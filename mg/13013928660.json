@@ -1,0 +1,64 @@
+{
+ "item": "13013928660",
+ "client": "watsi",
+ "note": "Short 20 second cut where the plan stays on her face with no cutaway and captions only at the end, so 4 small graphics.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Burma tag",
+   "tpl": "tag_label",
+   "dur": 2.5,
+   "pos": "upper",
+   "text": {
+    "main": "Burma"
+   },
+   "src": "Mackinnon, Mincho5145.MP4 [00:33] “our medical partner in Burma”",
+   "rows": [
+    "00:02–00:08"
+   ],
+   "use": "As she says “Burma”, only after the top text is gone at 00:05.5. One brand element at a time."
+  },
+  {
+   "n": 2,
+   "title": "Frame her face",
+   "tpl": "corner_frame",
+   "dur": 2.5,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:02–00:08"
+   ],
+   "use": "Brackets around her face after the top text is gone at 00:05.5. Not on screen with MG 1. Nothing else with it."
+  },
+  {
+   "n": 3,
+   "title": "Thailand tag",
+   "tpl": "tag_label",
+   "dur": 2.5,
+   "pos": "upper",
+   "text": {
+    "main": "Thailand"
+   },
+   "src": "Mackinnon, Mincho5145.MP4 [00:39] “She had to flee to Thailand”",
+   "rows": [
+    "00:08–00:15"
+   ],
+   "use": "As she says “Thailand”, after the name super is gone at 00:10. Stay on her face under it."
+  },
+  {
+   "n": 4,
+   "title": "Not visiting the need",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "She's not visiting the need."
+   },
+   "src": "Mackinnon, Mincho5145.MP4 [00:46]",
+   "rows": [
+    "00:15–00:17"
+   ],
+   "use": "Top band over her face as she says it. The plan says captions only here, so use it only if Atdhe asks."
+  }
+ ]
+}

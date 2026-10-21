@@ -1,0 +1,39 @@
+{
+ "item": "13276389858",
+ "client": "sfcg",
+ "note": "The client does not want animation in the middle of a video. Use one graphic at most.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Something they do well",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "everybody has something they do well"
+   },
+   "src": "Alex, 764_3903 [03:58]–[04:02]",
+   "rows": [
+    "00:05–00:12"
+   ],
+   "use": "Only after the hook text goes off at 00:05. Over Alex as he says it."
+  },
+  {
+   "n": 2,
+   "title": "40 years ago",
+   "tpl": "statement_card",
+   "dur": 3,
+   "text": {
+    "main": "I recorded my parents 40 years ago this summer",
+    "emph": [
+     "parents"
+    ]
+   },
+   "src": "Alex, 764_3903 [04:22]–[04:27]",
+   "rows": [
+    "00:22–00:29"
+   ],
+   "use": "Full-frame cutaway on the first half of the line. Back to Alex for “dozens and dozens”."
+  }
+ ]
+}

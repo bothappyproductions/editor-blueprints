@@ -1,0 +1,112 @@
+{
+ "item": "13306096838",
+ "client": "s4s",
+ "note": "The plan relies on captions, a name super per speaker and kids B-roll, with captions only on the voice-over rows. Use these only if Nick asks for more, in the top band, never over a name super.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Constant support",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "thank you so much for your constant support"
+   },
+   "src": "Alex, MVI_4311.MP4 [01:02]",
+   "rows": [
+    "00:05–00:12"
+   ],
+   "use": "On the end of Alex's line, after his name super is gone. Keep captions on."
+  },
+  {
+   "n": 2,
+   "title": "S4S teal wipe",
+   "tpl": "brand_wipe",
+   "dur": 1.6,
+   "text": {},
+   "src": "Transition, no text.",
+   "rows": [
+    "00:12–00:17"
+   ],
+   "use": "Cut from Alex to the kids B-roll at the middle of the wipe. Use it once."
+  },
+  {
+   "n": 3,
+   "title": "Focus on the shoe",
+   "tpl": "corner_frame",
+   "dur": 2.5,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:12–00:17"
+   ],
+   "use": "Frames the shoe going on in MVI_4364. Move it to where the shoe is. Not over Skyler's super."
+  },
+  {
+   "n": 4,
+   "title": "Seen, cared for, loved",
+   "tpl": "kinetic_quote",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "showing them that they are seen, cared for, and loved",
+    "emph": [
+     "seen",
+     "loved"
+    ]
+   },
+   "src": "Teresa Miller, MVI_4329.MP4 [01:02]",
+   "rows": [
+    "00:17–00:29"
+   ],
+   "use": "Over the girl on the red carpet as Teresa says it. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "Time and energy",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Time and energy is what we need."
+   },
+   "src": "Lisa O'Keefe, MVI_4379.MP4 [00:43]",
+   "rows": [
+    "00:29–00:35"
+   ],
+   "use": "On the end of Lisa's line, after her name super is gone."
+  },
+  {
+   "n": 6,
+   "title": "Without you guys",
+   "tpl": "statement_card",
+   "dur": 2.5,
+   "text": {
+    "main": "couldn't happen without you guys",
+    "emph": [
+     "without you"
+    ]
+   },
+   "src": "Nicole Gabehart, MVI_4310.MP4 [01:07]",
+   "rows": [
+    "00:35–00:44"
+   ],
+   "use": "Short full-frame beat on the end of Nicole's line, between the kids shots."
+  },
+  {
+   "n": 7,
+   "title": "Real impact",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "all that has real impact on the people that we serve."
+   },
+   "src": "Jamie Ellis, MVI_4307.MP4 [01:22]–[01:27]",
+   "rows": [
+    "00:44–00:50"
+   ],
+   "use": "At the top as Jamie says it, after her name super. Take it out on “serve” so the 0.5 s hold is her face only."
+  }
+ ]
+}

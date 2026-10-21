@@ -1,0 +1,141 @@
+{
+ "item": "13083760124",
+ "client": "mha",
+ "note": "The client wants you to stay on his face unless the B-roll shows what he says, with one locked caption block. Use the top-band overlays first, and the full-frame cards only if Amber asks.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Terrapin Station tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Terrapin Station"
+   },
+   "src": "Shoot location in the transcript header (Terrapin Station, Omaha).",
+   "rows": [
+    "00:15–00:30"
+   ],
+   "use": "Small tag in the top band. Only after the name super is gone."
+  },
+  {
+   "n": 2,
+   "title": "Give back to people",
+   "tpl": "statement_card",
+   "dur": 3,
+   "text": {
+    "main": "I wanted to give back to people",
+    "emph": [
+     "give back"
+    ]
+   },
+   "src": "Cerell, 20260910_C4827.MP4 [00:44]",
+   "rows": [
+    "00:15–00:30"
+   ],
+   "use": "Only if Amber asks for a cutaway and the steps B-roll does not fit. Then back to his face."
+  },
+  {
+   "n": 3,
+   "title": "Lived experience",
+   "tpl": "highlight_callout",
+   "dur": 3.5,
+   "pos": "top",
+   "text": {
+    "main": "it's all about lived experience"
+   },
+   "src": "Cerell, 20260910_C4827.MP4 [01:43]",
+   "rows": [
+    "00:30–00:57"
+   ],
+   "use": "Over his face as he says it, at the start of the row."
+  },
+  {
+   "n": 4,
+   "title": "I can help you",
+   "tpl": "kinetic_quote",
+   "dur": 5,
+   "pos": "top",
+   "text": {
+    "main": "I've been through this. These are the steps I took and I can help you do it.",
+    "emph": [
+     "steps",
+     "help"
+    ]
+   },
+   "src": "Cerell, 20260910_C4827.MP4 [01:58]–[02:04]",
+   "rows": [
+    "00:30–00:57"
+   ],
+   "use": "Over Cerell as he says it, after the chalk shot. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "Never came easy",
+   "tpl": "highlight_callout",
+   "dur": 3.5,
+   "pos": "top",
+   "text": {
+    "main": "nothing that's good ever came easy."
+   },
+   "src": "Cerell, 20260910_C4827.MP4 [04:06]",
+   "rows": [
+    "00:57–01:15"
+   ],
+   "use": "Over his face as he says it. Stay on him."
+  },
+  {
+   "n": 6,
+   "title": "Stops, peaks, valleys",
+   "tpl": "word_stack",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "items": [
+     "There will be stops.",
+     "There will be peaks.",
+     "There will be valleys."
+    ]
+   },
+   "src": "Cerell, 20260910_C4827.MP4 [04:14]–[04:16]",
+   "rows": [
+    "00:57–01:15"
+   ],
+   "use": "Each line lands on his word, in the top band. Keep captions on."
+  },
+  {
+   "n": 7,
+   "title": "Ask somebody",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "ask somebody how they did it"
+   },
+   "src": "Cerell, 20260910_C4827.MP4 [04:44]",
+   "rows": [
+    "01:15–01:23"
+   ],
+   "use": "Over Cerell as he says it. Drop it if you cut this row."
+  },
+  {
+   "n": 8,
+   "title": "Hope looks like",
+   "tpl": "kinetic_quote",
+   "dur": 5,
+   "pos": "top",
+   "text": {
+    "main": "Hope looks like falling down flat on your face but getting up and never giving up.",
+    "emph": [
+     "Hope",
+     "never"
+    ]
+   },
+   "src": "Cerell, 20260910_C4827.MP4 [10:14]–[10:19]",
+   "rows": [
+    "01:33–01:56"
+   ],
+   "use": "Over his face as he says it, top band. Out before the 1 s hold."
+  }
+ ]
+}

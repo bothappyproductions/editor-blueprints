@@ -1,0 +1,100 @@
+{
+ "item": "13308111116",
+ "client": "niwrc",
+ "note": "The plan says her face only, with captions and the planned key words, so 6 top-band overlays and no full-frame cards.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Take it more seriously",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "take it more seriously"
+   },
+   "src": "Christie Modlin, C2 Event 12 [02:58]. Key words in the plan for row 00:05-00:19.",
+   "rows": [
+    "00:05-00:19"
+   ],
+   "use": "The plan's key words for this row, as she says them. Only after the name super is gone, from 00:07."
+  },
+  {
+   "n": 2,
+   "title": "Programs in place",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "we have these programs in place."
+   },
+   "src": "Christie Modlin, C2 Event 12 [02:22]",
+   "rows": [
+    "00:19-00:30"
+   ],
+   "use": "Over her face as she says it. This is the turn to hope. Keep captions on."
+  },
+  {
+   "n": 3,
+   "title": "A safe house",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "a safe house for our women"
+   },
+   "src": "Christie Modlin, C2 Event 12 [02:28]. Key words in the plan for row 00:19-00:30.",
+   "rows": [
+    "00:19-00:30"
+   ],
+   "use": "The plan's key words for this row, as she says them. After MG 2 is gone."
+  },
+  {
+   "n": 4,
+   "title": "Advocacy and awareness",
+   "tpl": "word_stack",
+   "dur": 4,
+   "pos": "upper",
+   "text": {
+    "items": [
+     "advocacy and awareness",
+     "on the Hill"
+    ]
+   },
+   "src": "Christie Modlin, C2 Event 12 [03:44]–[03:50]. Key words in the plan for row 00:30-00:43.",
+   "rows": [
+    "00:30-00:43"
+   ],
+   "use": "The plan's key words for this row. Each line lands on her voice. Stay on her face."
+  },
+  {
+   "n": 5,
+   "title": "All of us are precious",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "All of us are precious."
+   },
+   "src": "Christie Modlin, C1 Event 22 [00:59]. Key word in the plan for row 00:43-00:56.",
+   "rows": [
+    "00:43-00:56"
+   ],
+   "use": "On the vertical file, as she says it. Leave her face clear. Keep captions on."
+  },
+  {
+   "n": 6,
+   "title": "Safe and loved tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Safe and loved"
+   },
+   "src": "Christie Modlin, C1 Event 22 [01:01]. Key words in the plan for row 00:43-00:56.",
+   "rows": [
+    "00:43-00:56"
+   ],
+   "use": "After MG 5 is gone, on “safe and loved”. Off before the 1 second hold after “danger”."
+  }
+ ]
+}

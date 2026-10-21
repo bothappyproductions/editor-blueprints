@@ -1,0 +1,134 @@
+{
+ "item": "12489995917",
+ "client": "lions",
+ "note": "Jacqui wants much simpler graphics, or none. MG1 and MG2 are the planned pin and top text; use the rest only if Atdhe asks for more.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "South Africa pin",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "South Africa"
+   },
+   "src": "Blueprint MOTION 00:04 (📍 South Africa) and South Africa Lion, IMG_7919.MOV [00:27]",
+   "rows": [
+    "00:04–00:06"
+   ],
+   "use": "This is the planned 📍 South Africa pin at 00:04 to 00:06. Add the 📍 in front. Do not add a second pin."
+  },
+  {
+   "n": 2,
+   "title": "Like family question",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "Is there anyone in your club that's like family to you?"
+   },
+   "src": "Atdhe, IMG_7918.MOV [01:31]",
+   "rows": [
+    "00:04–00:06"
+   ],
+   "use": "This is the planned top text at 00:04. Use it as that top text, not as a second text."
+  },
+  {
+   "n": 3,
+   "title": "Good days, bad days",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "So families have good days, they have bad days"
+   },
+   "src": "South Africa Lion, IMG_7918.MOV [01:46]",
+   "rows": [
+    "00:06–00:14"
+   ],
+   "use": "Over his face as he says it. Keep the line in full. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "Other countries tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Other countries"
+   },
+   "src": "South Africa Lion, IMG_7918.MOV [02:16] “specifically from other countries”",
+   "rows": [
+    "00:14–00:22"
+   ],
+   "use": "Put it on the 105% punch-in at other countries."
+  },
+  {
+   "n": 5,
+   "title": "You learn so much",
+   "tpl": "statement_card",
+   "dur": 4,
+   "text": {
+    "main": "You learn so much from other people",
+    "emph": [
+     "learn"
+    ]
+   },
+   "src": "South Africa Lion, IMG_7918.MOV [02:18]",
+   "rows": [
+    "00:14–00:22"
+   ],
+   "use": "Short cutaway on his line. Keep his voice under."
+  },
+  {
+   "n": 6,
+   "title": "A friend now?",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Can I say I have a friend in South Africa now?"
+   },
+   "src": "Atdhe, IMG_7919.MOV [00:23]",
+   "rows": [
+    "00:22–00:25"
+   ],
+   "use": "Over the selfie two-shot as Atdhe asks it. Keep captions on."
+  },
+  {
+   "n": 7,
+   "title": "Frame the two-shot",
+   "tpl": "corner_frame",
+   "dur": 3,
+   "box": [
+    0.12,
+    0.2,
+    0.76,
+    0.44
+   ],
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:22–00:25"
+   ],
+   "use": "Brackets around the two of them in the selfie. Move them to where they sit."
+  },
+  {
+   "n": 8,
+   "title": "A friend in South Africa",
+   "tpl": "statement_card",
+   "dur": 2.5,
+   "text": {
+    "main": "You definitely have a friend in South Africa, obviously",
+    "emph": [
+     "friend"
+    ]
+   },
+   "src": "South Africa Lion, IMG_7919.MOV [00:27]",
+   "rows": [
+    "00:25–00:28"
+   ],
+   "use": "Short card on his answer. Cut back in time for their laugh."
+  }
+ ]
+}

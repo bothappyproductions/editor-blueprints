@@ -1,0 +1,126 @@
+{
+ "item": "13077200422",
+ "client": "sfcg",
+ "note": "The plan says stay on the two women with captions only, and the client finds animation in the middle of a video inauthentic. Use these only where a line needs it, or if Atdhe asks for more.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Revenge line card",
+   "tpl": "statement_card",
+   "dur": 5,
+   "text": {
+    "main": "I didn't think to take revenge because revenge will never bring my son back.",
+    "emph": [
+     "revenge"
+    ]
+   },
+   "src": "Laila, FX6_LVH_6408 [01:20]–[01:30]",
+   "rows": [
+    "00:24–00:33"
+   ],
+   "use": "Only if you need a cover on “revenge”, in place of the street B-roll. Back to Laila after."
+  },
+  {
+   "n": 2,
+   "title": "Both women in frame",
+   "tpl": "corner_frame",
+   "dur": 3,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:33–00:36"
+   ],
+   "use": "Brackets around the two women in the FX6_LVH_6409 cutaway. Skip it if that shot is not clean."
+  },
+  {
+   "n": 3,
+   "title": "850 members",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "We are an organization of 850 Palestinian-Israeli members"
+   },
+   "src": "Ayelet, FX6_LVH_6408 [03:56]",
+   "rows": [
+    "00:37–00:51"
+   ],
+   "use": "Over Ayelet as she says it, after the name super is out. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "Grief into peace",
+   "tpl": "highlight_callout",
+   "dur": 5,
+   "pos": "top",
+   "text": {
+    "main": "We are transforming our grief and our loss into a process of reconciliation and peace."
+   },
+   "src": "Ayelet, FX6_LVH_6408 [04:15]",
+   "rows": [
+    "00:51–01:03"
+   ],
+   "use": "Over Ayelet as she says it. Stay on her face. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "Even for one minute",
+   "tpl": "highlight_callout",
+   "dur": 5,
+   "pos": "top",
+   "text": {
+    "main": "give yourself a chance, even for one minute, to listen to them."
+   },
+   "src": "Laila, FX6_LVH_6408 [02:41]",
+   "rows": [
+    "01:03–01:25"
+   ],
+   "use": "Over Laila as she says it. Keep captions on."
+  },
+  {
+   "n": 6,
+   "title": "Same pain, same tears",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "center",
+   "text": {
+    "main": "We share the same pain, we share the same tears"
+   },
+   "src": "Laila, FX6_LVH_6408 [02:58]",
+   "rows": [
+    "01:25–01:30"
+   ],
+   "use": "On the split line between the two women as Laila says it. Both faces stay clear."
+  },
+  {
+   "n": 7,
+   "title": "See the humanity",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "acknowledging the other side and acknowledging the humanity."
+   },
+   "src": "Ayelet, FX6_LVH_6408 [04:55]",
+   "rows": [
+    "01:30–01:50"
+   ],
+   "use": "Over Ayelet as she says it. Out before “walls of hatred”."
+  },
+  {
+   "n": 8,
+   "title": "Power to make a change",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "we have a great power to make a change."
+   },
+   "src": "Laila, FX6_LVH_6408 [06:57]",
+   "rows": [
+    "01:50–02:01"
+   ],
+   "use": "Over Laila on the end of her line. Keep captions on."
+  }
+ ]
+}

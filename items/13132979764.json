@@ -1,0 +1,260 @@
+{
+ "id": "13132979764",
+ "client": "watsi",
+ "eyebrow": "Watsi · NYC Brooklyn office · 22 Sep 2026 · FAQ (teleprompter)",
+ "title": "How did student chapters start?",
+ "title_q": "",
+ "title_short": "Kimmy · Student Chapters",
+ "editor": "Qendrim",
+ "due": "2026-10-16",
+ "format": "9:16 only · 1080×1920",
+ "length": "about 70 s",
+ "edit_key": "WATSINYCFAQKimmyStudentChapters001",
+ "headline": "Watsi's student chapters started with one student, not with Watsi. Any student can start one.",
+ "story": [
+  "The question comes first, on screen: <b>how did student chapters start?</b> Kimmy tells it: one student, Daniel, learned about Watsi and simply <b>started a chapter himself</b> at Stony Brook. Other students wanted to do the same.",
+  "Now chapters run bake sales and fundraising events and <b>choose their patients together</b>. It ends on an open door: it usually takes <b>one person deciding to bring people together</b>. Not a donation ad: no donate button, no urgency."
+ ],
+ "feel": [
+  "Friendly",
+  "Light",
+  "Clear",
+  "Hopeful",
+  "Zero typos"
+ ],
+ "do": [
+  "Open on frame 1 with the question typed on screen and Kimmy already on camera.",
+  "Then a straight cut into her answer. Question first, answer second.",
+  "Keep captions on the whole time, Lato, large. One text at a time.",
+  "Name super “Kimmy” only, <b>large</b>, after the question has landed.",
+  "Use only her second read, C5064 00:54–02:08."
+ ],
+ "dont": [
+  "Don't open on Kimmy saying hello or on a logo.",
+  "Don't use the false starts, “sorry” lines or prompter chat. Only the takes named below.",
+  "Don't speed-ramp her voice. Trim breaths and pauses instead.",
+  "No music under her voice.",
+  "Don't use any of Daniel's interview footage (C5049), and not the “start with one” line. Daniel has his own cut."
+ ],
+ "links": {
+  "brief": {
+   "title": "Watsi Bryant Park Activation Brief",
+   "url": "https://docs.google.com/document/d/1cOLw5wfNaZiaoSJfDiIVlE-u6KqX2bRSoi9yvidYl30/edit",
+   "note": "The plan for the 22 Sep NYC shoot day."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Nick owes it (Production Planning row 12949181905). The client's own example for the question-first look is attached to <a href=\"https://happyproductions.slack.com/archives/C09S5M8006S/p1789646971705099\">Sonam's 17 Sep message</a> in #only_watsi: Nick to forward it. All Sept 22 FAQ cuts must look like one series."
+  },
+  "footage": {
+   "title": "Kimmy Prompter Content",
+   "url": "https://drive.google.com/drive/folders/1ygCu-wm7zUl84Dey-RxONXngIAoF_4Mh",
+   "note": "Prompter Content › Kimmy Prompter Content. This script is one file: 20260922_C5064.MP4 (2:35)."
+  }
+ },
+ "bp_intro": "Kimmy reads Sonam's Script 1 in <span class=\"mono\">20260922_C5064.MP4</span> (2:35). Only the second read, 00:54–02:08, is used. Source times come from the transcript and are accurate to about 1 s. Output times are estimated from her reading speed: set the real ones on the waveform.",
+ "rows": [
+  {
+   "tc": "00:00–00:03",
+   "beat": "QUESTION",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Use the seconds just before her first word (C5064 00:50–00:54): Kimmy on camera, settled, no talking. Pick the frame on scrub. Mute the audio under the question. Crop centered on her face.",
+   "motion": "The question types on, <b>frame 1</b>: <q>How did student chapters start?</q> Bold, Watsi yellow <span class=\"mono\">#FFCC33</span>, Lato Bold (or September Spirit if it reads as well; Lato is safer). Large, upper half. It is the title and the thumbnail. It stays up while she starts her answer, at least 5 s in total.",
+   "voice": "<span class=\"none\">No voice. Room tone only.</span>",
+   "sfx": "Room tone. No whoosh, no typing sound.",
+   "music": "<span class=\"none\">No music.</span>"
+  },
+  {
+   "tc": "00:03–00:13",
+   "beat": "ANSWER",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Kimmy at the prompter. Same set-up. Hide jump cuts between script blocks with a 3–5% push-in, not a wipe.",
+   "motion": "Question text stays up to <span class=\"mono\">00:05</span>, then out. Captions start.",
+   "voice": {
+    "who": "Kimmy",
+    "quote": "The story behind our student chapters. This one's fun because it actually started with one student, not with us.",
+    "src": "C5064 00:54–01:04"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>"
+  },
+  {
+   "tc": "00:13–00:37",
+   "beat": "DANIEL",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Kimmy at the prompter. Same set-up. Hide jump cuts between script blocks with a 3–5% push-in, not a wipe.",
+   "motion": "<b>Name super</b> “Kimmy” at <span class=\"mono\">00:14–00:16</span>, lower left, above the captions, <b>large</b>. First name only.",
+   "voice": {
+    "who": "Kimmy",
+    "quote": "Years ago, our wonderful ambassador, Daniel, learned about Watsi while he was interning at a VC firm, and when he went back to school at Stony Brook that fall, he basically just started a chapter himself. He rallied some friends, threw events, got people donating, and turned out other students wanted to do exactly the same thing at their own schools.",
+    "src": "C5064 01:04–≈01:29 (if it must be shorter, drop only “He rallied some friends, threw events, got people donating” 01:17–01:21)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>"
+  },
+  {
+   "tc": "00:37–00:50",
+   "beat": "CHAPTERS NOW",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Kimmy at the prompter. Same set-up. Hide jump cuts between script blocks with a 3–5% push-in, not a wipe.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Kimmy",
+    "quote": "Since then, chapters have popped up at different universities doing everything from bake sales to formal fundraising events, and then choosing which patients that money goes to as a group.",
+    "src": "C5064 ≈01:29–01:47 (close the long pause inside “Since … then”; cut before “Sorry, was that okay?”)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>"
+  },
+  {
+   "tc": "00:50–01:06",
+   "beat": "BUTTON",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Kimmy at the prompter. Same set-up. Hide jump cuts between script blocks with a 3–5% push-in, not a wipe.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Kimmy",
+    "quote": "If you're a student and want to start one, we're honestly happy to help. It doesn't take some huge structure. It usually just takes one person deciding to bring people together, which again is exactly how this whole thing started.",
+    "src": "C5064 ≈01:52–02:08 (start after “Yeah, that sounded good to me”; cut before “A Watsi partnership” at 02:08)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>"
+  },
+  {
+   "tc": "01:06–01:09",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Clean end card. Light cyan <span class=\"mono\">#D3EDFA</span> background. Navy is never a background. Same end card on every FAQ cut from this shoot.",
+   "motion": "<b>watsi.org</b>, all lowercase, Lato, navy <span class=\"mono\">#2E2844</span>. One line. Nothing under it. Optional: one small LOTUS illustration inside the frame. That is the only brand element.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>"
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/1cOLw5wfNaZiaoSJfDiIVlE-u6KqX2bRSoi9yvidYl30/edit\">Watsi Bryant Park Activation Brief</a>"
+  ],
+  [
+   "Client script",
+   "<a href=\"https://docs.google.com/document/d/1aY4oBYWa_qCokAo59nSH7Y-r8RmRBvmj7LPiYOQCEUU/edit\">FAQ Set for Sonam, Kat And Kimmy</a> (Sonam's scripts; the source for names and spellings)"
+  ],
+  [
+   "Reference",
+   "Not chosen yet. Client's example for the question-first look: <a href=\"https://happyproductions.slack.com/archives/C09S5M8006S/p1789646971705099\">Sonam's 17 Sep message</a>"
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/14zBVXBosNxnO3d87nYdASakULeJSEE8W\">Watsi NYC Sept 2026</a>"
+  ],
+  [
+   "Clip",
+   "<a href=\"https://drive.google.com/file/d/1GJk2uZGjufjBcUV-Ljdf5L1OJrSSkwiB/view\">20260922_C5064.MP4</a> · 1.1 GB"
+  ],
+  [
+   "Captions",
+   "<a href=\"https://drive.google.com/file/d/1mis5LnfyYzV0wWEFTulsIlv4aP5uQsmr/view\">Kimmy Prompter Content.captions.srt</a> (= C5064)"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/11kGNAQuZUyufthRlVSyXSF0A8IGPFntdAXQII9Npl1Q/edit\">Transcripts - Prompter Content</a> · the auto-transcript writes WOTC, WotC or WSFP for Watsi"
+  ],
+  [
+   "Brand pack",
+   "<a href=\"https://drive.google.com/drive/folders/1my9RNjTawX8JeQO2eQDHSphWP8KTg09r\">LOTUS illustrations</a> · <a href=\"https://drive.google.com/drive/folders/1T7bIehcX3_l6F-CXUu-LHCyPE58nq9df\">September Spirit font</a> · <a href=\"https://drive.google.com/file/d/1u8R2iKmydBN2xF_h0wIE6X-NZo0mslXs/view\">Watsi brand guide</a> (from this item's Branding and Font columns)"
+  ],
+  [
+   "Item brief doc",
+   "<a href=\"https://docs.google.com/document/d/18WKMucoTX4n-9thFqKWmHjQ0KdvFuoJThGh0Utya2Fg/edit\">pulse.13132979764</a>"
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "Probe not available. Other Sept 22 FX3 files are 1920×1080, 59.94 fps, 2-ch. Confirm on import."
+  ],
+  [
+   "Timeline",
+   "1080×1920 at <b>29.97 fps</b>."
+  ],
+  [
+   "Crop",
+   "9:16 crop of 1080p = 608 px wide, already upscaled 1.78×. Push-ins to hide jump cuts: 103–105%, never above 110%."
+  ],
+  [
+   "Audio",
+   "FX3 lav, recorded in camera. Check both channels and use the live lav track."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. No music."
+  ],
+  [
+   "Captions",
+   "Lato Bold, white, soft shadow, large. One line at a time. On the whole time, never before the audio. Fix every Watsi by hand. Bottom 20% clear."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920, about 16 Mbps. One file, 9:16 only."
+  ]
+ ],
+ "checklist": [
+  "Read every caption against the audio and the script doc. Sonam checks every word.",
+  "Watsi with a capital W only. No WOTC, WotC or WSFP anywhere.",
+  "The question is on frame 1, readable in a thumbnail.",
+  "Name super is large and says “Kimmy” only.",
+  "Captions never drop out between script blocks.",
+  "No take with a stumble, “sorry” or prompter chat.",
+  "End card is watsi.org only, lowercase. Same as the other FAQ cuts.",
+  "“Stony Brook” is two words, both capitals."
+ ],
+ "decisions": [
+  {
+   "t": "No visual reference on this shoot",
+   "b": "Production Planning row 12949181905 has no reference chosen. Owner: Nick."
+  },
+  {
+   "t": "Question wording",
+   "b": "<q>How did student chapters start?</q> is a proposed title. Nick or Sonam must confirm the exact words before delivery."
+  },
+  {
+   "t": "Overlap with Daniel's cut",
+   "b": "This cut tells Daniel's Stony Brook start from Watsi's side. Daniel's own cut (13123153540) tells it in his voice, and Kat's ambassador cut names him once. Nick or Sonam can keep all three or drop one."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> Sonam designed this FAQ series herself. The question is the title and the thumbnail, so it must read on frame 1.",
+ "ask_examples": [
+  "Which read of the script do I use?",
+  "Can I use Daniel's interview footage here?",
+  "How long should the question stay up?",
+  "What goes on the end card?"
+ ],
+ "transcript": "Auto-transcript of 20260922_C5064.MP4 (Kimmy, Script 1, Prompter Content, Brooklyn office, 22 Sep 2026). Times are mm:ss in the file. The auto-transcript writes WotC for Watsi; it is fixed to Watsi below.\n[00:03] All right, ready to go? I hope so. I hope so. Okay. Start Kimmy's scripts. Okay.\n[00:14] It's rolling? Mm-hmm. Okay. The story behind our student chapters. This one's fun\n[00:21] because it actually started with one student, not with us. Years ago, our\n[00:28] wonderful ambassador, Daniel, learned about Watsi. What? Sorry. Sorry. Is it a\n[00:35] little too slow? No, maybe what I'll do is I'll start reading when it's a little higher.\n[00:40] Oh, you want like the text position to be a little higher? No, no, It's fine. Oh, I think this is\n[00:45] fine. Okay. All right. We can start here at the opening. Okay. The story behind our student chapters. This one's fun because it\n[00:58] actually started with one student, not with us. Years ago, our wonderful ambassador,\n[01:07] Daniel, learned about Watsi while he was interning at a VC firm, and when he went\n[01:12] back to school at Stony Brook that fall, he basically just started a chapter\n[01:17] himself. He rallied some friends, threw events, got people donating, and turned\n[01:24] out other students wanted to do exactly the same thing at their own schools. Since\n[01:36] then, chapters have popped up at different universities doing everything\n[01:40] from bake sales to formal fundraising events, and then choosing which patients\n[01:45] that money goes to as a group. Sorry, was that okay? Yeah, that sounded good to me. If you're a student and want to start one, we're\n[01:59] honestly happy to help. It doesn't take some huge structure. It usually just\n[02:03] takes one person deciding to bring people together, which again is exactly\n[02:08] how this whole thing started. A Watsi partnership isn't something we set up\n[02:22] once and walk away from. We work with on-the-ground medical organizations that\n[02:27] already know their communities and are providing care. Sorry, I have to do that again. That's all good.\n"
+}

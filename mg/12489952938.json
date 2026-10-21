@@ -1,0 +1,67 @@
+{
+ "item": "12489952938",
+ "client": "lions",
+ "note": "Lions asked for much simpler graphics or none and the plan holds on her face with captions only from 00:07 to 00:15, so 4 graphics. Use them only if Atdhe asks for more.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Every day in touch",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "every day we are in touch"
+   },
+   "src": "Leo Lion (Melbourne), IMG_7839.MOV [02:06]",
+   "rows": [
+    "00:07–00:12"
+   ],
+   "use": "Over her as she says it. The hook text is already out here. Keep captions on."
+  },
+  {
+   "n": 2,
+   "title": "Melbourne pin",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "Melbourne, Australia"
+   },
+   "src": "Location pin in this blueprint (row 00:15–00:25).",
+   "rows": [
+    "00:15–00:25"
+   ],
+   "use": "Put it at 00:16 to 00:18, small, upper left. City only, never the club name."
+  },
+  {
+   "n": 3,
+   "title": "Happy to be here",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "I'm so happy to be here as a Leo Lion today"
+   },
+   "src": "Leo Lion (Melbourne), IMG_7839.MOV [00:25]–[00:33]",
+   "rows": [
+    "00:15–00:25"
+   ],
+   "use": "Over her as she says it, after the Melbourne pin is gone. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "Be kind",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "To be kind to each other"
+   },
+   "src": "Leo Lion (Melbourne), IMG_7839.MOV [02:23]",
+   "rows": [
+    "00:25–00:31"
+   ],
+   "use": "Only after Atdhe's question text goes out. Never on top of it."
+  }
+ ]
+}

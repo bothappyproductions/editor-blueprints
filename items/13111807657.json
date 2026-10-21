@@ -1,0 +1,262 @@
+{
+ "id": "13111807657",
+ "client": "family-reach",
+ "eyebrow": "Family Reach · Side Effects, NYC · 16 Sep 2026 · Scripted short",
+ "title": "College / AYA:",
+ "title_q": "“Can't Tonight”",
+ "title_short": "Side Effects · Can't Tonight",
+ "editor": "Qendrim",
+ "due": "2026-10-28",
+ "format": "16:9 · 1920×1080 for V1 (client ask). 9:16 comes later as a separate version.",
+ "length": "about 40 s",
+ "edit_key": "FRSideEffectsAYACantTonight001",
+ "headline": "A college student says no to dinner with friends. The real reason is a past-due bill, a treatment calendar and an empty fridge.",
+ "story": [
+  "Lila studies alone in a dim room. Her phone lights up: friends want burgers. She looks at the <b>past-due bill</b> on her desk and the <b>appointments on her calendar</b>, and types “Can't tonight. Have to study.” She opens a near-empty fridge, sits back down, and looks at us.",
+  "This is a <b>Side Effects</b> short. The client wants this series serious and heavy, “a little shaken by the gravity of them.” The hopeful-only rule does not apply here. The only voice is one narrator line at the end."
+ ],
+ "feel": [
+  "Lonely",
+  "Quiet",
+  "Serious",
+  "Real",
+  "Restrained"
+ ],
+ "do": [
+  "Open on her at the desk on frame 1. Natural room sound only.",
+  "Put both text messages on screen exactly as the client wrote them.",
+  "Use the <b>straight-on look</b> to camera (C031). The client asked for it by name.",
+  "Turn the grade cold when she sets the phone down.",
+  "Hold 1 s of silence after the VO line before the cards."
+ ],
+ "dont": [
+  "Do not change a word of the texts or the VO.",
+  "No real phone number or real contact name on the phone.",
+  "No bright narrator, no upbeat music, no sad-piano cliché.",
+  "No crew voices (“whenever you're ready”).",
+  "No logo before the end cards. No lower-thirds."
+ ],
+ "links": {
+  "brief": {
+   "title": "Side Effects Videos (client script)",
+   "url": "https://docs.google.com/document/d/1JJAL-bmefXRZsj08vvFUaUdw-HfYubZ4I0tEfvNBCUQ/edit",
+   "note": "The client's script. Section College Student/AYA Scene has the shot order, both texts and the VO line."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Nick owes it (Production Planning row says Reference = Requested). On the 11 Sep pre-pro call the team used the client's own AI video, with the camera pulling back to reveal the scene, as inspiration. That is the client's suggestion, not a chosen reference."
+  },
+  "footage": {
+   "title": "FR Side Effects Sep2026 › Day 2",
+   "url": "https://drive.google.com/drive/folders/1FLKuYcSH3BFNVcCofM-IE_OGgoXAv0aZ",
+   "note": "6K BRAW masters A002_12042143_C020 to A002_12042234_C042. Cut on the proxies in “AYA - Lila”, relink to BRAW for the grade."
+  }
+ },
+ "bp_intro": "Source clips are the Day 2 proxies <span class=\"mono\">A002_12042143_C020</span> to <span class=\"mono\">A002_12042234_C042</span> (1920×1080, 23.976 fps). There is no dialogue. Clip times are seconds inside each proxy, from visual.json and from frames pulled from the real files. Frames are ungraded RAW, so they look flat.",
+ "rows": [
+  {
+   "tc": "00:00–00:05",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": "f_C021_15",
+   "crop": "none",
+   "frame_tag": "C021 0:15",
+   "frame_alt": "Lila alone at a small desk by the window, writing",
+   "visual": "Wide: Lila at her desk by the window, laptop open, writing. Dim room. Start on frame 1 (C021 9.1–27.2 s). Then cut closer: she writes, phone and water glass beside her (C025 21.9–29.2 s).",
+   "motion": "Picture only. Nothing written on screen.",
+   "voice": "<span class=\"none\">None.</span>",
+   "sfx": "Room tone, pen on paper.",
+   "music": "<span class=\"none\">Silent.</span>"
+  },
+  {
+   "tc": "00:05–00:11",
+   "beat": "THE TEXT",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Her hands hold the phone over the notebook (C027 8.9–26.7 s). Then the phone with a message open (C029 9.7–29.2 s). Match the graphic to the phone angle.",
+   "motion": "Incoming text as a graphic on the phone screen: <q>Dinner tonight? We're meeting up for burgers! You coming?</q> Sender: a first name only (brief: “Maya”). Never a real contact or number.",
+   "voice": "<span class=\"none\">None.</span>",
+   "sfx": "One phone buzz.",
+   "music": "<span class=\"none\">Silent.</span>"
+  },
+  {
+   "tc": "00:11–00:16",
+   "beat": "THE BILLS",
+   "kind": "",
+   "frame": "f_C035_29",
+   "crop": "none",
+   "frame_tag": "C035 0:29",
+   "frame_alt": "Hands hold a PAST DUE bill in front of the laptop",
+   "visual": "She holds the bill: it is stamped <b>PAST DUE</b> (C035 25.4–33.9 s; visual.json wrongly says “POSTAGE”). Then the October 2026 wall calendar (C022 4.9–14.7 s). Then two appointment cards (C024 11.5–15.4 s).",
+   "motion": "Fix the appointment-card dates in post if Nick asks (the crew filmed them steady for this). Check on scrub: visual.json reads one card as “WED OCT 1”, but 1 Oct 2026 is a Thursday.",
+   "voice": "<span class=\"none\">None.</span>",
+   "sfx": "Paper sound.",
+   "music": "<span class=\"none\">Silent.</span>"
+  },
+  {
+   "tc": "00:16–00:22",
+   "beat": "“CAN'T TONIGHT”",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "She types on the phone (C026 12.4–37.2 s). Then she puts the phone down (C028 51.5–68.7 s). <b>Grade turns cold on this cut.</b>",
+   "motion": "Outgoing text as a graphic: <q>Can't tonight. Have to study.</q>",
+   "voice": "<span class=\"none\">None.</span>",
+   "sfx": "Soft typing taps. Phone set down on the desk.",
+   "music": "Low, cold tone starts. No melody."
+  },
+  {
+   "tc": "00:22–00:30",
+   "beat": "THE FRIDGE",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Slow pull-out feel: she walks into the kitchen (C041 8.1–24.2 s) and opens the fridge. Almost empty, lit by her phone (C041 24.2–32.4 s). Alternate take: C042 25.6–34.2 s.",
+   "motion": "None.",
+   "voice": "<span class=\"none\">None.</span>",
+   "sfx": "Fridge door, fridge hum.",
+   "music": "Low tone holds."
+  },
+  {
+   "tc": "00:30–00:38",
+   "beat": "STRAIGHT-ON LOOK",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "She sits back down and looks straight into the lens with a defeated face (C031 7.1–21.3 s; the crew directed “look straight into the camera”). If she tears up on another take, use it. Alternate: C032 5.8–17.3 s. Hold 1 s after the VO ends.",
+   "motion": "No push-in.",
+   "voice": {
+    "who": "Male narrator (scratch for V1)",
+    "quote": "She's trying to keep up with classes, treatment and dollars that don't stretch far enough… her whole future was ahead of her.",
+    "src": "Client script, College Student/AYA Scene, VO"
+   },
+   "sfx": "Room tone under the VO.",
+   "music": "Very low. Out with the VO."
+  },
+  {
+   "tc": "00:38–00:45",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Black 1 s. Art card 1, 3 s. Art card 2, 3 s. Same style as the Utilities cut.",
+   "motion": "Art card 1: <q>The side effects of cancer aren't always medical.</q> Art card 2: the Family Reach 30 Year logo, new brand only.",
+   "voice": "<span class=\"none\">None.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">Silent, or one low note.</span>"
+  }
+ ],
+ "files": [
+  [
+   "Client script",
+   "<a href=\"https://docs.google.com/document/d/1JJAL-bmefXRZsj08vvFUaUdw-HfYubZ4I0tEfvNBCUQ/edit\">Side Effects Videos (Location TBD)</a> · section College Student/AYA Scene"
+  ],
+  [
+   "Reference",
+   "Not chosen yet. Nick owes it."
+  ],
+  [
+   "RAW footage",
+   "<a href=\"https://drive.google.com/drive/folders/1FLKuYcSH3BFNVcCofM-IE_OGgoXAv0aZ\">FR Side Effects Sep2026 › Day 2</a> · BRAW, A002_12042143_C020 to A002_12042234_C042"
+  ],
+  [
+   "Proxies",
+   "<a href=\"https://drive.google.com/drive/folders/1A_nqs5T3PLSVgC2YrUXv812UEM8Bdd1q\">FR Side Effects Proxies › Day 2 › AYA - Lila</a>"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1OE2ThYkieLpqxzYfCLIjgxZgdIeHYPnxJ7hvCizDL2M/edit\">Transcripts - FR Side Effects Proxies</a> · crew talk only"
+  ],
+  [
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/15TRRXclPJfW3Vs3L6lXXnbG7v6STX_Dh/view\">FR Side Effects Proxies › EditTranscripts › visual.json</a> · coarse; the bill is “PAST DUE”, not “POSTAGE”"
+  ],
+  [
+   "End card",
+   "<a href=\"https://drive.google.com/file/d/1bwvtoLMR7mnJDylNZPPgO3mMDzdneG4U/view\">Video closeout (15).mp4</a> · new-brand end card the client sent"
+  ],
+  [
+   "Grade",
+   "David Ruzicka's base Rec.709 LUT (BlackMagic_Raw_Base_LUT.cube), in the shoot's EditingResources"
+  ],
+  [
+   "Music",
+   "No source chosen yet. Low, restrained, not upbeat (client note, 28 Sep)."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "6K Blackmagic RAW masters. Proxies: 1920×1080, 23.976 fps."
+  ],
+  [
+   "Timeline",
+   "1920×1080 at <b>23.976 fps</b>."
+  ],
+  [
+   "Crop",
+   "None. V1 is 16:9."
+  ],
+  [
+   "Audio",
+   "Natural room sound from the camera only. Channel levels not measured: check both and keep the cleaner one."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP. Music 18–20 dB under the VO."
+  ],
+  [
+   "Captions",
+   "No burned-in captions on V1. The text-message graphics and art cards are the only text."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1920×1080, 23.976. One file, 16:9 only."
+  ]
+ ],
+ "checklist": [
+  "Both texts match the client script word for word, with the exclamation mark.",
+  "No real name or phone number shows on any phone screen.",
+  "VO line matches the script exactly.",
+  "Appointment-card dates are checked (and fixed if Nick asks).",
+  "The straight-on look to camera is in the cut.",
+  "No crew voice is audible.",
+  "Art card 1 reads: The side effects of cancer aren't always medical.",
+  "End card is the new 30 Year logo. No old logo.",
+  "First frame is picture. No black, no logo."
+ ],
+ "decisions": [
+  {
+   "t": "No visual reference",
+   "b": "Production Planning row 12898652530 still reads Reference = Requested, owner Nick. A producer has to pick it."
+  },
+  {
+   "t": "Final voice",
+   "b": "The client wants male, traditional narrator options before the shorts move on (28 Sep). V1 carries a scratch read. Who records the final voice?"
+  }
+ ],
+ "client_note": "<b>Why this matters for Can't Tonight:</b> the client asked for the AYA story herself. It has to hit hard with almost no words.",
+ "ask_examples": [
+  "Which clip has the past-due bill?",
+  "What do the two text messages say?",
+  "Which take is the straight-on look?",
+  "Do I caption the VO?"
+ ],
+ "transcript": "No dialogue was scripted. From the client script:\nON SCREEN (incoming): Dinner tonight? We're meeting up for burgers! You coming?\nSHE TYPES: Can't tonight. Have to study.\nVO: She's trying to keep up with classes, treatment and dollars that don't stretch far enough… her whole future was ahead of her.\nArt card 1: The side effects of cancer aren't always medical.\nArt card 2: Family Reach 30 Year Logo\n\nCrew transcript of the Day 2 proxies (mm:ss inside each clip; crew talk, never use it on air):\n— A002_12042143_C020.mp4 —\n[00:00] Lila what you're doing right now is perfect so you can just like kind of keep doing that.\n[00:03] I will.\n[00:20] One thing let's pause super quick because you're going to...\n— A002_12042145_C021.mp4 —\n[00:00] It's been\n— A002_12042148_C022.mp4 —\n[00:00] yeah I think that looks great and then can we get a close-up even closer of the\n[00:04] like appointment cards where it says treatment yeah totally do you wanted to\n[00:09] have a steady shot or yeah it should be steady because we need to edit like the\n[00:13] date on there and stuff yeah I think this looks good though I'm gonna change\n[00:19] the lens\n— A002_12042150_C023.mp4 —\n[00:07] I'm sure it's sure. I'll do it one time because I\n— A002_12042151_C024.mp4 —\n[00:08] It's good.\n[00:08] Let's just leave it for a sec.\n[00:10] There's more than I need to start.\n[00:11] I think now we're probably good.\n— A002_12042154_C025.mp4 —\n[00:26] You don't want her to open it?\n[00:28] Not yet.\n[00:29] We'll have her open it once we get her.\n— A002_12042156_C026.mp4 —\n[00:00] no i don't see the computer too much too yeah so maybe uh do some more like the\n[00:07] the like underlining or something\n— A002_12042159_C027.mp4 —\n[00:00] sharp right now? Yeah, it's sharp. Okay, whenever you're ready. Perfect, I think that looked awesome.\n— A002_12042203_C028.mp4 —\n[00:00] All right, I'm good.\n[00:01] All right, awesome.\n[01:07] Is that a little better?\n— A002_12042205_C029.mp4 —\n[00:00] I'm good.\n[00:01] All right, whenever you're ready.\n[00:38] Awesome.\n— A002_12042206_C030.mp4 —\n[00:00] Good.\n[00:35] Nice.\n— A002_12042210_C031.mp4 —\n[00:00] all right whenever you're ready you can look straight into the camera with like a defeated\n[00:19] expression i'll do one more time\n— A002_12042210_C032.mp4 —\n[00:22] Nice.\n— A002_12042211_C033.mp4 —\n[00:00] Are you speeding?\n[00:01] Whenever you're ready.\n[00:18] Reset?\n[00:18] Yeah, reset.\n[00:19] Okay.\n[00:21] I was doing two things at once.\n[00:22] Hey, it's all good.\n[00:25] All right, whenever you're ready, I can go for it.\n— A002_12042215_C035.mp4 —\n[00:00] Yeah, let's go for it.\n[00:10] Finish it one more time.\n[00:32] Perfect.\n[00:33] That looked really good.\n— A002_12042218_C036.mp4 —\n[00:00] Whenever you're ready\n— A002_12042226_C037.mp4 —\n[00:00] right there I'm recording all right whenever you're ready the fridge is so\n[00:20] long\n— A002_12042228_C038.mp4 —\n[00:00] all right whenever you're ready let's try it again but\n— A002_12042229_C039.mp4 —\n[00:00] Alright, whenever you're ready.\n— A002_12042229_C040.mp4 —\n[00:00] We got it this time.\n[00:01] Alright, whenever you're ready.\n[00:19] Perfect.\n— A002_12042234_C041.mp4 —\n[00:00] standing like you just walked in and when we start rolling was there okay\n[00:06] perfect so you can like when we say go you can kind of just like take one step\n[00:09] forward and then crouch and open the fridge just like you did and look\n[00:13] inside at the emptiness I guess all right whenever you're ready\n— A002_12042234_C042.mp4 —\n[00:00] whenever you're ready yeah can we do it from again and don't don't bend so much\n[00:13] and maybe like one baby step back so you step forward and open it whenever you're\n[00:32] ready that was actually",
+ "frames": {
+  "f_C021_15": "data:image/jpeg;base64,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",
+  "f_C035_29": "data:image/jpeg;base64,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"
+ }
+}

@@ -1,0 +1,129 @@
+{
+ "item": "13225631990",
+ "client": "s4s",
+ "note": "The plan says stay on her for the sailing and golfing part, so only top overlays sit on 00:13–00:24.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "11th grade tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "11th grade"
+   },
+   "src": "Anaya, 030_3168.MXF [04:05] “the 11th grade is the year I'm in now”",
+   "rows": [
+    "00:06–00:13"
+   ],
+   "use": "Small, upper left, on “11th grade”. The name super is gone by then."
+  },
+  {
+   "n": 2,
+   "title": "Sailing and golfing",
+   "tpl": "word_stack",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "items": [
+     "Sailing",
+     "Golfing"
+    ]
+   },
+   "src": "Anaya, 030_3168.MXF [04:45] “I went sailing and golfing”",
+   "rows": [
+    "00:13–00:24"
+   ],
+   "use": "Each word lands on her voice, in the top band. Stay on her face. No stock."
+  },
+  {
+   "n": 3,
+   "title": "Minnesota tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Minnesota"
+   },
+   "src": "Anaya, 030_3168.MXF [04:50] “find my community in Minnesota”",
+   "rows": [
+    "00:13–00:24"
+   ],
+   "use": "Small, upper left, on “Minnesota”. Not at the same time as MG2."
+  },
+  {
+   "n": 4,
+   "title": "She knew him",
+   "tpl": "statement_card",
+   "dur": 4,
+   "text": {
+    "main": "I actually knew one of the people that was helping with the event today.",
+    "emph": [
+     "knew"
+    ]
+   },
+   "src": "Anaya, 030_3168.MXF [02:25]",
+   "rows": [
+    "00:24–00:36"
+   ],
+   "use": "Short full-frame cutaway on her first line of the row, then back to her."
+  },
+  {
+   "n": 5,
+   "title": "Her style",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "a style that I had got for back-to-school"
+   },
+   "src": "Anaya, 030_3168.MXF [02:32]",
+   "rows": [
+    "00:24–00:36"
+   ],
+   "use": "Over her as she says it. Off before the shoe box shot. Keep captions on."
+  },
+  {
+   "n": 6,
+   "title": "Tried them on",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "I tried them on briefly just to see if they fit"
+   },
+   "src": "Anaya, 030_3168.MXF [02:47]",
+   "rows": [
+    "00:36–00:40"
+   ],
+   "use": "Over her face as she says it. Keep captions on."
+  },
+  {
+   "n": 7,
+   "title": "The shoes today",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "These are the shoes that I got today."
+   },
+   "src": "Anaya, 030_3168.MXF [02:03]",
+   "rows": [
+    "00:40–00:45"
+   ],
+   "use": "Top band, as she holds up the shoe and says it. Keep captions on."
+  },
+  {
+   "n": 8,
+   "title": "Frame the shoe",
+   "tpl": "corner_frame",
+   "dur": 3,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:40–00:45"
+   ],
+   "use": "Brackets around the pink and white shoe she holds up. Move them to where the shoe is."
+  }
+ ]
+}

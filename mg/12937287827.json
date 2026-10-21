@@ -1,0 +1,130 @@
+{
+ "item": "12937287827",
+ "client": "freedom-reads",
+ "note": "The plan says let the self-worth line and the last line sit on his face, so no graphics from 00:40 to the end card.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Freedom Reads wipe",
+   "tpl": "brand_wipe",
+   "dur": 1.6,
+   "text": {},
+   "src": "Transition, no text.",
+   "rows": [
+    "00:04–00:08"
+   ],
+   "use": "Only if the reset at 00:04 shows. Cut at the middle of the wipe, then the name card comes in. Use it once."
+  },
+  {
+   "n": 2,
+   "title": "A sense of responsibility",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "We have a sense of responsibility"
+   },
+   "src": "Talon, 20260611WSPv00048.MOV [02:31]",
+   "rows": [
+    "00:08–00:14"
+   ],
+   "use": "Over Talon on the slow push-in, as he says it."
+  },
+  {
+   "n": 3,
+   "title": "Not just to pass time",
+   "tpl": "statement_card",
+   "dur": 3,
+   "text": {
+    "main": "it's not just read a book to pass the time.",
+    "emph": [
+     "not just"
+    ]
+   },
+   "src": "Talon, 20260611WSPv00048.MOV [02:31]–[02:36]",
+   "rows": [
+    "00:08–00:14"
+   ],
+   "use": "Short full-frame cutaway at the end of the row, as he says it. Keep his words as they are."
+  },
+  {
+   "n": 4,
+   "title": "Time, effort and care",
+   "tpl": "kinetic_quote",
+   "dur": 5,
+   "pos": "top",
+   "text": {
+    "main": "Time and effort and care went into reading or writing this book for years.",
+    "emph": [
+     "effort",
+     "care"
+    ]
+   },
+   "src": "Talon, 20260611WSPv00048.MOV [02:38]",
+   "rows": [
+    "00:14–00:19"
+   ],
+   "use": "Over the library room cutaway. Words pop in with his voice."
+  },
+  {
+   "n": 5,
+   "title": "Focus on the shelves",
+   "tpl": "corner_frame",
+   "dur": 3,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:14–00:19"
+   ],
+   "use": "Frames the shelves in the library cutaway. Keep any badge out of the frame."
+  },
+  {
+   "n": 6,
+   "title": "Heart and souls",
+   "tpl": "statement_card",
+   "dur": 4,
+   "text": {
+    "main": "people put their heart and souls into this.",
+    "emph": [
+     "heart"
+    ]
+   },
+   "src": "Talon, 20260611WSPv00048.MOV [02:47]",
+   "rows": [
+    "00:19–00:28"
+   ],
+   "use": "Full-frame cutaway on “heart and souls”. Back to Talon for the 17th book line."
+  },
+  {
+   "n": 7,
+   "title": "Their 17th book",
+   "tpl": "stat_counter",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "number": "17th",
+    "label": "book"
+   },
+   "src": "Talon, 20260611WSPv00048.MOV [02:53] “This could have been their 17th book or their first and only book.”",
+   "rows": [
+    "00:19–00:28"
+   ],
+   "use": "Counts up as he says “17th book”. Keep captions on."
+  },
+  {
+   "n": 8,
+   "title": "As much effort",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "just as someone put as much effort into that"
+   },
+   "src": "Talon, 20260611WSPv00048.MOV [03:06]",
+   "rows": [
+    "00:28–00:40"
+   ],
+   "use": "Over Talon at 106% as he says it. Gone before “I want people to put effort into me”."
+  }
+ ]
+}

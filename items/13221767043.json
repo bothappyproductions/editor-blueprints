@@ -1,0 +1,267 @@
+{
+ "id": "13221767043",
+ "client": "gateway-gaston",
+ "eyebrow": "Gateway Gaston · Journey Home · recorded by the client, 6 Oct 2026 · Campaign short",
+ "title": "Day 6 AM:",
+ "title_q": "“Turn the reaction into a next step”",
+ "title_short": "Day 6 AM · The next step",
+ "editor": "Ardit",
+ "due": "2026-10-21",
+ "format": "9:16 only · 1080×1920",
+ "length": "about 38 s",
+ "edit_key": "GatewayGastonJourneyHomeDay6AM001",
+ "headline": "Dwayne thanks everyone who shared and commented, then invites them to sit down and talk.",
+ "story": [
+  "After a week of Journey Home posts, Dwayne says <b>thank you</b> for sharing and commenting. Now he wants the next step: people who are ready to sit down and understand the program up close.",
+  "He wants to talk personally with people who care about the unhoused community. One ask: <b>comment “I'm in”</b> or send a message. Grateful and forward-looking."
+ ],
+ "feel": [
+  "Clear",
+  "Warm",
+  "Hopeful",
+  "Simple",
+  "His words only"
+ ],
+ "do": [
+  "Start the cut at <span class=\"mono\">00:00.6</span>, on his first word.",
+  "Open on frame 1 with the hook text <q>READY FOR THE NEXT STEP?</q> over his slide.",
+  "Listen to <span class=\"mono\">00:15.4–00:17.4</span> and caption what you really hear.",
+  "Show <b>Comment “I'm in”</b> as text when he gives the ask.",
+  "Keep captions on screen the whole time."
+ ],
+ "dont": [
+  "No logo at 0:00. His file opens on the logo: skip it.",
+  "Don't guess unclear words. If you can't understand them, write it on the Monday item.",
+  "No stock footage, no B-roll, no music. Use his photo as he sent it.",
+  "No numbers or facts he does not say.",
+  "No second aspect ratio. 9:16 only."
+ ],
+ "links": {
+  "brief": null,
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Atdhe owes it. Production Planning row 13184584151 says Reference = Requested. The client did not suggest one."
+  },
+  "footage": {
+   "title": "Day 6 am .mov",
+   "url": "https://drive.google.com/file/d/1HdroaomR3ZrrXtvoHsy_BWsHPSr81aiQ/view",
+   "note": "0:36, slide video, his voice only. Note the space before “.mov”."
+  }
+ },
+ "bp_intro": "All source times are in <span class=\"mono\">Day 6 am .mov</span> (0:36, voice over slides, Dwayne off camera). Times are line times from the machine transcript in the brief doc, about ±0.3 s. Lines split mid-sentence, so find exact word points on the waveform. Slide frames could not be pulled for this page (Drive access failed), so the slide is marked TBD on scrub.",
+ "rows": [
+  {
+   "tc": "00:00–00:05",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Slide TBD on scrub. The middle of the file is a photo of a hiking boot stepping up onto a rock, blue sky behind. Full width, top half, white background. <b>Not the logo.</b>",
+   "motion": "Hook text on <b>frame 1</b>, big, top of frame: <q>READY FOR THE NEXT STEP?</q>. Cut on, no animation longer than 6 frames. Captions start at 0:00.",
+   "voice": {
+    "who": "Dwayne (off camera)",
+    "quote": "You've seen a lot over the last few days about Journey Home. Thank you for",
+    "src": "Day 6 am 00:00.6–00:05.5"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music. His voice only.</span>"
+  },
+  {
+   "tc": "00:05–00:11",
+   "beat": "THANK YOU",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same slide. Slow push-in continues.",
+   "motion": "Hook text off after “sharing those posts” (about <span class=\"mono\">00:06</span>). Captions only.",
+   "voice": {
+    "who": "Dwayne",
+    "quote": "sharing those posts. Thank you for commenting on them. If you are ready to",
+    "src": "Day 6 am 00:05.5–00:11.5"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music. His voice only.</span>"
+  },
+  {
+   "tc": "00:11–00:17",
+   "beat": "THE INVITE",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same slide.",
+   "motion": "Captions only. <b>Unclear words</b> at about <span class=\"mono\">00:14.8–00:16.8</span> on the timeline (src 00:15.4–00:17.4). The machine wrote “holistic front row level”. Caption what you hear.",
+   "voice": {
+    "who": "Dwayne",
+    "quote": "sit down and talk about this and understand it from a holistic front row",
+    "src": "Day 6 am 00:11.5–00:17.4 (machine words, check by ear)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music. His voice only.</span>"
+  },
+  {
+   "tc": "00:17–00:24",
+   "beat": "THE ASK",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same slide.",
+   "motion": "Text <b>Comment “I'm in”</b> on “I'm in” (about <span class=\"mono\">00:23</span>), centered, big. Holds to the end card.",
+   "voice": {
+    "who": "Dwayne",
+    "quote": "level, let us know by commenting or DMing us. Tell us. Say, let me know. I'm in or",
+    "src": "Day 6 am 00:17.4–00:24.7"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music. His voice only.</span>"
+  },
+  {
+   "tc": "00:24–00:35",
+   "beat": "WHO WE WANT",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same slide. Hold 0.3 s after “community”, then cut to the end card. Do not use the logo at the end of his file.",
+   "motion": "Captions plus <b>Comment “I'm in”</b>.",
+   "voice": {
+    "who": "Dwayne",
+    "quote": "DM us and let us know. We would like to talk personally with people who are passionate about serving our unserved and underserved, unhoused community.",
+    "src": "Day 6 am 00:24.7–00:35.4"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music. His voice only.</span>"
+  },
+  {
+   "tc": "00:35–00:38",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": "f_logo",
+   "crop": "c",
+   "frame_tag": "Day 4 am src 0:00.5",
+   "frame_alt": "Journey Home logo: house, sun and gold path, navy JOURNEY HOME lettering on white",
+   "visual": "The Journey Home logo on white. Use the same end card file on all 12 videos. Logo source: a clean frame from the first second of <span class=\"mono\">Day 3 AM .mov</span> (no logo file exists). The logo slide in his files has thin brown lines on the left and right: crop them out.",
+   "motion": "Logo <b>swishes in</b> (about 8-10 frames), then holds. Nothing under the logo. No website, no extra text.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "One <b>swish</b> sound on the logo move. The client asked for it: <q>make the journey home logo 'swish in with sound'</q>.",
+   "music": "<span class=\"none\">No music. His voice only.</span>"
+  }
+ ],
+ "frames": {
+  "f_logo": "data:image/jpeg;base64,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"
+ },
+ "files": [
+  [
+   "Production brief",
+   "None. Dwayne recorded these himself, with no crew and no production brief."
+  ],
+  [
+   "Editor brief",
+   "<a href=\"https://docs.google.com/document/d/1qW7G27l_ElzmFTyFAcFS2U2h_6vNXW7KIzdmqfWagSw/edit\">pulse.13221767043</a> (same text as the Monday update) · <a href=\"https://docs.google.com/document/d/1WhZZmGH5GYG42oM6ANJ0eIoPXAeM7ZpI3B4kC8xMhxw/edit\">Journey Home 12-post index</a>"
+  ],
+  [
+   "Reference",
+   "Not chosen yet. Atdhe owes it."
+  ],
+  [
+   "Footage folder",
+   "<a href=\"https://drive.google.com/drive/folders/1atA8lkZm7efUeOlfK2P_vvJFCYFZ4xwg\">Gateway Gaston › Raw Footage › Dwayne Interviews — Sept 17 2026</a> · the client's own upload folder. Never put our files in it."
+  ],
+  [
+   "Clip",
+   "<a href=\"https://drive.google.com/file/d/1HdroaomR3ZrrXtvoHsy_BWsHPSr81aiQ/view\">Day 6 am .mov</a> · 34.9 MB"
+  ],
+  [
+   "Transcript",
+   "No transcript file in Drive. The machine transcript (with times) is in the brief doc and at the bottom of this page."
+  ],
+  [
+   "visual.json",
+   "None for these files."
+  ],
+  [
+   "Logo",
+   "No logo file. Take a clean frame from the first second of <a href=\"https://drive.google.com/file/d/1qNcmVY6dpCwruQwA5qAqLHENeaQTh6bE/view\">Day 3 AM .mov</a>."
+  ],
+  [
+   "Brand pack / font",
+   "Branding and Font columns are empty. No brand guide on file. Colours: take them from the logo (navy blue and gold)."
+  ],
+  [
+   "Music",
+   "None planned. His voice plus the end-card swish."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "1920×1080, 30 fps. The probe could not run for this file."
+  ],
+  [
+   "Timeline",
+   "1080×1920 at <b>30 fps</b>, same as the source. No frame-rate change."
+  ],
+  [
+   "Picture",
+   "His slide is 16:9. Do not crop it to 9:16. Scale it to full width (1080 px wide, a downscale, so it stays sharp) in the top half. Slow push-in to about 105% over the whole slide."
+  ],
+  [
+   "Audio",
+   "Recorded on his iPhone, 2 channels. The channel check could not run (Drive access failed for the check script). Listen to both channels, use the cleaner one on both sides. Level it and remove room noise. Never change his speed."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. The swish sits under his voice level."
+  ],
+  [
+   "Captions",
+   "No caption spec in the client file. Burned in, big, bold, white on dark or dark on white. Max 2 lines. Bottom half, but keep the bottom 20% clear for app buttons. Same caption style on all 12."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920, about 16 Mbps. One file, 9:16 only. Deliver to Frame.io → Ready for Review."
+  ]
+ ],
+ "checklist": [
+  "Frame 1 is the hook text over his slide. No logo, no fade from black at 0:00.",
+  "Every caption matches his words. Do not fix or change his words.",
+  "No fact or number on screen that he does not say.",
+  "The words at src 00:15.4–00:17.4 are captioned as heard, or flagged on the Monday item.",
+  "The boot photo is used as he sent it. No new stock photos added.",
+  "His voice is not sped up or slowed down. Sound is level and clean.",
+  "The end card is the same swish logo file as the other 11 videos.",
+  "Journey Home is written with a capital J and H.",
+  "If the file has a problem (sound, picture, words), write it on the Monday item. The client asked us to tell him."
+ ],
+ "decisions": [
+  {
+   "t": "No visual reference",
+   "b": "Production Planning row 13184584151 says Reference = Requested, owner Atdhe. A producer has to pick it, or say this batch needs none."
+  },
+  {
+   "t": "“she clapping one exit”",
+   "b": "Dwayne asked for the logo swish <q>and she clapping one exit similarly</q>. No file shows a person clapping. Atdhe asks Dwayne what he means. Until then: same swish end card on all 12, nothing else."
+  },
+  {
+   "t": "Due date vs posting day",
+   "b": "On the 6 Oct call Dwayne set posting twice a day from Mon 12 Oct, Day 1 to Day 6. The board due date for this cut is 2026-10-21. Atdhe confirms which posting slot this video takes, so the cut lands before it."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> Dwayne said the first videos were <q>a little disappointing - primarily because my background was bad.</q> Here he is off camera, so the result is on us: clean sound, big captions and one clear ask. He said his old posts had no clear ask, so people watched and did nothing.",
+ "ask_examples": [
+  "What does he say at 00:16 in the source?",
+  "Is the ask DM or comment here?",
+  "Where do I get the Journey Home logo?",
+  "Can I replace his stock photo?"
+ ],
+ "transcript": "Machine transcript of Day 6 am .mov (Monday brief). Times are mm:ss in the source file. Lines are split by time, not by sentence. Dwayne Burks speaks the whole file, off camera. Words around 00:15–00:17 are not clear.\n[00:00] You've seen a lot over the last few days about Journey Home. Thank you for\n[00:05] sharing those posts. Thank you for commenting on them. If you are ready to\n[00:11] sit down and talk about this and understand it from a holistic front row\n[00:17] level, let us know by commenting or DMing us. Tell us. Say, let me know. I'm in or\n[00:24] DM us and let us know. We would like to talk personally with people who are\n[00:29] passionate about serving our unserved and underserved, unhoused community."
+}

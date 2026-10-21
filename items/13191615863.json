@@ -1,0 +1,253 @@
+{
+ "id": "13191615863",
+ "client": "sfcg",
+ "eyebrow": "Search for Common Ground · Imagine If: The Phone · New York, Aug 2026 · One-voice short",
+ "title": "Imagine If:",
+ "title_q": "“Swords Into Ploughshares”",
+ "title_short": "Imagine If · Swords Into Ploughshares",
+ "editor": "Qendrim",
+ "due": "2026-10-13",
+ "format": "9:16 only · 1080×1920",
+ "length": "about 15 s + end card",
+ "edit_key": "SFCGImagineIfPhoneSwords001",
+ "headline": "One stranger picks up the Imagine If phone and reads an old line about a world that stops learning war.",
+ "story": [
+  "A man in a New York park picks up the Imagine If phone. He has written his message on a small note. He reads it: <b>swords into ploughshares, spears into pruning hooks, nations that never learn war again.</b>",
+  "That is the whole video: one person, his own words, about 15 seconds. It must feel simple, calm and hopeful. A new viewer must see the sign and understand what the phone is."
+ ],
+ "feel": [
+  "Simple",
+  "Calm",
+  "Hopeful",
+  "One voice"
+ ],
+ "do": [
+  "Open on frame 1 with the man and the phone, voice already talking, “IMAGINE IF…” on screen.",
+  "Show the sign “IMAGINE IF THE WORLD LISTENED” so it can be read.",
+  "Voice from MIC0026 (clean). Picture from the MXF.",
+  "Captions with his exact words. Write “plowshares” as one word, as the brief asks.",
+  "End card reads sfcg.org."
+ ],
+ "dont": [
+  "No name super. He gave no name.",
+  "No religion: do not write where the line comes from. No religious pictures.",
+  "No animation in the middle (Kalindi: “it was inauthentic”).",
+  "No place name on screen. The location is not confirmed.",
+  "No second aspect ratio. 9:16 only."
+ ],
+ "links": {
+  "brief": {
+   "title": "SFCG — Shooting Brief: Peace Delivered + Imagine If (V1)",
+   "url": "https://docs.google.com/document/d/1TdokxFHdyuCXHTOmZS0OKo1vXIo7P2lwCfi-arr2CYM/edit",
+   "note": "The production brief for the August New York shoot."
+  },
+  "reference": {
+   "title": "Producer reference, Aug NYC plan",
+   "url": "https://www.instagram.com/reel/DalAvZGuctN/",
+   "note": "The same reference as the Man on Street item. Match its pacing."
+  },
+  "footage": {
+   "title": "Search for Common Ground › 2026 New York › Day 2",
+   "url": "https://drive.google.com/drive/folders/1FAYjmXWOTy0-cqICEyfDaubfWjV6Rzrw",
+   "note": "Picture: RAW/764_3869.MXF (1:33). Voice: Proxies/Phone Strategy/Audio/MIC0026.MP3 (0:22)."
+  }
+ },
+ "bp_intro": "Voice times are in <span class=\"mono\">MIC0026.MP3</span> (0:22). Picture times are in <span class=\"mono\">764_3869.MXF</span> (1:33). Sync: MIC time + 45.9 s = clip time (sound match from the brief). Our frame tool could reach only one frame of this clip (0:02). The other shots come from the brief’s scrub notes: confirm each on scrub.",
+ "rows": [
+  {
+   "tc": "00:00–00:03",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Brief scrub notes: medium shot, the blue phone at his ear, phone table in frame, 764_3869 0:46–0:49 (in sync). Not checked in a frame here: confirm on scrub. A woman walks behind him at 0:46–0:51: fine, keep it.",
+   "motion": "Hook text on <b>frame 1</b>, top third, big: <q>IMAGINE IF…</q> White on the royal-blue box <span class=\"mono\">#1E6FD6</span>. Captions start with his first word.",
+   "voice": {
+    "who": "Stranger (MIC0026)",
+    "quote": "Imagine if we will beat our swords into plough shares",
+    "src": "MIC0026 0:00–≈0:05 (you may cut the pause after “Imagine if we”, 0:01–0:02) · picture 764_3869 0:46"
+   },
+   "sfx": "Park ambience from the MXF, low, under the MIC voice. No whoosh.",
+   "music": "<span class=\"none\">Silent.</span>"
+  },
+  {
+   "tc": "00:03–00:06",
+   "beat": "CONTEXT",
+   "kind": "",
+   "frame": "f_3869_2",
+   "crop": "c",
+   "frame_tag": "src 0:02",
+   "frame_alt": "Washington Square arch, a phone on a small table, the sign “IMAGINE IF THE WORLD LISTENED / What would you say?” on the ground, a man entering at the right edge",
+   "visual": "The sign, so a new viewer understands. At 0:02 the sign and the phone table are clean and readable. The brief notes a wide at 0:08–0:16 with him at the phone and the sign in shot: use that if it reads better. His voice continues over it (not in sync, fine on a wide).",
+   "motion": "Captions only. Do not add a title. The sign does the work.",
+   "voice": {
+    "who": "Stranger (MIC0026)",
+    "quote": "and will beat our spears into pruning hooks.",
+    "src": "MIC0026 ≈0:05–0:09"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Optional: one soft, warm sustained note enters here. No drums."
+  },
+  {
+   "tc": "00:06–00:09",
+   "beat": "THE LINE",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Back in sync. Brief scrub notes: closer shot, clean, phone at his ear, 764_3869 0:53–1:03. Not checked in a frame here: confirm on scrub.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Stranger (MIC0026)",
+    "quote": "Nations shall not lift up swords against nations,",
+    "src": "MIC0026 0:09–≈0:12 · picture 764_3869 ≈0:55"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:09–00:13",
+   "beat": "BUTTON",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Option from the brief: the close shot of his handwritten note, 764_3869 1:27–1:28, on the last words. The note shows only his words. Not checked in a frame here: confirm on scrub. Otherwise stay on him in sync.",
+   "motion": "Captions only. Hold the last caption 0.5 s after “evermore”.",
+   "voice": {
+    "who": "Stranger (MIC0026)",
+    "quote": "neither shall they learn war evermore.",
+    "src": "MIC0026 ≈0:12–0:15.5 · picture 764_3869 ≈0:58–1:01"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Resolve on “evermore”."
+  },
+  {
+   "tc": "00:13–00:16",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Clean end card. Use the SFCG 9:16 logo animation from the brand pack.",
+   "motion": "Search for Common Ground lockup + <b>sfcg.org</b>. Nothing under it. Do not guess an Imagine If link.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Last note rings out. 1 s fade."
+  }
+ ],
+ "frames": {
+  "f_3869_2": "data:image/jpeg;base64,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"
+ },
+ "files": [
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/1TdokxFHdyuCXHTOmZS0OKo1vXIo7P2lwCfi-arr2CYM/edit\">SFCG — Shooting Brief: Peace Delivered + Imagine If (V1)</a>"
+  ],
+  [
+   "Client strategy",
+   "<a href=\"https://docs.google.com/document/d/1U4Fh_nZXwIlgA6yPH4rmWYBe9JluP5ZiMsfvzBXw3jw/edit\">IMAGINE IF… Campaign Strategy</a> (the client’s own doc, shared 5 Oct)"
+  ],
+  [
+   "Reference",
+   "<a href=\"https://www.instagram.com/reel/DalAvZGuctN/\">Producer reference (Instagram reel)</a>"
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/1FAYjmXWOTy0-cqICEyfDaubfWjV6Rzrw\">2026 New York › Day 2</a>"
+  ],
+  [
+   "Clip",
+   "<a href=\"https://drive.google.com/file/d/1JygLmSfdcTmol9cbSsAwKtJIGs-JDoYr/view\">764_3869.MXF</a> · 1:33 · RAW · cut from this"
+  ],
+  [
+   "Proxy",
+   "<a href=\"https://drive.google.com/file/d/1YAJ65sSo-TX-ErDdgZwqQeAV2MO1BZ1V/view\">764_3869.mov</a> · for viewing only, never cut from it"
+  ],
+  [
+   "Voice",
+   "<a href=\"https://drive.google.com/file/d/1cZOCiJU5KUlDtmG9dhZeSR1hw6b_NW9y/view\">MIC0026.MP3</a> · 0:22 · the phone recorder, clean voice"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1y5mpn3SadHTq-gfzywP7lEQXn3N9ZkIB_nSS6YIY5kc/edit\">RAW 23 Transcript</a> · thin and wrong (“cow shares”). Use your ears and his note."
+  ],
+  [
+   "Transcript JSON",
+   "<a href=\"https://drive.google.com/file/d/198_3LhzJT-TB-OKsC4DOHEIwRV1noOJ1/view\">Day 2.transcript.json</a>"
+  ],
+  [
+   "visual.json",
+   "None for Day 2."
+  ],
+  [
+   "Brand pack",
+   "<a href=\"https://drive.google.com/file/d/1-RqoOsOcTUUCj5zoUEq2-G7g2IvaK0OE/view\">SFCG logo animation 9:16</a> · <a href=\"https://drive.google.com/file/d/1FBASnqbsp8W_RI_VPTffDW1MuFdufYFx/view\">horizontal logo, white text (PNG)</a>. Branding and Font columns on Monday are empty."
+  ],
+  [
+   "Music",
+   "Not set by the client. If you use one note or a bed, keep it very soft. Save the license with the project."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "Picture: 764_3869.MXF, 16:9. Our probe could not read this file: check resolution and frame rate in the NLE before you set the timeline. Voice: MIC0026.MP3."
+  ],
+  [
+   "Timeline",
+   "1080×1920 at the source frame rate. No conversion."
+  ],
+  [
+   "Crop",
+   "If the MXF is 4K, a 9:16 crop is not upscaled. If it is HD, keep punch-ins at 110% or less."
+  ],
+  [
+   "Audio",
+   "Voice from MIC0026 only. Sync by ear: MIC + 45.9 s = clip time. Camera audio only as low park ambience."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. Any music 18–20 dB under the voice."
+  ],
+  [
+   "Captions",
+   "Royal-blue box <span class=\"mono\">#1E6FD6</span>, white text, floating over him. Max 2 lines. Keep the bottom 20% clear."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920, about 16 Mbps. One file. 9:16 only. Deliver to Frame.io → Ready for Review."
+  ]
+ ],
+ "checklist": [
+  "Write “Search for Common Ground”: capital S, small “for”. Never SFCG, CGLA, CGL or “Academy” on screen.",
+  "End card: Search for Common Ground lockup + sfcg.org. Nothing under it. Never a Preemptive Love logo.",
+  "Captions match the audio word for word. Keep the speaker’s own grammar.",
+  "No red-lanyard person in any B-roll frame. If you cannot see the lanyard, do not use the shot.",
+  "No camera-shutter sounds. Every jump cut is covered.",
+  "No logo, title card or fade at 0:00.",
+  "Every caption word matches his voice. “live up” in the transcript is wrong: he says “lift up”.",
+  "“plowshares” is one word.",
+  "The sign is readable for at least one second.",
+  "No name, no place name and no source of the quote on screen."
+ ],
+ "decisions": [
+  {
+   "t": "End-card link",
+   "b": "The end card reads sfcg.org. Search is still building the Imagine If landing page (Yana owns it). One end-card pass across the batch when the link exists."
+  }
+ ],
+ "client_note": "<b>Why this matters for this cut:</b> Kalindi asked for context inside every Imagine If cut, because people find the series in the middle. The readable sign is that context.",
+ "ask_examples": [
+  "Where is the sync point between MIC and picture?",
+  "How do I spell plowshares?",
+  "Which shot shows the sign?",
+  "What goes on the end card?"
+ ],
+ "transcript": "Voice: MIC0026.MP3 (phone recorder, 0:22). Words from the brief's listening pass, confirmed against his handwritten note on camera (764_3869 at 1:27: \"Nation shall not lift up sword against nation / Neither shall they learn war ever more\"). After 0:16 there are no more words.\n[00:00] Imagine if we will beat our swords into plough shares and will beat our spears into pruning hooks.\n[00:09] Nations shall not lift up swords against nations, neither shall they learn war evermore.\n\nCamera ASR of 764_3869.MXF (RAW 23 Transcript) is thin and wrong. For reference only:\n[00:51] cow shares, the speed of our spears, these nations shall not live of source, and neither shall they learn more evermore."
+}

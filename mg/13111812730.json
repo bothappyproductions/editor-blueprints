@@ -1,0 +1,85 @@
+{
+ "item": "13111812730",
+ "client": "family-reach",
+ "note": "The plan says nothing written on screen: picture, the client's VO and their end cards only. Use these only if the client asks for text, and never change a word of the VO.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Sunday drives card",
+   "tpl": "statement_card",
+   "dur": 2,
+   "text": {
+    "main": "Marcus has always loved taking Sunday drives with his daughter.",
+    "emph": [
+     "Sunday"
+    ]
+   },
+   "src": "Client VO 1, TRANSPORTATION script (word for word).",
+   "rows": [
+    "00:00–00:05"
+   ],
+   "use": "Only after 0:03, as VO 1 ends. Never on frame 1. Every word as in the script."
+  },
+  {
+   "n": 2,
+   "title": "Best conversations",
+   "tpl": "kinetic_quote",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "It's where they have their best conversations.",
+    "emph": [
+     "conversations"
+    ]
+   },
+   "src": "Client VO 2, TRANSPORTATION script (word for word).",
+   "rows": [
+    "00:05–00:09"
+   ],
+   "use": "Over the dad at the wheel, timed to VO 2. Do not change a word."
+  },
+  {
+   "n": 3,
+   "title": "Remember the park",
+   "tpl": "word_stack",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "items": [
+     "Remember?",
+     "Look at the park.",
+     "Remember where we go?"
+    ]
+   },
+   "src": "Dad, real car audio, C047 [00:43]–[00:45]",
+   "rows": [
+    "00:09–00:13"
+   ],
+   "use": "Each line lands on the dad's words in the car. Keep the audio low."
+  },
+  {
+   "n": 4,
+   "title": "Frame the parked car",
+   "tpl": "corner_frame",
+   "dur": 2,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:13–00:15"
+   ],
+   "use": "Quiet brackets on the still of the parked car. No move. Out before the tyre shot."
+  },
+  {
+   "n": 5,
+   "title": "Slow color wipe",
+   "tpl": "brand_wipe",
+   "dur": 1.8,
+   "text": {},
+   "src": "Transition, no text.",
+   "rows": [
+    "00:22–00:26"
+   ],
+   "use": "Only if you need a transition into the walk at 00:22. Use it once, slow."
+  }
+ ]
+}

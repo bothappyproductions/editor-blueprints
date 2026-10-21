@@ -1,0 +1,22 @@
+{
+ "item": "13243618256",
+ "client": "sfcg",
+ "note": "The client does not want animation in the middle of a video. Use one graphic at most.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Loves talking to people",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "I love talking to people."
+   },
+   "src": "Destiny, 764_3896.MXF [03:17]",
+   "rows": [
+    "00:03–00:06"
+   ],
+   "use": "Over Destiny after the hook text goes out. Keep it on her side of the crop. Keep captions on."
+  }
+ ]
+}

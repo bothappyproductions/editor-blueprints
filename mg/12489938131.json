@@ -1,0 +1,67 @@
+{
+ "item": "12489938131",
+ "client": "lions",
+ "note": "Lions asked for much simpler graphics or none and the plan keeps subtitles only after the pin, so 4 graphics. Use them only if Atdhe asks for graphics.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Puerto Rico pin",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "Puerto Rico"
+   },
+   "src": "Location pin in this blueprint (00:03–00:05). Puerto Rico Lion, IMG_7866.MOV [01:43] “District 51 in Puerto Rico”.",
+   "rows": [
+    "00:02–00:08"
+   ],
+   "use": "This is the location pin. Show it from 00:03 to 00:05 only."
+  },
+  {
+   "n": 2,
+   "title": "Meet new people",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "it makes me happy to share with other people and meet new people"
+   },
+   "src": "Puerto Rico Lion, IMG_7866.MOV [00:04] (English version from the transcript doc).",
+   "rows": [
+    "00:02–00:08"
+   ],
+   "use": "Over the hug as he says it, after the pin is gone. Keep the subtitles on."
+  },
+  {
+   "n": 3,
+   "title": "Support in leadership",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "always supporting me in matters of leadership"
+   },
+   "src": "Puerto Rico Lion, IMG_7866.MOV [01:32] (English version from the transcript doc).",
+   "rows": [
+    "00:08–00:20"
+   ],
+   "use": "Lands on “leadership”. Keep it at the top and do not cut the shot for it."
+  },
+  {
+   "n": 4,
+   "title": "That makes us family",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "that makes us family"
+   },
+   "src": "Puerto Rico Lion, IMG_7868.MOV [00:32] (English version from the transcript doc).",
+   "rows": [
+    "00:20–00:26"
+   ],
+   "use": "Over the two-shot as he says it. Keep the subtitles on."
+  }
+ ]
+}

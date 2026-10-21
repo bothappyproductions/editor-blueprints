@@ -1,0 +1,141 @@
+{
+ "item": "13066532855",
+ "client": "sfcg",
+ "note": "The plan says captions only on every row and stay on her face for the risk beat, and Kalindi finds animation in the middle inauthentic. Use these only if the cut needs more.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Paris tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Paris"
+   },
+   "src": "Aida, FX6_LVH_6355 [00:23] “Les Guerriers de la Paix in Paris”",
+   "rows": [
+    "00:07–00:21"
+   ],
+   "use": "As she says “Paris”, after the name super is gone at 00:08. Small, near the top."
+  },
+  {
+   "n": 2,
+   "title": "Peace, justice, dignity",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "work together towards peace, justice, and dignity"
+   },
+   "src": "Aida, FX6_LVH_6355 [00:31]–[00:40]",
+   "rows": [
+    "00:07–00:21"
+   ],
+   "use": "Top band at the end of the row, as she says it. Keep captions on."
+  },
+  {
+   "n": 3,
+   "title": "Agree on everything",
+   "tpl": "highlight_callout",
+   "dur": 5,
+   "pos": "top",
+   "text": {
+    "main": "you do not need to agree on everything to work together"
+   },
+   "src": "Aida, FX6_LVH_6355 [00:40]–[00:55]",
+   "rows": [
+    "00:21–00:29"
+   ],
+   "use": "Over Aida as she says it, before the cut to the cards B-roll."
+  },
+  {
+   "n": 4,
+   "title": "Brackets on the card",
+   "tpl": "corner_frame",
+   "dur": 3,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:21–00:29"
+   ],
+   "use": "Frames the middle card in the B-roll FX6_LVH_6375. Move it to where the card sits."
+  },
+  {
+   "n": 5,
+   "title": "The more we are divided",
+   "tpl": "statement_card",
+   "dur": 6,
+   "text": {
+    "main": "the more we are divided, the less we have power to put pressure on the decision-makers",
+    "emph": [
+     "divided"
+    ]
+   },
+   "src": "Aida, FX6_LVH_6355 [01:12]–[01:22]",
+   "rows": [
+    "00:29–00:36"
+   ],
+   "use": "Full-frame cutaway in place of the optional EU flags B-roll. Use one, not both."
+  },
+  {
+   "n": 6,
+   "title": "A dignified life",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "human beings who just want a dignified life"
+   },
+   "src": "Aida, FX6_LVH_6355 [02:14]–[02:21]",
+   "rows": [
+    "00:36–00:43"
+   ],
+   "use": "Put it on when you are back on Aida for “dignified life”."
+  },
+  {
+   "n": 7,
+   "title": "Immense risk",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "they are taking immense risk appearing together, talking to each other"
+   },
+   "src": "Aida, FX6_LVH_6355 [03:55]–[04:02]",
+   "rows": [
+    "00:43–01:03"
+   ],
+   "use": "Top band only, over her face as she says it. No B-roll and no card on this beat."
+  },
+  {
+   "n": 8,
+   "title": "Not about liking",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "It's not about liking each other."
+   },
+   "src": "Aida, FX6_LVH_6355 [04:55]",
+   "rows": [
+    "01:03–01:09"
+   ],
+   "use": "Over Aida on the hard cut in, as she says it. Keep her hands in frame."
+  },
+  {
+   "n": 9,
+   "title": "Honor this effort",
+   "tpl": "quote_card",
+   "dur": 4,
+   "text": {
+    "main": "And they need decision makers to honor this effort.",
+    "who": "Aida"
+   },
+   "src": "Aida, FX6_LVH_6355 [05:17]–[05:21]",
+   "rows": [
+    "01:09–01:13"
+   ],
+   "use": "Full-frame cutaway while she says it, then back to her face for the last line."
+  }
+ ]
+}

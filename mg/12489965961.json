@@ -1,0 +1,98 @@
+{
+ "item": "12489965961",
+ "client": "lions",
+ "note": "The hook stays on his face with big captions and Lions want much simpler graphics or none, so 6 graphics. Use them only if Atdhe asks.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Orbassano pin",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "Orbassano, Italy"
+   },
+   "src": "Blueprint location pin “📍 Orbassano, Italy”. IMG_7834.MOV [00:00] “I come from Italy”.",
+   "rows": [
+    "00:06–00:15"
+   ],
+   "use": "Use as the location pin at 00:07 to 00:09, small and upper left. Never before 0:03."
+  },
+  {
+   "n": 2,
+   "title": "More than 10 years",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "More than 10 years"
+   },
+   "src": "Italy Lion, IMG_7834.MOV [00:00] “for more than 10 years”",
+   "rows": [
+    "00:06–00:15"
+   ],
+   "use": "As he says it, after the Orbassano pin is gone. One text at a time."
+  },
+  {
+   "n": 3,
+   "title": "Love at first sight",
+   "tpl": "highlight_callout",
+   "dur": 3.5,
+   "pos": "top",
+   "text": {
+    "main": "It was a love at first sight"
+   },
+   "src": "Italy Lion, IMG_7836.MOV [00:11]",
+   "rows": [
+    "00:15–00:29"
+   ],
+   "use": "Over him as the new clip starts. Check the Italian first."
+  },
+  {
+   "n": 4,
+   "title": "Important for Orbassano",
+   "tpl": "statement_card",
+   "dur": 5,
+   "text": {
+    "main": "made us important for Orbassano and Orbassano important for us.",
+    "emph": [
+     "Orbassano"
+    ]
+   },
+   "src": "Italy Lion, IMG_7836.MOV [00:11]–[00:25]",
+   "rows": [
+    "00:15–00:29"
+   ],
+   "use": "Full-frame cutaway at the end of the row, as he says it. Then back to his face."
+  },
+  {
+   "n": 5,
+   "title": "Totally different from ours",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "a world that is equal but totally different from ours"
+   },
+   "src": "Italy Lion, IMG_7835.MOV [00:06]",
+   "rows": [
+    "00:29–00:40"
+   ],
+   "use": "Over his last line. Hold 0.5 s after “ours”, then out."
+  },
+  {
+   "n": 6,
+   "title": "Every single nation",
+   "tpl": "quote_card",
+   "dur": 5,
+   "text": {
+    "main": "The main advice is to enjoy every single nation present in this convention"
+   },
+   "src": "Italy Lion, IMG_7835.MOV [00:00]",
+   "rows": [
+    "00:29–00:40"
+   ],
+   "use": "Only in the convention version, as he says it. Leave it out of the evergreen cut."
+  }
+ ]
+}

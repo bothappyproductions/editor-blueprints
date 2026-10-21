@@ -1,0 +1,141 @@
+{
+ "item": "13066544716",
+ "client": "sfcg",
+ "note": "SFCG finds animation in the middle of a video inauthentic, and the plan says stay on Paddy for the unsung heroes line. Use these only where a line needs one.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Ireland tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Ireland"
+   },
+   "src": "Paddy, FX6_LVH_6405.MXF [00:17] “I grew up in Ireland on the border”",
+   "rows": [
+    "00:07–00:27"
+   ],
+   "use": "Small tag as he says “I grew up in Ireland”. Only after the name super is gone at 00:10.5."
+  },
+  {
+   "n": 2,
+   "title": "Peace building",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "dedicated a lot of his life to peace building."
+   },
+   "src": "Paddy, FX6_LVH_6405.MXF [00:11]–[00:15]",
+   "rows": [
+    "00:07–00:27"
+   ],
+   "use": "Over Paddy as he says it, after the name super is gone. Keep it simple."
+  },
+  {
+   "n": 3,
+   "title": "Animated rows",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "I had very animated rows with him about this."
+   },
+   "src": "Paddy, FX6_LVH_6405.MXF [00:44]",
+   "rows": [
+    "00:27–00:40"
+   ],
+   "use": "Top of frame as he says it. Leave his small smile clear."
+  },
+  {
+   "n": 4,
+   "title": "His dad's safe spaces",
+   "tpl": "quote_card",
+   "dur": 6,
+   "text": {
+    "main": "what he was doing was creating safe spaces for people who were willing to take the risk to have their story told.",
+    "who": "Paddy"
+   },
+   "src": "Paddy, FX6_LVH_6405.MXF [00:49]–[00:55]. The source labels 00:55 “Interviewer”: it is Paddy.",
+   "rows": [
+    "00:27–00:40"
+   ],
+   "use": "Full-frame cutaway on this line, after his smile. Back to Paddy for the next beat."
+  },
+  {
+   "n": 5,
+   "title": "Focus on the cards",
+   "tpl": "corner_frame",
+   "dur": 3,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:48–01:03"
+   ],
+   "use": "Frames the cards in B-roll FX6_LVH_6375. Move it to where the cards sit."
+  },
+  {
+   "n": 6,
+   "title": "Agency to civic society",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "giving agency to civic society"
+   },
+   "src": "Paddy, FX6_LVH_6405.MXF [01:57]",
+   "rows": [
+    "00:48–01:03"
+   ],
+   "use": "Over Paddy at the start of the row, as he says it. Gone before the cards B-roll."
+  },
+  {
+   "n": 7,
+   "title": "The negotiating table",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "the negotiating table on the Good Friday agreement"
+   },
+   "src": "Paddy, FX6_LVH_6405.MXF [02:45]",
+   "rows": [
+    "01:13–01:26"
+   ],
+   "use": "Over Paddy as he says it. Keep the words as he says them."
+  },
+  {
+   "n": 8,
+   "title": "Confident enough",
+   "tpl": "statement_card",
+   "dur": 4,
+   "text": {
+    "main": "been confident enough to speak for itself.",
+    "emph": [
+     "confident"
+    ]
+   },
+   "src": "Paddy, FX6_LVH_6405.MXF [02:52]",
+   "rows": [
+    "01:13–01:26"
+   ],
+   "use": "Full-frame cutaway on the end of the line, then back to Paddy."
+  },
+  {
+   "n": 9,
+   "title": "It nurtures leaders",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "it eventually nurtures leaders"
+   },
+   "src": "Paddy, FX6_LVH_6405.MXF [04:45]",
+   "rows": [
+    "01:26–01:36"
+   ],
+   "use": "Over Paddy as he says it. Gone before “John Hume”."
+  }
+ ]
+}

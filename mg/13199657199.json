@@ -1,0 +1,58 @@
+{
+ "item": "13199657199",
+ "client": "watsi",
+ "note": "The plan says captions only on the button, with “kind” in yellow one time, and an end on her smile. One text at a time. Use the full-frame cards only if Atdhe asks for more.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "New York tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "New York"
+   },
+   "src": "Maria, C5089 [01:33] “places I've never seen before, like New York”",
+   "rows": [
+    "00:05–00:11"
+   ],
+   "use": "Only after the name super goes out at 00:07.5. One text at a time."
+  },
+  {
+   "n": 2,
+   "title": "My family with me",
+   "tpl": "kinetic_quote",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "I have my family with me and they're really important to me",
+    "emph": [
+     "family"
+    ]
+   },
+   "src": "Maria, C5089 [01:38]–[01:41]",
+   "rows": [
+    "00:11–00:16"
+   ],
+   "use": "Words pop in on her voice in the top band. Keep captions on. The plan says captions only here, so only if Atdhe asks."
+  },
+  {
+   "n": 3,
+   "title": "Focus on the card",
+   "tpl": "corner_frame",
+   "dur": 4,
+   "box": [
+    0.2,
+    0.45,
+    0.6,
+    0.25
+   ],
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:16–00:24"
+   ],
+   "use": "Brackets only, no text. Frames the card in her hands. Blur the code first. Keep it clear of the top text."
+  }
+ ]
+}

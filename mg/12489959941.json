@@ -1,0 +1,126 @@
+{
+ "item": "12489959941",
+ "client": "lions",
+ "note": "The plan says graphics much simpler, or none, and captions only on most rows. Use these only if Atdhe asks for graphics, and keep them in the top band.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Honolulu pin",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "Honolulu, Hawaii"
+   },
+   "src": "Location pin in this blueprint (00:05.0–00:07.0).",
+   "rows": [
+    "00:04–00:12"
+   ],
+   "use": "This is the location pin. Small, upper left, 00:05 to 00:07 only. Never before 0:03."
+  },
+  {
+   "n": 2,
+   "title": "Very, very close",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "We've become very, very close"
+   },
+   "src": "Hawaii Lion, IMG_7844.MOV [01:17]",
+   "rows": [
+    "00:04–00:12"
+   ],
+   "use": "After the pin is gone. Lands on “very, very close”. Keep captions on."
+  },
+  {
+   "n": 3,
+   "title": "A new member",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "He's a new member and he became president."
+   },
+   "src": "Hawaii Lion, IMG_7844.MOV [01:35]",
+   "rows": [
+    "00:12–00:17"
+   ],
+   "use": "Over his line at the top. Do not show or name the president."
+  },
+  {
+   "n": 4,
+   "title": "Focus on his smile",
+   "tpl": "corner_frame",
+   "dur": 3,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:12–00:17"
+   ],
+   "use": "Frames his smile and yellow vest on the 105% punch-in. Move it to where he sits."
+  },
+  {
+   "n": 5,
+   "title": "Taken off and ran",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "And he's just taken off and ran with it."
+   },
+   "src": "Hawaii Lion, IMG_7844.MOV [01:42]",
+   "rows": [
+    "00:17–00:21"
+   ],
+   "use": "Over his line. End it before “Very good, very good”."
+  },
+  {
+   "n": 6,
+   "title": "Heart just wow",
+   "tpl": "statement_card",
+   "dur": 3,
+   "text": {
+    "main": "It makes your heart just wow.",
+    "emph": [
+     "wow"
+    ]
+   },
+   "src": "Hawaii Lion, IMG_7844.MOV [00:39]",
+   "rows": [
+    "00:21–00:29"
+   ],
+   "use": "Full-frame cutaway on “just wow”, then back to his smile."
+  },
+  {
+   "n": 7,
+   "title": "All over the world",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "You meet all kinds of people from all over the world."
+   },
+   "src": "Hawaii Lion, IMG_7845.MOV [00:12]",
+   "rows": [
+    "00:29–00:32"
+   ],
+   "use": "Over the IMG_7845 line at the top. Do not cover or zoom on the sign."
+  },
+  {
+   "n": 8,
+   "title": "Friends for life",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "definitely friends for life"
+   },
+   "src": "Hawaii Lion, IMG_7846.MOV [00:22]",
+   "rows": [
+    "00:32–00:35"
+   ],
+   "use": "Only after the top question text goes out. Cut it before Atdhe repeats “friends for life”."
+  }
+ ]
+}

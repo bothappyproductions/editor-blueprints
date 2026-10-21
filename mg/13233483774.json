@@ -1,0 +1,119 @@
+{
+ "item": "13233483774",
+ "client": "kiva",
+ "note": "The plan has captions only on most rows and stays straight on his face for the turn and the last line. Use these only if more is asked for. Full-frame options sit where the plan already covers a cut.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "20 years",
+   "tpl": "stat_counter",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "number": "20",
+    "label": "years"
+   },
+   "src": "Vishal, P1000926.MOV [00:09] “like for 20 years”",
+   "rows": [
+    "00:06–00:17"
+   ],
+   "use": "Count up as he says “20 years”, after the name super is gone (from 00:09)."
+  },
+  {
+   "n": 2,
+   "title": "Lebanon tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Lebanon"
+   },
+   "src": "Vishal, P1000926.MOV [00:26] “some of our partners in Lebanon”",
+   "rows": [
+    "00:17–00:30"
+   ],
+   "use": "Small tag as he says Lebanon. One text at a time."
+  },
+  {
+   "n": 3,
+   "title": "Great",
+   "tpl": "highlight_callout",
+   "dur": 1.6,
+   "pos": "top",
+   "text": {
+    "main": "great."
+   },
+   "src": "Vishal, P1000926.MOV [00:54]. The plan's optional on-screen word.",
+   "rows": [
+    "00:30–00:50"
+   ],
+   "use": "The plan's optional “great.”, on his word, for about 1 second. Stay on his face."
+  },
+  {
+   "n": 4,
+   "title": "Why we are on Kiva",
+   "tpl": "kinetic_quote",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "this is why we are on Kiva",
+    "emph": [
+     "why"
+    ]
+   },
+   "src": "Vishal, P1000926.MOV [00:54]",
+   "rows": [
+    "00:30–00:50"
+   ],
+   "use": "Over Vishal as he says it, after MG 3 is off. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "Creating impact",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "to hear the stories of lenders who are in it for creating impact."
+   },
+   "src": "Vishal, P1000926.MOV [01:10]–[01:17]",
+   "rows": [
+    "00:50–00:57"
+   ],
+   "use": "Over Vishal as he says it. Start on the clean line, not on “fascinating”."
+  },
+  {
+   "n": 6,
+   "title": "She stayed",
+   "tpl": "word_stack",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "items": [
+     "So it could keep lending",
+     "She stayed for years"
+    ]
+   },
+   "src": "Vishal, P1000928.MOV [00:38]–[00:44]",
+   "rows": [
+    "01:13–01:28"
+   ],
+   "use": "Each line lands on his word, over the 106% punch-in. Keep captions on."
+  },
+  {
+   "n": 7,
+   "title": "Thanks",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "Thanks for doing what you do."
+   },
+   "src": "Vishal, P1000926.MOV [01:17]",
+   "rows": [
+    "01:40–01:44"
+   ],
+   "use": "Over his face as he says it. Cut before “Nice.”"
+  }
+ ]
+}

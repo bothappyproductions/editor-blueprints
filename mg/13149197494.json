@@ -1,0 +1,131 @@
+{
+ "item": "13149197494",
+ "client": "family-reach",
+ "note": "The plan has captions only from 00:22 to the end and no number card in the school bite. Use these only if Nick asks for more, and prefer the top-band overlays.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Miles every day",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "three to 18 miles every day"
+   },
+   "src": "Nila, 20260820_C4479.MP4 [01:35] “I would walk anywhere from like three to 18 miles every day.”",
+   "rows": [
+    "00:06–00:22"
+   ],
+   "use": "Over Nila as she says it, after the name super is gone at 00:09. Keep the numbers as she says them."
+  },
+  {
+   "n": 2,
+   "title": "Upside down",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "turned everything upside down"
+   },
+   "src": "Jennifer, 20260820_C4479.MP4 [02:46]",
+   "rows": [
+    "00:22–00:32"
+   ],
+   "use": "Over Jennifer as she says it. Start this row at “And when”, never earlier."
+  },
+  {
+   "n": 3,
+   "title": "Focus on Nila",
+   "tpl": "corner_frame",
+   "dur": 4,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:32–00:55"
+   ],
+   "use": "Brackets around Nila at her computer in the B-roll. Move it to where she sits. No number on screen."
+  },
+  {
+   "n": 4,
+   "title": "Stay in school",
+   "tpl": "statement_card",
+   "dur": 4,
+   "text": {
+    "main": "since I decided to stay in school during treatment",
+    "emph": [
+     "school"
+    ]
+   },
+   "src": "Nila, 20260820_C4479.MP4 [06:58]",
+   "rows": [
+    "00:32–00:55"
+   ],
+   "use": "Full-frame cutaway at the start of Nila's school bite. Then back to her or the computer clips."
+  },
+  {
+   "n": 5,
+   "title": "Turn to hope",
+   "tpl": "brand_wipe",
+   "dur": 1.6,
+   "text": {},
+   "src": "Transition, no text.",
+   "rows": [
+    "00:55–01:01"
+   ],
+   "use": "At the end of this row, into Jennifer's next line. Cut at the middle of the wipe. Use it once."
+  },
+  {
+   "n": 6,
+   "title": "Graduate in May",
+   "tpl": "kinetic_quote",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "make sure she was able to graduate in May.",
+    "emph": [
+     "graduate"
+    ]
+   },
+   "src": "Jennifer, 20260820_C4479.MP4 [11:46]",
+   "rows": [
+    "01:01–01:13"
+   ],
+   "use": "On the end of Jennifer's line, over Nila's smile if you have one. Keep captions on."
+  },
+  {
+   "n": 7,
+   "title": "There for each other",
+   "tpl": "statement_card",
+   "dur": 4,
+   "text": {
+    "main": "Our family is stronger because we're there for each other.",
+    "emph": [
+     "stronger"
+    ]
+   },
+   "src": "Sound bite, 20260820_C4479.MP4 [20:02] (speaker not named in the transcript).",
+   "rows": [
+    "01:01–01:13"
+   ],
+   "use": "Only if you add this line to the cut. Full-frame after “graduate in May”, then back to Nila."
+  },
+  {
+   "n": 8,
+   "title": "Find yourself again",
+   "tpl": "word_stack",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "items": [
+     "Find yourself again",
+     "Find your happiness again"
+    ]
+   },
+   "src": "Nila, 20260820_C4479.MP4 [19:36]–[19:40]",
+   "rows": [
+    "01:13–01:21"
+   ],
+   "use": "Each line lands on her word, over her face. Out before the 0.5 s hold."
+  }
+ ]
+}

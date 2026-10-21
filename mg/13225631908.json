@@ -1,0 +1,133 @@
+{
+ "item": "13225631908",
+ "client": "s4s",
+ "mg": [
+  {
+   "n": 1,
+   "title": "RS Eden tag",
+   "tpl": "tag_label",
+   "dur": 2.5,
+   "pos": "upper",
+   "text": {
+    "main": "RS Eden"
+   },
+   "src": "Valerie, 030_3164.MXF [05:25] “my organization is RS Eden”",
+   "rows": [
+    "00:07–00:20"
+   ],
+   "use": "Small tag as she says RS Eden. Only after the hook text and name super are gone."
+  },
+  {
+   "n": 2,
+   "title": "A housing program",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "we are a housing program for parents"
+   },
+   "src": "Valerie, 030_3164.MXF [05:25]",
+   "rows": [
+    "00:07–00:20"
+   ],
+   "use": "Top band, on her words, after the RS Eden tag is gone. Keep captions on."
+  },
+  {
+   "n": 3,
+   "title": "About the shoes",
+   "tpl": "statement_card",
+   "dur": 3,
+   "text": {
+    "main": "I definitely know something about the shoes right now.",
+    "emph": [
+     "shoes"
+    ]
+   },
+   "src": "Valerie, 030_3164.MXF [05:49] (start at “I definitely”)",
+   "rows": [
+    "00:20–00:24"
+   ],
+   "use": "Full-frame cutaway on her line. Then back to her face."
+  },
+  {
+   "n": 4,
+   "title": "See the smile",
+   "tpl": "kinetic_quote",
+   "dur": 4.5,
+   "pos": "top",
+   "text": {
+    "main": "to actually see the smile on the kids' face when they got their shoes.",
+    "emph": [
+     "smile",
+     "shoes"
+    ]
+   },
+   "src": "Valerie, 030_3164.MXF [04:45]",
+   "rows": [
+    "00:24–00:36"
+   ],
+   "use": "Over Valerie as she says it. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "Bring that smile",
+   "tpl": "quote_card",
+   "dur": 4.5,
+   "text": {
+    "main": "just to say I was a part of it to help bring that smile to their face.",
+    "who": "Valerie"
+   },
+   "src": "Valerie, 030_3164.MXF [04:52]",
+   "rows": [
+    "00:24–00:36"
+   ],
+   "use": "Full-frame cutaway on the end of this row, as she says it. We have no kids footage, so this can cover it."
+  },
+  {
+   "n": 6,
+   "title": "3rd year",
+   "tpl": "tag_label",
+   "dur": 1.6,
+   "pos": "upper",
+   "text": {
+    "main": "3rd year"
+   },
+   "src": "Blueprint motion note “3rd year”. Valerie, 030_3164.MXF [05:14] “this is my third year”",
+   "rows": [
+    "00:36–00:37"
+   ],
+   "use": "Small text on “third year”. Only if it stays clean next to the caption."
+  },
+  {
+   "n": 7,
+   "title": "What to expect",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "she didn't know what to expect."
+   },
+   "src": "Valerie, 030_3164.MXF [07:24]",
+   "rows": [
+    "00:37–00:48"
+   ],
+   "use": "Top band, on her words. Stay on her face, the story plays in one piece."
+  },
+  {
+   "n": 8,
+   "title": "Back next year",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "I'll be back next year."
+   },
+   "src": "Valerie, 030_3164.MXF [07:29]",
+   "rows": [
+    "00:37–00:48"
+   ],
+   "use": "On her last line, top band. Stay on her face and hold 0.5 s after it."
+  }
+ ],
+ "note": "The plan for this cut leaves room for only 8 graphics."
+}

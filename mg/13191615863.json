@@ -1,0 +1,36 @@
+{
+ "item": "13191615863",
+ "client": "sfcg",
+ "note": "The client does not want animation in the middle of a video. Use one graphic at most.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Focus on the phone",
+   "tpl": "corner_frame",
+   "dur": 2,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:00–00:03"
+   ],
+   "use": "Only after the hook text goes out. Brackets around the blue phone at his ear, so a new viewer sees it."
+  },
+  {
+   "n": 2,
+   "title": "Pruning hooks card",
+   "tpl": "statement_card",
+   "dur": 3,
+   "text": {
+    "main": "and will beat our spears into pruning hooks.",
+    "emph": [
+     "pruning hooks"
+    ]
+   },
+   "src": "Stranger, MIC0026.MP3 [00:00]–[00:09]",
+   "rows": [
+    "00:03–00:06"
+   ],
+   "use": "Only if neither sign shot is clean. Full frame while he says it, his voice under it. Back to him for the next line."
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "item": "13132978216",
+ "client": "watsi",
+ "note": "The plan says captions only after the question, one text at a time, with push-ins to hide jumps. Use these only if Nick asks for more, in the top band.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Not set up once",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "A Watsi partnership isn't something we set up once and walk away from."
+   },
+   "src": "Kimmy, 20260922_C5065.MP4 [00:03]",
+   "rows": [
+    "00:03–00:13"
+   ],
+   "use": "Only after the question text goes out at 00:05. One text at a time. Keep captions on."
+  },
+  {
+   "n": 2,
+   "title": "More human",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "much more human than that sounds."
+   },
+   "src": "Kimmy, 20260922_C5066.MP4 [00:06]",
+   "rows": [
+    "00:13–00:40"
+   ],
+   "use": "Over Kimmy as she says it. Wait until the Kimmy name super is gone at 00:16."
+  },
+  {
+   "n": 3,
+   "title": "Through treatment",
+   "tpl": "kinetic_quote",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "staying with that patient through treatment.",
+    "emph": [
+     "staying"
+    ]
+   },
+   "src": "Kimmy, 20260922_C5066.MP4 [00:09]",
+   "rows": [
+    "00:13–00:40"
+   ],
+   "use": "Over Kimmy as she says it. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "Philippines tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Philippines"
+   },
+   "src": "Kimmy, 20260922_C5066.MP4 [00:38] “when I was in the Philippines”",
+   "rows": [
+    "00:40–01:10"
+   ],
+   "use": "Small tag on the word Philippines. Not while the Rowela caption beat is up."
+  },
+  {
+   "n": 5,
+   "title": "When it matters most",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "sometimes the relationship matters most when things don't go exactly to plan."
+   },
+   "src": "Kimmy, 20260922_C5066.MP4 [02:06]",
+   "rows": [
+    "01:10–01:33"
+   ],
+   "use": "Over Kimmy at the start of the row. Keep captions on."
+  },
+  {
+   "n": 6,
+   "title": "Local knowledge",
+   "tpl": "quote_card",
+   "dur": 5,
+   "text": {
+    "main": "We rely on partners who have the local knowledge and medical relationships to do that well.",
+    "who": "Kimmy"
+   },
+   "src": "Kimmy, 20260922_C5066.MP4 [01:20]",
+   "rows": [
+    "01:10–01:33"
+   ],
+   "use": "Only if you add this line to the cut, at the head of this row. Keep her voice under it."
+  },
+  {
+   "n": 7,
+   "title": "Staying with the work",
+   "tpl": "word_stack",
+   "dur": 4,
+   "pos": "upper",
+   "text": {
+    "items": [
+     "knowing the patients",
+     "staying with the work"
+    ]
+   },
+   "src": "Kimmy, 20260922_C5067.MP4 [00:09]",
+   "rows": [
+    "01:33–01:52"
+   ],
+   "use": "Each line lands on her word. Keep captions on."
+  }
+ ]
+}

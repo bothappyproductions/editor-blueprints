@@ -1,0 +1,59 @@
+{
+ "item": "12980639118",
+ "client": "niwrc",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Women Are Sacred returns",
+   "tpl": "word_stack",
+   "dur": 4,
+   "pos": "center",
+   "text": {
+    "items": [
+     "Women Are Sacred",
+     "returns."
+    ]
+   },
+   "src": "Planned text build in this blueprint (row 00:03–00:10).",
+   "rows": [
+    "00:03–00:10"
+   ],
+   "use": "This is the planned text build. Each line slams in on a beat. Big and high-contrast."
+  },
+  {
+   "n": 2,
+   "title": "The date stack",
+   "tpl": "word_stack",
+   "dur": 5,
+   "text": {
+    "items": [
+     "October 5–7, 2027",
+     "Pechanga Resort",
+     "Temecula, California"
+    ]
+   },
+   "src": "Planned text stack in this blueprint (row 00:10–00:16) and NIWRC conference details (8 Oct 2026): October 5-7, 2027, Temecula, California.",
+   "rows": [
+    "00:10–00:16"
+   ],
+   "use": "The planned date stack over the held image. Big and clean. Keep the date exactly like this. No day of the week.",
+   "pos": "center"
+  },
+  {
+   "n": 3,
+   "title": "Save the date",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Save the date."
+   },
+   "src": "Planned button text in this blueprint (row 00:16–00:18).",
+   "rows": [
+    "00:16–00:18"
+   ],
+   "use": "Over the same image or the soft darken. Out before 00:18 so the last 2 s stay clean."
+  }
+ ],
+ "note": "Short 20 second text and music teaser where the date is the whole point, so 4 graphics."
+}

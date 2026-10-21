@@ -1,0 +1,273 @@
+{
+ "id": "13190047726",
+ "client": "mha",
+ "eyebrow": "MHA Nebraska · MHA office, Lincoln · 9 Sep 2026 · Story of Hope",
+ "title": "Hailey:",
+ "title_q": "“You're in It for the Money, and I'm Not”",
+ "title_short": "Hailey · Not In It for the Money",
+ "editor": "Bleron",
+ "due": "2026-10-23",
+ "format": "9:16 only · 1080×1920",
+ "length": "about 60 s",
+ "edit_key": "MHAHaileyNotInItForTheMoney001",
+ "headline": "A caller says she is only in it for the money. She is not. She was at her own bottom once.",
+ "story": [
+  "A warm line caller keeps telling Hailey she is only in it for the money. <b>She is not.</b> She thought her life would be spent “sad in the dark hole” she created, until MHA showed her she was built for better things.",
+  "Now she gets to see people go from their bottom to where they want to be. <b>“That's why I do it.”</b> It must feel <b>warm and sure</b>, a little bit defiant, and hopeful."
+ ],
+ "feel": [
+  "Warm",
+  "Sure",
+  "Honest",
+  "Hopeful"
+ ],
+ "do": [
+  "Open on frame 1 with the warm line caller line. Hook text on frame 1.",
+  "Use the warm line phone for 2 seconds only. Phone, no person.",
+  "Stay on her face for her own story.",
+  "Cut “we don't care” (02:16) out of the “It wasn't until I came to MHA” line.",
+  "Hold 1 second after “that's why I do it”."
+ ],
+ "dont": [
+  "No “try an online therapist” (02:31). MHA is peer support, not therapy.",
+  "No “put your hand out” line (02:38). Barbara and Jen already have the reach-out story.",
+  "No WRAP answers (03:31–05:31). They belong to the WRAP video.",
+  "Do not show the other peer's face from the warm line clip as if she were Hailey.",
+  "No second aspect ratio. 9:16 only."
+ ],
+ "links": {
+  "brief": {
+   "title": "MHA × Happy Productions — September Production Brief (Sept 9–10, 2026)",
+   "url": "https://docs.google.com/document/d/1HjXrf_i7y5gj1c8NrpU9wkAdVBrN8U6DcBOuMCmGOcI/edit",
+   "note": "The plan for both shoot days: who was interviewed where, and the questions."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Nick owes it. MHA has not suggested one."
+  },
+  "footage": {
+   "title": "Hailey Staff Interview",
+   "url": "https://drive.google.com/drive/folders/1IBGA9YEhEpa0kB3UWM5gX-H-NTmFBsvt",
+   "note": "20260909_C4585.MP4, 5:54, one camera, Hailey only."
+  }
+ },
+ "bp_intro": "All interview times are in <span class=\"mono\">20260909_C4585.MP4</span> (5:54, one camera, Hailey only). Times come from the caption file. Times with ≈ fall inside a caption line, so find them on the waveform. Frames from this file could not be pulled for this page (Drive download was blocked), so shot notes come from visual.json and the brief doc. Check them on scrub.",
+ "rows": [
+  {
+   "tc": "00:00–00:07",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Hailey already talking on frame 1 (visual.json: a woman with red hair in front of the MHA Nebraska sign). At about <span class=\"mono\">00:02</span> cut for 2 s to C4689 00:00–00:04 (visual.json: the warm line phone on a wooden table, close). Phone only. Back on her face for “and I'm not”.",
+   "motion": "Hook text on <b>frame 1</b>, top third: <q>IN IT FOR THE MONEY?</q> Off at <span class=\"mono\">00:05</span>. Write “warm line” in small letters.",
+   "voice": {
+    "who": "Hailey",
+    "quote": "I have a warm line caller and he's always like, you're in it for the money and I'm not.",
+    "src": "C4585 02:47.46–02:54.26"
+   },
+   "sfx": "Room tone from the clip only. No phone ring sound effect.",
+   "music": "<span class=\"none\">Silent. Music has not started.</span>"
+  },
+  {
+   "tc": "00:07–00:18",
+   "beat": "WHY SHE DOES IT",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "On Hailey. On “the people I work with” cut to C4582 00:22–01:08 (visual.json: Hailey at the staff table with the team). Back to her for the end of the line.",
+   "motion": "<b>Name super</b> at <span class=\"mono\">00:08–00:11</span>, lower left, above the captions: <q>Hailey · MHA Nebraska</q>. No job title until Amber gives one.",
+   "voice": {
+    "who": "Hailey",
+    "quote": "I love the people I work with. I love the people I get to support, you know, learning people's stories and where they came from and where they're going, you know, is so important.",
+    "src": "C4585 02:55.14–03:06.48"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<b>Music enters</b> on “I love the people”. One warm, low layer."
+  },
+  {
+   "tc": "00:18–00:29",
+   "beat": "HER OWN BOTTOM",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Stay on her face. She is telling her own story. No B-roll.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Hailey",
+    "quote": "there was a long time where I didn't believe I could recover. I didn't know what recovery looked like. … I thought my life was meant to be spent sad in the dark hole that I created.",
+    "src": "C4585 ≈01:50–01:55.68 + 01:58.10–02:02.92"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Pull the bed down. Very quiet."
+  },
+  {
+   "tc": "00:29–00:45",
+   "beat": "BUILT FOR BETTER",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "On Hailey. Stop at “happens to you”. Cut the next three words, “we don't care” (≈02:16.2–02:17.9). Alone they sound wrong. On “better things” cut to C4583 00:00–00:02 (visual.json: Hailey smiles at the table).",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Hailey",
+    "quote": "It wasn't until I came to MHA that I really was able to be shown that it doesn't matter what you go through, it doesn't matter what happens to you … We know that as a human you're built for better things and we want to help you reach that potential.",
+    "src": "C4585 02:06.18–≈02:16.2 + 02:19.22–02:25.23"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<b>Bed comes back up</b> on “built for better things”."
+  },
+  {
+   "tc": "00:45–00:57",
+   "beat": "BUTTON",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Straight on her face. Hold 1 s after “that's why I do it”.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Hailey",
+    "quote": "I love to see people who I met when they were at their bottom, you know, I get to see them go to where they wanted to be and that's why I do it.",
+    "src": "C4585 03:07.28–03:17.80"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Gentle peak. Resolve on “why I do it”."
+  },
+  {
+   "tc": "00:57–01:00",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Clean end card. Pale sage <span class=\"mono\">#E8EFD4</span> background.",
+   "motion": "<b>MHA Nebraska · Intentional Peer Support</b>, then <b>mha-ne.org</b> under it, dark olive <span class=\"mono\">#4A5325</span>. Add the MHA turtle logo only from a real logo file (ask Nick). Never rebuild it from a poster shot. No phone number.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Last note rings out. 1 s fade."
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/1HjXrf_i7y5gj1c8NrpU9wkAdVBrN8U6DcBOuMCmGOcI/edit\">MHA × Happy Productions — September Production Brief (Sept 9–10, 2026)</a>"
+  ],
+  [
+   "Reference",
+   "Not chosen yet. Nick owes it."
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/1-B8N77LRfWIqQIyZaqP4ULirziTGsyye\">MHA September 2026</a> · Day 1 = Lincoln office + Keya House (9 Sep), Day 2 = facilities + Terrapin Station (10 Sep)"
+  ],
+  [
+   "Clip",
+   "<a href=\"https://drive.google.com/file/d/15L8IYqerGA5Ln09tNdGnv5rzLsBQPhfY/view\">20260909_C4585.MP4</a> · Day 1 › MHA Office › Hailey Staff Interview · 2.4 GB"
+  ],
+  [
+   "B-roll",
+   "<a href=\"https://drive.google.com/file/d/1vYhl92cFKpB0Hg33QZ9xp7wdosknfN4x/view\">C4689</a> (warm line phone, Day 1 › Keya House) · <a href=\"https://drive.google.com/file/d/1FERRRN7OpKeacEM9naaq3xOYq2y-pUnD/view\">C4582</a> · <a href=\"https://drive.google.com/file/d/1d3uiMeuar3KalEnwk-nYUbqoTzrxyyvE/view\">C4583</a> (staff morning group, Day 1 › MHA Office)"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1slc3h_tunJpPe-emrQDCpJHIAUcVbDGaAyyHzc54FKM/edit\">Hailey Staff Interview Transcript</a> · some of her lines are labelled “Interviewer”. Trust the voice."
+  ],
+  [
+   "Captions",
+   "<a href=\"https://drive.google.com/file/d/12lCgxMSXOvQhPkb4vQ0V2z9QgEXJPbVY/view\">Hailey Staff Interview.captions.srt</a> (timings used above)"
+  ],
+  [
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/1LPvkYhfYN8ag7eJufhcWIcOZ4QtINeVU/view\">EditTranscripts/visual.json</a> · coarse. Frames on this page win. It says the picture is blurred after 04:25. Checked frames show it is sharp."
+  ],
+  [
+   "Brand",
+   "No brand guide and no logo file from MHA yet. <a href=\"https://drive.google.com/drive/folders/1rfJ4ffV0PmCxgoTuFwXTJYvmb9AxvV5q\">Editing Assets</a> has only placeholder notes. Colors and fonts come from mha-ne.org: olive <span class=\"mono\">#798E36</span>, dark olive <span class=\"mono\">#4A5325</span>, pale sage <span class=\"mono\">#E8EFD4</span>. Fonts: Gloock (titles only), Schibsted Grotesk (captions)."
+  ],
+  [
+   "Music",
+   "Not chosen in the brief. Use a licensed track only and save the license with the project. MHA asked for lower music levels before."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "1920×1080 camera files. The probe of this file did not run. The other interviews from this shoot (C4824, C4826) read 59.94 fps. Check this file in your NLE before you build the timeline."
+  ],
+  [
+   "Timeline",
+   "1080×1920 at <b>29.97 fps</b>. 59.94 halves cleanly to 29.97. Conform every B-roll clip to real time. No accidental slow motion."
+  ],
+  [
+   "Crop",
+   "A 9:16 crop of 1080p is 608 px wide, so it is already upscaled 1.78×. Keep punch-ins at 110% or less. Sharpen lightly."
+  ],
+  [
+   "Audio",
+   "Lav into camera, 2 channels. Not measured for this page. Solo each channel and keep the clean one. Map it to both sides."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. Music 18–20 dB under the voice. MHA asked for lower music before."
+  ],
+  [
+   "Captions",
+   "Schibsted Grotesk Bold, white, soft shadow. Max 2 lines. One fixed position in the bottom third, above the bottom 20% (app buttons). Every caption starts on the same line. No clipped words. No repeated words."
+  ],
+  [
+   "Hook text",
+   "Schibsted Grotesk Bold, white, on an olive <span class=\"mono\">#798E36</span> box, top third. Cut on. No animation longer than 6 frames."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920, about 16 Mbps. One file, 9:16 only."
+  ]
+ ],
+ "checklist": [
+  "Read every caption against the audio. No clipped last word. No word typed twice.",
+  "The caption block stays in one place for the whole video. Every caption starts on the same line.",
+  "WRAP is always in capitals. Honu and Keya are spelled like this. The transcript writes “rap”, “HANU”, “KEA”.",
+  "No “patient”, “treatment”, “therapy”, “clinic”, “inmate” or “offender” in any text you write on screen.",
+  "At 0:00 there is only the person talking and the hook text. No logo, no name, no fade.",
+  "The end card says mha-ne.org. Not mhanebraska.org.",
+  "No street sign, house number or address is readable in any shot.",
+  "“we don't care” (02:16) is cut out of the MHA line.",
+  "The warm line shot shows the phone only, no face.",
+  "The name spelling (Hailey, Haley) is confirmed by Amber Pendley before export."
+ ],
+ "decisions": [
+  {
+   "t": "No visual reference on this shoot",
+   "b": "Production Planning row 12324447439 still has an empty Reference link. Owner Nick. A producer has to pick it. Claire does not."
+  },
+  {
+   "t": "Name and title on the super",
+   "b": "The folder says “Hailey”, the transcript says “Haley”, the April list says “Hailey Cappell”, the pre-production call list says “Haylee Aldridge”. Amber Pendley has to confirm the spelling, and her job title if she wants one on the super."
+  },
+  {
+   "t": "End card logo",
+   "b": "There is no MHA logo file in Editing Assets. Someone has to send the real file, or the end card is text only."
+  }
+ ],
+ "client_note": "<b>Why this matters for Hailey:</b> MHA calls itself the best kept secret in Lincoln. This shows who their people really are: peers with lived experience, not people who see it as just a job.",
+ "ask_examples": [
+  "Which three words do I cut from the MHA line?",
+  "Can I show the person in the warm line clip?",
+  "How do I spell her name?",
+  "Which lines belong to the WRAP video?"
+ ],
+ "transcript": "Auto-transcript of 20260909_C4585.MP4 (Hailey, MHA office, Lincoln, 9 Sep 2026). Times are mm:ss in the source file. Speaker labels removed: many are wrong. The transcript writes \"Haley\", \"HANU\", \"KEA\" and \"rap\"; the right words are Honu, Keya and WRAP. Her name spelling is not confirmed.\n[00:00] (Interviewer) All right, well we are good whenever we're ready. So if you want to start by introducing yourself to the camera, your name and position at MHA.\n[00:10] Yeah, I'm Haley, obviously I work at MHA, I work at HANU, sometimes I work at KEA, but mostly HANU.\n[00:17] (Interviewer) And how did you first come across MHA?\n[00:20] So I was introduced to MHA, I want to say it was 2020, by another employee and it has been basically a home ever since.\n[00:33] They're welcoming, they are kind.\n[00:36] It's a great organization and I split with MHA once before, but I found my way back and I plan on sticking around because it's the best place I've ever worked.\n[00:49] (Interviewer) What makes peer support different from traditional support?\n[00:53] I think peer support is important because it's about connecting with other people instead of just supporting other people.\n[01:01] We really go the extra mile in making sure that we understand where you're at, not just what you're going through.\n[01:09] We want to support you as a whole instead of maybe just an incident that happened.\n[01:16] (Interviewer) Is there any moments from MHA that you still think about, funny stories, things that have stuck with you?\n[01:25] I used to do the rap groups in the jail and those are never boring.\n[01:31] You meet some really awesome characters and every day at MHA is memorable, I think.\n[01:38] (Interviewer) What would you say to someone that doesn't believe that they can recover?\n[01:43] Honestly, you know, there was a long time where I didn't believe I could recover.\n[01:54] I didn't know what recovery looked like.\n[01:58] I thought my life was meant to be spent sad in the dark hole that I created.\n[02:06] It wasn't until I came to MHA that I really was able to be shown that it doesn't matter what you go through, it doesn't matter what happens to you, we don't care.\n[02:19] We know that as a human you're built for better things and we want to help you reach that potential.\n[02:26] And so I'd say MHA, man, give MHA a try.\n[02:31] I mean, and if you don't want to try MHA, try an online therapist, you know? Something. Anything.\n[02:38] Just put your hand out and someone will grab it.\n[02:41] (Interviewer) What do you think people get wrong about this work?\n[02:45] That we're in it for the money.\n[02:47] I have a warm line caller and he's always like, you're in it for the money and I'm not.\n[02:55] I love the people I work with.\n[02:57] I love the people I get to support, you know, learning people's stories and where they came from and where they're going, you know, is so important.\n[03:07] I love to see people who I met when they were at their bottom, you know, I get to see them go to where they wanted to be and that's why I do it.\n[03:19] (Interviewer) If someone watching has never heard of MHA, what is one thing that they should know?\n[03:27] They're inclusive of everybody.\n[03:31] (Interviewer) How has rap impacted your life?\n[03:37] When I was introduced to rap, I didn't, you know, like Amber was saying earlier, I didn't know what I looked like on a good day.\n[03:45] Rap taught me to kind of look at things in a different perspective.\n[03:51] I'm able to see, you know, what I look like when I'm doing good.\n[03:56] Or, you know, it was only when I was bad, you know, I could easily identify those things and now it's, you know, I'm confident that I'm good at these things.\n[04:08] You know, these are parts of my life that I can look at and know instead of just looking past and yeah, does that make sense?\n[04:20] (Interviewer) Next question, if you were selling rap to an organization ... how would you sell rap to them? How does it benefit MHA, basically?\n[04:41] You know what, I think rap teaches everyone that we don't look the same, you know, and just because you might be having, okay, say we're all having great days. They all look different, you know?\n[04:58] And it doesn't matter if you showed up to work and didn't brush your teeth or you showed up to work and you brushed your teeth and did your hair, you know? We both showed up to work, we're both putting the work in and that's what's important.\n[05:12] Rap kind of makes things reachable and that's what I love about it. It's not some crazy set plan that someone gives you, you know? It's attainable, it's set by you and it's made for you and that's why I think you should use it.\n[05:31] (Crew talk after the interview, 05:31–05:54.)"
+}

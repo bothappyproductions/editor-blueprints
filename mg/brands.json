@@ -1,0 +1,638 @@
+{
+ "nfte": {
+  "google": "DM+Sans:wght@500;700;800",
+  "head": {
+   "css": "\"DM Sans\"",
+   "w": 800
+  },
+  "body": {
+   "css": "\"DM Sans\"",
+   "w": 700
+  },
+  "pal": {
+   "bg": "#4C12A1",
+   "ac": "#FF5C39",
+   "ac2": "#49B6E3"
+  },
+  "font_note": "NFTE's font is Circular. We have no file, so these use DM Sans, the closest free match.",
+  "rules": [
+   "NFTE always in capitals.",
+   "No city on screen.",
+   "Transitions show footage, never black."
+  ],
+  "colors": [
+   [
+    "NFTE Purple",
+    "#4C12A1"
+   ],
+   [
+    "NFTE Orange",
+    "#FF5C39"
+   ],
+   [
+    "Sky Blue",
+    "#49B6E3"
+   ],
+   [
+    "White",
+    "#FFFFFF"
+   ]
+  ]
+ },
+ "watsi": {
+  "google": "Lato:wght@400;700;900",
+  "head": {
+   "css": "\"Lato\"",
+   "w": 900
+  },
+  "body": {
+   "css": "\"Lato\"",
+   "w": 700
+  },
+  "pal": {
+   "bg": "#D3EDFA",
+   "fg": "#2E2844",
+   "ac": "#11BAED",
+   "ac2": "#FFCC33"
+  },
+  "font_note": "Lato, Watsi's own font.",
+  "rules": [
+   "Navy is for text only, never a background.",
+   "One brand element at a time.",
+   "No sci-fi or AI-looking graphics."
+  ],
+  "colors": [
+   [
+    "Watsi Cyan",
+    "#11BAED"
+   ],
+   [
+    "Light Cyan",
+    "#D3EDFA"
+   ],
+   [
+    "Yellow",
+    "#FFCC33"
+   ],
+   [
+    "Dark Navy (text)",
+    "#2E2844"
+   ]
+  ]
+ },
+ "aij": {
+  "google": "Inter:wght@500;700;800;900",
+  "head": {
+   "css": "\"Inter\"",
+   "w": 900
+  },
+  "body": {
+   "css": "\"Inter\"",
+   "w": 600
+  },
+  "pal": {
+   "bg": "#163966",
+   "ac": "#EE2F26",
+   "ac2": "#17305A"
+  },
+  "font_note": "AIJ headlines use Filson Pro (no file here), so headlines use Inter Black. Body text is Inter, their own body font.",
+  "rules": [
+   "Red is an accent only.",
+   "Organization name always in full: Americans for Immigrant Justice."
+  ],
+  "colors": [
+   [
+    "Brand navy",
+    "#163966"
+   ],
+   [
+    "Brand red (accent)",
+    "#EE2F26"
+   ],
+   [
+    "Dark navy",
+    "#17305A"
+   ],
+   [
+    "White",
+    "#FFFFFF"
+   ]
+  ]
+ },
+ "freedom-reads": {
+  "google": "Inter:wght@500;700;800",
+  "head": {
+   "css": "\"Inter\"",
+   "w": 800
+  },
+  "body": {
+   "css": "\"Inter\"",
+   "w": 500
+  },
+  "pal": {
+   "bg": "#F2EBE8",
+   "fg": "#292424",
+   "ac": "#FF9632",
+   "ac2": "#FFE4B8",
+   "txt": "#FFFFFF"
+  },
+  "font_note": "Freedom Reads uses Metric2 and Redaction (licensed, no file here), so these use Inter.",
+  "rules": [
+   "Charcoal text on off-white or cream.",
+   "Book titles exactly as printed."
+  ],
+  "colors": [
+   [
+    "Off-white",
+    "#F2EBE8"
+   ],
+   [
+    "Warm cream",
+    "#FFE4B8"
+   ],
+   [
+    "Warm charcoal",
+    "#292424"
+   ],
+   [
+    "Orange pop",
+    "#FF9632"
+   ]
+  ]
+ },
+ "kiva": {
+  "google": "Inter:wght@500;700;800",
+  "head": {
+   "css": "\"Inter\"",
+   "w": 800
+  },
+  "body": {
+   "css": "\"Inter\"",
+   "w": 500
+  },
+  "pal": {
+   "bg": "#223829",
+   "ac": "#2AA967",
+   "ac2": "#4FAF4E"
+  },
+  "font_note": "Kiva uses Post Grotesk (no file here), so these use Inter.",
+  "rules": [
+   "No corporate or stock look.",
+   "Logo only in a top corner, never here."
+  ],
+  "colors": [
+   [
+    "Dark forest green",
+    "#223829"
+   ],
+   [
+    "Kiva green",
+    "#2AA967"
+   ],
+   [
+    "Kiva green (site)",
+    "#4FAF4E"
+   ],
+   [
+    "Light mint",
+    "#EDF4F1"
+   ]
+  ]
+ },
+ "lions": {
+  "google": "Arimo:wght@400;700",
+  "head": {
+   "css": "\"Arimo\"",
+   "w": 700
+  },
+  "body": {
+   "css": "\"Arimo\"",
+   "w": 700
+  },
+  "pal": {
+   "bg": "#0A3DAB",
+   "ac": "#F9C910",
+   "ac2": "#00338D",
+   "onAc": "#000000"
+  },
+  "restraint": true,
+  "font_note": "Lions uses Helvetica Neue. These use Arimo, which has the same letter widths.",
+  "caution": "Jacqui asked for much simpler graphics, or none (8 Oct). These are kept plain. Only cut one in if the video needs it.",
+  "rules": [
+   "White text on the blues, black text on the yellows.",
+   "Graphics much simpler, or none."
+  ],
+  "colors": [
+   [
+    "Primary blue",
+    "#0A3DAB"
+   ],
+   [
+    "Primary yellow",
+    "#F9C910"
+   ],
+   [
+    "Heritage blue",
+    "#00338D"
+   ],
+   [
+    "White",
+    "#FFFFFF"
+   ]
+  ]
+ },
+ "mha": {
+  "google": "Gloock|Schibsted+Grotesk:wght@500;700;800",
+  "head": {
+   "css": "\"Gloock\"",
+   "w": 400
+  },
+  "body": {
+   "css": "\"Schibsted Grotesk\"",
+   "w": 700
+  },
+  "pal": {
+   "bg": "#798E36",
+   "ac": "#E8EFD4",
+   "ac2": "#4A5325",
+   "onAc": "#4A5325"
+  },
+  "font_note": "MHA's own fonts: Gloock for headings, Schibsted Grotesk for body.",
+  "rules": [
+   "Never the orange from their website.",
+   "No logo (no file yet)."
+  ],
+  "colors": [
+   [
+    "Primary olive",
+    "#798E36"
+   ],
+   [
+    "Dark olive",
+    "#4A5325"
+   ],
+   [
+    "Pale sage",
+    "#E8EFD4"
+   ],
+   [
+    "Gold-ochre",
+    "#93813C"
+   ]
+  ]
+ },
+ "s4s": {
+  "google": "Roboto:wght@500;700;900",
+  "head": {
+   "css": "\"Roboto\"",
+   "w": 900
+  },
+  "body": {
+   "css": "\"Roboto\"",
+   "w": 700
+  },
+  "pal": {
+   "bg": "#62CCBF",
+   "fg": "#000000",
+   "ac": "#000000",
+   "onAc": "#FFFFFF",
+   "ac2": "#F8FAF9",
+   "txt": "#FFFFFF"
+  },
+  "font_note": "Soles4Souls titles use Buenos Aires (no file here), so titles use Roboto Black. Body is Roboto, their own body font.",
+  "rules": [
+   "Black text on teal. Never white on teal.",
+   "Big, readable text."
+  ],
+  "colors": [
+   [
+    "S4S Teal",
+    "#62CCBF"
+   ],
+   [
+    "Black",
+    "#000000"
+   ],
+   [
+    "Off-white",
+    "#F8FAF9"
+   ],
+   [
+    "White",
+    "#FFFFFF"
+   ]
+  ]
+ },
+ "sfcg": {
+  "google": "Inter:wght@500;700;800;900",
+  "head": {
+   "css": "\"Inter\"",
+   "w": 900
+  },
+  "body": {
+   "css": "\"Inter\"",
+   "w": 600
+  },
+  "pal": {
+   "bg": "#1E6FD6",
+   "ac": "#00BDFF",
+   "ac2": "#003E74",
+   "onAc": "#003E74"
+  },
+  "restraint": true,
+  "font_note": "SFCG uses a heavy grotesque (Neue Haas Grotesk class, no file here), so these use Inter Black.",
+  "caution": "Kalindi called animation in the middle of a video “inauthentic”. These are kept simple. Use one only where a line needs it.",
+  "rules": [
+   "Blue-forward, never only black and white.",
+   "Yellow is for donate buttons only."
+  ],
+  "colors": [
+   [
+    "Caption blue",
+    "#1E6FD6"
+   ],
+   [
+    "Light cyan",
+    "#00BDFF"
+   ],
+   [
+    "Dark navy",
+    "#003E74"
+   ],
+   [
+    "White",
+    "#FFFFFF"
+   ]
+  ]
+ },
+ "wny-womens-foundation": {
+  "google": "Roboto:wght@500;700;900",
+  "head": {
+   "css": "\"Roboto\"",
+   "w": 900
+  },
+  "body": {
+   "css": "\"Roboto\"",
+   "w": 700
+  },
+  "pal": {
+   "bg": "#872175",
+   "ac": "#EA6E1D",
+   "ac2": "#04B4B4"
+  },
+  "font_note": "WNYWF has not settled its font (Rubato or Roboto), so these use Roboto.",
+  "rules": [
+   "#872175 is the video color, white text on it."
+  ],
+  "colors": [
+   [
+    "Video purple",
+    "#872175"
+   ],
+   [
+    "Orange",
+    "#EA6E1D"
+   ],
+   [
+    "Teal",
+    "#04B4B4"
+   ],
+   [
+    "White",
+    "#FFFFFF"
+   ]
+  ]
+ },
+ "curegrin": {
+  "google": "Inter:wght@500;700;800",
+  "head": {
+   "css": "\"Inter\"",
+   "w": 800
+  },
+  "body": {
+   "css": "\"Inter\"",
+   "w": 600
+  },
+  "pal": {
+   "bg": "#5C3D8D",
+   "ac": "#FFFFFF",
+   "ac2": "#F7F7F8",
+   "onAc": "#5C3D8D"
+  },
+  "font_note": "Colors from curegrin.org (their purple). No brand font on file, so these use Inter.",
+  "rules": [
+   "Never alter the CureGRIN logo lockup (no logos here).",
+   "Titles in Title Case, names spelled from Quinn's list."
+  ],
+  "colors": [
+   [
+    "CureGRIN purple",
+    "#5C3D8D"
+   ],
+   [
+    "White",
+    "#FFFFFF"
+   ],
+   [
+    "Light gray",
+    "#F7F7F8"
+   ]
+  ]
+ },
+ "dream-center-dallas": {
+  "google": "Montserrat:wght@500;700;800",
+  "head": {
+   "css": "\"Montserrat\"",
+   "w": 800
+  },
+  "body": {
+   "css": "\"Montserrat\"",
+   "w": 600
+  },
+  "pal": {
+   "bg": "#75B941",
+   "fg": "#FFFFFF",
+   "ac": "#1F1F1F",
+   "onAc": "#FFFFFF",
+   "ac2": "#FFFFFF"
+  },
+  "font_note": "Dream Center has not sent brand colors or a font yet. The green is from dreamcenterdallas.com. Font is Montserrat as a stand-in.",
+  "caution": "Brand colors are not confirmed by Kacie yet. Fine for a first cut. Swap colors if Nick gets the brand files.",
+  "rules": [
+   "First names only for neighbors.",
+   "Subtitles on every line."
+  ],
+  "colors": [
+   [
+    "Site green",
+    "#75B941"
+   ],
+   [
+    "Near black",
+    "#1F1F1F"
+   ],
+   [
+    "White",
+    "#FFFFFF"
+   ]
+  ]
+ },
+ "family-reach": {
+  "google": "Poppins:wght@500;600;700;800",
+  "head": {
+   "css": "\"Poppins\"",
+   "w": 700
+  },
+  "body": {
+   "css": "\"Poppins\"",
+   "w": 500
+  },
+  "pal": {
+   "bg": "#070751",
+   "ac": "#FF3300",
+   "ac2": "#00449E"
+  },
+  "font_note": "Colors from familyreach.org. Their font is ITC Avant Garde (no file here), so these use Poppins.",
+  "caution": "Family Reach: never change a word of their VO or on-screen text. Every line here is word for word from the footage.",
+  "rules": [
+   "New brand only.",
+   "Hook on frame 1, no card at 0:00."
+  ],
+  "colors": [
+   [
+    "Navy",
+    "#070751"
+   ],
+   [
+    "Orange-red",
+    "#FF3300"
+   ],
+   [
+    "Blue",
+    "#00449E"
+   ],
+   [
+    "Cream",
+    "#F8F3EC"
+   ]
+  ]
+ },
+ "freedom-to-choose": {
+  "google": "Roboto+Condensed:wght@700|Open+Sans:wght@600;700",
+  "head": {
+   "css": "\"Roboto Condensed\"",
+   "w": 700
+  },
+  "body": {
+   "css": "\"Open Sans\"",
+   "w": 700
+  },
+  "pal": {
+   "bg": "#6A3179",
+   "ac": "#FFAE60",
+   "ac2": "#F3EFFE",
+   "onAc": "#2A1030"
+  },
+  "font_note": "Colors and fonts from freedomtochooseproject.org: purple, orange key words, Roboto Condensed and Open Sans.",
+  "rules": [
+   "Purple box, white text, key words orange.",
+   "Logo only at the end."
+  ],
+  "colors": [
+   [
+    "Purple",
+    "#6A3179"
+   ],
+   [
+    "Orange",
+    "#FFAE60"
+   ],
+   [
+    "White",
+    "#FFFFFF"
+   ]
+  ]
+ },
+ "gateway-gaston": {
+  "google": "Montserrat:wght@600;700;800|Lora:wght@600;700",
+  "head": {
+   "css": "\"Montserrat\"",
+   "w": 800
+  },
+  "body": {
+   "css": "\"Montserrat\"",
+   "w": 600
+  },
+  "pal": {
+   "bg": "#175741",
+   "ac": "#FDD79A",
+   "ac2": "#0F392B",
+   "onAc": "#0F392B"
+  },
+  "font_note": "Colors and fonts from gatewaygaston.org (green, Montserrat). No brand guide on file.",
+  "caution": "No brand guide on file. Colors are from their website.",
+  "rules": [
+   "One ask per video: Comment “I'm in”.",
+   "Logo only at the end."
+  ],
+  "colors": [
+   [
+    "Gateway green",
+    "#175741"
+   ],
+   [
+    "Dark green",
+    "#0F392B"
+   ],
+   [
+    "Pale gold",
+    "#FDD79A"
+   ],
+   [
+    "White",
+    "#FFFFFF"
+   ]
+  ]
+ },
+ "niwrc": {
+  "google": "Oswald:wght@500;600;700|Source+Sans+3:wght@600;700",
+  "head": {
+   "css": "\"Oswald\"",
+   "w": 600
+  },
+  "body": {
+   "css": "\"Source Sans 3\"",
+   "w": 700
+  },
+  "pal": {
+   "bg": "#981C20",
+   "ac": "#E7DED5",
+   "ac2": "#4D3271",
+   "onAc": "#231F20"
+  },
+  "font_note": "Colors and fonts from niwrc.org (Oswald, Source Sans). Women Are Sacred 2027 uses Luminos Marker; no license confirmed, so not used.",
+  "rules": [
+   "Captions never over graphic slides.",
+   "No duotone over photos.",
+   "Names and titles exactly as NIWRC gives them."
+  ],
+  "colors": [
+   [
+    "NIWRC red",
+    "#981C20"
+   ],
+   [
+    "Purple",
+    "#4D3271"
+   ],
+   [
+    "Light base",
+    "#E7DED5"
+   ],
+   [
+    "Near black",
+    "#231F20"
+   ]
+  ]
+ }
+}

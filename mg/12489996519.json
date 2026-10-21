@@ -1,0 +1,67 @@
+{
+ "item": "12489996519",
+ "client": "lions",
+ "note": "The plan says captions only, nothing else on screen in the hook, and Jacqui wants much simpler graphics or none, so 4 small top overlays. Only the pin is in the plan; use the rest only if Atdhe asks.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Bayonne pin",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "Bayonne, New Jersey"
+   },
+   "src": "Stephen, IMG_7804.MOV [00:09] “Bayonne Lions Club in New Jersey”. Pin asked for in the blueprint row 00:07–00:12.",
+   "rows": [
+    "00:07–00:12"
+   ],
+   "use": "Use this as the Bayonne pin from 00:08 to 00:10, small, upper left. Never before 0:03."
+  },
+  {
+   "n": 2,
+   "title": "Supportive of Spoken Heroes",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "has been extremely supportive of Spoken Heroes."
+   },
+   "src": "Stephen, IMG_7803.MOV [00:55]",
+   "rows": [
+    "00:23–00:28"
+   ],
+   "use": "Over Stephen as he says it. Keep captions on."
+  },
+  {
+   "n": 3,
+   "title": "All over the world",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "millions of people all over the world"
+   },
+   "src": "Stephen, IMG_7804.MOV [01:30]–[01:37]",
+   "rows": [
+    "00:28–00:35"
+   ],
+   "use": "Over the first half of the line as he says it. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "Keeps the heart warm",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "That keeps the heart warm when you meet all of these amazing people."
+   },
+   "src": "Stephen, IMG_7804.MOV [01:51]",
+   "rows": [
+    "00:35–00:38"
+   ],
+   "use": "Over his face as he says it. Take it off before the 0.5 s hold ends."
+  }
+ ]
+}

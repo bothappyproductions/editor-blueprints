@@ -1,0 +1,67 @@
+{
+ "item": "12489943399",
+ "client": "lions",
+ "note": "The plan keeps her face close with captions only, and Jacqui wants much simpler graphics or none, so 4 small top overlays. Only the pin is in the plan; use the rest only if Atdhe asks.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Colombia pin",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "Colombia"
+   },
+   "src": "Colombia Lion, IMG_8057.MOV [00:09] “Colombia.” Pin asked for in the blueprint row 00:03–00:10.",
+   "rows": [
+    "00:03–00:10"
+   ],
+   "use": "Use this as the Colombia pin from 00:03.5 to 00:05.5, small, upper left. Never before 0:03."
+  },
+  {
+   "n": 2,
+   "title": "I am an optometrist",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "I am an optometrist"
+   },
+   "src": "Colombia Lion, IMG_8057.MOV [00:18] (English translation)",
+   "rows": [
+    "00:03–00:10"
+   ],
+   "use": "Over her face as she says it, after the pin is gone. Keep captions on."
+  },
+  {
+   "n": 3,
+   "title": "People with low resources",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "we help people with low resources."
+   },
+   "src": "Colombia Lion, IMG_8057.MOV [00:49] (English translation)",
+   "rows": [
+    "00:15–00:25"
+   ],
+   "use": "Over her face as she says it. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "A smile, a hug",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "And sometimes a smile, a hug is more than enough."
+   },
+   "src": "Colombia Lion, IMG_8057.MOV [01:31] (English translation)",
+   "rows": [
+    "00:25–00:37"
+   ],
+   "use": "Over her face as she says it. Take it off before the 0.7 s hold ends."
+  }
+ ]
+}

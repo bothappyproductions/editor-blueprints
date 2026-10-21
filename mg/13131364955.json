@@ -1,0 +1,172 @@
+{
+ "item": "13131364955",
+ "client": "watsi",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Choose a patient",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "the person gets to choose a patient themselves"
+   },
+   "src": "Kat, 20260922_C5051.MP4 [00:25]",
+   "rows": [
+    "00:09–00:22"
+   ],
+   "use": "Over Kat as she says it. Keep captions on. One text at a time."
+  },
+  {
+   "n": 2,
+   "title": "Send a gift card",
+   "tpl": "statement_card",
+   "dur": 5,
+   "text": {
+    "main": "You can send someone a Watsi gift card instead of another thing they don't need or for the person who has everything.",
+    "emph": [
+     "gift card"
+    ]
+   },
+   "src": "Kat, 20260922_C5051.MP4 [00:18]",
+   "rows": [
+    "00:09–00:22"
+   ],
+   "use": "Full-frame cutaway at the start of the row, as she says it. Can hide a jump cut."
+  },
+  {
+   "n": 3,
+   "title": "50 gift cards",
+   "tpl": "stat_counter",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "number": "50",
+    "label": "Watsi gift cards"
+   },
+   "src": "Kat, 20260922_C5051.MP4 [00:47] “they sent 50 Watsi gift cards”",
+   "rows": [
+    "00:22–00:35"
+   ],
+   "use": "Counts up as she says “50 Watsi gift cards”. Keep it in the upper half."
+  },
+  {
+   "n": 4,
+   "title": "Holiday tradition tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Holiday tradition"
+   },
+   "src": "Kat, 20260922_C5051.MP4 [00:42] “The Kerney family actually turned it into a holiday tradition.”",
+   "rows": [
+    "00:22–00:35"
+   ],
+   "use": "Small tag as she says “holiday tradition”. Gone before MG 3."
+  },
+  {
+   "n": 5,
+   "title": "Birthdays, hikes, races",
+   "tpl": "word_stack",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "items": [
+     "Birthdays",
+     "Hikes",
+     "Races"
+    ]
+   },
+   "src": "Kat, 20260922_C5051.MP4 [01:21]",
+   "rows": [
+    "00:35–00:58"
+   ],
+   "use": "Each word lands on her word. Upper half, captions stay on."
+  },
+  {
+   "n": 6,
+   "title": "Big life moments",
+   "tpl": "statement_card",
+   "dur": 5,
+   "text": {
+    "main": "take one of their own big life moments and turn it into a way to help someone else.",
+    "emph": [
+     "big life moments"
+    ]
+   },
+   "src": "Kat, 20260922_C5051.MP4 [01:05]",
+   "rows": [
+    "00:35–00:58"
+   ],
+   "use": "Full-frame cutaway at the start of the row, as she says it. Back to Kat for Reena and Justin."
+  },
+  {
+   "n": 7,
+   "title": "300 patients",
+   "tpl": "stat_counter",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "number": "300",
+    "label": "patients"
+   },
+   "src": "Kat, 20260922_C5051.MP4 [02:54] “they have now helped 300 patients”",
+   "rows": [
+    "00:58–01:19"
+   ],
+   "use": "Counts up on “300 patients”. Once, as one example."
+  },
+  {
+   "n": 8,
+   "title": "Give your time",
+   "tpl": "statement_card",
+   "dur": 3,
+   "text": {
+    "main": "You can also give your time.",
+    "emph": [
+     "your time"
+    ]
+   },
+   "src": "Kat, 20260922_C5057.MP4 [00:51]",
+   "rows": [
+    "01:19–01:42"
+   ],
+   "use": "Short full-frame cutaway on the first line of the row. It can hide the jump into this take."
+  },
+  {
+   "n": 9,
+   "title": "A bit of time",
+   "tpl": "kinetic_quote",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "It's a few hours, a skill, or a bit of time.",
+    "emph": [
+     "skill",
+     "time"
+    ]
+   },
+   "src": "Kat, 20260922_C5057.MP4 [01:13]",
+   "rows": [
+    "01:19–01:42"
+   ],
+   "use": "Over Kat at the end of the row. Words pop in with her voice."
+  },
+  {
+   "n": 10,
+   "title": "Your people",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "You can give your creativity, your time, or your people."
+   },
+   "src": "Kat, 20260922_C5057.MP4 [02:36]",
+   "rows": [
+    "01:42–01:59"
+   ],
+   "use": "Over Kat on the last line of the row. Gone before the button."
+  }
+ ]
+}

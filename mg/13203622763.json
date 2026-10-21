@@ -1,0 +1,122 @@
+{
+ "item": "13203622763",
+ "client": "s4s",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Two boxes",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "he would just bring two boxes out"
+   },
+   "src": "Tyree, 030_3158.MXF [01:28]",
+   "rows": [
+    "00:07–00:15"
+   ],
+   "use": "Over his face as he says it, after the hook text is off. Keep captions on."
+  },
+  {
+   "n": 2,
+   "title": "Travis Scotts tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Travis Scotts"
+   },
+   "src": "Tyree, 030_3158.MXF [01:57] “I picked the Travis Scott's”. Spelled as the blueprint captions it.",
+   "rows": [
+    "00:15–00:24"
+   ],
+   "use": "Small tag on the Nike box cover shot, or on his face as he names them."
+  },
+  {
+   "n": 3,
+   "title": "Shoe game",
+   "tpl": "word_stack",
+   "dur": 3,
+   "pos": "upper",
+   "upper": true,
+   "text": {
+    "items": [
+     "I'm growing",
+     "my shoe game"
+    ]
+   },
+   "src": "Tyree, 030_3158.MXF [01:57]–[01:59]",
+   "rows": [
+    "00:15–00:24"
+   ],
+   "use": "Each line lands on his word, after the tag is gone. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "Everybody at school",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "everybody at school is going to see them."
+   },
+   "src": "Tyree, 030_3158.MXF [02:32]",
+   "rows": [
+    "00:24–00:33"
+   ],
+   "use": "Over his face on the 110% punch-in, as he says it."
+  },
+  {
+   "n": 5,
+   "title": "Can't wait",
+   "tpl": "statement_card",
+   "dur": 3,
+   "upper": true,
+   "text": {
+    "main": "I just can't wait to put them on, man.",
+    "emph": [
+     "can't wait"
+    ]
+   },
+   "src": "Tyree, 030_3158.MXF [02:35]",
+   "rows": [
+    "00:24–00:33"
+   ],
+   "use": "Short full-frame cutaway on his last line of the row, then back to his face. Keep “man”."
+  },
+  {
+   "n": 6,
+   "title": "Thank my mom",
+   "tpl": "kinetic_quote",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "I just want to thank my mom and everything for bringing me here today.",
+    "emph": [
+     "mom"
+    ]
+   },
+   "src": "Tyree, 030_3158.MXF [03:03]–[03:08]",
+   "rows": [
+    "00:33–00:50"
+   ],
+   "use": "Over his face at the end of the row. Words land on his voice."
+  },
+  {
+   "n": 7,
+   "title": "Y'all are amazing",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Y'all are amazing"
+   },
+   "src": "Tyree, 030_3158.MXF [03:52]",
+   "rows": [
+    "00:50–00:55"
+   ],
+   "use": "Over his face as he says it. Gone before the last shoe shot."
+  }
+ ],
+ "note": "The plan for this cut leaves room for only 9 graphics."
+}

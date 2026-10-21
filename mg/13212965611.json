@@ -1,0 +1,135 @@
+{
+ "item": "13212965611",
+ "client": "s4s",
+ "mg": [
+  {
+   "n": 1,
+   "title": "S4S teal wipe",
+   "tpl": "brand_wipe",
+   "dur": 1.6,
+   "text": {},
+   "src": "Transition, no text.",
+   "rows": [
+    "00:00–00:07"
+   ],
+   "use": "Only after the hook text goes out. Cut to 030_3174 at the middle of the wipe. Use it once."
+  },
+  {
+   "n": 2,
+   "title": "Out of my comfort zone",
+   "tpl": "statement_card",
+   "dur": 4,
+   "text": {
+    "main": "it has helped me get out of my comfort zone.",
+    "emph": [
+     "comfort zone"
+    ]
+   },
+   "src": "Jasmine, 030_3174.MXF [00:14]",
+   "rows": [
+    "00:07–00:21"
+   ],
+   "use": "Full-frame cutaway on “comfort zone”, then back to her face. It can hide the 108% punch-in cut."
+  },
+  {
+   "n": 3,
+   "title": "More outgoing",
+   "tpl": "word_stack",
+   "dur": 3.5,
+   "pos": "upper",
+   "text": {
+    "items": [
+     "More outgoing.",
+     "Talk to people."
+    ]
+   },
+   "src": "Jasmine, 030_3174.MXF [00:27] “But now I'm like more outgoing. I can talk to people.”",
+   "rows": [
+    "00:07–00:21"
+   ],
+   "use": "Top band. Each line lands on her word. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "12th grade tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "12th grade"
+   },
+   "src": "Jasmine, 030_3174.MXF [00:41] “I'm in 12th grade now”",
+   "rows": [
+    "00:21–00:30"
+   ],
+   "use": "Small tag on “12th grade”. Upper area, away from the captions."
+  },
+  {
+   "n": 5,
+   "title": "Head high",
+   "tpl": "highlight_callout",
+   "dur": 3.5,
+   "pos": "top",
+   "text": {
+    "main": "I can walk with my head high."
+   },
+   "src": "Jasmine, 030_3174.MXF [01:00]–[01:03]",
+   "rows": [
+    "00:30–00:39"
+   ],
+   "use": "Top band over Jasmine as she says it. Black text on the teal bar. End this part on her face."
+  },
+  {
+   "n": 6,
+   "title": "Focus on the shoes",
+   "tpl": "corner_frame",
+   "dur": 3,
+   "box": [
+    0.2,
+    0.45,
+    0.6,
+    0.3
+   ],
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:39–00:45"
+   ],
+   "use": "Frames the shoes when she opens the box. Move it to where the shoes sit."
+  },
+  {
+   "n": 7,
+   "title": "Cool enough",
+   "tpl": "kinetic_quote",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "I think I'm going to look cool enough.",
+    "emph": [
+     "cool"
+    ]
+   },
+   "src": "Jasmine, 030_3173.MXF [02:35]",
+   "rows": [
+    "00:39–00:45"
+   ],
+   "use": "Top band, back on her face for the end of the line. Keep captions on."
+  },
+  {
+   "n": 8,
+   "title": "So happy",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "I'm so happy that I got these shoes."
+   },
+   "src": "Jasmine, 030_3173.MXF [03:09]",
+   "rows": [
+    "00:45–00:51"
+   ],
+   "use": "Top band over her face on the last line. Out by the end of the 0.7 s hold."
+  }
+ ],
+ "note": "The plan for this cut leaves room for only 9 graphics."
+}

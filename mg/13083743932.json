@@ -1,0 +1,107 @@
+{
+ "item": "13083743932",
+ "client": "mha",
+ "note": "The plan wants one text card only (Stay up to 5 days · 24/7 peer support), captions only on the other rows, and the face or B-roll of what is said. MG 2 is that card. Use the rest only if Nick asks for more.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Lincoln tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Lincoln, Nebraska"
+   },
+   "src": "Amber Pendley, 20260909_C4695.MP4 [00:30] “in Lincoln, Nebraska”",
+   "rows": [
+    "00:00–00:07"
+   ],
+   "use": "Only after the hook text goes out at 00:04, as she says it. Never a street or address with it."
+  },
+  {
+   "n": 2,
+   "title": "Up to 5 days card",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "Stay up to 5 days · 24/7 peer support"
+   },
+   "src": "Text card written in this blueprint. Amber Pendley, 20260909_C4695.MP4 [00:53] “for up to five days”.",
+   "rows": [
+    "00:07–00:25"
+   ],
+   "use": "The one text card, on “up to five days”. Once only. Keep captions on."
+  },
+  {
+   "n": 3,
+   "title": "Focus on the phones",
+   "tpl": "corner_frame",
+   "dur": 2,
+   "box": [
+    0.2,
+    0.35,
+    0.6,
+    0.3
+   ],
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:25–00:27"
+   ],
+   "use": "Frames the two house phones in C4667 as she says “just call”. No number on screen."
+  },
+  {
+   "n": 4,
+   "title": "Eat and read together",
+   "tpl": "word_stack",
+   "dur": 5,
+   "pos": "top",
+   "text": {
+    "items": [
+     "Eat together",
+     "Read together",
+     "Watch a movie together"
+    ]
+   },
+   "src": "Amber Pendley, 20260909_C4695.MP4 [01:37]–[01:42]",
+   "rows": [
+    "00:51–01:03"
+   ],
+   "use": "Over the table and kitchen shots. Each line lands on her word. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "A safe place",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "This is a safe place. Very safe."
+   },
+   "src": "Barbara Schmidt, 20260909_C4694.MP4 [03:05]–[03:07]",
+   "rows": [
+    "01:03–01:07"
+   ],
+   "use": "Over the art room shots while Barbara says it."
+  },
+  {
+   "n": 6,
+   "title": "Down to doing it",
+   "tpl": "kinetic_quote",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "So whatever you're up to doing, we're down to doing it with you.",
+    "emph": [
+     "with you"
+    ]
+   },
+   "src": "Amber Pendley, 20260909_C4695.MP4 [01:48]",
+   "rows": [
+    "01:13–01:16"
+   ],
+   "use": "Over Amber as she says it. Keep captions on. Off before the 1 s hold on her smile."
+  }
+ ]
+}

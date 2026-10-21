@@ -1,0 +1,85 @@
+{
+ "item": "13221764296",
+ "client": "gateway-gaston",
+ "note": "The plan is one slide with captions only, so 5 graphics. The Message Dwayne text is the planned one; use the others only if Atdhe asks for more.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Good intentions card",
+   "tpl": "quote_card",
+   "dur": 2.5,
+   "text": {
+    "main": "so many good intentions among so many people in our community",
+    "who": "Dwayne"
+   },
+   "src": "Dwayne, Day 4 pm [00:00]–[00:05]",
+   "rows": [
+    "00:05–00:17"
+   ],
+   "use": "Full-frame as he ends “community”, when the hook text goes out at about 00:07. Then back to the slide."
+  },
+  {
+   "n": 2,
+   "title": "Journey Home tag",
+   "tpl": "tag_label",
+   "dur": 2.5,
+   "pos": "upper",
+   "text": {
+    "main": "Journey Home"
+   },
+   "src": "Program name, Dwayne, Day 4 pm [00:10] “the budget to Journey Home”",
+   "rows": [
+    "00:05–00:17"
+   ],
+   "use": "Small tag as he says “Journey Home”. Text only, never the logo."
+  },
+  {
+   "n": 3,
+   "title": "Excited about it",
+   "tpl": "statement_card",
+   "dur": 2,
+   "text": {
+    "main": "we're excited about it",
+    "emph": [
+     "excited"
+    ]
+   },
+   "src": "Dwayne, Day 4 pm [00:17]",
+   "rows": [
+    "00:17–00:22"
+   ],
+   "use": "Short full-frame on his words, then back to the slide before “If you are”."
+  },
+  {
+   "n": 4,
+   "title": "Sustaining this program",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "being a part of funding and sustaining this program"
+   },
+   "src": "Dwayne, Day 4 pm [00:22]",
+   "rows": [
+    "00:22–00:33"
+   ],
+   "use": "Top band as he says it. Out before “DM me?” at about 00:28.7."
+  },
+  {
+   "n": 5,
+   "title": "Message Dwayne",
+   "tpl": "highlight_callout",
+   "dur": 10,
+   "pos": "center",
+   "text": {
+    "main": "Message Dwayne"
+   },
+   "src": "The ask text in the plan, row 00:22–00:33 (“Text Message Dwayne on DM me?”).",
+   "rows": [
+    "00:22–00:33",
+    "00:33–00:40"
+   ],
+   "use": "The one ask. In on “DM me?” at about 00:28.7, centered and big. Hold it to the end card."
+  }
+ ]
+}

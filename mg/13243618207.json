@@ -1,0 +1,54 @@
+{
+ "item": "13243618207",
+ "client": "sfcg",
+ "note": "The client does not want animation in the middle of a video. Use one graphic at most.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "It's cliche",
+   "tpl": "quote_card",
+   "dur": 3,
+   "text": {
+    "main": "I will say it's cliche, social media, but it's your algorithms.",
+    "who": "Susan"
+   },
+   "src": "Susan, 764_3888.MXF [01:09]–[01:12]. Start on “I will say”.",
+   "rows": [
+    "00:06–00:11"
+   ],
+   "use": "Only if Kalindi asks for more. Full-frame as she says it, then back in sync on Susan."
+  },
+  {
+   "n": 2,
+   "title": "What you start seeing",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "It's what you start seeing will go with what you're thinking"
+   },
+   "src": "Susan, 764_3888.MXF [01:15]–[01:19]",
+   "rows": [
+    "00:11–00:14"
+   ],
+   "use": "Over Susan as she says it. Keep captions on. Keep it still and simple."
+  },
+  {
+   "n": 3,
+   "title": "Each other's perceptions",
+   "tpl": "statement_card",
+   "dur": 2,
+   "text": {
+    "main": "then we can see each other's perceptions",
+    "emph": [
+     "perceptions"
+    ]
+   },
+   "src": "Susan, 764_3888.MXF [00:53]",
+   "rows": [
+    "00:17–00:24"
+   ],
+   "use": "Short full-frame beat in the middle of her line. It can hide the gap after “perceptions”. Back on Susan for the end."
+  }
+ ]
+}

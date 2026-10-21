@@ -1,0 +1,96 @@
+{
+ "item": "12489945635",
+ "client": "lions",
+ "note": "The plan says captions only after the hook, and Jacqui wants much simpler graphics or none. Use one of these only if Atdhe asks for a graphic.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Frame her smile",
+   "tpl": "corner_frame",
+   "dur": 1.6,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:00–00:02"
+   ],
+   "use": "Brackets around her smile. Only after the top text goes out."
+  },
+  {
+   "n": 2,
+   "title": "Philippines pin",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "Philippines"
+   },
+   "src": "Philippines Lion, IMG_7796.MOV [00:09] “From the Philippines.”",
+   "rows": [
+    "00:02–00:06"
+   ],
+   "use": "The location pin from 00:03 to 00:05, as the plan says."
+  },
+  {
+   "n": 3,
+   "title": "Welcome to the Lions",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Oh, welcome to the Lions."
+   },
+   "src": "Philippines Lion, IMG_7796.MOV [00:30]",
+   "rows": [
+    "00:06–00:10"
+   ],
+   "use": "Over her smile as she says it. Let it go out before the 1 s smile hold."
+  },
+  {
+   "n": 4,
+   "title": "My first adventure",
+   "tpl": "statement_card",
+   "dur": 3,
+   "text": {
+    "main": "And this is my first adventure.",
+    "emph": [
+     "adventure"
+    ]
+   },
+   "src": "IMG_7796.MOV [00:33], said right after her welcome. Check by ear that it is Atdhe.",
+   "rows": [
+    "00:06–00:10"
+   ],
+   "use": "Only if you add this line to the cut. It goes after her smile hold."
+  },
+  {
+   "n": 5,
+   "title": "Mission to make friends",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "I'm also on a mission to make friends, more friends"
+   },
+   "src": "Atdhe, IMG_7797.MOV [00:02]",
+   "rows": [
+    "00:10–00:16"
+   ],
+   "use": "Over Atdhe as he says it. Cut the repeated “with with” first."
+  },
+  {
+   "n": 6,
+   "title": "Lions Club tag",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "Lions Club"
+   },
+   "src": "Atdhe, IMG_7797.MOV [00:02] “with Lions Club”",
+   "rows": [
+    "00:10–00:16"
+   ],
+   "use": "As Atdhe says “Lions Club”. One text at a time, so before MG 5."
+  }
+ ]
+}

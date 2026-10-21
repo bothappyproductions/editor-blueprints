@@ -1,0 +1,298 @@
+{
+ "id": "13149174314",
+ "client": "family-reach",
+ "eyebrow": "Family Reach · Boston office · 20 Aug 2026 · Patient story, social cut",
+ "title": "Nicole:",
+ "title_q": "“My Card Didn't Clear”",
+ "title_short": "Nicole · My Card Didn't Clear",
+ "editor": "Qendrim",
+ "due": "2026-10-20",
+ "format": "9:16 only · 1080×1920",
+ "length": "about 1:26 (1:30 max)",
+ "edit_key": "FRBostonNicolePerkinsSocial001",
+ "headline": "A mom in treatment swipes her card for groceries and it does not clear. Family Reach gives her room to breathe.",
+ "story": [
+  "Nicole is a real estate agent in Brockton. She was having her best year when cancer stopped her work. The savings went fast. <b>Her card was declined at the grocery register</b>, and her lights were shut off. Family Reach helped her pay the car note, the light bill and her cards.",
+  "One family, one money problem, one thing Family Reach fixed. The shame at the register is the hook; <b>“I was able to breathe”</b> is the turn. Warm and hopeful at the end. This is a shorter cut of your approved long-form, for Instagram and TikTok."
+ ],
+ "feel": [
+  "Honest",
+  "Warm",
+  "Hopeful",
+  "Direct",
+  "Zero typos"
+ ],
+ "do": [
+  "Start on her face on frame 1, mid-sentence is fine. Hook text on top: “My card didn't clear.”",
+  "Name super “Nicole · Patient” at 0:03, 2 s, small, lower left.",
+  "Keep captions on the whole cut. One line at a time.",
+  "Let “my lights did get shut off” land. Half a second of air after it.",
+  "End on her “I don't know where I would have been” line, then the end card."
+ ],
+ "dont": [
+  "No card, logo or name at 0:00.",
+  "Do not use 00:28–00:43 (she says “divorced” and names her children with ages).",
+  "No diagnosis name on screen (she names it at 04:07–04:43; not in this cut).",
+  "No new bite about a diagnosis, age, death or ex-spouse without Ansley's OK.",
+  "No second aspect ratio. 9:16 only, 1:30 max."
+ ],
+ "links": {
+  "brief": {
+   "title": "Videographer Field Brief · Boston, 20 Aug 2026",
+   "url": "https://docs.google.com/document/d/1rCjS03QmopVuHpL3x6-bw9Pzh4heSyzV0ZTOovgw8Sg/edit",
+   "note": "The plan for the Boston office shoot: who, when, the interview questions."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Nick owes it. Production Planning row 12771175786 reads Reference = Needs Reference. Until then, match the pacing and framing of your own approved long-form for this family."
+  },
+  "footage": {
+   "title": "Nicole Perkins_Patient",
+   "url": "https://drive.google.com/drive/folders/16ORiDNqnc6CsBJJvN-iOLtxpnQIlvRCp",
+   "note": "20260820_C4487.MP4, about 24 min, one camera, Nicole only. B-roll: B Roll › Nicole B Roll."
+  }
+ },
+ "bp_intro": "All source times are in <span class=\"mono\">20260820_C4487.MP4</span>, from the transcript doc (start of each line, mm:ss, about ±1 s). Find exact in and out points on the waveform. Start from your approved long-form timeline (V5) and go to raw only if a shot does not reframe to 9:16.",
+ "rows": [
+  {
+   "tc": "00:00–00:05",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": "t_C4487",
+   "crop": "c",
+   "frame_tag": "C4487 · Drive poster frame",
+   "frame_alt": "Nicole in an orange patterned shirt, orchids behind her",
+   "visual": "Nicole on camera, centered, orange patterned shirt, white orchids on the left. Crop centered on her face. Start on a frame where she already speaks.",
+   "motion": "Hook text on <b>frame 1</b>, top third: <q>My card didn't clear.</q> Bold, white, soft shadow. Captions start with her voice. <b>Name super</b> “Nicole · Patient” at <span class=\"mono\">00:03–00:05</span>, lower left.",
+   "voice": {
+    "who": "Nicole",
+    "quote": "I was embarrassed when I swiped a credit card and it, you know, didn't clear.",
+    "src": "C4487 14:05–14:10"
+   },
+   "sfx": "Room tone only. No whoosh on frame 1.",
+   "music": "<span class=\"none\">Silent. Music has not started.</span>"
+  },
+  {
+   "tc": "00:05–00:20",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same shot. Lift the middle (“my credit card is maxed out … every day”) to keep it short. Hide the jump with a 106% punch-in.",
+   "motion": "Hook text stays up to 00:06, then fades (6 frames). Captions only.",
+   "voice": {
+    "who": "Nicole",
+    "quote": "But no one at the register knew or behind me in line knew when I couldn't pay for groceries … because I don't work and I have cancer and I'm in treatment.",
+    "src": "C4487 14:10–14:19 + 14:22–14:29"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music enters soft under “I'm in treatment”. Warm, low."
+  },
+  {
+   "tc": "00:20–00:30",
+   "beat": "WHO",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Nicole on camera. Optional: one clip from B Roll › Nicole B Roll if it fits her work or home (pick on scrub). B-roll TBD on scrub.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Nicole",
+    "quote": "I am also a real estate agent in Massachusetts and I've been a real estate agent since 2016. We live in the city of Brockton.",
+    "src": "C4487 00:47–00:58 (start after “hard work”)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:30–00:46",
+   "beat": "THE COST",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Nicole on camera. One cut in the middle; hide it with a 106% punch-in.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Nicole",
+    "quote": "I was having the best year I'd ever had in real estate … it was dwindling fast because there was money going out and there was nothing coming in.",
+    "src": "C4487 06:27–06:34 + 06:48–06:57"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed thins."
+  },
+  {
+   "tc": "00:46–00:58",
+   "beat": "THE COST",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Nicole on camera. Hold half a second on her face after “shut off”.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Nicole",
+    "quote": "If you don't know if your rent is going to get paid or your mortgage is going to get paid or if your lights are going to get shut off … my lights did get shut off.",
+    "src": "C4487 07:35–07:51 (cut the middle at 07:45)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">Music dips out under “my lights did get shut off”.</span>"
+  },
+  {
+   "tc": "00:58–01:13",
+   "beat": "WHAT CHANGED",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Nicole on camera. A smile frame here if there is one.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Nicole",
+    "quote": "I was able to pay my car note … I was able to put money on a light bill, my credit cards … it just gave me reprieve. I was able to breathe. I was able to know that we were okay.",
+    "src": "C4487 10:05–10:15 + 10:27–10:33"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<b>Music returns</b> on “reprieve”, a step brighter. The hopeful turn."
+  },
+  {
+   "tc": "01:13–01:22",
+   "beat": "BUTTON",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Straight on her face. Hold 0.5 s after “Family Reach”, then cut.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Nicole",
+    "quote": "I don't know where I would have been in that time in my life without Family Reach.",
+    "src": "C4487 15:47–15:56"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Gentle peak, resolve."
+  },
+  {
+   "tc": "01:22–01:26",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "New-brand end card: Family Reach 30 Year logo + “Because cancer is hard enough.” Use the client's own card file.",
+   "motion": "Nothing else on the card. No old logo.",
+   "voice": "<span class=\"none\">None.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Last note resolves. 1 s fade."
+  }
+ ],
+ "files": [
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/1rCjS03QmopVuHpL3x6-bw9Pzh4heSyzV0ZTOovgw8Sg/edit\">Videographer Field Brief</a> (Boston, 20 Aug)"
+  ],
+  [
+   "Reference",
+   "Not chosen yet. Nick owes it."
+  ],
+  [
+   "Start from",
+   "Your approved long-form: FRBostonNicolePerkins001 V5"
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/1tRp8kVkdct-C-GEsSrawWhNokTeXVgIR\">Boston August 20 2026</a> › Interviews › <a href=\"https://drive.google.com/drive/folders/16ORiDNqnc6CsBJJvN-iOLtxpnQIlvRCp\">Nicole Perkins_Patient</a>"
+  ],
+  [
+   "Clip(s)",
+   "<a href=\"https://drive.google.com/file/d/1fTUgNvX6iREuUQbv__qT1wP7bNjy-qB_/view\">20260820_C4487.MP4</a>"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1YLmlR6BE-ISDBS0Wnh6zVVKowRyaA4cYWCFMKaXqe68/edit\">Transcripts - Interviews</a> · per-file times, mm:ss · speaker labels are not reliable"
+  ],
+  [
+   "Captions",
+   "<a href=\"https://drive.google.com/file/d/1pse81nKAM8oGAv5sK7C56fivhCNc1Fks/view\">Nicole Perkins_Patient.srt</a> (SRT Groups)"
+  ],
+  [
+   "End card",
+   "<a href=\"https://drive.google.com/file/d/1bwvtoLMR7mnJDylNZPPgO3mMDzdneG4U/view\">Video closeout (15).mp4</a> · new-brand end card the client sent"
+  ],
+  [
+   "Brand pack / font",
+   "Branding and Font columns are empty on Monday. Use the same font, captions and cards as your approved long-form."
+  ],
+  [
+   "Music",
+   "Same music source as your approved long-form. Warm, low, under the voice."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "20260820_C4487.MP4, 1920×1080 (from the Drive poster frame). Frame rate and audio channels not probed yet."
+  ],
+  [
+   "Timeline",
+   "1080×1920. Keep the frame rate of your long-form timeline."
+  ],
+  [
+   "Crop",
+   "9:16 from 16:9. A 1080p frame gives a 608 px wide crop, so it is upscaled 1.78×. Keep punch-ins at 110% or less."
+  ],
+  [
+   "Audio",
+   "Recorded into the camera. Channel levels not measured yet: keep the same audio setup as your long-form."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP. Music 18–20 dB under the voice."
+  ],
+  [
+   "Captions",
+   "Burned in, the whole cut, same font as your long-form. Max 2 lines. Keep the bottom 20% clear for app buttons."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920. One file, 9:16 only. 1:30 hard cap."
+  ]
+ ],
+ "checklist": [
+  "Read every caption against the audio. No typos.",
+  "“Family Reach” is two words, capital F and R.",
+  "Name super says “Nicole · Patient”. No age, no diagnosis.",
+  "No bite from 00:28–00:43 (divorce, children's names and ages).",
+  "No diagnosis name anywhere on screen.",
+  "Hook text and first caption are on frame 1. No card or logo at 0:00.",
+  "End card is the new 30 Year brand. No old logo.",
+  "Total length 1:30 or less."
+ ],
+ "decisions": [
+  {
+   "t": "No visual reference",
+   "b": "Production Planning row 12771175786 reads Reference = Needs Reference, owner Nick. A producer has to pick it."
+  }
+ ],
+ "client_note": "<b>Why this matters for Nicole:</b> the client asked for a 1:30-max social cut of every patient family. A real detail (the card at the register) is what makes it stop the scroll.",
+ "ask_examples": [
+  "Where does Nicole talk about the grocery store?",
+  "What can I not use from her intro?",
+  "Which name super do I use?",
+  "Where is the “I was able to breathe” line?"
+ ],
+ "transcript": "Auto-transcript of 20260820_C4487.MP4 (Nicole Perkins, Boston, 20 Aug 2026). Times are mm:ss in the source file, start of each line. Labels are automatic: Nick asks the questions off camera, Nicole answers.\n— C4487 —\n[00:00] and rolling okay so I was looking at the clip and it looks like when it died it\n[00:05] corrupted that first question okay I just asked you that yeah that's fine\n[00:08] time yeah okay I'm sorry about that so first thing can you just tell me your\n[00:13] name one more time and after you say it can you spell it for me sure Nicole\n[00:17] Perkins and I see o le p e r k i n s perfect thank you Nicole and first\n[00:24] question tell me about you and your family and what was your life like\n[00:28] before the cancer diagnosis sure so I am a mother of three divorced Jade 33\n[00:37] Amir 25 and Zaria 20 who is a rising junior at Temple University she's a\n[00:43] dance major we're so proud of her dedication and hard work I am also a\n[00:49] real estate agent in Massachusetts and I've been a real estate agent since\n[00:53] 2016 we live in the city of Brockton they were all born and raised there yes\n[01:03] we have a lot of roots right here in Massachusetts and in Brockton in\n[01:06] particular so can you tell me a little bit about the diagnosis take us back\n[01:13] through the moment you received it and what was kind of like going through your\n[01:18] sure so I'm just gonna go back a little bit I was not feeling well I met with\n[01:26] a neurologist which I was diagnosed with neuropathy she took some blood this\n[01:30] was about 15 years ago and she saw something strange in my blood she sent\n[01:36] me to a hematologist in Brockton who told me that it was nothing to be\n[01:41] worried about nothing to be concerned about there was something abnormal in\n[01:45] my blood but he'd see me in a year didn't sit well with me so I used to\n[01:50] work at the Brigham and Women's Hospital they were the first hospital that I\n[01:53] thought of I felt like I needed a second opinion and so I called the hematology\n[01:58] department and they confirmed what I thought which was it was more serious\n[02:03] than he was saying and that it was an unspecified blood condition that could\n[02:09] lead to smoldering myeloma so I always knew that that was a possibility even\n[02:14] then I was followed by hematology for about maybe three years I'd say just\n[02:21] having my blood drawn and checked on and then you know they'd send me home every\n[02:25] time I'm fine at that point and so I went in one day after my normal visit\n[02:37] and I was told that my numbers in Gus I think that's what they called had risen\n[02:44] and I was no longer a hematology patient but oncology or needed to be followed by\n[02:50] oncology and so at that point I transitioned over to Dana-Farber which\n[02:53] is where I met my wonderful wonderful team of doctors and then moving forward\n[02:58] I did that for about about roughly 10 years I'd say just being followed at\n[03:05] Dana-Farber no major changes and but I was always told that with myeloma it\n[03:11] could switch on a dime well for me the dime was probably the 10-year mark so I\n[03:16] had started retaining a ton of fluid I'd literally just been seen and was sent\n[03:21] home with a clean bill of health maybe about a month prior and when I say clean\n[03:24] bill I mean it hadn't progressed and so I wouldn't have been seen again for\n[03:29] another two months I think at that point and so I met with my weight and wellness\n[03:34] physician because I was retaining a ton of fluid and I thought it was something\n[03:37] that I was doing wrong however I was working out every day I was probably in\n[03:40] the best shape of my life had been in in my adult life post-children and so I\n[03:44] was super confused and that is when I met with my weight and wellness\n[03:49] physician she drew blood some other tests and said that she would send them\n[03:54] in the bar into Boston once she got the results if there was anything that they\n[04:00] needed to know or you know if something came up and so sure enough she called me\n[04:07] in and she said there's this disease it's called AL amyloidosis and that's\n[04:12] what we typically see in multiple myeloma patients looking back at your\n[04:16] medical records I see that you're being followed at Dana-Farber and I believe\n[04:21] this is what you're dealing with and sure enough within maybe a week I was\n[04:27] scheduled for a bone marrow biopsy shortly after that a kidney biopsy and\n[04:32] that's when I was called into Boston and I was told that I was no longer a\n[04:37] patient that had developed smoldering myeloma but was now a multiple myeloma\n[04:43] patient and I needed to start treatment tomorrow shock fear but first and\n[04:53] foremost my children that's what I thought of they were much younger you\n[04:57] know 15 years ago and so the stress and the weight of that just crushed me in\n[05:03] the moment and so they gave me time about a week to get my affairs in order\n[05:09] and you know everything relative to the household that at the time both of my\n[05:14] younger children were still living with in in the home with me and then I\n[05:18] started treatment probably about a week after that if I'm being honest I\n[05:25] probably never cried I think when I told my children I knew that if they were\n[05:33] upset or if they couldn't handle it that I wouldn't be able to handle it and\n[05:36] so I was pretty matter-of-fact this is what's going on and this is what we have\n[05:41] to do and it's going to be okay and we all need to step in and we all need to\n[05:45] chip in and they were all in agreement and I feel bad looking back because I\n[05:50] didn't allow them to emote but I think it was selfish because I knew that it\n[05:55] would devastate me if they couldn't handle what I was about to have to\n[05:59] endure. Yeah that definitely makes sense thank you for sharing all that Nicole. You're welcome.\n[06:05] So the next question I have for you is what financial challenges did cancer\n[06:10] create that you might have never expected? Wow so I mentioned that I'm a\n[06:17] real estate agent and so my income is commission-based and at that time of the\n[06:24] diagnosis which was 2021 I believe I was having the best year I'd ever had in\n[06:31] real estate and so yeah it took a huge hit on me I mean once I couldn't work I\n[06:41] couldn't work and so whatever was in the bank anything that I had saved it was\n[06:48] just dwindling and it was dwindling fast because there was money going out and\n[06:51] there was nothing coming in at that point and so yeah it was a it was a\n[06:57] pretty devastating effect on our lives and I knew that it was only going to get\n[07:01] worse. Yeah I can't even imagine that definitely makes sense. So the next\n[07:07] question I have for you is how did those financial challenges affect your\n[07:12] family's day-to-day life and your ability to focus on your treatment and healing?\n[07:18] You know a friend of mine would often say this to me when I would be you know\n[07:23] calling her at events or complain about something that was going on and she\n[07:26] would often say you can't even focus on your treatment because you're so worried\n[07:31] about everything else and it was so true and I'm sure it's true for a lot of\n[07:35] people. If you don't know if your rent is going to get paid or your mortgage is\n[07:41] going to get paid or if your lights are going to get shut off and I've had\n[07:45] plenty of notices that let me know that they were coming to shut my utilities on\n[07:51] fact my lights did get shut off. What saved me probably more than anything was\n[07:57] a medical letter of protection from my doctor's office and so it doesn't mean\n[08:01] you don't pay your bills it just means that your bills can't get shut off in\n[08:05] the midst of what you're going through but that doesn't stop the bills from\n[08:09] accumulating so I'd have thousands of dollars on a light bill or a gas bill or\n[08:15] when your rent is due or you don't know if you can buy groceries it's a friend\n[08:23] of mine calls it mental gymnastics and that's exactly what it is so many fires\n[08:28] at one time and all you can do is try to prioritize the fires even though they\n[08:31] all seem like a priority and just try to knock them out one at a time as best you\n[08:36] can. Yeah a lot of people never think about how much all those things can add\n[08:40] up and just accumulating like that so yeah definitely. That's true. Next\n[08:44] question I have for you is how did those financial challenges affect your\n[08:49] family's day-to-day life and I just asked you that. How did you first hear\n[08:54] about Family Reach and what made you decide to reach out for support? So I\n[09:00] first heard of Family Reach because one of the nurses at Dana-Farber encouraged\n[09:06] me to reach out to the resource department and so she was amazing. I had\n[09:11] a stem cell transplant in 2022 and my resource person would reach out to me\n[09:17] often just to check on me. She was able to fill out applications for me when I\n[09:22] couldn't lift my head off of the bed but it's because of her and because of her\n[09:29] care and concern for her patients is how I found out about\n[09:35] Family Reach and they were a tremendous help to me. Family Reach has been has\n[09:41] been or had been for me during that time. That's amazing for sure and how did what\n[09:48] specific support did Family Reach provide and what difference did it make\n[09:53] for you and your family? Oh wow okay it made all the difference in the world\n[09:58] really because I believe I received if I'm not mistaking a grant I believe\n[10:05] I was able to pay my car note I remember that month I think I even paid\n[10:09] up maybe a couple of months I think I was able to put money on a light bill my\n[10:13] credit cards it's amazing that I was even to maintain them even though they\n[10:18] were all almost maxed out that's how I survived once the cash was gone and so I\n[10:24] was able to make payments only to turn around and use them again but it didn't\n[10:27] matter it just gave me reprieve I was able to breathe I was able to know that\n[10:33] we were okay even if we're just for a period of time. That's amazing that\n[10:37] must have been such relief for sure. I'm so sorry if I'm not. I'm trying to stay\n[10:56] you know like right behind this camera so even if you do look at me like the\n[11:00] viewer will probably not really notice okay so next question I have for you\n[11:04] here is how did receiving that support from Family Reach change your stress\n[11:09] level outlook or ability to move forward with your treatment? Well\n[11:16] definitely I know that my outlook changed and I'll say the reason it did\n[11:22] is because we would hope and we would think even though we know that\n[11:28] everybody has their own stuff going on you know trauma bills illness whatever\n[11:34] it may be but we often think that the people in our circle are the ones that\n[11:38] will be there for us the most when our time of need and I can honestly say that\n[11:41] that wasn't the case for me and so for me it meant the world to know that there\n[11:47] was an organization like Family Reach people who care and donate and\n[11:53] understand that and what I found out for sure is that there are no boundaries\n[11:58] with cancer. I am in and out of Dana-Farber or I was every week for\n[12:06] probably five years and some of the things I've seen even at my worst it\n[12:12] didn't even compare to the heartbreak that I saw and the things that I\n[12:16] witnessed and so that really changed my outlook and it made me realize the\n[12:21] importance of speaking for organizations or speaking up rather\n[12:25] about organizations like Family Reach because people don't know and just\n[12:30] encouraging people to seek the help through their resource person if they\n[12:33] need it because it's there. Yeah definitely thank you for sharing that\n[12:37] Nicole I'm sorry to hear that you know you didn't have like the support from\n[12:41] your family but it's awesome that Family Reach was able to like step in and help\n[12:44] out for sure. If I can clarify that I don't want to say that my family didn't\n[12:48] help but when you need help and you need it often people don't necessarily have\n[12:53] the resources to do that and so that's when you have to look to other places\n[12:56] and that's the importance of Family Reach I think. That totally makes sense for sure.\n[13:01] So next question I have for you here is what do you wish more people understood\n[13:07] about the financial side effects of cancer? Hmm what do I wish people\n[13:13] understood about that? I think I'd like people to know that the financial side\n[13:22] effects of cancer just really again they don't discriminate. Anybody can be\n[13:29] affected and anybody can end up in a financially stressful\n[13:35] situation especially though when you maybe live in paycheck to paycheck to\n[13:42] begin with or in my case a commission-based job which I had no\n[13:47] benefits to fall back on and so I wish people understood that again there's no\n[13:56] boundaries with cancer anybody can be affected financially and it's a tough\n[14:01] tough situation and honestly I think the biggest thing for me too was\n[14:05] embarrassment. I was embarrassed when I swiped a credit card and it you know\n[14:10] didn't clear but no one at the register knew or behind me in line knew when I\n[14:15] couldn't pay for groceries that you know my credit card is maxed out not\n[14:19] because I don't pay my bills but because I'm using them every day because I\n[14:24] don't work and I have cancer and I'm in treatment and so I wish people knew that\n[14:29] it can be embarrassing and it shouldn't be. I'm learning that now unfortunately\n[14:35] and even though I advocated all the time for people to step up and ask for help\n[14:40] and it's there and these organizations want to help I wasn't necessarily doing\n[14:44] that and so that's what I'd like people to know. Amazing, great message for sure.\n[14:50] So the next question I have is if you can speak directly to someone who's\n[14:55] considering supporting Family Reach what would you want them to know about the\n[15:00] impact of their generosity? I would want everyone to know first of all don't be\n[15:07] embarrassed don't be afraid it's there because people want to help and so reach\n[15:14] out and I can tell you from first-hand experience I've had nothing but a great\n[15:19] experience because everyone's been kind and caring and shown compassion and it's\n[15:26] been totally genuine and so you really don't have anything to be afraid of but\n[15:30] you have everything to gain by reaching out. Amazing, perfect answer and what do\n[15:36] you want the team at Family Reach to know? How much I appreciate each and\n[15:43] every one of you I truly truly do I appreciate you I don't know where I\n[15:50] would have been in that time in my life without Family Reach and the again\n[15:56] kindness and caring attitude even the way people speak to you the tone in which\n[16:03] they speak to you you know that they care you know that Family Reach the\n[16:08] people here at Family Reach really really care and so again don't be afraid\n[16:13] reach out through your resource person and get the help that you need so that\n[16:19] you can get through your treatment as best you can with hopefully some\n[16:24] reprieve where you don't have to worry about certain bills getting paid and you\n[16:29] know that people truly truly want to help you. Great answers that was awesome\n[16:35] that's all the questions specifically I have for you right there. I hope I was looking at the\n[16:39] camera the whole time because I can feel myself like veering off. It looked at me like you were for sure.\n[16:44] I doubt a viewer will notice because I was right here I was looking and it\n[16:48] looked like you were looking at me okay that's good I hope so now the only other\n[16:53] thing I have for you is like some short sound bites for you to kind of like\n[16:57] repeat back to the camera these first couple you'll kind of like fill in the\n[17:02] blank or finish the sentence mm-hmm so the first one is cancer changed\n[17:07] everything because blank so you'll say cancer changed everything because and\n[17:13] then finish the sentence however you would want. Hmm cancer changed everything\n[17:27] because I'm sorry I gotta think about that I got it\n[17:39] cancer changed everything because there's no way to prepare for it that\n[17:45] was amazing perfect answer next one I have for you is family reach helped us\n[17:52] blank family start over again family reach I'm sorry what can you repeat that\n[18:03] again yeah you're good family reach helped us blank family reach helped us\n[18:11] pay our household bills so that we were able to sorry family reach helped us\n[18:24] blank is that what you said because okay family reach helped us cover household\n[18:33] bills so that we could focus on treatment and ensure that my children\n[18:39] were able to have as much normalcy as possible as I was going through my\n[18:45] treatment amazing great answer all right next one is hope means blank hope means\n[19:00] hmm hold on I was gonna say faith all right can I kind of add a little bit\n[19:11] okay so hope and faith for me go hand in hand because it believe it for me let\n[19:21] me start over okay hope and faith go hand in hand for me I believe that faith\n[19:30] and definitely hope are believing in things that you can't see and so I've\n[19:35] always maintained no matter what I was going through before the diagnosis and\n[19:41] even through the diagnosis I trusted and believed that there was something\n[19:44] better on the other side and I honestly believe as hard as it was and I don't\n[19:48] want to minimize my journey or anyone else's because first of all they are\n[19:53] individual to the person right there that person's journey but for me if I\n[20:00] didn't have my face if I didn't have hope I don't know that I would be here\n[20:05] today because it was literally what kept me going through the roughest and\n[20:12] darkest time of my life that was awesome great answer I appreciate you\n[20:18] elaborating on that like that okay the next one is healing means blank hmm\n[20:26] healing hmm healing for me was getting the you\n[20:41] have in remission notice as I was sitting in front of my doctors but what\n[20:48] I've also realized on this journey is there's a mental healing that needs to\n[20:52] go on not just a physical healing and what I found just today being I think\n[20:58] about six months in remission after being on a trial drug for the last six\n[21:02] months that I'm dealing with a lot of emotional and I think mental turmoil and\n[21:10] so I'm working through that so while the physical I feel healing has begun I'm\n[21:19] still being followed and I love my team of doctors I don't know that they want\n[21:24] to let me go ever but I've reached the every three month mark I've never been\n[21:28] seen every three months since my diagnosis it was always every week for\n[21:32] five years and I was blessed or lucky enough to have a you know a week or a\n[21:39] few months rather where everything looked great I might graduate to every\n[21:42] two weeks so physically the healing for me was getting that you are in remission\n[21:49] notice from my doctors but I'm still I feel healing or attempting to heal\n[21:54] mentally and emotionally from everything\n[21:59] next question I have our next one is our family is stronger because blank our\n[22:09] family is stronger because we were in the valley for five years and we're\n[22:16] coming out of it and I think that my faith encouraged my children and I\n[22:22] believe that we're stronger because of it the next one is if one family hears\n[22:31] our story I hope they blank if one family hears our story I hope that they\n[22:40] hold on to whatever faith whatever hope let me let me scratch that hold on hold\n[22:47] on I got something else wait a minute it's coming it's coming yeah give me one\n[22:52] second yeah read it to me again if one family hears our story I hope they blank\n[23:01] if one family hears our story I hope that they hold on to whatever hope and\n[23:10] whatever faith that they can muster up I hope that they draw strength from their\n[23:15] family from their friends from scriptures from reading whatever it is\n[23:20] that they need to do to find that balance of not just focusing on what\n[23:25] they're going through but realizing and hopeful in trusting that there's\n[23:30] something beautiful on the other side of that diagnosis amazing that was\n[23:36] awesome Nicole now all I have for you is three where you just have to repeat what\n[23:41] I say and not add anything on to the end the first one is because cancer is hard\n[23:48] enough because cancer is hard enough perfect next one is thank you for\n[23:56] family reach thank you for supporting family reach awesome and last one we got\n[24:02] here happy 30 years family reach happy 30 years family reach amazing that's all\n[24:09] we got for you right there I hope it's good",
+ "frames": {
+  "t_C4487": "data:image/jpeg;base64,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"
+ }
+}

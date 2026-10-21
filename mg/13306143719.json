@@ -1,0 +1,147 @@
+{
+ "item": "13306143719",
+ "client": "s4s",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Nashville tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Nashville"
+   },
+   "src": "Jamie Ellis, MVI_4307.MP4 [00:22] “this community in Nashville”",
+   "rows": [
+    "00:05–00:13"
+   ],
+   "use": "Small tag on “Nashville”, after Jamie's name super is gone at 00:07. Not at the same time as MG2."
+  },
+  {
+   "n": 2,
+   "title": "From all over the world",
+   "tpl": "kinetic_quote",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "our entire team is here from all over the world",
+    "emph": [
+     "entire",
+     "world"
+    ]
+   },
+   "src": "Jamie Ellis, MVI_4307.MP4 [00:22]–[00:26]",
+   "rows": [
+    "00:05–00:13"
+   ],
+   "use": "Over Jamie as she says it, after her name super. Keep captions on."
+  },
+  {
+   "n": 3,
+   "title": "Socks and shoes",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "brand new socks and shoes"
+   },
+   "src": "Teresa Miller, MVI_4329.MP4 [00:15]",
+   "rows": [
+    "00:13–00:22"
+   ],
+   "use": "Over the volunteer fitting the boy, as Teresa says it. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "A special moment",
+   "tpl": "statement_card",
+   "dur": 4,
+   "text": {
+    "main": "Being able to put shoes on the feet of kids in need is just such a special moment.",
+    "emph": [
+     "special"
+    ]
+   },
+   "src": "Jamie Ellis, MVI_4307.MP4 [00:38]",
+   "rows": [
+    "00:22–00:32"
+   ],
+   "use": "Short full-frame cutaway on her first line, then the second fitting shot."
+  },
+  {
+   "n": 5,
+   "title": "Never gets old",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "it never gets old"
+   },
+   "src": "Jamie Ellis, MVI_4307.MP4 [00:43]",
+   "rows": [
+    "00:22–00:32"
+   ],
+   "use": "Over Jamie on camera as she says it. Keep captions on."
+  },
+  {
+   "n": 6,
+   "title": "Frame the mirror",
+   "tpl": "corner_frame",
+   "dur": 3,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:32–00:42"
+   ],
+   "use": "Brackets around the kid checking shoes in the mirror. Move them to where the kid stands."
+  },
+  {
+   "n": 7,
+   "title": "The smiles",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "see the smiles on their faces"
+   },
+   "src": "Nicole Gabehart, MVI_4310.MP4 [00:20]–[00:26]",
+   "rows": [
+    "00:32–00:42"
+   ],
+   "use": "Over Nicole as she says it, after her name super. Keep captions on."
+  },
+  {
+   "n": 8,
+   "title": "A pair of shoes",
+   "tpl": "statement_card",
+   "dur": 4,
+   "text": {
+    "main": "Something as simple as a pair of shoes makes such a big difference in a child's life.",
+    "emph": [
+     "shoes"
+    ]
+   },
+   "src": "Teresa Miller, MVI_4329.MP4 [00:32]",
+   "rows": [
+    "00:42–00:52"
+   ],
+   "use": "Full-frame cutaway after her name super, then the girl at the wall."
+  },
+  {
+   "n": 9,
+   "title": "Door for education",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "open the door for education"
+   },
+   "src": "Teresa Miller, MVI_4329.MP4 [00:36]",
+   "rows": [
+    "00:42–00:52"
+   ],
+   "use": "Over the girl at the wall shot as Teresa says it. Hold the shot under it."
+  }
+ ],
+ "note": "The plan for this cut leaves room for only 9 graphics."
+}

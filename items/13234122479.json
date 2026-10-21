@@ -1,0 +1,295 @@
+{
+ "id": "13234122479",
+ "client": "nfte",
+ "eyebrow": "NFTE · NFTE HQ conversation · 22 Sep 2026 · Social short",
+ "title": "Kirsten Theuns:",
+ "title_q": "“They Were Born Into AI”",
+ "title_short": "Kirsten · Born Into AI",
+ "editor": "Ardit",
+ "due": "2026-10-13",
+ "format": "9:16 only · 1080×1920",
+ "length": "about 34 s",
+ "edit_key": "NFTEUngaKirstenBornIntoAI001",
+ "headline": "Adults were not born with AI. Young people were. So adults must listen to them.",
+ "story": [
+  "Kirsten Theuns of Aflatoun, a global partner of NFTE, talks with Stephanie Alvarado at the NFTE office. Her point is simple: <b>we were not born with AI, young people are</b>.",
+  "So adults who plan for young people must first listen to them. It must feel <b>open and hopeful</b>, never afraid of AI."
+ ],
+ "feel": [
+  "Open",
+  "Hopeful",
+  "Respectful",
+  "Clear",
+  "Zero typos"
+ ],
+ "do": [
+  "Open on frame 1 with Kirsten already speaking and the hook text on top.",
+  "Crop the wide shot to Kirsten on the right.",
+  "Use Stephanie listening (C0343) to hide jump cuts.",
+  "Listen to every line before you caption it. She has an accent.",
+  "Keep captions on the whole time."
+ ],
+ "dont": [
+  "Don't make it about fear of AI, the event, the city or what Aflatoun does.",
+  "Don't use the terrace files (L012C005 to L012C007). They are for the UNGA reel.",
+  "Don't show Stephanie talking in a cutaway.",
+  "No logo, title card or fade at 0:00.",
+  "No second aspect ratio. 9:16 only."
+ ],
+ "links": {
+  "brief": {
+   "title": "Production Brief — NFTE UNGA Panel Day (Sept 22, 2026)",
+   "url": "https://docs.google.com/document/d/1BeOfidEu3eK8XD1MVTdnnKD8_no4dQHoAcZIq7K9ybk/edit",
+   "note": "The plan for the 22 Sep day: HQ conversations, the panel, the reception."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Atdhe owes it. Production Planning shows Reference = Requested. Until then, match the pacing of the delivered J.D. LaRock reels."
+  },
+  "footage": {
+   "title": "NFTE UNGA Sept 22 2026 raw · NYC 2026",
+   "url": "https://drive.google.com/drive/folders/1ihznCW21qB8xxmjIBMqY5GT_7foEWFLj",
+   "note": "Folders: Panel, Interviews, Reception, each with Proxies."
+  }
+ },
+ "bp_intro": "Kirsten is only on camera in the wide shot <span class=\"mono\">L012C001</span> (she sits on the right). Clean sound and the Stephanie cutaway are in <span class=\"mono\">C0343.MP4</span>. L012C001 = C0343 minus 12.6 s; both times are on every row. Times come from the machine transcript, checked against the sound on 7 Oct. No frame grabs on this page. Check every framing note on scrub.",
+ "rows": [
+  {
+   "tc": "00:00–00:05",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "r",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "L012C001 [13:14.1], crop right to Kirsten. Grey top, a glass in her hand. She is already speaking and moves her hand. If the crop is too soft, use a wider crop with both women.",
+   "motion": "Hook text on <b>frame 1</b>, top third: <q>They were born into AI.</q> White, bold, \"born\" in NFTE orange <span class=\"mono\">#FF5C39</span>. Cut on. <b>Name super</b> <span class=\"mono\">00:03–00:05</span>, small, lower left: \"Kirsten Theuns\" / \"Aflatoun\".",
+   "voice": {
+    "who": "Kirsten Theuns",
+    "quote": "We were not born in the times where there was AI, while young people are",
+    "src": "C0343 13:26.8–13:31.3 = L012C001 13:14.1–13:18.7 (machine prints “in a times”; caption what you hear)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Light, open bed starts low."
+  },
+  {
+   "tc": "00:05–00:10",
+   "beat": "THE QUESTION",
+   "kind": "",
+   "frame": null,
+   "crop": "r",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "L012C001 [13:54.4–13:59.9], crop to Kirsten.",
+   "motion": "Hook text out at <span class=\"mono\">00:05</span>. Captions only.",
+   "voice": {
+    "who": "Kirsten Theuns",
+    "quote": "we're all discussing as decision makers, like, how should we prepare young people for this AI world?",
+    "src": "C0343 14:07.1–14:12.6 = L012C001 13:54.4–13:59.9"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:10–00:14",
+   "beat": "THE ANSWER",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Cutaway: Stephanie listens, C0343 [14:12.7–14:16.1]. Check on scrub that she does not speak.",
+   "motion": "Captions only. Colour \"born\" in NFTE orange.",
+   "voice": {
+    "who": "Kirsten Theuns",
+    "quote": "Well, they are born in the world as it is for them.",
+    "src": "C0343 14:12.7–14:16.1 = L012C001 14:00.1–14:03.5 (machine passes differ on “in the world”; caption what you hear)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:14–00:17",
+   "beat": "THE ANSWER",
+   "kind": "turn",
+   "frame": null,
+   "crop": "r",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "L012C001 [13:33.1–13:36.3], crop to Kirsten.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Kirsten Theuns",
+    "quote": "Young people often know already a lot more.",
+    "src": "C0343 13:45.8–13:48.9 = L012C001 13:33.1–13:36.3"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:17–00:25",
+   "beat": "SO LISTEN",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "The full wide shot of both women, L012C001 [13:19.0–13:26.7], or Stephanie listening in C0343 [13:31–13:39]. This is the one wide moment.",
+   "motion": "Captions only. Colour \"listen\" in NFTE orange.",
+   "voice": {
+    "who": "Kirsten Theuns",
+    "quote": "so it's even more important also to really listen to young people themselves, because they already see the world quite differently from us",
+    "src": "C0343 13:31.6–13:39.3 = L012C001 13:19.0–13:26.7"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Small lift."
+  },
+  {
+   "tc": "00:25–00:31",
+   "beat": "BUTTON",
+   "kind": "",
+   "frame": null,
+   "crop": "r",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "L012C001 [14:04.9–14:11.4], crop to Kirsten. Cut \"you know, to\". Hold 0.5 s after \"support them\".",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Kirsten Theuns",
+    "quote": "it's even more important to, you know, to listen to them and to see what they need from us to support them.",
+    "src": "C0343 14:17.6–14:24.0 = L012C001 14:04.9–14:11.4 (cut “you know, to”)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Resolve on \"support them\"."
+  },
+  {
+   "tc": "00:31–00:34",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "NFTE end card, same as the other NFTE cuts.",
+   "motion": "NFTE logo. Nothing else.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Last note rings out. 1 s fade."
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/1BeOfidEu3eK8XD1MVTdnnKD8_no4dQHoAcZIq7K9ybk/edit\">Production Brief — NFTE UNGA Panel Day (Sept 22, 2026)</a>"
+  ],
+  [
+   "Reference",
+   "Not chosen yet."
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/1ihznCW21qB8xxmjIBMqY5GT_7foEWFLj\">NFTE › Raw Footage › NYC UNGA Panel Day Sept 22 2026 › NYC 2026</a>"
+  ],
+  [
+   "Close camera",
+   "<a href=\"https://drive.google.com/file/d/19gWL-lDyzj2xTKBe6YSMkIX-8kArvdYh/view\">Interviews › C0343.MP4</a> · 31:58 · close on Stephanie · proxy <a href=\"https://drive.google.com/file/d/1_lPbg7oqSbx9opqJY5-WmJ0o9hQF1ouq/view\">C0343_Proxy.mov</a>"
+  ],
+  [
+   "Wide camera",
+   "<a href=\"https://drive.google.com/file/d/1y9CZ3LWtzb09hH038ukJGV5pUgzheSXg/view\">Interviews › L012C001_260922XQ.MXF</a> · 31:32 · both women from the side, Stephanie left, Kirsten right · proxy <a href=\"https://drive.google.com/file/d/1HalVG71xWEK_EMqLnbyA0Ah8yw8nZUak/view\">L012C001_260922XQ_Proxy.mov</a>"
+  ],
+  [
+   "Sync",
+   "L012C001 time = C0343 time minus 12.6 s."
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1wO_FJYvQzrr3E8aB7YKzEEUIl2gC7lxNtcax3GTR9ps/edit\">NFTE UNGA — main panel (second half) + Interviews files — machine transcript</a>, part 3 (C0343). Internal doc."
+  ],
+  [
+   "Captions (wide)",
+   "<a href=\"https://drive.google.com/file/d/1C8MPFbkVDfYanEEClq67ADolsjjpGkKH/view\">L012C001_260922XQ.captions.srt</a> · <a href=\"https://docs.google.com/document/d/1sLfr27teWShw7FumaVA42Pua2q3E8RU4hzcWHyELloM/edit\">L012C001_260922XQ Transcript</a>"
+  ],
+  [
+   "visual.json",
+   "None for this shoot."
+  ],
+  [
+   "Brand",
+   "No brand pack or font on the item. NFTE purple <span class=\"mono\">#4C12A1</span>, orange <span class=\"mono\">#FF5C39</span> (from nfte.com). Their font is Circular; we have no file. Use the caption style of the other NFTE cuts."
+  ],
+  [
+   "Music",
+   "No set source for NFTE. Use a licensed track and save the license with the project."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "C0343.MP4: Sony, 31:58, two camera audio channels at the same level. L012C001: FX6 MXF, sound on Tracks 1 and 2 (Track 2 louder), Tracks 3–8 silent. The shoot plan was 4K XAVC at 23.98 fps. Confirm on import."
+  ],
+  [
+   "Timeline",
+   "1080×1920 at <b>23.976 fps</b>. Same as the source. Do not convert."
+  ],
+  [
+   "Colour",
+   "The picture is flat (log). Colour correct both cameras so they match."
+  ],
+  [
+   "Crop",
+   "From a 4K frame, a 9:16 crop 1215 px wide is 1:1 for 1080×1920. Tighter than that is an upscale. Stay under 130%."
+  ],
+  [
+   "Audio",
+   "The office has room noise. Clean it before V1. Use the cleaner channel for the voice."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. Music 18–20 dB under the voice."
+  ],
+  [
+   "Captions",
+   "Burned in, on for the whole video. NFTE in capitals. Max 2 lines. Keep the bottom 20% clear for app buttons."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920, about 16 Mbps. One file, 9:16 only. Deliver to Frame.io → Ready for Review."
+  ]
+ ],
+ "checklist": [
+  "Every caption says NFTE in capitals. Never \"Nifty\". Aflatoun, never \"Aflatune\".",
+  "No \"New York\", UN or event name in any on-screen text. NFTE wants every video to feel national.",
+  "Read every caption against the audio. The transcript is a machine pass.",
+  "No black frames between shots. Every transition shows footage.",
+  "Music sits well under the voice from start to end.",
+  "No logo before the end card. No title card or fade at 0:00.",
+  "Both cameras are colour corrected and match.",
+  "Name super is \"Kirsten Theuns\" / \"Aflatoun\". Spell both names right.",
+  "In every cutaway of Stephanie, her mouth is closed."
+ ],
+ "decisions": [
+  {
+   "t": "No visual reference for the UNGA shoot",
+   "b": "Production Planning shows Reference = Requested, owner Atdhe. A producer has to pick it."
+  },
+  {
+   "t": "End card: NFTE alone, or NFTE + BUILD?",
+   "b": "Add a BUILD logo? Atdhe decides."
+  },
+  {
+   "t": "Kirsten's title on the name super",
+   "b": "Add her title? NFTE's own Instagram post of 2 Sep calls her Director of Strategic Partnerships & Development at Aflatoun. Add it, or keep \"Aflatoun\" only?"
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> Aflatoun is an NFTE partner and a World Series of Innovation sponsor. A partner voice on AI and youth fits NFTE's goal to lead on AI in learning.",
+ "ask_examples": [
+  "Where is Kirsten in the wide shot?",
+  "Which lines need a cutaway?",
+  "Can I use the terrace interviews?",
+  "How do I spell Aflatoun?"
+ ],
+ "transcript": "Machine transcript of Interviews › C0343.MP4 (conversation at NFTE HQ, 22 Sep 2026). Times are mm:ss in C0343. L012C001 time = C0343 time minus 12.6 s. The machine writes \"NFTY\" for NFTE and \"Aflatune\"/\"AFRA\" for Aflatoun. Speaker names are not in the machine pass: Stephanie Alvarado (NFTE) asks, Kirsten Theuns (Aflatoun) answers most lines. Only first pass, check by ear.\n[12:20] Because I do believe that human skills as we say are even more important in this insecure time to\n[12:29] young people and again it's a matter of being and supporting young people at an\n[12:35] early age to make sure you have the critical thinking skills that they know how to solve problems,\n[12:41] how to work on teams because I really don't think it will get more important to have these skills\n[12:45] and again these are skills that you learn over time that you learn in school\n[12:50] that you learn within your community, within your parents and sisters so I think\n[12:55] making sure that this is embedded as early as possible within an education system\n[13:01] is of even more importance than it was before, if I can say like this.\n[13:09] Another theme also is like a lot of people, us decision makers, people that talk about how can we prepare young people\n[13:23] to get to work in this AI world.\n[13:26] We were not born in a times where there was AI,\n[13:30] while young people are.\n[13:31] So it's even more important also to really listen\n[13:34] to young people themselves because they already see the world\n[13:38] quite differently from us because we're trying to adjust\n[13:41] to all this new world, learning AI tools ourselves, et cetera.\n[13:46] All young people often know already a lot more.\n[13:49] Yeah, so I think you know really looking at how many young people see things is also even more important than\n[13:56] It used to be because they know for them. This is the world as they know it right so\n[14:03] That's another thing that we sometimes you know oh, you know we're all discussing as decision makers\n[14:09] Like how should we prepare young people for this AI world?\n[14:12] Well, they are born in the world as it is for them\n[14:16] And so, you know, it's even more important to listen to them and to see what they need from us to support them.\n[14:25] So that's still, I think, for all of us, a bit of a switch, like, OK, you know."
+}

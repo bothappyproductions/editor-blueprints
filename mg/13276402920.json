@@ -1,0 +1,104 @@
+{
+ "item": "13276402920",
+ "client": "sfcg",
+ "note": "Short cut, captions only on every row, and Kalindi finds animation in the middle inauthentic, so 6 graphics. Use one only where a line needs it.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Action figures",
+   "tpl": "statement_card",
+   "dur": 2,
+   "text": {
+    "main": "play with like action figures",
+    "emph": [
+     "action figures"
+    ]
+   },
+   "src": "GV, 764_3896.MXF [01:57]",
+   "rows": [
+    "00:02–00:10"
+   ],
+   "use": "Short full-frame on the words. It can cover the stumble cut after “you like to”. Then back to GV."
+  },
+  {
+   "n": 2,
+   "title": "Stop-motions tag",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "Stop-motions"
+   },
+   "src": "GV, 764_3896.MXF [01:57] “make stop-motions”",
+   "rows": [
+    "00:02–00:10"
+   ],
+   "use": "Small tag on the word stop-motions. One text at a time."
+  },
+  {
+   "n": 3,
+   "title": "People would be happier",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "I think people would be happier"
+   },
+   "src": "GV, 764_3896.MXF [02:03]",
+   "rows": [
+    "00:10–00:12"
+   ],
+   "use": "Top band over GV as GV says it. Out before the cut to the shirt."
+  },
+  {
+   "n": 4,
+   "title": "Frame the shirt",
+   "tpl": "corner_frame",
+   "dur": 3,
+   "box": [
+    0.2,
+    0.4,
+    0.6,
+    0.34
+   ],
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:12–00:15"
+   ],
+   "use": "Brackets only, no text, around Sophie's shirt if it is in frame. If not, skip it and stay on GV."
+  },
+  {
+   "n": 5,
+   "title": "A shirt you cut up",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "a shirt that you cut up"
+   },
+   "src": "GV, 764_3896.MXF [02:37]",
+   "rows": [
+    "00:15–00:22"
+   ],
+   "use": "Top band over GV on the last words. Out with the last caption."
+  },
+  {
+   "n": 6,
+   "title": "Stepping out",
+   "tpl": "statement_card",
+   "dur": 2.5,
+   "text": {
+    "main": "it can just be like stepping out of the house",
+    "emph": [
+     "stepping out"
+    ]
+   },
+   "src": "GV, 764_3896.MXF [02:37]",
+   "rows": [
+    "00:15–00:22"
+   ],
+   "use": "Short full-frame on the words, only if Atdhe asks. Back to GV smiling for “a shirt that you cut up”."
+  }
+ ]
+}

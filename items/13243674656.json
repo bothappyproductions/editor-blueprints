@@ -1,0 +1,197 @@
+{
+ "id": "13243674656",
+ "client": "s4s",
+ "eyebrow": "Soles4Souls · End of Year · client script + client B-roll · Thank-you video",
+ "title": "End of Year Thank You",
+ "title_q": "",
+ "title_short": "End of Year Thank You",
+ "editor": "Ardit",
+ "due": "2026-10-26",
+ "format": "9:16 only · 1080×1920",
+ "length": "set by the client script",
+ "edit_key": "S4SEndOfYearThankYou001",
+ "headline": "Soles4Souls says thank you at the end of the year, in their own script, over their own B-roll.",
+ "story": [
+  "Rachel shared the footage on the Soles4Souls SharePoint. The item says the client wrote the script. <b>The script is not on the item, in Drive, in Slack or in email yet.</b> Do not cut a story before it arrives.",
+  "When it arrives, the script sets the order. Our job: the best joyful B-roll for each line, big readable text, clean sound, and the new S4S end card. Joy themed and positive, like every S4S post this season."
+ ],
+ "feel": [
+  "Grateful",
+  "Joyful",
+  "Warm",
+  "Simple"
+ ],
+ "do": [
+  "Get the script first. Then cut.",
+  "Log what is in the SharePoint folder (file names, length) on the Monday item.",
+  "Open on frame 1 with a face and the first script line.",
+  "Make the text big. Text size is this client's top note.",
+  "End on the new S4S typography end card."
+ ],
+ "dont": [
+  "No AI voiceover. The client chose a real voice over AI before.",
+  "No stock footage. Use their B-roll.",
+  "No logo, title card or fade at 0:00.",
+  "No long black screens or slow pace.",
+  "No second aspect ratio. 9:16 only."
+ ],
+ "links": {
+  "brief": null,
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Nick owes it. The client did not suggest one."
+  },
+  "footage": {
+   "title": "Client SharePoint — Thank You Video footage",
+   "url": "https://soles4souls-my.sharepoint.com/:f:/g/personal/rachelh_soles4souls_org/IgBpirOmQPF4RbHy2dYJ8SE_ATy3hl24bpl97Wg697JKrwE?e=HDIeN7",
+   "note": "The client's folder. We have not opened it, so the file list is not known yet."
+  }
+ },
+ "bp_intro": "No script and no file list were available when this page was made, so it has only the frame of the cut. Nothing below is a quote. Rows get real lines, files and times when the script arrives.",
+ "rows": [
+  {
+   "tc": "00:00–00:03",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "B-roll TBD on scrub. Pick the most joyful face in the client's folder. A person, not a logo.",
+   "motion": "The first script line on <b>frame 1</b>, big. No title card, no logo, no fade.",
+   "voice": "First line of the client script. <b>Script not received yet.</b>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "TBD with the script."
+  },
+  {
+   "tc": "TBD",
+   "beat": "SCRIPT",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "B-roll TBD on scrub. One shot per script line, in the script's order. Joyful moments first: people getting shoes, smiles, thank-yous.",
+   "motion": "Every script line on screen, word for word as the client wrote it.",
+   "voice": "Client script lines, in order. <b>Script not received yet.</b>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "TBD with the script."
+  },
+  {
+   "tc": "TBD",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "The new Soles4Souls typography end card. Never the old red and orange card.",
+   "motion": "Only the call-to-action line changes. The client sets it.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Resolve on the end card."
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Production brief",
+   "None. No brief and no Production Planning row for this video."
+  ],
+  [
+   "Script",
+   "Not found. The item says “client script”, but no script is on the item, in Drive, in Slack or in email."
+  ],
+  [
+   "Reference",
+   "Not chosen yet. Nick owes it."
+  ],
+  [
+   "Footage",
+   "<a href=\"https://soles4souls-my.sharepoint.com/:f:/g/personal/rachelh_soles4souls_org/IgBpirOmQPF4RbHy2dYJ8SE_ATy3hl24bpl97Wg697JKrwE?e=HDIeN7\">Client SharePoint — Thank You Video footage</a> · client side. Nothing goes into their folder."
+  ],
+  [
+   "Transcript",
+   "None."
+  ],
+  [
+   "visual.json",
+   "None. Client footage."
+  ],
+  [
+   "Brand",
+   "S4S teal <span class=\"mono\">#62CCBF</span>, black, white. Buenos Aires for titles, Roboto for body text. New S4S typography end card (the art-director file)."
+  ],
+  [
+   "Music",
+   "TBD with the script."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "Not known yet. The client files have not been opened or probed."
+  ],
+  [
+   "Timeline",
+   "1080×1920. Frame rate matches most of the client's clips. Conform the rest."
+  ],
+  [
+   "Crop",
+   "Horizontal clips: center-crop to 9:16 and keep faces in frame. No stretching."
+  ],
+  [
+   "Audio",
+   "Clean every clip with sound (noise reduction and levels). The client notices noisy audio right away."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak."
+  ],
+  [
+   "Captions",
+   "Client file spec: black text on a teal box (<span class=\"mono\">#62CCBF</span>). Never white on teal. US English. Big."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920, about 16 Mbps. One file, 9:16 only."
+  ]
+ ],
+ "checklist": [
+  "Every script line is on screen, word for word as the client wrote it.",
+  "Frame 1 is a face and the first line. No logo, title or fade.",
+  "Soles4Souls is one word. S4S, 4EveryKid, 4Relief, 4Opportunity, 4ThePlanet spelled right.",
+  "US English everywhere.",
+  "Text is big enough to read on a phone.",
+  "Audio is clean and level. No AI voice.",
+  "No black screens and no slow stretches.",
+  "End card is the new S4S typography card. Only the CTA line is different."
+ ],
+ "decisions": [
+  {
+   "t": "Client script missing",
+   "b": "The item says “client script + B-roll”, but no script was found on Monday, in Drive, in Slack #only_soles4souls, or in Atdhe's, Nick's or Claire's email. No message from Rachel on 8 Oct was found either. Nick gets the script from Rachel."
+  },
+  {
+   "t": "Voice-over or on-screen text",
+   "b": "Nobody wrote whether the script is read as a voice-over or shown as text, or who reads it. Nick asks Rachel. If it is a voice-over, it must be a real voice."
+  },
+  {
+   "t": "No visual reference",
+   "b": "The Reference column is empty. Nick picks one. Editors do not."
+  },
+  {
+   "t": "End card call to action",
+   "b": "The S4S end card stays the same and only the CTA line changes. Nobody has given the line for this video. Nick asks Rachel or Sydney."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> Sydney asked to <q>keep the notes joy themed, positive, want to tap into the joy theme of our campaign.</q> A thank-you video is the purest form of that.",
+ "ask_examples": [
+  "Where is the client script?",
+  "Is the script a voice-over or on-screen text?",
+  "Which end card do I use?",
+  "What caption style does S4S want?"
+ ],
+ "transcript": ""
+}

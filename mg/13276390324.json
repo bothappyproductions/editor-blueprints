@@ -1,0 +1,39 @@
+{
+ "item": "13276390324",
+ "client": "sfcg",
+ "note": "The client does not want animation in the middle of a video. Use one graphic at most.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Passing time",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "just there passing time by"
+   },
+   "src": "Eli, 764_3886 [03:01]",
+   "rows": [
+    "00:03–00:09"
+   ],
+   "use": "Over Eli as he says it, after the hook text is off at 00:03. Keep it still and simple."
+  },
+  {
+   "n": 2,
+   "title": "Take a stop",
+   "tpl": "statement_card",
+   "dur": 3,
+   "text": {
+    "main": "it doesn't hurt once in a while to take a stop",
+    "emph": [
+     "stop"
+    ]
+   },
+   "src": "Eli, 764_3886 [02:35]–[02:47]",
+   "rows": [
+    "00:09–00:15"
+   ],
+   "use": "Only if you add this line to the cut, after “genuine connections”."
+  }
+ ]
+}

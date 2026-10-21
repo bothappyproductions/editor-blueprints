@@ -1,0 +1,81 @@
+{
+ "item": "12489952450",
+ "client": "lions",
+ "note": "The plan says captions only on most rows and Lions want much simpler graphics or none, so 5 graphics. Use them only if Atdhe asks, one at a time.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Zimbabwe pin",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "Zimbabwe"
+   },
+   "src": "Place in this blueprint (location pin at 00:05–00:07).",
+   "rows": [
+    "00:05–00:12"
+   ],
+   "use": "Use it as the location pin at 00:05 to 00:07. Never before 0:03."
+  },
+  {
+   "n": 2,
+   "title": "Different roles",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "So they all basically play different roles in my life."
+   },
+   "src": "Zimbabwe Leo Lion, IMG_7978.MOV [01:39]",
+   "rows": [
+    "00:05–00:12"
+   ],
+   "use": "Over her face as she says it. Only after the pin is gone."
+  },
+  {
+   "n": 3,
+   "title": "All of them are family",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "That means basically all of them are family"
+   },
+   "src": "Zimbabwe Leo Lion, IMG_7978.MOV [01:39]–[01:42]",
+   "rows": [
+    "00:12–00:15"
+   ],
+   "use": "Over her face as she says it. Clear it before the 0.5 s hold."
+  },
+  {
+   "n": 4,
+   "title": "Leo to Leo Lion",
+   "tpl": "quote_card",
+   "dur": 5,
+   "text": {
+    "main": "There's a point whereby you have to move from being a Leo to a Leo Lion"
+   },
+   "src": "Zimbabwe Leo Lion, IMG_7978.MOV [01:16]",
+   "rows": [
+    "00:15–00:24"
+   ],
+   "use": "Full-frame cutaway on this line, then back to her face. No name on it. Spell Leo and Leo Lion exactly."
+  },
+  {
+   "n": 5,
+   "title": "New people",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "Getting to network with new people from all over."
+   },
+   "src": "Zimbabwe Leo Lion, IMG_7978.MOV [00:59]",
+   "rows": [
+    "00:24–00:33"
+   ],
+   "use": "Over her face as she says it. Clear it when her line ends."
+  }
+ ]
+}

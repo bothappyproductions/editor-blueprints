@@ -1,0 +1,115 @@
+{
+ "item": "13153550055",
+ "client": "curegrin",
+ "note": "The plan says captions only on every row, one answer with no cut from 00:57, and her face with no B-roll on the last line. Use these only if Atdhe asks for more, and keep captions on.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "People Who Know",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "You just have people that know how to help your family member."
+   },
+   "src": "Dr. Kristen Park, MVI_0943.MP4 [08:04]",
+   "rows": [
+    "00:00–00:09"
+   ],
+   "use": "Only after the hook text goes out at 00:03. Never on frame 1."
+  },
+  {
+   "n": 2,
+   "title": "Her Field",
+   "tpl": "tag_label",
+   "dur": 4,
+   "pos": "upper",
+   "text": {
+    "main": "Glutamate Receptor Disorders"
+   },
+   "src": "Dr. Kristen Park, MVI_0943.MP4 [02:09]",
+   "rows": [
+    "00:09–00:19"
+   ],
+   "use": "Only after the name plate is gone, from 00:14. One text at a time."
+  },
+  {
+   "n": 3,
+   "title": "A Rising Tide",
+   "tpl": "kinetic_quote",
+   "dur": 5,
+   "pos": "top",
+   "text": {
+    "main": "a rising tide is going to lift all boats.",
+    "emph": [
+     "rising",
+     "tide"
+    ]
+   },
+   "src": "Dr. Kristen Park, MVI_0943.MP4 [05:06]",
+   "rows": [
+    "00:57–01:44"
+   ],
+   "use": "Once, on the rising tide line, in the top band. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "All in This Together",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "We are all in this together."
+   },
+   "src": "Dr. Kristen Park, MVI_0943.MP4 [05:15]",
+   "rows": [
+    "00:57–01:44"
+   ],
+   "use": "Top band over her face right after the rising tide line. Not on screen with MG 3."
+  },
+  {
+   "n": 5,
+   "title": "Focus on the Team",
+   "tpl": "corner_frame",
+   "dur": 4,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "03:13–03:37"
+   ],
+   "use": "Brackets only, no text. Frames the group at the table in MVI_3808. Move them to where they stand."
+  },
+  {
+   "n": 6,
+   "title": "Really Helpful",
+   "tpl": "word_stack",
+   "dur": 4,
+   "pos": "upper",
+   "text": {
+    "items": [
+     "Very informative",
+     "Really helpful"
+    ]
+   },
+   "src": "Dr. Kristen Park, MVI_0943.MP4 [10:24]–[10:32]",
+   "rows": [
+    "03:13–03:37"
+   ],
+   "use": "Each line lands on her word, at the end of this row. Keep captions on."
+  },
+  {
+   "n": 7,
+   "title": "What Can We Do Better",
+   "tpl": "question_card",
+   "dur": 4,
+   "text": {
+    "main": "what can we do better the next time?"
+   },
+   "src": "Dr. Kristen Park, MVI_0943.MP4 [08:27]",
+   "rows": [
+    "01:44–02:36"
+   ],
+   "use": "Full-frame cutaway on her words, only if Atdhe asks. Keep her audio under."
+  }
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "item": "13278215946",
+ "client": "freedom-to-choose",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Where he first heard",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "I first heard about Freedom to Choose"
+   },
+   "src": "Anthony, Interview_Anthony #1.MOV [00:26.7] (bite in this blueprint; check “Freedom to Choose” by ear)",
+   "rows": [
+    "00:03-00:10"
+   ],
+   "use": "Only after the name super is gone, from 00:05. Top band over Anthony as he says it."
+  },
+  {
+   "n": 2,
+   "title": "A strong bond",
+   "tpl": "statement_card",
+   "dur": 4,
+   "text": {
+    "main": "I feel a strong bond and connection with individuals that are still incarcerated.",
+    "emph": [
+     "bond"
+    ]
+   },
+   "src": "Anthony, Interview_Anthony #2.MOV [00:54.0] (bite in this blueprint)",
+   "rows": [
+    "00:10-00:18"
+   ],
+   "use": "Short full-frame cutaway on “strong bond”, between the circle shots. Keep his voice under."
+  },
+  {
+   "n": 3,
+   "title": "I wanted to come back",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "I always knew that I wanted to come back"
+   },
+   "src": "Anthony, Interview_Anthony #2.MOV [01:09] (bite in this blueprint)",
+   "rows": [
+    "00:10-00:18"
+   ],
+   "use": "Top band when you cut back to Anthony for “come back”."
+  },
+  {
+   "n": 4,
+   "title": "License lost card",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "1. License lost"
+   },
+   "src": "Text card written in this blueprint (row 00:18-00:26).",
+   "rows": [
+    "00:18-00:26"
+   ],
+   "use": "The planned card. Cut it on when he says “license”. Fast, like a list."
+  },
+  {
+   "n": 5,
+   "title": "Car broken card",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "2. Car broken"
+   },
+   "src": "Text card written in this blueprint (row 00:18-00:26).",
+   "rows": [
+    "00:18-00:26"
+   ],
+   "use": "The planned card. Cut it on when he says “convertible top”. It replaces card 1."
+  },
+  {
+   "n": 6,
+   "title": "No ID card",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "3. No ID"
+   },
+   "src": "Text card written in this blueprint (row 00:26-00:35).",
+   "rows": [
+    "00:26-00:35"
+   ],
+   "use": "The planned card. Cut it on when he says “my ID was missing”."
+  },
+  {
+   "n": 7,
+   "title": "Two hours each way",
+   "tpl": "word_stack",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "items": [
+     "2 hours there.",
+     "2 hours back."
+    ]
+   },
+   "src": "Text card written in this blueprint (row 00:35-00:40).",
+   "rows": [
+    "00:35-00:40"
+   ],
+   "use": "The planned card. Each line slams in on his words. Let his timing be the joke."
+  },
+  {
+   "n": 8,
+   "title": "Alongside with us",
+   "tpl": "statement_card",
+   "dur": 4,
+   "text": {
+    "main": "they're doing the work alongside with us",
+    "emph": [
+     "alongside"
+    ]
+   },
+   "src": "Anthony, Interview_Anthony #2.MOV [03:36.9] (bite in this blueprint)",
+   "rows": [
+    "00:40-00:50"
+   ],
+   "use": "Full-frame cutaway between the workbook shots. Back to Anthony for “fix you”."
+  },
+  {
+   "n": 9,
+   "title": "Focus on a workbook",
+   "tpl": "corner_frame",
+   "dur": 3,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:40-00:50"
+   ],
+   "use": "Brackets on a workbook in AC022202. No readable names or faces up close."
+  }
+ ],
+ "note": "The plan for this cut leaves room for only 9 graphics."
+}

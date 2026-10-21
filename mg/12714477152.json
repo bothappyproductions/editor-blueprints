@@ -1,0 +1,120 @@
+{
+ "item": "12714477152",
+ "client": "watsi",
+ "note": "The plan says captions only and stay on her the whole way, one brand element at a time. Use these only if Atdhe asks for more, and prefer the top-band overlays.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Given the chance",
+   "tpl": "kinetic_quote",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "What surprises me is how often people simply aren't given the chance.",
+    "emph": [
+     "chance"
+    ]
+   },
+   "src": "Mackinnon, Mincho5162.MP4 [00:11]",
+   "rows": [
+    "00:07–00:10"
+   ],
+   "use": "Over the punch-in as she says it. Keep captions on."
+  },
+  {
+   "n": 2,
+   "title": "9, 10, 11 years",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "giving every month for 9, 10, 11 years"
+   },
+   "src": "Mackinnon, Mincho5162.MP4 [00:15]",
+   "rows": [
+    "00:10–00:32"
+   ],
+   "use": "Over her as she says it. Keep the years exactly as she says them."
+  },
+  {
+   "n": 3,
+   "title": "Andrew and Danya tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Andrew and Danya"
+   },
+   "src": "Names as the blueprint writes them (Danya with a y).",
+   "rows": [
+    "00:32–00:49"
+   ],
+   "use": "Small, upper left, when she says their names. Spell Danya with a y."
+  },
+  {
+   "n": 4,
+   "title": "Life goes on",
+   "tpl": "word_stack",
+   "dur": 5,
+   "pos": "top",
+   "text": {
+    "items": [
+     "Gotten married",
+     "Changed jobs",
+     "Moved across the country",
+     "Had kids"
+    ]
+   },
+   "src": "Mackinnon, Mincho5162.MP4 [00:40]",
+   "rows": [
+    "00:32–00:49"
+   ],
+   "use": "Each line lands on her word. Keep captions on. Not at the same time as MG 3."
+  },
+  {
+   "n": 5,
+   "title": "No, thank you",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "often their response is, no, thank you."
+   },
+   "src": "Mackinnon, Mincho5162.MP4 [00:54]",
+   "rows": [
+    "00:49–00:56"
+   ],
+   "use": "Over her as she says it. Take it off before “Thanks for Watsi”."
+  },
+  {
+   "n": 6,
+   "title": "The hunger",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "the hunger we all have for it."
+   },
+   "src": "Mackinnon, Mincho5162.MP4 [01:06]",
+   "rows": [
+    "00:56–01:06"
+   ],
+   "use": "Over her as she says it. Out before the 0.7 s hold on her face."
+  },
+  {
+   "n": 7,
+   "title": "They hold on",
+   "tpl": "quote_card",
+   "dur": 4,
+   "text": {
+    "main": "When you give people something real, they hold on.",
+    "who": "Mackinnon"
+   },
+   "src": "Mackinnon, Mincho5162.MP4 [01:02]",
+   "rows": [
+    "00:56–01:06"
+   ],
+   "use": "Full-frame cutaway on this line. Back to her for “That's what keeps surprising me”."
+  }
+ ]
+}

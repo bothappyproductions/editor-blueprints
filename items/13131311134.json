@@ -1,0 +1,262 @@
+{
+ "id": "13131311134",
+ "client": "watsi",
+ "eyebrow": "Watsi · NYC Bryant Park · 22 Sep 2026 · Who Gives donor note",
+ "title": "Shannon:",
+ "title_q": "“Who Gives to Make a Difference”",
+ "title_short": "Shannon · Who Gives",
+ "editor": "Qendrim",
+ "due": "2026-10-14",
+ "format": "9:16 only · 1080×1920",
+ "length": "about 30 s",
+ "edit_key": "WATSINYCWhoGivesNoteShannon001",
+ "headline": "One supporter, in her own words: everyone should give, and Watsi is at the top of her list.",
+ "story": [
+  "A Who Gives donor note. Shannon answers the campaign question on camera: <b>who gives?</b> Everyone should. Giving lets you be part of something bigger than yourself. She gives her time, her talents and her treasures, and <b>Watsi is at the top of her list</b>.",
+  "It ends the Who Gives way: <b>“Tell us your story.”</b> Natural sound, pop-up captions, no music. Short and warm."
+ ],
+ "feel": [
+  "Warm",
+  "Direct",
+  "Natural",
+  "Short",
+  "Zero typos"
+ ],
+ "do": [
+  "Open on candid footage of Shannon talking, with <q>Who gives?</q> as the only text.",
+  "Use pop-up captions, word by word, no box. Captions on the whole time.",
+  "Credit her as “Shannon” only, large.",
+  "End on <q>Tell us your story.</q> then watsi.org/who-gives on the gradient.",
+  "Keep her clip as shot: no heavy grade."
+ ],
+ "dont": [
+  "No music. Natural audio only.",
+  "No title card at 0:00, no logo.",
+  "Never use 00:05–00:12: her surname, state, job title and company.",
+  "No Roll Call look: no house captions, no patient B-roll, no Original Series end screen.",
+  "No second aspect ratio. 9:16 only."
+ ],
+ "links": {
+  "brief": {
+   "title": "Watsi Bryant Park Activation Brief",
+   "url": "https://docs.google.com/document/d/1cOLw5wfNaZiaoSJfDiIVlE-u6KqX2bRSoi9yvidYl30/edit",
+   "note": "The plan for the 22 Sep NYC shoot day."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Nick owes it (Production Planning row 12949181905). Client's suggestion for this shoot: <a href=\"https://givewithjose.com/\">givewithjose.com ↗</a>. The approved Who Gives notes Dean and Paa on the Watsi board are the standard for length, captions and close."
+  },
+  "footage": {
+   "title": "Shannon Who Gives Interview",
+   "url": "https://drive.google.com/drive/folders/159xDjCl6Qce5l40b_PLe9cTTi2Msmk1A",
+   "note": "20260922_C5070.MP4, 1:48, one camera, Shannon only."
+  }
+ },
+ "bp_intro": "All source times are in <span class=\"mono\">20260922_C5070.MP4</span> (1:48, one camera). Times come from the caption file and are accurate to about 0.2 s. Only her answers play. Nick's questions are cut and shown as text.",
+ "rows": [
+  {
+   "tc": "00:00–00:04",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Open on candid footage: Shannon already talking on the busy sidewalk, holding the navy “Who Gives?” sign with the Watsi logo (seen at 01:02; check it is in frame here too). The 9:16 crop is narrower than the sign: keep her face and the logo in. Clip as shot: no grade.",
+   "motion": "Question on <b>frame 1</b>, top third: <q>Who gives?</q> Lato Bold, white. It repeats her sign, which the crop cuts. Nothing else on screen. No added logo, no card.",
+   "voice": {
+    "who": "Shannon",
+    "quote": "When I think about who gives, the first thing that comes to mind is everyone should be giving",
+    "src": "C5070 00:24.6–00:28.4"
+   },
+   "sfx": "Park ambience only.",
+   "music": "<span class=\"none\">No music. Natural audio only.</span>"
+  },
+  {
+   "tc": "00:04–00:07",
+   "beat": "WHO GIVES",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same shot.",
+   "motion": "Top text out. <b>Name super</b> at <span class=\"mono\">00:04–00:06.5</span>: <q>Hear from</q> in September Spirit + <q>Shannon</q> in Lato, lower left, <b>large</b>. First name only. This is the one added brand element. The sign is part of the footage.",
+   "voice": {
+    "who": "Shannon",
+    "quote": "if they're not, so yeah you should give.",
+    "src": "C5070 00:28.6–00:31.3"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">None.</span>"
+  },
+  {
+   "tc": "00:07–00:12",
+   "beat": "WHY GIVE",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same shot. Cut Nick's question audio; keep only her answer.",
+   "motion": "Top text: Nick's question <q>Why is it important to give?</q> for 2 s, then captions only.",
+   "voice": {
+    "who": "Shannon",
+    "quote": "It's important for people to give so that they can have an impact in the world and be a part of something bigger than themselves.",
+    "src": "C5070 00:36.8–00:41.6"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">None.</span>"
+  },
+  {
+   "tc": "00:12–00:22",
+   "beat": "WATSI",
+   "kind": "",
+   "frame": "f_C5070_62",
+   "crop": "c",
+   "frame_tag": "src 1:02",
+   "frame_alt": "Shannon on a busy sidewalk holding the navy Who Gives? sign",
+   "visual": "Shannon holds the navy “Who Gives?” sign at chest height, people walking behind her. One take, no cut inside the line.",
+   "motion": "Pop-up captions, word by word, no box. Write <b>Watsi</b> by hand: the auto-captions get it wrong.",
+   "voice": {
+    "who": "Shannon",
+    "quote": "There's a lot of organizations out there that I'm very passionate about and that I like to give whether it's my time, my talents, or my treasures but Watsi is certainly at the top of that list.",
+    "src": "C5070 00:55.3–01:05.3"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">None.</span>"
+  },
+  {
+   "tc": "00:22–00:24",
+   "beat": "BUTTON",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Shannon on camera. The transcript tags this line as Nick: check on scrub that it is her voice. If it is Nick, drop this row and end on “top of that list”.",
+   "motion": "Captions only. This line is the button.",
+   "voice": {
+    "who": "Shannon",
+    "quote": "Alright, who gives to make a difference?",
+    "src": "C5070 01:27.2–01:29.1"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music. Who Gives cuts use natural audio only.</span>"
+  },
+  {
+   "tc": "00:24–00:30",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Campaign gradient, sampled from the live <a href=\"https://watsi.org/who-gives\">watsi.org/who-gives</a> page. Do not guess the colors.",
+   "motion": "<q>Tell us your story.</q> full screen in September Spirit. Then <b>watsi.org/who-gives</b> in Lato, lowercase. Nothing else: no logo lockup, no stats, no donate button.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>"
+  }
+ ],
+ "frames": {
+  "f_C5070_62": "data:image/jpeg;base64,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"
+ },
+ "files": [
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/1cOLw5wfNaZiaoSJfDiIVlE-u6KqX2bRSoi9yvidYl30/edit\">Watsi Bryant Park Activation Brief</a>"
+  ],
+  [
+   "Reference",
+   "Not chosen yet. Client suggestion: <a href=\"https://givewithjose.com/\">givewithjose.com ↗</a>"
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/14zBVXBosNxnO3d87nYdASakULeJSEE8W\">Watsi NYC Sept 2026</a>"
+  ],
+  [
+   "Clip",
+   "<a href=\"https://drive.google.com/file/d/1VgTd22M8oxufCEyM4rItRP3FLipPupum/view\">20260922_C5070.MP4</a> · Who Gives Interviews and AYH › Shannon Who Gives Interview"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1Jpv4HhBSmEHzl_vttJf40cLER0yyOVMUF1vkth_FYE4/edit\">Shannon Who Gives Interview Transcript</a> · speaker labels are wrong, trust the voice"
+  ],
+  [
+   "Captions",
+   "<a href=\"https://drive.google.com/file/d/1sot1zD6bGFjVTbzImYaKl7N_u_WHrFky/view\">Shannon Who Gives Interview.captions.srt</a> (timings used above)"
+  ],
+  [
+   "Who Gives page",
+   "<a href=\"https://watsi.org/who-gives\">watsi.org/who-gives</a> · sample the gradient here"
+  ],
+  [
+   "Brand pack",
+   "<a href=\"https://drive.google.com/drive/folders/1my9RNjTawX8JeQO2eQDHSphWP8KTg09r\">LOTUS illustrations</a> · <a href=\"https://drive.google.com/drive/folders/1T7bIehcX3_l6F-CXUu-LHCyPE58nq9df\">September Spirit font</a> · <a href=\"https://drive.google.com/file/d/1u8R2iKmydBN2xF_h0wIE6X-NZo0mslXs/view\">Watsi brand guide</a>"
+  ],
+  [
+   "Item brief doc",
+   "<a href=\"https://docs.google.com/document/d/1Kk42JvJcTk2Ve6-wCPMssxVbKTCtawOvxcx10T1p1tY/edit\">pulse.13131311134</a>"
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "Probe not available. Other Sept 22 FX3 files are 1920×1080, 59.94 fps, 2-ch. Confirm on import."
+  ],
+  [
+   "Timeline",
+   "1080×1920 at <b>29.97 fps</b>."
+  ],
+  [
+   "Crop",
+   "9:16 crop of 1080p = 608 px wide, already upscaled 1.78×. No punch-ins needed: this is one shot."
+  ],
+  [
+   "Audio",
+   "FX3 lav, recorded in camera. Check both channels and use the live lav track. No music."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak."
+  ],
+  [
+   "Captions",
+   "Pop-up words as spoken, Lato, large, white. No highlight box, no jumpy animation, no shading block. Visible on the background. Bottom 20% clear."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920, about 16 Mbps. One file, 9:16 only."
+  ]
+ ],
+ "checklist": [
+  "Read every caption against the audio. Sonam checks every word.",
+  "Watsi with a capital W only. Never WOTC.",
+  "Credit is “Shannon” only. No surname, title or company anywhere.",
+  "No music anywhere in the cut.",
+  "Only one text element on screen at a time.",
+  "Close is exactly: “Tell us your story.” then watsi.org/who-gives. Nothing else.",
+  "Gradient colors come from the live Who Gives page.",
+  "Lips match the audio across every cut."
+ ],
+ "decisions": [
+  {
+   "t": "No visual reference on this shoot",
+   "b": "Production Planning row 12949181905 has no reference chosen. Owner: Nick. Sonam suggested givewithjose.com."
+  },
+  {
+   "t": "Intro card or name super",
+   "b": "The 18 Aug Who Gives guide had a 2 s “Hear from [Name]” card. The 6 Oct direction says open on candid footage and end on the “Tell us your story” card. This plan puts “Hear from Shannon” on her footage at 0:04 as a large super, not a full-screen card. Nick to confirm."
+  }
+ ],
+ "client_note": "<b>Why this matters for Shannon:</b> Sonam approved the whole Who Gives batch in this exact look. Match Dean and Paa, and keep it short.",
+ "ask_examples": [
+  "What is the Who Gives close?",
+  "Which part of Shannon's clip must I never use?",
+  "Can I add music?",
+  "How do the captions look on Who Gives cuts?"
+ ],
+ "transcript": "Captions file of 20260922_C5070.MP4 (Shannon Who Gives Interview, Bryant Park, 22 Sep 2026). Times are mm:ss.ms in the source file. Nick Reis asks the questions off camera. The auto speaker labels in the Google Doc are wrong, so none are given here. Her name, state, job title and company (00:05–00:12) are left out: never use them.\n[00:00.0] Okay, so first question I have for you, can you just introduce yourself for me?\n[00:13.5] Awesome, thank you Shannon.\n[00:14.9] So first question I have for you, can you finish the sentence, who gives blank or what comes to mind when you hear who gives?\n[00:24.6] When I think about who gives, the first thing that comes to mind is everyone should be giving\n[00:28.6] if they're not, so yeah you should give.\n[00:32.8] Awesome and why do you think it's important for people to give?\n[00:36.8] It's important for people to give so that they can have an impact in the world and be\n[00:40.1] a part of something bigger than themselves.\n[00:42.8] Exactly, can you think of a time where you like gave back like you know either time or money or volunteer to an organization that really stuck with you and showed you why giving is so important?\n[00:55.3] There's a lot of organizations out there that I'm very passionate about and that I like\n[00:59.3] to give whether it's my time, my talents, or my treasures but Watsi is certainly at\n[01:04.7] the top of that list.\n[01:06.4] Amazing and last thing maybe you know like start a sentence with who gives and then just finish the sentence from there if you could think of anything.\n[01:16.9] Let me think about that one one more time.\n[01:27.2] Alright, who gives to make a difference?\n[01:30.6] Perfect and one other question I just thought of for you, are you happy?\n[01:34.9] I'm happy, absolutely.\n[01:37.5] And why are you happy?\n[01:39.2] I'm happy because I go to sleep every night knowing that the work that I do is touching\n[01:43.2] someone else's life.\n[01:44.6] Amazing, alright that's all we got for you right there.\n[01:47.0] Thanks."
+}

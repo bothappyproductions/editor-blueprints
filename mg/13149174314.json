@@ -1,0 +1,116 @@
+{
+ "item": "13149174314",
+ "client": "family-reach",
+ "note": "The plan keeps her face with captions only on most rows, so 7 light graphics and nothing on the lights or button rows.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "At the register",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "no one at the register knew"
+   },
+   "src": "Nicole, 20260820_C4487.MP4 [14:10]",
+   "rows": [
+    "00:05–00:20"
+   ],
+   "use": "Only after the hook text fades at 00:06. Top band over Nicole as she says it. Keep captions on."
+  },
+  {
+   "n": 2,
+   "title": "Don't be embarrassed",
+   "tpl": "statement_card",
+   "dur": 5,
+   "text": {
+    "main": "Don't be embarrassed, don't be afraid, it's there because people want to help.",
+    "emph": [
+     "want to help"
+    ]
+   },
+   "src": "Nicole, 20260820_C4487.MP4 [15:00]–[15:14]. Not in the cut yet.",
+   "rows": [
+    "00:05–00:20"
+   ],
+   "use": "Only if you add this line to the cut, right after the register line. Keep her audio under."
+  },
+  {
+   "n": 3,
+   "title": "Brockton tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Brockton"
+   },
+   "src": "Nicole, 20260820_C4487.MP4 [00:53] “we live in the city of Brockton”",
+   "rows": [
+    "00:20–00:30"
+   ],
+   "use": "Small place tag when she says Brockton. One text at a time."
+  },
+  {
+   "n": 4,
+   "title": "Real estate agent tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Real estate agent"
+   },
+   "src": "Nicole, 20260820_C4487.MP4 [00:49] “I am also a real estate agent in Massachusetts”",
+   "rows": [
+    "00:20–00:30"
+   ],
+   "use": "Small tag when she says “real estate agent”. Gone before the Brockton tag comes in."
+  },
+  {
+   "n": 5,
+   "title": "The best year",
+   "tpl": "statement_card",
+   "dur": 4,
+   "text": {
+    "main": "I was having the best year I'd ever had in real estate",
+    "emph": [
+     "best"
+    ]
+   },
+   "src": "Nicole, 20260820_C4487.MP4 [06:24]–[06:31]",
+   "rows": [
+    "00:30–00:46"
+   ],
+   "use": "Short full-frame cutaway on her line, before the middle cut. Back to her face for the rest."
+  },
+  {
+   "n": 6,
+   "title": "Able to breathe",
+   "tpl": "quote_card",
+   "dur": 4,
+   "text": {
+    "main": "It just gave me reprieve. I was able to breathe.",
+    "who": "Nicole"
+   },
+   "src": "Nicole, 20260820_C4487.MP4 [10:27]",
+   "rows": [
+    "00:58–01:13"
+   ],
+   "use": "Full-frame cutaway on “reprieve”. Back to her face for the smile before “we were okay”."
+  },
+  {
+   "n": 7,
+   "title": "We were okay",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "I was able to know that we were okay"
+   },
+   "src": "Nicole, 20260820_C4487.MP4 [10:27]–[10:33]",
+   "rows": [
+    "00:58–01:13"
+   ],
+   "use": "Top band over her smile frame as she says it. Keep captions on."
+  }
+ ]
+}

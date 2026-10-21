@@ -1,0 +1,92 @@
+{
+ "item": "13221767043",
+ "client": "gateway-gaston",
+ "note": "The plan is one slide with captions only and the ask text from 00:23, so 5 graphics.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Commenting on them",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "Thank you for commenting on them."
+   },
+   "src": "Dwayne, Day 6 am [00:05]",
+   "rows": [
+    "00:05–00:11"
+   ],
+   "use": "Top band over the slide, on his words, after the hook text is gone."
+  },
+  {
+   "n": 2,
+   "title": "Ready to sit down",
+   "tpl": "statement_card",
+   "dur": 3.5,
+   "text": {
+    "main": "If you are ready to sit down and talk about this",
+    "emph": [
+     "ready"
+    ]
+   },
+   "src": "Dwayne, Day 6 am [00:05]–[00:11]",
+   "rows": [
+    "00:11–00:17"
+   ],
+   "use": "Full-frame cutaway on these words. Back to the slide before the unclear words at about 00:14.8."
+  },
+  {
+   "n": 3,
+   "title": "Focus on the boot",
+   "tpl": "corner_frame",
+   "dur": 3,
+   "box": [
+    0.1,
+    0.05,
+    0.8,
+    0.4
+   ],
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:11–00:17"
+   ],
+   "use": "Brackets on the boot on the rock in his photo, after the full-frame card is gone."
+  },
+  {
+   "n": 4,
+   "title": "Comment I'm in",
+   "tpl": "highlight_callout",
+   "dur": 10,
+   "pos": "center",
+   "text": {
+    "main": "Comment “I'm in”"
+   },
+   "src": "The ask text in the plan, row 00:17–00:24. Dwayne, Day 6 am [00:17] “Say, let me know. I'm in”",
+   "rows": [
+    "00:17–00:24",
+    "00:24–00:35"
+   ],
+   "use": "The one ask. In on “I'm in” at about 00:23, big and centered. Hold it to the end card."
+  },
+  {
+   "n": 5,
+   "title": "Unhoused community",
+   "tpl": "word_stack",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "items": [
+     "Unserved",
+     "Underserved",
+     "Unhoused community"
+    ]
+   },
+   "src": "Dwayne, Day 6 am [00:29]",
+   "rows": [
+    "00:24–00:35"
+   ],
+   "use": "Each word lands on his voice. Top of frame, above the ask. Never cover the ask."
+  }
+ ]
+}

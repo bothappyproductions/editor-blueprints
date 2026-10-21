@@ -1,0 +1,328 @@
+{
+ "id": "13131364955",
+ "client": "watsi",
+ "eyebrow": "Watsi · NYC Brooklyn office · 22 Sep 2026 · FAQ (teleprompter)",
+ "title": "How many ways can you give?",
+ "title_q": "",
+ "title_short": "Kat · Many Ways to Give",
+ "editor": "Qendrim",
+ "due": "2026-10-12",
+ "format": "9:16 only · 1080×1920",
+ "length": "about 2:10 min",
+ "edit_key": "WATSINYCFAQKatManyWaysToGive001",
+ "headline": "There is no one way to give to Watsi. Gift cards, weddings, a student chapter, your time: every one ends in a real patient's care.",
+ "story": [
+  "The question comes first, on screen: <b>how many ways can you give?</b> Kat answers with real people: a family that sent Watsi gift cards instead of Christmas cards, a couple who raised money instead of asking for wedding gifts, a student chapter, a volunteer writer, a monthly gift to the Universal Fund.",
+  "It ends on her line: <b>“There isn't really one way to show up. You get to make it your own.”</b> Friendly and light. Not a fundraising ad: no donate button, no urgency."
+ ],
+ "feel": [
+  "Friendly",
+  "Clear",
+  "Hopeful",
+  "Light",
+  "Zero typos"
+ ],
+ "do": [
+  "Open on frame 1 with the question typed on screen and Kat already on camera.",
+  "Then a straight cut into her answer. Question first, answer second.",
+  "Keep captions on the whole time, Lato, large. One text at a time.",
+  "Name super “Kat” only, <b>large</b>, after the question has landed.",
+  "Write names the way the script doc writes them: Kerney, Reena, Causely, Ronnah."
+ ],
+ "dont": [
+  "Don't open on Kat saying hello or on a logo.",
+  "Don't use the false starts, “sorry” lines or prompter chat. Only the takes named below.",
+  "Don't speed-ramp her voice. Trim breaths and pauses instead.",
+  "No music under her voice.",
+  "Don't make Daniel's Stony Brook story the spine. Here it is one example, said once."
+ ],
+ "links": {
+  "brief": {
+   "title": "Watsi Bryant Park Activation Brief",
+   "url": "https://docs.google.com/document/d/1cOLw5wfNaZiaoSJfDiIVlE-u6KqX2bRSoi9yvidYl30/edit",
+   "note": "The plan for the 22 Sep NYC shoot day."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Nick owes it (Production Planning row 12949181905). The client's own example for the question-first look is attached to <a href=\"https://happyproductions.slack.com/archives/C09S5M8006S/p1789646971705099\">Sonam's 17 Sep message</a> in #only_watsi: Nick to forward it. All Sept 22 FAQ cuts must look like one series."
+  },
+  "footage": {
+   "title": "Kat Script 1",
+   "url": "https://drive.google.com/drive/folders/1pYY3Uv5YBCtWTrrrLg92WTqoUMWsYHOT",
+   "note": "Prompter Content › Kat Prompter Content › Kat Script 1. Eleven takes, C5050–C5060. One camera."
+  }
+ },
+ "bp_intro": "Kat reads Sonam's Script 1 from a prompter in eleven takes (<span class=\"mono\">C5050–C5060</span>). Only the clean takes below are used. Source times come from the transcript and are accurate to about 1 s. Output times are estimated from her reading speed: set the real ones on the waveform.",
+ "rows": [
+  {
+   "tc": "00:00–00:03",
+   "beat": "QUESTION",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Use the seconds just before her first word (C5051 00:05–00:08): Kat on camera, settled, no talking. Pick the frame on scrub. Mute the audio under the question. Crop centered on her face.",
+   "motion": "The question types on, <b>frame 1</b>: <q>How many ways can you give?</q> Bold, Watsi yellow <span class=\"mono\">#FFCC33</span>, Lato Bold (or September Spirit if it reads as well; Lato is safer). Large, upper half. It is the title and the thumbnail. It stays up while she starts her answer, at least 5 s in total.",
+   "voice": "<span class=\"none\">No voice. Room tone only.</span>",
+   "sfx": "Room tone. No whoosh, no typing sound.",
+   "music": "<span class=\"none\">No music.</span>"
+  },
+  {
+   "tc": "00:03–00:09",
+   "beat": "ANSWER",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Kat at the prompter. Same set-up. Hide jump cuts between script blocks with a 3–5% push-in, not a wipe.",
+   "motion": "Question text stays up to <span class=\"mono\">00:05</span>, then out. Captions start.  <b>Name super</b> “Kat” at <span class=\"mono\">00:04–00:06</span>, lower left, above the captions, <b>large</b>. First name only.",
+   "voice": {
+    "who": "Kat",
+    "quote": "One of my favorite things about Watsi is how many different ways people have made giving their own.",
+    "src": "C5051 00:08–00:14"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>"
+  },
+  {
+   "tc": "00:09–00:22",
+   "beat": "GIFT CARDS",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Kat at the prompter. Same set-up. Hide jump cuts between script blocks with a 3–5% push-in, not a wipe.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Kat",
+    "quote": "You can send someone a Watsi gift card instead of another thing they don't need or for the person who has everything. For a birthday, a holiday, a wedding, whatever, the person gets to choose a patient themselves, which makes the gift feel a little more personal.",
+    "src": "C5051 00:18–00:33 (skip “You can really personalize the experience”)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>"
+  },
+  {
+   "tc": "00:22–00:35",
+   "beat": "GIFT CARDS",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Kat at the prompter. Same set-up. Hide jump cuts between script blocks with a 3–5% push-in, not a wipe.",
+   "motion": "Captions only. Spell it “Kerney” (script doc).",
+   "voice": {
+    "who": "Kat",
+    "quote": "The Kerney family actually turned it into a holiday tradition. Instead of sending Christmas cards once a year, they sent 50 Watsi gift cards to friends and family, and they got their kids involved too.",
+    "src": "C5051 00:42–00:55"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>"
+  },
+  {
+   "tc": "00:35–00:58",
+   "beat": "BIG MOMENTS",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Kat at the prompter. Same set-up. Hide jump cuts between script blocks with a 3–5% push-in, not a wipe.",
+   "motion": "Captions only. Spell it “Reena” (script doc).",
+   "voice": {
+    "who": "Kat",
+    "quote": "And then there are the people who take one of their own big life moments and turn it into a way to help someone else. Reena and Justin raised money for Watsi instead of asking for wedding gifts. A Watsi supporter named Chris turned a Kilimanjaro climb into a fundraiser. People have done birthdays, hikes, races, all kinds of things. You bring your people together, raise what you can, and then choose patients to support together.",
+    "src": "C5051 01:05–01:30"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>"
+  },
+  {
+   "tc": "00:58–01:19",
+   "beat": "STUDENTS",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Kat at the prompter. Same set-up. Hide jump cuts between script blocks with a 3–5% push-in, not a wipe.",
+   "motion": "Captions only. At “300 patients …” the transcript writes “in Towning”. The script says “and counting”. Listen and caption what she says.",
+   "voice": {
+    "who": "Kat",
+    "quote": "Students have done this too. Daniel started a Watsi chapter at Stony Brook when he was in college. He got together a group of students, hosted events, and then started raising money. Ten years later, that chapter is still going strong and they have now helped 300 patients … get the care that they need. That was one of my favorite Watsi stories because it started with one student, one idea, and getting a bunch of people together.",
+    "src": "C5051 02:44–03:06 (the clean take; the 01:30 take says “30 or 300”)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>"
+  },
+  {
+   "tc": "01:19–01:42",
+   "beat": "YOUR TIME",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Kat at the prompter. Same set-up. Hide jump cuts between script blocks with a 3–5% push-in, not a wipe.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Kat",
+    "quote": "You can also give your time. People have volunteered as Watsi writers helping bring patient stories to the site. Ravi started that way, writing more than 60 patient profiles, and later became a Universal Fund donor. For some people, the thing that they give Watsi first isn't money. It's a few hours, a skill, or a bit of time.",
+    "src": "C5057 00:51–01:16"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>"
+  },
+  {
+   "tc": "01:42–01:59",
+   "beat": "ALL THE WAYS",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Kat at the prompter. Same set-up. Hide jump cuts between script blocks with a 3–5% push-in, not a wipe.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Kat",
+    "quote": "You can give every month through the Universal Fund. … So yes, donating is the simplest way to get involved, but you can also give. You can give at your birthday, your wedding, your workplace. You can give your creativity, your time, or your people.",
+    "src": "C5057 02:06–02:09 + 02:26–02:40 (cut before “I don't know” at 02:41)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>"
+  },
+  {
+   "tc": "01:59–02:06",
+   "beat": "BUTTON",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Kat at the prompter. Same set-up. Hide jump cuts between script blocks with a 3–5% push-in, not a wipe.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Kat",
+    "quote": "That's one thing I love about Watsi. There isn't really one way to show up. You get to make it your own.",
+    "src": "C5060 00:37–00:44 (the clean take)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>"
+  },
+  {
+   "tc": "02:06–02:09",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Clean end card. Light cyan <span class=\"mono\">#D3EDFA</span> background. Navy is never a background. Same end card on every FAQ cut from this shoot.",
+   "motion": "<b>watsi.org</b>, all lowercase, Lato, navy <span class=\"mono\">#2E2844</span>. One line. Nothing under it. Optional: one small LOTUS illustration inside the frame. That is the only brand element.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>"
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/1cOLw5wfNaZiaoSJfDiIVlE-u6KqX2bRSoi9yvidYl30/edit\">Watsi Bryant Park Activation Brief</a>"
+  ],
+  [
+   "Client script",
+   "<a href=\"https://docs.google.com/document/d/1aY4oBYWa_qCokAo59nSH7Y-r8RmRBvmj7LPiYOQCEUU/edit\">FAQ Set for Sonam, Kat And Kimmy</a> (Sonam's scripts; the source for names and spellings)"
+  ],
+  [
+   "Reference",
+   "Not chosen yet. Client's example for the question-first look: <a href=\"https://happyproductions.slack.com/archives/C09S5M8006S/p1789646971705099\">Sonam's 17 Sep message</a>"
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/14zBVXBosNxnO3d87nYdASakULeJSEE8W\">Watsi NYC Sept 2026</a>"
+  ],
+  [
+   "Clips",
+   "<a href=\"https://drive.google.com/file/d/118TH-Jp9lw7Jj9M-6BBUP5S7wIBSDLxg/view\">C5051</a> · <a href=\"https://drive.google.com/file/d/1oPI8t5cK1dwiqLRlwi7i6eQiE7QH5fZe/view\">C5053</a> · <a href=\"https://drive.google.com/file/d/1NXh4eFaEucyBS3OZwUHg5y8X3LsRdLcU/view\">C5057</a> · <a href=\"https://drive.google.com/file/d/1UloEoKdUQHlWSZJV3E5RVEzV-N1RkVmn/view\">C5060</a> (all 20260922_…MP4)"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/11kGNAQuZUyufthRlVSyXSF0A8IGPFntdAXQII9Npl1Q/edit\">Transcripts - Prompter Content</a> · the auto-transcript writes WOTC, WotC or WSFP for Watsi"
+  ],
+  [
+   "Brand pack",
+   "<a href=\"https://drive.google.com/drive/folders/1my9RNjTawX8JeQO2eQDHSphWP8KTg09r\">LOTUS illustrations</a> · <a href=\"https://drive.google.com/drive/folders/1T7bIehcX3_l6F-CXUu-LHCyPE58nq9df\">September Spirit font</a> · <a href=\"https://drive.google.com/file/d/1u8R2iKmydBN2xF_h0wIE6X-NZo0mslXs/view\">Watsi brand guide</a> (from this item's Branding and Font columns)"
+  ],
+  [
+   "Item brief doc",
+   "<a href=\"https://docs.google.com/document/d/12gx5mE9KodR8kFQI735yBFnJCfbEGNdJGeVPpGFjiNs/edit\">pulse.13131364955</a>"
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "Probe not available. Other Sept 22 FX3 files are 1920×1080, 59.94 fps, 2-ch. Confirm on import."
+  ],
+  [
+   "Timeline",
+   "1080×1920 at <b>29.97 fps</b>."
+  ],
+  [
+   "Crop",
+   "9:16 crop of 1080p = 608 px wide, already upscaled 1.78×. Push-ins to hide jump cuts: 103–105%, never above 110%."
+  ],
+  [
+   "Audio",
+   "FX3 lav, recorded in camera. Check both channels and use the live lav track."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. No music."
+  ],
+  [
+   "Captions",
+   "Lato Bold, white, soft shadow, large. One line at a time. On the whole time, never before the audio. Fix every Watsi by hand. Bottom 20% clear."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920, about 16 Mbps. One file, 9:16 only."
+  ]
+ ],
+ "checklist": [
+  "Read every caption against the audio and the script doc. Sonam checks every word.",
+  "Watsi with a capital W only. No WOTC, WotC or WSFP anywhere.",
+  "The question is on frame 1, readable in a thumbnail.",
+  "Name super is large and says “Kat” only.",
+  "Captions never drop out between script blocks.",
+  "No take with a stumble, “sorry” or prompter chat.",
+  "End card is watsi.org only, lowercase. Same as the other FAQ cuts.",
+  "“Universal Fund” has both capitals."
+ ],
+ "decisions": [
+  {
+   "t": "No visual reference on this shoot",
+   "b": "Production Planning row 12949181905 has no reference chosen. Owner: Nick."
+  },
+  {
+   "t": "Question wording",
+   "b": "<q>How many ways can you give?</q> is a proposed title. Nick or Sonam must confirm the exact words before delivery."
+  },
+  {
+   "t": "How short",
+   "b": "Kat reads slowly: the whole script runs well over 4 minutes, not 2:40. For “shorter”, this plan keeps one example per way of giving and cuts whole blocks: Causely with Ronnah and Davin, Smile.io, Narendra, the “giant program” and “simple question” lines, and the Ryans / Porsche / VTuber block. It runs about 2:10. For under 90 s, the next cut is the Stony Brook students block (Daniel and Kimmy already tell it). Nick decides."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> Sonam designed this FAQ series herself. The question is the title and the thumbnail, so it must read on frame 1.",
+ "ask_examples": [
+  "Which take of the Stony Brook line do I use?",
+  "How do I spell the family name?",
+  "Which examples are cut for length?",
+  "What goes on the end card?"
+ ],
+ "transcript": "Auto-transcript of Kat's Script 1 takes (Prompter Content, Brooklyn office, 22 Sep 2026), only the takes used in this cut. Times are mm:ss in each file. The auto-transcript writes WOTC for Watsi; it is fixed to Watsi below. Names follow the script doc (Kerney, Reena). Blocks cut for length are left out.\n\n20260922_C5051.MP4\n[00:08] One of my favorite things about Watsi is how many different ways people have made giving their own.\n[00:14] You can really personalize the experience.\n[00:18] You can send someone a Watsi gift card instead of another thing they don't need or for the person who has everything.\n[00:25] For a birthday, a holiday, a wedding, whatever, the person gets to choose a patient themselves, which makes the gift feel a little more personal.\n[00:34] One of my favorite things about Watsi is how many different ways people have made giving their own.\n[00:40] It's a real personal experience.\n[00:42] The Kerney family actually turned it into a holiday tradition.\n[00:47] Instead of sending Christmas cards once a year, they sent 50 Watsi gift cards to friends and family, and they got their kids involved too.\n[00:55] They were sharing the idea of giving with people closest to them, the gift of giving.\n[01:00] It's making something that they can do together really powerful and meaningful.\n[01:05] And then there are the people who take one of their own big life moments and turn it into a way to help someone else.\n[01:12] Reena and Justin raised money for Watsi instead of asking for wedding gifts.\n[01:16] A Watsi supporter named Chris turned a Kilimanjaro climb into a fundraiser.\n[01:21] People have done birthdays, hikes, races, all kinds of things.\n[01:24] You bring your people together, raise what you can, and then choose patients to support together.\n[01:30] Students have done this too. (first take, not used: it says \"30 or 300\")\n[02:44] Students have done this too.\n[02:46] Daniel started a Watsi chapter at Stony Brook when he was in college.\n[02:50] He got together a group of students, hosted events, and then started raising money.\n[02:54] Ten years later, that chapter is still going strong and they have now helped 300 patients in Towning [script: \"and counting\"] get the care that they need.\n[03:02] That was one of my favorite Watsi stories because it started with one student, one idea, and getting a bunch of people together.\n\n20260922_C5057.MP4\n[00:51] You can also give your time.\n[00:54] People have volunteered as Watsi writers helping bring patient stories to the site.\n[01:00] Ravi started that way, writing more than 60 patient profiles, and later became a Universal Fund donor.\n[01:08] For some people, the thing that they give Watsi first isn't money.\n[01:13] It's a few hours, a skill, or a bit of time.\n[02:06] You can give every month through the Universal Fund.\n[02:09] You can give through a donor-advised fund or with stocks.\n[02:13] You can become an ambassador, bring Watsi into your community, or just send a patient story to a friend.\n[02:26] So yes, donating is the simplest way to get involved, but you can also give.\n[02:32] You can give at your birthday, your wedding, your workplace.\n[02:36] You can give your creativity, your time, or your people.\n[02:41] (she breaks: \"I don't know what give your people\")\n\n20260922_C5060.MP4\n[00:05] So yes, donating is the simplest way in, but you can give your birthday, you can give your wedding, you can give your workplace, you can give your creativity, your time, or even your passion. (alternate take)\n[00:17] That's one of the things I love about Watsi. There isn't really one way to show up. (breaks at 00:24)\n[00:37] That's one thing I love about Watsi.\n[00:39] There isn't really one way to show up.\n[00:42] You get to make it your own.\n"
+}

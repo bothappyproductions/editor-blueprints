@@ -1,0 +1,67 @@
+{
+ "item": "12489946143",
+ "client": "lions",
+ "note": "Short 20 second cut, the plan already puts Atdhe's questions as top text and Lions wants much simpler graphics, so 4 graphics. Use them only if Atdhe wants graphics.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Indonesia pin",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "Indonesia"
+   },
+   "src": "Indonesia Lion, IMG_7935.MOV [00:40] “I'm from Indonesia.” Pin from the plan, row 00:03–00:06.",
+   "rows": [
+    "00:03–00:06"
+   ],
+   "use": "This is the location pin from the plan. Small, upper left, 00:03.5 to 00:05.5. Never before 0:03."
+  },
+  {
+   "n": 2,
+   "title": "Giving back",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Giving back to the society"
+   },
+   "src": "Indonesia Lion, IMG_7935.MOV [00:48]",
+   "rows": [
+    "00:06–00:14"
+   ],
+   "use": "After the top text goes out. Land it on his words."
+  },
+  {
+   "n": 3,
+   "title": "What makes me happy",
+   "tpl": "quote_card",
+   "dur": 2.5,
+   "text": {
+    "main": "That's what makes me happy.",
+    "who": "Indonesia Lion"
+   },
+   "src": "Indonesia Lion, IMG_7935.MOV [00:54]",
+   "rows": [
+    "00:06–00:14"
+   ],
+   "use": "Short full-frame cutaway on his last words of this part. Keep his audio under it."
+  },
+  {
+   "n": 4,
+   "title": "Be grateful, be happy",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Be grateful, be happy"
+   },
+   "src": "Indonesia Lion, IMG_7935.MOV [01:00]",
+   "rows": [
+    "00:14–00:20"
+   ],
+   "use": "After the top text goes out. Land it on the first two parts of his message."
+  }
+ ]
+}

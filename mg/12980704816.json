@@ -1,0 +1,121 @@
+{
+ "item": "12980704816",
+ "client": "niwrc",
+ "note": "The plan sets the exact words for every row of this text-and-music piece. MG 1 to MG 7 are those words as graphics, one per row.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Advocates",
+   "tpl": "word_stack",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "items": [
+     "Advocates"
+    ]
+   },
+   "src": "Blueprint montage word, row 00:04–00:06.",
+   "rows": [
+    "00:04–00:06"
+   ],
+   "use": "One word on the beat, on the face shot. Same position as the other word cards. Out on the next cut."
+  },
+  {
+   "n": 2,
+   "title": "Survivors",
+   "tpl": "word_stack",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "items": [
+     "Survivors"
+    ]
+   },
+   "src": "Blueprint montage word, row 00:06–00:08.",
+   "rows": [
+    "00:06–00:08"
+   ],
+   "use": "Only on the hands shot, never on a face. Out on the next cut so it never carries over."
+  },
+  {
+   "n": 3,
+   "title": "Tribal leaders",
+   "tpl": "word_stack",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "items": [
+     "Tribal leaders"
+    ]
+   },
+   "src": "Blueprint montage word, row 00:08–00:10. Capital T.",
+   "rows": [
+    "00:08–00:10"
+   ],
+   "use": "One card on the beat, over the speaker at the front of the room. Same position as the others."
+  },
+  {
+   "n": 4,
+   "title": "Relatives",
+   "tpl": "word_stack",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "items": [
+     "Relatives"
+    ]
+   },
+   "src": "Blueprint montage word, row 00:10–00:12.",
+   "rows": [
+    "00:10–00:12"
+   ],
+   "use": "One word on the beat, over the greeting or the hug. Out before 0:12."
+  },
+  {
+   "n": 5,
+   "title": "Slow down wipe",
+   "tpl": "brand_wipe",
+   "dur": 1.6,
+   "text": {},
+   "src": "Transition, no text.",
+   "rows": [
+    "00:10–00:12"
+   ],
+   "use": "Cut into the slow section at the middle of the wipe, at 0:12. Use it once."
+  },
+  {
+   "n": 6,
+   "title": "This is the room",
+   "tpl": "highlight_callout",
+   "dur": 5,
+   "pos": "upper",
+   "text": {
+    "main": "This is Women Are Sacred."
+   },
+   "src": "Blueprint on-screen text, row 00:12–00:20.",
+   "rows": [
+    "00:12–00:20"
+   ],
+   "use": "Lands at 00:14 and holds to 00:19 over the warm shots."
+  },
+  {
+   "n": 7,
+   "title": "Date and place",
+   "tpl": "word_stack",
+   "dur": 6,
+   "pos": "upper",
+   "text": {
+    "items": [
+     "October 5–7, 2027",
+     "Pechanga Resort",
+     "Temecula, California"
+    ]
+   },
+   "src": "Blueprint button text, row 00:20–00:28 (NIWRC dates, 1 Oct).",
+   "rows": [
+    "00:20–00:28"
+   ],
+   "use": "The button text stack over the room wide. Only this date, never another one."
+  }
+ ]
+}

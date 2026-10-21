@@ -1,0 +1,161 @@
+{
+ "item": "13223850425",
+ "client": "s4s",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Beyond happy",
+   "tpl": "word_stack",
+   "dur": 2,
+   "pos": "upper",
+   "upper": true,
+   "text": {
+    "items": [
+     "I am",
+     "beyond happy."
+    ]
+   },
+   "src": "Virginia, 030_3160.MXF [00:20]",
+   "rows": [
+    "00:07–00:09"
+   ],
+   "use": "Each line lands on her word. Keep it fast. Keep captions on."
+  },
+  {
+   "n": 2,
+   "title": "Help someone else",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "step aside and help someone else"
+   },
+   "src": "Michelle, 030_3167.MXF [00:24]",
+   "rows": [
+    "00:15–00:21"
+   ],
+   "use": "Over Michelle as she says it, after the question card is gone."
+  },
+  {
+   "n": 3,
+   "title": "True joy",
+   "tpl": "statement_card",
+   "dur": 2,
+   "text": {
+    "main": "I think that's really true joy right there",
+    "emph": [
+     "true joy"
+    ]
+   },
+   "src": "Michelle, 030_3167.MXF [00:24]–[00:29]",
+   "rows": [
+    "00:15–00:21"
+   ],
+   "use": "Short full-frame cutaway on the end of her line, then the cut to Virginia."
+  },
+  {
+   "n": 4,
+   "title": "Gifts to give",
+   "tpl": "kinetic_quote",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "we come hardwired from the factory with amazing gifts to give.",
+    "emph": [
+     "gifts",
+     "give"
+    ]
+   },
+   "src": "Virginia, 030_3160.MXF [01:12]",
+   "rows": [
+    "00:21–00:32"
+   ],
+   "use": "Over Virginia as she says it. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "One happy camper",
+   "tpl": "statement_card",
+   "dur": 2.5,
+   "upper": true,
+   "text": {
+    "main": "I am just one happy camper.",
+    "emph": [
+     "happy camper"
+    ]
+   },
+   "src": "Virginia, 030_3160.MXF [01:18]",
+   "rows": [
+    "00:21–00:32"
+   ],
+   "use": "Short full-frame cutaway on her last words of the row, then the one-message card."
+  },
+  {
+   "n": 6,
+   "title": "Give back tag",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "Give back"
+   },
+   "src": "Valerie, 030_3165.MXF [00:35] “to give back” (caption “give”, as you hear it)",
+   "rows": [
+    "00:33–00:38"
+   ],
+   "use": "Small tag on the words “give back”. Not while the question card is up."
+  },
+  {
+   "n": 7,
+   "title": "We're good people",
+   "tpl": "statement_card",
+   "dur": 2,
+   "upper": true,
+   "text": {
+    "main": "we're good people",
+    "emph": [
+     "good"
+    ]
+   },
+   "src": "Kate, 030_3163.MXF [01:01]",
+   "rows": [
+    "00:38–00:43"
+   ],
+   "use": "Short full-frame cutaway on her last words, then the hard cut to Kara."
+  },
+  {
+   "n": 8,
+   "title": "A little kindness",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "A little bit of kindness goes a long way."
+   },
+   "src": "Kara, 030_3155.MXF [00:55]",
+   "rows": [
+    "00:43–00:46"
+   ],
+   "use": "Over Kara as she says it. Keep it short, the row is 3 s."
+  },
+  {
+   "n": 9,
+   "title": "More to give",
+   "tpl": "kinetic_quote",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "You have more to give and to offer than you could ever imagine.",
+    "emph": [
+     "more to give"
+    ]
+   },
+   "src": "Virginia, 030_3160.MXF [01:58]",
+   "rows": [
+    "00:46–00:55"
+   ],
+   "use": "Over Virginia on her second line. Gone before Takara's button."
+  }
+ ],
+ "note": "The plan for this cut leaves room for only 9 graphics."
+}

@@ -1,0 +1,291 @@
+{
+ "id": "13190021330",
+ "client": "mha",
+ "eyebrow": "MHA Nebraska · MHA office, Lincoln · 9 Sep 2026 · Story of Hope",
+ "title": "Johnny:",
+ "title_q": "“We Don't Give Advice”",
+ "title_short": "Johnny · We Don't Give Advice",
+ "editor": "Bleron",
+ "due": "2026-10-23",
+ "format": "9:16 only · 1080×1920",
+ "length": "about 50 s",
+ "edit_key": "MHAJohnnyWeDontGiveAdvice001",
+ "headline": "He came out of prison with nothing. Peer support changed his life. His one rule now: “We don't give advice.”",
+ "story": [
+  "Ask Johnny what people get wrong about peer support. One word: advice. <b>“We don't give advice. Let people be people.”</b> People make their own mistakes and have their own victories.",
+  "He came out of prison with nothing, ran into peer support, and it changed everything. He has been at MHA for ten and a half years. It must feel <b>warm, plain and a little funny</b>, never like a counselor talking."
+ ],
+ "feel": [
+  "Warm",
+  "Plain",
+  "Wry",
+  "Hopeful"
+ ],
+ "do": [
+  "Open on frame 1 with “We don't give advice.” Hook text on frame 1.",
+  "Keep his T-shirt words in frame if the crop allows.",
+  "Caption “after 53 years” exactly as he says it.",
+  "Use the doughnut B-roll for “ragtag bunch”, picture only.",
+  "Hold 1 second after “victories”."
+ ],
+ "dont": [
+  "Never use 01:02–01:07 (“this bag is from somebody in prison right now”).",
+  "Nothing about why he was in prison.",
+  "No warm line story. That is the warm line video.",
+  "Do not make him sound like a counselor. No expert-style text.",
+  "No second aspect ratio. 9:16 only."
+ ],
+ "links": {
+  "brief": {
+   "title": "MHA × Happy Productions — September Production Brief (Sept 9–10, 2026)",
+   "url": "https://docs.google.com/document/d/1HjXrf_i7y5gj1c8NrpU9wkAdVBrN8U6DcBOuMCmGOcI/edit",
+   "note": "The plan for both shoot days: who was interviewed where, and the questions."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Nick owes it. MHA has not suggested one."
+  },
+  "footage": {
+   "title": "Johnny Peer Support Specialist Interview",
+   "url": "https://drive.google.com/drive/folders/1FdfaVmDxIWjKajm5KrJ_PcW212SLY31_",
+   "note": "20260909_C4584.MP4, 3:51, one camera, Johnny only."
+  }
+ },
+ "bp_intro": "All interview times are in <span class=\"mono\">20260909_C4584.MP4</span> (3:51, one camera, Johnny only). The caption file joins question and answer in one line, so most times carry ≈. Find exact in and out points on the waveform. Frames from this file could not be pulled for this page (Drive download was blocked), so shot notes come from visual.json and the brief doc. Check them on scrub.",
+ "rows": [
+  {
+   "tc": "00:00–00:08",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Johnny already talking on frame 1 (visual.json: a man in an “I DO WHAT I WANT” T-shirt in front of the MHA Nebraska sign). Crop on his face. Keep the words on his T-shirt in frame if the crop allows. It fits the story.",
+   "motion": "Hook text on <b>frame 1</b>, top third: <q>WE DON'T GIVE ADVICE</q>. Off at <span class=\"mono\">00:04</span>.",
+   "voice": {
+    "who": "Johnny",
+    "quote": "We don't give advice. Let people be people. Let them make their own mistakes. Let them have their own victories.",
+    "src": "C4584 ≈02:11.3–≈02:18.9 (start after “Advice. Giving advice.”, out before “Yeah, so it's all them”)"
+   },
+   "sfx": "Room tone from the clip only. No whoosh on frame 1.",
+   "music": "<span class=\"none\">Silent. Music has not started.</span>"
+  },
+  {
+   "tc": "00:08–00:19",
+   "beat": "THE HUMANITY",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same shot. Start on “The humanity”. Cut “and yeah” at the end.",
+   "motion": "<b>Name super</b> at <span class=\"mono\">00:09–00:12</span>, lower left, above the captions: <q>Johnny · Peer Support Specialist · MHA Nebraska</q>. Add “Martin” only if Amber confirms it (see decisions).",
+   "voice": {
+    "who": "Johnny",
+    "quote": "The humanity. Yeah, I mean allowing people to be themselves and to chart their path instead of somebody else doing it for them",
+    "src": "C4584 ≈00:35.8–≈00:47.6"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<b>Music enters</b> on “allowing people”. One warm, low layer."
+  },
+  {
+   "tc": "00:19–00:30",
+   "beat": "HIS STORY",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Stay on his face. His own story. No B-roll.",
+   "motion": "Captions only. Caption “after 53 years” exactly as he says it. Do not explain it.",
+   "voice": {
+    "who": "Johnny",
+    "quote": "I came out of prison. My life was nothing after 53 years, and I just decided I wanted to make something out of my life, and I ran into peer support, and it's changed everything in my life",
+    "src": "C4584 03:02.88–03:13.92"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady. Quiet."
+  },
+  {
+   "tc": "00:30–00:35",
+   "beat": "PEOPLE IN YOUR CORNER",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "On Johnny. Out after “people in your corner”.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Johnny",
+    "quote": "I never knew how much, how important it was to have people in your life, you know, people in your corner",
+    "src": "C4584 ≈03:15.0–≈03:20.3"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<b>Lift</b> on “people in your corner”."
+  },
+  {
+   "tc": "00:35–00:44",
+   "beat": "RAGTAG BUNCH",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "On Johnny. On “ragtag bunch” cut to C4583 00:02–00:08 (visual.json: Johnny at the staff table, same T-shirt, laughing with a co-worker). Picture only, never its audio. Back to Johnny for “go to the wall for people”.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Johnny",
+    "quote": "I look at it as kind of a ragtag bunch, you know what I mean, but we're super motivated and we will go to the wall for people.",
+    "src": "C4584 ≈02:31.0–≈02:39.6"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:44–00:48",
+   "beat": "BUTTON",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Straight on his face. Hold 1 s after “victories”.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Johnny",
+    "quote": "We see sorrows, but we also see a lot of victories.",
+    "src": "C4584 ≈03:38.6–03:41.38"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Resolve on “victories”."
+  },
+  {
+   "tc": "00:48–00:51",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Clean end card. Pale sage <span class=\"mono\">#E8EFD4</span> background.",
+   "motion": "<b>MHA Nebraska · Intentional Peer Support</b>, then <b>mha-ne.org</b> under it, dark olive <span class=\"mono\">#4A5325</span>. Add the MHA turtle logo only from a real logo file (ask Nick). Never rebuild it from a poster shot. No phone number.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Last note rings out. 1 s fade."
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/1HjXrf_i7y5gj1c8NrpU9wkAdVBrN8U6DcBOuMCmGOcI/edit\">MHA × Happy Productions — September Production Brief (Sept 9–10, 2026)</a>"
+  ],
+  [
+   "Reference",
+   "Not chosen yet. Nick owes it."
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/1-B8N77LRfWIqQIyZaqP4ULirziTGsyye\">MHA September 2026</a> · Day 1 = Lincoln office + Keya House (9 Sep), Day 2 = facilities + Terrapin Station (10 Sep)"
+  ],
+  [
+   "Clip",
+   "<a href=\"https://drive.google.com/file/d/1-L6rCPKWurcGv_OL9sCbarLe0ckQZUep/view\">20260909_C4584.MP4</a> · Day 1 › MHA Office › Johnny Peer Support Specialist Interview · 1.6 GB"
+  ],
+  [
+   "B-roll",
+   "<a href=\"https://drive.google.com/file/d/1d3uiMeuar3KalEnwk-nYUbqoTzrxyyvE/view\">C4583</a> · Day 1 › MHA Office › MHA Staff Morning Group Convo at Office · picture only"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1C1s3ZHGJlbjP2EiDgbkYvBXZ1BOqIGVZteAvWAuWzWc/edit\">Johnny Peer Support Specialist Interview Transcript</a> · every line is labelled “Johnny”, also the questions."
+  ],
+  [
+   "Captions",
+   "<a href=\"https://drive.google.com/file/d/1EI76mShaEn_jgyWT4Q2zfb7bNZrH_qly/view\">Johnny Peer Support Specialist Interview.captions.srt</a> (timings used above)"
+  ],
+  [
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/1LPvkYhfYN8ag7eJufhcWIcOZ4QtINeVU/view\">EditTranscripts/visual.json</a> · coarse. Frames on this page win."
+  ],
+  [
+   "Brand",
+   "No brand guide and no logo file from MHA yet. <a href=\"https://drive.google.com/drive/folders/1rfJ4ffV0PmCxgoTuFwXTJYvmb9AxvV5q\">Editing Assets</a> has only placeholder notes. Colors and fonts come from mha-ne.org: olive <span class=\"mono\">#798E36</span>, dark olive <span class=\"mono\">#4A5325</span>, pale sage <span class=\"mono\">#E8EFD4</span>. Fonts: Gloock (titles only), Schibsted Grotesk (captions)."
+  ],
+  [
+   "Music",
+   "Not chosen in the brief. Use a licensed track only and save the license with the project. MHA asked for lower music levels before."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "1920×1080 camera files. The probe of this file did not run. The other interviews from this shoot (C4824, C4826) read 59.94 fps. Check this file in your NLE before you build the timeline."
+  ],
+  [
+   "Timeline",
+   "1080×1920 at <b>29.97 fps</b>. 59.94 halves cleanly to 29.97. Conform every B-roll clip to real time. No accidental slow motion."
+  ],
+  [
+   "Crop",
+   "A 9:16 crop of 1080p is 608 px wide, so it is already upscaled 1.78×. Keep punch-ins at 110% or less. Sharpen lightly."
+  ],
+  [
+   "Audio",
+   "Lav into camera, 2 channels. Not measured for this page. Solo each channel and keep the clean one. Map it to both sides."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. Music 18–20 dB under the voice. MHA asked for lower music before."
+  ],
+  [
+   "Captions",
+   "Schibsted Grotesk Bold, white, soft shadow. Max 2 lines. One fixed position in the bottom third, above the bottom 20% (app buttons). Every caption starts on the same line. No clipped words. No repeated words."
+  ],
+  [
+   "Hook text",
+   "Schibsted Grotesk Bold, white, on an olive <span class=\"mono\">#798E36</span> box, top third. Cut on. No animation longer than 6 frames."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920, about 16 Mbps. One file, 9:16 only."
+  ]
+ ],
+ "checklist": [
+  "Read every caption against the audio. No clipped last word. No word typed twice.",
+  "The caption block stays in one place for the whole video. Every caption starts on the same line.",
+  "WRAP is always in capitals. Honu and Keya are spelled like this. The transcript writes “rap”, “HANU”, “KEA”.",
+  "No “patient”, “treatment”, “therapy”, “clinic”, “inmate” or “offender” in any text you write on screen.",
+  "At 0:00 there is only the person talking and the hook text. No logo, no name, no fade.",
+  "The end card says mha-ne.org. Not mhanebraska.org.",
+  "No street sign, house number or address is readable in any shot.",
+  "01:02–01:07 is not in the cut.",
+  "The C4583 B-roll is picture only. Its audio is muted.",
+  "The name on the super is confirmed by Amber Pendley before export."
+ ],
+ "decisions": [
+  {
+   "t": "No visual reference on this shoot",
+   "b": "Production Planning row 12324447439 still has an empty Reference link. Owner Nick. A producer has to pick it. Claire does not."
+  },
+  {
+   "t": "First name or full name",
+   "b": "On tape he only says “My name is Johnny”. “Johnny Martin” is on the April list. This page uses first name only, like the other Stories of Hope. Amber Pendley has to confirm before a surname goes on screen."
+  },
+  {
+   "t": "End card logo",
+   "b": "There is no MHA logo file in Editing Assets. Someone has to send the real file, or the end card is text only."
+  }
+ ],
+ "client_note": "<b>Why this matters for Johnny:</b> MHA's line is that peer support is not clinical help. Johnny says it in four words, after ten and a half years of doing it.",
+ "ask_examples": [
+  "Which line about prison should I never use?",
+  "Do I put his surname on the super?",
+  "Where does he say “We see sorrows”?",
+  "Can I use the audio from the staff table clip?"
+ ],
+ "transcript": "Auto-transcript of 20260909_C4584.MP4 (Johnny, MHA office, Lincoln, 9 Sep 2026). Times are mm:ss in the source file. The transcript labels every line \"Johnny\", also the questions. Questions are marked (Interviewer) here.\n[00:00] (Interviewer) name and your position here at MHA?\n[00:03] My name is Johnny. I'm a peer support specialist at both of our houses.\n[00:10] (Interviewer) Yeah, basically. How did you first come across MHA?\n[00:15] Well, I took peer support training through the VA and then I knew a veteran that was working at MHA and yeah and then I volunteered and then I got hired on.\n[00:27] (Interviewer) How long have you been here?\n[00:29] Ten and a half years.\n[00:30] (Interviewer) Awesome. What do you think makes peer support different than traditional support?\n[00:35] The humanity. Yeah, I mean allowing people to be themselves and to chart their path instead of somebody else doing it for them and yeah.\n[00:47] (Interviewer) Is there any moments that you still think about from experiences that you've had with participants through peer support?\n[00:54] Oh yeah, all the time. All the time. I just messaged somebody in California that I know from the warm line.\n[01:02] (Do not use 01:02–01:07: it points at a person who is inside right now.)\n[01:07] The MHA is a... and I talk to people in Hawaii and New York from people that I've met on the warm line.\n[01:13] (Crew talk, 01:13–01:34.)\n[01:35] (Interviewer) So what would you say to somebody who doesn't believe that they can recover?\n[01:43] Well, first of all, it's a hard position to be in because I was kind of there, you know what I mean, and I just try to instill some hope, you know what I mean, that things can change. I mean, I could use my story, but everybody's story is different, you know, and so hopefully my story would give some sort of hope, you know.\n[02:01] (Interviewer) What do you think people get wrong about this work?\n[02:10] Advice. Giving advice. We don't give advice. Let people be people. Let them make their own mistakes. Let them have their own victories. Yeah, so it's all them, yeah.\n[02:22] (Interviewer) If someone watching has never heard of MHA, what should they know?\n[02:29] Well, so I don't know, kind of, I look at it as kind of a ragtag bunch, you know what I mean, but we're super motivated and we will go to the wall for people. So I think it's, yeah, I think that's it. You're just kind of loose, but we're very serious in a way too, yeah.\n[02:49] (Interviewer) Anything else you would like to add or any stories you would like to tell?\n[02:58] I don't know. It's changed my life. Peer support has changed my life, and just real quick, I came out of prison. My life was nothing after 53 years, and I just decided I wanted to make something out of my life, and I ran into peer support, and it's changed everything in my life, you know what I mean. I never knew how much, how important it was to have people in your life, you know, people in your corner, and I took in school before way back, and I always wanted to kind of do this stuff because I saw it in my own household, what people can do other than what people tell them they can do, you know what I mean. And so I'm able to do that, and it's just a, it's a great thing, yeah. We see sorrows, but we also see a lot of victories.\n[03:42] (Crew thanks him, 03:42–03:51.)"
+}

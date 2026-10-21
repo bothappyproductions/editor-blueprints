@@ -1,0 +1,85 @@
+{
+ "item": "13294956454",
+ "client": "niwrc",
+ "note": "The plan asks only for a few key words and the small October card and to stay on him and the room, so 6 graphics.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Teepees line",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "They still think we live in teepees."
+   },
+   "src": "Cory Johnson, C1 Event 1 [01:05]–[01:09]",
+   "rows": [
+    "00:03-00:09"
+   ],
+   "use": "Over Cory as he says it, after the name super goes out at 00:05. Keep captions on."
+  },
+  {
+   "n": 2,
+   "title": "Oklahoma City tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Oklahoma City"
+   },
+   "src": "Cory Johnson, C1 Event 1 [01:18] “We're right here in Oklahoma City.”",
+   "rows": [
+    "00:09-00:24"
+   ],
+   "use": "Key word from the plan. On screen as he says “Oklahoma City”. Good over the 2 s room or street shot."
+  },
+  {
+   "n": 3,
+   "title": "Heart of Indian Country",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "this is the heart of Indian Country."
+   },
+   "src": "Cory Johnson, C1 Event 1 [01:22]",
+   "rows": [
+    "00:09-00:24"
+   ],
+   "use": "Key word from the plan. On his words, right after the Oklahoma City tag goes out."
+  },
+  {
+   "n": 4,
+   "title": "Still here",
+   "tpl": "word_stack",
+   "dur": 4,
+   "pos": "upper",
+   "text": {
+    "items": [
+     "We're still here",
+     "We're here to stay"
+    ]
+   },
+   "src": "Cory Johnson, C1 Event 1 [01:35]",
+   "rows": [
+    "00:36-00:46"
+   ],
+   "use": "Key words from the plan. Each line lands on his word. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "Here to survive",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "we're here to survive."
+   },
+   "src": "Cory Johnson, C1 Event 1 [01:42]",
+   "rows": [
+    "00:36-00:46"
+   ],
+   "use": "Only on his last words. Then hold one second on his face with no text."
+  }
+ ]
+}

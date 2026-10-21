@@ -1,0 +1,166 @@
+{
+ "item": "13277146397",
+ "client": "curegrin",
+ "mg": [
+  {
+   "n": 1,
+   "title": "More Patients",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "help them get more patients into the trial"
+   },
+   "src": "Keith McArthur, C4898.MP4 [02:49]–[02:51]",
+   "rows": [
+    "00:05-00:12"
+   ],
+   "use": "Over Keith as he says it, before the morning B-roll. Keep captions on."
+  },
+  {
+   "n": 2,
+   "title": "GRIN1 Disorder Tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "GRIN1 Disorder"
+   },
+   "src": "Keith McArthur, C4898.MP4 [00:47] “a 20 year old son, Bryson, with GRIN1 disorder”",
+   "rows": [
+    "00:12-00:20"
+   ],
+   "use": "Small, upper left, as he says it and after the name super is gone (from 00:15)."
+  },
+  {
+   "n": 3,
+   "title": "Almost 10",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "Bryson didn't get his diagnosis till he was almost 10 years old."
+   },
+   "src": "Keith McArthur, 20261008_C5194.MP4 [00:09]–[00:11]",
+   "rows": [
+    "00:20-00:30"
+   ],
+   "use": "Over the wide shot as he says it. Keep the photo of Bryson on the TV clear."
+  },
+  {
+   "n": 4,
+   "title": "Focus on the Photo",
+   "tpl": "corner_frame",
+   "dur": 3,
+   "box": [
+    0.04,
+    0.18,
+    0.44,
+    0.52
+   ],
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:20-00:30"
+   ],
+   "use": "Frames the photo of Bryson on the TV at the left, before MG 3. Move it to where the TV sits."
+  },
+  {
+   "n": 5,
+   "title": "Now Hundreds",
+   "tpl": "word_stack",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "items": [
+     "Now there are hundreds",
+     "in that group."
+    ]
+   },
+   "src": "Keith McArthur, 20261008_C5198.MP4 [00:44]",
+   "rows": [
+    "00:41-00:52"
+   ],
+   "use": "Lines land on his words at the end of the row. Keep the Zoom tiles blurred under it."
+  },
+  {
+   "n": 6,
+   "title": "79%",
+   "tpl": "number_card",
+   "dur": 4,
+   "text": {
+    "number": "79%",
+    "label": "can not join the trial today"
+   },
+   "src": "Text card in this blueprint (00:52). Keith McArthur, 20261008_C5219.MP4 [00:58] “79% of those GRIE patients would not be eligible for the trial” (machine spelling).",
+   "rows": [
+    "00:52-01:07"
+   ],
+   "use": "Use it as the text card the plan asks for at 00:52. Then back to Keith pointing at the slide."
+  },
+  {
+   "n": 7,
+   "title": "What Matters Most",
+   "tpl": "quote_card",
+   "dur": 5,
+   "text": {
+    "main": "if you aren't designing a trial around what matters most to families, then you're not progressing in the right direction.",
+    "who": "Quinn Pauli"
+   },
+   "src": "Quinn Pauli, C4897.MP4 [06:57]–[07:05], as cut in the blueprint row 01:07-01:15",
+   "rows": [
+    "01:07-01:15"
+   ],
+   "use": "Full-frame cutaway after her name super is gone, as she says it. Back to Quinn or the meeting shot."
+  },
+  {
+   "n": 8,
+   "title": "A Medicine To Treat",
+   "tpl": "statement_card",
+   "dur": 4,
+   "text": {
+    "main": "We see it as a medicine to treat GRIN-related neurodevelopmental disorder.",
+    "emph": [
+     "GRIN-related"
+    ]
+   },
+   "src": "Bruce Leuchter, 20261008_C5186.MP4 [03:47]",
+   "rows": [
+    "01:15-01:30"
+   ],
+   "use": "Full-frame cutaway as Bruce says it, after his name super is gone. Back to Bruce for his last line."
+  },
+  {
+   "n": 9,
+   "title": "Lived Experiences",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "we care deeply about your lived experiences."
+   },
+   "src": "Bruce Leuchter, 20261008_C5186.MP4 [25:22]",
+   "rows": [
+    "01:15-01:30"
+   ],
+   "use": "Over Bruce on his last line, as he says it."
+  },
+  {
+   "n": 10,
+   "title": "Saving Lives",
+   "tpl": "statement_card",
+   "dur": 3,
+   "text": {
+    "main": "the work you do can literally be saving lives.",
+    "emph": [
+     "saving lives"
+    ]
+   },
+   "src": "Keith McArthur, 20261008_C5208.MP4 [01:06]",
+   "rows": [
+    "01:30-01:40"
+   ],
+   "use": "Full-frame cutaway on the last words of the row, as he says them. Then the button on the wide shot."
+  }
+ ]
+}

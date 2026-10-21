@@ -1,0 +1,86 @@
+{
+ "item": "13099655867",
+ "client": "aij",
+ "note": "The plan says captions only and hold on his face, so only 5 light top-band overlays and no full-frame cards.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "A glass of cold water",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "you can't even drink a glass of cold water."
+   },
+   "src": "Roberto (English translation by AIJ), Roberto Client Interview.mp4 [23:15] block",
+   "rows": [
+    "00:04–00:08"
+   ],
+   "use": "Only if you keep this optional row. Top band, timed to his Spanish. Keep captions on."
+  },
+  {
+   "n": 2,
+   "title": "Law firms would not answer",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "several of those law firms would not answer."
+   },
+   "src": "Roberto (English translation by AIJ), Roberto Client Interview.mp4 [13:16]",
+   "rows": [
+    "00:08–00:35"
+   ],
+   "use": "Top band over his face, timed to his Spanish. It sets up “siempre contestaron”."
+  },
+  {
+   "n": 3,
+   "title": "They always answered",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "They were always there, they always answered"
+   },
+   "src": "Roberto (English translation by AIJ), Roberto Client Interview.mp4 [13:16]",
+   "rows": [
+    "00:08–00:35"
+   ],
+   "use": "Top band on “siempre estaban ahí, siempre contestaron”. No cut inside the line. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "I'm free",
+   "tpl": "word_stack",
+   "dur": 4,
+   "pos": "upper",
+   "text": {
+    "items": [
+     "Here I am",
+     "Outside of detention",
+     "I'm free"
+    ]
+   },
+   "src": "Roberto (English translation by AIJ), Roberto Client Interview.mp4 [14:16]",
+   "rows": [
+    "00:35–00:52"
+   ],
+   "use": "Top band over his face. Each line lands on his Spanish words. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "Their excellent work",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "thanks to them for their excellent work."
+   },
+   "src": "Roberto (English translation by AIJ), Roberto Client Interview.mp4 [14:16]",
+   "rows": [
+    "00:35–00:52"
+   ],
+   "use": "Top band over his face as he says it, after the I'm free lines clear. Keep captions on."
+  }
+ ]
+}

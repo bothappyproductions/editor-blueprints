@@ -1,0 +1,64 @@
+{
+ "item": "12489941840",
+ "client": "lions",
+ "note": "The plan stays on his face with captions only from 00:12 to the end, and Jacqui wants much simpler graphics or none, so 4 graphics. Use them only if Atdhe asks.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Nigeria pin",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "Nigeria"
+   },
+   "src": "Blueprint MOTION 00:05 (📍 Nigeria) and Nigeria Lion, IMG_8056.MOV [01:00] “the hospital in Nigeria”",
+   "rows": [
+    "00:05–00:10"
+   ],
+   "use": "This is the planned 📍 Nigeria pin at 00:05.5 to 00:07.5. Add the 📍 in front. Do not add a second pin."
+  },
+  {
+   "n": 2,
+   "title": "I like helping people",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "text": {
+    "main": "I like helping people."
+   },
+   "src": "Nigeria Lion, IMG_8056.MOV [00:19]",
+   "rows": [
+    "00:05–00:10"
+   ],
+   "use": "Over his face as he says it, after the pin is gone at 00:07.5. Keep captions on.",
+   "pos": "top"
+  },
+  {
+   "n": 3,
+   "title": "Favorite memory question",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "What is your favorite memory"
+   },
+   "src": "Atdhe, IMG_8056.MOV [00:44]–[00:51]",
+   "rows": [
+    "00:10–00:12"
+   ],
+   "use": "This is the planned top text at 00:10. Use it as that top text, not as a second text."
+  },
+  {
+   "n": 4,
+   "title": "Frame his pause",
+   "tpl": "corner_frame",
+   "dur": 2,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:10–00:12"
+   ],
+   "use": "Brackets around his face while he tilts his head back to think. Move them to where his face sits."
+  }
+ ]
+}

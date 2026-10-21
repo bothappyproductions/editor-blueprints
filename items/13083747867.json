@@ -1,0 +1,349 @@
+{
+ "id": "13083747867",
+ "client": "mha",
+ "eyebrow": "MHA Nebraska · Terrapin Station, Omaha · 10 Sep 2026 · Story of Hope",
+ "title": "Cynthia & Kelly:",
+ "title_q": "“Welcome Home”",
+ "title_short": "Cynthia & Kelly · Welcome Home",
+ "editor": "Bleron",
+ "due": "2026-10-30",
+ "format": "9:16 only · 1080×1920",
+ "length": "about 90 s (about 75 s without the two optional rows)",
+ "edit_key": "MHACynthiaKellyWelcomeHome001",
+ "headline": "When someone walks out of prison and through their door, two peers who run the Omaha house say: “Welcome home.”",
+ "story": [
+  "Cynthia runs MHA's Omaha house. Kelly is a peer support specialist there. Their favorite moment is when somebody gets out of prison and walks through the door. Some cry. Some feel they do not deserve the space. <b>“And we're just like, welcome home.”</b>",
+  "They know it from the inside: labels, small steps, and a job that is “for the people”. It must feel <b>warm, close and hopeful</b>. The two of them together is the point, so it starts and ends on both of them."
+ ],
+ "feel": [
+  "Warm",
+  "Close",
+  "Honest",
+  "Hopeful"
+ ],
+ "do": [
+  "Open on frame 1 with both women on the couch, already talking.",
+  "Keep both in frame for the hook and the last lines.",
+  "Match every line to the right woman by voice before you caption it.",
+  "Two name supers, each on her own intro line.",
+  "Cut clean around every laugh and every tear."
+ ],
+ "dont": [
+  "Never use crying, laughing or “cut that out” moments as a beat.",
+  "No “criminal charges” in any headline or hook text.",
+  "No WRAP answers (08:30–12:27). They belong to the WRAP video.",
+  "No prison footage and no stock images of a prison.",
+  "No second aspect ratio. 9:16 only."
+ ],
+ "links": {
+  "brief": {
+   "title": "MHA × Happy Productions — September Production Brief (Sept 9–10, 2026)",
+   "url": "https://docs.google.com/document/d/1HjXrf_i7y5gj1c8NrpU9wkAdVBrN8U6DcBOuMCmGOcI/edit",
+   "note": "The plan for both shoot days: who was interviewed where, and the questions."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Nick owes it. MHA has not suggested one."
+  },
+  "footage": {
+   "title": "Cynthia and Kelly Omaha Staff Interviews",
+   "url": "https://drive.google.com/drive/folders/11GU9jEdLjA7BErAx5wyWWVH_VW39g9KT",
+   "note": "20260910_C4825.MP4, 15:28, one camera, both women on one couch."
+  }
+ },
+ "bp_intro": "All interview times are in <span class=\"mono\">20260910_C4825.MP4</span> (15:28, one camera, two women on one couch). Times come from the caption file. Times with ≈ fall inside a caption line, so find them on the waveform. The transcript has no speaker names, so check every line by voice. Frames from this file could not be pulled for this page (Drive download was blocked), so shot notes come from visual.json and the brief doc.",
+ "rows": [
+  {
+   "tc": "00:00–00:13",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Both women on the couch, already talking on frame 1 (visual.json: one in a Nebraska sweatshirt, one in a black shirt, dim living room). Keep <b>both</b> in frame. Use a 2-shot crop that holds both faces, then punch in on the speaker only if the 2-shot gets too small.",
+   "motion": "Captions from frame 1. Big hook text <q>Welcome home.</q> lands on her words at <span class=\"mono\">00:12</span> and holds through the cut.",
+   "voice": {
+    "who": "Cynthia or Kelly (check by voice)",
+    "quote": "my favorite moment is just when somebody gets out of prison and comes through that door and the look on their face, some of them cry. Some of them feel like they're not deserving to be in this space. And we're just like, welcome home.",
+    "src": "C4825 ≈03:20.6–03:33.68 (start after “But”)"
+   },
+   "sfx": "Room tone from the clip only. No whoosh on frame 1.",
+   "music": "Very soft bed from frame 1, 22 dB under the voice. It lifts a little on “welcome home”."
+  },
+  {
+   "tc": "00:13–00:19",
+   "beat": "WHO THEY ARE",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same 2-shot. Start on “I'm Cynthia”, cut “Oh, we both”. If the first intro is messy, use the clean standalone lines at 12:48.25–12:51.03 and 12:52.08–12:55.38.",
+   "motion": "<b>Two name supers</b>, each on her own line, lower left: <q>Cynthia · Coordinator, Omaha · MHA Nebraska</q> at <span class=\"mono\">00:13–00:16</span>, then <q>Kelly · Peer Support Specialist, Omaha · MHA Nebraska</q> at <span class=\"mono\">00:16–00:19</span>. Spellings not confirmed (see decisions).",
+   "voice": {
+    "who": "Cynthia, then Kelly",
+    "quote": "I'm Cynthia, I'm the coordinator for Omaha. … I'm Kelly, I'm a peer support specialist for Omaha.",
+    "src": "C4825 ≈00:25.5–00:29.08 + 00:30.89–00:33.29"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:19–00:33",
+   "beat": "NOT WHO I AM",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Crop to the speaker. Stay on her face. Her own story. No B-roll.",
+   "motion": "Captions only. “criminal charges” stays in the captions as she says it. Never in a headline.",
+   "voice": {
+    "who": "Cynthia or Kelly (check by voice)",
+    "quote": "For me, I was always labeled with a diagnosis or identified by my criminal charges or what the courts thought of me. And when I took intentional peer support, I was like, wow, that's not who I am.",
+    "src": "C4825 01:41.61–01:55.05"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed quiet."
+  },
+  {
+   "tc": "00:33–00:39",
+   "beat": "HELP VS SUPPORT",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same speaker. On “walk alongside people” cut to C4802 00:00–00:02 (visual.json: a group on the steps of the house).",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Cynthia or Kelly (check by voice)",
+    "quote": "And to me, a lot of people help and they don't support. … Now I can just walk alongside people and I really enjoy that.",
+    "src": "C4825 02:00.01–02:03.45 + 02:16.97–02:19.61"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<b>Lift</b> on “walk alongside people”."
+  },
+  {
+   "tc": "00:39–00:50",
+   "beat": "SMALL STEPS",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Crop to the speaker. On “small steps” cut to C4797 00:00–00:02 (visual.json: chalkboard “I'm glad you stayed”). Back to her for “brush my teeth”.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Cynthia or Kelly (check by voice)",
+    "quote": "For me, recovery has to happen in like really small steps. … My recovery started with, today I'm going to get out of bed and go brush my teeth. … I think that recovery looks different for everybody.",
+    "src": "C4825 04:19.37–04:22.17 + 04:32.48–04:37.82 + 05:00.04–05:03.16"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:50–01:03",
+   "beat": "FOR THE PEOPLE",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Crop to the speaker. Cut the pauses between the three sentences.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Cynthia or Kelly (check by voice)",
+    "quote": "This job is not for the money. This job is for the people. This job is about walking with people through the hardest steps of their life, quite possibly.",
+    "src": "C4825 05:24.95–05:41.44"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "01:03–01:16",
+   "beat": "TAKE THE WHEEL",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Start on C4819 00:00–00:01 (visual.json: two women and a man on the stoop, one holding a sign), then back to the speaker. <b>Cut this row second</b> if the video runs long.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Cynthia or Kelly (check by voice)",
+    "quote": "We're creating informed choices for people and allowing them to take the wheel on their life, which they've never been allowed to do. People have made decisions for them in rooms that they were never allowed to be in. We don't do that here.",
+    "src": "C4825 06:24.44–06:37.32"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Small lift on “We don't do that here.”"
+  },
+  {
+   "tc": "01:16–01:19",
+   "beat": "TOUGHEST TIMES (OPTIONAL)",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "On the speaker, or C4813 00:07–00:10 (visual.json: “LOVE” in chalk with the MHA turtle inside the O). <b>Cut this row first</b> if the video runs long.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Cynthia or Kelly (check by voice)",
+    "quote": "I help people during the toughest times of their lives.",
+    "src": "C4825 07:46.88–07:50.32"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "01:19–01:30",
+   "beat": "BUTTON",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Back to the 2-shot. Both of them together is the point. Hold on the 2-shot to the end. Cut every laugh and every “cut that out” around these lines.",
+   "motion": "Captions only. Each short line gets its own caption.",
+   "voice": {
+    "who": "Cynthia and Kelly (check by voice)",
+    "quote": "Hope looks like freedom. … hope looks like recovery. … Peer support is powerful because I can be my authentic self. … I love MHA. … It changed my life.",
+    "src": "C4825 13:06.34–13:07.42 + ≈13:16.5–13:18.23 + 14:23.90–14:27.44 + 14:36.66–14:37.96 + 14:39.66–14:40.46"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Gentle peak. Resolve on “It changed my life.”"
+  },
+  {
+   "tc": "01:30–01:33",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Clean end card. Pale sage <span class=\"mono\">#E8EFD4</span> background.",
+   "motion": "<b>MHA Nebraska · Intentional Peer Support</b>, then <b>mha-ne.org</b> under it, dark olive <span class=\"mono\">#4A5325</span>. Add the MHA turtle logo only from a real logo file (ask Nick). Never rebuild it from a poster shot. No phone number.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Last note rings out. 1 s fade."
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/1HjXrf_i7y5gj1c8NrpU9wkAdVBrN8U6DcBOuMCmGOcI/edit\">MHA × Happy Productions — September Production Brief (Sept 9–10, 2026)</a>"
+  ],
+  [
+   "Reference",
+   "Not chosen yet. Nick owes it."
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/1-B8N77LRfWIqQIyZaqP4ULirziTGsyye\">MHA September 2026</a> · Day 1 = Lincoln office + Keya House (9 Sep), Day 2 = facilities + Terrapin Station (10 Sep)"
+  ],
+  [
+   "Clip",
+   "<a href=\"https://drive.google.com/file/d/1Sl3jxuW5qVP6hgwcVIp0kgZWYIECgx3H/view\">20260910_C4825.MP4</a> · Day 2 › Terrapin House › Cynthia and Kelly Omaha Staff Interviews · 6.4 GB"
+  ],
+  [
+   "B-roll",
+   "Day 2 › Terrapin House › Chalk and Staff at Terrapin House B Roll: <a href=\"https://drive.google.com/file/d/1y9EZtC5lEUgySj-mSlDcPWB67bqB_G1g/view\">C4802</a> · <a href=\"https://drive.google.com/file/d/1DNwaClcwUqBlCefI5As2AkFkQVl0aa9s/view\">C4797</a> · <a href=\"https://drive.google.com/file/d/1K3rL805vSaQ_AE27f7aDB6hj_r8NMAqE/view\">C4819</a> · <a href=\"https://drive.google.com/file/d/1RNDqhVSBk_wJ8h7n_EgVW5RJRmcYvbOZ/view\">C4813</a>"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1DerddbhHAhrD17IX1jIevGHyW2XR0Zeu5AS3WxFveso/edit\">Cynthia and Kelly Omaha Staff Interviews Transcript</a> · every answer is labelled “Blank”. Use the voices."
+  ],
+  [
+   "Captions",
+   "<a href=\"https://drive.google.com/file/d/14sEcsvJQfXRAWRw7eIrVRXFIHeWliGgM/view\">Cynthia and Kelly Omaha Staff Interviews.captions.srt</a> (timings used above)"
+  ],
+  [
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/1LPvkYhfYN8ag7eJufhcWIcOZ4QtINeVU/view\">EditTranscripts/visual.json</a> · coarse. Frames on this page win."
+  ],
+  [
+   "Brand",
+   "No brand guide and no logo file from MHA yet. <a href=\"https://drive.google.com/drive/folders/1rfJ4ffV0PmCxgoTuFwXTJYvmb9AxvV5q\">Editing Assets</a> has only placeholder notes. Colors and fonts come from mha-ne.org: olive <span class=\"mono\">#798E36</span>, dark olive <span class=\"mono\">#4A5325</span>, pale sage <span class=\"mono\">#E8EFD4</span>. Fonts: Gloock (titles only), Schibsted Grotesk (captions)."
+  ],
+  [
+   "Music",
+   "Not chosen in the brief. Use a licensed track only and save the license with the project. MHA asked for lower music levels before."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "1920×1080 camera files. The probe of this file did not run. The other interviews from this shoot (C4824, C4826) read 59.94 fps. Check this file in your NLE before you build the timeline."
+  ],
+  [
+   "Timeline",
+   "1080×1920 at <b>29.97 fps</b>. 59.94 halves cleanly to 29.97. Conform every B-roll clip to real time. No accidental slow motion."
+  ],
+  [
+   "Crop",
+   "A 9:16 crop of 1080p is 608 px wide, so it is already upscaled 1.78×. Keep punch-ins at 110% or less. Sharpen lightly."
+  ],
+  [
+   "Audio",
+   "Two lavs into one camera file. Not measured for this page. Solo each channel: one should carry Cynthia, the other Kelly. Use the right channel for each speaker and kill the other one's bleed."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. Music 18–20 dB under the voice. MHA asked for lower music before."
+  ],
+  [
+   "Captions",
+   "Schibsted Grotesk Bold, white, soft shadow. Max 2 lines. One fixed position in the bottom third, above the bottom 20% (app buttons). Every caption starts on the same line. No clipped words. No repeated words."
+  ],
+  [
+   "Hook text",
+   "Schibsted Grotesk Bold, white, on an olive <span class=\"mono\">#798E36</span> box, top third. Cut on. No animation longer than 6 frames."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920, about 16 Mbps. One file, 9:16 only."
+  ]
+ ],
+ "checklist": [
+  "Read every caption against the audio. No clipped last word. No word typed twice.",
+  "The caption block stays in one place for the whole video. Every caption starts on the same line.",
+  "WRAP is always in capitals. Honu and Keya are spelled like this. The transcript writes “rap”, “HANU”, “KEA”.",
+  "No “patient”, “treatment”, “therapy”, “clinic”, “inmate” or “offender” in any text you write on screen.",
+  "At 0:00 there is only the person talking and the hook text. No logo, no name, no fade.",
+  "The end card says mha-ne.org. Not mhanebraska.org.",
+  "No street sign, house number or address is readable in any shot.",
+  "Each line is matched to the right woman by voice. The name super sits on her own line.",
+  "No crying, laughing or “cut that out” moment is in the cut.",
+  "Both name spellings are confirmed by Amber Pendley before export."
+ ],
+ "decisions": [
+  {
+   "t": "No visual reference on this shoot",
+   "b": "Production Planning row 12324447439 still has an empty Reference link. Owner Nick. A producer has to pick it. Claire does not."
+  },
+  {
+   "t": "Name spellings",
+   "b": "Cynthia and Kelly say their first names on tape. Amber Pendley has to confirm both spellings and titles before the supers go on."
+  },
+  {
+   "t": "Length",
+   "b": "The brief asked for 60–80 s, but its own plan runs to 1:28. This page lands about 90 s. Cutting the two optional rows brings it to about 75 s. Which length?"
+  },
+  {
+   "t": "End card logo",
+   "b": "There is no MHA logo file in Editing Assets. Someone has to send the real file, or the end card is text only."
+  }
+ ],
+ "client_note": "<b>Why this matters for Cynthia & Kelly:</b> MHA wants Omaha reentry told by the people who open the door. These two run the house and lived it themselves.",
+ "ask_examples": [
+  "Who says “welcome home”, Cynthia or Kelly?",
+  "Which audio channel is which woman?",
+  "Where are the clean name lines?",
+  "What parts belong to the WRAP video?"
+ ],
+ "transcript": "Auto-transcript of 20260910_C4825.MP4 (Cynthia and Kelly, Terrapin Station, Omaha, 10 Sep 2026). Times are mm:ss in the source file. The transcript has no speaker names. Match each line to Cynthia or Kelly by voice: Cynthia introduces herself at 00:23 and 12:48, Kelly at 00:31 and 12:52. Laughing, crying and \"cut that out\" chatter is marked and must never be used.\n[00:05] (Before the interview, 00:05–00:18.)\n[00:23] Oh, we both I'm Cynthia, I'm the coordinator for Omaha.\n[00:31] I'm Kelly, I'm a peer support specialist for Omaha.\n[00:36] (Interviewer) How did you first come across MHA?\n[00:40] So I was working at a different transitional living facility. And my co worker had gone to the VLS quarterly meeting and met Tessa and MHA was there presenting their expansion to Omaha. And she encouraged me to leave the job I was at and call Tessa immediately. And so that's what I did.\n[01:06] I heard about this through my friend Kristen. And I thought it was amazing. And it ended up being a perfect fit for me.\n[01:17] (Interviewer) What makes peer support different from traditional support?\n[01:26] (Pause and chatter, 01:26–01:30.)\n[01:31] To me, intentional peer support is really like, to me, it's all about the whole person.\n[01:42] For me, I was always labeled with a diagnosis or identified by my criminal charges or what the courts thought of me.\n[01:51] And when I took intentional peer support, I was like, wow, that's not who I am.\n[01:56] It's all about the things that have happened to me.\n[02:00] And to me, a lot of people help and they don't support.\n[02:04] And there's a big difference to me in that supporting, we're able to do things together and to work through things together versus me kind of being this expert in whatever they need help in and me giving them the answers.\n[02:17] Now I can just walk alongside people and I really enjoy that.\n[02:21] (Chatter and tears, 02:21–02:36.)\n[02:37] (Interviewer) Tell me a moment that you still think about whether it's with coworkers or participants.\n[02:47] (02:47–03:09: \"My boss right here\", tears, \"cut all that out\". Never use.)\n[03:11] I think for me, just seeing people step up and be in our community and be really involved and care about the space that we're in.\n[03:20] But my favorite moment is just when somebody gets out of prison and comes through that door and the look on their face, some of them cry. Some of them feel like they're not deserving to be in this space. And we're just like, welcome home.\n[03:34] (Chatter and tears, 03:34–03:52.)\n[03:55] (Interviewer) What would you say to someone who doesn't believe they can recover?\n[04:01] Yes, you can recover. You can. I did it. I know many people that have done it. A lot of my friends are going through it right now. Recovery is possible.\n[04:19] For me, recovery has to happen in like really small steps.\n[04:24] The very first time I tried to get clean, I had so much guilt and shame that I couldn't even get out of bed.\n[04:32] My recovery started with, today I'm going to get out of bed and go brush my teeth.\n[04:38] I created that small habit for a week. The next week it was, I'm going to get out of bed, I'm going to brush my teeth, and I'm going to take a shower. That was what my recovery looked like.\n[04:51] My brain just couldn't wrap its mind around staying clean for more than 30 seconds.\n[04:57] I had to take my recovery into really small steps.\n[05:00] I think that recovery looks different for everybody.\n[05:04] (Interviewer) What do people get wrong about this job?\n[05:25] This job is not for the money. This job is for the people. This job is about walking with people through the hardest steps of their life, quite possibly.\n[05:45] That's what it's all about, to me.\n[05:50] I think for me, what people get wrong or maybe what the hardest part is, is when you see somebody's what you believe is their potential and they're totally on a different path. You want to be like, stop, don't go that way. That's wrong because you can't learn a lesson or learn anything in life if you're not allowed to make choices.\n[06:16] When people talk about transitional living or reentry, they think that we're setting goals and doing things for people. That's not what we're doing.\n[06:24] We're creating informed choices for people and allowing them to take the wheel on their life, which they've never been allowed to do.\n[06:31] People have made decisions for them in rooms that they were never allowed to be in.\n[06:37] We don't do that here.\n[06:39] (Chatter, 06:39–06:42.)\n[06:43] (Interviewer) If someone watching has never heard of MHA, what should they know?\n[06:53] We're amazing. I said this at my very first All Staff, and two years later, it is still true that I 100% believe that everybody I work with is the same person when they clock in as when they clock out. I don't question anybody's integrity here. I believe that our mission lives in people's hearts when they go home.\n[07:16] (Chatter, 07:16–07:29.)\n[07:30] (Interviewer) Someone watching has never heard of MHA ... What's one thing you would tell them, or what should they know about MHA?\n[07:47] I help people during the toughest times of their lives.\n[07:51] I get to sit down with them and hear what's going on with them and how they're doing and the stories of their lives, and there's nothing more.\n[08:03] I go home, and I'm still thinking about it, and I'm laying in bed, and I'm like, how are they doing? When they leave here, I'm still wondering, how are you doing?\n[08:13] There's no other job that I have ever had that you can really know people, get to know people. That's what MHA is to me.\n[08:30] (Interviewer) How has RAP impacted your life? (Chatter and tears, 08:36–08:44.)\n[08:44] So RAP, I had never, I had heard of it, but I didn't really know what it was, and when they said that it was a plan created by me for me, I still didn't really understand what it meant, because I've been in spaces where people created safety plans for me to prevent me from using or making poor decisions in their mind or going to a hospital, and so there was always a safety plan in place, but it was, call the doctor, call the ambulance, call the meds, call, you know, all these things, lock her up, and I, RAP opened my mind that I have control over decisions that are being made for me. Like, I have a voice in that, and there were some things that, like, I love that we took it together, and I got to take it with all my coworkers, because I learned different ways that people experience wellness and different ways that they experience when they're not okay, and I think that it brought us closer together, because now, like, now I know some of the things that Kelly has said, that when I'm not okay, this is what happens, and we can have a conversation about that, and to really just be in tune with yourself and with other people is, it's great.\n[10:02] (Chatter, 10:02–10:22. Never use.)\n[10:24] When I first did RAP, I was in rehab, and it was actually traumatic for me. I was handed this thick packet, and it had all these really in-depth, serious questions for me, and I was scared of it, and they sent me to sit down, and when I did RAP at MHA, I, like Cynthia said, I sat down in a group with awesome people, my coworkers and my friends, and I found out what it really was.\n[11:00] (Tears and chatter, 11:00–11:46. Never use.)\n[11:47] I think it has impacted the culture, because MHA is all about informed choice and allowing people to take their own power back and to be able to make choices for themselves. We are surrounded by people who have been told what to do for a very long time, and RAP gives them that power back that, like, I trust you to make your own decisions, even if I don't agree with it, and it might not be the decision that I would make, I trust that you know what's best for you.\n[12:22] (Chatter, 12:22–12:47.)\n[12:48] My name is Cynthia, and I am a coordinator at MHA.\n[12:52] My name is Kelly, and I'm a peer support specialist at MHA.\n[13:00] (Interviewer) The next sentence is, hope looks like, take it away.\n[13:06] Hope looks like freedom.\n[13:13] They're all important, but hope looks like recovery.\n[13:27] Peer support is powerful because everybody needs somebody.\n[13:37] (Restarts and laughing, 13:37–13:56. Never use.)\n[13:57] Peer support is powerful because I get to be who I am authentically.\n[14:05] (Chatter, 14:05–14:23.)\n[14:24] Peer support is powerful because I can be my authentic self.\n[14:33] (Interviewer) Anything else you guys want to add or share?\n[14:37] I love MHA.\n[14:39] I do too.\n[14:40] It changed my life.\n[14:42] Same.\n[14:44] (After the interview, 14:44–15:28. Never use.)"
+}

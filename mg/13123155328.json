@@ -1,0 +1,133 @@
+{
+ "item": "13123155328",
+ "client": "watsi",
+ "note": "The plan says captions only on most rows, nothing else on screen at the sign beat, and no text over health details. Watsi want one brand element at a time, so use these only if Nick asks for more.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hi mom",
+   "tpl": "word_stack",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "items": [
+     "Hi mom.",
+     "I love you"
+    ]
+   },
+   "src": "Child, MIC0022.MP3 [00:00]",
+   "rows": [
+    "00:12–00:14"
+   ],
+   "use": "Each line lands on the child's word. Keep it to this one message."
+  },
+  {
+   "n": 2,
+   "title": "Bryant Park tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Bryant Park"
+   },
+   "src": "Shoot location in this blueprint (Bryant Park, 22 Sep 2026).",
+   "rows": [
+    "00:21–00:28"
+   ],
+   "use": "Small tag as the cut slows down. One brand element at a time."
+  },
+  {
+   "n": 3,
+   "title": "Keep your hopes up",
+   "tpl": "kinetic_quote",
+   "dur": 5,
+   "pos": "top",
+   "text": {
+    "main": "Stay in it. Keep your hopes up. Just look forward.",
+    "emph": [
+     "hopes",
+     "forward"
+    ]
+   },
+   "src": "Man in the wheelchair, MIC0032.MP3 [00:17]–[00:19]",
+   "rows": [
+    "00:38–00:48"
+   ],
+   "use": "Only on the second piece, after the surgeries line. Words pop in on his voice."
+  },
+  {
+   "n": 4,
+   "title": "Focus on the phone",
+   "tpl": "corner_frame",
+   "dur": 3,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:48–00:57"
+   ],
+   "use": "Frames the handset at his ear. Move it to where the phone sits."
+  },
+  {
+   "n": 5,
+   "title": "Show love",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Show love, man."
+   },
+   "src": "Man with headphones, MIC0036.MP3 [00:26]",
+   "rows": [
+    "00:57–01:04"
+   ],
+   "use": "On the second piece. Clear it before the bleeped word."
+  },
+  {
+   "n": 6,
+   "title": "Happy moments",
+   "tpl": "quote_card",
+   "dur": 4,
+   "text": {
+    "main": "You will live a lot and have a lot of happy moments.",
+    "who": "Ana"
+   },
+   "src": "Ana, MIC0030.MP3 [00:17] (English from the transcript; she speaks Portuguese)",
+   "rows": [
+    "01:04–01:09"
+   ],
+   "use": "Full-frame cutaway after her name super is gone. Keep her voice under it."
+  },
+  {
+   "n": 7,
+   "title": "Great energy",
+   "tpl": "statement_card",
+   "dur": 4,
+   "text": {
+    "main": "sending you great energy",
+    "emph": [
+     "energy"
+    ]
+   },
+   "src": "Woman in a blue dress, MIC0031.MP3 [00:15]",
+   "rows": [
+    "01:09–01:17"
+   ],
+   "use": "Full-frame cutaway on “great energy”. Only if you keep this lift."
+  },
+  {
+   "n": 8,
+   "title": "You are amazing",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Hey I just wanted to say you are amazing."
+   },
+   "src": "Mackinnon, MIC0021.MP3 [00:00]",
+   "rows": [
+    "01:23–01:33"
+   ],
+   "use": "On her first piece only, as she says it. Gone before her name super."
+  }
+ ]
+}

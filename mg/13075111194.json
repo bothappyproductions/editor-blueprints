@@ -1,0 +1,149 @@
+{
+ "item": "13075111194",
+ "client": "sfcg",
+ "note": "The plan says captions only after the hook, and SFCG find animation in the middle of a video inauthentic. Use one only where a line needs it, and prefer the top-band overlays.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Cyprus tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Cyprus"
+   },
+   "src": "Christos, FX6_LVH_6364.MXF [00:12] “in Cyprus”",
+   "rows": [
+    "00:09–00:15"
+   ],
+   "use": "Only after the name super is gone at 00:12.5. One text at a time."
+  },
+  {
+   "n": 2,
+   "title": "A unique example",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "a unique example of young people participating within the peace process"
+   },
+   "src": "Christos, FX6_LVH_6364.MXF [01:06]",
+   "rows": [
+    "00:15–00:24"
+   ],
+   "use": "Over Christos as he says it, before you cut to the cards."
+  },
+  {
+   "n": 3,
+   "title": "Focus on the cards",
+   "tpl": "corner_frame",
+   "dur": 3,
+   "box": [
+    0.1,
+    0.3,
+    0.8,
+    0.36
+   ],
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:15–00:24"
+   ],
+   "use": "Brackets on the three white cards in the B-roll. Move them to where the cards sit."
+  },
+  {
+   "n": 4,
+   "title": "Trust-building that worked",
+   "tpl": "statement_card",
+   "dur": 5,
+   "text": {
+    "main": "one of the most successful trust-building measures implemented in the Cypriot problem.",
+    "emph": [
+     "trust-building"
+    ]
+   },
+   "src": "Christos, FX6_LVH_6364.MXF [04:12]–[04:22]",
+   "rows": [
+    "00:24–00:32"
+   ],
+   "use": "Full-frame cutaway on his line. This is the one line of committee detail."
+  },
+  {
+   "n": 5,
+   "title": "Involve young people",
+   "tpl": "quote_card",
+   "dur": 6,
+   "text": {
+    "main": "we should try to involve young people directly to the negotiation process",
+    "who": "Christos"
+   },
+   "src": "Christos, FX6_LVH_6364.MXF [02:24]",
+   "rows": [
+    "00:32–00:44"
+   ],
+   "use": "Full-frame cutaway in place of the EU flags cover. Keep his voice under."
+  },
+  {
+   "n": 6,
+   "title": "Involve all of them",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "it is very important to involve all of them"
+   },
+   "src": "Christos, FX6_LVH_6364.MXF [02:48]",
+   "rows": [
+    "00:44–01:04"
+   ],
+   "use": "Top band, over the street B-roll as he says it. Then back to him."
+  },
+  {
+   "n": 7,
+   "title": "Make some decisions",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "not only to say their opinion, but also to make some decisions"
+   },
+   "src": "Christos, FX6_LVH_6364.MXF [02:57]",
+   "rows": [
+    "00:44–01:04"
+   ],
+   "use": "Over Christos when you are back on him at to make some decisions."
+  },
+  {
+   "n": 8,
+   "title": "Their own island",
+   "tpl": "statement_card",
+   "dur": 5,
+   "text": {
+    "main": "they are going to live in the island that they will build.",
+    "emph": [
+     "build"
+    ]
+   },
+   "src": "Christos, FX6_LVH_6364.MXF [04:58]–[05:07]",
+   "rows": [
+    "01:04–01:11"
+   ],
+   "use": "Full-frame cutaway on his line. Cut back to him after build."
+  },
+  {
+   "n": 9,
+   "title": "Start the movement",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "young people can start the movement"
+   },
+   "src": "Christos, FX6_LVH_6364.MXF [05:16]",
+   "rows": [
+    "01:11–01:23"
+   ],
+   "use": "Over Christos as he says it, in the button. Keep the hold on his face."
+  }
+ ]
+}

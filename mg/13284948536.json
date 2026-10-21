@@ -1,0 +1,94 @@
+{
+ "item": "13284948536",
+ "client": "freedom-to-choose",
+ "note": "The plan says keep him on camera most of the time, captions only, and a one second hold on his face at the end. Prefer the small top-band overlays. Use the full-frame cards only if Atdhe asks for more.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "My mother tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "My mother"
+   },
+   "src": "Eddie, Interview_Eddie [07:44] “It starts with my mother”",
+   "rows": [
+    "00:04-00:12"
+   ],
+   "use": "Small tag after the name super is gone at 00:05."
+  },
+  {
+   "n": 2,
+   "title": "Focus on Eddie",
+   "tpl": "corner_frame",
+   "dur": 4,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:12-00:20"
+   ],
+   "use": "Brackets only, no text, around his face while he talks. Keep it still and calm."
+  },
+  {
+   "n": 3,
+   "title": "The best she could",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "my mother did the best she could"
+   },
+   "src": "Eddie, Interview_Eddie [08:23]",
+   "rows": [
+    "00:20-00:29"
+   ],
+   "use": "Top band, back on Eddie after the 3 s cutaway, as he says it. Keep the orange caption words."
+  },
+  {
+   "n": 4,
+   "title": "Work on myself",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "So what Freedom to Choose allowed me is to first of all work on myself"
+   },
+   "src": "Eddie, Interview_Eddie [08:17]",
+   "rows": [
+    "00:20-00:29"
+   ],
+   "use": "Top band as he says it. Not on screen with MG 3."
+  },
+  {
+   "n": 5,
+   "title": "Share with my mother",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "now I'm able to share with my mother"
+   },
+   "src": "Eddie, Interview_Eddie [08:35]",
+   "rows": [
+    "00:29-00:36"
+   ],
+   "use": "Top band over Eddie as he says it, before “wait a minute”. Keep captions on."
+  },
+  {
+   "n": 6,
+   "title": "She's proud of me",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "I know she's proud of me"
+   },
+   "src": "Eddie, Interview_Eddie [08:49]",
+   "rows": [
+    "00:43-00:51"
+   ],
+   "use": "Top band on his last words, only if Atdhe asks. The plan says captions only here. Off for the one second hold on his face."
+  }
+ ]
+}

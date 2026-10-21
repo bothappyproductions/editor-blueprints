@@ -1,0 +1,132 @@
+{
+ "item": "13223729121",
+ "client": "nfte",
+ "note": "The plan is mostly captions on his face, so 7 graphics. Use them only if Nick asks for more, one at a time.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Solve their problems",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "upper": true,
+   "text": {
+    "main": "a person who can solve their problems"
+   },
+   "src": "J.D. LaRock, 20260624_C4258.MP4 [13:26]",
+   "rows": [
+    "00:04–00:18"
+   ],
+   "use": "Over J.D. as he says it, after the name super is gone at 00:06."
+  },
+  {
+   "n": 2,
+   "title": "That is it",
+   "tpl": "word_stack",
+   "dur": 3,
+   "pos": "upper",
+   "upper": true,
+   "text": {
+    "items": [
+     "That's it.",
+     "That is it."
+    ]
+   },
+   "src": "J.D. LaRock, 20260624_C4258.MP4 [13:36]–[13:37]",
+   "rows": [
+    "00:04–00:18"
+   ],
+   "use": "Each line lands on his word. Keep his small pause before it. Keep captions on."
+  },
+  {
+   "n": 3,
+   "title": "90% of people",
+   "tpl": "stat_counter",
+   "dur": 4,
+   "pos": "top",
+   "upper": true,
+   "text": {
+    "number": "90%",
+    "label": "of people"
+   },
+   "src": "J.D. LaRock, 20260624_C4258.MP4 [15:29] “what 90% of people do”",
+   "rows": [
+    "00:18–00:31"
+   ],
+   "use": "Counts up as he says “90% of people”. Captions stay on."
+  },
+  {
+   "n": 4,
+   "title": "Do nothing about it",
+   "tpl": "statement_card",
+   "dur": 5,
+   "upper": true,
+   "text": {
+    "main": "to look at the problem, to understand the problem, and to do nothing about the problem.",
+    "emph": [
+     "nothing"
+    ]
+   },
+   "src": "J.D. LaRock, 20260624_C4258.MP4 [15:32]–[15:39]",
+   "rows": [
+    "00:18–00:31"
+   ],
+   "use": "Full-frame cutaway while he says it. Then back to J.D. at 100%."
+  },
+  {
+   "n": 5,
+   "title": "Focus on the hand",
+   "tpl": "corner_frame",
+   "dur": 3,
+   "box": [
+    0.52,
+    0.4,
+    0.42,
+    0.3
+   ],
+   "upper": true,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:31–00:44"
+   ],
+   "use": "Frames his raised right hand on “I have power within me”. Move it to where the hand sits after your crop."
+  },
+  {
+   "n": 6,
+   "title": "The mindset says",
+   "tpl": "list_card",
+   "dur": 6,
+   "upper": true,
+   "text": {
+    "main": "The entrepreneurial mindset",
+    "items": [
+     "I see the problem",
+     "I understand the problem",
+     "I have power within me"
+    ]
+   },
+   "src": "J.D. LaRock, 20260624_C4258.MP4 [15:43]–[15:53]",
+   "rows": [
+    "00:31–00:44"
+   ],
+   "use": "Full-frame cutaway. Let each line land on his words. Back to him for “take action”."
+  },
+  {
+   "n": 7,
+   "title": "Powerful and simple",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "upper": true,
+   "text": {
+    "main": "That is powerful, it is simple"
+   },
+   "src": "J.D. LaRock, 20260624_C4258.MP4 [15:58]",
+   "rows": [
+    "00:44–00:50"
+   ],
+   "use": "Over his face as he says it. Clear it before “most people don't do” and the hold."
+  }
+ ]
+}

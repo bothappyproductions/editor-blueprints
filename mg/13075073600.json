@@ -1,0 +1,94 @@
+{
+ "item": "13075073600",
+ "client": "sfcg",
+ "note": "The plan says captions only on most rows and stay on his face for the 40-women story, and SFCG finds mid-video animation inauthentic. Use one of these only where a line needs it, in the top band.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Every area",
+   "tpl": "highlight_callout",
+   "dur": 3.5,
+   "pos": "top",
+   "text": {
+    "main": "every area has their own problems"
+   },
+   "src": "Ahmad, FX6_LVH_6361 [02:47]",
+   "rows": [
+    "00:18–00:25"
+   ],
+   "use": "Over Ahmad as he says it. Keep his words exactly. Keep captions on."
+  },
+  {
+   "n": 2,
+   "title": "Afghanistan tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Afghanistan"
+   },
+   "src": "Ahmad, FX6_LVH_6361 [00:59] “I'm working in Afghanistan”",
+   "rows": [
+    "00:18–00:25"
+   ],
+   "use": "Only after the name super is gone. One text at a time."
+  },
+  {
+   "n": 3,
+   "title": "Mediation skills",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "we taught them mediation skills, how to mediate between people"
+   },
+   "src": "Ahmad, FX6_LVH_6361 [03:53]",
+   "rows": [
+    "00:25–00:40"
+   ],
+   "use": "Over Ahmad on “mediation skills”. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "Always there",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "they are from the local area, they are always there"
+   },
+   "src": "Ahmad, FX6_LVH_6361 [04:30]",
+   "rows": [
+    "00:40–00:48"
+   ],
+   "use": "Over Ahmad as he says it. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "Focus on the cards",
+   "tpl": "corner_frame",
+   "dur": 3.5,
+   "text": {},
+   "src": "Brackets only, no text.",
+   "rows": [
+    "00:48–00:55"
+   ],
+   "use": "Frames the middle card in the FX6_LVH_6375 B-roll. Move it to where the card sits."
+  },
+  {
+   "n": 6,
+   "title": "40 females",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "we had 40 females to be trained in tailoring."
+   },
+   "src": "Ahmad, FX6_LVH_6361 [09:05]",
+   "rows": [
+    "00:55–01:01"
+   ],
+   "use": "Small, at the top over his face as he says it. Never cut away from him here."
+  }
+ ]
+}

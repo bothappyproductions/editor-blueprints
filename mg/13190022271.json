@@ -1,0 +1,22 @@
+{
+ "item": "13190022271",
+ "client": "aij",
+ "note": "The plan says no text from 00:27 on, let the picture carry it, and stay on her face at 01:47. Use these only if Andrés asks for text, and keep them in the top band.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Miami tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Miami"
+   },
+   "src": "Host, C9105.MP4 [00:20] “Every day in Miami”",
+   "rows": [
+    "00:03–00:27"
+   ],
+   "use": "Small tag as she says Miami. Only after the name plate is gone, never with it."
+  }
+ ]
+}

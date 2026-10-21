@@ -1,0 +1,106 @@
+{
+ "item": "13310892647",
+ "client": "nfte",
+ "note": "Panel cut with a name super on most rows, so 6 graphics. The hook, the event card and the button stay clean.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Opportunity to adjust",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "you have the opportunity to adjust"
+   },
+   "src": "J.D. LaRock, L012C003 [27:31]",
+   "rows": [
+    "00:05–00:13"
+   ],
+   "use": "After the event card goes out at 00:09, as he says it. Over the room shots."
+  },
+  {
+   "n": 2,
+   "title": "Looking here",
+   "tpl": "word_stack",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "items": [
+     "Not looking there",
+     "looking here"
+    ]
+   },
+   "src": "J.D. LaRock, L012C003 [26:49]",
+   "rows": [
+    "00:13–00:24"
+   ],
+   "use": "Each line lands on his word, in the top band, when he points."
+  },
+  {
+   "n": 3,
+   "title": "A human head",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "a human head controlling this powerful machine"
+   },
+   "src": "Nich Haber (Pearson), L012C003 [48:28]",
+   "rows": [
+    "00:24–00:27"
+   ],
+   "use": "Over him as he says it, in the top band. Keep his name super clear."
+  },
+  {
+   "n": 4,
+   "title": "Follow them",
+   "tpl": "kinetic_quote",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "let's go with them, let's follow them",
+    "emph": [
+     "follow"
+    ],
+    "who": "Kirsten Theuns"
+   },
+   "src": "Kirsten Theuns, L012C003 [49:49]",
+   "rows": [
+    "00:27–00:36"
+   ],
+   "use": "Over Kirsten or the audience as she says it, after her name super is gone (from 00:29)."
+  },
+  {
+   "n": 5,
+   "title": "Showing us where to go",
+   "tpl": "statement_card",
+   "dur": 2,
+   "text": {
+    "main": "the students are showing us where to go",
+    "emph": [
+     "students"
+    ]
+   },
+   "src": "J.D. LaRock, L012C003 [47:13]",
+   "rows": [
+    "00:36–00:42"
+   ],
+   "use": "A 2 s cutaway in the middle of his line, then back to his face. It keeps text off the banner."
+  },
+  {
+   "n": 6,
+   "title": "Listen to our voices",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "really listen to our voices"
+   },
+   "src": "NFTE student, L012C003 [50:39]",
+   "rows": [
+    "00:42–00:53"
+   ],
+   "use": "Over her as she says it, after her super is gone (from 00:44). Gone before the applause."
+  }
+ ]
+}

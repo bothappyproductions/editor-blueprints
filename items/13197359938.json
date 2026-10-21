@@ -1,0 +1,287 @@
+{
+ "id": "13197359938",
+ "client": "aij",
+ "eyebrow": "Americans for Immigrant Justice · 30th Gala shoot, Miami · 26 Aug 2026 · Sound-bite montage",
+ "title": "Hope Is…",
+ "title_q": "“Hope Is…”",
+ "title_short": "Gala · Hope Is… montage",
+ "editor": "Qendrim",
+ "due": "2026-10-29",
+ "format": "16:9 only · 1920×1080 (gala screen)",
+ "length": "about 35 s",
+ "edit_key": "AIJGalaHopeIsMontage001",
+ "headline": "Three AIJ leaders finish the same short sentences about hope, in their own words.",
+ "story": [
+  "On the shoot day, Sui, Paul and Cheryl each answered three prompts: <b>“Hope is…”</b>, <b>“AIJ in one word”</b> and <b>“Where hope meets the law…”</b>. This montage cuts their answers together. The gala theme is hope, and AIJ’s line is “Where hope meets the law”.",
+  "Short, warm and music-driven. No politics, no fear, no legal words. Andrés suggested this clip but has not approved it yet. Nick shows him V1."
+ ],
+ "feel": [
+  "Hopeful",
+  "Cinematic",
+  "Short",
+  "Warm"
+ ],
+ "do": [
+  "Open on Sui and <q>HOPE IS…</q> on frame 1.",
+  "Show each prompt as text, because the interviewer is cut.",
+  "Keep each person’s words exact. Never join two people into one sentence.",
+  "Keep it 30–40 s. Under 30 s: add Paul C9279 02:41.57–02:57.81. Over 40 s: end Paul’s first line at “immigration status” (01:49.75).",
+  "Colour-match the three shoots. The footage is flat log."
+ ],
+ "dont": [
+  "No logo, name or black at 0:00.",
+  "Don’t open on a one-word answer. Cheryl’s and Paul’s films open that way.",
+  "Don’t use Paul’s <q>hope is not passive</q> (C9279 27:22–27:46).",
+  "Don’t use Cheryl’s “Hope for me is comprehensive immigration reform…” answers (FX3-3760 00:55–01:25, 02:07–03:55).",
+  "No interviewer audio. No second aspect ratio."
+ ],
+ "links": {
+  "brief": {
+   "title": "AIJ 30th Anniversary Gala: Videographer Field Brief (26 Aug)",
+   "url": "https://docs.google.com/document/d/1tcWF0yCASrnAZEsxhy9I69UjVkTPddm7GRKmR2uzt9w/edit",
+   "note": "The plan for the 26 Aug shoot day: Sui at Coconut Grove, Cheryl in Coral Gables, Paul at the Brickell office."
+  },
+  "reference": {
+   "title": "Selena (Netflix): Sui’s pick",
+   "url": "https://youtu.be/WSGBP-Z4UXI",
+   "note": "Picked by Sui and Andrés. Sui: <q>the music created a lot of drama</q>. Also from them: <a href=\"https://youtu.be/P0bqmNy8nOo\">HBO ↗</a> (cinematic, artsy, not corporate) and <a href=\"https://acaciajustice.org\">acaciajustice.org ↗</a> homepage video (intimate tone). Match the pace and the music-driven feel, not the story."
+  },
+  "footage": {
+   "title": "30th Anniversary Gala — Aug 26 Miami (raw)",
+   "url": "https://drive.google.com/drive/folders/1kGIRA7p9eGRcW_al9UtfCbRYXG8p78D0",
+   "note": "Sui FX3-3732 + C9276, Paul C9279 + FX3-3762, Cheryl FX3-3760 + C9278. The folder “Cherly” is a typo in Drive. It is the right folder."
+  }
+ },
+ "bp_intro": "Times are from the word-level transcripts (Sui.transcript.json, Paul.transcript.json, Cherly.transcript.json), accurate to about 0.2 s. No frames were pulled for this shoot, so check every framing on scrub. All three interviews were recorded into the camera.",
+ "rows": [
+  {
+   "tc": "00:00–00:02",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Sui on camera, A-cam <span class=\"mono\">FX3-3732.MP4</span>. Frame not pulled: check framing on scrub. Start on a frame where she already looks at the interviewer.",
+   "motion": "Text on <b>frame 1</b>: <q>HOPE IS…</q> Big, white, Filson Pro Heavy. Cut on, no fade. No logo, no name.",
+   "voice": {
+    "who": "Sui Chung",
+    "quote": "hope is to dream.",
+    "src": "FX3-3732 01:36.03–01:38.21 (the transcript labels this line “Interviewer”; listen and confirm it is Sui before you cut)"
+   },
+   "sfx": "Outdoor ambience from the clip only.",
+   "music": "<b>Music starts</b> under the first word. Warm, building, cinematic. Licensed track only."
+  },
+  {
+   "tc": "00:02–00:13",
+   "beat": "HOPE IS",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Paul on B-cam <span class=\"mono\">C9279.MP4</span>. For a second angle use A-cam <span class=\"mono\">FX3-3762.MP4</span> (sync by audio, about 1–2 s ahead). Frame not pulled.",
+   "motion": "Name plate at first sight, lower left, 2 s, small: Paul Chavez · Director of Litigation and Advocacy, Americans for Immigrant Justice. Captions on.",
+   "voice": {
+    "who": "Paul Chavez",
+    "quote": "hope is knowing that your future is not defined by your immigration status and that someone will stand with you as you fight for your immigration status.",
+    "src": "C9279 01:43.71–01:53.05 (cut in on “hope is”, not on “Hope. I would say”)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed builds."
+  },
+  {
+   "tc": "00:13–00:15",
+   "beat": "HOPE IS",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Cheryl on A-cam <span class=\"mono\">FX3-3760.MP4</span>. Frame not pulled.",
+   "motion": "Name plate, lower left, 2 s: Cheryl Little, with the same title as in her gala film (item 12918935079).",
+   "voice": {
+    "who": "Cheryl Little",
+    "quote": "Keep hope alive.",
+    "src": "FX3-3760 00:50.62–00:51.20"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Small lift on “alive”."
+  },
+  {
+   "tc": "00:15–00:19",
+   "beat": "AIJ IN ONE WORD",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Sui, A-cam. Close angle: B-cam <span class=\"mono\">C9276.MP4</span> at the same moment (about 1.3 s earlier).",
+   "motion": "Section text, top: <q>AIJ IN ONE WORD</q>. On screen 2 s.",
+   "voice": {
+    "who": "Sui Chung",
+    "quote": "Americans for Immigrant Justice in one word is hope.",
+    "src": "FX3-3732 01:18.90–01:22.94 (cleanest take; others at 01:07.9 and 01:13.7)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Faster cutting starts. Hit the cut on “hope”."
+  },
+  {
+   "tc": "00:19–00:23",
+   "beat": "AIJ IN ONE WORD",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Cheryl, A-cam. Close angle: B-cam <span class=\"mono\">C9278.MP4</span> (same words about 0.5 s earlier).",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Cheryl Little",
+    "quote": "The one word to describe, in my view, Americans for Immigrant Justice is hope.",
+    "src": "FX3-3760 00:42.82–00:47.28"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Steady."
+  },
+  {
+   "tc": "00:23–00:27",
+   "beat": "AIJ IN ONE WORD",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Paul, B-cam. Take 2 only. Take 1 (00:26–00:42) is not clean.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Paul Chavez",
+    "quote": "Americans for Immigrant Justice in one word, I would say is fearless.",
+    "src": "C9279 01:09.93–01:13.87"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Hold the lift. Do not stop the music."
+  },
+  {
+   "tc": "00:27–00:36",
+   "beat": "WHERE HOPE MEETS THE LAW",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Sui, A-cam at about 02:56. Use B-cam <span class=\"mono\">C9276.MP4</span> (close) to hide the jump over her pause (02:35–02:53).",
+   "motion": "Section text, top: <q>WHERE HOPE MEETS THE LAW</q>. 2 s.",
+   "voice": {
+    "who": "Sui Chung",
+    "quote": "Where hope meets the law … makes something accessible, something within reach, something you can aspire to.",
+    "src": "FX3-3732 ≈02:34.4 (word times are squeezed here, find it on the waveform) + 02:53.27–02:58.73"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music resolves on “aspire to”."
+  },
+  {
+   "tc": "00:36–00:40",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Hold on Sui 1 s after her last word. Then the client’s outro animation.",
+   "motion": "Tagline before the logo: <q>WHERE HOPE MEETS THE LAW</q>. Then <a href=\"https://drive.google.com/file/d/1ZNS4-rCJFJ37At_QRXE3DzBZz_H24xC0/view\">Horizontal Animated logo</a>. Logo here only.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Last note rings out. 1 s fade."
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/1tcWF0yCASrnAZEsxhy9I69UjVkTPddm7GRKmR2uzt9w/edit\">AIJ 30th Anniversary Gala: Videographer Field Brief (26 Aug)</a>"
+  ],
+  [
+   "Reference",
+   "<a href=\"https://youtu.be/WSGBP-Z4UXI\">Selena (Netflix)</a> · <a href=\"https://youtu.be/P0bqmNy8nOo\">HBO</a> · acaciajustice.org homepage video"
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/1kGIRA7p9eGRcW_al9UtfCbRYXG8p78D0\">30th Anniversary Gala — Aug 26 Miami (raw)</a>"
+  ],
+  [
+   "Clips",
+   "<a href=\"https://drive.google.com/file/d/18IbuTkoMHE3jsRsZl0X9ZZXde-bzbllJ/view\">FX3-3732.MP4</a> (Sui A) · <a href=\"https://drive.google.com/file/d/1ciTt-6MHH6UtuR0VREEdS-KkSwD2vBJm/view\">C9276.MP4</a> (Sui B) · <a href=\"https://drive.google.com/file/d/1rjmdlFiUPBmmNgdTJvIZhrOhcjDP0uY-/view\">C9279.MP4</a> (Paul B) · <a href=\"https://drive.google.com/file/d/1_UBWXjdDa645J_-bzhNGeGYjlxLcFM_7/view\">FX3-3760.MP4</a> (Cheryl A) · <a href=\"https://drive.google.com/file/d/11x1OYiAmKEzWVbDqEBmr-R3hLRvfm0sB/view\">C9278.MP4</a> (Cheryl B)"
+  ],
+  [
+   "Transcripts",
+   "<a href=\"https://docs.google.com/document/d/1hEkGX0uTTLBNkqI5OB7S6c-l2F8bZ2cHqnfGw44g5B4/edit\">Transcripts - Sui</a> · <a href=\"https://docs.google.com/document/d/1_fplsQ6zu-CAgTAA9UvU_ilki8EU83QdszaT0j_DfW0/edit\">Transcripts - Paul</a> · <a href=\"https://docs.google.com/document/d/1MbZZYqqpHffbRthIaPrywvo1JoJKBm0pZKB9hZGJEtw/edit\">Transcripts - Cherly</a> · word times: <a href=\"https://drive.google.com/file/d/1DXFEX2bq-RAm1qegcrIVLqK6hhmaTDSE/view\">Sui.json</a>, <a href=\"https://drive.google.com/file/d/1XUNzlxL5xZHAQpxzrR232c1MsFs7s8vd/view\">Paul.json</a>, <a href=\"https://drive.google.com/file/d/1zkI83NIJ4MdNBLGbaSeY76hqjcuoRoHB/view\">Cherly.json</a>"
+  ],
+  [
+   "Client script",
+   "<a href=\"https://docs.google.com/document/d/1mbHT1O9QUWgiOCLy1oQYuw7LpR9EBGtWZzQ5bBYnS5M/edit\">AIJ Gala Scripts — v2</a> (Andrés’s note on Clip 3 is the reason this clip exists)"
+  ],
+  [
+   "Brand pack",
+   "<a href=\"https://drive.google.com/drive/folders/1fK0DGGuao4eeb4wEpOdsEj296tTiUjU0\">AIJ Outros/Intros</a> (<a href=\"https://drive.google.com/file/d/1ZNS4-rCJFJ37At_QRXE3DzBZz_H24xC0/view\">Horizontal Animated logo</a>, <a href=\"https://drive.google.com/file/d/1kWNgJV7LcI0PGoVBp9oZ1dqiN_eEK7yL/view\">Vertical intro outro</a>) · Fonts: Filson Pro (Heavy, Bold), Inter, OVO only in the “30 Years” mark. The 30th Anniversary Branding Style Guide came from Andrés by email (25 Sep). Ask Atdhe for the file."
+  ],
+  [
+   "Music",
+   "Licensed only. Music drives this cut."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "Sony FX3 A-cams at 24 fps, B-cams in the same folders. Resolution not measured: check on import."
+  ],
+  [
+   "Timeline",
+   "1920×1080 at 24 fps. The B-roll folder is 50 fps: conform on purpose if you use it."
+  ],
+  [
+   "Crop",
+   "No crop. 16:9 delivery."
+  ],
+  [
+   "Audio",
+   "Not measured, check the meters. Find the clean channel by ear before you cut. Cut all interviewer audio."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. Music 18–20 dB under voice."
+  ],
+  [
+   "Captions",
+   "White #FFFFFF text on a navy #163966 box. Red #EE2F26 only as an accent. Max 2 lines. Org name always “Americans for Immigrant Justice” in full."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1920×1080, 24 fps. One file. Frame.io → Ready for Review."
+  ]
+ ],
+ "checklist": [
+  "Frame 1 is Sui’s face with <q>HOPE IS…</q>. No logo, no black.",
+  "Every caption matches what each person says, word for word.",
+  "The org name on screen is “Americans for Immigrant Justice” in full every time.",
+  "No interviewer voice anywhere.",
+  "Name plates use the same names and titles as the three gala films.",
+  "The one-word answers sit in the middle and move fast.",
+  "Total length 30–40 s.",
+  "Colour matches across Sui (outdoors), Paul (office) and Cheryl (home)."
+ ],
+ "decisions": [
+  {
+   "t": "Standalone clip not approved yet",
+   "b": "Andrés wrote “Consider whether to add the ‘one word to describe AIJ’ answer as bites in this clip or as it’s own clip.” He has not said yes to a standalone clip. Nick shows him V1."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> Sui asked for artsy, cinematic and music-driven. A 35-second hope montage is the cleanest test of that look.",
+ "ask_examples": [
+  "Which take of Sui’s one-word answer is cleanest?",
+  "What does Sui want the gala films to feel like?",
+  "Which bites are off limits for this montage?",
+  "What font goes on the name plates?"
+ ],
+ "transcript": "Sui Chung · FX3-3732.MP4 (A-cam). Auto-transcript. Labels are often wrong. The interviewer is audible.\n[00:48] And then, oh sorry go ahead. I'm just, when we answer the question, just try to slightly\n[00:52] restate the question. Yeah, I was just going to say that, yeah. So then you have to say,\n[00:56] I will describe Americans for Immigrant Justice in one word. Okay, I would describe Americans\n[01:02] for Immigrant Justice as hope. Let's do maybe Americans for Immigrant Justice in one word is\n[01:09] hope. Americans for Immigrant Justice in one word is hope. Say that to me again one more time.\n[01:18] Americans for Immigrant Justice in one word is hope. Can you, okay, wait, pause before hope.\n[01:30] Can we do now, hope is, and then fill it out. Okay, hope is to dream. And finish the sentence\n[01:43] where hope meets the law means? Let me see what I wrote. Where hope meets the law makes something\n[01:57] accessible within reach, able to access. Okay, let's do that again. Where hope meets the law,\n[02:05] do you say means something accessible? Transforms into something accessible. Oh,\n[02:09] it transforms. Okay, got it. I didn't capture that. All right, let's do that one again.\n[02:19] Where hope meets the law transforms into something you can reach, something accessible,\n[02:23] something you can access. Great, that was great. I think that was repetitive though,\n[02:31] accessible and access. Okay, yeah, you want to do it again? Where hope meets the law\n[02:53] makes something accessible, something within reach, something you can aspire to. Okay,\n[03:00] I like that one. Are you okay with that? Yeah. All right, so let's start very general.\n\nPaul Chavez · C9279.MP4 (B-cam).\n[00:09] the way. And as much as you can, when you're answering a question to like, restate the\n[00:16] beginning of the question. So, you know, if I say like, what's the one word for Americans\n[00:22] for Immigrant Justice? Americans for Immigrant Justice in one word, like repeat the first\n[00:26] part. So let's start there. The one word for. The one word for American justice, I would\n[00:36] say is fearless. And I'd say AI justice is fearless and standing with immigrants, whether\n[00:42] that means representing one person in crisis, challenging unlawful government actions and\n[00:47] policies, or going to court to defend an entire community. That was great. Be mindful of your\n[00:53] swirling. Try not to do that. I know with those chairs is really hard not to do it.\n[01:00] I do it all the time too. So let's do that one more time. How will you describe it in\n[01:09] one word? Americans for Immigrant Justice in one word, I would say is fearless. AI justice\n[01:17] is fearless in the way we stand up for immigrants in our immigrant community, whether that means\n[01:22] representing one individual in crisis, representing multiple individuals, challenging unlawful\n[01:29] government policies and practices, or going to court to defend an entire community. Great.\n[01:36] That's a great answer. And then finish the sentence. Hope is. Hope. I would say hope is\n[01:43] knowing that your future is not defined by your immigration status and that someone will\n[01:49] stand with you as you fight for your immigration status. Great. And then finish this other\n[01:57] sentence where hope meets the law means. Where hope meets the law means turning the promise\n[02:12] of justice into something real. A lawyer, a fair hearing, keeping a family together,\n[02:18] or if a person is finally set free from detention. Let's do that one again. Be mindful of like\n[02:26] looking down. I know that you're reading your notes, which is fine, but just be mindful\n[02:31] of like, I don't know if you can think of the answer and try to deliver it looking up\n[02:36] because otherwise we get a lot of this looking down. So let's do that one more time. Where\n[02:42] hope meets the law is where hope intersects with justice and it turns into something real,\n[02:49] whether that's freedom for somebody detained or a family member, having a lawyer or having\n[02:57] to process. Great. And then the other one is the, are you happy? So it's, I don't know\n\nCheryl Little · FX3-3760.MP4 (A-cam).\n[00:00] Very simple, it's for you to say your name\n[00:02] and then you were the founding executive director\n[00:06] of Americans for Immigrant Justice.\n[00:07] So hi, my name is Cheryl Little\n[00:08] and I'm the founding executive director.\n[00:12] Hi, my name is Cheryl Little\n[00:14] and I'm one of the founding\n[00:18] persons who brought now\n[00:21] Americans for Immigrant Justice to life.\n[00:25] And then let's start with the one word.\n[00:26] So what is one word that describes\n[00:29] Americans for Immigrant Justice\n[00:30] and if you can, when you answer,\n[00:33] kind of like restate the question.\n[00:35] So say one word to describe\n[00:37] Americans for Immigrant Justice is.\n[00:39] He's so good at what he does, isn't he?\n[00:42] The one word to describe, in my view,\n[00:45] Americans for Immigrant Justice is hope.\n[00:50] Keep hope alive.\n[00:51] Keep hope alive and related to hope.\n[00:54] What is hope for you?\n[00:55] So if you can say hope.\n[00:56] Hope for me is comprehensive immigration reform.\n[01:00] I have been fighting for comprehensive\n[01:02] immigration reform for far too long.\n[01:06] It's desperately needed.\n[01:10] And without comprehensive immigration reform,\n[01:14] we have a broken immigration system\n[01:17] that is incredibly complex and that is,\n[01:27] okay, let me do this.\n[01:29] Can I do this again?"
+}

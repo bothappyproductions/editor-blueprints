@@ -1,0 +1,135 @@
+{
+ "item": "13214742981",
+ "client": "s4s",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Brand new pair",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "a brand new pair of shoes, fresh out of the box"
+   },
+   "src": "Takara Dudley, 030_3156.MXF [03:04]",
+   "rows": [
+    "00:07–00:22"
+   ],
+   "use": "Over Takara as she says it. The hook text is already off. Keep captions on."
+  },
+  {
+   "n": 2,
+   "title": "That new smell",
+   "tpl": "word_stack",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "items": [
+     "That new smell"
+    ]
+   },
+   "src": "Takara Dudley, 030_3156.MXF [03:04]–[03:10] “that have that new smell”",
+   "rows": [
+    "00:07–00:22"
+   ],
+   "use": "Lands on her words at the end of the row, after MG 1 is gone. One text at a time."
+  },
+  {
+   "n": 3,
+   "title": "Super happy",
+   "tpl": "kinetic_quote",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "they walk out feeling super excited and super happy.",
+    "emph": [
+     "excited",
+     "happy"
+    ]
+   },
+   "src": "Takara Dudley, 030_3156.MXF [03:14.8]",
+   "rows": [
+    "00:22–00:25"
+   ],
+   "use": "Words pop in with her voice. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "Feet off the floor",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "his feet weren't even long enough to touch the floor"
+   },
+   "src": "Takara Dudley, 030_3156.MXF [06:55]",
+   "rows": [
+    "00:25–00:31"
+   ],
+   "use": "Over Takara as she says it. No stock of the boy."
+  },
+  {
+   "n": 5,
+   "title": "Giving shoes tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Giving shoes"
+   },
+   "src": "Takara Dudley, 030_3156.MXF [04:37] “He's volunteering right now, giving shoes in the back.”",
+   "rows": [
+    "00:31–00:42"
+   ],
+   "use": "Small tag on the 110% punch-in, as she says it. One text at a time."
+  },
+  {
+   "n": 6,
+   "title": "It'll come back",
+   "tpl": "statement_card",
+   "dur": 4,
+   "text": {
+    "main": "give of yourself a little bit and it'll come back.",
+    "emph": [
+     "come back"
+    ]
+   },
+   "src": "Takara Dudley, 030_3156.MXF [04:40]",
+   "rows": [
+    "00:31–00:42"
+   ],
+   "use": "Full-frame cutaway on the line. Back on her for the second “It'll come back.”"
+  },
+  {
+   "n": 7,
+   "title": "Shoes that fit",
+   "tpl": "quote_card",
+   "dur": 5,
+   "text": {
+    "main": "it is super important that they have shoes that fit them, that feel good, and that look good.",
+    "who": "Takara Dudley"
+   },
+   "src": "Takara Dudley, 030_3156.MXF [08:27]–[08:31]",
+   "rows": [
+    "00:42–00:49"
+   ],
+   "use": "Full-frame cutaway on this line. Be back on her face for “You look good, you feel good.”"
+  },
+  {
+   "n": 8,
+   "title": "You feel good",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "You look good, you feel good."
+   },
+   "src": "Takara Dudley, 030_3156.MXF [08:33]",
+   "rows": [
+    "00:42–00:49"
+   ],
+   "use": "Over her face as she says it. Take it off before you hold on her smile."
+  }
+ ],
+ "note": "The plan for this cut leaves room for only 8 graphics."
+}

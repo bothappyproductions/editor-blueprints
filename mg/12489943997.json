@@ -1,0 +1,37 @@
+{
+ "item": "12489943997",
+ "client": "lions",
+ "note": "Lions asked for much simpler graphics, or none, and the plan says captions only on most rows. Use the two pins first and add the rest only if Atdhe asks for more.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "New York City pin",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "New York City"
+   },
+   "src": "New York Lion, IMG_7853 [00:23] “I just landed from New York City”",
+   "rows": [
+    "00:04–00:06"
+   ],
+   "use": "This is the planned location pin. Show it at 00:04.5, small, upper left. Never before 0:03."
+  },
+  {
+   "n": 2,
+   "title": "They're Lions",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "they're Lions, let me go introduce myself."
+   },
+   "src": "New York Lion, IMG_7853 [00:35]",
+   "rows": [
+    "00:06–00:13"
+   ],
+   "use": "Only if Atdhe asks for more. Top band, as he points at her on “they're Lions”. Keep captions on."
+  }
+ ]
+}
