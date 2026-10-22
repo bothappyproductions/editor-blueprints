@@ -548,7 +548,7 @@ document.addEventListener("click",function(e){
 var sampleP=null, dbP=null;
 
 /* ===== Client approvals (works off-Claude; events POST to APPROVAL_WEBHOOK) ===== */
-var APPROVAL_WEBHOOK="";
+var APPROVAL_WEBHOOK="https://hooks.airtable.com/workflows/v1/genericWebhook/appfRWVuUInEfhINj/wfluVicfENG4ixvVe/wtrWchsnwxVLpDd1E";
 var OK=null;
 function okDate(ms){ try{ return new Date(ms).toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"}); }catch(e){ return ""; } }
 function okName(){ try{ return localStorage.getItem("hp-ok-name")||""; }catch(e){ return ""; } }
@@ -556,7 +556,7 @@ function okSetName(n){ try{ localStorage.setItem("hp-ok-name",n); }catch(e){} }
 function okEmit(fields){
   if(!OK) return;
   var it=OK.it, ev=Object.assign({event_id:(Date.now().toString(36)+Math.random().toString(36).slice(2,8)),item:String(it.id),client:String(OK.cl&&OK.cl.name||it.client||""),kind:"",row:null,tc:"",graphic:null,quote:"",source:"",note:"",approver:okName()||"",page:location.href,sent_at:new Date().toISOString()},fields||{});
-  if(APPROVAL_WEBHOOK){ try{ fetch(APPROVAL_WEBHOOK,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain"},body:JSON.stringify(ev)}).catch(function(){}); }catch(e){} }
+  if(APPROVAL_WEBHOOK){ try{ fetch(APPROVAL_WEBHOOK,{method:"POST",mode:"no-cors",body:new URLSearchParams(Object.keys(ev).reduce(function(o,k){ o[k]=ev[k]==null?"":String(ev[k]); return o; },{}))}).catch(function(){}); }catch(e){} }
   return ev;
 }
 function wireApprovals(it,cl){
