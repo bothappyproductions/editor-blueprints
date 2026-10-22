@@ -1,105 +1,62 @@
 {
  "item": "13277142333",
  "client": "curegrin",
+ "note": "The script asks for two graphics: the hook text “NOT A SEIZURE MEDICINE”, already on screen at 0:00, and the name super “Bruce Leuchter”. The super's second line “CEO, GRIN Therapeutics” is too long for the one-line tag, so the editor types it under the name.",
  "mg": [
   {
    "n": 1,
-   "title": "What It Is",
+   "title": "Not a seizure medicine",
    "tpl": "highlight_callout",
    "dur": 4,
    "pos": "top",
    "text": {
-    "main": "We see it as a medicine to treat GRIN-related neurodevelopmental disorder."
+    "main": "NOT A SEIZURE MEDICINE"
    },
-   "src": "Bruce Leuchter, 20261008_C5186 [03:47]–[03:51]",
+   "cue": "Hook text on frame 1: “NOT A SEIZURE MEDICINE”. The text is already on screen at 0:00. It does not animate on.",
+   "src": "Script, row 00:00-00:04, Motion graphics & type.",
    "rows": [
-    "00:04-00:08"
+    "00:00-00:04"
    ],
-   "use": "Over Bruce as he says it, after the hook text is gone. Top of frame, away from the name super."
+   "use": "This is the hook text, already on screen at 0:00. Start the clip at frame 0045 (fully on) and hold it until 00:04."
   },
   {
    "n": 2,
-   "title": "Patients and Caregivers",
+   "title": "Bruce Leuchter name super",
    "tpl": "tag_label",
-   "dur": 3,
-   "pos": "upper",
+   "dur": 2,
+   "pos": "center",
    "text": {
-    "main": "Patients and caregivers"
+    "main": "Bruce Leuchter"
    },
-   "src": "Bruce Leuchter, 20261008_C5186 [00:34] “for patients and caregivers”",
+   "cue": "Name super at 00:04, small, lower left, 2 seconds: “Bruce Leuchter” / “CEO, GRIN Therapeutics”.",
+   "src": "Script, row 00:04-00:08, Motion graphics & type.",
    "rows": [
-    "00:08-00:14"
+    "00:04-00:08"
    ],
-   "use": "Small tag over the morning meeting B-roll, on his words. Keep captions on."
+   "use": "Name super at 00:04 for 2 seconds. The script puts it small, lower left, above the captions: move it there and type the second line “CEO, GRIN Therapeutics” under it."
   },
   {
    "n": 3,
-   "title": "No Available Treatments",
-   "tpl": "statement_card",
-   "dur": 3,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:42-00:46"
+   ],
+   "cue": "“Support CureGRIN today.” and “curegrin.org”.",
+   "src": "No CureGRIN logo file yet (Lauren's high-res logo is still owed); the name is typed until it arrives.",
+   "c": {
+    "bg": "#5C3D8D",
+    "fg": "#FFFFFF"
+   },
    "text": {
-    "main": "where there's no available treatments",
-    "emph": [
-     "no available"
+    "name": "CureGRIN",
+    "lines": [
+     "Support CureGRIN today.",
+     "curegrin.org"
     ]
    },
-   "src": "Bruce Leuchter, 20261008_C5186 [00:31]",
-   "rows": [
-    "00:08-00:14"
-   ],
-   "use": "Full-frame cutaway as he says these words, then back to the meeting B-roll."
-  },
-  {
-   "n": 4,
-   "title": "The Lives of Families",
-   "tpl": "kinetic_quote",
-   "dur": 4.5,
-   "pos": "top",
-   "text": {
-    "main": "I like to step back and think about the lives of these patients and their families.",
-    "emph": [
-     "families"
-    ]
-   },
-   "src": "Bruce Leuchter, 20261008_C5186 [13:51]–[13:55]",
-   "rows": [
-    "00:14-00:19"
-   ],
-   "use": "Over the side angle as he says it. Keep captions on."
-  },
-  {
-   "n": 5,
-   "title": "Every Parent",
-   "tpl": "quote_card",
-   "dur": 5,
-   "text": {
-    "main": "What I want every parent in this community to know is that we care deeply about your lived experiences.",
-    "who": "Bruce Leuchter"
-   },
-   "src": "Bruce Leuchter, 20261008_C5186 [25:22]–[25:29] (last take)",
-   "rows": [
-    "00:19-00:42"
-   ],
-   "use": "Full-frame cutaway at the start of the button, as he says it. Keep his audio under."
-  },
-  {
-   "n": 6,
-   "title": "Learned From You",
-   "tpl": "word_stack",
-   "dur": 3,
-   "pos": "upper",
-   "text": {
-    "items": [
-     "We've learned a lot",
-     "From you"
-    ]
-   },
-   "src": "Bruce Leuchter, 20261008_C5186 [25:29] (last take)",
-   "rows": [
-    "00:19-00:42"
-   ],
-   "use": "Each line lands on his word, in the upper band. Keep captions on."
+   "dur": 4.0,
+   "use": "This is the end card. Put it at 00:42 after the last line and hold it to the end."
   }
- ],
- "note": "The plan is captions only with planned B-roll and ends on his face, so 6 graphics."
+ ]
 }

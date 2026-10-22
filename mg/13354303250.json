@@ -1,6 +1,45 @@
-{"item":"13354303250","client":"momcozy","note":"No spoken lines and the plan is all motion, so 4 graphics.","mg":[
- {"n":1,"tpl":"tag_label","title":"Alert tag","dur":2,"pos":"upper","text":{"main":"Safety-zone alert"},"src":"Label only, no claim.","rows":["00:02-00:04"],"use":"Small pill in the top band as she starts to run, after the hook text is gone."},
- {"n":2,"tpl":"brand_wipe","title":"Into the room","dur":1.6,"text":{},"src":"Transition, no text.","rows":["00:08-00:10"],"use":"Quick wipe from the landing into the dark room, before the light comes on."},
- {"n":3,"tpl":"corner_frame","title":"Frame the bed","dur":2,"text":{},"src":"Label only, no claim.","rows":["00:10-00:12"],"use":"Brackets snap around the bed as she reaches it. Brackets only, no text."},
- {"n":4,"tpl":"tag_label","title":"Monitor tag","dur":2,"pos":"upper","text":{"main":"BM08"},"src":"Label only, no claim.","rows":["00:12-00:14"],"use":"Small pill in the top band on the BM08 insert once it lands. Keep text cards readable."}
-]}
+{
+ "item": "13354303250",
+ "client": "momcozy",
+ "note": "The script asks for one graphic, the hook text. Every other row has no text, and the end card is Momcozy's own logo.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Monitor alert hook",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "WHEN THE MONITOR ALERT GOES OFF"
+   },
+   "cue": "Hook text on frame 1: “WHEN THE MONITOR ALERT GOES OFF 😳” Already on screen at 0:00",
+   "src": "Script, row 00:00-00:02, Motion graphics & type.",
+   "rows": [
+    "00:00-00:02"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until the whip at 00:02. Top third."
+  },
+  {
+   "n": 2,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:14-00:16"
+   ],
+   "cue": "First and only logo in the video.",
+   "src": "Momcozy wordmark as Momcozy specified it (MOMCOZY in caps, Cozy Chestnut #6A2B3A, Inter; spec locked 19 Aug 2026). No logo file has been sent.",
+   "c": {
+    "bg": "#FEF9F6",
+    "fg": "#6A2B3A"
+   },
+   "text": {
+    "name": "MOMCOZY",
+    "lines": [
+     "BM08"
+    ]
+   },
+   "dur": 2.5,
+   "use": "This is the end card. Put it at 00:14 after the last line and hold it to the end."
+  }
+ ]
+}

@@ -1,153 +1,78 @@
 {
  "item": "13284927541",
  "client": "freedom-to-choose",
+ "note": "The script asks for three graphics: the hook text, the small question line under it and David's name super. Rows 00:12-00:21, 00:28-00:40 and 00:50-00:58 ask for key words in orange inside the captions, which is the editor's caption styling, so no graphic.",
  "mg": [
   {
    "n": 1,
-   "title": "Touches me deeply",
-   "tpl": "kinetic_quote",
-   "dur": 6,
-   "pos": "top",
-   "text": {
-    "main": "every time I read what somebody has done pouring their heart out about what they've been through touches me deeply",
-    "emph": [
-     "heart",
-     "deeply"
-    ]
-   },
-   "src": "David, Interview_David [07:16]–[07:30]",
-   "rows": [
-    "00:03-00:12"
-   ],
-   "use": "Over David after the name super is gone at 00:05. Words pop in with his voice. Keep captions on."
-  },
-  {
-   "n": 2,
-   "title": "Sheets of paper",
+   "title": "Hook text",
    "tpl": "highlight_callout",
-   "dur": 3,
-   "pos": "top",
-   "text": {
-    "main": "multiple sheets of paper"
-   },
-   "src": "David, Interview_David [04:48]",
-   "rows": [
-    "00:12-00:21"
-   ],
-   "use": "Over David or the paper B-roll as he says it."
-  },
-  {
-   "n": 3,
-   "title": "Focus on the letters",
-   "tpl": "corner_frame",
-   "dur": 3,
-   "box": [
-    0.14,
-    0.36,
-    0.72,
-    0.32
-   ],
-   "text": {},
-   "src": "Brackets only, no text.",
-   "rows": [
-    "00:12-00:21"
-   ],
-   "use": "Frames the paper or the hands writing in the B-roll. Move it to where the paper sits."
-  },
-  {
-   "n": 4,
-   "title": "Send it back",
-   "tpl": "word_stack",
    "dur": 3,
    "pos": "upper",
    "text": {
-    "items": [
-     "Send it back",
-     "To the original author"
-    ]
+    "main": "ONLY ABOUT A HUNDRED."
    },
-   "src": "David, Interview_David [05:48] “send it back to the original author”",
+   "cue": "Hook text on frame 1: “ONLY ABOUT A HUNDRED.” The text is already on screen at 0:00. It does not animate on.",
+   "src": "Script, row 00:00-00:03, Motion graphics & type.",
    "rows": [
-    "00:21-00:28"
+    "00:00-00:03"
    ],
-   "use": "Each line lands on his words at the start of the row. Keep captions on."
+   "use": "Hook text on frame 1. Start the clip at frame 0045 (fully on) and hold it until 00:03."
   },
   {
-   "n": 5,
-   "title": "Wipe to the men",
-   "tpl": "brand_wipe",
-   "dur": 1.6,
-   "text": {},
-   "src": "Transition, no text.",
-   "rows": [
-    "00:40-00:50"
-   ],
-   "use": "Use on the cut into the handshake B-roll at 00:40. Cut at the middle of the wipe. Use it once."
-  },
-  {
-   "n": 6,
-   "title": "The utmost respect",
-   "tpl": "statement_card",
-   "dur": 3,
-   "text": {
-    "main": "treats them with the utmost respect",
-    "emph": [
-     "respect"
-    ]
-   },
-   "src": "David, Interview_David [08:25]",
-   "rows": [
-    "00:28-00:40"
-   ],
-   "use": "Full-frame cutaway on his words, after the AC023501 shot. Then back to David."
-  },
-  {
-   "n": 7,
-   "title": "Not defined by the past",
-   "tpl": "statement_card",
-   "dur": 3,
-   "text": {
-    "main": "their past mistakes don't define them",
-    "emph": [
-     "define"
-    ]
-   },
-   "src": "David, Interview_David [08:38]. Not in the planned bite (it ends at 08:33.7).",
-   "rows": [
-    "00:28-00:40"
-   ],
-   "use": "Only if you add this line to the cut. Run the WHY bite on to 08:38, then cut back to David."
-  },
-  {
-   "n": 8,
-   "title": "Equally rewarding",
-   "tpl": "quote_card",
-   "dur": 4,
-   "text": {
-    "main": "it is equally rewarding for us that it is for them.",
-    "who": "David"
-   },
-   "src": "David, Interview_David [09:45]",
-   "rows": [
-    "00:40-00:50"
-   ],
-   "use": "Full-frame cutaway on the end of his line. Keep his voice under."
-  },
-  {
-   "n": 9,
-   "title": "Never look back",
+   "n": 2,
+   "title": "Question small line",
    "tpl": "highlight_callout",
-   "dur": 2.5,
+   "dur": 3,
    "pos": "top",
    "text": {
-    "main": "you will never look back."
+    "main": "“Is there one moment that touched you?”"
    },
-   "src": "David, Interview_David [10:16]",
+   "cue": "Small line under it, also at 0:00: “Is there one moment that touched you?”",
+   "src": "Script, row 00:00-00:03, Motion graphics & type.",
    "rows": [
-    "00:50-00:58"
+    "00:00-00:03"
    ],
-   "use": "Over his face as he says the last words. Out before the one-second hold, so it ends on his face."
+   "use": "Small line just under the hook text, scaled down. Start the clip at frame 0045 (fully on) and hold it until 00:03."
+  },
+  {
+   "n": 3,
+   "title": "David name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "David · FTC volunteer"
+   },
+   "cue": "Name super at 00:03, small, lower left, 2 seconds: “David” / “FTC volunteer”. First name only.",
+   "src": "Script, row 00:03-00:12, Motion graphics & type.",
+   "rows": [
+    "00:03-00:12"
+   ],
+   "use": "Name super at 00:03 for 2 seconds. Move it lower left, above the captions, and keep it small."
+  },
+  {
+   "n": 4,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:58-01:03"
+   ],
+   "cue": "No logo before the end card. No money amount in this reel.",
+   "src": "FTC logo (white) from the client's Brand folder for the Year-End 2026 centerpiece (copied 11 Oct 2026).",
+   "c": {
+    "bg": "#6A3179",
+    "fg": "#FFFFFF"
+   },
+   "logo_w": 860,
+   "logo": "endcards/freedom-to-choose/ftc-logo-white.png",
+   "text": {
+    "lines": [
+     "Change from the Inside"
+    ]
+   },
+   "dur": 4.0,
+   "use": "This is the end card. Put it at 00:58 after the last line and hold it to the end. Before it, put Join our journey. on screen for 3 seconds. Leave space under the card for the donation link."
   }
- ],
- "note": "The plan for this cut leaves room for only 9 graphics."
+ ]
 }

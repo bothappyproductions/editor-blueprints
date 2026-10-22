@@ -1,135 +1,52 @@
 {
  "item": "13214742981",
  "client": "s4s",
+ "note": "The script asks for two graphics, both in the hook row: the hook text and the name super. The super shows “Takara Dudley” only, because the one-line tag cannot also hold “Minneapolis Public Schools”; every other row is captions only.",
  "mg": [
   {
    "n": 1,
-   "title": "Brand new pair",
+   "title": "You can't do that",
    "tpl": "highlight_callout",
-   "dur": 4,
+   "dur": 7,
    "pos": "top",
    "text": {
-    "main": "a brand new pair of shoes, fresh out of the box"
+    "main": "You can't do that without shoes."
    },
-   "src": "Takara Dudley, 030_3156.MXF [03:04]",
+   "cue": "Hook text on frame 1, top third, big: “You can't do that without shoes.” Cut on, no fade.",
+   "src": "Script, row 00:00–00:07, Motion graphics & type.",
    "rows": [
-    "00:07–00:22"
+    "00:00–00:07"
    ],
-   "use": "Over Takara as she says it. The hook text is already off. Keep captions on."
+   "use": "Big hook text in the top third, cut on at frame 1. Start the clip at frame 0045 (fully on) and hold it until the cut at 00:07."
   },
   {
    "n": 2,
-   "title": "That new smell",
-   "tpl": "word_stack",
+   "title": "Takara name super",
+   "tpl": "tag_label",
    "dur": 2,
-   "pos": "upper",
+   "pos": "center",
    "text": {
-    "items": [
-     "That new smell"
-    ]
+    "main": "Takara Dudley"
    },
-   "src": "Takara Dudley, 030_3156.MXF [03:04]–[03:10] “that have that new smell”",
+   "cue": "Name super at 00:03–00:05, small, lower left: “Takara Dudley” / “Minneapolis Public Schools”.",
+   "src": "Script, row 00:00–00:07, Motion graphics & type.",
    "rows": [
-    "00:07–00:22"
+    "00:00–00:07"
    ],
-   "use": "Lands on her words at the end of the row, after MG 1 is gone. One text at a time."
+   "use": "Name super from 00:03 to 00:05. Move it lower left, above the captions."
   },
   {
    "n": 3,
-   "title": "Super happy",
-   "tpl": "kinetic_quote",
-   "dur": 3,
-   "pos": "top",
-   "text": {
-    "main": "they walk out feeling super excited and super happy.",
-    "emph": [
-     "excited",
-     "happy"
-    ]
-   },
-   "src": "Takara Dudley, 030_3156.MXF [03:14.8]",
+   "title": "End card",
+   "tpl": "end_card",
    "rows": [
-    "00:22–00:25"
+    "00:49–00:52"
    ],
-   "use": "Words pop in with her voice. Keep captions on."
-  },
-  {
-   "n": 4,
-   "title": "Feet off the floor",
-   "tpl": "highlight_callout",
-   "dur": 3,
-   "pos": "top",
-   "text": {
-    "main": "his feet weren't even long enough to touch the floor"
-   },
-   "src": "Takara Dudley, 030_3156.MXF [06:55]",
-   "rows": [
-    "00:25–00:31"
-   ],
-   "use": "Over Takara as she says it. No stock of the boy."
-  },
-  {
-   "n": 5,
-   "title": "Giving shoes tag",
-   "tpl": "tag_label",
-   "dur": 3,
-   "pos": "upper",
-   "text": {
-    "main": "Giving shoes"
-   },
-   "src": "Takara Dudley, 030_3156.MXF [04:37] “He's volunteering right now, giving shoes in the back.”",
-   "rows": [
-    "00:31–00:42"
-   ],
-   "use": "Small tag on the 110% punch-in, as she says it. One text at a time."
-  },
-  {
-   "n": 6,
-   "title": "It'll come back",
-   "tpl": "statement_card",
-   "dur": 4,
-   "text": {
-    "main": "give of yourself a little bit and it'll come back.",
-    "emph": [
-     "come back"
-    ]
-   },
-   "src": "Takara Dudley, 030_3156.MXF [04:40]",
-   "rows": [
-    "00:31–00:42"
-   ],
-   "use": "Full-frame cutaway on the line. Back on her for the second “It'll come back.”"
-  },
-  {
-   "n": 7,
-   "title": "Shoes that fit",
-   "tpl": "quote_card",
-   "dur": 5,
-   "text": {
-    "main": "it is super important that they have shoes that fit them, that feel good, and that look good.",
-    "who": "Takara Dudley"
-   },
-   "src": "Takara Dudley, 030_3156.MXF [08:27]–[08:31]",
-   "rows": [
-    "00:42–00:49"
-   ],
-   "use": "Full-frame cutaway on this line. Be back on her face for “You look good, you feel good.”"
-  },
-  {
-   "n": 8,
-   "title": "You feel good",
-   "tpl": "highlight_callout",
-   "dur": 3,
-   "pos": "top",
-   "text": {
-    "main": "You look good, you feel good."
-   },
-   "src": "Takara Dudley, 030_3156.MXF [08:33]",
-   "rows": [
-    "00:42–00:49"
-   ],
-   "use": "Over her face as she says it. Take it off before you hold on her smile."
+   "cue": "Same CTA line as your delivered Bronx 4EveryKid cuts. Nothing else.",
+   "src": "Soles4Souls' new typography end card (S4S art director, locked 8/13), taken unchanged from the tail of the delivered Traditional_S4SBronxLuisWarehouseToCommunity001-4.mp4 (Drive, 21 Oct 2026). The .ai source is with Nick/Almi.",
+   "file": "endcards/s4s/s4s-typography-end-card.mp4",
+   "dur": 2.8,
+   "use": "This is the end card, the client's own file. Put it at 00:49 after the last line and use it exactly as it is."
   }
- ],
- "note": "The plan for this cut leaves room for only 8 graphics."
+ ]
 }

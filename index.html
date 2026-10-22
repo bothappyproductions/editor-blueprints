@@ -228,7 +228,7 @@ footer ul{padding-left:18px;margin:8px 0 0;display:grid;gap:3px}
 .mg-card.flash{box-shadow:0 0 0 4px var(--yellow)}
 .mg-stage{position:relative;aspect-ratio:9/16;background:#1f1f1f center/cover no-repeat}
 .mg-stage.overlay.nofr{background-color:#cfcfcf;background-image:linear-gradient(45deg,#e9e9e9 25%,transparent 25%),linear-gradient(-45deg,#e9e9e9 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#e9e9e9 75%),linear-gradient(-45deg,transparent 75%,#e9e9e9 75%);background-size:24px 24px;background-position:0 0,0 12px,12px -12px,-12px 0}
-.mg-stage canvas{position:absolute;inset:0;width:100%;height:100%}
+.mg-stage canvas,.mg-stage video{position:absolute;inset:0;width:100%;height:100%}.mg-stage video{object-fit:contain;background:#000}
 .mg-badge{position:absolute;left:8px;top:8px;font-size:11px;font-weight:700;letter-spacing:.04em;padding:3px 9px;border-radius:999px;background:rgba(0,0,0,.72);color:#fff}
 .mg-badge.full{background:var(--yellow);color:#1f1f1f}
 .mg-dur{position:absolute;right:8px;top:8px;font-family:var(--mono);font-size:11px;padding:2px 7px;border-radius:6px;background:rgba(0,0,0,.72);color:#fff}
@@ -240,6 +240,12 @@ footer ul{padding-left:18px;margin:8px 0 0;display:grid;gap:3px}
 .mg-prog{height:6px;border-radius:3px;background:var(--cream);overflow:hidden}
 .mg-prog span{display:block;height:100%;width:0;background:var(--purple)}
 .bp tr.flash td{background:var(--yellow)!important;transition:background .6s}
+/* upload file name + batch folder (Atdhe 2026-10-22) */
+.upl{display:grid;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;max-width:900px}
+.upl-row{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;min-width:0}
+.upl code{font-family:var(--mono);font-size:14px;background:var(--cream);padding:6px 10px;border-radius:8px;overflow-wrap:anywhere;min-width:0}
+.upl .btn{padding:8px 16px;font-size:13px;text-decoration:none}
+.upl .note{margin:0;font-size:13px}
 @media (max-width:760px){.idx-row{grid-template-columns:minmax(0,1fr);gap:2px}}
 </style>
 <div id="app"></div>
@@ -386,8 +392,23 @@ function texture_loop(ctx,s,B,t){
   for(var gy=-1;gy<H/S+1;gy++)for(var gx=-1;gx<W/S+1;gx++){var k=(gx*7+gy*13)%3;k=k<0?k+3:k;var x=gx*S+S/2+30*Math.sin(ph+gy*.6),y=gy*S+S/2+30*Math.cos(ph+gx*.6),r=24+20*(.5+.5*Math.sin(ph*1+gx*.9+gy*.7));ctx.globalAlpha=.18+.12*k/2;ctx.fillStyle=cols[k];ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.fill();}
   ctx.globalAlpha=1;
 }
+/* ---------- end card (Atdhe 2026-10-22): the client's latest logo + the script's lines. A client's own end card video uses `file` instead and is downloaded as-is. ---------- */
+var imgs={};
+function img(url){if(!url)return null;var o=imgs[url];if(!o){o=imgs[url]={el:new Image(),ok:false};o.p=new Promise(function(res){o.el.onload=function(){o.ok=true;res();};o.el.onerror=function(){res();};});o.el.src=url;}return o;}
+function ensureImgs(s){var o=img(s&&s.logo);return o?o.p:Promise.resolve();}
+function end_card(ctx,s,B,t){
+  var c=C(s,B),tx=s.text||{},lines=tx.lines||[],o=img(s.logo),y=lines.length?H*.42:H*.5,p=eOut(seg(t,.05,.7)),k1=.92+.08*eBack(seg(t,.05,.65));
+  var ov=s.tpl==="end_card_overlay";if(!ov){ctx.fillStyle=c.bg;ctx.fillRect(0,0,W,H);}else{c.fg=(s.c&&s.c.fg)||"#FFFFFF";shadow(ctx,true);}ctx.textAlign="center";ctx.textBaseline="middle";
+  if(o&&o.ok){var iw=o.el.naturalWidth,ih=o.el.naturalHeight,k=Math.min((s.logo_w||640)/iw,(s.logo_h||400)/ih),w=iw*k,h=ih*k;
+    ctx.save();ctx.globalAlpha=p;ctx.translate(W/2,y);ctx.scale(k1,k1);ctx.drawImage(o.el,-w/2,-h/2,w,h);ctx.restore();y+=h/2+100;}
+  else if(tx.name){var f=fit(ctx,B,"head",up(tx.name,s),880,3,s.size||104,56),lh=f.size*1.12,y0=y-((f.lines.length-1)*lh)/2;
+    ctx.save();ctx.globalAlpha=p;ctx.fillStyle=c.fg;f.lines.forEach(function(l,i){ctx.fillText(l,W/2,y0+i*lh+(1-p)*24);});ctx.restore();y=y0+(f.lines.length-1)*lh+f.size/2+90;}
+  lines.forEach(function(l,i){var q=eOut(seg(t,.55+i*.35,1.05+i*.35));var kind=(i===0&&lines.length>1)||(!o&&!tx.name)?"head":"body",f=fit(ctx,B,kind,up(l,s),900,3,kind==="head"?(o||tx.name?70:96):54,34),lh=f.size*1.25;
+    if(q>0){ctx.save();ctx.globalAlpha=q;ctx.fillStyle=c.fg;ctx.font=F(B,kind,f.size);f.lines.forEach(function(ln,j){ctx.fillText(ln,W/2,y+j*lh+(1-q)*24);});ctx.restore();}
+    y+=f.lines.length*lh+30;});
+}
 var T={kinetic_quote:{fn:kinetic_quote,mode:"overlay",name:"Kinetic quote"},stat_counter:{fn:stat_counter,mode:"overlay",name:"Number pop"},word_stack:{fn:word_stack,mode:"overlay",name:"Word stack"},highlight_callout:{fn:highlight_callout,mode:"overlay",name:"Highlighter"},corner_frame:{fn:corner_frame,mode:"overlay",name:"Focus frame"},brand_wipe:{fn:brand_wipe,mode:"overlay",name:"Brand wipe transition"},tag_label:{fn:tag_label,mode:"overlay",name:"Topic tag"},
-  statement_card:{fn:statement_card,mode:"full",name:"Statement card"},number_card:{fn:number_card,mode:"full",name:"Number card"},quote_card:{fn:quote_card,mode:"full",name:"Quote card"},list_card:{fn:list_card,mode:"full",name:"List card"},question_card:{fn:question_card,mode:"full",name:"Question card"},texture_loop:{fn:texture_loop,mode:"full",name:"Brand texture loop"}};
+  statement_card:{fn:statement_card,mode:"full",name:"Statement card"},number_card:{fn:number_card,mode:"full",name:"Number card"},quote_card:{fn:quote_card,mode:"full",name:"Quote card"},list_card:{fn:list_card,mode:"full",name:"List card"},question_card:{fn:question_card,mode:"full",name:"Question card"},texture_loop:{fn:texture_loop,mode:"full",name:"Brand texture loop"},end_card:{fn:end_card,mode:"full",name:"End card"},end_card_overlay:{fn:end_card,mode:"overlay",name:"End card over footage"}};
 function draw(ctx,s,B,t){var tp=T[s.tpl];ctx.clearRect(0,0,W,H);if(!tp)return;ctx.save();ctx.textAlign="left";ctx.textBaseline="alphabetic";try{tp.fn(ctx,s,B,clamp(t,0,s.dur));}catch(e){}ctx.restore();}
 function modeOf(s){return (T[s.tpl]&&T[s.tpl].mode)||s.mode||"overlay";}
 var fontsP={};
@@ -398,7 +419,7 @@ var libs={};
 function lib(url,globalName){if(window[globalName])return Promise.resolve(window[globalName]);if(libs[url])return libs[url];libs[url]=new Promise(function(res,rej){var sc=document.createElement("script");sc.src=url;sc.onload=function(){window[globalName]?res(window[globalName]):rej(new Error("lib"));};sc.onerror=function(){rej(new Error("lib"));};document.head.appendChild(sc);});return libs[url];}
 var LIBS={zip:"https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js",mp4:"https://cdn.jsdelivr.net/npm/mp4-muxer@5.2.2/build/mp4-muxer.js"};
 async function exportMG(s,B,onProg){
-  await ensureFonts(B);var cv=document.createElement("canvas");cv.width=W;cv.height=H;var ctx=cv.getContext("2d",{alpha:true}),N=Math.round(s.dur*FPS);
+  await ensureFonts(B);await ensureImgs(s);var cv=document.createElement("canvas");cv.width=W;cv.height=H;var ctx=cv.getContext("2d",{alpha:true}),N=Math.round(s.dur*FPS);
   if(modeOf(s)==="overlay"){
     var JSZip=await lib(LIBS.zip,"JSZip"),zip=new JSZip(),dir=zip.folder(s.base);
     for(var i=0;i<N;i++){draw(ctx,s,B,i/FPS);var blob=await new Promise(function(r){cv.toBlob(r,"image/png");});dir.file(s.base+"_"+String(i).padStart(4,"0")+".png",blob);if(i%5===0){onProg(i/N*.85);await new Promise(function(r){setTimeout(r,0);});}}
@@ -416,7 +437,7 @@ async function exportMG(s,B,onProg){
     if(enc.encodeQueueSize>10)await new Promise(function(r){setTimeout(r,5);});if(j%5===0){onProg(j/N*.95);await new Promise(function(r){setTimeout(r,0);});}}
   await enc.flush();if(err)throw err;mux.finalize();onProg(1);return {blob:new Blob([target.buffer],{type:"video/mp4"}),name:s.base+"_full-frame.mp4"};
 }
-return {W:W,H:H,FPS:FPS,T:T,draw:draw,modeOf:modeOf,ensureFonts:ensureFonts,exportMG:exportMG,LIBS:LIBS};
+return {W:W,H:H,FPS:FPS,T:T,draw:draw,modeOf:modeOf,ensureFonts:ensureFonts,ensureImgs:ensureImgs,exportMG:exportMG,LIBS:LIBS};
 })();
 
 </script>
@@ -440,6 +461,7 @@ async function load(){
     var mgd=null,brand=null;
     try{ mgd=await getJSON("mg/"+id+".json"); var brands=cache.__brands||(cache.__brands=await getJSON("mg/brands.json")); brand=brands[item.client]||null; }catch(e){ mgd=null; }
     CUR_MG=(mgd&&brand&&mgd.mg&&mgd.mg.length)?{d:mgd,b:brand}:null;
+    try{ var ups=cache.__ups||(cache.__ups=await getJSON("uploads.json")); CUR_UP=ups[id]||null; }catch(e){ CUR_UP=null; }
     renderItem(item,client);
   }catch(e){
     app.innerHTML='<div class="wrap" style="padding-block:60px"><h2>Blueprint not found</h2><p class="note">No blueprint for item '+esc(id)+'. <a href="#">See all blueprints</a>.</p></div>';
@@ -516,7 +538,7 @@ function renderItem(it,cl){
   var html=
   '<header class="mast"><div class="wrap"><div class="logo-row"><a href="#"><img class="logo" src="'+LOGO+'" alt="Happy Productions"></a><span class="eyebrow">Director\'s Blueprint · Post Production</span></div>'+
   '<div class="title-row"><div style="display:grid;gap:10px;min-width:0"><span class="eyebrow">'+esc(it.eyebrow)+'</span><h1>'+esc(it.title)+(it.title_q?' <span class="q">'+esc(it.title_q)+'</span>':'')+'</h1></div></div>'+
-  '<div class="chips"><span class="chip due"><b>Due</b> '+esc(fmtDate(it.due))+'</span><span class="chip"><b>Editor</b> '+esc(it.editor)+'</span><span class="chip"><b>Format</b> '+esc(it.format)+'</span>'+(it.length?'<span class="chip"><b>Length</b> '+esc(it.length)+'</span>':'')+'<span class="chip"><b>Edit Key</b> <span class="mono">'+esc(it.edit_key)+'</span></span><a class="chip ask-chip" href="#ask" data-jump="ask"><b>Questions?</b> Ask here</a><span class="chip"><a href="https://happyproductions.monday.com/boards/2135456123/pulses/'+esc(it.id)+'">Monday item '+esc(it.id)+'</a></span></div></div></header>'+
+  '<div class="chips"><span class="chip due"><b>Due</b> '+esc(fmtDate(it.due))+'</span><span class="chip"><b>Editor</b> '+esc(it.editor)+'</span><span class="chip"><b>Format</b> '+esc(it.format)+'</span>'+(it.length?'<span class="chip"><b>Length</b> '+esc(it.length)+'</span>':'')+'<span class="chip"><b>Edit Key</b> <span class="mono">'+esc(it.edit_key)+'</span></span><a class="chip ask-chip" href="#ask" data-jump="ask"><b>Questions?</b> Ask here</a><span class="chip"><a href="https://happyproductions.monday.com/boards/2135456123/pulses/'+esc(it.id)+'">Monday item '+esc(it.id)+'</a></span></div>'+uploadBar()+'</div></header>'+
   '<nav class="jump" aria-label="Sections"><div class="wrap"><a href="#" data-jump="brief">The idea</a><a href="#" data-jump="blueprint">Second-by-second</a>'+(CUR_MG?'<a href="#" data-jump="mg">Motion graphics</a>':'')+'<a href="#" data-jump="files">Files &amp; specs</a><a href="#" data-jump="client">Client file</a>'+(dec.length?'<a href="#" data-jump="decide">Open decisions</a>':'')+'<a href="#" data-jump="ask" class="ask-link">Ask a question</a></div></nav><main>'+
   '<section id="brief"><div class="wrap"><div class="sec-head"><span class="eyebrow">01 · The idea</span><h2>'+esc(it.headline)+'</h2></div><div class="brief"><div style="display:grid;gap:16px;min-width:0;align-content:start">'+(it.story||[]).map(function(p,i){return '<p class="story"'+(i?' style="font-size:16px"':'')+'>'+p+'</p>';}).join("")+
     '<div class="feel" aria-label="Target feeling">'+(it.feel||[]).map(function(f){return '<span>'+esc(f)+'</span>';}).join("")+'</div></div>'+
@@ -671,6 +693,21 @@ var unsub=null, unsubSw=null;
 
 /* ===== Motion graphics library: section, row links, previews, downloads ===== */
 var CUR_MG=null;
+/* Upload file name + the production's Frame.io batch folder (uploads.json, Atdhe 2026-10-22) */
+var CUR_UP=null;
+function uploadBar(){
+  var u=CUR_UP; if(!u||!u.file) return "";
+  return '<div class="upl"><div class="upl-row"><span class="eyebrow">Upload file name</span><code>'+esc(u.file)+'</code><button type="button" class="btn" data-copy="'+esc(u.file)+'">Copy name</button></div>'+
+    (u.folder_url?'<div class="upl-row"><a class="btn ghost" href="'+esc(u.folder_url)+'" target="_blank" rel="noopener">Upload to this folder ↗</a><span class="note">Frame.io · '+esc(u.folder||u.batch||"")+'</span></div>':'')+
+    (u.note?'<p class="note">'+esc(u.note)+'</p>':'')+'</div>';
+}
+document.addEventListener("click",function(e){
+  var b=e.target.closest&&e.target.closest("[data-copy]"); if(!b) return; e.preventDefault();
+  var t=b.getAttribute("data-copy"),label=b.textContent;
+  function done(){ b.textContent="Copied ✓"; setTimeout(function(){ b.textContent=label; },1600); }
+  function fallback(){ var ta=document.createElement("textarea"); ta.value=t; ta.setAttribute("readonly",""); ta.style.position="fixed"; ta.style.opacity="0"; document.body.appendChild(ta); ta.select(); try{ document.execCommand("copy"); done(); }catch(x){ b.textContent="Select and copy the name"; } ta.remove(); }
+  if(navigator.clipboard&&navigator.clipboard.writeText){ navigator.clipboard.writeText(t).then(done,fallback); } else fallback();
+});
 function mgSlug(s){ return String(s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,40); }
 function mgChips(r){ if(!CUR_MG) return ""; return CUR_MG.d.mg.filter(function(m){ return (m.rows||[]).indexOf(r.tc)>=0; }).map(function(m){ return '<a href="#" class="mg-chip" data-mgjump="'+m.n+'">▶ MG '+m.n+' · '+esc(m.title)+'</a>'; }).join(""); }
 function mgFrameFor(it,m){ var rows=it.rows||[],fr=it.frames||{},want=(m.rows||[])[0],k=null;
@@ -684,13 +721,13 @@ function mgSection(it,cl){
   var cards=ms.map(function(m){
     var mode=MG.modeOf(m),fr=mode==="overlay"?mgFrameFor(it,m):null,tn=(MG.T[m.tpl]&&MG.T[m.tpl].name)||m.tpl;
     var cut=(m.rows||[]).map(function(tc){ return '<a href="#" data-mgrow="'+esc(tc)+'">'+esc(tc)+'</a>'; }).join(", ");
-    return '<div class="mg-card" id="mg-'+m.n+'"><div class="mg-stage '+mode+(fr?'':' nofr')+'"'+(fr?' style="background-image:url('+fr+')"':'')+'><canvas width="360" height="640" data-mgc="'+m.n+'" aria-label="Preview of motion graphic '+m.n+'"></canvas><span class="mg-badge'+(mode==="full"?" full":"")+'">'+(mode==="full"?"Full-frame cutaway":"Transparent overlay")+'</span><span class="mg-dur">'+esc(m.dur)+' s</span></div>'+
+    return '<div class="mg-card" id="mg-'+m.n+'"><div class="mg-stage '+mode+(fr?'':' nofr')+'"'+(fr?' style="background-image:url('+fr+')"':'')+'>'+(m.file?'<video src="'+esc(m.file)+'" muted loop autoplay playsinline preload="metadata" aria-label="The client\'s end card"></video>':'<canvas width="360" height="640" data-mgc="'+m.n+'" aria-label="Preview of motion graphic '+m.n+'"></canvas>')+'<span class="mg-badge'+(mode==="full"?" full":"")+'">'+(m.tpl==="end_card"||m.tpl==="end_card_overlay"?(m.file?"Client's own end card":m.tpl==="end_card_overlay"?"End card over footage":"End card"):mode==="full"?"Full-frame cutaway":"Transparent overlay")+'</span><span class="mg-dur">'+esc(m.dur)+' s</span></div>'+
       '<div class="mg-body"><span class="eyebrow">MG '+m.n+' · '+esc(tn)+'</span><h3>'+esc(m.title)+'</h3>'+(m.use?'<p class="note">'+esc(m.use)+'</p>':'')+
       '<p class="mg-src">Words from: '+esc(m.src||"")+'</p>'+(cut?'<p class="mg-cut note">Cut in at: '+cut+'</p>':'<p class="mg-cut note">Use anywhere it helps.</p>')+
-      '<button type="button" class="btn" data-mgdl="'+m.n+'">'+(mode==="full"?"Download MP4":"Download PNG sequence (.zip)")+'</button><div class="mg-prog" hidden><span></span></div><span class="note mg-st"></span><div class="cok-mg" id="okmg-'+m.n+'"></div></div></div>';
+      '<button type="button" class="btn" data-mgdl="'+m.n+'">'+(m.file?"Download the client's end card":mode==="full"?"Download MP4":"Download PNG sequence (.zip)")+'</button><div class="mg-prog" hidden><span></span></div><span class="note mg-st"></span><div class="cok-mg" id="okmg-'+m.n+'"></div></div></div>';
   }).join("");
   var nOv=ms.filter(function(m){return MG.modeOf(m)==="overlay";}).length;
-  return '<section id="mg"><div class="wrap"><div class="sec-head"><span class="eyebrow">Motion graphics</span><h2>'+ms.length+(ms.length===1?' graphic':' graphics')+' in '+esc(cl.short||cl.name)+'\'s brand</h2><p>Optional. Cut to them like B-roll, only where they help the video. Transparent overlays sit on top of footage (download as a PNG sequence, import as an image sequence at 30 fps). Full-frame cutaways download as MP4. All 1080×1920, 30 fps. The black chips in the timeline show where each one fits.</p></div>'+
+  return '<section id="mg"><div class="wrap"><div class="sec-head"><span class="eyebrow">Motion graphics</span><h2>'+ms.length+(ms.length===1?' graphic':' graphics')+' in '+esc(cl.short||cl.name)+'\'s brand</h2><p>Optional. Cut to them like B-roll, only where they help the video. Transparent overlays sit on top of footage (download as a PNG sequence, import as an image sequence at 30 fps). Full-frame cutaways download as MP4. All 1080×1920, 30 fps. The black chips in the timeline show where each one fits. The end card is not optional: it is the client’s latest end card or logo, and it closes every video.</p></div>'+
     '<div class="mg-brand">'+(D.note?'<div class="mg-caution"><b>For this video:</b> '+esc(D.note)+'</div>':'')+(B.caution?'<div class="mg-caution"><b>Client note:</b> '+esc(B.caution)+'</div>':'')+'<div class="sws">'+sw+'</div><p class="note">'+esc(B.font_note||"")+(B.rules&&B.rules.length?' Rules: '+esc(B.rules.join(" ")):'')+'</p></div>'+
     '<div class="mg-grid">'+cards+'</div></div></section>';
 }
@@ -698,7 +735,7 @@ function wireMG(it,cl){
   if(!CUR_MG) return;
   var D=CUR_MG.d,B=CUR_MG.b,byN={},vis={},raf=null,t0=performance.now();
   D.mg.forEach(function(m){ byN[m.n]=m; });
-  MG.ensureFonts(B);
+  MG.ensureFonts(B); D.mg.forEach(function(m){ MG.ensureImgs(m); });
   var canv=[].slice.call(document.querySelectorAll("canvas[data-mgc]"));
   function frame(now){ raf=null; var any=false;
     canv.forEach(function(cv){ var n=cv.getAttribute("data-mgc"); if(!vis[n]) return; any=true; var m=byN[n],ctx=cv.getContext("2d"),loop=m.dur+1.0,t=((now-t0)/1000+(+n)*.37)%loop;
@@ -719,6 +756,7 @@ function wireMG(it,cl){
     var m=byN[b.getAttribute("data-mgdl")],card=b.closest(".mg-card"),st=card.querySelector(".mg-st"),pg=card.querySelector(".mg-prog"),bar=pg.firstChild;
     b.disabled=true; pg.hidden=false; st.textContent="Making the file…";
     try{
+      if(m.file){ var resp=await fetch(m.file); if(!resp.ok) throw new Error("Could not get the end card file. Try again."); bar.style.width="100%"; st.textContent=await save({blob:await resp.blob(),name:m.file.split("/").pop()}); return; }
       var spec=Object.assign({},m,{base:(String(it.edit_key||it.id).replace(/[^A-Za-z0-9]/g,""))+"_MG"+String(m.n).padStart(2,"0")+"_"+mgSlug(m.title)});
       var file=await MG.exportMG(spec,B,function(p){ bar.style.width=Math.round(p*100)+"%"; });
       st.textContent=await save(file);

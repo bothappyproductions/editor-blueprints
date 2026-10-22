@@ -1,94 +1,78 @@
 {
  "item": "13284948536",
  "client": "freedom-to-choose",
- "note": "The plan says keep him on camera most of the time, captions only, and a one second hold on his face at the end. Prefer the small top-band overlays. Use the full-frame cards only if Atdhe asks for more.",
+ "note": "The script asks for three graphics: the hook text, Eddie's name super and the small text on row 00:36-00:43. Rows 00:20-00:29 and 00:43-00:51 ask for key words in orange inside the captions, which is the editor's caption styling, so no graphic, and on row 00:04-00:12 the name tag holds one short line, so the role line “FTC program coordinator, alumnus” is not drawn.",
  "mg": [
   {
    "n": 1,
-   "title": "My mother tag",
-   "tpl": "tag_label",
-   "dur": 3,
-   "pos": "upper",
+   "title": "Who is this hook",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
    "text": {
-    "main": "My mother"
+    "main": "WAIT A MINUTE. WHO IS THIS?"
    },
-   "src": "Eddie, Interview_Eddie [07:44] “It starts with my mother”",
+   "cue": "Hook text on frame 1: “WAIT A MINUTE. WHO IS THIS?”. The text is already on screen at 0:00. It does not animate on",
+   "src": "Script, row 00:00-00:04, Motion graphics & type.",
    "rows": [
-    "00:04-00:12"
+    "00:00-00:04"
    ],
-   "use": "Small tag after the name super is gone at 00:05."
+   "use": "Hook text in the top third. Start the clip at frame 0045 (fully on) and hold it until the cut at 00:04."
   },
   {
    "n": 2,
-   "title": "Focus on Eddie",
-   "tpl": "corner_frame",
-   "dur": 4,
-   "text": {},
-   "src": "Brackets only, no text.",
+   "title": "Eddie name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Eddie"
+   },
+   "cue": "Name super at 00:03, small, lower left, 2 seconds: “Eddie”",
+   "src": "Script, row 00:04-00:12, Motion graphics & type.",
    "rows": [
-    "00:12-00:20"
+    "00:04-00:12"
    ],
-   "use": "Brackets only, no text, around his face while he talks. Keep it still and calm."
+   "use": "The script puts it at 00:03 for 2 seconds, so show it from 00:03 to 00:05. Move it lower left, above the captions."
   },
   {
    "n": 3,
-   "title": "The best she could",
+   "title": "Brothers and sisters text",
    "tpl": "highlight_callout",
-   "dur": 3,
+   "dur": 2,
    "pos": "top",
    "text": {
-    "main": "my mother did the best she could"
+    "main": "His brothers and sisters ask the same thing."
    },
-   "src": "Eddie, Interview_Eddie [08:23]",
+   "cue": "Small text, 2 seconds, after the bite: “His brothers and sisters ask the same thing.”",
+   "src": "Script, row 00:36-00:43, Motion graphics & type.",
    "rows": [
-    "00:20-00:29"
+    "00:36-00:43"
    ],
-   "use": "Top band, back on Eddie after the 3 s cutaway, as he says it. Keep the orange caption words."
+   "use": "Small text in the top third. Show it for 2 seconds right after his line on this row ends."
   },
   {
    "n": 4,
-   "title": "Work on myself",
-   "tpl": "highlight_callout",
-   "dur": 3,
-   "pos": "top",
-   "text": {
-    "main": "So what Freedom to Choose allowed me is to first of all work on myself"
-   },
-   "src": "Eddie, Interview_Eddie [08:17]",
+   "title": "End card",
+   "tpl": "end_card",
    "rows": [
-    "00:20-00:29"
+    "00:51-00:56"
    ],
-   "use": "Top band as he says it. Not on screen with MG 3."
-  },
-  {
-   "n": 5,
-   "title": "Share with my mother",
-   "tpl": "highlight_callout",
-   "dur": 3,
-   "pos": "top",
-   "text": {
-    "main": "now I'm able to share with my mother"
+   "cue": "No logo before the end card. No money amount in this reel.",
+   "src": "FTC logo (white) from the client's Brand folder for the Year-End 2026 centerpiece (copied 11 Oct 2026).",
+   "c": {
+    "bg": "#6A3179",
+    "fg": "#FFFFFF"
    },
-   "src": "Eddie, Interview_Eddie [08:35]",
-   "rows": [
-    "00:29-00:36"
-   ],
-   "use": "Top band over Eddie as he says it, before “wait a minute”. Keep captions on."
-  },
-  {
-   "n": 6,
-   "title": "She's proud of me",
-   "tpl": "highlight_callout",
-   "dur": 3,
-   "pos": "top",
+   "logo_w": 860,
+   "logo": "endcards/freedom-to-choose/ftc-logo-white.png",
    "text": {
-    "main": "I know she's proud of me"
+    "lines": [
+     "Change from the Inside"
+    ]
    },
-   "src": "Eddie, Interview_Eddie [08:49]",
-   "rows": [
-    "00:43-00:51"
-   ],
-   "use": "Top band on his last words, only if Atdhe asks. The plan says captions only here. Off for the one second hold on his face."
+   "dur": 4.0,
+   "use": "This is the end card. Put it at 00:51 after the last line and hold it to the end. Before it, put Join our journey. on screen for 3 seconds. Leave space under the card for the donation link."
   }
  ]
 }

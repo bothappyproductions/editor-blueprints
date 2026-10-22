@@ -1,104 +1,66 @@
 {
  "item": "13276402920",
  "client": "sfcg",
- "note": "Short cut, captions only on every row, and Kalindi finds animation in the middle inauthentic, so 6 graphics. Use one only where a line needs it.",
+ "note": "The script asks for two graphics: the “I’M NOT CREATIVE.” hook text and the small Biodegradable balloons text. The loop lines in the hook row are story notes, not on-screen text.",
  "mg": [
   {
    "n": 1,
-   "title": "Action figures",
-   "tpl": "statement_card",
+   "title": "Not creative hook",
+   "tpl": "highlight_callout",
    "dur": 2,
+   "pos": "top",
    "text": {
-    "main": "play with like action figures",
-    "emph": [
-     "action figures"
-    ]
+    "main": "“I’M NOT CREATIVE.”"
    },
-   "src": "GV, 764_3896.MXF [01:57]",
+   "c": {
+    "ac": "#1E6FD6",
+    "onAc": "#FFFFFF"
+   },
+   "cue": "Hook text already on screen on frame 1, top third: “I’M NOT CREATIVE.”",
+   "src": "Script, row 00:00–00:02, Motion graphics & type.",
    "rows": [
-    "00:02–00:10"
+    "00:00–00:02"
    ],
-   "use": "Short full-frame on the words. It can cover the stumble cut after “you like to”. Then back to GV."
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:02, where the hook text goes off. White on royal blue, as the script asks."
   },
   {
    "n": 2,
-   "title": "Stop-motions tag",
-   "tpl": "tag_label",
-   "dur": 2,
-   "pos": "upper",
+   "title": "Biodegradable balloons",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "center",
    "text": {
-    "main": "Stop-motions"
+    "main": "Biodegradable balloons"
    },
-   "src": "GV, 764_3896.MXF [01:57] “make stop-motions”",
+   "cue": "Small text, lower third, no animation: Biodegradable balloons",
+   "src": "Script, row 00:22–00:26, Motion graphics & type.",
    "rows": [
-    "00:02–00:10"
+    "00:22–00:26"
    ],
-   "use": "Small tag on the word stop-motions. One text at a time."
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:26. Move it to the lower third and scale it down so it stays small."
   },
   {
    "n": 3,
-   "title": "People would be happier",
-   "tpl": "highlight_callout",
-   "dur": 2,
-   "pos": "top",
-   "text": {
-    "main": "I think people would be happier"
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:26–00:29"
+   ],
+   "cue": "Search for Common Ground lockup + sfcg.org. Nothing under it. Do not guess an Imagine If link.",
+   "src": "SFCG's 2024 horizontal logo, white text (SFCG Resources/Logos on Drive). The Imagine If end card is still coming from SFCG (Chase Moore).",
+   "c": {
+    "bg": "#003E74",
+    "fg": "#FFFFFF"
    },
-   "src": "GV, 764_3896.MXF [02:03]",
-   "rows": [
-    "00:10–00:12"
-   ],
-   "use": "Top band over GV as GV says it. Out before the cut to the shirt."
-  },
-  {
-   "n": 4,
-   "title": "Frame the shirt",
-   "tpl": "corner_frame",
-   "dur": 3,
-   "box": [
-    0.2,
-    0.4,
-    0.6,
-    0.34
-   ],
-   "text": {},
-   "src": "Brackets only, no text.",
-   "rows": [
-    "00:12–00:15"
-   ],
-   "use": "Brackets only, no text, around Sophie's shirt if it is in frame. If not, skip it and stay on GV."
-  },
-  {
-   "n": 5,
-   "title": "A shirt you cut up",
-   "tpl": "highlight_callout",
-   "dur": 2,
-   "pos": "top",
+   "logo_w": 860,
+   "logo": "endcards/sfcg/sfcg-logo-horizontal-2024-white.png",
    "text": {
-    "main": "a shirt that you cut up"
-   },
-   "src": "GV, 764_3896.MXF [02:37]",
-   "rows": [
-    "00:15–00:22"
-   ],
-   "use": "Top band over GV on the last words. Out with the last caption."
-  },
-  {
-   "n": 6,
-   "title": "Stepping out",
-   "tpl": "statement_card",
-   "dur": 2.5,
-   "text": {
-    "main": "it can just be like stepping out of the house",
-    "emph": [
-     "stepping out"
+    "lines": [
+     "sfcg.org"
     ]
    },
-   "src": "GV, 764_3896.MXF [02:37]",
-   "rows": [
-    "00:15–00:22"
-   ],
-   "use": "Short full-frame on the words, only if Atdhe asks. Back to GV smiling for “a shirt that you cut up”."
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 00:26 after the last line and hold it to the end."
   }
  ]
 }

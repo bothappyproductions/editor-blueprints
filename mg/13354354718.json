@@ -1,40 +1,93 @@
 {
  "item": "13354354718",
  "client": "momcozy",
- "note": "No spoken words in this cut and the plan puts Momcozy's own lines on screen, so only 2 small graphics.",
+ "note": "The script asks for four text graphics: the hook text, “One of our nighttime essentials” on the close-up, and the two Black Friday lines on row 00:14-00:18. The emoji are left off, there is no discount number, and the end card is Momcozy's.",
  "mg": [
   {
    "n": 1,
-   "tpl": "corner_frame",
-   "title": "Frame the machine",
+   "title": "Baby wakes hook",
+   "tpl": "highlight_callout",
    "dur": 3,
-   "text": {},
-   "box": [
-    0.25,
-    0.3,
-    0.5,
-    0.45
-   ],
-   "src": "Label only, no claim.",
+   "pos": "top",
+   "text": {
+    "main": "When your baby wakes up right as you’re about to relax"
+   },
+   "cue": "Hook text on frame 1: “When your baby wakes up right as you’re about to relax 😅” Already on screen at 0:00",
+   "src": "Script, row 00:00-00:03, Motion graphics & type.",
    "rows": [
-    "00:06-00:09"
+    "00:00-00:03"
    ],
-   "use": "Brackets around the WN02 on the close-up as the light comes on. Keep the Momcozy text in the top third."
+   "use": "Start the clip at frame 0045 (fully on) and hold it until the cut at 00:03. Top third."
   },
   {
    "n": 2,
-   "tpl": "tag_label",
-   "title": "WN02 tag",
-   "dur": 3,
-   "pos": "center",
+   "title": "Nighttime essentials",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
    "text": {
-    "main": "WN02"
+    "main": "One of our nighttime essentials"
    },
-   "src": "Label only, no claim. Product name from the brief.",
+   "cue": "Text: “One of our nighttime essentials 🤍” On the close-up, top third",
+   "src": "Script, row 00:06-00:09, Motion graphics & type.",
+   "rows": [
+    "00:06-00:09"
+   ],
+   "use": "Put it on with the close-up of his hand on the WN02, top third, and hold it to the cut at 00:09."
+  },
+  {
+   "n": 3,
+   "title": "Extra comfort line",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "A little extra comfort for your baby’s sleep space."
+   },
+   "cue": "Text 1 (2 s): “A little extra comfort for your baby’s sleep space.”",
+   "src": "Script, row 00:14-00:18, Motion graphics & type.",
    "rows": [
     "00:14-00:18"
    ],
-   "use": "Small tag next to the glowing machine on the shelf, under the Black Friday text."
+   "use": "Text 1, top third. Put it on at 00:14 and hold it 2 seconds, to 00:16."
+  },
+  {
+   "n": 4,
+   "title": "Shop WN02 line",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "Shop WN02 this Black Friday"
+   },
+   "cue": "Then text 2 (2 s): “Shop WN02 this Black Friday 🛒”",
+   "src": "Script, row 00:14-00:18, Motion graphics & type.",
+   "rows": [
+    "00:14-00:18"
+   ],
+   "use": "Text 2, top third, right after text 1. Put it on at 00:16 and hold it 2 seconds, to the cut at 00:18. No discount number."
+  },
+  {
+   "n": 5,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:18-00:20"
+   ],
+   "cue": "First and only logo in the video.",
+   "src": "Momcozy wordmark as Momcozy specified it (MOMCOZY in caps, Cozy Chestnut #6A2B3A, Inter; spec locked 19 Aug 2026). No logo file has been sent.",
+   "c": {
+    "bg": "#FEF9F6",
+    "fg": "#6A2B3A"
+   },
+   "text": {
+    "name": "MOMCOZY",
+    "lines": [
+     "Shop WN02 this Black Friday"
+    ]
+   },
+   "dur": 2.5,
+   "use": "This is the end card. Put it at 00:18 after the last line and hold it to the end."
   }
  ]
 }

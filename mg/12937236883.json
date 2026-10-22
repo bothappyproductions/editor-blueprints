@@ -1,126 +1,78 @@
 {
  "item": "12937236883",
  "client": "freedom-reads",
- "note": "The plan says captions only on most rows and stay on his face for the button. Use these only if the cut needs more.",
+ "note": "The script asks for three graphics: the hook text, the name card “Brandon” and one top text line about the prize. Every other row is captions only, and the end card is Freedom Reads' own.",
  "mg": [
   {
    "n": 1,
-   "title": "Separate myself",
-   "tpl": "kinetic_quote",
+   "title": "Reading was an escape",
+   "tpl": "highlight_callout",
    "dur": 4,
    "pos": "top",
    "text": {
-    "main": "It was an opportunity to separate myself from some of the hardships that I was facing on a daily basis",
-    "emph": [
-     "opportunity"
-    ]
+    "main": "Reading was an escape"
    },
-   "src": "Brandon, WSPv00046 [00:14]–[00:19]",
+   "cue": "Hook text on frame 1, top third: “Reading was an escape”. Cut on, no animation longer than 6 frames.",
+   "src": "Script, row 00:00–00:04, Motion graphics & type.",
    "rows": [
-    "00:04–00:08"
+    "00:00–00:04"
    ],
-   "use": "Top band from 00:04, after the hook text is gone. The name card sits lower left, so they do not touch."
+   "use": "Hook text in the top third, cut on at frame 1. Start the clip at frame 0045 (fully on) and hold it until 00:04."
   },
   {
    "n": 2,
-   "title": "A positive outlet",
-   "tpl": "quote_card",
-   "dur": 4,
+   "title": "Brandon name card",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
    "text": {
-    "main": "as I got older, it became a positive outlet for me.",
-    "who": "Brandon"
+    "main": "Brandon"
    },
-   "src": "Brandon, WSPv00046 [00:19]–[00:25]",
+   "cue": "Name card “Brandon” at 00:04–00:07, lower left, above the captions. First name only.",
+   "src": "Script, row 00:04–00:08, Motion graphics & type.",
    "rows": [
-    "00:08–00:14"
+    "00:04–00:08"
    ],
-   "use": "Full-frame cutaway while he says it, then back to the push-in."
+   "use": "Name card from 00:04 to 00:07. Move it lower left, above the captions."
   },
   {
    "n": 3,
-   "title": "Educate myself",
+   "title": "Prize judge line",
    "tpl": "highlight_callout",
    "dur": 4,
    "pos": "top",
    "text": {
-    "main": "something that I could use to further educate myself whenever I needed"
+    "main": "Brandon is an Inside Literary Prize judge."
    },
-   "src": "Brandon, WSPv00046 [00:26]–[00:31]",
+   "cue": "Top text, same style as the hook: “Brandon is an Inside Literary Prize judge.” On screen at least 3 seconds.",
+   "src": "Script, row 00:20–00:24, Motion graphics & type.",
    "rows": [
-    "00:14–00:20"
+    "00:20–00:24"
    ],
-   "use": "Over the second half of his line, as he says it. Keep captions on."
+   "use": "Top text over the judges' group shot, in the same style as the hook. Keep it on for the whole row, at least 3 seconds."
   },
   {
    "n": 4,
-   "title": "Freedom Reads wipe",
-   "tpl": "brand_wipe",
-   "dur": 1.6,
-   "text": {},
-   "src": "Transition, no text.",
+   "title": "End card",
+   "tpl": "end_card",
    "rows": [
-    "00:20–00:24"
+    "00:34–00:38"
    ],
-   "use": "Cut to the group talk at the middle of the wipe, at 00:20. Use it once."
-  },
-  {
-   "n": 5,
-   "title": "Brackets on Brandon",
-   "tpl": "corner_frame",
-   "dur": 3,
-   "text": {},
-   "src": "Brackets only, no text.",
-   "rows": [
-    "00:20–00:24"
-   ],
-   "use": "Frames Brandon on the couch in the group talk. Keep it clear of the top text."
-  },
-  {
-   "n": 6,
-   "title": "Prize tag",
-   "tpl": "tag_label",
-   "dur": 3,
-   "pos": "upper",
-   "text": {
-    "main": "Inside Literary Prize"
+   "cue": "Freedom Reads logo. One line under it: “Inside Literary Prize 2026”. Then “Follow @freedombeginswithabook”. Dark text #292424. No captions.",
+   "src": "No Freedom Reads logo file found (only in older delivered cuts); the name is typed until James Davis sends it.",
+   "c": {
+    "bg": "#F2EBE8",
+    "fg": "#292424"
    },
-   "src": "Program name in the blueprint and transcript, WSPv00046 [02:00]–[02:04] context.",
-   "rows": [
-    "00:24–00:31"
-   ],
-   "use": "Only after the prize top text is gone. Spell it exactly like this."
-  },
-  {
-   "n": 7,
-   "title": "We do have a voice",
-   "tpl": "highlight_callout",
-   "dur": 3,
-   "pos": "top",
    "text": {
-    "main": "we do have a voice"
-   },
-   "src": "Brandon, WSPv00046 [02:10]",
-   "rows": [
-    "00:24–00:31"
-   ],
-   "use": "Top band over his face as he says it, at the end of the row. Keep captions on."
-  },
-  {
-   "n": 8,
-   "title": "That voice matters",
-   "tpl": "word_stack",
-   "dur": 2.5,
-   "pos": "top",
-   "text": {
-    "items": [
-     "That voice matters"
+    "name": "Freedom Reads",
+    "lines": [
+     "Inside Literary Prize 2026",
+     "Follow @freedombeginswithabook"
     ]
    },
-   "src": "Brandon, WSPv00046 [02:11]",
-   "rows": [
-    "00:31–00:34"
-   ],
-   "use": "Top band on his words, then clear it so the hold stays on his face."
+   "dur": 4.0,
+   "use": "This is the end card. Put it at 00:34 after the last line and hold it to the end."
   }
  ]
 }

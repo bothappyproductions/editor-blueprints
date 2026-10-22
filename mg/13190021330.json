@@ -1,131 +1,60 @@
 {
  "item": "13190021330",
  "client": "mha",
- "note": "The plan says stay on his face with captions only, and cut away only to B-roll that shows his words. Use these only if Nick asks for more, in the top band.",
+ "note": "The script asks for two graphics: the hook text and Johnny's name super. The super shows “Johnny · Peer Support Specialist” because the one-line tag cannot also hold “MHA Nebraska”, and “Martin” stays off until Amber confirms it.",
  "mg": [
   {
    "n": 1,
-   "title": "Their own victories",
-   "tpl": "word_stack",
-   "dur": 3,
-   "pos": "upper",
-   "text": {
-    "items": [
-     "their own mistakes",
-     "their own victories"
-    ]
-   },
-   "src": "Johnny, 20260909_C4584.MP4 [02:10] “Let them make their own mistakes. Let them have their own victories.”",
-   "rows": [
-    "00:00–00:08"
-   ],
-   "use": "Only after the hook text goes out at 00:04. Each line lands on his word. Keep captions on."
-  },
-  {
-   "n": 2,
-   "title": "Chart their path",
-   "tpl": "kinetic_quote",
+   "title": "We don't give advice",
+   "tpl": "highlight_callout",
    "dur": 4,
    "pos": "top",
    "text": {
-    "main": "allowing people to be themselves and to chart their path",
-    "emph": [
-     "themselves",
-     "path"
-    ]
+    "main": "WE DON'T GIVE ADVICE"
    },
-   "src": "Johnny, 20260909_C4584.MP4 [00:35]",
+   "cue": "Hook text on frame 1, top third: “WE DON'T GIVE ADVICE”. Off at 00:04.",
+   "src": "Script, row 00:00–00:08, Motion graphics & type.",
+   "rows": [
+    "00:00–00:08"
+   ],
+   "use": "Hook text on frame 1, in the top third. Take it off at 00:04."
+  },
+  {
+   "n": 2,
+   "title": "Johnny name super",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Johnny"
+   },
+   "cue": "Name super at 00:09–00:12, lower left, above the captions: “Johnny · Peer Support Specialist · MHA Nebraska”.",
+   "src": "Script, row 00:08–00:19, Motion graphics & type.",
    "rows": [
     "00:08–00:19"
    ],
-   "use": "Over Johnny after the name super is gone at 00:12. Keep captions on."
+   "use": "Name super from 00:09 to 00:12. Move it lower left, above the captions. Type the second line Peer Support Specialist under it."
   },
   {
    "n": 3,
-   "title": "Focus on the T-shirt",
-   "tpl": "corner_frame",
-   "dur": 3,
-   "text": {},
-   "src": "Brackets only, no text.",
+   "title": "End card",
+   "tpl": "end_card",
    "rows": [
-    "00:08–00:19"
+    "00:48–00:51"
    ],
-   "use": "Frames the words on his T-shirt. Skip it if your crop cuts the shirt or the captions sit on it."
-  },
-  {
-   "n": 4,
-   "title": "Changed everything",
-   "tpl": "highlight_callout",
-   "dur": 3,
-   "pos": "top",
-   "text": {
-    "main": "it's changed everything in my life"
+   "cue": "MHA Nebraska · Intentional Peer Support, then mha-ne.org under it, dark olive #4A5325. Add the MHA turtle logo only from a real logo file (a",
+   "src": "MHA Nebraska has not sent a logo file (never rebuild one), so the end card is the script's words in MHA's colours.",
+   "c": {
+    "bg": "#E8EFD4",
+    "fg": "#4A5325"
    },
-   "src": "Johnny, 20260909_C4584.MP4 [02:58] block (≈03:10–03:13)",
-   "rows": [
-    "00:19–00:30"
-   ],
-   "use": "Small, at the top, on his last words in the row. Stay on his face. Nothing about prison on screen."
-  },
-  {
-   "n": 5,
-   "title": "People in your corner",
-   "tpl": "highlight_callout",
-   "dur": 3,
-   "pos": "top",
    "text": {
-    "main": "people in your corner"
+    "lines": [
+     "mha-ne.org"
+    ]
    },
-   "src": "Johnny, 20260909_C4584.MP4 [02:58] block (≈03:15–03:20)",
-   "rows": [
-    "00:30–00:35"
-   ],
-   "use": "Over Johnny on the last words of the row."
-  },
-  {
-   "n": 6,
-   "title": "Things can change",
-   "tpl": "quote_card",
-   "dur": 5,
-   "text": {
-    "main": "I just try to instill some hope, you know what I mean, that things can change.",
-    "who": "Johnny"
-   },
-   "src": "Johnny, 20260909_C4584.MP4 [01:43]",
-   "rows": [
-    "00:30–00:35"
-   ],
-   "use": "Only if you add this line to the cut. Keep his voice under it and go back to his face."
-  },
-  {
-   "n": 7,
-   "title": "Ragtag bunch tag",
-   "tpl": "tag_label",
-   "dur": 3,
-   "pos": "upper",
-   "text": {
-    "main": "Ragtag bunch"
-   },
-   "src": "Johnny, 20260909_C4584.MP4 [02:29] “kind of a ragtag bunch”",
-   "rows": [
-    "00:35–00:44"
-   ],
-   "use": "Small tag over the doughnut B-roll as he says “ragtag bunch”."
-  },
-  {
-   "n": 8,
-   "title": "A lot of victories",
-   "tpl": "highlight_callout",
-   "dur": 2.5,
-   "pos": "top",
-   "text": {
-    "main": "we also see a lot of victories."
-   },
-   "src": "Johnny, 20260909_C4584.MP4 [02:58] block (≈03:38–03:41)",
-   "rows": [
-    "00:44–00:48"
-   ],
-   "use": "Small, at the top as he says it. Take it out on “victories” so the 1 s hold is his face only."
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 00:48 after the last line and hold it to the end."
   }
  ]
 }

@@ -1,22 +1,23 @@
 {
  "item": "12489995917",
  "client": "lions",
- "note": "Jacqui wants much simpler graphics, or none. MG1 and MG2 are the planned pin and top text; use the rest only if Atdhe asks for more.",
+ "note": "The script asks for three graphics: the top text “Are you happy?”, the family question as top text and the South Africa pin. No name super, as the plan says, and the end card is the Lions lockup.",
  "mg": [
   {
    "n": 1,
-   "title": "South Africa pin",
-   "tpl": "tag_label",
-   "dur": 2,
-   "pos": "upper",
+   "title": "Are you happy",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
    "text": {
-    "main": "South Africa"
+    "main": "Are you happy?"
    },
-   "src": "Blueprint MOTION 00:04 (📍 South Africa) and South Africa Lion, IMG_7919.MOV [00:27]",
+   "cue": "Top text on frame 1: Are you happy? (Atdhe)",
+   "src": "Script, row 00:00–00:04, Motion graphics & type.",
    "rows": [
-    "00:04–00:06"
+    "00:00–00:04"
    ],
-   "use": "This is the planned 📍 South Africa pin at 00:04 to 00:06. Add the 📍 in front. Do not add a second pin."
+   "use": "Top text on frame 1, Atdhe's question. Hold it to the cut at 00:04 and keep the subtitle under it."
   },
   {
    "n": 2,
@@ -27,108 +28,47 @@
    "text": {
     "main": "Is there anyone in your club that's like family to you?"
    },
-   "src": "Atdhe, IMG_7918.MOV [01:31]",
+   "cue": "Top text: Is there anyone in your club that's like family to you?",
+   "src": "Script, row 00:04–00:06, Motion graphics & type.",
    "rows": [
     "00:04–00:06"
    ],
-   "use": "This is the planned top text at 00:04. Use it as that top text, not as a second text."
+   "use": "Top text from 00:04 to 00:06. It goes out at the cut, where the script says top text out."
   },
   {
    "n": 3,
-   "title": "Good days, bad days",
-   "tpl": "highlight_callout",
-   "dur": 4,
-   "pos": "top",
+   "title": "South Africa pin",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
    "text": {
-    "main": "So families have good days, they have bad days"
+    "main": "South Africa"
    },
-   "src": "South Africa Lion, IMG_7918.MOV [01:46]",
+   "cue": "Location pin “📍 South Africa” at 00:04–00:06",
+   "src": "Script, row 00:04–00:06, Motion graphics & type.",
    "rows": [
-    "00:06–00:14"
+    "00:04–00:06"
    ],
-   "use": "Over his face as he says it. Keep the line in full. Keep captions on."
+   "use": "This is the location pin. Show it from 00:04 to 00:06 only. It sits above the top text."
   },
   {
    "n": 4,
-   "title": "Other countries tag",
-   "tpl": "tag_label",
-   "dur": 3,
-   "pos": "upper",
-   "text": {
-    "main": "Other countries"
-   },
-   "src": "South Africa Lion, IMG_7918.MOV [02:16] “specifically from other countries”",
+   "title": "End card",
+   "tpl": "end_card",
    "rows": [
-    "00:14–00:22"
+    "00:28–00:31"
    ],
-   "use": "Put it on the 105% punch-in at other countries."
-  },
-  {
-   "n": 5,
-   "title": "You learn so much",
-   "tpl": "statement_card",
-   "dur": 4,
-   "text": {
-    "main": "You learn so much from other people",
-    "emph": [
-     "learn"
-    ]
+   "cue": "Only the official Lions lockup from the Lions brand files. Nothing else on it. No stats, no URL stack, no AI-style flyer graphics. If Atdhe ",
+   "src": "Official Lions International lockup from the Lions brand files (brand kit). Lions' latest end card video (Lions CTA.mp4, Slack 20 Aug 2026) replaces this as soon as it is downloaded.",
+   "c": {
+    "bg": "#FFFFFF",
+    "fg": "#00338D"
    },
-   "src": "South Africa Lion, IMG_7918.MOV [02:18]",
-   "rows": [
-    "00:14–00:22"
-   ],
-   "use": "Short cutaway on his line. Keep his voice under."
-  },
-  {
-   "n": 6,
-   "title": "A friend now?",
-   "tpl": "highlight_callout",
-   "dur": 3,
-   "pos": "top",
-   "text": {
-    "main": "Can I say I have a friend in South Africa now?"
-   },
-   "src": "Atdhe, IMG_7919.MOV [00:23]",
-   "rows": [
-    "00:22–00:25"
-   ],
-   "use": "Over the selfie two-shot as Atdhe asks it. Keep captions on."
-  },
-  {
-   "n": 7,
-   "title": "Frame the two-shot",
-   "tpl": "corner_frame",
-   "dur": 3,
-   "box": [
-    0.12,
-    0.2,
-    0.76,
-    0.44
-   ],
+   "logo_w": 860,
+   "logo": "endcards/lions/lions-logo.svg",
    "text": {},
-   "src": "Brackets only, no text.",
-   "rows": [
-    "00:22–00:25"
-   ],
-   "use": "Brackets around the two of them in the selfie. Move them to where they sit."
-  },
-  {
-   "n": 8,
-   "title": "A friend in South Africa",
-   "tpl": "statement_card",
-   "dur": 2.5,
-   "text": {
-    "main": "You definitely have a friend in South Africa, obviously",
-    "emph": [
-     "friend"
-    ]
-   },
-   "src": "South Africa Lion, IMG_7919.MOV [00:27]",
-   "rows": [
-    "00:25–00:28"
-   ],
-   "use": "Short card on his answer. Cut back in time for their laugh."
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 00:28 after the last line and hold it to the end."
   }
  ]
 }

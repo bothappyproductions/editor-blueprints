@@ -1,119 +1,76 @@
 {
  "item": "13083747867",
  "client": "mha",
- "note": "The plan says captions only, stay on her face, and hold the 2-shot to the end. Prefer the small top-band overlays. Use the full-frame cards only if Atdhe asks for more.",
+ "note": "The script asks for three graphics: the hook text “Welcome home.” at 00:12 and two name supers on row 00:13–00:19. Each super keeps the name and title so the tag fits; the script's “Omaha · MHA Nebraska” part is left off. Every other row is captions only, and the end card is MHA's.",
  "mg": [
   {
    "n": 1,
-   "title": "Frame the two of them",
-   "tpl": "corner_frame",
-   "dur": 4,
-   "text": {},
-   "src": "Brackets only, no text.",
+   "title": "Welcome home hook",
+   "tpl": "highlight_callout",
+   "dur": 1.6,
+   "pos": "top",
+   "text": {
+    "main": "Welcome home."
+   },
+   "cue": "Big hook text “Welcome home.” lands on her words at 00:12 and holds through the cut",
+   "src": "Script, row 00:00–00:13, Motion graphics & type.",
    "rows": [
-    "00:13–00:19"
+    "00:00–00:13"
    ],
-   "use": "Brackets only, no text, around both women in the 2-shot during the intros. Keep clear of the name supers."
+   "use": "Put it on at 00:12, on her words “welcome home”, and hold it through the cut at 00:13. Captions stay on from frame 1."
   },
   {
    "n": 2,
-   "title": "Peer support tag",
+   "title": "Cynthia name super",
    "tpl": "tag_label",
    "dur": 3,
-   "pos": "upper",
+   "pos": "center",
    "text": {
-    "main": "Intentional Peer Support"
+    "main": "Cynthia · Coordinator"
    },
-   "src": "C4825 [01:51] “when I took intentional peer support”",
+   "cue": "lower left: “Cynthia · Coordinator, Omaha · MHA Nebraska” at 00:13–00:16",
+   "src": "Script, row 00:13–00:19, Motion graphics & type.",
    "rows": [
-    "00:19–00:33"
+    "00:13–00:19"
    ],
-   "use": "As she says “intentional peer support”, after the name supers are gone. One text at a time."
+   "use": "Name super on Cynthia's intro line, 00:13 to 00:16. The script puts it lower left: move it lower left, above the captions. Amber Pendley must confirm the spelling and title first."
   },
   {
    "n": 3,
-   "title": "Not who I am",
-   "tpl": "highlight_callout",
+   "title": "Kelly name super",
+   "tpl": "tag_label",
    "dur": 3,
-   "pos": "top",
+   "pos": "center",
    "text": {
-    "main": "that's not who I am."
+    "main": "Kelly"
    },
-   "src": "Cynthia or Kelly (check by voice), C4825 [01:51]",
+   "cue": "then “Kelly · Peer Support Specialist, Omaha · MHA Nebraska” at 00:16–00:19",
+   "src": "Script, row 00:13–00:19, Motion graphics & type.",
    "rows": [
-    "00:19–00:33"
+    "00:13–00:19"
    ],
-   "use": "Top band over her face as she says it. Never put the charges line on screen."
+   "use": "Name super on Kelly's intro line, 00:16 to 00:19, right after Cynthia's. Move it lower left, above the captions. Amber Pendley must confirm the spelling and title first. Type the second line Peer Support Specialist under it."
   },
   {
    "n": 4,
-   "title": "Walk alongside people",
-   "tpl": "kinetic_quote",
-   "dur": 4,
-   "pos": "top",
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:30–01:33"
+   ],
+   "cue": "MHA Nebraska · Intentional Peer Support, then mha-ne.org under it, dark olive #4A5325. Add the MHA turtle logo only from a real logo file (a",
+   "src": "MHA Nebraska has not sent a logo file (never rebuild one), so the end card is the script's words in MHA's colours.",
+   "c": {
+    "bg": "#E8EFD4",
+    "fg": "#4A5325"
+   },
    "text": {
-    "main": "Now I can just walk alongside people and I really enjoy that.",
-    "emph": [
-     "walk",
-     "alongside"
+    "lines": [
+     "mha-ne.org"
     ]
    },
-   "src": "Cynthia or Kelly (check by voice), C4825 [02:17]",
-   "rows": [
-    "00:33–00:39"
-   ],
-   "use": "Top band over the steps B-roll or her face as she says it. Keep captions on."
-  },
-  {
-   "n": 5,
-   "title": "Small steps",
-   "tpl": "word_stack",
-   "dur": 4,
-   "pos": "upper",
-   "text": {
-    "items": [
-     "Really small steps",
-     "Get out of bed",
-     "Brush my teeth"
-    ]
-   },
-   "src": "Cynthia or Kelly (check by voice), C4825 [04:19]–[04:32]",
-   "rows": [
-    "00:39–00:50"
-   ],
-   "use": "Each line lands on her word. Keep captions on."
-  },
-  {
-   "n": 6,
-   "title": "Different for everybody",
-   "tpl": "statement_card",
-   "dur": 3,
-   "text": {
-    "main": "recovery looks different for everybody",
-    "emph": [
-     "everybody"
-    ]
-   },
-   "src": "Cynthia or Kelly (check by voice), C4825 [05:00]",
-   "rows": [
-    "00:39–00:50"
-   ],
-   "use": "Full-frame, only if Atdhe asks. Cut to it on the last line of the row, then back to her face."
-  },
-  {
-   "n": 7,
-   "title": "Take the wheel",
-   "tpl": "highlight_callout",
-   "dur": 3,
-   "pos": "top",
-   "text": {
-    "main": "allowing them to take the wheel on their life"
-   },
-   "src": "Cynthia or Kelly (check by voice), C4825 [06:24]",
-   "rows": [
-    "01:03–01:16"
-   ],
-   "use": "Top band over the speaker as she says it. Skip it if this row is cut."
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 01:30 after the last line and hold it to the end."
   }
  ]
 }

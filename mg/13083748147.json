@@ -1,133 +1,142 @@
 {
  "item": "13083748147",
  "client": "mha",
- "note": "The plan says stay on the speaker's face unless the B-roll shows what is said. Prefer the top overlays, and use the full-frame cards only if Nick asks for more.",
+ "note": "The script asks for seven graphics: the hook text, a name super for each of the five peer specialists the first time he speaks, and the small IPS text card. Every other row is captions only, and the end card is MHA's own.",
  "mg": [
   {
    "n": 1,
-   "title": "Peace in my life",
-   "tpl": "kinetic_quote",
-   "dur": 5,
+   "title": "Peer support hook",
+   "tpl": "highlight_callout",
+   "dur": 4,
    "pos": "top",
    "text": {
-    "main": "Being in IPS has gave me the power to find peace in my life",
-    "emph": [
-     "peace"
-    ]
+    "main": "Peer support. Inside a prison."
    },
-   "src": "Herman Buckman, 20260910_C4784.MP4 [00:20]",
+   "cue": "Hook text on frame 1, big and bold, top third: “Peer support. Inside a prison.” Off at 00:04.",
+   "src": "Script, row 00:00–00:05, Motion graphics & type.",
    "rows": [
-    "00:05–00:24"
+    "00:00–00:05"
    ],
-   "use": "Only on this line, after his name super. Never over his first line. Keep captions on."
+   "use": "Hook text on frame 1, big, in the top third. Take it off at 00:04, and add no name super for the woman speaking."
   },
   {
    "n": 2,
-   "title": "A whole new world",
-   "tpl": "highlight_callout",
-   "dur": 4,
-   "pos": "top",
+   "title": "Herman name super",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
    "text": {
-    "main": "IPS has opened up a whole new world to me"
+    "main": "Herman Buckman"
    },
-   "src": "Daniel Miller, 20260910_C4779.MP4 [00:12]",
+   "cue": "Name super, 3 s, lower left: “Herman Buckman · IPS peer specialist”",
+   "src": "Script, row 00:05–00:24, Motion graphics & type.",
    "rows": [
-    "00:24–00:36"
+    "00:05–00:24"
    ],
-   "use": "Over Daniel as he says it, after his name super is gone."
+   "use": "Name super for 3 seconds, the first time Herman speaks. Move it lower left, above the captions. Type the second line IPS peer specialist under it."
   },
   {
    "n": 3,
-   "title": "You got a minute",
-   "tpl": "highlight_callout",
+   "title": "Daniel name super",
+   "tpl": "tag_label",
    "dur": 3,
-   "pos": "top",
+   "pos": "center",
    "text": {
-    "main": "you got a minute to talk with me"
+    "main": "Daniel Miller"
    },
-   "src": "Group member, 20260910_C4760.MP4 [00:04]",
+   "cue": "Name super, 3 s, lower left: “Daniel Miller · IPS peer specialist”",
+   "src": "Script, row 00:24–00:36, Motion graphics & type.",
    "rows": [
-    "00:36–00:58"
+    "00:24–00:36"
    ],
-   "use": "Over the man in C4760 as he says it, in his first 3 s."
+   "use": "Name super for 3 seconds, the first time Daniel speaks. Move it lower left, above the captions. Type the second line IPS peer specialist under it."
   },
   {
    "n": 4,
-   "title": "Cards and chess",
-   "tpl": "word_stack",
-   "dur": 4,
-   "pos": "upper",
-   "text": {
-    "items": [
-     "Play cards",
-     "Play chess",
-     "Crazy conversation"
-    ]
-   },
-   "src": "Group member, 20260910_C4760.MP4 [00:33]–[00:37]",
-   "rows": [
-    "00:36–00:58"
-   ],
-   "use": "Over the long tables B-roll. Each line lands on his word."
-  },
-  {
-   "n": 5,
    "title": "IPS text card",
    "tpl": "tag_label",
-   "dur": 4,
-   "pos": "upper",
+   "dur": 10,
+   "pos": "top",
    "text": {
     "main": "IPS · Intentional Peer Support"
    },
-   "src": "Small text card asked for in this blueprint (row 00:58–01:13).",
+   "cue": "Small text card over this line: “IPS · Intentional Peer Support”",
+   "src": "Script, row 00:58–01:13, Motion graphics & type.",
    "rows": [
     "00:58–01:13"
    ],
-   "use": "Small, in the top band, while he says the use of force line. Keep the line whole."
+   "use": "Small text card over this man's line, in the top band. Put it on at the start of this row and hold it up to 10 seconds, with the captions as usual."
+  },
+  {
+   "n": 5,
+   "title": "La'Ron name super",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "La'Ron Jones"
+   },
+   "cue": "Name super, 3 s, lower left: “La'Ron Jones · IPS peer specialist”",
+   "src": "Script, row 01:13–01:28, Motion graphics & type.",
+   "rows": [
+    "01:13–01:28"
+   ],
+   "use": "Name super for 3 seconds, the first time La'Ron speaks. Move it lower left, above the captions. Type the second line IPS peer specialist under it."
   },
   {
    "n": 6,
-   "title": "Focus on his book",
-   "tpl": "corner_frame",
-   "dur": 4,
-   "text": {},
-   "src": "Brackets only, no text.",
+   "title": "Leonard name super",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Leonard Rondu"
+   },
+   "cue": "Name super, 3 s, lower left: “Leonard Rondu · IPS peer specialist”",
+   "src": "Script, row 01:38–01:46, Motion graphics & type.",
    "rows": [
-    "01:13–01:28"
+    "01:38–01:46"
    ],
-   "use": "Frames La'Ron's book in C4786. Never the other book."
+   "use": "Name super for 3 seconds, the first time Leonard speaks, lower left above the captions. If this row is cut, drop the super too. Type the second line IPS peer specialist under it."
   },
   {
    "n": 7,
-   "title": "Earn their diploma",
-   "tpl": "highlight_callout",
-   "dur": 4,
-   "pos": "top",
+   "title": "Robert name super",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
    "text": {
-    "main": "help a lot of these men earn their high school diploma."
+    "main": "Robert Norfolk"
    },
-   "src": "La'Ron Jones, 20260910_C4785.MP4 [00:24]–[00:29]",
+   "cue": "Name super, 3 s, lower left: “Robert Norfolk · IPS peer specialist”",
+   "src": "Script, row 01:46–02:03, Motion graphics & type.",
    "rows": [
-    "01:13–01:28"
+    "01:46–02:03"
    ],
-   "use": "Over the book B-roll C4787 as he says it."
+   "use": "Name super for 3 seconds, the first time Robert speaks. Move it lower left, above the captions. Type the second line IPS peer specialist under it."
   },
   {
    "n": 8,
-   "title": "In love with WRAP",
-   "tpl": "statement_card",
-   "dur": 3,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "02:12–02:16"
+   ],
+   "cue": "Intentional Peer Support. Inside the walls, and outside them., then mha-ne.org under it, dark olive #4A5325. Add the MHA turtle logo only fr",
+   "src": "MHA Nebraska has not sent a logo file (never rebuild one), so the end card is the script's words in MHA's colours.",
+   "c": {
+    "bg": "#E8EFD4",
+    "fg": "#4A5325"
+   },
    "text": {
-    "main": "I fell in love with WRAP.",
-    "emph": [
-     "WRAP"
+    "name": "Intentional Peer Support",
+    "lines": [
+     "Inside the walls, and outside them.",
+     "mha-ne.org"
     ]
    },
-   "src": "Group member, 20260910_C4778.MP4 [00:50] (transcript writes “rap”; it is WRAP)",
-   "rows": [
-    "01:28–01:38"
-   ],
-   "use": "Full-frame cutaway on this line, only if Nick asks for one. WRAP in capitals."
+   "dur": 4.0,
+   "use": "This is the end card. Put it at 02:12 after the last line and hold it to the end."
   }
  ]
 }

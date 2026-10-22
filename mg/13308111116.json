@@ -1,100 +1,137 @@
 {
  "item": "13308111116",
  "client": "niwrc",
- "note": "The plan says her face only, with captions and the planned key words, so 6 top-band overlays and no full-frame cards.",
+ "note": "The script asks for the hook text, Christie's name super and key words on four rows, so six graphics. The end card is NIWRC's own.",
  "mg": [
   {
    "n": 1,
-   "title": "Take it more seriously",
+   "title": "Hook text",
    "tpl": "highlight_callout",
-   "dur": 3,
+   "dur": 5,
    "pos": "top",
    "text": {
-    "main": "take it more seriously"
+    "main": "YOU DON’T HEAR ABOUT IT."
    },
-   "src": "Christie Modlin, C2 Event 12 [02:58]. Key words in the plan for row 00:05-00:19.",
+   "cue": "Hook text on frame 1: “YOU DON’T HEAR ABOUT IT.” Already on screen at 0:00. Does not animate on.",
+   "src": "Script, row 00:00-00:05, Motion graphics & type.",
    "rows": [
-    "00:05-00:19"
+    "00:00-00:05"
    ],
-   "use": "The plan's key words for this row, as she says them. Only after the name super is gone, from 00:07."
+   "use": "Hook text over her face from frame 1. Start the clip at frame 0045 (fully on) and hold it until the cut at 00:05."
   },
   {
    "n": 2,
-   "title": "Programs in place",
-   "tpl": "highlight_callout",
-   "dur": 3,
-   "pos": "top",
+   "title": "Christie name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
    "text": {
-    "main": "we have these programs in place."
+    "main": "Christie Modlin",
+    "sub": "Secretary, Iowa Tribe of Oklahoma · NIWRC Board"
    },
-   "src": "Christie Modlin, C2 Event 12 [02:22]",
+   "cue": "Name super at 00:05, lower left, 2 seconds: “Christie Modlin” / “Secretary, Iowa Tribe of Oklahoma · NIWRC Board”.",
+   "src": "Script, row 00:05-00:19, Motion graphics & type.",
    "rows": [
-    "00:19-00:30"
+    "00:05-00:19"
    ],
-   "use": "Over her face as she says it. This is the turn to hope. Keep captions on."
+   "use": "Name super at 00:05 for 2 seconds. Move it lower left, above the captions. Its second line is “Secretary, Iowa Tribe of Oklahoma · NIWRC Board”, exactly as written."
   },
   {
    "n": 3,
-   "title": "A safe house",
-   "tpl": "highlight_callout",
+   "title": "Take it more seriously",
+   "tpl": "word_stack",
    "dur": 3,
    "pos": "top",
    "text": {
-    "main": "a safe house for our women"
+    "items": [
+     "take it more seriously"
+    ]
    },
-   "src": "Christie Modlin, C2 Event 12 [02:28]. Key words in the plan for row 00:19-00:30.",
+   "cue": "Then key words: “take it more seriously”.",
+   "src": "Script, row 00:05-00:19, Motion graphics & type.",
    "rows": [
-    "00:19-00:30"
+    "00:05-00:19"
    ],
-   "use": "The plan's key words for this row, as she says them. After MG 2 is gone."
+   "use": "Key words in the top third, after the name super. Put them on as she says “take it more seriously”."
   },
   {
    "n": 4,
-   "title": "Advocacy and awareness",
+   "title": "Safe house for women",
    "tpl": "word_stack",
-   "dur": 4,
-   "pos": "upper",
+   "dur": 3.5,
+   "pos": "top",
+   "text": {
+    "items": [
+     "a safe house",
+     "for our women"
+    ]
+   },
+   "cue": "Key words as she says them: “a safe house for our women”.",
+   "src": "Script, row 00:19-00:30, Motion graphics & type.",
+   "rows": [
+    "00:19-00:30"
+   ],
+   "use": "Key words in the top third. Put them on as she says “a safe house for our women”."
+  },
+  {
+   "n": 5,
+   "title": "Advocacy on the Hill",
+   "tpl": "word_stack",
+   "dur": 5,
+   "pos": "top",
    "text": {
     "items": [
      "advocacy and awareness",
      "on the Hill"
     ]
    },
-   "src": "Christie Modlin, C2 Event 12 [03:44]–[03:50]. Key words in the plan for row 00:30-00:43.",
+   "cue": "Key words: “advocacy and awareness” · “on the Hill”.",
+   "src": "Script, row 00:30-00:43, Motion graphics & type.",
    "rows": [
     "00:30-00:43"
    ],
-   "use": "The plan's key words for this row. Each line lands on her voice. Stay on her face."
-  },
-  {
-   "n": 5,
-   "title": "All of us are precious",
-   "tpl": "highlight_callout",
-   "dur": 3,
-   "pos": "top",
-   "text": {
-    "main": "All of us are precious."
-   },
-   "src": "Christie Modlin, C1 Event 22 [00:59]. Key word in the plan for row 00:43-00:56.",
-   "rows": [
-    "00:43-00:56"
-   ],
-   "use": "On the vertical file, as she says it. Leave her face clear. Keep captions on."
+   "use": "Key words in the top third. Put them on as she says “advocacy and awareness” and hold through “on the Hill”."
   },
   {
    "n": 6,
-   "title": "Safe and loved tag",
-   "tpl": "tag_label",
-   "dur": 3,
-   "pos": "upper",
+   "title": "Precious, safe and loved",
+   "tpl": "word_stack",
+   "dur": 6,
+   "pos": "top",
    "text": {
-    "main": "Safe and loved"
+    "items": [
+     "precious",
+     "safe and loved"
+    ]
    },
-   "src": "Christie Modlin, C1 Event 22 [01:01]. Key words in the plan for row 00:43-00:56.",
+   "cue": "Key words: “precious” · “safe and loved”.",
+   "src": "Script, row 00:43-00:56, Motion graphics & type.",
    "rows": [
     "00:43-00:56"
    ],
-   "use": "After MG 5 is gone, on “safe and loved”. Off before the 1 second hold after “danger”."
+   "use": "Key words in the top third. Put them on as she says “precious” and hold through “safe and loved”."
+  },
+  {
+   "n": 7,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:56-01:00"
+   ],
+   "cue": "No logo before this card.",
+   "src": "NIWRC logo (white) from NIWRC's onboarding brand file, in the brand kit 10 Oct 2026. Client rule: white logo on red.",
+   "c": {
+    "bg": "#981C20",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/niwrc/niwrc-logo-white.svg",
+   "text": {
+    "lines": [
+     "niwrc.org"
+    ]
+   },
+   "dur": 4.0,
+   "use": "This is the end card. Put it at 00:56 after the last line and hold it to the end."
   }
  ]
 }

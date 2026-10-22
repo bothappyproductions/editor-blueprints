@@ -1,46 +1,20 @@
 {
  "item": "13243711760",
  "client": "s4s",
- "note": "This is a cut-down of the approved 001-4, not a new edit: keep what already works and the same captions. Add a graphic only if Rachel asks for one.",
+ "note": "The script asks for no graphics: every row keeps the captions from 001-4, and the corner Soles4Souls bug is the client's logo. Row 00:24–00:30 only says keep the captions clear of the handwritten thank-you card in frame, which is not a graphic.",
  "mg": [
   {
    "n": 1,
-   "title": "Frame her selfie",
-   "tpl": "corner_frame",
-   "dur": 2.5,
-   "text": {},
-   "src": "Brackets only, no text.",
+   "title": "End card",
+   "tpl": "end_card",
    "rows": [
-    "00:08–00:14"
+    "00:40–00:45"
    ],
-   "use": "Brackets around her face in the selfie. Keep them away from the captions."
-  },
-  {
-   "n": 2,
-   "title": "S4S teal wipe",
-   "tpl": "brand_wipe",
-   "dur": 1.6,
-   "text": {},
-   "src": "Transition, no text.",
-   "rows": [
-    "00:19–00:24"
-   ],
-   "use": "Cut into the nail-painting B-roll at the middle of the wipe. Use it once."
-  },
-  {
-   "n": 3,
-   "title": "Around the world tag",
-   "tpl": "tag_label",
-   "dur": 2.5,
-   "pos": "upper",
-   "text": {
-    "main": "Around the world"
-   },
-   "src": "Burned-in caption in 001-4 at [01:00] “around the world.”",
-   "rows": [
-    "00:19–00:24"
-   ],
-   "use": "Small tag over the nail-painting B-roll, when the voice says around the world."
+   "cue": "Nothing added. No extra text under it.",
+   "src": "Soles4Souls' new typography end card (S4S art director, locked 8/13), taken unchanged from the tail of the delivered Traditional_S4SBronxLuisWarehouseToCommunity001-4.mp4 (Drive, 21 Oct 2026). The .ai source is with Nick/Almi.",
+   "file": "endcards/s4s/s4s-typography-end-card.mp4",
+   "dur": 2.8,
+   "use": "This is the end card, the client's own file. Put it at 00:40 after the last line and use it exactly as it is."
   }
  ]
 }

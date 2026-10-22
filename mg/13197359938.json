@@ -1,129 +1,84 @@
 {
  "item": "13197359938",
  "client": "aij",
- "note": "The plan shows each prompt as text and keeps captions only on the one-word answers. Use these only if Nick or Andrés asks for more, and never join two people's words.",
+ "note": "The script asks for four graphics: the HOPE IS… hook text, name plates for Paul Chavez and Cheryl Little (names only: Paul's title is too long for the tag and Cheryl's title is in her gala film, not this script) and the AIJ IN ONE WORD section text. Row 00:27–00:36 asks for WHERE HOPE MEETS THE LAW, but the blueprint marks that row as part of the end card, so it is not made.",
  "mg": [
   {
    "n": 1,
-   "title": "Your future",
-   "tpl": "kinetic_quote",
-   "dur": 5,
+   "title": "Hope is hook",
+   "tpl": "highlight_callout",
+   "dur": 2,
    "pos": "top",
    "text": {
-    "main": "hope is knowing that your future is not defined by your immigration status",
-    "emph": [
-     "hope",
-     "future"
-    ]
+    "main": "HOPE IS…"
    },
-   "src": "Paul Chavez, C9279 [01:42]–[01:49]",
+   "cue": "Text on frame 1: HOPE IS… Big, white, Filson Pro Heavy. Cut on, no fade.",
+   "src": "Script, row 00:00–00:02, Motion graphics & type.",
    "rows": [
-    "00:02–00:13"
+    "00:00–00:02"
    ],
-   "use": "Over Paul as he says it, after his name plate is gone. Keep captions on."
+   "use": "The script wants it cut on with no fade. Start the clip at frame 0045 (fully on) and hold it until 00:02."
   },
   {
    "n": 2,
-   "title": "Stand with you",
-   "tpl": "highlight_callout",
-   "dur": 3,
-   "pos": "top",
+   "title": "Paul Chavez plate",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
    "text": {
-    "main": "someone will stand with you"
+    "main": "Paul Chavez"
    },
-   "src": "Paul Chavez, C9279 [01:49]",
+   "cue": "Name plate at first sight, lower left, 2 s, small: Paul Chavez",
+   "src": "Script, row 00:02–00:13, Motion graphics & type.",
    "rows": [
     "00:02–00:13"
    ],
-   "use": "Over Paul on the second half of his line. Not at the same time as MG 1."
+   "use": "Put it on the first frame Paul is on screen and hold it 2 seconds. Move it lower left and keep it small."
   },
   {
    "n": 3,
-   "title": "Keep hope alive",
-   "tpl": "highlight_callout",
+   "title": "Cheryl Little plate",
+   "tpl": "tag_label",
    "dur": 2,
-   "pos": "top",
+   "pos": "center",
    "text": {
-    "main": "Keep hope alive."
+    "main": "Cheryl Little"
    },
-   "src": "Cheryl Little, FX3-3760 [00:50]",
+   "cue": "Name plate, lower left, 2 s: Cheryl Little",
+   "src": "Script, row 00:13–00:15, Motion graphics & type.",
    "rows": [
     "00:13–00:15"
    ],
-   "use": "Over Cheryl as she says it. Top band only, her name plate stays lower left."
+   "use": "Put it on when Cheryl appears at 00:13 and hold it 2 seconds. Move it lower left and keep it small."
   },
   {
    "n": 4,
-   "title": "In one word is hope",
+   "title": "AIJ in one word",
    "tpl": "highlight_callout",
    "dur": 2,
    "pos": "top",
    "text": {
-    "main": "Americans for Immigrant Justice in one word is hope."
+    "main": "AIJ IN ONE WORD"
    },
-   "src": "Sui Chung, FX3-3732 [01:18]",
+   "cue": "Section text, top: AIJ IN ONE WORD. On screen 2 s.",
+   "src": "Script, row 00:15–00:19, Motion graphics & type.",
    "rows": [
     "00:15–00:19"
    ],
-   "use": "Over Sui on “is hope”, only after the section text is gone. Org name in full."
+   "use": "Section text at the top for 2 seconds as this row starts. AIJ wants its name in full on screen, so check this line with Nick before you use it."
   },
   {
    "n": 5,
-   "title": "Fearless",
-   "tpl": "quote_card",
-   "dur": 4,
-   "text": {
-    "main": "Americans for Immigrant Justice in one word, I would say is fearless.",
-    "who": "Paul Chavez"
-   },
-   "src": "Paul Chavez, C9279 [01:09] (take 2)",
+   "title": "End card",
+   "tpl": "end_card",
    "rows": [
-    "00:23–00:27"
+    "00:36–00:40"
    ],
-   "use": "Full-frame cutaway on Paul's take 2. Keep his audio under."
-  },
-  {
-   "n": 6,
-   "title": "AIJ color wipe",
-   "tpl": "brand_wipe",
-   "dur": 1.6,
-   "text": {},
-   "src": "Transition, no text.",
-   "rows": [
-    "00:27–00:36"
-   ],
-   "use": "Cut into the last section at the middle of the wipe, before the section text. Use it once."
-  },
-  {
-   "n": 7,
-   "title": "Something within reach",
-   "tpl": "list_card",
-   "dur": 5,
-   "text": {
-    "main": "Where hope meets the law",
-    "items": [
-     "Something accessible",
-     "Something within reach",
-     "Something you can aspire to"
-    ]
-   },
-   "src": "Sui Chung, FX3-3732 [02:53]",
-   "rows": [
-    "00:27–00:36"
-   ],
-   "use": "Full-frame cutaway over Sui's answer. Let each line land on her words. Back to Sui for the 1 s hold."
-  },
-  {
-   "n": 8,
-   "title": "Focus on Cheryl",
-   "tpl": "corner_frame",
-   "dur": 2,
-   "text": {},
-   "src": "Brackets only, no text.",
-   "rows": [
-    "00:19–00:23"
-   ],
-   "use": "Brackets around Cheryl on the close B-cam angle. Move it to where she sits."
+   "cue": "Tagline before the logo: “WHERE HOPE MEETS THE LAW”. Then Horizontal Animated logo. Logo here only.",
+   "src": "AIJ's own Vertical Animated logo (Mobile Video).mp4 from the AIJ Outros/Intros pack (Drive), the newest outro AIJ has given us.",
+   "file": "endcards/aij/aij-animated-logo-9x16.mp4",
+   "dur": 6,
+   "use": "This is the end card, the client's own file. Put it at 00:36 after the last line and use it exactly as it is. The tagline WHERE HOPE MEETS LAW is part of AIJ's own animation."
   }
  ]
 }

@@ -1,118 +1,95 @@
 {
  "item": "13282794183",
  "client": "dream-center-dallas",
- "note": "The plan has captions only on most rows, stays on his face for the door line, and has two cards of its own (MG 2 and MG 7). Use the rest only if Nick asks for more.",
+ "note": "The script asks for four graphics: the hook text, Freddy's name super, the “English classes · Mondays” card and the “Bilingual volunteers needed · once a month” card. Every other row is captions only.",
  "mg": [
   {
    "n": 1,
-   "title": "Test your English",
+   "title": "Hook text",
    "tpl": "highlight_callout",
-   "dur": 3,
+   "dur": 10,
    "pos": "top",
    "text": {
-    "main": "if you come I'm gonna test your English"
+    "main": "MY STUDENTS WERE IN THE LINE"
    },
-   "src": "Freddy, Interview31 00:59 to 01:10 (voice line in this blueprint; no transcript file)",
+   "cue": "Hook text on frame 1: “MY STUDENTS WERE IN THE LINE”. Already on screen at 0:00. It does not animate on.",
+   "src": "Script, row 00:00-00:11, Motion graphics & type.",
    "rows": [
     "00:00-00:11"
    ],
-   "use": "On the cut back to him, as he says it. Only after the hook text goes out. If the hook text stays to 0:11, skip it."
+   "use": "Hook text over his face from frame 1. Start the clip at frame 0045 (fully on) and hold it until 00:10."
   },
   {
    "n": 2,
-   "title": "English classes card",
+   "title": "Freddy name super",
    "tpl": "tag_label",
    "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Pastor Freddy Portales",
+    "sub": "Dream Center Dallas"
+   },
+   "cue": "Name super at 00:11, lower left, 3 seconds: “Pastor Freddy Portales” / “Dream Center Dallas”.",
+   "src": "Script, row 00:11-00:16, Motion graphics & type.",
+   "rows": [
+    "00:11-00:16"
+   ],
+   "use": "Name super at 00:11 for 3 seconds. Move it lower left, above the captions. Its second line is “Dream Center Dallas”. Check it spells Portales."
+  },
+  {
+   "n": 3,
+   "title": "English classes card",
+   "tpl": "tag_label",
+   "dur": 5,
    "pos": "upper",
    "text": {
     "main": "English classes · Mondays"
    },
-   "src": "Card text written in this blueprint (row 00:11). Freddy: “on Mondays, I also teach English classes”.",
+   "cue": "Card: “English classes · Mondays”.",
+   "src": "Script, row 00:11-00:16, Motion graphics & type.",
    "rows": [
     "00:11-00:16"
    ],
-   "use": "The plan's card, as he says “on Mondays”. Keep it clear of the name super."
-  },
-  {
-   "n": 3,
-   "title": "A way to bond",
-   "tpl": "highlight_callout",
-   "dur": 3.5,
-   "pos": "top",
-   "text": {
-    "main": "it was a neat way to kind of bond with them"
-   },
-   "src": "Freddy, Interview31 01:10 (voice line in this blueprint)",
-   "rows": [
-    "00:16-00:26"
-   ],
-   "use": "Over the volunteers and neighbors as he says it."
+   "use": "Show it for this whole row, 00:11 to 00:16, near the top of the frame, above the name super."
   },
   {
    "n": 4,
-   "title": "Practice and connect",
-   "tpl": "word_stack",
-   "dur": 4,
-   "pos": "top",
-   "text": {
-    "items": [
-     "Practice their English",
-     "Connect with them"
-    ]
-   },
-   "src": "Freddy, Interview31 01:10 to 01:20 (voice line in this blueprint)",
-   "rows": [
-    "00:16-00:26"
-   ],
-   "use": "Each line lands on his word, after MG 3. Above the subtitles, never on top of them."
-  },
-  {
-   "n": 5,
-   "title": "Oak Cliff tag",
-   "tpl": "tag_label",
-   "dur": 3,
-   "pos": "upper",
-   "text": {
-    "main": "Oak Cliff"
-   },
-   "src": "Freddy, Interview31 00:14 “we've been in Oak Cliff”",
-   "rows": [
-    "00:26-00:36"
-   ],
-   "use": "On “Oak Cliff”, over the families in the line. One text at a time."
-  },
-  {
-   "n": 6,
-   "title": "Open the door",
-   "tpl": "kinetic_quote",
-   "dur": 5,
-   "pos": "top",
-   "text": {
-    "main": "the physical need of the community groceries clothing that will open the door to the spiritual need in their life",
-    "emph": [
-     "door"
-    ]
-   },
-   "src": "Freddy, Interview31 02:12 to 02:21 (voice line in this blueprint)",
-   "rows": [
-    "00:36-00:45"
-   ],
-   "use": "Over his face as he says it. Stay on his face. Keep subtitles on."
-  },
-  {
-   "n": 7,
    "title": "Bilingual volunteers card",
    "tpl": "highlight_callout",
-   "dur": 3.5,
+   "dur": 7,
    "pos": "top",
    "text": {
     "main": "Bilingual volunteers needed · once a month"
    },
-   "src": "Card text written in this blueprint (row 00:45). Freddy: “we need a lot of bilingual volunteers come come once a month”.",
+   "cue": "Card at “bilingual volunteers”: “Bilingual volunteers needed · once a month”.",
+   "src": "Script, row 00:45-00:58, Motion graphics & type.",
    "rows": [
     "00:45-00:58"
    ],
-   "use": "The plan's card, on “bilingual volunteers”. Same text, once."
+   "use": "Put it on at the words “bilingual volunteers”, top third. Hold it until 00:58, the end of the row."
+  },
+  {
+   "n": 5,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:58-01:01"
+   ],
+   "cue": "No logo before the end card.",
+   "src": "Dream Center Dallas has not sent its logo yet; the name is typed until Nick sends it, as the script says.",
+   "c": {
+    "bg": "#75B941",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "Dream Center Dallas",
+    "lines": [
+     "Volunteer once a month.",
+     "Adopt-A-Block · Oak Cliff"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 00:58 after the last line and hold it to the end."
   }
  ]
 }

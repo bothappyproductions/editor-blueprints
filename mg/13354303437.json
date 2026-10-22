@@ -1,19 +1,58 @@
 {
  "item": "13354303437",
  "client": "momcozy",
- "note": "This is a no-words comedy cut and the plan wants no text except the two title cards, so 1 graphic.",
+ "note": "The script asks for two graphics: the title text “What I Imagined Life with a Baby Would Be Like”, already on screen at 0:00, and the title “Reality…” on black at 00:12. Every other row has no text, and the end card is Momcozy's own logo.",
  "mg": [
   {
    "n": 1,
-   "tpl": "corner_frame",
-   "title": "Vacuum left alone",
-   "dur": 2,
-   "text": {},
-   "src": "Label only, no claim.",
+   "title": "What I imagined title",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "What I Imagined Life with a Baby Would Be Like"
+   },
+   "cue": "Title text on frame 1: “What I Imagined Life with a Baby Would Be Like” Already on screen at 0:00. Does not animate on.",
+   "src": "Script, row 00:00-00:03, Motion graphics & type.",
    "rows": [
-    "00:25-00:29"
+    "00:00-00:03"
    ],
-   "use": "Brackets close in on the vacuum standing alone after she runs off. Keep it short."
+   "use": "This is the title text, top third, over the blurred shot. Start the clip at frame 0045 (fully on) and hold it until 00:03."
+  },
+  {
+   "n": 2,
+   "title": "Reality title",
+   "tpl": "highlight_callout",
+   "dur": 1.6,
+   "pos": "center",
+   "text": {
+    "main": "Reality…"
+   },
+   "cue": "Title text on black: “Reality…” Center, white Inter Bold. Hold 1 s. Hard cut in, hard cut out.",
+   "src": "Script, row 00:12-00:13, Motion graphics & type.",
+   "rows": [
+    "00:12-00:13"
+   ],
+   "use": "Put it in the center over a black frame. Hard cut it in at 00:12 and hard cut it out at 00:13, so it is on for 1 second."
+  },
+  {
+   "n": 3,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:29-00:31"
+   ],
+   "cue": "First logo in the whole video. Short fade in.",
+   "src": "Momcozy wordmark as Momcozy specified it (MOMCOZY in caps, Cozy Chestnut #6A2B3A, Inter; spec locked 19 Aug 2026). No logo file has been sent.",
+   "c": {
+    "bg": "#FEF9F6",
+    "fg": "#6A2B3A"
+   },
+   "text": {
+    "name": "MOMCOZY"
+   },
+   "dur": 2.5,
+   "use": "This is the end card. Put it at 00:29 after the last line and hold it to the end."
   }
  ]
 }

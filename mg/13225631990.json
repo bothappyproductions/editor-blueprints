@@ -1,129 +1,52 @@
 {
  "item": "13225631990",
  "client": "s4s",
- "note": "The plan says stay on her for the sailing and golfing part, so only top overlays sit on 00:13–00:24.",
+ "note": "The script asks for two graphics on the hook row: the hook text “People willing to fight for you.” and the name super “Anaya, 16”. Row 00:24–00:36 only asks for the caption spelling “Foot Locker”, which is the editor's caption, so no graphic.",
  "mg": [
   {
    "n": 1,
-   "title": "11th grade tag",
-   "tpl": "tag_label",
-   "dur": 3,
-   "pos": "upper",
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 6,
+   "pos": "top",
    "text": {
-    "main": "11th grade"
+    "main": "People willing to fight for you."
    },
-   "src": "Anaya, 030_3168.MXF [04:05] “the 11th grade is the year I'm in now”",
+   "cue": "Hook text on frame 1, top third, big: “People willing to fight for you.”",
+   "src": "Script, row 00:00–00:06, Motion graphics & type.",
    "rows": [
-    "00:06–00:13"
+    "00:00–00:06"
    ],
-   "use": "Small, upper left, on “11th grade”. The name super is gone by then."
+   "use": "Big hook text in the top third from frame 1. Hold it to the end of the row at 00:06."
   },
   {
    "n": 2,
-   "title": "Sailing and golfing",
-   "tpl": "word_stack",
-   "dur": 3,
-   "pos": "top",
+   "title": "Anaya name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
    "text": {
-    "items": [
-     "Sailing",
-     "Golfing"
-    ]
+    "main": "Anaya, 16"
    },
-   "src": "Anaya, 030_3168.MXF [04:45] “I went sailing and golfing”",
+   "cue": "Name super 00:03–00:05, lower left, small: “Anaya, 16”.",
+   "src": "Script, row 00:00–00:06, Motion graphics & type.",
    "rows": [
-    "00:13–00:24"
+    "00:00–00:06"
    ],
-   "use": "Each word lands on her voice, in the top band. Stay on her face. No stock."
+   "use": "Name super from 00:03 to 00:05, small. Move it lower left, above the captions."
   },
   {
    "n": 3,
-   "title": "Minnesota tag",
-   "tpl": "tag_label",
-   "dur": 3,
-   "pos": "upper",
-   "text": {
-    "main": "Minnesota"
-   },
-   "src": "Anaya, 030_3168.MXF [04:50] “find my community in Minnesota”",
+   "title": "End card",
+   "tpl": "end_card",
    "rows": [
-    "00:13–00:24"
+    "00:45–00:48"
    ],
-   "use": "Small, upper left, on “Minnesota”. Not at the same time as MG2."
-  },
-  {
-   "n": 4,
-   "title": "She knew him",
-   "tpl": "statement_card",
-   "dur": 4,
-   "text": {
-    "main": "I actually knew one of the people that was helping with the event today.",
-    "emph": [
-     "knew"
-    ]
-   },
-   "src": "Anaya, 030_3168.MXF [02:25]",
-   "rows": [
-    "00:24–00:36"
-   ],
-   "use": "Short full-frame cutaway on her first line of the row, then back to her."
-  },
-  {
-   "n": 5,
-   "title": "Her style",
-   "tpl": "highlight_callout",
-   "dur": 3,
-   "pos": "top",
-   "text": {
-    "main": "a style that I had got for back-to-school"
-   },
-   "src": "Anaya, 030_3168.MXF [02:32]",
-   "rows": [
-    "00:24–00:36"
-   ],
-   "use": "Over her as she says it. Off before the shoe box shot. Keep captions on."
-  },
-  {
-   "n": 6,
-   "title": "Tried them on",
-   "tpl": "highlight_callout",
-   "dur": 2,
-   "pos": "top",
-   "text": {
-    "main": "I tried them on briefly just to see if they fit"
-   },
-   "src": "Anaya, 030_3168.MXF [02:47]",
-   "rows": [
-    "00:36–00:40"
-   ],
-   "use": "Over her face as she says it. Keep captions on."
-  },
-  {
-   "n": 7,
-   "title": "The shoes today",
-   "tpl": "highlight_callout",
-   "dur": 2,
-   "pos": "top",
-   "text": {
-    "main": "These are the shoes that I got today."
-   },
-   "src": "Anaya, 030_3168.MXF [02:03]",
-   "rows": [
-    "00:40–00:45"
-   ],
-   "use": "Top band, as she holds up the shoe and says it. Keep captions on."
-  },
-  {
-   "n": 8,
-   "title": "Frame the shoe",
-   "tpl": "corner_frame",
-   "dur": 3,
-   "text": {},
-   "src": "Brackets only, no text.",
-   "rows": [
-    "00:40–00:45"
-   ],
-   "use": "Brackets around the pink and white shoe she holds up. Move them to where the shoe is."
+   "cue": "No logo before this card.",
+   "src": "Soles4Souls' new typography end card (S4S art director, locked 8/13), taken unchanged from the tail of the delivered Traditional_S4SBronxLuisWarehouseToCommunity001-4.mp4 (Drive, 21 Oct 2026). The .ai source is with Nick/Almi.",
+   "file": "endcards/s4s/s4s-typography-end-card.mp4",
+   "dur": 2.8,
+   "use": "This is the end card, the client's own file. Put it at 00:45 after the last line and use it exactly as it is."
   }
  ]
 }

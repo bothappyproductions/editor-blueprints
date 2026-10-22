@@ -1,62 +1,64 @@
 {
  "item": "13308129747",
  "client": "niwrc",
- "note": "Short three-bite cut and the plan wants only her key words on screen, so 5 graphics.",
+ "note": "The script asks for five graphics: the hook text, Kerri's name super, her key words in two groups and “thrive” alone. The super shows “Kerri Colfer” only, because the one-line tag cannot hold her full title “Director of Policy and Research, NIWRC” and NIWRC wants titles exactly as given, never shortened.",
  "mg": [
   {
    "n": 1,
-   "title": "Policy and advocacy tag",
-   "tpl": "tag_label",
-   "dur": 2,
-   "pos": "upper",
+   "title": "Safety starts with policy",
+   "tpl": "highlight_callout",
+   "dur": 7,
+   "pos": "top",
    "text": {
-    "main": "Policy and advocacy"
+    "main": "SAFETY STARTS WITH POLICY."
    },
-   "src": "Kerri Colfer, C1 Event 18 [01:03] “how policy and advocacy can help create the conditions”.",
+   "cue": "Hook text on frame 1: “SAFETY STARTS WITH POLICY.” Already on screen at 0:00. Does not animate on.",
+   "src": "Script, row 00:00-00:07, Motion graphics & type.",
    "rows": [
     "00:00-00:07"
    ],
-   "use": "Only after the hook text is gone. Small, as she says “policy and advocacy”."
+   "use": "Hook text, already on screen at 0:00. Start the clip at frame 0045 (fully on) and hold it until 00:07."
   },
   {
    "n": 2,
-   "title": "Policy-driven data",
-   "tpl": "word_stack",
-   "dur": 3,
-   "pos": "top",
+   "title": "Kerri name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
    "text": {
-    "items": [
-     "policy-driven data"
-    ]
+    "main": "Kerri Colfer"
    },
-   "src": "Key words in row 00:07-00:24 of this blueprint. Kerri Colfer, C2 Event 10 [01:31].",
+   "cue": "Name super at 00:07, lower left, 2 seconds: “Kerri Colfer” / “Director of Policy and Research, NIWRC”.",
+   "src": "Script, row 00:07-00:24, Motion graphics & type.",
    "rows": [
     "00:07-00:24"
    ],
-   "use": "The first key word the plan asks for. Lands as she says it, after the name super is gone."
+   "use": "Name super at 00:07 for 2 seconds. Move it lower left, above the captions."
   },
   {
    "n": 3,
-   "title": "Policy change",
+   "title": "Policy key words",
    "tpl": "word_stack",
-   "dur": 3,
+   "dur": 10,
    "pos": "top",
    "text": {
     "items": [
+     "policy-driven data",
      "policy change"
     ]
    },
-   "src": "Key words in row 00:07-00:24 of this blueprint. Kerri Colfer, C2 Event 10 [01:37].",
+   "cue": "Then key words as she says them: “policy-driven data” · “policy change”.",
+   "src": "Script, row 00:07-00:24, Motion graphics & type.",
    "rows": [
     "00:07-00:24"
    ],
-   "use": "The second key word. Lands as she says it, after MG 2 is gone."
+   "use": "Start it when she says “policy-driven data”, after the name super. Hold the frame after the first words come in, then let “policy change” come in when she says it."
   },
   {
    "n": 4,
-   "title": "What lets people thrive",
+   "title": "Conditions key words",
    "tpl": "word_stack",
-   "dur": 5,
+   "dur": 6,
    "pos": "top",
    "text": {
     "items": [
@@ -65,15 +67,16 @@
      "culturally tailored services"
     ]
    },
-   "src": "Key words in the BUTTON row of this blueprint. Kerri Colfer, C1 Event 18 [03:11].",
+   "cue": "Key words as she says them: “stable housing” · “economic security” · “culturally tailored services”.",
+   "src": "Script, row 00:24-00:32, Motion graphics & type.",
    "rows": [
     "00:24-00:32"
    ],
-   "use": "The key words the plan asks for. Each line lands on her word. Then MG 5."
+   "use": "Start it when she says “stable housing”. Hold the frame between the words so each one comes in as she says it."
   },
   {
    "n": 5,
-   "title": "Thrive",
+   "title": "Thrive alone",
    "tpl": "word_stack",
    "dur": 2,
    "pos": "top",
@@ -82,11 +85,34 @@
      "thrive"
     ]
    },
-   "src": "Key word in the BUTTON row of this blueprint. Kerri Colfer, C1 Event 18 [03:17].",
+   "cue": "Then “thrive” alone.",
+   "src": "Script, row 00:24-00:32, Motion graphics & type.",
    "rows": [
     "00:24-00:32"
    ],
-   "use": "“thrive” alone, as she says it, after MG 4 is gone. Then hold one second on her face."
+   "use": "Put it on her word “thrive”, alone, and hold it through the 1 second on her face after it."
+  },
+  {
+   "n": 6,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:32-00:36"
+   ],
+   "cue": "No logo before this card.",
+   "src": "NIWRC logo (white) from NIWRC's onboarding brand file, in the brand kit 10 Oct 2026. Client rule: white logo on red.",
+   "c": {
+    "bg": "#981C20",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/niwrc/niwrc-logo-white.svg",
+   "text": {
+    "lines": [
+     "niwrc.org"
+    ]
+   },
+   "dur": 4.0,
+   "use": "This is the end card. Put it at 00:32 after the last line and hold it to the end."
   }
  ]
 }

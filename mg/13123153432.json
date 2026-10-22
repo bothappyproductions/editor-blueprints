@@ -1,149 +1,173 @@
 {
  "item": "13123153432",
  "client": "watsi",
+ "note": "The script asks for the hook text, the question as top text and seven large name supers. Row 00:39–00:43 asks for the line “$10 Watsi gift card · picks a real patient”, which puts a money amount on screen, so no graphic.",
  "mg": [
   {
    "n": 1,
-   "title": "Absolutely",
-   "tpl": "word_stack",
-   "dur": 2,
-   "pos": "upper",
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 5.5,
+   "pos": "top",
    "text": {
-    "items": [
-     "Absolutely",
-     "For sure"
-    ]
+    "main": "Are you going to ask me for money?"
    },
-   "src": "Man (no name), 20260922_C5071.MP4 [00:08]",
+   "cue": "Top text from frame 1, top third: “Are you going to ask me for money?” (her words).",
+   "src": "Script, row 00:00–00:05, Motion graphics & type.",
    "rows": [
-    "00:09–00:12"
+    "00:00–00:05"
    ],
-   "use": "Only after the question text is gone. Each word lands on his voice. No name on it."
+   "use": "Gori's words as top text in the top third. It cuts on with no animation. Start the clip at frame 0045 (fully on) and hold it until 00:05.5."
   },
   {
    "n": 2,
-   "title": "Good back",
+   "title": "The question",
    "tpl": "highlight_callout",
-   "dur": 3,
+   "dur": 5,
    "pos": "top",
    "text": {
-    "main": "I think when we put good out, we get good back"
+    "main": "Would you ever help someone that you've never met before?"
    },
-   "src": "Maddie, 20260922_C5084.MP4 [00:15]",
+   "cue": "Then the question as top text: “Would you ever help someone that you've never met before?” Stays 5 s.",
+   "src": "Script, row 00:05–00:09, Motion graphics & type.",
    "rows": [
-    "00:12–00:16"
+    "00:05–00:09"
    ],
-   "use": "Over Maddie as she says it, after her name super is gone. Skip it if this row is lifted."
+   "use": "Put it on at 00:05.5, when the hook text goes out. Top third, hold it 5 seconds."
   },
   {
    "n": 3,
-   "title": "Remembered for good",
-   "tpl": "kinetic_quote",
-   "dur": 3,
-   "pos": "top",
+   "title": "Maddie name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
    "text": {
-    "main": "it's kind of nice if you are remembered for a good thing.",
-    "emph": [
-     "remembered",
-     "good"
-    ]
+    "main": "Maddie"
    },
-   "src": "Zane, 20260922_C5076.MP4 [00:28]–[00:34]",
+   "cue": "Name super “Maddie” at on her first word, lower left, above the captions, large.",
+   "src": "Script, row 00:12–00:16, Motion graphics & type.",
    "rows": [
-    "00:16–00:21"
+    "00:12–00:16"
    ],
-   "use": "Over Zane as he says it, after his name super is gone. Skip it if this row is lifted. Keep captions on."
+   "use": "Put it on at her first word for 2 seconds. Move it lower left, above the captions, and scale it up so it reads large."
   },
   {
    "n": 4,
-   "title": "Bryant Park tag",
+   "title": "Zane name super",
    "tpl": "tag_label",
-   "dur": 3,
-   "pos": "upper",
+   "dur": 2,
+   "pos": "center",
    "text": {
-    "main": "Bryant Park"
+    "main": "Zane"
    },
-   "src": "Shoot location in the transcript header (Bryant Park, 22 Sep 2026).",
+   "cue": "Name super “Zane” at on his first word, lower left, above the captions, large.",
+   "src": "Script, row 00:16–00:21, Motion graphics & type.",
    "rows": [
-    "00:21–00:33"
+    "00:16–00:21"
    ],
-   "use": "After Gori's name super is gone. One brand element at a time."
+   "use": "Put it on at his first word for 2 seconds. Move it lower left, above the captions, and scale it up so it reads large."
   },
   {
    "n": 5,
-   "title": "Another country",
-   "tpl": "quote_card",
-   "dur": 4,
+   "title": "Gori name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
    "text": {
-    "main": "why would I not be the same as the person in another country?",
-    "who": "Isha"
+    "main": "Gori"
    },
-   "src": "Isha, 20260922_C5090.MP4 [00:47]–[00:49]",
+   "cue": "Name super “Gori” at start of this row, lower left, above the captions, large.",
+   "src": "Script, row 00:21–00:33, Motion graphics & type.",
    "rows": [
-    "00:33–00:39"
+    "00:21–00:33"
    ],
-   "use": "Full-frame cutaway after her name super, as she says it. Keep her voice under."
+   "use": "Put it on at the start of this row (00:21) for 2 seconds. Move it lower left, above the captions, and scale it up so it reads large."
   },
   {
    "n": 6,
-   "title": "Focus on the card",
-   "tpl": "corner_frame",
-   "dur": 3,
-   "text": {},
-   "src": "Brackets only, no text.",
+   "title": "Isha name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Isha"
+   },
+   "cue": "Name super “Isha” at start of this row, lower left, above the captions, large.",
+   "src": "Script, row 00:33–00:39, Motion graphics & type.",
    "rows": [
-    "00:39–00:43"
+    "00:33–00:39"
    ],
-   "use": "Frames the card in the hands. Blur the code first. Move it to where the card sits."
+   "use": "Put it on at the start of this row (00:33) for 2 seconds. Move it lower left, above the captions, and scale it up so it reads large."
   },
   {
    "n": 7,
-   "title": "20 grandchildren",
-   "tpl": "number_card",
-   "dur": 4,
+   "title": "Paul name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
    "text": {
-    "number": "20",
-    "sub": "grandchildren",
-    "label": "There's a 74-year-old grandfather"
+    "main": "Paul"
    },
-   "src": "Maria, 20260922_C5089.MP4 [00:37]–[00:40]",
+   "cue": "Name super “Paul” at start of this row, lower left, above the captions, large.",
+   "src": "Script, row 00:43–00:50, Motion graphics & type.",
    "rows": [
-    "01:03–01:07"
+    "00:43–00:50"
    ],
-   "use": "Full-frame cutaway on her line, after her name super. Add nothing else about the patient."
+   "use": "Put it on at the start of this row (00:43) for 2 seconds. Move it lower left, above the captions, and scale it up so it reads large."
   },
   {
    "n": 8,
-   "title": "Not up to me",
-   "tpl": "statement_card",
-   "dur": 3,
+   "title": "Jai name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
    "text": {
-    "main": "it's not up to me",
-    "emph": [
-     "me"
-    ]
+    "main": "Jai"
    },
-   "src": "Isha, 20260922_C5091.MP4 [00:52]",
+   "cue": "Name super “Jai” at start of this row, lower left, above the captions, large.",
+   "src": "Script, row 00:50–00:53, Motion graphics & type.",
    "rows": [
-    "01:07–01:12"
+    "00:50–00:53"
    ],
-   "use": "Full-frame cutaway on her first words, then back to her phone."
+   "use": "Put it on at the start of this row (00:50) for 2 seconds. Move it lower left, above the captions, and scale it up so it reads large. The script names Jai, so check by voice that Jai is the one speaking."
   },
   {
    "n": 9,
-   "title": "Could be you",
-   "tpl": "highlight_callout",
-   "dur": 3,
-   "pos": "top",
+   "title": "Maria name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
    "text": {
-    "main": "you never know when it's going to be you"
+    "main": "Maria"
    },
-   "src": "Maria, 20260922_C5089.MP4 [01:12]",
+   "cue": "Name super “Maria” at when we cut to her, lower left, above the captions, large.",
+   "src": "Script, row 01:03–01:07, Motion graphics & type.",
    "rows": [
-    "01:24–01:31"
+    "01:03–01:07"
    ],
-   "use": "Over Maria as she says it. Out when she finishes the line, then hold on her face."
+   "use": "Put it on when we cut to her for 2 seconds. Move it lower left, above the captions, and scale it up so it reads large."
+  },
+  {
+   "n": 10,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:31–01:34"
+   ],
+   "cue": "“Tell us your story.” in September Spirit, then watsi.org/who-gives, lowercase, Lato. Nothing else: no logo lockup, no donate button, no sta",
+   "src": "Watsi's own end card words from the script (watsi.org, the Who Gives close, or the Watsi x AYH lines). Watsi's scripts say no logo lockup.",
+   "c": {
+    "bg": "#D3EDFA",
+    "fg": "#2E2844"
+   },
+   "text": {
+    "lines": [
+     "Tell us your story.",
+     "watsi.org/who-gives"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 01:31 after the last line and hold it to the end. The script wants Tell us your story. in September Spirit on the Who Gives gradient: swap the font and background if you have them."
   }
- ],
- "note": "The plan for this cut leaves room for only 9 graphics."
+ ]
 }

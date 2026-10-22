@@ -1,125 +1,58 @@
 {
  "item": "13221767542",
  "client": "gateway-gaston",
- "note": "Short voice-only cut and the plan keeps one built frame with captions, so 7 graphics. Use them only if Dwayne asks for more.",
+ "note": "The script asks for two graphics: the WHAT CAN YOU OFFER? hook text, which stays on into row 00:04–00:12 until “what you can offer”, and the Comment “I'm in” ask text. The logo is only on the end card.",
  "mg": [
   {
    "n": 1,
-   "title": "Skills and time",
-   "tpl": "word_stack",
-   "dur": 4,
-   "pos": "upper",
+   "title": "What can you offer",
+   "tpl": "highlight_callout",
+   "dur": 6,
+   "pos": "top",
    "text": {
-    "items": [
-     "What skills",
-     "What experience",
-     "What passions",
-     "Time"
-    ]
+    "main": "WHAT CAN YOU OFFER?"
    },
-   "src": "Dwayne Burks, Day 3 pm.mov [00:05.1]–[00:11.2]",
+   "cue": "Hook text on frame 1, top, above the picture: WHAT CAN YOU OFFER? Cut on.",
+   "src": "Script, row 00:00–00:04, Motion graphics & type.",
    "rows": [
+    "00:00–00:04",
     "00:04–00:12"
    ],
-   "use": "Each line lands on his word. Only after the hook text goes off. Keep captions on."
+   "use": "Start the clip at frame 0045 (fully on) and hold it until he says “what you can offer”, about 00:06. Keep it at the top, above the picture."
   },
   {
    "n": 2,
-   "title": "Frame the cubes",
-   "tpl": "corner_frame",
-   "dur": 4,
-   "box": [
-    0.05,
-    0.08,
-    0.9,
-    0.42
-   ],
-   "text": {},
-   "src": "Brackets only, no text.",
-   "rows": [
-    "00:04–00:12"
-   ],
-   "use": "Brackets around the GIVE BACK cubes in the top half, after the hook text goes off. Move them if your picture sits lower."
-  },
-  {
-   "n": 3,
-   "title": "Journey Home tag",
-   "tpl": "tag_label",
-   "dur": 2,
-   "pos": "upper",
-   "text": {
-    "main": "Journey Home"
-   },
-   "src": "Dwayne Burks, Day 3 pm.mov [00:14.2] (the machine wrote “Turning home”; the brief heard Journey Home)",
-   "rows": [
-    "00:12–00:18"
-   ],
-   "use": "Small tag as he says “Journey Home”. Text only, not the logo. Never write “Turning home”."
-  },
-  {
-   "n": 4,
-   "title": "Build with us",
-   "tpl": "kinetic_quote",
-   "dur": 3,
-   "pos": "upper",
-   "text": {
-    "main": "people who can build with us",
-    "emph": [
-     "build"
-    ]
-   },
-   "src": "Dwayne Burks, Day 3 pm.mov [00:14.2]",
-   "rows": [
-    "00:12–00:18"
-   ],
-   "use": "Over the cubes picture as he says it, after the tag. Keep the slow zoom running under it."
-  },
-  {
-   "n": 5,
-   "title": "Hearing from you",
-   "tpl": "statement_card",
-   "dur": 2,
-   "text": {
-    "main": "I look forward to hearing from you.",
-    "emph": [
-     "you"
-    ]
-   },
-   "src": "Dwayne Burks, Day 3 pm.mov [00:20.2]",
-   "rows": [
-    "00:18–00:20"
-   ],
-   "use": "Only if Dwayne asks for a card. Short full-frame beat on his line, then back to the built frame for the ask."
-  },
-  {
-   "n": 6,
-   "title": "Volunteering in any way",
+   "title": "Comment I'm in",
    "tpl": "highlight_callout",
    "dur": 3,
-   "pos": "upper",
-   "text": {
-    "main": "If you're interested in volunteering in any way, let me know."
-   },
-   "src": "Dwayne Burks, Day 3 pm.mov [00:21.7]",
-   "rows": [
-    "00:20–00:27"
-   ],
-   "use": "Only before the word “comment”. Take it off when the ask text comes on."
-  },
-  {
-   "n": 7,
-   "title": "The ask",
-   "tpl": "tag_label",
-   "dur": 6,
    "pos": "center",
    "text": {
     "main": "Comment “I'm in”"
    },
-   "src": "Ask text in this blueprint (row 00:20–00:27) and Dwayne Burks, Day 3 pm.mov [00:25.8] “So just comment, I'm in”.",
+   "cue": "Ask text on screen: Comment “I'm in”. Big, center, on the word “comment”. Holds to the end card.",
+   "src": "Script, row 00:20–00:27, Motion graphics & type.",
    "rows": [
     "00:20–00:27"
    ],
-   "use": "The ask text from the plan. Big, center, on the word “comment”. Holds to the end card."
+   "use": "Put it on at the word “comment”, about 00:24, big in the center. Hold it until the end card at 00:27."
+  },
+  {
+   "n": 3,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:27–00:30"
+   ],
+   "cue": "Logo swishes in (about 10 frames), settles, holds. Same animation on all 12 videos. Make it once, reuse it. Nothing under the logo.",
+   "src": "The Journey Home logo from the client's own slides in Dwayne's Day 2 pm.mov (uploaded 6 Oct 2026), as the script asks.",
+   "c": {
+    "bg": "#FFFFFF",
+    "fg": "#175741"
+   },
+   "logo": "endcards/gateway-gaston/journey-home-logo.png",
+   "text": {},
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 00:27 after the last line and hold it to the end."
   }
  ]
 }

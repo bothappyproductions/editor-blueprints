@@ -1,79 +1,74 @@
 {
  "item": "12489939555",
  "client": "lions",
- "note": "The plan says captions only on most rows, and Lions want graphics much simpler, or none. Use these only if Atdhe asks for graphics, and never more than one on screen.",
+ "note": "The script asks for three graphics: two top text lines and the France pin. Row 00:16–00:21 has optional top text “See you in Washington” only if Atdhe's graphics call allows it, so it is not made.",
  "mg": [
   {
    "n": 1,
-   "title": "Focus on her smile",
-   "tpl": "corner_frame",
-   "dur": 1.6,
-   "text": {},
-   "src": "Brackets only, no text.",
-   "rows": [
-    "00:00–00:03"
-   ],
-   "use": "Only after the Are you happy? top text goes out. Brackets on her smile."
-  },
-  {
-   "n": 2,
-   "title": "Register very quickly",
-   "tpl": "highlight_callout",
-   "dur": 4,
-   "pos": "top",
-   "text": {
-    "main": "You have to register very quickly."
-   },
-   "src": "French Lion, IMG_7941.MOV [02:07]",
-   "rows": [
-    "00:06–00:16"
-   ],
-   "use": "Over her face as she says it, late in the row. Check the line by ear first."
-  },
-  {
-   "n": 3,
-   "title": "See you in Washington",
-   "tpl": "highlight_callout",
-   "dur": 4,
-   "pos": "top",
-   "text": {
-    "main": "very happy to see you in Washington next year"
-   },
-   "src": "French Lion, IMG_7941.MOV [02:15]",
-   "rows": [
-    "00:16–00:21"
-   ],
-   "use": "Top text as she says it. Keep her friends in frame under it."
-  },
-  {
-   "n": 4,
-   "title": "Proud to be a Lion",
+   "title": "Are you happy",
    "tpl": "highlight_callout",
    "dur": 3,
    "pos": "top",
    "text": {
-    "main": "Yes, proud to be a Lion."
+    "main": "Are you happy?"
    },
-   "src": "French Lion and friends, IMG_7941.MOV [02:22]",
+   "cue": "Top text on frame 1: Are you happy?",
+   "src": "Script, row 00:00–00:03, Motion graphics & type.",
    "rows": [
-    "00:21–00:26"
+    "00:00–00:03"
    ],
-   "use": "Over the group as they shout it. Let the voices carry it."
+   "use": "Top text on frame 1. Hold it until the cut at 00:03 and keep the subtitle under it."
   },
   {
-   "n": 5,
-   "title": "Long live France",
+   "n": 2,
+   "title": "First convention",
    "tpl": "highlight_callout",
-   "dur": 2,
+   "dur": 3,
    "pos": "top",
    "text": {
-    "main": "Long live France."
+    "main": "This is my first convention."
    },
-   "src": "French Lion, IMG_7941.MOV [02:25]",
+   "cue": "Top text: This is my first convention.",
+   "src": "Script, row 00:03–00:06, Motion graphics & type.",
    "rows": [
-    "00:26–00:28"
+    "00:03–00:06"
    ],
-   "use": "Small, in the top band, as she says it. Keep the selfie clear under it."
+   "use": "Top text for this whole row, from 00:03 to 00:06. Keep the subtitle under it."
+  },
+  {
+   "n": 3,
+   "title": "France pin",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "France"
+   },
+   "cue": "Location pin “📍 France” at 00:03.5–00:05.5",
+   "src": "Script, row 00:03–00:06, Motion graphics & type.",
+   "rows": [
+    "00:03–00:06"
+   ],
+   "use": "This is the location pin. Show it from 00:03.5 to 00:05.5 only."
+  },
+  {
+   "n": 4,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:28–00:31"
+   ],
+   "cue": "Only the official Lions lockup from the Lions brand files. Nothing else on it. No stats, no URL stack, no AI-style flyer graphics. If Atdhe ",
+   "src": "Official Lions International lockup from the Lions brand files (brand kit). Lions' latest end card video (Lions CTA.mp4, Slack 20 Aug 2026) replaces this as soon as it is downloaded.",
+   "c": {
+    "bg": "#FFFFFF",
+    "fg": "#00338D"
+   },
+   "logo_w": 860,
+   "logo": "endcards/lions/lions-logo.svg",
+   "text": {},
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 00:28 after the last line and hold it to the end."
   }
  ]
 }

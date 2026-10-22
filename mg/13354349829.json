@@ -1,89 +1,45 @@
 {
  "item": "13354349829",
  "client": "momcozy",
- "note": "Short tip and the plan keeps the product mention small, so 5 graphics.",
+ "note": "The script asks for one graphic, the hook text. Every other row is captions only or none, and the end card is Momcozy's own.",
  "mg": [
   {
    "n": 1,
-   "tpl": "tag_label",
-   "title": "BN02",
-   "dur": 2.5,
+   "title": "Stuffy baby hook",
+   "tpl": "highlight_callout",
+   "dur": 4,
    "pos": "top",
    "text": {
-    "main": "BN02"
+    "main": "When my baby gets stuffy"
    },
-   "src": "Label only, no claim.",
+   "cue": "Hook text on frame 1: “When my baby gets stuffy 🤧” Already on screen at 0:00. Does not animate on",
+   "src": "Script, row 00:00-00:04, Motion graphics & type.",
    "rows": [
-    "00:04-00:10"
+    "00:00-00:04"
    ],
-   "use": "Small tag when the aspirator first shows, after the hook text is gone."
+   "use": "Hook text in the top third. Start the clip at frame 0045 (fully on) and hold it until the cut at 00:04."
   },
   {
    "n": 2,
-   "tpl": "kinetic_quote",
-   "title": "Not uncomfortable",
-   "dur": 3,
-   "pos": "top",
-   "text": {
-    "main": "you can see she's not uncomfortable",
-    "emph": [
-     "not uncomfortable"
-    ],
-    "who": "Kara"
-   },
-   "src": "Kara, IMG_9348.MOV [01:00.7]",
+   "title": "End card",
+   "tpl": "end_card",
    "rows": [
-    "00:10-00:15"
+    "00:31-00:33"
    ],
-   "use": "Top band as she says it, over the gentle-use shot."
-  },
-  {
-   "n": 3,
-   "tpl": "highlight_callout",
-   "title": "Something worse",
-   "dur": 3.5,
-   "pos": "top",
-   "text": {
-    "main": "So it doesn't turn to something worse."
+   "cue": "No logo before this card.",
+   "src": "Momcozy wordmark as Momcozy specified it (MOMCOZY in caps, Cozy Chestnut #6A2B3A, Inter; spec locked 19 Aug 2026). No logo file has been sent.",
+   "c": {
+    "bg": "#FEF9F6",
+    "fg": "#6A2B3A"
    },
-   "src": "Kara, IMG_9348.MOV [01:09.8]",
-   "rows": [
-    "00:15-00:22"
-   ],
-   "use": "Top band as she says it, over the baby's calm face. This is her reason, so let it read."
-  },
-  {
-   "n": 4,
-   "tpl": "word_stack",
-   "title": "Colors and music",
-   "dur": 3,
-   "pos": "top",
    "text": {
-    "items": [
-     "different colors",
-     "music"
+    "name": "MOMCOZY",
+    "lines": [
+     "BN02 Nasal Aspirator"
     ]
    },
-   "src": "Kara, IMG_9348.MOV [01:09.8]",
-   "rows": [
-    "00:22-00:25"
-   ],
-   "use": "Each word lands as she says it over the light close-up."
-  },
-  {
-   "n": 5,
-   "tpl": "highlight_callout",
-   "title": "Nap time",
-   "dur": 3,
-   "pos": "top",
-   "text": {
-    "main": "it's actually time for her nap."
-   },
-   "src": "Kara, IMG_9350.MOV [00:05.8]",
-   "rows": [
-    "00:25-00:31"
-   ],
-   "use": "Top band as she says it, then she lays the baby in the crib."
+   "dur": 2.5,
+   "use": "This is the end card. Put it at 00:31 after the last line and hold it to the end."
   }
  ]
 }

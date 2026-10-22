@@ -1,106 +1,74 @@
 {
  "item": "13198233020",
  "client": "watsi",
+ "note": "The script asks for four graphics: the question “Are you happy?”, the name super “Paul”, a top text about the gift card and the top text “One message for the world?”. Row 00:21–00:26 is skipped because its top text is a money line (a dollar amount to pay for surgery), and row 00:04–00:06 only fades the first question out.",
  "mg": [
   {
    "n": 1,
-   "title": "People who care",
+   "title": "Are you happy",
    "tpl": "highlight_callout",
-   "dur": 3,
+   "dur": 4,
    "pos": "top",
    "text": {
-    "main": "I have people in my life that care about me"
+    "main": "Are you happy?"
    },
-   "src": "Paul, 20260922_C5086.MP4 [04:07]",
+   "cue": "Nick's question on frame 1, top third: “Are you happy?”",
+   "src": "Script, row 00:00–00:04, Motion graphics & type.",
    "rows": [
-    "00:06–00:13"
+    "00:00–00:04"
    ],
-   "use": "Over Paul as he says it, after the name super is gone (from 00:08.5). One text at a time."
+   "use": "Nick's question in the top third, the only text at 0:00. It cuts on with no long animation, so start the clip at frame 0045 (fully on) and hold it until 00:04, then let it fade out."
   },
   {
    "n": 2,
-   "title": "Two magnificent boys",
-   "tpl": "kinetic_quote",
-   "dur": 4,
-   "pos": "top",
+   "title": "Paul name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
    "text": {
-    "main": "I have two magnificent boys who mean the world to me.",
-    "emph": [
-     "magnificent",
-     "world"
-    ]
+    "main": "Paul"
    },
-   "src": "Paul, 20260922_C5086.MP4 [04:11]",
+   "cue": "Name super “Paul” at 00:06.5–00:08.5, lower left, above the captions, large.",
+   "src": "Script, row 00:06–00:13, Motion graphics & type.",
    "rows": [
-    "00:13–00:21"
+    "00:06–00:13"
    ],
-   "use": "Words pop in with his voice, over his face. Keep captions on."
+   "use": "This is the name super, first name only. Show it from 00:06.5 to 00:08.5, move it lower left above the captions, and make it large."
   },
   {
    "n": 3,
-   "title": "We're close",
-   "tpl": "word_stack",
-   "dur": 2,
-   "pos": "upper",
-   "text": {
-    "items": [
-     "We're close."
-    ]
-   },
-   "src": "Paul, 20260922_C5086.MP4 [04:15]",
-   "rows": [
-    "00:13–00:21"
-   ],
-   "use": "Lands on his words, after MG 2 is gone. One text at a time."
-  },
-  {
-   "n": 4,
-   "title": "Focus on the card",
-   "tpl": "corner_frame",
-   "dur": 4,
-   "box": [
-    0.2,
-    0.46,
-    0.6,
-    0.22
-   ],
-   "text": {},
-   "src": "Brackets only, no text.",
-   "rows": [
-    "00:21–00:26"
-   ],
-   "use": "Frames the card in his hands, under the top text. Move it to where the card sits. Blur any code first."
-  },
-  {
-   "n": 5,
-   "title": "Bryant Park tag",
-   "tpl": "tag_label",
-   "dur": 3,
-   "pos": "upper",
-   "text": {
-    "main": "Bryant Park"
-   },
-   "src": "Shoot location in the transcript header (Bryant Park, 22 Sep 2026).",
-   "rows": [
-    "00:26–00:32"
-   ],
-   "use": "After the top text is out. Small, one brand element at a time."
-  },
-  {
-   "n": 6,
-   "title": "Stronger than hate",
+   "title": "One message question",
    "tpl": "highlight_callout",
    "dur": 4,
    "pos": "top",
    "text": {
-    "main": "I would say love is much stronger than hate."
+    "main": "One message for the world?"
    },
-   "src": "Paul, 20260922_C5086.MP4 [04:40]",
+   "cue": "Top text, same style as the hook: “One message for the world?” Up for at least 3 s.",
+   "src": "Script, row 00:32–00:36, Motion graphics & type.",
    "rows": [
-    "00:37–00:51"
+    "00:32–00:36"
    ],
-   "use": "Over Paul as he says it. Out before “love conquers all” so that moment is just him and the card."
+   "use": "Top text in the same style as the hook question. Put it on at the start of this row and keep it up at least 3 seconds."
+  },
+  {
+   "n": 4,
+   "title": "End card",
+   "tpl": "end_card_overlay",
+   "rows": [
+    "00:51–00:54"
+   ],
+   "cue": "End card on the footage, same as the other Watsi x AYH posts: “Support a patient” · “Link in bio” · “Watsi”. One line at a time.",
+   "src": "Watsi's own end card words from the script (watsi.org, the Who Gives close, or the Watsi x AYH lines). Watsi's scripts say no logo lockup.",
+   "text": {
+    "lines": [
+     "Support a patient",
+     "Link in bio",
+     "Watsi"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card over the live footage. Put it at 00:51; the lines come in one at a time. Keep the footage live, no freeze frame."
   }
- ],
- "note": "The plan for this cut leaves room for only 6 graphics."
+ ]
 }

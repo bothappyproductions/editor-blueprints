@@ -1,39 +1,66 @@
 {
  "item": "13276390324",
  "client": "sfcg",
- "note": "The client does not want animation in the middle of a video. Use one graphic at most.",
+ "note": "The script asks for two graphics: the hook text “CONNECTIONS THAT FEEL REAL.” already on screen on frame 1, and the small lower-third text “Biodegradable balloons” at the release. Both sit still with no animation, as the client wants.",
  "mg": [
   {
    "n": 1,
-   "title": "Passing time",
+   "title": "Feel real hook",
    "tpl": "highlight_callout",
    "dur": 3,
    "pos": "top",
    "text": {
-    "main": "just there passing time by"
+    "main": "CONNECTIONS THAT FEEL REAL."
    },
-   "src": "Eli, 764_3886 [03:01]",
+   "c": {
+    "ac": "#1E6FD6",
+    "onAc": "#FFFFFF"
+   },
+   "cue": "Hook text already on screen on frame 1, top third: CONNECTIONS THAT FEEL REAL.",
+   "src": "Script, row 00:00–00:03, Motion graphics & type.",
    "rows": [
-    "00:03–00:09"
+    "00:00–00:03"
    ],
-   "use": "Over Eli as he says it, after the hook text is off at 00:03. Keep it still and simple."
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. White on royal blue, top third, no build."
   },
   {
    "n": 2,
-   "title": "Take a stop",
-   "tpl": "statement_card",
-   "dur": 3,
+   "title": "Biodegradable balloons",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "center",
    "text": {
-    "main": "it doesn't hurt once in a while to take a stop",
-    "emph": [
-     "stop"
+    "main": "Biodegradable balloons"
+   },
+   "cue": "Small text, lower third, no animation: Biodegradable balloons",
+   "src": "Script, row 00:19–00:23, Motion graphics & type.",
+   "rows": [
+    "00:19–00:23"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:23, then cut it off. The script puts it in the lower third: move it down, above the captions."
+  },
+  {
+   "n": 3,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:26–00:29"
+   ],
+   "cue": "Search for Common Ground lockup + sfcg.org. Nothing under it. Do not guess an Imagine If link.",
+   "src": "SFCG's 2024 horizontal logo, white text (SFCG Resources/Logos on Drive). The Imagine If end card is still coming from SFCG (Chase Moore).",
+   "c": {
+    "bg": "#003E74",
+    "fg": "#FFFFFF"
+   },
+   "logo_w": 860,
+   "logo": "endcards/sfcg/sfcg-logo-horizontal-2024-white.png",
+   "text": {
+    "lines": [
+     "sfcg.org"
     ]
    },
-   "src": "Eli, 764_3886 [02:35]–[02:47]",
-   "rows": [
-    "00:09–00:15"
-   ],
-   "use": "Only if you add this line to the cut, after “genuine connections”."
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 00:26 after the last line and hold it to the end."
   }
  ]
 }

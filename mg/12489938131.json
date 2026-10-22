@@ -1,10 +1,26 @@
 {
  "item": "12489938131",
  "client": "lions",
- "note": "Lions asked for much simpler graphics or none and the plan keeps subtitles only after the pin, so 4 graphics. Use them only if Atdhe asks for graphics.",
+ "note": "The script asks for three graphics: two top text questions and the Puerto Rico pin. Lions want simple graphics, so nothing else.",
  "mg": [
   {
    "n": 1,
+   "title": "Are you happy",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "Are you happy?"
+   },
+   "cue": "Top text on frame 1: Are you happy?",
+   "src": "Script, row 00:00–00:02, Motion graphics & type.",
+   "rows": [
+    "00:00–00:02"
+   ],
+   "use": "Top text on frame 1. Keep the subtitle under it."
+  },
+  {
+   "n": 2,
    "title": "Puerto Rico pin",
    "tpl": "tag_label",
    "dur": 2,
@@ -12,56 +28,47 @@
    "text": {
     "main": "Puerto Rico"
    },
-   "src": "Location pin in this blueprint (00:03–00:05). Puerto Rico Lion, IMG_7866.MOV [01:43] “District 51 in Puerto Rico”.",
+   "cue": "Location pin “📍 Puerto Rico” at 00:03–00:05",
+   "src": "Script, row 00:02–00:08, Motion graphics & type.",
    "rows": [
     "00:02–00:08"
    ],
    "use": "This is the location pin. Show it from 00:03 to 00:05 only."
   },
   {
-   "n": 2,
-   "title": "Meet new people",
-   "tpl": "highlight_callout",
-   "dur": 3,
-   "pos": "top",
-   "text": {
-    "main": "it makes me happy to share with other people and meet new people"
-   },
-   "src": "Puerto Rico Lion, IMG_7866.MOV [00:04] (English version from the transcript doc).",
-   "rows": [
-    "00:02–00:08"
-   ],
-   "use": "Over the hug as he says it, after the pin is gone. Keep the subtitles on."
-  },
-  {
    "n": 3,
-   "title": "Support in leadership",
+   "title": "Friend like family",
    "tpl": "highlight_callout",
-   "dur": 3,
+   "dur": 2,
    "pos": "top",
    "text": {
-    "main": "always supporting me in matters of leadership"
+    "main": "Do you have a friend in your club who is like family?"
    },
-   "src": "Puerto Rico Lion, IMG_7866.MOV [01:32] (English version from the transcript doc).",
+   "cue": "Top text for the first 2 s: Do you have a friend in your club who is like family?",
+   "src": "Script, row 00:08–00:20, Motion graphics & type.",
    "rows": [
     "00:08–00:20"
    ],
-   "use": "Lands on “leadership”. Keep it at the top and do not cut the shot for it."
+   "use": "Top text for the first 2 seconds of this row. Then subtitles only."
   },
   {
    "n": 4,
-   "title": "That makes us family",
-   "tpl": "highlight_callout",
-   "dur": 2.5,
-   "pos": "top",
-   "text": {
-    "main": "that makes us family"
-   },
-   "src": "Puerto Rico Lion, IMG_7868.MOV [00:32] (English version from the transcript doc).",
+   "title": "End card",
+   "tpl": "end_card",
    "rows": [
-    "00:20–00:26"
+    "00:26–00:29"
    ],
-   "use": "Over the two-shot as he says it. Keep the subtitles on."
+   "cue": "Only the official Lions lockup from the Lions brand files. Nothing else on it. No stats, no URL stack, no AI-style flyer graphics. If Atdhe ",
+   "src": "Official Lions International lockup from the Lions brand files (brand kit). Lions' latest end card video (Lions CTA.mp4, Slack 20 Aug 2026) replaces this as soon as it is downloaded.",
+   "c": {
+    "bg": "#FFFFFF",
+    "fg": "#00338D"
+   },
+   "logo_w": 860,
+   "logo": "endcards/lions/lions-logo.svg",
+   "text": {},
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 00:26 after the last line and hold it to the end."
   }
  ]
 }

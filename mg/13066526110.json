@@ -1,126 +1,66 @@
 {
  "item": "13066526110",
  "client": "sfcg",
- "note": "The plan says captions only, plain captions for the numbers, and stay on her face for the hope line and the end. SFCG find mid-video animation inauthentic, so use these only if Atdhe asks for more, one at a time.",
+ "note": "The script asks for two graphics: the hook text and Gina's name super (her surname is still owed from Annelies Van Erp's list). Row 00:14–00:24 only asks for the numbers as digits in the captions, so no graphic there, and the end card is SFCG's own.",
  "mg": [
   {
    "n": 1,
-   "title": "Good Friday tag",
-   "tpl": "tag_label",
-   "dur": 3,
-   "pos": "upper",
-   "text": {
-    "main": "Good Friday Agreement"
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 6,
+   "pos": "top",
+   "c": {
+    "ac": "#1E6FD6",
+    "onAc": "#FFFFFF"
    },
-   "src": "Gina, FX6_LVH_6358.MXF [00:18] “the Belfast Good Friday Agreement”",
+   "text": {
+    "main": "Peace work started 4 years early."
+   },
+   "cue": "Hook text on frame 1, top third, big: “Peace work started 4 years early.” White on the royal-blue box #1E6FD6.",
+   "src": "Script, row 00:00–00:06, Motion graphics & type.",
    "rows": [
-    "00:06–00:14"
+    "00:00–00:06"
    ],
-   "use": "Only after the name super is gone, from 00:11. One text at a time."
+   "use": "Hook text on frame 1, top third, big, white on the royal-blue box. Hold it until the hook text goes out at 00:06."
   },
   {
    "n": 2,
-   "title": "Not easy then",
-   "tpl": "highlight_callout",
-   "dur": 5,
-   "pos": "top",
+   "title": "Gina name super",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
    "text": {
-    "main": "bringing people in the same room to speak together was not easy"
+    "main": "Gina"
    },
-   "src": "Gina, FX6_LVH_6358.MXF [01:06]–[01:13]",
+   "cue": "Name super at 00:07–00:10, lower left: Gina [surname] · Special EU Programmes Body, Northern Ireland.",
+   "src": "Script, row 00:06–00:14, Motion graphics & type.",
    "rows": [
-    "00:24–00:32"
+    "00:06–00:14"
    ],
-   "use": "Over Gina when you come back from the hallway B-roll, as she says it."
+   "use": "Name super from 00:07 to 00:10. Move it lower left, above the captions, and add her surname when Annelies Van Erp's list comes in. Type the second line Special EU Programmes Body under it."
   },
   {
    "n": 3,
-   "title": "Focus on the hallway",
-   "tpl": "corner_frame",
-   "dur": 4,
-   "text": {},
-   "src": "Brackets only, no text.",
+   "title": "End card",
+   "tpl": "end_card",
    "rows": [
-    "00:24–00:32"
+    "01:14–01:17"
    ],
-   "use": "Frames the two people facing the portrait in B-roll 6366. Move it to where they stand."
-  },
-  {
-   "n": 4,
-   "title": "It gave people hope",
-   "tpl": "highlight_callout",
-   "dur": 4,
-   "pos": "top",
-   "text": {
-    "main": "it gave people hope in what might be possible"
+   "cue": "Search for Common Ground lockup + sfcg.org. Nothing under it.",
+   "src": "SFCG's 2024 horizontal logo, white text (SFCG Resources/Logos on Drive). The Imagine If end card is still coming from SFCG (Chase Moore).",
+   "c": {
+    "bg": "#003E74",
+    "fg": "#FFFFFF"
    },
-   "src": "Gina, FX6_LVH_6358.MXF [03:25]–[03:31]",
-   "rows": [
-    "00:32–00:43"
-   ],
-   "use": "Over Gina's face as she says it. Stay on her face."
-  },
-  {
-   "n": 5,
-   "title": "A neutral party",
-   "tpl": "statement_card",
-   "dur": 4,
+   "logo_w": 860,
+   "logo": "endcards/sfcg/sfcg-logo-horizontal-2024-white.png",
    "text": {
-    "main": "The EU was seen as a neutral party",
-    "emph": [
-     "neutral"
+    "lines": [
+     "sfcg.org"
     ]
    },
-   "src": "Gina, FX6_LVH_6358.MXF [07:05]",
-   "rows": [
-    "00:43–00:47"
-   ],
-   "use": "Full-frame cutaway in place of the optional flags B-roll. Back to Gina after the line."
-  },
-  {
-   "n": 6,
-   "title": "Held peace together",
-   "tpl": "highlight_callout",
-   "dur": 5,
-   "pos": "top",
-   "text": {
-    "main": "held peace together when the political institutions broke down"
-   },
-   "src": "Gina, FX6_LVH_6358.MXF [05:21]–[05:29]",
-   "rows": [
-    "00:47–01:03"
-   ],
-   "use": "Over Gina when you come back on “the political institutions”."
-  },
-  {
-   "n": 7,
-   "title": "In their small ways",
-   "tpl": "quote_card",
-   "dur": 4,
-   "text": {
-    "main": "building peace in their communities, in their small ways",
-    "who": "Gina"
-   },
-   "src": "Gina, FX6_LVH_6358.MXF [05:21]",
-   "rows": [
-    "00:47–01:03"
-   ],
-   "use": "Full-frame cutaway in place of the street B-roll, only if you need one."
-  },
-  {
-   "n": 8,
-   "title": "A positive future",
-   "tpl": "highlight_callout",
-   "dur": 4,
-   "pos": "top",
-   "text": {
-    "main": "they were looking to a positive future"
-   },
-   "src": "Gina, FX6_LVH_6358.MXF [05:43]",
-   "rows": [
-    "01:03–01:14"
-   ],
-   "use": "Over her face as she says it. Clear it before “the future.” and the hold."
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 01:14 after the last line and hold it to the end."
   }
  ]
 }

@@ -1,22 +1,36 @@
 {
  "item": "13190022271",
  "client": "aij",
- "note": "The plan says no text from 00:27 on, let the picture carry it, and stay on her face at 01:47. Use these only if Andrés asks for text, and keep them in the top band.",
+ "note": "The script asks for the hook text “WHO CAN HELP ME?” on frame 1 and a name plate. Row 00:03–00:27 asks for the name plate, but the name and title are still owed by Andrés and the script says never guess, so it waits. The aijustice.org small text is on the end card row, which is the client's.",
  "mg": [
   {
    "n": 1,
-   "title": "Miami tag",
-   "tpl": "tag_label",
+   "title": "Hook text",
+   "tpl": "highlight_callout",
    "dur": 3,
-   "pos": "upper",
+   "pos": "top",
    "text": {
-    "main": "Miami"
+    "main": "WHO CAN HELP ME?"
    },
-   "src": "Host, C9105.MP4 [00:20] “Every day in Miami”",
+   "cue": "Text on frame 1: “WHO CAN HELP ME?” Big, Filson Pro Heavy, white. Cut on.",
+   "src": "Script, row 00:00–00:03, Motion graphics & type.",
    "rows": [
-    "00:03–00:27"
+    "00:00–00:03"
    ],
-   "use": "Small tag as she says Miami. Only after the name plate is gone, never with it."
+   "use": "Big hook text from frame 1. It cuts on with no animation. Start the clip at frame 0045 (fully on) and hold it until the cut at 00:03."
+  },
+  {
+   "n": 2,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "02:35–02:40"
+   ],
+   "cue": "Horizontal Animated logo. The logo appears here only.",
+   "src": "AIJ's own Vertical Animated logo (Mobile Video).mp4 from the AIJ Outros/Intros pack (Drive), the newest outro AIJ has given us.",
+   "file": "endcards/aij/aij-animated-logo-9x16.mp4",
+   "dur": 6,
+   "use": "This is the end card, the client's own file. Put it at 02:35 after the last line and use it exactly as it is."
   }
  ]
 }

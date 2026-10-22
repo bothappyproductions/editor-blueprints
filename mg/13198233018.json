@@ -1,101 +1,90 @@
 {
  "item": "13198233018",
  "client": "watsi",
- "note": "The plan keeps picture cuts to 3 or 4, puts Nick's questions as top text, and has captions only on her answers. Use these only if more is asked for, one at a time.",
+ "note": "The script asks for five graphics: Nick's three questions as top text, the name super “Isha” and one context line. Row 00:22–00:30 is skipped because its context line names a money amount, and money never goes on screen.",
  "mg": [
   {
    "n": 1,
-   "title": "Okay to not be happy",
+   "title": "Are you happy",
    "tpl": "highlight_callout",
-   "dur": 2,
-   "pos": "top",
-   "text": {
-    "main": "It's okay to not be happy."
-   },
-   "src": "Isha, 20260922_C5091.MP4 [01:07]",
-   "rows": [
-    "00:02–00:09"
-   ],
-   "use": "Over her face as she says it. Only after the question and the name super are gone (from 00:07.5)."
-  },
-  {
-   "n": 2,
-   "title": "Experience and live",
-   "tpl": "kinetic_quote",
    "dur": 5,
    "pos": "top",
    "text": {
-    "main": "I don't think the goal is to be happy just to experience and to live",
-    "emph": [
-     "experience",
-     "live"
-    ]
+    "main": "Are you happy?"
    },
-   "src": "Isha, 20260922_C5091.MP4 [01:23]",
+   "cue": "Question on top from frame 1: Are you happy?",
+   "src": "Script, row 00:00–00:02, Motion graphics & type.",
    "rows": [
-    "00:13–00:22"
+    "00:00–00:02"
    ],
-   "use": "Starts on “I don't think”, after the break-up line. Keep captions on."
+   "use": "Nick's question on top from frame 1. Start the clip at frame 0045 (fully on) and hold it until 00:05, then take it out in 6 frames. This text is the caption for his line."
+  },
+  {
+   "n": 2,
+   "title": "Isha name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Isha"
+   },
+   "cue": "Name super “Isha” at 00:05.5–00:07.5, lower left, above the captions, large",
+   "src": "Script, row 00:02–00:09, Motion graphics & type.",
+   "rows": [
+    "00:02–00:09"
+   ],
+   "use": "Name super from 00:05.5 to 00:07.5. The script puts it lower left, above the captions, and large: move it there and scale it up so it reads big."
   },
   {
    "n": 3,
-   "title": "Focus on the card",
-   "tpl": "corner_frame",
-   "dur": 3,
-   "text": {},
-   "src": "Brackets only, no text.",
+   "title": "Why not happy",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "Why would you say you're not happy right now?"
+   },
+   "cue": "Top text, same style as the hook: Why would you say you're not happy right now?",
+   "src": "Script, row 00:09–00:13, Motion graphics & type.",
    "rows": [
-    "00:22–00:30"
+    "00:09–00:13"
    ],
-   "use": "Frames the card and phone in her hands. Blur every code first. Not while the context line is up."
+   "use": "Top text in the same style as the hook. Cut it on with Nick's question (start the clip at frame 0045) and hold it until the cut at 00:13."
   },
   {
    "n": 4,
-   "title": "Medical care tag",
-   "tpl": "tag_label",
-   "dur": 3,
-   "pos": "upper",
-   "text": {
-    "main": "Medical care"
-   },
-   "src": "Isha, 20260922_C5090.MP4 [01:18] “people that need medical care”",
-   "rows": [
-    "00:22–00:30"
-   ],
-   "use": "Small tag as she says “medical care”. Only after the context line goes out."
-  },
-  {
-   "n": 5,
-   "title": "Don't wait",
-   "tpl": "word_stack",
-   "dur": 3,
-   "pos": "top",
-   "text": {
-    "items": [
-     "Don't wait",
-     "To start living"
-    ]
-   },
-   "src": "Isha, 20260922_C5091.MP4 [01:41]",
-   "rows": [
-    "00:33–00:41"
-   ],
-   "use": "Each line lands on her word, over her face. Keep captions on."
-  },
-  {
-   "n": 6,
-   "title": "Do it now",
+   "title": "One message question",
    "tpl": "highlight_callout",
    "dur": 3,
    "pos": "top",
    "text": {
-    "main": "Just do whatever you can do now, do it."
+    "main": "If you had one message for the world, what would you want to say?"
    },
-   "src": "Isha, 20260922_C5091.MP4 [01:41]",
+   "cue": "Top text, same style: If you had one message for the world, what would you want to say?",
+   "src": "Script, row 00:30–00:33, Motion graphics & type.",
    "rows": [
-    "00:33–00:41"
+    "00:30–00:33"
    ],
-   "use": "After MG 5, as she says it. Off before the 0.7 s hold after “That's it”."
+   "use": "Top text in the same style as the hook. Cut it on with Nick's question (start the clip at frame 0045) and hold it until the cut at 00:33."
+  },
+  {
+   "n": 5,
+   "title": "End card",
+   "tpl": "end_card_overlay",
+   "rows": [
+    "00:41–00:45"
+   ],
+   "cue": "The Watsi x AYH end card, three lines, Lato: “Support a patient” · “Link in bio” · “Watsi”. Same as the posted Uganda and Cambodia AYH video",
+   "src": "Watsi's own end card words from the script (watsi.org, the Who Gives close, or the Watsi x AYH lines). Watsi's scripts say no logo lockup.",
+   "text": {
+    "lines": [
+     "Support a patient",
+     "Link in bio",
+     "Watsi"
+    ]
+   },
+   "dur": 4.0,
+   "use": "This is the end card over the live footage. Put it at 00:41; the lines come in one at a time. Keep the footage live, no freeze frame."
   }
  ]
 }
