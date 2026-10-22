@@ -187,6 +187,19 @@ footer ul{padding-left:18px;margin:8px 0 0;display:grid;gap:3px}
 .rf-btn:hover{background:#ffd900}
 .rf-btn:disabled{opacity:.55;cursor:default}
 .rf-nosample .rf-btn{display:none}
+.bp td.cok{min-width:112px}
+.cok-btns{display:flex;flex-wrap:wrap;gap:6px}
+.cok .rf-btn,.cok-mg .rf-btn,.cok-script .rf-btn{padding:4px 11px;font-size:12.5px}
+.cok .rf-btn.ghost,.cok-mg .rf-btn.ghost,.cok-script .rf-btn.ghost{background:transparent}
+.cok-chip{display:block;margin:6px 0}
+.cok-chip .status{display:inline-block;white-space:normal;line-height:1.35}
+.cok-form{display:grid;gap:6px;margin-top:6px}
+.cok-form textarea,.cok-form input{font:inherit;font-size:13px;width:100%;box-sizing:border-box;border:1px solid var(--line);border-radius:8px;padding:6px 8px;background:var(--card);color:var(--ink)}
+.cok-form textarea{min-height:64px}
+.cok-mg{display:grid;gap:6px;margin-top:10px}
+.cok-script{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:16px}
+.cok-banner{margin:10px 0 0}
+.cok-note{font-size:12px;color:var(--muted)}
 .bp tr.rf-row td{background:var(--lav)!important;border-top:0;padding:0 12px 16px}
 .rf-panel{display:grid;gap:12px;padding-top:12px}
 .rf-head{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
@@ -474,8 +487,8 @@ function renderItem(it,cl){
   kl='<div class="keylinks">'+klCard("Production brief",L.brief)+klCard("Reference video",L.reference)+klCard("Footage",L.footage)+'</div>';
   var RF=rfPlan(it);
   var rows=(it.rows||[]).map(function(r,i){
-    return '<tr id="bp-row-'+i+'"><td class="tc"><span class="t">'+esc(r.tc)+'</span><br><span class="beat'+(r.kind?" "+r.kind:"")+'">'+esc(r.beat||"")+'</span></td><td>'+frameHtml(r,it)+(r.visual||"")+'</td><td id="mo-'+i+'">'+motionCell(r,i,RF,null)+'</td><td id="vo-'+i+'">'+voiceCell(r,i,RF,null)+'</td><td>'+(r.sfx||'<span class="none">None.</span>')+'</td><td>'+(r.music||'<span class="none">—</span>')+'</td></tr>'+
-      ((RF.hookRow===i||RF.bite[i])?'<tr class="rf-row" id="rf-'+i+'" hidden><td colspan="6"></td></tr>':'');
+    return '<tr id="bp-row-'+i+'"><td class="tc"><span class="t">'+esc(r.tc)+'</span><br><span class="beat'+(r.kind?" "+r.kind:"")+'">'+esc(r.beat||"")+'</span></td><td>'+frameHtml(r,it)+(r.visual||"")+'</td><td id="mo-'+i+'">'+motionCell(r,i,RF,null)+'</td><td id="vo-'+i+'">'+voiceCell(r,i,RF,null)+'</td><td>'+(r.sfx||'<span class="none">None.</span>')+'</td><td>'+(r.music||'<span class="none">—</span>')+'</td><td class="cok" id="ok-'+i+'"></td></tr>'+
+      ((RF.hookRow===i||RF.bite[i])?'<tr class="rf-row" id="rf-'+i+'" hidden><td colspan="7"></td></tr>':'');
   }).join("");
   var H=cl.health||{};
   var health='<div class="health">'+
@@ -508,7 +521,8 @@ function renderItem(it,cl){
   '<section id="brief"><div class="wrap"><div class="sec-head"><span class="eyebrow">01 · The idea</span><h2>'+esc(it.headline)+'</h2></div><div class="brief"><div style="display:grid;gap:16px;min-width:0;align-content:start">'+(it.story||[]).map(function(p,i){return '<p class="story"'+(i?' style="font-size:16px"':'')+'>'+p+'</p>';}).join("")+
     '<div class="feel" aria-label="Target feeling">'+(it.feel||[]).map(function(f){return '<span>'+esc(f)+'</span>';}).join("")+'</div></div>'+
     '<div class="dodont"><div class="box do"><h3>Do</h3>'+ul(it.do)+'</div><div class="box dont"><h3>Don\'t</h3>'+ul(it.dont)+'</div></div></div>'+kl+'</div></section>'+
-  '<section id="blueprint"><div class="wrap"><div class="sec-head"><span class="eyebrow">02 · Second-by-second</span><h2>The timeline, beat by beat</h2><p>'+(it.bp_intro||"")+'</p>'+(RF.any?'<p class="note">Want options? <b>↻ New hook ideas</b> and <b>↻ Different bite</b> find new ones in this video\'s transcript only. Every line is checked word for word before you see it.</p>':'')+'</div><div class="tbl-wrap" tabindex="0" role="region" aria-label="Second-by-second blueprint table"><table class="bp"><thead><tr><th style="width:96px">Timecode</th><th style="width:250px">Visual action &amp; framing</th><th style="width:220px">Motion graphics &amp; type</th><th style="width:270px">Voice &amp; audio bites</th><th style="width:160px">Sound effects</th><th style="width:170px">Music state</th></tr></thead><tbody>'+rows+'</tbody></table></div>'+
+  '<section id="blueprint"><div class="wrap"><div class="sec-head"><span class="eyebrow">02 · Second-by-second</span><h2>The timeline, beat by beat</h2><div class="cok-banner" id="ok-banner"></div><p>'+(it.bp_intro||"")+'</p>'+(RF.any?'<p class="note">Want options? <b>↻ New hook ideas</b> and <b>↻ Different bite</b> find new ones in this video\'s transcript only. Every line is checked word for word before you see it.</p>':'')+'</div><div class="tbl-wrap" tabindex="0" role="region" aria-label="Second-by-second blueprint table"><table class="bp"><thead><tr><th style="width:96px">Timecode</th><th style="width:250px">Visual action &amp; framing</th><th style="width:220px">Motion graphics &amp; type</th><th style="width:270px">Voice &amp; audio bites</th><th style="width:160px">Sound effects</th><th style="width:170px">Music state</th><th style="width:120px">Client OK</th></tr></thead><tbody>'+rows+'</tbody></table></div>'+
+    '<div class="cok-script" id="ok-script"></div>'+
     '<div class="legend"><span><i></i>9:16 crop of the 16:9 frame</span><span>Frames are from the real footage</span></div></div></section>'+
   mgSection(it,cl)+
   '<section id="files"><div class="wrap"><div class="sec-head"><span class="eyebrow">03 · Files &amp; specs</span><h2>What you need and how to deliver it</h2></div><div class="grid2"><div class="box"><h3>Files</h3>'+kv(it.files)+'</div><div class="box"><h3>Technical</h3>'+kv(it.tech)+'</div></div>'+
@@ -525,12 +539,83 @@ function renderItem(it,cl){
   wire(it,cl);
   wireRefresh(it,cl,RF);
   wireMG(it,cl);
+  wireApprovals(it,cl);
 }
 document.addEventListener("click",function(e){
   var a=e.target.closest&&e.target.closest("[data-jump]");
   if(a){ e.preventDefault(); var t=$(a.getAttribute("data-jump")); if(t) t.scrollIntoView({behavior:"smooth"}); }
 });
 var sampleP=null, dbP=null;
+
+/* ===== Client approvals (works off-Claude; events POST to APPROVAL_WEBHOOK) ===== */
+var APPROVAL_WEBHOOK="";
+var OK=null;
+function okDate(ms){ try{ return new Date(ms).toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"}); }catch(e){ return ""; } }
+function okName(){ try{ return localStorage.getItem("hp-ok-name")||""; }catch(e){ return ""; } }
+function okSetName(n){ try{ localStorage.setItem("hp-ok-name",n); }catch(e){} }
+function okEmit(fields){
+  if(!OK) return;
+  var it=OK.it, ev=Object.assign({event_id:(Date.now().toString(36)+Math.random().toString(36).slice(2,8)),item:String(it.id),client:String(OK.cl&&OK.cl.name||it.client||""),kind:"",row:null,tc:"",graphic:null,quote:"",source:"",note:"",approver:okName()||"",page:location.href,sent_at:new Date().toISOString()},fields||{});
+  if(APPROVAL_WEBHOOK){ try{ fetch(APPROVAL_WEBHOOK,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain"},body:JSON.stringify(ev)}).catch(function(){}); }catch(e){} }
+  return ev;
+}
+function wireApprovals(it,cl){
+  var KEY="hp-ok-"+it.id, rows=it.rows||[], CR=it.client_review||{}, loc={rows:{},graphics:{},script:null}, pend=null;
+  try{ loc=Object.assign(loc,JSON.parse(localStorage.getItem(KEY)||"{}")||{}); }catch(e){}
+  OK={it:it,cl:cl};
+  function save(){ try{ localStorage.setItem(KEY,JSON.stringify(loc)); }catch(e){} }
+  function stateFor(kind,k){
+    var syn=kind==="script"?CR.script:((CR[kind]||{})[k]), lo=kind==="script"?loc.script:(loc[kind]||{})[k];
+    if(lo&&(!syn||(lo.at||0)>(Date.parse(syn.at)||syn.at||0))) return Object.assign({sent:true},lo);
+    return syn||null;
+  }
+  function chipFor(st){
+    if(!st||!st.status) return "";
+    var by=st.by?" ("+esc(st.by)+")":"", sent=st.sent?' <span class="cok-note">sent</span>':"";
+    if(st.status==="approved") return '<span class="cok-chip">'+chip("good","Client approved"+by)+sent+'</span>';
+    return '<span class="cok-chip">'+chip("warn","Client asked for a change"+(st.note?": "+esc(st.note):"")+by)+sent+'</span>';
+  }
+  function btns(scope,k){
+    return '<div class="cok-btns"><button type="button" class="rf-btn" data-ok="approve" data-scope="'+scope+'" data-k="'+k+'">Approve'+(scope==="graphics"?" graphic":"")+'</button><button type="button" class="rf-btn ghost" data-ok="change" data-scope="'+scope+'" data-k="'+k+'">Change</button></div><div class="cok-slot"></div>';
+  }
+  var note=APPROVAL_WEBHOOK?"":'<span class="cok-note">Approvals are not connected yet</span>';
+  function paintRow(i){ var td=$("ok-"+i); if(td) td.innerHTML=chipFor(stateFor("rows",String(i)))+btns("rows",i); }
+  function paintMg(n){ var d=$("okmg-"+n); if(d) d.innerHTML=chipFor(stateFor("graphics",String(n)))+btns("graphics",n); }
+  function paintScript(){
+    var st=stateFor("script"), ban=$("ok-banner"), box=$("ok-script");
+    if(ban) ban.innerHTML=(st&&st.status==="approved")?chip("good","Client approved this script on "+esc(okDate(typeof st.at==="number"?st.at:Date.parse(st.at)))+(st.by?" ("+esc(st.by)+")":"")+(st.sent?" · sent":"")):"";
+    if(box) box.innerHTML='<button type="button" class="rf-btn" data-ok="approve" data-scope="script" data-k="all">Approve the whole script</button><div class="cok-slot"></div>'+note;
+  }
+  function paintAll(){ rows.forEach(function(r,i){ paintRow(i); }); document.querySelectorAll("[id^=okmg-]").forEach(function(d){ paintMg(d.id.slice(5)); }); paintScript(); }
+  paintAll();
+  function slotOf(b){ var c=b.closest(".cok,.cok-mg,.cok-script"); return c?c.querySelector(".cok-slot"):null; }
+  function record(scope,k,status,noteTxt){
+    var st={status:status,note:noteTxt||"",by:okName(),at:Date.now()};
+    if(scope==="script") loc.script=st; else { loc[scope]=loc[scope]||{}; loc[scope][k]=st; }
+    save();
+    var f={note:noteTxt||""};
+    if(scope==="rows"){ var r=rows[+k]||{}; f.kind=status==="approved"?"Row approved":"Row change requested"; f.row=+k; f.tc=r.tc||""; var v=r.voice; if(v&&typeof v==="object"){ f.quote=v.quote||""; f.source=v.src||""; } }
+    else if(scope==="graphics"){ f.kind=status==="approved"?"Graphic approved":"Graphic change requested"; f.graphic=+k; }
+    else { f.kind="Script approved"; }
+    okEmit(f);
+    if(scope==="rows") paintRow(k); else if(scope==="graphics") paintMg(k); else paintScript();
+  }
+  function act(b){
+    var a=b.getAttribute("data-ok"), scope=b.getAttribute("data-scope"), k=b.getAttribute("data-k"), slot=slotOf(b);
+    if(a==="approve") return record(scope,k,"approved","");
+    if(a==="change"&&slot){ slot.innerHTML='<div class="cok-form"><textarea data-oktext placeholder="What should change?"></textarea><button type="button" class="rf-btn" data-ok="send" data-scope="'+scope+'" data-k="'+k+'">Send</button></div>'; var t=slot.querySelector("textarea"); if(t) t.focus(); return; }
+    if(a==="send"&&slot){ var tx=slot.querySelector("[data-oktext]"), v=String(tx&&tx.value||"").trim(); if(!v){ if(tx) tx.focus(); return; } return record(scope,k,"change",v); }
+  }
+  document.getElementById("blueprint").addEventListener("click",okClick);
+  var mg=$("mg"); if(mg) mg.addEventListener("click",okClick);
+  function okClick(e){
+    var b=e.target.closest&&e.target.closest("[data-ok]"); if(!b) return; e.preventDefault(); e.stopPropagation();
+    var a=b.getAttribute("data-ok");
+    if(a==="name"){ var inp=b.parentNode.querySelector("[data-okname]"), n=String(inp&&inp.value||"").trim(); if(!n){ if(inp) inp.focus(); return; } okSetName(n); var p=pend; pend=null; var sl=b.closest(".cok-slot"); if(sl) sl.innerHTML=""; if(p) act(p); return; }
+    if(!okName()&&(a==="approve"||a==="change")){ pend=b; var slot=slotOf(b); if(slot) slot.innerHTML='<div class="cok-form"><input data-okname placeholder="Your name"><button type="button" class="rf-btn" data-ok="name">Save name</button></div>'; var i2=slot&&slot.querySelector("input"); if(i2) i2.focus(); return; }
+    act(b);
+  }
+}
 function cap(name){ if(!window.claude||!window.claude.use) return Promise.resolve(null); return window.claude.use(name).catch(function(){return null;}); }
 function getSample(){ return sampleP||(sampleP=cap("sample")); }
 function getDb(){ return dbP||(dbP=cap("db")); }
@@ -602,7 +687,7 @@ function mgSection(it,cl){
     return '<div class="mg-card" id="mg-'+m.n+'"><div class="mg-stage '+mode+(fr?'':' nofr')+'"'+(fr?' style="background-image:url('+fr+')"':'')+'><canvas width="360" height="640" data-mgc="'+m.n+'" aria-label="Preview of motion graphic '+m.n+'"></canvas><span class="mg-badge'+(mode==="full"?" full":"")+'">'+(mode==="full"?"Full-frame cutaway":"Transparent overlay")+'</span><span class="mg-dur">'+esc(m.dur)+' s</span></div>'+
       '<div class="mg-body"><span class="eyebrow">MG '+m.n+' · '+esc(tn)+'</span><h3>'+esc(m.title)+'</h3>'+(m.use?'<p class="note">'+esc(m.use)+'</p>':'')+
       '<p class="mg-src">Words from: '+esc(m.src||"")+'</p>'+(cut?'<p class="mg-cut note">Cut in at: '+cut+'</p>':'<p class="mg-cut note">Use anywhere it helps.</p>')+
-      '<button type="button" class="btn" data-mgdl="'+m.n+'">'+(mode==="full"?"Download MP4":"Download PNG sequence (.zip)")+'</button><div class="mg-prog" hidden><span></span></div><span class="note mg-st"></span></div></div>';
+      '<button type="button" class="btn" data-mgdl="'+m.n+'">'+(mode==="full"?"Download MP4":"Download PNG sequence (.zip)")+'</button><div class="mg-prog" hidden><span></span></div><span class="note mg-st"></span><div class="cok-mg" id="okmg-'+m.n+'"></div></div></div>';
   }).join("");
   var nOv=ms.filter(function(m){return MG.modeOf(m)==="overlay";}).length;
   return '<section id="mg"><div class="wrap"><div class="sec-head"><span class="eyebrow">Motion graphics</span><h2>'+ms.length+(ms.length===1?' graphic':' graphics')+' in '+esc(cl.short||cl.name)+'\'s brand</h2><p>Optional. Cut to them like B-roll, only where they help the video. Transparent overlays sit on top of footage (download as a PNG sequence, import as an image sequence at 30 fps). Full-frame cutaways download as MP4. All 1080×1920, 30 fps. The black chips in the timeline show where each one fits.</p></div>'+
@@ -788,9 +873,47 @@ function wireRefresh(it,cl,RF){
     return {list:td.querySelector(".rf-list"),status:td.querySelector(".rf-status"),more:td.querySelector("[data-more]")};
   }
 
+
+  var stp={};
+  function useOpt(i,kind,g){
+    var cur=swaps[i]||{};
+    if(kind==="hook") cur.hook={text:g.text,line:g.line,src:g.src,at:Date.now()};
+    else cur.bite={who:g.who,quote:g.quote,src:g.src,at:Date.now()};
+    swaps[i]=cur; commit(); paintRow(i); $("rf-"+i).hidden=true;
+    var r=rows[i]||{};
+    okEmit(kind==="hook"?{kind:"Hook swapped",row:i,tc:r.tc||"",quote:g.text,note:"Pays off on: "+g.line,source:g.src}:{kind:"Bite swapped",row:i,tc:r.tc||"",quote:g.quote,source:g.src});
+  }
+  function runStatic(i,kind,P){
+    var k=kind+":"+i, raw=((it.alts||{})[k])||[], sw=swaps[i]||{}, good=[], dropped=0;
+    var cutRanges=kind==="bite"?rangesOf(bitesInCut(i).concat([(sw.bite||rows[i].voice||{}).quote||""])):[];
+    raw.forEach(function(o){
+      if(!o) return;
+      var txt=String(kind==="hook"?o.line:o.quote||"").trim(), hit=locate(ix,txt);
+      if(!hit){ dropped++; return; }
+      if(kind==="bite"){
+        if(overlaps(hit,cutRanges)||good.some(function(g){return overlaps(hit,[g.hit]);})){ dropped++; return; }
+        good.push({hit:hit,quote:txt,who:String(o.who||"check by voice"),why:String(o.why||""),src:srcFor(ix,hit,o.file)});
+      } else {
+        var ht=String(o.text||"").trim(); if(!ht||(sw.hook&&sw.hook.text===ht)){ dropped++; return; }
+        good.push({hit:hit,text:ht,line:txt,why:String(o.why||""),src:srcFor(ix,hit,null)});
+      }
+    });
+    P.more.disabled=false;
+    if(!good.length){ P.list.innerHTML=""; P.status.textContent="Not available in this view. No other options for this row yet."; P.more.disabled=true; return; }
+    var pages=Math.ceil(good.length/4); stp[k]=((stp[k]==null?-1:stp[k])+1)%pages;
+    var show=good.slice(stp[k]*4,stp[k]*4+4);
+    P.list.innerHTML=show.map(function(g,n){
+      return kind==="hook"
+        ? '<div class="rf-opt"><span class="hk">'+esc(g.text)+'</span><span class="note">Pays off on: <q>“'+esc(g.line)+'”</q></span><span class="src">'+esc(g.src)+'</span><span class="why">'+esc(g.why)+'</span><button type="button" class="btn" data-use="'+n+'">Use this hook</button></div>'
+        : '<div class="rf-opt"><span class="who">'+esc(g.who)+'</span><q>“'+esc(g.quote)+'”</q><span class="src">'+esc(g.src)+'</span><span class="why">'+esc(g.why)+'</span><button type="button" class="btn" data-use="'+n+'">Use this bite</button></div>';
+    }).join("");
+    P.status.textContent=pages>1?("Options "+(stp[k]*4+1)+"–"+(stp[k]*4+show.length)+" of "+good.length+". Hit More for the next ones."):(good.length+(good.length===1?" option":" options")+" from this video's footage.");
+    if(pages<2) P.more.disabled=true;
+    P.list.querySelectorAll("[data-use]").forEach(function(b){ b.addEventListener("click",function(){ useOpt(i,kind,show[+b.getAttribute("data-use")]); }); });
+  }
   async function run(i,kind){
     var sample=await getSample(); var P=panel(i,kind); if(!P) return;
-    if(!sample){ P.status.textContent="Not available in this view. Open the page in Claude while signed in."; P.more.disabled=true; return; }
+    if(!sample){ return runStatic(i,kind,P); }
     var perms=await cap("permissions"), st=null;
     if(perms){ try{ st=await perms.state("sample"); }catch(x){ st=null; } }
     if(st==="denied"){ permOff(P,i,kind); P.more.disabled=false; return; }
@@ -855,6 +978,7 @@ function wireRefresh(it,cl,RF){
         if(kind==="hook") cur.hook={text:g.text,line:g.line,src:g.src,at:Date.now()};
         else cur.bite={who:g.who,quote:g.quote,src:g.src,at:Date.now()};
         swaps[i]=cur; commit(); paintRow(i); $("rf-"+i).hidden=true;
+        okEmit(kind==="hook"?{kind:"Hook swapped",row:i,tc:r.tc||"",quote:g.text,note:"Pays off on: "+g.line,source:g.src}:{kind:"Bite swapped",row:i,tc:r.tc||"",quote:g.quote,source:g.src});
       }); });
       var db=await getDb(); if(db){ try{ await db.collection("refreshes").add({item:it.id,row:i,kind:kind,shown:good.map(function(g){return kind==="hook"?g.text:g.quote;}),dropped:dropped,at:Date.now()}); }catch(e){} }
     }catch(e){
@@ -869,11 +993,11 @@ function wireRefresh(it,cl,RF){
   document.getElementById("blueprint").addEventListener("click",function(e){
     var b=e.target.closest&&e.target.closest("[data-rf],[data-more],[data-close],[data-undo],[data-perm]"); if(!b) return;
     var i=+b.getAttribute("data-row");
-    if(b.hasAttribute("data-rf")) return run(i,b.getAttribute("data-rf"));
+    if(b.hasAttribute("data-rf")){ stp[b.getAttribute("data-rf")+":"+i]=null; return run(i,b.getAttribute("data-rf")); }
     if(b.hasAttribute("data-more")) return run(i,b.getAttribute("data-more"));
     if(b.hasAttribute("data-perm")){ var kp=b.getAttribute("data-perm"), st2=b.closest(".rf-status"); cap("permissions").then(function(pm){ if(!pm) throw 0; return pm.manage().then(function(){ return pm.state("sample"); }); }).then(function(s){ if(s==="granted") run(i,kp); else if(st2) st2.textContent="Still off. Open the menu at the top of this page, go to Permissions, and switch on \u201cUse Claude\u201d."; }).catch(function(){ if(st2) st2.textContent="Open the menu at the top of this page, go to Permissions, and switch on \u201cUse Claude\u201d. You only do this once."; }); return; }
     if(b.hasAttribute("data-close")){ var c=+b.getAttribute("data-close"); if(ctl[c]) ctl[c].abort(); $("rf-"+c).hidden=true; return; }
-    if(b.hasAttribute("data-undo")){ var kd=b.getAttribute("data-undo"); if(swaps[i]){ delete swaps[i][kd]; if(!swaps[i].hook&&!swaps[i].bite) delete swaps[i]; } commit(); paintRow(i); }
+    if(b.hasAttribute("data-undo")){ var kd=b.getAttribute("data-undo"); if(swaps[i]){ delete swaps[i][kd]; if(!swaps[i].hook&&!swaps[i].bite) delete swaps[i]; } commit(); paintRow(i); okEmit({kind:"Undo",row:i,tc:(rows[i]||{}).tc||"",note:"Undid the "+kd+" swap"}); }
   });
 }
 
