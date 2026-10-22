@@ -407,8 +407,25 @@ function end_card(ctx,s,B,t){
     if(q>0){ctx.save();ctx.globalAlpha=q;ctx.fillStyle=c.fg;ctx.font=F(B,kind,f.size);f.lines.forEach(function(ln,j){ctx.fillText(ln,W/2,y+j*lh+(1-q)*24);});ctx.restore();}
     y+=f.lines.length*lh+30;});
 }
+/* ---------- captions (Atdhe 2026-10-22): one transparent clip per bite, words come in as they are spoken, one line at a time, key word on a brand pill ---------- */
+function caption_track(ctx,s,B,t){
+  var st=s.style||{},y=st.y||1380,size=st.size||70,fg=st.fg||"#FFFFFF",eb=st.emph_bg||(B.pal&&B.pal.bg)||"#222222",Wd=s.words||[],L=s.lines||[],ln=null,i;
+  for(i=0;i<L.length;i++){if(t>=L[i].t0&&t<L[i].t1){ln=L[i];break;}}
+  if(!ln)return;
+  var out=eInOut(seg(t,ln.t1-.08,ln.t1)),ws=[],tot=0,sz=size;
+  for(var pass=0;pass<2;pass++){ctx.font=F(B,"head",sz);ws=[];tot=0;var sp=ctx.measureText(" ").width;
+    for(i=ln.a;i<=ln.b;i++){var tx=up(Wd[i].w,s),mw=ctx.measureText(tx).width;ws.push({w:Wd[i],tx:tx,mw:mw});tot+=mw;}
+    tot+=sp*(ws.length-1);if(tot<=940)break;sz=Math.floor(sz*940/tot);}
+  ctx.save();ctx.textBaseline="middle";ctx.textAlign="left";var x=W/2-tot/2,gap=ctx.measureText(" ").width;
+  ws.forEach(function(o){var p=eOut(seg(t,o.w.t0-.04,o.w.t0+.14));
+    if(p>0){ctx.globalAlpha=(1-out)*Math.min(1,p*1.5);
+      if(o.w.e){var pb=eOut(seg(t,o.w.t0,o.w.t0+.22));rr(ctx,x-14,y-sz*.6,(o.mw+28)*pb,sz*1.2,14);ctx.fillStyle=eb;shadow(ctx,false);ctx.fill();}
+      shadow(ctx,true);ctx.fillStyle=fg;ctx.fillText(o.tx,x,y+(1-p)*16);shadow(ctx,false);}
+    x+=o.mw+gap;});
+  ctx.restore();
+}
 var T={kinetic_quote:{fn:kinetic_quote,mode:"overlay",name:"Kinetic quote"},stat_counter:{fn:stat_counter,mode:"overlay",name:"Number pop"},word_stack:{fn:word_stack,mode:"overlay",name:"Word stack"},highlight_callout:{fn:highlight_callout,mode:"overlay",name:"Highlighter"},corner_frame:{fn:corner_frame,mode:"overlay",name:"Focus frame"},brand_wipe:{fn:brand_wipe,mode:"overlay",name:"Brand wipe transition"},tag_label:{fn:tag_label,mode:"overlay",name:"Topic tag"},
-  statement_card:{fn:statement_card,mode:"full",name:"Statement card"},number_card:{fn:number_card,mode:"full",name:"Number card"},quote_card:{fn:quote_card,mode:"full",name:"Quote card"},list_card:{fn:list_card,mode:"full",name:"List card"},question_card:{fn:question_card,mode:"full",name:"Question card"},texture_loop:{fn:texture_loop,mode:"full",name:"Brand texture loop"},end_card:{fn:end_card,mode:"full",name:"End card"},end_card_overlay:{fn:end_card,mode:"overlay",name:"End card over footage"}};
+  statement_card:{fn:statement_card,mode:"full",name:"Statement card"},number_card:{fn:number_card,mode:"full",name:"Number card"},quote_card:{fn:quote_card,mode:"full",name:"Quote card"},list_card:{fn:list_card,mode:"full",name:"List card"},question_card:{fn:question_card,mode:"full",name:"Question card"},texture_loop:{fn:texture_loop,mode:"full",name:"Brand texture loop"},end_card:{fn:end_card,mode:"full",name:"End card"},end_card_overlay:{fn:end_card,mode:"overlay",name:"End card over footage"},caption_track:{fn:caption_track,mode:"overlay",name:"Captions"}};
 function draw(ctx,s,B,t){var tp=T[s.tpl];ctx.clearRect(0,0,W,H);if(!tp)return;ctx.save();ctx.textAlign="left";ctx.textBaseline="alphabetic";try{tp.fn(ctx,s,B,clamp(t,0,s.dur));}catch(e){}ctx.restore();}
 function modeOf(s){return (T[s.tpl]&&T[s.tpl].mode)||s.mode||"overlay";}
 var fontsP={};
@@ -423,7 +440,7 @@ async function exportMG(s,B,onProg){
   if(modeOf(s)==="overlay"){
     var JSZip=await lib(LIBS.zip,"JSZip"),zip=new JSZip(),dir=zip.folder(s.base);
     for(var i=0;i<N;i++){draw(ctx,s,B,i/FPS);var blob=await new Promise(function(r){cv.toBlob(r,"image/png");});dir.file(s.base+"_"+String(i).padStart(4,"0")+".png",blob);if(i%5===0){onProg(i/N*.85);await new Promise(function(r){setTimeout(r,0);});}}
-    dir.file("HOW TO USE.txt","Transparent motion graphic, "+N+" PNG frames at 30 fps, 1080x1920.\nPremiere: File > Import, pick the first PNG, tick 'Image Sequence'.\nResolve: Media Pool, drag the folder in (frames come in as one clip).\nPut it on a track above your footage.\n");
+    dir.file("HOW TO USE.txt",s.howto?s.howto.replace("{N}",N):"Transparent motion graphic, "+N+" PNG frames at 30 fps, 1080x1920.\nPremiere: File > Import, pick the first PNG, tick 'Image Sequence'.\nResolve: Media Pool, drag the folder in (frames come in as one clip).\nPut it on a track above your footage.\n");
     var out=await zip.generateAsync({type:"blob",compression:"STORE"},function(m){onProg(.85+m.percent/100*.15);});return {blob:out,name:s.base+"_transparent_PNG-sequence.zip"};
   }
   if(typeof VideoEncoder==="undefined")throw new Error("This browser cannot make MP4 files. Use Chrome on a computer.");
@@ -462,6 +479,7 @@ async function load(){
     try{ mgd=await getJSON("mg/"+id+".json"); var brands=cache.__brands||(cache.__brands=await getJSON("mg/brands.json")); brand=brands[item.client]||null; }catch(e){ mgd=null; }
     CUR_MG=(mgd&&brand&&mgd.mg&&mgd.mg.length)?{d:mgd,b:brand}:null;
     try{ var ups=cache.__ups||(cache.__ups=await getJSON("uploads.json")); CUR_UP=ups[id]||null; }catch(e){ CUR_UP=null; }
+    try{ var capd=await getJSON("captions/"+id+".json"); var bs=cache.__brands||(cache.__brands=await getJSON("mg/brands.json")); CUR_CAP=(capd.tracks&&capd.tracks.length&&bs[item.client])?{d:capd,b:bs[item.client]}:null; }catch(e){ CUR_CAP=null; }
     renderItem(item,client);
   }catch(e){
     app.innerHTML='<div class="wrap" style="padding-block:60px"><h2>Blueprint not found</h2><p class="note">No blueprint for item '+esc(id)+'. <a href="#">See all blueprints</a>.</p></div>';
@@ -539,14 +557,14 @@ function renderItem(it,cl){
   '<header class="mast"><div class="wrap"><div class="logo-row"><a href="#"><img class="logo" src="'+LOGO+'" alt="Happy Productions"></a><span class="eyebrow">Director\'s Blueprint · Post Production</span></div>'+
   '<div class="title-row"><div style="display:grid;gap:10px;min-width:0"><span class="eyebrow">'+esc(it.eyebrow)+'</span><h1>'+esc(it.title)+(it.title_q?' <span class="q">'+esc(it.title_q)+'</span>':'')+'</h1></div></div>'+
   '<div class="chips"><span class="chip due"><b>Due</b> '+esc(fmtDate(it.due))+'</span><span class="chip"><b>Editor</b> '+esc(it.editor)+'</span><span class="chip"><b>Format</b> '+esc(it.format)+'</span>'+(it.length?'<span class="chip"><b>Length</b> '+esc(it.length)+'</span>':'')+'<span class="chip"><b>Edit Key</b> <span class="mono">'+esc(it.edit_key)+'</span></span><a class="chip ask-chip" href="#ask" data-jump="ask"><b>Questions?</b> Ask here</a><span class="chip"><a href="https://happyproductions.monday.com/boards/2135456123/pulses/'+esc(it.id)+'">Monday item '+esc(it.id)+'</a></span></div>'+uploadBar()+'</div></header>'+
-  '<nav class="jump" aria-label="Sections"><div class="wrap"><a href="#" data-jump="brief">The idea</a><a href="#" data-jump="blueprint">Second-by-second</a>'+(CUR_MG?'<a href="#" data-jump="mg">Motion graphics</a>':'')+'<a href="#" data-jump="files">Files &amp; specs</a><a href="#" data-jump="client">Client file</a>'+(dec.length?'<a href="#" data-jump="decide">Open decisions</a>':'')+'<a href="#" data-jump="ask" class="ask-link">Ask a question</a></div></nav><main>'+
+  '<nav class="jump" aria-label="Sections"><div class="wrap"><a href="#" data-jump="brief">The idea</a><a href="#" data-jump="blueprint">Second-by-second</a>'+(CUR_MG?'<a href="#" data-jump="mg">Motion graphics</a>':'')+(CUR_CAP?'<a href="#" data-jump="captions">Captions</a>':'')+'<a href="#" data-jump="files">Files &amp; specs</a><a href="#" data-jump="client">Client file</a>'+(dec.length?'<a href="#" data-jump="decide">Open decisions</a>':'')+'<a href="#" data-jump="ask" class="ask-link">Ask a question</a></div></nav><main>'+
   '<section id="brief"><div class="wrap"><div class="sec-head"><span class="eyebrow">01 · The idea</span><h2>'+esc(it.headline)+'</h2></div><div class="brief"><div style="display:grid;gap:16px;min-width:0;align-content:start">'+(it.story||[]).map(function(p,i){return '<p class="story"'+(i?' style="font-size:16px"':'')+'>'+p+'</p>';}).join("")+
     '<div class="feel" aria-label="Target feeling">'+(it.feel||[]).map(function(f){return '<span>'+esc(f)+'</span>';}).join("")+'</div></div>'+
     '<div class="dodont"><div class="box do"><h3>Do</h3>'+ul(it.do)+'</div><div class="box dont"><h3>Don\'t</h3>'+ul(it.dont)+'</div></div></div>'+kl+'</div></section>'+
   '<section id="blueprint"><div class="wrap"><div class="sec-head"><span class="eyebrow">02 · Second-by-second</span><h2>The timeline, beat by beat</h2><div class="cok-banner" id="ok-banner"></div><p>'+(it.bp_intro||"")+'</p>'+(RF.any?'<p class="note">Want options? <b>↻ New hook ideas</b> and <b>↻ Different bite</b> find new ones in this video\'s transcript only. Every line is checked word for word before you see it.</p>':'')+'</div><div class="tbl-wrap" tabindex="0" role="region" aria-label="Second-by-second blueprint table"><table class="bp"><thead><tr><th style="width:96px">Timecode</th><th style="width:250px">Visual action &amp; framing</th><th style="width:220px">Motion graphics &amp; type</th><th style="width:270px">Voice &amp; audio bites</th><th style="width:160px">Sound effects</th><th style="width:170px">Music state</th><th style="width:120px">Client OK</th></tr></thead><tbody>'+rows+'</tbody></table></div>'+
     '<div class="cok-script" id="ok-script"></div>'+
     '<div class="legend"><span><i></i>9:16 crop of the 16:9 frame</span><span>Frames are from the real footage</span></div></div></section>'+
-  mgSection(it,cl)+
+  mgSection(it,cl)+capSection(it,cl)+
   '<section id="files"><div class="wrap"><div class="sec-head"><span class="eyebrow">03 · Files &amp; specs</span><h2>What you need and how to deliver it</h2></div><div class="grid2"><div class="box"><h3>Files</h3>'+kv(it.files)+'</div><div class="box"><h3>Technical</h3>'+kv(it.tech)+'</div></div>'+
     '<div class="box" style="margin-top:16px"><h3>Before you export V1 <span id="ck-count" class="status st-warn" style="margin-left:8px;vertical-align:2px"></span></h3><ul class="check" id="v1-check">'+ck+'</ul><p class="note" id="ck-status" style="margin-top:10px"></p></div></div></section>'+
   '<section id="client"><div class="wrap"><div class="sec-head"><span class="eyebrow">04 · Client file</span><h2>'+esc(cl.head||(cl.name+": what they want, what they hate, how they feel about us"))+'</h2><p>'+(cl.about||"")+'</p></div>'+health+
@@ -561,6 +579,7 @@ function renderItem(it,cl){
   wire(it,cl);
   wireRefresh(it,cl,RF);
   wireMG(it,cl);
+  wireCaps(it,cl);
   wireApprovals(it,cl);
 }
 document.addEventListener("click",function(e){
@@ -693,6 +712,51 @@ var unsub=null, unsubSw=null;
 
 /* ===== Motion graphics library: section, row links, previews, downloads ===== */
 var CUR_MG=null;
+/* Captions as PNG sequences (captions/<id>.json, Atdhe 2026-10-22): one clip per bite, drawn by MG.caption_track */
+var CUR_CAP=null;
+function capSection(it,cl){
+  if(!CUR_CAP) return "";
+  var D=CUR_CAP.d,B=CUR_CAP.b,ts=D.tracks;
+  var cards=ts.map(function(m){
+    var fr=mgFrameFor(it,m),cut=(m.rows||[]).map(function(tc){ return '<a href="#" data-mgrow="'+esc(tc)+'">'+esc(tc)+'</a>'; }).join(", ");
+    return '<div class="mg-card" id="cap-'+m.n+'"><div class="mg-stage overlay'+(fr?'':' nofr')+'"'+(fr?' style="background-image:url('+fr+')"':'')+'><canvas width="360" height="640" data-capc="'+m.n+'" aria-label="Preview of caption clip '+m.n+'"></canvas><span class="mg-badge">Captions · transparent</span><span class="mg-dur">'+esc(m.dur)+' s</span></div>'+
+      '<div class="mg-body"><span class="eyebrow">Captions '+m.n+' · '+esc(m.title||"")+'</span><h3>'+esc(m.text||"")+'</h3>'+
+      '<p class="mg-src">Frame 0000 lines up with '+esc(m.src||"")+', just before the first word.</p>'+(cut?'<p class="mg-cut note">Bite at: '+cut+'</p>':'')+
+      '<button type="button" class="btn" data-capdl="'+m.n+'">Download PNG sequence (.zip)</button><div class="mg-prog" hidden><span></span></div><span class="note mg-st"></span></div></div>';
+  }).join("");
+  return '<section id="captions"><div class="wrap"><div class="sec-head"><span class="eyebrow">Captions</span><h2>'+ts.length+' caption clips in '+esc(cl.short||cl.name)+'’s style</h2><p>Every spoken bite as a transparent PNG sequence, 1080×1920 at 30 fps. Words come in as they are spoken, one line at a time, in the brand caption style. Frame 0000 lines up with the source time on each card, just before the first word: put the clip on a track above the footage where that bite starts and trim it with the bite.</p></div>'+
+    (D.note?'<div class="mg-brand"><div class="mg-caution"><b>For this video:</b> '+esc(D.note)+'</div></div>':'')+
+    '<div class="mg-grid">'+cards+'</div></div></section>';
+}
+function wireCaps(it,cl){
+  if(!CUR_CAP) return;
+  var D=CUR_CAP.d,B=CUR_CAP.b,byN={},vis={},raf=null,t0=performance.now();
+  D.tracks.forEach(function(m){ m.style=m.style||D.style; m.tpl="caption_track"; byN[m.n]=m; });
+  MG.ensureFonts(B);
+  var canv=[].slice.call(document.querySelectorAll("canvas[data-capc]"));
+  function frame(now){ raf=null; var any=false;
+    canv.forEach(function(cv){ var n=cv.getAttribute("data-capc"); if(!vis[n]) return; any=true; var m=byN[n],ctx=cv.getContext("2d"),t=((now-t0)/1000)%(m.dur+0.8);
+      ctx.setTransform(1,0,0,1,0,0); ctx.clearRect(0,0,cv.width,cv.height); ctx.setTransform(cv.width/MG.W,0,0,cv.height/MG.H,0,0); MG.draw(ctx,m,B,Math.min(t,m.dur-0.001)); });
+    if(any) raf=requestAnimationFrame(frame); }
+  var io=("IntersectionObserver" in window)?new IntersectionObserver(function(es){ es.forEach(function(e){ vis[e.target.getAttribute("data-capc")]=e.isIntersecting; }); if(!raf) raf=requestAnimationFrame(frame); },{rootMargin:"100px"}):null;
+  canv.forEach(function(cv){ if(io) io.observe(cv); else vis[cv.getAttribute("data-capc")]=true; });
+  if(!io) raf=requestAnimationFrame(frame);
+  var sec=$("captions"); if(!sec) return;
+  sec.addEventListener("click",async function(e){
+    var b=e.target.closest&&e.target.closest("[data-capdl],[data-mgrow]"); if(!b) return; e.preventDefault();
+    if(b.hasAttribute("data-mgrow")){ var tc=b.getAttribute("data-mgrow"),idx=(it.rows||[]).map(function(r){return r.tc;}).indexOf(tc),tr=$("bp-row-"+idx); if(tr){ tr.scrollIntoView({behavior:"smooth",block:"center"}); tr.classList.add("flash"); setTimeout(function(){tr.classList.remove("flash");},1600);} return; }
+    var m=byN[b.getAttribute("data-capdl")],card=b.closest(".mg-card"),st=card.querySelector(".mg-st"),pg=card.querySelector(".mg-prog"),bar=pg.firstChild;
+    b.disabled=true; pg.hidden=false; st.textContent="Making the file…";
+    try{
+      var spec=Object.assign({},m,{base:(String(it.edit_key||it.id).replace(/[^A-Za-z0-9]/g,""))+"_CAP"+String(m.n).padStart(2,"0")+"_"+mgSlug(m.title),
+        howto:"Captions for one bite: {N} PNG frames at 30 fps, 1080x1920, transparent.\nFrame 0000 lines up with "+(m.src||"")+" in the source clip, just before the first word.\nPut it on a track above the footage where this bite starts, then trim it with the bite.\nPremiere: File > Import, pick the first PNG, tick 'Image Sequence'. Resolve: drag the folder into the Media Pool.\n"});
+      var file=await MG.exportMG(spec,B,function(p){ bar.style.width=Math.round(p*100)+"%"; });
+      if(!file||!file.blob||!file.blob.size){ st.textContent="Could not make the file (it came out empty). Please try again."; }
+      else{ var u=URL.createObjectURL(file.blob),a=document.createElement("a"); a.href=u; a.download=file.name; a.rel="noopener"; a.style.display="none"; document.body.appendChild(a); a.click(); a.remove(); setTimeout(function(){URL.revokeObjectURL(u);},60000); st.textContent="Downloaded."; }
+    }catch(err){ st.textContent=(err&&err.message&&err.message.length<140)?err.message:"Could not make the file. Use Chrome on a computer."; }
+    finally{ b.disabled=false; setTimeout(function(){pg.hidden=true;bar.style.width="0";},1500); }
+  });
+}
 /* Upload file name + the production's Frame.io batch folder (uploads.json, Atdhe 2026-10-22) */
 var CUR_UP=null;
 function uploadBar(){
