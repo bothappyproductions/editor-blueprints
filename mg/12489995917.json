@@ -59,16 +59,10 @@
     "00:28–00:31"
    ],
    "cue": "Only the official Lions lockup from the Lions brand files. Nothing else on it. No stats, no URL stack, no AI-style flyer graphics. If Atdhe ",
-   "src": "Official Lions International lockup from the Lions brand files (brand kit). Lions' latest end card video (Lions CTA.mp4, Slack 20 Aug 2026) replaces this as soon as it is downloaded.",
-   "c": {
-    "bg": "#FFFFFF",
-    "fg": "#00338D"
-   },
-   "logo_w": 860,
-   "logo": "endcards/lions/lions-logo.svg",
-   "text": {},
-   "dur": 3.0,
-   "use": "This is the end card. Put it at 00:28 after the last line and hold it to the end."
+   "src": "Lions' latest end card video (Lions CTA.mp4, sent as the latest Lions end card on Slack, 20 Aug 2026): the Lions emblem on the brand gradient with Find your local club at lionsclubs.org.",
+   "file": "endcards/lions/lions-cta-end-card.mp4",
+   "dur": 5.1,
+   "use": "This is the end card, the client's own file. Put it at 00:28 after the last line and use it exactly as it is."
   }
  ]
 }

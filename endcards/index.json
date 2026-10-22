@@ -68,14 +68,11 @@
   "source": "FTC logo (white) from the client's Brand folder for the Year-End 2026 centerpiece (copied 11 Oct 2026)."
  },
  "lions": {
-  "kind": "logo",
-  "logo": "endcards/lions/lions-logo.svg",
-  "c": {
-   "bg": "#FFFFFF",
-   "fg": "#00338D"
-  },
-  "date": "2026-10-10",
-  "source": "Official Lions International lockup from the Lions brand files (brand kit). Lions' latest end card video (Lions CTA.mp4, Slack 20 Aug 2026) replaces this as soon as it is downloaded."
+  "kind": "file",
+  "file": "endcards/lions/lions-cta-end-card.mp4",
+  "dur": 5.1,
+  "date": "2026-08-20",
+  "source": "Lions' latest end card video (Lions CTA.mp4, sent as the latest Lions end card on Slack, 20 Aug 2026): the Lions emblem on the brand gradient with Find your local club at lionsclubs.org."
  },
  "watsi": {
   "kind": "lines",
