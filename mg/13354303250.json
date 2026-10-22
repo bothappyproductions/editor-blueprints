@@ -1,0 +1,6 @@
+{"item":"13354303250","client":"momcozy","note":"No spoken lines and the plan is all motion, so 4 graphics.","mg":[
+ {"n":1,"tpl":"tag_label","title":"Alert tag","dur":2,"pos":"upper","text":{"main":"Safety-zone alert"},"src":"Label only, no claim.","rows":["00:02-00:04"],"use":"Small pill in the top band as she starts to run, after the hook text is gone."},
+ {"n":2,"tpl":"brand_wipe","title":"Into the room","dur":1.6,"text":{},"src":"Transition, no text.","rows":["00:08-00:10"],"use":"Quick wipe from the landing into the dark room, before the light comes on."},
+ {"n":3,"tpl":"corner_frame","title":"Frame the bed","dur":2,"text":{},"src":"Label only, no claim.","rows":["00:10-00:12"],"use":"Brackets snap around the bed as she reaches it. Brackets only, no text."},
+ {"n":4,"tpl":"tag_label","title":"Monitor tag","dur":2,"pos":"upper","text":{"main":"BM08"},"src":"Label only, no claim.","rows":["00:12-00:14"],"use":"Small pill in the top band on the BM08 insert once it lands. Keep text cards readable."}
+]}

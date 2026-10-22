@@ -1,0 +1,37 @@
+{
+ "item": "13354368481",
+ "client": "momcozy",
+ "note": "No talking in this video by client rule, so only 2 product tags.",
+ "mg": [
+  {
+   "n": 1,
+   "tpl": "tag_label",
+   "title": "BN02 tag",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "BN02"
+   },
+   "src": "Label only, no claim. Product name from the brief.",
+   "rows": [
+    "00:06-00:10"
+   ],
+   "use": "Small tag in the upper frame while Mom uses the aspirator. Keep it clear of the baby's face."
+  },
+  {
+   "n": 2,
+   "tpl": "tag_label",
+   "title": "WN02 tag",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "WN02"
+   },
+   "src": "Label only, no claim. Product name from the brief.",
+   "rows": [
+    "00:19-00:25"
+   ],
+   "use": "Small tag on the WN02 close-up when the light comes on."
+  }
+ ]
+}

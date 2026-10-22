@@ -634,5 +634,60 @@
     "#231F20"
    ]
   ]
+ },
+ "momcozy": {
+  "google": "Inter:wght@500;700;800",
+  "head": {
+   "css": "\"Inter\"",
+   "w": 800
+  },
+  "body": {
+   "css": "\"Inter\"",
+   "w": 600
+  },
+  "pal": {
+   "bg": "#6A2B3A",
+   "fg": "#FFFFFF",
+   "ac": "#B27A7E",
+   "onAc": "#FFFFFF",
+   "ac2": "#FCE4E2"
+  },
+  "font_note": "Momcozy's font is Inter, so these use Inter.",
+  "rules": [
+   "Momcozy is one word, capital M. Wordmark MOMCOZY in caps on the end card only.",
+   "No colour that is not on the Momcozy sheet.",
+   "Captions white with a soft shadow, easy to read.",
+   "No prices or discount numbers in these graphics."
+  ],
+  "colors": [
+   [
+    "Cozy Chestnut",
+    "#6A2B3A"
+   ],
+   [
+    "Rose Pink",
+    "#B27A7E"
+   ],
+   [
+    "Blush",
+    "#FCE4E2"
+   ],
+   [
+    "Warm Cream",
+    "#FEF9F6"
+   ],
+   [
+    "Sage",
+    "#6B8578"
+   ],
+   [
+    "Grey",
+    "#4A4947"
+   ],
+   [
+    "White",
+    "#FFFFFF"
+   ]
+  ]
  }
 }

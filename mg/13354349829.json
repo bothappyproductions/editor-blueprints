@@ -1,0 +1,89 @@
+{
+ "item": "13354349829",
+ "client": "momcozy",
+ "note": "Short tip and the plan keeps the product mention small, so 5 graphics.",
+ "mg": [
+  {
+   "n": 1,
+   "tpl": "tag_label",
+   "title": "BN02",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "BN02"
+   },
+   "src": "Label only, no claim.",
+   "rows": [
+    "00:04-00:10"
+   ],
+   "use": "Small tag when the aspirator first shows, after the hook text is gone."
+  },
+  {
+   "n": 2,
+   "tpl": "kinetic_quote",
+   "title": "Not uncomfortable",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "you can see she's not uncomfortable",
+    "emph": [
+     "not uncomfortable"
+    ],
+    "who": "Kara"
+   },
+   "src": "Kara, IMG_9348.MOV [01:00.7]",
+   "rows": [
+    "00:10-00:15"
+   ],
+   "use": "Top band as she says it, over the gentle-use shot."
+  },
+  {
+   "n": 3,
+   "tpl": "highlight_callout",
+   "title": "Something worse",
+   "dur": 3.5,
+   "pos": "top",
+   "text": {
+    "main": "So it doesn't turn to something worse."
+   },
+   "src": "Kara, IMG_9348.MOV [01:09.8]",
+   "rows": [
+    "00:15-00:22"
+   ],
+   "use": "Top band as she says it, over the baby's calm face. This is her reason, so let it read."
+  },
+  {
+   "n": 4,
+   "tpl": "word_stack",
+   "title": "Colors and music",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "items": [
+     "different colors",
+     "music"
+    ]
+   },
+   "src": "Kara, IMG_9348.MOV [01:09.8]",
+   "rows": [
+    "00:22-00:25"
+   ],
+   "use": "Each word lands as she says it over the light close-up."
+  },
+  {
+   "n": 5,
+   "tpl": "highlight_callout",
+   "title": "Nap time",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "it's actually time for her nap."
+   },
+   "src": "Kara, IMG_9350.MOV [00:05.8]",
+   "rows": [
+    "00:25-00:31"
+   ],
+   "use": "Top band as she says it, then she lays the baby in the crib."
+  }
+ ]
+}

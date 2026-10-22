@@ -1,0 +1,40 @@
+{
+ "item": "13354354718",
+ "client": "momcozy",
+ "note": "No spoken words in this cut and the plan puts Momcozy's own lines on screen, so only 2 small graphics.",
+ "mg": [
+  {
+   "n": 1,
+   "tpl": "corner_frame",
+   "title": "Frame the machine",
+   "dur": 3,
+   "text": {},
+   "box": [
+    0.25,
+    0.3,
+    0.5,
+    0.45
+   ],
+   "src": "Label only, no claim.",
+   "rows": [
+    "00:06-00:09"
+   ],
+   "use": "Brackets around the WN02 on the close-up as the light comes on. Keep the Momcozy text in the top third."
+  },
+  {
+   "n": 2,
+   "tpl": "tag_label",
+   "title": "WN02 tag",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "WN02"
+   },
+   "src": "Label only, no claim. Product name from the brief.",
+   "rows": [
+    "00:14-00:18"
+   ],
+   "use": "Small tag next to the glowing machine on the shelf, under the Black Friday text."
+  }
+ ]
+}

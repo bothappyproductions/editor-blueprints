@@ -1,0 +1,88 @@
+{
+ "item": "13354368479",
+ "client": "momcozy",
+ "note": "No one speaks in this cut, so these are animated versions of the plan's on-screen lines, 5 graphics.",
+ "mg": [
+  {
+   "n": 1,
+   "tpl": "highlight_callout",
+   "title": "Back to work",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Baby's asleep. Back to work."
+   },
+   "src": "On-screen line in the plan, row 00:03-00:07.",
+   "rows": [
+    "00:03-00:07"
+   ],
+   "use": "Top band over the monitor close-up, in place of the plain text. Keep captions on."
+  },
+  {
+   "n": 2,
+   "tpl": "tag_label",
+   "title": "Later",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "Later…"
+   },
+   "src": "On-screen line in the plan, row 00:07-00:09.",
+   "rows": [
+    "00:07-00:09"
+   ],
+   "use": "Pops in as she walks out the door."
+  },
+  {
+   "n": 3,
+   "tpl": "highlight_callout",
+   "title": "Stuffy little nose",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Uh oh. Stuffy little nose"
+   },
+   "src": "On-screen line in the plan, row 00:12-00:15.",
+   "rows": [
+    "00:12-00:15"
+   ],
+   "use": "Top band on her worried look."
+  },
+  {
+   "n": 4,
+   "tpl": "word_stack",
+   "title": "Gentle and soft",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "items": [
+     "Gentle suction.",
+     "Soft silicone tip."
+    ]
+   },
+   "src": "On-screen line in the plan, row 00:15-00:24.",
+   "rows": [
+    "00:15-00:24"
+   ],
+   "use": "One line per BN02 angle, top band. The tip and the baby's face stay clear."
+  },
+  {
+   "n": 5,
+   "tpl": "kinetic_quote",
+   "title": "A little me time",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Finally, a little me time",
+    "emph": [
+     "me time"
+    ]
+   },
+   "src": "On-screen line in the plan, row 00:28-00:32.",
+   "rows": [
+    "00:28-00:32"
+   ],
+   "use": "Words pop in while she reads on the sofa."
+  }
+ ]
+}

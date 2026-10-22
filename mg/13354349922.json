@@ -1,0 +1,101 @@
+{
+ "item": "13354349922",
+ "client": "momcozy",
+ "note": "Short tip and the plan keeps Jamie and the product on screen, so 6 graphics, all in the top band.",
+ "mg": [
+  {
+   "n": 1,
+   "tpl": "highlight_callout",
+   "title": "Air moist",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "keep the air moist with the humidifier"
+   },
+   "src": "Jordana, IMG_9443.MOV [00:11.2]",
+   "rows": [
+    "00:04-00:08"
+   ],
+   "use": "Top band as she says step one, after the hook text is gone. Keep captions on."
+  },
+  {
+   "n": 2,
+   "tpl": "tag_label",
+   "title": "Nasal spray",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "nasal spray"
+   },
+   "src": "Jordana, IMG_9443.MOV [00:14.8]",
+   "rows": [
+    "00:08-00:10"
+   ],
+   "use": "Small tag top left as she says step two."
+  },
+  {
+   "n": 3,
+   "tpl": "kinetic_quote",
+   "title": "Absolute lifesaver",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "which has been an absolute lifesaver",
+    "emph": [
+     "lifesaver"
+    ],
+    "who": "Jordana"
+   },
+   "src": "Jordana, IMG_9443.MOV [00:16.6]",
+   "rows": [
+    "00:10-00:15"
+   ],
+   "use": "Words pop in as she says them, while she lifts the aspirator."
+  },
+  {
+   "n": 4,
+   "tpl": "word_stack",
+   "title": "Speed and colors",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "items": [
+     "set the speed",
+     "changing colors"
+    ]
+   },
+   "src": "Jordana, IMG_9443.MOV [00:43.5]",
+   "rows": [
+    "00:15-00:19"
+   ],
+   "use": "Each phrase lands as she says it, over the glowing tip."
+  },
+  {
+   "n": 5,
+   "tpl": "corner_frame",
+   "title": "Gentle use",
+   "dur": 3,
+   "text": {},
+   "src": "Label only, no claim.",
+   "rows": [
+    "00:19-00:25"
+   ],
+   "use": "Brackets around the tip at Jamie's nose on the best use shot. No text."
+  },
+  {
+   "n": 6,
+   "tpl": "highlight_callout",
+   "title": "Breathing better",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "she's breathing better out of her nose"
+   },
+   "src": "Jordana, IMG_9443.MOV [01:32.6]",
+   "rows": [
+    "00:25-00:30"
+   ],
+   "use": "Top band as she says it, then cut to Jamie calm. Keep captions on."
+  }
+ ]
+}
