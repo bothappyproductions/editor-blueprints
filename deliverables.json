@@ -107,7 +107,7 @@
   "loudness": "-14 LUFS",
   "music": "Epidemic Sound · It's Gonna Be a Good Day (instrumental)",
   "mp4": {
-   "name": "90_Traditional_S4SMOAAyhMoreHappinessInGiving001-2.mp4",
+   "name": "90_Montage_S4SMOAAyhMoreHappinessInGiving001-2.mp4",
    "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/c24a30c1-e692-4600-b94e-e91b6a69204c"
   },
   "xml": {
@@ -152,5 +152,30 @@
    "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/6cb2261c-05ed-4dcf-bc56-3005b276e3c4"
   },
   "note": "Cut in Resolve from this blueprint. Runs 1:32 (speech 1:26 + 6 s end card) against the blueprint's ~1:10: spoken Spanish runs longer than the English script. Captions are English (Andrés's translation), timed to the Spanish phrases. No name super (Robert vs Roberto is still open). The video call stalled twice inside the cut; each freeze is filled with motion-interpolated frames, so no frame is held and no word is dropped. The XML opens in Premiere with the cut, captions and music laid out; relink Roberto Client Interview.mp4 and the patch clips (Freeze patches zip) if Premiere asks. Graded in Resolve before export; the Grade LUTs zip has the same .cube file for Premiere (Lumetri > Input LUT). Every edit point sits on the real speech edge. Graphics are this page's own motion graphics, drawn by its engine at the cut's frame rate and placed off every face: the hook, and a new “Asylum approved · October 30, 2025” tag on the day his story turns."
+ },
+ "13190022271": {
+  "version": 1,
+  "made": "2026-10-23",
+  "tool": "DaVinci Resolve Studio 21.1",
+  "length": "2:39",
+  "loudness": "-14 LUFS",
+  "music": "Epidemic Sound · Chapters (Aerian)",
+  "mp4": {
+   "name": "90_Traditional_AIJGalaWhoCanHelpMe001-1.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/d2d1d377-5997-457d-9883-9311180fd272"
+  },
+  "xml": {
+   "name": "AIJGalaWhoCanHelpMe001_90_v1_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/74c91c51-1e8d-465b-8362-73fdd9dea196"
+  },
+  "graphics": {
+   "name": "AIJGalaWhoCanHelpMe001_graphics_16x9_v1.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/e0165f6e-a5b5-4132-8e00-3b938e1e075d"
+  },
+  "luts": {
+   "name": "AIJGalaWhoCanHelpMe001_grade_LUTs_v1.zip",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/fda544d0-5b28-4df5-9965-d22123ff0dc3"
+  },
+  "note": "Cut in Resolve from this blueprint as its own gala film, 16:9. The host's read is C9105 (take 3, the repeat take for “Behind every case”, closing card take 1, the last take for the button); the hook is the second “Who can help me?” (C9109 0:09.3), because a palm trunk crosses her in the first. Close-ups are CAM 2 (C8088, synced by sound at C9105 − 11.99 s) on “A mother… a child… a family” and “Legal representation”. B-roll where the rows name it: the brochure on “providing free legal services”, the office, the banner, the river walk on “keep hope alive”, the hotline operators, the host looking out at the river, the skyline on “a stronger, more connected Miami”, the table card and the polo. Sound is CAM 1, channel 1. The hook is this page's own motion graphic, on at 0:00; aijustice.org sits lower left on the button row; AIJ's horizontal animated logo closes it. No name plate: Andrés still owes the host's name and title. Every row's first and last word checked by ear. Graded in Resolve (per-clip LUT); the Grade LUTs zip has the same .cube files for Premiere (Lumetri > Input LUT)."
  }
 }
