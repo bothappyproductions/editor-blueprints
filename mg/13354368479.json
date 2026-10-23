@@ -1,126 +1,88 @@
 {
  "item": "13354368479",
  "client": "momcozy",
- "note": "The script asks for six text graphics: the hook text and five short text lines. The rows marked None get no graphic, and the end card is Momcozy's own.",
+ "note": "No one speaks in this cut, so these are animated versions of the plan's on-screen lines, 5 graphics.",
  "mg": [
   {
    "n": 1,
-   "title": "WFH hook",
    "tpl": "highlight_callout",
-   "dur": 3,
-   "pos": "top",
-   "text": {
-    "main": "WFH with a napping baby"
-   },
-   "cue": "Hook text on frame 1: “WFH with a napping baby 🤍” Already on screen at 0:00. Does not animate on.",
-   "src": "Script, row 00:00-00:03, Motion graphics & type.",
-   "rows": [
-    "00:00-00:03"
-   ],
-   "use": "Hook text in the top third. Start the clip at frame 0045 (fully on) and hold it until the cut at 00:03."
-  },
-  {
-   "n": 2,
    "title": "Back to work",
-   "tpl": "highlight_callout",
-   "dur": 4,
+   "dur": 3,
    "pos": "top",
    "text": {
     "main": "Baby's asleep. Back to work."
    },
-   "cue": "Small text top third: “Baby's asleep. Back to work.”",
-   "src": "Script, row 00:03-00:07, Motion graphics & type.",
+   "src": "On-screen line in the plan, row 00:03-00:07.",
    "rows": [
     "00:03-00:07"
    ],
-   "use": "Small text in the top third. Put it on at the cut at 00:03 and hold it to the end of this row."
+   "use": "Top band over the monitor close-up, in place of the plain text. Keep captions on."
   },
   {
-   "n": 3,
+   "n": 2,
+   "tpl": "tag_label",
    "title": "Later",
-   "tpl": "highlight_callout",
    "dur": 2,
    "pos": "top",
    "text": {
     "main": "Later…"
    },
-   "cue": "Text: “Later…”",
-   "src": "Script, row 00:07-00:09, Motion graphics & type.",
+   "src": "On-screen line in the plan, row 00:07-00:09.",
    "rows": [
     "00:07-00:09"
    ],
-   "use": "Text for this fast row, in the top third. Hold it for the whole 2 seconds."
+   "use": "Pops in as she walks out the door."
   },
   {
-   "n": 4,
-   "title": "Stuffy little nose",
+   "n": 3,
    "tpl": "highlight_callout",
+   "title": "Stuffy little nose",
    "dur": 3,
    "pos": "top",
    "text": {
     "main": "Uh oh. Stuffy little nose"
    },
-   "cue": "Text: “Uh oh. Stuffy little nose 🤧”",
-   "src": "Script, row 00:12-00:15, Motion graphics & type.",
+   "src": "On-screen line in the plan, row 00:12-00:15.",
    "rows": [
     "00:12-00:15"
    ],
-   "use": "Text in the top third. Put it on at the start of this row and hold it for the whole 3 seconds."
+   "use": "Top band on her worried look."
   },
   {
-   "n": 5,
-   "title": "Gentle suction text",
-   "tpl": "highlight_callout",
-   "dur": 9,
-   "pos": "top",
-   "text": {
-    "main": "Gentle suction. Soft silicone tip."
-   },
-   "cue": "Text: “Gentle suction. Soft silicone tip.”",
-   "src": "Script, row 00:15-00:24, Motion graphics & type.",
-   "rows": [
-    "00:15-00:24"
-   ],
-   "use": "Text in the top third over the three aspirator angles. Put it on at the start of this row and hold it for the whole row."
-  },
-  {
-   "n": 6,
-   "title": "Little me time",
-   "tpl": "highlight_callout",
+   "n": 4,
+   "tpl": "word_stack",
+   "title": "Gentle and soft",
    "dur": 4,
    "pos": "top",
    "text": {
-    "main": "Finally, a little me time"
+    "items": [
+     "Gentle suction.",
+     "Soft silicone tip."
+    ]
    },
-   "cue": "Text: “Finally, a little me time 📖”",
-   "src": "Script, row 00:28-00:32, Motion graphics & type.",
+   "src": "On-screen line in the plan, row 00:15-00:24.",
+   "rows": [
+    "00:15-00:24"
+   ],
+   "use": "One line per BN02 angle, top band. The tip and the baby's face stay clear."
+  },
+  {
+   "n": 5,
+   "tpl": "kinetic_quote",
+   "title": "A little me time",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Finally, a little me time",
+    "emph": [
+     "me time"
+    ]
+   },
+   "src": "On-screen line in the plan, row 00:28-00:32.",
    "rows": [
     "00:28-00:32"
    ],
-   "use": "Text in the top third over the sofa shot. Put it on at the start of this row and hold it for the whole 4 seconds."
-  },
-  {
-   "n": 7,
-   "title": "End card",
-   "tpl": "end_card",
-   "rows": [
-    "00:35-00:37"
-   ],
-   "cue": "No logo before this card.",
-   "src": "Momcozy wordmark as Momcozy specified it (MOMCOZY in caps, Cozy Chestnut #6A2B3A, Inter; spec locked 19 Aug 2026). No logo file has been sent.",
-   "c": {
-    "bg": "#FEF9F6",
-    "fg": "#6A2B3A"
-   },
-   "text": {
-    "name": "MOMCOZY",
-    "lines": [
-     "BM04 Baby Monitor",
-     "BN02 Nasal Aspirator"
-    ]
-   },
-   "dur": 2.5,
-   "use": "This is the end card. Put it at 00:35 after the last line and hold it to the end."
+   "use": "Words pop in while she reads on the sofa."
   }
  ]
 }

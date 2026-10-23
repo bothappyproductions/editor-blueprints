@@ -1,61 +1,138 @@
 {
  "item": "13354349810",
  "client": "momcozy",
- "note": "The script asks for two graphics: the hook text and the small “30 days later” label. Every other row is captions only, and the end card is Momcozy's own logo.",
+ "note": "The reveal needs the filters clear on screen, so 8 graphics, mostly in the top band.",
  "mg": [
   {
    "n": 1,
-   "title": "Hook text",
-   "tpl": "highlight_callout",
+   "tpl": "kinetic_quote",
+   "title": "Makes a difference",
    "dur": 3,
    "pos": "top",
    "text": {
-    "main": "What 30 days does to a filter"
+    "main": "whether it really makes a difference",
+    "emph": [
+     "difference"
+    ],
+    "who": "Jordana"
    },
-   "cue": "Hook text on frame 1: “What 30 days does to a filter”. Already on screen at 0:00. Does not animate on. Top third",
-   "src": "Script, row 00:00-00:03, Motion graphics & type.",
+   "src": "Jordana, IMG_9431.MOV [00:03.2]",
    "rows": [
-    "00:00-00:03"
+    "00:03-00:09"
    ],
-   "use": "Hook text, top third. Start the clip at frame 0045 (fully on) and hold it until 00:03."
+   "use": "Words pop in at the end of her question, after the hook text is gone."
   },
   {
    "n": 2,
-   "title": "30 days later",
    "tpl": "tag_label",
-   "dur": 2,
+   "title": "A little test",
+   "dur": 2.5,
    "pos": "top",
    "text": {
-    "main": "30 days later"
+    "main": "a little test"
    },
-   "cue": "Small label top band: “30 days later”, 2 s.",
-   "src": "Script, row 00:19-00:24, Motion graphics & type.",
+   "src": "Jordana, IMG_9433.MOV [00:01.8]",
    "rows": [
-    "00:19-00:24"
+    "00:09-00:12"
    ],
-   "use": "Small label in the top band for 2 seconds, on the hard cut to the other room."
+   "use": "Small tag top left as she says it."
   },
   {
    "n": 3,
-   "title": "End card",
-   "tpl": "end_card",
-   "rows": [
-    "00:42-00:44"
-   ],
-   "cue": "First and only logo in the video.",
-   "src": "Momcozy wordmark as Momcozy specified it (MOMCOZY in caps, Cozy Chestnut #6A2B3A, Inter; spec locked 19 Aug 2026). No logo file has been sent.",
-   "c": {
-    "bg": "#FEF9F6",
-    "fg": "#6A2B3A"
-   },
+   "tpl": "highlight_callout",
+   "title": "New filter in",
+   "dur": 3,
+   "pos": "top",
    "text": {
-    "name": "MOMCOZY",
-    "lines": [
-     "CozyBreath Baby Air Purifier"
-    ]
+    "main": "I'm going to put this new filter inside."
    },
+   "src": "Jordana, IMG_9434.MOV [00:00.0]",
+   "rows": [
+    "00:12-00:17"
+   ],
+   "use": "Top band over the filter going in. Keep captions on."
+  },
+  {
+   "n": 4,
+   "tpl": "number_card",
+   "title": "30 day old",
+   "dur": 2,
+   "text": {
+    "number": "30",
+    "label": "day old one"
+   },
+   "src": "Jordana, IMG_9439.MOV [00:43.1]",
+   "rows": [
+    "00:24-00:29"
+   ],
+   "use": "Quick full-frame cutaway right on “30 day old one”, then back to her taking the filter out."
+  },
+  {
+   "n": 5,
+   "tpl": "corner_frame",
+   "title": "Side by side",
    "dur": 2.5,
-   "use": "This is the end card. Put it at 00:42 after the last line and hold it to the end."
+   "text": {},
+   "box": [
+    0.15,
+    0.35,
+    0.7,
+    0.35
+   ],
+   "src": "Label only, no claim.",
+   "rows": [
+    "00:29-00:34"
+   ],
+   "use": "Brackets around the two filters while you hold the side-by-side. No text."
+  },
+  {
+   "n": 6,
+   "tpl": "kinetic_quote",
+   "title": "Different color",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "It's literally a different color.",
+    "emph": [
+     "different color"
+    ],
+    "who": "Jordana"
+   },
+   "src": "Jordana, IMG_9440.MOV [00:19.5]",
+   "rows": [
+    "00:29-00:34"
+   ],
+   "use": "Words pop in top band on her reaction."
+  },
+  {
+   "n": 7,
+   "tpl": "highlight_callout",
+   "title": "Huge difference",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "that's a huge difference"
+   },
+   "src": "Jordana, IMG_9439.MOV [01:16.9]",
+   "rows": [
+    "00:34-00:37"
+   ],
+   "use": "Top band over the filters as she says it."
+  },
+  {
+   "n": 8,
+   "tpl": "highlight_callout",
+   "title": "Peace of mind",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "having an air purifier really gives me a peace of mind"
+   },
+   "src": "Jordana, IMG_9441.MOV [00:04.5]",
+   "rows": [
+    "00:37-00:42"
+   ],
+   "use": "Top band over the kids playing as she says it. Keep captions on."
   }
  ]
 }
