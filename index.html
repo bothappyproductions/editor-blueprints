@@ -50,6 +50,16 @@ nav.jump a:hover{background:var(--lav)}
 section{scroll-margin-top:52px;padding-block:40px;border-bottom:1px solid var(--line)}
 .sec-head{display:grid;gap:6px;margin-bottom:22px;max-width:760px}
 .sec-head p{color:var(--muted)}
+/* fold: Timeline, Motion graphics and Captions open with a dropdown (Atdhe 2026-10-23) */
+details.fold>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:14px;padding:6px 0;border-radius:12px}
+details.fold>summary::-webkit-details-marker{display:none}
+details.fold>summary .fold-t{display:grid;gap:6px;min-width:0;flex:1}
+details.fold>summary .fold-i{flex:none;width:36px;height:36px;border-radius:999px;border:1px solid var(--line);display:grid;place-items:center;font-size:16px;transition:transform .2s}
+details.fold[open]>summary .fold-i{transform:rotate(180deg)}
+details.fold>summary .fold-h{font-size:13px;color:var(--muted);font-weight:600}
+details.fold[open]>summary .fold-h{display:none}
+details.fold>summary:hover .fold-i,details.fold>summary:focus-visible .fold-i{background:var(--lav)}
+details.fold>.fold-b{margin-top:16px}
 /* brief */
 .brief{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:28px}
 .story{font-size:18px;line-height:1.55;max-width:62ch}
@@ -624,16 +634,38 @@ function renderItem(it,cl){
     '<div class="ask-grid"><div class="ask-panel"><label for="ask-q" class="eyebrow">Your question</label><textarea id="ask-q" rows="3" placeholder="Example: What does the client say about captions?"></textarea><div class="ask-chips">'+(it.ask_examples||["What does the client complain about most?","What font goes on the name super?","Where is the best line in the transcript?"]).map(function(q){return '<button type="button" class="qchip">'+esc(q)+'</button>';}).join("")+'</div><div class="ask-actions"><button type="button" id="ask-go" class="btn">Ask</button><button type="button" id="ask-stop" class="btn ghost" hidden>Stop</button><span id="ask-note" class="note"></span></div><div id="ask-out" class="ask-out" aria-live="polite" hidden></div><p id="ask-off" class="note" hidden>Asking is not available in this view. Open the page in Claude while signed in, or ask Nick.</p></div></div></div></section>'+
   '</main><footer><div class="wrap"><p>Happy Productions · internal only. Never put this page in a client-shared folder.</p></div></footer>';
   app.innerHTML=html;
+  foldSections();
   wire(it,cl);
   wireRefresh(it,cl,RF);
   wireMG(it,cl);
   wireCaps(it,cl);
   wireApprovals(it,cl);
 }
+/* Timeline, Motion graphics and Captions fold into a dropdown (closed by default; each browser remembers what you opened) */
+var FOLD={blueprint:"Show the timeline",mg:"Show the motion graphics",captions:"Show the captions"};
+function foldSections(){
+  Object.keys(FOLD).forEach(function(id){
+    var sec=$(id), wrap=sec&&sec.querySelector(".wrap"), head=wrap&&wrap.querySelector(".sec-head"); if(!head) return;
+    var eb=head.querySelector(".eyebrow"), h2=head.querySelector("h2");
+    var d=document.createElement("details"); d.className="fold"; d.setAttribute("data-fold",id);
+    var s=document.createElement("summary");
+    s.innerHTML='<span class="fold-t">'+(eb?eb.outerHTML:"")+(h2?h2.outerHTML:"")+'<span class="fold-h">'+FOLD[id]+'</span></span><span class="fold-i" aria-hidden="true">▾</span>';
+    if(eb) eb.remove(); if(h2) h2.remove();
+    var b=document.createElement("div"); b.className="fold-b";
+    while(wrap.firstChild) b.appendChild(wrap.firstChild);
+    d.appendChild(s); d.appendChild(b); wrap.appendChild(d);
+    var open=false; try{ open=localStorage.getItem("hp-fold-"+id)==="1"; }catch(e){}
+    d.open=open;
+    d.addEventListener("toggle",function(){ try{ localStorage.setItem("hp-fold-"+id,d.open?"1":"0"); }catch(e){} });
+  });
+}
+function openFold(el){ var d=el&&el.closest&&el.closest("details.fold"); if(d&&!d.open) d.open=true; if(el&&el.matches&&el.matches("section")){ var dd=el.querySelector("details.fold"); if(dd&&!dd.open) dd.open=true; } }
 document.addEventListener("click",function(e){
   var a=e.target.closest&&e.target.closest("[data-jump]");
-  if(a){ e.preventDefault(); var t=$(a.getAttribute("data-jump")); if(t) t.scrollIntoView({behavior:"smooth"}); }
-});
+  if(a){ e.preventDefault(); var t=$(a.getAttribute("data-jump")); if(t){ openFold(t); t.scrollIntoView({behavior:"smooth"}); } return; }
+  var h=e.target.closest&&e.target.closest('a[href^="#"]');
+  if(h){ var tg=$(h.getAttribute("href").slice(1)); if(tg&&tg.closest&&tg.closest("details.fold")) openFold(tg); }
+},true);
 var sampleP=null, dbP=null;
 
 /* ===== Client approvals (works off-Claude; events POST to APPROVAL_WEBHOOK) ===== */
@@ -701,7 +733,7 @@ function wireApprovals(it,cl){
     var b=e.target.closest&&e.target.closest("[data-ok]"); if(!b) return; e.preventDefault(); e.stopPropagation();
     var a=b.getAttribute("data-ok");
     if(a==="name"){ var inp=b.parentNode.querySelector("[data-okname]"), n=String(inp&&inp.value||"").trim(); if(!n){ if(inp) inp.focus(); return; } okSetName(n); var p=pend; pend=null; var sl=b.closest(".cok-slot"); if(sl) sl.innerHTML=""; if(p) act(p); return; }
-    if(!okName()&&(a==="approve"||a==="change")){ pend=b; var slot=slotOf(b); if(slot) slot.innerHTML='<div class="cok-form"><input data-okname placeholder="Your name"><button type="button" class="rf-btn" data-ok="name">Save name</button></div>'; var i2=slot&&slot.querySelector("input"); if(i2) i2.focus(); return; }
+    /* no name needed to approve (Atdhe 2026-10-23): approver is sent only if this browser saved one before */
     act(b);
   }
 }
@@ -792,7 +824,7 @@ function wireCaps(it,cl){
   var sec=$("captions"); if(!sec) return;
   sec.addEventListener("click",async function(e){
     var b=e.target.closest&&e.target.closest("[data-capdl],[data-mgrow]"); if(!b) return; e.preventDefault();
-    if(b.hasAttribute("data-mgrow")){ var tc=b.getAttribute("data-mgrow"),idx=(it.rows||[]).map(function(r){return r.tc;}).indexOf(tc),tr=$("bp-row-"+idx); if(tr){ tr.scrollIntoView({behavior:"smooth",block:"center"}); tr.classList.add("flash"); setTimeout(function(){tr.classList.remove("flash");},1600);} return; }
+    if(b.hasAttribute("data-mgrow")){ var tc=b.getAttribute("data-mgrow"),idx=(it.rows||[]).map(function(r){return r.tc;}).indexOf(tc),tr=$("bp-row-"+idx); if(tr){ openFold(tr); tr.scrollIntoView({behavior:"smooth",block:"center"}); tr.classList.add("flash"); setTimeout(function(){tr.classList.remove("flash");},1600);} return; }
     var m=byN[b.getAttribute("data-capdl")],card=b.closest(".mg-card"),st=card.querySelector(".mg-st"),pg=card.querySelector(".mg-prog"),bar=pg.firstChild;
     b.disabled=true; pg.hidden=false; st.textContent="Making the file…";
     try{
@@ -917,7 +949,7 @@ function wireMG(it,cl){
   var sec=$("mg"); if(!sec) return;
   sec.addEventListener("click",async function(e){
     var b=e.target.closest&&e.target.closest("[data-mgdl],[data-mgrow]"); if(!b) return; e.preventDefault();
-    if(b.hasAttribute("data-mgrow")){ var tc=b.getAttribute("data-mgrow"),idx=(it.rows||[]).map(function(r){return r.tc;}).indexOf(tc),tr=$("bp-row-"+idx); if(tr){ tr.scrollIntoView({behavior:"smooth",block:"center"}); tr.classList.add("flash"); setTimeout(function(){tr.classList.remove("flash");},1600);} return; }
+    if(b.hasAttribute("data-mgrow")){ var tc=b.getAttribute("data-mgrow"),idx=(it.rows||[]).map(function(r){return r.tc;}).indexOf(tc),tr=$("bp-row-"+idx); if(tr){ openFold(tr); tr.scrollIntoView({behavior:"smooth",block:"center"}); tr.classList.add("flash"); setTimeout(function(){tr.classList.remove("flash");},1600);} return; }
     var m=byN[b.getAttribute("data-mgdl")],card=b.closest(".mg-card"),st=card.querySelector(".mg-st"),pg=card.querySelector(".mg-prog"),bar=pg.firstChild;
     b.disabled=true; pg.hidden=false; st.textContent="Making the file…";
     try{
@@ -932,7 +964,7 @@ function wireMG(it,cl){
 }
 document.addEventListener("click",function(e){
   var a=e.target.closest&&e.target.closest("[data-mgjump]"); if(!a) return; e.preventDefault();
-  var c=$("mg-"+a.getAttribute("data-mgjump")); if(c){ c.scrollIntoView({behavior:"smooth",block:"center"}); c.classList.add("flash"); setTimeout(function(){c.classList.remove("flash");},1600); }
+  var c=$("mg-"+a.getAttribute("data-mgjump")); if(c){ openFold(c); c.scrollIntoView({behavior:"smooth",block:"center"}); c.classList.add("flash"); setTimeout(function(){c.classList.remove("flash");},1600); }
 });
 
 
@@ -1045,6 +1077,67 @@ function planText(it,rows){
     "\nDo: "+(it.do||[]).map(plain).join(" | ")+"\nDon't: "+(it.dont||[]).map(plain).join(" | ")+
     "\nBeats:\n"+rows.map(function(r,i){ var v=(r.voice&&typeof r.voice==="object")?" | "+(r.voice.who||"")+": \""+(r.voice.quote||"")+"\"":""; return "  "+i+". "+r.tc+" "+(r.beat||"")+" | "+plain(r.visual).slice(0,160)+v; }).join("\n");
 }
+/* Refresh without Claude (GitHub Pages, Atdhe 2026-10-23): the page itself picks real lines from this video's transcript.
+   Before this, the buttons only worked inside Claude, so on the public page they always said "not available". */
+var RF_META=/\b(is that what|what was the question|repeat the question|say that again|start over|one more time|got it|let me try (that|again)|can i start|sorry|do or what|reiterate|what am i doing here|why i want(ed)? to be|is it rolling|are we rolling|how do i say)\b/i;
+var RF_FILL=/^(yeah|yes|okay|ok|so|and|but|um|uh|like|well|oh|right|perfect|good|awesome)\b/i;
+function rfSents(ix){
+  if(ix.__s) return ix.__s;
+  var t=ix.text, low=lowerSafe(t), W=ix.words, out=[], brk=[], hdr=[];
+  ix.files.forEach(function(f){ var e=t.indexOf("\n",f.pos); hdr.push([f.pos,e<0?t.length:e]); brk.push(f.pos); });
+  var re=/(^|\n)[ \t]*(speaker \d+|interviewer|q|a)[ \t]*:/g,m; while((m=re.exec(low))) brk.push(m.index);
+  var first=ix.files.length?ix.files[0].pos:0;
+  function onHdr(p){ return p<first||hdr.some(function(h){return p>=h[0]&&p<h[1];}); }
+  var seg=0, a=-1;
+  for(var k=0;k<W.length;k++){
+    if(onHdr(W[k].pos)||(ix.cutoff>=0&&W[k].end>ix.cutoff)){ if(a>=0){ out.push({a:a,b:k-1,seg:seg,q:false}); a=-1; } seg++; continue; }
+    if(a<0) a=k;
+    var nx=W[k+1], gap=nx?t.slice(W[k].end,nx.pos).replace(/\[[^\]\n]*\]/g," "):"";
+    var cross=nx&&brk.some(function(p){return p>W[k].end&&p<=nx.pos;});
+    var stop=!nx||/[.?!…]["”’')\]]*(\s|$)/.test(gap)||cross||/\n[ \t]*\n/.test(gap);
+    if(stop){ out.push({a:a,b:k,seg:seg,q:/\?/.test(gap)}); a=-1; if(cross||!nx) seg++; }
+  }
+  return (ix.__s=out);
+}
+function rfSpan(ix,a,b){
+  var t=ix.text, W=ix.words, s=t.slice(W[a].pos,W[b].end);
+  s=s.replace(/\[[^\]\n]*\]/g," ").replace(/(^|\n)[ \t]*(speaker \d+|interviewer)[ \t]*:/gi," ").replace(/\s+/g," ").trim();
+  var p=t.slice(W[b].end,W[b].end+1); return s+(/[.?!]/.test(p)?p:"");
+}
+function rfWho(ix,pos){ var sec=null; ix.files.forEach(function(f){ if(f.pos<=pos) sec=f; }); if(!sec) return ""; var e=ix.text.indexOf("\n",sec.pos), line=ix.text.slice(sec.pos,e<0?undefined:e), m=line.match(/[—–]\s*([^—–()\[\]]{2,40})\s*$/); return m?m[1].trim():""; }
+function localCands(it,ix,kind,i,rows,cur,cl){
+  var NAMES=[cl&&cl.name,cl&&cl.short].filter(Boolean).map(function(n){return String(n).toLowerCase().replace(/[^a-z0-9]/g,"");}).concat(["soles4souls","souls4souls","soulsforsouls","solesforsouls"]);
+  function brandy(q){ var z=q.toLowerCase().replace(/[^a-z0-9]/g,""); return NAMES.some(function(n){return n&&n.length>2&&z.indexOf(n)>=0;}); }
+  var INTRO=/\b(my name is|i'm the|i am the|vice president|director of|thank you|thanks)\b/i;
+  var S=rfSents(ix); if(!S.length) return [];
+  function txt(o){ return rfSpan(ix,o.a,o.b); }
+  var c=[];
+  if(kind==="bite"){
+    var curWc=cur&&cur.quote?words(maskText(lowerSafe(cur.quote))).length:0;
+    var T=Math.max(8,curWc||Math.round((tcSecs((rows[i]||{}).tc)||8)*2.6));
+    for(var x=0;x<S.length;x++){
+      if(S[x].q) continue;
+      for(var y=x;y<S.length&&y<x+4;y++){
+        if(S[y].seg!==S[x].seg||S[y].q||(y>x&&/^(yeah|yes|okay|ok|um|uh|oh)\b/i.test(txt(S[y])))) break;
+        var wc=S[y].b-S[x].a+1; if(wc>T*1.8) break; if(wc<Math.max(5,T*0.5)) continue;
+        var q=txt({a:S[x].a,b:S[y].b}); if(RF_META.test(q)) continue;
+        var sc=-Math.abs(wc-T)/T+(/\b(i|i'm|my|we|our|me)\b/i.test(q)?0.3:0)+(/\d/.test(q)?0.15:0)-(RF_FILL.test(q)?0.5:0)-(/you know/i.test(q)?0.3:0)-(INTRO.test(q)?0.4:0);
+        c.push({a:S[x].a,b:S[y].b,sc:sc,quote:q,who:rfWho(ix,ix.words[S[x].a].pos)||"check by voice",why:"Real line from this video's transcript, about "+wc+" words (the current bite is about "+T+")."});
+      }
+    }
+  } else {
+    S.forEach(function(o){
+      var wc=o.b-o.a+1; if(o.q||wc<4||wc>12) return;
+      var q=txt(o); if(RF_META.test(q)||RF_FILL.test(q)||INTRO.test(q)||brandy(q)) return;
+      var sc=(/\d/.test(q)?0.5:0)+(/\b(never|always|first|only|every|nobody|everything|why|how|biggest|best|changed?|confident|confidence|love|afraid|proud|dream|grow|real|no one|nothing|happy|excited)\b/i.test(q)?0.5:0)+(/\byou\b/i.test(q)?0.3:0)-Math.abs(wc-7)*0.04;
+      var h=q.replace(/[.,;:]+$/,"");
+      c.push({a:o.a,b:o.b,sc:sc,text:h.charAt(0).toUpperCase()+h.slice(1),line:q,why:"Their own words, said on camera, so the video pays it off. Put it on frame 1 as on-screen text."});
+    });
+  }
+  c.sort(function(p,q){return q.sc-p.sc;});
+  var pick=[]; c.forEach(function(o){ if(pick.length<16&&!pick.some(function(p){return o.a<=p.b&&p.a<=o.b;})) pick.push(o); });
+  return pick;
+}
 function wireRefresh(it,cl,RF){
   if(!RF.any) return;
   var rows=it.rows||[], ix=RF.ix, KEY="hp-sw-"+it.id, DOC="swaps/"+it.id, swaps={}, seen={}, ctl={}, ref=null, writing=false, pending=false;
@@ -1087,7 +1180,7 @@ function wireRefresh(it,cl,RF){
     okEmit(kind==="hook"?{kind:"Hook swapped",row:i,tc:r.tc||"",quote:g.text,note:"Pays off on: "+g.line,source:g.src}:{kind:"Bite swapped",row:i,tc:r.tc||"",quote:g.quote,source:g.src});
   }
   function runStatic(i,kind,P){
-    var k=kind+":"+i, raw=((it.alts||{})[k])||[], sw=swaps[i]||{}, good=[], dropped=0;
+    var k=kind+":"+i, sw=swaps[i]||{}, raw=(((it.alts||{})[k])||[]).concat(localCands(it,ix,kind,i,rows,sw.bite||rows[i].voice,cl)), good=[], dropped=0;
     var cutRanges=kind==="bite"?rangesOf(bitesInCut(i).concat([(sw.bite||rows[i].voice||{}).quote||""])):[];
     raw.forEach(function(o){
       if(!o) return;
@@ -1097,12 +1190,12 @@ function wireRefresh(it,cl,RF){
         if(overlaps(hit,cutRanges)||good.some(function(g){return overlaps(hit,[g.hit]);})){ dropped++; return; }
         good.push({hit:hit,quote:txt,who:String(o.who||"check by voice"),why:String(o.why||""),src:srcFor(ix,hit,o.file)});
       } else {
-        var ht=String(o.text||"").trim(); if(!ht||(sw.hook&&sw.hook.text===ht)){ dropped++; return; }
+        var ht=String(o.text||"").trim(); if(!ht||(sw.hook&&sw.hook.text===ht)||ht===hookText(rows[i].motion)||good.some(function(g){return g.text===ht;})){ dropped++; return; }
         good.push({hit:hit,text:ht,line:txt,why:String(o.why||""),src:srcFor(ix,hit,null)});
       }
     });
     P.more.disabled=false;
-    if(!good.length){ P.list.innerHTML=""; P.status.textContent="Not available in this view. No other options for this row yet."; P.more.disabled=true; return; }
+    if(!good.length){ P.list.innerHTML=""; P.status.textContent="No other lines in this video's transcript fit this row."; P.more.disabled=true; return; }
     var pages=Math.ceil(good.length/4); stp[k]=((stp[k]==null?-1:stp[k])+1)%pages;
     var show=good.slice(stp[k]*4,stp[k]*4+4);
     P.list.innerHTML=show.map(function(g,n){
