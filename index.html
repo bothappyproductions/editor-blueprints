@@ -451,14 +451,42 @@ function ensureStyleFont(s,B){var f=s&&s.style&&s.style.font;if(!f||typeof f!=="
 var libs={};
 function lib(url,globalName){if(window[globalName])return Promise.resolve(window[globalName]);if(libs[url])return libs[url];libs[url]=new Promise(function(res,rej){var sc=document.createElement("script");sc.src=url;sc.onload=function(){window[globalName]?res(window[globalName]):rej(new Error("lib"));};sc.onerror=function(){rej(new Error("lib"));};document.head.appendChild(sc);});return libs[url];}
 var LIBS={zip:"https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js",mp4:"https://cdn.jsdelivr.net/npm/mp4-muxer@5.2.2/build/mp4-muxer.js"};
-async function exportMG(s,B,onProg,into){
+/* QuickTime .mov, PNG codec ('png '), RGBA 8-bit with the alpha kept (depth 32), one PNG per frame; same layout as
+   ffmpeg -c:v png -f mov. Atdhe 2026-10-23: one file per graphic so editors import them all at once; Premiere keeps
+   the alpha with PNG (ProRes 4444 showed black). */
+function movPNG(frames,w,h,fps){
+  var N=frames.length,TS=fps*512,dur=Math.round(N*1000/fps),total=0,i;
+  function A(){var a=[],o={u8:function(v){a.push(v&255);return o;},u16:function(v){a.push((v>>>8)&255,v&255);return o;},
+    u32:function(v){a.push((v>>>24)&255,(v>>>16)&255,(v>>>8)&255,v&255);return o;},s:function(t){for(var k=0;k<t.length;k++)a.push(t.charCodeAt(k)&255);return o;},
+    z:function(n){for(var k=0;k<n;k++)a.push(0);return o;},b:function(x){for(var k=0;k<x.length;k++)a.push(x[k]);return o;},out:a};return o;}
+  function box(type,body){return A().u32(8+body.length).s(type).b(body).out;}
+  function cat(){var r=[];for(var k=0;k<arguments.length;k++)r=r.concat(arguments[k]);return r;}
+  for(i=0;i<N;i++)total+=frames[i].size;
+  if(8+total>0xFFFFFFFF)throw new Error("This graphic is too long for one .mov file.");
+  var MAT=A().u32(0x10000).u32(0).u32(0).u32(0).u32(0x10000).u32(0).u32(0).u32(0).u32(0x40000000).out;
+  var ftyp=box("ftyp",A().s("qt  ").u32(0x200).s("qt  ").out),wide=box("wide",[]),mdat=A().u32(8+total).s("mdat").out;
+  var first=ftyp.length+wide.length+mdat.length;
+  var mvhd=box("mvhd",A().u32(0).u32(0).u32(0).u32(1000).u32(dur).u32(0x10000).u16(0x100).z(10).b(MAT).z(24).u32(2).out);
+  var tkhd=box("tkhd",A().u32(3).u32(0).u32(0).u32(1).u32(0).u32(dur).z(8).u16(0).u16(0).u16(0).u16(0).b(MAT).u32(w*65536).u32(h*65536).out);
+  var edts=box("edts",box("elst",A().u32(0).u32(1).u32(dur).u32(0).u32(0x10000).out));
+  var mdhd=box("mdhd",A().u32(0).u32(0).u32(0).u32(TS).u32(N*512).u16(0x7fff).u16(0).out);
+  var hdlr=box("hdlr",A().u32(0).s("mhlr").s("vide").z(12).u8(12).s("VideoHandler").out);
+  var vmhd=box("vmhd",A().u32(1).z(8).out),dhdlr=box("hdlr",A().u32(0).s("dhlr").s("url ").z(12).u8(11).s("DataHandler").out);
+  var dinf=box("dinf",box("dref",cat(A().u32(0).u32(1).out,box("url ",A().u32(1).out))));
+  var entry=box("png ",cat(A().z(6).u16(1).u16(0).u16(0).s("FFMP").u32(0x200).u32(0x200).u16(w).u16(h).u32(0x480000).u32(0x480000).u32(0).u16(1).out,
+    A().u8(3).s("PNG").z(28).out,A().u16(32).u16(0xFFFF).out,box("fiel",A().u8(1).u8(0).out),box("pasp",A().u32(1).u32(1).out)));
+  var stsd=box("stsd",cat(A().u32(0).u32(1).out,entry)),stts=box("stts",A().u32(0).u32(1).u32(N).u32(512).out);
+  var stsc=box("stsc",A().u32(0).u32(1).u32(1).u32(N).u32(1).out),sz=A().u32(0).u32(0).u32(N);for(i=0;i<N;i++)sz.u32(frames[i].size);
+  var stsz=box("stsz",sz.out),stco=box("stco",A().u32(0).u32(1).u32(first).out);
+  var moov=box("moov",cat(mvhd,box("trak",cat(tkhd,edts,box("mdia",cat(mdhd,hdlr,box("minf",cat(vmhd,dhdlr,dinf,box("stbl",cat(stsd,stts,stsc,stsz,stco))))))))));
+  return new Blob([new Uint8Array(ftyp),new Uint8Array(wide),new Uint8Array(mdat)].concat(frames,[new Uint8Array(moov)]),{type:"video/quicktime"});
+}
+async function exportMG(s,B,onProg){
   await ensureFonts(B);await ensureImgs(s);await ensureStyleFont(s,B);var cv=document.createElement("canvas");cv.width=W;cv.height=H;var ctx=cv.getContext("2d",{alpha:true}),N=Math.round(s.dur*FPS);
   if(modeOf(s)==="overlay"){
-    var JSZip=await lib(LIBS.zip,"JSZip"),zip=into?null:new JSZip(),dir=(into||zip).folder(s.base);
-    for(var i=0;i<N;i++){draw(ctx,s,B,i/FPS);var blob=await new Promise(function(r){cv.toBlob(r,"image/png");});dir.file(s.base+"_"+String(i).padStart(4,"0")+".png",blob);if(i%5===0){onProg(i/N*.85);await new Promise(function(r){setTimeout(r,0);});}}
-    dir.file("HOW TO USE.txt",s.howto?s.howto.replace("{N}",N):"Transparent motion graphic, "+N+" PNG frames at 30 fps, 1080x1920.\nPremiere: File > Import, pick the first PNG, tick 'Image Sequence'.\nResolve: Media Pool, drag the folder in (frames come in as one clip).\nPut it on a track above your footage.\n");
-    if(into){onProg(1);return {name:s.base,frames:N};}
-    var out=await zip.generateAsync({type:"blob",compression:"STORE"},function(m){onProg(.85+m.percent/100*.15);});return {blob:out,name:s.base+"_transparent_PNG-sequence.zip"};
+    var frames=[];
+    for(var i=0;i<N;i++){draw(ctx,s,B,i/FPS);frames.push(await new Promise(function(r){cv.toBlob(r,"image/png");}));if(i%5===0){onProg(i/N*.97);await new Promise(function(r){setTimeout(r,0);});}}
+    var mov=movPNG(frames,W,H,FPS);onProg(1);return {blob:mov,name:s.base+".mov",frames:N};
   }
   if(typeof VideoEncoder==="undefined")throw new Error("This browser cannot make MP4 files. Use Chrome on a computer.");
   var M=await lib(LIBS.mp4,"Mp4Muxer"),codec=null;
@@ -471,7 +499,7 @@ async function exportMG(s,B,onProg,into){
     if(enc.encodeQueueSize>10)await new Promise(function(r){setTimeout(r,5);});if(j%5===0){onProg(j/N*.95);await new Promise(function(r){setTimeout(r,0);});}}
   await enc.flush();if(err)throw err;mux.finalize();onProg(1);return {blob:new Blob([target.buffer],{type:"video/mp4"}),name:s.base+"_full-frame.mp4"};
 }
-return {W:W,H:H,FPS:FPS,T:T,draw:draw,modeOf:modeOf,ensureFonts:ensureFonts,ensureImgs:ensureImgs,ensureStyleFont:ensureStyleFont,exportMG:exportMG,LIBS:LIBS,lib:lib};
+return {W:W,H:H,FPS:FPS,T:T,draw:draw,modeOf:modeOf,ensureFonts:ensureFonts,ensureImgs:ensureImgs,ensureStyleFont:ensureStyleFont,exportMG:exportMG,movPNG:movPNG,LIBS:LIBS,lib:lib};
 })();
 
 </script>
@@ -730,7 +758,7 @@ var unsub=null, unsubSw=null;
 
 /* ===== Motion graphics library: section, row links, previews, downloads ===== */
 var CUR_MG=null;
-/* Captions as PNG sequences (captions/<id>.json, Atdhe 2026-10-22): one clip per bite, drawn by MG.caption_track */
+/* Captions as transparent .mov files (captions/<id>.json, Atdhe 2026-10-22): one clip per bite, drawn by MG.caption_track */
 var CUR_CAP=null;
 function capSection(it,cl){
   if(!CUR_CAP) return "";
@@ -739,10 +767,10 @@ function capSection(it,cl){
     var fr=mgFrameFor(it,m),cut=(m.rows||[]).map(function(tc){ return '<a href="#" data-mgrow="'+esc(tc)+'">'+esc(tc)+'</a>'; }).join(", ");
     return '<div class="mg-card" id="cap-'+m.n+'"><div class="mg-stage overlay'+(fr?'':' nofr')+'"'+(fr?' style="background-image:url('+fr+')"':'')+'><canvas width="360" height="640" data-capc="'+m.n+'" aria-label="Preview of caption clip '+m.n+'"></canvas><span class="mg-badge">Captions · transparent</span><span class="mg-dur">'+esc(m.dur)+' s</span></div>'+
       '<div class="mg-body"><span class="eyebrow">Captions '+m.n+' · '+esc(m.title||"")+'</span><h3>'+esc(m.text||"")+'</h3>'+
-      '<p class="mg-src">Frame 0000 lines up with '+esc(m.src||"")+', just before the first word.</p>'+(cut?'<p class="mg-cut note">Bite at: '+cut+'</p>':'')+
-      '<button type="button" class="btn" data-capdl="'+m.n+'">Download PNG sequence (.zip)</button><div class="mg-prog" hidden><span></span></div><span class="note mg-st"></span></div></div>';
+      '<p class="mg-src">Frame 0 lines up with '+esc(m.src||"")+', just before the first word.</p>'+(cut?'<p class="mg-cut note">Bite at: '+cut+'</p>':'')+
+      '<button type="button" class="btn" data-capdl="'+m.n+'">Download .mov (transparent)</button><div class="mg-prog" hidden><span></span></div><span class="note mg-st"></span></div></div>';
   }).join("");
-  return '<section id="captions"><div class="wrap"><div class="sec-head"><span class="eyebrow">Captions</span><h2>'+ts.length+' caption clips in '+esc(cl.short||cl.name)+'’s style</h2><p>Every spoken bite as a transparent PNG sequence, 1080×1920 at 30 fps, in the brand caption style. '+(((D.style||{}).reveal||"word")==="word"?'Words come in as they are spoken, one line at a time.':'Each caption comes in as its words are spoken, up to '+(((D.style||{}).max_lines)||2)+' lines.')+' Frame 0000 lines up with the source time on each card, just before the first word: put the clip on a track above the footage where that bite starts and trim it with the bite.</p>'+dlRow("cap","Download all captions (.zip)")+'</div>'+
+  return '<section id="captions"><div class="wrap"><div class="sec-head"><span class="eyebrow">Captions</span><h2>'+ts.length+' caption clips in '+esc(cl.short||cl.name)+'’s style</h2><p>Every spoken bite as a transparent .mov (PNG codec, alpha kept), 1080×1920 at 30 fps, in the brand caption style: select them all in File > Import and they come in at once. '+(((D.style||{}).reveal||"word")==="word"?'Words come in as they are spoken, one line at a time.':'Each caption comes in as its words are spoken, up to '+(((D.style||{}).max_lines)||2)+' lines.')+' Frame 0 (the first frame) lines up with the source time on each card, just before the first word: put the clip on a track above the footage where that bite starts and trim it with the bite.</p>'+dlRow("cap","Download all captions (.zip)")+'</div>'+
     (D.note?'<div class="mg-brand"><div class="mg-caution"><b>For this video:</b> '+esc(D.note)+'</div></div>':'')+
     '<div class="mg-grid">'+cards+'</div></div></section>';
 }
@@ -775,7 +803,7 @@ function wireCaps(it,cl){
     finally{ b.disabled=false; setTimeout(function(){pg.hidden=true;bar.style.width="0";},1500); }
   });
 }
-function capHowto(m){ return "Captions for one bite: {N} PNG frames at 30 fps, 1080x1920, transparent.\nFrame 0000 lines up with "+(m.src||"")+" in the source clip, just before the first word.\nPut it on a track above the footage where this bite starts, then trim it with the bite.\nPremiere: File > Import, pick the first PNG, tick 'Image Sequence'. Resolve: drag the folder into the Media Pool.\n"; }
+function capHowto(m){ return "Captions for one bite: {N} frames at 30 fps, 1080x1920, transparent.\nFrame 0 lines up with "+(m.src||"")+" in the source clip, just before the first word.\nPut it on a track above the footage where this bite starts, then trim it with the bite.\nPremiere: File > Import, pick the first PNG, tick 'Image Sequence'. Resolve: drag the folder into the Media Pool.\n"; }
 /* Download everything in one zip (Atdhe 2026-10-22): motion graphics, end card and captions, built in this browser */
 var CUR_IT=null;
 function dlRow(kind,label){ return '<div class="upl-row" data-dlwrap style="margin-top:12px"><button type="button" class="btn" data-dlall="'+kind+'">'+label+'</button><span class="note dl-st"></span><div class="mg-prog" hidden style="flex-basis:100%"><span></span></div></div>'; }
@@ -795,7 +823,7 @@ async function downloadAll(kind,b){
   [].forEach.call(document.querySelectorAll("[data-dlall]"),function(x){x.disabled=true;}); pg.hidden=false; bar.style.width="0";
   try{
     var JSZip=await MG.lib(MG.LIBS.zip,"JSZip"),zip=new JSZip(),U=CUR_UP||{},rd=[];
-    rd.push((it.title_short||it.title||"")+" · Edit Key "+(it.edit_key||"")+(U.file?"\nUpload as: "+U.file+(U.folder?"  →  Frame.io "+U.folder:""):"")+"\nAll 1080x1920, 30 fps. PNG sequences are transparent: import the first PNG as an image sequence.\n");
+    rd.push((it.title_short||it.title||"")+" · Edit Key "+(it.edit_key||"")+(U.file?"\nUpload as: "+U.file+(U.folder?"  →  Frame.io "+U.folder:""):"")+"\nAll 1080x1920, 30 fps. Graphics and captions are transparent .mov files (PNG codec, alpha kept): select them all in File > Import and they come in at once.\n");
     var last="";
     for(var k=0;k<jobs.length;k++){
       var j=jobs[k],folder=zip.folder(j.sec);
@@ -803,10 +831,10 @@ async function downloadAll(kind,b){
       var prog=function(p){ bar.style.width=Math.round((k+Math.min(1,p))/jobs.length*92)+"%"; };
       var what;
       if(j.m.file){ var r=await fetch(j.m.file); if(!r.ok) throw new Error("Could not get the end card file. Try again."); what=j.m.file.split("/").pop(); folder.file(what,await r.blob()); }
-      else { var res=await MG.exportMG(Object.assign({},j.m,{base:j.base},j.howto?{howto:j.howto}:{}),j.B,prog,folder); if(res.blob){ folder.file(res.name,res.blob); what=res.name; } else what=res.name+"/ ("+res.frames+" PNG frames)"; }
+      else { var res=await MG.exportMG(Object.assign({},j.m,{base:j.base},j.howto?{howto:j.howto}:{}),j.B,prog,folder); folder.file(res.name,res.blob); what=res.name+(res.frames?" ("+res.frames+" frames)":""); }
       if(j.sec!==last){ rd.push("\n"+j.sec.replace(/^\d /,"").toUpperCase()); last=j.sec; }
       var where=(j.m.rows||[]).join(", ");
-      rd.push((j.sec==="3 Captions"?"Captions "+j.m.n:j.sec==="2 End card"?"End card":"MG "+j.m.n)+": "+what+(j.m.title&&j.sec!=="2 End card"?"  ·  "+j.m.title:"")+(where?"\n   Goes at: "+where:"")+(j.m.use?"\n   "+j.m.use:"")+(j.sec==="3 Captions"?"\n   Frame 0000 lines up with "+(j.m.src||"")+".":""));
+      rd.push((j.sec==="3 Captions"?"Captions "+j.m.n:j.sec==="2 End card"?"End card":"MG "+j.m.n)+": "+what+(j.m.title&&j.sec!=="2 End card"?"  ·  "+j.m.title:"")+(where?"\n   Goes at: "+where:"")+(j.m.use?"\n   "+j.m.use:"")+(j.sec==="3 Captions"?"\n   Frame 0 lines up with "+(j.m.src||"")+".":""));
       await new Promise(function(r){setTimeout(r,0);});
     }
     zip.file("READ ME.txt",rd.join("\n")+"\n");
@@ -849,10 +877,10 @@ function mgSection(it,cl){
     return '<div class="mg-card" id="mg-'+m.n+'"><div class="mg-stage '+mode+(fr?'':' nofr')+'"'+(fr?' style="background-image:url('+fr+')"':'')+'>'+(m.file?'<video src="'+esc(m.file)+'" muted loop autoplay playsinline preload="metadata" aria-label="The client\'s end card"></video>':'<canvas width="360" height="640" data-mgc="'+m.n+'" aria-label="Preview of motion graphic '+m.n+'"></canvas>')+'<span class="mg-badge'+(mode==="full"?" full":"")+'">'+(m.tpl==="end_card"||m.tpl==="end_card_overlay"?(m.file?"Client's own end card":m.tpl==="end_card_overlay"?"End card over footage":"End card"):mode==="full"?"Full-frame cutaway":"Transparent overlay")+'</span><span class="mg-dur">'+esc(m.dur)+' s</span></div>'+
       '<div class="mg-body"><span class="eyebrow">MG '+m.n+' · '+esc(tn)+'</span><h3>'+esc(m.title)+'</h3>'+(m.use?'<p class="note">'+esc(m.use)+'</p>':'')+
       '<p class="mg-src">Words from: '+esc(m.src||"")+'</p>'+(cut?'<p class="mg-cut note">Cut in at: '+cut+'</p>':'<p class="mg-cut note">Use anywhere it helps.</p>')+
-      '<button type="button" class="btn" data-mgdl="'+m.n+'">'+(m.file?"Download the client's end card":mode==="full"?"Download MP4":"Download PNG sequence (.zip)")+'</button><div class="mg-prog" hidden><span></span></div><span class="note mg-st"></span><div class="cok-mg" id="okmg-'+m.n+'"></div></div></div>';
+      '<button type="button" class="btn" data-mgdl="'+m.n+'">'+(m.file?"Download the client's end card":mode==="full"?"Download MP4":"Download .mov (transparent)")+'</button><div class="mg-prog" hidden><span></span></div><span class="note mg-st"></span><div class="cok-mg" id="okmg-'+m.n+'"></div></div></div>';
   }).join("");
   var nOv=ms.filter(function(m){return MG.modeOf(m)==="overlay";}).length;
-  return '<section id="mg"><div class="wrap"><div class="sec-head"><span class="eyebrow">Motion graphics</span><h2>'+ms.length+(ms.length===1?' graphic':' graphics')+' in '+esc(cl.short||cl.name)+'\'s brand</h2><p>Optional. Cut to them like B-roll, only where they help the video. Transparent overlays sit on top of footage (download as a PNG sequence, import as an image sequence at 30 fps). Full-frame cutaways download as MP4. All 1080×1920, 30 fps. The black chips in the timeline show where each one fits. The end card is not optional: it is the client’s latest end card or logo, and it closes every video.</p>'+dlRow("mg","Download all motion graphics + end card (.zip)")+'</div>'+
+  return '<section id="mg"><div class="wrap"><div class="sec-head"><span class="eyebrow">Motion graphics</span><h2>'+ms.length+(ms.length===1?' graphic':' graphics')+' in '+esc(cl.short||cl.name)+'\'s brand</h2><p>Optional. Cut to them like B-roll, only where they help the video. Transparent overlays download as .mov files (PNG codec, alpha kept): select them all in File > Import and they come in at once, on top of your footage. Full-frame cutaways download as MP4. All 1080×1920, 30 fps. The black chips in the timeline show where each one fits. The end card is not optional: it is the client’s latest end card or logo, and it closes every video.</p>'+dlRow("mg","Download all motion graphics + end card (.zip)")+'</div>'+
     '<div class="mg-brand">'+(D.note?'<div class="mg-caution"><b>For this video:</b> '+esc(D.note)+'</div>':'')+(B.caution?'<div class="mg-caution"><b>Client note:</b> '+esc(B.caution)+'</div>':'')+'<div class="sws">'+sw+'</div><p class="note">'+esc(B.font_note||"")+(B.rules&&B.rules.length?' Rules: '+esc(B.rules.join(" ")):'')+'</p></div>'+
     '<div class="mg-grid">'+cards+'</div></div></section>';
 }
