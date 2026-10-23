@@ -895,7 +895,7 @@ function resolveBar(){
   function a(x,l,cls){ return x&&x.url?'<a class="btn'+(cls||' ghost')+'" href="'+esc(x.url)+'" target="_blank" rel="noopener">'+l+' ↗</a>':''; }
   var meta=[d.length,d.loudness,d.music].filter(Boolean).map(esc).join(' · ');
   return '<div class="upl rcut"><div class="upl-row"><span class="eyebrow">Resolve cut · v'+esc(d.version||1)+'</span>'+(meta?'<span class="note">'+meta+'</span>':'')+'</div>'+
-    '<div class="upl-row">'+a(d.mp4,'Watch the cut',' ')+a(d.xml,'Premiere XML')+a(d.graphics,'Graphics .mov')+'</div>'+
+    '<div class="upl-row">'+a(d.mp4,'Watch the cut',' ')+a(d.xml,'Premiere XML')+a(d.graphics,'Graphics .mov')+a(d.luts,'Grade LUTs (.cube)')+'</div>'+
     (d.note?'<p class="note">'+esc(d.note)+'</p>':'')+'</div>';
 }
 document.addEventListener("click",function(e){
