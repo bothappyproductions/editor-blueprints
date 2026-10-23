@@ -1,0 +1,632 @@
+{
+ "item": "12489939555",
+ "client": "lions",
+ "style": {
+  "font": {
+   "css": "\"Arimo\"",
+   "w": 700
+  },
+  "size": 62,
+  "y": 1360,
+  "max_lines": 2,
+  "reveal": "phrase",
+  "fg": "#FFFFFF",
+  "shadow": false,
+  "box": {
+   "bg": "rgba(0,0,0,0.55)",
+   "r": 10
+  }
+ },
+ "note": "White text on the semi-transparent box, no drop shadow, max 2 lines (the locked Lions caption style). Timed from the words in the source clips. Clips 1, 3, 4, 6: Timed to the French audio; a speaker of it checks the timing by ear. Clip 5: Few words matched the audio here: check the timing by ear.",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Hook",
+   "rows": [
+    "00:00–00:03"
+   ],
+   "clip": "IMG_7941.MOV",
+   "start": 10.21,
+   "src": "IMG_7941.MOV 00:10.2",
+   "dur": 1.84,
+   "words": [
+    {
+     "w": "Yeah!",
+     "t0": 0.15,
+     "t1": 1.39,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 1.74,
+     "lines": [
+      [
+       0,
+       0
+      ]
+     ]
+    }
+   ],
+   "text": "Yeah!",
+   "timing": "speech",
+   "matched": 0.0,
+   "lang": "fr",
+   "check": "Timed to the French audio; a speaker of it checks the timing by ear."
+  },
+  {
+   "n": 2,
+   "title": "Me Too",
+   "rows": [
+    "00:03–00:06"
+   ],
+   "clip": "IMG_7941.MOV",
+   "start": 61.61,
+   "src": "IMG_7941.MOV 01:01.6",
+   "dur": 1.68,
+   "words": [
+    {
+     "w": "Yes,",
+     "t0": 0.15,
+     "t1": 0.59,
+     "e": 0
+    },
+    {
+     "w": "me",
+     "t0": 0.71,
+     "t1": 0.87,
+     "e": 0
+    },
+    {
+     "w": "too.",
+     "t0": 0.87,
+     "t1": 1.23,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 1.58,
+     "lines": [
+      [
+       0,
+       2
+      ]
+     ]
+    }
+   ],
+   "text": "Yes, me too.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 3,
+   "title": "Advice",
+   "rows": [
+    "00:06–00:16"
+   ],
+   "clip": "IMG_7941.MOV",
+   "start": 118.85,
+   "src": "IMG_7941.MOV 01:58.8",
+   "dur": 9.6,
+   "words": [
+    {
+     "w": "So,",
+     "t0": 0.15,
+     "t1": 0.405,
+     "e": 0
+    },
+    {
+     "w": "this",
+     "t0": 0.405,
+     "t1": 0.724,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 0.724,
+     "t1": 0.916,
+     "e": 0
+    },
+    {
+     "w": "my",
+     "t0": 0.916,
+     "t1": 1.107,
+     "e": 0
+    },
+    {
+     "w": "first",
+     "t0": 1.107,
+     "t1": 1.49,
+     "e": 0
+    },
+    {
+     "w": "convention",
+     "t0": 1.49,
+     "t1": 2.193,
+     "e": 0
+    },
+    {
+     "w": "here",
+     "t0": 2.193,
+     "t1": 2.512,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 2.512,
+     "t1": 2.703,
+     "e": 0
+    },
+    {
+     "w": "Hong",
+     "t0": 2.703,
+     "t1": 3.022,
+     "e": 0
+    },
+    {
+     "w": "Kong",
+     "t0": 3.022,
+     "t1": 3.341,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 3.341,
+     "t1": 3.597,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 3.597,
+     "t1": 3.788,
+     "e": 0
+    },
+    {
+     "w": "order",
+     "t0": 3.788,
+     "t1": 4.171,
+     "e": 0
+    },
+    {
+     "w": "not",
+     "t0": 4.171,
+     "t1": 4.427,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 4.427,
+     "t1": 4.618,
+     "e": 0
+    },
+    {
+     "w": "miss",
+     "t0": 4.618,
+     "t1": 4.937,
+     "e": 0
+    },
+    {
+     "w": "anything,",
+     "t0": 4.937,
+     "t1": 5.576,
+     "e": 0
+    },
+    {
+     "w": "you",
+     "t0": 5.576,
+     "t1": 5.831,
+     "e": 0
+    },
+    {
+     "w": "have",
+     "t0": 5.831,
+     "t1": 6.15,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 6.15,
+     "t1": 6.341,
+     "e": 0
+    },
+    {
+     "w": "prepare.",
+     "t0": 6.341,
+     "t1": 6.916,
+     "e": 0
+    },
+    {
+     "w": "You",
+     "t0": 6.916,
+     "t1": 7.171,
+     "e": 0
+    },
+    {
+     "w": "have",
+     "t0": 7.171,
+     "t1": 7.49,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 7.49,
+     "t1": 7.682,
+     "e": 0
+    },
+    {
+     "w": "register",
+     "t0": 7.682,
+     "t1": 8.256,
+     "e": 0
+    },
+    {
+     "w": "very",
+     "t0": 8.256,
+     "t1": 8.576,
+     "e": 0
+    },
+    {
+     "w": "quickly.",
+     "t0": 8.576,
+     "t1": 9.15,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 3.291,
+     "lines": [
+      [
+       0,
+       4
+      ],
+      [
+       5,
+       9
+      ]
+     ]
+    },
+    {
+     "t0": 3.291,
+     "t1": 6.866,
+     "lines": [
+      [
+       10,
+       15
+      ],
+      [
+       16,
+       20
+      ]
+     ]
+    },
+    {
+     "t0": 6.866,
+     "t1": 9.5,
+     "lines": [
+      [
+       21,
+       26
+      ]
+     ]
+    }
+   ],
+   "text": "So, this is my first convention here in Hong Kong and in order not to miss anything, you have to prepare. You have to register very quickly.",
+   "timing": "speech",
+   "matched": 0.0,
+   "lang": "fr",
+   "check": "Timed to the French audio; a speaker of it checks the timing by ear."
+  },
+  {
+   "n": 4,
+   "title": "Washington",
+   "rows": [
+    "00:16–00:21"
+   ],
+   "clip": "IMG_7941.MOV",
+   "start": 134.85,
+   "src": "IMG_7941.MOV 02:14.8",
+   "dur": 5.6,
+   "words": [
+    {
+     "w": "In",
+     "t0": 0.15,
+     "t1": 0.4,
+     "e": 0
+    },
+    {
+     "w": "any",
+     "t0": 0.4,
+     "t1": 0.733,
+     "e": 0
+    },
+    {
+     "w": "case,",
+     "t0": 0.733,
+     "t1": 1.233,
+     "e": 0
+    },
+    {
+     "w": "very",
+     "t0": 1.233,
+     "t1": 1.65,
+     "e": 0
+    },
+    {
+     "w": "happy",
+     "t0": 1.65,
+     "t1": 2.15,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 2.15,
+     "t1": 2.4,
+     "e": 0
+    },
+    {
+     "w": "see",
+     "t0": 2.4,
+     "t1": 2.733,
+     "e": 0
+    },
+    {
+     "w": "you",
+     "t0": 2.733,
+     "t1": 3.067,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 3.067,
+     "t1": 3.317,
+     "e": 0
+    },
+    {
+     "w": "Washington",
+     "t0": 3.317,
+     "t1": 4.233,
+     "e": 0
+    },
+    {
+     "w": "next",
+     "t0": 4.233,
+     "t1": 4.65,
+     "e": 0
+    },
+    {
+     "w": "year.",
+     "t0": 4.65,
+     "t1": 5.15,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 5.5,
+     "lines": [
+      [
+       0,
+       6
+      ],
+      [
+       7,
+       11
+      ]
+     ]
+    }
+   ],
+   "text": "In any case, very happy to see you in Washington next year.",
+   "timing": "speech",
+   "matched": 0.0,
+   "lang": "fr",
+   "check": "Timed to the French audio; a speaker of it checks the timing by ear."
+  },
+  {
+   "n": 5,
+   "title": "Proud",
+   "rows": [
+    "00:21–00:26"
+   ],
+   "clip": "IMG_7941.MOV",
+   "start": 140.49,
+   "src": "IMG_7941.MOV 02:20.5",
+   "dur": 4.96,
+   "words": [
+    {
+     "w": "Be",
+     "t0": 0.15,
+     "t1": 0.342,
+     "e": 0
+    },
+    {
+     "w": "proud",
+     "t0": 0.342,
+     "t1": 0.727,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 0.727,
+     "t1": 0.919,
+     "e": 0
+    },
+    {
+     "w": "be",
+     "t0": 0.919,
+     "t1": 1.112,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 1.112,
+     "t1": 1.24,
+     "e": 0
+    },
+    {
+     "w": "lion.",
+     "t0": 1.24,
+     "t1": 1.625,
+     "e": 0
+    },
+    {
+     "w": "Yes,",
+     "t0": 1.625,
+     "t1": 1.945,
+     "e": 0
+    },
+    {
+     "w": "proud",
+     "t0": 1.945,
+     "t1": 2.33,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 2.33,
+     "t1": 2.522,
+     "e": 0
+    },
+    {
+     "w": "be",
+     "t0": 2.522,
+     "t1": 2.715,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 2.715,
+     "t1": 2.843,
+     "e": 0
+    },
+    {
+     "w": "lion.",
+     "t0": 2.843,
+     "t1": 3.228,
+     "e": 0
+    },
+    {
+     "w": "Proud",
+     "t0": 3.228,
+     "t1": 3.612,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 3.612,
+     "t1": 3.805,
+     "e": 0
+    },
+    {
+     "w": "be",
+     "t0": 3.805,
+     "t1": 3.997,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 3.997,
+     "t1": 4.125,
+     "e": 0
+    },
+    {
+     "w": "lion.",
+     "t0": 4.125,
+     "t1": 4.51,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 1.575,
+     "lines": [
+      [
+       0,
+       5
+      ]
+     ]
+    },
+    {
+     "t0": 1.575,
+     "t1": 3.178,
+     "lines": [
+      [
+       6,
+       11
+      ]
+     ]
+    },
+    {
+     "t0": 3.178,
+     "t1": 4.86,
+     "lines": [
+      [
+       12,
+       16
+      ]
+     ]
+    }
+   ],
+   "text": "Be proud to be a lion. Yes, proud to be a lion. Proud to be a lion.",
+   "timing": "speech",
+   "matched": 0.29,
+   "lang": "en",
+   "check": "Few words matched the audio here: check the timing by ear."
+  },
+  {
+   "n": 6,
+   "title": "Button",
+   "rows": [
+    "00:26–00:28"
+   ],
+   "clip": "IMG_7941.MOV",
+   "start": 144.85,
+   "src": "IMG_7941.MOV 02:24.8",
+   "dur": 3.6,
+   "words": [
+    {
+     "w": "Long",
+     "t0": 0.15,
+     "t1": 0.983,
+     "e": 0
+    },
+    {
+     "w": "live",
+     "t0": 0.983,
+     "t1": 1.817,
+     "e": 0
+    },
+    {
+     "w": "France.",
+     "t0": 1.817,
+     "t1": 3.15,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 3.5,
+     "lines": [
+      [
+       0,
+       2
+      ]
+     ]
+    }
+   ],
+   "text": "Long live France.",
+   "timing": "speech",
+   "matched": 0.0,
+   "lang": "fr",
+   "check": "Timed to the French audio; a speaker of it checks the timing by ear."
+  }
+ ]
+}

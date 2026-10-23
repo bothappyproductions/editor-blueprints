@@ -409,19 +409,27 @@ function end_card(ctx,s,B,t){
 }
 /* ---------- captions (Atdhe 2026-10-22): one transparent clip per bite, words come in as they are spoken, one line at a time, key word on a brand pill ---------- */
 function caption_track(ctx,s,B,t){
-  var st=s.style||{},y=st.y||1380,size=st.size||70,fg=st.fg||"#FFFFFF",eb=st.emph_bg||(B.pal&&B.pal.bg)||"#222222",Wd=s.words||[],L=s.lines||[],ln=null,i;
-  for(i=0;i<L.length;i++){if(t>=L[i].t0&&t<L[i].t1){ln=L[i];break;}}
-  if(!ln)return;
-  var out=eInOut(seg(t,ln.t1-.08,ln.t1)),ws=[],tot=0,sz=size;
-  for(var pass=0;pass<2;pass++){ctx.font=F(B,"head",sz);ws=[];tot=0;var sp=ctx.measureText(" ").width;
-    for(i=ln.a;i<=ln.b;i++){var tx=up(Wd[i].w,s),mw=ctx.measureText(tx).width;ws.push({w:Wd[i],tx:tx,mw:mw});tot+=mw;}
-    tot+=sp*(ws.length-1);if(tot<=940)break;sz=Math.floor(sz*940/tot);}
-  ctx.save();ctx.textBaseline="middle";ctx.textAlign="left";var x=W/2-tot/2,gap=ctx.measureText(" ").width;
-  ws.forEach(function(o){var p=eOut(seg(t,o.w.t0-.04,o.w.t0+.14));
-    if(p>0){ctx.globalAlpha=(1-out)*Math.min(1,p*1.5);
-      if(o.w.e){var pb=eOut(seg(t,o.w.t0,o.w.t0+.22));rr(ctx,x-14,y-sz*.6,(o.mw+28)*pb,sz*1.2,14);ctx.fillStyle=eb;shadow(ctx,false);ctx.fill();}
-      shadow(ctx,true);ctx.fillStyle=fg;ctx.fillText(o.tx,x,y+(1-p)*16);shadow(ctx,false);}
-    x+=o.mw+gap;});
+  /* style: font ("head"|"body"|{css,w}), size, y (block centre, or first line when anchor:"top"), max width 940, reveal "word"|"phrase",
+     fg, shadow, box {bg,r,px,py,accent}, emph {mode:"pill"|"color", bg, fg}, upper. pages: [{t0,t1,lines:[[a,b],..]}] (old files: lines) */
+  var st=s.style||{},size=st.size||70,fg=st.fg||"#FFFFFF",Wd=s.words||[],pages=s.pages||(s.lines||[]).map(function(l){return {t0:l.t0,t1:l.t1,lines:[[l.a,l.b]]};}),pg=null,i;
+  for(i=0;i<pages.length;i++){if(t>=pages[i].t0&&t<pages[i].t1){pg=pages[i];break;}}
+  if(!pg)return;
+  var em=st.emph||(st.emph_bg?{mode:"pill",bg:st.emph_bg}:null),bx=st.box||null,word=(st.reveal||"word")==="word";
+  function font(sz){var f=st.font;if(f&&typeof f==="object")return (f.w||700)+" "+Math.round(sz)+"px "+f.css;return F(B,f==="body"?"body":"head",sz);}
+  var sz=size,L=[];
+  for(var pass=0;pass<2;pass++){ctx.font=font(sz);var gap=ctx.measureText(" ").width,widest=0;L=pg.lines.map(function(r){var ws=[],tot=0;for(var k=r[0];k<=r[1];k++){var tx=up(Wd[k].w,s),mw=ctx.measureText(tx).width;ws.push({w:Wd[k],tx:tx,mw:mw});tot+=mw;}tot+=gap*(ws.length-1);widest=Math.max(widest,tot);return {ws:ws,tot:tot};});
+    if(widest<=940)break;sz=Math.floor(sz*940/widest);}
+  var lh=sz*(bx?1.42:1.22),y0=st.anchor==="top"?(st.y||1300):(st.y||1380)-((L.length-1)*lh)/2,out=eInOut(seg(t,pg.t1-.08,pg.t1)),pin=word?1:eOut(seg(t,pg.t0,pg.t0+.16));
+  ctx.save();ctx.textBaseline="middle";ctx.textAlign="left";ctx.font=font(sz);var gp=ctx.measureText(" ").width;
+  L.forEach(function(ln,li){var y=y0+li*lh,x=W/2-ln.tot/2,first=ln.ws[0].w.t0;
+    if(bx){var px=bx.px!=null?bx.px:sz*.35,py=bx.py!=null?bx.py:sz*.16,bh=sz*1.12+py*2,r=bx.r!=null?bx.r:(bx.pill?bh/2:sz*.18),pb=word?eOut(seg(t,first-.04,first+.12)):pin;
+      if(pb>0){ctx.globalAlpha=(1-out)*pb;shadow(ctx,false);rr(ctx,x-px,y-bh/2,ln.tot+px*2,bh,r);ctx.fillStyle=bx.bg;ctx.fill();
+        if(bx.accent){ctx.fillStyle=bx.accent;rr(ctx,x-px,y-bh/2,Math.max(8,sz*.12),bh,Math.min(r,4));ctx.fill();}}}
+    ln.ws.forEach(function(o){var p=word?eOut(seg(t,o.w.t0-.04,o.w.t0+.14)):pin;
+      if(p>0){ctx.globalAlpha=(1-out)*Math.min(1,p*1.5);var dy=(1-p)*(word?16:10);
+        if(em&&o.w.e&&em.mode!=="color"){var pe=eOut(seg(t,o.w.t0,o.w.t0+.22));if(!word)pe=pin;rr(ctx,x-14,y-sz*.6,(o.mw+28)*pe,sz*1.2,14);ctx.fillStyle=em.bg;shadow(ctx,false);ctx.fill();}
+        shadow(ctx,st.shadow!==false&&!bx);ctx.fillStyle=(em&&o.w.e&&em.mode==="color")?em.fg:fg;ctx.fillText(o.tx,x,y+dy);shadow(ctx,false);}
+      x+=o.mw+gp;});});
   ctx.restore();
 }
 var T={kinetic_quote:{fn:kinetic_quote,mode:"overlay",name:"Kinetic quote"},stat_counter:{fn:stat_counter,mode:"overlay",name:"Number pop"},word_stack:{fn:word_stack,mode:"overlay",name:"Word stack"},highlight_callout:{fn:highlight_callout,mode:"overlay",name:"Highlighter"},corner_frame:{fn:corner_frame,mode:"overlay",name:"Focus frame"},brand_wipe:{fn:brand_wipe,mode:"overlay",name:"Brand wipe transition"},tag_label:{fn:tag_label,mode:"overlay",name:"Topic tag"},
@@ -429,14 +437,22 @@ var T={kinetic_quote:{fn:kinetic_quote,mode:"overlay",name:"Kinetic quote"},stat
 function draw(ctx,s,B,t){var tp=T[s.tpl];ctx.clearRect(0,0,W,H);if(!tp)return;ctx.save();ctx.textAlign="left";ctx.textBaseline="alphabetic";try{tp.fn(ctx,s,B,clamp(t,0,s.dur));}catch(e){}ctx.restore();}
 function modeOf(s){return (T[s.tpl]&&T[s.tpl].mode)||s.mode||"overlay";}
 var fontsP={};
+var cssP={};
+function fontCss(B){ /* the brand's Google Fonts stylesheet, resolved once it has loaded (fonts.load before that finds nothing) */
+  if(!B.google)return Promise.resolve();if(cssP[B.google])return cssP[B.google];
+  cssP[B.google]=new Promise(function(res){var l=document.querySelector('link[data-mgfont="'+B.google+'"]');
+    if(!l){l=document.createElement("link");l.rel="stylesheet";l.href="https://fonts.googleapis.com/css2?"+B.google.split("|").map(function(f){return "family="+f;}).join("&")+"&display=block";l.setAttribute("data-mgfont",B.google);document.head.appendChild(l);}
+    if(l.sheet){res();return;}l.addEventListener("load",function(){res();});l.addEventListener("error",function(){res();});setTimeout(res,6000);});
+  return cssP[B.google];}
 function ensureFonts(B){var key=(B.google||"")+"|"+B.head.css+B.body.css;if(fontsP[key])return fontsP[key];
-  if(B.google&&!document.querySelector('link[data-mgfont="'+B.google+'"]')){var l=document.createElement("link");l.rel="stylesheet";l.href="https://fonts.googleapis.com/css2?"+B.google.split("|").map(function(f){return "family="+f;}).join("&")+"&display=block";l.setAttribute("data-mgfont",B.google);document.head.appendChild(l);}
-  fontsP[key]=Promise.all([document.fonts.load((B.head.w||700)+" 100px "+B.head.css,"Ag1"),document.fonts.load((B.body.w||500)+" 100px "+B.body.css,"Ag1")]).catch(function(){}).then(function(){return document.fonts.ready;});return fontsP[key];}
+  fontsP[key]=fontCss(B).then(function(){return Promise.all([document.fonts.load((B.head.w||700)+" 100px "+B.head.css,"Ag1"),document.fonts.load((B.body.w||500)+" 100px "+B.body.css,"Ag1")]);}).catch(function(){}).then(function(){return document.fonts.ready;});return fontsP[key];}
+function ensureStyleFont(s,B){var f=s&&s.style&&s.style.font;if(!f||typeof f!=="object")return Promise.resolve();
+  return fontCss(B).then(function(){return document.fonts.load((f.w||700)+" 100px "+f.css,"Ag1");}).catch(function(){});}
 var libs={};
 function lib(url,globalName){if(window[globalName])return Promise.resolve(window[globalName]);if(libs[url])return libs[url];libs[url]=new Promise(function(res,rej){var sc=document.createElement("script");sc.src=url;sc.onload=function(){window[globalName]?res(window[globalName]):rej(new Error("lib"));};sc.onerror=function(){rej(new Error("lib"));};document.head.appendChild(sc);});return libs[url];}
 var LIBS={zip:"https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js",mp4:"https://cdn.jsdelivr.net/npm/mp4-muxer@5.2.2/build/mp4-muxer.js"};
 async function exportMG(s,B,onProg){
-  await ensureFonts(B);await ensureImgs(s);var cv=document.createElement("canvas");cv.width=W;cv.height=H;var ctx=cv.getContext("2d",{alpha:true}),N=Math.round(s.dur*FPS);
+  await ensureFonts(B);await ensureImgs(s);await ensureStyleFont(s,B);var cv=document.createElement("canvas");cv.width=W;cv.height=H;var ctx=cv.getContext("2d",{alpha:true}),N=Math.round(s.dur*FPS);
   if(modeOf(s)==="overlay"){
     var JSZip=await lib(LIBS.zip,"JSZip"),zip=new JSZip(),dir=zip.folder(s.base);
     for(var i=0;i<N;i++){draw(ctx,s,B,i/FPS);var blob=await new Promise(function(r){cv.toBlob(r,"image/png");});dir.file(s.base+"_"+String(i).padStart(4,"0")+".png",blob);if(i%5===0){onProg(i/N*.85);await new Promise(function(r){setTimeout(r,0);});}}
@@ -454,7 +470,7 @@ async function exportMG(s,B,onProg){
     if(enc.encodeQueueSize>10)await new Promise(function(r){setTimeout(r,5);});if(j%5===0){onProg(j/N*.95);await new Promise(function(r){setTimeout(r,0);});}}
   await enc.flush();if(err)throw err;mux.finalize();onProg(1);return {blob:new Blob([target.buffer],{type:"video/mp4"}),name:s.base+"_full-frame.mp4"};
 }
-return {W:W,H:H,FPS:FPS,T:T,draw:draw,modeOf:modeOf,ensureFonts:ensureFonts,ensureImgs:ensureImgs,exportMG:exportMG,LIBS:LIBS};
+return {W:W,H:H,FPS:FPS,T:T,draw:draw,modeOf:modeOf,ensureFonts:ensureFonts,ensureImgs:ensureImgs,ensureStyleFont:ensureStyleFont,exportMG:exportMG,LIBS:LIBS};
 })();
 
 </script>
@@ -724,7 +740,7 @@ function capSection(it,cl){
       '<p class="mg-src">Frame 0000 lines up with '+esc(m.src||"")+', just before the first word.</p>'+(cut?'<p class="mg-cut note">Bite at: '+cut+'</p>':'')+
       '<button type="button" class="btn" data-capdl="'+m.n+'">Download PNG sequence (.zip)</button><div class="mg-prog" hidden><span></span></div><span class="note mg-st"></span></div></div>';
   }).join("");
-  return '<section id="captions"><div class="wrap"><div class="sec-head"><span class="eyebrow">Captions</span><h2>'+ts.length+' caption clips in '+esc(cl.short||cl.name)+'’s style</h2><p>Every spoken bite as a transparent PNG sequence, 1080×1920 at 30 fps. Words come in as they are spoken, one line at a time, in the brand caption style. Frame 0000 lines up with the source time on each card, just before the first word: put the clip on a track above the footage where that bite starts and trim it with the bite.</p></div>'+
+  return '<section id="captions"><div class="wrap"><div class="sec-head"><span class="eyebrow">Captions</span><h2>'+ts.length+' caption clips in '+esc(cl.short||cl.name)+'’s style</h2><p>Every spoken bite as a transparent PNG sequence, 1080×1920 at 30 fps, in the brand caption style. '+(((D.style||{}).reveal||"word")==="word"?'Words come in as they are spoken, one line at a time.':'Each caption comes in as its words are spoken, up to '+(((D.style||{}).max_lines)||2)+' lines.')+' Frame 0000 lines up with the source time on each card, just before the first word: put the clip on a track above the footage where that bite starts and trim it with the bite.</p></div>'+
     (D.note?'<div class="mg-brand"><div class="mg-caution"><b>For this video:</b> '+esc(D.note)+'</div></div>':'')+
     '<div class="mg-grid">'+cards+'</div></div></section>';
 }
@@ -732,7 +748,7 @@ function wireCaps(it,cl){
   if(!CUR_CAP) return;
   var D=CUR_CAP.d,B=CUR_CAP.b,byN={},vis={},raf=null,t0=performance.now();
   D.tracks.forEach(function(m){ m.style=m.style||D.style; m.tpl="caption_track"; byN[m.n]=m; });
-  MG.ensureFonts(B);
+  MG.ensureFonts(B); if(D.tracks[0]) MG.ensureStyleFont(D.tracks[0],B);
   var canv=[].slice.call(document.querySelectorAll("canvas[data-capc]"));
   function frame(now){ raf=null; var any=false;
     canv.forEach(function(cv){ var n=cv.getAttribute("data-capc"); if(!vis[n]) return; any=true; var m=byN[n],ctx=cv.getContext("2d"),t=((now-t0)/1000)%(m.dur+0.8);

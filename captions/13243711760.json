@@ -1,0 +1,403 @@
+{
+ "item": "13243711760",
+ "client": "s4s",
+ "style": {
+  "font": {
+   "css": "\"Roboto\"",
+   "w": 700
+  },
+  "size": 64,
+  "y": 1350,
+  "max_lines": 2,
+  "reveal": "phrase",
+  "fg": "#000000",
+  "box": {
+   "bg": "#62CCBF",
+   "r": 10
+  }
+ },
+ "note": "S4S style: black text on the teal #62CCBF box, never white on teal, max 2 lines. Timed from the words in the source clips. Clip 4: Few words matched the audio here: check the timing by ear. Not captioned: 00:03–00:06: the quote is not written yet (TBD on scrub (his line after “kind of an); 00:34–00:40: the quote is not written yet (TBD on scrub).",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Hook",
+   "rows": [
+    "00:00–00:03"
+   ],
+   "clip": "Traditional_S4STwentiethAnniversaryRetreat001-4.mp4",
+   "start": -0.15,
+   "src": "Traditional_S4STwentiethAnniversaryRetreat001-4.mp4 -1:59.9",
+   "dur": 2.33,
+   "words": [
+    {
+     "w": "I",
+     "t0": 0.15,
+     "t1": 0.39,
+     "e": 0
+    },
+    {
+     "w": "mean,",
+     "t0": 0.39,
+     "t1": 0.61,
+     "e": 0
+    },
+    {
+     "w": "some",
+     "t0": 0.61,
+     "t1": 0.89,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 0.89,
+     "t1": 0.95,
+     "e": 0
+    },
+    {
+     "w": "you",
+     "t0": 0.95,
+     "t1": 1.07,
+     "e": 0
+    },
+    {
+     "w": "are",
+     "t0": 1.07,
+     "t1": 1.15,
+     "e": 0
+    },
+    {
+     "w": "kind",
+     "t0": 1.15,
+     "t1": 1.27,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 1.27,
+     "t1": 1.83,
+     "e": 0
+    },
+    {
+     "w": "annoying.",
+     "t0": 1.83,
+     "t1": 1.8800000000000001,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 2.23,
+     "lines": [
+      [
+       0,
+       6
+      ],
+      [
+       7,
+       8
+      ]
+     ]
+    }
+   ],
+   "text": "I mean, some of you are kind of annoying.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 2,
+   "title": "The Work",
+   "rows": [
+    "00:08–00:14"
+   ],
+   "clip": "Traditional_S4STwentiethAnniversaryRetreat001-4.mp4",
+   "start": 7.89,
+   "src": "Traditional_S4STwentiethAnniversaryRetreat001-4.mp4 00:07.9",
+   "dur": 3.16,
+   "words": [
+    {
+     "w": "being",
+     "t0": 0.15,
+     "t1": 0.35,
+     "e": 0
+    },
+    {
+     "w": "able",
+     "t0": 0.35,
+     "t1": 0.63,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 0.63,
+     "t1": 0.79,
+     "e": 0
+    },
+    {
+     "w": "alongside",
+     "t0": 0.79,
+     "t1": 1.01,
+     "e": 0
+    },
+    {
+     "w": "our",
+     "t0": 1.01,
+     "t1": 1.21,
+     "e": 0
+    },
+    {
+     "w": "team.",
+     "t0": 1.21,
+     "t1": 2.71,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 3.06,
+     "lines": [
+      [
+       0,
+       3
+      ],
+      [
+       4,
+       5
+      ]
+     ]
+    }
+   ],
+   "text": "being able to alongside our team.",
+   "timing": "words",
+   "matched": 0.67,
+   "lang": "en"
+  },
+  {
+   "n": 3,
+   "title": "The People",
+   "rows": [
+    "00:14–00:19"
+   ],
+   "clip": "Traditional_S4STwentiethAnniversaryRetreat001-4.mp4",
+   "start": 22.13,
+   "src": "Traditional_S4STwentiethAnniversaryRetreat001-4.mp4 00:22.1",
+   "dur": 2.92,
+   "words": [
+    {
+     "w": "which",
+     "t0": 0.15,
+     "t1": 0.15,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 0.15,
+     "t1": 0.77,
+     "e": 0
+    },
+    {
+     "w": "making",
+     "t0": 0.77,
+     "t1": 1.39,
+     "e": 0
+    },
+    {
+     "w": "art",
+     "t0": 1.39,
+     "t1": 1.79,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 1.79,
+     "t1": 1.96,
+     "e": 0
+    },
+    {
+     "w": "super",
+     "t0": 1.96,
+     "t1": 2.47,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 2.82,
+     "lines": [
+      [
+       0,
+       5
+      ]
+     ]
+    }
+   ],
+   "text": "which is making art a super",
+   "timing": "words",
+   "matched": 0.67,
+   "lang": "en"
+  },
+  {
+   "n": 4,
+   "title": "Around The World",
+   "rows": [
+    "00:19–00:24"
+   ],
+   "clip": "Traditional_S4STwentiethAnniversaryRetreat001-4.mp4",
+   "start": 44.25,
+   "src": "Traditional_S4STwentiethAnniversaryRetreat001-4.mp4 00:44.2",
+   "dur": 3.8,
+   "words": [
+    {
+     "w": "and",
+     "t0": 0.15,
+     "t1": 0.642,
+     "e": 0
+    },
+    {
+     "w": "see",
+     "t0": 0.642,
+     "t1": 1.135,
+     "e": 0
+    },
+    {
+     "w": "around",
+     "t0": 1.135,
+     "t1": 1.996,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 1.996,
+     "t1": 2.488,
+     "e": 0
+    },
+    {
+     "w": "world.",
+     "t0": 2.488,
+     "t1": 3.35,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 3.7,
+     "lines": [
+      [
+       0,
+       4
+      ]
+     ]
+    }
+   ],
+   "text": "and see around the world.",
+   "timing": "speech",
+   "matched": 0.4,
+   "lang": "en",
+   "check": "Few words matched the audio here: check the timing by ear."
+  },
+  {
+   "n": 5,
+   "title": "Thank You",
+   "rows": [
+    "00:24–00:30"
+   ],
+   "clip": "Traditional_S4STwentiethAnniversaryRetreat001-4.mp4",
+   "start": 79.63,
+   "src": "Traditional_S4STwentiethAnniversaryRetreat001-4.mp4 01:19.6",
+   "dur": 1.4,
+   "words": [
+    {
+     "w": "the",
+     "t0": 0.15,
+     "t1": 0.35,
+     "e": 0
+    },
+    {
+     "w": "work",
+     "t0": 0.35,
+     "t1": 0.51,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 0.51,
+     "t1": 0.65,
+     "e": 0
+    },
+    {
+     "w": "we",
+     "t0": 0.65,
+     "t1": 0.81,
+     "e": 0
+    },
+    {
+     "w": "do",
+     "t0": 0.81,
+     "t1": 0.95,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 1.3,
+     "lines": [
+      [
+       0,
+       4
+      ]
+     ]
+    }
+   ],
+   "text": "the work that we do",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 6,
+   "title": "Thank You",
+   "rows": [
+    "00:30–00:34"
+   ],
+   "clip": "Traditional_S4STwentiethAnniversaryRetreat001-4.mp4",
+   "start": 99.55,
+   "src": "Traditional_S4STwentiethAnniversaryRetreat001-4.mp4 01:39.5",
+   "dur": 3.5,
+   "words": [
+    {
+     "w": "known",
+     "t0": 0.15,
+     "t1": 0.89,
+     "e": 0
+    },
+    {
+     "w": "everywhere.",
+     "t0": 0.89,
+     "t1": 3.05,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 3.4,
+     "lines": [
+      [
+       0,
+       1
+      ]
+     ]
+    }
+   ],
+   "text": "known everywhere.",
+   "timing": "words",
+   "matched": 0.5,
+   "lang": "en"
+  }
+ ]
+}

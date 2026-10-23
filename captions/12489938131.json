@@ -1,0 +1,661 @@
+{
+ "item": "12489938131",
+ "client": "lions",
+ "style": {
+  "font": {
+   "css": "\"Arimo\"",
+   "w": 700
+  },
+  "size": 62,
+  "y": 1360,
+  "max_lines": 2,
+  "reveal": "phrase",
+  "fg": "#FFFFFF",
+  "shadow": false,
+  "box": {
+   "bg": "rgba(0,0,0,0.55)",
+   "r": 10
+  }
+ },
+ "note": "White text on the semi-transparent box, no drop shadow, max 2 lines (the locked Lions caption style). Timed from the words in the source clips. Clips 1, 2, 3, 4: Timed to the Spanish audio; a speaker of it checks the timing by ear.",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Hook",
+   "rows": [
+    "00:00–00:02"
+   ],
+   "clip": "IMG_7866.MOV",
+   "start": 1.25,
+   "src": "IMG_7866.MOV 00:01.2",
+   "dur": 3.8,
+   "words": [
+    {
+     "w": "I",
+     "t0": 0.15,
+     "t1": 0.683,
+     "e": 0
+    },
+    {
+     "w": "am",
+     "t0": 0.683,
+     "t1": 1.483,
+     "e": 0
+    },
+    {
+     "w": "happy.",
+     "t0": 1.483,
+     "t1": 3.35,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 3.7,
+     "lines": [
+      [
+       0,
+       2
+      ]
+     ]
+    }
+   ],
+   "text": "I am happy.",
+   "timing": "speech",
+   "matched": 0.0,
+   "lang": "es",
+   "check": "Timed to the Spanish audio; a speaker of it checks the timing by ear."
+  },
+  {
+   "n": 2,
+   "title": "Meet People",
+   "rows": [
+    "00:02–00:08"
+   ],
+   "clip": "IMG_7866.MOV",
+   "start": 3.91,
+   "src": "IMG_7866.MOV 00:03.9",
+   "dur": 12.54,
+   "words": [
+    {
+     "w": "it",
+     "t0": 0.15,
+     "t1": 0.693,
+     "e": 0
+    },
+    {
+     "w": "makes",
+     "t0": 0.693,
+     "t1": 1.778,
+     "e": 0
+    },
+    {
+     "w": "me",
+     "t0": 1.778,
+     "t1": 2.321,
+     "e": 0
+    },
+    {
+     "w": "happy",
+     "t0": 2.321,
+     "t1": 3.406,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 3.406,
+     "t1": 3.949,
+     "e": 0
+    },
+    {
+     "w": "share",
+     "t0": 3.949,
+     "t1": 5.035,
+     "e": 0
+    },
+    {
+     "w": "with",
+     "t0": 5.035,
+     "t1": 5.939,
+     "e": 0
+    },
+    {
+     "w": "other",
+     "t0": 5.939,
+     "t1": 7.025,
+     "e": 0
+    },
+    {
+     "w": "people",
+     "t0": 7.025,
+     "t1": 8.291,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 8.291,
+     "t1": 9.015,
+     "e": 0
+    },
+    {
+     "w": "meet",
+     "t0": 9.015,
+     "t1": 9.919,
+     "e": 0
+    },
+    {
+     "w": "new",
+     "t0": 9.919,
+     "t1": 10.643,
+     "e": 0
+    },
+    {
+     "w": "people.",
+     "t0": 10.643,
+     "t1": 12.09,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 10.593,
+     "lines": [
+      [
+       0,
+       5
+      ],
+      [
+       6,
+       11
+      ]
+     ]
+    },
+    {
+     "t0": 10.593,
+     "t1": 12.44,
+     "lines": [
+      [
+       12,
+       12
+      ]
+     ]
+    }
+   ],
+   "text": "it makes me happy to share with other people and meet new people.",
+   "timing": "speech",
+   "matched": 0.0,
+   "lang": "es",
+   "check": "Timed to the Spanish audio; a speaker of it checks the timing by ear."
+  },
+  {
+   "n": 3,
+   "title": "Friends → Leader",
+   "rows": [
+    "00:08–00:20"
+   ],
+   "clip": "IMG_7866.MOV",
+   "start": 91.85,
+   "src": "IMG_7866.MOV 01:31.8",
+   "dur": 11.6,
+   "words": [
+    {
+     "w": "Well,",
+     "t0": 0.15,
+     "t1": 0.469,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 0.469,
+     "t1": 0.628,
+     "e": 0
+    },
+    {
+     "w": "course,",
+     "t0": 0.628,
+     "t1": 1.053,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 1.053,
+     "t1": 1.16,
+     "e": 0
+    },
+    {
+     "w": "have",
+     "t0": 1.16,
+     "t1": 1.425,
+     "e": 0
+    },
+    {
+     "w": "good",
+     "t0": 1.425,
+     "t1": 1.691,
+     "e": 0
+    },
+    {
+     "w": "friends",
+     "t0": 1.691,
+     "t1": 2.116,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 2.116,
+     "t1": 2.329,
+     "e": 0
+    },
+    {
+     "w": "family",
+     "t0": 2.329,
+     "t1": 2.701,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 2.701,
+     "t1": 2.86,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 2.86,
+     "t1": 3.073,
+     "e": 0
+    },
+    {
+     "w": "club.",
+     "t0": 3.073,
+     "t1": 3.392,
+     "e": 0
+    },
+    {
+     "w": "Thanks",
+     "t0": 3.392,
+     "t1": 3.764,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 3.764,
+     "t1": 3.923,
+     "e": 0
+    },
+    {
+     "w": "each",
+     "t0": 3.923,
+     "t1": 4.189,
+     "e": 0
+    },
+    {
+     "w": "one",
+     "t0": 4.189,
+     "t1": 4.401,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 4.401,
+     "t1": 4.561,
+     "e": 0
+    },
+    {
+     "w": "them",
+     "t0": 4.561,
+     "t1": 4.826,
+     "e": 0
+    },
+    {
+     "w": "who",
+     "t0": 4.826,
+     "t1": 5.039,
+     "e": 0
+    },
+    {
+     "w": "are",
+     "t0": 5.039,
+     "t1": 5.251,
+     "e": 0
+    },
+    {
+     "w": "always",
+     "t0": 5.251,
+     "t1": 5.623,
+     "e": 0
+    },
+    {
+     "w": "supporting",
+     "t0": 5.623,
+     "t1": 6.208,
+     "e": 0
+    },
+    {
+     "w": "me",
+     "t0": 6.208,
+     "t1": 6.367,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 6.367,
+     "t1": 6.527,
+     "e": 0
+    },
+    {
+     "w": "matters",
+     "t0": 6.527,
+     "t1": 6.952,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 6.952,
+     "t1": 7.111,
+     "e": 0
+    },
+    {
+     "w": "leadership",
+     "t0": 7.111,
+     "t1": 7.696,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 7.696,
+     "t1": 7.908,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 7.908,
+     "t1": 8.174,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 8.174,
+     "t1": 8.334,
+     "e": 0
+    },
+    {
+     "w": "why",
+     "t0": 8.334,
+     "t1": 8.546,
+     "e": 0
+    },
+    {
+     "w": "we",
+     "t0": 8.546,
+     "t1": 8.706,
+     "e": 0
+    },
+    {
+     "w": "are",
+     "t0": 8.706,
+     "t1": 8.918,
+     "e": 0
+    },
+    {
+     "w": "here",
+     "t0": 8.918,
+     "t1": 9.184,
+     "e": 0
+    },
+    {
+     "w": "as",
+     "t0": 9.184,
+     "t1": 9.343,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 9.343,
+     "t1": 9.45,
+     "e": 0
+    },
+    {
+     "w": "lion",
+     "t0": 9.45,
+     "t1": 9.715,
+     "e": 0
+    },
+    {
+     "w": "governor",
+     "t0": 9.715,
+     "t1": 10.193,
+     "e": 0
+    },
+    {
+     "w": "for",
+     "t0": 10.193,
+     "t1": 10.406,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 10.406,
+     "t1": 10.619,
+     "e": 0
+    },
+    {
+     "w": "new",
+     "t0": 10.619,
+     "t1": 10.831,
+     "e": 0
+    },
+    {
+     "w": "year.",
+     "t0": 10.831,
+     "t1": 11.15,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 2.651,
+     "lines": [
+      [
+       0,
+       5
+      ],
+      [
+       6,
+       8
+      ]
+     ]
+    },
+    {
+     "t0": 2.651,
+     "t1": 3.342,
+     "lines": [
+      [
+       9,
+       11
+      ]
+     ]
+    },
+    {
+     "t0": 3.342,
+     "t1": 6.317,
+     "lines": [
+      [
+       12,
+       18
+      ],
+      [
+       19,
+       22
+      ]
+     ]
+    },
+    {
+     "t0": 6.317,
+     "t1": 9.293,
+     "lines": [
+      [
+       23,
+       26
+      ],
+      [
+       27,
+       34
+      ]
+     ]
+    },
+    {
+     "t0": 9.293,
+     "t1": 11.5,
+     "lines": [
+      [
+       35,
+       41
+      ]
+     ]
+    }
+   ],
+   "text": "Well, of course, I have good friends and family in the club. Thanks to each one of them who are always supporting me in matters of leadership and that is why we are here as a lion governor for the new year.",
+   "timing": "speech",
+   "matched": 0.0,
+   "lang": "es",
+   "check": "Timed to the Spanish audio; a speaker of it checks the timing by ear."
+  },
+  {
+   "n": 4,
+   "title": "Tie-Back",
+   "rows": [
+    "00:20–00:26"
+   ],
+   "clip": "IMG_7868.MOV",
+   "start": 32.73,
+   "src": "IMG_7868.MOV 00:32.7",
+   "dur": 3.72,
+   "words": [
+    {
+     "w": "We",
+     "t0": 0.15,
+     "t1": 0.273,
+     "e": 0
+    },
+    {
+     "w": "are",
+     "t0": 0.273,
+     "t1": 0.437,
+     "e": 0
+    },
+    {
+     "w": "family",
+     "t0": 0.437,
+     "t1": 0.725,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 0.725,
+     "t1": 0.889,
+     "e": 0
+    },
+    {
+     "w": "if",
+     "t0": 0.889,
+     "t1": 1.012,
+     "e": 0
+    },
+    {
+     "w": "we",
+     "t0": 1.012,
+     "t1": 1.135,
+     "e": 0
+    },
+    {
+     "w": "like",
+     "t0": 1.135,
+     "t1": 1.341,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 1.341,
+     "t1": 1.505,
+     "e": 0
+    },
+    {
+     "w": "service",
+     "t0": 1.505,
+     "t1": 1.833,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 1.833,
+     "t1": 1.956,
+     "e": 0
+    },
+    {
+     "w": "everyone,",
+     "t0": 1.956,
+     "t1": 2.367,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 2.367,
+     "t1": 2.572,
+     "e": 0
+    },
+    {
+     "w": "makes",
+     "t0": 2.572,
+     "t1": 2.818,
+     "e": 0
+    },
+    {
+     "w": "us",
+     "t0": 2.818,
+     "t1": 2.942,
+     "e": 0
+    },
+    {
+     "w": "family.",
+     "t0": 2.942,
+     "t1": 3.27,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 2.317,
+     "lines": [
+      [
+       0,
+       6
+      ],
+      [
+       7,
+       10
+      ]
+     ]
+    },
+    {
+     "t0": 2.317,
+     "t1": 3.62,
+     "lines": [
+      [
+       11,
+       14
+      ]
+     ]
+    }
+   ],
+   "text": "We are family and if we like the service to everyone, that makes us family.",
+   "timing": "speech",
+   "matched": 0.0,
+   "lang": "es",
+   "check": "Timed to the Spanish audio; a speaker of it checks the timing by ear."
+  }
+ ]
+}

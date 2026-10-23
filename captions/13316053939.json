@@ -1,0 +1,594 @@
+{
+ "item": "13316053939",
+ "client": "dream-center-dallas",
+ "style": {
+  "font": {
+   "css": "\"Montserrat\"",
+   "w": 700
+  },
+  "size": 62,
+  "y": 1380,
+  "max_lines": 2,
+  "reveal": "phrase",
+  "fg": "#FFFFFF",
+  "shadow": true
+ },
+ "note": "White bold sans (Montserrat until the client font arrives), low in the frame. Timed from the words in the source clips. Clip 3: Few words matched the audio here: check the timing by ear.",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Hook",
+   "rows": [
+    "00:00–00:07"
+   ],
+   "clip": "Interview 5- Kacie's Mom.MOV",
+   "start": 13.87,
+   "src": "Interview 5- Kacie's Mom.MOV 00:13.9",
+   "dur": 6.42,
+   "words": [
+    {
+     "w": "her",
+     "t0": 0.15,
+     "t1": 0.49,
+     "e": 0
+    },
+    {
+     "w": "dad",
+     "t0": 0.49,
+     "t1": 0.93,
+     "e": 0
+    },
+    {
+     "w": "had",
+     "t0": 0.93,
+     "t1": 1.51,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 1.51,
+     "t1": 1.85,
+     "e": 0
+    },
+    {
+     "w": "dream",
+     "t0": 1.85,
+     "t1": 2.09,
+     "e": 0
+    },
+    {
+     "w": "for",
+     "t0": 2.09,
+     "t1": 2.51,
+     "e": 0
+    },
+    {
+     "w": "this",
+     "t0": 2.51,
+     "t1": 2.89,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 2.89,
+     "t1": 3.77,
+     "e": 0
+    },
+    {
+     "w": "She",
+     "t0": 3.77,
+     "t1": 4.43,
+     "e": 0
+    },
+    {
+     "w": "grew",
+     "t0": 4.43,
+     "t1": 4.61,
+     "e": 0
+    },
+    {
+     "w": "up",
+     "t0": 4.61,
+     "t1": 5.01,
+     "e": 0
+    },
+    {
+     "w": "seeing",
+     "t0": 5.01,
+     "t1": 5.29,
+     "e": 0
+    },
+    {
+     "w": "it",
+     "t0": 5.29,
+     "t1": 5.97,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 6.32,
+     "lines": [
+      [
+       0,
+       6
+      ],
+      [
+       7,
+       12
+      ]
+     ]
+    }
+   ],
+   "text": "her dad had a dream for this and She grew up seeing it",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 2,
+   "title": "So Proud",
+   "rows": [
+    "00:07–00:16"
+   ],
+   "clip": "Interview 5- Kacie's Mom.MOV",
+   "start": 19.85,
+   "src": "Interview 5- Kacie's Mom.MOV 00:19.9",
+   "dur": 10.52,
+   "words": [
+    {
+     "w": "and",
+     "t0": 0.15,
+     "t1": 0.29,
+     "e": 0
+    },
+    {
+     "w": "he",
+     "t0": 0.29,
+     "t1": 0.93,
+     "e": 0
+    },
+    {
+     "w": "passed",
+     "t0": 0.93,
+     "t1": 1.19,
+     "e": 0
+    },
+    {
+     "w": "away",
+     "t0": 1.19,
+     "t1": 1.75,
+     "e": 0
+    },
+    {
+     "w": "Okay",
+     "t0": 1.75,
+     "t1": 2.03,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 1.75,
+     "t1": 2.77,
+     "e": 0
+    },
+    {
+     "w": "year",
+     "t0": 2.77,
+     "t1": 2.95,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 2.95,
+     "t1": 3.19,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 3.19,
+     "t1": 3.37,
+     "e": 0
+    },
+    {
+     "w": "half",
+     "t0": 3.37,
+     "t1": 3.42,
+     "e": 0
+    },
+    {
+     "w": "ago,",
+     "t0": 3.37,
+     "t1": 3.69,
+     "e": 0
+    },
+    {
+     "w": "but",
+     "t0": 3.69,
+     "t1": 4.01,
+     "e": 0
+    },
+    {
+     "w": "he",
+     "t0": 4.01,
+     "t1": 4.79,
+     "e": 0
+    },
+    {
+     "w": "was",
+     "t0": 4.79,
+     "t1": 5.17,
+     "e": 0
+    },
+    {
+     "w": "so",
+     "t0": 5.17,
+     "t1": 5.63,
+     "e": 0
+    },
+    {
+     "w": "proud",
+     "t0": 5.63,
+     "t1": 5.93,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 5.93,
+     "t1": 6.99,
+     "e": 0
+    },
+    {
+     "w": "The",
+     "t0": 6.99,
+     "t1": 7.19,
+     "e": 0
+    },
+    {
+     "w": "Dream",
+     "t0": 7.19,
+     "t1": 7.53,
+     "e": 0
+    },
+    {
+     "w": "Center",
+     "t0": 7.53,
+     "t1": 7.81,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 7.81,
+     "t1": 8.47,
+     "e": 0
+    },
+    {
+     "w": "everything",
+     "t0": 8.47,
+     "t1": 9.17,
+     "e": 0
+    },
+    {
+     "w": "it",
+     "t0": 9.17,
+     "t1": 9.75,
+     "e": 0
+    },
+    {
+     "w": "stands",
+     "t0": 9.75,
+     "t1": 9.8,
+     "e": 0
+    },
+    {
+     "w": "for",
+     "t0": 9.75,
+     "t1": 10.07,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 5.58,
+     "lines": [
+      [
+       0,
+       6
+      ],
+      [
+       7,
+       14
+      ]
+     ]
+    },
+    {
+     "t0": 5.58,
+     "t1": 10.42,
+     "lines": [
+      [
+       15,
+       19
+      ],
+      [
+       20,
+       24
+      ]
+     ]
+    }
+   ],
+   "text": "and he passed away Okay a year and a half ago, but he was so proud of The Dream Center and everything it stands for",
+   "timing": "words",
+   "matched": 0.92,
+   "lang": "en"
+  },
+  {
+   "n": 3,
+   "title": "What They Do",
+   "rows": [
+    "00:16–00:25"
+   ],
+   "clip": "Interview 5- Kacie's Mom.MOV",
+   "start": 53.65,
+   "src": "Interview 5- Kacie's Mom.MOV 00:53.6",
+   "dur": 5.0,
+   "words": [
+    {
+     "w": "God",
+     "t0": 0.15,
+     "t1": 0.425,
+     "e": 0
+    },
+    {
+     "w": "told",
+     "t0": 0.425,
+     "t1": 0.769,
+     "e": 0
+    },
+    {
+     "w": "us",
+     "t0": 0.769,
+     "t1": 0.975,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 0.975,
+     "t1": 1.181,
+     "e": 0
+    },
+    {
+     "w": "take",
+     "t0": 1.181,
+     "t1": 1.525,
+     "e": 0
+    },
+    {
+     "w": "care",
+     "t0": 1.525,
+     "t1": 1.869,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 1.869,
+     "t1": 2.075,
+     "e": 0
+    },
+    {
+     "w": "people",
+     "t0": 2.075,
+     "t1": 2.556,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 2.556,
+     "t1": 2.9,
+     "e": 0
+    },
+    {
+     "w": "need",
+     "t0": 2.9,
+     "t1": 3.244,
+     "e": 0
+    },
+    {
+     "w": "food",
+     "t0": 3.244,
+     "t1": 3.588,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 3.588,
+     "t1": 3.863,
+     "e": 0
+    },
+    {
+     "w": "Just",
+     "t0": 3.863,
+     "t1": 4.206,
+     "e": 0
+    },
+    {
+     "w": "love",
+     "t0": 4.206,
+     "t1": 4.55,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 3.538,
+     "lines": [
+      [
+       0,
+       5
+      ],
+      [
+       6,
+       10
+      ]
+     ]
+    },
+    {
+     "t0": 3.538,
+     "t1": 4.9,
+     "lines": [
+      [
+       11,
+       13
+      ]
+     ]
+    }
+   ],
+   "text": "God told us to take care of people that need food and Just love",
+   "timing": "speech",
+   "matched": 0.07,
+   "lang": "en",
+   "check": "Few words matched the audio here: check the timing by ear."
+  },
+  {
+   "n": 4,
+   "title": "The Main Thing",
+   "rows": [
+    "00:25–00:33"
+   ],
+   "clip": "Interview 5- Kacie's Mom.MOV",
+   "start": 58.31,
+   "src": "Interview 5- Kacie's Mom.MOV 00:58.3",
+   "dur": 6.16,
+   "words": [
+    {
+     "w": "and",
+     "t0": 0.15,
+     "t1": 1.21,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 1.21,
+     "t1": 1.45,
+     "e": 0
+    },
+    {
+     "w": "main",
+     "t0": 1.45,
+     "t1": 1.77,
+     "e": 0
+    },
+    {
+     "w": "thing",
+     "t0": 1.77,
+     "t1": 1.99,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 1.99,
+     "t1": 2.21,
+     "e": 0
+    },
+    {
+     "w": "we",
+     "t0": 2.21,
+     "t1": 2.37,
+     "e": 0
+    },
+    {
+     "w": "want",
+     "t0": 2.37,
+     "t1": 2.59,
+     "e": 0
+    },
+    {
+     "w": "them",
+     "t0": 2.59,
+     "t1": 2.75,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 2.75,
+     "t1": 2.97,
+     "e": 0
+    },
+    {
+     "w": "know",
+     "t0": 2.97,
+     "t1": 3.21,
+     "e": 0
+    },
+    {
+     "w": "Jesus",
+     "t0": 3.21,
+     "t1": 3.59,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 3.59,
+     "t1": 4.03,
+     "e": 0
+    },
+    {
+     "w": "see",
+     "t0": 4.03,
+     "t1": 4.31,
+     "e": 0
+    },
+    {
+     "w": "Jesus",
+     "t0": 4.31,
+     "t1": 4.79,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 4.79,
+     "t1": 5.31,
+     "e": 0
+    },
+    {
+     "w": "us",
+     "t0": 5.31,
+     "t1": 5.71,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 4.26,
+     "lines": [
+      [
+       0,
+       6
+      ],
+      [
+       7,
+       12
+      ]
+     ]
+    },
+    {
+     "t0": 4.26,
+     "t1": 6.06,
+     "lines": [
+      [
+       13,
+       15
+      ]
+     ]
+    }
+   ],
+   "text": "and the main thing is we want them to know Jesus and see Jesus in us",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  }
+ ]
+}
