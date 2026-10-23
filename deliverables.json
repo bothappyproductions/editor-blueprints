@@ -1,27 +1,27 @@
 {
  "13203611596": {
-  "version": 4,
+  "version": 5,
   "made": "2026-10-23",
   "tool": "DaVinci Resolve Studio 21.1",
   "length": "0:57",
   "loudness": "-14 LUFS",
   "music": "Epidemic Sound · Calling at Your Door (instrumental)",
   "mp4": {
-   "name": "90_Traditional_S4SMOAMichelleYoungConfidenceGrows001-4.mp4",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/102a78eb-7268-43a1-8d80-27b0e5d268e5"
+   "name": "90_Traditional_S4SMOAMichelleYoungConfidenceGrows001-5.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/e4360e4c-307a-4a4e-8fb9-74fcb5af7606"
   },
   "xml": {
-   "name": "S4SMOAMichelleYoungConfidenceGrows001_90_v4_Premiere.xml",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/8c5154a5-33a6-4a49-a5fb-52c8f71ad3a5"
+   "name": "S4SMOAMichelleYoungConfidenceGrows001_90_v5_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/fbc81598-57ff-4c74-8c83-9ad6852a302f"
   },
   "graphics": {
-   "name": "S4SMOAMichelleYoungConfidenceGrows001_graphics_9x16_v4.mov",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/163ff737-951f-4c03-b571-f35da1ea7a02"
+   "name": "S4SMOAMichelleYoungConfidenceGrows001_graphics_9x16_v5.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/b652ae63-dba4-4bf4-9e74-17ce18911ab6"
   },
-  "note": "Cut in Resolve from this blueprint. The XML opens in Premiere with the cut, captions and music laid out; relink the source clip (030_3166.MXF) if Premiere asks. Graded in Resolve before export (per-clip LUT: white balance, black and white points, faces lifted where backlit, saturation); the Grade LUTs zip has the same .cube files for Premiere (Lumetri > Input LUT). Every edit point sits on the real speech edge, checked by ear; captions follow the voice. Graphics are this page's own motion graphics, drawn by its engine at the cut's frame rate and placed off every face: the hook (on at 0:00, no fade), her name tag, and a new “Homework and Hoops” tag when she names her program.",
+  "note": "Cut in Resolve from this blueprint. The XML opens in Premiere with the cut, captions and music laid out; relink the source clip (030_3166.MXF) if Premiere asks. Graded in Resolve before export (per-clip LUT: white balance, black and white points, faces lifted where backlit, saturation); the Grade LUTs zip has the same .cube files for Premiere (Lumetri > Input LUT). Every edit point sits on the real speech edge, checked by ear; captions follow the voice. Graphics are this page's own motion graphics, drawn by its engine at the cut's frame rate and placed off every face: the hook (on at 0:00, no fade), her name tag, and a new “Homework and Hoops” tag when she names her program. v5: the last line now ends on “joyful” (v4 carried her next words, “and it”).",
   "luts": {
-   "name": "S4SMOAMichelleYoungConfidenceGrows001_grade_LUTs_v3.zip",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/3620e2d3-5d40-4f85-83d2-9c847d954b71"
+   "name": "S4SMOAMichelleYoungConfidenceGrows001_grade_LUTs_v5.zip",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/7e5efd04-0bfc-4438-9d53-6d1683a04660"
   }
  },
  "13203624501": {
@@ -43,7 +43,7 @@
    "name": "S4SMOAKevinHolmesIWasThatKid001_graphics_9x16_v4.mov",
    "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/4d07fced-25d6-42d7-9bb9-85e710712543"
   },
-  "note": "Cut in Resolve from this blueprint. The XML opens in Premiere with the cut, captions and music laid out; relink the source clip (030_3153.MXF) if Premiere asks. Row 1's two pauses are tightened to 0.4 s with zoom changes over the cuts. The optional “500 shoes” number is left out. Graded in Resolve before export (per-clip LUT: white balance, black and white points, faces lifted where backlit, saturation); the Grade LUTs zip has the same .cube files for Premiere (Lumetri > Input LUT). Every edit point sits on the real speech edge, checked by ear; captions follow the voice. Graphics are this page's own motion graphics, drawn by its engine at the cut's frame rate and placed off every face: the hook, his name tag with Evening Anchor, KARE 11 under it, and the “500 shoes” number pop that counts up as he says it.",
+  "note": "Cut in Resolve from this blueprint. The XML opens in Premiere with the cut, captions and music laid out; relink the source clip (030_3153.MXF) if Premiere asks. Row 1's two pauses are tightened to 0.4 s with zoom changes over the cuts. Graded in Resolve before export (per-clip LUT: white balance, black and white points, faces lifted where backlit, saturation); the Grade LUTs zip has the same .cube files for Premiere (Lumetri > Input LUT). Every edit point sits on the real speech edge, checked by ear; captions follow the voice. Graphics are this page's own motion graphics, drawn by its engine at the cut's frame rate and placed off every face: the hook, his name tag with Evening Anchor, KARE 11 under it, and the “500 shoes” number pop that counts up as he says it.",
   "luts": {
    "name": "S4SMOAKevinHolmesIWasThatKid001_grade_LUTs_v3.zip",
    "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/5e2b6e0c-d074-4d4a-bda3-b09de48bf838"
@@ -75,28 +75,28 @@
   }
  },
  "13306143719": {
-  "version": 3,
+  "version": 4,
   "made": "2026-10-23",
   "tool": "DaVinci Resolve Studio 21.1",
-  "length": "1:01",
+  "length": "1:00",
   "loudness": "-14 LUFS",
   "music": "Epidemic Sound · Homesick (instrumental)",
   "mp4": {
-   "name": "90_Traditional_S4SNashvilleStaffRetreat250Kids001-3.mp4",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/1d36e84a-9f8a-406b-bb54-4549c5a2ac26"
+   "name": "90_Traditional_S4SNashvilleStaffRetreat250Kids001-4.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/a14df3be-88a2-4266-8bc8-8e2931bd1eb7"
   },
   "xml": {
-   "name": "S4SNashvilleStaffRetreat250Kids001_90_v3_Premiere.xml",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/0d731eed-f220-4fe5-bb9d-50b379d338cc"
+   "name": "S4SNashvilleStaffRetreat250Kids001_90_v4_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/221dc3c0-aed3-4ce6-bc30-e91f1b22be2b"
   },
   "graphics": {
-   "name": "S4SNashvilleStaffRetreat250Kids001_graphics_9x16_v3.mov",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/fe941a93-1aea-47ea-b3d7-55e925f4f7ae"
+   "name": "S4SNashvilleStaffRetreat250Kids001_graphics_9x16_v4.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/f8d56272-8865-4ac6-b7c0-ce0587b7d165"
   },
-  "note": "Cut in Resolve from this blueprint, with the B-roll it names (MVI_4349, 4304, 4316, 4340, 4364, 4369, 4376 for the mirrors, 4336, 4372). Captions spell Soles4Souls, Conexión Américas and “mission in action” correctly; the name supers start when each person first appears. 59.94p B-roll plays at real speed. Graded in Resolve before export (per-clip LUT: white balance, black and white points, faces lifted where backlit, saturation); the Grade LUTs zip has the same .cube files for Premiere (Lumetri > Input LUT). These Canon C70 files are flagged full range but recorded in video range: set Data Levels to Video (Resolve) before the LUTs. Every edit point sits on the real speech edge, checked by ear; captions follow the voice. Graphics are this page's own motion graphics, drawn by its engine at the cut's frame rate and placed off every face: the hook, the three name tags (Soles4Souls under each name), and a new “8 years with Soles4Souls” number pop.",
+  "note": "Cut in Resolve from this blueprint, with the B-roll it names (MVI_4349, 4304, 4316, 4340, 4364, 4369, 4376 for the mirrors, 4336, 4372). Captions spell Soles4Souls, Conexión Américas and “mission in action” correctly; the name supers start when each person first appears. 59.94p B-roll plays at real speed. Graded in Resolve before export (per-clip LUT: white balance, black and white points, faces lifted where backlit, saturation); the Grade LUTs zip has the same .cube files for Premiere (Lumetri > Input LUT). These Canon C70 files are flagged full range but recorded in video range: set Data Levels to Video (Resolve) before the LUTs. Every edit point sits on the real speech edge, checked by ear; captions follow the voice. Graphics are this page's own motion graphics, drawn by its engine at the cut's frame rate and placed off every face: the hook, the three name tags (Soles4Souls under each name), and a new “8 years with Soles4Souls” number pop. v4: Jamie's line starts on “We get to do this” (v3 opened on the end of her previous sentence), the 00:22 row ends on “it never gets old” (v3 ran on into “It's one of my favorite things that we get”), and the last row now includes “with our entire staff too”.",
   "luts": {
-   "name": "S4SNashvilleStaffRetreat250Kids001_grade_LUTs_v3.zip",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/bac9c067-df2f-46f3-a37b-e65cf2cadb70"
+   "name": "S4SNashvilleStaffRetreat250Kids001_grade_LUTs_v4.zip",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/cb36a6bd-d802-42b6-aa91-71392eeae998"
   }
  },
  "13223850425": {
