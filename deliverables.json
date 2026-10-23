@@ -1,156 +1,156 @@
 {
  "13203611596": {
-  "version": 3,
+  "version": 4,
   "made": "2026-10-23",
   "tool": "DaVinci Resolve Studio 21.1",
   "length": "0:57",
   "loudness": "-14 LUFS",
   "music": "Epidemic Sound · Calling at Your Door (instrumental)",
   "mp4": {
-   "name": "90_Traditional_S4SMOAMichelleYoungConfidenceGrows001-3.mp4",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/0d6f5229-a3fe-473a-ac41-549ce592a29b"
+   "name": "90_Traditional_S4SMOAMichelleYoungConfidenceGrows001-4.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/102a78eb-7268-43a1-8d80-27b0e5d268e5"
   },
   "xml": {
-   "name": "S4SMOAMichelleYoungConfidenceGrows001_CL_v3_Premiere.xml",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/8e2c7e52-ad22-4dee-bcf3-23f17669d045"
+   "name": "S4SMOAMichelleYoungConfidenceGrows001_90_v4_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/8c5154a5-33a6-4a49-a5fb-52c8f71ad3a5"
   },
   "graphics": {
-   "name": "S4SMOAMichelleYoungConfidenceGrows001_graphics_9x16_v3.mov",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/d19e6510-8651-47b5-bc26-8ccaf611c4d5"
+   "name": "S4SMOAMichelleYoungConfidenceGrows001_graphics_9x16_v4.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/163ff737-951f-4c03-b571-f35da1ea7a02"
   },
-  "note": "Cut in Resolve from this blueprint. The XML opens in Premiere with the cut, captions and music laid out; relink the source clip (030_3166.MXF) if Premiere asks. Graded in Resolve before export (per-clip LUT: white balance, black and white points, faces lifted where backlit, saturation); the Grade LUTs zip has the same .cube files for Premiere (Lumetri > Input LUT). v3: every edit point now sits on the real speech edge and was checked by ear (v2 cut some lines up to 0.7 s early or late); captions follow the voice.",
+  "note": "Cut in Resolve from this blueprint. The XML opens in Premiere with the cut, captions and music laid out; relink the source clip (030_3166.MXF) if Premiere asks. Graded in Resolve before export (per-clip LUT: white balance, black and white points, faces lifted where backlit, saturation); the Grade LUTs zip has the same .cube files for Premiere (Lumetri > Input LUT). Every edit point sits on the real speech edge, checked by ear; captions follow the voice. Graphics are this page's own motion graphics, drawn by its engine at the cut's frame rate and placed off every face: the hook (on at 0:00, no fade), her name tag, and a new “Homework and Hoops” tag when she names her program.",
   "luts": {
    "name": "S4SMOAMichelleYoungConfidenceGrows001_grade_LUTs_v3.zip",
    "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/3620e2d3-5d40-4f85-83d2-9c847d954b71"
   }
  },
  "13203624501": {
-  "version": 3,
+  "version": 4,
   "made": "2026-10-23",
   "tool": "DaVinci Resolve Studio 21.1",
   "length": "1:03",
   "loudness": "-14 LUFS",
   "music": "Epidemic Sound · Sillans la cascade (instrumental)",
   "mp4": {
-   "name": "90_Traditional_S4SMOAKevinHolmesIWasThatKid001-3.mp4",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/bb655a69-770f-4b0e-b5cd-8652aa929712"
+   "name": "90_Traditional_S4SMOAKevinHolmesIWasThatKid001-4.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/7836b97a-c746-4949-bc06-bdab2b654328"
   },
   "xml": {
-   "name": "S4SMOAKevinHolmesIWasThatKid001_CL_v3_Premiere.xml",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/33fb4696-c1d8-4fd7-a77d-696ad8a7d6c9"
+   "name": "S4SMOAKevinHolmesIWasThatKid001_90_v4_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/82eb3712-1d11-4ea6-8647-aceff379fa99"
   },
   "graphics": {
-   "name": "S4SMOAKevinHolmesIWasThatKid001_graphics_9x16_v3.mov",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/615156a4-a9b7-4d72-86f8-764545f4f03d"
+   "name": "S4SMOAKevinHolmesIWasThatKid001_graphics_9x16_v4.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/4d07fced-25d6-42d7-9bb9-85e710712543"
   },
-  "note": "Cut in Resolve from this blueprint. The XML opens in Premiere with the cut, captions and music laid out; relink the source clip (030_3153.MXF) if Premiere asks. Row 1's two pauses are tightened to 0.4 s with zoom changes over the cuts. The optional “500 shoes” number is left out. Graded in Resolve before export (per-clip LUT: white balance, black and white points, faces lifted where backlit, saturation); the Grade LUTs zip has the same .cube files for Premiere (Lumetri > Input LUT). v3: every edit point now sits on the real speech edge and was checked by ear (v2 cut some lines up to 0.7 s early or late); captions follow the voice.",
+  "note": "Cut in Resolve from this blueprint. The XML opens in Premiere with the cut, captions and music laid out; relink the source clip (030_3153.MXF) if Premiere asks. Row 1's two pauses are tightened to 0.4 s with zoom changes over the cuts. The optional “500 shoes” number is left out. Graded in Resolve before export (per-clip LUT: white balance, black and white points, faces lifted where backlit, saturation); the Grade LUTs zip has the same .cube files for Premiere (Lumetri > Input LUT). Every edit point sits on the real speech edge, checked by ear; captions follow the voice. Graphics are this page's own motion graphics, drawn by its engine at the cut's frame rate and placed off every face: the hook, his name tag with Evening Anchor, KARE 11 under it, and the “500 shoes” number pop that counts up as he says it.",
   "luts": {
    "name": "S4SMOAKevinHolmesIWasThatKid001_grade_LUTs_v3.zip",
    "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/5e2b6e0c-d074-4d4a-bda3-b09de48bf838"
   }
  },
  "13203622763": {
-  "version": 3,
+  "version": 4,
   "made": "2026-10-23",
   "tool": "DaVinci Resolve Studio 21.1",
   "length": "0:59",
   "loudness": "-14 LUFS",
   "music": "Epidemic Sound · Champagne Toast (instrumental)",
   "mp4": {
-   "name": "90_Traditional_S4SMOATravisScottsSecondBox001-3.mp4",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/1f316e46-e7f5-4ba1-9b0a-837d58015ac9"
+   "name": "90_Traditional_S4SMOATravisScottsSecondBox001-4.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/403d6194-4c92-4427-b54f-6974a198cabb"
   },
   "xml": {
-   "name": "S4SMOATravisScottsSecondBox001_CL_v3_Premiere.xml",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/98cd577f-8618-4d88-897f-4559bde95452"
+   "name": "S4SMOATravisScottsSecondBox001_90_v4_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/d75257a3-ab8d-4de6-8a0d-58ac0b628c54"
   },
   "graphics": {
-   "name": "S4SMOATravisScottsSecondBox001_graphics_9x16_v3.mov",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/b77086e0-7ed5-46af-b994-9051e3789421"
+   "name": "S4SMOATravisScottsSecondBox001_graphics_9x16_v4.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/c439cbe2-a368-4a10-91e4-c41e25ba37fb"
   },
-  "note": "Cut in Resolve from this blueprint. Opens on 3158 01:02 (sneaker to the lens) under his voice, uses the blueprint's cover shot (Nike box, 3158 00:57) into row 00:15 so the 100% → 100% cut doesn't jump, and ends on 3158 04:06 before the end card. Graded in Resolve before export (per-clip LUT: white balance, black and white points, faces lifted where backlit, saturation); the Grade LUTs zip has the same .cube files for Premiere (Lumetri > Input LUT). v3: every edit point now sits on the real speech edge and was checked by ear (v2 cut some lines up to 0.7 s early or late); captions follow the voice.",
+  "note": "Cut in Resolve from this blueprint. Opens on 3158 01:02 (sneaker to the lens) under his voice, uses the blueprint's cover shot (Nike box, 3158 00:57) into row 00:15 so the 100% → 100% cut doesn't jump, and ends on 3158 04:06 before the end card. Graded in Resolve before export (per-clip LUT: white balance, black and white points, faces lifted where backlit, saturation); the Grade LUTs zip has the same .cube files for Premiere (Lumetri > Input LUT). Every edit point sits on the real speech edge, checked by ear; captions follow the voice. Graphics are this page's own motion graphics, drawn by its engine at the cut's frame rate and placed off every face: the hook, and a new “2 boxes” number pop when he says “two boxes”.",
   "luts": {
    "name": "S4SMOATravisScottsSecondBox001_grade_LUTs_v3.zip",
    "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/a270a3a0-b6cb-491b-a418-38188faf309d"
   }
  },
  "13306143719": {
-  "version": 2,
+  "version": 3,
   "made": "2026-10-23",
   "tool": "DaVinci Resolve Studio 21.1",
   "length": "1:01",
   "loudness": "-14 LUFS",
   "music": "Epidemic Sound · Homesick (instrumental)",
   "mp4": {
-   "name": "90_Traditional_S4SNashvilleStaffRetreat250Kids001-2.mp4",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/a9787475-3724-4b00-89d5-730c9380a474"
+   "name": "90_Traditional_S4SNashvilleStaffRetreat250Kids001-3.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/1d36e84a-9f8a-406b-bb54-4549c5a2ac26"
   },
   "xml": {
-   "name": "S4SNashvilleStaffRetreat250Kids001_CL_v2_Premiere.xml",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/4dd13835-4ac1-471d-8e28-562e559dfa53"
+   "name": "S4SNashvilleStaffRetreat250Kids001_90_v3_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/0d731eed-f220-4fe5-bb9d-50b379d338cc"
   },
   "graphics": {
-   "name": "S4SNashvilleStaffRetreat250Kids001_graphics_9x16.mov",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/cbc958de-9497-4388-91f9-8c9b6b321089"
+   "name": "S4SNashvilleStaffRetreat250Kids001_graphics_9x16_v3.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/fe941a93-1aea-47ea-b3d7-55e925f4f7ae"
   },
-  "note": "Cut in Resolve from this blueprint, with the B-roll it names (MVI_4349, 4304, 4316, 4340, 4364, 4369, 4376 for the mirrors, 4336, 4372). Captions spell Soles4Souls, Conexión Américas and “mission in action” correctly; the name supers start when each person first appears. 59.94p B-roll plays at real speed. Graded in Resolve before export (per-clip LUT: white balance, black and white points, faces lifted where backlit, saturation); the Grade LUTs zip has the same .cube files for Premiere (Lumetri > Input LUT). These Canon C70 files are flagged full range but recorded in video range: set Data Levels to Video (Resolve) before the LUTs.",
+  "note": "Cut in Resolve from this blueprint, with the B-roll it names (MVI_4349, 4304, 4316, 4340, 4364, 4369, 4376 for the mirrors, 4336, 4372). Captions spell Soles4Souls, Conexión Américas and “mission in action” correctly; the name supers start when each person first appears. 59.94p B-roll plays at real speed. Graded in Resolve before export (per-clip LUT: white balance, black and white points, faces lifted where backlit, saturation); the Grade LUTs zip has the same .cube files for Premiere (Lumetri > Input LUT). These Canon C70 files are flagged full range but recorded in video range: set Data Levels to Video (Resolve) before the LUTs. Every edit point sits on the real speech edge, checked by ear; captions follow the voice. Graphics are this page's own motion graphics, drawn by its engine at the cut's frame rate and placed off every face: the hook, the three name tags (Soles4Souls under each name), and a new “8 years with Soles4Souls” number pop.",
   "luts": {
-   "name": "S4SNashvilleStaffRetreat250Kids001_grade_LUTs_v2.zip",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/a56d4e3c-9fe2-4623-af0a-50ca498b8287"
+   "name": "S4SNashvilleStaffRetreat250Kids001_grade_LUTs_v3.zip",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/bac9c067-df2f-46f3-a37b-e65cf2cadb70"
   }
  },
  "13223850425": {
-  "version": 1,
+  "version": 2,
   "made": "2026-10-23",
   "tool": "DaVinci Resolve Studio 21.1",
-  "length": "1:01",
+  "length": "1:03",
   "loudness": "-14 LUFS",
   "music": "Epidemic Sound · It's Gonna Be a Good Day (instrumental)",
   "mp4": {
-   "name": "90_Traditional_S4SMOAAyhMoreHappinessInGiving001-1.mp4",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/c51a4120-48f0-4d87-8553-0d0d156755ca"
+   "name": "90_Traditional_S4SMOAAyhMoreHappinessInGiving001-2.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/c24a30c1-e692-4600-b94e-e91b6a69204c"
   },
   "xml": {
-   "name": "S4SMOAAyhMoreHappinessInGiving001_CL_v1_Premiere.xml",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/226ce36e-abb9-4dd2-8f57-4f8878a1931c"
+   "name": "S4SMOAAyhMoreHappinessInGiving001_90_v2_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/8f87ada9-0751-482c-8819-b626b1ab57b0"
   },
   "graphics": {
-   "name": "S4SMOAAyhMoreHappinessInGiving001_graphics_9x16.mov",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/409863fb-10b4-42e2-be6f-7bfd91d0c547"
+   "name": "S4SMOAAyhMoreHappinessInGiving001_graphics_9x16_v2.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/52e501ef-758d-41aa-8d11-1b42f9fb633c"
   },
   "luts": {
-   "name": "S4SMOAAyhMoreHappinessInGiving001_grade_LUTs_v1.zip",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/9fea96d9-2653-423d-98bd-52fca7b1ef1b"
+   "name": "S4SMOAAyhMoreHappinessInGiving001_grade_LUTs_v2.zip",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/4971d9fc-9419-4663-9b69-de42cbc35f69"
   },
-  "note": "Cut in Resolve from this blueprint: seven interviewees, the three Are You Happy? question cards over listening shots picked on scrub (3157 at 0:08.6, 3167 at 0:02.5, 3165 at 0:24.6), Dr. Verna's and Virginia's pauses trimmed. Graded in Resolve before export (per-clip LUT: white balance, black and white points, faces lifted where backlit, saturation); the Grade LUTs zip has the same .cube files for Premiere (Lumetri > Input LUT)."
+  "note": "Cut in Resolve from this blueprint: seven interviewees, the three Are You Happy? question cards over listening shots picked on scrub (3157 at 0:08.6, 3167 at 0:02.5, 3165 at 0:24.6), Dr. Verna's and Virginia's pauses trimmed. Graded in Resolve before export (per-clip LUT: white balance, black and white points, faces lifted where backlit, saturation); the Grade LUTs zip has the same .cube files for Premiere (Lumetri > Input LUT). Every edit point sits on the real speech edge, checked by ear; captions follow the voice. Graphics are this page's own motion graphics, drawn by its engine at the cut's frame rate and placed off every face: the hook and the three Are You Happy? question cards, each already on when its shot starts and gone on the cut."
  },
  "13099641527": {
-  "version": 1,
+  "version": 2,
   "made": "2026-10-23",
   "tool": "DaVinci Resolve Studio 21.1",
   "length": "1:32",
   "loudness": "-14 LUFS",
   "music": "Epidemic Sound · Three Keys of Hope (Johan Eriksson)",
   "mp4": {
-   "name": "90_Traditional_AIJRobertoKromeDetention001-1.mp4",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/cba0ac16-2452-4f23-864c-f257b87f6181"
+   "name": "90_Traditional_AIJRobertoKromeDetention001-2.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/45b6d1e4-c3de-420f-b5bd-23c6ad095f80"
   },
   "xml": {
-   "name": "AIJRobertoKromeDetention001_CL_v1_Premiere.xml",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/429e77e0-3598-4abc-8f3d-8227fdbcbda7"
+   "name": "AIJRobertoKromeDetention001_90_v2_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/b19eee0f-c155-45b1-b2cd-53f6bf828166"
   },
   "graphics": {
-   "name": "AIJRobertoKromeDetention001_graphics_9x16.mov",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/60d144d0-cd0c-491c-90e5-f01184497eb5"
+   "name": "AIJRobertoKromeDetention001_graphics_9x16_v2.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/9f6435d8-1517-4dfd-a9fc-e95d1ee4b61c"
   },
   "luts": {
-   "name": "AIJRobertoKromeDetention001_grade_LUTs_v1.zip",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/e3293eda-5efe-4f23-9069-70b0eebb44a7"
+   "name": "AIJRobertoKromeDetention001_grade_LUTs_v2.zip",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/91815333-31b9-4924-b9e2-2d4c5942279d"
   },
   "patches": {
-   "name": "AIJRobertoKromeDetention001_freeze_patches_v1.zip",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/c89ee4b7-03a0-4fb1-bf64-23df3077a30e"
+   "name": "AIJRobertoKromeDetention001_freeze_patches_v2.zip",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/6cb2261c-05ed-4dcf-bc56-3005b276e3c4"
   },
-  "note": "Cut in Resolve from this blueprint. Runs 1:32 (speech 1:26 + 6 s end card) against the blueprint's ~1:10: spoken Spanish runs longer than the English script. Captions are English (Andrés's translation), timed to the Spanish phrases. No name super (Robert vs Roberto is still open). The video call froze in 18 places inside the cut; each freeze is filled with motion-interpolated frames, so no frame is held and no word is dropped. The XML opens in Premiere with the cut, captions and music laid out; relink Roberto Client Interview.mp4 and the patch clips (Freeze patches zip) if Premiere asks. Graded in Resolve before export; the Grade LUTs zip has the same .cube file for Premiere (Lumetri > Input LUT)."
+  "note": "Cut in Resolve from this blueprint. Runs 1:32 (speech 1:26 + 6 s end card) against the blueprint's ~1:10: spoken Spanish runs longer than the English script. Captions are English (Andrés's translation), timed to the Spanish phrases. No name super (Robert vs Roberto is still open). The video call stalled twice inside the cut; each freeze is filled with motion-interpolated frames, so no frame is held and no word is dropped. The XML opens in Premiere with the cut, captions and music laid out; relink Roberto Client Interview.mp4 and the patch clips (Freeze patches zip) if Premiere asks. Graded in Resolve before export; the Grade LUTs zip has the same .cube file for Premiere (Lumetri > Input LUT). Every edit point sits on the real speech edge. Graphics are this page's own motion graphics, drawn by its engine at the cut's frame rate and placed off every face: the hook, and a new “Asylum approved · October 30, 2025” tag on the day his story turns."
  }
 }
