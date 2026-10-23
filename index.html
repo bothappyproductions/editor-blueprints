@@ -246,6 +246,7 @@ footer ul{padding-left:18px;margin:8px 0 0;display:grid;gap:3px}
 .upl code{font-family:var(--mono);font-size:14px;background:var(--cream);padding:6px 10px;border-radius:8px;overflow-wrap:anywhere;min-width:0}
 .upl .btn{padding:8px 16px;font-size:13px;text-decoration:none}
 .upl .note{margin:0;font-size:13px}
+.rcut{margin-top:10px}
 @media (max-width:760px){.idx-row{grid-template-columns:minmax(0,1fr);gap:2px}}
 </style>
 <div id="app"></div>
@@ -524,6 +525,7 @@ async function load(){
     try{ mgd=await getJSON("mg/"+id+".json"); var brands=cache.__brands||(cache.__brands=await getJSON("mg/brands.json")); brand=brands[item.client]||null; }catch(e){ mgd=null; }
     CUR_MG=(mgd&&brand&&mgd.mg&&mgd.mg.length)?{d:mgd,b:brand}:null;
     try{ var ups=cache.__ups||(cache.__ups=await getJSON("uploads.json")); CUR_UP=ups[id]||null; }catch(e){ CUR_UP=null; }
+    try{ var dls=cache.__dl||(cache.__dl=await getJSON("deliverables.json")); CUR_DL=dls[id]||null; }catch(e){ CUR_DL=null; }
     try{ var capd=await getJSON("captions/"+id+".json"); var bs=cache.__brands||(cache.__brands=await getJSON("mg/brands.json")); CUR_CAP=(capd.tracks&&capd.tracks.length&&bs[item.client])?{d:capd,b:bs[item.client]}:null; }catch(e){ CUR_CAP=null; }
     renderItem(item,client);
   }catch(e){
@@ -602,7 +604,7 @@ function renderItem(it,cl){
   var html=
   '<header class="mast"><div class="wrap"><div class="logo-row"><a href="#"><img class="logo" src="'+LOGO+'" alt="Happy Productions"></a><span class="eyebrow">Director\'s Blueprint · Post Production</span></div>'+
   '<div class="title-row"><div style="display:grid;gap:10px;min-width:0"><span class="eyebrow">'+esc(it.eyebrow)+'</span><h1>'+esc(it.title)+(it.title_q?' <span class="q">'+esc(it.title_q)+'</span>':'')+'</h1></div></div>'+
-  '<div class="chips"><span class="chip due"><b>Due</b> '+esc(fmtDate(it.due))+'</span><span class="chip"><b>Editor</b> '+esc(it.editor)+'</span><span class="chip"><b>Format</b> '+esc(it.format)+'</span>'+(it.length?'<span class="chip"><b>Length</b> '+esc(it.length)+'</span>':'')+'<span class="chip"><b>Edit Key</b> <span class="mono">'+esc(it.edit_key)+'</span></span><a class="chip ask-chip" href="#ask" data-jump="ask"><b>Questions?</b> Ask here</a><span class="chip"><a href="https://happyproductions.monday.com/boards/2135456123/pulses/'+esc(it.id)+'">Monday item '+esc(it.id)+'</a></span></div>'+uploadBar()+allBar()+'</div></header>'+
+  '<div class="chips"><span class="chip due"><b>Due</b> '+esc(fmtDate(it.due))+'</span><span class="chip"><b>Editor</b> '+esc(it.editor)+'</span><span class="chip"><b>Format</b> '+esc(it.format)+'</span>'+(it.length?'<span class="chip"><b>Length</b> '+esc(it.length)+'</span>':'')+'<span class="chip"><b>Edit Key</b> <span class="mono">'+esc(it.edit_key)+'</span></span><a class="chip ask-chip" href="#ask" data-jump="ask"><b>Questions?</b> Ask here</a><span class="chip"><a href="https://happyproductions.monday.com/boards/2135456123/pulses/'+esc(it.id)+'">Monday item '+esc(it.id)+'</a></span></div>'+uploadBar()+resolveBar()+allBar()+'</div></header>'+
   '<nav class="jump" aria-label="Sections"><div class="wrap"><a href="#" data-jump="brief">The idea</a><a href="#" data-jump="blueprint">Second-by-second</a>'+(CUR_MG?'<a href="#" data-jump="mg">Motion graphics</a>':'')+(CUR_CAP?'<a href="#" data-jump="captions">Captions</a>':'')+'<a href="#" data-jump="files">Files &amp; specs</a><a href="#" data-jump="client">Client file</a>'+(dec.length?'<a href="#" data-jump="decide">Open decisions</a>':'')+'<a href="#" data-jump="ask" class="ask-link">Ask a question</a></div></nav><main>'+
   '<section id="brief"><div class="wrap"><div class="sec-head"><span class="eyebrow">01 · The idea</span><h2>'+esc(it.headline)+'</h2></div><div class="brief"><div style="display:grid;gap:16px;min-width:0;align-content:start">'+(it.story||[]).map(function(p,i){return '<p class="story"'+(i?' style="font-size:16px"':'')+'>'+p+'</p>';}).join("")+
     '<div class="feel" aria-label="Target feeling">'+(it.feel||[]).map(function(f){return '<span>'+esc(f)+'</span>';}).join("")+'</div></div>'+
@@ -853,6 +855,16 @@ function uploadBar(){
   return '<div class="upl"><div class="upl-row"><span class="eyebrow">Upload file name</span><code>'+esc(u.file)+'</code><button type="button" class="btn" data-copy="'+esc(u.file)+'">Copy name</button></div>'+
     (u.folder_url?'<div class="upl-row"><a class="btn ghost" href="'+esc(u.folder_url)+'" target="_blank" rel="noopener">Upload to this folder ↗</a><span class="note">Frame.io · '+esc(u.folder||u.batch||"")+'</span></div>':'')+
     (u.note?'<p class="note">'+esc(u.note)+'</p>':'')+'</div>';
+}
+/* Finished cut made in DaVinci Resolve from this blueprint (deliverables.json) */
+var CUR_DL=null;
+function resolveBar(){
+  var d=CUR_DL; if(!d||!d.mp4) return "";
+  function a(x,l,cls){ return x&&x.url?'<a class="btn'+(cls||' ghost')+'" href="'+esc(x.url)+'" target="_blank" rel="noopener">'+l+' ↗</a>':''; }
+  var meta=[d.length,d.loudness,d.music].filter(Boolean).map(esc).join(' · ');
+  return '<div class="upl rcut"><div class="upl-row"><span class="eyebrow">Resolve cut · v'+esc(d.version||1)+'</span>'+(meta?'<span class="note">'+meta+'</span>':'')+'</div>'+
+    '<div class="upl-row">'+a(d.mp4,'Watch the cut',' ')+a(d.xml,'Premiere XML')+a(d.graphics,'Graphics .mov')+'</div>'+
+    (d.note?'<p class="note">'+esc(d.note)+'</p>':'')+'</div>';
 }
 document.addEventListener("click",function(e){
   var b=e.target.closest&&e.target.closest("[data-copy]"); if(!b) return; e.preventDefault();
