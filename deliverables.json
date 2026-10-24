@@ -177,5 +177,30 @@
    "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/fda544d0-5b28-4df5-9965-d22123ff0dc3"
   },
   "note": "Cut in Resolve from this blueprint as its own gala film, 16:9. The host's read is C9105 (take 3, the repeat take for “Behind every case”, closing card take 1, the last take for the button); the hook is the second “Who can help me?” (C9109 0:09.3), because a palm trunk crosses her in the first. Close-ups are CAM 2 (C8088, synced by sound at C9105 − 11.99 s) on “A mother… a child… a family” and “Legal representation”. B-roll where the rows name it: the brochure on “providing free legal services”, the office, the banner, the river walk on “keep hope alive”, the hotline operators, the host looking out at the river, the skyline on “a stronger, more connected Miami”, the table card and the polo. Sound is CAM 1, channel 1. The hook is this page's own motion graphic, on at 0:00; aijustice.org sits lower left on the button row; AIJ's horizontal animated logo closes it. No name plate: Andrés still owes the host's name and title. Every row's first and last word checked by ear. Graded in Resolve (per-clip LUT); the Grade LUTs zip has the same .cube files for Premiere (Lumetri > Input LUT)."
+ },
+ "13225631990": {
+  "version": 1,
+  "made": "2026-10-24",
+  "tool": "DaVinci Resolve Studio 21.1",
+  "length": "0:47",
+  "loudness": "-14 LUFS",
+  "music": "Epidemic Sound · Between Two Pines (Erik Fernholm)",
+  "mp4": {
+   "name": "90_Traditional_S4SMOAAnayaWilsonOnYourSide001-1.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/389e59a4-5a37-41b5-beb5-4dfb52f50252"
+  },
+  "xml": {
+   "name": "S4SMOAAnayaWilsonOnYourSide001_90_v1_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/eb1e93e4-46d3-46d2-a567-de4e7c1c7202"
+  },
+  "graphics": {
+   "name": "S4SMOAAnayaWilsonOnYourSide001_graphics_9x16_v1.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/bdc45d39-ee4e-4b24-962c-7f8cd3c9527f"
+  },
+  "luts": {
+   "name": "S4SMOAAnayaWilsonOnYourSide001_grade_LUTs_v1.zip",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/b80fe394-ace2-4e46-a57e-5f092db7feff"
+  },
+  "note": "Cut in Resolve from this blueprint, one clip (030_3168.MXF, channel 2 boom, hum filtered). She is backlit by the windows, so her face is lifted with a soft window that follows her face, baked into ProRes plates before the grade (win_*.mov in the edit's _work folder on the Library drive; the XML points at those plates, relink there if Premiere asks). Graded in Resolve with one LUT per shot (white balance, black point, skin on the skin line, saturation 1.0); the Grade LUTs zip has the same .cube files. Every row's first and last word checked by ear, and the render's own audio matches the captions word for word. Hook on at 0:00 with no animation, “Anaya, 16” from 0:03, captions in the S4S teal box, “Foot Locker” as two words. The red shoe box shot sits mid-row on “my back-to-school shoes from Foot Locker” (2 s, her own unboxing, framed on her face and the box). The button holds on her smile with the shoe, then the S4S typography end card. Her name is spelled by ear (she says “Anaya Wilson” on the clip); Nick has not confirmed the spelling yet."
  }
 }
