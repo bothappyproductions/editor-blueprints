@@ -202,5 +202,30 @@
    "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/b80fe394-ace2-4e46-a57e-5f092db7feff"
   },
   "note": "Cut in Resolve from this blueprint, one clip (030_3168.MXF, channel 2 boom, hum filtered). She is backlit by the windows, so her face is lifted with a soft window that follows her face, baked into ProRes plates before the grade (win_*.mov in the edit's _work folder on the Library drive; the XML points at those plates, relink there if Premiere asks). Graded in Resolve with one LUT per shot (white balance, black point, skin on the skin line, saturation 1.0); the Grade LUTs zip has the same .cube files. Every row's first and last word checked by ear, and the render's own audio matches the captions word for word. Hook on at 0:00 with no animation, “Anaya, 16” from 0:03, captions in the S4S teal box, “Foot Locker” as two words. The red shoe box shot sits mid-row on “my back-to-school shoes from Foot Locker” (2 s, her own unboxing, framed on her face and the box). The button holds on her smile with the shoe, then the S4S typography end card. Her name is spelled by ear (she says “Anaya Wilson” on the clip); Nick has not confirmed the spelling yet."
+ },
+ "13225631908": {
+  "version": 1,
+  "made": "2026-10-24",
+  "tool": "DaVinci Resolve Studio 21.1",
+  "length": "0:51",
+  "loudness": "-14 LUFS",
+  "music": "Epidemic Sound · Eventually (Instrumental Version) (Arch Tremors)",
+  "mp4": {
+   "name": "90_Traditional_S4SMOAValerieStewartOneThingTheyAsk001-1.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/1a183368-5abc-465a-8c04-845c024e1348"
+  },
+  "xml": {
+   "name": "S4SMOAValerieStewartOneThingTheyAsk001_90_v1_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/538daad6-afdd-45ba-b381-a53092556e90"
+  },
+  "graphics": {
+   "name": "S4SMOAValerieStewartOneThingTheyAsk001_graphics_9x16_v1.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/3b65a1bc-e5fe-4cdb-b970-9cabece8b645"
+  },
+  "luts": {
+   "name": "S4SMOAValerieStewartOneThingTheyAsk001_grade_LUTs_v1.zip",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/8c0e82c1-c90f-46c8-b88b-bbd106b9668b"
+  },
+  "note": "Cut in Resolve from this blueprint, one clip (030_3164.MXF, channel 2 boom, hum filtered). She is backlit by the windows, so her face is lifted with a soft window that follows her face, baked into ProRes plates before the grade (win_*.mov in the edit's _work folder on the Library drive; the XML points at those plates, relink there if Premiere asks). One LUT, saturation 1.0, skin on the skin line. Every jump cut changes size by 10% (100/110/120%) and her eye line stays at one height across them. Every row's first and last word checked by ear; the render's own audio matches the captions word for word except one word that hears both ways (“what do/did you think?”, kept “do”). Hook on at 0:00 with no animation; name super “Valerie Stewart / Housing Program Manager, RS Eden” (her own words at 01:05) lands after the hook text is gone, at 0:07; “3rd year” pop on the S4S teal box. Ends on her settled face after “I'll be back next year.”, then the S4S Step Forward end card. Open: her sticker reads “Velarie”, she says “Valerie”; Nick confirms with Soles4Souls. In the internal Claude folder on Frame.io, not the batch folder, while Atdhe decides whether Claude V1s go in batch folders."
  }
 }
