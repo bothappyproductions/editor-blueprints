@@ -227,5 +227,179 @@
    "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/8c0e82c1-c90f-46c8-b88b-bbd106b9668b"
   },
   "note": "Cut in Resolve from this blueprint, one clip (030_3164.MXF, channel 2 boom, hum filtered). She is backlit by the windows, so her face is lifted with a soft window that follows her face, baked into ProRes plates before the grade (win_*.mov in the edit's _work folder on the Library drive; the XML points at those plates, relink there if Premiere asks). One LUT, saturation 1.0, skin on the skin line. Every jump cut changes size by 10% (100/110/120%) and her eye line stays at one height across them. Every row's first and last word checked by ear; the render's own audio matches the captions word for word except one word that hears both ways (“what do/did you think?”, kept “do”). Hook on at 0:00 with no animation; name super “Valerie Stewart / Housing Program Manager, RS Eden” (her own words at 01:05) lands after the hook text is gone, at 0:07; “3rd year” pop on the S4S teal box. Ends on her settled face after “I'll be back next year.”, then the S4S Step Forward end card. Open: her sticker reads “Velarie”, she says “Valerie”; Nick confirms with Soles4Souls. In the internal Claude folder on Frame.io, not the batch folder; the Frame.io sync still set this item to V1 / Ready for Review under Freelance Happy, which is with Atdhe."
+ },
+ "13225675455": {
+  "version": 1,
+  "made": "2026-10-24",
+  "tool": "DaVinci Resolve Studio 21.1",
+  "length": "0:59.6",
+  "loudness": "-14.4 LUFS",
+  "music": "Epidemic Sound",
+  "mp4": {
+   "name": "90_Traditional_S4SMOAKateSimicMyThreeKidsAreHere001-1.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/b74c00ca-a839-492e-bffd-62a8d2528070"
+  },
+  "xml": {
+   "name": "S4SMOAKateSimicMyThreeKidsAreHere001_90_v1_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/36081994-96ad-4c16-8a48-a9ad5b519e5d"
+  },
+  "drt": {
+   "name": "S4SMOAKateSimicMyThreeKidsAreHere001_90_v1_Resolve.drt",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/a180c60e-ecc3-41ca-ade1-8cce7daab575"
+  },
+  "graphics": {
+   "name": "S4SMOAKateSimicMyThreeKidsAreHere001_graphics_9x16_v1.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/cdb33d21-ca20-4d59-9051-23ce5a4c45d2"
+  },
+  "luts": {
+   "name": "S4SMOAKateSimicMyThreeKidsAreHere001_grade_LUTs_v1.zip",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/d014fae8-141c-4fb4-b444-9cda4068fe05"
+  },
+  "note": "Cut in Resolve from this blueprint, 030_3161 + 030_3162 as one take (10% size change at every jump, eye line held). Face lifted with a soft tracked window, skin turned onto the skin line. Ends on her settled face after \"world\", then the S4S end card. Open the XML in Premiere and relink to the camera files on Drive by name; the face-window plates (win_/plate_*.mov) and the cleaned dialogue live in the edit's _work folder on the Library drive."
+ },
+ "12937236883": {
+  "version": 1,
+  "made": "2026-10-24",
+  "tool": "DaVinci Resolve Studio 21.1",
+  "length": "0:38.5",
+  "loudness": "-14.5 LUFS",
+  "music": "Epidemic Sound",
+  "mp4": {
+   "name": "90_Traditional_FREEDOMREADSBrandonReadingEscape001-1.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/a290d708-d1a3-4de8-82fc-438c3ff53aea"
+  },
+  "xml": {
+   "name": "FREEDOMREADSBrandonReadingEscape001_90_v1_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/36e0d92a-7554-4fc5-8a81-614ee7235ed1"
+  },
+  "drt": {
+   "name": "FREEDOMREADSBrandonReadingEscape001_90_v1_Resolve.drt",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/567c7fec-cf5b-413f-ade7-a9d7c59ee1a2"
+  },
+  "graphics": {
+   "name": "FREEDOMREADSBrandonReadingEscape001_graphics_9x16_v1.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/447e6880-9754-4323-85bd-ad8135683735"
+  },
+  "luts": {
+   "name": "FREEDOMREADSBrandonReadingEscape001_grade_LUTs_v1.zip",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/45782694-f625-431b-a124-287be68f3a57"
+  },
+  "note": "Cut in Resolve from this blueprint. Every readable badge and DOC number is blurred in the plates; music out before the last words, button note on the Freedom Reads end card. Open the XML in Premiere and relink to the camera files on Drive by name; the face-window plates (win_/plate_*.mov) and the cleaned dialogue live in the edit's _work folder on the Library drive."
+ },
+ "12937295775": {
+  "version": 1,
+  "made": "2026-10-24",
+  "tool": "DaVinci Resolve Studio 21.1",
+  "length": "0:53.4",
+  "loudness": "-14.4 LUFS",
+  "music": "Epidemic Sound",
+  "mp4": {
+   "name": "90_Traditional_FREEDOMREADSSmallPieceYourself001-1.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/2a4b4254-8e92-4e3b-84b7-2f618a97114e"
+  },
+  "xml": {
+   "name": "FREEDOMREADSSmallPieceYourself001_90_v1_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/88de3f7d-a74a-4215-8b47-9ba601ef80e9"
+  },
+  "drt": {
+   "name": "FREEDOMREADSSmallPieceYourself001_90_v1_Resolve.drt",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/59a917c8-b8be-4c8b-8eab-d13d31056be5"
+  },
+  "graphics": {
+   "name": "FREEDOMREADSSmallPieceYourself001_graphics_9x16_v1.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/17e8e5ed-bd8f-4661-9077-14ff5b4adc92"
+  },
+  "luts": {
+   "name": "FREEDOMREADSSmallPieceYourself001_grade_LUTs_v1.zip",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/21de97e9-5d83-4a48-b5aa-eaa6a135bd8c"
+  },
+  "note": "Cut in Resolve from this blueprint; \"was emotion on a page\" (not \"in motion\") on narrow windows. Eye line within 10 px at every jump cut; book title cards on the hook's own card. Open the XML in Premiere and relink to the camera files on Drive by name; the face-window plates (win_/plate_*.mov) and the cleaned dialogue live in the edit's _work folder on the Library drive."
+ },
+ "13276402920": {
+  "version": 1,
+  "made": "2026-10-24",
+  "tool": "DaVinci Resolve Studio 21.1",
+  "length": "0:25.8",
+  "loudness": "-13.9 LUFS",
+  "music": "Epidemic Sound",
+  "mp4": {
+   "name": "90_Traditional_SFCGImagineIfBalloonEnjoyMoreArt001-1.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/c2583034-5c35-475a-9ad5-6557ab130895"
+  },
+  "xml": {
+   "name": "SFCGImagineIfBalloonEnjoyMoreArt001_90_v1_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/3c451763-2d35-47ac-a060-d4987ad9a75e"
+  },
+  "drt": {
+   "name": "SFCGImagineIfBalloonEnjoyMoreArt001_90_v1_Resolve.drt",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/e7920fd2-3e08-4ef8-8add-5a86b458f6f0"
+  },
+  "graphics": {
+   "name": "SFCGImagineIfBalloonEnjoyMoreArt001_graphics_9x16_v1.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/28cb696f-f303-4a9b-871e-335176a74126"
+  },
+  "luts": {
+   "name": "SFCGImagineIfBalloonEnjoyMoreArt001_grade_LUTs_v1.zip",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/1e2c1f3b-f7be-4fca-9252-c4f6d84290d4"
+  },
+  "note": "Cut in Resolve from this blueprint; GV framed by hand in the two-shots (Destiny out), dialogue from the safety track. Ends on the Imagine If card. Open the XML in Premiere and relink to the camera files on Drive by name; the face-window plates (win_/plate_*.mov) and the cleaned dialogue live in the edit's _work folder on the Library drive."
+ },
+ "13188114401": {
+  "version": 1,
+  "made": "2026-10-24",
+  "tool": "DaVinci Resolve Studio 21.1 (timeline) + ffmpeg (render)",
+  "length": "1:07.5",
+  "loudness": "-14.0 LUFS",
+  "music": "Epidemic Sound · Chalets (Martin Gauffin)",
+  "mp4": {
+   "name": "90_Traditional_MHAOCCNotIntroducedYet001-1.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/5cbbcd27-9e8b-4642-8299-04ad1b2a7430"
+  },
+  "xml": {
+   "name": "MHAOCCNotIntroducedYet001_90_v1_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/305321db-43a6-4e98-9be6-8a0f7f511083"
+  },
+  "drt": {
+   "name": "MHAOCCNotIntroducedYet001_90_v1_Resolve.drt",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/9f99ff0f-17f7-4b41-9f85-de43d26ee9f0"
+  },
+  "graphics": {
+   "name": "MHAOCCNotIntroducedYet001_graphics_9x16_v1.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/fdba7242-de77-4075-971d-68d0b913340f"
+  },
+  "luts": {
+   "name": "MHAOCCNotIntroducedYet001_grade_LUTs_v1.zip",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/a6de64d0-d6ed-4e9e-8fdd-e48be9e1c4c7"
+  },
+  "note": "Six men, one line each. Every readable ID card and name tape blurred in the plates. The MP4 was assembled in ffmpeg while Resolve refused projects; the XML/DRT are the Resolve build of the same EDL (21:30 ET). Every man on screen needs a signed release before MHA sees it. Open the XML in Premiere and relink to the camera files on Drive by name; the face-window plates (win_/plate_*.mov) and the cleaned dialogue live in the edit's _work folder on the Library drive."
+ },
+ "13123153540": {
+  "version": 1,
+  "made": "2026-10-24",
+  "tool": "DaVinci Resolve Studio 21.1 (timeline) + ffmpeg (render)",
+  "length": "1:43.5",
+  "loudness": "-14.5 LUFS",
+  "music": "Epidemic Sound · Vänskap (William Claeson)",
+  "mp4": {
+   "name": "90_Traditional_WATSINYCDanielStartWithOne001-1.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/c0bf915c-739f-4838-a681-f6c6cd270220"
+  },
+  "xml": {
+   "name": "WATSINYCDanielStartWithOne001_90_v1_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/81abedf6-03c4-44ec-91ea-8564f995e18b"
+  },
+  "drt": {
+   "name": "WATSINYCDanielStartWithOne001_90_v1_Resolve.drt",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/057c10ee-112a-4337-9c2f-544a19140d05"
+  },
+  "graphics": {
+   "name": "WATSINYCDanielStartWithOne001_graphics_9x16_v1.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/887b1177-28de-4388-8fd7-5ab236269217"
+  },
+  "luts": {
+   "name": "WATSINYCDanielStartWithOne001_grade_LUTs_v1.zip",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/7302221d-8158-4647-ae1e-8d9cf0c9a234"
+  },
+  "note": "Uber story over walk-and-talk shots with Mackinnon, back on his face for the punchline; office B-roll for 13 YEARS and ONE BECOMES MANY. Face lifted with a soft tracked window (backlit). Nick's question card in his own words from the tape. The MP4 was assembled in ffmpeg; the XML/DRT are the Resolve build of the same EDL. Open the XML in Premiere and relink to the camera files on Drive by name; the face-window plates (win_/plate_*.mov) and the cleaned dialogue live in the edit's _work folder on the Library drive."
  }
 }
