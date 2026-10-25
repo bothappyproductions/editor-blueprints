@@ -488,5 +488,30 @@
    "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/74119368-8120-4124-bc2f-451d516fa6c1"
   },
   "note": "Hook 'IN IT FOR THE MONEY?' on MHA olive from frame 0 over Hailey, then 2 s of the warm line phone (phone only, the caller number on its screen blurred). Name super 'Hailey / MHA Nebraska' (spelling still to confirm with Amber). A branded split screen puts her team at the staff table under her on 'learning people's stories'. Her own story stays on her face. 'we don't care' is cut. C4583 smile on 'built for better things' with a sage underline. End card MHA NEBRASKA / Intentional Peer Support / mha-ne.org, no logo (no logo file). Open the XML in Premiere and relink C4585, C4583 by name; the phone plate, cleaned dialogue and bed are in the edit's _work folder on the Library drive."
+ },
+ "13276390324": {
+  "version": 1,
+  "made": "2026-10-25",
+  "tool": "DaVinci Resolve Studio 21.1 recipe (pass 1 timeline in Resolve; final assembled in ffmpeg with the same LUTs, crops and overlay while Resolve refused projects)",
+  "length": "0:30.2",
+  "loudness": "-14.0 LUFS",
+  "music": "Epidemic Sound · Chess (Peter Sandberg)",
+  "mp4": {
+   "name": "90_Traditional_SFCGImagineIfBalloonRealConnections001-1.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/3069e9a8-2937-4a22-bac4-bb96fd991fb9"
+  },
+  "xml": {
+   "name": "SFCGImagineIfBalloonRealConnections001_90_v1_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/f6a951ca-4550-438a-8a11-f1ba12e84908"
+  },
+  "graphics": {
+   "name": "SFCGImagineIfBalloonRealConnections001_graphics_9x16_v1.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/9963fc1d-ef54-4e13-b1f2-2a9de1652137"
+  },
+  "luts": {
+   "name": "SFCGImagineIfBalloonRealConnections001_grade_LUTs_v1.zip",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/96cb45a1-96f8-4d0a-87df-9d71688313bb"
+  },
+  "note": "Hook 'CONNECTIONS THAT FEEL REAL.' static from frame 0 (covers the Beatles print). Kalindi's sign on the path under 'passing time by'. The WISH moment as the full 16:9 frame, framed like a photo on SFCG's Imagine If paper (new package imagineif_paper_frame), Eli writing beside the sign under 'I feel like peace, you know?', Kalindi's line in sync. Release two-shot with 'Biodegradable balloons' small and still; a balloon with its card climbing, then Eli looking up; the Imagine If end card SFCG approved on the montage. Faces lifted with a tracked soft window. Epidemic 'Chess', closing chord on the release. Hold from SFCG until Kalindi confirms Eli's release. The XML points at the camera originals, the sign plate and the overlay sequence in the edit's folder on the Library drive; the Resolve DRT follows when Resolve opens projects."
  }
 }
