@@ -430,5 +430,34 @@
    "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/8b65f266-e693-486c-956c-6450eaa10e04"
   },
   "note": "One person, one take, five picture cuts. Hook card 'Are you happy?' on a Watsi cyan title pill from frame 0, branded lower third 'Paul', the card look (Paul silent, two steady windows) under Nick's question with '$10' popping on a yellow block, Paul's thinking beat running straight into his message (no cut), 'love' in Watsi yellow with an underline, end card lines on live footage. Elements drawn from the Watsi design system (state/watsi/brand/package/ovl_elements). Nick's questions come from his own mic. Open the XML in Premiere and relink C5086 by name; the dialogue file and the bed are in the edit's _work folder on the Library drive."
+ },
+ "13123155328": {
+  "version": 1,
+  "made": "2026-10-25",
+  "tool": "DaVinci Resolve Studio 21.1 (timeline + render)",
+  "length": "1:24.1",
+  "loudness": "-14.0 LUFS",
+  "music": "None (natural sound only, Who Gives look)",
+  "mp4": {
+   "name": "90_Montage_WATSINYCRecoveryPhoneMessages001-1.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/a5139d3d-3563-4a1e-9d08-d84465fd2762"
+  },
+  "xml": {
+   "name": "WATSINYCRecoveryPhoneMessages001_90_v1_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/54c45a48-9ace-4403-a5f2-df5f988143f9"
+  },
+  "drt": {
+   "name": "WATSINYCRecoveryPhoneMessages001_90_v1_Resolve.drt",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/582ee282-f45f-43fd-9d05-84db25df7a5a"
+  },
+  "graphics": {
+   "name": "WATSINYCRecoveryPhoneMessages001_graphics_9x16_v1.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/7816497b-f85f-430c-aa4d-212b618f791a"
+  },
+  "luts": {
+   "name": "WATSINYCRecoveryPhoneMessages001_grade_LUTs_v1.zip",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/f3504510-2076-4fdc-b191-6626f1283b1e"
+  },
+  "note": "Eleven messages, the blueprint's shorter cut (the three Lift rows out). Every handset MP3 synced to its MOV (GCC-PHAT windows + the hang-up frame), each message levelled, park sound under, the swear bleeped. Hook 'A voicemail / for a stranger.' from frame 0 with the sign's printing taken off the hook shot (the sign reads sharp from HOW IT WORKS on), Watsi lower thirds for Anissa, Ana and Mackinnon, English subtitles on Ana's Portuguese, and the Who Gives close on the campaign gradient from watsi.org/who-gives. The XML points at upright ProRes plates in the edit's _work/plates on the Library drive (the iPhone MOVs carry a rotation flag); dialogue_assembled.wav is in _work."
  }
 }
