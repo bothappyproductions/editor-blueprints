@@ -401,5 +401,34 @@
    "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/7302221d-8158-4647-ae1e-8d9cf0c9a234"
   },
   "note": "Uber story over walk-and-talk shots with Mackinnon, back on his face for the punchline; office B-roll for 13 YEARS and ONE BECOMES MANY. Face lifted with a soft tracked window (backlit). Nick's question card in his own words from the tape. The MP4 was assembled in ffmpeg; the XML/DRT are the Resolve build of the same EDL. Open the XML in Premiere and relink to the camera files on Drive by name; the face-window plates (win_/plate_*.mov) and the cleaned dialogue live in the edit's _work folder on the Library drive."
+ },
+ "13198233020": {
+  "version": 1,
+  "made": "2026-10-25",
+  "tool": "DaVinci Resolve Studio 21.1 (timeline + render)",
+  "length": "0:46.4",
+  "loudness": "-14.1 LUFS",
+  "music": "Epidemic Sound · Abide in Light (JOYSPRING)",
+  "mp4": {
+   "name": "90_Traditional_WATSINYCAYHPaulLoveConquersAll001-1.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/bc83239b-45fa-48ce-9c4d-4df6a26cbe10"
+  },
+  "xml": {
+   "name": "WATSINYCAYHPaulLoveConquersAll001_90_v1_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/b2591978-1aa7-4f3c-bd3f-b4786046bb3b"
+  },
+  "drt": {
+   "name": "WATSINYCAYHPaulLoveConquersAll001_90_v1_Resolve.drt",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/9fbca3c6-81b5-4e1f-be66-e0a2b1ffa504"
+  },
+  "graphics": {
+   "name": "WATSINYCAYHPaulLoveConquersAll001_graphics_9x16_v1.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/1b449f30-f5b1-479c-8490-28ab0b113a99"
+  },
+  "luts": {
+   "name": "WATSINYCAYHPaulLoveConquersAll001_grade_LUTs_v1.zip",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/8b65f266-e693-486c-956c-6450eaa10e04"
+  },
+  "note": "One person, one take, five picture cuts. Hook card 'Are you happy?' on a Watsi cyan title pill from frame 0, branded lower third 'Paul', the card look (Paul silent, two steady windows) under Nick's question with '$10' popping on a yellow block, Paul's thinking beat running straight into his message (no cut), 'love' in Watsi yellow with an underline, end card lines on live footage. Elements drawn from the Watsi design system (state/watsi/brand/package/ovl_elements). Nick's questions come from his own mic. Open the XML in Premiere and relink C5086 by name; the dialogue file and the bed are in the edit's _work folder on the Library drive."
  }
 }
