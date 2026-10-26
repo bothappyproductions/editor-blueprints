@@ -818,5 +818,34 @@
    "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/a0f2c5d9-68df-4610-904d-e586962692ec"
   },
   "note": "Mackinnon's one take (Mincho5163) runs in script order with her pauses kept and no B-roll. A 110% punch-in on \"but I'd also watched\" replaces the 2% push-in, and it cuts back to 100% on \"Then I met Watsi\", where the music starts. The clip is S-Log3, so set it to Full data levels before the LUT. Still open: the name super reads Mackinnon Engen, Executive Director, Watsi (the blueprint asked for first name only), and the music is Epidemic, not Uppbeat."
+ },
+ "12714500969": {
+  "version": 1,
+  "made": "2026-10-26",
+  "tool": "DaVinci Resolve Studio 21.1",
+  "length": "1:27.5",
+  "loudness": "-14.0 LUFS",
+  "music": "Epidemic Sound · Chords (Helmut Schenker)",
+  "mp4": {
+   "name": "Claude test cut · WATSIPhilosophyLearned001 · v1.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/19f6086d-3fa4-4dfb-ab98-195020fd81e5"
+  },
+  "xml": {
+   "name": "WATSIPhilosophyLearned001_90_v1_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/71ca4d77-5f96-47f2-b4bb-96ecc5521536"
+  },
+  "drt": {
+   "name": "WATSIPhilosophyLearned001_90_v1_Resolve.drt",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/d84cc340-d329-4a0b-b443-e826d9d0a978"
+  },
+  "graphics": {
+   "name": "WATSIPhilosophyLearned001_graphics_9x16_v1.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/c14fcc7d-0b8e-47a6-b178-bc7b9f8b5cf0"
+  },
+  "luts": {
+   "name": "WATSIPhilosophyLearned001_grade_LUTs_v1.zip",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/86b8e921-ffaa-4169-bf16-5c64fed6b624"
+  },
+  "note": "Every line is from the second run of Mincho5161 (from 1:16) in script order, with the optional 35,000 row kept, so it runs 1:27. There is no B-roll: no Thu Ta footage is on the drive, so it stays on Mackinnon, with a 110% punch-in on 'When I met him' and a 100/110% change at each row. The clip is S-Log3, so set it to Full data levels before the LUT. Open: she says 'the border and river' (the script has 'in a river'), and the name super reads Mackinnon Engen, Executive Director, Watsi, where the blueprint asked for first name only."
  }
 }
