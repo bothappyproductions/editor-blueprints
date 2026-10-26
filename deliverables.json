@@ -731,5 +731,34 @@
    "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/77da8571-4218-43e6-9a72-f1915bda9994"
   },
   "note": "Sui's lines are from C9276 and Cheryl's from C9278, in script order and trimmed to the word; the narration is a temporary AI voice to swap for the agreed one. B-roll is the Building Bridges and legal stock, the Protect child-at-court film (cropped to hide its burned-in subtitles), the Miami drone under the quote and statement cards, and gala and hotline footage. It runs 2:48 at full script (the blueprint estimated about 2:30, and the client label says 1:00), so the length needs a decision. Still open: Cheryl's title on her super (Co-Founder, taken from her gala film), the corner-bracket graphic (left out), and Inter standing in for Filson Pro."
+ },
+ "12714476557": {
+  "version": 1,
+  "made": "2026-10-26",
+  "tool": "DaVinci Resolve Studio 21.1",
+  "length": "1:21.5",
+  "loudness": "-14.0 LUFS",
+  "music": "Epidemic Sound · Linger (William Claeson)",
+  "mp4": {
+   "name": "Claude test cut · WATSIFAQUniversalFund001 · v1.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/104b65cf-24c4-4bf4-91bd-5a17616d87c8"
+  },
+  "xml": {
+   "name": "WATSIFAQUniversalFund001_90_v1_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/7b42b317-945a-4adb-86ef-4650c711cffa"
+  },
+  "drt": {
+   "name": "WATSIFAQUniversalFund001_90_v1_Resolve.drt",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/58802640-7c3a-4b47-bca6-3acd27603d69"
+  },
+  "graphics": {
+   "name": "WATSIFAQUniversalFund001_graphics_9x16_v1.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/f034278b-ce5f-45c1-ac11-8cec9ff673d7"
+  },
+  "luts": {
+   "name": "WATSIFAQUniversalFund001_grade_LUTs_v1.zip",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/f3adaaf7-82c4-448d-ae13-6ebc98904502"
+  },
+  "note": "Mackinnon's answer from Mincho5153 in script order, with the optional community row lifted so it runs 1:21 (it sits at 0:46.7-0:57.0 in the clip if a longer cut is wanted). The one cutaway is a fresh capture of the live watsi.org/universal-fund page on a phone over her shot, and mpola mpola is set in September Spirit. The clip is S-Log3, so set it to Full data levels before the LUT. Open: she says \"Not just one surgery\" with no \"It's\", so the caption follows her, and the name super reads Mackinnon Engen, Executive Director, Watsi, where the blueprint asked for first name only."
  }
 }
