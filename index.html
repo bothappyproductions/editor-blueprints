@@ -249,6 +249,14 @@ footer ul{padding-left:18px;margin:8px 0 0;display:grid;gap:3px}
 .mg-body .btn{justify-self:start;padding:8px 16px;font-size:13px}
 .mg-prog{height:6px;border-radius:3px;background:var(--cream);overflow:hidden}
 .mg-prog span{display:block;height:100%;width:0;background:var(--purple)}
+/* 16:9 blueprints (Atdhe 2026-10-26): landscape previews, and the 16:9 / 9:16 switch on videos made in both sizes */
+.mg-grid.land{grid-template-columns:repeat(auto-fill,minmax(340px,1fr))}
+.mg-grid.land .mg-stage{aspect-ratio:16/9}
+.ori-row{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 12px}
+.ori-tog{display:inline-flex;border:1px solid var(--ink);border-radius:999px;overflow:hidden;background:var(--card)}
+.ori-tog button{font:inherit;font-size:13px;font-weight:700;padding:6px 16px;border:0;background:transparent;color:var(--ink);cursor:pointer}
+.ori-tog button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.mg-ori-note{background:var(--warn-bg);color:#5a3a00;border-radius:8px;padding:6px 10px}
 .bp tr.flash td{background:var(--yellow)!important;transition:background .6s}
 /* upload file name + batch folder (Atdhe 2026-10-22) */
 .upl{display:grid;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;max-width:900px}
@@ -261,10 +269,19 @@ footer ul{padding-left:18px;margin:8px 0 0;display:grid;gap:3px}
 </style>
 <div id="app"></div>
 <script>
-/* ===== Motion graphics engine: brand-styled 9:16 graphics drawn on canvas, frame by frame. ===== */
+/* ===== Motion graphics engine: brand-styled graphics drawn on canvas, frame by frame. 9:16 (1080x1920) by default;
+   MG.setSize(1920,1080) lays every template out for a 16:9 frame (Atdhe 2026-10-26: horizontal videos get horizontal graphics).
+   Portrait output is unchanged: every landscape value sits behind LAND. ===== */
 var MG=(function(){
 "use strict";
-var W=1080,H=1920,FPS=30;
+var W=1080,H=1920,FPS=30,LAND=false,DW=1080,DH=1920;
+function setSize(w,h){DW=w;DH=h;}
+function use(dim){W=dim?dim[0]:DW;H=dim?dim[1]:DH;LAND=W>H;}
+function LS(p,l){return LAND?l:p;}
+function SZ(x){return Math.round(x*.8);}
+/* 16:9: keep a text block between the title-safe top and the top of the caption band */
+function band(yc,h){var top=H*.1,bot=H*.74;if(h>=bot-top)return top+h/2;return clamp(yc,top+h/2,bot-h/2);}
+function oriName(base,land){if(!land)return base;base=String(base==null?"":base);return /9x16/i.test(base)?base.replace(/9x16/gi,"16x9"):base+"_16x9";}
 function clamp(x,a,b){return x<a?a:x>b?b:x;}
 function seg(t,a,b){return b<=a?(t>=b?1:0):clamp((t-a)/(b-a),0,1);}
 function eOut(p){return 1-Math.pow(1-p,3);}
@@ -277,8 +294,11 @@ function F(B,kind,size){var f=kind==="body"?B.body:B.head;return (f.w||700)+" "+
 function rr(ctx,x,y,w,h,r){r=Math.min(r,h/2,w/2);ctx.beginPath();ctx.moveTo(x+r,y);ctx.arcTo(x+w,y,x+w,y+h,r);ctx.arcTo(x+w,y+h,x,y+h,r);ctx.arcTo(x,y+h,x,y,r);ctx.arcTo(x,y,x+w,y,r);ctx.closePath();}
 function wrap(ctx,text,maxW){var words=String(text||"").split(/\s+/).filter(Boolean),lines=[],cur="";words.forEach(function(w){var t=cur?cur+" "+w:w;if(ctx.measureText(t).width>maxW&&cur){lines.push(cur);cur=w;}else cur=t;});if(cur)lines.push(cur);return lines;}
 function fit(ctx,B,kind,text,maxW,maxLines,start,min){var s=start;for(;s>=min;s-=4){ctx.font=F(B,kind,s);if(wrap(ctx,text,maxW).length<=maxLines)break;}ctx.font=F(B,kind,s);return {size:s,lines:wrap(ctx,text,maxW)};}
+/* 16:9 only: fit, then narrow the measure as far as the line count allows, so lines come out even (no one-word last line) */
+function fitB(ctx,B,kind,text,maxW,maxLines,start,min){var f=fit(ctx,B,kind,text,maxW,maxLines,start,min),n=f.lines.length;if(n<2)return f;
+  var lo=maxW*.4,hi=maxW;for(var k=0;k<14;k++){var mid=(lo+hi)/2;if(wrap(ctx,text,mid).length<=n)hi=mid;else lo=mid;}f.lines=wrap(ctx,text,hi);return f;}
 function up(s,spec){return spec.upper?String(s||"").toUpperCase():String(s||"");}
-function posY(spec){var p=spec.pos||"top";return p==="center"?900:p==="upper"?470:640;}
+function posY(spec){var p=spec.pos||"top";if(LAND)return p==="center"?H*.5:p==="upper"?H*.2:p==="bottom"?H*.62:H*.28;return p==="center"?900:p==="upper"?470:640;}
 function shadow(ctx,on_){if(on_){ctx.shadowColor="rgba(0,0,0,.45)";ctx.shadowBlur=18;ctx.shadowOffsetY=4;}else{ctx.shadowColor="transparent";ctx.shadowBlur=0;ctx.shadowOffsetY=0;}}
 function outro(t,D,len){return eInOut(seg(t,D-(len||.45),D));}
 function C(spec,B){var c=spec.c||{},p=B.pal||{};var bg=c.bg||p.bg||"#222",ac=c.ac||p.ac||"#FFCC00";return {bg:bg,fg:c.fg||on(bg),ac:ac,onAc:c.onAc||on(ac),ac2:c.ac2||p.ac2||ac,txt:c.txt||"#FFFFFF"};}
@@ -288,8 +308,9 @@ function fmtNum(v,n){var s=v.toFixed(n.dec);if(n.comma){var p=s.split(".");p[0]=
 /* ---------- transparent overlays ---------- */
 function kinetic_quote(ctx,s,B,t){
   var c=C(s,B),D=s.dur,text=up(s.text.main,s),emph=(s.text.emph||[]).map(function(w){return w.toLowerCase().replace(/[^\w']/g,"");});
-  var f=fit(ctx,B,"head",text,880,s.box?5:5,s.size||84,48),size=f.size,lh=size*1.22;
+  var f=LAND?fitB(ctx,B,"head",text,W*.6,3,SZ(s.size||84),40):fit(ctx,B,"head",text,880,s.box?5:5,s.size||84,48),size=f.size,lh=size*1.22;
   ctx.font=F(B,"head",size);var words=[],y0=posY(s)-((f.lines.length-1)*lh)/2,k=0;
+  if(LAND){var bh=f.lines.length*lh+(s.text.who?lh*.8:0);y0=band(posY(s),bh)-bh/2+lh/2;}
   f.lines.forEach(function(line,li){var ws=line.split(" "),total=ctx.measureText(line).width,x=(W-total)/2;ws.forEach(function(w){var ww=ctx.measureText(w).width;words.push({w:w,x:x,y:y0+li*lh,ww:ww,i:k++,li:li});x+=ww+ctx.measureText(" ").width;});});
   var o=outro(t,D),step=Math.min(.12,1.4/Math.max(words.length,1));
   ctx.save();ctx.globalAlpha=1-o;ctx.translate(0,-40*o);ctx.textBaseline="middle";
@@ -298,35 +319,38 @@ function kinetic_quote(ctx,s,B,t){
     ctx.save();ctx.globalAlpha*=p;ctx.translate(0,(1-p)*36);
     if(isE){var q=eOut(seg(t,ti+.15,ti+.5));rr(ctx,w.x-12,w.y-lh*.42,(w.ww+24)*q,lh*.84,12);ctx.fillStyle=c.ac;ctx.fill();}
     ctx.font=F(B,"head",size);ctx.fillStyle=isE&&seg(t,ti+.15,ti+.5)>.4?c.onAc:(s.box?c.fg:c.txt);shadow(ctx,!s.box&&!isE);ctx.fillText(w.w,w.x,w.y);ctx.restore();});
-  if(s.text.who){var pw=eOut(seg(t,.3+words.length*step,.7+words.length*step));if(pw>0){ctx.globalAlpha*=pw;ctx.font=F(B,"body",40);ctx.fillStyle=s.box?c.fg:c.ac;shadow(ctx,!s.box);var ww=ctx.measureText(up(s.text.who,s)).width;ctx.fillText(up(s.text.who,s),(W-ww)/2,y0+f.lines.length*lh+20);}}
+  if(s.text.who){var pw=eOut(seg(t,.3+words.length*step,.7+words.length*step));if(pw>0){ctx.globalAlpha*=pw;ctx.font=F(B,"body",LS(40,36));ctx.fillStyle=s.box?c.fg:c.ac;shadow(ctx,!s.box);var ww=ctx.measureText(up(s.text.who,s)).width;ctx.fillText(up(s.text.who,s),(W-ww)/2,y0+f.lines.length*lh+LS(20,4));}}
   ctx.restore();
 }
 function stat_counter(ctx,s,B,t){
-  var c=C(s,B),D=s.dur,n=parseNum(s.text.number),o=outro(t,D),y=posY(s);
+  var c=C(s,B),D=s.dur,n=parseNum(s.text.number),o=outro(t,D),y=posY(s),lf=null;
+  if(LAND){var S0=SZ(s.size||300);lf=s.text.label?fitB(ctx,B,"body",up(s.text.label,s),W*.55,2,52,34):null;var bh=S0*1.12+(lf?72+lf.lines.length*lf.size*1.25:34);y=band(posY(s),bh)-bh/2+S0*.62;}
   ctx.save();ctx.globalAlpha=1-o;ctx.translate(0,-40*o);ctx.textBaseline="middle";ctx.textAlign="center";
   var pIn=eBack(seg(t,.1,.7)),cnt=eOut(seg(t,.2,1.6)),label;
   var str=n?(n.val>=10?fmtNum(n.val*cnt,n):s.text.number):s.text.number;
-  var size=s.size||300;ctx.font=F(B,"head",size);while(ctx.measureText(str).width>960&&size>120){size-=10;ctx.font=F(B,"head",size);}
+  var size=LAND?SZ(s.size||300):s.size||300;ctx.font=F(B,"head",size);while(ctx.measureText(str).width>LS(960,W*.5)&&size>LS(120,96)){size-=10;ctx.font=F(B,"head",size);}
   ctx.save();ctx.translate(W/2,y);ctx.scale(.6+.4*pIn,.6+.4*pIn);ctx.globalAlpha*=seg(t,.1,.35);
-  if(s.box){var tw=ctx.measureText(str).width+90;rr(ctx,-tw/2,-size*.62,tw,size*1.18,28);ctx.fillStyle=c.bg;ctx.fill();ctx.fillStyle=c.fg;}else{ctx.fillStyle=c.txt;shadow(ctx,true);}
+  if(s.box){var tw=ctx.measureText(str).width+LS(90,72);rr(ctx,-tw/2,-size*.62,tw,size*1.18,LS(28,22));ctx.fillStyle=c.bg;ctx.fill();ctx.fillStyle=c.fg;}else{ctx.fillStyle=c.txt;shadow(ctx,true);}
   ctx.fillText(str,0,0);ctx.restore();
-  var bw=eOut(seg(t,.6,1.2))*Math.min(ctx.measureText(str).width,700);shadow(ctx,false);ctx.fillStyle=c.ac;rr(ctx,W/2-bw/2,y+size*.5+18,bw,16,8);ctx.fill();
-  if(s.text.label){var pl=eOut(seg(t,.9,1.4));ctx.globalAlpha*=pl;var f=fit(ctx,B,"body",up(s.text.label,s),860,3,58,40);ctx.fillStyle=s.box?c.bg:c.txt;shadow(ctx,!s.box);
-    f.lines.forEach(function(l,i){var ly=y+size*.5+90+i*f.size*1.25+(1-pl)*24;if(s.box){var lw=ctx.measureText(l).width+40;ctx.save();shadow(ctx,false);rr(ctx,W/2-lw/2,ly-f.size*.62,lw,f.size*1.24,10);ctx.fillStyle=c.bg;ctx.fill();ctx.restore();ctx.fillStyle=c.fg;}ctx.fillText(l,W/2,ly);});}
+  var bw=eOut(seg(t,.6,1.2))*Math.min(ctx.measureText(str).width,LS(700,W*.36));shadow(ctx,false);ctx.fillStyle=c.ac;rr(ctx,W/2-bw/2,y+size*.5+LS(18,14),bw,LS(16,13),LS(8,6.5));ctx.fill();
+  if(s.text.label){var pl=eOut(seg(t,.9,1.4));ctx.globalAlpha*=pl;var f=LAND?lf:fit(ctx,B,"body",up(s.text.label,s),860,3,58,40);if(LAND)ctx.font=F(B,"body",f.size);ctx.fillStyle=s.box?c.bg:c.txt;shadow(ctx,!s.box);
+    f.lines.forEach(function(l,i){var ly=y+size*.5+LS(90,72)+i*f.size*1.25+(1-pl)*24;if(s.box){var lw=ctx.measureText(l).width+LS(40,32);ctx.save();shadow(ctx,false);rr(ctx,W/2-lw/2,ly-f.size*.62,lw,f.size*1.24,LS(10,8));ctx.fillStyle=c.bg;ctx.fill();ctx.restore();ctx.fillStyle=c.fg;}ctx.fillText(l,W/2,ly);});}
   ctx.restore();
 }
 function word_stack(ctx,s,B,t){
   var c=C(s,B),D=s.dur,items=(s.text.items||[]).map(function(x){return up(x,s);}),o=outro(t,D);
-  var size=s.size||118;ctx.font=F(B,"head",size);var widest=Math.max.apply(null,items.map(function(x){return ctx.measureText(x).width;}));if(widest>900){size=Math.floor(size*900/widest);}
+  var size=LAND?Math.round((s.size||118)*.7):s.size||118,mw=LS(900,W*.55);ctx.font=F(B,"head",size);var widest=Math.max.apply(null,items.map(function(x){return ctx.measureText(x).width;}));if(widest>mw){size=Math.floor(size*mw/widest);}
   var lh=size*1.38,y0=posY(s)-((items.length-1)*lh)/2;
+  if(LAND)y0=band(posY(s),items.length*lh)-((items.length-1)*lh)/2;
   ctx.save();ctx.globalAlpha=1-o;ctx.textBaseline="middle";ctx.textAlign="center";
-  items.forEach(function(it,i){var ti=.15+i*.42,pb=eOut(seg(t,ti,ti+.22)),pt=eBack(seg(t,ti+.12,ti+.45));if(pb<=0)return;ctx.font=F(B,"head",size);var tw=ctx.measureText(it).width+64,y=y0+i*lh-o*30*(i+1);
-    var col=i%2?c.ac:c.bg,fg=i%2?c.onAc:c.fg;rr(ctx,W/2-tw/2,y-lh*.44,tw*pb,lh*.88,14);ctx.fillStyle=col;ctx.fill();
+  items.forEach(function(it,i){var ti=.15+i*.42,pb=eOut(seg(t,ti,ti+.22)),pt=eBack(seg(t,ti+.12,ti+.45));if(pb<=0)return;ctx.font=F(B,"head",size);var tw=ctx.measureText(it).width+LS(64,52),y=y0+i*lh-o*30*(i+1);
+    var col=i%2?c.ac:c.bg,fg=i%2?c.onAc:c.fg;rr(ctx,W/2-tw/2,y-lh*.44,tw*pb,lh*.88,LS(14,12));ctx.fillStyle=col;ctx.fill();
     if(pt>0){ctx.save();ctx.translate(W/2,y);var sc=1.35-.35*Math.min(pt,1.05);ctx.scale(sc,sc);ctx.globalAlpha*=clamp(pt*1.4,0,1);ctx.fillStyle=fg;ctx.fillText(it,0,4);ctx.restore();}});
   ctx.restore();
 }
 function highlight_callout(ctx,s,B,t){
-  var c=C(s,B),D=s.dur,o=outro(t,D),f=fit(ctx,B,"head",up(s.text.main,s),860,4,s.size||86,52),lh=f.size*1.3,y0=posY(s)-((f.lines.length-1)*lh)/2;
+  var c=C(s,B),D=s.dur,o=outro(t,D),f=LAND?fitB(ctx,B,"head",up(s.text.main,s),W*.6,3,SZ(s.size||86),44):fit(ctx,B,"head",up(s.text.main,s),860,4,s.size||86,52),lh=f.size*1.3,y0=posY(s)-((f.lines.length-1)*lh)/2;
+  if(LAND)y0=band(posY(s),f.lines.length*lh)-((f.lines.length-1)*lh)/2;
   ctx.save();ctx.globalAlpha=1-o;ctx.translate(0,-30*o);ctx.textBaseline="middle";
   f.lines.forEach(function(l,i){ctx.font=F(B,"head",f.size);var tw=ctx.measureText(l).width,x=(W-tw)/2,y=y0+i*lh,pa=eOut(seg(t,.1+i*.12,.45+i*.12)),pm=eInOut(seg(t,.5+i*.25,1+i*.25));
     if(pa<=0)return;ctx.globalAlpha=(1-o)*pa;
@@ -335,10 +359,11 @@ function highlight_callout(ctx,s,B,t){
   ctx.restore();
 }
 function corner_frame(ctx,s,B,t){
-  var c=C(s,B),D=s.dur,o=outro(t,D),b=s.box||[.14,.3,.72,.36],x=b[0]*W,y=b[1]*H,w=b[2]*W,h=b[3]*H,p=eOut(seg(t,.05,.6)),off=(1-p)*70+o*50,L=96,T=12,br=1+.012*Math.sin(t*3);
+  var c=C(s,B),D=s.dur,o=outro(t,D),b=s.box||(LAND?[.3,.12,.4,.6]:[.14,.3,.72,.36]),x=b[0]*W,y=b[1]*H,w=b[2]*W,h=b[3]*H,p=eOut(seg(t,.05,.6)),off=(1-p)*LS(70,56)+o*LS(50,40),L=LS(96,80),T=LS(12,10),br=1+.012*Math.sin(t*3);
   ctx.save();ctx.globalAlpha=p*(1-o);ctx.translate(x+w/2,y+h/2);ctx.scale(br,br);ctx.translate(-(x+w/2),-(y+h/2));ctx.strokeStyle=c.ac;ctx.lineWidth=T;ctx.lineCap="round";
   [[x-off,y-off,1,1],[x+w+off,y-off,-1,1],[x-off,y+h+off,1,-1],[x+w+off,y+h+off,-1,-1]].forEach(function(k){ctx.beginPath();ctx.moveTo(k[0],k[1]+k[3]*L);ctx.lineTo(k[0],k[1]);ctx.lineTo(k[0]+k[2]*L,k[1]);ctx.stroke();});
-  if(s.text.main){var pl=eOut(seg(t,.4,.9));ctx.font=F(B,"body",44);var tw=ctx.measureText(up(s.text.main,s)).width+48;ctx.save();ctx.beginPath();ctx.rect(x,y-120,tw*pl+2,90);ctx.clip();rr(ctx,x,y-110,tw,72,14);ctx.fillStyle=c.bg;ctx.fill();ctx.fillStyle=c.fg;ctx.textBaseline="middle";ctx.fillText(up(s.text.main,s),x+24,y-73);ctx.restore();}
+  if(s.text&&s.text.main&&LAND){var pl=eOut(seg(t,.4,.9)),lt=y-92<H*.05?y+20:y-92;ctx.font=F(B,"body",36);var tw=ctx.measureText(up(s.text.main,s)).width+40;ctx.save();ctx.beginPath();ctx.rect(x,lt-10,tw*pl+2,76);ctx.clip();rr(ctx,x,lt,tw,58,12);ctx.fillStyle=c.bg;ctx.fill();ctx.fillStyle=c.fg;ctx.textBaseline="middle";ctx.fillText(up(s.text.main,s),x+20,lt+30);ctx.restore();}
+  else if(s.text.main){var pl=eOut(seg(t,.4,.9));ctx.font=F(B,"body",44);var tw=ctx.measureText(up(s.text.main,s)).width+48;ctx.save();ctx.beginPath();ctx.rect(x,y-120,tw*pl+2,90);ctx.clip();rr(ctx,x,y-110,tw,72,14);ctx.fillStyle=c.bg;ctx.fill();ctx.fillStyle=c.fg;ctx.textBaseline="middle";ctx.fillText(up(s.text.main,s),x+24,y-73);ctx.restore();}
   ctx.restore();
 }
 function brand_wipe(ctx,s,B,t){
@@ -348,31 +373,45 @@ function brand_wipe(ctx,s,B,t){
   ctx.restore();
 }
 function tag_label(ctx,s,B,t){
-  var c=C(s,B),D=s.dur,o=eInOut(seg(t,D-.4,D)),p=eOut(seg(t,.05,.5)),y=s.pos==="center"?900:s.pos==="top"?520:330,txt=up(s.text.main,s);
-  ctx.save();ctx.font=F(B,"body",46);var tw=ctx.measureText(txt).width+120,x=90;
-  ctx.beginPath();ctx.rect(x-10,y-60,(tw+20)*(p-o),120);ctx.clip();rr(ctx,x,y-44,tw,88,44);ctx.fillStyle=c.bg;ctx.fill();
-  var pulse=.6+.4*Math.sin(t*5);ctx.beginPath();ctx.arc(x+44,y,13+3*pulse,0,Math.PI*2);ctx.fillStyle=c.ac;ctx.fill();ctx.beginPath();ctx.arc(x+44,y,24+10*pulse,0,Math.PI*2);ctx.strokeStyle=rgba(c.ac,.45*(1-pulse*.5));ctx.lineWidth=4;ctx.stroke();
-  ctx.fillStyle=c.fg;ctx.textBaseline="middle";ctx.fillText(txt,x+82,y+2);ctx.restore();
+  /* 16:9: a lower-third tag, lower left, above the caption band */
+  var c=C(s,B),D=s.dur,o=eInOut(seg(t,D-.4,D)),p=eOut(seg(t,.05,.5)),y=LAND?H*.68:s.pos==="center"?900:s.pos==="top"?520:330,txt=up(s.text.main,s);
+  ctx.save();ctx.font=F(B,"body",LS(46,42));var tw=ctx.measureText(txt).width+LS(120,108),x=LS(90,W*.0625);
+  ctx.beginPath();ctx.rect(x-10,y-LS(60,54),(tw+20)*(p-o),LS(120,108));ctx.clip();rr(ctx,x,y-LS(44,40),tw,LS(88,80),LS(44,40));ctx.fillStyle=c.bg;ctx.fill();
+  var pulse=.6+.4*Math.sin(t*5);ctx.beginPath();ctx.arc(x+LS(44,40),y,LS(13,12)+LS(3,2.7)*pulse,0,Math.PI*2);ctx.fillStyle=c.ac;ctx.fill();ctx.beginPath();ctx.arc(x+LS(44,40),y,LS(24,22)+LS(10,9)*pulse,0,Math.PI*2);ctx.strokeStyle=rgba(c.ac,.45*(1-pulse*.5));ctx.lineWidth=LS(4,3.6);ctx.stroke();
+  ctx.fillStyle=c.fg;ctx.textBaseline="middle";ctx.fillText(txt,x+LS(82,74),y+2);ctx.restore();
 }
 /* ---------- full-frame cutaways ---------- */
 function backdrop(ctx,c,t,D,style){
   ctx.fillStyle=c.bg;ctx.fillRect(0,0,W,H);var ph=t/D*Math.PI*2;
   if(style==="none")return;
-  ctx.save();ctx.globalAlpha=.16;ctx.fillStyle=c.ac;ctx.beginPath();ctx.arc(W*.86+40*Math.sin(ph),H*.16+30*Math.cos(ph),420,0,Math.PI*2);ctx.fill();
-  ctx.globalAlpha=.10;ctx.fillStyle=c.ac2;ctx.beginPath();ctx.arc(W*.08+50*Math.cos(ph),H*.9+40*Math.sin(ph),520,0,Math.PI*2);ctx.fill();
-  ctx.globalAlpha=.22;ctx.strokeStyle=c.ac;ctx.lineWidth=6;ctx.beginPath();ctx.arc(W*.15,H*.2,150+10*Math.sin(ph*2),0,Math.PI*2);ctx.stroke();ctx.restore();
+  ctx.save();ctx.globalAlpha=.16;ctx.fillStyle=c.ac;ctx.beginPath();ctx.arc(W*.86+40*Math.sin(ph),H*.16+30*Math.cos(ph),LS(420,360),0,Math.PI*2);ctx.fill();
+  ctx.globalAlpha=.10;ctx.fillStyle=c.ac2;ctx.beginPath();ctx.arc(W*.08+50*Math.cos(ph),H*.9+40*Math.sin(ph),LS(520,440),0,Math.PI*2);ctx.fill();
+  ctx.globalAlpha=.22;ctx.strokeStyle=c.ac;ctx.lineWidth=6;ctx.beginPath();ctx.arc(W*.15,H*.2,LS(150,120)+10*Math.sin(ph*2),0,Math.PI*2);ctx.stroke();ctx.restore();
 }
-function kicker(ctx,s,B,c,t,y){if(!s.text.sub)return;var p=eOut(seg(t,.05,.5));ctx.save();ctx.globalAlpha=p;ctx.font=F(B,"body",44);ctx.fillStyle=c.ac;ctx.textBaseline="middle";var txt=String(s.text.sub).toUpperCase(),tw=ctx.measureText(txt).width;ctx.fillText(txt,(W-tw)/2,y);ctx.fillRect(W/2-50*p,y+46,100*p,8);ctx.restore();}
+/* kicker: the small caps line above a card's text; x (16:9 only) left-aligns it there */
+function kicker(ctx,s,B,c,t,y,x){if(!s.text.sub)return;var p=eOut(seg(t,.05,.5));ctx.save();ctx.globalAlpha=p;ctx.font=F(B,"body",LS(44,36));ctx.fillStyle=c.ac;ctx.textBaseline="middle";var txt=String(s.text.sub).toUpperCase(),tw=ctx.measureText(txt).width;
+  if(LAND&&x!=null){ctx.fillText(txt,x,y);ctx.fillRect(x,y+38,80*p,7);}else{ctx.fillText(txt,(W-tw)/2,y);ctx.fillRect(W/2-LS(50,40)*p,y+LS(46,38),LS(100,80)*p,LS(8,7));}ctx.restore();}
 function lineReveal(ctx,B,lines,size,lh,y0,t,start,stagger,color,align){
-  lines.forEach(function(l,i){var p=eOut(seg(t,start+i*stagger,start+i*stagger+.55));if(p<=0)return;ctx.save();ctx.font=F(B,"head",size);var tw=ctx.measureText(l).width,x=align==="left"?120:(W-tw)/2,y=y0+i*lh;
+  lines.forEach(function(l,i){var p=eOut(seg(t,start+i*stagger,start+i*stagger+.55));if(p<=0)return;ctx.save();ctx.font=F(B,"head",size);var tw=ctx.measureText(l).width,x=align==="left"?LS(120,W*.12):(W-tw)/2,y=y0+i*lh;
     ctx.beginPath();ctx.rect(0,y-lh*.62,W,lh*1.12);ctx.clip();ctx.fillStyle=color;ctx.textBaseline="middle";ctx.fillText(l,x,y+(1-p)*lh*.9);ctx.restore();});
 }
 function statement_card(ctx,s,B,t){
-  var c=C(s,B),D=s.dur;backdrop(ctx,c,t,D,s.style);var f=fit(ctx,B,"head",up(s.text.main,s),860,6,s.size||112,60),lh=f.size*1.18,y0=H/2-((f.lines.length-1)*lh)/2+(s.text.sub?40:0);
-  kicker(ctx,s,B,c,t,y0-lh*.5-120);lineReveal(ctx,B,f.lines,f.size,lh,y0,t,.25,.16,c.fg);
-  var emph=(s.text.emph||[]);if(emph.length){/* accent underline under last line */var p=eOut(seg(t,.4+f.lines.length*.16,.9+f.lines.length*.16));ctx.fillStyle=c.ac;ctx.font=F(B,"head",f.size);var lw=ctx.measureText(f.lines[f.lines.length-1]).width;rr(ctx,W/2-lw/2,y0+(f.lines.length-1)*lh+f.size*.62,lw*p,14,7);ctx.fill();}
+  var c=C(s,B),D=s.dur;backdrop(ctx,c,t,D,s.style);var f=LAND?fitB(ctx,B,"head",up(s.text.main,s),W*.66,3,SZ(s.size||112),52):fit(ctx,B,"head",up(s.text.main,s),860,6,s.size||112,60),lh=f.size*1.18,y0=H/2-((f.lines.length-1)*lh)/2+(s.text.sub?LS(40,34):0);
+  kicker(ctx,s,B,c,t,y0-lh*.5-LS(120,84));lineReveal(ctx,B,f.lines,f.size,lh,y0,t,.25,.16,c.fg);
+  var emph=(s.text.emph||[]);if(emph.length){/* accent underline under last line */var p=eOut(seg(t,.4+f.lines.length*.16,.9+f.lines.length*.16));ctx.fillStyle=c.ac;ctx.font=F(B,"head",f.size);var lw=ctx.measureText(f.lines[f.lines.length-1]).width;rr(ctx,W/2-lw/2,y0+(f.lines.length-1)*lh+f.size*.62,lw*p,LS(14,12),LS(7,6));ctx.fill();}
+}
+/* 16:9 number card: the ring on the left, the label on the right (centred when there is no label) */
+function number_card16(ctx,s,B,t){
+  var c=C(s,B),D=s.dur;backdrop(ctx,c,t,D,"none");var n=parseNum(s.text.number),cnt=eOut(seg(t,.3,1.8)),str=n&&n.val>=10?fmtNum(n.val*cnt,n):s.text.number;
+  var lab=s.text.label?up(s.text.label,s):"",R=H*.27,cx=lab?W*.32:W/2,cy=H*.5,lx=W*.53,f=null,ls=0,ly0=cy;
+  if(lab){f=fitB(ctx,B,"body",lab,W*.38,4,64,36);ls=f.size*1.25;ly0=cy-((f.lines.length-1)*ls)/2+(s.text.sub?30:0);kicker(ctx,s,B,c,t,ly0-ls*.5-70,lx);}else{cy+=s.text.sub?40:0;kicker(ctx,s,B,c,t,cy-R-80);}
+  ctx.save();ctx.lineWidth=18;ctx.strokeStyle=rgba(c.ac,.2);ctx.beginPath();ctx.arc(cx,cy,R,0,Math.PI*2);ctx.stroke();ctx.strokeStyle=c.ac;ctx.lineCap="round";ctx.beginPath();ctx.arc(cx,cy,R,-Math.PI/2,-Math.PI/2+Math.PI*2*eInOut(seg(t,.2,1.8)));ctx.stroke();ctx.restore();
+  var size=SZ(s.size||230);ctx.font=F(B,"head",size);while(ctx.measureText(str).width>R*1.6&&size>72){size-=8;ctx.font=F(B,"head",size);}
+  ctx.save();ctx.globalAlpha=seg(t,.2,.5);ctx.fillStyle=c.fg;ctx.textAlign="center";ctx.textBaseline="middle";ctx.fillText(str,cx,cy+6);ctx.restore();
+  if(f){ctx.save();ctx.textAlign="left";ctx.textBaseline="middle";ctx.font=F(B,"body",f.size);f.lines.forEach(function(l,i){var p=eOut(seg(t,1+i*.12,1.5+i*.12));ctx.globalAlpha=p;ctx.fillStyle=c.fg;ctx.fillText(l,lx,ly0+i*ls+(1-p)*24);});ctx.restore();}
 }
 function number_card(ctx,s,B,t){
+  if(LAND)return number_card16(ctx,s,B,t);
   var c=C(s,B),D=s.dur;backdrop(ctx,c,t,D,"none");var n=parseNum(s.text.number),cnt=eOut(seg(t,.3,1.8)),str=n&&n.val>=10?fmtNum(n.val*cnt,n):s.text.number,cy=H*.44,R=340;
   kicker(ctx,s,B,c,t,cy-R-150);
   ctx.save();ctx.lineWidth=22;ctx.strokeStyle=rgba(c.ac,.2);ctx.beginPath();ctx.arc(W/2,cy,R,0,Math.PI*2);ctx.stroke();ctx.strokeStyle=c.ac;ctx.lineCap="round";ctx.beginPath();ctx.arc(W/2,cy,R,-Math.PI/2,-Math.PI/2+Math.PI*2*eInOut(seg(t,.2,1.8)));ctx.stroke();ctx.restore();
@@ -380,13 +419,34 @@ function number_card(ctx,s,B,t){
   ctx.save();ctx.globalAlpha=seg(t,.2,.5);ctx.fillStyle=c.fg;ctx.textAlign="center";ctx.textBaseline="middle";ctx.fillText(str,W/2,cy+8);ctx.restore();
   if(s.text.label){var f=fit(ctx,B,"body",up(s.text.label,s),840,4,62,40);ctx.save();ctx.textAlign="center";ctx.textBaseline="middle";f.lines.forEach(function(l,i){var p=eOut(seg(t,1+i*.12,1.5+i*.12));ctx.globalAlpha=p;ctx.fillStyle=c.fg;ctx.fillText(l,W/2,cy+R+130+i*f.size*1.25+(1-p)*24);});ctx.restore();}
 }
+/* 16:9 quote card: same look, a wider measure, text block centred in the frame */
+function quote_card16(ctx,s,B,t){
+  var c=C(s,B),D=s.dur;backdrop(ctx,c,t,D,"none");var LM=W*.12,f=fitB(ctx,B,"head",up(s.text.main,s),W*.7,4,SZ(s.size||88),44),lh=f.size*1.24,gh=110,wh=s.text.who?44+38:0;
+  var bh=gh+f.lines.length*lh+wh,y0=Math.max(H*.1,H/2-bh/2)+gh+lh/2,e=eOut(seg(t,0,.5));
+  ctx.save();ctx.globalAlpha=.9*e;ctx.fillStyle=c.ac;ctx.font=F(B,"head",300);ctx.textBaseline="alphabetic";ctx.fillText("“",LM-16,y0-lh*.5-gh+190+110*(1-e));ctx.restore();
+  lineReveal(ctx,B,f.lines,f.size,lh,y0,t,.3,.14,c.fg,"left");
+  if(s.text.who){var p=eOut(seg(t,.5+f.lines.length*.14,1+f.lines.length*.14)),y=y0+f.lines.length*lh-lh/2+44;ctx.save();ctx.globalAlpha=p;ctx.fillStyle=c.ac;ctx.fillRect(LM,y-3,64*p,7);ctx.font=F(B,"body",38);ctx.textBaseline="middle";ctx.fillText(up(s.text.who,s),LM+88,y);ctx.restore();}
+}
 function quote_card(ctx,s,B,t){
+  if(LAND)return quote_card16(ctx,s,B,t);
   var c=C(s,B),D=s.dur;backdrop(ctx,c,t,D,"none");var f=fit(ctx,B,"head",up(s.text.main,s),860,8,s.size||88,48),lh=f.size*1.24,y0=H/2-((f.lines.length-1)*lh)/2;
   ctx.save();ctx.globalAlpha=.9*eOut(seg(t,0,.5));ctx.fillStyle=c.ac;ctx.font=F(B,"head",420);ctx.textBaseline="alphabetic";ctx.fillText("“",100,y0-lh*.6+150*(1-eOut(seg(t,0,.5)))+60);ctx.restore();
   lineReveal(ctx,B,f.lines,f.size,lh,y0,t,.3,.14,c.fg,"left");
   if(s.text.who){var p=eOut(seg(t,.5+f.lines.length*.14,1+f.lines.length*.14)),y=y0+f.lines.length*lh+50;ctx.save();ctx.globalAlpha=p;ctx.fillStyle=c.ac;ctx.fillRect(120,y-4,80*p,8);ctx.font=F(B,"body",46);ctx.textBaseline="middle";ctx.fillText(up(s.text.who,s),230,y);ctx.restore();}
 }
+/* 16:9 list card: heading and numbered items left-aligned, the whole block centred top to bottom */
+function list_card16(ctx,s,B,t){
+  var c=C(s,B),D=s.dur;backdrop(ctx,c,t,D,s.style);var items=s.text.items||[],LM=W*.12,hf=null,tot=0,gs=[];
+  if(s.text.main){hf=fit(ctx,B,"head",up(s.text.main,s),W*.7,2,SZ(96),48);tot+=hf.lines.length*hf.size*1.15+48;}
+  items.forEach(function(it){var g=fit(ctx,B,"body",up(it,s),W*.66,2,items.length>4?44:SZ(64),32);gs.push(g);tot+=g.lines.length*g.size*1.22+(items.length>4?30:44);});
+  var y=Math.max(H*.1,H/2-tot/2);
+  if(hf){y+=hf.size*.58;lineReveal(ctx,B,hf.lines,hf.size,hf.size*1.15,y,t,.15,.12,c.fg,"left");y+=(hf.lines.length-1)*hf.size*1.15+hf.size*.58+48;}
+  items.forEach(function(it,i){var g=gs[i],y1=y+g.size*.61;y+=g.lines.length*g.size*1.22+(items.length>4?30:44);var p=eOut(seg(t,.6+i*.38,1.1+i*.38));if(p<=0)return;ctx.save();ctx.globalAlpha=p;ctx.translate((1-p)*-48,0);
+    var r=Math.max(16,g.size*.36);ctx.fillStyle=c.ac;ctx.beginPath();ctx.arc(LM+r,y1,r,0,Math.PI*2);ctx.fill();ctx.fillStyle=c.onAc;ctx.font=F(B,"head",r*1.25);ctx.textAlign="center";ctx.textBaseline="middle";ctx.fillText(String(i+1),LM+r,y1+2);
+    ctx.textAlign="left";ctx.fillStyle=c.fg;ctx.font=F(B,"body",g.size);g.lines.forEach(function(l,j){ctx.fillText(l,LM+r*2+28,y1+j*g.size*1.22);});ctx.restore();});
+}
 function list_card(ctx,s,B,t){
+  if(LAND)return list_card16(ctx,s,B,t);
   var c=C(s,B),D=s.dur;backdrop(ctx,c,t,D,s.style);var items=s.text.items||[],y=H*.3;
   if(s.text.main){var f=fit(ctx,B,"head",up(s.text.main,s),840,3,96,56);lineReveal(ctx,B,f.lines,f.size,f.size*1.15,y,t,.15,.12,c.fg,"left");y+=f.lines.length*f.size*1.15+90;}
   items.forEach(function(it,i){var p=eOut(seg(t,.6+i*.38,1.1+i*.38));if(p<=0)return;var g=fit(ctx,B,"body",up(it,s),760,3,64,40);ctx.save();ctx.globalAlpha=p;ctx.translate((1-p)*-60,0);
@@ -395,8 +455,8 @@ function list_card(ctx,s,B,t){
 }
 function question_card(ctx,s,B,t){
   var c=C(s,B),D=s.dur;backdrop(ctx,c,t,D,"none");var ph=t/D*Math.PI*2;
-  ctx.save();ctx.globalAlpha=.14;ctx.fillStyle=c.ac;ctx.font=F(B,"head",1100);ctx.textAlign="center";ctx.textBaseline="middle";ctx.translate(W*.62,H*.5);ctx.rotate(.08*Math.sin(ph));ctx.fillText("?",0,0);ctx.restore();
-  var f=fit(ctx,B,"head",up(s.text.main,s),860,6,s.size||110,60),lh=f.size*1.18,y0=H/2-((f.lines.length-1)*lh)/2;kicker(ctx,s,B,c,t,y0-lh*.5-120);lineReveal(ctx,B,f.lines,f.size,lh,y0,t,.25,.18,c.fg);
+  ctx.save();ctx.globalAlpha=.14;ctx.fillStyle=c.ac;ctx.font=F(B,"head",LS(1100,1000));ctx.textAlign="center";ctx.textBaseline="middle";ctx.translate(W*LS(.62,.7),H*.5);ctx.rotate(.08*Math.sin(ph));ctx.fillText("?",0,0);ctx.restore();
+  var f=LAND?fitB(ctx,B,"head",up(s.text.main,s),W*.62,3,SZ(s.size||110),52):fit(ctx,B,"head",up(s.text.main,s),860,6,s.size||110,60),lh=f.size*1.18,y0=H/2-((f.lines.length-1)*lh)/2;kicker(ctx,s,B,c,t,y0-lh*.5-LS(120,84));lineReveal(ctx,B,f.lines,f.size,lh,y0,t,.25,.18,c.fg);
 }
 function texture_loop(ctx,s,B,t){
   var c=C(s,B),D=s.dur,ph=t/D*Math.PI*2;ctx.fillStyle=c.bg;ctx.fillRect(0,0,W,H);var cols=[c.ac,c.ac2,c.fg],S=180;
@@ -407,7 +467,23 @@ function texture_loop(ctx,s,B,t){
 var imgs={};
 function img(url){if(!url)return null;var o=imgs[url];if(!o){o=imgs[url]={el:new Image(),ok:false};o.p=new Promise(function(res){o.el.onload=function(){o.ok=true;res();};o.el.onerror=function(){res();};});o.el.src=url;}return o;}
 function ensureImgs(s){var o=img(s&&s.logo);return o?o.p:Promise.resolve();}
+/* 16:9 end card: logo (or name) and the lines as one group, centred in the frame */
+function end_card16(ctx,s,B,t){
+  var c=C(s,B),tx=s.text||{},lines=tx.lines||[],o=img(s.logo),p=eOut(seg(t,.05,.7)),k1=.92+.08*eBack(seg(t,.05,.65));
+  var ov=s.tpl==="end_card_overlay";if(!ov){ctx.fillStyle=c.bg;ctx.fillRect(0,0,W,H);}else{c.fg=(s.c&&s.c.fg)||"#FFFFFF";shadow(ctx,true);}ctx.textAlign="center";ctx.textBaseline="middle";
+  var lg=null,nm=null,bl=[],tot=0,gap=0;
+  if(o&&o.ok){var iw=o.el.naturalWidth||1,ih=o.el.naturalHeight||1,k=Math.min(Math.min((s.logo_w||640)*.85,W*.42)/iw,(s.logo_h||400)*.85/ih);lg={w:iw*k,h:ih*k};tot+=lg.h;gap=64;}
+  else if(tx.name){nm=fitB(ctx,B,"head",up(tx.name,s),W*.7,2,SZ(s.size||104),48);nm.lh=nm.size*1.12;tot+=nm.lines.length*nm.lh;gap=52;}
+  lines.forEach(function(l,i){var kind=(i===0&&lines.length>1)||(!o&&!tx.name)?"head":"body",f=fitB(ctx,B,kind,up(l,s),W*.66,2,kind==="head"?(o||tx.name?60:80):50,32);f.kind=kind;f.lh=f.size*1.25;bl.push(f);tot+=(i?20:gap)+f.lines.length*f.lh;});
+  var y=H/2-tot/2;
+  if(lg){ctx.save();ctx.globalAlpha=p;ctx.translate(W/2,y+lg.h/2);ctx.scale(k1,k1);ctx.drawImage(o.el,-lg.w/2,-lg.h/2,lg.w,lg.h);ctx.restore();y+=lg.h+gap;}
+  else if(nm){ctx.save();ctx.globalAlpha=p;ctx.fillStyle=c.fg;ctx.font=F(B,"head",nm.size);nm.lines.forEach(function(l,i){ctx.fillText(l,W/2,y+nm.lh*(i+.5)+(1-p)*24);});ctx.restore();y+=nm.lines.length*nm.lh+gap;}
+  bl.forEach(function(f,i){var q=eOut(seg(t,.55+i*.35,1.05+i*.35));if(i)y+=20;
+    if(q>0){ctx.save();ctx.globalAlpha=q;ctx.fillStyle=c.fg;ctx.font=F(B,f.kind,f.size);f.lines.forEach(function(ln,j){ctx.fillText(ln,W/2,y+f.lh*(j+.5)+(1-q)*24);});ctx.restore();}
+    y+=f.lines.length*f.lh;});
+}
 function end_card(ctx,s,B,t){
+  if(LAND)return end_card16(ctx,s,B,t);
   var c=C(s,B),tx=s.text||{},lines=tx.lines||[],o=img(s.logo),y=lines.length?H*.42:H*.5,p=eOut(seg(t,.05,.7)),k1=.92+.08*eBack(seg(t,.05,.65));
   var ov=s.tpl==="end_card_overlay";if(!ov){ctx.fillStyle=c.bg;ctx.fillRect(0,0,W,H);}else{c.fg=(s.c&&s.c.fg)||"#FFFFFF";shadow(ctx,true);}ctx.textAlign="center";ctx.textBaseline="middle";
   if(o&&o.ok){var iw=o.el.naturalWidth,ih=o.el.naturalHeight,k=Math.min((s.logo_w||640)/iw,(s.logo_h||400)/ih),w=iw*k,h=ih*k;
@@ -422,15 +498,18 @@ function end_card(ctx,s,B,t){
 function caption_track(ctx,s,B,t){
   /* style: font ("head"|"body"|{css,w}), size, y (block centre, or first line when anchor:"top"), max width 940, reveal "word"|"phrase",
      fg, shadow, box {bg,r,px,py,accent}, emph {mode:"pill"|"color", bg, fg}, upper. pages: [{t0,t1,lines:[[a,b],..]}] (old files: lines) */
-  var st=s.style||{},size=st.size||70,fg=st.fg||"#FFFFFF",Wd=s.words||[],pages=s.pages||(s.lines||[]).map(function(l){return {t0:l.t0,t1:l.t1,lines:[[l.a,l.b]]};}),pg=null,i;
+  /* 16:9 (Atdhe 2026-10-26): style.y and style.size were set for 1080x1920, so in 16:9 the block sits in the lower band
+     (centre ~0.82 of the height), the size is 0.85x and a line may be 0.7 of the width. Font, colours, box and reveal stay. */
+  var st=s.style||{},size=LAND?Math.round((st.size||70)*.85):st.size||70,fg=st.fg||"#FFFFFF",Wd=s.words||[],pages=s.pages||(s.lines||[]).map(function(l){return {t0:l.t0,t1:l.t1,lines:[[l.a,l.b]]};}),pg=null,i;
   for(i=0;i<pages.length;i++){if(t>=pages[i].t0&&t<pages[i].t1){pg=pages[i];break;}}
   if(!pg)return;
   var em=st.emph||(st.emph_bg?{mode:"pill",bg:st.emph_bg}:null),bx=st.box||null,word=(st.reveal||"word")==="word";
   function font(sz){var f=st.font;if(f&&typeof f==="object")return (f.w||700)+" "+Math.round(sz)+"px "+f.css;return F(B,f==="body"?"body":"head",sz);}
   var sz=size,L=[];
   for(var pass=0;pass<2;pass++){ctx.font=font(sz);var gap=ctx.measureText(" ").width,widest=0;L=pg.lines.map(function(r){var ws=[],tot=0;for(var k=r[0];k<=r[1];k++){var tx=up(Wd[k].w,s),mw=ctx.measureText(tx).width;ws.push({w:Wd[k],tx:tx,mw:mw});tot+=mw;}tot+=gap*(ws.length-1);widest=Math.max(widest,tot);return {ws:ws,tot:tot};});
-    if(widest<=940)break;sz=Math.floor(sz*940/widest);}
+    if(widest<=LS(940,W*.7))break;sz=Math.floor(sz*LS(940,W*.7)/widest);}
   var lh=sz*(bx?1.42:1.22),y0=st.anchor==="top"?(st.y||1300):(st.y||1380)-((L.length-1)*lh)/2,out=eInOut(seg(t,pg.t1-.08,pg.t1)),pin=word?1:eOut(seg(t,pg.t0,pg.t0+.16));
+  if(LAND)y0=H*.82-((st.anchor==="top"?Math.max(1,st.max_lines||2):L.length)-1)*lh/2;
   ctx.save();ctx.textBaseline="middle";ctx.textAlign="left";ctx.font=font(sz);var gp=ctx.measureText(" ").width;
   L.forEach(function(ln,li){var y=y0+li*lh,x=W/2-ln.tot/2,first=ln.ws[0].w.t0;
     if(bx){var px=bx.px!=null?bx.px:sz*.35,py=bx.py!=null?bx.py:sz*.16,bh=sz*1.12+py*2,r=bx.r!=null?bx.r:(bx.pill?bh/2:sz*.18),pb=word?eOut(seg(t,first-.04,first+.12)):pin;
@@ -445,7 +524,8 @@ function caption_track(ctx,s,B,t){
 }
 var T={kinetic_quote:{fn:kinetic_quote,mode:"overlay",name:"Kinetic quote"},stat_counter:{fn:stat_counter,mode:"overlay",name:"Number pop"},word_stack:{fn:word_stack,mode:"overlay",name:"Word stack"},highlight_callout:{fn:highlight_callout,mode:"overlay",name:"Highlighter"},corner_frame:{fn:corner_frame,mode:"overlay",name:"Focus frame"},brand_wipe:{fn:brand_wipe,mode:"overlay",name:"Brand wipe transition"},tag_label:{fn:tag_label,mode:"overlay",name:"Topic tag"},
   statement_card:{fn:statement_card,mode:"full",name:"Statement card"},number_card:{fn:number_card,mode:"full",name:"Number card"},quote_card:{fn:quote_card,mode:"full",name:"Quote card"},list_card:{fn:list_card,mode:"full",name:"List card"},question_card:{fn:question_card,mode:"full",name:"Question card"},texture_loop:{fn:texture_loop,mode:"full",name:"Brand texture loop"},end_card:{fn:end_card,mode:"full",name:"End card"},end_card_overlay:{fn:end_card,mode:"overlay",name:"End card over footage"},caption_track:{fn:caption_track,mode:"overlay",name:"Captions"}};
-function draw(ctx,s,B,t){var tp=T[s.tpl];ctx.clearRect(0,0,W,H);if(!tp)return;ctx.save();ctx.textAlign="left";ctx.textBaseline="alphabetic";try{tp.fn(ctx,s,B,clamp(t,0,s.dur));}catch(e){}ctx.restore();}
+/* dim: [w,h] for this frame (exports pass the size they started with); without it, the size set by MG.setSize */
+function draw(ctx,s,B,t,dim){use(dim);var tp=T[s.tpl];ctx.clearRect(0,0,W,H);if(!tp)return;ctx.save();ctx.textAlign="left";ctx.textBaseline="alphabetic";try{tp.fn(ctx,s,B,clamp(t,0,s.dur));}catch(e){}ctx.restore();}
 function modeOf(s){return (T[s.tpl]&&T[s.tpl].mode)||s.mode||"overlay";}
 var fontsP={};
 var cssP={};
@@ -492,25 +572,29 @@ function movPNG(frames,w,h,fps){
   var moov=box("moov",cat(mvhd,box("trak",cat(tkhd,edts,box("mdia",cat(mdhd,hdlr,box("minf",cat(vmhd,dhdlr,dinf,box("stbl",cat(stsd,stts,stsc,stsz,stco))))))))));
   return new Blob([new Uint8Array(ftyp),new Uint8Array(wide),new Uint8Array(mdat)].concat(frames,[new Uint8Array(moov)]),{type:"video/quicktime"});
 }
-async function exportMG(s,B,onProg){
-  await ensureFonts(B);await ensureImgs(s);await ensureStyleFont(s,B);var cv=document.createElement("canvas");cv.width=W;cv.height=H;var ctx=cv.getContext("2d",{alpha:true}),N=Math.round(s.dur*FPS);
+/* dim: optional [w,h]; without it the file is made at the size set by MG.setSize when the export starts.
+   16:9 files keep the base name with _16x9 in place of _9x16 (or added at the end). */
+async function exportMG(s,B,onProg,dim){
+  dim=Array.isArray(dim)?dim:[DW,DH];var w=dim[0],h=dim[1],base=oriName(s.base,w>h);
+  await ensureFonts(B);await ensureImgs(s);await ensureStyleFont(s,B);var cv=document.createElement("canvas");cv.width=w;cv.height=h;var ctx=cv.getContext("2d",{alpha:true}),N=Math.round(s.dur*FPS);
   if(modeOf(s)==="overlay"){
     var frames=[];
-    for(var i=0;i<N;i++){draw(ctx,s,B,i/FPS);frames.push(await new Promise(function(r){cv.toBlob(r,"image/png");}));if(i%5===0){onProg(i/N*.97);await new Promise(function(r){setTimeout(r,0);});}}
-    var mov=movPNG(frames,W,H,FPS);onProg(1);return {blob:mov,name:s.base+".mov",frames:N};
+    for(var i=0;i<N;i++){draw(ctx,s,B,i/FPS,dim);frames.push(await new Promise(function(r){cv.toBlob(r,"image/png");}));if(i%5===0){onProg(i/N*.97);await new Promise(function(r){setTimeout(r,0);});}}
+    var mov=movPNG(frames,w,h,FPS);onProg(1);return {blob:mov,name:base+".mov",frames:N};
   }
   if(typeof VideoEncoder==="undefined")throw new Error("This browser cannot make MP4 files. Use Chrome on a computer.");
   var M=await lib(LIBS.mp4,"Mp4Muxer"),codec=null;
-  for(var cc of ["avc1.640028","avc1.4d0028","avc1.42e028"]){try{var sup=await VideoEncoder.isConfigSupported({codec:cc,width:W,height:H,bitrate:10e6,framerate:FPS});if(sup.supported){codec=cc;break;}}catch(e){}}
+  for(var cc of ["avc1.640028","avc1.4d0028","avc1.42e028"]){try{var sup=await VideoEncoder.isConfigSupported({codec:cc,width:w,height:h,bitrate:10e6,framerate:FPS});if(sup.supported){codec=cc;break;}}catch(e){}}
   if(!codec)throw new Error("This browser cannot make MP4 files. Use Chrome on a computer.");
-  var target=new M.ArrayBufferTarget(),mux=new M.Muxer({target:target,video:{codec:"avc",width:W,height:H,frameRate:FPS},fastStart:"in-memory"}),err=null;
-  var enc=new VideoEncoder({output:function(ch,meta){mux.addVideoChunk(ch,meta);},error:function(e){err=e;}});enc.configure({codec:codec,width:W,height:H,bitrate:10e6,framerate:FPS,avc:{format:"avc"}});
-  var full=document.createElement("canvas");full.width=W;full.height=H;var fctx=full.getContext("2d",{alpha:false});
-  for(var j=0;j<N;j++){if(err)throw err;draw(ctx,s,B,j/FPS);fctx.fillStyle="#000";fctx.fillRect(0,0,W,H);fctx.drawImage(cv,0,0);var fr=new VideoFrame(full,{timestamp:Math.round(j*1e6/FPS),duration:Math.round(1e6/FPS)});enc.encode(fr,{keyFrame:j%60===0});fr.close();
+  var target=new M.ArrayBufferTarget(),mux=new M.Muxer({target:target,video:{codec:"avc",width:w,height:h,frameRate:FPS},fastStart:"in-memory"}),err=null;
+  var enc=new VideoEncoder({output:function(ch,meta){mux.addVideoChunk(ch,meta);},error:function(e){err=e;}});enc.configure({codec:codec,width:w,height:h,bitrate:10e6,framerate:FPS,avc:{format:"avc"}});
+  var full=document.createElement("canvas");full.width=w;full.height=h;var fctx=full.getContext("2d",{alpha:false});
+  for(var j=0;j<N;j++){if(err)throw err;draw(ctx,s,B,j/FPS,dim);fctx.fillStyle="#000";fctx.fillRect(0,0,w,h);fctx.drawImage(cv,0,0);var fr=new VideoFrame(full,{timestamp:Math.round(j*1e6/FPS),duration:Math.round(1e6/FPS)});enc.encode(fr,{keyFrame:j%60===0});fr.close();
     if(enc.encodeQueueSize>10)await new Promise(function(r){setTimeout(r,5);});if(j%5===0){onProg(j/N*.95);await new Promise(function(r){setTimeout(r,0);});}}
-  await enc.flush();if(err)throw err;mux.finalize();onProg(1);return {blob:new Blob([target.buffer],{type:"video/mp4"}),name:s.base+"_full-frame.mp4"};
+  await enc.flush();if(err)throw err;mux.finalize();onProg(1);return {blob:new Blob([target.buffer],{type:"video/mp4"}),name:base+"_full-frame.mp4"};
 }
-return {W:W,H:H,FPS:FPS,T:T,draw:draw,modeOf:modeOf,ensureFonts:ensureFonts,ensureImgs:ensureImgs,ensureStyleFont:ensureStyleFont,exportMG:exportMG,movPNG:movPNG,LIBS:LIBS,lib:lib};
+/* MG.W / MG.H: the size previews and downloads use now (MG.setSize changes it) */
+return {get W(){return DW;},get H(){return DH;},FPS:FPS,T:T,draw:draw,setSize:setSize,oriName:oriName,modeOf:modeOf,ensureFonts:ensureFonts,ensureImgs:ensureImgs,ensureStyleFont:ensureStyleFont,exportMG:exportMG,movPNG:movPNG,LIBS:LIBS,lib:lib};
 })();
 
 </script>
@@ -534,6 +618,7 @@ async function load(){
     var mgd=null,brand=null;
     try{ mgd=await getJSON("mg/"+id+".json"); var brands=cache.__brands||(cache.__brands=await getJSON("mg/brands.json")); brand=brands[item.client]||null; }catch(e){ mgd=null; }
     CUR_MG=(mgd&&brand&&mgd.mg&&mgd.mg.length)?{d:mgd,b:brand}:null;
+    var fo=oriOf(item.format),fx=mgd&&mgd.format; ORI.both=fo.both; ORI.cur=(fx==="16x9"||fx==="9x16")?fx:fo.first; MG.setSize.apply(null,oriDim());
     try{ var ups=cache.__ups||(cache.__ups=await getJSON("uploads.json")); CUR_UP=ups[id]||null; }catch(e){ CUR_UP=null; }
     try{ var dls=cache.__dl||(cache.__dl=await getJSON("deliverables.json")); CUR_DL=dls[id]||null; }catch(e){ CUR_DL=null; }
     try{ var capd=await getJSON("captions/"+id+".json"); var bs=cache.__brands||(cache.__brands=await getJSON("mg/brands.json")); CUR_CAP=(capd.tracks&&capd.tracks.length&&bs[item.client])?{d:capd,b:bs[item.client]}:null; }catch(e){ CUR_CAP=null; }
@@ -792,6 +877,29 @@ var unsub=null, unsubSw=null;
 
 /* ===== Motion graphics library: section, row links, previews, downloads ===== */
 var CUR_MG=null;
+/* Frame size (Atdhe 2026-10-26): the first ratio named in item.format decides (mg/<id>.json "format": "16x9" or "9x16" overrides it).
+   A video made in both sizes gets a 16:9 / 9:16 switch on Motion graphics and Captions (one shared choice). */
+var ORI={cur:"9x16",both:false};
+function oriOf(fmt){ fmt=String(fmt||""); var re=/(^|[^\d])(16\s*[:x×]\s*9|9\s*[:x×]\s*16)(?!\d)/gi,m,seen=[];
+  while((m=re.exec(fmt))){ var r=/^16/.test(m[2])?"16x9":"9x16"; if(seen.indexOf(r)<0) seen.push(r); }
+  if(!seen.length){ var a=fmt.search(/1920\s*[x×]\s*1080/),b=fmt.search(/1080\s*[x×]\s*1920/); if(a>=0&&(b<0||a<b)) seen.push("16x9"); }
+  return {first:seen[0]||"9x16",both:seen.length>1}; }
+function oriDim(){ return ORI.cur==="16x9"?[1920,1080]:[1080,1920]; }
+function oriLand(){ return ORI.cur==="16x9"; }
+function oriTxt(sep){ var d=oriDim(); return d[0]+(sep||"×")+d[1]; }
+function oriTog(){ if(!ORI.both) return ""; return '<div class="ori-row"><span class="eyebrow">Video size</span><div class="ori-tog" role="group" aria-label="Video size">'+["16x9","9x16"].map(function(o){ return '<button type="button" data-ori="'+o+'" aria-pressed="'+(ORI.cur===o)+'">'+o.replace("x",":")+'</button>'; }).join("")+'</div></div>'; }
+function cvSize(){ return oriLand()?'width="640" height="360"':'width="360" height="640"'; }
+function fileVert(m){ if(!m||!m.file) return false; if(/9x16/i.test(m.file)) return true; var v=document.querySelector("#mg-"+m.n+" video"); return !!(v&&v.videoHeight>v.videoWidth); }
+function oriNotes(){ var land=oriLand(); [].forEach.call(document.querySelectorAll(".mg-ori-note"),function(p){ var n=p.getAttribute("data-orinote"),m=CUR_MG&&CUR_MG.d.mg.filter(function(x){return String(x.n)===n;})[0]; p.hidden=!(land&&fileVert(m)); }); }
+function setOri(o){
+  if(o==="16x9"||o==="9x16") ORI.cur=o; MG.setSize.apply(null,oriDim()); var land=oriLand();
+  [].forEach.call(document.querySelectorAll("canvas[data-mgc],canvas[data-capc]"),function(cv){ cv.width=land?640:360; cv.height=land?360:640; });
+  [].forEach.call(document.querySelectorAll("#mg .mg-grid,#captions .mg-grid"),function(g){ g.classList.toggle("land",land); });
+  [].forEach.call(document.querySelectorAll("[data-orisz]"),function(x){ x.textContent=oriTxt(); });
+  [].forEach.call(document.querySelectorAll("[data-ori]"),function(b){ b.setAttribute("aria-pressed",String(b.getAttribute("data-ori")===ORI.cur)); });
+  oriNotes();
+}
+document.addEventListener("click",function(e){ var b=e.target.closest&&e.target.closest("[data-ori]"); if(!b) return; e.preventDefault(); setOri(b.getAttribute("data-ori")); });
 /* Captions as transparent .mov files (captions/<id>.json, Atdhe 2026-10-22): one clip per bite, drawn by MG.caption_track */
 var CUR_CAP=null;
 function capSection(it,cl){
@@ -799,14 +907,14 @@ function capSection(it,cl){
   var D=CUR_CAP.d,B=CUR_CAP.b,ts=D.tracks;
   var cards=ts.map(function(m){
     var fr=mgFrameFor(it,m),cut=(m.rows||[]).map(function(tc){ return '<a href="#" data-mgrow="'+esc(tc)+'">'+esc(tc)+'</a>'; }).join(", ");
-    return '<div class="mg-card" id="cap-'+m.n+'"><div class="mg-stage overlay'+(fr?'':' nofr')+'"'+(fr?' style="background-image:url('+fr+')"':'')+'><canvas width="360" height="640" data-capc="'+m.n+'" aria-label="Preview of caption clip '+m.n+'"></canvas><span class="mg-badge">Captions · transparent</span><span class="mg-dur">'+esc(m.dur)+' s</span></div>'+
+    return '<div class="mg-card" id="cap-'+m.n+'"><div class="mg-stage overlay'+(fr?'':' nofr')+'"'+(fr?' style="background-image:url('+fr+')"':'')+'><canvas '+cvSize()+' data-capc="'+m.n+'" aria-label="Preview of caption clip '+m.n+'"></canvas><span class="mg-badge">Captions · transparent</span><span class="mg-dur">'+esc(m.dur)+' s</span></div>'+
       '<div class="mg-body"><span class="eyebrow">Captions '+m.n+' · '+esc(m.title||"")+'</span><h3>'+esc(m.text||"")+'</h3>'+
       '<p class="mg-src">Frame 0 lines up with '+esc(m.src||"")+', just before the first word.</p>'+(cut?'<p class="mg-cut note">Bite at: '+cut+'</p>':'')+
       '<button type="button" class="btn" data-capdl="'+m.n+'">Download .mov (transparent)</button><div class="mg-prog" hidden><span></span></div><span class="note mg-st"></span></div></div>';
   }).join("");
-  return '<section id="captions"><div class="wrap"><div class="sec-head"><span class="eyebrow">Captions</span><h2>'+ts.length+' caption clips in '+esc(cl.short||cl.name)+'’s style</h2><p>Every spoken bite as a transparent .mov (PNG codec, alpha kept), 1080×1920 at 30 fps, in the brand caption style: select them all in File > Import and they come in at once. '+(((D.style||{}).reveal||"word")==="word"?'Words come in as they are spoken, one line at a time.':'Each caption comes in as its words are spoken, up to '+(((D.style||{}).max_lines)||2)+' lines.')+' Frame 0 (the first frame) lines up with the source time on each card, just before the first word: put the clip on a track above the footage where that bite starts and trim it with the bite.</p>'+dlRow("cap","Download all captions (.zip)")+'</div>'+
+  return '<section id="captions"><div class="wrap"><div class="sec-head"><span class="eyebrow">Captions</span><h2>'+ts.length+' caption clips in '+esc(cl.short||cl.name)+'’s style</h2>'+oriTog()+'<p>Every spoken bite as a transparent .mov (PNG codec, alpha kept), <span data-orisz>'+oriTxt()+'</span> at 30 fps, in the brand caption style: select them all in File > Import and they come in at once. '+(((D.style||{}).reveal||"word")==="word"?'Words come in as they are spoken, one line at a time.':'Each caption comes in as its words are spoken, up to '+(((D.style||{}).max_lines)||2)+' lines.')+' Frame 0 (the first frame) lines up with the source time on each card, just before the first word: put the clip on a track above the footage where that bite starts and trim it with the bite.</p>'+dlRow("cap","Download all captions (.zip)")+'</div>'+
     (D.note?'<div class="mg-brand"><div class="mg-caution"><b>For this video:</b> '+esc(D.note)+'</div></div>':'')+
-    '<div class="mg-grid">'+cards+'</div></div></section>';
+    '<div class="mg-grid'+(oriLand()?' land':'')+'">'+cards+'</div></div></section>';
 }
 function wireCaps(it,cl){
   if(!CUR_CAP) return;
@@ -837,7 +945,7 @@ function wireCaps(it,cl){
     finally{ b.disabled=false; setTimeout(function(){pg.hidden=true;bar.style.width="0";},1500); }
   });
 }
-function capHowto(m){ return "Captions for one bite: {N} frames at 30 fps, 1080x1920, transparent.\nFrame 0 lines up with "+(m.src||"")+" in the source clip, just before the first word.\nPut it on a track above the footage where this bite starts, then trim it with the bite.\nPremiere: File > Import, pick the first PNG, tick 'Image Sequence'. Resolve: drag the folder into the Media Pool.\n"; }
+function capHowto(m){ return "Captions for one bite: {N} frames at 30 fps, "+oriTxt("x")+", transparent.\nFrame 0 lines up with "+(m.src||"")+" in the source clip, just before the first word.\nPut it on a track above the footage where this bite starts, then trim it with the bite.\nPremiere: File > Import, pick the first PNG, tick 'Image Sequence'. Resolve: drag the folder into the Media Pool.\n"; }
 /* Download everything in one zip (Atdhe 2026-10-22): motion graphics, end card and captions, built in this browser */
 var CUR_IT=null;
 function dlRow(kind,label){ return '<div class="upl-row" data-dlwrap style="margin-top:12px"><button type="button" class="btn" data-dlall="'+kind+'">'+label+'</button><span class="note dl-st"></span><div class="mg-prog" hidden style="flex-basis:100%"><span></span></div></div>'; }
@@ -850,14 +958,14 @@ function saveBlob(blob,name){ var u=URL.createObjectURL(blob),a=document.createE
 async function downloadAll(kind,b){
   var it=CUR_IT; if(!it) return;
   var wrap=b.closest("[data-dlwrap]"),st=wrap.querySelector(".dl-st"),pg=wrap.querySelector(".mg-prog"),bar=pg.firstChild,label=st.textContent;
-  var key=String(it.edit_key||it.id).replace(/[^A-Za-z0-9]/g,""),pad=function(n){return String(n).padStart(2,"0");},jobs=[];
+  var key=String(it.edit_key||it.id).replace(/[^A-Za-z0-9]/g,""),pad=function(n){return String(n).padStart(2,"0");},jobs=[],dim=oriDim(),land=dim[0]>dim[1];
   if((kind==="all"||kind==="mg")&&CUR_MG) CUR_MG.d.mg.forEach(function(m){ var end=m.tpl==="end_card"||m.tpl==="end_card_overlay"; jobs.push({sec:end?"2 End card":"1 Motion graphics",m:m,B:CUR_MG.b,base:key+"_MG"+pad(m.n)+"_"+mgSlug(m.title)}); });
   if((kind==="all"||kind==="cap")&&CUR_CAP){ var D=CUR_CAP.d; D.tracks.forEach(function(m){ m.style=m.style||D.style; m.tpl="caption_track"; jobs.push({sec:"3 Captions",m:m,B:CUR_CAP.b,base:key+"_CAP"+pad(m.n)+"_"+mgSlug(m.title),howto:capHowto(m)}); }); }
   if(!jobs.length){ st.textContent="Nothing to download yet."; return; }
   [].forEach.call(document.querySelectorAll("[data-dlall]"),function(x){x.disabled=true;}); pg.hidden=false; bar.style.width="0";
   try{
     var JSZip=await MG.lib(MG.LIBS.zip,"JSZip"),zip=new JSZip(),U=CUR_UP||{},rd=[];
-    rd.push((it.title_short||it.title||"")+" · Edit Key "+(it.edit_key||"")+(U.file?"\nUpload as: "+U.file+(U.folder?"  →  Frame.io "+U.folder:""):"")+"\nAll 1080x1920, 30 fps. Graphics and captions are transparent .mov files (PNG codec, alpha kept): select them all in File > Import and they come in at once.\n");
+    rd.push((it.title_short||it.title||"")+" · Edit Key "+(it.edit_key||"")+(U.file?"\nUpload as: "+U.file+(U.folder?"  →  Frame.io "+U.folder:""):"")+"\nAll "+dim[0]+"x"+dim[1]+", 30 fps. Graphics and captions are transparent .mov files (PNG codec, alpha kept): select them all in File > Import and they come in at once.\n");
     var last="";
     for(var k=0;k<jobs.length;k++){
       var j=jobs[k],folder=zip.folder(j.sec);
@@ -865,16 +973,16 @@ async function downloadAll(kind,b){
       var prog=function(p){ bar.style.width=Math.round((k+Math.min(1,p))/jobs.length*92)+"%"; };
       var what;
       if(j.m.file){ var r=await fetch(j.m.file); if(!r.ok) throw new Error("Could not get the end card file. Try again."); what=j.m.file.split("/").pop(); folder.file(what,await r.blob()); }
-      else { var res=await MG.exportMG(Object.assign({},j.m,{base:j.base},j.howto?{howto:j.howto}:{}),j.B,prog,folder); folder.file(res.name,res.blob); what=res.name+(res.frames?" ("+res.frames+" frames)":""); }
+      else { var res=await MG.exportMG(Object.assign({},j.m,{base:j.base},j.howto?{howto:j.howto}:{}),j.B,prog,dim); folder.file(res.name,res.blob); what=res.name+(res.frames?" ("+res.frames+" frames)":""); }
       if(j.sec!==last){ rd.push("\n"+j.sec.replace(/^\d /,"").toUpperCase()); last=j.sec; }
       var where=(j.m.rows||[]).join(", ");
-      rd.push((j.sec==="3 Captions"?"Captions "+j.m.n:j.sec==="2 End card"?"End card":"MG "+j.m.n)+": "+what+(j.m.title&&j.sec!=="2 End card"?"  ·  "+j.m.title:"")+(where?"\n   Goes at: "+where:"")+(j.m.use?"\n   "+j.m.use:"")+(j.sec==="3 Captions"?"\n   Frame 0 lines up with "+(j.m.src||"")+".":""));
+      rd.push((j.sec==="3 Captions"?"Captions "+j.m.n:j.sec==="2 End card"?"End card":"MG "+j.m.n)+": "+what+(j.m.title&&j.sec!=="2 End card"?"  ·  "+j.m.title:"")+(where?"\n   Goes at: "+where:"")+(j.m.use?"\n   "+j.m.use:"")+(j.sec==="3 Captions"?"\n   Frame 0 lines up with "+(j.m.src||"")+".":"")+(land&&j.m.file&&fileVert(j.m)?"\n   This end card file is 9:16 (vertical). The client still owes a 16:9 version: ask Nick. Do not stretch it.":""));
       await new Promise(function(r){setTimeout(r,0);});
     }
     zip.file("READ ME.txt",rd.join("\n")+"\n");
     st.textContent="Zipping…";
     var out=await zip.generateAsync({type:"blob",compression:"STORE"},function(m){ bar.style.width=Math.round(92+m.percent*.08)+"%"; });
-    saveBlob(out,key+"_"+(kind==="all"?"all-assets":kind==="mg"?"motion-graphics":"captions")+".zip");
+    saveBlob(out,key+"_"+(kind==="all"?"all-assets":kind==="mg"?"motion-graphics":"captions")+(land?"_16x9":"")+".zip");
     st.textContent="Downloaded: "+jobs.length+" pieces in one zip.";
   }catch(err){ st.textContent=(err&&err.message&&err.message.length<140)?err.message:"Could not make the zip. Use Chrome on a computer."; }
   finally{ [].forEach.call(document.querySelectorAll("[data-dlall]"),function(x){x.disabled=false;}); setTimeout(function(){pg.hidden=true;bar.style.width="0";},2500); setTimeout(function(){ if(/^Downloaded/.test(st.textContent)) st.textContent=label; },15000); }
@@ -918,18 +1026,20 @@ function mgSection(it,cl){
   var cards=ms.map(function(m){
     var mode=MG.modeOf(m),fr=mode==="overlay"?mgFrameFor(it,m):null,tn=(MG.T[m.tpl]&&MG.T[m.tpl].name)||m.tpl;
     var cut=(m.rows||[]).map(function(tc){ return '<a href="#" data-mgrow="'+esc(tc)+'">'+esc(tc)+'</a>'; }).join(", ");
-    return '<div class="mg-card" id="mg-'+m.n+'"><div class="mg-stage '+mode+(fr?'':' nofr')+'"'+(fr?' style="background-image:url('+fr+')"':'')+'>'+(m.file?'<video src="'+esc(m.file)+'" muted loop autoplay playsinline preload="metadata" aria-label="The client\'s end card"></video>':'<canvas width="360" height="640" data-mgc="'+m.n+'" aria-label="Preview of motion graphic '+m.n+'"></canvas>')+'<span class="mg-badge'+(mode==="full"?" full":"")+'">'+(m.tpl==="end_card"||m.tpl==="end_card_overlay"?(m.file?"Client's own end card":m.tpl==="end_card_overlay"?"End card over footage":"End card"):mode==="full"?"Full-frame cutaway":"Transparent overlay")+'</span><span class="mg-dur">'+esc(m.dur)+' s</span></div>'+
+    return '<div class="mg-card" id="mg-'+m.n+'"><div class="mg-stage '+mode+(fr?'':' nofr')+'"'+(fr?' style="background-image:url('+fr+')"':'')+'>'+(m.file?'<video src="'+esc(m.file)+'" muted loop autoplay playsinline preload="metadata" aria-label="The client\'s end card"></video>':'<canvas '+cvSize()+' data-mgc="'+m.n+'" aria-label="Preview of motion graphic '+m.n+'"></canvas>')+'<span class="mg-badge'+(mode==="full"?" full":"")+'">'+(m.tpl==="end_card"||m.tpl==="end_card_overlay"?(m.file?"Client's own end card":m.tpl==="end_card_overlay"?"End card over footage":"End card"):mode==="full"?"Full-frame cutaway":"Transparent overlay")+'</span><span class="mg-dur">'+esc(m.dur)+' s</span></div>'+
       '<div class="mg-body"><span class="eyebrow">MG '+m.n+' · '+esc(tn)+'</span><h3>'+esc(m.title)+'</h3>'+(m.use?'<p class="note">'+esc(m.use)+'</p>':'')+
+      (m.file?'<p class="note mg-ori-note" data-orinote="'+esc(m.n)+'"'+(oriLand()&&/9x16/i.test(m.file)?'':' hidden')+'>This end card file is 9:16 (vertical). The client still owes a 16:9 version: ask Nick. Do not stretch it to fill the frame.</p>':'')+
       '<p class="mg-src">Words from: '+esc(m.src||"")+'</p>'+(cut?'<p class="mg-cut note">Cut in at: '+cut+'</p>':'<p class="mg-cut note">Use anywhere it helps.</p>')+
       '<button type="button" class="btn" data-mgdl="'+m.n+'">'+(m.file?"Download the client's end card":mode==="full"?"Download MP4":"Download .mov (transparent)")+'</button><div class="mg-prog" hidden><span></span></div><span class="note mg-st"></span><div class="cok-mg" id="okmg-'+m.n+'"></div></div></div>';
   }).join("");
   var nOv=ms.filter(function(m){return MG.modeOf(m)==="overlay";}).length;
-  return '<section id="mg"><div class="wrap"><div class="sec-head"><span class="eyebrow">Motion graphics</span><h2>'+ms.length+(ms.length===1?' graphic':' graphics')+' in '+esc(cl.short||cl.name)+'\'s brand</h2><p>Optional. Cut to them like B-roll, only where they help the video. Transparent overlays download as .mov files (PNG codec, alpha kept): select them all in File > Import and they come in at once, on top of your footage. Full-frame cutaways download as MP4. All 1080×1920, 30 fps. The black chips in the timeline show where each one fits. The end card is not optional: it is the client’s latest end card or logo, and it closes every video.</p>'+dlRow("mg","Download all motion graphics + end card (.zip)")+'</div>'+
+  return '<section id="mg"><div class="wrap"><div class="sec-head"><span class="eyebrow">Motion graphics</span><h2>'+ms.length+(ms.length===1?' graphic':' graphics')+' in '+esc(cl.short||cl.name)+'\'s brand</h2>'+oriTog()+'<p>Optional. Cut to them like B-roll, only where they help the video. Transparent overlays download as .mov files (PNG codec, alpha kept): select them all in File > Import and they come in at once, on top of your footage. Full-frame cutaways download as MP4. All <span data-orisz>'+oriTxt()+'</span>, 30 fps. The black chips in the timeline show where each one fits. The end card is not optional: it is the client’s latest end card or logo, and it closes every video.</p>'+dlRow("mg","Download all motion graphics + end card (.zip)")+'</div>'+
     '<div class="mg-brand">'+(D.note?'<div class="mg-caution"><b>For this video:</b> '+esc(D.note)+'</div>':'')+(B.caution?'<div class="mg-caution"><b>Client note:</b> '+esc(B.caution)+'</div>':'')+'<div class="sws">'+sw+'</div><p class="note">'+esc(B.font_note||"")+(B.rules&&B.rules.length?' Rules: '+esc(B.rules.join(" ")):'')+'</p></div>'+
-    '<div class="mg-grid">'+cards+'</div></div></section>';
+    '<div class="mg-grid'+(oriLand()?' land':'')+'">'+cards+'</div></div></section>';
 }
 function wireMG(it,cl){
   if(!CUR_MG) return;
+  [].forEach.call(document.querySelectorAll("#mg video"),function(v){ v.addEventListener("loadedmetadata",oriNotes); }); oriNotes();
   var D=CUR_MG.d,B=CUR_MG.b,byN={},vis={},raf=null,t0=performance.now();
   D.mg.forEach(function(m){ byN[m.n]=m; });
   MG.ensureFonts(B); D.mg.forEach(function(m){ MG.ensureImgs(m); });
