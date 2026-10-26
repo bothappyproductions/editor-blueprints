@@ -454,33 +454,55 @@
   ]
  },
  "13123155328": {
-  "version": 1,
-  "made": "2026-10-25",
+  "version": 2,
+  "made": "2026-10-26",
   "tool": "DaVinci Resolve Studio 21.1 (timeline + render)",
-  "length": "1:24.1",
+  "length": "1:17",
   "loudness": "-14.0 LUFS",
-  "music": "None (natural sound only, Who Gives look)",
+  "music": "Epidemic Sound · Silent Way (Candelion), about 20 dB under the voices (no-music alternate in the internal folder)",
   "mp4": {
-   "name": "90_Montage_WATSINYCRecoveryPhoneMessages001-1.mp4",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/a5139d3d-3563-4a1e-9d08-d84465fd2762"
+   "name": "90_Montage_WATSINYCRecoveryPhoneMessages001-2.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/2dc73732-1925-46fe-8859-f01abda7fc61"
   },
   "xml": {
-   "name": "WATSINYCRecoveryPhoneMessages001_90_v1_Premiere.xml",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/54c45a48-9ace-4403-a5f2-df5f988143f9"
+   "name": "WATSINYCRecoveryPhoneMessages001_90_v2_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/12d81c85-152c-48f8-9012-1cc8a9632039"
   },
   "drt": {
-   "name": "WATSINYCRecoveryPhoneMessages001_90_v1_Resolve.drt",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/582ee282-f45f-43fd-9d05-84db25df7a5a"
+   "name": "WATSINYCRecoveryPhoneMessages001_90_v2_Resolve.drt",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/cf794b99-d523-4f58-b0dd-59cbc075ce5e"
   },
   "graphics": {
-   "name": "WATSINYCRecoveryPhoneMessages001_graphics_9x16_v1.mov",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/7816497b-f85f-430c-aa4d-212b618f791a"
+   "name": "WATSINYCRecoveryPhoneMessages001_graphics_9x16_v2.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/00431c63-2ba1-44c8-bb93-e2a8069399c3"
   },
   "luts": {
-   "name": "WATSINYCRecoveryPhoneMessages001_grade_LUTs_v1.zip",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/f3504510-2076-4fdc-b191-6626f1283b1e"
+   "name": "WATSINYCRecoveryPhoneMessages001_grade_LUTs_v2.zip",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/7ec24c8c-d222-47f4-a103-edad2a59d40c"
   },
-  "note": "Eleven messages, the blueprint's shorter cut (the three Lift rows out). Every handset MP3 synced to its MOV (GCC-PHAT windows + the hang-up frame), each message levelled, park sound under, the swear bleeped. Hook 'A voicemail / for a stranger.' from frame 0 with the sign's printing taken off the hook shot (the sign reads sharp from HOW IT WORKS on), Watsi lower thirds for Anissa, Ana and Mackinnon, English subtitles on Ana's Portuguese, and the Who Gives close on the campaign gradient from watsi.org/who-gives. The XML points at upright ProRes plates in the edit's _work/plates on the Library drive (the iPhone MOVs carry a rotation flag); dialogue_assembled.wav is in _work."
+  "note": "v2 after Nick's notes: captions large in Watsi's Lato Black with one yellow key phrase per message, hook on Watsi brush strokes; the off-topic how-it-works clip is out; no backs to camera (the wheelchair man's take 2 facing the camera, Blue Nike for the man facing away); the 'one mother to another child' message re-synced (v1 was 12.7 s off); lone name supers out, Mackinnon now with 'Executive Director, Watsi'; a quiet Epidemic bed. The XML opens in Premiere with the cut, captions and music; it points at the upright ProRes plates in the edit's _work/plates on the Library drive. The graphics .mov is transparent (ProRes 4444) on V2 from 00:00.",
+  "previous": [
+   {
+    "version": 1,
+    "made": "2026-10-25",
+    "mp4": {
+     "name": "90_Montage_WATSINYCRecoveryPhoneMessages001-1.mp4",
+     "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/a5139d3d-3563-4a1e-9d08-d84465fd2762"
+    },
+    "xml": {
+     "name": "WATSINYCRecoveryPhoneMessages001_90_v1_Premiere.xml",
+     "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/54c45a48-9ace-4403-a5f2-df5f988143f9"
+    },
+    "drt": {
+     "name": "WATSINYCRecoveryPhoneMessages001_90_v1_Resolve.drt",
+     "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/582ee282-f45f-43fd-9d05-84db25df7a5a"
+    },
+    "graphics": {
+     "name": "WATSINYCRecoveryPhoneMessages001_graphics_9x16_v1.mov",
+     "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/7816497b-f85f-430c-aa4d-212b618f791a"
+    }
+   }
+  ]
  },
  "13190047726": {
   "version": 1,
