@@ -789,5 +789,34 @@
    "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/898c90b6-9b62-4155-8556-2ffca438fa83"
   },
   "note": "Mackinnon's one take (Mincho5162) in script order with her pauses kept, stepping between 100% and 110% at the row changes and on \"People are waiting\"; no B-roll, as the blueprint asks. The clip is S-Log3, so set it to Full data levels before the LUT. Captions follow her audio (\"push them\", \"Thanks for Watsi\"), and the question card sits under her chin because her head fills the top of the frame. Open: the name super reads Mackinnon Engen, Executive Director, Watsi where the blueprint asked for first name only, and if this posts as Who Gives the music comes out and the close changes."
+ },
+ "12714477153": {
+  "version": 1,
+  "made": "2026-10-26",
+  "tool": "DaVinci Resolve Studio 21.1",
+  "length": "1:16.5",
+  "loudness": "-14.0 LUFS",
+  "music": "Epidemic Sound · Feeling Minnesota (Gavin Luke)",
+  "mp4": {
+   "name": "Claude test cut · WATSIPhilosophyTrust001 · v1.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/9228f644-c82c-45db-b155-f56ec0d11de3"
+  },
+  "xml": {
+   "name": "WATSIPhilosophyTrust001_90_v1_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/47cb23ad-8dce-4952-a1f4-83f1e09b34ae"
+  },
+  "drt": {
+   "name": "WATSIPhilosophyTrust001_90_v1_Resolve.drt",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/a79c2c82-9579-49bf-b2f8-dfa050ad88e4"
+  },
+  "graphics": {
+   "name": "WATSIPhilosophyTrust001_graphics_9x16_v1.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/990e2c52-4b19-4c5a-835c-d58734eff96a"
+  },
+  "luts": {
+   "name": "WATSIPhilosophyTrust001_grade_LUTs_v1.zip",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/a0f2c5d9-68df-4610-904d-e586962692ec"
+  },
+  "note": "Mackinnon's one take (Mincho5163) runs in script order with her pauses kept and no B-roll. A 110% punch-in on \"but I'd also watched\" replaces the 2% push-in, and it cuts back to 100% on \"Then I met Watsi\", where the music starts. The clip is S-Log3, so set it to Full data levels before the LUT. Still open: the name super reads Mackinnon Engen, Executive Director, Watsi (the blueprint asked for first name only), and the music is Epidemic, not Uppbeat."
  }
 }
