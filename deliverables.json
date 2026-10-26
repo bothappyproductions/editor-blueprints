@@ -258,62 +258,62 @@
   "note": "Cut in Resolve from this blueprint, 030_3161 + 030_3162 as one take (10% size change at every jump, eye line held). Face lifted with a soft tracked window, skin turned onto the skin line. Ends on her settled face after \"world\", then the S4S end card. Open the XML in Premiere and relink to the camera files on Drive by name; the face-window plates (win_/plate_*.mov) and the cleaned dialogue live in the edit's _work folder on the Library drive."
  },
  "12937236883": {
-  "version": 1,
-  "made": "2026-10-24",
+  "version": 2,
+  "made": "2026-10-26",
   "tool": "DaVinci Resolve Studio 21.1",
-  "length": "0:38.5",
+  "length": "0:38",
   "loudness": "-14.5 LUFS",
   "music": "Epidemic Sound",
   "mp4": {
-   "name": "90_Traditional_FREEDOMREADSBrandonReadingEscape001-1.mp4",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/a290d708-d1a3-4de8-82fc-438c3ff53aea"
+   "name": "90_Traditional_FREEDOMREADSBrandonReadingEscape001-2.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/b7272274-4c30-4c88-96ba-819853933aee"
   },
   "xml": {
-   "name": "FREEDOMREADSBrandonReadingEscape001_90_v1_Premiere.xml",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/36e0d92a-7554-4fc5-8a81-614ee7235ed1"
+   "name": "FREEDOMREADSBrandonReadingEscape001_90_v2_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/f1a43a91-5dc7-4b77-a9ef-a0285541f78f"
   },
   "drt": {
-   "name": "FREEDOMREADSBrandonReadingEscape001_90_v1_Resolve.drt",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/567c7fec-cf5b-413f-ade7-a9d7c59ee1a2"
+   "name": "FREEDOMREADSBrandonReadingEscape001_90_v2_Resolve.drt",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/ea71403b-1ce9-4b46-b8c5-52831e68ad0a"
   },
   "graphics": {
-   "name": "FREEDOMREADSBrandonReadingEscape001_graphics_9x16_v1.mov",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/447e6880-9754-4323-85bd-ad8135683735"
+   "name": "FREEDOMREADSBrandonReadingEscape001_graphics_9x16_v2.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/b090fd46-58a8-4cf5-864c-d9379c6b0d1f"
   },
   "luts": {
    "name": "FREEDOMREADSBrandonReadingEscape001_grade_LUTs_v1.zip",
    "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/45782694-f625-431b-a124-287be68f3a57"
   },
-  "note": "Cut in Resolve from this blueprint. Every readable badge and DOC number is blurred in the plates; music out before the last words, button note on the Freedom Reads end card. Open the XML in Premiere and relink to the camera files on Drive by name; the face-window plates (win_/plate_*.mov) and the cleaned dialogue live in the edit's _work folder on the Library drive."
+  "note": "v2 (Nick's notes 2026-10-26): 0:20-0:31 is now his own synced interview take (the group-talk shot showed him saying other words), and the end card is the editors' standard Freedom Begins With a Book card. Relink the source clip 20260611WSPv00046.MOV if Premiere asks."
  },
  "12937295775": {
-  "version": 1,
-  "made": "2026-10-24",
+  "version": 2,
+  "made": "2026-10-26",
   "tool": "DaVinci Resolve Studio 21.1",
-  "length": "0:53.4",
+  "length": "0:53",
   "loudness": "-14.4 LUFS",
   "music": "Epidemic Sound",
   "mp4": {
-   "name": "90_Traditional_FREEDOMREADSSmallPieceYourself001-1.mp4",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/2a4b4254-8e92-4e3b-84b7-2f618a97114e"
+   "name": "90_Traditional_FREEDOMREADSSmallPieceYourself001-2.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/a0223dc5-4ebe-479a-8887-61d59c3c7a7d"
   },
   "xml": {
-   "name": "FREEDOMREADSSmallPieceYourself001_90_v1_Premiere.xml",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/88de3f7d-a74a-4215-8b47-9ba601ef80e9"
+   "name": "FREEDOMREADSSmallPieceYourself001_90_v2_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/c440f94e-17c5-4bc4-8538-e7e12fd8a80d"
   },
   "drt": {
-   "name": "FREEDOMREADSSmallPieceYourself001_90_v1_Resolve.drt",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/59a917c8-b8be-4c8b-8eab-d13d31056be5"
+   "name": "FREEDOMREADSSmallPieceYourself001_90_v2_Resolve.drt",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/e8eab3d0-d025-4dcd-894a-4df021dbae1c"
   },
   "graphics": {
-   "name": "FREEDOMREADSSmallPieceYourself001_graphics_9x16_v1.mov",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/17e8e5ed-bd8f-4661-9077-14ff5b4adc92"
+   "name": "FREEDOMREADSSmallPieceYourself001_graphics_9x16_v2.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/b60092ee-d64d-414b-9c77-c23ef5f3efe1"
   },
   "luts": {
    "name": "FREEDOMREADSSmallPieceYourself001_grade_LUTs_v1.zip",
    "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/21de97e9-5d83-4a48-b5aa-eaa6a135bd8c"
   },
-  "note": "Cut in Resolve from this blueprint; \"was emotion on a page\" (not \"in motion\") on narrow windows. Eye line within 10 px at every jump cut; book title cards on the hook's own card. Open the XML in Premiere and relink to the camera files on Drive by name; the face-window plates (win_/plate_*.mov) and the cleaned dialogue live in the edit's _work folder on the Library drive."
+  "note": "v2 (Nick's note 2026-10-26): each book he names shows its real cover beside him while its title card is up (on the graphics .mov / V2), and the end card is the editors' standard Freedom Begins With a Book card."
  },
  "13276402920": {
   "version": 1,
