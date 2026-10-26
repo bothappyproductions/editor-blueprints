@@ -1,7 +1,7 @@
 {
  "item": "13083759789",
  "client": "mha",
- "note": "The plan says cut away only to B-roll that shows her words, otherwise stay on her face with captions only. Use these only if Nick asks for more, in the top band.",
+ "note": "The plan says cut away only to B-roll that shows her words, otherwise stay on her face with captions only. Use these only if Nick asks for more, in the top band. MHA has sent no logo file, so the end card types the script's words; the MHA turtle logo file is still owed (ask Nick).",
  "mg": [
   {
    "n": 1,
@@ -108,6 +108,28 @@
     "01:22–01:40"
    ],
    "use": "At the top over April after the heart B-roll, when she is back on screen."
+  },
+  {
+   "n": 8,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "02:08–02:12"
+   ],
+   "cue": "MHA Nebraska · Intentional Peer Support, then mha-ne.org under it, dark olive #4A5325. No phone number.",
+   "src": "MHA Nebraska has not sent a logo file (never rebuild one), so the end card is the script's words in MHA's colours. Source date: 22 Oct 2026.",
+   "c": {
+    "bg": "#E8EFD4",
+    "fg": "#4A5325"
+   },
+   "text": {
+    "name": "MHA Nebraska · Intentional Peer Support",
+    "lines": [
+     "mha-ne.org"
+    ]
+   },
+   "dur": 4.0,
+   "use": "This is the end card. Put it at 02:08 after the last line and hold it to the end. Add the MHA turtle logo only from a real logo file from Nick. Never rebuild it. No phone number."
   }
  ]
 }

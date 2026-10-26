@@ -1,7 +1,7 @@
 {
  "item": "13239698729",
  "client": "wny-womens-foundation",
- "note": "The plan wants the recording in real time, the client's images as given and captions only on most rows. Use the full-frame cards only if the client asks for more.",
+ "note": "The plan wants the recording in real time, the client's images as given and captions only on most rows. Use the full-frame cards only if the client asks for more. WNY's only end card file is the WSMO ombre close (with its own voice-over). The white WNYWF logo and the Citizen Collab logo for a voter end card are still owed.",
  "mg": [
   {
    "n": 1,
@@ -128,6 +128,19 @@
     "00:56–00:58"
    ],
    "use": "In the top band only, as she says it. The held Active line stays clear and sharp."
+  },
+  {
+   "n": 9,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:58–01:05"
+   ],
+   "cue": "WNYWF logo bug stays. Citizen Collab logo next to it only if the file arrives.",
+   "src": "The WSMO ombre close agreed with Rebecca Winner (28 Sep), taken unchanged from the delivered Traditional_WNYWSMOMissEyeCandyBoutique001-3.mp4 (Drive, 7 Oct 2026), with its voice-over.",
+   "file": "endcards/wny-womens-foundation/wny-wsmo-ombre-close.mp4",
+   "dur": 9.4,
+   "use": "This is WNY's latest end card, the client's own file: the WSMO ombre close, with its own voice-over. Put it at 00:58 after the last line and never change it. The script for this video ends instead on 2026 Voting Social Media Campaign (5).png held 7 s, with the WNYWF logo bug and Rebecca's voterlookup.elections.ny.gov line. Use one of the two, not both: Nick decides."
   }
  ]
 }

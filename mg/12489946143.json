@@ -62,6 +62,19 @@
     "00:14–00:20"
    ],
    "use": "After the top text goes out. Land it on the first two parts of his message."
+  },
+  {
+   "n": 5,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:20–00:23"
+   ],
+   "cue": "Only the official Lions lockup from the Lions brand files. Nothing else on it.",
+   "src": "Lions' latest end card video (Lions CTA.mp4, sent as the latest Lions end card on Slack, 20 Aug 2026): the Lions emblem on the brand gradient with Find your local club at lionsclubs.org.",
+   "file": "endcards/lions/lions-cta-end-card.mp4",
+   "dur": 5.1,
+   "use": "This is the end card, the client's own file. Put it at 00:20 after the last line and use it exactly as it is. The script adds: if Atdhe picks no graphics, cut to black after the last line instead."
   }
  ]
 }

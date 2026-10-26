@@ -1,7 +1,7 @@
 {
  "item": "13354349810",
  "client": "momcozy",
- "note": "The reveal needs the filters clear on screen, so 8 graphics, mostly in the top band.",
+ "note": "The reveal needs the filters clear on screen, so 8 graphics, mostly in the top band. Momcozy has sent no logo file, so the end card types MOMCOZY in Inter as Momcozy specified it.",
  "mg": [
   {
    "n": 1,
@@ -133,6 +133,28 @@
     "00:37-00:42"
    ],
    "use": "Top band over the kids playing as she says it. Keep captions on."
+  },
+  {
+   "n": 9,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:42-00:44"
+   ],
+   "cue": "End card: MOMCOZY wordmark in Cozy Chestnut #6A2B3A on warm cream #FEF9F6. Product name: CozyBreath Baby Air Purifier.",
+   "src": "Momcozy wordmark as Momcozy specified it (MOMCOZY in caps, Cozy Chestnut #6A2B3A, Inter; spec locked 19 Aug 2026). No logo file has been sent.",
+   "c": {
+    "bg": "#FEF9F6",
+    "fg": "#6A2B3A"
+   },
+   "text": {
+    "name": "MOMCOZY",
+    "lines": [
+     "CozyBreath Baby Air Purifier"
+    ]
+   },
+   "dur": 2.0,
+   "use": "This is the end card. Put it at 00:42 after the last line and hold it to the end. It is the first and only logo in the video."
   }
  ]
 }

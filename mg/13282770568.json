@@ -1,7 +1,7 @@
 {
  "item": "13282770568",
  "client": "dream-center-dallas",
- "note": "The plan wants the number cards and captions only from 00:12 on. Use the rest only if Nick or Kacie asks for more.",
+ "note": "The plan wants the number cards and captions only from 00:12 on. Use the rest only if Nick or Kacie asks for more. Dream Center Dallas has not sent its logo yet, so the end card types the name; the logo file is still owed (Nick).",
  "mg": [
   {
    "n": 1,
@@ -133,6 +133,29 @@
     "00:52-00:58"
    ],
    "use": "Full-frame cutaway on the end of her line, then back to the smiles."
+  },
+  {
+   "n": 10,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:05-01:08"
+   ],
+   "cue": "End card: Dream Center Dallas (type the name until Nick sends the logo) + Adopt-A-Block. Every month. + Volunteer · Give.",
+   "src": "Dream Center Dallas has not sent its logo yet; the name is typed until Nick sends it, as the script says. Source date: 22 Oct 2026.",
+   "c": {
+    "bg": "#75B941",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "Dream Center Dallas",
+    "lines": [
+     "Adopt-A-Block. Every month.",
+     "Volunteer · Give"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 01:05 after the last line and hold it to the end."
   }
  ]
 }

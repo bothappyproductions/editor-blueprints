@@ -1,7 +1,7 @@
 {
  "item": "13319733895",
  "client": "dream-center-dallas",
- "note": "Short cut, one voice, the plan stays on her face with two B-roll beats, so 5 graphics.",
+ "note": "Short cut, one voice, the plan stays on her face with two B-roll beats, so 5 graphics. Dream Center Dallas has not sent its logo yet, so the end card types the name; the logo file is still owed (Nick).",
  "mg": [
   {"n": 1, "tpl": "highlight_callout", "title": "Breath of air", "dur": 4, "pos": "top",
    "text": {"main": "this is kind of breath of air to actually just help us"},
@@ -27,6 +27,14 @@
    "text": {"main": "feel welcome and everybody is here helping each other"},
    "src": "Mom of three, Interview 10-Neighbor.MOV [01:47.0]",
    "rows": ["00:35-00:42"],
-   "use": "Top band over her face as she says it. Keep subtitles on. Then hold on her face."}
+   "use": "Top band over her face as she says it. Keep subtitles on. Then hold on her face."},
+  {"n": 6, "title": "End card", "tpl": "end_card",
+   "rows": ["00:42-00:46"],
+   "cue": "End card: Dream Center Dallas (type the name until Nick sends the logo) + Adopt-A-Block. Every month. + Volunteer · Give.",
+   "src": "Dream Center Dallas has not sent its logo yet; the name is typed until Nick sends it, as the script says. Source date: 22 Oct 2026.",
+   "c": {"bg": "#75B941", "fg": "#FFFFFF"},
+   "text": {"name": "Dream Center Dallas", "lines": ["Adopt-A-Block. Every month.", "Volunteer · Give"]},
+   "dur": 4.0,
+   "use": "This is the end card. Put it at 00:42 after the last line and hold it to the end."}
  ]
 }

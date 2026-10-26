@@ -1,6 +1,7 @@
 {
  "item": "13277146397",
  "client": "curegrin",
+ "note": "No CureGRIN logo file yet (Lauren's high-res logo is still owed), so the end card types the name.",
  "mg": [
   {
    "n": 1,
@@ -161,6 +162,29 @@
     "01:30-01:40"
    ],
    "use": "Full-frame cutaway on the last words of the row, as he says them. Then the button on the wide shot."
+  },
+  {
+   "n": 11,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:53-02:00"
+   ],
+   "cue": "“Support CureGRIN today.” and “curegrin.org”. The logo is here only.",
+   "src": "No CureGRIN logo file yet (Lauren's high-res logo is still owed); the name is typed until it arrives. Source date: 22 Oct 2026.",
+   "c": {
+    "bg": "#5C3D8D",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "CureGRIN",
+    "lines": [
+     "Support CureGRIN today.",
+     "curegrin.org"
+    ]
+   },
+   "dur": 7.0,
+   "use": "This is the end card. Put it at 01:53 after the last line and hold it to the end."
   }
  ]
 }

@@ -101,6 +101,24 @@
     "00:42–00:53"
    ],
    "use": "Over her as she says it, after her super is gone (from 00:44). Gone before the applause."
+  },
+  {
+   "n": 7,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:59–01:02"
+   ],
+   "cue": "NFTE logo. Nothing else. The NFTE-only end card, no BUILD logo.",
+   "src": "NFTE's white logo from the NFTE brand kit (Mac Studio, state/nfte/brand/logos, 9 Oct 2026).",
+   "c": {
+    "bg": "#4C12A1",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/nfte/nfte-logo-white.svg",
+   "text": {},
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 00:59 after the last line and hold it to the end. NFTE only: no BUILD logo."
   }
  ]
 }

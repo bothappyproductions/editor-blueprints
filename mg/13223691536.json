@@ -91,6 +91,24 @@
     "00:48–00:54"
    ],
    "use": "Full-frame cutaway on this line. Be back on his face for “really happy” and the smile."
+  },
+  {
+   "n": 6,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:54–00:57"
+   ],
+   "cue": "NFTE wordmark. Nothing else.",
+   "src": "NFTE's white logo from the NFTE brand kit (Mac Studio, state/nfte/brand/logos, 9 Oct 2026).",
+   "c": {
+    "bg": "#4C12A1",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/nfte/nfte-logo-white.svg",
+   "text": {},
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 00:54 after the last line and hold it to the end. Match the NFTE end card on the delivered J.D. LaRock reels."
   }
  ],
  "note": "Most rows are captions only and J.D.'s face carries the story, so 6 graphics."

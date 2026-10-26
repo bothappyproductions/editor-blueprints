@@ -150,6 +150,27 @@
     "01:34–01:47"
    ],
    "use": "Over Kat as she says it. Keep captions on."
+  },
+  {
+   "n": 10,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:47–01:50"
+   ],
+   "cue": "watsi.org, all lowercase, Lato, navy #2E2844. One line. Nothing under it. Optional: one small LOTUS illustration inside the frame.",
+   "src": "Watsi's own end card words from the script (watsi.org, the Who Gives close, or the Watsi x AYH lines). Watsi's scripts say no logo lockup. Source date: 6 Oct 2026.",
+   "c": {
+    "bg": "#D3EDFA",
+    "fg": "#2E2844"
+   },
+   "text": {
+    "lines": [
+     "watsi.org"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 01:47 after the last line and hold it to the end. The script allows one small LOTUS illustration inside the frame as the only brand element. It is optional."
   }
  ],
  "note": "The plan for this cut leaves room for only 9 graphics."

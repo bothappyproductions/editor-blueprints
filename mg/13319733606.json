@@ -27,6 +27,15 @@
    "text": {"main": "do what you can to raise awareness about this issue", "emph": ["raise awareness"]},
    "src": "Lucy Simpson, C2 Event 4 [07:30.3]",
    "rows": ["00:24-00:41"],
-   "use": "Full-frame cutaway on her last words, then back to her face for the 1 s hold."}
+   "use": "Full-frame cutaway on her last words, then back to her face for the 1 s hold."},
+  {"n": 6, "title": "End card", "tpl": "end_card",
+   "rows": ["00:41-00:45"],
+   "cue": "End card: NIWRC logo, white on red. One line under it: Find your local program. niwrc.org. The logo is here only.",
+   "src": "NIWRC logo (white) from NIWRC's onboarding brand file, in the brand kit 10 Oct 2026. Client rule: white logo on red.",
+   "c": {"bg": "#981C20", "fg": "#FFFFFF"},
+   "logo": "endcards/niwrc/niwrc-logo-white.svg",
+   "text": {"lines": ["Find your local program. niwrc.org"]},
+   "dur": 4.0,
+   "use": "This is the end card. Put it at 00:41 after the last line and hold it to the end."}
  ]
 }

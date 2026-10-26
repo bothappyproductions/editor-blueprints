@@ -1,0 +1,20 @@
+{
+ "item": "13243711781",
+ "client": "wny-womens-foundation",
+ "note": "The script asks for two graphics, and neither can be made yet: row 00:00–00:04 wants the clip's one fact as big text and row 00:04 → end wants the speaker's name plate, but both need Rebecca's pick and the rally file, which are not in. The WNYWF and Citizen Collab logos on row 00:04 → end are a logo bug, not a library graphic. The white WNYWF logo and the Citizen Collab logo the end card asks for are still owed, so the end card is WNY's latest file, the WSMO ombre close.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "END"
+   ],
+   "cue": "One clear next step only, from the recording or the deck. End card on #872175 with the white WNYWF logo and the Citizen Collab logo.",
+   "src": "The WSMO ombre close agreed with Rebecca Winner (28 Sep), taken unchanged from the delivered Traditional_WNYWSMOMissEyeCandyBoutique001-3.mp4 (Drive, 7 Oct 2026), with its voice-over.",
+   "file": "endcards/wny-womens-foundation/wny-wsmo-ombre-close.mp4",
+   "dur": 9.4,
+   "use": "This is WNY's latest end card, the client's own file: the WSMO ombre close, with its own voice-over. Put it after the last line and never change it. The script wants a card on #872175 with the white WNYWF logo, the Citizen Collab logo, one clear next step and a voice line from the rally recording. Those logo files are not in yet, so Nick decides between this close and that card."
+  }
+ ]
+}

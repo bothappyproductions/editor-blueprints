@@ -49,6 +49,29 @@
     "00:17–00:24"
    ],
    "use": "Short full-frame beat in the middle of her line. It can hide the gap after “perceptions”. Back on Susan for the end."
+  },
+  {
+   "n": 4,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:29–00:32"
+   ],
+   "cue": "Search for Common Ground lockup + sfcg.org. Nothing under it. Do not guess an Imagine If link.",
+   "src": "SFCG's 2024 horizontal logo, white text (SFCG Resources/Logos on Drive). The Imagine If end card is still coming from SFCG (Chase Moore). Source date: 11 Feb 2026.",
+   "c": {
+    "bg": "#003E74",
+    "fg": "#FFFFFF"
+   },
+   "logo_w": 860,
+   "logo": "endcards/sfcg/sfcg-logo-horizontal-2024-white.png",
+   "text": {
+    "lines": [
+     "sfcg.org"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 00:29 after the last line and hold it to the end."
   }
  ]
 }

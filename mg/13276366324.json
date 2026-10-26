@@ -94,6 +94,29 @@
     "00:23–00:30"
    ],
    "use": "Over her face as she says it, after MG 5. Off before the 0.5 s hold ends."
+  },
+  {
+   "n": 7,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:32–00:35"
+   ],
+   "cue": "Search for Common Ground lockup + sfcg.org. Nothing under it. Do not guess an Imagine If link.",
+   "src": "SFCG's 2024 horizontal logo, white text (SFCG Resources/Logos on Drive). The Imagine If end card is still coming from SFCG (Chase Moore). Source date: 11 Feb 2026.",
+   "c": {
+    "bg": "#003E74",
+    "fg": "#FFFFFF"
+   },
+   "logo_w": 860,
+   "logo": "endcards/sfcg/sfcg-logo-horizontal-2024-white.png",
+   "text": {
+    "lines": [
+     "sfcg.org"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 00:32 after the last line and hold it to the end."
   }
  ]
 }

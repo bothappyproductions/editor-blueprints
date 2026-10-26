@@ -77,6 +77,29 @@
     "00:48-00:55"
    ],
    "use": "Small, at the top as he says it. Take it out on the last word so the 1 s hold is his face only."
+  },
+  {
+   "n": 6,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:55-01:00"
+   ],
+   "cue": "One line first, 3 seconds: “You just heard a story of change.” Then the end card: the FTC logo + “Change from the Inside” + the donation link.",
+   "src": "FTC logo (white) from the client's Brand folder for the Year-End 2026 centerpiece (copied 11 Oct 2026).",
+   "c": {
+    "bg": "#6A3179",
+    "fg": "#FFFFFF"
+   },
+   "logo_w": 860,
+   "logo": "endcards/freedom-to-choose/ftc-logo-white.png",
+   "text": {
+    "lines": [
+     "Change from the Inside"
+    ]
+   },
+   "dur": 2.0,
+   "use": "The script puts You just heard a story of change. on screen first, for 3 seconds from 00:55. Then put this card at 00:58 and hold it to the end. Leave space for one line under it for the donation link."
   }
  ]
 }

@@ -1,0 +1,20 @@
+{
+ "item": "13243674656",
+ "client": "s4s",
+ "note": "The script asks for the client's script lines on screen (the first line big on frame 1 at 00:00–00:03, then every line on row TBD), but the client script has not arrived, so nothing can be made yet. The end card is the new S4S typography card; its call-to-action line for this video is still owed by the client.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "TBD"
+   ],
+   "cue": "The new Soles4Souls typography end card. Only the call-to-action line changes. The client sets it.",
+   "src": "Soles4Souls' new typography end card (S4S art director, locked 8/13), taken unchanged from the tail of the delivered Traditional_S4SBronxLuisWarehouseToCommunity001-4.mp4 (Drive, 21 Oct 2026). The .ai source is with Nick/Almi.",
+   "file": "endcards/s4s/s4s-typography-end-card.mp4",
+   "dur": 2.8,
+   "use": "This is the end card, the client's own file. Put it after the last script line and use it exactly as it is. Never the old red and orange card. Only the call-to-action line changes per video, and the client has not given it for this one yet (Nick asks Rachel or Sydney)."
+  }
+ ]
+}

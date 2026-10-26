@@ -1,7 +1,7 @@
 {
  "item": "12767095388",
  "client": "kiva",
- "note": "The plan says captions only on most rows and his face for the whole pride line. Use these only if Atdhe asks for more, and use full-frame cards only to hide a trim.",
+ "note": "The plan says captions only on most rows and his face for the whole pride line. Use these only if Atdhe asks for more, and use full-frame cards only to hide a trim. The end card row asks for Kiva's new green K logo, which is not in the end card folder yet (only Kiva's white wordmark is), so that logo file is still owed.",
  "mg": [
   {
    "n": 1,
@@ -123,6 +123,29 @@
     "01:20–01:41"
    ],
    "use": "Over his face as he says it. Stay on his face. Clear it before the 1 s hold."
+  },
+  {
+   "n": 9,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:41–01:45"
+   ],
+   "cue": "Give a little. Change a lot. exactly, then kiva.org. New green K logo. Nothing else.",
+   "src": "Kiva's white wordmark from the Kiva brand kit built from kiva.org (Mac Studio, state/kiva/brand/logos, 10 Oct 2026).",
+   "c": {
+    "bg": "#223829",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/kiva/kiva-logo-white.svg",
+   "text": {
+    "lines": [
+     "Give a little. Change a lot.",
+     "kiva.org"
+    ]
+   },
+   "dur": 4.0,
+   "use": "This is the end card. Put it at 01:41 after the last line and hold it to the end. The script asks for Kiva's new green K logo. It is not in the end card folder yet, so this card uses Kiva's white wordmark. Swap in the K logo when it is there. Use the same card on the 16:9 and the 9:16 version."
   }
  ]
 }

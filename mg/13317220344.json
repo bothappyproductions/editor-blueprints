@@ -1,7 +1,7 @@
 {
  "item": "13317220344",
  "client": "curegrin",
- "note": "The plan is captions only, one voice, and a 50 s cut, so 6 graphics.",
+ "note": "The plan is captions only, one voice, and a 50 s cut, so 6 graphics. No CureGRIN logo file yet (Lauren's high-res logo is still owed), so the end card types the name.",
  "mg": [
   {
    "n": 1,
@@ -100,6 +100,29 @@
     "00:40–00:52"
    ],
    "use": "Top band over her face as she says it. Keep captions on."
+  },
+  {
+   "n": 7,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:52–00:56"
+   ],
+   "cue": "“Support CureGRIN today.” and “curegrin.org”. The logo is here only.",
+   "src": "No CureGRIN logo file yet (Lauren's high-res logo is still owed); the name is typed until it arrives. Source date: 22 Oct 2026.",
+   "c": {
+    "bg": "#5C3D8D",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "CureGRIN",
+    "lines": [
+     "Support CureGRIN today.",
+     "curegrin.org"
+    ]
+   },
+   "dur": 4.0,
+   "use": "This is the end card. Put it at 00:52 after the last line and hold it to the end."
   }
  ]
 }

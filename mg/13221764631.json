@@ -117,6 +117,24 @@
     "00:34–00:41"
    ],
    "use": "The one ask. In on “I'm in” at about 00:37, big and centered. Hold it to the cut."
+  },
+  {
+   "n": 8,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:41–00:44"
+   ],
+   "cue": "Logo swishes in (about 8-10 frames), then holds. Nothing under the logo. No website, no extra text.",
+   "src": "The Journey Home logo from the client's own slides in Dwayne's Day 2 pm.mov (uploaded 6 Oct 2026), as the script asks.",
+   "c": {
+    "bg": "#FFFFFF",
+    "fg": "#175741"
+   },
+   "logo": "endcards/gateway-gaston/journey-home-logo.png",
+   "text": {},
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 00:41 after the last line and hold it to the end. The logo swishes in (about 8 to 10 frames), then holds. Same end card on all 12 videos."
   }
  ]
 }

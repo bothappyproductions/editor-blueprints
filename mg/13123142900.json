@@ -140,6 +140,27 @@
     "00:48–00:52"
    ],
    "use": "Over Julius as he says it. Keep captions on."
+  },
+  {
+   "n": 9,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:52–00:55"
+   ],
+   "cue": "watsi.org, all lowercase, Lato, navy #2E2844. One line. Nothing under it. No stats, no donate button.",
+   "src": "Watsi's own end card words from the script (watsi.org, the Who Gives close, or the Watsi x AYH lines). Watsi's scripts say no logo lockup. Source date: 6 Oct 2026.",
+   "c": {
+    "bg": "#D3EDFA",
+    "fg": "#2E2844"
+   },
+   "text": {
+    "lines": [
+     "watsi.org"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 00:52 after the last line and hold it to the end."
   }
  ],
  "note": "The plan for this cut leaves room for only 8 graphics."

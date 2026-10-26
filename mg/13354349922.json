@@ -1,7 +1,7 @@
 {
  "item": "13354349922",
  "client": "momcozy",
- "note": "Short tip and the plan keeps Jamie and the product on screen, so 6 graphics, all in the top band.",
+ "note": "Short tip and the plan keeps Jamie and the product on screen, so 6 graphics, all in the top band. Momcozy has sent no logo file, so the end card types MOMCOZY in Inter as Momcozy specified it.",
  "mg": [
   {
    "n": 1,
@@ -96,6 +96,28 @@
     "00:25-00:30"
    ],
    "use": "Top band as she says it, then cut to Jamie calm. Keep captions on."
+  },
+  {
+   "n": 7,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:33-00:35"
+   ],
+   "cue": "End card: MOMCOZY wordmark in Cozy Chestnut #6A2B3A on a warm cream #FEF9F6 card. Product name: BN02 Nasal Aspirator.",
+   "src": "Momcozy wordmark as Momcozy specified it (MOMCOZY in caps, Cozy Chestnut #6A2B3A, Inter; spec locked 19 Aug 2026). No logo file has been sent.",
+   "c": {
+    "bg": "#FEF9F6",
+    "fg": "#6A2B3A"
+   },
+   "text": {
+    "name": "MOMCOZY",
+    "lines": [
+     "BN02 Nasal Aspirator"
+    ]
+   },
+   "dur": 2.0,
+   "use": "This is the end card. Put it at 00:33 after the last line and hold it to the end. It is the first and only logo in the video."
   }
  ]
 }

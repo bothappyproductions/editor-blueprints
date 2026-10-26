@@ -137,6 +137,24 @@
    ],
    "use": "Each line lands on her word, in the top band. Keep captions on.",
    "upper": true
+  },
+  {
+   "n": 9,
+   "title": "End card",
+   "tpl": "end_card_overlay",
+   "rows": [
+    "00:54–00:56"
+   ],
+   "cue": "NFTE logo. Nothing else. L012C008 (2 s of the buildings at dusk) under the NFTE end card.",
+   "src": "NFTE's white logo from the NFTE brand kit (Mac Studio, state/nfte/brand/logos, 9 Oct 2026).",
+   "c": {
+    "bg": "#4C12A1",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/nfte/nfte-logo-white.svg",
+   "text": {},
+   "dur": 2.0,
+   "use": "This is the end card over the footage: the NFTE logo on L012C008 (2 s of the buildings at dusk). Put it at 00:54 after the last line and hold it to the end. Keep the footage live, no freeze frame."
   }
  ],
  "note": "The plan for this cut leaves room for only 8 graphics."

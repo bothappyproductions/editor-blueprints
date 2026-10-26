@@ -126,6 +126,19 @@
     "01:13–01:21"
    ],
    "use": "Each line lands on her word, over her face. Out before the 0.5 s hold."
+  },
+  {
+   "n": 9,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:21–01:25"
+   ],
+   "cue": "New-brand end card: Family Reach 30 Year logo + “Because cancer is hard enough.” Use the client's own card file. Nothing else on the card. No old logo.",
+   "src": "Family Reach's own closing card, new brand (Video closeout (15).mp4 from Ansley, Drive, 15 Sep 2026).",
+   "file": "endcards/family-reach/family-reach-closing-card.mp4",
+   "dur": 5.0,
+   "use": "This is the end card, the client's own file. Put it at 01:21 after the last line and use it exactly as it is."
   }
  ]
 }

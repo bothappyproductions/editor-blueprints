@@ -97,6 +97,24 @@
     "00:46–00:50"
    ],
    "use": "Over J.D. as he says it. Clear it when the line ends."
+  },
+  {
+   "n": 7,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:56–00:59"
+   ],
+   "cue": "NFTE logo. Nothing else.",
+   "src": "NFTE's white logo from the NFTE brand kit (Mac Studio, state/nfte/brand/logos, 9 Oct 2026).",
+   "c": {
+    "bg": "#4C12A1",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/nfte/nfte-logo-white.svg",
+   "text": {},
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 00:56 after the last line and hold it to the end."
   }
  ]
 }

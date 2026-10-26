@@ -1,7 +1,7 @@
 {
  "item": "13317239011",
  "client": "dream-center-dallas",
- "note": "Short, one voice, the plan stays on her face for the hook and the button, so 5 graphics.",
+ "note": "Short, one voice, the plan stays on her face for the hook and the button, so 5 graphics. Dream Center Dallas has not sent its logo yet, so the end card types the name; the logo file is still owed (Nick).",
  "mg": [
   {
    "n": 1,
@@ -85,6 +85,29 @@
     "00:33–00:45"
    ],
    "use": "Top band over her face as she says it. Keep captions on."
+  },
+  {
+   "n": 6,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:45–00:48"
+   ],
+   "cue": "End card: Dream Center Dallas (type the name until Nick sends the logo) + Adopt-A-Block. Every month. + Volunteer · Give.",
+   "src": "Dream Center Dallas has not sent its logo yet; the name is typed until Nick sends it, as the script says. Source date: 22 Oct 2026.",
+   "c": {
+    "bg": "#75B941",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "Dream Center Dallas",
+    "lines": [
+     "Adopt-A-Block. Every month.",
+     "Volunteer · Give"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 00:45 after the last line and hold it to the end."
   }
  ]
 }

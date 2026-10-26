@@ -145,6 +145,29 @@
     "00:26–00:33"
    ],
    "use": "Over the volunteer and the man in blue as the VO says it."
+  },
+  {
+   "n": 10,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:34–01:38"
+   ],
+   "cue": "FTC logo + Change from the Inside + the donation link. The link is still owed by the client. First and only logo in the video.",
+   "src": "FTC logo (white) from the client's Brand folder for the Year-End 2026 centerpiece (copied 11 Oct 2026).",
+   "c": {
+    "bg": "#6A3179",
+    "fg": "#FFFFFF"
+   },
+   "logo_w": 860,
+   "logo": "endcards/freedom-to-choose/ftc-logo-white.png",
+   "text": {
+    "lines": [
+     "Change from the Inside"
+    ]
+   },
+   "dur": 4.0,
+   "use": "This is the end card. Put it at 01:34 after the last line and hold it to the end. Leave space for one line under the card for the donation link. The client still owes the link."
   }
  ]
 }

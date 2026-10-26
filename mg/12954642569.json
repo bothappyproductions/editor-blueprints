@@ -1,7 +1,7 @@
 {
  "item": "12954642569",
  "client": "aij",
- "note": "The plan says captions only on most VO and audio rows. Use the graphics on those rows only if Andrés asks for more, and keep them in the top band.",
+ "note": "The plan says captions only on most VO and audio rows. Use the graphics on those rows only if Andrés asks for more, and keep them in the top band. The end card row asks for AIJ's Horizontal Animated logo for this 16:9 film. Only the vertical animated logo is in the end card folder, so the horizontal file is still owed.",
  "mg": [
   {
    "n": 1,
@@ -155,6 +155,19 @@
     "04:00–04:17"
    ],
    "use": "Over the child-at-court video. Each line lands on Sui's words. Never show Sui."
+  },
+  {
+   "n": 10,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "04:22–04:30"
+   ],
+   "cue": "Simple super: aijustice.org. Then Horizontal Animated logo.",
+   "src": "AIJ's own Vertical Animated logo (Mobile Video).mp4 from the AIJ Outros/Intros pack (Drive), the newest outro AIJ has given us. Source date: 3 Nov 2025.",
+   "file": "endcards/aij/aij-animated-logo-9x16.mp4",
+   "dur": 6.0,
+   "use": "This is the end card, the client's own file. Use it exactly as it is. The script runs this row as a simple super, aijustice.org, while the VO says it, then AIJ's Horizontal Animated logo to the end. This file is AIJ's vertical animated logo (9:16); this film is 16:9, so use the horizontal one when it is in the end card folder."
   }
  ]
 }

@@ -96,6 +96,24 @@
     "00:42–00:53"
    ],
    "use": "Frames the clapping room in the 1 s applause cutaway. Move it to where the people sit."
+  },
+  {
+   "n": 7,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:59–01:02"
+   ],
+   "cue": "NFTE logo. Nothing else.",
+   "src": "NFTE's white logo from the NFTE brand kit (Mac Studio, state/nfte/brand/logos, 9 Oct 2026).",
+   "c": {
+    "bg": "#4C12A1",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/nfte/nfte-logo-white.svg",
+   "text": {},
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 00:59 after the last line and hold it to the end."
   }
  ]
 }

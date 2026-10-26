@@ -1,7 +1,7 @@
 {
  "item": "13354315549",
  "client": "momcozy",
- "note": "Short cut with two spoken moments, and the plan keeps the screen clean, so 4 graphics.",
+ "note": "Short cut with two spoken moments, and the plan keeps the screen clean, so 4 graphics. Momcozy has sent no logo file, so the end card types MOMCOZY in Inter as Momcozy specified it.",
  "mg": [
   {
    "n": 1,
@@ -59,6 +59,28 @@
     "00:25-00:30"
    ],
    "use": "Top band as the line is said, while Jordana walks in. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:33-00:35"
+   ],
+   "cue": "End card: MOMCOZY wordmark in Cozy Chestnut #6A2B3A on Warm Cream #FEF9F6. BM04 + BN02 product names under it in Inter.",
+   "src": "Momcozy wordmark as Momcozy specified it (MOMCOZY in caps, Cozy Chestnut #6A2B3A, Inter; spec locked 19 Aug 2026). No logo file has been sent.",
+   "c": {
+    "bg": "#FEF9F6",
+    "fg": "#6A2B3A"
+   },
+   "text": {
+    "name": "MOMCOZY",
+    "lines": [
+     "BM04 + BN02"
+    ]
+   },
+   "dur": 2.0,
+   "use": "This is the end card. Put it at 00:33 after the last line and hold it to the end. It is the first and only logo in the video."
   }
  ]
 }

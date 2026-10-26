@@ -101,6 +101,24 @@
     "00:05–00:10"
    ],
    "use": "Full-frame while she asks it, only after the hook text is gone. Only if Atdhe asks."
+  },
+  {
+   "n": 7,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:31–00:34"
+   ],
+   "cue": "NFTE logo. Nothing else.",
+   "src": "NFTE's white logo from the NFTE brand kit (Mac Studio, state/nfte/brand/logos, 9 Oct 2026).",
+   "c": {
+    "bg": "#4C12A1",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/nfte/nfte-logo-white.svg",
+   "text": {},
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 00:31 after the last line and hold it to the end."
   }
  ]
 }

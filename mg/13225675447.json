@@ -98,6 +98,24 @@
     "00:39–00:47"
    ],
    "use": "Over J.D. as he says it. Off the banner. End on his face, not on this."
+  },
+  {
+   "n": 7,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:47–00:50"
+   ],
+   "cue": "NFTE logo. Nothing else.",
+   "src": "NFTE's white logo from the NFTE brand kit (Mac Studio, state/nfte/brand/logos, 9 Oct 2026).",
+   "c": {
+    "bg": "#4C12A1",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/nfte/nfte-logo-white.svg",
+   "text": {},
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 00:47 after the last line and hold it to the end."
   }
  ]
 }

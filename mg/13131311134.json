@@ -69,6 +69,28 @@
     "00:22–00:24"
    ],
    "use": "Only if you add this line to the cut, as a full-frame card in place of row 00:22 if that line is Nick."
+  },
+  {
+   "n": 5,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:24–00:30"
+   ],
+   "cue": "“Tell us your story.” full screen in September Spirit, then watsi.org/who-gives in Lato, lowercase. Nothing else: no logo lockup, no stats, no donate button.",
+   "src": "Watsi's own end card words from the script (watsi.org, the Who Gives close, or the Watsi x AYH lines). Watsi's scripts say no logo lockup. Source date: 6 Oct 2026.",
+   "c": {
+    "bg": "#D3EDFA",
+    "fg": "#2E2844"
+   },
+   "text": {
+    "lines": [
+     "Tell us your story.",
+     "watsi.org/who-gives"
+    ]
+   },
+   "dur": 6.0,
+   "use": "This is the end card. Put it at 00:24 after the last line and hold it to the end. The script wants Tell us your story. in September Spirit on the campaign gradient sampled from the live watsi.org/who-gives page: swap the font and background if you have them. Do not guess the colours."
   }
  ]
 }

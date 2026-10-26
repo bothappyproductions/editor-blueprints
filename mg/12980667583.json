@@ -1,7 +1,7 @@
 {
  "item": "12980667583",
  "client": "niwrc",
- "note": "Text and music only teaser where the plan writes every line and the turn at 0:14 stays clean, so 4 graphics.",
+ "note": "Text and music only teaser where the plan writes every line and the turn at 0:14 stays clean, so 4 graphics. The end card row asks for the new WAS 2027 lockup (was_lockup1.png). It is not in the end card folder yet, so the end card uses NIWRC's white logo and was_lockup1.png is still owed.",
  "mg": [
   {
    "n": 1,
@@ -70,6 +70,24 @@
     "00:22–00:28"
    ],
    "use": "Lands under MG 3 on the Pechanga wide. Out before 00:28."
+  },
+  {
+   "n": 5,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:28–00:30"
+   ],
+   "cue": "was_lockup1.png only (the new WAS 2027 lockup). Never the old two-women lockup.",
+   "src": "NIWRC logo (white) from NIWRC's onboarding brand file, in the brand kit 10 Oct 2026. Client rule: white logo on red.",
+   "c": {
+    "bg": "#981C20",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/niwrc/niwrc-logo-white.svg",
+   "text": {},
+   "dur": 2.0,
+   "use": "This is the end card. Put it at 00:28 after the last line and hold it to the end. The script wants the new WAS 2027 lockup (was_lockup1.png) here. It is not in the end card folder yet, so this card is the NIWRC logo, white on red. Swap in was_lockup1.png when it is there. Never the old two-women lockup. The script also allows the last shot softly darkened in place of the plain red."
   }
  ]
 }

@@ -1,7 +1,7 @@
 {
  "item": "12954675017",
  "client": "aij",
- "note": "The plan wants a matching picture for every hope looks like line, so nothing sits on 02:01 to 02:19. Keep graphics light and use them only where a line needs one.",
+ "note": "The plan wants a matching picture for every hope looks like line, so nothing sits on 02:01 to 02:19. Keep graphics light and use them only where a line needs one. The end card row asks for AIJ's Horizontal Animated logo for this 16:9 film. Only the vertical animated logo is in the end card folder, so the horizontal file is still owed.",
  "mg": [
   {
    "n": 1,
@@ -148,6 +148,19 @@
     "01:32–02:01"
    ],
    "use": "Full-frame cutaway on the last words of her answer."
+  },
+  {
+   "n": 10,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "02:19–02:29"
+   ],
+   "cue": "Simple super: aijustice.org/donate. Then the tagline and Horizontal Animated logo.",
+   "src": "AIJ's own Vertical Animated logo (Mobile Video).mp4 from the AIJ Outros/Intros pack (Drive), the newest outro AIJ has given us. Source date: 3 Nov 2025.",
+   "file": "endcards/aij/aij-animated-logo-9x16.mp4",
+   "dur": 6.0,
+   "use": "This is the end card, the client's own file. Use it exactly as it is. The script runs this row as a simple super, aijustice.org/donate, then the tagline (the VO line: Americans for Immigrant Justice, where hope meets law.), then AIJ's Horizontal Animated logo to the end. This file is AIJ's vertical animated logo (9:16); this film is 16:9, so use the horizontal one when it is in the end card folder."
   }
  ]
 }

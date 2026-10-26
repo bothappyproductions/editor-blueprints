@@ -121,6 +121,29 @@
     "01:50–02:01"
    ],
    "use": "Over Laila on the end of her line. Keep captions on."
+  },
+  {
+   "n": 9,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "02:12–02:15"
+   ],
+   "cue": "Search for Common Ground lockup + sfcg.org. Nothing under it.",
+   "src": "SFCG's 2024 horizontal logo, white text (SFCG Resources/Logos on Drive). The Imagine If end card is still coming from SFCG (Chase Moore). Source date: 11 Feb 2026.",
+   "c": {
+    "bg": "#003E74",
+    "fg": "#FFFFFF"
+   },
+   "logo_w": 860,
+   "logo": "endcards/sfcg/sfcg-logo-horizontal-2024-white.png",
+   "text": {
+    "lines": [
+     "sfcg.org"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 02:12 after the last line and hold it to the end."
   }
  ]
 }

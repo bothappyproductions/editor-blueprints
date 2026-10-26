@@ -1,0 +1,84 @@
+{
+ "item": "13099658250",
+ "client": "aij",
+ "note": "The script asks for four graphics: the hook text “One year inside Krome.”, Roberto's lower third and the two chapter supers “Krome, Miami” and “Krome, 2025”. Every other row is captions only. This is a 16:9 cut. The name spelling (Roberto or Robert) is still an open decision. The end card row asks for AIJ's Horizontal Animated logo, which is not in the end card folder yet (only the vertical one is), so that file is still owed.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "One year inside Krome."
+   },
+   "cue": "Hook text on frame 1: One year inside Krome.",
+   "src": "Script, row 00:00–00:04, Motion graphics & type.",
+   "rows": [
+    "00:00–00:04"
+   ],
+   "use": "Hook text in the top third on frame 1. Start the clip at frame 0045 (fully on) and hold it until the cut at 00:04."
+  },
+  {
+   "n": 2,
+   "title": "Lower third",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Roberto"
+   },
+   "cue": "Lower third at about 00:05, lower left, 3 s: Roberto · Client, Americans for Immigrant Justice",
+   "src": "Script, row 00:04–00:30, Motion graphics & type.",
+   "rows": [
+    "00:04–00:30"
+   ],
+   "use": "Lower third from about 00:05 for 3 seconds. Move it lower left, above the captions. Type the second line Client, Americans for Immigrant Justice under it. Check the name spelling, Roberto or Robert, in the open decision before you export."
+  },
+  {
+   "n": 3,
+   "title": "Chapter super Miami",
+   "tpl": "tag_label",
+   "dur": 10,
+   "pos": "center",
+   "text": {
+    "main": "Krome, Miami"
+   },
+   "cue": "Small chapter super, lower corner: Krome, Miami. Never full screen.",
+   "src": "Script, row 00:30–00:55, Motion graphics & type.",
+   "rows": [
+    "00:30–00:55"
+   ],
+   "use": "Small chapter super at the start of chapter B, after the 1 s dip. Move it to a lower corner, above the captions. Never full screen."
+  },
+  {
+   "n": 4,
+   "title": "Chapter super 2025",
+   "tpl": "tag_label",
+   "dur": 10,
+   "pos": "center",
+   "text": {
+    "main": "Krome, 2025"
+   },
+   "cue": "Chapter super: Krome, 2025.",
+   "src": "Script, row 02:20–03:20, Motion graphics & type.",
+   "rows": [
+    "02:20–03:20"
+   ],
+   "use": "Chapter super at the start of chapter E, after the 1 s dip. Same place and size as Krome, Miami: a lower corner, above the captions."
+  },
+  {
+   "n": 5,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "05:30–05:36"
+   ],
+   "cue": "Americans for Immigrant Justice logo + aijustice.org (Horizontal Animated logo). A /donate line only if Andrés asks.",
+   "src": "AIJ's own Vertical Animated logo (Mobile Video).mp4 from the AIJ Outros/Intros pack (Drive), the newest outro AIJ has given us. Source date: 3 Nov 2025.",
+   "file": "endcards/aij/aij-animated-logo-9x16.mp4",
+   "dur": 6.0,
+   "use": "This is the end card, the client's own file. Put it at 05:30 after the last line and use it exactly as it is. This file is AIJ's vertical animated logo (9:16); the script asks for the Horizontal Animated logo for this 16:9 cut, so use that one when it is in the end card folder."
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "item": "12714501068",
+ "client": "watsi",
+ "note": "The script asks for no graphics: captions only on every row, and watsi.org on the end card is the only brand element in the video.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:45–00:48"
+   ],
+   "cue": "watsi.org, all lowercase, Lato, navy #2E2844. Nothing else. This is the only brand element in the video.",
+   "src": "Watsi's own end card words from the script (watsi.org, the Who Gives close, or the Watsi x AYH lines). Watsi's scripts say no logo lockup. Source date: 6 Oct 2026.",
+   "c": {
+    "bg": "#D3EDFA",
+    "fg": "#2E2844"
+   },
+   "text": {
+    "lines": [
+     "watsi.org"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it right after “Thanks so much. Bye.” (about 00:46.5; the script says an out at 00:45 cuts that line in half) and hold it to the end."
+  }
+ ]
+}

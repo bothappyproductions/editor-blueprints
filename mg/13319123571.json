@@ -1,7 +1,7 @@
 {
  "item": "13319123571",
  "client": "curegrin",
- "note": "One voice, the plan stays on Keith for the hook and the thirty line, so 5 graphics.",
+ "note": "One voice, the plan stays on Keith for the hook and the thirty line, so 5 graphics. No CureGRIN logo file yet (Lauren's high-res logo is still owed), so the end card types the name.",
  "mg": [
   {
    "n": 1,
@@ -82,6 +82,29 @@
     "00:36-00:46"
    ],
    "use": "Full-frame cutaway as he says it, then back to his face for the 1 s hold."
+  },
+  {
+   "n": 6,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:46-00:50"
+   ],
+   "cue": "“Support CureGRIN today.” and “curegrin.org”. The logo is here only.",
+   "src": "No CureGRIN logo file yet (Lauren's high-res logo is still owed); the name is typed until it arrives. Source date: 22 Oct 2026.",
+   "c": {
+    "bg": "#5C3D8D",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "CureGRIN",
+    "lines": [
+     "Support CureGRIN today.",
+     "curegrin.org"
+    ]
+   },
+   "dur": 4.0,
+   "use": "This is the end card. Put it at 00:46 after the last line and hold it to the end."
   }
  ]
 }

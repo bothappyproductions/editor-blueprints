@@ -87,6 +87,28 @@
     "00:43-00:46"
    ],
    "use": "Full-frame cutaway on her last words, then back to her face for the 1 s hold."
+  },
+  {
+   "n": 6,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:46-00:50"
+   ],
+   "cue": "End card: NIWRC logo, white on red. One line: niwrc.org. No logo before this card.",
+   "src": "NIWRC logo (white) from NIWRC's onboarding brand file, in the brand kit 10 Oct 2026. Client rule: white logo on red.",
+   "c": {
+    "bg": "#981C20",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/niwrc/niwrc-logo-white.svg",
+   "text": {
+    "lines": [
+     "niwrc.org"
+    ]
+   },
+   "dur": 4.0,
+   "use": "This is the end card. Put it at 00:46 after the last line and hold it to the end."
   }
  ]
 }

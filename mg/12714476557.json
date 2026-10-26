@@ -53,6 +53,27 @@
     "01:09–01:13"
    ],
    "use": "The planned brand touch. September Spirit, Watsi yellow, top third, on her voice. Hold 2 s after she says it."
+  },
+  {
+   "n": 4,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:26–01:29"
+   ],
+   "cue": "watsi.org/universal-fund, all lowercase, Lato, navy #2E2844. One line. Nothing under it. No stats, no donate button.",
+   "src": "Watsi's own end card words from the script (watsi.org, the Who Gives close, or the Watsi x AYH lines). Watsi's scripts say no logo lockup. Source date: 6 Oct 2026.",
+   "c": {
+    "bg": "#D3EDFA",
+    "fg": "#2E2844"
+   },
+   "text": {
+    "lines": [
+     "watsi.org/universal-fund"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 01:26 after the last line and hold it to the end."
   }
  ]
 }

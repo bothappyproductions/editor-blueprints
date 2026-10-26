@@ -83,6 +83,28 @@
     "00:38-00:50"
    ],
    "use": "Over Jacob as he says it. Off before “real hopeful” and the smile hold."
+  },
+  {
+   "n": 6,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:50-00:54"
+   ],
+   "cue": "End card: NIWRC logo, white on red. One line: niwrc.org. No logo before this card.",
+   "src": "NIWRC logo (white) from NIWRC's onboarding brand file, in the brand kit 10 Oct 2026. Client rule: white logo on red.",
+   "c": {
+    "bg": "#981C20",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/niwrc/niwrc-logo-white.svg",
+   "text": {
+    "lines": [
+     "niwrc.org"
+    ]
+   },
+   "dur": 4.0,
+   "use": "This is the end card. Put it at 00:50 after the last line and hold it to the end."
   }
  ]
 }

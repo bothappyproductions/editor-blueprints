@@ -1,7 +1,7 @@
 {
  "item": "13153550055",
  "client": "curegrin",
- "note": "The plan says captions only on every row, one answer with no cut from 00:57, and her face with no B-roll on the last line. Use these only if Atdhe asks for more, and keep captions on.",
+ "note": "The plan says captions only on every row, one answer with no cut from 00:57, and her face with no B-roll on the last line. Use these only if Atdhe asks for more, and keep captions on. The shared CureGRIN end card the script describes (Register Here, the GR icon, the July 2027 calendar, Presented by with the CureGRIN and GRIN2B logos) is not in the end card folder yet, and neither is a CureGRIN logo, so the end card types the event text and the link. Both files are still owed.",
  "mg": [
   {
    "n": 1,
@@ -110,6 +110,30 @@
     "01:44–02:36"
    ],
    "use": "Full-frame cutaway on her words, only if Atdhe asks. Keep her audio under."
+  },
+  {
+   "n": 8,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "04:42–04:52"
+   ],
+   "cue": "Event text: GRI con 2027 · July 22–24, 2027 · Denver, CO. Never Aurora. No “donate” wording.",
+   "src": "No CureGRIN logo file yet (Lauren's high-res logo is still owed); the name is typed until it arrives. Source date: 22 Oct 2026.",
+   "c": {
+    "bg": "#FFFFFF",
+    "fg": "#5C3D8D"
+   },
+   "text": {
+    "name": "CureGRIN",
+    "lines": [
+     "GRI con 2027 · July 22–24, 2027 · Denver, CO",
+     "Register Here",
+     "https://curegrin.akaraisin.com/ui/gricon27"
+    ]
+   },
+   "dur": 10.0,
+   "use": "This is the end card. Put it at 04:42 after the last line and hold it to the end. The script wants the shared CureGRIN end card (client-approved layout: Register Here and the link, the GR icon, the July 2027 calendar with 22–24 marked, and Presented by with the CureGRIN and GRIN2B logos). That card is not in the end card folder yet, so this one types the event text and the link. Use the shared card if you have it. Never Aurora, never “donate”."
   }
  ]
 }

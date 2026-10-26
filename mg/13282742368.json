@@ -1,0 +1,62 @@
+{
+ "item": "13282742368",
+ "client": "dream-center-dallas",
+ "note": "The script asks for two graphics: the hook text “SOMEONE IS HERE FOR YOU” on frame 1 and Tiffany's name super at 00:05. Every other row is captions only. Dream Center Dallas has not sent its logo yet, so the end card types the name; the logo file is still owed (Nick).",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "SOMEONE IS HERE FOR YOU"
+   },
+   "cue": "Hook text on frame 1: SOMEONE IS HERE FOR YOU. Already on screen at 0:00. It does not animate on.",
+   "src": "Script, row 00:00-00:04, Motion graphics & type.",
+   "rows": [
+    "00:00-00:04"
+   ],
+   "use": "Hook text in the top third, already on screen at 0:00. Start the clip at frame 0045 (fully on) and hold it until the cut at 00:04."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Tiffany"
+   },
+   "cue": "Name super at 00:05, lower left, 3 seconds: “Tiffany” / “Volunteer, Dream Center Dallas”",
+   "src": "Script, row 00:04-00:14, Motion graphics & type.",
+   "rows": [
+    "00:04-00:14"
+   ],
+   "use": "Name super from 00:05 for 3 seconds. Move it lower left, above the captions. Type the second line Volunteer, Dream Center Dallas under it."
+  },
+  {
+   "n": 3,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:48-00:51"
+   ],
+   "cue": "End card: Dream Center Dallas name or logo + If you need it, we got it here. + Adopt-A-Block · every month.",
+   "src": "Dream Center Dallas has not sent its logo yet; the name is typed until Nick sends it, as the script says. Source date: 22 Oct 2026.",
+   "c": {
+    "bg": "#75B941",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "Dream Center Dallas",
+    "lines": [
+     "If you need it, we got it here.",
+     "Adopt-A-Block · every month"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 00:48 after the last line and hold it to the end."
+  }
+ ]
+}

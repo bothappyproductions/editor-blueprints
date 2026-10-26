@@ -1,7 +1,7 @@
 {
  "item": "13083743948",
  "client": "mha",
- "note": "The plan says captions only and stay on Jen's face, with B-roll only where it shows what she says. Use the top-band overlays first.",
+ "note": "The plan says captions only and stay on Jen's face, with B-roll only where it shows what she says. Use the top-band overlays first. MHA has sent no logo file, so the end card types the script's words; the MHA turtle logo file is still owed (ask Nick).",
  "mg": [
   {
    "n": 1,
@@ -112,6 +112,28 @@
     "01:06–01:20"
    ],
    "use": "Over her face as she says it. Out before “we do recover” so that line is only her and the captions."
+  },
+  {
+   "n": 8,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:20–01:23"
+   ],
+   "cue": "MHA Nebraska · Intentional Peer Support, then mha-ne.org under it, dark olive #4A5325. No phone number.",
+   "src": "MHA Nebraska has not sent a logo file (never rebuild one), so the end card is the script's words in MHA's colours. Source date: 22 Oct 2026.",
+   "c": {
+    "bg": "#E8EFD4",
+    "fg": "#4A5325"
+   },
+   "text": {
+    "name": "MHA Nebraska · Intentional Peer Support",
+    "lines": [
+     "mha-ne.org"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 01:20 after the last line and hold it to the end. Add the MHA turtle logo only from a real logo file from Nick. Never rebuild it. No phone number."
   }
  ]
 }

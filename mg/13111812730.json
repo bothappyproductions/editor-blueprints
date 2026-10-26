@@ -1,7 +1,7 @@
 {
  "item": "13111812730",
  "client": "family-reach",
- "note": "The plan says nothing written on screen: picture, the client's VO and their end cards only. Use these only if the client asks for text, and never change a word of the VO.",
+ "note": "The plan says nothing written on screen: picture, the client's VO and their end cards only. Use these only if the client asks for text, and never change a word of the VO. The Family Reach closing card in the end card folder is 9:16 only, so a 16:9 version is still owed for this 16:9 cut.",
  "mg": [
   {
    "n": 1,
@@ -80,6 +80,19 @@
     "00:22–00:26"
    ],
    "use": "Only if you need a transition into the walk at 00:22. Use it once, slow."
+  },
+  {
+   "n": 6,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:36–00:43"
+   ],
+   "cue": "Art card 1: The side effects of cancer aren't always medical. Art card 2: the Family Reach 30 Year logo, new brand only.",
+   "src": "Family Reach's own closing card, new brand (Video closeout (15).mp4 from Ansley, Drive, 15 Sep 2026).",
+   "file": "endcards/family-reach/family-reach-closing-card.mp4",
+   "dur": 5.0,
+   "use": "This is the end card, the client's own file (new brand). The script runs this row as black for 1 s from 00:36, then Art card 1 for 3 s with the words The side effects of cancer aren't always medical. Type that card in the card style of the Utilities cut (Emma's Drawing). Then put this card as Art card 2 at 00:40, exactly as it is, to the end. The file is 9:16 and this cut is 16:9, so use a 16:9 version when it is in the end card folder."
   }
  ]
 }

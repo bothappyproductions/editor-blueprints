@@ -1,0 +1,79 @@
+{
+ "item": "13153585107",
+ "client": "curegrin",
+ "note": "The script asks for three graphics: the hook text “Only two kids on the planet?”, Dr. Steve Traynelis's name plate and the question as top text at 03:06. Every other row is captions only. This is a 16:9 film. The shared CureGRIN end card the script describes (Register Here, the GR icon, the July 2027 calendar, Presented by with the CureGRIN and GRIN2B logos) is not in the end card folder yet, and neither is a CureGRIN logo, so the end card types the event text and the link. Both files are still owed.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Only two kids on the planet?"
+   },
+   "cue": "Hook text on frame 1: Only two kids on the planet? (his own words). On until 00:03.",
+   "src": "Script, row 00:00–00:08, Motion graphics & type.",
+   "rows": [
+    "00:00–00:08"
+   ],
+   "use": "Hook text in the top third on frame 1. Start the clip at frame 0045 (fully on) so it is there on the first frame, and take it off at 00:03."
+  },
+  {
+   "n": 2,
+   "title": "Name plate",
+   "tpl": "tag_label",
+   "dur": 4,
+   "pos": "center",
+   "text": {
+    "main": "Dr. Steve Traynelis"
+   },
+   "cue": "Name plate at 00:08–00:12, small, lower left: “Dr. Steve Traynelis” / “Professor, Emory University”.",
+   "src": "Script, row 00:08–00:29, Motion graphics & type.",
+   "rows": [
+    "00:08–00:29"
+   ],
+   "use": "Name plate from 00:08 to 00:12, small. Move it lower left, above the captions. Type the second line Professor, Emory University under it."
+  },
+  {
+   "n": 3,
+   "title": "Question top text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "How can I get a functional analysis of my variant done?"
+   },
+   "cue": "Top text, 3 s, before his answer: “How can I get a functional analysis of my variant done?”",
+   "src": "Script, row 03:06–03:43, Motion graphics & type.",
+   "rows": [
+    "03:06–03:43"
+   ],
+   "use": "Top text for 3 seconds at the start of this row, over MVI_3781.MP4, before his answer. Then captions only."
+  },
+  {
+   "n": 4,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "04:21–04:31"
+   ],
+   "cue": "Event text: GRI con 2027 · July 22–24, 2027 · Denver, CO. Never Aurora. No “donate” wording.",
+   "src": "No CureGRIN logo file yet (Lauren's high-res logo is still owed); the name is typed until it arrives. Source date: 22 Oct 2026.",
+   "c": {
+    "bg": "#FFFFFF",
+    "fg": "#5C3D8D"
+   },
+   "text": {
+    "name": "CureGRIN",
+    "lines": [
+     "GRI con 2027 · July 22–24, 2027 · Denver, CO",
+     "Register Here",
+     "https://curegrin.akaraisin.com/ui/gricon27"
+    ]
+   },
+   "dur": 10.0,
+   "use": "This is the end card. Put it at 04:21 after the last line and hold it to the end. The script wants the shared CureGRIN end card (client-approved layout: Register Here and the link, the GR icon, the July 2027 calendar with 22–24 marked, and Presented by with the CureGRIN and GRIN2B logos). That card is not in the end card folder yet, so this one types the event text and the link. Use the shared card if you have it. Never Aurora, never “donate”."
+  }
+ ]
+}
