@@ -1,0 +1,90 @@
+{
+ "item": "13317239011",
+ "client": "dream-center-dallas",
+ "note": "Short, one voice, the plan stays on her face for the hook and the button, so 5 graphics.",
+ "mg": [
+  {
+   "n": 1,
+   "tpl": "highlight_callout",
+   "title": "In response to COVID",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "in response to COVID in 2020"
+   },
+   "src": "Robin Fremel, Interview23-Volunteer.MOV [00:55.3]–[00:59.0]",
+   "rows": [
+    "00:00–00:06"
+   ],
+   "use": "Only after the hook text goes out, over her face, as she says it. Keep captions on."
+  },
+  {
+   "n": 2,
+   "tpl": "word_stack",
+   "title": "Shut down, bare bones",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "items": [
+     "schools were shut down",
+     "grocery stores were bare bones"
+    ]
+   },
+   "src": "Robin Fremel, Interview23-Volunteer.MOV [01:04.0]–[01:08.0]",
+   "rows": [
+    "00:06–00:14"
+   ],
+   "use": "Each line lands on her words over the car line B-roll. Keep captions on."
+  },
+  {
+   "n": 3,
+   "tpl": "kinetic_quote",
+   "title": "Since the beginning",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "some of our families that have been with us since the beginning",
+    "emph": [
+     "since the beginning"
+    ]
+   },
+   "src": "Robin Fremel, Interview23-Volunteer.MOV [00:23.0]–[00:26.0]",
+   "rows": [
+    "00:14–00:24"
+   ],
+   "use": "Top band over her face as she says it. Keep captions on."
+  },
+  {
+   "n": 4,
+   "tpl": "statement_card",
+   "title": "Serve together",
+   "dur": 3,
+   "text": {
+    "main": "come and serve together",
+    "emph": [
+     "together"
+    ]
+   },
+   "src": "Robin Fremel, Interview23-Volunteer.MOV [00:40.9]–[00:44.0]",
+   "rows": [
+    "00:24–00:33"
+   ],
+   "use": "Full-frame cutaway as she says it, then back to the volunteers B-roll."
+  },
+  {
+   "n": 5,
+   "tpl": "highlight_callout",
+   "title": "Joy spark",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "see joy spark in them"
+   },
+   "src": "Robin Fremel, Interview23-Volunteer.MOV [01:36.8]–[01:40.0]",
+   "rows": [
+    "00:33–00:45"
+   ],
+   "use": "Top band over her face as she says it. Keep captions on."
+  }
+ ]
+}

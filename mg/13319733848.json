@@ -1,0 +1,32 @@
+{
+ "item": "13319733848",
+ "client": "curegrin",
+ "note": "Short cut, one voice, the plan stays on his face and two B-roll beats, so 5 graphics.",
+ "mg": [
+  {"n": 1, "tpl": "kinetic_quote", "title": "A different view", "dur": 4, "pos": "top",
+   "text": {"main": "people who have a kid with a rare disease get a different view", "emph": ["different view"]},
+   "src": "Keith McArthur, 20261008_C5226.MP4 [00:13.0]",
+   "rows": ["00:04-00:09"],
+   "use": "Top band over his face as he says it, after the hook text is gone. Keep captions on."},
+  {"n": 2, "tpl": "tag_label", "title": "Rare disease tag", "dur": 2.5, "pos": "upper",
+   "text": {"main": "rare disease"},
+   "src": "Keith McArthur, C5226 [00:13.0]",
+   "rows": ["00:04-00:09"],
+   "use": "Small pill as he says rare disease, under MG 1. Keep captions on."},
+  {"n": 3, "tpl": "highlight_callout", "title": "On their own", "dur": 3, "pos": "top",
+   "text": {"main": "some families on their own"},
+   "src": "Keith McArthur, C5226 [00:34.5]",
+   "rows": ["00:09-00:19"],
+   "use": "Top band over the morning meeting B-roll as he says it. Keep captions on."},
+  {"n": 4, "tpl": "word_stack", "title": "Networks, resources, time", "dur": 4, "pos": "top",
+   "text": {"items": ["networks", "resources", "time"]},
+   "src": "Keith McArthur, C5226 [00:44.6]",
+   "rows": ["00:19-00:35"],
+   "use": "Each word lands as he says it over the lunch wide shot. Keep captions on."},
+  {"n": 5, "tpl": "statement_card", "title": "So important to us", "dur": 2.5,
+   "text": {"main": "you are so important to us", "emph": ["so important"]},
+   "src": "Keith McArthur, C5226 [00:21.0]",
+   "rows": ["00:35-00:43"],
+   "use": "Full-frame cutaway on the words, then back to his face for treatments and cures and the 1 s hold."}
+ ]
+}

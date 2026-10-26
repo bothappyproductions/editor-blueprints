@@ -1,0 +1,32 @@
+{
+ "item": "13319733895",
+ "client": "dream-center-dallas",
+ "note": "Short cut, one voice, the plan stays on her face with two B-roll beats, so 5 graphics.",
+ "mg": [
+  {"n": 1, "tpl": "highlight_callout", "title": "Breath of air", "dur": 4, "pos": "top",
+   "text": {"main": "this is kind of breath of air to actually just help us"},
+   "src": "Mom of three, Interview 10-Neighbor.MOV [01:12.7]",
+   "rows": ["00:04-00:14"],
+   "use": "Top band over her face as she says it, after the hook text is gone. Keep subtitles on."},
+  {"n": 2, "tpl": "word_stack", "title": "It helps", "dur": 3, "pos": "top",
+   "text": {"items": ["It helps my children", "It helps everybody"]},
+   "src": "Mom of three, Interview 10-Neighbor.MOV [00:40.4]",
+   "rows": ["00:14-00:23"],
+   "use": "Each line lands as she says it over the kids on the sidewalk B-roll. Keep subtitles on."},
+  {"n": 3, "tpl": "kinetic_quote", "title": "Help out here", "dur": 3, "pos": "top",
+   "text": {"main": "there's help out here", "emph": ["help"]},
+   "src": "Mom of three, Interview 10-Neighbor.MOV [01:34.7]",
+   "rows": ["00:23-00:35"],
+   "use": "Top band over her face as she says it, at the start of the row. Keep subtitles on."},
+  {"n": 4, "tpl": "statement_card", "title": "Not alone", "dur": 3,
+   "text": {"main": "we're not alone through any of it", "emph": ["not alone"]},
+   "src": "Mom of three, Interview 10-Neighbor.MOV [01:25.8]",
+   "rows": ["00:23-00:35"],
+   "use": "Only if you add this line to the cut (01:23.2 to 01:30.5). Full-frame cutaway on the words, then back to her face."},
+  {"n": 5, "tpl": "highlight_callout", "title": "Helping each other", "dur": 4, "pos": "top",
+   "text": {"main": "feel welcome and everybody is here helping each other"},
+   "src": "Mom of three, Interview 10-Neighbor.MOV [01:47.0]",
+   "rows": ["00:35-00:42"],
+   "use": "Top band over her face as she says it. Keep subtitles on. Then hold on her face."}
+ ]
+}

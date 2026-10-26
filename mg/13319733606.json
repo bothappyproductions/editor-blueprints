@@ -1,0 +1,32 @@
+{
+ "item": "13319733606",
+ "client": "niwrc",
+ "note": "Short cut, one voice, the plan stays on her face, so 5 graphics.",
+ "mg": [
+  {"n": 1, "tpl": "tag_label", "title": "DVAM tag", "dur": 3, "pos": "upper",
+   "text": {"main": "Domestic Violence Awareness Month"},
+   "src": "Lucy Simpson, 26-10-09 C2 Happy - NIWRC Event 4.MP4 [06:57.5]",
+   "rows": ["00:04-00:13"],
+   "use": "Small pill at the top as she says the month, after the name super is gone. Keep captions on."},
+  {"n": 2, "tpl": "highlight_callout", "title": "Every community", "dur": 4, "pos": "top",
+   "text": {"main": "this is something that happens in every community"},
+   "src": "Lucy Simpson, C2 Event 4 [07:02.0]",
+   "rows": ["00:04-00:13"],
+   "use": "Top band over her face as she says it, at the end of the row. Keep captions on."},
+  {"n": 3, "tpl": "word_stack", "title": "Stigma and shame", "dur": 3, "pos": "top",
+   "text": {"items": ["stigma", "shame"]},
+   "src": "Lucy Simpson, C2 Event 4 [07:15.5]",
+   "rows": ["00:13-00:24"],
+   "use": "This is the key word treatment the row asks for. Each word lands as she says it. Keep captions on."},
+  {"n": 4, "tpl": "kinetic_quote", "title": "Your local program", "dur": 4, "pos": "top",
+   "text": {"main": "go find out where is your local domestic violence program", "emph": ["local"]},
+   "src": "Lucy Simpson, C2 Event 4 [07:25.4]",
+   "rows": ["00:24-00:41"],
+   "use": "Top band over her face as she says it, at the start of the row. Keep captions on."},
+  {"n": 5, "tpl": "statement_card", "title": "Raise awareness", "dur": 2.5,
+   "text": {"main": "do what you can to raise awareness about this issue", "emph": ["raise awareness"]},
+   "src": "Lucy Simpson, C2 Event 4 [07:30.3]",
+   "rows": ["00:24-00:41"],
+   "use": "Full-frame cutaway on her last words, then back to her face for the 1 s hold."}
+ ]
+}

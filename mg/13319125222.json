@@ -1,0 +1,92 @@
+{
+ "item": "13319125222",
+ "client": "niwrc",
+ "note": "Short cut, one voice, the plan stays on her face, so 5 graphics.",
+ "mg": [
+  {
+   "n": 1,
+   "tpl": "highlight_callout",
+   "title": "The youth, for sure",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "what makes me hopeful is the youth, for sure"
+   },
+   "src": "Shayna Gutierrez, 26-10-09 C1 Happy - NIWRC Event 8.MP4 [02:37.9]",
+   "rows": [
+    "00:05-00:21"
+   ],
+   "use": "Over her face as she says it, after the name super is gone. Keep captions on."
+  },
+  {
+   "n": 2,
+   "tpl": "word_stack",
+   "title": "Invest in their youth now",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "items": [
+     "invest in their youth now"
+    ]
+   },
+   "src": "Shayna Gutierrez, C1 Event 8 [02:51.4]",
+   "rows": [
+    "00:05-00:21"
+   ],
+   "use": "Lands on her words at the end of the row. Then hold on her face."
+  },
+  {
+   "n": 3,
+   "tpl": "kinetic_quote",
+   "title": "More resources",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "it would be more resources",
+    "emph": [
+     "more resources"
+    ]
+   },
+   "src": "Shayna Gutierrez, C1 Event 8 [02:13.3]",
+   "rows": [
+    "00:21-00:43"
+   ],
+   "use": "Top band over the side camera as she says it. Keep captions on."
+  },
+  {
+   "n": 4,
+   "tpl": "word_stack",
+   "title": "The county, the state",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "items": [
+     "the county",
+     "the state"
+    ]
+   },
+   "src": "Shayna Gutierrez, C1 Event 8 [02:21.4]",
+   "rows": [
+    "00:21-00:43"
+   ],
+   "use": "Each line lands on her word over her face, after MG 3 is gone. Keep captions on."
+  },
+  {
+   "n": 5,
+   "tpl": "statement_card",
+   "title": "Where it starts",
+   "dur": 2.5,
+   "text": {
+    "main": "the youth for me is where it starts",
+    "emph": [
+     "where it starts"
+    ]
+   },
+   "src": "Shayna Gutierrez, C1 Event 8 [03:03.2]",
+   "rows": [
+    "00:43-00:46"
+   ],
+   "use": "Full-frame cutaway on her last words, then back to her face for the 1 s hold."
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "item": "13317236086",
+ "client": "dream-center-dallas",
+ "note": "Short, one voice, the plan stays on her face for the hook and the button, so 5 graphics.",
+ "mg": [
+  {
+   "n": 1,
+   "tpl": "highlight_callout",
+   "title": "Come through the line",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "see everybody come through the line"
+   },
+   "src": "Candice, Interview26-Volunteer.MOV [00:14.3]–[00:16.5]",
+   "rows": [
+    "00:00–00:05"
+   ],
+   "use": "Only after the hook text goes out, over her face, as she says it. Keep captions on."
+  },
+  {
+   "n": 2,
+   "tpl": "kinetic_quote",
+   "title": "Familiar faces",
+   "dur": 3.5,
+   "pos": "top",
+   "text": {
+    "main": "meet familiar faces each month",
+    "emph": [
+     "familiar faces"
+    ]
+   },
+   "src": "Candice, Interview26-Volunteer.MOV [00:16.6]–[00:19.0]",
+   "rows": [
+    "00:05–00:12"
+   ],
+   "use": "Top band over the car line B-roll as she says it. Keep captions on."
+  },
+  {
+   "n": 3,
+   "tpl": "statement_card",
+   "title": "No grocery stores",
+   "dur": 3,
+   "text": {
+    "main": "no formal grocery stores for people",
+    "emph": [
+     "no formal grocery stores"
+    ]
+   },
+   "src": "Candice, Interview26-Volunteer.MOV [00:31.2]–[00:33.5]",
+   "rows": [
+    "00:12–00:24"
+   ],
+   "use": "Full-frame cutaway as she says it, then back to the bags of food B-roll."
+  },
+  {
+   "n": 4,
+   "tpl": "word_stack",
+   "title": "Still trying, still coming",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "items": [
+     "still trying",
+     "still coming"
+    ]
+   },
+   "src": "Candice, Interview26-Volunteer.MOV [00:49.5]–[00:52.0]",
+   "rows": [
+    "00:24–00:33"
+   ],
+   "use": "Each phrase lands on her word, in the top band over her face. Keep captions on."
+  },
+  {
+   "n": 5,
+   "tpl": "highlight_callout",
+   "title": "The people I serve with",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "the people I serve with are great"
+   },
+   "src": "Candice, Interview26-Volunteer.MOV [01:07.6]–[01:09.0]",
+   "rows": [
+    "00:33–00:40"
+   ],
+   "use": "Top band over her face as she says it. Keep captions on."
+  }
+ ]
+}

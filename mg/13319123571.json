@@ -1,0 +1,87 @@
+{
+ "item": "13319123571",
+ "client": "curegrin",
+ "note": "One voice, the plan stays on Keith for the hook and the thirty line, so 5 graphics.",
+ "mg": [
+  {
+   "n": 1,
+   "tpl": "highlight_callout",
+   "title": "Charming smile",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "his charming smile and these blue sunglasses"
+   },
+   "src": "Keith McArthur, 20261008_C5208.MP4 [00:24.8]",
+   "rows": [
+    "00:00-00:07"
+   ],
+   "use": "Only after the hook text goes out, over Keith, as he says it. Keep captions on."
+  },
+  {
+   "n": 2,
+   "tpl": "kinetic_quote",
+   "title": "In honor of Carter",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "give him blue glasses in honor of Carter",
+    "emph": [
+     "in honor of Carter"
+    ]
+   },
+   "src": "Keith McArthur, 20261008_C5208.MP4 [00:32.5]",
+   "rows": [
+    "00:07-00:16"
+   ],
+   "use": "Top band as he says it, after the name super is gone. Keep captions on."
+  },
+  {
+   "n": 3,
+   "tpl": "tag_label",
+   "title": "Co-founders tag",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "co-founders of CureGRIN"
+   },
+   "src": "Keith McArthur, 20261008_C5208.MP4 [00:11.3]",
+   "rows": [
+    "00:16-00:29"
+   ],
+   "use": "Small, over the morning meeting B-roll as he says co-founders. Keep captions on."
+  },
+  {
+   "n": 4,
+   "tpl": "highlight_callout",
+   "title": "So hopeful",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "we're just so hopeful that the work you do"
+   },
+   "src": "Keith McArthur, 20261008_C5208.MP4 [00:59.3]",
+   "rows": [
+    "00:36-00:46"
+   ],
+   "use": "Over the lunch wide shot as he says it. Keep captions on."
+  },
+  {
+   "n": 5,
+   "tpl": "statement_card",
+   "title": "Saving lives",
+   "dur": 3,
+   "text": {
+    "main": "the work you do can literally be saving lives",
+    "emph": [
+     "saving lives"
+    ]
+   },
+   "src": "Keith McArthur, 20261008_C5208.MP4 [01:06.8]",
+   "rows": [
+    "00:36-00:46"
+   ],
+   "use": "Full-frame cutaway as he says it, then back to his face for the 1 s hold."
+  }
+ ]
+}

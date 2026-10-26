@@ -1,0 +1,105 @@
+{
+ "item": "13317220344",
+ "client": "curegrin",
+ "note": "The plan is captions only, one voice, and a 50 s cut, so 6 graphics.",
+ "mg": [
+  {
+   "n": 1,
+   "tpl": "highlight_callout",
+   "title": "Shots on goal",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "maximizing shots on goal"
+   },
+   "src": "Quinn Pauli, 20261008_C5239 [11:35]–[11:38]",
+   "rows": [
+    "00:04–00:12"
+   ],
+   "use": "Over her face as she says it, after the hook text is gone. Top of frame, away from the name super."
+  },
+  {
+   "n": 2,
+   "tpl": "word_stack",
+   "title": "Mouse, cells, approval",
+   "dur": 3.5,
+   "pos": "upper",
+   "text": {
+    "items": [
+     "in a mouse",
+     "or in cells",
+     "to getting approval"
+    ]
+   },
+   "src": "Quinn Pauli, 20261008_C5239 [11:20]–[11:25]",
+   "rows": [
+    "00:12–00:21"
+   ],
+   "use": "Each line lands on her word over the morning meeting B-roll. Keep captions on."
+  },
+  {
+   "n": 3,
+   "tpl": "statement_card",
+   "title": "A very long process",
+   "dur": 3,
+   "text": {
+    "main": "That's a very long process.",
+    "emph": [
+     "very long"
+    ]
+   },
+   "src": "Quinn Pauli, 20261008_C5239 [11:25]",
+   "rows": [
+    "00:12–00:21"
+   ],
+   "use": "Full-frame cutaway as she says it, then back to the meeting B-roll."
+  },
+  {
+   "n": 4,
+   "tpl": "kinetic_quote",
+   "title": "What matters most",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "the family perspective and what matters most to families",
+    "emph": [
+     "families"
+    ]
+   },
+   "src": "Quinn Pauli, 20261008_C5239 [06:42]–[06:48]",
+   "rows": [
+    "00:21–00:31"
+   ],
+   "use": "Over the side angle as she says it. Keep captions on."
+  },
+  {
+   "n": 5,
+   "tpl": "question_card",
+   "title": "Communicate, or walk",
+   "dur": 4.5,
+   "text": {
+    "main": "Is it your child being able to communicate in some way or is it being able to walk with assistance"
+   },
+   "src": "Quinn Pauli, 20261008_C5239 [08:20]–[08:26]",
+   "rows": [
+    "00:31–00:40"
+   ],
+   "use": "Full-frame cutaway as she asks it, then back to her face for “we need to understand that”."
+  },
+  {
+   "n": 6,
+   "tpl": "highlight_callout",
+   "title": "Can't be beat",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "This type of in-person outreach can't be beat"
+   },
+   "src": "Quinn Pauli, 20261008_C5239 [15:13]–[15:18]",
+   "rows": [
+    "00:40–00:52"
+   ],
+   "use": "Top band over her face as she says it. Keep captions on."
+  }
+ ]
+}

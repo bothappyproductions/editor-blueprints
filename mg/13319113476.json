@@ -1,0 +1,91 @@
+{
+ "item": "13319113476",
+ "client": "dream-center-dallas",
+ "note": "Short cut, one voice, the plan stays on her face for the laugh, so 5 graphics.",
+ "mg": [
+  {
+   "n": 1,
+   "tpl": "word_stack",
+   "title": "Eggs, potatoes, cheese",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "items": [
+     "eggs",
+     "potatoes",
+     "cheese"
+    ]
+   },
+   "src": "Francis, Interview15-Neighbor.MOV [00:28.6] to [00:40.3]",
+   "rows": [
+    "00:05-00:11"
+   ],
+   "use": "Each word lands as she says it over the bags B-roll. Keep captions on."
+  },
+  {
+   "n": 2,
+   "tpl": "highlight_callout",
+   "title": "Something I can use",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "something I can use"
+   },
+   "src": "Francis, Interview15-Neighbor.MOV [00:38.5]",
+   "rows": [
+    "00:05-00:11"
+   ],
+   "use": "After MG 1 is gone, over the milk B-roll as she says it. Keep captions on."
+  },
+  {
+   "n": 3,
+   "tpl": "kinetic_quote",
+   "title": "The stuff that y'all give",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "I love the stuff that y'all give",
+    "emph": [
+     "love"
+    ]
+   },
+   "src": "Francis, Interview15-Neighbor.MOV [00:20.4]",
+   "rows": [
+    "00:11-00:20"
+   ],
+   "use": "Top band over her face as she says it, after the name super is gone. Keep captions on."
+  },
+  {
+   "n": 4,
+   "tpl": "tag_label",
+   "title": "Second time tag",
+   "dur": 2.5,
+   "pos": "upper",
+   "text": {
+    "main": "the second time"
+   },
+   "src": "Francis, Interview15-Neighbor.MOV [00:09.5]",
+   "rows": [
+    "00:11-00:20"
+   ],
+   "use": "Small pill as she says second time, at the start of the row. Keep captions on."
+  },
+  {
+   "n": 5,
+   "tpl": "statement_card",
+   "title": "Come together",
+   "dur": 3,
+   "text": {
+    "main": "the community will still come together",
+    "emph": [
+     "come together"
+    ]
+   },
+   "src": "Francis, Interview15-Neighbor.MOV [01:18.8]",
+   "rows": [
+    "00:28-00:36"
+   ],
+   "use": "Full-frame cutaway over the car line B-roll as she says it, then back to her face for the hold."
+  }
+ ]
+}
