@@ -542,5 +542,34 @@
    "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/f8bade7c-7392-4d69-b1d5-c20577fe010e"
   },
   "note": "Cut in Resolve from this blueprint. Hook 'She is 14. Adults listened.' on from frame 0 (14 in NFTE orange); her answer intercut between the panel close-up (L012C003), the to-camera C0344 (log, graded to match) and the wide side angle L012C002, with zoom changes (100/112%) over every jump; blueprint MGs: name super 'NFTE student, age 14' (no name, town or school), 'A lot of my ideas were not being heard' callout over the office wide, kinetic quote, NFTE colour wipe into the panel answer, word stack on 'listen to our voices', 1 s room cutaway (C0166) on the applause, NFTE logo end card. 'So' cut from the 00:42 row. Epidemic Sound 'Random Acts of Kindness' bed, lifts under the applause. The XML opens in Premiere with cut, captions overlay and music laid out; relink the camera originals on the Library drive if asked. The graphics .mov is transparent (PNG codec) and sits on V2 from 00:00. v2: no name super on J.D.'s line (he is off camera and the blueprint says stay on her, so the student's reaction carries it with no tag); the to-camera C0344 shots keep the top of her head (100% = full source height, about 89% of native pixels; the push-ins are 109% anchored at the head instead of 112% centred); true peak -1.4 dBTP."
+ },
+ "13276390860": {
+  "version": 1,
+  "made": "2026-10-26",
+  "tool": "DaVinci Resolve Studio 21.1",
+  "length": "0:39.8",
+  "loudness": "-14.0 LUFS",
+  "music": "Epidemic Sound · Whispers of Winter (Ever So Blue)",
+  "mp4": {
+   "name": "90_Traditional_SFCGImagineIfBalloonForgiveThem001-1.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/c50aeef1-433b-4f99-8f5c-2b94bd0f8d42"
+  },
+  "xml": {
+   "name": "SFCGImagineIfBalloonForgiveThem001_90_v1_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/2f8c00c8-7c27-4ff0-a1f5-351cea7ca550"
+  },
+  "drt": {
+   "name": "SFCGImagineIfBalloonForgiveThem001_90_v1_Resolve.drt",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/18c338bb-572a-4982-a62b-8c0f975d6e0b"
+  },
+  "graphics": {
+   "name": "SFCGImagineIfBalloonForgiveThem001_graphics_9x16_v1.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/beecfeff-26d7-4e75-a14c-4ec7cf617bf5"
+  },
+  "luts": {
+   "name": "SFCGImagineIfBalloonForgiveThem001_grade_LUTs_v1.zip",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/0e9996a6-d423-4088-a134-0864765b86d2"
+  },
+  "note": "His 3897 close-up is too tight for captions in 9:16, so those lines play over his hands tying the ribbon and writing his wish; his 3898 talk shots are follow plates (trk_764_3898_*.mov in the edit folder). The countdown cuts Kalindi's sign (764_3885), GV with his card (3900 0:43) and GV looking up (3900 1:15), then the Imagine If card from the approved montage. Captions follow his audio: check \"bullies\", \"but can't be\" (script: \"bully\", \"or can be\") and \"empathize\" by ear."
  }
 }
