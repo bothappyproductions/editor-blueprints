@@ -1,0 +1,414 @@
+{
+ "item": "12489945635",
+ "client": "lions",
+ "style": {
+  "font": {
+   "css": "\"Arimo\"",
+   "w": 700
+  },
+  "size": 62,
+  "y": 1360,
+  "max_lines": 2,
+  "reveal": "phrase",
+  "fg": "#FFFFFF",
+  "shadow": false,
+  "box": {
+   "bg": "rgba(0,0,0,0.55)",
+   "r": 10
+  }
+ },
+ "note": "White text on the semi-transparent box, no drop shadow, max 2 lines (the locked Lions caption style). Timed from the words in the source clips.",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Hook",
+   "rows": [
+    "00:00–00:02"
+   ],
+   "clip": "IMG_7796.MOV",
+   "start": 9.47,
+   "src": "IMG_7796.MOV 00:09.5",
+   "dur": 1.63,
+   "words": [
+    {
+     "w": "From",
+     "t0": 0.15,
+     "t1": 0.23,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 0.23,
+     "t1": 1.13,
+     "e": 0
+    },
+    {
+     "w": "Philippines.",
+     "t0": 1.13,
+     "t1": 1.18,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 1.53,
+     "lines": [
+      [
+       0,
+       2
+      ]
+     ]
+    }
+   ],
+   "text": "From the Philippines.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 2,
+   "title": "New Lion",
+   "rows": [
+    "00:02–00:06"
+   ],
+   "clip": "IMG_7796.MOV",
+   "start": 24.89,
+   "src": "IMG_7796.MOV 00:24.9",
+   "dur": 5.98,
+   "words": [
+    {
+     "w": "And",
+     "t0": 0.15,
+     "t1": 1.47,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 1.47,
+     "t1": 2.79,
+     "e": 0
+    },
+    {
+     "w": "became",
+     "t0": 2.79,
+     "t1": 3.49,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 3.49,
+     "t1": 4.15,
+     "e": 0
+    },
+    {
+     "w": "lion",
+     "t0": 4.15,
+     "t1": 4.23,
+     "e": 0
+    },
+    {
+     "w": "almost",
+     "t0": 4.23,
+     "t1": 4.93,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 4.93,
+     "t1": 5.33,
+     "e": 0
+    },
+    {
+     "w": "year",
+     "t0": 5.33,
+     "t1": 5.38,
+     "e": 0
+    },
+    {
+     "w": "ago.",
+     "t0": 5.33,
+     "t1": 5.53,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 5.88,
+     "lines": [
+      [
+       0,
+       5
+      ],
+      [
+       6,
+       8
+      ]
+     ]
+    }
+   ],
+   "text": "And I became a lion almost a year ago.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 3,
+   "title": "Welcome",
+   "rows": [
+    "00:06–00:10"
+   ],
+   "clip": "IMG_7796.MOV",
+   "start": 31.09,
+   "src": "IMG_7796.MOV 00:31.1",
+   "dur": 2.44,
+   "words": [
+    {
+     "w": "Oh,",
+     "t0": 0.15,
+     "t1": 0.65,
+     "e": 0
+    },
+    {
+     "w": "welcome",
+     "t0": 0.65,
+     "t1": 1.15,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 1.15,
+     "t1": 1.41,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 1.41,
+     "t1": 1.61,
+     "e": 0
+    },
+    {
+     "w": "lions.",
+     "t0": 1.61,
+     "t1": 1.99,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 2.34,
+     "lines": [
+      [
+       0,
+       4
+      ]
+     ]
+    }
+   ],
+   "text": "Oh, welcome to the lions.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 4,
+   "title": "More Friends",
+   "rows": [
+    "00:10–00:16"
+   ],
+   "clip": "IMG_7797.MOV",
+   "start": 4.47,
+   "src": "IMG_7797.MOV 00:04.5",
+   "dur": 6.36,
+   "words": [
+    {
+     "w": "with",
+     "t0": 0.15,
+     "t1": 0.55,
+     "e": 0
+    },
+    {
+     "w": "Lions",
+     "t0": 0.55,
+     "t1": 0.93,
+     "e": 0
+    },
+    {
+     "w": "Club",
+     "t0": 0.93,
+     "t1": 1.21,
+     "e": 0
+    },
+    {
+     "w": "I'm",
+     "t0": 1.27,
+     "t1": 1.43,
+     "e": 0
+    },
+    {
+     "w": "also",
+     "t0": 1.43,
+     "t1": 1.89,
+     "e": 0
+    },
+    {
+     "w": "on",
+     "t0": 1.89,
+     "t1": 2.23,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 2.23,
+     "t1": 2.31,
+     "e": 0
+    },
+    {
+     "w": "mission",
+     "t0": 2.31,
+     "t1": 2.53,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 2.53,
+     "t1": 2.99,
+     "e": 0
+    },
+    {
+     "w": "make",
+     "t0": 2.99,
+     "t1": 3.37,
+     "e": 0
+    },
+    {
+     "w": "friends,",
+     "t0": 4.99,
+     "t1": 5.35,
+     "e": 0
+    },
+    {
+     "w": "more",
+     "t0": 5.35,
+     "t1": 5.59,
+     "e": 0
+    },
+    {
+     "w": "friends",
+     "t0": 5.59,
+     "t1": 5.91,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 5.3,
+     "lines": [
+      [
+       0,
+       4
+      ],
+      [
+       5,
+       10
+      ]
+     ]
+    },
+    {
+     "t0": 5.3,
+     "t1": 6.26,
+     "lines": [
+      [
+       11,
+       12
+      ]
+     ]
+    }
+   ],
+   "text": "with Lions Club I'm also on a mission to make friends, more friends",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 5,
+   "title": "Button",
+   "rows": [
+    "00:16–00:18"
+   ],
+   "clip": "IMG_7797.MOV",
+   "start": 38.15,
+   "src": "IMG_7797.MOV 00:38.1",
+   "dur": 2.42,
+   "words": [
+    {
+     "w": "have",
+     "t0": 0.15,
+     "t1": 0.23,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 0.23,
+     "t1": 0.39,
+     "e": 0
+    },
+    {
+     "w": "good",
+     "t0": 0.39,
+     "t1": 0.53,
+     "e": 0
+    },
+    {
+     "w": "rest",
+     "t0": 0.53,
+     "t1": 0.65,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 0.65,
+     "t1": 0.87,
+     "e": 0
+    },
+    {
+     "w": "your",
+     "t0": 0.87,
+     "t1": 0.92,
+     "e": 0
+    },
+    {
+     "w": "day,",
+     "t0": 0.91,
+     "t1": 1.29,
+     "e": 0
+    },
+    {
+     "w": "bye",
+     "t0": 1.51,
+     "t1": 1.97,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 2.32,
+     "lines": [
+      [
+       0,
+       7
+      ]
+     ]
+    }
+   ],
+   "text": "have a good rest of your day, bye",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  }
+ ]
+}

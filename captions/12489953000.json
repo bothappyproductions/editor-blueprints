@@ -1,0 +1,581 @@
+{
+ "item": "12489953000",
+ "client": "lions",
+ "style": {
+  "font": {
+   "css": "\"Arimo\"",
+   "w": 700
+  },
+  "size": 62,
+  "y": 1360,
+  "max_lines": 2,
+  "reveal": "phrase",
+  "fg": "#FFFFFF",
+  "shadow": false,
+  "box": {
+   "bg": "rgba(0,0,0,0.55)",
+   "r": 10
+  }
+ },
+ "note": "White text on the semi-transparent box, no drop shadow, max 2 lines (the locked Lions caption style). Timed from the words in the source clips. Not captioned: 00:23–00:27: only 3 of 10 words matched the audio (30%), so the line is likely another take or worded differently; check by ear.",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Hook",
+   "rows": [
+    "00:00–00:05"
+   ],
+   "clip": "IMG_7819.MOV",
+   "start": 64.55,
+   "src": "IMG_7819.MOV 01:04.5",
+   "dur": 5.6,
+   "words": [
+    {
+     "w": "when",
+     "t0": 0.15,
+     "t1": 0.23,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 0.23,
+     "t1": 0.37,
+     "e": 0
+    },
+    {
+     "w": "joined",
+     "t0": 0.37,
+     "t1": 0.61,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 0.61,
+     "t1": 0.89,
+     "e": 0
+    },
+    {
+     "w": "Lions",
+     "t0": 0.61,
+     "t1": 1.05,
+     "e": 0
+    },
+    {
+     "w": "Clubs",
+     "t0": 1.05,
+     "t1": 1.49,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 1.49,
+     "t1": 1.91,
+     "e": 0
+    },
+    {
+     "w": "2016",
+     "t0": 1.91,
+     "t1": 2.99,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 3.51,
+     "t1": 3.61,
+     "e": 0
+    },
+    {
+     "w": "was",
+     "t0": 3.61,
+     "t1": 3.85,
+     "e": 0
+    },
+    {
+     "w": "looking",
+     "t0": 3.85,
+     "t1": 4.13,
+     "e": 0
+    },
+    {
+     "w": "for",
+     "t0": 4.13,
+     "t1": 4.39,
+     "e": 0
+    },
+    {
+     "w": "where",
+     "t0": 4.39,
+     "t1": 4.63,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 4.63,
+     "t1": 4.79,
+     "e": 0
+    },
+    {
+     "w": "belong",
+     "t0": 4.79,
+     "t1": 5.15,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 4.08,
+     "lines": [
+      [
+       0,
+       5
+      ],
+      [
+       6,
+       10
+      ]
+     ]
+    },
+    {
+     "t0": 4.08,
+     "t1": 5.5,
+     "lines": [
+      [
+       11,
+       14
+      ]
+     ]
+    }
+   ],
+   "text": "when I joined the Lions Clubs in 2016 I was looking for where to belong",
+   "timing": "words",
+   "matched": 0.93,
+   "lang": "en"
+  },
+  {
+   "n": 2,
+   "title": "Found Family",
+   "rows": [
+    "00:05–00:09"
+   ],
+   "clip": "IMG_7819.MOV",
+   "start": 70.13,
+   "src": "IMG_7819.MOV 01:10.1",
+   "dur": 4.58,
+   "words": [
+    {
+     "w": "and",
+     "t0": 0.15,
+     "t1": 0.35,
+     "e": 0
+    },
+    {
+     "w": "when",
+     "t0": 0.35,
+     "t1": 0.45,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 0.45,
+     "t1": 0.67,
+     "e": 0
+    },
+    {
+     "w": "joined",
+     "t0": 0.67,
+     "t1": 0.85,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 0.85,
+     "t1": 1.03,
+     "e": 0
+    },
+    {
+     "w": "Lions",
+     "t0": 1.03,
+     "t1": 1.25,
+     "e": 0
+    },
+    {
+     "w": "Club",
+     "t0": 1.25,
+     "t1": 1.65,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 1.65,
+     "t1": 2.03,
+     "e": 0
+    },
+    {
+     "w": "Kampala",
+     "t0": 2.03,
+     "t1": 2.21,
+     "e": 0
+    },
+    {
+     "w": "Central",
+     "t0": 2.21,
+     "t1": 2.61,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 2.75,
+     "t1": 2.95,
+     "e": 0
+    },
+    {
+     "w": "found",
+     "t0": 2.95,
+     "t1": 3.19,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 3.19,
+     "t1": 3.39,
+     "e": 0
+    },
+    {
+     "w": "family",
+     "t0": 3.39,
+     "t1": 3.57,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 3.57,
+     "t1": 3.757,
+     "e": 0
+    },
+    {
+     "w": "Lions",
+     "t0": 3.757,
+     "t1": 4.13,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 2.7,
+     "lines": [
+      [
+       0,
+       5
+      ],
+      [
+       6,
+       9
+      ]
+     ]
+    },
+    {
+     "t0": 2.7,
+     "t1": 4.48,
+     "lines": [
+      [
+       10,
+       15
+      ]
+     ]
+    }
+   ],
+   "text": "and when I joined the Lions Club of Kampala Central I found a family of Lions",
+   "timing": "words",
+   "matched": 0.81,
+   "lang": "en"
+  },
+  {
+   "n": 3,
+   "title": "Best Friend",
+   "rows": [
+    "00:09–00:13"
+   ],
+   "clip": "IMG_7819.MOV",
+   "start": 74.13,
+   "src": "IMG_7819.MOV 01:14.1",
+   "dur": 5.32,
+   "words": [
+    {
+     "w": "and",
+     "t0": 0.15,
+     "t1": 0.75,
+     "e": 0
+    },
+    {
+     "w": "we",
+     "t0": 0.75,
+     "t1": 1.07,
+     "e": 0
+    },
+    {
+     "w": "became",
+     "t0": 1.07,
+     "t1": 1.43,
+     "e": 0
+    },
+    {
+     "w": "together",
+     "t0": 1.43,
+     "t1": 1.87,
+     "e": 0
+    },
+    {
+     "w": "until",
+     "t0": 1.87,
+     "t1": 2.25,
+     "e": 0
+    },
+    {
+     "w": "one",
+     "t0": 2.25,
+     "t1": 2.69,
+     "e": 0
+    },
+    {
+     "w": "one",
+     "t0": 2.95,
+     "t1": 3.11,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 3.11,
+     "t1": 3.33,
+     "e": 0
+    },
+    {
+     "w": "them",
+     "t0": 3.33,
+     "t1": 3.61,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 3.61,
+     "t1": 3.91,
+     "e": 0
+    },
+    {
+     "w": "my",
+     "t0": 3.91,
+     "t1": 4.25,
+     "e": 0
+    },
+    {
+     "w": "best",
+     "t0": 4.25,
+     "t1": 4.59,
+     "e": 0
+    },
+    {
+     "w": "friends",
+     "t0": 4.59,
+     "t1": 4.87,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 5.22,
+     "lines": [
+      [
+       0,
+       4
+      ],
+      [
+       5,
+       12
+      ]
+     ]
+    }
+   ],
+   "text": "and we became together until one one of them is my best friends",
+   "timing": "words",
+   "matched": 0.92,
+   "lang": "en"
+  },
+  {
+   "n": 4,
+   "title": "Best Friend",
+   "rows": [
+    "00:13–00:17"
+   ],
+   "clip": "IMG_7819.MOV",
+   "start": 85.49,
+   "src": "IMG_7819.MOV 01:25.5",
+   "dur": 2.98,
+   "words": [
+    {
+     "w": "currently",
+     "t0": 0.15,
+     "t1": 0.91,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 0.91,
+     "t1": 1.17,
+     "e": 0
+    },
+    {
+     "w": "going",
+     "t0": 1.17,
+     "t1": 1.37,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 1.37,
+     "t1": 1.51,
+     "e": 0
+    },
+    {
+     "w": "be",
+     "t0": 1.51,
+     "t1": 1.67,
+     "e": 0
+    },
+    {
+     "w": "my",
+     "t0": 1.67,
+     "t1": 1.97,
+     "e": 0
+    },
+    {
+     "w": "club",
+     "t0": 1.97,
+     "t1": 2.13,
+     "e": 0
+    },
+    {
+     "w": "president",
+     "t0": 2.13,
+     "t1": 2.53,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 2.88,
+     "lines": [
+      [
+       0,
+       4
+      ],
+      [
+       5,
+       7
+      ]
+     ]
+    }
+   ],
+   "text": "currently is going to be my club president",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en",
+   "window": "the words sit up to 3 s outside the script's in/out"
+  },
+  {
+   "n": 5,
+   "title": "Tie-Back",
+   "rows": [
+    "00:17–00:23"
+   ],
+   "clip": "IMG_7822.MOV",
+   "start": 24.93,
+   "src": "IMG_7822.MOV 00:24.9",
+   "dur": 3.12,
+   "words": [
+    {
+     "w": "talk",
+     "t0": 0.15,
+     "t1": 0.15,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 0.15,
+     "t1": 0.37,
+     "e": 0
+    },
+    {
+     "w": "any",
+     "t0": 0.37,
+     "t1": 0.53,
+     "e": 0
+    },
+    {
+     "w": "Lion,",
+     "t0": 0.53,
+     "t1": 0.75,
+     "e": 0
+    },
+    {
+     "w": "they",
+     "t0": 0.91,
+     "t1": 0.99,
+     "e": 0
+    },
+    {
+     "w": "are",
+     "t0": 0.99,
+     "t1": 1.13,
+     "e": 0
+    },
+    {
+     "w": "willing",
+     "t0": 1.13,
+     "t1": 1.45,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 1.45,
+     "t1": 2.09,
+     "e": 0
+    },
+    {
+     "w": "receive",
+     "t0": 2.09,
+     "t1": 2.43,
+     "e": 0
+    },
+    {
+     "w": "you",
+     "t0": 2.43,
+     "t1": 2.67,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 3.02,
+     "lines": [
+      [
+       0,
+       5
+      ],
+      [
+       6,
+       9
+      ]
+     ]
+    }
+   ],
+   "text": "talk to any Lion, they are willing to receive you",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  }
+ ]
+}

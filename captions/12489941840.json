@@ -1,0 +1,487 @@
+{
+ "item": "12489941840",
+ "client": "lions",
+ "style": {
+  "font": {
+   "css": "\"Arimo\"",
+   "w": 700
+  },
+  "size": 62,
+  "y": 1360,
+  "max_lines": 2,
+  "reveal": "phrase",
+  "fg": "#FFFFFF",
+  "shadow": false,
+  "box": {
+   "bg": "rgba(0,0,0,0.55)",
+   "r": 10
+  }
+ },
+ "note": "White text on the semi-transparent box, no drop shadow, max 2 lines (the locked Lions caption style). Timed from the words in the source clips. Not captioned: 00:12–00:22: only 20 of 28 words matched the audio (71%), so the line is likely another take or worded differently; check by ear.",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Hook",
+   "rows": [
+    "00:00–00:03"
+   ],
+   "clip": "IMG_8056.MOV",
+   "start": 11.53,
+   "src": "IMG_8056.MOV 00:11.5",
+   "dur": 3.81,
+   "words": [
+    {
+     "w": "Sir,",
+     "t0": 0.15,
+     "t1": 0.15,
+     "e": 0
+    },
+    {
+     "w": "sir,",
+     "t0": 1.19,
+     "t1": 1.31,
+     "e": 0
+    },
+    {
+     "w": "can",
+     "t0": 1.31,
+     "t1": 2.45,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 2.45,
+     "t1": 2.69,
+     "e": 0
+    },
+    {
+     "w": "ask",
+     "t0": 2.69,
+     "t1": 2.75,
+     "e": 0
+    },
+    {
+     "w": "you",
+     "t0": 2.75,
+     "t1": 2.83,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 2.83,
+     "t1": 3.31,
+     "e": 0
+    },
+    {
+     "w": "question?",
+     "t0": 3.31,
+     "t1": 3.36,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 3.71,
+     "lines": [
+      [
+       0,
+       4
+      ],
+      [
+       5,
+       7
+      ]
+     ]
+    }
+   ],
+   "text": "Sir, sir, can I ask you a question?",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 2,
+   "title": "Hook",
+   "rows": [
+    "00:03–00:05"
+   ],
+   "clip": "IMG_8056.MOV",
+   "start": 14.85,
+   "src": "IMG_8056.MOV 00:14.8",
+   "dur": 2.39,
+   "words": [
+    {
+     "w": "Why",
+     "t0": 0.15,
+     "t1": 0.31,
+     "e": 0
+    },
+    {
+     "w": "did",
+     "t0": 0.31,
+     "t1": 0.49,
+     "e": 0
+    },
+    {
+     "w": "you",
+     "t0": 0.49,
+     "t1": 0.75,
+     "e": 0
+    },
+    {
+     "w": "decide",
+     "t0": 0.75,
+     "t1": 1.03,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 1.03,
+     "t1": 1.47,
+     "e": 0
+    },
+    {
+     "w": "become",
+     "t0": 1.47,
+     "t1": 1.52,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 1.47,
+     "t1": 1.89,
+     "e": 0
+    },
+    {
+     "w": "lion?",
+     "t0": 1.89,
+     "t1": 1.94,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 2.29,
+     "lines": [
+      [
+       0,
+       5
+      ],
+      [
+       6,
+       7
+      ]
+     ]
+    }
+   ],
+   "text": "Why did you decide to become a lion?",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 3,
+   "title": "Why",
+   "rows": [
+    "00:05–00:10"
+   ],
+   "clip": "IMG_8056.MOV",
+   "start": 18.85,
+   "src": "IMG_8056.MOV 00:18.9",
+   "dur": 7.18,
+   "words": [
+    {
+     "w": "Because",
+     "t0": 0.15,
+     "t1": 0.27,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 0.27,
+     "t1": 0.55,
+     "e": 0
+    },
+    {
+     "w": "want",
+     "t0": 0.55,
+     "t1": 0.79,
+     "e": 0
+    },
+    {
+     "w": "to,",
+     "t0": 0.79,
+     "t1": 1.23,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 1.23,
+     "t1": 1.45,
+     "e": 0
+    },
+    {
+     "w": "like",
+     "t0": 1.45,
+     "t1": 1.65,
+     "e": 0
+    },
+    {
+     "w": "charitable",
+     "t0": 1.65,
+     "t1": 2.17,
+     "e": 0
+    },
+    {
+     "w": "work,",
+     "t0": 2.17,
+     "t1": 2.726,
+     "e": 0
+    },
+    {
+     "w": "sir.",
+     "t0": 2.726,
+     "t1": 3.19,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 3.19,
+     "t1": 3.77,
+     "e": 0
+    },
+    {
+     "w": "like",
+     "t0": 3.77,
+     "t1": 3.95,
+     "e": 0
+    },
+    {
+     "w": "helping",
+     "t0": 3.95,
+     "t1": 4.33,
+     "e": 0
+    },
+    {
+     "w": "people.",
+     "t0": 4.33,
+     "t1": 4.93,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 5.65,
+     "t1": 5.79,
+     "e": 0
+    },
+    {
+     "w": "do",
+     "t0": 5.79,
+     "t1": 5.99,
+     "e": 0
+    },
+    {
+     "w": "charity",
+     "t0": 5.99,
+     "t1": 6.29,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 6.29,
+     "t1": 6.67,
+     "e": 0
+    },
+    {
+     "w": "lot.",
+     "t0": 6.67,
+     "t1": 6.73,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 3.14,
+     "lines": [
+      [
+       0,
+       5
+      ],
+      [
+       6,
+       8
+      ]
+     ]
+    },
+    {
+     "t0": 3.14,
+     "t1": 5.6,
+     "lines": [
+      [
+       9,
+       12
+      ]
+     ]
+    },
+    {
+     "t0": 5.6,
+     "t1": 7.08,
+     "lines": [
+      [
+       13,
+       17
+      ]
+     ]
+    }
+   ],
+   "text": "Because I want to, I like charitable work, sir. I like helping people. I do charity a lot.",
+   "timing": "words",
+   "matched": 0.83,
+   "lang": "en"
+  },
+  {
+   "n": 4,
+   "title": "The Memory",
+   "rows": [
+    "00:10–00:12"
+   ],
+   "clip": "IMG_8056.MOV",
+   "start": 48.11,
+   "src": "IMG_8056.MOV 00:48.1",
+   "dur": 3.2,
+   "words": [
+    {
+     "w": "What",
+     "t0": 0.15,
+     "t1": 0.87,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 0.87,
+     "t1": 1.09,
+     "e": 0
+    },
+    {
+     "w": "your",
+     "t0": 1.09,
+     "t1": 1.49,
+     "e": 0
+    },
+    {
+     "w": "favorite",
+     "t0": 1.49,
+     "t1": 2.05,
+     "e": 0
+    },
+    {
+     "w": "memory",
+     "t0": 2.05,
+     "t1": 2.75,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 3.1,
+     "lines": [
+      [
+       0,
+       4
+      ]
+     ]
+    }
+   ],
+   "text": "What is your favorite memory",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 5,
+   "title": "Button",
+   "rows": [
+    "00:22–00:26"
+   ],
+   "clip": "IMG_8056.MOV",
+   "start": 69.53,
+   "src": "IMG_8056.MOV 01:09.5",
+   "dur": 2.26,
+   "words": [
+    {
+     "w": "God",
+     "t0": 0.15,
+     "t1": 0.73,
+     "e": 0
+    },
+    {
+     "w": "bless",
+     "t0": 0.73,
+     "t1": 0.91,
+     "e": 0
+    },
+    {
+     "w": "you.",
+     "t0": 0.91,
+     "t1": 1.07,
+     "e": 0
+    },
+    {
+     "w": "Thank",
+     "t0": 1.15,
+     "t1": 1.23,
+     "e": 0
+    },
+    {
+     "w": "you",
+     "t0": 1.23,
+     "t1": 1.35,
+     "e": 0
+    },
+    {
+     "w": "very",
+     "t0": 1.35,
+     "t1": 1.55,
+     "e": 0
+    },
+    {
+     "w": "much.",
+     "t0": 1.55,
+     "t1": 1.81,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 1.1,
+     "lines": [
+      [
+       0,
+       2
+      ]
+     ]
+    },
+    {
+     "t0": 1.1,
+     "t1": 2.16,
+     "lines": [
+      [
+       3,
+       6
+      ]
+     ]
+    }
+   ],
+   "text": "God bless you. Thank you very much.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en",
+   "window": "the words sit up to 3 s outside the script's in/out"
+  }
+ ]
+}

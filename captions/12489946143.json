@@ -1,0 +1,365 @@
+{
+ "item": "12489946143",
+ "client": "lions",
+ "style": {
+  "font": {
+   "css": "\"Arimo\"",
+   "w": 700
+  },
+  "size": 62,
+  "y": 1360,
+  "max_lines": 2,
+  "reveal": "phrase",
+  "fg": "#FFFFFF",
+  "shadow": false,
+  "box": {
+   "bg": "rgba(0,0,0,0.55)",
+   "r": 10
+  }
+ },
+ "note": "White text on the semi-transparent box, no drop shadow, max 2 lines (the locked Lions caption style). Timed from the words in the source clips.",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Hook",
+   "rows": [
+    "00:00–00:03"
+   ],
+   "clip": "IMG_7935.MOV",
+   "start": 44.11,
+   "src": "IMG_7935.MOV 00:44.1",
+   "dur": 1.78,
+   "words": [
+    {
+     "w": "Of",
+     "t0": 0.15,
+     "t1": 0.43,
+     "e": 0
+    },
+    {
+     "w": "course",
+     "t0": 0.43,
+     "t1": 0.63,
+     "e": 0
+    },
+    {
+     "w": "I'm",
+     "t0": 0.63,
+     "t1": 0.85,
+     "e": 0
+    },
+    {
+     "w": "happy.",
+     "t0": 0.85,
+     "t1": 1.33,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 1.68,
+     "lines": [
+      [
+       0,
+       3
+      ]
+     ]
+    }
+   ],
+   "text": "Of course I'm happy.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 2,
+   "title": "Where",
+   "rows": [
+    "00:03–00:06"
+   ],
+   "clip": "IMG_7935.MOV",
+   "start": 41.41,
+   "src": "IMG_7935.MOV 00:41.4",
+   "dur": 1.58,
+   "words": [
+    {
+     "w": "I'm",
+     "t0": 0.15,
+     "t1": 0.59,
+     "e": 0
+    },
+    {
+     "w": "from",
+     "t0": 0.59,
+     "t1": 0.77,
+     "e": 0
+    },
+    {
+     "w": "Indonesia.",
+     "t0": 0.77,
+     "t1": 1.13,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 1.48,
+     "lines": [
+      [
+       0,
+       2
+      ]
+     ]
+    }
+   ],
+   "text": "I'm from Indonesia.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 3,
+   "title": "Why",
+   "rows": [
+    "00:06–00:14"
+   ],
+   "clip": "IMG_7935.MOV",
+   "start": 49.27,
+   "src": "IMG_7935.MOV 00:49.3",
+   "dur": 6.7,
+   "words": [
+    {
+     "w": "Giving",
+     "t0": 0.15,
+     "t1": 0.67,
+     "e": 0
+    },
+    {
+     "w": "back",
+     "t0": 0.67,
+     "t1": 0.93,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 0.93,
+     "t1": 1.05,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 1.05,
+     "t1": 1.25,
+     "e": 0
+    },
+    {
+     "w": "society",
+     "t0": 1.25,
+     "t1": 1.65,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 1.65,
+     "t1": 2.19,
+     "e": 0
+    },
+    {
+     "w": "also",
+     "t0": 2.19,
+     "t1": 2.63,
+     "e": 0
+    },
+    {
+     "w": "being",
+     "t0": 2.63,
+     "t1": 3.45,
+     "e": 0
+    },
+    {
+     "w": "on",
+     "t0": 3.45,
+     "t1": 3.91,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 3.91,
+     "t1": 3.97,
+     "e": 0
+    },
+    {
+     "w": "part",
+     "t0": 3.97,
+     "t1": 4.21,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 4.21,
+     "t1": 4.41,
+     "e": 0
+    },
+    {
+     "w": "community",
+     "t0": 4.41,
+     "t1": 4.69,
+     "e": 0
+    },
+    {
+     "w": "service.",
+     "t0": 4.69,
+     "t1": 5.17,
+     "e": 0
+    },
+    {
+     "w": "That's",
+     "t0": 5.19,
+     "t1": 5.71,
+     "e": 0
+    },
+    {
+     "w": "what",
+     "t0": 5.71,
+     "t1": 5.965,
+     "e": 0
+    },
+    {
+     "w": "makes",
+     "t0": 5.965,
+     "t1": 6.27,
+     "e": 0
+    },
+    {
+     "w": "me",
+     "t0": 5.965,
+     "t1": 6.05,
+     "e": 0
+    },
+    {
+     "w": "happy.",
+     "t0": 6.05,
+     "t1": 6.25,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 4.16,
+     "lines": [
+      [
+       0,
+       4
+      ],
+      [
+       5,
+       10
+      ]
+     ]
+    },
+    {
+     "t0": 4.16,
+     "t1": 5.14,
+     "lines": [
+      [
+       11,
+       13
+      ]
+     ]
+    },
+    {
+     "t0": 5.14,
+     "t1": 6.6,
+     "lines": [
+      [
+       14,
+       18
+      ]
+     ]
+    }
+   ],
+   "text": "Giving back to the society and also being on the part of community service. That's what makes me happy.",
+   "timing": "words",
+   "matched": 0.89,
+   "lang": "en"
+  },
+  {
+   "n": 4,
+   "title": "Button",
+   "rows": [
+    "00:14–00:20"
+   ],
+   "clip": "IMG_7935.MOV",
+   "start": 62.77,
+   "src": "IMG_7935.MOV 01:02.8",
+   "dur": 7.16,
+   "words": [
+    {
+     "w": "Be",
+     "t0": 0.15,
+     "t1": 0.53,
+     "e": 0
+    },
+    {
+     "w": "grateful,",
+     "t0": 0.53,
+     "t1": 0.99,
+     "e": 0
+    },
+    {
+     "w": "be",
+     "t0": 1.73,
+     "t1": 2.91,
+     "e": 0
+    },
+    {
+     "w": "happy,",
+     "t0": 2.91,
+     "t1": 2.96,
+     "e": 0
+    },
+    {
+     "w": "service",
+     "t0": 3.53,
+     "t1": 5.77,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 5.77,
+     "t1": 6.45,
+     "e": 0
+    },
+    {
+     "w": "everything.",
+     "t0": 6.45,
+     "t1": 6.71,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 7.06,
+     "lines": [
+      [
+       0,
+       4
+      ],
+      [
+       5,
+       6
+      ]
+     ]
+    }
+   ],
+   "text": "Be grateful, be happy, service in everything.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  }
+ ]
+}

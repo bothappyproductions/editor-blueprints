@@ -1,0 +1,637 @@
+{
+ "item": "12489959941",
+ "client": "lions",
+ "style": {
+  "font": {
+   "css": "\"Arimo\"",
+   "w": 700
+  },
+  "size": 62,
+  "y": 1360,
+  "max_lines": 2,
+  "reveal": "phrase",
+  "fg": "#FFFFFF",
+  "shadow": false,
+  "box": {
+   "bg": "rgba(0,0,0,0.55)",
+   "r": 10
+  }
+ },
+ "note": "White text on the semi-transparent box, no drop shadow, max 2 lines (the locked Lions caption style). Timed from the words in the source clips. Not captioned: 00:17–00:21: only 6 of 9 words matched the audio (67%), so the line is likely another take or worded differently; check by ear.",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Hook",
+   "rows": [
+    "00:00–00:04"
+   ],
+   "clip": "IMG_7844.MOV",
+   "start": 61.65,
+   "src": "IMG_7844.MOV 01:01.6",
+   "dur": 5.18,
+   "words": [
+    {
+     "w": "Every",
+     "t0": 0.15,
+     "t1": 0.89,
+     "e": 0
+    },
+    {
+     "w": "one",
+     "t0": 0.89,
+     "t1": 1.23,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 1.23,
+     "t1": 1.28,
+     "e": 0
+    },
+    {
+     "w": "them.",
+     "t0": 1.27,
+     "t1": 1.87,
+     "e": 0
+    },
+    {
+     "w": "We're",
+     "t0": 3.25,
+     "t1": 3.99,
+     "e": 0
+    },
+    {
+     "w": "all",
+     "t0": 3.99,
+     "t1": 4.33,
+     "e": 0
+    },
+    {
+     "w": "family.",
+     "t0": 4.33,
+     "t1": 4.73,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 3.2,
+     "lines": [
+      [
+       0,
+       3
+      ]
+     ]
+    },
+    {
+     "t0": 3.2,
+     "t1": 5.08,
+     "lines": [
+      [
+       4,
+       6
+      ]
+     ]
+    }
+   ],
+   "text": "Every one of them. We're all family.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 2,
+   "title": "The President",
+   "rows": [
+    "00:04–00:12"
+   ],
+   "clip": "IMG_7844.MOV",
+   "start": 78.72,
+   "src": "IMG_7844.MOV 01:18.7",
+   "dur": 8.76,
+   "words": [
+    {
+     "w": "Our",
+     "t0": 0.15,
+     "t1": 0.83,
+     "e": 0
+    },
+    {
+     "w": "new",
+     "t0": 0.83,
+     "t1": 1.03,
+     "e": 0
+    },
+    {
+     "w": "president",
+     "t0": 1.03,
+     "t1": 1.37,
+     "e": 0
+    },
+    {
+     "w": "has",
+     "t0": 1.37,
+     "t1": 2.35,
+     "e": 0
+    },
+    {
+     "w": "become",
+     "t0": 2.35,
+     "t1": 5.41,
+     "e": 0
+    },
+    {
+     "w": "very",
+     "t0": 5.41,
+     "t1": 5.67,
+     "e": 0
+    },
+    {
+     "w": "close.",
+     "t0": 5.67,
+     "t1": 6.11,
+     "e": 0
+    },
+    {
+     "w": "We've",
+     "t0": 6.49,
+     "t1": 6.65,
+     "e": 0
+    },
+    {
+     "w": "become",
+     "t0": 6.65,
+     "t1": 6.87,
+     "e": 0
+    },
+    {
+     "w": "very,",
+     "t0": 6.87,
+     "t1": 7.23,
+     "e": 0
+    },
+    {
+     "w": "very",
+     "t0": 7.53,
+     "t1": 7.58,
+     "e": 0
+    },
+    {
+     "w": "close,",
+     "t0": 7.53,
+     "t1": 7.81,
+     "e": 0
+    },
+    {
+     "w": "yes.",
+     "t0": 7.95,
+     "t1": 8.31,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 6.44,
+     "lines": [
+      [
+       0,
+       4
+      ],
+      [
+       5,
+       6
+      ]
+     ]
+    },
+    {
+     "t0": 6.44,
+     "t1": 8.66,
+     "lines": [
+      [
+       7,
+       12
+      ]
+     ]
+    }
+   ],
+   "text": "Our new president has become very close. We've become very, very close, yes.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 3,
+   "title": "The President",
+   "rows": [
+    "00:12–00:17"
+   ],
+   "clip": "IMG_7844.MOV",
+   "start": 96.91,
+   "src": "IMG_7844.MOV 01:36.9",
+   "dur": 5.56,
+   "words": [
+    {
+     "w": "I",
+     "t0": 0.15,
+     "t1": 0.15,
+     "e": 0
+    },
+    {
+     "w": "met",
+     "t0": 0.15,
+     "t1": 0.49,
+     "e": 0
+    },
+    {
+     "w": "him",
+     "t0": 0.49,
+     "t1": 0.75,
+     "e": 0
+    },
+    {
+     "w": "just",
+     "t0": 0.75,
+     "t1": 2.29,
+     "e": 0
+    },
+    {
+     "w": "recently.",
+     "t0": 2.29,
+     "t1": 2.59,
+     "e": 0
+    },
+    {
+     "w": "He's",
+     "t0": 2.81,
+     "t1": 2.86,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 2.83,
+     "t1": 2.99,
+     "e": 0
+    },
+    {
+     "w": "new",
+     "t0": 2.99,
+     "t1": 3.19,
+     "e": 0
+    },
+    {
+     "w": "member",
+     "t0": 3.19,
+     "t1": 3.43,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 3.43,
+     "t1": 4.23,
+     "e": 0
+    },
+    {
+     "w": "he",
+     "t0": 4.23,
+     "t1": 4.47,
+     "e": 0
+    },
+    {
+     "w": "became",
+     "t0": 4.47,
+     "t1": 4.67,
+     "e": 0
+    },
+    {
+     "w": "president.",
+     "t0": 4.67,
+     "t1": 5.11,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 2.76,
+     "lines": [
+      [
+       0,
+       4
+      ]
+     ]
+    },
+    {
+     "t0": 2.76,
+     "t1": 5.46,
+     "lines": [
+      [
+       5,
+       10
+      ],
+      [
+       11,
+       12
+      ]
+     ]
+    }
+   ],
+   "text": "I met him just recently. He's a new member and he became president.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 4,
+   "title": "Tie-Back",
+   "rows": [
+    "00:21–00:29"
+   ],
+   "clip": "IMG_7844.MOV",
+   "start": 40.09,
+   "src": "IMG_7844.MOV 00:40.1",
+   "dur": 8.57,
+   "words": [
+    {
+     "w": "Oh,",
+     "t0": 0.15,
+     "t1": 0.15,
+     "e": 0
+    },
+    {
+     "w": "very",
+     "t0": 0.15,
+     "t1": 0.39,
+     "e": 0
+    },
+    {
+     "w": "happy.",
+     "t0": 0.39,
+     "t1": 0.81,
+     "e": 0
+    },
+    {
+     "w": "It",
+     "t0": 3.09,
+     "t1": 3.73,
+     "e": 0
+    },
+    {
+     "w": "all",
+     "t0": 3.73,
+     "t1": 3.97,
+     "e": 0
+    },
+    {
+     "w": "comes",
+     "t0": 3.97,
+     "t1": 4.19,
+     "e": 0
+    },
+    {
+     "w": "from",
+     "t0": 4.19,
+     "t1": 4.33,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 4.33,
+     "t1": 4.59,
+     "e": 0
+    },
+    {
+     "w": "heart.",
+     "t0": 4.59,
+     "t1": 4.73,
+     "e": 0
+    },
+    {
+     "w": "It",
+     "t0": 5.63,
+     "t1": 6.11,
+     "e": 0
+    },
+    {
+     "w": "makes",
+     "t0": 6.11,
+     "t1": 6.43,
+     "e": 0
+    },
+    {
+     "w": "your",
+     "t0": 6.43,
+     "t1": 6.59,
+     "e": 0
+    },
+    {
+     "w": "heart",
+     "t0": 6.59,
+     "t1": 6.83,
+     "e": 0
+    },
+    {
+     "w": "just",
+     "t0": 6.83,
+     "t1": 7.69,
+     "e": 0
+    },
+    {
+     "w": "wow.",
+     "t0": 7.69,
+     "t1": 8.12,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 3.04,
+     "lines": [
+      [
+       0,
+       2
+      ]
+     ]
+    },
+    {
+     "t0": 3.04,
+     "t1": 5.58,
+     "lines": [
+      [
+       3,
+       8
+      ]
+     ]
+    },
+    {
+     "t0": 5.58,
+     "t1": 8.47,
+     "lines": [
+      [
+       9,
+       14
+      ]
+     ]
+    }
+   ],
+   "text": "Oh, very happy. It all comes from the heart. It makes your heart just wow.",
+   "timing": "words",
+   "matched": 0.93,
+   "lang": "en"
+  },
+  {
+   "n": 5,
+   "title": "Tie-Back",
+   "rows": [
+    "00:29–00:32"
+   ],
+   "clip": "IMG_7845.MOV",
+   "start": 14.3,
+   "src": "IMG_7845.MOV 00:14.3",
+   "dur": 3.48,
+   "words": [
+    {
+     "w": "You",
+     "t0": 0.15,
+     "t1": 0.63,
+     "e": 0
+    },
+    {
+     "w": "meet",
+     "t0": 0.63,
+     "t1": 0.83,
+     "e": 0
+    },
+    {
+     "w": "all",
+     "t0": 0.83,
+     "t1": 1.31,
+     "e": 0
+    },
+    {
+     "w": "kinds",
+     "t0": 1.31,
+     "t1": 1.59,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 1.59,
+     "t1": 1.81,
+     "e": 0
+    },
+    {
+     "w": "people",
+     "t0": 1.81,
+     "t1": 1.87,
+     "e": 0
+    },
+    {
+     "w": "from",
+     "t0": 1.87,
+     "t1": 2.15,
+     "e": 0
+    },
+    {
+     "w": "all",
+     "t0": 2.15,
+     "t1": 2.43,
+     "e": 0
+    },
+    {
+     "w": "over",
+     "t0": 2.43,
+     "t1": 2.55,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 2.55,
+     "t1": 2.87,
+     "e": 0
+    },
+    {
+     "w": "world.",
+     "t0": 2.87,
+     "t1": 3.03,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 3.38,
+     "lines": [
+      [
+       0,
+       5
+      ],
+      [
+       6,
+       10
+      ]
+     ]
+    }
+   ],
+   "text": "You meet all kinds of people from all over the world.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 6,
+   "title": "Button",
+   "rows": [
+    "00:32–00:35"
+   ],
+   "clip": "IMG_7846.MOV",
+   "start": 24.92,
+   "src": "IMG_7846.MOV 00:24.9",
+   "dur": 2.44,
+   "words": [
+    {
+     "w": "definitely",
+     "t0": 0.15,
+     "t1": 0.55,
+     "e": 0
+    },
+    {
+     "w": "friends",
+     "t0": 1.33,
+     "t1": 1.43,
+     "e": 0
+    },
+    {
+     "w": "for",
+     "t0": 1.43,
+     "t1": 1.69,
+     "e": 0
+    },
+    {
+     "w": "life",
+     "t0": 1.69,
+     "t1": 1.99,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 2.34,
+     "lines": [
+      [
+       0,
+       3
+      ]
+     ]
+    }
+   ],
+   "text": "definitely friends for life",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  }
+ ]
+}
