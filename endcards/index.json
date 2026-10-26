@@ -131,5 +131,25 @@
   },
   "date": "2026-10-22",
   "source": "Dream Center Dallas has not sent its logo yet; the name is typed until Nick sends it, as the script says."
+ },
+ "kiva": {
+  "kind": "logo",
+  "logo": "endcards/kiva/kiva-logo-white.svg",
+  "c": {
+   "bg": "#223829",
+   "fg": "#FFFFFF"
+  },
+  "date": "2026-10-10",
+  "source": "Kiva's white wordmark from the Kiva brand kit built from kiva.org (Mac Studio, state/kiva/brand/logos, 10 Oct 2026)."
+ },
+ "nfte": {
+  "kind": "logo",
+  "logo": "endcards/nfte/nfte-logo-white.svg",
+  "c": {
+   "bg": "#4C12A1",
+   "fg": "#FFFFFF"
+  },
+  "date": "2026-10-09",
+  "source": "NFTE's white logo from the NFTE brand kit (Mac Studio, state/nfte/brand/logos, 9 Oct 2026)."
  }
 }
