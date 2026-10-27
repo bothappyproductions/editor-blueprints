@@ -165,6 +165,12 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
 .outcomes button{font:inherit;font-size:13px;font-weight:500;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:7px 12px;cursor:pointer}
 .outcomes button.win{background:var(--ok-bg);color:var(--ok);border-color:transparent}
 .outcomes button[disabled]{opacity:.5;cursor:not-allowed}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 4px}
+.chip{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:6px 11px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.copymail{font:inherit;font-size:13px;font-weight:600;border:1px solid var(--accent);background:var(--bg);color:var(--ink);border-radius:999px;padding:7px 12px;cursor:pointer;align-self:flex-start}
+.ans [hidden]{display:none}
+.mailbox{border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:13px;white-space:pre-wrap;user-select:text}
 .sheet-foot textarea{font:inherit;font-size:13px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:7px 9px;width:100%;min-height:44px;resize:vertical}
 .saved{font-size:12px;color:var(--muted)}
 @media (max-width:620px){
@@ -348,6 +354,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
         <button type="button" data-out="No answer">No answer</button>
         <button type="button" data-out="Left voicemail">Left voicemail</button>
         <button type="button" data-out="Asked for a call back">Call back</button>
+        <button type="button" data-out="Wants an email">Wants an email</button>
         <button type="button" data-out="Meeting set" class="win">Meeting set</button>
         <button type="button" data-out="Wrong person">Wrong person</button>
         <button type="button" data-out="Not a fit">Not a fit</button>
@@ -756,6 +763,22 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     box.hidden = !box.hidden;
     btn.setAttribute("aria-expanded", String(!box.hidden));
   }
+  let cur = {}, emailAns = {};
+  const ANS_LABEL = {where: "Where they are", who: "Who makes it"};
+  sheetBody.addEventListener("click", (ev) => {
+    const mb = ev.target.closest(".copymail");
+    if(mb){ ev.preventDefault(); copyEmail(mb); return; }
+    const c = ev.target.closest(".chip"); if(!c) return;
+    const grp = c.dataset.grp, ta = $("sheet-notes");
+    c.parentElement.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", String(x === c)));
+    emailAns[grp] = c.dataset.val;
+    if(grp === "who") c.closest(".ans").querySelectorAll("[data-for]").forEach(el => { el.hidden = el.dataset.for !== c.dataset.val; });
+    const line = `${ANS_LABEL[grp]}: ${c.textContent}`, re = new RegExp("^" + ANS_LABEL[grp] + ": .*$", "m");
+    ta.value = re.test(ta.value) ? ta.value.replace(re, line) : [ta.value.trim(), line].filter(Boolean).join("\n");
+    ta.dispatchEvent(new Event("change"));
+    const box = c.closest(".ans").querySelector(".mailbox");
+    if(box && !box.hidden){ const m = buildEmail(); box.textContent = `To: ${m.to ? m.to + " (or the one they just gave you)" : "the email they just gave you"}\nSubject: ${m.subject}\n\n${m.text}`; }
+  });
   sheetBody.addEventListener("click", (ev) => {
     const b = ev.target.closest(".claim, .term"); if(!b || !sheetBody.contains(b)) return;
     ev.preventDefault(); toggleExplain(b);
@@ -766,15 +789,83 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     ev.preventDefault(); toggleExplain(b);
   });
 
-  function bank(S, d1, d2){
+  // "Send me an email" is the reply Rubik hears most (Oct 27). Say yes, then two quick questions that tell us how they
+  // make their materials today, so the strategist call (or the email) is about their real situation.
+  function emailAsk(r, S){
+    const c = String(r.category || "").toLowerCase();
+    let what = "getting this information out";
+    let who = "And who makes the materials for that... do you make them in-house, use a template from the state or a funder, or hire someone?";
+    if(/prevention/.test(c)) what = "your prevention messaging this year";
+    else if(/medicaid|navigator|community action|health center/.test(c)) what = "getting the word out about the Medicaid changes";
+    else if(/paid leave/.test(c)) what = "getting the word out about Paid Leave";
+    else if(/medicare/.test(c)) what = "your Medicare outreach this year";
+    else if(/water|utilit/.test(c)){ what = "your customer notices... like the lead service line ones"; who = "And who makes those... your team, a template from the state, or do you hire someone?"; }
+    else if(/council/.test(c)) what = "the stormwater education for your towns";
+    else if(/engineering/.test(c)){ what = "the stormwater education for the towns you work with"; who = "And who makes the education pieces... your team, a template from the state, or do you hire someone?"; }
+    else if(/stormwater/.test(c)) what = "your stormwater education for residents";
+    else if(/funder/.test(c)){ what = "helping your grantees get their message out"; who = "And who makes your grantees' materials... do they make their own, get a toolkit from you or the state, or hire someone?"; }
+    if(S.msgFor) what = S.msgFor;
+    return {where: `Where are you at with ${what}... already going, still planning, or not started yet?`, who};
+  }
+  const chips = (grp, opts) => `<div class="chips" role="group">${opts.map(([v, t]) => `<button type="button" class="chip" data-grp="${grp}" data-val="${v}" aria-pressed="false">${esc(t)}</button>`).join("")}</div>`;
+  const ifWho = (v, html) => `<p class="say" data-for="${v}" hidden>${html}</p>`;
+  function emailObjection(r, S, d1, d2){
+    const q = emailAsk(r, S);
+    return {they: "Just send me an email.", src: "Most common", you:
+      say("Sure, happy to... what's the best email?") + cue("Write it down. Then, before you hang up:") +
+      say("And so I don't send you something generic... can I ask two quick questions?") +
+      say(esc(q.where)) + chips("where", [["going", "Already going"], ["planning", "Still planning"], ["notstarted", "Not started"]]) +
+      say(esc(q.who)) + chips("who", [["inhouse", "In-house"], ["template", "Template or toolkit"], ["hireout", "Hire someone"], ["nobody", "Nobody yet"]]) +
+      `<p class="cue" data-for="pick">Tap their answers. They go into the notes, and the next line shows up here.</p>` +
+      ifWho("inhouse", "Makes sense... what's the hardest part to do in-house... video, or other languages?") +
+      ifWho("template", "Perfect... we build right on top of those. Same approved message... just as short videos with your name on them.") +
+      ifWho("hireout", "Got it... who do you use now? And when does the next round start?") +
+      ifWho("nobody", "That's actually the best time to talk... the strategist can map it out before it's due.") +
+      say(`Based on that... I think 25 minutes with our strategist would help you more than an email. They'd show you what this could look like for ${mk(S.planFor)}. Would ${esc(d1)} or ${esc(d2)} work?`) +
+      cue(`If they still want the email: "No problem... I'll send it today." Tap the button below, paste it into your email and send. Then tap "Wants an email" at the bottom. Follow up in two days.`) +
+      `<button type="button" class="copymail">Copy the email</button><div class="mailbox" hidden></div>`};
+  }
+  function buildEmail(){
+    const {r, S, d1, d2} = cur, a = emailAns;
+    const name = S.callName || "there";
+    const who = {inhouse: "You mentioned your team makes its own materials, so we'd add the parts that are hard to do in-house: video and other languages, built on what you already have.",
+      template: "You mentioned you work from a toolkit, so we'd turn that same approved message into short videos with your name on them.",
+      hireout: "You mentioned you hire this out. We're happy to work alongside whoever you use now, or take the video side off their plate.",
+      nobody: "You mentioned no one owns this yet. We can handle it from script to finished video."}[a.who] || "";
+    const when = {going: "since it's already going, video can help reach the people who missed it the first time.",
+      planning: "since you're still planning, now is a good time to add video.",
+      notstarted: "since it hasn't started yet, a short plan now makes the deadline easier."}[a.where] || "";
+    const where = when ? (who ? "And " + when : when[0].toUpperCase() + when.slice(1)) : "";
+    const link = okUrl(r.sectorPage) ? r.sectorPage : "https://www.happyproductions.me";
+    const subject = `Following up: ${S.planFor}`;
+    const paras = [`Hi ${name},`, "Thanks for picking up today. Here's the quick note I promised.",
+      "We're Happy Productions, a video studio in Ansonia, CT. We help organizations turn information they have to get out into short, easy-to-understand videos people actually watch, in the languages they speak. Recently we made \"Coverage at Risk,\" a short documentary for the State of Connecticut's Commission on Racial Equity in Public Health.",
+      [who, where].filter(Boolean).join(" "),
+      `Our strategist can map out what this could look like for ${S.planFor} in a 25-minute call, and you keep the plan either way. Would ${d1} or ${d2} work?`,
+      "LINK", `${repName}\nHappy Productions`].filter(Boolean);
+    const text = paras.map(p => p === "LINK" ? `You can see some of our recent work here: ${link}` : p).join("\n\n");
+    const html = paras.map(p => p === "LINK" ? `<p>You can see <a href="${esc(link)}">some of our recent work here</a>.</p>` : `<p>${esc(p).replace(/\n/g, "<br>")}</p>`).join("");
+    return {to: r.email || "", subject, text, html};
+  }
+  async function copyEmail(btn){
+    const m = buildEmail(), box = btn.nextElementSibling;
+    box.textContent = `To: ${m.to ? m.to + " (or the one they just gave you)" : "the email they just gave you"}\nSubject: ${m.subject}\n\n${m.text}`;
+    box.hidden = false;
+    let ok = false;
+    try{ await navigator.clipboard.write([new ClipboardItem({"text/html": new Blob([m.html], {type: "text/html"}), "text/plain": new Blob([m.text], {type: "text/plain"})})]); ok = true; }
+    catch{ try{ await navigator.clipboard.writeText(m.text); ok = true; }catch{} }
+    btn.textContent = ok ? "Copied. Paste it into your email." : "Select the text below and copy it.";
+  }
+
+  function bank(S, d1, d2, r){
     return [
+      emailObjection(r, S, d1, d2),
       {they: "You've got the wrong person. / That's a different department.", src: "Real call", you: say("Thanks for telling me... I don't want to bug the wrong person. Who handles that?") + say("Would you mind transferring me... or sharing their name, so I can say you sent me?"), cue: `If they won't give a name, ask for that office's main number. Then tap "Wrong person" below and write what they said in the notes, so we can find the right contact.`},
       {they: "We already work with a communications consultant.", src: "Real reply", you: say("That's great... consultants are usually the idea people. We're the production side... we film, edit and translate, so the videos actually get made. A lot of the time we work right alongside the consultant.") + say("What would it take to get them on a quick call with us too?")},
       {they: "You'll need to register with our purchasing department first.", src: "Real reply", you: say("Of course, we'll do that. What's the name of the system... and who in purchasing should we talk to?") + say("And for a small project like this... how does it usually work on your side, quotes or a full bid?"), cue: "Write the portal name and link in the notes so we get registered."},
       {they: "How did you come across our work?", src: "Real reply", you: say(`Good question... ${mk(S.foundVia)}`) +
         (srcLink(S.source) ? `<p class="cue">The page: ${srcLink(S.source)}. Offer to email them the link.</p>` : "")},
       {they: "Call me next week. / Send me some times.", src: "Real reply", you: say(`Let's put it on the calendar now so it doesn't slip... would ${esc(d1)} or ${esc(d2)} work? Morning or afternoon?`)},
-      {they: "Send me an email.", you: say("Sure, I can definitely send one... but when was the last time an email was better than a conversation?") + say(`My goal was to introduce you to our strategist... they'll give you a free plan for ${mk(S.planFor)} that you keep either way. Would it be ridiculous to meet... say ${esc(d1)} or ${esc(d2)}?`), cue: `If no: "Alright, I'll send it over. Is there something specific you'd like written down?" Confirm the email, then: "I'll follow up in a day or two."`},
       {they: "Not interested.", you: say("Hey, I totally get it... I'm a stranger calling out of the blue. I may never have to bug you again if it's not relevant... do you mind if I quickly tell you why I called?")},
       {they: "We don't have budget for this.", you: say("Totally fair... usually this comes out of the outreach or education line that's already in the grant... the same line that pays for flyers and printing today.") + say("When does your next grant year or budget start?")},
       {they: "We make our own flyers and post on social ourselves.", you: say("That's great... keep doing that. We add the parts that are hard to do in-house... video, and other languages.") + say("Who makes the non-English versions today?")},
@@ -794,6 +885,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     const sp = nm ? " " + mk(nm) : "";
     const rep = esc(repName);
     const [d1, d2] = bizDays(2, 2), [vm] = bizDays(2, 1);
+    cur = {r, S, d1, d2};
     const rest = /^Emailed /.test(r.firstTouch || "") ? r.firstTouch.replace(/^Emailed /, "") : "";
     const touched = rest ? (/^by/.test(rest) ? "recently" : "on " + rest) : "";
     const brief = [];
@@ -846,7 +938,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
       `<details class="obj"><summary>${esc(m.t)}</summary><div class="ans">${m.body}</div></details>`).join("")}</div></section>`;
     const objs = [];
     if(S.objection && S.objection.they) objs.push({they: S.objection.they, you: say(mk(S.objection.you)), top: true});
-    bank(S, d1, d2).forEach(o => objs.push(o));
+    bank(S, d1, d2, r).forEach(o => objs.push(o));
     h += `<section class="step"><span class="num">?</span><h3>Objections</h3><div class="lines objs">${objs.map(o =>
       `<details class="obj${o.top ? " top" : ""}"${o.top ? " open" : ""}><summary>"${esc(o.they)}"${o.top ? '<span class="tag">Most likely here</span>' : (o.src ? `<span class="tag">${esc(o.src)}</span>` : "")}</summary><div class="ans">${o.you}${o.cue ? cue(o.cue) : ""}</div></details>`).join("")}</div></section>`;
     return h;
@@ -863,6 +955,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     $("sheet-notes").disabled = readOnly;
     $("sheet-outcomes").querySelectorAll("button").forEach(b => { b.disabled = readOnly || !db; });
     $("sheet-saved").textContent = readOnly ? "View only: ask Atdhe for Contributor access to log calls." : "";
+    emailAns = {};
     sheetBody.innerHTML = cue("Loading the script…");
     if(!sheet.open) sheet.showModal();
     let S = scriptCache.get(id);
@@ -884,7 +977,9 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     $("sheet-notes").value = notes;
     const _prev = ((rows.find(x => x.id === id) || {}).notes || "").trim();
     const _typed = (($("sheet-notes").value || "").replace(notes.split("\n")[0], "")).trim();
-    const ok = await queueWrite(id, {status, notes, _outcome: out, _logNote: (_prev ? _typed.replace(_prev, "") : _typed).trim()});
+    const _log = (_prev ? _typed.replace(_prev, "") : _typed).trim();
+    const _ans = (notes.match(/^(Where they are|Who makes it): .*$/gm) || []).filter(l => !_log.includes(l));
+    const ok = await queueWrite(id, {status, notes, _outcome: out, _logNote: [_log, ..._ans].filter(Boolean).join("\n")});
     if(ok && openId === id) $("sheet-saved").textContent = `Saved: ${out}. Status is now "${(STATUS.find(s => s.k === status) || {}).label}".`;
   });
   $("sheet-notes").addEventListener("change", async (ev) => {
