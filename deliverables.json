@@ -1050,5 +1050,34 @@
    "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/2e4b1ada-0bf0-4715-b02f-a5c73886c51f"
   },
   "note": "Only Kimmy's second read in C5064 (0:53-2:11), in script order, with the question card over 2.3 s of her settled before she starts, so there is no jump cut between the question and her answer. No B-roll and no music, as the blueprint asks; the zoom alternates 100/108% on each cut, and each crop is centred on her average position because she sways side to side. The quote card plays over her instead of as a full-frame cutaway, and the name tag reads Kimmy only. Open: Nick or Sonam still have to confirm the question wording."
+ },
+ "13198233018": {
+  "version": 1,
+  "made": "2026-10-26",
+  "tool": "DaVinci Resolve Studio 21.1",
+  "length": "0:42.5",
+  "loudness": "-13.7 LUFS",
+  "music": "No music (the blueprint asks for none)",
+  "mp4": {
+   "name": "Claude test cut · WATSINYCAYHIshaOkayNotToBeHappy001 · v1.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/04438239-3128-4e7f-b846-7c1b9fbc8469"
+  },
+  "xml": {
+   "name": "WATSINYCAYHIshaOkayNotToBeHappy001_90_v1_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/e6bbeaa6-7842-4d3f-908b-6effaaae4da7"
+  },
+  "drt": {
+   "name": "WATSINYCAYHIshaOkayNotToBeHappy001_90_v1_Resolve.drt",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/90ea8e39-25e0-4f6b-983d-82b5d0818891"
+  },
+  "graphics": {
+   "name": "WATSINYCAYHIshaOkayNotToBeHappy001_graphics_9x16_v1.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/0ae2e641-132a-46a3-ba7d-c6e30f5fb762"
+  },
+  "luts": {
+   "name": "WATSINYCAYHIshaOkayNotToBeHappy001_grade_LUTs_v1.zip",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/0b5646d9-6b5b-4839-93f6-bee45b7dae37"
+  },
+  "note": "Every line is from C5091 in script order except her WATSI line, which is C5090 audio (her 'uhh' cut) over the C5091 close-up of her hands, phone and $10 card at 23.9-31.8 s. The card's QR code and gift-card code are blurred in a plate that ships with the XML. Her silence after 'Are you happy?' is cut to about a second and Nick's 'So true' is cut; two of his questions start over the previous shot because she laughs head-down there, so the picture cuts only four times, with no music. Still open: the visual reference (Nick) and whether to keep her short 'It's okay.' after 'It's okay to not be happy.'"
  }
 }
