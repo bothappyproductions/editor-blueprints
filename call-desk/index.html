@@ -1,0 +1,932 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Messaging Prospects</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Poppins:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a sales call desk. Pitch strip on top, status tally, filter bar, then one row per organization:
+   who they are | the requirement that obliges them to inform the public | how to reach them | where the deal stands. */
+:root{
+  --bg:#faf8f5; --surface:#ffffff; --surface-2:#f2eefa; --ink:#1d1828; --muted:#625a73; --line:#e4dfec;
+  --accent:#5b3fd1; --accent-ink:#ffffff; --lav:#e3dafd; --yellow:#ffe58a; --pink:#ffc9dc;
+  --ok:#1f7a4d; --ok-bg:#d9f2e4; --warn-bg:#fff1bf; --warn:#7a5a00; --off:#8b8597; --off-bg:#ecebef;
+  --display:"Bricolage Grotesque","Avenir Next","Segoe UI",system-ui,sans-serif;
+  --body:"Poppins","Segoe UI",system-ui,-apple-system,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#13111a; --surface:#1c1926; --surface-2:#252036; --ink:#efebf8; --muted:#a69fb8; --line:#332d45;
+    --accent:#b3a0ff; --accent-ink:#17122a; --lav:#352a5c; --yellow:#5a4a12; --pink:#5a2a3e;
+    --ok:#7fdcaa; --ok-bg:#183a2a; --warn-bg:#46390f; --warn:#ffe08a; --off:#8f899e; --off-bg:#2a2733;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#13111a; --surface:#1c1926; --surface-2:#252036; --ink:#efebf8; --muted:#a69fb8; --line:#332d45;
+  --accent:#b3a0ff; --accent-ink:#17122a; --lav:#352a5c; --yellow:#5a4a12; --pink:#5a2a3e;
+  --ok:#7fdcaa; --ok-bg:#183a2a; --warn-bg:#46390f; --warn:#ffe08a; --off:#8f899e; --off-bg:#2a2733;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:14px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 64px}
+.wrap{max-width:1180px;margin:0 auto;display:flex;flex-direction:column;gap:22px}
+a{color:var(--accent);text-underline-offset:2px}
+a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+h1,h2{font-family:var(--display);text-wrap:balance;margin:0}
+h1{font-size:clamp(30px,5vw,46px);font-weight:800;letter-spacing:-.02em;line-height:1.05}
+h2{font-size:18px;font-weight:600}
+.eyebrow{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.lede{max-width:68ch;color:var(--muted);margin:8px 0 0;font-size:15px}
+header{display:flex;flex-direction:column;gap:6px}
+
+.pitch{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.pitch div{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.pitch b{font-family:var(--display);font-size:15px}
+.pitch p{margin:0;color:var(--muted);font-size:13px}
+.pitch div:nth-child(1){background:var(--lav);border-color:transparent}
+.pitch div:nth-child(1) p{color:var(--ink)}
+
+.tally{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.tally button{font:inherit;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:6px 12px;cursor:pointer;display:flex;gap:8px;align-items:center}
+.tally button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.tally .n{font-variant-numeric:tabular-nums;font-weight:600}
+.tally .total{margin-left:auto;color:var(--muted);font-size:13px}
+
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:10px}
+.bar input,.bar select{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:8px 10px;min-width:0}
+.bar input{flex:1 1 220px}
+.bar select{flex:0 1 auto}
+.btn{font:inherit;font-weight:600;border:0;border-radius:999px;padding:9px 16px;background:var(--accent);color:var(--accent-ink);cursor:pointer;white-space:nowrap}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+.note{font-size:13px;color:var(--muted)}
+.note.warn{background:var(--warn-bg);color:var(--warn);padding:8px 12px;border-radius:10px}
+
+.list{display:flex;flex-direction:column;gap:10px}
+.row{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1.5fr) minmax(0,1fr) minmax(0,.95fr);gap:18px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;align-items:start}
+.row > *{min-width:0}
+.org{display:flex;flex-direction:column;gap:6px}
+.org-top{display:flex;gap:8px;align-items:flex-start}
+.pri{flex:none;font-family:var(--mono);font-size:11px;font-weight:500;width:22px;height:22px;border-radius:6px;display:grid;place-items:center;background:var(--off-bg);color:var(--muted)}
+.pri.A{background:var(--yellow);color:var(--ink)}
+.org h3{margin:0;font-family:var(--display);font-size:16px;font-weight:600;line-height:1.25}
+.place{font-size:12.5px;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-size:11.5px;padding:2px 9px;border-radius:999px;background:var(--surface-2);color:var(--ink);white-space:nowrap}
+.chip.touch{background:var(--pink)}
+.req{display:flex;flex-direction:column;gap:6px}
+.req blockquote{margin:0;padding:2px 0 2px 12px;border-left:3px solid var(--lav);font-size:13.5px}
+.req .meta{font-size:12px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 12px}
+.reply{font-size:12.5px;background:var(--warn-bg);color:var(--warn);border-radius:8px;padding:6px 10px}
+.contact{display:flex;flex-direction:column;gap:5px;font-size:13px}
+.contact .who{font-weight:600}
+.contact .title{color:var(--muted);font-size:12.5px;margin-top:-4px}
+.line{display:flex;gap:6px;align-items:center;min-width:0}
+.line span{font-family:var(--mono);font-size:12px;overflow-wrap:anywhere;user-select:all}
+.copy{flex:none;font:inherit;font-size:11px;border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:6px;padding:1px 7px;cursor:pointer}
+.missing{color:var(--muted);font-size:12.5px;font-style:italic}
+.work{display:flex;flex-direction:column;gap:8px}
+.work select,.work textarea{font:inherit;font-size:13px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:7px 9px;width:100%}
+.work textarea{min-height:58px;resize:vertical}
+.work .stamp{font-size:11.5px;color:var(--muted)}
+.s-new{border-left:4px solid var(--line)}
+.s-emailed{border-left:4px solid var(--lav)}
+.s-replied{border-left:4px solid var(--yellow)}
+.s-meeting{border-left:4px solid var(--ok)}
+.s-not_fit{border-left:4px solid var(--off-bg);opacity:.72}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:14px;padding:28px;text-align:center;color:var(--muted)}
+footer{font-size:12px;color:var(--muted)}
+
+.s-called{border-left:4px solid var(--pink)}
+.script-btn{width:100%;display:flex;align-items:center;justify-content:center;gap:8px}
+.script-btn svg{width:15px;height:15px;flex:none}
+.script-btn.quiet{background:var(--surface-2);color:var(--ink)}
+
+/* Call sheet: one dialog, read top to bottom while dialing. Lines to say in ink; stage directions muted;
+   the parts written for this lead are marked in lavender so the rep can see what's custom. */
+dialog#sheet{border:0;padding:0;border-radius:18px;width:min(780px,calc(100% - 32px));max-height:calc(100% - 32px);background:var(--surface);color:var(--ink);box-shadow:0 24px 60px rgba(20,14,40,.28)}
+dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
+.sheet{display:flex;flex-direction:column;max-height:calc(100vh - 32px)}
+.sheet-head{padding:18px 22px 14px;border-bottom:1px solid var(--line);display:flex;gap:14px;align-items:flex-start}
+.sheet-head > div{flex:1;min-width:0;display:flex;flex-direction:column;gap:4px}
+.sheet-head h2{font-size:21px;line-height:1.2}
+.sheet-head .who{color:var(--muted);font-size:13px}
+.sheet-head .dial{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px}
+.sheet-head .dial .line span{font-size:13px}
+.x{flex:none;font:inherit;font-size:20px;line-height:1;border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:10px;width:36px;height:36px;cursor:pointer}
+.sheet-body{overflow:auto;padding:16px 22px 22px;display:flex;flex-direction:column;gap:18px;min-height:0}
+.brief{background:var(--surface-2);border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:6px;font-size:13px}
+.brief b{font-weight:600}
+.brief .warn{background:var(--warn-bg);color:var(--warn);border-radius:8px;padding:6px 10px}
+.legend{font-size:12px;color:var(--muted)}
+.legend mark{background:var(--lav);color:var(--ink);border-radius:4px;padding:0 4px}
+.step{display:grid;grid-template-columns:30px minmax(0,1fr);gap:4px 12px}
+.step .num{font-family:var(--mono);font-size:12px;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:var(--ink);color:var(--bg);margin-top:1px}
+.step h3{margin:0;font-family:var(--display);font-size:15px;font-weight:600;line-height:26px}
+.step .lines{grid-column:2;display:flex;flex-direction:column;gap:8px}
+.say{margin:0;font-size:15px;line-height:1.6;max-width:68ch}
+.say mark{background:var(--lav);color:var(--ink);border-radius:4px;padding:1px 4px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.cue{margin:0;font-size:13px;color:var(--muted);font-style:italic}
+.cue a{font-style:normal}
+/* Tappable claims and jargon: dotted underline plus a small "?" so the rep knows a plain-English answer is one tap away. */
+.claim,.term{cursor:pointer;border-radius:4px;text-decoration:underline dotted;text-decoration-color:var(--accent);text-decoration-thickness:1.5px;text-underline-offset:4px}
+.claim mark{text-decoration:inherit}
+.term{font-weight:500}
+.claim:hover mark,.claim[aria-expanded="true"] mark{background:var(--yellow)}
+.term:hover,.term[aria-expanded="true"]{background:var(--lav)}
+.claim::after,.term::after{content:"?";display:inline-grid;place-items:center;width:15px;height:15px;border-radius:50%;background:var(--accent);color:var(--accent-ink);font-size:10px;font-weight:700;font-style:normal;margin-left:3px;vertical-align:2px;text-decoration:none}
+.claim:focus-visible,.term:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.explain{border-left:3px solid var(--accent);background:var(--surface-2);border-radius:0 10px 10px 0;padding:10px 12px;display:flex;flex-direction:column;gap:6px;max-width:68ch}
+.explain[hidden]{display:none}
+.explain-h{margin:0;font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;color:var(--muted)}
+.explain .say{font-size:14.5px}
+.explain-src{margin:0;font-size:12.5px;color:var(--muted)}
+.explain .warn{background:var(--warn-bg);color:var(--warn);border-radius:8px;padding:6px 10px;font-size:13px}
+.qs li .explain{margin-top:6px}
+.qs{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px;font-size:15px}
+.objs{display:flex;flex-direction:column;gap:8px}
+.obj{border:1px solid var(--line);border-radius:12px;padding:0}
+.obj summary{cursor:pointer;padding:10px 14px;font-weight:600;font-size:14px;list-style:none;display:flex;gap:8px;align-items:center}
+.obj summary::-webkit-details-marker{display:none}
+.obj summary::before{content:"+";font-family:var(--mono);color:var(--muted);width:12px}
+.obj[open] summary::before{content:"\2212"}
+.obj .ans{padding:0 14px 12px 34px;display:flex;flex-direction:column;gap:6px}
+.obj.top{border-color:var(--accent)}
+.obj .tag{font-size:11px;font-weight:500;background:var(--lav);border-radius:999px;padding:1px 8px;margin-left:auto}
+.sheet-foot{border-top:1px solid var(--line);padding:12px 22px calc(12px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:8px;background:var(--surface)}
+.outcomes{display:flex;flex-wrap:wrap;gap:6px}
+.outcomes button{font:inherit;font-size:13px;font-weight:500;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:7px 12px;cursor:pointer}
+.outcomes button.win{background:var(--ok-bg);color:var(--ok);border-color:transparent}
+.outcomes button[disabled]{opacity:.5;cursor:not-allowed}
+.sheet-foot textarea{font:inherit;font-size:13px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:7px 9px;width:100%;min-height:44px;resize:vertical}
+.saved{font-size:12px;color:var(--muted)}
+@media (max-width:620px){
+  dialog#sheet{width:100%;max-width:100%;height:100%;max-height:100%;border-radius:0;margin:0}
+  .sheet{max-height:100%;height:100%;padding-top:env(safe-area-inset-top,0px)}
+  .sheet-head,.sheet-body,.sheet-foot{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+  .step{grid-template-columns:minmax(0,1fr)}
+  .step .lines{grid-column:1}
+}
+
+@media (max-width:1000px){
+  .row{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .pitch{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:620px){
+  .row{grid-template-columns:minmax(0,1fr);gap:12px}
+  .pitch{grid-template-columns:minmax(0,1fr)}
+  .tally .total{margin-left:0;width:100%}
+}
+@media (prefers-reduced-motion:no-preference){ .row{transition:border-color .2s} }
+</style>
+<script>
+/* Call Desk adapter: stands in for the Claude artifact runtime and talks to the Call Desk worker, which keeps
+   the list in Airtable. Asks once for the passcode and the caller's first name (kept in this browser). */
+(function(){
+  const API = "https://call-desk.happyproductions-hooks.workers.dev";
+  const store = (k, v) => { try { if (v === undefined) return localStorage.getItem(k); if (v === null) localStorage.removeItem(k); else localStorage.setItem(k, v); } catch (e) { return null; } return null; };
+  let pass = "", name = "";
+  const h = new URLSearchParams(location.hash.slice(1));
+  if (h.get("k")) { pass = h.get("k"); store("cd_pass", pass); try { history.replaceState(null, "", location.pathname + location.search); } catch (e) {} }
+  pass = pass || store("cd_pass") || ""; name = store("cd_name") || "";
+
+  async function call(path, init) {
+    init = init || {};
+    const headers = {"X-Pass": pass}; if (init.body) headers["Content-Type"] = "application/json";
+    let r;
+    try { r = await fetch(API + path, Object.assign({}, init, {headers})); }
+    catch (e) { const err = new Error("offline"); err.code = "offline"; throw err; }
+    const d = await r.json().catch(() => ({}));
+    if (r.status === 401) { store("cd_pass", null); const err = new Error("bad_pass"); err.code = "wrong passcode"; throw err; }
+    if (!r.ok) { const err = new Error(d.error || "error"); err.code = d.error || ("status " + r.status); throw err; }
+    return d;
+  }
+
+  let rows = null; const subs = new Set();
+  const snap = () => ({docs: rows.map(r => ({id: r.id, exists: true, data: () => r}))});
+  const emit = () => subs.forEach(s => { try { s.cb(snap()); } catch (e) {} });
+  async function refresh() { try { rows = (await call("/prospects")).rows; emit(); } catch (e) { subs.forEach(s => s.err && s.err(e)); } }
+  setInterval(() => { if (document.visibilityState === "visible" && subs.size) refresh(); }, 60000);
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && subs.size) refresh(); });
+
+  const db = {
+    collection: () => ({ onSnapshot: (cb, err) => { const s = {cb, err}; subs.add(s); if (rows) setTimeout(() => cb(snap()), 0); else refresh(); return () => subs.delete(s); } }),
+    doc: (path) => {
+      const parts = path.split("/"), col = parts[0], id = parts[1];
+      return {
+        get: async () => {
+          if (col !== "scripts") return {exists: false, data: () => null};
+          const d = await call("/script?id=" + encodeURIComponent(id));
+          return {exists: !!d.script, data: () => d.script};
+        },
+        update: async (body) => {
+          const p = {id, rep: name};
+          if ("status" in body) p.status = body.status;
+          if ("notes" in body) p.notes = body.notes;
+          if (body._outcome) { p.outcome = body._outcome; p.logNote = body._logNote || ""; }
+          const d = await call("/update", {method: "POST", body: JSON.stringify(p)});
+          if (rows && d.row) { const i = rows.findIndex(r => r.id === id); if (i >= 0) { rows[i] = d.row; emit(); } }
+        }
+      };
+    }
+  };
+  const user = {
+    id: async () => name, name: async () => name, can: async () => true,
+    profiles: async (ids) => Object.fromEntries(ids.map(i => [i, {name: i}]))
+  };
+  const downloads = { save: async ({filename, data}) => {
+    const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([data], {type: "text/csv"}));
+    a.download = filename; document.body.appendChild(a); a.click(); a.remove(); return {status: "saved"};
+  } };
+
+  let open; const unlocked = new Promise(r => open = r);
+  window.claude = { use: async (n) => { await unlocked; return n === "db" ? db : n === "user" ? user : n === "downloads" ? downloads : null; } };
+
+  function pill() {
+    const b = document.createElement("button"); b.type = "button"; b.className = "cd-pill";
+    b.textContent = "Calling as " + name + " \u00b7 change"; b.title = "Change the name on your call notes";
+    b.addEventListener("click", () => { store("cd_name", null); location.reload(); });
+    document.body.appendChild(b);
+  }
+  function gate(msg) {
+    const wrap = document.createElement("div"); wrap.className = "cd-gate";
+    wrap.innerHTML = '<form class="cd-card"><p class="eyebrow">Happy Productions \u00b7 Call desk</p><h2>Messaging prospects</h2>' +
+      '<label>Your first name<input name="n" autocomplete="given-name" required></label>' +
+      '<label>Passcode<input name="p" type="password" autocomplete="current-password" required></label>' +
+      '<p class="cd-err" role="alert"></p><button class="btn" type="submit">Open the call list</button></form>';
+    document.body.appendChild(wrap);
+    const f = wrap.querySelector("form"), err = wrap.querySelector(".cd-err");
+    f.n.value = name; f.p.value = pass; err.textContent = msg || "";
+    (name ? f.p : f.n).focus();
+    f.addEventListener("submit", async (ev) => {
+      ev.preventDefault();
+      name = f.n.value.trim().split(/\s+/)[0]; pass = f.p.value.trim();
+      err.textContent = "Checking\u2026";
+      try { rows = (await call("/prospects")).rows; store("cd_pass", pass); store("cd_name", name); wrap.remove(); pill(); open(); }
+      catch (e) { err.textContent = e.code === "wrong passcode" ? "That passcode didn't work. Check it with Atdhe." : "Couldn't reach the list (" + e.code + "). Check your connection and try again."; }
+    });
+  }
+  document.addEventListener("DOMContentLoaded", async () => {
+    if (pass && name) {
+      try { rows = (await call("/prospects")).rows; pill(); open(); return; }
+      catch (e) { gate(e.code === "wrong passcode" ? "That passcode didn't work. Check it with Atdhe." : ""); return; }
+    }
+    gate("");
+  });
+})();
+</script>
+<style>
+.cd-gate{position:fixed;inset:0;z-index:50;background:var(--bg);display:grid;place-items:center;padding:16px}
+.cd-card{width:min(380px,100%);background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px;display:flex;flex-direction:column;gap:12px}
+.cd-card h2{font-size:24px}
+.cd-card label{display:flex;flex-direction:column;gap:4px;font-size:13px;font-weight:500}
+.cd-card input{font:inherit;font-size:15px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:9px 11px}
+.cd-err{margin:0;font-size:13px;color:var(--warn);min-height:1em}
+.cd-pill{position:fixed;left:max(12px,env(safe-area-inset-left,0px));bottom:max(12px,env(safe-area-inset-bottom,0px));z-index:5;font:inherit;font-size:12px;border:1px solid var(--line);background:var(--surface);color:var(--muted);border-radius:999px;padding:5px 11px;cursor:pointer}
+</style>
+</head>
+<body>
+
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Happy Productions · Sales</div>
+    <h1>Messaging Prospects</h1>
+    <p class="lede">Nonprofits, coalitions, towns and utilities whose grant, permit or contract already requires them to inform the public. Most have no comms staff. We make that messaging for them: short videos in their community's languages, matching flyers and posts, and a delivery log for their report.</p>
+  </header>
+
+  <section class="pitch" aria-label="How to pitch">
+    <div><b>Open the call script</b><p>Every card has a Call script written for that lead: why you're calling, what we'd make for them, their likely pushback. Log the outcome at the bottom when you hang up.</p></div>
+    <div><b>What we deliver</b><p>Short videos (explainers, PSAs, stories), translated flyers, social posts and a one-page delivery log they can attach to their grant or permit report.</p></div>
+    <div><b>Proof</b><p><a href="https://www.happyproductions.me/cases/creph-medicaid-coverage-documentary" target="_blank" rel="noopener">Coverage at Risk</a>, made for the State of Connecticut Commission on Racial Equity in Public Health. Send the matching <a href="https://www.happyproductions.me/for/health-coverage-outreach" target="_blank" rel="noopener">sector page</a>.</p></div>
+    <div><b>Rules</b><p>No prices in cold outreach; quote on the call. "Emailed" rows already got an email from Atdhe, and "In the email queue" rows get one soon: call them, don't email them again.</p></div>
+  </section>
+
+  <div class="tally" id="tally" role="group" aria-label="Filter by status"></div>
+
+  <div class="bar">
+    <input id="q" type="search" placeholder="Search organization, town, contact or program" aria-label="Search">
+    <select id="f-cat" aria-label="Category"><option value="">All categories</option></select>
+    <select id="f-state" aria-label="State"><option value="">All states</option></select>
+    <select id="f-pri" aria-label="Priority">
+      <option value="">All priorities</option><option value="A">A · buy for many or deadline soon</option><option value="B">B · good fit</option><option value="C">C · weaker fit</option>
+    </select>
+    <button class="btn" id="csv" type="button" disabled>Download CSV for Apollo</button>
+  </div>
+  <p class="note" id="msg" hidden></p>
+
+  <div class="list" id="list">
+    <div class="empty" id="empty">Loading the prospect list…</div>
+  </div>
+
+  <footer>Statuses and notes are shared: anyone working this list sees the same view. Requirements are quoted from the program's own page; follow "source" to check one before a call.</footer>
+</div>
+
+<dialog id="sheet" aria-labelledby="sheet-title">
+  <div class="sheet">
+    <div class="sheet-head">
+      <div>
+        <div class="eyebrow" id="sheet-eyebrow">Call script</div>
+        <h2 id="sheet-title">Call script</h2>
+        <div class="who" id="sheet-who"></div>
+        <div class="dial" id="sheet-dial"></div>
+      </div>
+      <button class="x" type="button" id="sheet-close" aria-label="Close script">&times;</button>
+    </div>
+    <div class="sheet-body" id="sheet-body"></div>
+    <div class="sheet-foot">
+      <div class="eyebrow">Log this call</div>
+      <div class="outcomes" id="sheet-outcomes">
+        <button type="button" data-out="No answer">No answer</button>
+        <button type="button" data-out="Left voicemail">Left voicemail</button>
+        <button type="button" data-out="Asked for a call back">Call back</button>
+        <button type="button" data-out="Meeting set" class="win">Meeting set</button>
+        <button type="button" data-out="Wrong person">Wrong person</button>
+        <button type="button" data-out="Not a fit">Not a fit</button>
+      </div>
+      <textarea id="sheet-notes" aria-label="Call notes" placeholder="Call notes: who you spoke to, what they said, next step"></textarea>
+      <div class="saved" id="sheet-saved"></div>
+    </div>
+  </div>
+</dialog>
+
+<script>
+(() => {
+  const STATUS = [
+    {k:"new", label:"To contact"},
+    {k:"emailed", label:"Emailed"},
+    {k:"called", label:"Called"},
+    {k:"replied", label:"Replied"},
+    {k:"meeting", label:"Meeting set"},
+    {k:"not_fit", label:"Not a fit"},
+  ];
+  const SORDER = Object.fromEntries(STATUS.map((s,i)=>[s.k,i]));
+  const $ = (id) => document.getElementById(id);
+  const listEl = $("list"), emptyEl = $("empty"), msgEl = $("msg");
+  const f = {q:"", status:"", cat:"", state:"", pri:""};
+  let rows = [], db = null, user = null, dl = null, canWrite = null, myId = null, readOnly = false;
+  const cards = new Map();           // id -> {el, sig}
+  const writeChain = new Map();      // id -> Promise (one write at a time per doc)
+
+  function esc(s){ return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+  function safeUrl(u){ try{ const x = new URL(u); return /^https?:$/.test(x.protocol) ? x.href : ""; }catch{ return ""; } }
+  function note(text, warn){ msgEl.textContent = text; msgEl.className = "note" + (warn ? " warn" : ""); msgEl.hidden = !text; }
+  function ago(iso){
+    if(!iso) return ""; const t = Date.parse(iso); if(isNaN(t)) return "";
+    const m = Math.round((Date.now()-t)/60000);
+    if(m < 1) return "just now"; if(m < 60) return m + " min ago";
+    const h = Math.round(m/60); if(h < 24) return h + " h ago";
+    return new Date(t).toLocaleDateString(undefined,{month:"short",day:"numeric"});
+  }
+
+  function matches(r){
+    if(f.status && (r.status||"new") !== f.status) return false;
+    if(f.cat && r.category !== f.cat) return false;
+    if(f.state && r.state !== f.state) return false;
+    if(f.pri && r.priority !== f.pri) return false;
+    if(f.q){
+      const hay = [r.org,r.town,r.state,r.contactName,r.contactTitle,r.program,r.category,r.email,r.notes].join(" ").toLowerCase();
+      if(!hay.includes(f.q)) return false;
+    }
+    return true;
+  }
+  function sortRows(a,b){
+    return (a.priority||"C").localeCompare(b.priority||"C")
+      || (SORDER[a.status||"new"]-SORDER[b.status||"new"])
+      || (a.order ?? 9999) - (b.order ?? 9999)
+      || String(a.org).localeCompare(String(b.org));
+  }
+
+  function fillSelect(sel, values, keep){
+    const cur = sel.value; const first = sel.options[0];
+    sel.innerHTML = ""; sel.appendChild(first);
+    for(const v of values){ const o = document.createElement("option"); o.value = v; o.textContent = v; sel.appendChild(o); }
+    sel.value = values.includes(cur) ? cur : "";
+    if(sel.value !== cur) f[keep] = "";
+  }
+
+  function renderTally(){
+    const counts = {}; for(const s of STATUS) counts[s.k] = 0;
+    for(const r of rows) counts[r.status||"new"] = (counts[r.status||"new"]||0)+1;
+    const t = $("tally"); t.innerHTML = "";
+    const all = document.createElement("button"); all.type="button";
+    all.setAttribute("aria-pressed", String(!f.status));
+    all.innerHTML = `All <span class="n">${rows.length}</span>`;
+    all.onclick = () => { f.status = ""; render(); };
+    t.appendChild(all);
+    for(const s of STATUS){
+      const b = document.createElement("button"); b.type="button";
+      b.setAttribute("aria-pressed", String(f.status === s.k));
+      b.innerHTML = `${esc(s.label)} <span class="n">${counts[s.k]||0}</span>`;
+      b.onclick = () => { f.status = f.status === s.k ? "" : s.k; render(); };
+      t.appendChild(b);
+    }
+    const shown = rows.filter(matches).length;
+    const tot = document.createElement("span"); tot.className = "total";
+    tot.textContent = `Showing ${shown} of ${rows.length}`;
+    t.appendChild(tot);
+  }
+
+  function lineHtml(val, kind){
+    if(!val) return "";
+    return `<div class="line"><span>${esc(val)}</span><button class="copy" type="button" data-copy="${esc(val)}" aria-label="Copy ${kind}">Copy</button></div>`;
+  }
+
+  function cardHtml(r){
+    const st = r.status || "new";
+    const src = safeUrl(r.sourceUrl), web = safeUrl(r.website), page = safeUrl(r.sectorPage);
+    const opts = STATUS.map(s => `<option value="${s.k}"${s.k===st?" selected":""}>${esc(s.label)}</option>`).join("");
+    const place = [r.town, r.state].filter(Boolean).join(", ");
+    return `
+      <div class="org">
+        <div class="org-top"><span class="pri ${esc(r.priority||"C")}" title="Priority ${esc(r.priority||"C")}">${esc(r.priority||"C")}</span><h3>${esc(r.org)}</h3></div>
+        ${place ? `<div class="place">${esc(place)}</div>` : ""}
+        <div class="chips">
+          ${r.category ? `<span class="chip">${esc(r.category)}</span>` : ""}
+          ${r.buyerType ? `<span class="chip">${esc(r.buyerType)}</span>` : ""}
+          ${r.firstTouch ? `<span class="chip touch">${esc(r.firstTouch)}</span>` : ""}
+        </div>
+      </div>
+      <div class="req">
+        <blockquote>${esc(r.hook || "Requirement not yet written up.")}</blockquote>
+        <div class="meta">
+          ${r.program ? `<span>${esc(r.program)}</span>` : ""}
+          ${r.languages ? `<span>Languages: ${esc(r.languages)}</span>` : ""}
+          ${src ? `<a href="${esc(src)}" target="_blank" rel="noopener">source</a>` : ""}
+          ${page ? `<a href="${esc(page)}" target="_blank" rel="noopener">sector page</a>` : ""}
+        </div>
+        ${r.replySummary ? `<div class="reply">${esc(r.replySummary)}</div>` : ""}
+      </div>
+      <div class="contact">
+        ${r.contactName ? `<div class="who">${esc(r.contactName)}</div>` : `<div class="missing">No named contact yet</div>`}
+        ${r.contactTitle ? `<div class="title">${esc(r.contactTitle)}</div>` : ""}
+        ${lineHtml(r.email, "email")}
+        ${lineHtml(r.phone, "phone")}
+        ${!r.email && !r.phone ? `<div class="missing">No published email or phone</div>` : ""}
+        ${web ? `<a href="${esc(web)}" target="_blank" rel="noopener">${esc(new URL(web).hostname.replace(/^www\./,""))}</a>` : ""}
+      </div>
+      <div class="work">
+        <button class="btn script-btn${st==="replied"?" quiet":""}" type="button" data-act="script"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>${st==="replied"?"Script (Atdhe has it)":"Call script"}</button>
+        <label class="eyebrow" for="st-${esc(r.id)}">Status</label>
+        <select id="st-${esc(r.id)}" data-act="status"${readOnly?" disabled":""}>${opts}</select>
+        <textarea id="nt-${esc(r.id)}" data-act="notes" placeholder="${readOnly?"View only":"Call notes, next step, date"}" aria-label="Notes for ${esc(r.org)}"${readOnly?" disabled":""}>${esc(r.notes||"")}</textarea>
+        <div class="stamp" data-who="${esc(r.updatedBy||"")}" data-at="${esc(r.updatedAt||"")}"></div>
+      </div>`;
+  }
+
+  async function stamps(){
+    const els = [...listEl.querySelectorAll(".stamp")];
+    const ids = [...new Set(els.map(e => e.dataset.who).filter(Boolean))];
+    let ps = {};
+    if(user && ids.length){ try{ ps = await user.profiles(ids); }catch{} }
+    for(const e of els){
+      const w = e.dataset.who, at = ago(e.dataset.at);
+      if(!at){ e.textContent = ""; continue; }
+      const name = w ? ((ps[w] && ps[w].name) || "Someone") : "Someone";
+      e.textContent = `Updated by ${name}, ${at}`;
+    }
+  }
+
+  function render(){
+    renderTally();
+    const shown = rows.filter(matches).sort(sortRows);
+    const active = document.activeElement;
+    const keep = new Set();
+    let prev = null;
+    for(const r of shown){
+      keep.add(r.id);
+      const sig = JSON.stringify([r, readOnly]);
+      let c = cards.get(r.id);
+      const editing = c && c.el.contains(active) && active.tagName === "TEXTAREA";
+      if(!c){
+        const el = document.createElement("article");
+        el.dataset.id = r.id; c = {el, sig:""}; cards.set(r.id, c);
+      }
+      if(c.sig !== sig && !editing){
+        c.el.className = "row s-" + (r.status||"new");
+        c.el.innerHTML = cardHtml(r); c.sig = sig;
+      }
+      const ref = prev ? prev.nextSibling : listEl.firstChild;
+      if(c.el !== ref) listEl.insertBefore(c.el, ref);
+      prev = c.el;
+    }
+    for(const [id, c] of cards){ if(!keep.has(id)){ c.el.remove(); } }
+    emptyEl.hidden = shown.length > 0;
+    if(!shown.length){
+      emptyEl.textContent = rows.length ? "No organizations match these filters." : emptyEl.textContent;
+      if(!emptyEl.isConnected) listEl.appendChild(emptyEl);
+    }
+    stamps();
+  }
+
+  function queueWrite(id, patch){
+    const ref = db.doc("prospects/" + id);
+    const body = Object.assign({}, patch, {updatedAt: new Date().toISOString()});
+    if(myId) body.updatedBy = myId;
+    const p = (writeChain.get(id) || Promise.resolve()).then(() => ref.update(body)).then(() => true).catch(e => {
+      if(e && e.code === "invalid_argument" && canWrite !== true){ readOnly = true; note("This view is read only. Ask Atdhe for Contributor access to update statuses and notes.", true); cards.forEach(c => c.sig = ""); render(); }
+      else note("That change didn't save (" + ((e && e.code) || "error") + "). Try again in a moment.", true);
+      return false;
+    });
+    writeChain.set(id, p);
+    return p;
+  }
+
+  listEl.addEventListener("change", (ev) => {
+    const t = ev.target, card = t.closest("article"); if(!card || !db || readOnly) return;
+    const id = card.dataset.id, r = rows.find(x => x.id === id); if(!r) return;
+    if(t.dataset.act === "status" && t.value !== (r.status||"new")) queueWrite(id, {status: t.value});
+    if(t.dataset.act === "notes" && t.value !== (r.notes||"")) queueWrite(id, {notes: t.value});
+  });
+  listEl.addEventListener("focusout", (ev) => { if(ev.target.tagName === "TEXTAREA") setTimeout(render, 0); });
+  listEl.addEventListener("click", (ev) => {
+    const sb = ev.target.closest('[data-act="script"]'); if(!sb) return;
+    const card = sb.closest("article"); if(card) openScript(card.dataset.id);
+  });
+  document.addEventListener("click", async (ev) => {
+    const b = ev.target.closest(".copy"); if(!b) return;
+    const v = b.dataset.copy;
+    try{ await navigator.clipboard.writeText(v); b.textContent = "Copied"; }
+    catch{ const s = b.previousElementSibling; const rg = document.createRange(); rg.selectNodeContents(s); const sel = getSelection(); sel.removeAllRanges(); sel.addRange(rg); b.textContent = "Selected"; }
+    setTimeout(() => { b.textContent = "Copy"; }, 1400);
+  });
+
+  $("q").addEventListener("input", (e) => { f.q = e.target.value.trim().toLowerCase(); render(); });
+  $("f-cat").addEventListener("change", (e) => { f.cat = e.target.value; render(); });
+  $("f-state").addEventListener("change", (e) => { f.state = e.target.value; render(); });
+  $("f-pri").addEventListener("change", (e) => { f.pri = e.target.value; render(); });
+
+  // ---------- Call script ----------
+  const sheet = $("sheet"), sheetBody = $("sheet-body");
+  const scriptCache = new Map();
+  let repName = "Esat", openId = null;
+  const DAYS = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  function bizDays(offset, n){
+    const out = [], d = new Date(); d.setHours(12,0,0,0); d.setDate(d.getDate() + offset);
+    while(out.length < n){ const w = d.getDay(); if(w !== 0 && w !== 6) out.push(DAYS[w]); d.setDate(d.getDate() + 1); }
+    return out;
+  }
+  function firstName(s){ return String(s || "").replace(/\(.*?\)/g, "").split(/[;,]/)[0].trim().split(/\s+/)[0] || ""; }
+  function fallback(r){
+    const prog = String(r.program || r.category || "outreach work").toLowerCase();
+    const cn = firstName(r.contactName);
+    return {
+      callName: /^[A-Z][a-z]+$/.test(cn) ? cn : "", altName: "", askFor: "whoever runs your outreach and education materials",
+      why: `I was looking at your work on ${prog}... and that work means getting clear information out to the people you serve.`,
+      pain: "Most groups with a duty like that have the deadline and the budget line... but nobody on staff whose job is to make the videos and flyers. So the message ends up as a PDF nobody reads.",
+      offer: "short videos people actually watch, plus matching flyers and social posts, in the languages your community speaks",
+      question: "How are you getting that information out right now... does video play any part?",
+      planFor: "your outreach", foundVia: `We came across your work on ${prog} while we were looking at groups that have to get information out to the public... so we reached out.`,
+      source: r.sourceUrl ? {label: "The page we found you on", url: r.sourceUrl} : null, whyExplain: "", whyFlag: "",
+      discovery: ["Who has to get this information, and in what languages?", "Where do people see your messages today... social, events, waiting rooms?", "Is there a report or deadline coming up where you have to show this outreach?"],
+      deadline: "", objection: null, caution: ""
+    };
+  }
+  const mk = (s) => `<mark>${esc(s)}</mark>`;
+  const say = (html) => `<p class="say">${html}</p>`;
+  const cue = (t) => `<p class="cue">${esc(t)}</p>`;
+  const step = (n, title, inner) => `<section class="step"><span class="num">${n}</span><h3>${esc(title)}</h3><div class="lines">${inner}</div></section>`;
+  const okUrl = (u) => /^https?:\/\//i.test(String(u || ""));
+  const srcLink = (s) => s && okUrl(s.url) ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label || "Source")}</a>` : "";
+  function explainBox(id, head, text, src, flag){
+    return `<div class="explain" id="${id}" hidden><p class="explain-h">${esc(head)}</p><p class="say">${esc(text)}</p>` +
+      (flag ? `<p class="warn"><b>Check first:</b> ${esc(flag)}</p>` : "") +
+      (srcLink(src) ? `<p class="explain-src">Source: ${srcLink(src)}</p>` : "") + `</div>`;
+  }
+
+  // Plain-English meanings for the program words that show up in the scripts. Each is written so the rep can
+  // say it out loud if the person asks "what do you mean?". Facts checked against the linked page (Oct 2026).
+  const SRC = {
+    rbhao: {label: "CT DMHAS: Regional Behavioral Health Action Organizations", url: "https://portal.ct.gov/dmhas/commissions-councils-boards/index/regional-behavioral-health-action-organizations-rbhaos"},
+    lpc: {label: "CT DMHAS: Local Prevention Councils", url: "https://portal.ct.gov/DMHAS/Prevention-Unit/Prevention-Unit/Local-Prevention-Councils"},
+    dfc: {label: "CDC: Drug-Free Communities", url: "https://www.cdc.gov/overdose-prevention/php/drug-free-communities/index.html"},
+    ghg: {label: "Greater Hartford Gives: the 42 trusted messengers (June 30, 2026)", url: "https://greaterhartfordgives.org/news/grants-for-trusted-messengers-to-share-information-about-upcoming-changes-to-medicaid-and-snap/"},
+    hr1: {label: "CT DSS: federal changes to HUSKY and SNAP (H.R. 1)", url: "https://portal.ct.gov/dss/knowledge-base/articles/general-information/federal-updates-hr1"},
+    snap: {label: "CT DSS: SNAP work rules", url: "https://portal.ct.gov/dss/find-benefits-and-support/food-assistance/abawds"},
+    nj: {label: "NJ Dept. of Banking and Insurance: 33 navigator grants (Oct 14, 2026)", url: "https://www.nj.gov/dobi/pressreleases/pr261014.html"},
+    ma: {label: "Massachusetts Health Connector: navigators", url: "https://www.mahealthconnector.org/navigators"},
+    ri: {label: "HealthSource RI: navigator directory", url: "https://healthsourceri.com/wp-content/uploads/NavigatorDirectory_ENG_.pdf"},
+    ny: {label: "NY Dept. of Health: navigator contracts", url: "https://healthweb-back.health.ny.gov/funding/single_source/20458.htm"},
+    choices: {label: "CT Aging and Disability Services: CHOICES", url: "https://portal.ct.gov/aginganddisability/content-pages/programs/choices-connecticuts-program-for-health-insurance-assistance-outreach-information-and-referral-couns"},
+    ms4: {label: "Example: Ansonia's 2025 MS4 report (section 6(a)(1))", url: "https://cityofansonia.com/filestorage/8192/8194/8212/A05093-0016_2025_06-27_DRAFT_MS4_Annual_Report_%281%29.pdf"},
+    lead: {label: "EPA: Revised Lead and Copper Rule", url: "https://www.epa.gov/ground-water-and-drinking-water/revised-lead-and-copper-rule"},
+    cog: {label: "Example: NVCOG's stormwater help for its towns", url: "https://nvcogct.gov/what-we-do/environment/ms4/"},
+    pfs: {label: "CT Partnerships for Success 2022 plan", url: "https://preventionportal.ctdata.org/products/2024/reports/CT%20PFS%202022%20Statewide%20Community%20Health%20Improvement%20Plan.pdf"},
+    paid: {label: "CT Paid Leave: Community Education Coordinators", url: "https://www.ctpaidleave.org/resources-and-guides/community-education-coordinators"},
+    cts: {label: "CT DMHAS: Change the Script", url: "https://portal.ct.gov/dmhas/prevention-unit/prevention-files/change-the-script"},
+    nav: {label: "HealthCare.gov: what a navigator is", url: "https://www.healthcare.gov/glossary/navigator/"},
+    ahct: {label: "Access Health CT", url: "https://www.accesshealthct.com/"},
+    l988: {label: "988 Suicide and Crisis Lifeline", url: "https://988lifeline.org/"}
+  };
+  const GLOSS = [
+    {k: "rbhao", re: /\bRBHAOs?\b|\b(?:regional )?(?:behavioral health )?action organi[sz]ations?\b/i, src: SRC.rbhao,
+      x: "Connecticut's mental health and addiction department splits the state into five regions. In each one it funds one nonprofit, the action organization, to raise public awareness about mental health, suicide prevention and substance use, and to support the prevention councils in every town."},
+    {k: "lpc", re: /\bLocal Prevention Councils?\b|\bLPCs?\b|\bprevention councils?\b/i, src: SRC.lpc,
+      x: "A Local Prevention Council is a town-level prevention group in a state grant program run by DMHAS, Connecticut's mental health and addiction department. Its goal is to raise public awareness about alcohol, tobacco and other drugs, mostly for young people. Well over 150 of Connecticut's 169 towns have one."},
+    {k: "dfc", re: /\bDrug[- ]Free Communit(?:y|ies)(?: coalitions?| grants?)?\b|\bDFC\b/i, src: SRC.dfc,
+      x: "Drug-Free Communities is a federal grant for local coalitions that work to prevent youth substance use. It's run by the White House drug policy office with the CDC. Each coalition brings together parents, youth, schools, police, health care, media and others in one community."},
+    {k: "cara", re: /\bCARA\b/, src: SRC.dfc,
+      x: "CARA Local Drug Crisis grants are federal grants that run alongside Drug-Free Communities. They help local coalitions in communities hit hard by drug use. About 65 communities have one."},
+    {k: "trusted", re: /\btrusted messengers?\b/i, src: SRC.ghg,
+      x: "On June 30, 2026 the Connecticut Health Foundation, with Greater Hartford Gives, funded 42 Connecticut community groups as trusted messengers. Their job is to help their communities understand and get through the changes to Medicaid (HUSKY) and SNAP food benefits."},
+    {k: "huskyd", re: /\bHUSKY D\b/, src: SRC.hr1,
+      x: "HUSKY D is Connecticut's Medicaid for adults 19 to 64. Starting January 1, 2027, many of them have to show 80 hours a month of work, volunteering, job training or school, and renew every 6 months instead of once a year. People who miss the paperwork can lose their coverage."},
+    {k: "work", re: /\bwork(?:-| )(?:rules?|requirements?|reporting(?: rules?)?)\b/i, src: SRC.hr1,
+      x: "A 2025 federal law (H.R. 1) added work rules. In Connecticut, from January 1, 2027, many adults on HUSKY D have to show 80 hours a month of work, volunteering, training or school. SNAP food benefits already got stricter rules in November 2025: the age limit went up to 64 and some exemptions ended."},
+    {k: "hr1", re: /\bH\.\s?R\.\s?1\b/, src: SRC.hr1,
+      x: "H.R. 1 is the big federal budget law passed in 2025. It's the law behind the new Medicaid and SNAP work rules and the 6-month HUSKY D renewals."},
+    {k: "medicaid", re: /\bMedicaid\b|\bHUSKY(?! D\b)(?: Health)?\b/, src: SRC.hr1,
+      x: "Medicaid is free or low-cost health coverage for people with low incomes, paid for by the state and federal government. In Connecticut it's called HUSKY Health."},
+    {k: "snap", re: /\bSNAP\b/, src: SRC.snap,
+      x: "SNAP is the federal food benefit, the card people use to buy groceries. It used to be called food stamps. Since November 2025 stricter work rules apply: the age limit went up to 64 and some exemptions ended, so some people lose benefits unless they report their hours."},
+    {k: "caa", re: /\bcommunity action(?: agenc(?:y|ies)| programs?)?\b/i, src: SRC.snap,
+      x: "A community action agency is a local nonprofit that fights poverty: help with energy bills, food, housing and jobs. Connecticut's social services department tells people who lost SNAP under the new work rules to contact their local community action agency."},
+    {k: "gcnj", re: /\bGet Covered (?:New Jersey|NJ)\b/i, src: SRC.nj,
+      x: "Get Covered New Jersey is New Jersey's own health insurance marketplace, where people buy plans and get help paying for them. On October 14, 2026 the state gave navigator grants to 33 community groups for free outreach, education and enrollment help. Open enrollment runs November 1, 2026 to January 31, 2027."},
+    {k: "connector", re: /\b(?:Massachusetts |MA )?Health Connector\b/, src: SRC.ma,
+      x: "The Massachusetts Health Connector is the state's health insurance marketplace. It funds 24 navigator organizations to do outreach so people know about it, and to help them enroll."},
+    {k: "hsri", re: /\bHealthSource (?:RI|Rhode Island)\b/, src: SRC.ri,
+      x: "HealthSource RI is Rhode Island's health insurance marketplace. Its navigator agencies give free, unbiased, in-person help to compare plans and enroll."},
+    {k: "nysoh", re: /\b(?:NY|New York) State of Health\b/, src: SRC.ny,
+      x: "NY State of Health is New York's health insurance marketplace. The state funds navigator agencies to give free, in-person enrollment help in people's own language and culture."},
+    {k: "ahct", re: /\bAccess Health (?:CT|Connecticut)\b/, src: SRC.ahct,
+      x: "Access Health CT is Connecticut's health insurance marketplace, where people buy plans and get help paying for them."},
+    {k: "nav", re: /\bnavigators?\b/i, src: SRC.nav,
+      x: "A navigator is a community group paid to help people get health insurance, for free. They explain the options, help with the application and renewals, and do outreach so people know the help exists."},
+    {k: "oe", re: /\bopen enrollment\b/i, src: null,
+      x: "Open enrollment is the yearly window when people can sign up for or switch health plans. Outside it, most people can't. Medicare's runs October 15 to December 7, 2026. New Jersey's marketplace runs November 1, 2026 to January 31, 2027."},
+    {k: "choices", re: /\bCHOICES\b/, src: SRC.choices,
+      x: "CHOICES is Connecticut's free, unbiased Medicare counseling program. The state's Aging and Disability Services runs it with the five Area Agencies on Aging and the Center for Medicare Advocacy. Counselors help older adults compare plans, especially during open enrollment, October 15 to December 7."},
+    {k: "aaa", re: /\bArea Agenc(?:y|ies) on Aging\b/i, src: SRC.choices,
+      x: "Connecticut has five Area Agencies on Aging, one per region. They connect older adults and caregivers to services, and they run CHOICES Medicare counseling in their region."},
+    {k: "smp", re: /\bSenior Medicare Patrol\b/i, src: null,
+      x: "Senior Medicare Patrol is a federal program that helps people on Medicare prevent, spot and report Medicare fraud, errors and scams."},
+    {k: "medicare", re: /\bMedicare\b/, src: SRC.choices,
+      x: "Medicare is federal health insurance for people 65 and older and some younger people with disabilities. Every year from October 15 to December 7 they can switch plans, and many need help comparing them."},
+    {k: "ms4", re: /\bMS4\b/, src: SRC.ms4,
+      x: "MS4 is the stormwater permit most Connecticut towns hold from the state environmental department (DEEP). Rain carries trash, oil and pet waste down storm drains straight into rivers. The permit makes each town run a public education program about keeping pollution out of storm drains, and report on it every year."},
+    {k: "storm", re: /\bstorm ?water\b|\bstorm drains?\b/i, src: SRC.ms4,
+      x: "Stormwater is rain that runs off streets and parking lots into storm drains, which flow straight to rivers and the Sound without treatment. Under the state's MS4 permit, towns must educate residents about keeping trash, oil and pet waste out of it, and report on that every year."},
+    {k: "lead", re: /\blead service lines?\b|\bLead and Copper Rule\b|\bservice lines?\b/i, src: SRC.lead,
+      x: "A service line is the pipe that brings water from the street into a home. Under EPA's Lead and Copper Rule, water systems must find out which lines are lead or unknown, and notify those customers every year by December 31."},
+    {k: "cog", re: /\bcouncils? of governments?\b|\bCOGs?\b|\b(?:NV|SC|CR|West|NE|River|SE|NH|NW)COG\b/, src: SRC.cog,
+      x: "Connecticut has no county government. Its 169 towns are grouped into nine regional councils of governments, or COGs, that plan and share services across towns, like help with stormwater programs."},
+    {k: "pfs", re: /\bPartnerships? for Success\b|\bPFS\b/, src: SRC.pfs,
+      x: "Partnerships for Success is a federal prevention grant passed through DMHAS to 12 Connecticut towns, through September 2027. Its plan says each town will run awareness campaigns through flyers, videos, billboards and social media."},
+    {k: "stop", re: /\bSTOP Act\b/, src: null,
+      x: "The STOP Act grant is federal money for community coalitions to prevent underage drinking."},
+    {k: "opioid", re: /\bopioid settlement(?: funds?| money)?\b/i, src: null,
+      x: "Connecticut and its towns get yearly payments from the national lawsuits against opioid makers, distributors and pharmacies. The money has to go to prevention, treatment and recovery."},
+    {k: "cts", re: /\bChange the Script\b/i, src: SRC.cts,
+      x: "Change the Script is Connecticut's statewide opioid awareness campaign, launched by the state in 2018 and run through DMHAS, the mental health and addiction department."},
+    {k: "fqhc", re: /\bFQHCs?\b|\bcommunity health cent(?:er|re)s?\b|\bfederally qualified health cent(?:er|re)s?\b/i, src: null,
+      x: "A community health center (an FQHC) is a federally funded clinic that serves everyone, whether or not they have insurance or can pay."},
+    {k: "cec", re: /\bcommunity education coordinators?\b/i, src: SRC.paid,
+      x: "CT Paid Leave picks a short list of community groups as Community Education Coordinators. The state funds them to spread the word, including making and sharing outreach materials in the languages their community speaks."},
+    {k: "paid", re: /\b(?:CT |Connecticut )?Paid Leave\b/i, src: SRC.paid,
+      x: "CT Paid Leave lets most Connecticut workers take paid time off for their own illness, a new child, or caring for family. The state funds community groups to make sure workers know about it, in their own language."},
+    {k: "l988", re: /\b988\b/, src: SRC.l988,
+      x: "988 is the national Suicide and Crisis Lifeline. Anyone can call or text 988, day or night, to reach a trained counselor."},
+    {k: "dmhas", re: /\bDMHAS\b/, src: SRC.rbhao,
+      x: "DMHAS is Connecticut's Department of Mental Health and Addiction Services. It funds the five regional action organizations and the Local Prevention Councils in most towns."},
+    {k: "samhsa", re: /\bSAMHSA\b/, src: null,
+      x: "SAMHSA is the federal agency for mental health and substance use. A lot of prevention money in Connecticut starts there and passes through DMHAS."},
+    {k: "deep", re: /\bDEEP\b/, src: null,
+      x: "DEEP is Connecticut's Department of Energy and Environmental Protection. It issues the stormwater (MS4) permit towns have to follow."},
+    {k: "atod", re: /\bATOD\b/, src: SRC.lpc,
+      x: "ATOD is short for alcohol, tobacco and other drugs. It's the state's term for what Local Prevention Councils work to prevent."},
+    {k: "narcan", re: /\bNarcan\b|\bnaloxone\b/i, src: null,
+      x: "Narcan (naloxone) is a nasal spray that can reverse an opioid overdose."}
+  ];
+  const GLOSS_BY = Object.fromEntries(GLOSS.map(g => [g.k, g]));
+
+  // Wrap the first mention of each glossary word in the script so it can be tapped. Skips the claim (it has its own
+  // explainer), links and explainers, and only marks each word once per script so the page doesn't turn into a sea of links.
+  function linkTerms(root){
+    const seen = new Set();
+    for(const el of root.querySelectorAll(".say, .qs li")){
+      if(el.closest(".explain")) continue;
+      const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, {acceptNode: (n) => n.parentElement.closest(".claim, .term, a, .explain") ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT});
+      const nodes = []; while(walker.nextNode()) nodes.push(walker.currentNode);
+      for(let cur of nodes){
+        while(cur && cur.data){
+          let best = null;
+          for(const g of GLOSS){
+            if(seen.has(g.k)) continue;
+            const m = g.re.exec(cur.data);
+            if(m && (!best || m.index < best.m.index || (m.index === best.m.index && m[0].length > best.m[0].length))) best = {g, m};
+          }
+          if(!best) break;
+          seen.add(best.g.k);
+          const hit = cur.splitText(best.m.index), rest = hit.splitText(best.m[0].length);
+          const t = document.createElement("span");
+          t.className = "term"; t.tabIndex = 0; t.setAttribute("role", "button"); t.setAttribute("aria-expanded", "false");
+          t.dataset.term = best.g.k; t.title = "What this means"; t.textContent = hit.data;
+          hit.replaceWith(t);
+          cur = rest;
+        }
+      }
+    }
+  }
+  function toggleExplain(btn){
+    let box;
+    if(btn.classList.contains("claim")) box = document.getElementById(btn.getAttribute("aria-controls"));
+    else {
+      const id = "x-term-" + btn.dataset.term;
+      box = document.getElementById(id);
+      if(!box){
+        const g = GLOSS_BY[btn.dataset.term]; if(!g) return;
+        const wrap = document.createElement("div");
+        wrap.innerHTML = explainBox(id, `"${btn.textContent}" in plain English`, g.x, g.src, "");
+        box = wrap.firstElementChild;
+        const host = btn.closest("li, .say");
+        if(host && host.tagName === "LI") host.appendChild(box); else if(host) host.after(box);
+        btn.setAttribute("aria-controls", id);
+      }
+    }
+    if(!box) return;
+    box.hidden = !box.hidden;
+    btn.setAttribute("aria-expanded", String(!box.hidden));
+  }
+  sheetBody.addEventListener("click", (ev) => {
+    const b = ev.target.closest(".claim, .term"); if(!b || !sheetBody.contains(b)) return;
+    ev.preventDefault(); toggleExplain(b);
+  });
+  sheetBody.addEventListener("keydown", (ev) => {
+    if(ev.key !== "Enter" && ev.key !== " ") return;
+    const b = ev.target.closest && ev.target.closest(".claim, .term"); if(!b) return;
+    ev.preventDefault(); toggleExplain(b);
+  });
+
+  function bank(S, d1, d2){
+    return [
+      {they: "You've got the wrong person. / That's a different department.", src: "Real call", you: say("Thanks for telling me... I don't want to bug the wrong person. Who handles that?") + say("Would you mind transferring me... or sharing their name, so I can say you sent me?"), cue: `If they won't give a name, ask for that office's main number. Then tap "Wrong person" below and write what they said in the notes, so we can find the right contact.`},
+      {they: "We already work with a communications consultant.", src: "Real reply", you: say("That's great... consultants are usually the idea people. We're the production side... we film, edit and translate, so the videos actually get made. A lot of the time we work right alongside the consultant.") + say("What would it take to get them on a quick call with us too?")},
+      {they: "You'll need to register with our purchasing department first.", src: "Real reply", you: say("Of course, we'll do that. What's the name of the system... and who in purchasing should we talk to?") + say("And for a small project like this... how does it usually work on your side, quotes or a full bid?"), cue: "Write the portal name and link in the notes so we get registered."},
+      {they: "How did you come across our work?", src: "Real reply", you: say(`Good question... ${mk(S.foundVia)}`) +
+        (srcLink(S.source) ? `<p class="cue">The page: ${srcLink(S.source)}. Offer to email them the link.</p>` : "")},
+      {they: "Call me next week. / Send me some times.", src: "Real reply", you: say(`Let's put it on the calendar now so it doesn't slip... would ${esc(d1)} or ${esc(d2)} work? Morning or afternoon?`)},
+      {they: "Send me an email.", you: say("Sure, I can definitely send one... but when was the last time an email was better than a conversation?") + say(`My goal was to introduce you to our strategist... they'll give you a free plan for ${mk(S.planFor)} that you keep either way. Would it be ridiculous to meet... say ${esc(d1)} or ${esc(d2)}?`), cue: `If no: "Alright, I'll send it over. Is there something specific you'd like written down?" Confirm the email, then: "I'll follow up in a day or two."`},
+      {they: "Not interested.", you: say("Hey, I totally get it... I'm a stranger calling out of the blue. I may never have to bug you again if it's not relevant... do you mind if I quickly tell you why I called?")},
+      {they: "We don't have budget for this.", you: say("Totally fair... usually this comes out of the outreach or education line that's already in the grant... the same line that pays for flyers and printing today.") + say("When does your next grant year or budget start?")},
+      {they: "We make our own flyers and post on social ourselves.", you: say("That's great... keep doing that. We add the parts that are hard to do in-house... video, and other languages.") + say("Who makes the non-English versions today?")},
+      {they: "The state (or our funder) already gives us materials.", you: say("Perfect... we build on them. Most toolkits are fact sheets and posters. We turn that same approved message into short videos with your people and your name on them.") + say("What's in your toolkit right now that's video?")},
+      {they: "How much does it cost?", you: say("It depends on what you need... how many videos and how many languages. The strategist gives you real numbers on the call... and we size it to fit the outreach line in your grant.") + say("What would it need to fit inside?"), cue: "Never quote a price on a cold call."}
+    ];
+  }
+
+  function buildScript(r, S){
+    const nm = S.callName || "";
+    const sp = nm ? " " + mk(nm) : "";
+    const rep = esc(repName);
+    const [d1, d2] = bizDays(2, 2), [vm] = bizDays(2, 1);
+    const rest = /^Emailed /.test(r.firstTouch || "") ? r.firstTouch.replace(/^Emailed /, "") : "";
+    const touched = rest ? (/^by/.test(rest) ? "recently" : "on " + rest) : "";
+    const brief = [];
+    if(r.status === "replied") brief.push(`<div class="warn"><b>Atdhe is handling this one.</b> ${esc(r.replySummary || "")}</div>`);
+    if(S.caution && r.status !== "replied") brief.push(`<div class="warn">${esc(S.caution)}</div>`);
+    if(S.whyFlag && r.status !== "replied") brief.push(`<div class="warn"><b>Check before you say it:</b> ${esc(S.whyFlag)}</div>`);
+    if(srcLink(S.source)) brief.push(`<div><b>Where we found them:</b> ${srcLink(S.source)}</div>`);
+    brief.push(`<div><b>Ask for:</b> ${nm ? esc(nm) + (S.altName ? ` (or ${esc(S.altName)})` : "") : esc(S.askFor)}${r.contactTitle ? " · " + esc(r.contactTitle) : ""}</div>`);
+    if(r.languages) brief.push(`<div><b>Languages:</b> ${esc(r.languages)}</div>`);
+    if(touched) brief.push(`<div><b>Already emailed:</b> Atdhe emailed them ${esc(touched)}. This call is the follow-up.</div>`);
+    else if(r.firstTouch === "In the email queue") brief.push(`<div><b>Email:</b> an email from Atdhe goes out to them soon. Calling first is fine.</div>`);
+    else if(/^Public body/.test(r.firstTouch || "")) brief.push(`<div><b>Public body:</b> they buy through purchasing rules. Book the meeting, then ask how they buy (quotes or a bid).</div>`);
+    if(r.notes) brief.push(`<div><b>Notes:</b> ${esc(r.notes)}</div>`);
+    let h = `<div class="brief">${brief.join("")}</div>`;
+    h += `<p class="legend">Lines marked <mark>like this</mark> are written for this lead. The rest is the standard script. If they ask "what do you mean?", tap the <span class="term" aria-hidden="true">dotted words</span> for a plain-English answer you can read out, with the source.</p>`;
+    h += step(1, "Opener",
+      say(nm ? `Hi, is this ${mk(nm)}?` : `Hi... I'm trying to reach ${mk(S.askFor)}. Would that be you?`) +
+      (nm ? cue(`Gatekeeper: "I'm trying to reach ${nm}${S.altName ? " or " + S.altName : ""}... or ${S.askFor}. Who would that be?"`) : "") +
+      say(`Hi${sp}, it's ${rep} from Happy Productions... I know I'm catching you out of the blue... but would it be ridiculous to ask for half a minute? Then you can tell me if it's relevant or not.`) +
+      say("Appreciate that... feel free to cut me off if it's not in your wheelhouse.") +
+      (touched ? say(`You might have seen a short email from Atdhe, our founder, ${mk(touched)}... this is the follow-up.`) : ""));
+    h += step(2, "Why I'm calling",
+      say(`So the reason I'm calling... ${S.whyExplain ? `<span class="claim" role="button" tabindex="0" aria-expanded="false" aria-controls="x-why" title="What this means">${mk(S.why)}</span>` : mk(S.why)}`) +
+      (S.whyExplain ? explainBox("x-why", "If they ask what you mean, say", S.whyExplain, S.source, S.whyFlag) : "") +
+      say(mk(S.pain)) +
+      say("May not be the case for y'all, but I'm curious... does that sound familiar?"));
+    h += step(3, "Pitch",
+      say(`So... Happy Productions is a Connecticut video studio. We made "Coverage at Risk," a short documentary for the State of Connecticut's Commission on Racial Equity in Public Health.`) +
+      say(`What we do is take the message you're required to get out... and turn it into ${mk(S.offer)}.`) + cue("Slow down here.") +
+      say("You point us at the message... we handle the rest. And you get a one-page log of what we made and where it ran... so it drops right into your report.") +
+      (S.deadline ? say(mk(S.deadline)) : ""));
+    h += step(4, "Transition",
+      say(`Now${sp}... every program's different, and I'm not sure where your priorities sit right now... but just out of curiosity... ${mk(S.question)}`));
+    h += step(5, "Close",
+      say(`Well, super simple${sp}... I don't wanna overstay my welcome, but would you be completely opposed to 25 or 30 minutes with our strategist?`) +
+      say(`They'll map out what this could look like for ${mk(S.planFor)}... and you keep that plan no matter what you decide.`) +
+      say(`Would it be ridiculous to meet... say ${esc(d1)} or ${esc(d2)}?`) +
+      say("Sounds good... let me check what we've got here. What time zone are you in?") + cue("Suggest two times and confirm their email.") +
+      say("Great... I'm sending the invite now. Mind checking your email real quick to confirm you got it?"));
+    h += step(6, "Discovery",
+      say("Before I let you go... can I ask a few quick questions so our call is as useful as possible for you?") +
+      `<ol class="qs">${(S.discovery || []).map(q => `<li><mark>${esc(q)}</mark></li>`).join("")}<li>Who else should be on the call... and is there an outreach or education line in the budget this would come from?</li></ol>` +
+      say(`Got it! This is really helpful. That's all from me... looking forward to ${esc(d1)}.`));
+    h += step(7, "Voicemail",
+      say(`Hi${sp}, it's ${rep} from Happy Productions, a video studio in Ansonia. I'm calling about ${mk(S.planFor)}... we make the short videos and translated flyers groups like yours use to get that message out. I'll send a quick email, and I'll try you again ${esc(vm)}. Thanks!`));
+    const objs = [];
+    if(S.objection && S.objection.they) objs.push({they: S.objection.they, you: say(mk(S.objection.you)), top: true});
+    bank(S, d1, d2).forEach(o => objs.push(o));
+    h += `<section class="step"><span class="num">?</span><h3>Objections</h3><div class="lines objs">${objs.map(o =>
+      `<details class="obj${o.top ? " top" : ""}"${o.top ? " open" : ""}><summary>"${esc(o.they)}"${o.top ? '<span class="tag">Most likely here</span>' : (o.src ? `<span class="tag">${esc(o.src)}</span>` : "")}</summary><div class="ans">${o.you}${o.cue ? cue(o.cue) : ""}</div></details>`).join("")}</div></section>`;
+    return h;
+  }
+
+  async function openScript(id){
+    const r = rows.find(x => x.id === id); if(!r) return;
+    openId = id;
+    $("sheet-eyebrow").textContent = [r.category, [r.town, r.state].filter(Boolean).join(", ")].filter(Boolean).join(" · ") || "Call script";
+    $("sheet-title").textContent = r.org;
+    $("sheet-who").textContent = [r.contactName, r.contactTitle].filter(Boolean).join(" · ") || "No named contact";
+    $("sheet-dial").innerHTML = lineHtml(r.phone, "phone") + lineHtml(r.email, "email");
+    $("sheet-notes").value = r.notes || "";
+    $("sheet-notes").disabled = readOnly;
+    $("sheet-outcomes").querySelectorAll("button").forEach(b => { b.disabled = readOnly || !db; });
+    $("sheet-saved").textContent = readOnly ? "View only: ask Atdhe for Contributor access to log calls." : "";
+    sheetBody.innerHTML = cue("Loading the script…");
+    if(!sheet.open) sheet.showModal();
+    let S = scriptCache.get(id);
+    if(!S && db){
+      try{ const snap = await db.doc("scripts/" + id).get(); if(snap.exists){ S = snap.data(); scriptCache.set(id, S); } }catch{}
+    }
+    if(openId !== id) return;
+    sheetBody.innerHTML = buildScript(r, Object.assign(fallback(r), S || {}));
+    try{ linkTerms(sheetBody); }catch{}
+    sheetBody.scrollTop = 0;
+  }
+
+  $("sheet-outcomes").addEventListener("click", async (ev) => {
+    const b = ev.target.closest("button[data-out]"); if(!b || !openId || readOnly || !db) return;
+    const id = openId, out = b.dataset.out;
+    const status = out === "Meeting set" ? "meeting" : out === "Not a fit" ? "not_fit" : "called";
+    const stamp = new Date().toLocaleDateString(undefined, {month: "short", day: "numeric"});
+    const notes = [`${stamp} · ${out} (${repName})`, ($("sheet-notes").value || "").trim()].filter(Boolean).join("\n");
+    $("sheet-notes").value = notes;
+    const _prev = ((rows.find(x => x.id === id) || {}).notes || "").trim();
+    const _typed = (($("sheet-notes").value || "").replace(notes.split("\n")[0], "")).trim();
+    const ok = await queueWrite(id, {status, notes, _outcome: out, _logNote: (_prev ? _typed.replace(_prev, "") : _typed).trim()});
+    if(ok && openId === id) $("sheet-saved").textContent = `Saved: ${out}. Status is now "${(STATUS.find(s => s.k === status) || {}).label}".`;
+  });
+  $("sheet-notes").addEventListener("change", async (ev) => {
+    const id = openId, r = rows.find(x => x.id === id); if(!r || readOnly || !db) return;
+    if(ev.target.value !== (r.notes || "")){ const ok = await queueWrite(id, {notes: ev.target.value}); if(ok && openId === id) $("sheet-saved").textContent = "Notes saved."; }
+  });
+  $("sheet-close").addEventListener("click", () => sheet.close());
+  sheet.addEventListener("click", (ev) => { if(ev.target === sheet) sheet.close(); });
+  sheet.addEventListener("close", () => { openId = null; });
+
+  function csvCell(v){ v = String(v ?? ""); return /[",\n]/.test(v) ? '"' + v.replace(/"/g,'""') + '"' : v; }
+  $("csv").addEventListener("click", async () => {
+    if(!dl) return;
+    const shown = rows.filter(matches).sort(sortRows);
+    const head = ["First Name","Last Name","Title","Company","Email","Phone","Website","City","State","Category","Buyer Type","Priority","Status","Program","Requirement","Languages","Source URL","Sector Page","First Touch","Notes"];
+    const lines = [head.join(",")];
+    for(const r of shown){
+      const parts = String(r.contactName||"").trim().split(/\s+/);
+      const first = parts.length > 1 ? parts.slice(0,-1).join(" ") : (parts[0]||"");
+      const last = parts.length > 1 ? parts[parts.length-1] : "";
+      lines.push([first,last,r.contactTitle,r.org,r.email,r.phone,r.website,r.town,r.state,r.category,r.buyerType,r.priority,(STATUS.find(s=>s.k===(r.status||"new"))||{}).label,r.program,r.hook,r.languages,r.sourceUrl,r.sectorPage,r.firstTouch,r.notes].map(csvCell).join(","));
+    }
+    try{
+      await dl.save({filename: "messaging-prospects.csv", data: lines.join("\n")});
+    }catch(e){
+      if(e && e.code === "declined") return;
+      note("The download didn't start (" + ((e && e.code) || "error") + ").", true);
+    }
+  });
+
+  async function boot(){
+    if(!(window.claude && window.claude.use)){ emptyEl.textContent = "Open this page in Claude to load the prospect list."; return; }
+    [db, user, dl] = await Promise.all([claude.use("db"), claude.use("user"), claude.use("downloads")]);
+    if(dl) $("csv").disabled = false; else $("csv").hidden = true;
+    if(!db){ emptyEl.textContent = "The prospect list can't load in this view. Sign in to claude.ai with your Happy Productions account and reopen the link."; return; }
+    if(user){
+      try{ myId = await user.id(); }catch{}
+      try{ const n = await user.name(); if(n) repName = n.trim().split(/\s+/)[0]; }catch{}
+      try{ canWrite = await user.can("data.write"); }catch{}
+      if(canWrite === false){ readOnly = true; note("You can view this list but not change it. Ask Atdhe for Contributor access to update statuses and notes.", false); }
+    }
+    db.collection("prospects").onSnapshot((snap) => {
+      rows = snap.docs.filter(d => d.exists).map(d => Object.assign({id: d.id}, d.data()));
+      if(!rows.length) emptyEl.textContent = "No prospects yet. Claude fills this list from the research files.";
+      const cats = [...new Set(rows.map(r => r.category).filter(Boolean))].sort();
+      const sts = [...new Set(rows.map(r => r.state).filter(Boolean))].sort();
+      fillSelect($("f-cat"), cats, "cat"); fillSelect($("f-state"), sts, "state");
+      render();
+    }, (e) => { emptyEl.textContent = "The list stopped updating (" + ((e && e.code) || "error") + "). Reload the page."; });
+  }
+  render();
+  boot();
+})();
+</script>
+
+</body>
+</html>
