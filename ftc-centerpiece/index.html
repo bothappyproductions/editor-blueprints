@@ -768,7 +768,7 @@ function split_panel(ctx,s,B,t){
   if(tx.number){var ns=fitW(ctx,B,"head",tx.number,MW,s.numSize||220,90);ops.push({k:"num",y:y,size:ns});y+=ns*.98;}
   if(tx.quote){ops.push({k:"quote",y:y});y+=70;}
   if(tx.main){var f=fitB(ctx,B,"head",tx.main,MW,s.mainLines||4,s.size||86,44),lh=f.size*1.13;f.lines.forEach(function(l,i){ops.push({k:"main",y:y,size:f.size,l:l,i:i});y+=lh;});y+=f.size*.45;}
-  (tx.items||[]).forEach(function(it,i){var g2=fit(ctx,B,"body",it,MW-40,2,s.itemSize||40,24),lh2=g2.size*1.28;ops.push({k:"item",y:y,g:g2,i:i,lh:lh2});y+=g2.lines.length*lh2+18;});
+  (tx.items||[]).forEach(function(it,i){var g2=String(it).indexOf("\n")>=0?{size:s.itemSize||40,lines:String(it).split("\n")}:fit(ctx,B,"body",it,MW-40,2,s.itemSize||40,24),lh2=g2.size*1.28;ops.push({k:"item",y:y,g:g2,i:i,lh:lh2});y+=g2.lines.length*lh2+18;});
   if(tx.resolve){var rf=fitB(ctx,B,"head",tx.resolve,MW,3,s.resolveSize||66,40),rl=rf.size*1.14;y+=12;rf.lines.forEach(function(l){ops.push({k:"res",y:y,size:rf.size,l:l});y+=rl;});}
   var top=H*.14,bottom=tx.who?H*.72:H*.88,off=Math.max(top,top+((bottom-top)-y)/2);
   ops.forEach(function(op){var Y=op.y+off;ctx.save();
