@@ -191,6 +191,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
    the list in Airtable. Asks once for the passcode and the caller's first name (kept in this browser). */
 (function(){
   const API = "https://call-desk.happyproductions-hooks.workers.dev";
+  window.__callDesk = true;
   const store = (k, v) => { try { if (v === undefined) return localStorage.getItem(k); if (v === null) localStorage.removeItem(k); else localStorage.setItem(k, v); } catch (e) { return null; } return null; };
   let pass = "", name = "";
   const h = new URLSearchParams(location.hash.slice(1));
@@ -913,6 +914,9 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
       try{ const n = await user.name(); if(n) repName = n.trim().split(/\s+/)[0]; }catch{}
       try{ canWrite = await user.can("data.write"); }catch{}
       if(canWrite === false){ readOnly = true; note("You can view this list but not change it. Ask Atdhe for Contributor access to update statuses and notes.", false); }
+      // Oct 27, 2026: the working list moved to the Call Desk (GitHub Pages + Airtable). This Claude copy is frozen
+      // so calls are never logged in two places. The hosted copy sets window.__callDesk and skips this.
+      if(!window.__callDesk){ readOnly = true; msgEl.innerHTML = 'This list moved to the <a href="https://bothappyproductions.github.io/editor-blueprints/call-desk/" target="_blank" rel="noopener">Call Desk</a>, which saves to Airtable and opens without a Claude account. This copy is frozen as of Oct 27, so log calls there.'; msgEl.className = "note warn"; msgEl.hidden = false; }
     }
     db.collection("prospects").onSnapshot((snap) => {
       rows = snap.docs.filter(d => d.exists).map(d => Object.assign({id: d.id}, d.data()));
