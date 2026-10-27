@@ -1,4 +1,5 @@
 <!doctype html><html lang="en"><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style><meta name="robots" content="noindex,nofollow"><meta property="og:title" content="Choosing Inner Freedom · Centerpiece v2"><meta property="og:description" content="The v2 script, frame by frame. Approve each line or tell us what to change."><meta property="og:image" content="https://bothappyproductions.github.io/editor-blueprints/ftc-centerpiece/og.jpg"><meta property="og:url" content="https://bothappyproductions.github.io/editor-blueprints/ftc-centerpiece/"><meta name="twitter:card" content="summary_large_image"></head><body>
+<style>.ft{margin-top:10px;padding-top:8px;border-top:1px dashed var(--line)}.ft-h{display:block;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}.ft ul{list-style:none;margin:0;padding:0;display:grid;gap:3px}.ft li{font-size:12.5px;line-height:1.4}.ft a{color:#5b2a6b;text-decoration:underline;text-underline-offset:2px;word-break:break-word}.ft li.ft-pv a{color:var(--muted)}.ft li.ft-pick a{color:#7a4a00}</style>
 <title>FTC Centerpiece v2</title>
 <style>
 tr.ok-done>td{background:#effaf1}
@@ -948,6 +949,7 @@ function voiceHtml(v){
 function kv(rows){ return '<dl class="kv">'+(rows||[]).map(function(r){return '<dt>'+esc(r[0])+'</dt><dd>'+r[1]+'</dd>';}).join("")+'</dl>'; }
 function ul(a,cls){ return '<ul'+(cls?' class="'+cls+'"':'')+'>'+(a||[]).map(function(x){return '<li>'+x+'</li>';}).join("")+'</ul>'; }
 function chip(kind,txt){ return '<span class="status st-'+(kind||"warn")+'">'+txt+'</span>'; }
+function footHtml(r){ var f=r.footage||[]; if(!f.length) return ""; var lab={use:"In the cut",pv:"Preview picture from",pick:"Final shots from"}; return '<div class="ft"><span class="ft-h">Footage</span><ul>'+f.map(function(x){ return '<li class="ft-'+esc(x.k||"use")+'"><a href="'+esc(x.u)+'" target="_blank" rel="noopener">'+esc(x.t)+' ↗</a></li>'; }).join("")+'</ul></div>'; }
 function renderItem(it,cl){
   CUR_IT=it;
   document.title=(it.title_short||it.title||"Blueprint");
@@ -961,7 +963,7 @@ function renderItem(it,cl){
   kl='<div class="keylinks">'+klCard("Production brief",L.brief)+klCard("Reference video",L.reference)+klCard("Footage",L.footage)+'</div>';
   var RF=rfPlan(it);
   var rows=(it.rows||[]).map(function(r,i){
-    return '<tr id="bp-row-'+i+'"><td class="tc"><span class="t">'+esc(r.tc)+'</span><br><span class="beat'+(r.kind?" "+r.kind:"")+'">'+esc(r.beat||"")+'</span></td><td>'+frameHtml(r,it)+(r.visual||"")+'</td><td id="mo-'+i+'">'+motionCell(r,i,RF,null)+'</td><td id="vo-'+i+'">'+voiceCell(r,i,RF,null)+'</td><td>'+(r.sfx||'<span class="none">None.</span>')+'</td><td>'+(r.music||'<span class="none">—</span>')+'</td><td class="cok" id="ok-'+i+'"></td></tr>'+
+    return '<tr id="bp-row-'+i+'"><td class="tc"><span class="t">'+esc(r.tc)+'</span><br><span class="beat'+(r.kind?" "+r.kind:"")+'">'+esc(r.beat||"")+'</span></td><td>'+frameHtml(r,it)+(r.visual||"")+footHtml(r)+'</td><td id="mo-'+i+'">'+motionCell(r,i,RF,null)+'</td><td id="vo-'+i+'">'+voiceCell(r,i,RF,null)+'</td><td>'+(r.sfx||'<span class="none">None.</span>')+'</td><td>'+(r.music||'<span class="none">—</span>')+'</td><td class="cok" id="ok-'+i+'"></td></tr>'+
       ((RF.hookRow===i||RF.bite[i])?'<tr class="rf-row" id="rf-'+i+'" hidden><td colspan="7"></td></tr>':'');
   }).join("");
   var H=cl.health||{};
