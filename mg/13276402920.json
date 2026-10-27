@@ -1,7 +1,7 @@
 {
  "item": "13276402920",
  "client": "sfcg",
- "note": "The script asks for two graphics: the “I’M NOT CREATIVE.” hook text and the small Biodegradable balloons text. The loop lines in the hook row are story notes, not on-screen text.",
+ "note": "The script asks for two graphics: the “I’M NOT CREATIVE.” hook text and the small Biodegradable balloons text. The loop lines in the hook row are story notes, not on-screen text. The \"Biodegradable balloons\" lower third is removed (Atdhe's Frame.io note, 25 Oct: \"remove biodegradable balloons\"); the end card keeps its number 3.",
  "mg": [
   {
    "n": 1,
@@ -22,22 +22,6 @@
     "00:00–00:02"
    ],
    "use": "Start the clip at frame 0045 (fully on) and hold it until 00:02, where the hook text goes off. White on royal blue, as the script asks."
-  },
-  {
-   "n": 2,
-   "title": "Biodegradable balloons",
-   "tpl": "highlight_callout",
-   "dur": 4,
-   "pos": "center",
-   "text": {
-    "main": "Biodegradable balloons"
-   },
-   "cue": "Small text, lower third, no animation: Biodegradable balloons",
-   "src": "Script, row 00:22–00:26, Motion graphics & type.",
-   "rows": [
-    "00:22–00:26"
-   ],
-   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:26. Move it to the lower third and scale it down so it stays small."
   },
   {
    "n": 3,
