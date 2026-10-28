@@ -814,8 +814,34 @@ function cta_overlay(ctx,s,B,t){
   if(tx.url){var q2=eOut(seg(t,.8,1.3));ctx.globalAlpha=q2;ctx.font=F(B,"head",36);var uw=ctx.measureText(tx.url).width+64;rr(ctx,x,yb-12,uw,64,32);ctx.fillStyle=c.ac;ctx.fill();ctx.fillStyle=c.onAc;ctx.fillText(tx.url,x+32,yb+32);}
   ctx.restore();
 }
+/* ---------- brand background loop (Atdhe 2026-10-28): an animated brand-colour plate that sits UNDER a speaker's picture in place of busy b-roll.
+   Every movement runs on whole cycles of the clip length, so the clip loops without a seam: lay copies end to end. styles: drift · leak · bokeh ---------- */
+function bg_plate(ctx,s,B,t){
+  var c=C(s,B),D=s.dur||20,ph=t/D*Math.PI*2,dp=deep(B),st=s.style||"drift",M=Math.max(W,H),TAU=Math.PI*2;
+  function glow(x,y,r,col,a){if(a<=0)return;var g=ctx.createRadialGradient(x,y,0,x,y,r);g.addColorStop(0,rgba(col,a));g.addColorStop(.45,rgba(col,a*.5));g.addColorStop(1,rgba(col,0));ctx.fillStyle=g;ctx.fillRect(x-r,y-r,r*2,r*2);}
+  function rnd(i,k){var v=Math.sin(i*127.1+k*311.7)*43758.5453;return v-Math.floor(v);}
+  var g0=ctx.createLinearGradient(W*.2,0,W*.8,H);g0.addColorStop(0,c.bg);g0.addColorStop(1,dp);ctx.fillStyle=g0;ctx.fillRect(0,0,W,H);
+  ctx.save();ctx.globalCompositeOperation="screen";
+  if(st==="leak"){
+    var k1=.5+.5*Math.sin(ph),k2=.5+.5*Math.sin(ph+2.1);
+    glow(W*(.5+.18*Math.sin(ph+1)),H*(.55+.1*Math.cos(ph)),M*.5,"#8A4A9C",.35);
+    ctx.save();ctx.translate(W*(.02+.1*Math.sin(ph)),H*(.04+.08*Math.cos(ph)));ctx.rotate(-.55+.15*Math.sin(ph));ctx.scale(2,.62);glow(0,0,M*.46,c.ac,.4+.2*k1);glow(0,0,M*.24,"#FFD08A",.26+.16*k1);glow(0,0,M*.1,"#FFF1DE",.18+.12*k1);ctx.restore();
+    ctx.save();ctx.translate(W*(1-.08*Math.sin(ph+1)),H*(.66+.12*Math.sin(ph+.5)));ctx.rotate(.45+.12*Math.cos(ph));ctx.scale(1.7,.7);glow(0,0,M*.45,"#C99BDA",.2+.14*k2);glow(0,0,M*.17,c.ac2,.1+.1*k2);ctx.restore();
+    ctx.save();ctx.translate(W*(.5+.42*Math.sin(ph)),H*.5);ctx.rotate(-.95);ctx.scale(.16,2.6);glow(0,0,M*.36,"#FFD9AE",.03+.05*k1);ctx.restore();
+  } else {
+    glow(W*(.24+.12*Math.sin(ph)),H*(.3+.16*Math.cos(ph)),M*.55,"#9B5BB0",.5);
+    glow(W*(.78+.1*Math.cos(ph+1.3)),H*(.72+.12*Math.sin(2*ph+.4)),M*.5,"#7E3D90",.55);
+    glow(W*(.62+.16*Math.sin(ph+2.2)),H*(.2+.1*Math.sin(ph)),M*.34,c.ac,.08+.05*(.5+.5*Math.sin(ph)));
+    if(st==="bokeh"){
+      for(var i=0;i<26;i++){var r=34+rnd(i,2)*120,span=H+r*2,cyc=1,y=((rnd(i,3)*span-(t/D)*span*cyc)%span+span)%span-r,x=rnd(i,1)*W+26*Math.sin(ph+i),tw=.72+.28*Math.sin(ph*(1+i%3)+i),col=i%5===0?c.ac:(i%2?c.ac2:"#D7B5E3"),a=(.05+rnd(i,4)*.09)*tw;
+        var bg=ctx.createRadialGradient(x,y,0,x,y,r);bg.addColorStop(0,rgba(col,a*.8));bg.addColorStop(.82,rgba(col,a));bg.addColorStop(1,rgba(col,0));ctx.fillStyle=bg;ctx.beginPath();ctx.arc(x,y,r,0,TAU);ctx.fill();}
+    }
+  }
+  ctx.restore();
+  var v=ctx.createRadialGradient(W/2,H/2,Math.min(W,H)*.32,W/2,H/2,M*.72);v.addColorStop(0,rgba(dp,0));v.addColorStop(1,rgba(dp,.6));ctx.fillStyle=v;ctx.fillRect(0,0,W,H);
+}
 var T={kinetic_quote:{fn:kinetic_quote,mode:"overlay",name:"Kinetic quote"},stat_counter:{fn:stat_counter,mode:"overlay",name:"Number pop"},word_stack:{fn:word_stack,mode:"overlay",name:"Word stack"},highlight_callout:{fn:highlight_callout,mode:"overlay",name:"Highlighter"},corner_frame:{fn:corner_frame,mode:"overlay",name:"Focus frame"},brand_wipe:{fn:brand_wipe,mode:"overlay",name:"Brand wipe transition"},tag_label:{fn:tag_label,mode:"overlay",name:"Topic tag"},
-  statement_card:{fn:statement_card,mode:"full",name:"Statement card"},number_card:{fn:number_card,mode:"full",name:"Number card"},quote_card:{fn:quote_card,mode:"full",name:"Quote card"},list_card:{fn:list_card,mode:"full",name:"List card"},question_card:{fn:question_card,mode:"full",name:"Question card"},texture_loop:{fn:texture_loop,mode:"full",name:"Brand texture loop"},end_card:{fn:end_card,mode:"full",name:"End card"},end_card_overlay:{fn:end_card,mode:"overlay",name:"End card over footage"},caption_track:{fn:caption_track,mode:"overlay",name:"Captions"},split_panel:{fn:split_panel,mode:"overlay",name:"Split screen"},logo_sting:{fn:logo_sting,mode:"overlay",name:"Logo over footage"},name_card:{fn:name_card,mode:"overlay",name:"Name card"},cta_overlay:{fn:cta_overlay,mode:"overlay",name:"Donate card over footage"},title_over:{fn:title_over,mode:"overlay",name:"Big words over footage"}};
+  statement_card:{fn:statement_card,mode:"full",name:"Statement card"},number_card:{fn:number_card,mode:"full",name:"Number card"},quote_card:{fn:quote_card,mode:"full",name:"Quote card"},list_card:{fn:list_card,mode:"full",name:"List card"},question_card:{fn:question_card,mode:"full",name:"Question card"},texture_loop:{fn:texture_loop,mode:"full",name:"Brand texture loop"},end_card:{fn:end_card,mode:"full",name:"End card"},end_card_overlay:{fn:end_card,mode:"overlay",name:"End card over footage"},caption_track:{fn:caption_track,mode:"overlay",name:"Captions"},split_panel:{fn:split_panel,mode:"overlay",name:"Split screen"},logo_sting:{fn:logo_sting,mode:"overlay",name:"Logo over footage"},name_card:{fn:name_card,mode:"overlay",name:"Name card"},cta_overlay:{fn:cta_overlay,mode:"overlay",name:"Donate card over footage"},bg_plate:{fn:bg_plate,mode:"full",name:"Brand background loop"},title_over:{fn:title_over,mode:"overlay",name:"Big words over footage"}};
 /* dim: [w,h] for this frame (exports pass the size they started with); without it, the size set by MG.setSize */
 function draw(ctx,s,B,t,dim){use(dim);var tp=T[s.tpl];ctx.clearRect(0,0,W,H);if(!tp)return;ctx.save();ctx.textAlign="left";ctx.textBaseline="alphabetic";try{tp.fn(ctx,s,B,clamp(t,0,s.dur));}catch(e){}ctx.restore();}
 function modeOf(s){return (T[s.tpl]&&T[s.tpl].mode)||s.mode||"overlay";}
@@ -1321,7 +1347,7 @@ function mgSection(it,cl){
   var cards=ms.map(function(m){
     var mode=MG.modeOf(m),fr=mode==="overlay"?mgFrameFor(it,m):null,tn=(MG.T[m.tpl]&&MG.T[m.tpl].name)||m.tpl;
     var cut=(m.rows||[]).map(function(tc){ return '<a href="#" data-mgrow="'+esc(tc)+'">'+esc(tc)+'</a>'; }).join(", ");
-    return '<div class="mg-card" id="mg-'+m.n+'"><div class="mg-stage '+mode+(fr?'':' nofr')+'"'+(fr?' style="background-image:url('+fr+')"':'')+'>'+(m.file?'<video src="'+esc(m.file)+'" muted loop autoplay playsinline preload="metadata" aria-label="The client\'s end card"></video>':'<canvas '+cvSize()+' data-mgc="'+m.n+'" aria-label="Preview of motion graphic '+m.n+'"></canvas>')+'<span class="mg-badge'+(mode==="full"?" full":"")+'">'+(m.tpl==="end_card"||m.tpl==="end_card_overlay"?(m.file?"Client's own end card":m.tpl==="end_card_overlay"?"End card over footage":"End card"):mode==="full"?"Full-frame cutaway":"Transparent overlay")+'</span><span class="mg-dur">'+esc(m.dur)+' s</span></div>'+
+    return '<div class="mg-card" id="mg-'+m.n+'"><div class="mg-stage '+mode+(fr?'':' nofr')+'"'+(fr?' style="background-image:url('+fr+')"':'')+'>'+(m.file?'<video src="'+esc(m.file)+'" muted loop autoplay playsinline preload="metadata" aria-label="The client\'s end card"></video>':'<canvas '+cvSize()+' data-mgc="'+m.n+'" aria-label="Preview of motion graphic '+m.n+'"></canvas>')+'<span class="mg-badge'+(mode==="full"?" full":"")+'">'+(m.tpl==="end_card"||m.tpl==="end_card_overlay"?(m.file?"Client's own end card":m.tpl==="end_card_overlay"?"End card over footage":"End card"):mode==="full"?(m.tpl==="bg_plate"?"Background loop · seamless":"Full-frame cutaway"):"Transparent overlay")+'</span><span class="mg-dur">'+esc(m.dur)+' s</span></div>'+
       '<div class="mg-body"><span class="eyebrow">MG '+m.n+' · '+esc(tn)+'</span><h3>'+esc(m.title)+'</h3>'+(m.use?'<p class="note">'+esc(m.use)+'</p>':'')+
       (m.file?'<p class="note mg-ori-note" data-orinote="'+esc(m.n)+'"'+(oriLand()&&/9x16/i.test(m.file)?'':' hidden')+'>This end card file is 9:16 (vertical). The client still owes a 16:9 version: ask Nick. Do not stretch it to fill the frame.</p>':'')+
       '<p class="mg-src">Words from: '+esc(m.src||"")+'</p>'+(cut?'<p class="mg-cut note">Cut in at: '+cut+'</p>':'<p class="mg-cut note">Use anywhere it helps.</p>')+
@@ -1340,7 +1366,7 @@ function wireMG(it,cl){
   MG.ensureFonts(B); D.mg.forEach(function(m){ MG.ensureImgs(m); });
   var canv=[].slice.call(document.querySelectorAll("canvas[data-mgc]"));
   function frame(now){ raf=null; var any=false;
-    canv.forEach(function(cv){ var n=cv.getAttribute("data-mgc"); if(!vis[n]) return; any=true; var m=byN[n],ctx=cv.getContext("2d"),loop=m.dur+1.0,t=((now-t0)/1000+(+n)*.37)%loop;
+    canv.forEach(function(cv){ var n=cv.getAttribute("data-mgc"); if(!vis[n]) return; any=true; var m=byN[n],ctx=cv.getContext("2d"),loop=m.dur+(m.tpl==="bg_plate"?0:1.0),t=((now-t0)/1000+(+n)*.37)%loop;
       ctx.setTransform(1,0,0,1,0,0); ctx.clearRect(0,0,cv.width,cv.height); ctx.setTransform(cv.width/MG.W,0,0,cv.height/MG.H,0,0); MG.draw(ctx,m,B,Math.min(t,m.dur-0.001)); });
     if(any) raf=requestAnimationFrame(frame); }
   var io=("IntersectionObserver" in window)?new IntersectionObserver(function(es){ es.forEach(function(e){ vis[e.target.getAttribute("data-mgc")]=e.isIntersecting; }); if(!raf) raf=requestAnimationFrame(frame); },{rootMargin:"100px"}):null;
