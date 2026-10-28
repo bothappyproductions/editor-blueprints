@@ -1392,5 +1392,22 @@
    "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/9161ff28-69f8-40c2-881e-d03df8be8287"
   },
   "note": "Cut from the Library footage in the house style of the delivered Hayley short: hook on screen from 0:00, name super after the hook, single-line blue captions, split-screen B-roll with the speaker on top, wide and punch-in framing alternating so no cut repeats a framing, SFCG logo end card with sfcg.org. Every bite was re-timed against the audio and each in and out sits in the pause, checked by transcribing the finished cut and diffing it against the captions. Interview FX6_LVH_6399 with mids lifted in the grade; the name super sits on the standing cutaway (6400); B-roll is the cards (6375) and the EU flags (6382). One bite opens on 'But then they are young' because there is no pause between 'then' and 'they'."
+ },
+ "13338322871": {
+  "version": 1,
+  "made": "2026-10-27",
+  "tool": "Claude cutting engine (ffmpeg), with this blueprint's graphics and captions",
+  "length": "0:30.0 (900 frames at 29.97)",
+  "loudness": "-24.0 LUFS, true peak -8.4 dBTP",
+  "music": "Epidemic Sound · Unbound Spirit (Duke Herrington)",
+  "mp4": {
+   "name": "Claude test cut · NFTEComcastCTVDonationSpot001 · v1.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/f01ea519-6a66-4efb-88dd-bb0d6c130f76"
+  },
+  "xml": {
+   "name": "NFTEComcastCTVDonationSpot001_90_v1_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/70f08c9b-0d2e-437f-897e-aae35c87fb2d"
+  },
+  "note": "A 30 s test of this blueprint at Comcast spec. The ProRes 422 HQ master (NFTE_FuelOurSharedFuture_CTV30_ClaudeTestCut_v1_ProRes422HQ.mov) sits in the same Frame.io folder. The NYEC interviews are on Vimeo behind a login, so the student shots come from your V1 render, scaled 124% from the top to hide V1's burned captions and logo bug. That makes them softer than your source. The voices were lifted out of V1's mix by machine, without the old music. B-roll is from the merger video. Row 4 runs in V1's order (Jessica, Lucio, Naije'e). There is no BUILD student yet and no $42 voice line; the end card carries the ask. The QR code scans in the master on every frame from 0:03. Use this cut for timing, graphics and mix, then re-cut the picture from your source clips. The XML places every graphic and caption on the right frame; relink the files when Premiere asks."
  }
 }
