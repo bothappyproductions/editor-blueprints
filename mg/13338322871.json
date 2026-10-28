@@ -1,0 +1,234 @@
+{
+ "item": "13338322871",
+ "client": "nfte",
+ "note": "TV spot, 16:9 at 1920×1080. The QR code is drawn from its own data, black on white with a 4-module quiet zone, whole pixels per module, so it scans off a TV. It opens https://nfte.com/fueloursharedfuture/?utm_source=comcast&utm_medium=ctv (tested). The graphics export at 30 fps: in your 29.97 timeline set Interpret Footage to 29.97 so frame counts match. Everything sits inside title safe.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Scan to give (QR on screen)",
+   "tpl": "qr_bug",
+   "dur": 20.0,
+   "pos": "br",
+   "px": 315,
+   "pulse": 5,
+   "qr": {
+    "m": [
+     "1111111011101101010111001000001111111",
+     "1000001010110010000101000100101000001",
+     "1011101010110100100101000111001011101",
+     "1011101001011010110001010110101011101",
+     "1011101010111000000100000010101011101",
+     "1000001001111011000000011010001000001",
+     "1111111010101010101010101010101111111",
+     "0000000001110101011100111111100000000",
+     "1001111111000011000100001010010010111",
+     "0001100100010010101001110111000111110",
+     "0100101010101011101111010101000100001",
+     "1011110001000100111110110011010111111",
+     "1001001010000011000000010001101100001",
+     "1010010101110110101000010011100011010",
+     "0001011011101001001110100111010011111",
+     "1010000001001100000000000001111101110",
+     "1110001111101100011000110001001000100",
+     "1011110001000000010000000011110100100",
+     "0111011100110010110101110001101001001",
+     "0100110011111001100110101110100111001",
+     "1110101100100000111110010011111111000",
+     "0000000000110101011100010101010010100",
+     "1001001010111111000011110101011101001",
+     "1101110110001010001110100011000111100",
+     "1011001001011111010110001000001100011",
+     "1010010111101010011100110111100010000",
+     "1111001110111111010000101111011000011",
+     "1000000011001000100100100001101101110",
+     "1001001011101011101110111101111111101",
+     "0000000010001001010110100100100010100",
+     "1111111010110011011110011100101010001",
+     "1000001010011100100100000100100010010",
+     "1011101010011111101101111011111110010",
+     "1011101010100110010010110011111001101",
+     "1011101001101110000011110000010010001",
+     "1000001001000111010000010011011010111",
+     "1111111010000000000110011000101100001"
+    ],
+    "qz": 4,
+    "url": "https://nfte.com/fueloursharedfuture/?utm_source=comcast&utm_medium=ctv"
+   },
+   "text": {
+    "main": "SCAN TO GIVE"
+   },
+   "c": {
+    "bg": "#4C12A1",
+    "ac": "#FF5C39",
+    "onAc": "#FFFFFF"
+   },
+   "cue": "QR code lower right from 00:03.0 to 00:23.0, under a SCAN TO GIVE pill.",
+   "src": "Give link from NFTE (Alison, 26 Oct): nfte.com/fueloursharedfuture, tagged utm_source=comcast, utm_medium=ctv.",
+   "rows": [
+    "00:00–00:06.4",
+    "00:06.4–00:09.7",
+    "00:09.7–00:18.9",
+    "00:18.9–00:23.0"
+   ],
+   "use": "Put frame 0 at 00:03.0 on the top video track and let it run to 00:23.0, where the end card cuts in. 315 px code, 7 px per module. Do not scale it down. A soft orange ring pulses every 5 s; the code itself never moves."
+  },
+  {
+   "n": 2,
+   "title": "See · Solve · Create",
+   "tpl": "word_stack",
+   "dur": 3.3,
+   "pos": "bottom",
+   "text": {
+    "items": [
+     "See possibilities.",
+     "Solve problems.",
+     "Create opportunity."
+    ]
+   },
+   "upper": true,
+   "c": {
+    "bg": "#4C12A1",
+    "fg": "#FFFFFF",
+    "ac": "#FF5C39",
+    "onAc": "#FFFFFF"
+   },
+   "cue": "SEE POSSIBILITIES. → SOLVE PROBLEMS. → CREATE OPPORTUNITY., one line per cut.",
+   "src": "NFTE’s draft script, line 1 (Alison, 21 Oct): “who see possibilities, solve problems, create opportunity”.",
+   "rows": [
+    "00:06.4–00:09.7"
+   ],
+   "use": "Frame 0 at 00:06.4 over the three B-roll cuts, in the lower part of the frame so it stays off faces. Each line lands on a cut.",
+   "size": 100
+  },
+  {
+   "n": 3,
+   "title": "NFTE + BUILD students",
+   "tpl": "tag_label",
+   "dur": 3.0,
+   "text": {
+    "main": "NFTE + BUILD students"
+   },
+   "c": {
+    "bg": "#4C12A1",
+    "fg": "#FFFFFF",
+    "ac": "#FF5C39"
+   },
+   "cue": "Tag lower left, 00:10.0–00:13.0: NFTE + BUILD students.",
+   "src": "NFTE and BUILD share this campaign (20 Oct call). Words are ours, a plain label.",
+   "rows": [
+    "00:09.7–00:18.9"
+   ],
+   "use": "Frame 0 at 00:10.0. Lower left, above the captions. Out by 00:13.0."
+  },
+  {
+   "n": 4,
+   "title": "End card · Scan to give $42 a month",
+   "tpl": "end_card",
+   "dur": 7.0,
+   "qr": {
+    "m": [
+     "1111111011101101010111001000001111111",
+     "1000001010110010000101000100101000001",
+     "1011101010110100100101000111001011101",
+     "1011101001011010110001010110101011101",
+     "1011101010111000000100000010101011101",
+     "1000001001111011000000011010001000001",
+     "1111111010101010101010101010101111111",
+     "0000000001110101011100111111100000000",
+     "1001111111000011000100001010010010111",
+     "0001100100010010101001110111000111110",
+     "0100101010101011101111010101000100001",
+     "1011110001000100111110110011010111111",
+     "1001001010000011000000010001101100001",
+     "1010010101110110101000010011100011010",
+     "0001011011101001001110100111010011111",
+     "1010000001001100000000000001111101110",
+     "1110001111101100011000110001001000100",
+     "1011110001000000010000000011110100100",
+     "0111011100110010110101110001101001001",
+     "0100110011111001100110101110100111001",
+     "1110101100100000111110010011111111000",
+     "0000000000110101011100010101010010100",
+     "1001001010111111000011110101011101001",
+     "1101110110001010001110100011000111100",
+     "1011001001011111010110001000001100011",
+     "1010010111101010011100110111100010000",
+     "1111001110111111010000101111011000011",
+     "1000000011001000100100100001101101110",
+     "1001001011101011101110111101111111101",
+     "0000000010001001010110100100100010100",
+     "1111111010110011011110011100101010001",
+     "1000001010011100100100000100100010010",
+     "1011101010011111101101111011111110010",
+     "1011101010100110010010110011111001101",
+     "1011101001101110000011110000010010001",
+     "1000001001000111010000010011011010111",
+     "1111111010000000000110011000101100001"
+    ],
+    "qz": 4,
+    "url": "https://nfte.com/fueloursharedfuture/?utm_source=comcast&utm_medium=ctv"
+   },
+   "qr_px": 405,
+   "logos": [
+    {
+     "src": "endcards/nfte/nfte-logo-white.svg"
+    },
+    {
+     "src": "endcards/nfte/build-logo-white.svg",
+     "h": 1.35
+    }
+   ],
+   "text": {
+    "head": "FUEL OUR SHARED FUTURE",
+    "lines": [
+     "$42 a month supports a student for a year.",
+     "nfte.com/fueloursharedfuture"
+    ],
+    "qr_label": "SCAN TO GIVE",
+    "legal": "Paid for by Network for Teaching Entrepreneurship (NFTE)"
+   },
+   "upper": false,
+   "size": 130,
+   "c": {
+    "bg": "#4C12A1",
+    "fg": "#FFFFFF",
+    "ac": "#FF5C39",
+    "ac2": "#49B6E3",
+    "onAc": "#FFFFFF"
+   },
+   "cue": "End card 00:23.0–00:30.0: FUEL OUR SHARED FUTURE, $42 a month supports a student for a year, nfte.com/fueloursharedfuture, NFTE | BUILD logos, Paid for by NFTE, big QR code under SCAN TO GIVE.",
+   "src": "NFTE: campaign name and give link (fueloursharedfuture page), $42 a month (Alison, 26 Oct), “$500 supports a student for a year (about $42 per month)” (nfte.com). Logos: NFTE brand kit + Alison’s BUILD logo, in white.",
+   "rows": [
+    "00:23.0–00:30.0"
+   ],
+   "use": "Cut in at 00:23.0 (frame 690) and hold to the last frame (899). 405 px code, 9 px per module. Exports as an MP4 cutaway at 7.0 s."
+  }
+ ],
+ "extras": [
+  {
+   "file": "assets/13338322871/NFTE_FuelOurSharedFuture_QR_comcast-ctv.svg",
+   "title": "QR code, vector (SVG)",
+   "use": "Black on white, 4-module quiet zone. Scale it to any size."
+  },
+  {
+   "file": "assets/13338322871/NFTE_FuelOurSharedFuture_QR_comcast-ctv_405px.png",
+   "title": "QR code, 405 px PNG",
+   "use": "Same code as the end card, 9 px per module. Never resize it to a size that is not a whole multiple of 45 px."
+  },
+  {
+   "file": "assets/13338322871/NFTE_FuelOurSharedFuture_QR_comcast-ctv_1170px.png",
+   "title": "QR code, 1170 px PNG",
+   "use": "For print or a bigger use (26 px per module)."
+  },
+  {
+   "file": "assets/13338322871/NFTE-logo-white.svg",
+   "title": "NFTE logo, white (SVG)",
+   "use": "From the NFTE brand kit."
+  },
+  {
+   "file": "assets/13338322871/BUILD-logo-white.svg",
+   "title": "BUILD logo, white text (SVG)",
+   "use": "Alison’s BUILD logo with the wordmark in white for the purple card."
+  }
+ ]
+}

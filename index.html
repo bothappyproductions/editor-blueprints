@@ -495,7 +495,7 @@ function texture_loop(ctx,s,B,t){
 /* ---------- end card (Atdhe 2026-10-22): the client's latest logo + the script's lines. A client's own end card video uses `file` instead and is downloaded as-is. ---------- */
 var imgs={};
 function img(url){if(!url)return null;var o=imgs[url];if(!o){o=imgs[url]={el:new Image(),ok:false};o.p=new Promise(function(res){o.el.onload=function(){o.ok=true;res();};o.el.onerror=function(){res();};});o.el.src=url;}return o;}
-function ensureImgs(s){var o=img(s&&s.logo);return o?o.p:Promise.resolve();}
+function ensureImgs(s){var ps=[];[s&&s.logo].concat(((s&&s.logos)||[]).map(function(l){return l&&l.src;})).forEach(function(u){var o=img(u);if(o)ps.push(o.p);});return ps.length?Promise.all(ps):Promise.resolve();}
 /* 16:9 end card: logo (or name) and the lines as one group, centred in the frame */
 function end_card16(ctx,s,B,t){
   var c=C(s,B),tx=s.text||{},lines=tx.lines||[],o=img(s.logo),p=eOut(seg(t,.05,.7)),k1=.92+.08*eBack(seg(t,.05,.65));
@@ -512,6 +512,7 @@ function end_card16(ctx,s,B,t){
     y+=f.lines.length*f.lh;});
 }
 function end_card(ctx,s,B,t){
+  if(s.qr&&s.qr.m)return end_card_qr(ctx,s,B,t);
   if(LAND)return end_card16(ctx,s,B,t);
   var c=C(s,B),tx=s.text||{},lines=tx.lines||[],o=img(s.logo),y=lines.length?H*.42:H*.5,p=eOut(seg(t,.05,.7)),k1=.92+.08*eBack(seg(t,.05,.65));
   var ov=s.tpl==="end_card_overlay";if(!ov){ctx.fillStyle=c.bg;ctx.fillRect(0,0,W,H);}else{c.fg=(s.c&&s.c.fg)||"#FFFFFF";shadow(ctx,true);}ctx.textAlign="center";ctx.textBaseline="middle";
@@ -536,11 +537,12 @@ function caption_track(ctx,s,B,t){
   function font(sz){var f=st.font;if(f&&typeof f==="object")return (f.w||700)+" "+Math.round(sz)+"px "+f.css;return F(B,f==="body"?"body":"head",sz);}
   var sz=size,L=[];
   for(var pass=0;pass<2;pass++){ctx.font=font(sz);var gap=ctx.measureText(" ").width,widest=0;L=pg.lines.map(function(r){var ws=[],tot=0;for(var k=r[0];k<=r[1];k++){var tx=up(Wd[k].w,s),mw=ctx.measureText(tx).width;ws.push({w:Wd[k],tx:tx,mw:mw});tot+=mw;}tot+=gap*(ws.length-1);widest=Math.max(widest,tot);return {ws:ws,tot:tot};});
-    if(widest<=LS(940,W*.7))break;sz=Math.floor(sz*LS(940,W*.7)/widest);}
+    if(widest<=LS(940,W*(st.maxw||.7)))break;sz=Math.floor(sz*LS(940,W*(st.maxw||.7))/widest);}
   var lh=sz*(bx?1.42:1.22),y0=st.anchor==="top"?(st.y||1300):(st.y||1380)-((L.length-1)*lh)/2,out=eInOut(seg(t,pg.t1-.08,pg.t1)),pin=word?1:eOut(seg(t,pg.t0,pg.t0+.16));
   if(LAND)y0=H*.82-((st.anchor==="top"?Math.max(1,st.max_lines||2):L.length)-1)*lh/2;
   ctx.save();ctx.textBaseline="middle";ctx.textAlign="left";ctx.font=font(sz);var gp=ctx.measureText(" ").width;
-  L.forEach(function(ln,li){var y=y0+li*lh,x=W/2-ln.tot/2,first=ln.ws[0].w.t0;
+  var cxx=LAND&&st.cx?W*st.cx:W/2;
+  L.forEach(function(ln,li){var y=y0+li*lh,x=cxx-ln.tot/2,first=ln.ws[0].w.t0;
     if(bx){var px=bx.px!=null?bx.px:sz*.35,py=bx.py!=null?bx.py:sz*.16,bh=sz*1.12+py*2,r=bx.r!=null?bx.r:(bx.pill?bh/2:sz*.18),pb=word?eOut(seg(t,first-.04,first+.12)):pin;
       if(pb>0){ctx.globalAlpha=(1-out)*pb;shadow(ctx,false);rr(ctx,x-px,y-bh/2,ln.tot+px*2,bh,r);ctx.fillStyle=bx.bg;ctx.fill();
         if(bx.accent){ctx.fillStyle=bx.accent;rr(ctx,x-px,y-bh/2,Math.max(8,sz*.12),bh,Math.min(r,4));ctx.fill();}}}
@@ -604,8 +606,63 @@ function map_locator(ctx,s,B,t){
     ctx.textBaseline="middle";ctx.fillStyle=c.fg;ctx.fillText(up(tx.main,s),lx,ly-(tx.sub?s2*.55:0)+(1-lp)*14);if(tx.sub){ctx.font=F(B,"body",s2);ctx.fillStyle=c.ac;ctx.fillText(up(tx.sub,s),lx,ly+s1*.62+(1-lp)*14);}}
   ctx.restore();
 }
+/* ---------- QR code (2026-10-27, first used on the NFTE Comcast CTV spot): drawn from its module matrix (qr.m = ["0101..",..], dark = "1"),
+   whole pixels per module, dark modules on a white panel with a 4-module quiet zone, so it stays sharp and scannable at any size ---------- */
+function qrDraw(ctx,q,x,y,px,dark){var m=q.m||[];ctx.fillStyle=dark||"#000000";for(var r=0;r<m.length;r++){var row=m[r];for(var c=0;c<row.length;c++){if(row.charCodeAt(c)===49)ctx.fillRect(x+c*px,y+r*px,px,px);}}}
+function qrPanel(ctx,q,cx,cy,side,px,qz,k,alpha){var x=Math.round(cx-side/2),y=Math.round(cy-side/2);ctx.save();ctx.globalAlpha=alpha;ctx.translate(cx,cy);ctx.scale(k,k);ctx.translate(-cx,-cy);
+  shadow(ctx,true);rr(ctx,x-px,y-px,side+2*px,side+2*px,Math.max(10,px*2));ctx.fillStyle="#FFFFFF";ctx.fill();shadow(ctx,false);ctx.fillRect(x,y,side,side);qrDraw(ctx,q,x+qz*px,y+qz*px,px,q.dark);ctx.restore();}
+/* qr_bug: the code that stays on screen through the spot. pos "br" (default) | "bl" | "tr" | "tl", inside title safe. px = target panel size.
+   text.main = the line on the pill above the code ("Scan to give"). A soft ring every `pulse` s draws the eye without moving the code. */
+function qr_bug(ctx,s,B,t){
+  var c=C(s,B),q=s.qr||{},n=(q.m||[]).length;if(!n)return;
+  var qz=q.qz!=null?q.qz:4,u=n+2*qz,px=Math.max(2,Math.floor((s.px||LS(315,300))/u)),side=px*u,D=s.dur,pos=s.pos||"br";
+  var mx=LAND?96:72,my=LAND?54:110,label=up((s.text&&s.text.main)||"Scan to give",s);
+  ctx.save();ctx.font=F(B,"head",LS(40,38));var lw=Math.ceil(ctx.measureText(label).width+LS(52,48)),lh=LS(66,62),gap=LS(14,12);
+  var pw=Math.max(side+2*px,lw),left=pos.charAt(1)==="l"?mx:W-mx-pw,top=pos.charAt(0)==="t"?my:H-my-(lh+gap+side+2*px);
+  var cx=Math.round(left+pw/2),cy=Math.round(top+lh+gap+px+side/2);
+  var o=s.hold_end?0:outro(t,D,.3),pin=seg(t,0,.5),k=pin>=1?1:.82+.18*eBack(pin),al=(1-o)*clamp(pin*2.2,0,1);
+  var pe=s.pulse||5;if(t>1.2&&o===0){var ph=((t-1.2)%pe)/1.1;if(ph<1){ctx.save();ctx.globalAlpha=.55*(1-ph);ctx.strokeStyle=c.ac;ctx.lineWidth=LS(6,6);var g=8+ph*LS(34,30);rr(ctx,cx-side/2-px-g,cy-side/2-px-g,side+2*px+2*g,side+2*px+2*g,Math.max(10,px*2)+g);ctx.stroke();ctx.restore();}}
+  qrPanel(ctx,q,cx,cy,side,px,qz,k,al);
+  var pl=eOut(seg(t,.2,.55));if(pl>0){ctx.save();ctx.globalAlpha=(1-o)*pl;var lx=Math.round(cx-lw/2),ly=Math.round(top+(1-pl)*14);shadow(ctx,true);rr(ctx,lx,ly,lw,lh,lh/2);ctx.fillStyle=c.ac;ctx.fill();shadow(ctx,false);
+    ctx.fillStyle=c.onAc;ctx.textAlign="center";ctx.textBaseline="middle";ctx.font=F(B,"head",LS(40,38));ctx.fillText(label,cx,ly+lh/2+2);ctx.restore();}
+  ctx.restore();
+}
+/* end card with a QR code (used when the end card spec has qr): 16:9 = headline, ask, URL and logos on the left, the big code on the right;
+   9:16 = stacked. The code is fully on from frame 0 (no pop), so a viewer already scanning the corner code never loses it. */
+function logoRow(ctx,s,x,y,h,al,center){var L=(s.logos||[]).map(function(l){var o=img(l.src);if(!o||!o.ok)return null;var iw=o.el.naturalWidth||1,ih=o.el.naturalHeight||1,hh=h*(l.h||1);return {el:o.el,w:iw*hh/ih,h:hh};}).filter(Boolean);if(!L.length)return 0;
+  var gap=h*.55,tot=L.reduce(function(a,b){return a+b.w;},0)+gap*(L.length-1),xx=center?x-tot/2:x;ctx.save();ctx.globalAlpha=al;
+  L.forEach(function(l,i){if(i){ctx.fillStyle="rgba(255,255,255,.55)";ctx.fillRect(Math.round(xx-gap/2-1),y+h*.12,2,h*.76);}ctx.drawImage(l.el,xx,y+(h-l.h)/2,l.w,l.h);xx+=l.w+gap;});ctx.restore();return tot;}
+function end_card_qr(ctx,s,B,t){
+  var c=C(s,B),tx=s.text||{},q=s.qr,n=q.m.length,qz=q.qz!=null?q.qz:4,u=n+2*qz,D=s.dur;
+  ctx.fillStyle=c.bg;ctx.fillRect(0,0,W,H);if(s.style!=="none"){var ph=t/D*Math.PI*2;ctx.save();ctx.globalAlpha=.16;ctx.fillStyle=c.ac;ctx.beginPath();ctx.arc(W*.86+30*Math.sin(ph),H*.12+24*Math.cos(ph),LS(420,360),0,Math.PI*2);ctx.fill();ctx.globalAlpha=.10;ctx.fillStyle=c.ac2;ctx.beginPath();ctx.arc(W*.06+40*Math.cos(ph),H*.95+30*Math.sin(ph),LS(480,420),0,Math.PI*2);ctx.fill();ctx.restore();}
+  ctx.textBaseline="middle";
+  var lab=up(tx.qr_label||"Scan to give",s),lines=tx.lines||[],legal=tx.legal||"";
+  if(LAND){
+    var px=Math.max(2,Math.floor((s.qr_px||405)/u)),side=px*u,qcx=Math.round(W-150-side/2-px),qcy=Math.round(H/2+40);
+    qrPanel(ctx,q,qcx,qcy,side,px,qz,1,1);
+    ctx.font=F(B,"head",44);var lw=Math.ceil(ctx.measureText(lab).width+56),lh=72,ly=Math.round(qcy-side/2-px-lh-22);var pl=eOut(seg(t,.1,.45));
+    ctx.save();ctx.globalAlpha=pl;rr(ctx,qcx-lw/2,ly+(1-pl)*12,lw,lh,lh/2);ctx.fillStyle=c.ac;ctx.fill();ctx.fillStyle=c.onAc;ctx.textAlign="center";ctx.fillText(lab,qcx,ly+lh/2+2+(1-pl)*12);ctx.restore();
+    var x0=150,cw=qcx-side/2-px-x0-110;ctx.textAlign="left";
+    var f=fitB(ctx,B,"head",up(tx.head||"",s),cw,2,SZ(s.size||118),56),hlh=f.size*1.08,y=170+f.size*.55;
+    f.lines.forEach(function(l,i){var p=eOut(seg(t,.15+i*.14,.7+i*.14));if(p<=0)return;var yy=y+i*hlh;ctx.save();ctx.font=F(B,"head",f.size);ctx.beginPath();ctx.rect(0,yy-hlh*.62,W,hlh*1.12);ctx.clip();ctx.fillStyle=c.fg;ctx.fillText(l,x0,yy+(1-p)*hlh*.9);ctx.restore();});
+    y+=(f.lines.length-1)*hlh+f.size*.62+26;var pb=eOut(seg(t,.55,.95));ctx.fillStyle=c.ac;ctx.fillRect(x0,y,140*pb,10);y+=60;
+    lines.forEach(function(l,i){var kind=i===0?"head":"body",g=fitB(ctx,B,kind,up(l,s),cw,2,i===0?60:50,34),q2=eOut(seg(t,.75+i*.25,1.2+i*.25));
+      ctx.save();ctx.globalAlpha=q2;ctx.font=F(B,kind,g.size);ctx.fillStyle=i===0?c.fg:c.ac;g.lines.forEach(function(ln,j){ctx.fillText(ln,x0,y+g.size*.6+j*g.size*1.22+(1-q2)*20);});ctx.restore();y+=g.lines.length*g.size*1.22+22;});
+    logoRow(ctx,s,x0,H-54-190,100,eOut(seg(t,1.0,1.4)),false);
+    if(legal){ctx.save();ctx.globalAlpha=.85*eOut(seg(t,1.1,1.5));ctx.font=F(B,"body",30);ctx.fillStyle=c.fg;ctx.textAlign="left";ctx.fillText(legal,x0,H-54-22);ctx.restore();}
+  }else{
+    var px2=Math.max(2,Math.floor((s.qr_px||560)/u)),side2=px2*u,cy2=Math.round(H*.53);
+    var f2=fit(ctx,B,"head",up(tx.head||"",s),900,3,s.size||104,56),lh2=f2.size*1.1;ctx.textAlign="center";
+    f2.lines.forEach(function(l,i){var p=eOut(seg(t,.15+i*.14,.7+i*.14));ctx.save();ctx.globalAlpha=p;ctx.font=F(B,"head",f2.size);ctx.fillStyle=c.fg;ctx.fillText(l,W/2,250+i*lh2+(1-p)*24);ctx.restore();});
+    ctx.font=F(B,"head",46);var lw2=Math.ceil(ctx.measureText(lab).width+60),lh3=78,ly2=Math.round(cy2-side2/2-px2-lh3-26);rr(ctx,W/2-lw2/2,ly2,lw2,lh3,lh3/2);ctx.fillStyle=c.ac;ctx.fill();ctx.fillStyle=c.onAc;ctx.fillText(lab,W/2,ly2+lh3/2+2);
+    qrPanel(ctx,q,W/2,cy2,side2,px2,qz,1,1);var y2=cy2+side2/2+px2+90;
+    lines.forEach(function(l,i){var kind=i===0?"head":"body",g=fit(ctx,B,kind,up(l,s),900,2,i===0?56:46,32),q3=eOut(seg(t,.75+i*.25,1.2+i*.25));ctx.save();ctx.globalAlpha=q3;ctx.font=F(B,kind,g.size);ctx.fillStyle=i===0?c.fg:c.ac;g.lines.forEach(function(ln,j){ctx.fillText(ln,W/2,y2+j*g.size*1.22);});ctx.restore();y2+=g.lines.length*g.size*1.22+24;});
+    logoRow(ctx,s,W/2,H-330,96,eOut(seg(t,1.0,1.4)),true);
+    if(legal){ctx.save();ctx.globalAlpha=.85*eOut(seg(t,1.1,1.5));ctx.font=F(B,"body",30);ctx.fillStyle=c.fg;ctx.fillText(legal,W/2,H-170);ctx.restore();}
+  }
+}
 var T={kinetic_quote:{fn:kinetic_quote,mode:"overlay",name:"Kinetic quote"},stat_counter:{fn:stat_counter,mode:"overlay",name:"Number pop"},word_stack:{fn:word_stack,mode:"overlay",name:"Word stack"},highlight_callout:{fn:highlight_callout,mode:"overlay",name:"Highlighter"},corner_frame:{fn:corner_frame,mode:"overlay",name:"Focus frame"},brand_wipe:{fn:brand_wipe,mode:"overlay",name:"Brand wipe transition"},tag_label:{fn:tag_label,mode:"overlay",name:"Topic tag"},
-  statement_card:{fn:statement_card,mode:"full",name:"Statement card"},number_card:{fn:number_card,mode:"full",name:"Number card"},quote_card:{fn:quote_card,mode:"full",name:"Quote card"},list_card:{fn:list_card,mode:"full",name:"List card"},question_card:{fn:question_card,mode:"full",name:"Question card"},texture_loop:{fn:texture_loop,mode:"full",name:"Brand texture loop"},end_card:{fn:end_card,mode:"full",name:"End card"},end_card_overlay:{fn:end_card,mode:"overlay",name:"End card over footage"},caption_track:{fn:caption_track,mode:"overlay",name:"Captions"},
+  statement_card:{fn:statement_card,mode:"full",name:"Statement card"},number_card:{fn:number_card,mode:"full",name:"Number card"},quote_card:{fn:quote_card,mode:"full",name:"Quote card"},list_card:{fn:list_card,mode:"full",name:"List card"},question_card:{fn:question_card,mode:"full",name:"Question card"},texture_loop:{fn:texture_loop,mode:"full",name:"Brand texture loop"},end_card:{fn:end_card,mode:"full",name:"End card"},end_card_overlay:{fn:end_card,mode:"overlay",name:"End card over footage"},caption_track:{fn:caption_track,mode:"overlay",name:"Captions"},qr_bug:{fn:qr_bug,mode:"overlay",name:"QR code (on screen)"},
   chapter_card:{fn:chapter_card,mode:"full",name:"Chapter card"},place_super:{fn:place_super,mode:"overlay",name:"Place super"},name_super:{fn:name_super,mode:"overlay",name:"Name super"},map_locator:{fn:map_locator,mode:"full",name:"Map locator"}};
 /* dim: [w,h] for this frame (exports pass the size they started with); without it, the size set by MG.setSize */
 function draw(ctx,s,B,t,dim){use(dim);var tp=T[s.tpl];ctx.clearRect(0,0,W,H);if(!tp)return;ctx.save();ctx.textAlign="left";ctx.textBaseline="alphabetic";try{tp.fn(ctx,s,B,clamp(t,0,s.dur));}catch(e){}ctx.restore();}
@@ -1065,6 +1122,7 @@ async function downloadAll(kind,b){
   var it=CUR_IT; if(!it) return;
   var wrap=b.closest("[data-dlwrap]"),st=wrap.querySelector(".dl-st"),pg=wrap.querySelector(".mg-prog"),bar=pg.firstChild,label=st.textContent;
   var key=String(it.edit_key||it.id).replace(/[^A-Za-z0-9]/g,""),pad=function(n){return String(n).padStart(2,"0");},jobs=[],dim=oriDim(),land=dim[0]>dim[1];
+  if((kind==="all"||kind==="mg")&&CUR_MG&&CUR_MG.d.extras) CUR_MG.d.extras.forEach(function(x,i){ jobs.push({sec:"4 QR code and extras",m:{file:x.file,title:x.title,use:x.use,n:i+1},B:CUR_MG.b}); });
   if((kind==="all"||kind==="mg")&&CUR_MG) CUR_MG.d.mg.forEach(function(m){ var end=m.tpl==="end_card"||m.tpl==="end_card_overlay"; jobs.push({sec:end?"2 End card":"1 Motion graphics",m:m,B:CUR_MG.b,base:key+"_MG"+pad(m.n)+"_"+mgSlug(m.title)}); });
   if((kind==="all"||kind==="cap")&&CUR_CAP){ var D=CUR_CAP.d; D.tracks.forEach(function(m){ m.style=m.style||D.style; m.tpl="caption_track"; jobs.push({sec:"3 Captions",m:m,B:CUR_CAP.b,base:key+"_CAP"+pad(m.n)+"_"+mgSlug(m.title),howto:capHowto(m)}); }); }
   if(!jobs.length){ st.textContent="Nothing to download yet."; return; }
@@ -1082,7 +1140,7 @@ async function downloadAll(kind,b){
       else { var res=await MG.exportMG(Object.assign({},j.m,{base:j.base},j.howto?{howto:j.howto}:{}),j.B,prog,dim); folder.file(res.name,res.blob); what=res.name+(res.frames?" ("+res.frames+" frames)":""); }
       if(j.sec!==last){ rd.push("\n"+j.sec.replace(/^\d /,"").toUpperCase()); last=j.sec; }
       var where=(j.m.rows||[]).join(", ");
-      rd.push((j.sec==="3 Captions"?"Captions "+j.m.n:j.sec==="2 End card"?"End card":"MG "+j.m.n)+": "+what+(j.m.title&&j.sec!=="2 End card"?"  ·  "+j.m.title:"")+(where?"\n   Goes at: "+where:"")+(j.m.use?"\n   "+j.m.use:"")+(j.sec==="3 Captions"?"\n   Frame 0 lines up with "+(j.m.src||"")+".":"")+(land&&j.m.file&&fileVert(j.m)?"\n   This end card file is 9:16 (vertical). The client still owes a 16:9 version: ask Nick. Do not stretch it.":""));
+      rd.push((j.sec==="3 Captions"?"Captions "+j.m.n:j.sec==="2 End card"?"End card":j.sec==="4 QR code and extras"?"File "+j.m.n:"MG "+j.m.n)+": "+what+(j.m.title&&j.sec!=="2 End card"?"  ·  "+j.m.title:"")+(where?"\n   Goes at: "+where:"")+(j.m.use?"\n   "+j.m.use:"")+(j.sec==="3 Captions"?"\n   Frame 0 lines up with "+(j.m.src||"")+".":"")+(land&&j.m.file&&fileVert(j.m)?"\n   This end card file is 9:16 (vertical). The client still owes a 16:9 version: ask Nick. Do not stretch it.":""));
       await new Promise(function(r){setTimeout(r,0);});
     }
     zip.file("READ ME.txt",rd.join("\n")+"\n");
@@ -1141,7 +1199,9 @@ function mgSection(it,cl){
   var nOv=ms.filter(function(m){return MG.modeOf(m)==="overlay";}).length;
   return '<section id="mg"><div class="wrap"><div class="sec-head"><span class="eyebrow">Motion graphics</span><h2>'+ms.length+(ms.length===1?' graphic':' graphics')+' in '+esc(cl.short||cl.name)+'\'s brand</h2>'+oriTog()+'<p>Optional. Cut to them like B-roll, only where they help the video. Transparent overlays download as .mov files (PNG codec, alpha kept): select them all in File > Import and they come in at once, on top of your footage. Full-frame cutaways download as MP4. All <span data-orisz>'+oriTxt()+'</span>, 30 fps. The black chips in the timeline show where each one fits. The end card is not optional: it is the client’s latest end card or logo, and it closes every video.</p>'+dlRow("mg","Download all motion graphics + end card (.zip)")+'</div>'+
     '<div class="mg-brand">'+(D.note?'<div class="mg-caution"><b>For this video:</b> '+esc(D.note)+'</div>':'')+(B.caution?'<div class="mg-caution"><b>Client note:</b> '+esc(B.caution)+'</div>':'')+'<div class="sws">'+sw+'</div><p class="note">'+esc(B.font_note||"")+(B.rules&&B.rules.length?' Rules: '+esc(B.rules.join(" ")):'')+'</p></div>'+
-    '<div class="mg-grid'+(oriLand()?' land':'')+'">'+cards+'</div></div></section>';
+    '<div class="mg-grid'+(oriLand()?' land':'')+'">'+cards+'</div>'+
+    ((D.extras&&D.extras.length)?'<div class="mg-brand"><p class="note"><b>Files (also in the zip):</b> '+D.extras.map(function(x){ return '<a href="'+esc(x.file)+'" download>'+esc(x.title||x.file.split("/").pop())+'</a>'; }).join(" · ")+'</p></div>':'')+
+    '</div></section>';
 }
 function wireMG(it,cl){
   if(!CUR_MG) return;
