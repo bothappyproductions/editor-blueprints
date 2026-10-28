@@ -8,23 +8,25 @@
  "editor": "Claire",
  "due": "2026-10-30",
  "format": "9:16 only · 1080×1920",
- "length": "about 25 s",
+ "length": "about 35 s",
  "edit_key": "WNYWSMOAuraAthleticFit001",
- "headline": "A quick photo video: AuraAthletic Fit is a woman-owned WNY business for female athletes, and it is in the What She's Made Of fashion show on Nov 5.",
+ "headline": "A short photo video carried by a voice-over: AuraAthletic Fit is a woman-owned WNY business for female athletes, and it is in the What She's Made Of fashion show on Nov 5.",
  "story": [
   "<b>Suzanne's direction:</b> <q>We weren't able to get any video of Aura Athletics but here are some pics and a description of the company with their website. Can you do a quick little video of them and just say that they'll be one of our women-owned businesses featured in our fashion show. You won't want to miss What She's Made Of at Highmark Stadium on November 5.</q>",
-  "There is no video and no voice. This is a short, music-led photo video with text cards. The text comes only from Suzanne's ask and the owner's own description (Rebekah, owner)."
+  "There is no video and no speech, so Suzanne asked for a voice-over to fill the gaps. The voice-over runs start to end over the photos. Every word of it comes from Suzanne's ask or the owner's own description (Rebekah, owner). Nothing is added."
  ],
  "feel": [
   "Sporty",
   "Bright",
   "Confident",
-  "Quick"
+  "Warm"
  ],
  "do": [
-  "Keep it short: about 25 seconds.",
+  "Keep it short: about 35 seconds.",
+  "Cut the photos to the voice-over: change the photo on the line, not in the middle of a word.",
+  "Use the voice-over script on this page word for word.",
   "Give every photo gentle motion (slow push in or pan).",
-  "Use the owner's own words for the text cards.",
+  "Burn in captions of the voice-over in the purple caption boxes.",
   "Match the Ms Eye Candy cut: ombre open and close, end card with voice-over.",
   "Put @auraathleticfit716 small on the end card."
  ],
@@ -33,7 +35,8 @@
   "Do not use the IDA cleat ad (IDA-AW24-TableTent…png) as their logo. It is another brand's ad.",
   "Do not make other brands' names (Fazit, Laki, Everything Hurts, IDA) the focus of a shot.",
   "No prices.",
-  "No second aspect ratio."
+  "No second aspect ratio.",
+  "Do not add lines or claims to the voice-over that are not on this page."
  ],
  "links": {
   "brief": {
@@ -52,10 +55,10 @@
    "note": "6 images. Suzanne's email had 9: three product photos are not in the folder yet (pieced pants bundle, tennis skirt, pickleball paddle). No Aura logo file is in the folder."
   }
  },
- "bp_intro": "There is no video. These are the owner's photos, square or vertical. All times are the timeline of the cut.",
+ "bp_intro": "There is no video. These are the owner's photos, square or vertical. A voice-over runs the whole cut. All times are the timeline of the cut and are estimates until the voice-over is cut in.",
  "rows": [
   {
-   "tc": "00:00–00:03",
+   "tc": "00:00–00:04",
    "beat": "HOOK",
    "kind": "hook",
    "frame": "a_sweatpants",
@@ -64,12 +67,16 @@
    "frame_alt": "A smiling woman in a royal blue 'Buffalo NY' sweatsuit, kicking one leg up.",
    "visual": "The Buffalo NY sweatsuit photo (buffalo-embroidered-sweatpants-3.jpg). Slow push in.",
    "motion": "Hook text on <b>frame 1</b>: <q>MADE FOR HER GAME</q>. Already on screen at 0:00. It does not animate on. Series ombre on the open. No logo.",
-   "voice": "Music only.",
+   "voice": {
+    "who": "VO (temp voice for V1)",
+    "quote": "Made for her body, her game, and her confidence.",
+    "src": "Owner's description"
+   },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Upbeat, sporty music starts on frame 1."
+   "music": "Upbeat, sporty music starts on frame 1, under the voice."
   },
   {
-   "tc": "00:03–00:08",
+   "tc": "00:04–00:10",
    "beat": "WHO THEY ARE",
    "kind": "",
    "frame": "a_baselayer",
@@ -77,41 +84,71 @@
    "frame_tag": "photo",
    "frame_alt": "A woman in a black baselayer top and leggings, stretching.",
    "visual": "Baselayer photo (Active_Intensity_Black_Crewneck_Baselayer1.jpg), then the workout kit (9-Workout…webp).",
-   "motion": "Text card: <q>AuraAthletic Fit</q> / <q>A woman-owned WNY business</q> (earliest 0:03).",
-   "voice": "Music only.",
+   "motion": "Text card: <q>AuraAthletic Fit</q> / <q>A woman-owned WNY business</q> (earliest 0:04). Captions on the voice.",
+   "voice": {
+    "who": "VO (temp voice for V1)",
+    "quote": "AuraAthletic Fit is a woman-owned Western New York business on a mission to support female athletes.",
+    "src": "Owner's description + Suzanne"
+   },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Steady."
+   "music": "Steady, under the voice."
   },
   {
-   "tc": "00:08–00:13",
-   "beat": "WHAT THEY DO",
+   "tc": "00:10–00:18",
+   "beat": "WHY SHE STARTED IT",
    "kind": "",
    "frame": "a_balm",
    "crop": "none",
    "frame_tag": "photo",
    "frame_alt": "A cork tube of muscle balm next to a towel.",
-   "visual": "Muscle balm photo (everything-hurts…jpg), then game-day stripes (blue-game-day-stripes…jpg). Gentle moves on each still, 2 to 3 seconds each.",
-   "motion": "Text card: <q>Apparel and gear made for her body, her game and her confidence</q>.",
-   "voice": "Music only.",
+   "visual": "Muscle balm photo (everything-hurts…jpg), then game-day stripes (blue-game-day-stripes…jpg). Gentle moves, 2 to 3 seconds each.",
+   "motion": "Captions on the voice.",
+   "voice": {
+    "who": "VO (temp voice for V1)",
+    "quote": "Owner Rebekah was inspired by her daughter, a multisport athlete, to make gear designed with girls and women in mind.",
+    "src": "Owner's description (her words: “Inspired by my daughter's experience as a multisport athlete, I created Aura to make it easier for girls and women to find products designed with them in mind.”)"
+   },
    "sfx": "<span class=\"none\">None.</span>",
    "music": "Steady."
   },
   {
-   "tc": "00:13–00:19",
+   "tc": "00:18–00:24",
+   "beat": "BY WOMEN, FOR WOMEN",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Any still not used yet (or the missing product photos if Nick adds them). Gentle moves.",
+   "motion": "Text card: <q>By Women · For Women</q>. Captions on the voice.",
+   "voice": {
+    "who": "VO (temp voice for V1)",
+    "quote": "Most of it is made by women, for women. From training, to game day, to everyday life.",
+    "src": "Owner's description"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Steady."
+  },
+  {
+   "tc": "00:24–00:31",
    "beat": "WSMO",
    "kind": "turn",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Back to the sweatsuit photo, or any still not used yet.",
-   "motion": "Text card: <q>Featured in our What She's Made Of fashion show</q>, then <q>You won't want to miss it · Nov 5 · Highmark Stadium</q>.",
-   "voice": "Music only.",
+   "visual": "Back to the sweatsuit photo, or the strongest still left.",
+   "motion": "Text card: <q>Featured in our What She's Made Of fashion show</q>. Captions on the voice.",
+   "voice": {
+    "who": "VO (temp voice for V1)",
+    "quote": "And AuraAthletic Fit is one of the women-owned businesses featured in our What She's Made Of fashion show.",
+    "src": "Suzanne's direction"
+   },
    "sfx": "<span class=\"none\">None.</span>",
    "music": "Lift."
   },
   {
-   "tc": "00:19–00:24",
+   "tc": "00:31–00:36",
    "beat": "END CARD",
    "kind": "end",
    "frame": null,
@@ -119,8 +156,12 @@
    "frame_tag": null,
    "frame_alt": null,
    "visual": "The same end card as the Ms Eye Candy cut. The ombre close. Add @auraathleticfit716 small on the card.",
-   "motion": "A voice-over reads the end card. This client wants a voice-over on every end card.",
-   "voice": "VO: What She's Made Of · Nov 5 · Highmark Stadium · AuraAthletic Fit, WSMO partner",
+   "motion": "The voice-over reads the end card. This client wants a voice-over on every end card.",
+   "voice": {
+    "who": "VO (temp voice for V1)",
+    "quote": "You won't want to miss What She's Made Of, at Highmark Stadium, November 5th.",
+    "src": "Suzanne's direction"
+   },
    "sfx": "<span class=\"none\">None.</span>",
    "music": "Music resolves and fades 1 s."
   }
@@ -161,7 +202,7 @@
   ],
   [
    "Music",
-   "Upbeat and sporty."
+   "Upbeat and sporty, under the voice."
   ]
  ],
  "tech": [
@@ -179,7 +220,7 @@
   ],
   [
    "Audio",
-   "Music only. End card voice-over."
+   "Voice-over from start to end, music 18–20 dB under the voice. Record a temp voice-over for V1 so the timing is real. Use the same voice as the end card voice-over in Q's WNY cuts (ask Q which one he used), so the series sounds the same."
   ],
   [
    "Loudness",
@@ -187,7 +228,7 @@
   ],
   [
    "Text",
-   "Caption-box style in the brand purple #872175. Spellings: AuraAthletic Fit, What She's Made Of, Highmark Stadium."
+   "Captions burned in for the whole voice-over, in caption boxes in the brand purple #872175. Text cards in the same style. Spellings: AuraAthletic Fit, What She's Made Of, Highmark Stadium."
   ],
   [
    "Brand",
@@ -200,13 +241,14 @@
  ],
  "checklist": [
   "Frame 1 has the hook text already on screen. No logo.",
-  "Every text card says only what Suzanne or the owner wrote.",
+  "The voice-over matches the script on this page word for word.",
+  "Captions match the voice-over and use the purple boxes.",
   "“Woman-owned WNY business” is on screen.",
   "“What She's Made Of · Nov 5 · Highmark Stadium” is on screen.",
   "The IDA cleat ad is not used as a logo.",
-  "Every still moves.",
-  "The end card has a voice-over and @auraathleticfit716.",
-  "The file is 9:16 only and about 25 s."
+  "Every still moves, and photo changes land on the voice lines.",
+  "The end card has the voice-over and @auraathleticfit716.",
+  "The file is 9:16 only and about 35 s."
  ],
  "decisions": [
   {
@@ -219,18 +261,22 @@
   },
   {
    "t": "Voice-over",
-   "b": "There is no recorded voice-over for this one. The cut is text cards and music, plus the usual end card voice-over. If Nick wants a full voice-over, someone records it first."
+   "b": "Suzanne asked for a voice-over (28 Oct). V1 uses a temp voice that matches the end card voice in the other WNY cuts. Nick confirms if the final keeps that voice or someone records it."
+  },
+  {
+   "t": "Owner's name",
+   "b": "The voice-over says “Owner Rebekah”, spelled as she signed her email. If Suzanne would rather not name her, change the line to “Aura was inspired by the owner's daughter, a multisport athlete…”."
   }
  ],
  "client_note": "<b>Why this matters:</b> Suzanne asked for a quick video because no footage exists. Keep it short and clear.",
  "ask_examples": [
+  "What does the voice-over say?",
   "Where is the Aura logo?",
-  "What text goes on the cards?",
-  "Can I use the IDA image?",
+  "Which voice do I use?",
   "How long should it be?"
  ],
  "alts": {
   "hook:0": []
  },
- "transcript": "No speech. Owner's description (Rebekah, owner, by email): AuraAthletic Fit is a woman-owned WNY business on a mission to support female athletes with apparel and accessories made for her body, her game, and her confidence, while building a community and empowering women in sports. Inspired by my daughter's experience as a multisport athlete, I created Aura to make it easier for girls and women to find products designed with them in mind. The majority of our products are made By Women For Women. From training to game day and even everyday life, Aura is here to help women look good, feel good, and play great!"
+ "transcript": "VOICE-OVER SCRIPT (V1):\n[00:00] Made for her body, her game, and her confidence.\n[00:04] AuraAthletic Fit is a woman-owned business right here in Western New York, on a mission to support female athletes.\n[00:10] Owner Rebekah was inspired by her daughter, a multisport athlete. She built Aura so girls and women can find gear designed with them in mind.\n[00:17] Most of it is made by women, for women. From training, to game day, to everyday life.\n[00:22] And AuraAthletic Fit is one of the women-owned businesses featured in our What She's Made Of fashion show.\n[00:28] You won't want to miss What She's Made Of, at Highmark Stadium, November 5th.\n\n--- SOURCE ---\nNo speech in the photos. Owner's description (Rebekah, owner, by email): AuraAthletic Fit is a woman-owned WNY business on a mission to support female athletes with apparel and accessories made for her body, her game, and her confidence, while building a community and empowering women in sports. Inspired by my daughter's experience as a multisport athlete, I created Aura to make it easier for girls and women to find products designed with them in mind. The majority of our products are made By Women For Women. From training to game day and even everyday life, Aura is here to help women look good, feel good, and play great!"
 }
