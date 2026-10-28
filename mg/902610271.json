@@ -1,0 +1,1801 @@
+{
+ "item": "902610271",
+ "client": "sfcg",
+ "format": "16x9",
+ "note": "A 16:9 film, so every graphic is horizontal. Every graphic is type-led and calm (fades, wipes, a slow push on the map). Chapter cards carry an 8-step progress bar so a viewer always knows where they are in 90 minutes. The map shows land dots only, no borders. Supers say \"Search for Common Ground\" in full, never the acronym.",
+ "mg": [
+  {
+   "tpl": "number_card",
+   "dur": 6.0,
+   "text": {
+    "number": "65",
+    "label": "armed conflicts in 2025, the most since records began in 1946",
+    "sub": "Uppsala Conflict Data Program, 2026"
+   },
+   "cue": "65 state-based conflicts in 2025, the most since 1946 (UCDP, 9 Jun 2026)",
+   "n": 1,
+   "title": "Number · 65",
+   "pos": "top",
+   "src": "Script, row 01:09–01:15",
+   "rows": [
+    "01:09–01:15"
+   ],
+   "use": "Start of the row."
+  },
+  {
+   "tpl": "chapter_card",
+   "dur": 5.0,
+   "text": {
+    "sub": "A film from Search for Common Ground",
+    "main": "Imagine if",
+    "n": 0,
+    "of": 8
+   },
+   "cue": "Title: Imagine if",
+   "n": 2,
+   "title": "Card · Imagine if",
+   "pos": "top",
+   "src": "Script, row 01:48–01:52",
+   "rows": [
+    "01:48–01:52"
+   ],
+   "use": "Start of the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Courtney",
+    "sub": ""
+   },
+   "cue": "everyone is technically related",
+   "n": 3,
+   "title": "Name · Courtney",
+   "pos": "top",
+   "src": "Script, row 01:55–02:00",
+   "rows": [
+    "01:55–02:00"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "chapter_card",
+   "dur": 4.0,
+   "text": {
+    "sub": "Chapter 1",
+    "main": "Are we related?",
+    "n": 1,
+    "of": 8
+   },
+   "cue": "after \"the same like ancestor\"",
+   "n": 4,
+   "title": "Card · Are we related?",
+   "pos": "top",
+   "src": "Script, row 02:00–02:04",
+   "rows": [
+    "02:00–02:04"
+   ],
+   "use": "Start of the row."
+  },
+  {
+   "tpl": "place_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Central Park, New York",
+    "sub": "August 2026"
+   },
+   "cue": "oh my god so it does work",
+   "n": 5,
+   "title": "Place · Central Park, New York",
+   "pos": "top",
+   "src": "Script, row 02:04–02:09",
+   "rows": [
+    "02:04–02:09"
+   ],
+   "use": "1 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Susan",
+    "sub": ""
+   },
+   "cue": "it's your algorithms",
+   "n": 6,
+   "title": "Name · Susan",
+   "pos": "top",
+   "src": "Script, row 04:21–04:27",
+   "rows": [
+    "04:21–04:27"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "place_super",
+   "dur": 3.0,
+   "text": {
+    "main": "New York",
+    "sub": "August 2025"
+   },
+   "cue": "Could you share a piece of pizza",
+   "n": 7,
+   "title": "Place · New York",
+   "pos": "top",
+   "src": "Script, row 04:49–04:54",
+   "rows": [
+    "04:49–04:54"
+   ],
+   "use": "Start of the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Kalindi Cordero",
+    "sub": "Search for Common Ground"
+   },
+   "cue": "with someone you disagree with",
+   "n": 8,
+   "title": "Name · Kalindi Cordero",
+   "pos": "top",
+   "src": "Script, row 04:49–04:54",
+   "rows": [
+    "04:49–04:54"
+   ],
+   "use": "3.5 s into the row (after the place super is gone)."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Bethany",
+    "sub": ""
+   },
+   "cue": "your core comfort people",
+   "n": 9,
+   "title": "Name · Bethany",
+   "pos": "top",
+   "src": "Script, row 05:28–05:47",
+   "rows": [
+    "05:28–05:47"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Eli",
+    "sub": ""
+   },
+   "cue": "genuine connections",
+   "n": 10,
+   "title": "Name · Eli",
+   "pos": "top",
+   "src": "Script, row 06:10–06:25",
+   "rows": [
+    "06:10–06:25"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "GV",
+    "sub": ""
+   },
+   "cue": "a part of them",
+   "n": 11,
+   "title": "Name · GV",
+   "pos": "top",
+   "src": "Script, row 06:47–06:55",
+   "rows": [
+    "06:47–06:55"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Justine",
+    "sub": ""
+   },
+   "cue": "not feel like I'm being judged",
+   "n": 12,
+   "title": "Name · Justine",
+   "pos": "top",
+   "src": "Script, row 07:24–07:32",
+   "rows": [
+    "07:24–07:32"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Alex",
+    "sub": ""
+   },
+   "cue": "Cleveland Ohio",
+   "n": 13,
+   "title": "Name · Alex",
+   "pos": "top",
+   "src": "Script, row 08:16–08:25",
+   "rows": [
+    "08:16–08:25"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Gina",
+    "sub": "Special EU Programmes Body, Northern Ireland"
+   },
+   "cue": "programme running",
+   "n": 14,
+   "title": "Name · Gina",
+   "pos": "top",
+   "src": "Script, row 10:51–11:00",
+   "rows": [
+    "10:51–11:00"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "chapter_card",
+   "dur": 4.0,
+   "text": {
+    "sub": "Chapter 2",
+    "main": "Before the peace",
+    "line": "Northern Ireland · Cyprus",
+    "n": 2,
+    "of": 8
+   },
+   "cue": "after \"actually had peace\"",
+   "n": 15,
+   "title": "Card · Before the peace",
+   "pos": "top",
+   "src": "Script, row 11:00–11:04",
+   "rows": [
+    "11:00–11:04"
+   ],
+   "use": "row start."
+  },
+  {
+   "tpl": "map_locator",
+   "dur": 5.0,
+   "text": {
+    "main": "Brussels",
+    "sub": "Belgium",
+    "lat": 50.85,
+    "lon": 4.35,
+    "zoom": 2,
+    "from": [
+     40.71,
+     -74.01
+    ]
+   },
+   "cue": "no voice",
+   "n": 16,
+   "title": "Map · Brussels",
+   "pos": "top",
+   "src": "Script, row 11:04–11:09",
+   "rows": [
+    "11:04–11:09"
+   ],
+   "use": "row start."
+  },
+  {
+   "tpl": "place_super",
+   "dur": 3.5,
+   "text": {
+    "main": "Brussels, Belgium",
+    "sub": "September 2026"
+   },
+   "cue": "we are a body",
+   "n": 17,
+   "title": "Place · Brussels, Belgium",
+   "pos": "top",
+   "src": "Script, row 11:09–11:21",
+   "rows": [
+    "11:09–11:21"
+   ],
+   "use": "0.3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Paddy",
+    "sub": "International Fund for Ireland"
+   },
+   "cue": "a politician in Ireland",
+   "n": 18,
+   "title": "Name · Paddy",
+   "pos": "top",
+   "src": "Script, row 12:00–12:10",
+   "rows": [
+    "12:00–12:10"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Christos",
+    "sub": "Technical Committee on Youth, Cyprus"
+   },
+   "cue": "young individuals",
+   "n": 19,
+   "title": "Name · Christos",
+   "pos": "top",
+   "src": "Script, row 15:46–15:57",
+   "rows": [
+    "15:46–15:57"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Hayley",
+    "sub": "Human rights lawyer, South Africa"
+   },
+   "cue": "turn the page of history",
+   "n": 20,
+   "title": "Name · Hayley",
+   "pos": "top",
+   "src": "Script, row 20:24–20:34",
+   "rows": [
+    "20:24–20:34"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "chapter_card",
+   "dur": 4.0,
+   "text": {
+    "sub": "Chapter 3",
+    "main": "Read the page",
+    "line": "South Africa · the Middle East",
+    "n": 3,
+    "of": 8
+   },
+   "cue": "after \"needed to be read\"",
+   "n": 21,
+   "title": "Card · Read the page",
+   "pos": "top",
+   "src": "Script, row 20:34–20:38",
+   "rows": [
+    "20:34–20:38"
+   ],
+   "use": "row start."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Youssef",
+    "sub": "Retired diplomat"
+   },
+   "cue": "the Middle East",
+   "n": 22,
+   "title": "Name · Youssef",
+   "pos": "top",
+   "src": "Script, row 21:55–22:05",
+   "rows": [
+    "21:55–22:05"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Aida",
+    "sub": "Iranian-French activist"
+   },
+   "cue": "activist",
+   "n": 23,
+   "title": "Name · Aida",
+   "pos": "top",
+   "src": "Script, row 24:27–24:33",
+   "rows": [
+    "24:27–24:33"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Nadav"
+   },
+   "cue": "other conflicts",
+   "n": 24,
+   "title": "Name · Nadav",
+   "pos": "top",
+   "src": "Script, row 25:49–26:05",
+   "rows": [
+    "25:49–26:05"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "chapter_card",
+   "dur": 4.0,
+   "text": {
+    "sub": "Chapter 4",
+    "main": "Pain is pain",
+    "line": "Afghanistan · Israel and Palestine",
+    "n": 4,
+    "of": 8
+   },
+   "cue": "after \"affected by the pain\"",
+   "n": 25,
+   "title": "Card · Pain is pain",
+   "pos": "top",
+   "src": "Script, row 29:11–29:15",
+   "rows": [
+    "29:11–29:15"
+   ],
+   "use": "row start."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Ahmad",
+    "sub": "NGO director, Afghanistan"
+   },
+   "cue": "your head has pain",
+   "n": 26,
+   "title": "Name · Ahmad",
+   "pos": "top",
+   "src": "Script, row 29:15–29:27",
+   "rows": [
+    "29:15–29:27"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Laila",
+    "sub": "Parents Circle – Families Forum"
+   },
+   "cue": "I joined the forum",
+   "n": 27,
+   "title": "Name · Laila",
+   "pos": "top",
+   "src": "Script, row 30:27–30:43",
+   "rows": [
+    "30:27–30:43"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Ayelet",
+    "sub": "Israeli co-CEO, Parents Circle – Families Forum"
+   },
+   "cue": "850 Palestinian-Israeli members",
+   "n": 28,
+   "title": "Name · Ayelet",
+   "pos": "top",
+   "src": "Script, row 31:10–31:32",
+   "rows": [
+    "31:10–31:32"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "map_locator",
+   "dur": 5.0,
+   "text": {
+    "main": "Doha",
+    "sub": "Qatar",
+    "lat": 25.29,
+    "lon": 51.53,
+    "zoom": 2,
+    "from": [
+     50.85,
+     4.35
+    ]
+   },
+   "cue": "no voice",
+   "n": 29,
+   "title": "Map · Doha",
+   "pos": "top",
+   "src": "Script, row 35:10–35:15",
+   "rows": [
+    "35:10–35:15"
+   ],
+   "use": "row start."
+  },
+  {
+   "tpl": "place_super",
+   "dur": 3.0,
+   "text": {
+    "main": "Doha, Qatar",
+    "sub": "February 2026"
+   },
+   "cue": "I look at history",
+   "n": 30,
+   "title": "Place · Doha, Qatar",
+   "pos": "top",
+   "src": "Script, row 35:15–35:45",
+   "rows": [
+    "35:15–35:45"
+   ],
+   "use": "0.3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Maya Savir",
+    "sub": "Israel Country Director at Search for Common Ground"
+   },
+   "cue": "drowning in conflict",
+   "n": 31,
+   "title": "Name · Maya Savir",
+   "pos": "top",
+   "src": "Script, row 35:15–35:45",
+   "rows": [
+    "35:15–35:45"
+   ],
+   "use": "4 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Rami Assali",
+    "sub": "Director of Operations for Search for Common Ground in Palestine & Israel"
+   },
+   "cue": "the people who stayed",
+   "n": 32,
+   "title": "Name · Rami Assali",
+   "pos": "top",
+   "src": "Script, row 36:14–36:30",
+   "rows": [
+    "36:14–36:30"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "map_locator",
+   "dur": 5.0,
+   "text": {
+    "main": "Nairobi",
+    "sub": "Kenya",
+    "lat": -1.29,
+    "lon": 36.82,
+    "zoom": 2,
+    "from": [
+     25.29,
+     51.53
+    ]
+   },
+   "cue": "no voice",
+   "n": 33,
+   "title": "Map · Nairobi",
+   "pos": "top",
+   "src": "Script, row 37:18–37:23",
+   "rows": [
+    "37:18–37:23"
+   ],
+   "use": "row start."
+  },
+  {
+   "tpl": "place_super",
+   "dur": 3.0,
+   "text": {
+    "main": "Nairobi, Kenya",
+    "sub": "June 2026"
+   },
+   "cue": "the moment you start",
+   "n": 34,
+   "title": "Place · Nairobi, Kenya",
+   "pos": "top",
+   "src": "Script, row 37:23–37:36",
+   "rows": [
+    "37:23–37:36"
+   ],
+   "use": "0.3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Siham Fayyad",
+    "sub": "Program Manager / Search for Common Ground / Jericho"
+   },
+   "cue": "different contexts",
+   "n": 35,
+   "title": "Name · Siham Fayyad",
+   "pos": "top",
+   "src": "Script, row 37:23–37:36",
+   "rows": [
+    "37:23–37:36"
+   ],
+   "use": "3 s into her sync."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Hakeem Alhaj",
+    "sub": "Program Manager / Zimam / Palestine"
+   },
+   "cue": "more than just a job",
+   "n": 36,
+   "title": "Name · Hakeem Alhaj",
+   "pos": "top",
+   "src": "Script, row 38:33–38:50",
+   "rows": [
+    "38:33–38:50"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "chapter_card",
+   "dur": 4.0,
+   "text": {
+    "sub": "Interlude",
+    "main": "Imagine if…",
+    "n": 0,
+    "of": 8
+   },
+   "cue": "after \"didn't hate blindly\"",
+   "n": 37,
+   "title": "Card · Imagine if…",
+   "pos": "top",
+   "src": "Script, row 40:22–40:26",
+   "rows": [
+    "40:22–40:26"
+   ],
+   "use": "Start of the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Peter Kuot",
+    "sub": "Program Manager in South Sudan at Search for Common Ground"
+   },
+   "cue": "Even now, if conflict affects my own community",
+   "n": 38,
+   "title": "Name · Peter Kuot",
+   "pos": "top",
+   "src": "Script, row 43:17–43:26",
+   "rows": [
+    "43:17–43:26"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "chapter_card",
+   "dur": 4.0,
+   "text": {
+    "sub": "Chapter 5",
+    "main": "On the ground",
+    "line": "South Sudan · Sierra Leone · Syria · Kenya",
+    "n": 5,
+    "of": 8
+   },
+   "cue": "Chapter 5: On the ground",
+   "n": 39,
+   "title": "Card · On the ground",
+   "pos": "top",
+   "src": "Script, row 43:26–43:30",
+   "rows": [
+    "43:26–43:30"
+   ],
+   "use": "Start of the row."
+  },
+  {
+   "tpl": "map_locator",
+   "dur": 5.0,
+   "text": {
+    "main": "Juba",
+    "sub": "South Sudan",
+    "lat": 4.85,
+    "lon": 31.58,
+    "zoom": 2
+   },
+   "cue": "We land in South Sudan",
+   "n": 40,
+   "title": "Map · Juba",
+   "pos": "top",
+   "src": "Script, row 43:30–43:35",
+   "rows": [
+    "43:30–43:35"
+   ],
+   "use": "Start of the row (full frame)."
+  },
+  {
+   "tpl": "place_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Juba, South Sudan",
+    "sub": "October 2025"
+   },
+   "cue": "first picture after the map",
+   "n": 41,
+   "title": "Place · Juba, South Sudan",
+   "pos": "top",
+   "src": "Script, row 43:35–43:39",
+   "rows": [
+    "43:35–43:39"
+   ],
+   "use": "0.5 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Stephen Wani",
+    "sub": "Senior Monitoring & Evaluation, Search for Common Ground South Sudan"
+   },
+   "cue": "mistrust between the cattle keepers and the farmers",
+   "n": 42,
+   "title": "Name · Stephen Wani",
+   "pos": "top",
+   "src": "Script, row 43:39–43:47",
+   "rows": [
+    "43:39–43:47"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "map_locator",
+   "dur": 5.0,
+   "text": {
+    "main": "Freetown",
+    "sub": "Sierra Leone",
+    "lat": 8.48,
+    "lon": -13.23,
+    "zoom": 2,
+    "from": [
+     4.85,
+     31.58
+    ]
+   },
+   "cue": "We jump to Sierra Leone",
+   "n": 43,
+   "title": "Map · Freetown",
+   "pos": "top",
+   "src": "Script, row 48:05–48:10",
+   "rows": [
+    "48:05–48:10"
+   ],
+   "use": "Start of the row (full frame)."
+  },
+  {
+   "tpl": "place_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Freetown, Sierra Leone",
+    "sub": "October 2025"
+   },
+   "cue": "first aerial",
+   "n": 44,
+   "title": "Place · Freetown, Sierra Leone",
+   "pos": "top",
+   "src": "Script, row 48:10–48:16",
+   "rows": [
+    "48:10–48:16"
+   ],
+   "use": "0.5 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Kenneth Ganna-Conteh",
+    "sub": "Former Chair, National Election Watch, Sierra Leone"
+   },
+   "cue": "I suffered. My family suffered.",
+   "n": 45,
+   "title": "Name · Kenneth Ganna-Conteh",
+   "pos": "top",
+   "src": "Script, row 48:16–48:23",
+   "rows": [
+    "48:16–48:23"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "map_locator",
+   "dur": 5.0,
+   "text": {
+    "main": "Sweida",
+    "sub": "Syria",
+    "lat": 32.71,
+    "lon": 36.57,
+    "zoom": 2,
+    "from": [
+     8.48,
+     -13.23
+    ]
+   },
+   "cue": "We jump to Syria",
+   "n": 46,
+   "title": "Map · Sweida",
+   "pos": "top",
+   "src": "Script, row 49:51–49:56",
+   "rows": [
+    "49:51–49:56"
+   ],
+   "use": "Start of the row (full frame)."
+  },
+  {
+   "tpl": "place_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Sweida, Syria",
+    "sub": "October 2025"
+   },
+   "cue": "night street",
+   "n": 47,
+   "title": "Place · Sweida, Syria",
+   "pos": "top",
+   "src": "Script, row 49:56–50:00",
+   "rows": [
+    "49:56–50:00"
+   ],
+   "use": "0.5 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Najwa Tawil",
+    "sub": "Focal Point for Southern Syria, Search for Common Ground"
+   },
+   "cue": "Let's take a step back",
+   "n": 48,
+   "title": "Name · Najwa Tawil",
+   "pos": "top",
+   "src": "Script, row 50:00–50:10",
+   "rows": [
+    "50:00–50:10"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "map_locator",
+   "dur": 5.0,
+   "text": {
+    "main": "Nairobi",
+    "sub": "Kenya",
+    "lat": -1.29,
+    "lon": 36.82,
+    "zoom": 2,
+    "from": [
+     32.71,
+     36.57
+    ]
+   },
+   "cue": "We jump to Kenya",
+   "n": 49,
+   "title": "Map · Nairobi",
+   "pos": "top",
+   "src": "Script, row 52:17–52:22",
+   "rows": [
+    "52:17–52:22"
+   ],
+   "use": "Start of the row (full frame)."
+  },
+  {
+   "tpl": "place_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Nairobi, Kenya",
+    "sub": "June 2026"
+   },
+   "cue": "garden walkway",
+   "n": 50,
+   "title": "Place · Nairobi, Kenya",
+   "pos": "top",
+   "src": "Script, row 52:22–52:27",
+   "rows": [
+    "52:22–52:27"
+   ],
+   "use": "0.5 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Hélène Calame",
+    "sub": "Program Manager, Search for Common Ground, Brussels"
+   },
+   "cue": "first time we meet in person",
+   "n": 51,
+   "title": "Name · Hélène Calame",
+   "pos": "top",
+   "src": "Script, row 52:27–52:36",
+   "rows": [
+    "52:27–52:36"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Aminou Laouali",
+    "sub": "National Coordinator, SOS Civisme Niger"
+   },
+   "cue": "Christian and Muslim communities",
+   "n": 52,
+   "title": "Name · Aminou Laouali",
+   "pos": "top",
+   "src": "Script, row 53:09–53:16",
+   "rows": [
+    "53:09–53:16"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Reagan Miviri",
+    "sub": "Researcher & Analyst, Ebuteli, DRC"
+   },
+   "cue": "combats actifs",
+   "n": 53,
+   "title": "Name · Reagan Miviri",
+   "pos": "top",
+   "src": "Script, row 53:56–54:21",
+   "rows": [
+    "53:56–54:21"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Vilma Venkovska Milchev",
+    "sub": "Executive Director, Center for Common Ground, North Macedonia"
+   },
+   "cue": "not understanding others as their enemies",
+   "n": 54,
+   "title": "Name · Vilma Venkovska Milchev",
+   "pos": "top",
+   "src": "Script, row 55:05–55:14",
+   "rows": [
+    "55:05–55:14"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "chapter_card",
+   "dur": 4.0,
+   "text": {
+    "sub": "Chapter 6",
+    "main": "The next table",
+    "line": "North Macedonia · Doha",
+    "n": 6,
+    "of": 8
+   },
+   "cue": "Chapter 6: The next table",
+   "n": 55,
+   "title": "Card · The next table",
+   "pos": "top",
+   "src": "Script, row 55:14–55:18",
+   "rows": [
+    "55:14–55:18"
+   ],
+   "use": "Start of the row."
+  },
+  {
+   "tpl": "map_locator",
+   "dur": 5.0,
+   "text": {
+    "main": "Kërçova",
+    "sub": "North Macedonia",
+    "lat": 41.51,
+    "lon": 20.96,
+    "zoom": 2,
+    "from": [
+     -1.29,
+     36.82
+    ]
+   },
+   "cue": "We land in North Macedonia",
+   "n": 56,
+   "title": "Map · Kërçova",
+   "pos": "top",
+   "src": "Script, row 55:18–55:23",
+   "rows": [
+    "55:18–55:23"
+   ],
+   "use": "Start of the row (full frame)."
+  },
+  {
+   "tpl": "place_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Kërçova, North Macedonia",
+    "sub": "March 2026"
+   },
+   "cue": "school path",
+   "n": 57,
+   "title": "Place · Kërçova, North Macedonia",
+   "pos": "top",
+   "src": "Script, row 55:23–55:30",
+   "rows": [
+    "55:23–55:30"
+   ],
+   "use": "0.5 s into the row."
+  },
+  {
+   "tpl": "map_locator",
+   "dur": 5.0,
+   "text": {
+    "main": "Doha",
+    "sub": "Qatar",
+    "lat": 25.29,
+    "lon": 51.53,
+    "zoom": 2,
+    "from": [
+     41.51,
+     20.96
+    ]
+   },
+   "cue": "We jump to Doha",
+   "n": 58,
+   "title": "Map · Doha",
+   "pos": "top",
+   "src": "Script, row 58:47–58:52",
+   "rows": [
+    "58:47–58:52"
+   ],
+   "use": "Start of the row (full frame)."
+  },
+  {
+   "tpl": "place_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Doha, Qatar",
+    "sub": "February 2026"
+   },
+   "cue": "round tables",
+   "n": 59,
+   "title": "Place · Doha, Qatar",
+   "pos": "top",
+   "src": "Script, row 58:52–58:58",
+   "rows": [
+    "58:52–58:58"
+   ],
+   "use": "0.5 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Shamil Idriss",
+    "sub": "CEO of Search for Common Ground"
+   },
+   "cue": "Leadership is very isolating today",
+   "n": 60,
+   "title": "Name · Shamil Idriss",
+   "pos": "top",
+   "src": "Script, row 58:58–59:45",
+   "rows": [
+    "58:58–59:45"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 3.0,
+   "text": {
+    "main": "Rajendra Mulmi",
+    "sub": "Regional Director of Africa at Search for Common Ground"
+   },
+   "cue": "I have a way of looking at conflict as c",
+   "n": 61,
+   "title": "Name · Rajendra Mulmi",
+   "pos": "top",
+   "src": "Script, row 59:45–59:56",
+   "rows": [
+    "59:45–59:56"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 3.0,
+   "text": {
+    "main": "Naglaa Elhag",
+    "sub": "Regional Director in Middle East and North Africa & Asia"
+   },
+   "cue": "Power is about authority and control. Co",
+   "n": 62,
+   "title": "Name · Naglaa Elhag",
+   "pos": "top",
+   "src": "Script, row 59:56–60:03",
+   "rows": [
+    "59:56–60:03"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 3.0,
+   "text": {
+    "main": "Francis Sala-Diakanda",
+    "sub": "VP for Global Programs at Search for Common Ground"
+   },
+   "cue": "Le leader n'est pas la personne qui parl",
+   "n": 63,
+   "title": "Name · Francis Sala-Diakanda",
+   "pos": "top",
+   "src": "Script, row 60:03–60:12",
+   "rows": [
+    "60:03–60:12"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 3.0,
+   "text": {
+    "main": "Keneshbek Sainazarov",
+    "sub": "Asia Regional Advisor & Country Director at Search for Common Ground"
+   },
+   "cue": "picking a side always leaves someone out",
+   "n": 64,
+   "title": "Name · Keneshbek Sainazarov",
+   "pos": "top",
+   "src": "Script, row 60:12–60:21",
+   "rows": [
+    "60:12–60:21"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 3.0,
+   "text": {
+    "main": "Saji Prelis",
+    "sub": "Director, Children & Youth Programmes, Search for Common Ground"
+   },
+   "cue": "So it's important as leaders to not rely",
+   "n": 65,
+   "title": "Name · Saji Prelis",
+   "pos": "top",
+   "src": "Script, row 60:21–60:30",
+   "rows": [
+    "60:21–60:30"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 3.0,
+   "text": {
+    "main": "Hilde Deman",
+    "sub": "Executive Director in Brussels at Search for Common Ground"
+   },
+   "cue": "But what you're trying to do is have the",
+   "n": 66,
+   "title": "Name · Hilde Deman",
+   "pos": "top",
+   "src": "Script, row 60:30–60:40",
+   "rows": [
+    "60:30–60:40"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 3.0,
+   "text": {
+    "main": "Joseph Mariampillai",
+    "sub": "Myanmar Country Director at Search for Common Ground"
+   },
+   "cue": "So when the coup happened, many agencies",
+   "n": 67,
+   "title": "Name · Joseph Mariampillai",
+   "pos": "top",
+   "src": "Script, row 60:40–60:48",
+   "rows": [
+    "60:40–60:48"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 3.0,
+   "text": {
+    "main": "Inge Brees",
+    "sub": "Policy & Outreach Manager at Search for Common Ground"
+   },
+   "cue": "I really hope that people will start to ",
+   "n": 68,
+   "title": "Name · Inge Brees",
+   "pos": "top",
+   "src": "Script, row 60:48–61:03",
+   "rows": [
+    "60:48–61:03"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 3.0,
+   "text": {
+    "main": "Michael Shipler",
+    "sub": "VP, Leadership & Networks at Search for Common Ground"
+   },
+   "cue": "My biggest hope is that resistance to wh",
+   "n": 69,
+   "title": "Name · Michael Shipler",
+   "pos": "top",
+   "src": "Script, row 61:03–61:15",
+   "rows": [
+    "61:03–61:15"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 3.0,
+   "text": {
+    "main": "Grace Fleur Francine Uwitonze",
+    "sub": "Burundi Country Director at Search for Common Ground"
+   },
+   "cue": "quand on humanise l'autre, les choses pe",
+   "n": 70,
+   "title": "Name · Grace Fleur Francine Uwitonze",
+   "pos": "top",
+   "src": "Script, row 61:15–61:27",
+   "rows": [
+    "61:15–61:27"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 3.0,
+   "text": {
+    "main": "Adrienne Lemon",
+    "sub": "Senior Director of Impact at Search for Common Ground"
+   },
+   "cue": "Sometimes when you work alone, it feels ",
+   "n": 71,
+   "title": "Name · Adrienne Lemon",
+   "pos": "top",
+   "src": "Script, row 61:27–61:44",
+   "rows": [
+    "61:27–61:44"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 3.0,
+   "text": {
+    "main": "Nealin Parker",
+    "sub": "Executive Director in USA at Search for Common Ground"
+   },
+   "cue": "I picked SEARCH to work for because it i",
+   "n": 72,
+   "title": "Name · Nealin Parker",
+   "pos": "top",
+   "src": "Script, row 61:44–61:54",
+   "rows": [
+    "61:44–61:54"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Ouattara About Karno",
+    "sub": "Country Director, Lake Chad Basin at Search for Common Ground"
+   },
+   "cue": "il remonte la rivière",
+   "n": 73,
+   "title": "Name · Ouattara About Karno",
+   "pos": "top",
+   "src": "Script, row 63:45–64:04",
+   "rows": [
+    "63:45–64:04"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "chapter_card",
+   "dur": 4.0,
+   "text": {
+    "sub": "Chapter 7",
+    "main": "Common ground at home",
+    "line": "Austin · Orlando · Washington · New Orleans · Dallas · New York",
+    "n": 7,
+    "of": 8
+   },
+   "cue": "(after \"I don't know.\")",
+   "n": 74,
+   "title": "Card · Common ground at home",
+   "pos": "top",
+   "src": "Script, row 65:41–65:45",
+   "rows": [
+    "65:41–65:45"
+   ],
+   "use": "Start of the row."
+  },
+  {
+   "tpl": "place_super",
+   "dur": 3.5,
+   "text": {
+    "main": "Dallas, United States",
+    "sub": "May 2025"
+   },
+   "cue": "Is it you?",
+   "n": 75,
+   "title": "Place · Dallas, United States",
+   "pos": "top",
+   "src": "Script, row 65:49–65:55",
+   "rows": [
+    "65:49–65:55"
+   ],
+   "use": "0.5 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Nealin Parker",
+    "sub": "Executive Director in USA at Search for Common Ground"
+   },
+   "cue": "250th anniversary",
+   "n": 76,
+   "title": "Name · Nealin Parker",
+   "pos": "top",
+   "src": "Script, row 66:35–66:45",
+   "rows": [
+    "66:35–66:45"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "place_super",
+   "dur": 3.5,
+   "text": {
+    "main": "Austin, United States",
+    "sub": "October 2025"
+   },
+   "cue": "",
+   "n": 77,
+   "title": "Place · Austin, United States",
+   "pos": "top",
+   "src": "Script, row 67:22–67:28",
+   "rows": [
+    "67:22–67:28"
+   ],
+   "use": "0.5 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Richie Butler",
+    "sub": "Founder of Project Unity"
+   },
+   "cue": "what unites us",
+   "n": 78,
+   "title": "Name · Richie Butler",
+   "pos": "top",
+   "src": "Script, row 67:28–67:45",
+   "rows": [
+    "67:28–67:45"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Victoria Soderman",
+    "sub": "Events and Communications, Annette Strauss Institute at UT Austin"
+   },
+   "cue": "reach across the aisle",
+   "n": 79,
+   "title": "Name · Victoria Soderman",
+   "pos": "top",
+   "src": "Script, row 68:00–68:18",
+   "rows": [
+    "68:00–68:18"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Mark Strama",
+    "sub": "Director, Annette Strauss Institute at UT Austin"
+   },
+   "cue": "the one takeaway",
+   "n": 80,
+   "title": "Name · Mark Strama",
+   "pos": "top",
+   "src": "Script, row 68:18–68:31",
+   "rows": [
+    "68:18–68:31"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Morgan Hernandez",
+    "sub": "Student Participant"
+   },
+   "cue": "hopeless",
+   "n": 81,
+   "title": "Name · Morgan Hernandez",
+   "pos": "top",
+   "src": "Script, row 68:31–68:39",
+   "rows": [
+    "68:31–68:39"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "place_super",
+   "dur": 3.5,
+   "text": {
+    "main": "Orlando, United States",
+    "sub": "October 2025"
+   },
+   "cue": "",
+   "n": 82,
+   "title": "Place · Orlando, United States",
+   "pos": "top",
+   "src": "Script, row 68:39–68:45",
+   "rows": [
+    "68:39–68:45"
+   ],
+   "use": "0.5 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Saadia Qureshi",
+    "sub": "Common Ground Host"
+   },
+   "cue": "hygiene kits",
+   "n": 83,
+   "title": "Name · Saadia Qureshi",
+   "pos": "top",
+   "src": "Script, row 69:03–69:12",
+   "rows": [
+    "69:03–69:12"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Alyssa",
+    "sub": "Attendee"
+   },
+   "cue": "calm and peaceful place",
+   "n": 84,
+   "title": "Name · Alyssa",
+   "pos": "top",
+   "src": "Script, row 69:12–69:26",
+   "rows": [
+    "69:12–69:26"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Barbara Chandler",
+    "sub": "Community Leader"
+   },
+   "cue": "Space between the bars",
+   "n": 85,
+   "title": "Name · Barbara Chandler",
+   "pos": "top",
+   "src": "Script, row 69:26–69:36",
+   "rows": [
+    "69:26–69:36"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "place_super",
+   "dur": 3.5,
+   "text": {
+    "main": "Washington, D.C., United States",
+    "sub": "October 2025"
+   },
+   "cue": "",
+   "n": 86,
+   "title": "Place · Washington, D.C., United States",
+   "pos": "top",
+   "src": "Script, row 69:43–69:59",
+   "rows": [
+    "69:43–69:59"
+   ],
+   "use": "0.5 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Kalindi Cordero",
+    "sub": "Search for Common Ground"
+   },
+   "cue": "Tonight we'll be doing",
+   "n": 87,
+   "title": "Name · Kalindi Cordero",
+   "pos": "top",
+   "src": "Script, row 69:43–69:59",
+   "rows": [
+    "69:43–69:59"
+   ],
+   "use": "4.5 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Rachel",
+    "sub": "Attendee"
+   },
+   "cue": "my default",
+   "n": 88,
+   "title": "Name · Rachel",
+   "pos": "top",
+   "src": "Script, row 70:30–70:49",
+   "rows": [
+    "70:30–70:49"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "place_super",
+   "dur": 3.5,
+   "text": {
+    "main": "New Orleans, United States",
+    "sub": "October 2025"
+   },
+   "cue": "",
+   "n": 89,
+   "title": "Place · New Orleans, United States",
+   "pos": "top",
+   "src": "Script, row 70:56–71:01",
+   "rows": [
+    "70:56–71:01"
+   ],
+   "use": "0.5 s into the row."
+  },
+  {
+   "tpl": "place_super",
+   "dur": 3.5,
+   "text": {
+    "main": "New York, United States",
+    "sub": "August 2025"
+   },
+   "cue": "",
+   "n": 90,
+   "title": "Place · New York, United States",
+   "pos": "top",
+   "src": "Script, row 72:02–72:08",
+   "rows": [
+    "72:02–72:08"
+   ],
+   "use": "0.5 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Hannah",
+    "sub": "Washington Square Park"
+   },
+   "cue": "you still get lonely",
+   "n": 91,
+   "title": "Name · Hannah",
+   "pos": "top",
+   "src": "Script, row 72:08–72:13",
+   "rows": [
+    "72:08–72:13"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Bethany",
+    "sub": "Washington Square Park"
+   },
+   "cue": "my friends and I",
+   "n": 92,
+   "title": "Name · Bethany",
+   "pos": "top",
+   "src": "Script, row 72:24–72:38",
+   "rows": [
+    "72:24–72:38"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Keren",
+    "sub": "Washington Square Park"
+   },
+   "cue": "you leave me really thinking",
+   "n": 93,
+   "title": "Name · Keren",
+   "pos": "top",
+   "src": "Script, row 73:23–73:32",
+   "rows": [
+    "73:23–73:32"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "place_super",
+   "dur": 3.5,
+   "text": {
+    "main": "New York, United States",
+    "sub": "August 2026"
+   },
+   "cue": "",
+   "n": 94,
+   "title": "Place · New York, United States",
+   "pos": "top",
+   "src": "Script, row 74:03–74:23",
+   "rows": [
+    "74:03–74:23"
+   ],
+   "use": "0.5 s into the row."
+  },
+  {
+   "tpl": "chapter_card",
+   "dur": 4.0,
+   "text": {
+    "sub": "Chapter 8",
+    "main": "Imagine if",
+    "n": 8,
+    "of": 8
+   },
+   "cue": "after \"going on with them either\"",
+   "n": 95,
+   "title": "Card · Imagine if",
+   "pos": "top",
+   "src": "Script, row 76:35–76:39",
+   "rows": [
+    "76:35–76:39"
+   ],
+   "use": "Start of the row."
+  },
+  {
+   "tpl": "place_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Central Park, New York",
+    "sub": "August 2026"
+   },
+   "cue": "imagine if your biggest wish",
+   "n": 96,
+   "title": "Place · Central Park, New York",
+   "pos": "top",
+   "src": "Script, row 76:39–76:58",
+   "rows": [
+    "76:39–76:58"
+   ],
+   "use": "1 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Serena",
+    "sub": ""
+   },
+   "cue": "a lot of trouble in the world",
+   "n": 97,
+   "title": "Name · Serena",
+   "pos": "top",
+   "src": "Script, row 78:20–78:32",
+   "rows": [
+    "78:20–78:32"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Destiny",
+    "sub": ""
+   },
+   "cue": "trying to think and listen",
+   "n": 98,
+   "title": "Name · Destiny",
+   "pos": "top",
+   "src": "Script, row 81:26–81:32",
+   "rows": [
+    "81:26–81:32"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "name_super",
+   "dur": 4.0,
+   "text": {
+    "main": "Sophie",
+    "sub": ""
+   },
+   "cue": "be kind to nature",
+   "n": 99,
+   "title": "Name · Sophie",
+   "pos": "top",
+   "src": "Script, row 82:02–82:11",
+   "rows": [
+    "82:02–82:11"
+   ],
+   "use": "3 s into the row."
+  },
+  {
+   "tpl": "end_card",
+   "dur": 10.0,
+   "logo": "endcards/sfcg/sfcg-logo-horizontal-2024-white.png",
+   "logo_w": 860,
+   "c": {
+    "bg": "#003E74",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "lines": [
+     "sfcg.org/imagine-if",
+     "Every gift is doubled, up to $100,000."
+    ]
+   },
+   "cue": "Search for Common Ground lockup + sfcg.org/imagine-if (+ match line in the match version)",
+   "n": 100,
+   "title": "End card",
+   "pos": "top",
+   "src": "Script, row 87:03–87:13",
+   "rows": [
+    "87:03–87:13"
+   ],
+   "use": "Start of the row."
+  }
+ ]
+}
