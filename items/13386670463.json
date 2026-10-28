@@ -189,8 +189,12 @@
    "frame_tag": null,
    "frame_alt": null,
    "visual": "The same end card as every cut in this series (the Ms Eye Candy end card). The ombre close. Nothing on it changes for this boutique: no boutique name, logo or handle.",
-   "motion": "A voice-over reads the end card. This client wants a voice-over on every end card.",
-   "voice": "Voice-over reads the end card text, the same as every other cut in this series. Do not add the boutique's name.",
+   "motion": "End card voice-over: nobody in this cut says the date, so it needs one. Use the same recording as the Molly+Kate end card.",
+   "voice": {
+    "who": "End card VO (the same recording as Molly+Kate)",
+    "quote": "We can't wait to see you November 5th at Highmark Stadium!",
+    "src": "Reuse the VO from the Molly+Kate V2 cut (f.io/qNAGe577). Ask Q for the file."
+   },
    "sfx": "<span class=\"none\">None.</span>",
    "music": "Music resolves and fades 1 s."
   }
@@ -282,7 +286,7 @@
   "Her background is in: Latvia, her mom, thrifting.",
   "The expansion is said and shown: day 1, 2,000 square feet.",
   "No street address on screen.",
-  "The end card is the standard series end card with its voice-over. No boutique name, logo or handle on it.",
+  "The end card is the standard series end card with the Molly+Kate VO: “We can't wait to see you November 5th at Highmark Stadium!” No boutique name, logo or handle on it.",
   "Via Princessa, What She's Made Of and Highmark Stadium are spelled right.",
   "The file is 9:16 only and about 60 s."
  ],

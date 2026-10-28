@@ -27,7 +27,7 @@
   "Use the voice-over script on this page word for word.",
   "Give every photo gentle motion (slow push in or pan).",
   "Burn in captions of the voice-over in the purple caption boxes.",
-  "Match the Ms Eye Candy cut: ombre open and close, the standard series end card with voice-over.",
+  "Match the Ms Eye Candy cut: ombre open and close, the standard series end card.",
   "Show the Aura logo and @auraathleticfit716 at 0:04, when the VO says the name."
  ],
  "dont": [
@@ -53,7 +53,7 @@
   "footage": {
    "title": "WSMO 2026 WNY Sent Footage › Aura Athletics",
    "url": "https://drive.google.com/drive/folders/1Ghd0ODB0nlM8bp6Ey19FP7dqusZ-sIxc",
-   "note": "6 photos plus the Aura logo. Suzanne's email had 9 photos: three product photos are not in the folder yet (pieced pants bundle, tennis skirt, pickleball paddle)."
+   "note": "9 photos plus the Aura logo. Nick added the last three (pieced pants, tennis skirt, pickleball paddle) on 28 Oct."
   }
  },
  "bp_intro": "There is no video. These are the owner's photos, square or vertical. A voice-over runs the whole cut. All times are the timeline of the cut and are estimates until the voice-over is cut in.",
@@ -120,7 +120,7 @@
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Any still not used yet (or the missing product photos if Nick adds them). Gentle moves.",
+   "visual": "The three new photos: <a href=\"https://drive.google.com/file/d/1icVc4aPWsl33lYhOkse4xoKiu_XJhS7q/view\">pieced pants bundle</a>, <a href=\"https://drive.google.com/file/d/17xYwH1siY0HnTfOMqmusJnKHsm8luPWk/view\">tennis skirt</a>, <a href=\"https://drive.google.com/file/d/1RWRVqz7uGT1lQBBixJWELTpZZ1OqCpvz/view\">pickleball paddle</a>. Gentle moves, 2 s each.",
    "motion": "Text card: <q>By Women · For Women</q>. Captions on the voice.",
    "voice": {
     "who": "VO (temp voice for V1)",
@@ -157,8 +157,8 @@
    "frame_tag": null,
    "frame_alt": null,
    "visual": "The same end card as every cut in this series (the Ms Eye Candy end card). The ombre close. Nothing on it changes for this boutique: no boutique name, logo or handle.",
-   "motion": "A voice-over reads the end card. This client wants a voice-over on every end card.",
-   "voice": "Voice-over reads the end card text, the same as every other cut in this series. Do not add the boutique's name.",
+   "motion": "No end card voice-over: the voice-over already says the date and Highmark Stadium in the cut. Music only on the end card.",
+   "voice": "No voice-over. Music only.",
    "sfx": "<span class=\"none\">None.</span>",
    "music": "Music resolves and fades 1 s."
   }
@@ -179,11 +179,7 @@
   ],
   [
    "Photos",
-   "<a href=\"https://drive.google.com/drive/folders/1Ghd0ODB0nlM8bp6Ey19FP7dqusZ-sIxc\">Aura Athletics</a> · 7 files: logo, sweatsuit, baselayer, workout kit, muscle balm, game-day stripes, IDA cleat ad (do not use as logo)"
-  ],
-  [
-   "Missing",
-   "3 photos from the email are not in Drive: sport-brand-pieced-pants-bundle-5.jpg, fitness-culottes…tennis-skirt-4.jpg, picklefab…paddle-Lifestyle6.jpg. Nick can add them."
+   "<a href=\"https://drive.google.com/drive/folders/1Ghd0ODB0nlM8bp6Ey19FP7dqusZ-sIxc\">Aura Athletics</a> · 10 files: logo, sweatsuit, baselayer, workout kit, muscle balm, game-day stripes, pieced pants, tennis skirt, pickleball paddle, IDA cleat ad (do not use as logo)"
   ],
   [
    "Logo",
@@ -217,7 +213,7 @@
   ],
   [
    "Audio",
-   "Voice-over from start to end, music 18–20 dB under the voice. Record a temp voice-over for V1 so the timing is real. Use the same voice as the end card voice-over in Q's WNY cuts (ask Q which one he used), so the series sounds the same."
+   "Voice-over from start to end, music 18–20 dB under the voice. Record a temp voice-over for V1 so the timing is real. Use one clear, warm voice for the whole cut."
   ],
   [
    "Loudness",
@@ -244,17 +240,14 @@
   "“What She's Made Of · Nov 5 · Highmark Stadium” is on screen.",
   "The Aura logo and @auraathleticfit716 are on at 0:04. The IDA cleat ad is not used.",
   "Every still moves, and photo changes land on the voice lines.",
-  "The end card is the standard series end card with its voice-over. No boutique name, logo or handle on it.",
-  "The file is 9:16 only and about 40 s."
+  "The end card is the standard series end card, with no voice-over (the date and Highmark are already said in the cut). No boutique name, logo or handle on it.",
+  "The file is 9:16 only and about 40 s.",
+  "The pieced pants, tennis skirt and pickleball paddle photos are in."
  ],
  "decisions": [
   {
-   "t": "Missing photos",
-   "b": "Three of the nine photos from the email are not in Drive yet."
-  },
-  {
    "t": "Voice-over",
-   "b": "Suzanne asked for a voice-over (28 Oct). V1 uses a temp voice that matches the end card voice in the other WNY cuts. Nick confirms if the final keeps that voice or someone records it."
+   "b": "Suzanne asked for a voice-over (28 Oct). V1 uses a temp voice. Nick confirms if the final keeps that voice or someone records it."
   },
   {
    "t": "Owner's name",

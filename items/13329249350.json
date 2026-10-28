@@ -25,7 +25,7 @@
   "Open on Kylie talking, with the hook text on frame 1.",
   "Use her two lines: the collection line first, then her intro.",
   "Keep her full walk down the steps under the intro.",
-  "Match your Ms Eye Candy cut: ombre open and close, captions, end card with voice-over.",
+  "Match your Ms Eye Candy cut: ombre open and close, captions, the standard series end card.",
   "Rotate IMG_1596 by 180° if you use it."
  ],
  "dont": [
@@ -127,8 +127,8 @@
    "frame_tag": null,
    "frame_alt": null,
    "visual": "The same end card as every cut in this series (the Ms Eye Candy end card). The ombre close. Nothing on it changes for this boutique: no boutique name, logo or handle.",
-   "motion": "A voice-over reads the end card. This client wants a voice-over on every end card.",
-   "voice": "Voice-over reads the end card text, the same as every other cut in this series. Do not add the boutique's name.",
+   "motion": "No end card voice-over: Kylie already says the date and Highmark Stadium in the cut. Music only on the end card.",
+   "voice": "No voice-over. Music only.",
    "sfx": "<span class=\"none\">None.</span>",
    "music": "Music resolves and fades 1 s."
   }
@@ -226,7 +226,7 @@
   "The name super is at 0:07, after the hook.",
   "IMG_1596 is the right way up if you used it.",
   "No off-camera talk or retake lines are left in.",
-  "The end card is the standard series end card with its voice-over. No boutique name, logo or handle on it.",
+  "The end card is the standard series end card, with no voice-over (the date and Highmark are already said in the cut). No boutique name, logo or handle on it.",
   "Kylie Priscilla, KP Made Me, What She's Made Of and Highmark Stadium are spelled right.",
   "The file is 9:16 only."
  ],
