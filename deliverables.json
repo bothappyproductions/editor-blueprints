@@ -1394,20 +1394,20 @@
   "note": "Cut from the Library footage in the house style of the delivered Hayley short: hook on screen from 0:00, name super after the hook, single-line blue captions, split-screen B-roll with the speaker on top, wide and punch-in framing alternating so no cut repeats a framing, SFCG logo end card with sfcg.org. Every bite was re-timed against the audio and each in and out sits in the pause, checked by transcribing the finished cut and diffing it against the captions. Interview FX6_LVH_6399 with mids lifted in the grade; the name super sits on the standing cutaway (6400); B-roll is the cards (6375) and the EU flags (6382). One bite opens on 'But then they are young' because there is no pause between 'then' and 'they'."
  },
  "13338322871": {
-  "version": 2,
+  "version": 3,
   "made": "2026-10-28",
   "tool": "Claude cutting engine (ffmpeg), with this blueprint's graphics and captions",
   "length": "0:30.0 (900 frames at 29.97)",
   "loudness": "-24.0 LUFS, true peak -10.4 dBTP",
   "music": "Epidemic Sound · Unbound Spirit (Duke Herrington)",
   "mp4": {
-   "name": "Claude test cut · NFTEComcastCTVDonationSpot001 · v2.mp4",
-   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/5a16704d-8d92-4d98-8945-8cfb5c46e44c"
+   "name": "Claude test cut · NFTEComcastCTVDonationSpot001 · v3.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/34fc5fa3-7302-4047-a455-ed2eb4b477dd"
   },
   "xml": {
    "name": "NFTEComcastCTVDonationSpot001_90_v2_Premiere.xml",
    "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/5f76b2c2-9e6c-40de-ab04-4d2656c45268"
   },
-  "note": "Version 2 follows the updated blueprint. The BUILD student from Melanie's videos speaks after the hook, there is BUILD B-roll under the narrator, the mentor on the steps plays on \"someone like you\", and Jessica and Naije'e close it. The ProRes 422 HQ master (NFTE_FuelOurSharedFuture_CTV30_ClaudeTestCut_v2_ProRes422HQ.mov) sits in the same Frame.io folder. The NYEC interviews are on Vimeo behind a login, so the student shots come from your V1 render, scaled 124% from the top to hide V1's burned captions and logo bug. That makes them softer than your source. The voices were lifted out of V1's and BUILD's mixes by machine, without their music. There is no $42 voice line; the end card carries the ask. The QR code scans in the master on every frame from 0:03. Use this cut for timing, graphics and mix, then re-cut the picture from your source clips. The XML places every graphic and caption on the right frame; relink the files when Premiere asks."
+  "note": "Version 3 adds Melanie's QR frame. The spot opens full screen, shrinks into the NFTE frame at 0:03 over 15 frames, stays framed to 0:23 with the QR code, the $42 ask and the give link beside it, then the QR end card plays full frame. The corner QR is gone. Same edit, graphics and mix as version 2 otherwise. The QR code scans on every framed frame tested. The Premiere XML below is still version 2: it has the cuts, graphics and captions in place; add the frame and the 0:03 shrink by hand as the QR frame block says. The NYEC interviews are on Vimeo behind a login, so the student shots come from your V1 render, scaled 124% from the top to hide V1's burned captions and logo bug."
  }
 }
