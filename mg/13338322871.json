@@ -66,59 +66,51 @@
    "src": "Give link from NFTE (Alison, 26 Oct): nfte.com/fueloursharedfuture, tagged utm_source=comcast, utm_medium=ctv.",
    "rows": [
     "00:00–00:06.4",
-    "00:06.4–00:09.7",
-    "00:09.7–00:18.9",
-    "00:18.9–00:23.0"
+    "00:06.4–00:10.3",
+    "00:10.3–00:19.4",
+    "00:19.4–00:23.0"
    ],
    "use": "Put frame 0 at 00:03.0 on the top video track and let it run to 00:23.0, where the end card cuts in. 315 px code, 7 px per module. Do not scale it down. A soft orange ring pulses every 5 s; the code itself never moves."
   },
   {
    "n": 2,
-   "title": "See · Solve · Create",
-   "tpl": "word_stack",
-   "dur": 3.3,
-   "pos": "bottom",
-   "text": {
-    "items": [
-     "See possibilities.",
-     "Solve problems.",
-     "Create opportunity."
-    ]
-   },
-   "upper": true,
-   "c": {
-    "bg": "#4C12A1",
-    "fg": "#FFFFFF",
-    "ac": "#FF5C39",
-    "onAc": "#FFFFFF"
-   },
-   "cue": "SEE POSSIBILITIES. → SOLVE PROBLEMS. → CREATE OPPORTUNITY., one line per cut.",
-   "src": "NFTE’s draft script, line 1 (Alison, 21 Oct): “who see possibilities, solve problems, create opportunity”.",
-   "rows": [
-    "00:06.4–00:09.7"
-   ],
-   "use": "Frame 0 at 00:06.4 over the three B-roll cuts, in the lower part of the frame so it stays off faces. Each line lands on a cut.",
-   "size": 100
-  },
-  {
-   "n": 3,
-   "title": "NFTE + BUILD students",
+   "title": "NFTE student",
    "tpl": "tag_label",
    "dur": 3.0,
    "text": {
-    "main": "NFTE + BUILD students"
+    "main": "NFTE student"
    },
    "c": {
     "bg": "#4C12A1",
     "fg": "#FFFFFF",
     "ac": "#FF5C39"
    },
-   "cue": "Tag lower left, 00:10.0–00:13.0: NFTE + BUILD students.",
-   "src": "NFTE and BUILD share this campaign (20 Oct call). Words are ours, a plain label.",
+   "cue": "Tag lower left, 00:03.2–00:06.2: NFTE student.",
+   "src": "NFTE’s brief: an NFTE student and a BUILD student (Alison, 21 Oct). A plain label, no name.",
    "rows": [
-    "00:09.7–00:18.9"
+    "00:00–00:06.4"
    ],
-   "use": "Frame 0 at 00:10.0. Lower left, above the captions. Out by 00:13.0."
+   "use": "Frame 0 at 00:03.2, after the hook text has landed. Lower left, above the captions. Out by 00:06.2."
+  },
+  {
+   "n": 3,
+   "title": "BUILD student",
+   "tpl": "tag_label",
+   "dur": 3.0,
+   "text": {
+    "main": "BUILD student"
+   },
+   "c": {
+    "bg": "#4C12A1",
+    "fg": "#FFFFFF",
+    "ac": "#FF5C39"
+   },
+   "cue": "Tag lower left, 00:06.6–00:09.6: BUILD student.",
+   "src": "NFTE’s brief: an NFTE student and a BUILD student (Alison, 21 Oct). A plain label, no name.",
+   "rows": [
+    "00:06.4–00:10.3"
+   ],
+   "use": "Frame 0 at 00:06.6. Lower left, above the captions. Out by 00:09.6."
   },
   {
    "n": 4,
@@ -229,6 +221,11 @@
    "file": "assets/13338322871/BUILD-logo-white.svg",
    "title": "BUILD logo, white text (SVG)",
    "use": "Alison’s BUILD logo with the wordmark in white for the purple card."
+  },
+  {
+   "file": "assets/13338322871/BUILD-student_confidence-line_voice-only_65.41.wav",
+   "title": "BUILD student line, voice only (WAV)",
+   "use": "BUILD.org _ Entrepreneurship Education.mp4 1:05.41–1:09.36 with their music taken out by machine (Demucs). Use it if their clean audio never comes."
   }
  ]
 }

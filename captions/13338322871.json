@@ -22,7 +22,7 @@
   "cx": 0.42,
   "maxw": 0.56
  },
- "note": "TV captions: NFTE purple box, white DM Sans, the key word in NFTE orange, a page appears as it is spoken. In 16:9 they sit left of centre so they never touch the QR code in the lower right. Timed from the words in your V1 (machine word times, 27 Oct): frame 0 lines up with the V1 time on each card. Clip 1 is already on at frame 0, so the spot has text at 0:00. The BUILD student gets a caption clip when Melanie’s clip lands; clip 4 (Jessica) is the stand-in. No captions on the end card.",
+ "note": "TV captions: NFTE purple box, white DM Sans, the key word in NFTE orange, a page appears as it is spoken. In 16:9 they sit left of centre so they never touch the QR code in the lower right. Timed from the words in your V1 and in BUILD’s video (machine word times, 27–28 Oct): frame 0 lines up with the source time on each card. Clip 1 is already on at frame 0, so the spot has text at 0:00. Clip 6 (Lucio) is only for the swap. No captions on the end card.",
  "tracks": [
   {
    "n": 1,
@@ -238,9 +238,159 @@
   },
   {
    "n": 2,
+   "title": "BUILD student · the confidence I have now",
+   "rows": [
+    "00:06.4–00:10.3"
+   ],
+   "clip": "BUILD.org _ Entrepreneurship Education.mp4",
+   "start": 65.41,
+   "src": "BUILD.org _ Entrepreneurship Education.mp4 01:05.4",
+   "dur": 4.31,
+   "words": [
+    {
+     "w": "If",
+     "t0": 0.15,
+     "t1": 0.27,
+     "e": 0
+    },
+    {
+     "w": "it",
+     "t0": 0.27,
+     "t1": 0.43,
+     "e": 0
+    },
+    {
+     "w": "wasn't",
+     "t0": 0.43,
+     "t1": 0.67,
+     "e": 0
+    },
+    {
+     "w": "because",
+     "t0": 0.67,
+     "t1": 0.91,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 0.91,
+     "t1": 1.13,
+     "e": 0
+    },
+    {
+     "w": "BUILD,",
+     "t0": 1.13,
+     "t1": 1.25,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 1.35,
+     "t1": 1.49,
+     "e": 0
+    },
+    {
+     "w": "don't",
+     "t0": 1.49,
+     "t1": 1.65,
+     "e": 0
+    },
+    {
+     "w": "think",
+     "t0": 1.65,
+     "t1": 1.83,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 1.83,
+     "t1": 2.01,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 2.01,
+     "t1": 2.19,
+     "e": 0
+    },
+    {
+     "w": "would",
+     "t0": 2.19,
+     "t1": 2.33,
+     "e": 0
+    },
+    {
+     "w": "have",
+     "t0": 2.33,
+     "t1": 2.55,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 2.55,
+     "t1": 2.75,
+     "e": 0
+    },
+    {
+     "w": "confidence",
+     "t0": 2.75,
+     "t1": 3.17,
+     "e": 1
+    },
+    {
+     "w": "I",
+     "t0": 3.17,
+     "t1": 3.35,
+     "e": 0
+    },
+    {
+     "w": "have",
+     "t0": 3.35,
+     "t1": 3.53,
+     "e": 0
+    },
+    {
+     "w": "now.",
+     "t0": 3.53,
+     "t1": 3.91,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.09,
+     "t1": 1.35,
+     "lines": [
+      [
+       0,
+       5
+      ]
+     ]
+    },
+    {
+     "t0": 1.35,
+     "t1": 4.26,
+     "lines": [
+      [
+       6,
+       11
+      ],
+      [
+       12,
+       17
+      ]
+     ]
+    }
+   ],
+   "text": "If it wasn't because of BUILD, I don't think that I would have the confidence I have now.",
+   "timing": "words",
+   "lang": "en"
+  },
+  {
+   "n": 3,
    "title": "Narrator · someone like you",
    "rows": [
-    "00:09.7–00:18.9"
+    "00:10.3–00:19.4"
    ],
    "clip": "34_Traditional_NFTEComcastCTVDonationSpot001-1.mp4",
    "start": 33.65,
@@ -441,68 +591,10 @@
    "lang": "en"
   },
   {
-   "n": 3,
-   "title": "Lucio · Fuel a future like mine",
-   "rows": [
-    "00:18.9–00:23.0"
-   ],
-   "clip": "34_Traditional_NFTEComcastCTVDonationSpot001-1.mp4",
-   "start": 47.15,
-   "src": "34_Traditional_NFTEComcastCTVDonationSpot001-1.mp4 00:47.1",
-   "dur": 1.71,
-   "words": [
-    {
-     "w": "Fuel",
-     "t0": 0.15,
-     "t1": 0.29,
-     "e": 0
-    },
-    {
-     "w": "a",
-     "t0": 0.29,
-     "t1": 0.49,
-     "e": 0
-    },
-    {
-     "w": "future",
-     "t0": 0.49,
-     "t1": 0.69,
-     "e": 0
-    },
-    {
-     "w": "like",
-     "t0": 0.69,
-     "t1": 0.99,
-     "e": 0
-    },
-    {
-     "w": "mine.",
-     "t0": 0.99,
-     "t1": 1.31,
-     "e": 1
-    }
-   ],
-   "pages": [
-    {
-     "t0": 0.09,
-     "t1": 1.66,
-     "lines": [
-      [
-       0,
-       4
-      ]
-     ]
-    }
-   ],
-   "text": "Fuel a future like mine.",
-   "timing": "words",
-   "lang": "en"
-  },
-  {
    "n": 4,
-   "title": "Jessica (stand-in for the BUILD student) · Fuel a future like mine",
+   "title": "Jessica · Fuel a future like mine",
    "rows": [
-    "00:18.9–00:23.0"
+    "00:19.4–00:23.0"
    ],
    "clip": "34_Traditional_NFTEComcastCTVDonationSpot001-1.mp4",
    "start": 45.23,
@@ -560,7 +652,7 @@
    "n": 5,
    "title": "Naije’e · Fuel a future like mine",
    "rows": [
-    "00:18.9–00:23.0"
+    "00:19.4–00:23.0"
    ],
    "clip": "34_Traditional_NFTEComcastCTVDonationSpot001-1.mp4",
    "start": 48.45,
@@ -602,6 +694,64 @@
     {
      "t0": 0.09,
      "t1": 1.98,
+     "lines": [
+      [
+       0,
+       4
+      ]
+     ]
+    }
+   ],
+   "text": "Fuel a future like mine.",
+   "timing": "words",
+   "lang": "en"
+  },
+  {
+   "n": 6,
+   "title": "Lucio · Fuel a future like mine (swap)",
+   "rows": [
+    "00:19.4–00:23.0"
+   ],
+   "clip": "34_Traditional_NFTEComcastCTVDonationSpot001-1.mp4",
+   "start": 47.15,
+   "src": "34_Traditional_NFTEComcastCTVDonationSpot001-1.mp4 00:47.1",
+   "dur": 1.71,
+   "words": [
+    {
+     "w": "Fuel",
+     "t0": 0.15,
+     "t1": 0.29,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 0.29,
+     "t1": 0.49,
+     "e": 0
+    },
+    {
+     "w": "future",
+     "t0": 0.49,
+     "t1": 0.69,
+     "e": 0
+    },
+    {
+     "w": "like",
+     "t0": 0.69,
+     "t1": 0.99,
+     "e": 0
+    },
+    {
+     "w": "mine.",
+     "t0": 0.99,
+     "t1": 1.31,
+     "e": 1
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.09,
+     "t1": 1.66,
      "lines": [
       [
        0,
