@@ -859,6 +859,8 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
 
   function bank(S, d1, d2, r){
     return [
+      ...(S.guarantee ? [{they: "How can you guarantee that?", src: "New pitch", you: say(mk(S.guaranteeAnswer ||
+        "Because we don't just make the video... we run it. We put it on the apps people already use, aimed at the neighborhoods you serve, and you get the numbers every week. If we're short at 30 days, we keep it running at no cost."))}] : []),
       emailObjection(r, S, d1, d2),
       // From Rubik's Oct 27 calls: forwarded-email, contact-form and "call back later" brush-offs.
       {they: "Email me and I'll forward it to my team. / Email our info@ address.", src: "Real call", you:
@@ -943,8 +945,11 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
         say(`May not be the case for y'all... but I'm curious... ${mk(S.question)}`) +
         cue("Pause. Listen."));
     }
+    // Oct 28 (Atdhe): the pitch leads with the result the buyer wants, then how, then a guarantee. Leads without a
+    // results pitch yet keep the old "we help X turn Y into videos" intro.
     h += step(3, "Pitch and close",
-      say(mk(S.intro || defaultIntro(r))) +
+      (S.result ? say(mk(S.result)) + (S.resultHow ? say(mk(S.resultHow)) : "") + (S.guarantee ? say(mk(S.guarantee)) : "")
+                : say(mk(S.intro || defaultIntro(r)))) +
       say(`Well, super simple${sp}... I don't wanna overstay my welcome, but would you be completely opposed to 25 or 30 minutes with our strategist?`) +
       say(`They'll map out what this could look like for ${mk(S.planFor)}... and you keep that plan no matter what you decide.`) +
       say(`Would it be ridiculous to meet... say ${esc(d1)} or ${esc(d2)}?`) +
