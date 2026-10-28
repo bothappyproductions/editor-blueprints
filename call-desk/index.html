@@ -120,6 +120,14 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
 .sheet-head .who{color:var(--muted);font-size:13px}
 .sheet-head .dial{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px}
 .sheet-head .dial .line span{font-size:13px}
+.sheet-head .routes{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px;width:100%}
+.sheet-head .routes li{display:flex;flex-wrap:wrap;gap:3px 8px;align-items:center;font-size:13px}
+.routes .rlab{font-size:11px;font-weight:600;background:var(--lav);border-radius:999px;padding:1px 8px}
+.routes li:first-child .rlab{background:var(--ok-bg);color:var(--ok)}
+.routes .rnum{font-family:var(--mono);font-size:13px;user-select:all}
+.routes .rext{font-family:var(--mono);font-size:13px;font-weight:600}
+.routes .rask{flex-basis:100%;color:var(--muted);font-size:12px}
+.obj.play{border-color:var(--accent)}
 .x{flex:none;font:inherit;font-size:20px;line-height:1;border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:10px;width:36px;height:36px;cursor:pointer}
 .sheet-body{overflow:auto;padding:16px 22px 22px;display:flex;flex-direction:column;gap:18px;min-height:0}
 .brief{background:var(--surface-2);border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:6px;font-size:13px}
@@ -353,6 +361,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
       <div class="outcomes" id="sheet-outcomes">
         <button type="button" data-out="No answer">No answer</button>
         <button type="button" data-out="Left voicemail">Left voicemail</button>
+        <button type="button" data-out="Gatekeeper">Gatekeeper</button>
         <button type="button" data-out="Asked for a call back">Call back</button>
         <button type="button" data-out="Wants an email">Wants an email</button>
         <button type="button" data-out="Meeting set" class="win">Meeting set</button>
@@ -445,6 +454,16 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
   function lineHtml(val, kind){
     if(!val) return "";
     return `<div class="line"><span>${esc(val)}</span><button class="copy" type="button" data-copy="${esc(val)}" aria-label="Copy ${kind}">Copy</button></div>`;
+  }
+  // Oct 28 call review: Apollo "direct" numbers are mostly personal cells (2 of 36 reached anyone); published office
+  // lines reached someone 16 of 72 times. Each lead can carry a researched dial plan, best route first, cell last.
+  function dialHtml(r, S){
+    const rs = Array.isArray(S.routes) ? S.routes.filter(x => x && x.number) : [];
+    const mail = S.bestEmail || r.email;
+    if(!rs.length) return lineHtml(r.phone, "phone") + lineHtml(mail, "email");
+    return `<ol class="routes" aria-label="Dial plan, best first">${rs.map(x =>
+      `<li><span class="rlab">${esc(x.label || "Phone")}</span><span class="rnum">${esc(x.number)}</span><button class="copy" type="button" data-copy="${esc(x.number)}" aria-label="Copy number">Copy</button>${x.ext ? `<span class="rext">ext ${esc(x.ext)}</span>` : ""}${x.ask ? `<span class="rask">${esc(x.ask)}</span>` : ""}</li>`).join("")}</ol>` +
+      lineHtml(mail, "email");
   }
 
   function cardHtml(r){
@@ -776,7 +795,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     const line = `${ANS_LABEL[grp]}: ${c.textContent}`, re = new RegExp("^" + ANS_LABEL[grp] + ": .*$", "m");
     ta.value = re.test(ta.value) ? ta.value.replace(re, line) : [ta.value.trim(), line].filter(Boolean).join("\n");
     ta.dispatchEvent(new Event("change"));
-    const box = c.closest(".ans").querySelector(".mailbox");
+    const box = c.closest(".ans").querySelector(".copymail:not([data-mode]) + .mailbox");
     if(box && !box.hidden){ const m = buildEmail(); box.textContent = `To: ${m.to ? m.to + " (or the one they just gave you)" : "the email they just gave you"}\nSubject: ${m.subject}\n\n${m.text}`; }
   });
   sheetBody.addEventListener("click", (ev) => {
@@ -825,8 +844,8 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
       cue(`If they still want the email: "No problem... I'll send it today." Tap the button below, paste it into your email and send. Then tap "Wants an email" at the bottom. Follow up in two days.`) +
       `<button type="button" class="copymail">Copy the email</button><div class="mailbox" hidden></div>`};
   }
-  function buildEmail(){
-    const {r, S, d1, d2} = cur, a = emailAns;
+  function buildEmail(mode){
+    const {r, S, d1, d2} = cur, a = mode === "vm" ? {} : emailAns;
     const name = S.callName || "there";
     const who = {inhouse: "You mentioned your team makes its own materials, so we'd add the parts that are hard to do in-house: video and other languages, built on what you already have.",
       template: "You mentioned you work from a toolkit, so we'd turn that same approved message into short videos with your name on them.",
@@ -841,7 +860,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     const shown = link.replace(/^https?:\/\//i, "").replace(/\/$/, "");
     const linkLead = /\/for\/(health-coverage-outreach|funders)/.test(link) ? "You can watch the documentary, plus example videos for work like yours, here:"
       : /\/for\//.test(link) ? "You can see example videos for work like yours here:" : "You can see our recent work here:";
-    const subject = `Following up: ${S.planFor}`;
+    const subject = mode === "vm" ? `Following up on my voicemail: ${S.planFor}` : `Following up: ${S.planFor}`;
     // Written English for spoken lines: "..." pauses become commas, first letter capitalized.
     const written = (s) => { s = String(s || "").replace(/\s*\.\.\.\s*/g, ", ").replace(/,\s*([.?!])/g, "$1").trim(); return s ? s[0].toUpperCase() + s.slice(1) : ""; };
     const proofLine = "Recently we made \"Coverage at Risk,\" a short documentary for the State of Connecticut's Commission on Racial Equity in Public Health.";
@@ -851,18 +870,20 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
          S.resultHow ? "Here's what that looks like: " + (w => w[0].toLowerCase() + w.slice(1))(written(S.resultHow)) : "",
          written(S.guarantee), proofLine].filter(Boolean).join(" ")
       : "We're Happy Productions, a video studio in Ansonia, CT. We help organizations turn information they have to get out into short, easy-to-understand videos people actually watch, in the languages they speak. " + proofLine;
-    const paras = [`Hi ${name},`, "Thanks for picking up today. Here's the quick note I promised.",
+    const paras = [`Hi ${name},`, mode === "vm" ? "I just tried you by phone and left a short voicemail. Here's the quick note I mentioned." : "Thanks for picking up today. Here's the quick note I promised.",
       aboutUs,
       [who, where].filter(Boolean).join(" "),
       `Our strategist can map out what this could look like for ${S.planFor} in a 25-minute call, and you keep the plan either way. Would ${d1} or ${d2} work?`,
       "LINK", `${repName}\nHappy Productions`].filter(Boolean);
     const text = paras.map(p => p === "LINK" ? `${linkLead} ${link}` : p).join("\n\n");
     const html = paras.map(p => p === "LINK" ? `<p>${esc(linkLead)} <a href="${esc(link)}">${esc(shown)}</a></p>` : `<p>${esc(p).replace(/\n/g, "<br>")}</p>`).join("");
-    return {to: r.email || "", subject, text, html};
+    return {to: S.bestEmail || r.email || "", subject, text, html};
   }
   async function copyEmail(btn){
-    const m = buildEmail(), box = btn.nextElementSibling;
-    box.textContent = `To: ${m.to ? m.to + " (or the one they just gave you)" : "the email they just gave you"}\nSubject: ${m.subject}\n\n${m.text}`;
+    const vmMode = btn.dataset.mode === "vm";
+    const m = buildEmail(btn.dataset.mode), box = btn.nextElementSibling;
+    const toLine = m.to ? m.to + (vmMode ? "" : " (or the one they just gave you)") : (vmMode ? "no email on file: check the website or ask the front desk" : "the email they just gave you");
+    box.textContent = `To: ${toLine}\nSubject: ${m.subject}\n\n${m.text}`;
     box.hidden = false;
     let ok = false;
     try{ await navigator.clipboard.write([new ClipboardItem({"text/html": new Blob([m.html], {type: "text/html"}), "text/plain": new Blob([m.text], {type: "text/plain"})})]); ok = true; }
@@ -922,6 +943,9 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     if(S.whyFlag && r.status !== "replied") brief.push(`<div class="warn"><b>Check before you say it:</b> ${esc(S.whyFlag)}</div>`);
     if(srcLink(S.source)) brief.push(`<div><b>Where we found them:</b> ${srcLink(S.source)}</div>`);
     brief.push(`<div><b>Ask for:</b> ${nm ? esc(nm) + (S.altName ? ` (or ${esc(S.altName)})` : "") : esc(S.askFor)}${r.contactTitle ? " · " + esc(r.contactTitle) : ""}</div>`);
+    if(S.who) brief.push(`<div class="warn"><b>Now owned by:</b> ${esc(S.who)}. Ask for them by name.</div>`);
+    if(S.routeNote) brief.push(`<div><b>Dial plan:</b> ${esc(S.routeNote)}</div>`);
+    if(Array.isArray(S.dead) && S.dead.length) brief.push(`<div><b>Don't dial:</b> ${esc(S.dead.join("; "))}</div>`);
     if(r.languages) brief.push(`<div><b>Languages:</b> ${esc(r.languages)}</div>`);
     if(touched) brief.push(`<div><b>Already emailed:</b> Atdhe emailed them ${esc(touched)}. This call is the follow-up.</div>`);
     else if(r.firstTouch === "In the email queue") brief.push(`<div><b>Email:</b> an email from Atdhe goes out to them soon. Calling first is fine.</div>`);
@@ -930,10 +954,30 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     let h = `<div class="brief">${brief.join("")}</div>`;
     h += `<p class="legend"><mark>Marked</mark> lines are written for this lead. Asked "what do you mean?" Tap the <span class="term" aria-hidden="true">dotted words</span>.</p>`;
     // Call flow after Rubik's Oct 27 feedback: three short steps read out loud; everything else folds away under "Only if needed".
+    // Oct 28 call review: most dials end at a front desk or a voicemail, so both plays sit right under the opener
+    // (one tap) instead of at the bottom of the page.
+    const first = nm ? nm.split(/\s+/)[0] : "";
+    const them = first ? mk(first) : "them";
+    const reason = S.clock ? mk(S.clock) : `I'm calling about ${mk(S.planFor)}.`;
+    const play = (t, body, open) => `<details class="obj play"${open ? " open" : ""}><summary>${esc(t)}</summary><div class="ans">${body}</div></details>`;
+    const gate = play("Someone else picks up (front desk)",
+      say(first ? `Hi, maybe you can help me... is ${mk(first)} in today?` : `Hi, maybe you can help me... who handles ${mk(S.askFor)} there?`) +
+      cue(`"What's this about?"`) +
+      say(`Sure... ${reason} I'm with Happy Productions... we make short videos that help get that message out. ${first ? `Is ${mk(first)} the right person, or is it someone else now?` : "Who would that be?"}`) +
+      cue(`Not in, or they won't put you through? Don't hang up empty-handed. Ask these, in order:`) +
+      say(`No problem... could you put me through to ${first ? mk(first) + "'s" : "their"} voicemail?`) +
+      say(`And when's the best time to catch ${them} at the desk?`) +
+      say(`Is there a direct line or an extension I should use next time?`) +
+      say(`Last one... what's the best email for ${them}?`) +
+      cue(`Phone tree? Press 0, or dial-by-name. Write down whatever you got (name, extension, best time, email), then tap "Gatekeeper" below.`));
+    const vmail = play("Voicemail: leave one every time",
+      say(`Hi${sp}, it's ${rep} with Happy Productions. ${reason} ${S.cost ? mk(S.cost) : ""} I'm sending you a short email right now with an example... and I'll try you again ${esc(vm)}. Again, ${rep}, Happy Productions. Thanks!`) +
+      cue(`Then tap "Left voicemail" below, and send this email right away so your name is in their inbox when they check messages:`) +
+      `<button type="button" class="copymail" data-mode="vm">Copy the voicemail email</button><div class="mailbox" hidden></div>` +
+      cue(`Calling a cell? Best 8 to 9:30 am or after 4:30 pm their time. If no one picks up, one quick second dial is fine.`));
     h += step(1, "Opener",
       say(nm ? `Hi, is this ${mk(nm)}?` : `Hi... I'm trying to reach ${mk(S.askFor)}. Would that be you?`) +
-      (nm ? cue(`Gatekeeper: "I'm trying to reach ${nm}${S.altName ? " or " + S.altName : ""}... or ${S.askFor}. Who would that be?"`) : "") +
-      cue(`Phone tree, or the directory can't find them? Press 0 for a person and ask the same thing. If ${nm || "they"} left, ask who does it now.`) +
+      gate + vmail +
       say(`Hi${sp}, it's ${rep} from Happy Productions... I know I'm catching you out of the blue... but would it be ridiculous to ask for 30 seconds? Then you can tell me if it's relevant.`) +
       say("Appreciate that.") +
       (touched ? cue(`Atdhe emailed them ${touched}. If it helps, add: "This is a quick follow-up to Atdhe's email."`) : ""));
@@ -977,9 +1021,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
       {t: "After they say yes: a few quick questions", body:
         say("Before I let you go... can I ask a few quick questions so our call is useful for you?") +
         `<ol class="qs">${(S.discovery || []).map(q => `<li><mark>${esc(q)}</mark></li>`).join("")}<li>Who else should be on the call... and is there an outreach or education line in the budget this would come from?</li></ol>` +
-        say(`Got it... that's all from me. Looking forward to ${esc(d1)}.`)},
-      {t: "Voicemail", body:
-        say(`Hi${sp}, it's ${rep} from Happy Productions, a video studio in Ansonia. I'm calling about ${mk(S.planFor)}... we make short videos that help groups like yours get that message out. I'll send a quick email and try you again ${esc(vm)}. Thanks!`)}
+        say(`Got it... that's all from me. Looking forward to ${esc(d1)}.`)}
     ];
     h += `<section class="step"><span class="num">+</span><h3>Only if needed</h3><div class="lines objs">${more.map(m =>
       `<details class="obj"><summary>${esc(m.t)}</summary><div class="ans">${m.body}</div></details>`).join("")}</div></section>`;
@@ -1010,7 +1052,9 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
       try{ const snap = await db.doc("scripts/" + id).get(); if(snap.exists){ S = snap.data(); scriptCache.set(id, S); } }catch{}
     }
     if(openId !== id) return;
-    sheetBody.innerHTML = buildScript(r, Object.assign(fallback(r), S || {}));
+    const SS = Object.assign(fallback(r), S || {});
+    $("sheet-dial").innerHTML = dialHtml(r, SS);
+    sheetBody.innerHTML = buildScript(r, SS);
     try{ linkTerms(sheetBody); }catch{}
     sheetBody.scrollTop = 0;
   }
@@ -1025,14 +1069,15 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
       "Asked for a call back": "When should we call back? (e.g. Wed after 2pm)",
       "Wrong person": "Who did they say to talk to? Name, number or email, if they gave one.",
       "Not a fit": "Why not a fit? (a few words)",
-      "Wants an email": "Which email address, and anyone to cc?"};
+      "Wants an email": "Which email address, and anyone to cc?",
+      "Gatekeeper": "What did you get? Name, extension, best time to call, or email."};
     let extra = "";
     if(ASK[out]){
       const a = window.prompt(ASK[out], "");
       if(a === null) return;
       extra = a.trim();
     }
-    const label = {"Meeting set": "Meeting", "Asked for a call back": "Call back", "Wrong person": "Talk to", "Not a fit": "Why", "Wants an email": "Email to"}[out];
+    const label = {"Meeting set": "Meeting", "Asked for a call back": "Call back", "Wrong person": "Talk to", "Not a fit": "Why", "Wants an email": "Email to", "Gatekeeper": "Got"}[out];
     const stamp = new Date().toLocaleDateString(undefined, {month: "short", day: "numeric"});
     const notes = [`${stamp} · ${out} (${repName})`, extra ? `${label}: ${extra}` : "", ($("sheet-notes").value || "").trim()].filter(Boolean).join("\n");
     $("sheet-notes").value = notes;
