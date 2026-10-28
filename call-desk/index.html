@@ -908,14 +908,29 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
       say(`Hi${sp}, it's ${rep} from Happy Productions... I know I'm catching you out of the blue... but would it be ridiculous to ask for 30 seconds? Then you can tell me if it's relevant.`) +
       say("Appreciate that.") +
       (touched ? cue(`Atdhe emailed them ${touched}. If it helps, add: "This is a quick follow-up to Atdhe's email."`) : ""));
-    h += step(2, "Why I'm calling",
-      say(`So the reason I'm calling... ${S.whyExplain ? `<span class="claim" role="button" tabindex="0" aria-expanded="false" aria-controls="x-why" title="What this means">${mk(S.why)}</span>` : mk(S.why)}`) +
-      (S.whyExplain ? explainBox("x-why", "If they ask what you mean, say", S.whyExplain, S.source, S.whyFlag) : "") +
-      say(mk(S.painGuess || S.pain)) +
+    // Oct 27 (Atdhe): "why I'm calling" is Clock, Cost, Question: a dated change, what it costs their people, then hand
+    // the call to them. The proof (what we saw and where) sits behind the tap. Leads not rewritten yet keep the old lines.
+    const claimSpan = (txt) => `<span class="claim" role="button" tabindex="0" aria-expanded="false" aria-controls="x-why" title="How we know">${mk(txt)}</span>`;
+    if(S.clock){
+      const proof = S.proof || S.whyExplain;
+      const dl = S.clockSource && okUrl(S.clockSource.url) && (!S.source || S.clockSource.url !== S.source.url)
+        ? `<p class="explain-src">Deadline source: ${srcLink(S.clockSource)}</p>` : "";
+      h += step(2, "Why I'm calling",
+        say(proof ? claimSpan(S.clock) : mk(S.clock)) +
+        (proof ? explainBox("x-why", "If they ask how you know, say", proof, S.source || S.clockSource, S.whyFlag).replace(/<\/div>$/, dl + "</div>") : "") +
+        say(mk(S.cost)) +
+        say(mk(S.ask)) +
+        cue("Pause. Let them talk."));
+    } else {
+      h += step(2, "Why I'm calling",
+        say(`So the reason I'm calling... ${S.whyExplain ? claimSpan(S.why) : mk(S.why)}`) +
+        (S.whyExplain ? explainBox("x-why", "If they ask what you mean, say", S.whyExplain, S.source, S.whyFlag) : "") +
+        say(mk(S.painGuess || S.pain)) +
+        say(`May not be the case for y'all... but I'm curious... ${mk(S.question)}`) +
+        cue("Pause. Listen."));
+    }
+    h += step(3, "Pitch and close",
       say(mk(S.intro || defaultIntro(r))) +
-      say(`May not be the case for y'all... but I'm curious... ${mk(S.question)}`) +
-      cue("Pause. Listen."));
-    h += step(3, "Close",
       say(`Well, super simple${sp}... I don't wanna overstay my welcome, but would you be completely opposed to 25 or 30 minutes with our strategist?`) +
       say(`They'll map out what this could look like for ${mk(S.planFor)}... and you keep that plan no matter what you decide.`) +
       say(`Would it be ridiculous to meet... say ${esc(d1)} or ${esc(d2)}?`) +
