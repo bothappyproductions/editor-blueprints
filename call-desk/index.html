@@ -860,6 +860,19 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
   function bank(S, d1, d2, r){
     return [
       emailObjection(r, S, d1, d2),
+      // From Rubik's Oct 27 calls: forwarded-email, contact-form and "call back later" brush-offs.
+      {they: "Email me and I'll forward it to my team. / Email our info@ address.", src: "Real call", you:
+        say("Happy to... who should I copy on it, so it doesn't get lost?") +
+        say("And who on your team would make the call on something like this?"),
+        cue: `Write the names and emails in the notes. Tap "Wants an email", use "Copy the email" above, cc them, and follow up in two days.`},
+      {they: "Just fill out the contact form on our website.", src: "Real call", you:
+        say("Sure, I'll do that today.") +
+        say("So it reaches the right person... whose name should I put on it?"),
+        cue: "Write the name in the notes. Paste the copied email into their form. If they're about to hang up, don't push the meeting; get the name and go."},
+      {they: "She's not in. Call back later.", src: "Real call", you:
+        say("No problem... what time is she usually at her desk?") +
+        say("And is there a direct line or an extension I should use?"),
+        cue: `Tap "Call back" and type the time they gave you.`},
       {they: "You've got the wrong person. / That's a different department.", src: "Real call", you: say("Thanks for telling me... I don't want to bug the wrong person. Who handles that?") + say("Would you mind transferring me... or sharing their name, so I can say you sent me?"), cue: `If they won't give a name, ask for that office's main number. Then tap "Wrong person" below and write what they said in the notes, so we can find the right contact.`},
       {they: "We already work with a communications consultant.", src: "Real reply", you: say("That's great... consultants are usually the idea people. We're the production side... we film, edit and translate, so the videos actually get made. A lot of the time we work right alongside the consultant.") + say("What would it take to get them on a quick call with us too?")},
       {they: "You'll need to register with our purchasing department first.", src: "Real reply", you: say("Of course, we'll do that. What's the name of the system... and who in purchasing should we talk to?") + say("And for a small project like this... how does it usually work on your side, quotes or a full bid?"), cue: "Write the portal name and link in the notes so we get registered."},
@@ -905,6 +918,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     h += step(1, "Opener",
       say(nm ? `Hi, is this ${mk(nm)}?` : `Hi... I'm trying to reach ${mk(S.askFor)}. Would that be you?`) +
       (nm ? cue(`Gatekeeper: "I'm trying to reach ${nm}${S.altName ? " or " + S.altName : ""}... or ${S.askFor}. Who would that be?"`) : "") +
+      cue(`Phone tree, or the directory can't find them? Press 0 for a person and ask the same thing. If ${nm || "they"} left, ask who does it now.`) +
       say(`Hi${sp}, it's ${rep} from Happy Productions... I know I'm catching you out of the blue... but would it be ridiculous to ask for 30 seconds? Then you can tell me if it's relevant.`) +
       say("Appreciate that.") +
       (touched ? cue(`Atdhe emailed them ${touched}. If it helps, add: "This is a quick follow-up to Atdhe's email."`) : ""));
@@ -987,8 +1001,22 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     const b = ev.target.closest("button[data-out]"); if(!b || !openId || readOnly || !db) return;
     const id = openId, out = b.dataset.out;
     const status = out === "Meeting set" ? "meeting" : out === "Not a fit" ? "not_fit" : "called";
+    // Oct 27 call log: a "Meeting set" was tapped by mistake on a gatekeeper call, and call-backs, wrong-person referrals
+    // and not-a-fit reasons went unrecorded. Ask one quick question for these outcomes; Cancel means nothing is logged.
+    const ASK = {"Meeting set": "Meeting day and time? (Cancel if no meeting was booked.)",
+      "Asked for a call back": "When should we call back? (e.g. Wed after 2pm)",
+      "Wrong person": "Who did they say to talk to? Name, number or email, if they gave one.",
+      "Not a fit": "Why not a fit? (a few words)",
+      "Wants an email": "Which email address, and anyone to cc?"};
+    let extra = "";
+    if(ASK[out]){
+      const a = window.prompt(ASK[out], "");
+      if(a === null) return;
+      extra = a.trim();
+    }
+    const label = {"Meeting set": "Meeting", "Asked for a call back": "Call back", "Wrong person": "Talk to", "Not a fit": "Why", "Wants an email": "Email to"}[out];
     const stamp = new Date().toLocaleDateString(undefined, {month: "short", day: "numeric"});
-    const notes = [`${stamp} · ${out} (${repName})`, ($("sheet-notes").value || "").trim()].filter(Boolean).join("\n");
+    const notes = [`${stamp} · ${out} (${repName})`, extra ? `${label}: ${extra}` : "", ($("sheet-notes").value || "").trim()].filter(Boolean).join("\n");
     $("sheet-notes").value = notes;
     const _prev = ((rows.find(x => x.id === id) || {}).notes || "").trim();
     const _typed = (($("sheet-notes").value || "").replace(notes.split("\n")[0], "")).trim();
