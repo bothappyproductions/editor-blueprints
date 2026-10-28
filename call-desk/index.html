@@ -836,7 +836,11 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
       planning: "since you're still planning, now is a good time to add video.",
       notstarted: "since it hasn't started yet, a short plan now makes the deadline easier."}[a.where] || "";
     const where = when ? (who ? "And " + when : when[0].toUpperCase() + when.slice(1)) : "";
+    // Direct link to the lead's sector page (no redirect or tracking wrapper), shown spelled out so the reader sees exactly where it goes.
     const link = okUrl(r.sectorPage) ? r.sectorPage : "https://www.happyproductions.me";
+    const shown = link.replace(/^https?:\/\//i, "").replace(/\/$/, "");
+    const linkLead = /\/for\/(health-coverage-outreach|funders)/.test(link) ? "You can watch the documentary, plus example videos for work like yours, here:"
+      : /\/for\//.test(link) ? "You can see example videos for work like yours here:" : "You can see our recent work here:";
     const subject = `Following up: ${S.planFor}`;
     // Written English for spoken lines: "..." pauses become commas, first letter capitalized.
     const written = (s) => { s = String(s || "").replace(/\s*\.\.\.\s*/g, ", ").replace(/,\s*([.?!])/g, "$1").trim(); return s ? s[0].toUpperCase() + s.slice(1) : ""; };
@@ -852,8 +856,8 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
       [who, where].filter(Boolean).join(" "),
       `Our strategist can map out what this could look like for ${S.planFor} in a 25-minute call, and you keep the plan either way. Would ${d1} or ${d2} work?`,
       "LINK", `${repName}\nHappy Productions`].filter(Boolean);
-    const text = paras.map(p => p === "LINK" ? `You can see some of our recent work here: ${link}` : p).join("\n\n");
-    const html = paras.map(p => p === "LINK" ? `<p>You can see <a href="${esc(link)}">some of our recent work here</a>.</p>` : `<p>${esc(p).replace(/\n/g, "<br>")}</p>`).join("");
+    const text = paras.map(p => p === "LINK" ? `${linkLead} ${link}` : p).join("\n\n");
+    const html = paras.map(p => p === "LINK" ? `<p>${esc(linkLead)} <a href="${esc(link)}">${esc(shown)}</a></p>` : `<p>${esc(p).replace(/\n/g, "<br>")}</p>`).join("");
     return {to: r.email || "", subject, text, html};
   }
   async function copyEmail(btn){
