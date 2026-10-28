@@ -838,8 +838,17 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     const where = when ? (who ? "And " + when : when[0].toUpperCase() + when.slice(1)) : "";
     const link = okUrl(r.sectorPage) ? r.sectorPage : "https://www.happyproductions.me";
     const subject = `Following up: ${S.planFor}`;
+    // Written English for spoken lines: "..." pauses become commas, first letter capitalized.
+    const written = (s) => { s = String(s || "").replace(/\s*\.\.\.\s*/g, ", ").replace(/,\s*([.?!])/g, "$1").trim(); return s ? s[0].toUpperCase() + s.slice(1) : ""; };
+    const proofLine = "Recently we made \"Coverage at Risk,\" a short documentary for the State of Connecticut's Commission on Racial Equity in Public Health.";
+    const aboutUs = S.result
+      ? [`We're Happy Productions, ${r.state === "CT" ? "a video studio in Ansonia, CT" : "a video studio serving " + (S.area || "your area")}.`,
+         written(String(S.result).split(/,\s+and\s+/).slice(1).join(", and ")),
+         S.resultHow ? "Here's what that looks like: " + (w => w[0].toLowerCase() + w.slice(1))(written(S.resultHow)) : "",
+         written(S.guarantee), proofLine].filter(Boolean).join(" ")
+      : "We're Happy Productions, a video studio in Ansonia, CT. We help organizations turn information they have to get out into short, easy-to-understand videos people actually watch, in the languages they speak. " + proofLine;
     const paras = [`Hi ${name},`, "Thanks for picking up today. Here's the quick note I promised.",
-      "We're Happy Productions, a video studio in Ansonia, CT. We help organizations turn information they have to get out into short, easy-to-understand videos people actually watch, in the languages they speak. Recently we made \"Coverage at Risk,\" a short documentary for the State of Connecticut's Commission on Racial Equity in Public Health.",
+      aboutUs,
       [who, where].filter(Boolean).join(" "),
       `Our strategist can map out what this could look like for ${S.planFor} in a 25-minute call, and you keep the plan either way. Would ${d1} or ${d2} work?`,
       "LINK", `${repName}\nHappy Productions`].filter(Boolean);
