@@ -689,5 +689,51 @@
     "#FFFFFF"
    ]
   ]
+ },
+ "cass": {
+  "google": "Work+Sans:wght@500;600;700;800|Aboreto",
+  "head": {
+   "css": "\"Work Sans\"",
+   "w": 800
+  },
+  "body": {
+   "css": "\"Work Sans\"",
+   "w": 600
+  },
+  "pal": {
+   "bg": "#2C2B77",
+   "fg": "#FFFFFF",
+   "ac": "#26B485",
+   "ac2": "#EEEEF1",
+   "onAc": "#FFFFFF"
+  },
+  "font_note": "Work Sans, the CASS site body font. The site uses Aboreto for display headings; it is a thin all-caps face, so graphics use Work Sans ExtraBold for headlines.",
+  "rules": [
+   "Logo only on the end card, never at 0:00.",
+   "CASS always in capitals.",
+   "Captions: white on the navy #2C2B77 box."
+  ],
+  "colors": [
+   [
+    "CASS Navy",
+    "#2C2B77"
+   ],
+   [
+    "CASS Green",
+    "#26B485"
+   ],
+   [
+    "CASS Blue",
+    "#006C9F"
+   ],
+   [
+    "CASS Purple",
+    "#7E3F98"
+   ],
+   [
+    "Light Neutral",
+    "#EEEEF1"
+   ]
+  ]
  }
 }

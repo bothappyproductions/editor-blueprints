@@ -1,0 +1,126 @@
+{
+ "item": "13275410585",
+ "client": "dream-center-dallas",
+ "note": "The script asks for six graphics: the hook text on frame 1, three first-name supers (Eliana, Lauren, Ethan), two top texts and the end card. Evan's row is too short for a super. Every other row is captions only. Dream Center Dallas has not sent its logo yet, so the end card types the name; the logo file is still owed (Nick).",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "SHE'S SEVEN. SHE'S HAPPY."
+   },
+   "cue": "Hook text on frame 1: SHE'S SEVEN. SHE'S HAPPY. Already on screen at 0:00. It does not animate on.",
+   "src": "Script, row 00:00-00:04, Motion graphics & type.",
+   "rows": [
+    "00:00-00:04"
+   ],
+   "use": "Hook text in the top third, already on screen at 0:00. Start the clip at frame 0045 (fully on) and hold it until the cut at 00:04."
+  },
+  {
+   "n": 2,
+   "title": "Name super Eliana",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Eliana"
+   },
+   "cue": "Name super at 00:05, lower left, 2 seconds: Eliana",
+   "src": "Script, row 00:04-00:08, Motion graphics & type.",
+   "rows": [
+    "00:04-00:08"
+   ],
+   "use": "Name super from 00:05 for 2 seconds. Move it lower left, above the captions."
+  },
+  {
+   "n": 3,
+   "title": "Line at 7 a.m.",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "they started lining up at 7 a.m."
+   },
+   "cue": "Top text at 00:11, 3 seconds: they started lining up at 7 a.m.",
+   "src": "Script, row 00:10-00:17, Motion graphics & type.",
+   "rows": [
+    "00:10-00:17"
+   ],
+   "use": "Top band from 00:11 for 3 seconds, while the cars wait on screen. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "Name super Lauren",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Lauren"
+   },
+   "cue": "Name super at 00:18, lower left, 2 seconds: Lauren",
+   "src": "Script, row 00:17-00:23, Motion graphics & type.",
+   "rows": [
+    "00:17-00:23"
+   ],
+   "use": "Name super from 00:18 for 2 seconds. Move it lower left, above the captions."
+  },
+  {
+   "n": 5,
+   "title": "Her message",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Her message to the world"
+   },
+   "cue": "Top text at 00:23, 3 seconds: Her message to the world",
+   "src": "Script, row 00:23-00:27, Motion graphics & type.",
+   "rows": [
+    "00:23-00:27"
+   ],
+   "use": "Top band from 00:23 for 3 seconds, over Eliana. Keep captions on."
+  },
+  {
+   "n": 6,
+   "title": "Name super Ethan",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Ethan"
+   },
+   "cue": "Name super at 00:27, lower left, 2 seconds: Ethan",
+   "src": "Script, row 00:27-00:32, Motion graphics & type.",
+   "rows": [
+    "00:27-00:32"
+   ],
+   "use": "Name super from 00:27 for 2 seconds. Move it lower left, above the captions."
+  },
+  {
+   "n": 7,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:37-00:40"
+   ],
+   "cue": "End card: Dream Center Dallas name or logo + Adopt-A-Block. Every month. + Volunteer · Give.",
+   "src": "Dream Center Dallas has not sent its logo yet; the name is typed until Nick sends it, as the script says. Source date: 22 Oct 2026.",
+   "c": {
+    "bg": "#75B941",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "Dream Center Dallas",
+    "lines": [
+     "Adopt-A-Block. Every month.",
+     "Volunteer · Give"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 00:37 after the last line and hold it to the end."
+  }
+ ]
+}
