@@ -122,8 +122,9 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
 .sheet-head .dial .line span{font-size:13px}
 .sheet-head .routes{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px;width:100%}
 .sheet-head .routes li{display:flex;flex-wrap:wrap;gap:3px 8px;align-items:center;font-size:13px}
-.routes .rlab{font-size:11px;font-weight:600;background:var(--lav);border-radius:999px;padding:1px 8px}
+.routes .rlab,.dial .line .rlab{font-size:11px;font-weight:600;background:var(--lav);border-radius:999px;padding:1px 8px}
 .routes li:first-child .rlab{background:var(--ok-bg);color:var(--ok)}
+.dial .line .rlab{white-space:nowrap;flex:none}
 .routes .rnum{font-family:var(--mono);font-size:13px;user-select:all}
 .routes .rext{font-family:var(--mono);font-size:13px;font-weight:600}
 .routes .rask{flex-basis:100%;color:var(--muted);font-size:12px}
@@ -457,13 +458,18 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
   }
   // Oct 28 call review: Apollo "direct" numbers are mostly personal cells (2 of 36 reached anyone); published office
   // lines reached someone 16 of 72 times. Each lead can carry a researched dial plan, best route first, cell last.
+  // Oct 29 (Atdhe): the lead's own landing page, ready to copy into any email Rubik writes himself.
+  function pageLine(r){
+    if(!okUrl(r.sectorPage)) return "";
+    return `<div class="line"><b class="rlab">Page to send</b><span>${esc(r.sectorPage)}</span><button class="copy" type="button" data-copy="${esc(r.sectorPage)}" aria-label="Copy page link">Copy</button></div>`;
+  }
   function dialHtml(r, S){
     const rs = Array.isArray(S.routes) ? S.routes.filter(x => x && x.number) : [];
     const mail = S.bestEmail || r.email;
-    if(!rs.length) return lineHtml(r.phone, "phone") + lineHtml(mail, "email");
+    if(!rs.length) return lineHtml(r.phone, "phone") + lineHtml(mail, "email") + pageLine(r);
     return `<ol class="routes" aria-label="Dial plan, best first">${rs.map(x =>
       `<li><span class="rlab">${esc(x.label || "Phone")}</span><span class="rnum">${esc(x.number)}</span><button class="copy" type="button" data-copy="${esc(x.number)}" aria-label="Copy number">Copy</button>${x.ext ? `<span class="rext">ext ${esc(x.ext)}</span>` : ""}${x.ask ? `<span class="rask">${esc(x.ask)}</span>` : ""}</li>`).join("")}</ol>` +
-      lineHtml(mail, "email");
+      lineHtml(mail, "email") + pageLine(r);
   }
 
   function cardHtml(r){
