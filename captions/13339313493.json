@@ -1,0 +1,718 @@
+{
+ "item": "13339313493",
+ "client": "niwrc",
+ "style": {
+  "font": {
+   "css": "\"Source Sans 3\"",
+   "w": 700
+  },
+  "size": 62,
+  "y": 1380,
+  "max_lines": 2,
+  "reveal": "phrase",
+  "fg": "#FFFFFF",
+  "shadow": true
+ },
+ "note": "Plain sans (Source Sans 3), white, soft shadow, low in the frame (NIWRC style). Timed from the words in the source clip. Pauses over 0.7 s are cut to 0.25 s, as the plan says, so the caption times follow the cut. Word times from the machine transcript can drift: check by ear.",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Hook",
+   "rows": [
+    "00:00-00:02"
+   ],
+   "clip": "26-10-09 C1 Happy - NIWRC Event 4.MP4",
+   "start": 7.01,
+   "src": "26-10-09 C1 Happy - NIWRC Event 4.MP4 00:07.0",
+   "dur": 1.22,
+   "words": [
+    {
+     "w": "Yes,",
+     "t0": 0.15,
+     "t1": 0.27,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 0.41,
+     "t1": 0.51,
+     "e": 0
+    },
+    {
+     "w": "am",
+     "t0": 0.51,
+     "t1": 0.65,
+     "e": 0
+    },
+    {
+     "w": "happy.",
+     "t0": 0.65,
+     "t1": 0.77,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "lines": [
+      [
+       0,
+       3
+      ]
+     ],
+     "t1": 1.12
+    }
+   ],
+   "text": "Yes, I am happy.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 2,
+   "title": "Community",
+   "rows": [
+    "00:02-00:07"
+   ],
+   "clip": "26-10-09 C1 Happy - NIWRC Event 4.MP4",
+   "start": 11.26,
+   "src": "26-10-09 C1 Happy - NIWRC Event 4.MP4 00:11.3",
+   "dur": 5.5,
+   "words": [
+    {
+     "w": "My",
+     "t0": 0.15,
+     "t1": 0.21,
+     "e": 0
+    },
+    {
+     "w": "source",
+     "t0": 0.21,
+     "t1": 0.37,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 0.37,
+     "t1": 0.59,
+     "e": 0
+    },
+    {
+     "w": "happiness",
+     "t0": 0.59,
+     "t1": 0.77,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 0.77,
+     "t1": 1.21,
+     "e": 0
+    },
+    {
+     "w": "being",
+     "t0": 1.21,
+     "t1": 1.37,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 1.37,
+     "t1": 1.57,
+     "e": 0
+    },
+    {
+     "w": "community",
+     "t0": 1.57,
+     "t1": 1.73,
+     "e": 0
+    },
+    {
+     "w": "with",
+     "t0": 1.73,
+     "t1": 2.35,
+     "e": 0
+    },
+    {
+     "w": "my",
+     "t0": 2.35,
+     "t1": 2.61,
+     "e": 0
+    },
+    {
+     "w": "fellow",
+     "t0": 2.61,
+     "t1": 3.69,
+     "e": 0
+    },
+    {
+     "w": "friends,",
+     "t0": 3.69,
+     "t1": 3.99,
+     "e": 0
+    },
+    {
+     "w": "family,",
+     "t0": 4.27,
+     "t1": 4.43,
+     "e": 0
+    },
+    {
+     "w": "community.",
+     "t0": 4.75,
+     "t1": 5.05,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "lines": [
+      [
+       0,
+       3
+      ],
+      [
+       4,
+       7
+      ]
+     ],
+     "t1": 1.68
+    },
+    {
+     "t0": 1.68,
+     "lines": [
+      [
+       8,
+       11
+      ],
+      [
+       12,
+       13
+      ]
+     ],
+     "t1": 5.4
+    }
+   ],
+   "text": "My source of happiness is being in community with my fellow friends, family, community.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 3,
+   "title": "Good Medicine",
+   "rows": [
+    "00:07-00:16"
+   ],
+   "clip": "26-10-09 C1 Happy - NIWRC Event 4.MP4",
+   "start": 24.16,
+   "src": "26-10-09 C1 Happy - NIWRC Event 4.MP4 00:24.2",
+   "dur": 9.0,
+   "words": [
+    {
+     "w": "Living",
+     "t0": 0.15,
+     "t1": 0.23,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 0.23,
+     "t1": 0.39,
+     "e": 0
+    },
+    {
+     "w": "St.",
+     "t0": 0.39,
+     "t1": 0.53,
+     "e": 0
+    },
+    {
+     "w": "Louis,",
+     "t0": 0.63,
+     "t1": 0.73,
+     "e": 0
+    },
+    {
+     "w": "there's",
+     "t0": 0.93,
+     "t1": 1.05,
+     "e": 0
+    },
+    {
+     "w": "not",
+     "t0": 1.05,
+     "t1": 1.11,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 1.11,
+     "t1": 1.23,
+     "e": 0
+    },
+    {
+     "w": "lot",
+     "t0": 1.23,
+     "t1": 1.29,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 1.29,
+     "t1": 1.45,
+     "e": 0
+    },
+    {
+     "w": "Native",
+     "t0": 1.45,
+     "t1": 1.51,
+     "e": 0
+    },
+    {
+     "w": "people.",
+     "t0": 1.51,
+     "t1": 1.81,
+     "e": 0
+    },
+    {
+     "w": "So",
+     "t0": 2.45,
+     "t1": 2.53,
+     "e": 0
+    },
+    {
+     "w": "when",
+     "t0": 2.53,
+     "t1": 2.73,
+     "e": 0
+    },
+    {
+     "w": "we",
+     "t0": 2.73,
+     "t1": 2.87,
+     "e": 0
+    },
+    {
+     "w": "have",
+     "t0": 2.87,
+     "t1": 3.35,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 3.35,
+     "t1": 3.59,
+     "e": 0
+    },
+    {
+     "w": "luxury",
+     "t0": 3.59,
+     "t1": 3.81,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 3.81,
+     "t1": 4.15,
+     "e": 0
+    },
+    {
+     "w": "traveling",
+     "t0": 4.15,
+     "t1": 4.35,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 4.35,
+     "t1": 4.77,
+     "e": 0
+    },
+    {
+     "w": "going",
+     "t0": 4.77,
+     "t1": 4.89,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 4.89,
+     "t1": 5.01,
+     "e": 0
+    },
+    {
+     "w": "different",
+     "t0": 5.01,
+     "t1": 5.15,
+     "e": 0
+    },
+    {
+     "w": "conferences,",
+     "t0": 5.15,
+     "t1": 5.41,
+     "e": 0
+    },
+    {
+     "w": "being",
+     "t0": 5.85,
+     "t1": 5.91,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 5.91,
+     "t1": 6.07,
+     "e": 0
+    },
+    {
+     "w": "community",
+     "t0": 6.07,
+     "t1": 6.25,
+     "e": 0
+    },
+    {
+     "w": "with",
+     "t0": 6.25,
+     "t1": 6.59,
+     "e": 0
+    },
+    {
+     "w": "Native",
+     "t0": 6.59,
+     "t1": 6.73,
+     "e": 0
+    },
+    {
+     "w": "peoples,",
+     "t0": 6.73,
+     "t1": 6.99,
+     "e": 0
+    },
+    {
+     "w": "that's",
+     "t0": 7.33,
+     "t1": 8.25,
+     "e": 0
+    },
+    {
+     "w": "good",
+     "t0": 8.25,
+     "t1": 8.33,
+     "e": 0
+    },
+    {
+     "w": "medicine.",
+     "t0": 8.33,
+     "t1": 8.55,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "lines": [
+      [
+       0,
+       4
+      ],
+      [
+       5,
+       10
+      ]
+     ],
+     "t1": 2.4
+    },
+    {
+     "t0": 2.4,
+     "lines": [
+      [
+       11,
+       16
+      ],
+      [
+       17,
+       20
+      ]
+     ],
+     "t1": 4.84
+    },
+    {
+     "t0": 4.84,
+     "lines": [
+      [
+       21,
+       23
+      ],
+      [
+       24,
+       28
+      ]
+     ],
+     "t1": 6.68
+    },
+    {
+     "t0": 6.68,
+     "lines": [
+      [
+       29,
+       32
+      ]
+     ],
+     "t1": 8.9
+    }
+   ],
+   "text": "Living in St. Louis, there's not a lot of Native people. So when we have the luxury of traveling and going to different conferences, being in community with Native peoples, that's good medicine.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 4,
+   "title": "Energized",
+   "rows": [
+    "00:16-00:18"
+   ],
+   "clip": "26-10-09 C1 Happy - NIWRC Event 4.MP4",
+   "start": 33.36,
+   "src": "26-10-09 C1 Happy - NIWRC Event 4.MP4 00:33.4",
+   "dur": 1.85,
+   "words": [
+    {
+     "w": "That",
+     "t0": 0.15,
+     "t1": 0.27,
+     "e": 0
+    },
+    {
+     "w": "makes",
+     "t0": 0.27,
+     "t1": 0.43,
+     "e": 0
+    },
+    {
+     "w": "me",
+     "t0": 0.43,
+     "t1": 0.63,
+     "e": 0
+    },
+    {
+     "w": "energized.",
+     "t0": 0.63,
+     "t1": 0.83,
+     "e": 0
+    },
+    {
+     "w": "Passionate.",
+     "t0": 1.08,
+     "t1": 1.4,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "lines": [
+      [
+       0,
+       3
+      ]
+     ],
+     "t1": 1.03
+    },
+    {
+     "t0": 1.03,
+     "lines": [
+      [
+       4,
+       4
+      ]
+     ],
+     "t1": 1.75
+    }
+   ],
+   "text": "That makes me energized. Passionate.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 5,
+   "title": "Support Native People",
+   "rows": [
+    "00:18-00:25"
+   ],
+   "clip": "26-10-09 C1 Happy - NIWRC Event 4.MP4",
+   "start": 44.42,
+   "src": "26-10-09 C1 Happy - NIWRC Event 4.MP4 00:44.4",
+   "dur": 7.72,
+   "words": [
+    {
+     "w": "If",
+     "t0": 0.15,
+     "t1": 0.27,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 0.27,
+     "t1": 0.37,
+     "e": 0
+    },
+    {
+     "w": "give",
+     "t0": 0.37,
+     "t1": 0.49,
+     "e": 0
+    },
+    {
+     "w": "one",
+     "t0": 0.49,
+     "t1": 0.67,
+     "e": 0
+    },
+    {
+     "w": "message",
+     "t0": 0.67,
+     "t1": 0.85,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 0.85,
+     "t1": 1.15,
+     "e": 0
+    },
+    {
+     "w": "people",
+     "t0": 1.15,
+     "t1": 1.31,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 1.31,
+     "t1": 1.73,
+     "e": 0
+    },
+    {
+     "w": "support",
+     "t0": 1.73,
+     "t1": 2.07,
+     "e": 0
+    },
+    {
+     "w": "Native",
+     "t0": 2.07,
+     "t1": 2.43,
+     "e": 0
+    },
+    {
+     "w": "people,",
+     "t0": 2.43,
+     "t1": 3.41,
+     "e": 0
+    },
+    {
+     "w": "support",
+     "t0": 3.77,
+     "t1": 4.11,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 4.11,
+     "t1": 4.37,
+     "e": 0
+    },
+    {
+     "w": "artwork,",
+     "t0": 4.37,
+     "t1": 4.55,
+     "e": 0
+    },
+    {
+     "w": "support",
+     "t0": 5.05,
+     "t1": 5.25,
+     "e": 0
+    },
+    {
+     "w": "their",
+     "t0": 5.25,
+     "t1": 5.53,
+     "e": 0
+    },
+    {
+     "w": "projects,",
+     "t0": 5.53,
+     "t1": 5.71,
+     "e": 0
+    },
+    {
+     "w": "support",
+     "t0": 6.29,
+     "t1": 6.83,
+     "e": 0
+    },
+    {
+     "w": "their",
+     "t0": 6.83,
+     "t1": 7.09,
+     "e": 0
+    },
+    {
+     "w": "businesses",
+     "t0": 7.09,
+     "t1": 7.27,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "lines": [
+      [
+       0,
+       4
+      ],
+      [
+       5,
+       9
+      ]
+     ],
+     "t1": 2.38
+    },
+    {
+     "t0": 2.38,
+     "lines": [
+      [
+       10,
+       13
+      ],
+      [
+       14,
+       16
+      ]
+     ],
+     "t1": 6.24
+    },
+    {
+     "t0": 6.24,
+     "lines": [
+      [
+       17,
+       19
+      ]
+     ],
+     "t1": 7.62
+    }
+   ],
+   "text": "If I give one message to people is support Native people, support the artwork, support their projects, support their businesses",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  }
+ ]
+}

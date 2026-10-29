@@ -1,0 +1,93 @@
+{
+ "item": "13339292799",
+ "client": "niwrc",
+ "note": "The script asks for the hook text, one name super, two top question texts and the end card, so 4 graphics and the end card.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook question",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "Are you happy?"
+   },
+   "cue": "Hook text on frame 1: “Are you happy?” Already on screen at 0:00. Does not animate on.",
+   "src": "Script, row 00:00-00:02, Motion graphics & type.",
+   "rows": [
+    "00:00-00:02"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:02. Top third, white, bold."
+  },
+  {
+   "n": 2,
+   "title": "Question text",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "What is the source of your happiness?"
+   },
+   "cue": "Top text at 00:02, 2 s: “What is the source of your happiness?”",
+   "src": "Script, row 00:02-00:12, Motion graphics & type.",
+   "rows": [
+    "00:02-00:12"
+   ],
+   "use": "Put it on at 00:02 and hold 2 s, in the top band. Keep captions on."
+  },
+  {
+   "n": 3,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Brandi Liberty"
+   },
+   "cue": "Name super at 00:04 for 2 s, lower left above the captions: “Brandi Liberty” / Board Treasurer, NIWRC",
+   "src": "Script, row 00:02-00:12, Motion graphics & type.",
+   "rows": [
+    "00:02-00:12"
+   ],
+   "use": "Put it on at 00:04 for 2 s. Move it lower left, above the captions. Type the second line <Board Treasurer, NIWRC> under the name."
+  },
+  {
+   "n": 4,
+   "title": "Question text",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "One message to the entire world?"
+   },
+   "cue": "Top text at 00:12, 2 s: “One message to the entire world?”",
+   "src": "Script, row 00:12-00:25, Motion graphics & type.",
+   "rows": [
+    "00:12-00:25"
+   ],
+   "use": "Put it on at 00:12 and hold 2 s, in the top band. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:25-00:28"
+   ],
+   "cue": "End card: NIWRC logo, white on red #981C20. One line under it: NIWRC × Happy Productions. The logo is here only.",
+   "src": "NIWRC logo (white) from NIWRC's onboarding brand file, in the brand kit 10 Oct 2026 (endcards/index.json). Client rule: white logo on red.",
+   "c": {
+    "bg": "#981C20",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/niwrc/niwrc-logo-white.svg",
+   "text": {
+    "lines": [
+     "NIWRC × Happy Productions"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it right after the last line and hold it to the end. Music fades out over 1 s."
+  }
+ ]
+}
