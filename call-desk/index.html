@@ -178,7 +178,8 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
 .chip{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:6px 11px;cursor:pointer}
 .chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .copymail{font:inherit;font-size:13px;font-weight:600;border:1px solid var(--accent);background:var(--bg);color:var(--ink);border-radius:999px;padding:7px 12px;cursor:pointer;align-self:flex-start}
-.ans [hidden]{display:none}
+.ans [hidden],.step [hidden]{display:none}
+.ifans{display:flex;flex-direction:column;gap:8px}
 .mailbox{border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:13px;white-space:pre-wrap;user-select:text}
 .sheet-foot textarea{font:inherit;font-size:13px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:7px 9px;width:100%;min-height:44px;resize:vertical}
 .saved{font-size:12px;color:var(--muted)}
@@ -789,7 +790,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     btn.setAttribute("aria-expanded", String(!box.hidden));
   }
   let cur = {}, emailAns = {};
-  const ANS_LABEL = {where: "Where they are", who: "Who makes it"};
+  const ANS_LABEL = {where: "Where they are", who: "Who makes it", now: "Doing now"};
   sheetBody.addEventListener("click", (ev) => {
     const mb = ev.target.closest(".copymail");
     if(mb){ ev.preventDefault(); copyEmail(mb); return; }
@@ -797,11 +798,11 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     const grp = c.dataset.grp, ta = $("sheet-notes");
     c.parentElement.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", String(x === c)));
     emailAns[grp] = c.dataset.val;
-    if(grp === "who") c.closest(".ans").querySelectorAll("[data-for]").forEach(el => { el.hidden = el.dataset.for !== c.dataset.val; });
+    if(grp === "who" || grp === "now") c.closest(".ans, .lines").querySelectorAll("[data-for]").forEach(el => { el.hidden = el.dataset.for !== c.dataset.val; });
     const line = `${ANS_LABEL[grp]}: ${c.textContent}`, re = new RegExp("^" + ANS_LABEL[grp] + ": .*$", "m");
     ta.value = re.test(ta.value) ? ta.value.replace(re, line) : [ta.value.trim(), line].filter(Boolean).join("\n");
     ta.dispatchEvent(new Event("change"));
-    const box = c.closest(".ans").querySelector(".copymail:not([data-mode]) + .mailbox");
+    const box = sheetBody.querySelector(".copymail:not([data-mode]) + .mailbox");
     if(box && !box.hidden){ const m = buildEmail(); box.textContent = `To: ${m.to ? m.to + " (or the one they just gave you)" : "the email they just gave you"}\nSubject: ${m.subject}\n\n${m.text}`; }
   });
   sheetBody.addEventListener("click", (ev) => {
@@ -830,10 +831,43 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     else if(/stormwater/.test(c)) what = "your stormwater education for residents";
     else if(/funder/.test(c)){ what = "helping your grantees get their message out"; who = "And who makes your grantees' materials... do they make their own, get a toolkit from you or the state, or hire someone?"; }
     if(S.msgFor) what = S.msgFor;
-    return {where: `Where are you at with ${what}... already going, still planning, or not started yet?`, who};
+    return {what, where: `Where are you at with ${what}... already going, still planning, or not started yet?`, who};
   }
   const chips = (grp, opts) => `<div class="chips" role="group">${opts.map(([v, t]) => `<button type="button" class="chip" data-grp="${grp}" data-val="${v}" aria-pressed="false">${esc(t)}</button>`).join("")}</div>`;
   const ifWho = (v, html) => `<p class="say" data-for="${v}" hidden>${html}</p>`;
+
+  // Oct 30 (Atdhe): "Why I'm calling" ends by asking how they're getting the required message out today, with a few
+  // guesses they can pick from (flyers, events...). We want their current setup on the table, so the pitch can land
+  // video as the piece that reaches the people their current channels miss.
+  function channelGuesses(r){
+    const c = String(r.category || "").toLowerCase();
+    if(/water|utilit/.test(c)) return ["mailers", "bill inserts", "your website"];
+    if(/stormwater|council|engineering/.test(c)) return ["brochures", "the town website", "events"];
+    if(/medicare/.test(c)) return ["flyers", "talks at senior centers", "events"];
+    if(/health plan/.test(c)) return ["mailers", "texts", "your website"];
+    return ["flyers", "events", "social posts"];
+  }
+  function nowAsk(r, S){
+    // Most lead scripts already have a "How are you/your X getting that out?" line built from what we found on them.
+    // Keep it (it shows we did our homework) and hang the guesses off it. Otherwise ask it plainly.
+    const own = String(S.ask || "").trim();
+    const base = /^How (are|is|do|does)\b/i.test(own) ? own.replace(/[?.\s]+$/, "") : `So how are you going about ${emailAsk(r, S).what}`;
+    return `${base}... is it ${channelGuesses(r).join("... ")}... or what did you have planned?`;
+  }
+  const ifNow = (v, html) => `<div class="ifans" data-for="${v}" hidden>${html}</div>`;
+  function nowBlock(r, S){
+    const gap = say("And how's that going... who isn't it reaching yet?") + cue("Listen. Then:");
+    return say(mk(nowAsk(r, S))) +
+      cue("Pause. Let them answer, then tap what they're doing now:") +
+      chips("now", [["print", "Flyers or mailers"], ["events", "Events"], ["online", "Social or website"], ["video", "Already doing video"], ["other", "Something else"], ["none", "Nothing yet"]]) +
+      ifNow("print", gap + say("Makes sense... print reaches the people who already pick it up. A short video on their phone reaches the ones who don't.")) +
+      ifNow("events", gap + say("Makes sense... events reach whoever shows up. A short video keeps the same message working for everyone who didn't.")) +
+      ifNow("online", gap + say("Makes sense... text and graphics get scrolled past. A short video is what people actually stop and watch... in the languages your community speaks.")) +
+      ifNow("video", say("Oh nice... who makes them for you?") + cue("Listen. Then:") + say("Where we usually help is more of them, in more languages, without adding work for your team.")) +
+      ifNow("other", gap + say("Makes sense... that's where a short video helps. It reaches people on their phones, in their language, without them having to come to you.")) +
+      ifNow("none", say("Honestly, that's the best time to talk... we can map it out with you before it's due.")) +
+      cue("Then go to step 3.");
+  }
   function emailObjection(r, S, d1, d2){
     const q = emailAsk(r, S);
     return {they: "Just send me an email.", src: "Most common", you:
@@ -861,6 +895,11 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
       planning: "since you're still planning, now is a good time to add video.",
       notstarted: "since it hasn't started yet, a short plan now makes the deadline easier."}[a.where] || "";
     const where = when ? (who ? "And " + when : when[0].toUpperCase() + when.slice(1)) : "";
+    const now = {print: "You mentioned flyers and mailers carry most of this today. A short video reaches the people who never pick one up.",
+      events: "You mentioned events carry most of this today. A short video keeps the message working for everyone who couldn't make it.",
+      online: "You mentioned you post this on social and your website. Short video is what people actually stop and watch there.",
+      video: "You mentioned you already do some video. We can add more of it, in more languages, without adding work for your team.",
+      none: a.where ? "" : "You mentioned the plan is still taking shape, so this is a good time to map it out."}[a.now] || "";
     // Direct link to the lead's sector page (no redirect or tracking wrapper), shown spelled out so the reader sees exactly where it goes.
     const link = okUrl(r.sectorPage) ? r.sectorPage : "https://www.happyproductions.me";
     const shown = link.replace(/^https?:\/\//i, "").replace(/\/$/, "");
@@ -878,7 +917,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
       : "We're Happy Productions, a video studio in Ansonia, CT. We help organizations turn information they have to get out into short, easy-to-understand videos people actually watch, in the languages they speak. " + proofLine;
     const paras = [`Hi ${name},`, mode === "vm" ? "I just tried you by phone and left a short voicemail. Here's the quick note I mentioned." : "Thanks for picking up today. Here's the quick note I promised.",
       aboutUs,
-      [who, where].filter(Boolean).join(" "),
+      [now, who, where].filter(Boolean).join(" "),
       `Our strategist can map out what this could look like for ${S.planFor} in a 25-minute call, and you keep the plan either way. Would ${d1} or ${d2} work?`,
       "LINK", `${repName}\nHappy Productions`].filter(Boolean);
     const text = paras.map(p => p === "LINK" ? `${linkLead} ${link}` : p).join("\n\n");
@@ -1000,15 +1039,13 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
         say(proof ? claimSpan(S.clock) : mk(S.clock)) +
         (proof ? explainBox("x-why", "If they ask how you know, say", proof, S.source || S.clockSource, S.whyFlag).replace(/<\/div>$/, dl + "</div>") : "") +
         say(mk(S.cost)) +
-        say(mk(S.ask)) +
-        cue("Pause. Let them talk."));
+        nowBlock(r, S));
     } else {
       h += step(2, "Why I'm calling",
         say(`So the reason I'm calling... ${S.whyExplain ? claimSpan(S.why) : mk(S.why)}`) +
         (S.whyExplain ? explainBox("x-why", "If they ask what you mean, say", S.whyExplain, S.source, S.whyFlag) : "") +
         say(mk(S.painGuess || S.pain)) +
-        say(`May not be the case for y'all... but I'm curious... ${mk(S.question)}`) +
-        cue("Pause. Listen."));
+        nowBlock(r, S));
     }
     // Oct 28 (Atdhe): the pitch leads with the result the buyer wants, then how, then a guarantee. Leads without a
     // results pitch yet keep the old "we help X turn Y into videos" intro.
