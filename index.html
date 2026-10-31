@@ -295,6 +295,77 @@ table.bp.has-ch td{overflow-wrap:anywhere}
 .upl .note{margin:0;font-size:13px}
 .rcut{margin-top:10px}
 @media (max-width:760px){.idx-row{grid-template-columns:minmax(0,1fr);gap:2px}}
+/* Editor queue (homepage) */
+.q-lede{margin:0;max-width:62ch;color:var(--muted)}
+.q-bar{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between}
+.q-jump{cursor:pointer;font:inherit;font-size:13px;color:var(--ink)}
+.q-jump b{font-weight:600}
+.q-jump:hover{border-color:var(--purple)}
+.q-sync{margin:0;font-size:13px;color:var(--muted)}
+.q-sync.stale{color:var(--warn)}
+.q-btn{font:inherit;font-size:13px;font-weight:600;padding:7px 16px;border-radius:999px;border:1px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer;white-space:nowrap}
+.q-btn.on{background:var(--ink);color:var(--paper)}
+.q-link{font:inherit;font-size:13px;background:none;border:0;color:var(--purple-ink);text-decoration:underline;text-underline-offset:2px;cursor:pointer;padding:6px 4px}
+.q-tok{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;max-width:660px}
+.q-tok p{margin:0}
+.q-tok ol{margin:8px 0 12px;padding-left:20px}
+.q-tok a{color:var(--purple-ink)}
+.q-tok-row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.q-tok-row input{flex:1;min-width:200px;font:inherit;font-size:14px;padding:9px 14px;border:1px solid var(--line);border-radius:999px;background:var(--paper);color:var(--ink)}
+.q-tok .note{margin-top:8px}
+.q-arrbar{position:sticky;top:0;z-index:30;background:var(--yellow);border-bottom:1px solid var(--line)}
+.q-arrbar .wrap{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;padding-block:10px;font-size:14px}
+.q-arrbar .q-msg{font-size:13px;color:var(--ink);opacity:.8;flex:1;min-width:180px}
+.q-arrbtns{display:flex;gap:6px;align-items:center}
+.q-gripmini{display:inline-grid;place-items:center;width:18px;height:20px;vertical-align:-4px}
+.q-ed{scroll-margin-top:70px;margin-bottom:26px}
+.q-edhead{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;margin:8px 0 12px}
+.q-edhead h2{margin:0}
+.q-edhead .note{font-size:15px}
+.q-list{list-style:none;margin:0 0 12px;padding:0}
+.q-item{margin:0}
+.q-item.q-arr{display:flex;align-items:center;gap:8px}
+.q-item.q-arr>.q-row{flex:1;min-width:0}
+.q-row{grid-template-columns:28px 128px 170px minmax(0,1fr) auto;align-items:center}
+.q-sub .q-row{grid-template-columns:128px 170px minmax(0,1fr) auto}
+.q-n{color:var(--muted);font-size:12px;text-align:right}
+.q-due{display:grid;line-height:1.3}
+.q-when{font-size:12px;color:var(--muted)}
+.q-when.late{color:var(--bad);font-weight:600}
+.q-when.soon{color:var(--warn);font-weight:600}
+.q-st{font-size:12px;font-weight:600;padding:3px 10px;border-radius:999px;white-space:nowrap;justify-self:end;line-height:1.5}
+.q-rev{background:var(--bad-bg);color:var(--bad)}
+.q-edit{background:var(--lav);color:var(--purple-ink)}
+.q-hold{background:var(--warn-bg);color:var(--warn)}
+.q-review{background:var(--cream);color:var(--muted);box-shadow:inset 0 0 0 1px var(--line)}
+.q-done{background:var(--good-bg);color:var(--good)}
+.q-new{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:var(--yellow);color:var(--ink);padding:1px 7px;border-radius:999px;vertical-align:2px;margin-left:4px}
+.q-sub .q-row{background:var(--paper)}
+.q-more{margin:0 0 12px}
+.q-more>summary{cursor:pointer;font-weight:600;padding:6px 2px;width:max-content;max-width:100%}
+.q-more>summary .note{font-weight:500;margin-left:6px}
+.q-more[open]>summary{margin-bottom:8px}
+.q-empty{margin:0 0 14px}
+.q-grip{flex:none;width:34px;height:44px;border:1px dashed var(--lav-strong);border-radius:10px;background:var(--lav);color:var(--purple-ink);cursor:grab;touch-action:none;display:grid;place-items:center;padding:0}
+.q-grip:hover{border-style:solid}
+.q-grip:focus-visible,.q-mark:focus-visible,.q-btn:focus-visible,.q-jump:focus-visible{outline:2px solid var(--purple);outline-offset:2px}
+.q-mark{flex:none;font:inherit;font-size:12px;font-weight:600;padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.q-mark:hover{border-color:var(--ink)}
+.q-drag{position:fixed;z-index:60;pointer-events:none;box-shadow:0 14px 34px rgba(31,31,31,.2);border-radius:12px}
+.q-ph{border:2px dashed var(--purple);border-radius:12px;background:var(--lav)}
+body.q-dragging{cursor:grabbing;user-select:none;-webkit-user-select:none}
+@media (max-width:760px){
+.q-row{grid-template-columns:22px minmax(0,1fr);gap:2px 10px;padding:12px 14px}
+.q-row>*{grid-column:2}
+.q-row>.q-n{grid-column:1;grid-row:1 / span 4;align-self:start;text-align:left;padding-top:2px}
+.q-sub .q-row{grid-template-columns:minmax(0,1fr)}
+.q-sub .q-row>*{grid-column:1}
+.q-due{display:flex;gap:10px;align-items:baseline}
+.q-st{justify-self:start;margin-top:4px}
+.q-item.q-arr{gap:6px}
+.q-mark{padding:6px 10px}
+}
+
 </style>
 <div id="app"></div>
 <script>
@@ -768,22 +839,240 @@ async function load(){
   }
   window.scrollTo(0,0);
 }
+/* ===== Editor queue (homepage) =====
+   Order per editor = Atdhe's saved drag order (order.json) with anything new slotted in by urgency.
+   Urgency = Monday stage + deadline from status.json (tools/queue_status.py). Saving writes order.json
+   to the repo through the GitHub API with a token kept only in Atdhe's browser. */
+var EB_REPO="bothappyproductions/editor-blueprints",EB_TOK="eb_gh_token",EB_LOCAL="eb_order_local";
+var EBQ={list:[],status:{},statusOK:false,synced:"",order:{updated:"",editors:{},pin:{}},arrange:false,askTok:false,timer:null,msg:"",dirty:false,saving:false,again:false,open:{}};
+var Q_ST={revise:{g:"todo",lab:"Needs revisions",c:"q-rev"},edit:{g:"todo",lab:"To edit",c:"q-edit"},hold:{g:"todo",lab:"On hold",c:"q-hold"},review:{g:"review",lab:"In review",c:"q-review"},done:{g:"done",lab:"Edits done",c:"q-done"},client:{g:"done",lab:"With client",c:"q-done"},closed:{g:"done",lab:"Closed",c:"q-done"}};
+var Q_GRIP='<svg width="12" height="18" viewBox="0 0 12 18" aria-hidden="true"><g fill="currentColor"><circle cx="3" cy="3" r="1.6"/><circle cx="9" cy="3" r="1.6"/><circle cx="3" cy="9" r="1.6"/><circle cx="9" cy="9" r="1.6"/><circle cx="3" cy="15" r="1.6"/><circle cx="9" cy="15" r="1.6"/></g></svg>';
+function qGet(k){ try{ return localStorage.getItem(k); }catch(e){ return null; } }
+function qSet(k,v){ try{ if(v==null) localStorage.removeItem(k); else localStorage.setItem(k,v); }catch(e){} }
+async function qFresh(p){ var r=await fetch(p+"?t="+Date.now(),{cache:"no-store"}); if(!r.ok) throw new Error(p+" "+r.status); return r.json(); }
+function qToday(){ var d=new Date(); return d.getFullYear()+"-"+("0"+(d.getMonth()+1)).slice(-2)+"-"+("0"+d.getDate()).slice(-2); }
+function qDays(a,b){ var x=a.split("-"),y=b.split("-"); return Math.round((Date.UTC(+y[0],+y[1]-1,+y[2])-Date.UTC(+x[0],+x[1]-1,+x[2]))/864e5); }
+function qAgo(iso){ var t=Date.parse(iso); if(!t) return ""; var m=Math.round((Date.now()-t)/6e4); if(m<2) return "just now"; if(m<60) return m+" min ago"; var h=Math.round(m/60); if(h<36) return h+(h===1?" hour":" hours")+" ago"; var d=Math.round(h/24); return d+" days ago"; }
+function qB64(s){ return btoa(unescape(encodeURIComponent(s))); }
+function qSlug(s){ return String(s).toLowerCase().replace(/[^a-z0-9]+/g,"-"); }
+function qView(x,today){
+  var s=EBQ.status[x.id], raw, label="", due=x.due||"", ed=x.editor, v="", note="";
+  if(EBQ.statusOK&&s&&s.st&&s.st!=="missing"){ raw=s.st; label=s.label||""; due=s.due||due; ed=s.ed||ed; v=s.v||""; note=s.note||""; }
+  else if(EBQ.statusOK){ raw=(!due||qDays(due,today)>0)?"closed":"edit"; label="Not on Monday"; }
+  else { raw="edit"; }
+  if(!Q_ST[raw]) raw="edit";
+  var st=raw, pin=(EBQ.order.pin||{})[x.id], pinned="";
+  if(pin&&pin.was===raw){
+    if(pin.to==="done"&&Q_ST[raw].g!=="done"){ st="done"; label="Marked done"; pinned="done"; }
+    else if(pin.to==="open"&&Q_ST[raw].g!=="todo"){ st="edit"; label="Reopened"; pinned="open"; }
+  }
+  return {id:x.id,x:x,raw:raw,st:st,g:Q_ST[st].g,label:label||Q_ST[st].lab,due:due,ed:ed,v:v,note:note,pinned:pinned,isNew:false};
+}
+function qUrg(a,b){
+  var ha=a.st==="hold"?1:0,hb=b.st==="hold"?1:0; if(ha!==hb) return ha-hb;
+  var da=a.due||"9999-99-99",db=b.due||"9999-99-99"; if(da!==db) return da<db?-1:1;
+  var ra=a.st==="revise"?0:1,rb=b.st==="revise"?0:1; if(ra!==rb) return ra-rb;
+  return a.id<b.id?-1:a.id>b.id?1:0;
+}
+function qOrdered(ed,todo){
+  var saved=(EBQ.order.editors||{})[ed]||[], by={}, out=[], seen={};
+  todo.forEach(function(t){ by[t.id]=t; });
+  saved.forEach(function(id){ if(by[id]&&!seen[id]){ out.push(by[id]); seen[id]=1; } });
+  todo.filter(function(t){ return !seen[t.id]; }).sort(qUrg).forEach(function(t){
+    if(saved.length) t.isNew=true;
+    var i=0; while(i<out.length&&qUrg(out[i],t)<=0) i++;
+    out.splice(i,0,t);
+  });
+  return out;
+}
+function qWhen(due,today){
+  if(!due) return {t:"No deadline",c:""};
+  var n=qDays(today,due);
+  if(n<0) return {t:(-n)+(n===-1?" day":" days")+" late",c:"late"};
+  if(n===0) return {t:"Due today",c:"soon"};
+  if(n===1) return {t:"Due tomorrow",c:"soon"};
+  return {t:"In "+n+" days",c:n<=3?"soon":""};
+}
+function qRow(t,i,today,kind){
+  var w=kind==="todo"?qWhen(t.due,today):null, arr=EBQ.arrange;
+  var stTxt=esc(t.label)+(t.v&&t.st==="revise"?" · "+esc(t.v):"");
+  var a='<a class="idx-row q-row" href="#i'+esc(t.id)+'"'+(t.note?' title="'+esc(t.note)+'"':'')+'>'+
+    (kind==="todo"?'<span class="q-n mono">'+(i+1)+'</span>':'')+
+    '<span class="q-due"><span class="mono">'+esc(fmtDate(t.due)||"No date")+'</span>'+(w?'<span class="q-when '+w.c+'">'+w.t+'</span>':'')+'</span>'+
+    '<span class="idx-client">'+esc(t.x.clientName)+'</span>'+
+    '<span class="idx-title">'+esc(t.x.title)+(t.isNew?' <span class="q-new">New</span>':'')+'</span>'+
+    '<span class="q-st '+Q_ST[t.st].c+'">'+stTxt+'</span></a>';
+  return '<li class="q-item'+(arr?' q-arr':'')+'" data-id="'+esc(t.id)+'">'+
+    (arr&&kind==="todo"?'<button type="button" class="q-grip" aria-label="Move '+esc(t.x.title)+' (drag, or arrow keys)" title="Drag to move, or use the arrow keys">'+Q_GRIP+'</button>':'')+a+
+    (arr?'<button type="button" class="q-mark" data-q="'+(t.g==="done"?"open":"done")+'">'+(t.g==="done"?"Reopen":"Done")+'</button>':'')+'</li>';
+}
 async function renderIndex(){
   document.title="Editor Blueprints";
-  var list=[]; try{ list=await getJSON("index.json"); }catch(e){}
-  var byEd={};
-  list.forEach(function(x){ (byEd[x.editor]=byEd[x.editor]||[]).push(x); });
-  var html='<header class="mast"><div class="wrap"><div class="logo-row"><img class="logo" src="'+LOGO+'" alt="Happy Productions"><span class="eyebrow">Editor Blueprints</span></div><div class="title-row"><h1>Your edits</h1></div></div></header><main><section><div class="wrap">';
-  Object.keys(byEd).sort().forEach(function(ed){
-    var rows=byEd[ed].sort(function(a,b){return (a.due||"").localeCompare(b.due||"");});
-    html+='<h2 style="margin:8px 0 14px">'+esc(ed)+' <span class="note" style="font-family:var(--body);font-size:15px;font-weight:500">'+rows.length+' edits</span></h2><div class="idx">';
-    rows.forEach(function(x){ html+='<a class="idx-row" href="#i'+esc(x.id)+'"><span class="mono">'+esc(fmtDate(x.due))+'</span><span class="idx-client">'+esc(x.clientName)+'</span><span class="idx-title">'+esc(x.title)+'</span></a>'; });
+  var r=await Promise.all([
+    qFresh("index.json").catch(function(){ return getJSON("index.json").catch(function(){ return []; }); }),
+    qFresh("status.json").catch(function(){ return null; }),
+    qFresh("order.json").catch(function(){ return null; })
+  ]);
+  EBQ.list=Array.isArray(r[0])?r[0]:[];
+  var sj=r[1]; EBQ.statusOK=!!(sj&&sj.items); EBQ.status=(sj&&sj.items)||{}; EBQ.synced=(sj&&sj.synced)||"";
+  var remote=(r[2]&&typeof r[2]==="object")?r[2]:null, local=null;
+  try{ local=JSON.parse(qGet(EB_LOCAL)||"null"); }catch(e){ local=null; }
+  var o=(local&&(!remote||(local.updated||"")>(remote.updated||"")))?local:remote;
+  if(EBQ.dirty&&EBQ.order.updated) o=EBQ.order;
+  EBQ.order={updated:(o&&o.updated)||"",editors:(o&&o.editors)||{},pin:(o&&o.pin)||{}};
+  qPaint();
+}
+function qPaint(){
+  var today=qToday(), by={}, arr=EBQ.arrange;
+  EBQ.list.forEach(function(x){ var t=qView(x,today); (by[t.ed]=by[t.ed]||[]).push(t); });
+  var eds=Object.keys(by).sort(), groups={};
+  eds.forEach(function(ed){
+    var all=by[ed];
+    groups[ed]={
+      todo:qOrdered(ed,all.filter(function(t){ return t.g==="todo"; })),
+      rev:all.filter(function(t){ return t.g==="review"; }).sort(qUrg),
+      done:all.filter(function(t){ return t.g==="done"; }).sort(function(a,b){ return (b.due||"").localeCompare(a.due||""); })
+    };
+  });
+  var hasTok=!!qGet(EB_TOK);
+  var html='<header class="mast"><div class="wrap"><div class="logo-row"><img class="logo" src="'+LOGO+'" alt="Happy Productions"><span class="eyebrow">Editor Blueprints</span></div><div class="title-row"><h1>Your edits</h1></div>'+
+    '<p class="q-lede">Work your list from the top. Open an edit for its blueprint, the exact file name and the Frame.io folder to upload to.</p>'+
+    '<div class="q-bar"><div class="chips">'+eds.map(function(ed){ return '<button type="button" class="chip q-jump" data-qa="jump" data-ed="'+esc(ed)+'"><b>'+esc(ed)+'</b> '+groups[ed].todo.length+' to do</button>'; }).join("")+'</div>'+
+    '<button type="button" class="q-btn'+(arr?' on':'')+'" data-qa="arrange">'+(arr?'Finish arranging':'Arrange order')+'</button></div>';
+  if(EBQ.askTok&&!arr) html+='<div class="q-tok"><p><b>Arranging is for Atdhe.</b> Saving the order needs a GitHub token, pasted once on this computer. It stays in this browser and is only sent to GitHub.</p><ol><li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub › new fine-grained token</a>, signed in to the account that owns editor-blueprints.</li><li>Repository access: <b>Only select repositories</b> › <b>editor-blueprints</b>. Permissions: <b>Contents › Read and write</b>. Generate it.</li><li>Paste it here.</li></ol><div class="q-tok-row"><input id="q-tok-in" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…" aria-label="GitHub token"><button type="button" class="btn" data-qa="tok-save">Save token</button><button type="button" class="q-link" data-qa="tok-cancel">Cancel</button></div><p class="note" id="q-tok-msg" aria-live="polite"></p></div>';
+  var stale=EBQ.synced&&(Date.now()-Date.parse(EBQ.synced))>12*36e5;
+  html+='<p class="q-sync'+(stale||!EBQ.statusOK?' stale':'')+'">'+(EBQ.statusOK?'Statuses and deadlines from Monday, updated '+esc(qAgo(EBQ.synced))+'.':'Monday statuses are not loaded, so edits are sorted by deadline only.')+(EBQ.order.updated?' Order set by Atdhe '+esc(qAgo(EBQ.order.updated))+'.':'')+'</p>';
+  html+='</div></header>';
+  if(arr) html+='<div class="q-arrbar"><div class="wrap"><span><b>Arranging.</b> Drag <span class="q-gripmini">'+Q_GRIP+'</span> to move an edit; <b>Done</b> takes it off the list. Changes save by themselves.</span><span class="q-msg" id="q-msg" aria-live="polite">'+esc(EBQ.msg)+'</span><span class="q-arrbtns"><button type="button" class="q-btn on" data-qa="arrange">Finish</button><button type="button" class="q-link" data-qa="forget">Forget token</button></span></div></div>';
+  html+='<main><section><div class="wrap" id="q-root">';
+  eds.forEach(function(ed){
+    var g=groups[ed], sid=qSlug(ed), saved=(EBQ.order.editors||{})[ed];
+    html+='<div class="q-ed" id="q-ed-'+sid+'"><div class="q-edhead"><h2>'+esc(ed)+'</h2><span class="note">'+g.todo.length+' to do · '+g.rev.length+' in review · '+g.done.length+' done</span>'+(arr&&saved&&saved.length?'<button type="button" class="q-link" data-qa="reset" data-ed="'+esc(ed)+'">Back to urgency order</button>':'')+'</div>';
+    html+=g.todo.length?'<ol class="idx q-list" data-ed="'+esc(ed)+'">'+g.todo.map(function(t,i){ return qRow(t,i,today,"todo"); }).join("")+'</ol>':'<p class="note q-empty">Nothing to edit right now.</p>';
+    if(g.rev.length) html+='<details class="q-more" data-k="'+sid+'-rev"'+(EBQ.open[sid+'-rev']?' open':'')+'><summary>In review <span class="note">'+g.rev.length+' waiting on feedback</span></summary><ul class="idx q-list q-sub">'+g.rev.map(function(t,i){ return qRow(t,i,today,"rev"); }).join("")+'</ul></details>';
+    if(g.done.length) html+='<details class="q-more" data-k="'+sid+'-done"'+(EBQ.open[sid+'-done']?' open':'')+'><summary>Done and closed <span class="note">'+g.done.length+'</span></summary><ul class="idx q-list q-sub">'+g.done.map(function(t,i){ return qRow(t,i,today,"done"); }).join("")+'</ul></details>';
     html+='</div>';
   });
-  if(!list.length) html+='<p class="note">No blueprints yet.</p>';
+  if(!EBQ.list.length) html+='<p class="note">No blueprints yet.</p>';
   html+='</div></section></main><footer><div class="wrap"><p>Happy Productions · internal only. Never put this page in a client-shared folder.</p></div></footer>';
   app.innerHTML=html;
+  qWire();
 }
+function qMsg(t){ EBQ.msg=t; var m=$("q-msg"); if(m) m.textContent=t; }
+function qTouch(){
+  EBQ.order.updated=new Date().toISOString();
+  qSet(EB_LOCAL,JSON.stringify(EBQ.order));
+  EBQ.dirty=true; qMsg("Saving in a moment…");
+  clearTimeout(EBQ.timer); EBQ.timer=setTimeout(qSave,3000);
+}
+async function qSave(){
+  clearTimeout(EBQ.timer); EBQ.timer=null;
+  if(!EBQ.dirty) return;
+  var tok=qGet(EB_TOK); if(!tok){ qMsg("Not saved: no GitHub token on this computer."); return; }
+  if(EBQ.saving){ EBQ.again=true; return; }
+  EBQ.saving=true; EBQ.dirty=false; qMsg("Saving…");
+  var body=JSON.stringify(EBQ.order,null,1)+"\n", api="https://api.github.com/repos/"+EB_REPO+"/contents/order.json",
+      h={"Authorization":"Bearer "+tok,"Accept":"application/vnd.github+json"}, ok=false, err="";
+  try{
+    for(var k=0;k<3&&!ok;k++){
+      var sha, g=await fetch(api+"?ref=main&t="+Date.now(),{headers:h,cache:"no-store"});
+      if(g.status===401){ err="GitHub did not accept the token. Use Forget token and paste a new one."; break; }
+      if(g.ok) sha=(await g.json()).sha; else if(g.status!==404){ err="GitHub answered "+g.status+" while reading the order."; break; }
+      var p=await fetch(api,{method:"PUT",headers:h,body:JSON.stringify({message:"Editor queue order",content:qB64(body),sha:sha,branch:"main"})});
+      if(p.ok) ok=true;
+      else if(p.status===409||p.status===422) continue;
+      else if(p.status===401){ err="GitHub did not accept the token. Use Forget token and paste a new one."; break; }
+      else if(p.status===403||p.status===404){ err="The token can read but not write. Give it Contents: Read and write on editor-blueprints."; break; }
+      else { err="GitHub answered "+p.status+"."; break; }
+    }
+    if(!ok&&!err) err="GitHub kept refusing the save; try again in a minute.";
+  }catch(e){ err="Couldn't reach GitHub. Your order is kept on this computer; it saves when you make the next change."; }
+  EBQ.saving=false;
+  if(ok){ var d=new Date(); qMsg("Saved at "+d.toLocaleTimeString([], {hour:"numeric",minute:"2-digit"})+". Editors see it within a couple of minutes."); }
+  else { EBQ.dirty=true; qMsg("Not saved. "+err); }
+  if(EBQ.again){ EBQ.again=false; if(EBQ.dirty&&ok) qSave(); }
+}
+async function qCheckTok(){
+  var inp=$("q-tok-in"), msg=$("q-tok-msg"), tok=((inp&&inp.value)||"").trim();
+  if(!tok){ if(msg) msg.textContent="Paste the token first."; return; }
+  if(msg) msg.textContent="Checking with GitHub…";
+  try{
+    var r=await fetch("https://api.github.com/repos/"+EB_REPO,{headers:{"Authorization":"Bearer "+tok,"Accept":"application/vnd.github+json"},cache:"no-store"});
+    if(!r.ok){ if(msg) msg.textContent=r.status===401?"GitHub doesn't recognise that token.":"That token can't see editor-blueprints. Check Repository access."; return; }
+    var j=await r.json();
+    if(j.permissions&&j.permissions.push===false){ if(msg) msg.textContent="That token can read the repo but can't write to it. Set Contents to Read and write."; return; }
+    qSet(EB_TOK,tok); EBQ.askTok=false; EBQ.arrange=true; EBQ.msg=""; qPaint();
+  }catch(e){ if(msg) msg.textContent="Couldn't reach GitHub. Check the connection and try again."; }
+}
+function qAfterMove(list){
+  var ed=list.getAttribute("data-ed"), ids=[];
+  [].forEach.call(list.children,function(li,i){ if(!li.classList.contains("q-item")) return; ids.push(li.getAttribute("data-id")); var n=li.querySelector(".q-n"); if(n) n.textContent=ids.length; });
+  EBQ.order.editors=EBQ.order.editors||{}; EBQ.order.editors[ed]=ids; qTouch();
+}
+function qWire(){
+  var hdr=app.querySelector("header.mast"), bar=app.querySelector(".q-arrbar"), root=$("q-root");
+  function onClick(e){
+    var b=e.target.closest("[data-qa],.q-mark"); if(!b) return;
+    var qa=b.getAttribute("data-qa");
+    if(b.classList.contains("q-mark")){
+      e.preventDefault();
+      var id=b.closest("li").getAttribute("data-id"), x=EBQ.list.filter(function(y){ return y.id===id; })[0]; if(!x) return;
+      var t=qView(x,qToday()), to=b.getAttribute("data-q"), pin=EBQ.order.pin=EBQ.order.pin||{};
+      if(to==="done"){ if(t.pinned==="open") delete pin[id]; else pin[id]={to:"done",was:t.raw}; }
+      else { if(t.pinned==="done") delete pin[id]; else pin[id]={to:"open",was:t.raw}; }
+      qTouch(); qPaint(); return;
+    }
+    if(qa==="jump"){ var el=$("q-ed-"+qSlug(b.getAttribute("data-ed"))); if(el) el.scrollIntoView({behavior:"smooth",block:"start"}); return; }
+    if(qa==="arrange"){
+      if(EBQ.arrange){ EBQ.arrange=false; qSave(); qPaint(); return; }
+      if(qGet(EB_TOK)){ EBQ.arrange=true; qPaint(); return; }
+      EBQ.askTok=!EBQ.askTok; qPaint(); var inp=$("q-tok-in"); if(inp) inp.focus(); return;
+    }
+    if(qa==="tok-save"){ qCheckTok(); return; }
+    if(qa==="tok-cancel"){ EBQ.askTok=false; qPaint(); return; }
+    if(qa==="forget"){ qSet(EB_TOK,null); EBQ.arrange=false; qPaint(); return; }
+    if(qa==="reset"){ var ed=b.getAttribute("data-ed"); if(EBQ.order.editors) delete EBQ.order.editors[ed]; qTouch(); qPaint(); return; }
+  }
+  [hdr,bar,root].forEach(function(el){ if(el) el.addEventListener("click",onClick); });
+  var tin=$("q-tok-in"); if(tin) tin.addEventListener("keydown",function(e){ if(e.key==="Enter") qCheckTok(); });
+  if(!root) return;
+  [].forEach.call(root.querySelectorAll("details.q-more"),function(d){ d.addEventListener("toggle",function(){ EBQ.open[d.getAttribute("data-k")]=d.open; }); });
+  root.addEventListener("keydown",function(e){
+    var g=e.target.closest&&e.target.closest(".q-grip"); if(!g||(e.key!=="ArrowUp"&&e.key!=="ArrowDown")) return;
+    e.preventDefault();
+    var li=g.closest("li"), list=li.parentNode;
+    if(e.key==="ArrowUp"&&li.previousElementSibling) list.insertBefore(li,li.previousElementSibling);
+    else if(e.key==="ArrowDown"&&li.nextElementSibling) list.insertBefore(li.nextElementSibling,li);
+    else return;
+    g.focus(); qAfterMove(list);
+  });
+  root.addEventListener("pointerdown",function(e){
+    var g=e.target.closest(".q-grip"); if(!g||!EBQ.arrange||(e.button!==undefined&&e.button!==0)) return;
+    e.preventDefault();
+    var li=g.closest("li"), list=li.parentNode, rect=li.getBoundingClientRect(), offY=e.clientY-rect.top, lastY=e.clientY, raf=0;
+    var ph=document.createElement("li"); ph.className="q-ph"; ph.style.height=rect.height+"px";
+    list.insertBefore(ph,li.nextSibling);
+    li.classList.add("q-drag"); li.style.width=rect.width+"px"; li.style.left=rect.left+"px"; li.style.top=rect.top+"px";
+    document.body.classList.add("q-dragging");
+    function place(y){
+      li.style.top=(y-offY)+"px";
+      var before=null, kids=list.children;
+      for(var i=0;i<kids.length;i++){ var c=kids[i]; if(c===li||c===ph) continue; var r=c.getBoundingClientRect(); if(y<r.top+r.height/2){ before=c; break; } }
+      if(before) list.insertBefore(ph,before); else list.appendChild(ph);
+    }
+    function edge(){ var vh=window.innerHeight, d=lastY<70?-14:lastY>vh-70?14:0; if(d){ window.scrollBy(0,d); place(lastY); raf=requestAnimationFrame(edge); } else raf=0; }
+    function mv(ev){ lastY=ev.clientY; place(lastY); if(!raf&&(lastY<70||lastY>window.innerHeight-70)) raf=requestAnimationFrame(edge); }
+    function up(){
+      document.removeEventListener("pointermove",mv); document.removeEventListener("pointerup",up); document.removeEventListener("pointercancel",up);
+      if(raf) cancelAnimationFrame(raf);
+      list.insertBefore(li,ph); ph.remove(); li.classList.remove("q-drag"); li.style.width=li.style.left=li.style.top="";
+      document.body.classList.remove("q-dragging");
+      qAfterMove(list);
+    }
+    document.addEventListener("pointermove",mv); document.addEventListener("pointerup",up); document.addEventListener("pointercancel",up);
+  });
+}
+window.addEventListener("beforeunload",function(e){ if(EBQ.dirty&&qGet(EB_TOK)){ qSave(); e.preventDefault(); e.returnValue=""; } });
 function rowMg(r){ if(!CUR_MG||!r||!r.tc) return []; return CUR_MG.d.mg.filter(function(m){ return (m.rows||[]).indexOf(r.tc)>=0 && !m.file; }); }
 function frameHtml(r,item){
   var mgs=rowMg(r), full=mgs.filter(function(m){ return MG.modeOf(m)==="full"; })[0], ovl=mgs.filter(function(m){ return MG.modeOf(m)!=="full"; })[0];

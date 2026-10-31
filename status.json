@@ -1,0 +1,935 @@
+{
+"synced": "2026-10-31T23:17:00Z",
+"source": "Monday Post Production board 2135456123 (written by tools/queue_status.py)",
+"items": {
+"12489938131": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-04",
+"v": "V2"
+},
+"12489939555": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-05"
+},
+"12489941840": {
+"st": "missing"
+},
+"12489943399": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-02",
+"v": "V4"
+},
+"12489943997": {
+"st": "missing"
+},
+"12489944961": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-05",
+"v": "V1"
+},
+"12489945635": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-05"
+},
+"12489946143": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-05"
+},
+"12489946791": {
+"st": "missing"
+},
+"12489952450": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-12"
+},
+"12489952938": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-09",
+"v": "V2"
+},
+"12489953000": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-02",
+"v": "V2"
+},
+"12489959941": {
+"st": "closed",
+"label": "Archived"
+},
+"12489965961": {
+"st": "missing"
+},
+"12489995917": {
+"st": "missing"
+},
+"12489996519": {
+"st": "missing"
+},
+"12714476557": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-10-29",
+"v": "V1"
+},
+"12714477152": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-10-29",
+"v": "V1"
+},
+"12714477153": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-10-30"
+},
+"12714500969": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-10-29"
+},
+"12714501068": {
+"st": "missing"
+},
+"12767076650": {
+"st": "missing"
+},
+"12767095388": {
+"st": "missing"
+},
+"12937236883": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-10-29",
+"v": "V1"
+},
+"12937287827": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-06",
+"v": "V1"
+},
+"12937295775": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-06",
+"v": "V1"
+},
+"12954642569": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-03",
+"v": "V1",
+"note": "Blocked on the client naming the exact video: Andres Gonzalez's revision notes linked the folder, not the shot"
+},
+"12954675017": {
+"st": "review",
+"label": "In review",
+"due": "2026-10-30",
+"v": "V2"
+},
+"12980639114": {
+"st": "missing"
+},
+"12980639118": {
+"st": "missing"
+},
+"12980667583": {
+"st": "missing"
+},
+"12980684418": {
+"st": "missing"
+},
+"12980704816": {
+"st": "missing"
+},
+"13013928660": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-10-13",
+"v": "V2"
+},
+"13066526110": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-04",
+"v": "V1"
+},
+"13066532855": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-04",
+"v": "V1"
+},
+"13066544716": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-10",
+"v": "V1"
+},
+"13075073600": {
+"st": "client",
+"label": "With client",
+"v": "V1"
+},
+"13075111194": {
+"st": "client",
+"label": "With client",
+"v": "V1"
+},
+"13075121503": {
+"st": "client",
+"label": "With client",
+"v": "V1"
+},
+"13077200422": {
+"st": "client",
+"label": "With client",
+"v": "V1"
+},
+"13077226650": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-12",
+"v": "V1"
+},
+"13083743550": {
+"st": "review",
+"label": "In review",
+"due": "2026-10-30",
+"v": "V1"
+},
+"13083743932": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-06"
+},
+"13083743948": {
+"st": "missing"
+},
+"13083747867": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-02"
+},
+"13083748147": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-02"
+},
+"13083751073": {
+"st": "missing"
+},
+"13083751249": {
+"st": "review",
+"label": "In review",
+"due": "2026-10-20",
+"v": "V2"
+},
+"13083759789": {
+"st": "review",
+"label": "In review",
+"due": "2026-10-30",
+"v": "V2"
+},
+"13083760124": {
+"st": "review",
+"label": "In review",
+"v": "V2"
+},
+"13099641527": {
+"st": "missing"
+},
+"13099648104": {
+"st": "missing"
+},
+"13099655867": {
+"st": "missing"
+},
+"13099658250": {
+"st": "missing"
+},
+"13111807657": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-05"
+},
+"13111812730": {
+"st": "missing"
+},
+"13123142900": {
+"st": "missing"
+},
+"13123153432": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-10"
+},
+"13123153540": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-03",
+"v": "V1"
+},
+"13123155328": {
+"st": "closed",
+"label": "Archived"
+},
+"13131311134": {
+"st": "missing"
+},
+"13131364955": {
+"st": "missing"
+},
+"13132978216": {
+"st": "missing"
+},
+"13132979764": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-05"
+},
+"13132980256": {
+"st": "missing"
+},
+"13146888847": {
+"st": "missing"
+},
+"13149174314": {
+"st": "missing"
+},
+"13149197494": {
+"st": "missing"
+},
+"13149227094": {
+"st": "missing"
+},
+"13150023822": {
+"st": "missing"
+},
+"13153550055": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-11"
+},
+"13153580945": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-11"
+},
+"13153585107": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-10-19",
+"v": "V1"
+},
+"13188076855": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-02"
+},
+"13188114401": {
+"st": "review",
+"label": "In review",
+"due": "2026-10-26",
+"v": "V1"
+},
+"13190021330": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-16"
+},
+"13190022271": {
+"st": "missing"
+},
+"13190024713": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-06"
+},
+"13190047726": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-06",
+"v": "V1"
+},
+"13191615863": {
+"st": "client",
+"label": "With client",
+"v": "V2"
+},
+"13197359938": {
+"st": "missing"
+},
+"13198233018": {
+"st": "missing"
+},
+"13198233020": {
+"st": "missing"
+},
+"13199657199": {
+"st": "missing"
+},
+"13199685854": {
+"st": "missing"
+},
+"13203611596": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-10-28",
+"v": "V1"
+},
+"13203622763": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-10-28",
+"v": "V1"
+},
+"13203624501": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-10-28",
+"v": "V1"
+},
+"13212354694": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-10-20",
+"v": "V1"
+},
+"13212946207": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-17"
+},
+"13212955499": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-17"
+},
+"13212965611": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-16"
+},
+"13214701919": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-13"
+},
+"13214701936": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-13"
+},
+"13214742981": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-13"
+},
+"13221764296": {
+"st": "closed",
+"label": "Removed from Monday",
+"due": "2026-10-20",
+"v": "V1"
+},
+"13221764297": {
+"st": "closed",
+"label": "Removed from Monday",
+"due": "2026-10-23",
+"v": "V1"
+},
+"13221764631": {
+"st": "closed",
+"label": "Removed from Monday",
+"due": "2026-10-19",
+"v": "V1"
+},
+"13221765448": {
+"st": "closed",
+"label": "Removed from Monday",
+"due": "2026-10-23",
+"v": "V1"
+},
+"13221766392": {
+"st": "closed",
+"label": "Removed from Monday",
+"due": "2026-10-22",
+"v": "V1"
+},
+"13221767043": {
+"st": "closed",
+"label": "Removed from Monday",
+"due": "2026-10-21",
+"v": "V1"
+},
+"13221767252": {
+"st": "closed",
+"label": "Removed from Monday",
+"due": "2026-10-19",
+"v": "V1"
+},
+"13221767542": {
+"st": "closed",
+"label": "Removed from Monday",
+"due": "2026-10-23",
+"v": "V1"
+},
+"13221772818": {
+"st": "closed",
+"label": "Removed from Monday",
+"due": "2026-10-20",
+"v": "V1"
+},
+"13221772891": {
+"st": "closed",
+"label": "Removed from Monday",
+"due": "2026-10-22",
+"v": "V1"
+},
+"13221773468": {
+"st": "closed",
+"label": "Removed from Monday",
+"due": "2026-10-22",
+"v": "V1"
+},
+"13223691536": {
+"st": "missing"
+},
+"13223691678": {
+"st": "missing"
+},
+"13223729121": {
+"st": "missing"
+},
+"13223729137": {
+"st": "missing"
+},
+"13223850425": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-10-28"
+},
+"13225617796": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-06",
+"v": "V1",
+"ed": "Ardit"
+},
+"13225631908": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-05",
+"v": "V1"
+},
+"13225631990": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-05",
+"v": "V1"
+},
+"13225633452": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-10-21",
+"v": "V2"
+},
+"13225675447": {
+"st": "missing"
+},
+"13225675455": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-05",
+"v": "V1"
+},
+"13227287585": {
+"st": "closed",
+"label": "Archived"
+},
+"13233483774": {
+"st": "missing"
+},
+"13234110389": {
+"st": "closed",
+"label": "Archived"
+},
+"13234122479": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-10-13",
+"v": "V2"
+},
+"13235848908": {
+"st": "missing"
+},
+"13239698729": {
+"st": "missing"
+},
+"13243618207": {
+"st": "client",
+"label": "With client",
+"v": "V1"
+},
+"13243618256": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-10"
+},
+"13243662168": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-11"
+},
+"13243674656": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-06",
+"v": "V8"
+},
+"13243711594": {
+"st": "missing"
+},
+"13243711760": {
+"st": "closed",
+"label": "Removed from Monday",
+"due": "2026-10-12",
+"v": "V1"
+},
+"13243711781": {
+"st": "closed",
+"label": "Removed from Monday",
+"due": "2026-11-16",
+"v": "V1"
+},
+"13276372658": {
+"st": "client",
+"label": "With client",
+"v": "V2"
+},
+"13276389858": {
+"st": "client",
+"label": "With client",
+"v": "V1"
+},
+"13276366324": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-02",
+"v": "V1"
+},
+"13276390860": {
+"st": "closed",
+"label": "Archived"
+},
+"13276402920": {
+"st": "closed",
+"label": "Archived"
+},
+"13276390324": {
+"st": "closed",
+"label": "Archived"
+},
+"13277146397": {
+"st": "missing"
+},
+"13277142181": {
+"st": "review",
+"label": "In review",
+"due": "2026-10-26",
+"v": "V3"
+},
+"13277142333": {
+"st": "missing"
+},
+"13277510841": {
+"st": "closed",
+"label": "Removed from Monday",
+"due": "2026-10-16",
+"v": "V3"
+},
+"13277587662": {
+"st": "closed",
+"label": "Removed from Monday",
+"due": "2026-10-16",
+"v": "V3"
+},
+"13277903336": {
+"st": "missing"
+},
+"13278118435": {
+"st": "closed",
+"label": "Removed from Monday",
+"due": "2026-10-15",
+"v": "V3"
+},
+"13278215946": {
+"st": "closed",
+"label": "Removed from Monday",
+"due": "2026-10-16",
+"v": "V3"
+},
+"13282770568": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-02",
+"v": "V1"
+},
+"13282794183": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-03",
+"v": "V1"
+},
+"13282742368": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-17",
+"v": "V1"
+},
+"13284948536": {
+"st": "closed",
+"label": "Removed from Monday",
+"due": "2026-10-28",
+"v": "V3"
+},
+"13284927541": {
+"st": "closed",
+"label": "Removed from Monday",
+"due": "2026-10-29",
+"v": "V3"
+},
+"13294963154": {
+"st": "review",
+"label": "In review",
+"due": "2026-10-30",
+"v": "V1"
+},
+"13294977943": {
+"st": "review",
+"label": "In review",
+"due": "2026-10-30",
+"v": "V1"
+},
+"13294956454": {
+"st": "review",
+"label": "In review",
+"due": "2026-10-30",
+"v": "V1"
+},
+"13306143719": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-06",
+"v": "V1"
+},
+"13306096838": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-12",
+"v": "V1"
+},
+"13306142977": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-18",
+"v": "V1"
+},
+"13308121961": {
+"st": "review",
+"label": "In review",
+"due": "2026-10-29",
+"v": "V1"
+},
+"13308129747": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-10-29",
+"v": "V1"
+},
+"13308111116": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-10-29",
+"v": "V1"
+},
+"13310892647": {
+"st": "review",
+"label": "In review",
+"due": "2026-10-30",
+"v": "V7"
+},
+"13316071232": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-09",
+"v": "V1"
+},
+"13316041364": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-12",
+"v": "V1"
+},
+"13316053939": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-03",
+"v": "V1"
+},
+"13354354718": {
+"st": "client",
+"label": "With client",
+"v": "V1"
+},
+"13354315549": {
+"st": "client",
+"label": "With client",
+"v": "V2"
+},
+"13354368479": {
+"st": "client",
+"label": "With client",
+"v": "V3"
+},
+"13354303437": {
+"st": "client",
+"label": "With client",
+"v": "V2"
+},
+"13354317681": {
+"st": "client",
+"label": "With client",
+"v": "V2"
+},
+"13354349922": {
+"st": "client",
+"label": "With client",
+"v": "V1"
+},
+"13354349829": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-10-23",
+"v": "V1"
+},
+"13354349810": {
+"st": "client",
+"label": "With client",
+"v": "V1"
+},
+"13354368481": {
+"st": "client",
+"label": "With client",
+"v": "V1"
+},
+"13354303250": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-10-23",
+"v": "V1"
+},
+"13317239011": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-03",
+"v": "V1"
+},
+"13317236086": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-13",
+"v": "V1"
+},
+"13317220344": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-11",
+"v": "V1"
+},
+"13319125222": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-13",
+"v": "V1"
+},
+"13319123571": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-05",
+"v": "V1"
+},
+"13319113476": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-06",
+"v": "V1"
+},
+"13319733606": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-09",
+"v": "V1"
+},
+"13319733848": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-20",
+"v": "V1"
+},
+"13319733895": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-17",
+"v": "V1"
+},
+"902610271": {
+"st": "missing"
+},
+"13338322871": {
+"st": "missing"
+},
+"13329249350": {
+"st": "missing"
+},
+"13386670463": {
+"st": "missing"
+},
+"13405209420": {
+"st": "missing"
+},
+"13305757419": {
+"st": "missing"
+},
+"13275410585": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-04",
+"v": "V1"
+},
+"13339301834": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-02"
+},
+"13339292799": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-02"
+},
+"13339313493": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-02"
+}
+}
+}
