@@ -1708,5 +1708,34 @@
    "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/f814617a-5c18-4a6e-9c0b-8456387c7ab0"
   },
   "note": "16:9, picture only on the hook (wide, then closer as her phone buzzes on the desk). Her real phone showed another contact and her own wording, so the message area is replaced and tracked on both phone shots: a thread from 'Maya' with the client's text word for word, then 'Can't tonight. Have to study.' typed letter by letter and sent on her own send moment. The PAST DUE bill, the October calendar and the appointment cards (Wed Oct 7 and Fri Oct 16 are both right for 2026, no fix needed). The grade turns cold on the cut where she turns the phone face down; the fridge; the narrator over the empty fridge into her straight-on look; the set's own yellow captions and Qendrim's end card from Utilities v6. The narrator is a SCRATCH AI read (male, deep, serious) until the final voice is chosen. Room sound is rebuilt from SFX: the camera track is -65 dBFS scratch with crew talk on it."
+ },
+ "13308111116": {
+  "version": 1,
+  "made": "2026-11-01",
+  "tool": "DaVinci Resolve (bpcut, claude-v1-editor)",
+  "length": "0:51.3",
+  "loudness": "-14.1 LUFS",
+  "music": "Epidemic Sound · Memiens (Aerian)",
+  "mp4": {
+   "name": "NIWRCOKCChristieNotOnTheNews001 · test cut · v1.mp4",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/922a7e5a-7b13-42f8-9b34-74fa9c5c05c3"
+  },
+  "graphics": {
+   "name": "NIWRCOKCChristieNotOnTheNews001_graphics_9x16_v1.mov",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/752ad8a2-6538-413b-bffc-31d418a1be20"
+  },
+  "luts": {
+   "name": "NIWRCOKCChristieNotOnTheNews001_grade_LUTs_v1.zip",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/cf818136-9f2f-45c1-9f38-a70fabae5b62"
+  },
+  "note": "Christie opens on her own line with the hook text static from frame 0, then the crisis on the front camera with her super, the turn to what her tribe built over the community in front of the mural, why she serves over the NIWRC table and the Women Are Sacred sign, and the button to camera from the vertical take, ending on 'safe and loved.' Captions, super, labels and end card in Qendrim's approved NIWRC look. Sound is C2's own camera track (the C1 mic garbles in this room).",
+  "xml": {
+   "name": "NIWRCOKCChristieNotOnTheNews001_90_v1_Premiere.xml",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/7a311a85-54e4-4b04-94c2-01d96d3fce05"
+  },
+  "drt": {
+   "name": "NIWRCOKCChristieNotOnTheNews001_90_v1_Resolve.drt",
+   "url": "https://next.frame.io/project/78c2b3f1-90d2-41f2-8603-6a9e27d55419/view/ac5144dd-e86f-4f88-a3f8-d2cdbb9170e9"
+  }
  }
 }
