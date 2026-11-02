@@ -1,0 +1,78 @@
+{
+ "item": "13326048023",
+ "client": "learn-fresh",
+ "note": "The script asks for the hook text, the name super and one key word (division). The other rows are captions only. The end card is typed until the LearnFresh logo is in the repo.",
+ "mg": [
+  {
+   "tpl": "highlight_callout",
+   "title": "Hook text",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Build self-esteem."
+   },
+   "cue": "Hook text on frame 1: Build self-esteem. Already on screen at 0:00. Does not animate on. Top third. Out at 00:03. Name super at 00:03 for 2 s, lower left above the captions: Sophia A. / 7th grade.",
+   "src": "Script, row 00:00–00:09, Motion graphics & type.",
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third.",
+   "rows": [
+    "00:00–00:09"
+   ],
+   "n": 1
+  },
+  {
+   "tpl": "tag_label",
+   "title": "Name super",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Sophia A."
+   },
+   "cue": "Hook text on frame 1: Build self-esteem. Already on screen at 0:00. Does not animate on. Top third. Out at 00:03. Name super at 00:03 for 2 s, lower left above the captions: Sophia A. / 7th grade.",
+   "src": "Script, row 00:00–00:09, Motion graphics & type.",
+   "use": "Put it on at 00:03 for 2 s. Move it lower left, above the captions. Type the second line <7th grade> under it.",
+   "rows": [
+    "00:00–00:09"
+   ],
+   "n": 2
+  },
+  {
+   "tpl": "highlight_callout",
+   "title": "Key word",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "division"
+   },
+   "cue": "Key word in the top band when she says it: division. 2 s.",
+   "src": "Script, row 00:09–00:19, Motion graphics & type.",
+   "use": "Put it on at the moment she says “division” and hold 2 s, in the top band. Captions stay on.",
+   "rows": [
+    "00:09–00:19"
+   ],
+   "n": 3
+  },
+  {
+   "tpl": "end_card",
+   "title": "End card",
+   "rows": [
+    "00:34–00:38"
+   ],
+   "cue": "End card lines: <q>Donate to Learn Fresh</q> / <q>learnfresh.org</q>. No logo before this card.",
+   "src": "No LearnFresh logo file in the repo yet (brand kit is in Airtable). The name is typed until the logo is added to endcards/learn-fresh/.",
+   "c": {
+    "bg": "#FFFFFF",
+    "fg": "#111111"
+   },
+   "text": {
+    "name": "LearnFresh",
+    "lines": [
+     "Donate to Learn Fresh",
+     "learnfresh.org"
+    ]
+   },
+   "dur": 4.0,
+   "use": "This is the end card. Put it at 00:34 after the last line and hold it to the end.",
+   "n": 4
+  }
+ ]
+}

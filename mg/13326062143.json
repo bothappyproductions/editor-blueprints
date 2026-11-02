@@ -1,0 +1,81 @@
+{
+ "item": "13326062143",
+ "client": "learn-fresh",
+ "note": "The script asks for the hook text, the name super and three key words (sportsmanship, resilience, integrity). The other rows are captions only. The end card is typed until the LearnFresh logo is in the repo.",
+ "mg": [
+  {
+   "tpl": "highlight_callout",
+   "title": "Hook text",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Fun. But rigorous?"
+   },
+   "cue": "Hook text on frame 1: Fun. But rigorous? Already on screen at 0:00. Does not animate on. Top third. Out at 00:03. Name super at 00:03 for 2 s, lower left above the captions: Nick Monzi / CEO & Co-Founder, Learn Fresh.",
+   "src": "Script, row 00:00–00:09, Motion graphics & type.",
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third.",
+   "rows": [
+    "00:00–00:09"
+   ],
+   "n": 1
+  },
+  {
+   "tpl": "tag_label",
+   "title": "Name super",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Nick Monzi"
+   },
+   "cue": "Hook text on frame 1: Fun. But rigorous? Already on screen at 0:00. Does not animate on. Top third. Out at 00:03. Name super at 00:03 for 2 s, lower left above the captions: Nick Monzi / CEO & Co-Founder, Learn Fresh.",
+   "src": "Script, row 00:00–00:09, Motion graphics & type.",
+   "use": "Put it on at 00:03 for 2 s. Move it lower left, above the captions. Type the second line <CEO & Co-Founder, Learn Fresh> under it.",
+   "rows": [
+    "00:00–00:09"
+   ],
+   "n": 2
+  },
+  {
+   "tpl": "word_stack",
+   "title": "Key words",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "items": [
+     "sportsmanship",
+     "resilience",
+     "integrity"
+    ]
+   },
+   "cue": "Key words in the top band, one at a time as he says them: sportsmanship, resilience, integrity.",
+   "src": "Script, row 00:22–00:36, Motion graphics & type.",
+   "use": "Pop each word as he says it, top band. Captions stay on.",
+   "rows": [
+    "00:22–00:36"
+   ],
+   "n": 3
+  },
+  {
+   "tpl": "end_card",
+   "title": "End card",
+   "rows": [
+    "00:43–00:47"
+   ],
+   "cue": "End card lines: <q>Learn more at learnfresh.org</q>. No logo before this card.",
+   "src": "No LearnFresh logo file in the repo yet (brand kit is in Airtable). The name is typed until the logo is added to endcards/learn-fresh/.",
+   "c": {
+    "bg": "#FFFFFF",
+    "fg": "#111111"
+   },
+   "text": {
+    "name": "LearnFresh",
+    "lines": [
+     "Learn more at learnfresh.org"
+    ]
+   },
+   "dur": 4.0,
+   "use": "This is the end card. Put it at 00:43 after the last line and hold it to the end.",
+   "n": 4
+  }
+ ]
+}

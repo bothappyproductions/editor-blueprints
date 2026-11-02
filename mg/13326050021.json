@@ -1,0 +1,95 @@
+{
+ "item": "13326050021",
+ "client": "learn-fresh",
+ "note": "The script asks for the hook text, the name super, one number pop (10 seconds) and one top text line (I made new friends.). The button is captions only. The end card is typed until the LearnFresh logo is in the repo.",
+ "mg": [
+  {
+   "tpl": "highlight_callout",
+   "title": "Hook text",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Math in silence?"
+   },
+   "cue": "Hook text on frame 1: Math in silence? Already on screen at 0:00. Does not animate on. Top third. Out at 00:03. Name super at 00:03 for 2 s, lower left above the captions: Carla D. / 7th grade.",
+   "src": "Script, row 00:00–00:07, Motion graphics & type.",
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third.",
+   "rows": [
+    "00:00–00:07"
+   ],
+   "n": 1
+  },
+  {
+   "tpl": "tag_label",
+   "title": "Name super",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Carla D."
+   },
+   "cue": "Hook text on frame 1: Math in silence? Already on screen at 0:00. Does not animate on. Top third. Out at 00:03. Name super at 00:03 for 2 s, lower left above the captions: Carla D. / 7th grade.",
+   "src": "Script, row 00:00–00:07, Motion graphics & type.",
+   "use": "Put it on at 00:03 for 2 s. Move it lower left, above the captions. Type the second line <7th grade> under it.",
+   "rows": [
+    "00:00–00:07"
+   ],
+   "n": 2
+  },
+  {
+   "tpl": "stat_counter",
+   "title": "Number pop",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "number": "10 seconds",
+    "label": "on the clock"
+   },
+   "cue": "Number pop as she says it: 10 seconds, label on the clock. Top band, 2 s.",
+   "src": "Script, row 00:07–00:17, Motion graphics & type.",
+   "use": "Pop it at the moment she says “10 seconds” as it is said, top band, 2 s.",
+   "rows": [
+    "00:07–00:17"
+   ],
+   "n": 3
+  },
+  {
+   "tpl": "highlight_callout",
+   "title": "Top text",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "I made new friends."
+   },
+   "cue": "Top text for 1.6 s before she starts: I made new friends. Top band.",
+   "src": "Script, row 00:17–00:25, Motion graphics & type.",
+   "use": "Put it on at the start of this row and hold 2 s, in the top band. Captions stay on.",
+   "rows": [
+    "00:17–00:25"
+   ],
+   "n": 4
+  },
+  {
+   "tpl": "end_card",
+   "title": "End card",
+   "rows": [
+    "00:27–00:31"
+   ],
+   "cue": "End card lines: <q>Donate to Learn Fresh</q> / <q>learnfresh.org</q>. No logo before this card.",
+   "src": "No LearnFresh logo file in the repo yet (brand kit is in Airtable). The name is typed until the logo is added to endcards/learn-fresh/.",
+   "c": {
+    "bg": "#FFFFFF",
+    "fg": "#111111"
+   },
+   "text": {
+    "name": "LearnFresh",
+    "lines": [
+     "Donate to Learn Fresh",
+     "learnfresh.org"
+    ]
+   },
+   "dur": 4.0,
+   "use": "This is the end card. Put it at 00:27 after the last line and hold it to the end.",
+   "n": 5
+  }
+ ]
+}

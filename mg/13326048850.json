@@ -1,0 +1,30 @@
+{
+ "item": "13326048850",
+ "client": "learn-fresh",
+ "note": "16:9 long form: the graphics library is 9:16 only, so this page carries only the end card. The hook text, supers, title card, locator and number cards on rows 00:00–00:07, 00:07–00:16, 00:16–00:24, 00:24–00:42, 00:42–00:55, 00:55–01:16, 01:51–02:20, 02:20–02:49, 02:49–03:34, 03:34–03:48, 03:48–04:03, 04:03–04:21, 04:21–04:59, 04:59–05:06, 05:06–05:11, 05:11–05:22, 05:22–05:32, 05:40–06:12 are made in the edit from the script.",
+ "mg": [
+  {
+   "n": 1,
+   "tpl": "end_card",
+   "title": "End card",
+   "rows": [
+    "06:41–06:47"
+   ],
+   "cue": "End card lines: <q>Donate to Learn Fresh</q> / <q>learnfresh.org</q>. No logo before this card.",
+   "src": "No LearnFresh logo file in the repo yet (brand kit is in Airtable).",
+   "c": {
+    "bg": "#FFFFFF",
+    "fg": "#111111"
+   },
+   "text": {
+    "name": "LearnFresh",
+    "lines": [
+     "Donate to Learn Fresh",
+     "learnfresh.org"
+    ]
+   },
+   "dur": 6.0,
+   "use": "This is the end card. Put it after Dannyse's last line and hold it to the end."
+  }
+ ]
+}

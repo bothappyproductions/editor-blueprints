@@ -1,0 +1,94 @@
+{
+ "item": "13326048339",
+ "client": "learn-fresh",
+ "note": "The script asks for the hook text and three name supers. The build and close rows say no text. The end card is typed until the LearnFresh logo is in the repo.",
+ "mg": [
+  {
+   "tpl": "highlight_callout",
+   "title": "Hook text",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "27 students. One gym."
+   },
+   "cue": "Hook text on frame 1: 27 students. One gym. Already on screen at 0:00. Does not animate on. Top third. Out at 00:03.",
+   "src": "Script, row 00:00–00:05, Motion graphics & type.",
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third.",
+   "rows": [
+    "00:00–00:05"
+   ],
+   "n": 1
+  },
+  {
+   "tpl": "tag_label",
+   "title": "Name super",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Bill Donovan"
+   },
+   "cue": "Name super at 00:06 for 2 s, lower left above the captions: Bill Donovan / Program Supervisor, Maspeth Town Hall.",
+   "src": "Script, row 00:05–00:15, Motion graphics & type.",
+   "use": "Put it on at 00:06 for 2 s. Move it lower left, above the captions. Type the second line <Program Supervisor, Maspeth Town Hall> under it.",
+   "rows": [
+    "00:05–00:15"
+   ],
+   "n": 2
+  },
+  {
+   "tpl": "tag_label",
+   "title": "Name super",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Ian C."
+   },
+   "cue": "Name super for 2 s, lower left above the captions: Ian C. / 7th grade.",
+   "src": "Script, row 00:40–00:45, Motion graphics & type.",
+   "use": "Put it on when Ian starts, for 2 s. Lower left, above the captions. Type the second line <7th grade> under it.",
+   "rows": [
+    "00:40–00:45"
+   ],
+   "n": 3
+  },
+  {
+   "tpl": "tag_label",
+   "title": "Name super",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Simon M."
+   },
+   "cue": "Name super for 2 s, lower left above the captions: Simon M. / 6th grade.",
+   "src": "Script, row 00:45–00:50, Motion graphics & type.",
+   "use": "Put it on when Simon starts, for 2 s. Lower left, above the captions. Type the second line <6th grade> under it.",
+   "rows": [
+    "00:45–00:50"
+   ],
+   "n": 4
+  },
+  {
+   "tpl": "end_card",
+   "title": "End card",
+   "rows": [
+    "00:56–01:00"
+   ],
+   "cue": "End card lines: <q>Donate to Learn Fresh</q> / <q>learnfresh.org</q>. No logo before this card.",
+   "src": "No LearnFresh logo file in the repo yet (brand kit is in Airtable). The name is typed until the logo is added to endcards/learn-fresh/.",
+   "c": {
+    "bg": "#FFFFFF",
+    "fg": "#111111"
+   },
+   "text": {
+    "name": "LearnFresh",
+    "lines": [
+     "Donate to Learn Fresh",
+     "learnfresh.org"
+    ]
+   },
+   "dur": 4.0,
+   "use": "This is the end card. Put it at 00:56 and hold it to the end.",
+   "n": 5
+  }
+ ]
+}

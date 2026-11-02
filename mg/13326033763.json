@@ -1,0 +1,77 @@
+{
+ "item": "13326033763",
+ "client": "learn-fresh",
+ "note": "The script asks for the hook text, the name super and one key line (a cross-pollination of children). The other rows are captions only. The end card is typed until the LearnFresh logo is in the repo.",
+ "mg": [
+  {
+   "tpl": "highlight_callout",
+   "title": "Hook text",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "They don't even realize they're learning."
+   },
+   "cue": "Hook text on frame 1: They don't even realize they're learning. Already on screen at 0:00. Does not animate on. Top third. Out at 00:03. Name super at 00:03 for 2 s, lower left above the captions: Bill Donovan / Program Supervisor, Maspeth Town Hall.",
+   "src": "Script, row 00:00–00:08, Motion graphics & type.",
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third.",
+   "rows": [
+    "00:00–00:08"
+   ],
+   "n": 1
+  },
+  {
+   "tpl": "tag_label",
+   "title": "Name super",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Bill Donovan"
+   },
+   "cue": "Hook text on frame 1: They don't even realize they're learning. Already on screen at 0:00. Does not animate on. Top third. Out at 00:03. Name super at 00:03 for 2 s, lower left above the captions: Bill Donovan / Program Supervisor, Maspeth Town Hall.",
+   "src": "Script, row 00:00–00:08, Motion graphics & type.",
+   "use": "Put it on at 00:03 for 2 s. Move it lower left, above the captions. Type the second line <Program Supervisor, Maspeth Town Hall> under it.",
+   "rows": [
+    "00:00–00:08"
+   ],
+   "n": 2
+  },
+  {
+   "tpl": "highlight_callout",
+   "title": "Key line",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "a cross-pollination of children"
+   },
+   "cue": "Key line in the top band as he says it: a cross-pollination of children. 2 s.",
+   "src": "Script, row 00:08–00:25, Motion graphics & type.",
+   "use": "Put it on at the moment he says it and hold 2 s, in the top band. Captions stay on.",
+   "rows": [
+    "00:08–00:25"
+   ],
+   "n": 3
+  },
+  {
+   "tpl": "end_card",
+   "title": "End card",
+   "rows": [
+    "00:41–00:45"
+   ],
+   "cue": "End card lines: <q>Learn more at learnfresh.org</q>. No logo before this card.",
+   "src": "No LearnFresh logo file in the repo yet (brand kit is in Airtable). The name is typed until the logo is added to endcards/learn-fresh/.",
+   "c": {
+    "bg": "#FFFFFF",
+    "fg": "#111111"
+   },
+   "text": {
+    "name": "LearnFresh",
+    "lines": [
+     "Learn more at learnfresh.org"
+    ]
+   },
+   "dur": 4.0,
+   "use": "This is the end card. Put it at 00:41 after the last line and hold it to the end.",
+   "n": 4
+  }
+ ]
+}

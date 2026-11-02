@@ -1,0 +1,128 @@
+{
+ "item": "13386733130",
+ "client": "learn-fresh",
+ "note": "The script asks for the hook text, the name super, three number pops (50th → 58th, 12 to 14 days, 2 hours) and one key line (gold standard). The other rows are captions only. The end card is typed until the LearnFresh logo is in the repo.",
+ "mg": [
+  {
+   "tpl": "highlight_callout",
+   "title": "Hook text",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "50th to 58th percentile."
+   },
+   "cue": "Hook text on frame 1: 50th to 58th percentile. Already on screen at 0:00. Does not animate on. Top third. Out at 00:03. Name super at 00:03 for 2 s, lower left above the captions: David McKinney / Senior Research Associate, WestEd.",
+   "src": "Script, row 00:00–00:10, Motion graphics & type.",
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third.",
+   "rows": [
+    "00:00–00:10"
+   ],
+   "n": 1
+  },
+  {
+   "tpl": "tag_label",
+   "title": "Name super",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "David McKinney"
+   },
+   "cue": "Hook text on frame 1: 50th to 58th percentile. Already on screen at 0:00. Does not animate on. Top third. Out at 00:03. Name super at 00:03 for 2 s, lower left above the captions: David McKinney / Senior Research Associate, WestEd.",
+   "src": "Script, row 00:00–00:10, Motion graphics & type.",
+   "use": "Put it on at 00:03 for 2 s. Move it lower left, above the captions. Type the second line <Senior Research Associate, WestEd> under it.",
+   "rows": [
+    "00:00–00:10"
+   ],
+   "n": 2
+  },
+  {
+   "tpl": "stat_counter",
+   "title": "Number pop",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "number": "50th → 58th",
+    "label": "percentile"
+   },
+   "cue": "Number pop on “58th”: 50th → 58th, label percentile. Top band, 2 s.",
+   "src": "Script, row 00:10–00:13, Motion graphics & type.",
+   "use": "Pop it at the moment he says “58th” as it is said, top band, 2 s.",
+   "rows": [
+    "00:10–00:13"
+   ],
+   "n": 3
+  },
+  {
+   "tpl": "stat_counter",
+   "title": "Number pop",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "number": "12 to 14 days",
+    "label": ""
+   },
+   "cue": "Number pop as he says it: 12 to 14 days. Top band, 2 s.",
+   "src": "Script, row 00:13–00:25, Motion graphics & type.",
+   "use": "Pop it at the moment he says “12 to 14 days” as it is said, top band, 2 s.",
+   "rows": [
+    "00:13–00:25"
+   ],
+   "n": 4
+  },
+  {
+   "tpl": "highlight_callout",
+   "title": "Key line",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "gold standard"
+   },
+   "cue": "Key line in the top band as he says it: gold standard. 2 s.",
+   "src": "Script, row 00:25–00:33, Motion graphics & type.",
+   "use": "Put it on at the moment he says it and hold 2 s, in the top band. Captions stay on.",
+   "rows": [
+    "00:25–00:33"
+   ],
+   "n": 5
+  },
+  {
+   "tpl": "stat_counter",
+   "title": "Number pop",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "number": "2 hours",
+    "label": "of training"
+   },
+   "cue": "Number pop as he says it: 2 hours, label of training. Top band, 2 s.",
+   "src": "Script, row 00:47–01:00, Motion graphics & type.",
+   "use": "Pop it at the moment he says “two hours of training” as it is said, top band, 2 s.",
+   "rows": [
+    "00:47–01:00"
+   ],
+   "n": 6
+  },
+  {
+   "tpl": "end_card",
+   "title": "End card",
+   "rows": [
+    "01:00–01:04"
+   ],
+   "cue": "End card lines: <q>Read the full study</q>. No logo before this card.",
+   "src": "No LearnFresh logo file in the repo yet (brand kit is in Airtable). The name is typed until the logo is added to endcards/learn-fresh/.",
+   "c": {
+    "bg": "#FFFFFF",
+    "fg": "#111111"
+   },
+   "text": {
+    "name": "LearnFresh",
+    "lines": [
+     "Read the full study"
+    ]
+   },
+   "dur": 4.0,
+   "use": "This is the end card. Put it at 01:00 after the last line and hold it to the end.",
+   "n": 7
+  }
+ ]
+}
