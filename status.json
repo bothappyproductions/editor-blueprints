@@ -1,5 +1,5 @@
 {
-"synced": "2026-11-03T15:56:07Z",
+"synced": "2026-11-03T17:12:44Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
@@ -377,10 +377,10 @@
 "v": "V1"
 },
 "13212354694": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-10-20",
-"v": "V1"
+"v": "V2"
 },
 "13212946207": {
 "st": "edit",
@@ -1340,10 +1340,9 @@
 "due": "2026-09-09"
 },
 "13305757514": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V1",
-"note": "Rebecca's stadium footage from the site visit (item 9 of 9 on her 21 Oct editing list, nick@ msg 1a15fd26e76f2ced)"
+"st": "review",
+"label": "In review",
+"v": "V2"
 },
 "13402557235": {
 "st": "review",
@@ -1372,10 +1371,7 @@
 "st": "missing"
 },
 "12937251195": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-03",
-"v": "V2"
+"st": "missing"
 },
 "12918935079": {
 "st": "review",
