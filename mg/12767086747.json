@@ -1,0 +1,124 @@
+{
+ "item": "12767086747",
+ "client": "kiva",
+ "note": "The script asks for the hook text, one name super, a location pin, one key-word line and two text cards, so 6 graphics and the end card. One text element is on screen at a time. The video is 16:9 and 9:16: use the size switch on this page.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "She had to sell her cow"
+   },
+   "cue": "Hook text on frame 1, top: “She had to sell her cow”. Already on screen at 0:00. It does not animate on.",
+   "src": "Script, row 00:00–00:04, Motion graphics & type.",
+   "rows": [
+    "00:00–00:04"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:04. Top band."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Vishal Ghotge"
+   },
+   "cue": "Name super at 00:05–00:08, small, lower left above the captions: “Vishal Ghotge” / CEO at Kiva.",
+   "src": "Script, row 00:04–00:15, Motion graphics & type.",
+   "rows": [
+    "00:04–00:15"
+   ],
+   "use": "Put it on at 00:05 for 3 s. Move it lower left, above the captions. Type the second line <CEO at Kiva> under the name."
+  },
+  {
+   "n": 3,
+   "title": "Location pin",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Nairobi"
+   },
+   "cue": "Location pin, upper left, at 00:16–00:19: “📍 Nairobi”.",
+   "src": "Script, row 00:15–00:28, Motion graphics & type.",
+   "rows": [
+    "00:15–00:28"
+   ],
+   "use": "Put it on at 00:16 for 3 s, upper left, when he says Nairobi."
+  },
+  {
+   "n": 4,
+   "title": "Lump sum",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "lump sum at the beginning of the year"
+   },
+   "cue": "Key words, top, at 00:44–00:47: “lump sum at the beginning of the year”.",
+   "src": "Script, row 00:33–00:51, Motion graphics & type.",
+   "rows": [
+    "00:33–00:51"
+   ],
+   "use": "Put it on at 00:44 when he says “lump sum”, for 3 s, top band. Captions stay on."
+  },
+  {
+   "n": 5,
+   "title": "Daughter 1 card",
+   "tpl": "statement_card",
+   "dur": 2.5,
+   "text": {
+    "main": "Daughter 1: sold the cow"
+   },
+   "cue": "Text card at 00:52, 2.5 s, full frame on the Kiva dark green: “Daughter 1: sold the cow”.",
+   "src": "Script, row 00:51–00:58, Motion graphics & type.",
+   "rows": [
+    "00:51–00:58"
+   ],
+   "use": "Cut to it at 00:52 for 2.5 s. His voice keeps running under it."
+  },
+  {
+   "n": 6,
+   "title": "Daughter 2 card",
+   "tpl": "statement_card",
+   "dur": 2.5,
+   "text": {
+    "main": "Daughter 2: kept the cow"
+   },
+   "cue": "Text card at 01:00, 2.5 s, full frame on the Kiva dark green: “Daughter 2: kept the cow”.",
+   "src": "Script, row 00:58–01:08, Motion graphics & type.",
+   "rows": [
+    "00:58–01:08"
+   ],
+   "use": "Cut to it at 01:00 for 2.5 s, then back to his face for “and not have to sell her cow”."
+  },
+  {
+   "n": 7,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:31–01:35"
+   ],
+   "cue": "End card: “Give a little. Change a lot.” + kiva.org.",
+   "src": "Kiva's white wordmark from the Kiva brand kit built from kiva.org (Mac Studio, state/kiva/brand/logos, 10 Oct 2026), endcards/index.json. Tagline from the client file.",
+   "c": {
+    "bg": "#223829",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/kiva/kiva-logo-white.svg",
+   "text": {
+    "lines": [
+     "Give a little. Change a lot.",
+     "kiva.org"
+    ]
+   },
+   "dur": 4.0,
+   "use": "This is the end card. Put it right after “not sell her cow.” and hold it to the end."
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "item": "13391050680",
+ "client": "curegrin",
+ "format": "16x9",
+ "note": "A 16:9 video, so every graphic is horizontal. The script asks for the hook text, the title card, the lower third and two chapter cards, so 5 graphics and the end card. The slides are Keith's own PDF pages, not graphics. Captions throughout.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "upper": true,
+   "text": {
+    "main": "THE STAR OF THE SHOW"
+   },
+   "cue": "Hook text on frame 1, big and bold: “THE STAR OF THE SHOW”. Already on screen at 0:00. It does not animate on.",
+   "src": "Script, row 00:00–00:07, Motion graphics & type.",
+   "rows": [
+    "00:00–00:07"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:04."
+  },
+  {
+   "n": 2,
+   "title": "Title card",
+   "tpl": "statement_card",
+   "dur": 5,
+   "text": {
+    "main": "Keith McArthur",
+    "sub": "CureGRIN · Lunch and Learn at GRIN Therapeutics, New York, 8 Oct 2026"
+   },
+   "cue": "Title card, full frame, 5 s: “Keith McArthur” with the line “CureGRIN · Lunch and Learn at GRIN Therapeutics, New York, 8 Oct 2026”.",
+   "src": "Script, row 00:07–00:12, Motion graphics & type.",
+   "rows": [
+    "00:07–00:12"
+   ],
+   "use": "Full frame from 00:07 to 00:12, over the room wide or the slide 1 photo. Music in under it."
+  },
+  {
+   "n": 3,
+   "title": "Lower third",
+   "tpl": "tag_label",
+   "dur": 4,
+   "pos": "center",
+   "text": {
+    "main": "Keith McArthur"
+   },
+   "cue": "Lower third at 00:12 on his first sync, 4 s: “Keith McArthur” / CEO, CureGRIN Foundation.",
+   "src": "Script, row 00:12–00:35, Motion graphics & type.",
+   "rows": [
+    "00:12–00:35"
+   ],
+   "use": "Put it on at 00:12 for 4 s, lower left above the captions. Type the second line <CEO, CureGRIN Foundation> under the name."
+  },
+  {
+   "n": 4,
+   "title": "Chapter: Part 1",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Part 1: Bryson's Story"
+   },
+   "cue": "Small chapter card at the start of Part 1, top, 3 s: “Part 1: Bryson's Story”",
+   "src": "Script, row 00:35–01:14, Motion graphics & type.",
+   "rows": [
+    "00:35–01:14"
+   ],
+   "use": "Put it on at the start of C5189 for 3 s, top band, as he says he will talk about Bryson."
+  },
+  {
+   "n": 5,
+   "title": "Chapter: Part 2",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "CureGRIN's Story"
+   },
+   "cue": "Small chapter card at the start of Part 2, top, 3 s: “CureGRIN's Story”",
+   "src": "Script, row 16:01–18:50, Motion graphics & type.",
+   "rows": [
+    "16:01–18:50"
+   ],
+   "use": "Put it on at “So I'm going to turn now” (C5210 00:11) for 3 s, top band."
+  },
+  {
+   "n": 6,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "29:53–29:57"
+   ],
+   "cue": "End card: “Support CureGRIN today.” and curegrin.org.",
+   "src": "endcards/index.json (22 Oct 2026): no CureGRIN logo file yet (Lauren's high-res logo is still owed), so the name is typed until it arrives.",
+   "c": {
+    "bg": "#5C3D8D",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "CureGRIN",
+    "lines": [
+     "Support CureGRIN today.",
+     "curegrin.org"
+    ]
+   },
+   "dur": 4.0,
+   "use": "Put it right after “Thank you.” and hold it to the end. Music resolves with a 1 s fade. The logo goes here when Lauren sends it."
+  }
+ ]
+}

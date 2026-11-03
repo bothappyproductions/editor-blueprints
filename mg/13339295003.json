@@ -1,0 +1,113 @@
+{
+ "item": "13339295003",
+ "client": "niwrc",
+ "note": "The script asks for the hook text, two top question texts, one name super and the key words LIVE EVERY DAY, so 5 graphics and the end card. Every other row is captions only.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook question",
+   "tpl": "highlight_callout",
+   "dur": 5,
+   "pos": "top",
+   "text": {
+    "main": "Are you happy?"
+   },
+   "cue": "Hook text on frame 1: “Are you happy?” Already on screen at 0:00. Does not animate on.",
+   "src": "Script, row 00:00–00:05, Motion graphics & type.",
+   "rows": [
+    "00:00–00:05"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until “Absolutely.” Top third."
+  },
+  {
+   "n": 2,
+   "title": "Question text",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "What is the source of your happiness?"
+   },
+   "cue": "Top text at 00:05, 2 s: “What is the source of your happiness?”",
+   "src": "Script, row 00:05–00:11, Motion graphics & type.",
+   "rows": [
+    "00:05–00:11"
+   ],
+   "use": "Put it on at 00:05 and hold 2 s, in the top band. Keep captions on."
+  },
+  {
+   "n": 3,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 2.5,
+   "pos": "center",
+   "text": {
+    "main": "Jacob Keyes"
+   },
+   "cue": "Name super at 00:07 for 2.5 s, lower left above the captions: “Jacob Keyes” / Owner, Skydance Brewing Company.",
+   "src": "Script, row 00:05–00:11, Motion graphics & type.",
+   "rows": [
+    "00:05–00:11"
+   ],
+   "use": "Put it on at 00:07 for 2.5 s. Move it lower left, above the captions. Type the second line <Owner, Skydance Brewing Company> under the name."
+  },
+  {
+   "n": 4,
+   "title": "Question text",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "One message to the entire world?"
+   },
+   "cue": "Top text at 00:27, 2 s: “One message to the entire world?”",
+   "src": "Script, row 00:27–00:32, Motion graphics & type.",
+   "rows": [
+    "00:27–00:32"
+   ],
+   "use": "Put it on at 00:27 and hold 2 s, in the top band, before “it would be”. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "Live every day",
+   "tpl": "word_stack",
+   "dur": 5.4,
+   "pos": "top",
+   "upper": true,
+   "text": {
+    "items": [
+     "LIVE",
+     "EVERY DAY"
+    ]
+   },
+   "cue": "Key words one at a time, top third: LIVE EVERY DAY, in on “live”, out at the end of the line.",
+   "src": "Script, row 00:32–00:38, Motion graphics & type.",
+   "rows": [
+    "00:32–00:38"
+   ],
+   "use": "Start it on the word “live” and let it run to the end of the line. Top band. Captions stay on."
+  },
+  {
+   "n": 6,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:41–00:44"
+   ],
+   "cue": "End card: NIWRC logo, white on NIWRC red #981C20. One line under it: NIWRC × Happy Productions.",
+   "src": "NIWRC logo (white) from NIWRC's onboarding brand file, in the brand kit 10 Oct 2026 (endcards/index.json). Client rule: white logo on red.",
+   "c": {
+    "bg": "#981C20",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/niwrc/niwrc-logo-white.svg",
+   "text": {
+    "lines": [
+     "NIWRC × Happy Productions"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it right after “before.” and hold it to the end. Music fades out over 1 s."
+  }
+ ]
+}

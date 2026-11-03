@@ -1,0 +1,176 @@
+{
+ "item": "13153576741",
+ "client": "curegrin",
+ "format": "16x9",
+ "note": "A 16:9 video, so every graphic is horizontal. The script asks for the hook text, the name plate, the title card, two explainer texts, a key-word stack, the brand wipe and chapter card at the break, and one top text, so 9 graphics and the end card. Every other row is captions only.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "I'm kind of a people person."
+   },
+   "cue": "Hook text on frame 1: “I'm kind of a people person.” Already on screen at 0:00. It does not animate on. Out at 00:03.",
+   "src": "Script, row 00:00–00:07, Motion graphics & type.",
+   "rows": [
+    "00:00–00:07"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top band."
+  },
+  {
+   "n": 2,
+   "title": "Name plate",
+   "tpl": "tag_label",
+   "dur": 4,
+   "pos": "center",
+   "text": {
+    "main": "Dr. Katherine Roche"
+   },
+   "cue": "Name plate at 00:11, small, lower left: Dr. Katherine Roche / Senior Investigator, NIH/NINDS.",
+   "src": "Script, row 00:10–00:18, Motion graphics & type.",
+   "rows": [
+    "00:10–00:18"
+   ],
+   "use": "Put it on at 00:11 for 4 s. Move it lower left, above the captions. Type the second line <Senior Investigator, NIH/NINDS> under the name."
+  },
+  {
+   "n": 3,
+   "title": "Title card",
+   "tpl": "statement_card",
+   "dur": 3.5,
+   "text": {
+    "main": "A research hospital where no one pays"
+   },
+   "cue": "Title card, full frame, 3.5 s: “A research hospital where no one pays”.",
+   "src": "Script, row 00:18–00:22, Motion graphics & type.",
+   "rows": [
+    "00:18–00:22"
+   ],
+   "use": "Full frame at 00:18 for 3.5 s. Land the music hit on it."
+  },
+  {
+   "n": 4,
+   "title": "Explainer 1",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "Glutamate receptors help brain cells pass signals"
+   },
+   "cue": "Explainer 1 text, top, with the AI voiceover: “Glutamate receptors help brain cells pass signals”.",
+   "src": "Script, row 00:22–01:00, Motion graphics & type.",
+   "rows": [
+    "00:22–01:00"
+   ],
+   "use": "Put it over the explainer B-roll after “really the entire time.”, with the AI voiceover, for about 4 s."
+  },
+  {
+   "n": 5,
+   "title": "GRIN key words",
+   "tpl": "word_stack",
+   "dur": 7,
+   "pos": "top",
+   "text": {
+    "items": [
+     "NMDA receptors",
+     "GRIN genes",
+     "GRIN2B",
+     "GRIN2A"
+    ]
+   },
+   "cue": "Key words one at a time, top, as she says them: NMDA receptors · GRIN genes · GRIN2B · GRIN2A.",
+   "src": "Script, row 01:00–01:20, Motion graphics & type.",
+   "rows": [
+    "01:00–01:20"
+   ],
+   "use": "Start on “NMDA receptors” (about 01:12) and let each word land as she says it. Top band. Captions stay on."
+  },
+  {
+   "n": 6,
+   "title": "Break wipe",
+   "tpl": "brand_wipe",
+   "dur": 1.6,
+   "text": {},
+   "cue": "Brand colour wipe, then chapter card, full frame, 2.5 s: “The NIH study”.",
+   "src": "Script, row 03:15–03:19, Motion graphics & type.",
+   "rows": [
+    "03:15–03:19"
+   ],
+   "use": "The wipe opens the break at 03:15, straight into the chapter card."
+  },
+  {
+   "n": 7,
+   "title": "Chapter card",
+   "tpl": "statement_card",
+   "dur": 2.5,
+   "text": {
+    "main": "The NIH study"
+   },
+   "cue": "chapter card, full frame, 2.5 s: “The NIH study”",
+   "src": "Script, row 03:15–03:19, Motion graphics & type.",
+   "rows": [
+    "03:15–03:19"
+   ],
+   "use": "Full frame after the wipe for 2.5 s. The music changes here."
+  },
+  {
+   "n": 8,
+   "title": "Explainer 2",
+   "tpl": "highlight_callout",
+   "dur": 5,
+   "pos": "top",
+   "text": {
+    "main": "Cell lines: living cells grown from a patient's own sample"
+   },
+   "cue": "Explainer 2 text, top, with the AI voiceover: “Cell lines: living cells grown from a patient's own sample”.",
+   "src": "Script, row 03:19–04:01, Motion graphics & type.",
+   "rows": [
+    "03:19–04:01"
+   ],
+   "use": "Put it over the explainer B-roll after “patient-derived cell lines.”, with the AI voiceover, for about 5 s."
+  },
+  {
+   "n": 9,
+   "title": "Research hospital",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "It's a research hospital."
+   },
+   "cue": "Top text on “It's a research hospital.” (about 04:58), 2.5 s: “It's a research hospital.”",
+   "src": "Script, row 04:19–05:08, Motion graphics & type.",
+   "rows": [
+    "04:19–05:08"
+   ],
+   "use": "Put it on as she says “It's a research hospital.” and hold 2.5 s. Top band. Captions stay on."
+  },
+  {
+   "n": 10,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "05:29–05:34"
+   ],
+   "cue": "End card: Register Here · curegrin.akaraisin.com/ui/gricon27 · GRI con 2027 · July 22–24, 2027 · Denver, CO.",
+   "src": "endcards/index.json (22 Oct 2026): no CureGRIN logo file yet (Lauren's high-res logo is still owed), so the name is typed. The shared end card layout is from the brief.",
+   "c": {
+    "bg": "#5C3D8D",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "CureGRIN",
+    "lines": [
+     "Register Here",
+     "curegrin.akaraisin.com/ui/gricon27",
+     "GRI con 2027 · July 22–24, 2027 · Denver, CO"
+    ]
+   },
+   "dur": 5.0,
+   "use": "Stand-in for the shared CureGRIN end card. Use the shared card from the approved short if you have it (both logos horizontal, GR icon on white, July 2027 calendar); this one types the name until the logo file arrives. Put it after “GRIN families.” and hold it to the end."
+  }
+ ]
+}

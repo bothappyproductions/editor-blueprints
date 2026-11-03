@@ -7,7 +7,7 @@
  "title_short": "Jacob Keyes · AYH · Live Every Day Like It's Your Last",
  "editor": "Qendrim",
  "due": "2026-11-11",
- "format": "9:16 vertical · 1080×1920 (source is already vertical, 2160×3840)",
+ "format": "9:16 only · 1080×1920 (source is already vertical, 2160×3840)",
  "length": "about 44 s",
  "edit_key": "NIWRCOKCAYHJacob001",
  "headline": "The host of the night tells us he is always happy, why, and then gives the whole world one message: live every day like it could be your last.",
@@ -34,9 +34,9 @@
  ],
  "links": {
   "brief": {
-   "title": "Jacob Keyes · Are You Happy · \"Live Every Day Like It's Your Last\"",
-   "url": "https://docs.google.com/document/d/1BCbH7n7lOXHDrPucCmrVLSMjuiLnRXP_woP0WBMp7lA/edit",
-   "note": "The blueprint was written as a Google Doc. This page is the same plan, on the site."
+   "title": "NIWRC: Jacob Keyes AYH: Editing Brief",
+   "url": "https://docs.google.com/document/d/1bC4p-K5pjeWnWqdfhdnJP5aa5gS5pQVmIeDKMIuSwE4/edit",
+   "note": "Claire's editing brief (on the Monday item). The bites are checked against the clip."
   },
   "reference": {
    "title": "Approved NIWRC traditional (Q)",
@@ -46,10 +46,10 @@
   "footage": {
    "title": "Interview 4 folder",
    "url": "https://drive.google.com/drive/folders/1HxZai0xk1M2NjZ7tR6iGKraTwp3YjTcE",
-   "note": "Interview 4 folder (in the NIWRC OKC 9 Oct 2026 raw folder) · B-Roll folder · B1"
+   "note": "Interview 4 = Jacob. The AYH answer is 26-10-09 C1 Happy - NIWRC Event 12.MP4 (1:19, vertical). Event 11 is his sit-down; B-roll is in B-Roll/B1."
   }
  },
- "bp_intro": "One source clip: <b>26-10-09 C1 Happy - NIWRC Event 12.MP4</b> (vertical 2160×3840, 23.976 fps, 79 s). Times are source times in that file, from the word-level transcript (Interview 4.transcript.json), not the master-transcript times in the old brief. B-roll from B-Roll/B1. <b>The first text card is already on screen at 0:00 and does not animate on.</b>",
+ "bp_intro": "One source clip: <a href=\"https://drive.google.com/file/d/1IpnZd3LKvp_Xmxpu7AJHiZ0A_02g_-60/view\">26-10-09 C1 Happy - NIWRC Event 12.MP4</a> (Interview 4 folder, vertical 2160×3840, 23.976 fps, 79 s). Times are mm:ss.s in <b>that clip</b>, from the word times in Interview 4.transcript.json. B-roll is from B-Roll/B1, picked from visual.json. No frame of these clips is on file yet: check each pick on scrub. <b>The hook text is already on screen at 0:00 and does not animate on.</b>",
  "rows": [
   {
    "tc": "00:00–00:05",
@@ -59,15 +59,21 @@
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Jacob, medium-wide, standing on the patio, cap and glasses, cup in hand. Start on the frame where he says \"Am\". Punch in about 15% so his face fills the top half.",
-   "motion": "Question card <b>ARE YOU HAPPY?</b> already on screen at frame 0 (does not animate on). AYH series card style. Out on \"Absolutely.\"",
+   "visual": "Jacob on camera, <a href=\"https://drive.google.com/file/d/1IpnZd3LKvp_Xmxpu7AJHiZ0A_02g_-60/view\">26-10-09 C1 Happy - NIWRC Event 12.MP4</a> (vertical file). He stands on the patio, blue cap and glasses, cup in hand. Start on “Am” at <span class=\"mono\">00:09.1</span>. Cut the gap after “happy?” (<span class=\"mono\">00:09.9</span> to <span class=\"mono\">00:11.2</span>) down to about 0.3 s. Punch in about 15% so his face sits in the top half. Face only: his energy is the hook.",
+   "motion": "Hook text on <b>frame 1</b>: <q>Are you happy?</q> Already on screen at 0:00. Does not animate on. Top third, big, white bold, the AYH series style (same as the Christie, Brandi and Cory AYH cuts). It goes out on “Absolutely.” Captions start on frame 1.",
    "voice": {
-    "who": "Jacob",
+    "who": "Jacob Keyes",
     "quote": "Am I happy? That's the question. I'm always happy. Absolutely.",
-    "src": "26-10-09 C1 Happy - NIWRC Event 12.MP4 00:09.07–00:14.22 (cut the 1.3 s gap after \"happy?\" down to 0.3 s)"
+    "src": "26-10-09 C1 Happy - NIWRC Event 12.MP4 00:09.1 to 00:14.2 (cut the 1.3 s gap after “happy?” down to 0.3 s)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Music starts under, low."
+   "music": "Music starts under, low.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Am"
+    }
+   ]
   },
   {
    "tc": "00:05–00:11",
@@ -77,15 +83,21 @@
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Back on Jacob. Same frame.",
-   "motion": "Question card <b>WHAT IS THE SOURCE OF YOUR HAPPINESS?</b> in at 00:05, out at 00:07. Name super at 00:07, 2.5 s: <b>Jacob Keyes</b> / Owner, Skydance Brewing Company.",
+   "visual": "Back on Jacob, same frame, from <span class=\"mono\">00:18.6</span>. Face only.",
+   "motion": "Top text at 00:05, 2 s: <q>What is the source of your happiness?</q> Name super at 00:07 for 2.5 s, lower left above the captions: <q>Jacob Keyes</q> / Owner, Skydance Brewing Company. Name and title only. Captions on.",
    "voice": {
-    "who": "Jacob",
+    "who": "Jacob Keyes",
     "quote": "My family is the source of my happiness, my Tribe, my community. Those things are the source of my happiness.",
-    "src": "26-10-09 C1 Happy - NIWRC Event 12.MP4 00:18.55–00:23.89"
+    "src": "26-10-09 C1 Happy - NIWRC Event 12.MP4 00:18.6 to 00:23.9"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "My family"
+    }
+   ]
   },
   {
    "tc": "00:11–00:18",
@@ -95,15 +107,41 @@
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "On \"I have a wife. I've got kids.\" stay on his face. On \"all of these people that work with me here at the brewery\" cut to B-roll: <b>B1 Event 10</b> 00:03.6–00:10.8 (brewery tanks and kegs), then <b>B1 Event 12</b> 00:22.5–00:30.0 (Skydance Brewing sign) on \"our Tribe at the Iowa Tribe\". 16:9 B-roll: center crop to 9:16.",
+   "visual": "Stay on his face for “I mean, I'm just lucky. I have a wife. I've got kids.” On “all of these people that work with me here at the brewery” (<span class=\"mono\">00:29.9</span>) cut to <a href=\"https://drive.google.com/file/d/1yhOwxl-Gqwj04hEuftYwSZ9D1scdLODZ/view\">26-10-09 B1 Happy - NIWRC Event 10.MP4</a> <span class=\"mono\">00:03.6</span> to <span class=\"mono\">00:07.0</span>: the brewery floor, steel tanks and kegs, no people (center crop to 9:16). On “our Tribe at the Iowa Tribe” (<span class=\"mono\">00:32.9</span>) cut to <a href=\"https://drive.google.com/file/d/1M-Cf42PGq4m_nQbTlyKopQ-GFvhGxejn/view\">26-10-09 B1 Happy - NIWRC Event 12.MP4</a> <span class=\"mono\">00:22.5</span> to <span class=\"mono\">00:25.0</span>: the Skydance Brewing sign in the window (center crop). Back to his face on “We're all”.",
    "motion": "Captions only.",
    "voice": {
-    "who": "Jacob",
+    "who": "Jacob Keyes",
     "quote": "I mean, I'm just lucky. I have a wife. I've got kids. I've got all of these people that work with me here at the brewery, our Tribe at the Iowa Tribe.",
-    "src": "26-10-09 C1 Happy - NIWRC Event 12.MP4 00:26.83–00:34.47"
+    "src": "26-10-09 C1 Happy - NIWRC Event 12.MP4 00:26.8 to 00:34.5"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I mean"
+    },
+    {
+     "clip": "26-10-09 B1 Happy - NIWRC Event 10.MP4",
+     "at": 3.6,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "B-Roll/B1/26-10-09 B1 Happy - NIWRC Event 10.MP4",
+     "drive": "1yhOwxl-Gqwj04hEuftYwSZ9D1scdLODZ",
+     "layout": "full",
+     "what": "Brewery floor, steel tanks and kegs (visual.json)"
+    },
+    {
+     "clip": "26-10-09 B1 Happy - NIWRC Event 12.MP4",
+     "at": 22.5,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "B-Roll/B1/26-10-09 B1 Happy - NIWRC Event 12.MP4",
+     "drive": "1M-Cf42PGq4m_nQbTlyKopQ-GFvhGxejn",
+     "layout": "full",
+     "what": "Skydance Brewing sign in a window (visual.json)"
+    }
+   ]
   },
   {
    "tc": "00:18–00:27",
@@ -113,15 +151,31 @@
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "On \"We're all a big huge family\" cut to <b>B1 Event 29</b> 00:00.0–00:11.5 (people at the bar, talking, laughing). Back to his face on \"I'm surrounded by people that love me\" and hold to the end: his smile is the best picture.",
-   "motion": "Optional highlight on the word <b>HAPPY</b> in the caption (brand pill) on \"incapable of being happy\". Nothing else.",
+   "visual": "On “We're all a big huge family” (<span class=\"mono\">00:34.6</span>) cut to <a href=\"https://drive.google.com/file/d/1K0sWEzk6RT-V1S20zTuZvgzdxLX5S9XU/view\">26-10-09 B1 Happy - NIWRC Event 29.MP4</a> <span class=\"mono\">00:02.0</span> to <span class=\"mono\">00:05.5</span>: people talk and laugh around the bar counter (center crop). Back to his face on “I'm surrounded by people that love me” (<span class=\"mono\">00:39.4</span>) and hold it to the end of the line: his smile is the best picture here.",
+   "motion": "Captions only. Optional: the word <b>happy</b> in “incapable of being happy” on a NIWRC red pill in the caption, if it matches your approved NIWRC caption look. The caption clips on this page are plain.",
    "voice": {
-    "who": "Jacob",
+    "who": "Jacob Keyes",
     "quote": "We're all a big huge family and everywhere I go from the time I wake up till I go to bed, I'm surrounded by people that love me. And if you can't be happy with that, then you're just incapable of being happy.",
-    "src": "26-10-09 C1 Happy - NIWRC Event 12.MP4 00:34.59–00:44.09"
+    "src": "26-10-09 C1 Happy - NIWRC Event 12.MP4 00:34.6 to 00:44.1"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "clip": "26-10-09 B1 Happy - NIWRC Event 29.MP4",
+     "at": 2.0,
+     "dur": 3.5,
+     "cx": 0.5,
+     "path": "B-Roll/B1/26-10-09 B1 Happy - NIWRC Event 29.MP4",
+     "drive": "1K0sWEzk6RT-V1S20zTuZvgzdxLX5S9XU",
+     "layout": "full",
+     "what": "People talk around the bar counter (visual.json)"
+    },
+    {
+     "face": true,
+     "from_word": "I'm surrounded"
+    }
+   ]
   },
   {
    "tc": "00:27–00:32",
@@ -131,15 +185,21 @@
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Jacob. Check the frame on scrub: visual.json says the picture changes at 00:59.3 (\"seated, reflection in foreground\"). If he is not clean in frame, use the last clean frame or cover with B1 Event 12 00:00–00:07.5 (outdoor patio).",
-   "motion": "Question card <b>ONE MESSAGE TO THE ENTIRE WORLD?</b> in at 00:27, out at 00:28.5.",
+   "visual": "Jacob, <a href=\"https://drive.google.com/file/d/1IpnZd3LKvp_Xmxpu7AJHiZ0A_02g_-60/view\">26-10-09 C1 Happy - NIWRC Event 12.MP4</a> from “it would be” (<span class=\"mono\">00:58.5</span>). visual.json says the picture changes at <span class=\"mono\">00:59.3</span> (“seated, reflection in the foreground”). Check on scrub: if he is not clean in frame there, hold the last clean frame of him or cover with <a href=\"https://drive.google.com/file/d/1M-Cf42PGq4m_nQbTlyKopQ-GFvhGxejn/view\">26-10-09 B1 Happy - NIWRC Event 12.MP4</a> <span class=\"mono\">00:08.0</span> to <span class=\"mono\">00:11.0</span> (the covered patio, tables and chairs). Keep one beat of silence (about 0.5 s) after “die.”",
+   "motion": "Top text at 00:27, 2 s: <q>One message to the entire world?</q> It replaces his own lead-in “Oh my gosh, if I could give one message to the entire world”. Captions on.",
    "voice": {
-    "who": "Jacob",
+    "who": "Jacob Keyes",
     "quote": "it would be, this is gonna sound crazy, but it would be that you're going to die.",
-    "src": "26-10-09 C1 Happy - NIWRC Event 12.MP4 00:58.53–01:02.39 (start on \"it\"; the card replaces \"Oh my gosh, if I could give one message to the entire world\")"
+    "src": "26-10-09 C1 Happy - NIWRC Event 12.MP4 00:58.5 to 01:02.4 (start on “it”; the top text replaces “Oh my gosh, if I could give one message to the entire world”)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Music dips for 0.5 s after \"die.\""
+   "music": "Music dips for 0.5 s after \"die.\"",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "it would be"
+    }
+   ]
   },
   {
    "tc": "00:32–00:38",
@@ -149,15 +209,21 @@
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Jacob, face. Hold.",
-   "motion": "Kinetic quote on the key line: <b>LIVE EVERY DAY</b> word-stack, in on \"live\", out at end of line. Captions stay on.",
+   "visual": "Jacob, face. Hold. The transcript labels this line “Interviewer”: it is Jacob, same voice, same shot.",
+   "motion": "Key words one at a time, top third: <b>LIVE EVERY DAY</b>, in on “live”, out at the end of the line. Captions stay on.",
    "voice": {
-    "who": "Jacob",
+    "who": "Jacob Keyes",
     "quote": "When I say that, what that means is live every day as if this could be the last day of your life.",
-    "src": "26-10-09 C1 Happy - NIWRC Event 12.MP4 01:02.85–01:08.21"
+    "src": "26-10-09 C1 Happy - NIWRC Event 12.MP4 01:02.9 to 01:08.2"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Music back up."
+   "music": "Music back up.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "When I say"
+    }
+   ]
   },
   {
    "tc": "00:38–00:41",
@@ -167,15 +233,21 @@
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Jacob, face, hold his smile 0.5 s after \"before.\"",
+   "visual": "Jacob, face. Hold his smile about 0.5 s after “before.” Then the end card.",
    "motion": "Captions only.",
    "voice": {
-    "who": "Jacob",
+    "who": "Jacob Keyes",
     "quote": "You will do things and make things happen that you never thought of doing before.",
-    "src": "26-10-09 C1 Happy - NIWRC Event 12.MP4 01:12.17–01:15.49 (skips \"And if you think about it that way, you'll do things, you'll take action.\" 01:08.25–01:11.63; put it back if the cut needs air)"
+    "src": "26-10-09 C1 Happy - NIWRC Event 12.MP4 01:12.2 to 01:15.5 (skips “And if you think about it that way, you'll do things, you'll take action.” 01:08.3 to 01:11.6; put it back if the cut needs air)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "You will"
+    }
+   ]
   },
   {
    "tc": "00:41–00:44",
@@ -185,95 +257,438 @@
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "End card.",
-   "motion": "NIWRC × Happy Productions end card, white NIWRC logo on red. Logo only here.",
-   "voice": "<span class=\"none\">(music only)</span>",
+   "visual": "End card: NIWRC logo, white on NIWRC red <span class=\"mono\">#981C20</span>. One line under it: <q>NIWRC × Happy Productions</q>. The logo is here only.",
+   "motion": "No logo before this card.",
+   "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Music out."
+   "music": "Music out, 1 s fade.",
+   "shots": []
   }
  ],
  "frames": {},
  "files": [
   [
    "Editing brief",
-   "<a href=\"https://docs.google.com/document/d/1BCbH7n7lOXHDrPucCmrVLSMjuiLnRXP_woP0WBMp7lA/edit\">Jacob Keyes · Are You Happy · &quot;Live Every Day Like It&#x27;s Your Last&quot;</a> (Google Doc). This page is built from it."
+   "<a href=\"https://docs.google.com/document/d/1bC4p-K5pjeWnWqdfhdnJP5aa5gS5pQVmIeDKMIuSwE4/edit\">NIWRC: Jacob Keyes AYH: Editing Brief</a>"
   ],
   [
-   "Brief",
-   "<a href=\"https://docs.google.com/document/d/1bC4p-K5pjeWnWqdfhdnJP5aa5gS5pQVmIeDKMIuSwE4/edit\">Editing Brief (Google Doc)</a>"
-  ],
-  [
-   "Reference",
-   "<a href=\"https://f.io/zKa6KyXr\">Approved NIWRC traditional (Q)</a> — No AYH reference is on the Monday item. Match your approved NIWRC traditional for captions, color and pacing, and keep this in step with your Christie, Brandi and Cory AYH cuts. Nick owes the AYH reference if he wants a different one."
-  ],
-  [
-   "Footage",
-   "<a href=\"https://drive.google.com/drive/folders/1HxZai0xk1M2NjZ7tR6iGKraTwp3YjTcE\">Interview 4 folder</a> (in the <a href=\"https://drive.google.com/drive/folders/1jivE7s9xcOSQyoSJ-CRO4Z0AhyqGXnRg\">NIWRC OKC 9 Oct 2026 raw folder</a>) · <a href=\"https://drive.google.com/drive/folders/1dGx5Fx5jLztaq-g6KuesN2pjPZbdlUSg\">B-Roll folder</a> · <a href=\"https://drive.google.com/drive/folders/10NgSmy-lusV-taZa8z8Rl4F-soIm5wj7\">B1</a>"
+   "Blueprint doc",
+   "<a href=\"https://docs.google.com/document/d/1BCbH7n7lOXHDrPucCmrVLSMjuiLnRXP_woP0WBMp7lA/edit\">Jacob Keyes · Are You Happy · Director's Blueprint (Google Doc)</a>. Same plan as this page."
   ],
   [
    "Production brief",
-   "<a href=\"https://docs.google.com/document/d/1EOtGp60jDrQ8FyH2H-m-xPMhHDHACBcLYHuASPvai3k/edit\">NIWRC Production Brief — Oklahoma City, October 2026</a>"
+   "<a href=\"https://docs.google.com/document/d/1EOtGp60jDrQ8FyH2H-m-xPMhHDHACBcLYHuASPvai3k/edit\">NIWRC Production Brief, Oklahoma City, October 2026</a>"
+  ],
+  [
+   "Reference",
+   "<a href=\"https://f.io/zKa6KyXr\">Approved NIWRC traditional (Q)</a>. Match it for captions, color and pacing, in step with the Christie, Brandi and Cory AYH cuts."
+  ],
+  [
+   "Footage folder",
+   "<a href=\"https://drive.google.com/drive/folders/1jivE7s9xcOSQyoSJ-CRO4Z0AhyqGXnRg\">NIWRC OKC 9 Oct 2026 raw</a> · <a href=\"https://drive.google.com/drive/folders/1HxZai0xk1M2NjZ7tR6iGKraTwp3YjTcE\">Interview 4</a> · <a href=\"https://drive.google.com/drive/folders/1dGx5Fx5jLztaq-g6KuesN2pjPZbdlUSg\">B-Roll</a> · <a href=\"https://drive.google.com/drive/folders/10NgSmy-lusV-taZa8z8Rl4F-soIm5wj7\">B1</a>"
+  ],
+  [
+   "Interview clip",
+   "<a href=\"https://drive.google.com/file/d/1IpnZd3LKvp_Xmxpu7AJHiZ0A_02g_-60/view\">26-10-09 C1 Happy - NIWRC Event 12.MP4</a> · 1:19 · vertical · the whole AYH answer"
+  ],
+  [
+   "Other Jacob clips",
+   "<a href=\"https://drive.google.com/file/d/1gPRRrCJcgsqT5M5W4yLr55c9U0TX0ue2/view\">26-10-09 C1 Happy - NIWRC Event 11.MP4</a> (his sit-down, 2:56) · <a href=\"https://drive.google.com/file/d/1306XW1Z__hvgykuVuCJDb9n7fQ6dCgE6/view\">26-10-09 C2 Happy - NIWRC Event 7.MP4</a> (second angle of the sit-down). Ardit's “Somebody Calls, We Come” cut uses Event 11: do not use its lines here."
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1PufIi6l5s27ii-OBzSvfw18A1rxsi0CUrA3Z7sdKzow/edit\">Transcripts - Interview 4</a> · <a href=\"https://drive.google.com/file/d/1WQdCKZ1cW5c5YKiRWObAgJWYD0bdIYjI/view\">Interview 4.transcript.json</a> (word times)"
+  ],
+  [
+   "B-roll picks",
+   "<a href=\"https://drive.google.com/file/d/1yhOwxl-Gqwj04hEuftYwSZ9D1scdLODZ/view\">26-10-09 B1 Happy - NIWRC Event 10.MP4</a> 0:03.6 to 0:07 · <a href=\"https://drive.google.com/file/d/1M-Cf42PGq4m_nQbTlyKopQ-GFvhGxejn/view\">26-10-09 B1 Happy - NIWRC Event 12.MP4</a> 0:22.5 to 0:25 and 0:08 to 0:11 (cover only) · <a href=\"https://drive.google.com/file/d/1K0sWEzk6RT-V1S20zTuZvgzdxLX5S9XU/view\">26-10-09 B1 Happy - NIWRC Event 29.MP4</a> 0:02 to 0:05.5 · <a href=\"https://drive.google.com/drive/folders/10NgSmy-lusV-taZa8z8Rl4F-soIm5wj7\">B1 folder</a>"
+  ],
+  [
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/1aSJbS1IAKZCaVOjGit2YtNZ1Ge33acMG/view\">visual.json</a> (shoot level, Erin's shot index). The picks come from it; no frames are pulled yet."
+  ],
+  [
+   "Brand graphics package",
+   "NIWRC package: Drive <span class=\"mono\">deliverables/graphics-packages/NIWRC</span>. Type the words on the empty plates in Source Sans 3."
+  ],
+  [
+   "Brand",
+   "Oswald and Source Sans 3. NIWRC red <span class=\"mono\">#981C20</span>, purple <span class=\"mono\">#4D3271</span>, light base <span class=\"mono\">#E7DED5</span>, near black <span class=\"mono\">#231F20</span>."
   ],
   [
    "Standing rules",
-   "No victim imagery. Nothing that shows a woman in fear or harm.<br>Supers: name and title only. No Tribal affiliation on screen.<br>Capital T in \"Tribal\" and capital N in \"Native\" everywhere on screen, captions too.<br>Music: Native music only if made AND performed by a verified US Native artist. Otherwise a neutral instrumental.<br>Hopeful, never somber. Logo only on the end card (white logo on NIWRC red)."
-  ],
-  [
-   "Alternates",
-   "\"I'm always happy. Absolutely.\" (00:12.26–00:14.22) as a shorter hook if the first line feels slow.<br>\"I mean, I'm just lucky.\" (00:26.83–00:27.89)<br>\"And if you think about it that way, you'll do things, you'll take action.\" (01:08.25–01:11.63)<br>\"Oh my gosh, if I could give one message to the entire world,\" (00:54.97–00:57.87) if the off-camera question is not usable and you want him to say it."
+   "No victim imagery. Nothing that shows a woman in fear or harm.<br>Supers: name and title only. No Tribal affiliation on screen.<br>Capital T in “Tribe” and “Tribal”, capital N in “Native”, everywhere on screen, captions too.<br>Music: Native music only if made AND performed by a verified US Native artist. Otherwise a neutral instrumental.<br>Hopeful, never somber. Logo only on the end card (white logo on NIWRC red)."
   ]
  ],
  "tech": [
   [
    "Source",
-   "2160×3840 vertical, 23.976 fps. No crop needed. Up to about 2× punch-in is safe at 1080×1920."
-  ],
-  [
-   "B-roll",
-   "B1 clips are 3840×2160, 59.94 fps. Center-crop to 9:16, conform to timeline fps."
+   "Interview: vertical 2160×3840, 23.976 fps, 1:19 (visual.json). B1 B-roll: 3840×2160, 59.94 fps."
   ],
   [
    "Timeline",
-   "1080×1920, 23.976 fps."
+   "1080×1920 at <b>23.976 fps</b>. Conform the B-roll to 23.976."
+  ],
+  [
+   "Crop",
+   "The interview is already vertical: no crop, up to about 2× punch-in is safe. B-roll is 16:9 4K: center-crop to 9:16 (a downscale, so tight crops are fine). Check each crop by eye."
   ],
   [
    "Audio",
-   "Use the camera's best channel. Check on the first seconds which channel is the live mic. Social loudness -14 LUFS."
+   "Use the camera's best channel; check on the first seconds which one is the live mic. Patio sound under him: level pass and light noise reduction."
+  ],
+  [
+   "Pauses",
+   "Pauses inside a bite longer than 0.7 s are cut to about 0.25 s (the hook gap to 0.3 s). The row times and the caption clips already count that."
+  ],
+  [
+   "Loudness",
+   "-14 LUFS integrated, -1 dBTP peak. Music always under the voice."
   ],
   [
    "Captions",
-   "Your approved NIWRC caption template. Fix the transcript: \"Tribe\" and \"Iowa Tribe\" capitalised."
+   "Burned in, low in the frame, Source Sans 3 bold, white with a soft shadow, in your approved NIWRC caption style. Capital T in “Tribe” (“my Tribe”, “our Tribe at the Iowa Tribe”). Over footage only, never over a graphic card."
   ],
   [
    "Export",
-   "H.264 MP4, 1080×1920."
-  ],
-  [
-   "Upload name",
-   "25_Traditional_NIWRCOKCAYHJacob001-1.mp4 (raise -1 by one for every new version)"
-  ],
-  [
-   "Frame.io folder",
-   "National Indigenous Women's Resource Center / niwrc_batch_4_2026 (the OKC DVAM batch)"
+   "H.264 MP4, 1080×1920, 9:16. Upload to Frame.io → Ready for Review."
   ]
  ],
  "checklist": [
-  "0:00 frame shows his face AND the ARE YOU HAPPY? card. No logo, no fade.",
-  "No crew audio anywhere (countdown, \"say that again\", \"good job, man\").",
-  "Name super not before 0:03, name and title only.",
-  "\"Tribe\" capitalised in every caption.",
-  "B-roll is the real Skydance/brewery footage from B1, no stock.",
-  "Beat of silence after \"you're going to die.\" is there.",
-  "Music is neutral instrumental or verified US Native artist, under the voice.",
-  "End card: white logo on red, logo nowhere else."
+  "Frame 1 is Jacob talking with <q>Are you happy?</q> already on screen. No logo, name or fade.",
+  "No crew audio anywhere (countdown, “say that again”, “good job, man”).",
+  "Name super at 00:07, not before 0:03: Jacob Keyes / Owner, Skydance Brewing Company. No Tribe on the super.",
+  "“Tribe” has a capital T in every caption.",
+  "B-roll is the real brewery footage from B1: tanks, the Skydance sign, people at the bar. No stock.",
+  "The beat of silence after “you're going to die.” is there.",
+  "Music is a neutral instrumental (or a verified US Native artist), under the voice, never sad.",
+  "End card: white logo on red. The logo is nowhere else.",
+  "The file is 9:16 only, 1080×1920."
  ],
  "decisions": [
   {
    "t": "Name spelling",
-   "b": "He did not spell his name on camera. The NIWRC client file still asks Cory or Miranda to confirm \"Jacob Keyes\". Check before export."
+   "b": "He did not spell his name on camera. The NIWRC client file still asks Cory or Miranda to confirm “Jacob Keyes”. Check before export."
   }
  ],
  "client_note": "<b>Why this matters:</b> the OKC Are You Happy? cuts are a series (Christie, Brandi, Cory, Jacob, Lucy). Keep them in one look. Hopeful, never somber.",
- "ask_examples": [],
- "transcript": "--- 26-10-09 C1 Happy - NIWRC Event 12.MP4 ---\n[00:00.4] All right, here we go. So always into here. Here we go. Three, two, go.\n[00:07.1] Say that again.\n[00:09.1] Am I happy?\n[00:11.2] That's the question. I'm always happy. Absolutely.\n[00:18.6] My family is the source of my happiness, my tribe, my community. Those things are the source of my happiness.\n[00:26.8] I mean, I'm just lucky. I have a wife. I've got kids.\n[00:29.9] I've got all of these people that work with me here at the brewery, our tribe at the Iowa tribe.\n[00:34.6] We're all a big huge family and everywhere I go from the time I wake up till I go to bed,\n[00:39.4] I'm surrounded by people that love me. And if you can't be happy with that, then you're just incapable of being happy.\n[00:55.0] Oh my gosh, if I could give one message to the entire world,\n[00:58.5] it would be, this is gonna sound crazy, but it would be that you're going to die.\n[01:02.9] When I say that, what that means is live every day as if this could be the last day of your life.\n[01:08.2] And if you think about it that way, you'll do things, you'll take action.\n[01:12.2] You will do things and make things happen that you never thought of doing before.\n[01:17.7] Good job, man."
+ "ask_examples": [
+  "Which camera does he look into?",
+  "Where do the brewery shots go?",
+  "What title is on the name super?",
+  "Can I keep “this is gonna sound crazy”?"
+ ],
+ "transcript": "--- 26-10-09 C1 Happy - NIWRC Event 12.MP4 ---\n[00:00.4] All right, here we go. So always into here. Here we go. Three, two, go. [do not use: crew talk]\n[00:07.1] Say that again. [do not use: crew talk]\n[00:09.1] Am I happy?\n[00:11.2] That's the question. I'm always happy. Absolutely.\n[00:18.6] My family is the source of my happiness, my Tribe, my community. Those things are the source of my happiness.\n[00:26.8] I mean, I'm just lucky. I have a wife. I've got kids.\n[00:29.9] I've got all of these people that work with me here at the brewery, our Tribe at the Iowa Tribe.\n[00:34.6] We're all a big huge family and everywhere I go from the time I wake up till I go to bed,\n[00:39.4] I'm surrounded by people that love me. And if you can't be happy with that, then you're just incapable of being happy.\n[00:55.0] Oh my gosh, if I could give one message to the entire world,\n[00:58.5] it would be, this is gonna sound crazy, but it would be that you're going to die.\n[01:02.9] When I say that, what that means is live every day as if this could be the last day of your life.\n[01:08.2] And if you think about it that way, you'll do things, you'll take action.\n[01:12.2] You will do things and make things happen that you never thought of doing before.\n[01:17.7] Good job, man. [do not use: crew talk]\n--- 26-10-09 C1 Happy - NIWRC Event 11.MP4 ---\n[00:01.9] I'm going to ask you a question and just kind of repeat some of it because they're not going to hear me. [do not use: crew talk]\n[00:11.8] First name, last name, title? [do not use: crew talk]\n[00:13.8] Jacob Keyes. I'm the chairman of the Iowa Tribe of Oklahoma and the owner and founder of Skydance Peruvian Killers.\n[00:22.3] All right. So what brought you here today, Jacob?\n[00:24.5] Well, these guys wanted to have a great place to have an event,\n[00:29.5] and they obviously wanted to reach out to a Native-owned company,\n[00:32.5] so we were happy to give them some space to have this event.\n[00:36.5] It's really important to us. It's something we try to do as a business here,\n[00:40.5] to reach out into the community and do great things.\n[00:42.7] So here we are. We're looking forward to it.\n[00:44.5] What does safety mean to you?\n[00:47.0] Safety means a lot to me.\n[00:49.1] What these ladies are doing here trying to protect our Native women is important to me.\n[00:54.0] My mom dealt with a lot of violence when I was a kid growing up, so I saw a lot of it firsthand. [do not use: trauma detail, not for this cut]\n[01:00.0] So it means a lot for us to be able to help bring awareness to that. [do not use: trauma detail, not for this cut]\n[01:05.1] Our Native communities deal with a lot of that.\n[01:07.0] What does safety mean for your community?\n[01:10.0] Safety for my community?\n[01:12.0] Safety for my community, honestly, it means all of us as a Tribe, as a community looking after each other,\n[01:18.6] taking care of each other, being there for each other, always being a quick call away.\n[01:22.4] In the Native community, somebody calls, we come. We show up.\n[01:26.7] So that's kind of really what it means to us.\n[01:30.3] If you could change one thing about Native women and families,\n[01:35.3] if you could change one thing to make Native women and families safer, what would it be?\n[01:40.4] I mean, honestly, I feel like...\n[01:42.4] If I could change one thing to make Native women and families safer.\n[01:45.5] Yeah. I feel like if we could change one thing in our communities for Native women to keep them safe\n[01:51.8] would be if our local governments, our state governments, our federal government\n[01:56.4] could put more resources towards some of our causes like MMIP, things like that\n[02:01.5] that I don't know that people really realize that we deal with those issues as much as we do.\n[02:06.8] So we really need those resources.\n[02:08.4] We need the U.S. government to stick to their promises and their responsibilities\n[02:12.4] to help take care of our communities.\n[02:19.2] What makes you hopeful?\n[02:21.2] Say that again?\n[02:22.2] What makes you hopeful?\n[02:23.2] I mean, what makes me hopeful is seeing all the people that show up to these events\n[02:27.4] and then seeing our youth, our kids.\n[02:30.2] I think now our youth are more involved in these types of causes than they were when I was a kid.\n[02:35.4] There's a lot more awareness. Social media brings a light to a lot of stuff.\n[02:38.7] And so a lot of our youth, I think the future is they're really involved.\n[02:42.6] They really take action and they create these types of organizations.\n[02:46.2] And that makes me real hopeful.\n[02:50.8] So that's it for this section. [do not use: crew talk]\n[02:52.8] I'm going to grab a camera. [do not use: crew talk]\n--- 26-10-09 C2 Happy - NIWRC Event 7.MP4 ---\n[00:03.0] I'm going to ask you a question and just kind of repeat some of it, is there nothing for me? [do not use: crew talk]\n[00:06.9] First name, last name, title? [do not use: crew talk]\n[00:15.1] Jacob Keyes, I'm the chairman of the Iowa Tribe of Oklahoma and the owner and founder of Skydance Brewing Company.\n[00:22.1] Alright, so what brought you here tonight, Jacob?\n[00:25.9] Well, these guys wanted to have a great place to have an event and they obviously wanted to reach out to a Native-owned company\n[00:33.0] and so we were happy to give them some space to have this event, it's really important to us, it's something we try to\n[00:39.5] do as a business here\n[00:41.1] to reach out into the community and do great things and so here we are, we're looking forward to it.\n[00:46.4] What does safety mean to you?\n[00:48.2] Safety means a lot to me. What these ladies are doing here trying to protect our Native women is important to me.\n[00:54.4] My mom dealt with a lot of violence when I was a kid growing up and so I saw a lot of it firsthand. [do not use: trauma detail, not for this cut]\n[01:01.2] It means a lot for us to be able to help bring awareness to that and our Native communities deal with a lot of [do not use: trauma detail, not for this cut]\n[01:07.9] that stuff.\n[01:08.3] What does safety mean for you?\n[01:11.8] Safety for my community?\n[01:13.3] Safety for my community, honestly it means all of us as a Tribe, as a community, looking after each other, taking care of each\n[01:20.5] other,\n[01:20.5] being there for each other, always being a quick call away.\n[01:23.3] In a Native community, somebody calls, we come, we show up and so that's kind of really what it means to us.\n[01:30.3] If you could change one thing about Native women, what would it be?\n[01:41.5] I mean honestly I feel like...\n[01:43.5] If I could change one thing...\n[01:45.5] Yeah, I feel like if we could change one thing in our communities for Native women to keep them safe would be\n[01:53.5] if our local governments, our state governments, our federal government could put more resources towards some of our causes\n[02:00.5] like MMIP, things like that that I don't know that people really realize that we deal with those issues as much as we do.\n[02:07.8] So we really need those resources.\n[02:09.5] We need the U.S. government to stick to their promises and their responsibilities to help take care of our communities.\n[02:23.0] What makes you hopeful?\n[02:24.4] I mean what makes me hopeful is seeing all the people that show up to these events and then seeing our youth, our kids.\n[02:31.4] I think now our youth are more involved in these types of causes than they were when I was a kid.\n[02:36.4] There's a lot more awareness, social media brings a light to a lot of stuff and so a lot of our youth, I think\n[02:41.4] the future is\n[02:42.4] they're really involved, they really take action and they create these types of organizations and that makes me real hopeful.",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "That's the question. I'm always happy. Absolutely.",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 12.MP4",
+    "why": "The answer without his repeat of the question."
+   },
+   {
+    "quote": "My family is the source of my happiness, my Tribe, my community. Those things are the source of my happiness.",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 12.MP4",
+    "why": "Why he is happy, in one line."
+   },
+   {
+    "quote": "I mean, I'm just lucky. I have a wife. I've got kids.",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 12.MP4",
+    "why": "Short and warm."
+   },
+   {
+    "quote": "I'm surrounded by people that love me. And if you can't be happy with that, then you're just incapable of being happy.",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 12.MP4",
+    "why": "His funniest line."
+   },
+   {
+    "quote": "When I say that, what that means is live every day as if this could be the last day of your life.",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 12.MP4",
+    "why": "The payoff."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "I mean, I'm just lucky. I have a wife. I've got kids.",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 12.MP4",
+    "why": "Short and warm."
+   },
+   {
+    "quote": "I'm surrounded by people that love me. And if you can't be happy with that, then you're just incapable of being happy.",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 12.MP4",
+    "why": "His funniest line."
+   },
+   {
+    "quote": "I've got all of these people that work with me here at the brewery, our Tribe at the Iowa Tribe.",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 12.MP4",
+    "why": "The brewery and his Tribe."
+   },
+   {
+    "quote": "I mean, what makes me hopeful is seeing all the people that show up to these events",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 11.MP4",
+    "why": "Hopeful, from his sit-down."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "I've got all of these people that work with me here at the brewery, our Tribe at the Iowa Tribe.",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 12.MP4",
+    "why": "The brewery and his Tribe."
+   },
+   {
+    "quote": "We're all a big huge family and everywhere I go from the time I wake up till I go to bed,",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 12.MP4",
+    "why": "The big family line."
+   },
+   {
+    "quote": "My family is the source of my happiness, my Tribe, my community. Those things are the source of my happiness.",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 12.MP4",
+    "why": "Why he is happy, in one line."
+   },
+   {
+    "quote": "I mean, what makes me hopeful is seeing all the people that show up to these events",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 11.MP4",
+    "why": "Hopeful, from his sit-down."
+   },
+   {
+    "quote": "I think now our youth are more involved in these types of causes than they were when I was a kid.",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 11.MP4",
+    "why": "Hopeful, from his sit-down."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "I'm surrounded by people that love me. And if you can't be happy with that, then you're just incapable of being happy.",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 12.MP4",
+    "why": "His funniest line."
+   },
+   {
+    "quote": "We're all a big huge family and everywhere I go from the time I wake up till I go to bed,",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 12.MP4",
+    "why": "The big family line."
+   },
+   {
+    "quote": "I mean, I'm just lucky. I have a wife. I've got kids.",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 12.MP4",
+    "why": "Short and warm."
+   },
+   {
+    "quote": "I think now our youth are more involved in these types of causes than they were when I was a kid.",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 11.MP4",
+    "why": "Hopeful, from his sit-down."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "Oh my gosh, if I could give one message to the entire world,",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 12.MP4",
+    "why": "He says the question himself."
+   },
+   {
+    "quote": "When I say that, what that means is live every day as if this could be the last day of your life.",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 12.MP4",
+    "why": "The payoff."
+   },
+   {
+    "quote": "And if you think about it that way, you'll do things, you'll take action.",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 12.MP4",
+    "why": "More air before the last line."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "And if you think about it that way, you'll do things, you'll take action.",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 12.MP4",
+    "why": "More air before the last line."
+   },
+   {
+    "quote": "You will do things and make things happen that you never thought of doing before.",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 12.MP4",
+    "why": "The closing line."
+   },
+   {
+    "quote": "it would be, this is gonna sound crazy, but it would be that you're going to die.",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 12.MP4",
+    "why": "The turn."
+   }
+  ],
+  "bite:6": [
+   {
+    "quote": "And if you think about it that way, you'll do things, you'll take action.",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 12.MP4",
+    "why": "More air before the last line."
+   },
+   {
+    "quote": "When I say that, what that means is live every day as if this could be the last day of your life.",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 12.MP4",
+    "why": "The payoff."
+   },
+   {
+    "quote": "I'm surrounded by people that love me. And if you can't be happy with that, then you're just incapable of being happy.",
+    "who": "Jacob Keyes",
+    "file": "26-10-09 C1 Happy - NIWRC Event 12.MP4",
+    "why": "His funniest line."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "Are you happy?",
+    "line": "That's the question. I'm always happy. Absolutely.",
+    "why": "The AYH question and his big yes."
+   },
+   {
+    "text": "Live every day",
+    "line": "When I say that, what that means is live every day as if this could be the last day of your life.",
+    "why": "His message as the hook."
+   },
+   {
+    "text": "This is gonna sound crazy",
+    "line": "it would be, this is gonna sound crazy, but it would be that you're going to die.",
+    "why": "A surprising open, then jump back."
+   },
+   {
+    "text": "Incapable of being happy?",
+    "line": "I'm surrounded by people that love me. And if you can't be happy with that, then you're just incapable of being happy.",
+    "why": "Funny and warm."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "NIWRC runs light: one designed element at a time, text on screen only when it helps, no logo before the end card, no victim imagery. This cut has the hook text, two top texts, one name super, one key-word stack, the end card and 4 B-roll shots.",
+  "devices": [
+   {
+    "row": "00:00–00:05",
+    "device": "Hook text, static, top third",
+    "asset": "highlight_callout (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:05–00:11",
+    "device": "Top question text, then name super",
+    "asset": "highlight_callout; tag_label (MG library); NIWRC lower third bar",
+    "source": "Script; NIWRC graphics package"
+   },
+   {
+    "row": "00:11–00:18",
+    "device": "2 B-roll shots: brewery floor, Skydance sign",
+    "asset": "B1 Event 10 0:03.6; B1 Event 12 0:22.5",
+    "source": "Drive B-Roll/B1"
+   },
+   {
+    "row": "00:18–00:27",
+    "device": "B-roll shot: people at the bar, then his face",
+    "asset": "B1 Event 29 0:02",
+    "source": "Drive B-Roll/B1"
+   },
+   {
+    "row": "00:27–00:32",
+    "device": "Top question text",
+    "asset": "highlight_callout (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:32–00:38",
+    "device": "Key words one at a time",
+    "asset": "word_stack (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:41–00:44",
+    "device": "End card",
+    "asset": "NIWRC logo white on red",
+    "source": "endcards/niwrc"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "26-10-09 B1 Happy - NIWRC Event 13.MP4",
+    "path": "B-Roll/B1/26-10-09 B1 Happy - NIWRC Event 13.MP4",
+    "drive": "1GtIE9SnwcrNFXqD52RhmG7oRnEsbmoqH",
+    "at": 0.5,
+    "dur": 2.5,
+    "cx": 0.5,
+    "what": "Skydance Brewing sign on the brick front (visual.json)",
+    "frame": null
+   },
+   {
+    "clip": "26-10-09 B1 Happy - NIWRC Event 4.MP4",
+    "path": "B-Roll/B1/26-10-09 B1 Happy - NIWRC Event 4.MP4",
+    "drive": "1XVu5_JO_QouX52Q0vrkIc2Y7vtz1pBTg",
+    "at": 8.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "Brewery fermentation tanks (visual.json)",
+    "frame": null
+   },
+   {
+    "clip": "26-10-09 B1 Happy - NIWRC Event 10.MP4",
+    "path": "B-Roll/B1/26-10-09 B1 Happy - NIWRC Event 10.MP4",
+    "drive": "1yhOwxl-Gqwj04hEuftYwSZ9D1scdLODZ",
+    "at": 11.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "Rows of kegs and tanks, a worker in the back (visual.json)",
+    "frame": null
+   },
+   {
+    "clip": "26-10-09 B1 Happy - NIWRC Event 12.MP4",
+    "path": "B-Roll/B1/26-10-09 B1 Happy - NIWRC Event 12.MP4",
+    "drive": "1M-Cf42PGq4m_nQbTlyKopQ-GFvhGxejn",
+    "at": 8.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "Covered patio with tables (visual.json)",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "NIWRC end card (white logo on red)",
+    "kind": "end_card",
+    "file": "endcards/niwrc/niwrc-logo-white.svg",
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   },
+   {
+    "name": "Lower third bar (name super plate)",
+    "kind": "lower third",
+    "file": null,
+    "url": null,
+    "local": "deliverables/graphics-packages/NIWRC",
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
 }

@@ -8,13 +8,13 @@
  "editor": "Bleron",
  "due": "2026-10-26",
  "format": "16:9 + 9:16 · 1920×1080 and 1080×1920",
- "length": "about 1:15 to 1:30",
+ "length": "about 1:30",
  "edit_key": "KIVAVishalJoyceStory001",
  "headline": "Joyce's problem was timing, not income. For her first daughter's school fees she sold a cow. For the second, she took a Kiva loan and kept it.",
  "story": [
-  "Vishal learns the most when he meets borrowers in person.",
-  "In Nairobi school fees are paid in one lump sum. For her first daughter, Joyce sold her cow.",
-  "For her second daughter she took a Kiva loan, paid the fees and kept the cow."
+  "Vishal learns the most when he meets borrowers in person. <b>In Nairobi he met Joyce, who had taken a Kiva loan for her daughter's school fees.</b>",
+  "There, school fees are paid as one lump sum at the start of the year. For her first daughter, Joyce sold her cow. For her second, she took a Kiva loan, paid the fees, kept the cow and paid the loan back from her farm income.",
+  "The whole second take, in order, so the viewer hears where he met her and how the loan came in. It ends on the title beat: she was able to pay fees and not sell her cow."
  ],
  "feel": [
   "Warm",
@@ -23,27 +23,24 @@
   "Clear"
  ],
  "do": [
-  "Cold open on the cow line with hook text, then jump back to the start.",
-  "Keep the story in order: opener, Nairobi setup, daughter 1, daughter 2.",
-  "Name super after the hook: “Vishal Ghotge” / “CEO of Kiva”, small, lower corner.",
-  "Cover every trim with Block 3 BROLL.",
-  "End card: “Give a little. Change a lot.” + kiva.org.",
-  "End on the cow line at 01:05."
+  "Cold open on the cow line with the hook text, then jump back to the start of the take.",
+  "Keep the take whole and in order: opener, Nairobi and Joyce, the lump sum, daughter 1, daughter 2, paid back.",
+  "Keep the context line “I remember in Nairobi … I spoke to Joyce who had taken a loan from Kiva” in full.",
+  "Name super after the hook: “Vishal Ghotge” / “CEO at Kiva”, small, lower left.",
+  "End on the title beat from P1000920: “it was great to see that she was able to pay fees and not sell her cow.”"
  ],
  "dont": [
-  "Not about Kiva the institution or microfinance in general.",
+  "Never drop his words inside a line. Cut only stutters and pauses.",
   "No name super for Joyce: she is not on camera.",
-  "Use 01:19 only if the cut needs a closing thought.",
   "No name plate, logo or fade at 0:00.",
-  "Never “investment” on screen.",
-  "Never the transcript's spelling of his name.",
+  "Never “investment” on screen. Never the transcript's spelling of his name.",
   "No big lime captions. Brit's caption spec only."
  ],
  "links": {
   "brief": {
    "title": "Editor brief: Joyce, She Didn't Have to Sell the Cow (pulse.12767086747)",
    "url": "https://docs.google.com/document/d/1oCcrn7ChbrUd7E3WwsNY-JktcM6wqLo8GHlgU14sA5k/edit",
-   "note": "Nick's Batch 2 notes rebuilt into the standard brief (12 Aug). Bites and order are set there."
+   "note": "Nick's notes for this story, in the standard brief. The bites and order are set there; this page adds the context line from the same take."
   },
   "reference": {
    "missing": true,
@@ -53,185 +50,384 @@
   "footage": {
    "title": "Seattle shoot 2026",
    "url": "https://drive.google.com/drive/folders/1akpgM9K7BrCY3cVjMzJYvPOJMc98EjGv",
-   "note": "Block 3 Walk and Talk › P1000921.MOV (main take). Sound is on the lav WAV 071721_011 in ENHANCED AUDIO."
+   "note": "Block 3 Walk and Talk › P1000921.MOV (main take) and P1000920.MOV (first take). Sound is on the lav WAVs 071721_011 and 071721_010 in ENHANCED AUDIO."
   }
  },
- "bp_intro": "Picture is <span class=\"mono\">P1000921.MOV</span> (second take, about 00:04–01:37). Sound is the lav WAV <span class=\"mono\">071721_011</span> (esv2). Times below are <b>camera</b> times from the brief. The WAV starts a few seconds earlier: sync on the waveform.",
+ "bp_intro": "Picture is <a href=\"https://drive.google.com/file/d/1nf7y8NWcEa7H5ICZpTZrrYNlYl114y0L/view\">P1000921.MOV</a>, the second take, from 00:06 to 01:31. Sound is the lav WAV <a href=\"https://drive.google.com/file/d/18jVkgD3nnHr2EA46xkt1FaOFHOGWkHC3/view\">071721_011</a> (esv2); it runs about 7.1 s ahead of the camera, so sync on the waveform. The button is from the first take, <a href=\"https://drive.google.com/file/d/1Iq2vXKO6sY3xn8_y3n9l0oosuZdngaX0/view\">P1000920.MOV</a>, with lav <a href=\"https://drive.google.com/file/d/1LmjHeAWY3AH0G2ShniM5XuxTL-Ws8j1q/view\">071721_010</a> (about 31.3 s ahead). Times below are <b>camera</b> times, from the Block 3 caption file matched to each take (about ±0.5 s): find the exact in and out on the waveform.",
  "rows": [
   {
    "tc": "00:00–00:04",
    "beat": "HOOK",
    "kind": "hook",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Same moment in the take.",
-   "motion": "Hook text on <b>frame 1</b>, top: <q>She had to sell her cow</q>. No name super yet.",
+   "visual": "Vishal on the walk, <a href=\"https://drive.google.com/file/d/1nf7y8NWcEa7H5ICZpTZrrYNlYl114y0L/view\">P1000921.MOV</a> from <span class=\"mono\">00:55.3</span>. Cold open on the cow line, then jump back to the start of the take. 16:9: full frame. 9:16: crop centered on Vishal.",
+   "motion": "Hook text on <b>frame 1</b>, top: <q>She had to sell her cow</q>. Already on screen at 0:00. It does not animate on. Out at 00:04. No name super yet. Captions on from frame 1.",
    "voice": {
-    "who": "Vishal",
-    "quote": "…for her first daughter she ended up selling her cow…",
-    "src": "P1000921 00:52 (first 3 to 4 s)"
+    "who": "Vishal Ghotge",
+    "quote": "for her first daughter she ended up selling her cow",
+    "src": "P1000921 00:55.3 to 00:59.2 (lav 071721_011 esv2)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed in, low."
+   "music": "Bed in, low.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "for her first daughter"
+    }
+   ]
   },
   {
-   "tc": "00:04–00:12",
+   "tc": "00:04–00:15",
    "beat": "OPENER",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Jump back to the story start.",
-   "motion": "<b>Name super</b> “Vishal Ghotge” / “CEO of Kiva” at about 0:05–0:08, small, lower corner.",
+   "visual": "Back to the start of the take, <a href=\"https://drive.google.com/file/d/1nf7y8NWcEa7H5ICZpTZrrYNlYl114y0L/view\">P1000921.MOV</a> from “You know” at <span class=\"mono\">00:06.5</span>. Keep every word: “and hearing their stories” stays in.",
+   "motion": "Name super at 00:05–00:08, small, lower left above the captions: <q>Vishal Ghotge</q> / CEO at Kiva. Captions on.",
    "voice": {
-    "who": "Vishal",
+    "who": "Vishal Ghotge",
     "quote": "You know one of the reasons I really like visiting our entrepreneurs and hearing their stories in person is because you learn so much.",
-    "src": "P1000921 00:06"
+    "src": "P1000921 00:06.5 to 00:17.8 (lav 071721_011 esv2)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Low bed under his voice."
+   "music": "Low bed under his voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "You know"
+    }
+   ]
   },
   {
-   "tc": "00:12–00:42",
-   "beat": "NAIROBI SETUP",
+   "tc": "00:15–00:28",
+   "beat": "NAIROBI: JOYCE",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Walk-and-talk, BROLL over trims.",
-   "motion": "Captions only.",
-   "voice": "The setup from the take, 00:10 to 00:52: Joyce in Nairobi, school fees paid in one lump sum. Trim tight.",
+   "visual": "On Vishal, <a href=\"https://drive.google.com/file/d/1nf7y8NWcEa7H5ICZpTZrrYNlYl114y0L/view\">P1000921.MOV</a> from <span class=\"mono\">00:19.2</span>. This is the context: where he met Joyce and that she took a Kiva loan. Keep the whole line.",
+   "motion": "Location pin, upper left, at 00:16–00:19: <q>📍 Nairobi</q>. Captions on.",
+   "voice": {
+    "who": "Vishal Ghotge",
+    "quote": "I remember in Nairobi I visited a bunch of our entrepreneurs and I spoke to Joyce who had taken a loan from Kiva for her daughter's school fees",
+    "src": "P1000921 00:19.2 to 00:31.3 (lav 071721_011 esv2)"
+   },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Low bed under his voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I remember in Nairobi"
+    }
+   ]
   },
   {
-   "tc": "00:42–00:54",
+   "tc": "00:28–00:33",
+   "beat": "THE QUESTION",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "On Vishal, <a href=\"https://drive.google.com/file/d/1nf7y8NWcEa7H5ICZpTZrrYNlYl114y0L/view\">P1000921.MOV</a> from <span class=\"mono\">00:31.3</span>.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Vishal Ghotge",
+    "quote": "and I always wondered how can Joyce pay that back, how is it going to work",
+    "src": "P1000921 00:31.3 to 00:36.9 (lav 071721_011 esv2)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Low bed under his voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "and I always wondered"
+    }
+   ]
+  },
+  {
+   "tc": "00:33–00:51",
+   "beat": "THE LUMP SUM",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "On Vishal, <a href=\"https://drive.google.com/file/d/1nf7y8NWcEa7H5ICZpTZrrYNlYl114y0L/view\">P1000921.MOV</a> from <span class=\"mono\">00:36.9</span>. Cut his stutters, nothing else. Cover each trim with walk B-roll from the BROLL folder: <a href=\"https://drive.google.com/file/d/1Bh1KJhffByEajKgGZpptPK_59jgII9U0/view\">P1000917.MOV</a> <span class=\"mono\">00:01.0</span> to <span class=\"mono\">00:02.5</span>, then <a href=\"https://drive.google.com/file/d/1AdyvOOAvODrwO1Cr8853vz65ecZDZgbM/view\">P1000916.MOV</a> <span class=\"mono\">00:01.0</span> to <span class=\"mono\">00:02.5</span> (Vishal walking the bridge railing; fresh ranges, other cuts use 0:06). He says “it's not that she had an income”: he means she had income but not the lump sum. Keep his words; the next line makes it clear.",
+   "motion": "Key words, top, at 00:44–00:47: <q>lump sum at the beginning of the year</q>. Captions on.",
+   "voice": {
+    "who": "Vishal Ghotge",
+    "quote": "and I learned from her that it's not that she had an income coming through the year for her, it's that she didn't have money to pay her school fees lump sum at the beginning of the year and that's how it works in Nairobi that you have to pay the money up front",
+    "src": "P1000921 00:36.9 to 00:55.0 (lav 071721_011 esv2)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "and I learned from her"
+    },
+    {
+     "clip": "P1000917.MOV",
+     "at": 1.0,
+     "dur": 1.5,
+     "cx": 0.5,
+     "path": "Seattle shoot 2026/Block 3 Walk and Talk/BROLL/P1000917.MOV",
+     "drive": "1Bh1KJhffByEajKgGZpptPK_59jgII9U0",
+     "layout": "full",
+     "what": "Vishal walking the bridge, trees behind (check on scrub)"
+    },
+    {
+     "clip": "P1000916.MOV",
+     "at": 1.0,
+     "dur": 1.5,
+     "cx": 0.5,
+     "path": "Seattle shoot 2026/Block 3 Walk and Talk/BROLL/P1000916.MOV",
+     "drive": "1AdyvOOAvODrwO1Cr8853vz65ecZDZgbM",
+     "layout": "full",
+     "what": "Vishal walking along the bridge railing (check on scrub)"
+    },
+    {
+     "face": true,
+     "from_word": "and that's how it works"
+    }
+   ]
+  },
+  {
+   "tc": "00:51–00:58",
    "beat": "DAUGHTER 1",
    "kind": "turn",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Back on him.",
-   "motion": "Optional text card, Nick's note: <q>Daughter 1: sold the cow</q>.",
+   "visual": "On Vishal, <a href=\"https://drive.google.com/file/d/1nf7y8NWcEa7H5ICZpTZrrYNlYl114y0L/view\">P1000921.MOV</a> from <span class=\"mono\">00:55.0</span>.",
+   "motion": "Text card at 00:52, 2.5 s, full frame on the Kiva dark green: <q>Daughter 1: sold the cow</q>. His voice keeps running under it. Captions on.",
    "voice": {
-    "who": "Vishal",
-    "quote": "…for her first daughter she ended up selling her cow so she could get school fees and pay…",
-    "src": "P1000921 00:52"
+    "who": "Vishal Ghotge",
+    "quote": "and for her first daughter she ended up selling her cow so she could get school fees and pay",
+    "src": "P1000921 00:55.0 to 01:02.1 (lav 071721_011 esv2)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Low bed under his voice."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "and for her first daughter"
+    }
+   ]
   },
   {
-   "tc": "00:54–01:06",
-   "beat": "DAUGHTER 2 (BUTTON)",
+   "tc": "00:58–01:08",
+   "beat": "DAUGHTER 2",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "On him. This is the title beat.",
-   "motion": "Optional text card: <q>Daughter 2: kept the cow</q>.",
+   "visual": "On Vishal, <a href=\"https://drive.google.com/file/d/1nf7y8NWcEa7H5ICZpTZrrYNlYl114y0L/view\">P1000921.MOV</a> from <span class=\"mono\">01:02.1</span>. This is the turn of the story: stay on his face for “and not have to sell her cow”.",
+   "motion": "Text card at 01:00, 2.5 s, full frame on the Kiva dark green: <q>Daughter 2: kept the cow</q>. Same look as the first card. Captions on.",
    "voice": {
-    "who": "Vishal",
-    "quote": "…take a Kiva loan, she was able to take that loan, pay school fees and not have to sell her cow…",
-    "src": "P1000921 01:05"
+    "who": "Vishal Ghotge",
+    "quote": "but for her second daughter she decided to take a Kiva loan, she was able to take that loan, pay school fees and not have to sell her cow",
+    "src": "P1000921 01:02.1 to 01:12.3 (lav 071721_011 esv2)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Resolve."
+   "music": "Small lift.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "but for her second daughter"
+    }
+   ]
   },
   {
-   "tc": "01:06–01:16",
-   "beat": "OPTIONAL CLOSE",
+   "tc": "01:08–01:14",
+   "beat": "PAID BACK",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Only if the cut needs a closing thought. Alt button: P1000920 01:43 “…pay fees and not sell her cow.”",
+   "visual": "On Vishal, <a href=\"https://drive.google.com/file/d/1nf7y8NWcEa7H5ICZpTZrrYNlYl114y0L/view\">P1000921.MOV</a> from <span class=\"mono\">01:12.3</span>. One walk shot to cover a trim if needed: <a href=\"https://drive.google.com/file/d/12-8r4VbUEjgYlMfSetdH5JVIncUeaAOT/view\">P1000915.MOV</a> <span class=\"mono\">00:01.0</span> to <span class=\"mono\">00:02.5</span>.",
    "motion": "Captions only.",
    "voice": {
-    "who": "Vishal",
-    "quote": "So it's just fascinating how things work and what limitations people have and how they use Kiva loans to be able to work with their life circumstances.",
-    "src": "P1000921 01:19"
+    "who": "Vishal Ghotge",
+    "quote": "and she was able to pay it off because she had her agriculture business that gave her monthly income.",
+    "src": "P1000921 01:12.3 to 01:18.4 (lav 071721_011 esv2)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Low bed under his voice."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "and she was able to pay it off"
+    },
+    {
+     "clip": "P1000915.MOV",
+     "at": 1.0,
+     "dur": 1.5,
+     "cx": 0.5,
+     "path": "Seattle shoot 2026/Block 3 Walk and Talk/BROLL/P1000915.MOV",
+     "drive": "12-8r4VbUEjgYlMfSetdH5JVIncUeaAOT",
+     "layout": "full",
+     "what": "Vishal walking along a bridge railing under trees (check on scrub)"
+    }
+   ]
   },
   {
-   "tc": "01:16–01:20",
+   "tc": "01:14–01:26",
+   "beat": "HOW KIVA LOANS WORK",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "On Vishal, <a href=\"https://drive.google.com/file/d/1nf7y8NWcEa7H5ICZpTZrrYNlYl114y0L/view\">P1000921.MOV</a> from <span class=\"mono\">01:19.1</span>. Leave a short breath before this line (Kiva: no rushed transitions between voice sections).",
+   "motion": "Captions only. Break the caption so the last line starts with “work”: “…how they use Kiva loans to be able to” / “work with their life circumstances.”",
+   "voice": {
+    "who": "Vishal Ghotge",
+    "quote": "So it's just fascinating how things work and what limitations people have and how they use Kiva loans to be able to work with their life circumstances.",
+    "src": "P1000921 01:19.1 to 01:31.1 (lav 071721_011 esv2)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Low bed under his voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "So it's just fascinating"
+    }
+   ]
+  },
+  {
+   "tc": "01:26–01:31",
+   "beat": "BUTTON: SHE KEPT THE COW",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "The title beat, from the first take: <a href=\"https://drive.google.com/file/d/1Iq2vXKO6sY3xn8_y3n9l0oosuZdngaX0/view\">P1000920.MOV</a> from “it was great” at <span class=\"mono\">01:43.6</span> (drop the “And so” before it). Sound from lav 071721_010 esv2. It is the same walk, so a hard cut works. Hold on him 0.5 s after “cow.”",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Vishal Ghotge",
+    "quote": "It was great to see that she was able to pay fees and not sell her cow.",
+    "src": "P1000920 01:43.6 to 01:47.5 (lav 071721_010 esv2)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Resolve.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "it was great"
+    }
+   ]
+  },
+  {
+   "tc": "01:31–01:35",
    "beat": "END CARD",
    "kind": "end",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "End card.",
-   "motion": "<q>Give a little. Change a lot.</q> + kiva.org.",
+   "visual": "Kiva end card on dark forest green <span class=\"mono\">#223829</span>: Kiva logo, then the tagline and kiva.org.",
+   "motion": "End card: <q>Give a little. Change a lot.</q> + kiva.org.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Out."
+   "music": "Out.",
+   "shots": []
   }
  ],
  "frames": {},
  "files": [
   [
    "Editing brief",
-   "<a href=\"https://docs.google.com/document/d/1oCcrn7ChbrUd7E3WwsNY-JktcM6wqLo8GHlgU14sA5k/edit\">pulse.12767086747</a> (Google Doc). This page is built from it."
+   "<a href=\"https://docs.google.com/document/d/1oCcrn7ChbrUd7E3WwsNY-JktcM6wqLo8GHlgU14sA5k/edit\">pulse.12767086747</a> (Google Doc) + Nick's notes on the Monday item."
+  ],
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/1uBSu18mph40QBWsCePjErgIL8tuv36KgW1VDVkk7qNg/edit\">CEO Video Content Filming Day</a>"
+  ],
+  [
+   "Reference",
+   "Not chosen yet. Nick owes it."
   ],
   [
    "Shoot folder",
-   "<a href=\"https://drive.google.com/drive/folders/1akpgM9K7BrCY3cVjMzJYvPOJMc98EjGv\">Seattle shoot 2026</a> › Block 3 Walk and Talk"
+   "<a href=\"https://drive.google.com/drive/folders/1akpgM9K7BrCY3cVjMzJYvPOJMc98EjGv\">Seattle shoot 2026</a> › <a href=\"https://drive.google.com/drive/folders/1UW67VFZ69ssP7XC-LniIPcLdPv648HvJ\">Block 3 Walk and Talk</a>"
   ],
   [
-   "Clip",
-   "<a href=\"https://drive.google.com/file/d/1nf7y8NWcEa7H5ICZpTZrrYNlYl114y0L/view\">P1000921.MOV</a> · main take"
+   "Clips",
+   "<a href=\"https://drive.google.com/file/d/1nf7y8NWcEa7H5ICZpTZrrYNlYl114y0L/view\">P1000921.MOV</a> · main take · <a href=\"https://drive.google.com/file/d/1Iq2vXKO6sY3xn8_y3n9l0oosuZdngaX0/view\">P1000920.MOV</a> · first take (the button line)"
   ],
   [
    "Lav sound",
-   "<a href=\"https://drive.google.com/file/d/18jVkgD3nnHr2EA46xkt1FaOFHOGWkHC3/view\">071721_011_Tr1-esv2-50p-bg-10p-music-10p.wav</a> · ENHANCED AUDIO · pairs with the main take"
+   "<a href=\"https://drive.google.com/file/d/18jVkgD3nnHr2EA46xkt1FaOFHOGWkHC3/view\">071721_011_Tr1-esv2-50p-bg-10p-music-10p.wav</a> pairs with P1000921 · <a href=\"https://drive.google.com/file/d/1LmjHeAWY3AH0G2ShniM5XuxTL-Ws8j1q/view\">071721_010_Tr1-esv2-50p-bg-10p-music-10p.wav</a> pairs with P1000920 · ENHANCED AUDIO"
   ],
   [
-   "Alt take",
-   "P1000920.MOV (more texture, long) with 071721_010 esv2 WAV. Only for one beat or the alt button."
+   "Last version",
+   "<a href=\"https://drive.google.com/file/d/13xTmTpEoFx2nTeaAMav_qeQtHpAtKuz8/view\">Traditional_KIVAVishalJoyceStory001-2.mp4</a> (on Drive). Start from its timeline and look, then rebuild the story from this page."
   ],
   [
    "Transcript",
-   "EditingResources › transcript (Seattle shoot 2026.transcript.json + Block 3 Walk and Talk.srt). It spells his name “Kodke”. It is Ghotge."
+   "<a href=\"https://docs.google.com/document/d/11KUYjQO3JTMo62PygUde1EyEiQV-4NI650g5x49IdNA/edit\">Transcripts - Seattle shoot 2026</a> (it spells his name “Kodke”: it is Ghotge) · <a href=\"https://drive.google.com/file/d/1c04x7KMgb7g4MT87ecK9HWkYWi8xRktp/view\">output.json</a> (word times) · <a href=\"https://drive.google.com/drive/folders/1DmEhRgbKFbAVamz5LTR6Fh3QqsHypaZH\">EditTranscripts folder</a>"
   ],
   [
-   "B-roll",
-   "Block 3 Walk and Talk › BROLL (P1000915–P1000918 and the rest). Pick on scrub; no visual.json."
+   "Captions file",
+   "<a href=\"https://drive.google.com/file/d/1nYkxLin2cWwbqS240h9KNIYneS1helcb/view\">Block 3 Walk and Talk.srt</a> (one timeline for the whole block)"
+  ],
+  [
+   "B-roll picks",
+   "<a href=\"https://drive.google.com/file/d/1Bh1KJhffByEajKgGZpptPK_59jgII9U0/view\">P1000917.MOV</a> 0:01 to 0:02.5 · <a href=\"https://drive.google.com/file/d/1AdyvOOAvODrwO1Cr8853vz65ecZDZgbM/view\">P1000916.MOV</a> 0:01 to 0:02.5 · <a href=\"https://drive.google.com/file/d/12-8r4VbUEjgYlMfSetdH5JVIncUeaAOT/view\">P1000915.MOV</a> 0:01 to 0:02.5 · <a href=\"https://drive.google.com/drive/folders/1FOThczD_fZkG9DBCXEXpD5XBNla5mf4N\">BROLL folder</a> (four clips of Vishal walking the bridge and the road). No visual.json for the Seattle shoot: check each pick on scrub."
+  ],
+  [
+   "Brand graphics package",
+   "<a href=\"https://drive.google.com/drive/folders/1k9waXGmkaznC2dwdi9s7eixWhOQv_fWG\">Kiva graphics package</a> (lower third bar, topic tag, title plate). Type the words on the plates in Post Grotesk or Inter."
+  ],
+  [
+   "Brand",
+   "Dark forest green <span class=\"mono\">#223829</span> · Kiva green <span class=\"mono\">#2AA967</span> (captions) · site green <span class=\"mono\">#4FAF4E</span> · light mint <span class=\"mono\">#EDF4F1</span>. Font: Post Grotesk (Inter in the graphics). New green K logo: Kathryn's files (KivaSquare.jpg, Group 5671.png / .svg) shared in Slack; ask Nick if you cannot open them."
+  ],
+  [
+   "Music",
+   "premiumbeat.com royalty-free only. Warm and hopeful, no lyrics, low under his voice."
   ]
  ],
  "tech": [
   [
    "Source",
-   "3840×2160 camera files, Block 3 Walk and Talk. Check the frame rate on import. Camera sound is a guide only."
+   "3840×2160 camera files, Block 3 Walk and Talk (other clips in this block are 59.94 fps: check P1000921 on import). Camera sound is a guide only."
   ],
   [
    "Timeline",
-   "1920×1080 and 1080×1920, at the interview's frame rate."
+   "Two timelines from one cut: 1920×1080 and 1080×1920, at 29.97 fps."
   ],
   [
    "Crop",
-   "16:9: UHD scales down to 1920×1080. 9:16: the crop is 1215×2160, scaled down, never up. Punch-ins up to about 112% stay sharp in both."
+   "16:9: UHD scales down to 1920×1080. 9:16: crop 1215×2160 centered on Vishal, scaled down, never up. Punch-ins up to about 112% stay sharp."
   ],
   [
    "Audio",
-   "Use the ENHANCED AUDIO lav WAV (esv2). Sync it to the camera on the waveform. The lav WAV starts a few seconds before the camera file (times in each row)."
+   "Use the ENHANCED AUDIO lav WAVs (esv2): 071721_011 with P1000921 (about 7.1 s ahead of the camera), 071721_010 with P1000920 (about 31.3 s ahead). Sync on the waveform."
   ],
   [
    "Loudness",
-   "−14 LUFS integrated, −1 dBTP peak. Music low under his voice (“lower music” was a Kiva note on Kiva in Schools)."
+   "−14 LUFS integrated, −1 dBTP peak. Music low under his voice the whole way."
   ],
   [
    "Captions",
-   "Brit's CEO-series style: about 25% smaller than the first round, inside the lower third, Kiva green <span class=\"mono\">#2AA967</span>, a little less blur behind, a little more space between letters, soft (not hard) shadow edge. Post Grotesk if available. Max 2 lines. Not <span class=\"mono\">#EDF4F1</span> on <span class=\"mono\">#223829</span>."
+   "Brit's CEO-series style: Kiva green <span class=\"mono\">#2AA967</span> text, about 25% smaller than the first round, low inside the lower third, a little less blur behind, a soft shadow and clear space between letters (tracking about +25). Post Grotesk if you have it, else Inter Medium. Max 2 lines in Premiere; the clips here are one line at a time. Break lines at natural phrases. Never <span class=\"mono\">#EDF4F1</span> on <span class=\"mono\">#223829</span> and never the old lime."
+  ],
+  [
+   "Logo",
+   "The new green K logo in a top corner from 0:03, letters in Kiva green. Never on frame 1."
   ],
   [
    "Export",
@@ -239,31 +435,327 @@
   ]
  ],
  "checklist": [
-  "His name is Vishal Ghotge (G-H-O-T-G-E). The super reads “Vishal Ghotge” / “CEO of Kiva”. Never the transcript's “Kodke”.",
-  "The word “investment” is nowhere on screen.",
-  "“U.S.”, never “United States”, in any text.",
-  "Captions match his words exactly. No dropped words. Lines break at natural phrases.",
-  "Captions are Kiva green #2AA967, about 25% smaller, low, a little less blur, a little more letter spacing. Not #EDF4F1 on #223829.",
-  "No name super, logo or fade at 0:00. The new green K logo sits in a top corner, never on frame 1.",
+  "His name is Vishal Ghotge (G-H-O-T-G-E). The super reads “Vishal Ghotge” / “CEO at Kiva”. Never the transcript's “Kodke”.",
+  "The context line is in: he met Joyce in Nairobi and she took a loan from Kiva.",
+  "No words are missing inside a line. Only stutters and pauses are cut.",
+  "Captions match his words exactly: “and hearing their stories”, “able to”, “It was great” (no “And so”), “and not sell her cow.”",
+  "The last caption line of the fascinating line starts with “work”.",
+  "Captions are Kiva green #2AA967, about 25% smaller, low, a little less blur, a little more letter spacing.",
+  "The word “investment” is nowhere on screen. “U.S.”, never “United States”.",
+  "No name super, logo or fade at 0:00. The new green K logo sits in a top corner from 0:03.",
   "End card reads exactly “Give a little. Change a lot.” plus kiva.org.",
-  "Both versions exported: 16:9 and 9:16. Nothing important is cut off in the 9:16 crop.",
-  "Joyce has no name super."
+  "Both versions exported: 16:9 and 9:16. Nothing important is cut off in the 9:16 crop."
  ],
  "decisions": [
   {
-   "t": "Revision notes",
-   "b": "This item is in Needs Revisions. Read the Frame.io notes first; this page is the plan for everything they don't change."
-  },
-  {
-   "t": "Caption style",
-   "b": "The Google Doc brief says #EDF4F1 on #223829. Brit's later CEO-series spec wins: Kiva green #2AA967, smaller, in the lower third."
+   "t": "Kerning in the caption clips",
+   "b": "Brit asked for more space between letters. The caption clips on this page cannot add letter spacing: set the captions in Premiere with tracking about +25 and use these clips for timing."
   }
  ],
- "client_note": "<b>Why this matters:</b> one borrower story that shows what a small loan really does. The cow contrast is the video.",
+ "client_note": "<b>Why this matters:</b> one borrower story that shows what a small loan really does. The cow contrast is the video, and the viewer has to hear where Joyce came from.",
  "ask_examples": [
   "Which lav file goes with P1000921?",
-  "Do I repeat the cow line after the hook?",
-  "Can I use the text card?",
-  "What goes on the end card?"
- ]
+  "Where does he say how Joyce found Kiva?",
+  "Can I cut the fascinating line?",
+  "What goes on the text cards?"
+ ],
+ "transcript": "--- P1000921.MOV ---\n[00:06.5] You know one of the reasons I really like visiting our entrepreneurs and hearing their stories in person is because you learn so much.\n[00:19.2] I remember in Nairobi I visited a bunch of our entrepreneurs and I spoke to Joyce who had taken a loan from Kiva for her daughter's school fees\n[00:31.3] and I always wondered how can Joyce pay that back, how is it going to work\n[00:36.9] and I learned from her that it's not that she had an income coming through the year for her, it's that she didn't have money to pay her school fees lump sum at the beginning of the year and that's how it works in Nairobi that you have to pay the money up front\n[00:55.0] and for her first daughter she ended up selling her cow so she could get school fees and pay\n[01:02.1] but for her second daughter she decided to take a Kiva loan, she was able to take that loan, pay school fees and not have to sell her cow\n[01:12.3] and she was able to pay it off because she had her agriculture business that gave her monthly income.\n[01:19.1] So it's just fascinating how things work and what limitations people have and how they use Kiva loans to be able to work with their life circumstances.\n[01:36.3] Yeah, you learn so much when you talk to our borrowers and entrepreneurs.\n--- P1000920.MOV ---\n[00:00.9] Okay. [do not use: crew talk]\n[00:01.8] See, the reason I find it so valuable to meet our entrepreneurs in person is you learn so much when you actually see and talk to them and understand the situations they're going through.\n[00:14.9] I remember when I was in Nairobi talking to Joyce.\n[00:17.8] I learned so much about education loans and how people think about it.\n[00:22.8] So I always wondered how do people take loans for school fees and how do they pay them off?\n[00:30.4] How does that work?\n[00:31.9] And when I was in Nairobi, I completely understood this.\n[00:34.6] So Joyce was trying to put her girls through school and the way the system works is you have to pay the fees for school right up front, you know, the entire year's school fees.\n[00:48.9] And Joyce just did not have the money to be able to do that.\n[00:54.1] And for her first daughter, she actually, she had cows and she sold one of her cows so that she could, you know, she could pay the fees.\n[01:05.3] Second time around, for her second daughter, she took a loan from Kiva\n[01:09.5] and what that helped her with is it's not that she didn't have cash flow, there was a lot of money coming in through her agricultural activities, but she just didn't have working capital to pay for school fees.\n[01:22.8] So the Kiva loan allowed her to pay the school fees and not sell her cow and she was able to pay it back in installments because she had money coming in.\n[01:33.1] And so it's just fascinating when you see how people's lives work, what this loan can mean for them and how it supports people in very different ways.\n[01:43.2] And so\n[01:43.6] It was great to see that she was able to pay fees and not sell her cow.\n[01:48.6] So I just thought I'd share that.\n[01:51.5] Awesome. [do not use: crew talk]",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "And for her first daughter, she actually, she had cows and she sold one of her cows so that she could, you know, she could pay the fees.",
+    "who": "Vishal Ghotge",
+    "file": "P1000920.MOV",
+    "why": "Daughter 1, first take."
+   },
+   {
+    "quote": "It was great to see that she was able to pay fees and not sell her cow.",
+    "who": "Vishal Ghotge",
+    "file": "P1000920.MOV",
+    "why": "The title beat."
+   },
+   {
+    "quote": "but for her second daughter she decided to take a Kiva loan, she was able to take that loan, pay school fees and not have to sell her cow",
+    "who": "Vishal Ghotge",
+    "file": "P1000921.MOV",
+    "why": "The title beat, second take."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "See, the reason I find it so valuable to meet our entrepreneurs in person is you learn so much when you actually see and talk to them and understand the situations they're going through.",
+    "who": "Vishal Ghotge",
+    "file": "P1000920.MOV",
+    "why": "The same opener from the first take."
+   },
+   {
+    "quote": "I remember when I was in Nairobi talking to Joyce.",
+    "who": "Vishal Ghotge",
+    "file": "P1000920.MOV",
+    "why": "Short: where he met her."
+   },
+   {
+    "quote": "Yeah, you learn so much when you talk to our borrowers and entrepreneurs.",
+    "who": "Vishal Ghotge",
+    "file": "P1000921.MOV",
+    "why": "A short closing thought."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "I remember when I was in Nairobi talking to Joyce.",
+    "who": "Vishal Ghotge",
+    "file": "P1000920.MOV",
+    "why": "Short: where he met her."
+   },
+   {
+    "quote": "I learned so much about education loans and how people think about it.",
+    "who": "Vishal Ghotge",
+    "file": "P1000920.MOV",
+    "why": "What he learned from her."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "I learned so much about education loans and how people think about it.",
+    "who": "Vishal Ghotge",
+    "file": "P1000920.MOV",
+    "why": "What he learned from her."
+   },
+   {
+    "quote": "And Joyce just did not have the money to be able to do that.",
+    "who": "Vishal Ghotge",
+    "file": "P1000920.MOV",
+    "why": "One clear line."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "So Joyce was trying to put her girls through school and the way the system works is you have to pay the fees for school right up front, you know, the entire year's school fees.",
+    "who": "Vishal Ghotge",
+    "file": "P1000920.MOV",
+    "why": "The fees system, said more simply."
+   },
+   {
+    "quote": "And Joyce just did not have the money to be able to do that.",
+    "who": "Vishal Ghotge",
+    "file": "P1000920.MOV",
+    "why": "One clear line."
+   },
+   {
+    "quote": "and what that helped her with is it's not that she didn't have cash flow, there was a lot of money coming in through her agricultural activities, but she just didn't have working capital to pay for school fees.",
+    "who": "Vishal Ghotge",
+    "file": "P1000920.MOV",
+    "why": "The timing point, said most clearly."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "And for her first daughter, she actually, she had cows and she sold one of her cows so that she could, you know, she could pay the fees.",
+    "who": "Vishal Ghotge",
+    "file": "P1000920.MOV",
+    "why": "Daughter 1, first take."
+   },
+   {
+    "quote": "for her first daughter she ended up selling her cow",
+    "who": "Vishal Ghotge",
+    "file": "P1000921.MOV",
+    "why": "The hook line."
+   }
+  ],
+  "bite:6": [
+   {
+    "quote": "Second time around, for her second daughter, she took a loan from Kiva",
+    "who": "Vishal Ghotge",
+    "file": "P1000920.MOV",
+    "why": "Daughter 2, first take."
+   },
+   {
+    "quote": "So the Kiva loan allowed her to pay the school fees and not sell her cow and she was able to pay it back in installments because she had money coming in.",
+    "who": "Vishal Ghotge",
+    "file": "P1000920.MOV",
+    "why": "Daughter 2 and the payback in one line."
+   },
+   {
+    "quote": "It was great to see that she was able to pay fees and not sell her cow.",
+    "who": "Vishal Ghotge",
+    "file": "P1000920.MOV",
+    "why": "The title beat."
+   }
+  ],
+  "bite:7": [
+   {
+    "quote": "and what that helped her with is it's not that she didn't have cash flow, there was a lot of money coming in through her agricultural activities, but she just didn't have working capital to pay for school fees.",
+    "who": "Vishal Ghotge",
+    "file": "P1000920.MOV",
+    "why": "The timing point, said most clearly."
+   },
+   {
+    "quote": "So the Kiva loan allowed her to pay the school fees and not sell her cow and she was able to pay it back in installments because she had money coming in.",
+    "who": "Vishal Ghotge",
+    "file": "P1000920.MOV",
+    "why": "Daughter 2 and the payback in one line."
+   }
+  ],
+  "bite:8": [
+   {
+    "quote": "And so it's just fascinating when you see how people's lives work, what this loan can mean for them and how it supports people in very different ways.",
+    "who": "Vishal Ghotge",
+    "file": "P1000920.MOV",
+    "why": "The closing thought, first take."
+   },
+   {
+    "quote": "Yeah, you learn so much when you talk to our borrowers and entrepreneurs.",
+    "who": "Vishal Ghotge",
+    "file": "P1000921.MOV",
+    "why": "A short closing thought."
+   },
+   {
+    "quote": "It was great to see that she was able to pay fees and not sell her cow.",
+    "who": "Vishal Ghotge",
+    "file": "P1000920.MOV",
+    "why": "The title beat."
+   }
+  ],
+  "bite:9": [
+   {
+    "quote": "but for her second daughter she decided to take a Kiva loan, she was able to take that loan, pay school fees and not have to sell her cow",
+    "who": "Vishal Ghotge",
+    "file": "P1000921.MOV",
+    "why": "The title beat, second take."
+   },
+   {
+    "quote": "So the Kiva loan allowed her to pay the school fees and not sell her cow and she was able to pay it back in installments because she had money coming in.",
+    "who": "Vishal Ghotge",
+    "file": "P1000920.MOV",
+    "why": "Daughter 2 and the payback in one line."
+   },
+   {
+    "quote": "So it's just fascinating how things work and what limitations people have and how they use Kiva loans to be able to work with their life circumstances.",
+    "who": "Vishal Ghotge",
+    "file": "P1000921.MOV",
+    "why": "The closing thought."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "She had to sell her cow",
+    "line": "for her first daughter she ended up selling her cow",
+    "why": "The contrast, first."
+   },
+   {
+    "text": "She kept the cow",
+    "line": "It was great to see that she was able to pay fees and not sell her cow.",
+    "why": "Lead with the happy ending."
+   },
+   {
+    "text": "How can Joyce pay that back?",
+    "line": "and I always wondered how can Joyce pay that back, how is it going to work",
+    "why": "His own question as the hook."
+   },
+   {
+    "text": "Timing, not income",
+    "line": "and what that helped her with is it's not that she didn't have cash flow, there was a lot of money coming in through her agricultural activities, but she just didn't have working capital to pay for school fees.",
+    "why": "The idea of the video."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "Kiva's CEO series runs light: Vishal is the picture, one text element at a time, captions in Kiva green, the green K logo only in a top corner from 0:03, and the Kiva end card. Nothing covers the captions.",
+  "devices": [
+   {
+    "row": "00:00–00:04",
+    "device": "Hook text, static, top",
+    "asset": "highlight_callout (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:04–00:15",
+    "device": "Name super",
+    "asset": "tag_label; Kiva lower third bar",
+    "source": "Script; Kiva graphics package"
+   },
+   {
+    "row": "00:15–00:28",
+    "device": "Location pin",
+    "asset": "tag_label (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:33–00:51",
+    "device": "Key words top; 2 walk B-roll shots over the trims",
+    "asset": "highlight_callout; P1000917 0:01, P1000916 0:01",
+    "source": "Script; Block 3 BROLL"
+   },
+   {
+    "row": "00:51–00:58",
+    "device": "Text card, full frame",
+    "asset": "statement_card (MG library)",
+    "source": "Script (Nick's text card idea)"
+   },
+   {
+    "row": "00:58–01:08",
+    "device": "Text card, full frame",
+    "asset": "statement_card (MG library)",
+    "source": "Script (Nick's text card idea)"
+   },
+   {
+    "row": "01:08–01:14",
+    "device": "Walk B-roll over a trim",
+    "asset": "P1000915 0:01",
+    "source": "Block 3 BROLL"
+   },
+   {
+    "row": "01:31–01:35",
+    "device": "End card",
+    "asset": "end_card (MG library)",
+    "source": "endcards/kiva, 10 Oct 2026"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "P1000918.MOV",
+    "path": "Seattle shoot 2026/Block 3 Walk and Talk/BROLL/P1000918.MOV",
+    "drive": "1gUevfNIkdViemoBiG0D6NverxcK0i93L",
+    "at": 4.0,
+    "dur": 1.5,
+    "cx": 0.5,
+    "what": "Vishal walking away down a sunny road (other cuts use 0:02)",
+    "frame": null
+   },
+   {
+    "clip": "P1000915.MOV",
+    "path": "Seattle shoot 2026/Block 3 Walk and Talk/BROLL/P1000915.MOV",
+    "drive": "12-8r4VbUEjgYlMfSetdH5JVIncUeaAOT",
+    "at": 5.5,
+    "dur": 1.5,
+    "cx": 0.5,
+    "what": "Vishal walking along a bridge railing under trees (used in other cuts)",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "Kiva end card (white wordmark on dark green)",
+    "kind": "end_card",
+    "file": "endcards/kiva/kiva-logo-white.svg",
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920 / 1920x1080",
+    "fps": 30
+   },
+   {
+    "name": "Lower third bar",
+    "kind": "lower third",
+    "file": null,
+    "url": "https://drive.google.com/drive/folders/1k9waXGmkaznC2dwdi9s7eixWhOQv_fWG",
+    "local": null,
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
 }

@@ -3,18 +3,18 @@
  "client": "curegrin",
  "eyebrow": "CureGRIN · GRIN2B Conference · July 2026 · Researcher long-form",
  "title": "Dr. Katherine Roche:",
- "title_q": "Researcher Long-Form",
+ "title_q": "“I'm kind of a people person”",
  "title_short": "Dr. Katherine Roche · Long-form (16:9)",
  "editor": "Ardit",
  "due": "2026-10-21",
- "format": "16:9 · 1920×1080 (client asked for longer researcher versions; same look as the approved short)",
- "length": "about 4 to 5 min (length follows content)",
+ "format": "16:9 only · 1920×1080 (client asked for longer researcher versions; same look as the approved short)",
+ "length": "about 5 min 30 s (length follows content)",
  "edit_key": "CureGRINRocheLong001",
- "headline": "A basic scientist who moved her lab to patient variants, what the GRIN families changed, and the NIH research hospital study.",
+ "headline": "A basic scientist who likes people: how the GRIN families moved her lab to patient variants, and the NIH research hospital study that now lets families take part.",
  "story": [
-  "Dr. Roche worked on glutamate receptors for 30 years. When genetics found patient variants in the proteins she studied, her lab pivoted almost entirely to them.",
-  "The GRIN community changed her research: it brings dollars and teaches her more. Drugs may be further along than you'd think, but still slow; gene correction is further out.",
-  "NIH's research hospital can now bring patients in under a research protocol. It's not a normal hospital. The families made that direction possible."
+  "The film opens on the person, not the credential: <b>“I'm kind of a people person.”</b> Then her name, and a title card with the music landing: <b>A research hospital where no one pays.</b>",
+  "Dr. Roche worked on glutamate receptors for 30 years. When genetics found patient variants in the proteins she studied, her lab pivoted to them. The GRIN community changed her research. Drugs may be further along than you would think, but science is slow, and gene correction is further out.",
+  "After a short break, the NIH study: patients can now come to the NIH clinical center under a research protocol. It is not a normal hospital; it is a research hospital. It ends on why: the families."
  ],
  "feel": [
   "Clear",
@@ -23,18 +23,18 @@
   "Honest"
  ],
  "do": [
-  "Open on the NIH fact with “A research hospital. No one pays.”",
-  "Keep bites 6a and 6b together.",
-  "Keep bite 10: her own limits on the study.",
-  "Cover cuts with the named B-roll or a punch-in (4K source).",
-  "End on bite 11, hold her face 1 s."
+  "Open on her human moment with the hook text on frame 1, then a 3-shot B-roll button, then her name.",
+  "Let the music land on the title card. Break the film in the middle with the chapter card and a music change.",
+  "Two short AI-voiced explainers with text, where the science gets dense (glutamate receptors, cell lines).",
+  "Keep bites 6a and 6b together. Keep her limits on the study (“It's not a normal hospital … under a protocol”).",
+  "Frame tighter than the camera did, and improve the bare background with AI (window, flowers or a painting)."
  ],
  "dont": [
   "Don't open on “small progress is important” (the short's hook).",
   "Never 6a without 6b. No cure promise.",
   "No free-care or sign-up framing. No address, phone or “how to sign up”.",
-  "Don't tell the other researchers' stories (Traynelis, Park, Penn).",
-  "Don't fill time. Only what's interesting."
+  "Don't tell the other researchers' stories (Traynelis, Park, Penn). No shot the other researcher films use.",
+  "No stock footage. No frames where the camera hunts for the next shot."
  ],
  "links": {
   "brief": {
@@ -45,7 +45,7 @@
   "reference": {
    "title": "The approved short: “Small Progress Matters” (CureGRINRoche001)",
    "url": "https://f.io/G6KB3-oh",
-   "note": "Use the latest logo-corrected version for the look, captions and logos. A pacing reference is not chosen yet: Nick picks it."
+   "note": "Use the latest logo-corrected version for the look, captions and logos. For the structure, Atdhe named the Meg Crane home-pregnancy-test film (16 Oct All Hands); no link is on the item."
   },
   "footage": {
    "title": "GRIN2B Conference - July 2026 › Interviews › Interview 8",
@@ -53,172 +53,475 @@
    "note": "MVI_0940.MP4, 14:49, 4096×2160, 23.98 fps. One camera, one locked shot. The interview starts at 01:17."
   }
  },
- "bp_intro": "One file: <span class=\"mono\">MVI_0940.MP4</span> (one camera, locked). All times are in that file and match the transcript. The interview starts at 01:17. Section times are about; the content sets the length.",
+ "bp_intro": "One interview file: <a href=\"https://drive.google.com/file/d/1GN5aGNXASh2IYyWk7TAscfB3NSVaIa6J/view\">MVI_0940.MP4</a> (one camera, locked, 14:49). All times are mm:ss.s in that file, from the word times in Interview_8.transcript.json. B-roll is from the shoot's B-Roll folder, picked from visual.json (one frame of MVI_0079, MVI_0070 and MVI_0089 was checked for the brief; check the rest on scrub). Row times are about: the content sets the length.",
  "rows": [
   {
-   "tc": "00:00–00:11",
-   "beat": "HOOK",
+   "tc": "00:00–00:07",
+   "beat": "COLD OPEN: THE HUMAN MOMENT",
    "kind": "hook",
+   "visual": "Dr. Roche on camera, <a href=\"https://drive.google.com/file/d/1GN5aGNXASh2IYyWk7TAscfB3NSVaIa6J/view\">MVI_0940.MP4</a> from “It's also” at <span class=\"mono\">08:47.2</span>, a tighter crop than the camera (punch in, the 4K source allows it). A smile, a scientist who likes people: the human moment first, not the credential.",
+   "motion": "Hook text on <b>frame 1</b>: <q>I'm kind of a people person.</q> Already on screen at 0:00. It does not animate on. Out at 00:03. No logo, no name plate, no fade.",
+   "voice": {
+    "who": "Dr. Katherine Roche",
+    "quote": "It's also rewarding. I'm kind of a people person. So I like to talk to people. So it's better than just being in your office or the lab all day.",
+    "src": "MVI_0940.MP4 08:47.2 to 08:54.0"
+   },
+   "music": "Warm bed in, low.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "It's also rewarding"
+    }
+   ],
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "On camera. Start on “NIH” at 11:06. Cut the pause 11:15–11:16.",
-   "motion": "Hook text 0:00–0:03: <q>A research hospital. No one pays.</q> No logo, no name plate, no fade.",
-   "voice": {
-    "who": "Dr. Roche",
-    "quote": "So NIH has the largest clinical research hospital in the world. … No one pays. They don't even have a billing department.",
-    "src": "MVI_0940 11:05–11:19"
-   },
-   "sfx": "<span class=\"none\">None.</span>",
-   "music": "Warm bed in."
+   "sfx": "<span class=\"none\">None.</span>"
   },
   {
-   "tc": "00:11–00:48",
+   "tc": "00:07–00:10",
+   "beat": "B-ROLL BUTTON",
+   "kind": "",
+   "visual": "Three short shots of her at the conference, about 1 s each, one clean move per shot (cut out every frame where the camera hunts): MVI_0089.MP4 <span class=\"mono\">00:00.0</span> (she speaks at the podium), MVI_0079.MP4 <span class=\"mono\">00:01.6</span> (she holds the microphone on the panel), MVI_3776.MP4 <span class=\"mono\">00:05.0</span> (the panel, she is second from the left). Check each on scrub.",
+   "motion": "Nothing on screen.",
+   "voice": "<span class=\"none\">Music and room sound only.</span>",
+   "music": "Music lifts.",
+   "shots": [
+    {
+     "clip": "MVI_0089.MP4",
+     "at": 0.0,
+     "dur": 1.0,
+     "cx": 0.5,
+     "path": "GRIN2B Conference - July 2026/B-Roll/MVI_0089.MP4",
+     "drive": null,
+     "layout": "full",
+     "what": "Dr. Roche at the podium with a microphone (visual.json; the brief checked one frame)"
+    },
+    {
+     "clip": "MVI_0079.MP4",
+     "at": 1.6,
+     "dur": 1.0,
+     "cx": 0.5,
+     "path": "GRIN2B Conference - July 2026/B-Roll/MVI_0079.MP4",
+     "drive": null,
+     "layout": "full",
+     "what": "Dr. Roche holds the microphone on the panel (visual.json; the brief checked one frame)"
+    },
+    {
+     "clip": "MVI_3776.MP4",
+     "at": 5.0,
+     "dur": 1.0,
+     "cx": 0.5,
+     "path": "GRIN2B Conference - July 2026/B-Roll/MVI_3776.MP4",
+     "drive": null,
+     "layout": "full",
+     "what": "The panel, Dr. Roche second from the left (visual.json)"
+    }
+   ],
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "sfx": "<span class=\"none\">None.</span>"
+  },
+  {
+   "tc": "00:10–00:18",
+   "beat": "NAME AND TITLE",
+   "kind": "",
+   "visual": "Back on her face, <a href=\"https://drive.google.com/file/d/1GN5aGNXASh2IYyWk7TAscfB3NSVaIa6J/view\">MVI_0940.MP4</a> from “so my name's” at <span class=\"mono\">01:18.5</span> (drop the “Right,” before it).",
+   "motion": "Name plate at 00:11, small, lower left: <b>Dr. Katherine Roche</b> / Senior Investigator, NIH/NINDS. Title Case. Captions on.",
+   "voice": {
+    "who": "Dr. Katherine Roche",
+    "quote": "so my name's Katherine Roche. I'm a senior investigator at National Institute of Neurological Disorders and Stroke at NIH.",
+    "src": "MVI_0940.MP4 01:18.5 to 01:26.0 (the auto-transcript writes “Catherine”: it is Katherine with a K)"
+   },
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "so my name's"
+    }
+   ],
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "sfx": "<span class=\"none\">None.</span>"
+  },
+  {
+   "tc": "00:18–00:22",
+   "beat": "TITLE CARD",
+   "kind": "turn",
+   "visual": "Full-frame title card on the CureGRIN purple. The music lands on it.",
+   "motion": "Title card, full frame, 3.5 s: <q>A research hospital where no one pays</q>. Static, then out with the music hit.",
+   "voice": "<span class=\"none\">Music only.</span>",
+   "music": "The music lands on the title card (it should feel like a magic wand when the title appears).",
+   "shots": [],
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "sfx": "<span class=\"none\">None.</span>"
+  },
+  {
+   "tc": "00:22–01:00",
    "beat": "HER WORK",
    "kind": "",
+   "visual": "On camera, <a href=\"https://drive.google.com/file/d/1GN5aGNXASh2IYyWk7TAscfB3NSVaIa6J/view\">MVI_0940.MP4</a> from “so I am” at <span class=\"mono\">01:40.2</span>. Cut the repeat <span class=\"mono\">01:50.7</span> to <span class=\"mono\">01:53.2</span> (“So for about 30 years, I'm a very basic researcher.”) and cover the cut with MVI_0079.MP4 <span class=\"mono\">00:03.0</span> to <span class=\"mono\">00:04.8</span> (she holds the microphone on the panel). After “really the entire time.” (<span class=\"mono\">01:49.4</span>) drop in explainer 1 (about 4 s): AI voiceover with the text animation over B-roll TBD on scrub (lab footage from CureGRIN's published videos, see Files). Then back to her face.",
+   "motion": "Explainer 1 text, top, with the AI voiceover: <q>Glutamate receptors help brain cells pass signals</q>. Captions on.",
+   "voice": {
+    "who": "Dr. Katherine Roche",
+    "quote": "so I am a basic researcher. And I got my PhD a very long time ago. And I've been working on glutamate receptors really the entire time. … But then there was this explosion in human genetics where more and more patient populations were getting sequenced. And it became clear that sometimes there were mutations, single point mutations, in individuals that caused a lot of problems. They were pathogenic. And it turned out that some of these variants are in the proteins I had studied for decades.",
+    "src": "MVI_0940.MP4 01:40.2 to 02:15.7 (cut 01:50.7 to 01:53.2, the repeat)"
+   },
+   "music": "Warm, quiet bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "so I am a basic researcher"
+    },
+    {
+     "clip": "MVI_0079.MP4",
+     "at": 3.0,
+     "dur": 1.8,
+     "cx": 0.5,
+     "path": "GRIN2B Conference - July 2026/B-Roll/MVI_0079.MP4",
+     "drive": null,
+     "layout": "full",
+     "what": "Dr. Roche with the microphone on the panel"
+    },
+    {
+     "face": true,
+     "from_word": "But then there was"
+    }
+   ],
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "On camera. Cover the cut at 01:50–01:53 (the repeat) with MVI_0079.MP4 00:01–00:04 (Dr. Roche on the panel).",
-   "motion": "Name plate at about 0:12, small, lower left: <b>Dr. Katherine Roche</b> / Senior Investigator, NIH/NINDS.",
-   "voice": {
-    "who": "Dr. Roche",
-    "quote": "so I am a basic researcher. … But then there was this explosion in human genetics … And it turned out that some of these variants are in the proteins I had studied for decades.",
-    "src": "MVI_0940 01:40–02:17"
-   },
-   "sfx": "<span class=\"none\">None.</span>",
-   "music": "Warm, quiet bed under the voice."
+   "sfx": "<span class=\"none\">None.</span>"
   },
   {
-   "tc": "00:48–00:58",
+   "tc": "01:00–01:20",
    "beat": "THE PIVOT",
    "kind": "",
+   "visual": "On camera, <a href=\"https://drive.google.com/file/d/1GN5aGNXASh2IYyWk7TAscfB3NSVaIa6J/view\">MVI_0940.MP4</a> from <span class=\"mono\">02:18.7</span>, then straight into <span class=\"mono\">02:30.0</span>. A tighter crop for variety.",
+   "motion": "Key words one at a time, top, as she says them: <b>NMDA receptors</b> · <b>GRIN genes</b> · <b>GRIN2B</b> · <b>GRIN2A</b>. Captions on.",
+   "voice": {
+    "who": "Dr. Katherine Roche",
+    "quote": "And I started off being a very basic scientist and really have pivoted. Our lab almost entirely focuses our research on these rare variants that are found in patient populations. So we primarily study NMDA receptors. And they're encoded by the GRIN genes, in particular GRIN2B and GRIN2A.",
+    "src": "MVI_0940.MP4 02:18.7 to 02:28.0 + 02:30.0 to 02:37.9"
+   },
+   "music": "Warm, quiet bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "And I started off"
+    }
+   ],
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "On camera.",
-   "motion": "Captions only.",
-   "voice": {
-    "who": "Dr. Roche",
-    "quote": "And I started off being a very basic scientist and really have pivoted. Our lab almost entirely focuses our research on these rare variants that are found in patient populations.",
-    "src": "MVI_0940 02:18–02:29"
-   },
-   "sfx": "<span class=\"none\">None.</span>",
-   "music": "Warm, quiet bed under the voice."
+   "sfx": "<span class=\"none\">None.</span>"
   },
   {
-   "tc": "00:58–01:32",
+   "tc": "01:20–01:56",
    "beat": "WHAT FAMILIES CHANGED",
    "kind": "turn",
+   "visual": "On camera from “Half my lab” at <span class=\"mono\">06:29.7</span>. On “The other half of lab study is GRIN disorders” (<span class=\"mono\">06:53.6</span>) cut to three shots of the families, about 2 s each: MVI_3787.MP4 <span class=\"mono\">00:20.0</span> (a big gathering, children in the room), MVI_0111.MP4 <span class=\"mono\">00:00.5</span> (children and parents watch a screen), MVI_0118.MP4 <span class=\"mono\">00:04.0</span> (a woman and a boy at the RESEARCH wall). Back to her face on “It gets more research dollars”. The auto-transcript writes “grand disorders”: caption what she says (it sounds like “GRIN disorders”).",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Dr. Katherine Roche",
+    "quote": "Half my lab studies one class of proteins, which has been known for decades, even before the genetics, the next-gen sequencing, caught up to be important. But there's no advocacy group. And it lags so far behind. I just have parents or providers. They find out online that I've published on it. And they ask me questions. The other half of lab study is GRIN disorders. And it's just the community is hugely important. It gets more research dollars. But also, you learn more.",
+    "src": "MVI_0940.MP4 06:29.7 to 07:02.5"
+   },
+   "music": "Warm, quiet bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Half my lab"
+    },
+    {
+     "clip": "MVI_3787.MP4",
+     "at": 20.0,
+     "dur": 2.0,
+     "cx": 0.5,
+     "path": "GRIN2B Conference - July 2026/B-Roll/MVI_3787.MP4",
+     "drive": null,
+     "layout": "full",
+     "what": "A large gathering, children in the room (visual.json)"
+    },
+    {
+     "clip": "MVI_0111.MP4",
+     "at": 0.5,
+     "dur": 2.0,
+     "cx": 0.5,
+     "path": "GRIN2B Conference - July 2026/B-Roll/MVI_0111.MP4",
+     "drive": null,
+     "layout": "full",
+     "what": "Children and parents watch a screen (visual.json)"
+    },
+    {
+     "clip": "MVI_0118.MP4",
+     "at": 4.0,
+     "dur": 2.0,
+     "cx": 0.5,
+     "path": "GRIN2B Conference - July 2026/B-Roll/MVI_0118.MP4",
+     "drive": null,
+     "layout": "full",
+     "what": "A woman and a boy at the RESEARCH honeycomb wall (visual.json)"
+    },
+    {
+     "face": true,
+     "from_word": "It gets more research dollars"
+    }
+   ],
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "MVI_3787.MP4 00:19–00:58: a large gathering, including children, seated in a conference room.",
-   "motion": "Captions. The transcript writes “grand disorders”: caption what she says (it sounds like “GRIN disorders”).",
-   "voice": {
-    "who": "Dr. Roche",
-    "quote": "Half my lab studies one class of proteins … But there's no advocacy group. … The other half of lab study is GRIN disorders. And it's just the community is hugely important. It gets more research dollars. But also, you learn more.",
-    "src": "MVI_0940 06:29–07:04"
-   },
-   "sfx": "<span class=\"none\">None.</span>",
-   "music": "Warm, quiet bed under the voice."
+   "sfx": "<span class=\"none\">None.</span>"
   },
   {
-   "tc": "01:32–02:29",
+   "tc": "01:56–02:04",
+   "beat": "SMALL PROGRESS",
+   "kind": "",
+   "visual": "On camera, <a href=\"https://drive.google.com/file/d/1GN5aGNXASh2IYyWk7TAscfB3NSVaIa6J/view\">MVI_0940.MP4</a> from “But really” at <span class=\"mono\">03:53.1</span>. Her face.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Dr. Katherine Roche",
+    "quote": "But really, families would also like to have anything that helps the symptoms. And so small progress is important.",
+    "src": "MVI_0940.MP4 03:53.1 to 03:59.3"
+   },
+   "music": "Warm, quiet bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "But really"
+    }
+   ],
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "sfx": "<span class=\"none\">None.</span>"
+  },
+  {
+   "tc": "02:04–02:58",
    "beat": "WHERE IT STANDS",
    "kind": "",
+   "visual": "On camera, <a href=\"https://drive.google.com/file/d/1GN5aGNXASh2IYyWk7TAscfB3NSVaIa6J/view\">MVI_0940.MP4</a> from “But I also make the point” at <span class=\"mono\">04:42.7</span> to “imagine.” (<span class=\"mono\">05:18.5</span>), then straight to “So there could be” (<span class=\"mono\">05:37.4</span>). Bites 6a and 6b stay together, always. Cover the join with MVI_0070.MP4 <span class=\"mono\">00:04.0</span> to <span class=\"mono\">00:07.0</span> (the infographic with the pink RESEARCH hexagon).",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Dr. Katherine Roche",
+    "quote": "But I also make the point that even though it's a somewhat complex biological protein and complex of proteins, people have studied it for decades in pharma because everyone knows NMDA receptors are important. So what it has in complexity nicely, it has the counterpart in that there's a lot of pharma companies, biotech companies, that have spent decades. So there's a lot of potential pharmacological interventions that are further along than you might imagine. … So there could be short-term therapies, which are still lengthy to come up with, that are more drug-based. And there may be others that actually correct the gene. But those are almost certainly further in the future.",
+    "src": "MVI_0940.MP4 04:42.7 to 05:18.5 + 05:37.4 to 05:50.7 (6a and 6b, always together)"
+   },
+   "music": "Warm, quiet bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "But I also make the point"
+    },
+    {
+     "clip": "MVI_0070.MP4",
+     "at": 4.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "GRIN2B Conference - July 2026/B-Roll/MVI_0070.MP4",
+     "drive": null,
+     "layout": "full",
+     "what": "Infographic with the pink RESEARCH hexagon (visual.json; the brief checked one frame)"
+    },
+    {
+     "face": true,
+     "from_word": "So there could be"
+    }
+   ],
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "On camera. Cover a cut with MVI_0070.MP4 00:04–00:11 (infographic, pink RESEARCH hexagon). Bites 6a and 6b stay together.",
-   "motion": "Captions only.",
-   "voice": {
-    "who": "Dr. Roche",
-    "quote": "But really, families would also like to have anything that helps the symptoms. And so small progress is important. … So there's a lot of potential pharmacological interventions that are further along than you might imagine. … So there could be short-term therapies, which are still lengthy to come up with, that are more drug-based. And there may be others that actually correct the gene. But those are almost certainly further in the future.",
-    "src": "MVI_0940 03:53–04:00, 04:44–05:20, 05:37–05:52"
-   },
-   "sfx": "<span class=\"none\">None.</span>",
-   "music": "Warm, quiet bed under the voice."
+   "sfx": "<span class=\"none\">None.</span>"
   },
   {
-   "tc": "02:29–02:46",
+   "tc": "02:58–03:15",
    "beat": "SCIENCE IS SLOW",
    "kind": "",
+   "visual": "MVI_3776.MP4 <span class=\"mono\">00:08.0</span> to <span class=\"mono\">00:12.0</span>: the panel, Dr. Roche second from the left, while she says it. Then back to her face for “So if you want to wait for a paper”.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Dr. Katherine Roche",
+    "quote": "I know that parents are frustrated that developing therapies are so slow. Science is slow. Publishing is slow. So if you want to wait for a paper to be published on a particular topic, you may have wasted a year or two trying to embark on something that's already been done.",
+    "src": "MVI_0940.MP4 08:21.2 to 08:37.7"
+   },
+   "music": "Warm, quiet bed under the voice.",
+   "shots": [
+    {
+     "clip": "MVI_3776.MP4",
+     "at": 8.0,
+     "dur": 4.0,
+     "cx": 0.5,
+     "path": "GRIN2B Conference - July 2026/B-Roll/MVI_3776.MP4",
+     "drive": null,
+     "layout": "full",
+     "what": "The panel, Dr. Roche second from the left (visual.json)"
+    },
+    {
+     "face": true,
+     "from_word": "So if you want"
+    }
+   ],
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "MVI_3776.MP4 00:04–00:13: the panel, Dr. Roche second from the left.",
-   "motion": "Captions only.",
-   "voice": {
-    "who": "Dr. Roche",
-    "quote": "I know that parents are frustrated that developing therapies are so slow. Science is slow. Publishing is slow. …",
-    "src": "MVI_0940 08:21–08:39"
-   },
-   "sfx": "<span class=\"none\">None.</span>",
-   "music": "Warm, quiet bed under the voice."
+   "sfx": "<span class=\"none\">None.</span>"
   },
   {
-   "tc": "02:46–04:19",
+   "tc": "03:15–03:19",
+   "beat": "THE BREAK",
+   "kind": "turn",
+   "visual": "A deliberate break in the middle of the film: the brand colour wipe into a full-frame chapter card, a short pause, then back to her. The music changes here.",
+   "motion": "Brand colour wipe, then chapter card, full frame, 2.5 s: <q>The NIH study</q>.",
+   "voice": "<span class=\"none\">Music only.</span>",
+   "music": "The music changes for the second half.",
+   "shots": [],
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "sfx": "<span class=\"none\">None.</span>"
+  },
+  {
+   "tc": "03:19–04:01",
    "beat": "THE NIH STUDY",
    "kind": "",
+   "visual": "On camera, <a href=\"https://drive.google.com/file/d/1GN5aGNXASh2IYyWk7TAscfB3NSVaIa6J/view\">MVI_0940.MP4</a> from “That's all changed” at <span class=\"mono\">09:30.2</span>. No NIH footage exists: stay on her face and hide the cuts with MVI_0089.MP4 <span class=\"mono\">00:01.0</span> to <span class=\"mono\">00:03.3</span> (she speaks at the podium). After “patient-derived cell lines.” (<span class=\"mono\">10:06.8</span>) drop in explainer 2 (about 5 s): AI voiceover with the text animation over B-roll TBD on scrub (lab footage from CureGRIN's published videos).",
+   "motion": "Explainer 2 text, top, with the AI voiceover: <q>Cell lines: living cells grown from a patient's own sample</q>. Captions on.",
+   "voice": {
+    "who": "Dr. Katherine Roche",
+    "quote": "That's all changed in the last few months. I'm now associated with the neurogenetics team at NINDS. And this is really fabulous for me and I think for the research and the people that are affected, hopefully, by my research in that we can bring in patients to the clinical center. You would have to get to Bethesda and you'd obviously have to schedule it and all that. But we could collect all the clinical data. The clinicians can take blood samples. They can take skin biopsy. These are important if we want to make cell lines, patient-derived cell lines.",
+    "src": "MVI_0940.MP4 09:30.2 to 10:06.8"
+   },
+   "music": "New bed, warm, under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "That's all changed"
+    },
+    {
+     "clip": "MVI_0089.MP4",
+     "at": 1.0,
+     "dur": 2.3,
+     "cx": 0.5,
+     "path": "GRIN2B Conference - July 2026/B-Roll/MVI_0089.MP4",
+     "drive": null,
+     "layout": "full",
+     "what": "Dr. Roche at the podium"
+    }
+   ],
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "On camera. No NIH footage exists: stay on her face. Hide the 2 cuts with MVI_0089.MP4 00:00–00:03 (Dr. Roche at the podium). Do not replay the hook lines.",
-   "motion": "Captions. Bite 9: the transcript writes “green or green centers of excellence”; caption what she says.",
-   "voice": {
-    "who": "Dr. Roche",
-    "quote": "That's all changed in the last few months. I'm now associated with the neurogenetics team at NINDS. … This isn't to compete with them or supplant it in any way. … It's not a normal hospital. … It's a research hospital. … So it's all research associated.",
-    "src": "MVI_0940 09:30–10:08, 10:16–10:34, 11:19–11:57"
-   },
-   "sfx": "<span class=\"none\">None.</span>",
-   "music": "Warm, quiet bed under the voice."
+   "sfx": "<span class=\"none\">None.</span>"
   },
   {
-   "tc": "04:19–04:40",
+   "tc": "04:01–04:19",
+   "beat": "ADDED VALUE",
+   "kind": "",
+   "visual": "On camera, <a href=\"https://drive.google.com/file/d/1GN5aGNXASh2IYyWk7TAscfB3NSVaIa6J/view\">MVI_0940.MP4</a> from “So there are” at <span class=\"mono\">10:16.7</span>. The auto-transcript writes “green or green centers of excellence”: listen and caption exactly what she says.",
+   "motion": "Captions only (type the words at 10:16 by ear first).",
+   "voice": {
+    "who": "Dr. Katherine Roche",
+    "quote": "So there are green or green centers of excellence. This isn't to compete with them or supplant it in any way. If people are happy with the testing and everything they've gotten, they don't need to do this. We're hoping it's added value.",
+    "src": "MVI_0940.MP4 10:16.7 to 10:32.7 (the words at 10:16 to 10:20 need an ear check)"
+   },
+   "music": "Warm, quiet bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "So there are"
+    }
+   ],
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "sfx": "<span class=\"none\">None.</span>"
+  },
+  {
+   "tc": "04:19–05:08",
+   "beat": "A RESEARCH HOSPITAL",
+   "kind": "",
+   "visual": "On camera, <a href=\"https://drive.google.com/file/d/1GN5aGNXASh2IYyWk7TAscfB3NSVaIa6J/view\">MVI_0940.MP4</a> from “So NIH” at <span class=\"mono\">11:05.8</span>. Cut the pause after “NIH” (<span class=\"mono\">11:06.0</span> to <span class=\"mono\">11:08.3</span>) down to about 0.3 s, then the line runs on into her limits: “It's not a normal hospital … It's a research hospital … under a protocol.” These limits must stay in. A tighter crop on “It's a research hospital.”",
+   "motion": "Top text on “It's a research hospital.” (about 04:58), 2.5 s: <q>It's a research hospital.</q> Captions on.",
+   "voice": {
+    "who": "Dr. Katherine Roche",
+    "quote": "So NIH has the largest clinical research hospital in the world. No one pays. They don't even have a billing department. So you would have to get to Bethesda. But if you're brought in under this protocol, which is a very broad protocol looking at genetic disorders, then you could get these analyses. And you could contribute the information and blood samples. And it would all be taken care of. It's not a normal hospital. You wouldn't go to the clinical center if you broke your leg or if you're having a baby. It's a research hospital. So almost every patient that's certainly an inpatient, and even these, you have to be under a protocol. So it's all research associated.",
+    "src": "MVI_0940.MP4 11:05.8 to 11:17.7 + 11:19.1 to 11:56.1 (cut the 2.5 s pause after “NIH”)"
+   },
+   "music": "Warm, quiet bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "So NIH"
+    }
+   ],
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "sfx": "<span class=\"none\">None.</span>"
+  },
+  {
+   "tc": "05:08–05:29",
    "beat": "BUTTON",
    "kind": "",
-   "frame": null,
-   "crop": "none",
-   "frame_tag": null,
-   "frame_alt": null,
-   "visual": "On camera. Her face. No B-roll on the last line. Hold 1 s.",
+   "visual": "On camera, <a href=\"https://drive.google.com/file/d/1GN5aGNXASh2IYyWk7TAscfB3NSVaIa6J/view\">MVI_0940.MP4</a> from “So the direct interaction” at <span class=\"mono\">02:58.7</span>. Her face. No B-roll on the last line. Hold 1 s after “families.”",
    "motion": "Captions only.",
    "voice": {
-    "who": "Dr. Roche",
+    "who": "Dr. Katherine Roche",
     "quote": "So the direct interaction is incredibly important. And it's made it to where we've expanded our research to try to get tissue and samples from patients. And I don't think we would have ever dreamed to kind of go in that direction if we didn't have such a robust relationship with the GRIN families.",
-    "src": "MVI_0940 02:58–03:19"
+    "src": "MVI_0940.MP4 02:58.7 to 03:18.4"
    },
-   "sfx": "<span class=\"none\">None.</span>",
-   "music": "Resolve."
-  },
-  {
-   "tc": "04:40–04:45",
-   "beat": "END CARD",
-   "kind": "end",
+   "music": "Resolve.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "So the direct interaction"
+    }
+   ],
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Shared CureGRIN end card (layout in Files).",
-   "motion": "Register Here + link · GR icon on white · July 2027 calendar, 22–24 · Presented by CureGRIN + GRIN2B, both horizontal · Denver, CO.",
+   "sfx": "<span class=\"none\">None.</span>"
+  },
+  {
+   "tc": "05:29–05:34",
+   "beat": "END CARD",
+   "kind": "end",
+   "visual": "The shared CureGRIN end card, as on the approved short (layout in Files). The logos are on the end card only.",
+   "motion": "End card: Register Here · curegrin.akaraisin.com/ui/gricon27 · GR icon on white · July 2027 calendar, 22–24 · GRI con 2027 · July 22–24, 2027 · Denver, CO · Presented by CureGRIN + GRIN2B, both horizontal.",
    "voice": "<span class=\"none\">No voice.</span>",
-   "sfx": "<span class=\"none\">None.</span>",
-   "music": "Music only."
+   "music": "Music only.",
+   "shots": [],
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "sfx": "<span class=\"none\">None.</span>"
   }
  ],
  "frames": {},
  "files": [
   [
    "Editing brief",
-   "<a href=\"https://docs.google.com/document/d/1dtI2f3ZFCcznO89aST_fVlqA4Mr1i318E-3-xi1hJzk/edit\">pulse.13153576741</a> (Google Doc). This page is built from it."
+   "<a href=\"https://docs.google.com/document/d/1dtI2f3ZFCcznO89aST_fVlqA4Mr1i318E-3-xi1hJzk/edit\">pulse.13153576741</a> (Google Doc) + the Monday item: the 6 Oct notes and the 16 Oct structure (the same as the Traynelis long-form, update 5640808804 on that item)."
   ],
   [
    "Interview",
@@ -229,8 +532,16 @@
    "<a href=\"https://drive.google.com/drive/folders/13JnCWIKNDE-wt8MR_nPGoe07x_gBI1l-\">GRIN2B Conference - July 2026 raw</a> · <a href=\"https://drive.google.com/drive/folders/1Cl91HhVymE_uAyuaLkAIVoSJhybXKKC7\">B-Roll (147 clips)</a>"
   ],
   [
+   "B-roll picks",
+   "MVI_0089 0:00 to 0:01 and 0:01 to 0:03.3 · MVI_0079 0:01.6 to 0:02.6 and 0:03 to 0:04.8 · MVI_3776 0:05 to 0:06 and 0:08 to 0:12 · MVI_3787 0:20 to 0:22 · MVI_0111 0:00.5 to 0:02.5 · MVI_0118 0:04 to 0:06 · MVI_0070 0:04 to 0:07 (all in the <a href=\"https://drive.google.com/drive/folders/1Cl91HhVymE_uAyuaLkAIVoSJhybXKKC7\">B-Roll folder</a>)"
+  ],
+  [
+   "Lab footage",
+   "No lab footage is in the shoot folder. Nick sent three YouTube links with lab footage CureGRIN has published (in your Slack chat with Nick): use those for the explainers before anything else. No stock. Anything from the CureGRIN website needs Nick's OK."
+  ],
+  [
    "Transcript",
-   "<a href=\"https://docs.google.com/document/d/1C0OMP3xuukew57L2NUY1Cq0p3BaIpflB5x8MVTWVBN8/edit\">Transcripts — Interview 8</a> · Interview_8.transcript.json · SRT Groups › Interview 8.srt"
+   "<a href=\"https://docs.google.com/document/d/1C0OMP3xuukew57L2NUY1Cq0p3BaIpflB5x8MVTWVBN8/edit\">Transcripts — Interview 8</a> · <a href=\"https://drive.google.com/file/d/1kzOAjbm1JyWLXF_gEIh4qsXkA2lGAP6d/view\">Interview_8.transcript.json</a> (word times) · <a href=\"https://drive.google.com/file/d/1MKNQJS15u99cN9hK-NGylN_ILGzYr0g6/view\">Interview 8.srt</a>"
   ],
   [
    "visual.json",
@@ -241,6 +552,10 @@
    "<a href=\"https://f.io/G6KB3-oh\">“Small Progress Matters” (CureGRINRoche001)</a>"
   ],
   [
+   "AI voiceover",
+   "Explainer lines are drafts on this page (rows 00:22 and 03:19): Quinn checks the science before they are recorded. House AI voice: ElevenLabs v4, voice “Jessica”."
+  ],
+  [
    "End card",
    "Shared CureGRIN template: “Register Here” + <a href=\"https://curegrin.akaraisin.com/ui/gricon27\">curegrin.akaraisin.com/ui/gricon27</a> at the top · GR icon on WHITE above the calendar · real July 2027 calendar (1 July is a Thursday), 22–24 highlighted · envelope with “Presented by” + CureGRIN and GRIN2B logos, BOTH horizontal · GRI con 2027 · July 22–24, 2027 · Denver, CO · no “donate” wording."
   ]
@@ -248,19 +563,35 @@
  "tech": [
   [
    "Source",
-   "MVI_0940.MP4: 4096×2160, 23.98 fps, 2 audio channels. Check which channel is live on scrub."
+   "MVI_0940.MP4: 4096×2160, 23.98 fps, 2 audio channels. Check on scrub which channel is the lav, map it to both sides, mute the other. B-roll: 4096×2160, 59.94 fps."
   ],
   [
    "Timeline",
-   "1920×1080 at 23.976 fps. The 4K source gives room to punch in."
+   "1920×1080 at 23.976 fps. Conform the B-roll to 23.976."
+  ],
+  [
+   "Framing",
+   "The interview was shot very wide. Use a closer crop as the normal frame and cut tighter still for variety; the 4K source gives up to 200% punch-in at 1080p."
+  ],
+  [
+   "Background",
+   "The room is bare and the shot is locked: improve the background with AI (a window, flowers or a painting). Nothing that implies a place she is not in."
+  ],
+  [
+   "B-roll",
+   "One clean move per shot. Cut out every frame where the camera hunts for its next shot. Three shots, then back to her face."
+  ],
+  [
+   "Explainers",
+   "AI voiceover (ElevenLabs v4, Jessica), about 4 to 5 s each, with the text animation from the Motion graphics tab over lab footage. Music dips under it."
   ],
   [
    "Loudness",
-   "−14 LUFS integrated, −1 dBTP peak. Music warm and quiet."
+   "−14 LUFS integrated, −1 dBTP peak. Music warm and quiet, lands on the title card, changes at the break."
   ],
   [
    "Captions",
-   "Burned in, first word to last, same style as the approved short. CureGRIN, GRIN2B, GRIN, NMDA, NIH, NINDS spelled right."
+   "Burned in, first word to last, same style as the approved short (brand purple pill). CureGRIN, GRIN2B, GRIN, NMDA, NIH, NINDS spelled right. Katherine with a K."
   ],
   [
    "Export",
@@ -268,26 +599,471 @@
   ]
  ],
  "checklist": [
-  "First frame: her face mid-answer with the hook text. No logo, name or fade.",
-  "Name plate: Dr. Katherine Roche (K, never Catherine) / Senior Investigator, NIH/NINDS.",
-  "Bite 6a never plays without 6b.",
-  "Bite 10 is in.",
+  "Frame 1: her face with <q>I'm kind of a people person.</q> No logo, name or fade.",
+  "Name plate: Dr. Katherine Roche (K, never Catherine) / Senior Investigator, NIH/NINDS, Title Case, not before 0:03.",
+  "The music lands on the title card <q>A research hospital where no one pays</q>.",
+  "Bite 6a never plays without 6b. Her limits on the study are in.",
   "No on-screen promise of a visit, test or result. No address or phone.",
-  "No B-roll shot already used in another researcher film. No one eating on screen.",
-  "End card: both logos horizontal, Denver, CO, no “donate”.",
+  "No B-roll shot already used in another researcher film. No one eating on screen. No hunting frames.",
+  "The explainer lines were checked by Quinn before recording.",
+  "The words at 10:16 are captioned as she says them, not “green or green”.",
+  "End card: both logos horizontal, Denver, CO, July 22–24, 2027, no “donate”.",
   "Every quote as spoken: cut between sentences, never join half sentences."
  ],
  "decisions": [
   {
-   "t": "Revision notes",
-   "b": "This item is in Needs Revisions at V1. The revision notes live on Frame.io and are not on this page: read them first, then use this plan for anything they don't change."
+   "t": "Traynelis first",
+   "b": "Atdhe asked for the Traynelis long-form back first as the pattern for this structure. Cut this one the same way; if Atdhe changes the structure on Traynelis, the same change applies here."
+  },
+  {
+   "t": "Title card words",
+   "b": "The card uses Atdhe's 6 Oct hook line, “A research hospital where no one pays”. Under the 16 Oct structure the film opens on her human moment instead, so the line moves to the title card. Atdhe or Nick confirms, or gives new words."
+  },
+  {
+   "t": "Explainer lines",
+   "b": "The two AI voiceover lines are drafts. Quinn checks the science before they are recorded."
   }
  ],
  "client_note": "<b>Why this matters:</b> Quinn asked for longer researcher versions to get as much real information out of each researcher as possible. Only Dr. Roche talks about the NIH study.",
  "ask_examples": [
-  "What is the hook?",
+  "What is the cold open?",
+  "Where do the explainers go?",
   "Can I use 6a alone?",
-  "What goes on the end card?",
-  "Which B-roll covers the NIH section?"
- ]
+  "What goes on the end card?"
+ ],
+ "transcript": "--- MVI_0940.MP4 ---\n[00:00.0] Am I supposed to know you? No. [do not use: crew talk before the interview]\n[00:01.8] OK. We've never met before. You would be surprised. [do not use: crew talk before the interview]\n[00:06.0] I have people come up and be like, hey, I'm like, I don't think I've met you. [do not use: crew talk before the interview]\n[00:09.1] And I'll start rattling off all the times we've met. [do not use: crew talk before the interview]\n[00:11.3] I'm like, I'm old, and I don't have a very good memory. [do not use: crew talk before the interview]\n[00:13.1] Anyways, this is good. I'm not supposed to. [do not use: crew talk before the interview]\n[00:14.7] OK. Yeah. No, this is the first time we've met. [do not use: crew talk before the interview]\n[00:20.2] I don't even know them. Don't worry. [do not use: crew talk before the interview]\n[00:22.0] Yeah, today is the first time we've met. [do not use: crew talk before the interview]\n[00:23.8] Most everyone here, because we didn't know anybody before. [do not use: crew talk before the interview]\n[00:27.4] We were just doing the other one. [do not use: crew talk before the interview]\n[00:29.0] So do basic questions, and then do you want to talk about the NIH study at all? [do not use: crew talk before the interview]\n[00:33.6] Yeah, that'd be good. Then I'll add a question on the NIH. [do not use: crew talk before the interview]\n[00:36.5] But that is under the auspices of grin. [do not use: crew talk before the interview]\n[00:41.3] You said don't necessarily talk about grin. [do not use: crew talk before the interview]\n[00:43.2] No, you can talk about grin. I just mean like. [do not use: crew talk before the interview]\n[00:45.2] Don't say I'm here at the grin to be. [do not use: crew talk before the interview]\n[00:46.7] Exactly. OK. Please talk about grin. [do not use: crew talk before the interview]\n[00:49.4] And then you just talk to me. Don't look at the camera. [do not use: crew talk before the interview]\n[00:51.9] Don't look at him. OK. Don't look at her. [do not use: crew talk before the interview]\n[00:56.2] OK, John. All right, so first. [do not use: crew talk before the interview]\n[00:59.2] You're already good. She talked enough. [do not use: crew talk before the interview]\n[01:01.2] Yeah, I figured. I saw your recording. [do not use: crew talk before the interview]\n[01:04.2] You talked enough to get sound checked. [do not use: crew talk before the interview]\n[01:06.2] Ah, OK. You're doing great. Yes, you guys. [do not use: crew talk before the interview]\n[01:08.7] You're doing amazing. I'm smiling over here. [do not use: crew talk before the interview]\n[01:13.7] First, just introduce yourself and talk about how you're involved in this community. [do not use: crew talk before the interview]\n[01:18.2] Right, so my name's Katherine Roche. [do not use: crew talk before the interview]\n[01:20.0] I'm a senior investigator at National Institute of Neurological Disorders and Stroke at NIH.\n[01:28.0] My lab is on the intramural campus.\n[01:30.8] So it's just down the street from this meeting that.\n[01:35.5] Yeah, from where we are. So yeah, so I am a basic researcher.\n[01:42.0] And I got my PhD a very long time ago.\n[01:46.9] And I've been working on glutamate receptors really the entire time.\n[01:50.7] So for about 30 years, I'm a very basic researcher.\n[01:54.8] But then there was this explosion in human genetics where more and more patient populations were getting sequenced.\n[02:01.1] And it became clear that sometimes there were mutations, single point mutations, in individuals that caused a lot of problems.\n[02:11.4] They were pathogenic. And it turned out that some of these variants are in the proteins I had studied for decades.\n[02:17.0] So that's kind of my journey. And I started off being a very basic scientist and really have pivoted.\n[02:22.2] Our lab almost entirely focuses our research on these rare variants that are found in patient populations.\n[02:30.0] So we primarily study NMDA receptors.\n[02:34.4] And they're encoded by the GRIN genes, in particular GRIN2B and GRIN2A.\n[02:40.1] And as more and more is learned, it's incredibly important to have meetings where we interact with parents.\n[02:46.7] And we interact with clinicians.\n[02:48.6] I'm a basic scientist. So in particular, in person, you just learn a lot more than through a Zoom call or from reading things online.\n[02:58.7] So the direct interaction is incredibly important.\n[03:02.1] And it's made it to where we've expanded our research to try to get tissue and samples from patients.\n[03:11.1] And I don't think we would have ever dreamed to kind of go in that direction if we didn't have such a robust relationship with the GRIN families.\n[03:26.4] Sorry. No, no. That's fine. That's fine. [do not use: crew talk]\n[03:28.6] I'm just thinking. Asterisk. I've been through that. [do not use: crew talk]\n[03:33.3] So what do you hope families better understand about the progress being made? [do not use: crew talk]\n[03:37.4] Yeah. I think that I'm going to turn that around, first of all, and just say one thing that we learned as scientists from talking to the families is everybody would like to have a cure. [do not use: crew talk]\n[03:53.1] But really, families would also like to have anything that helps the symptoms.\n[03:57.3] And so small progress is important.\n[04:00.7] And the flip side of that is families have to understand it's a marathon.\n[04:04.1] And I think pretty quickly they do.\n[04:06.3] That we're all working really hard, that there's a lot of different angles that we're using to try to understand the mechanisms underlying GRIN disorders, but that it takes a lot of scientists, a lot of clinicians.\n[04:18.8] It takes a lot of years. So the other thing I always say about NMDA receptors and GRIN disorders is that the proteins are really complicated.\n[04:31.1] And sometimes the diagnoses of what it's doing to the receptor, a particular mutation, can be complex because NMDA receptors are modulated in many different ways.\n[04:42.7] But I also make the point that even though it's a somewhat complex biological protein and complex of proteins, people have studied it for decades in pharma because everyone knows NMDA receptors are important.\n[04:57.6] So what it has in complexity nicely, it has the counterpart in that there's a lot of pharma companies, biotech companies, that have spent decades.\n[05:10.8] So there's a lot of potential pharmacological interventions that are further along than you might imagine.\n[05:19.9] And of course, in many, many diseases, not just neurological diseases, people are looking at gene therapy.\n[05:26.5] So that as a field, not specific to neurodevelopmental disorders, is being pushed forward.\n[05:34.8] And of course, we'll benefit from that as well.\n[05:37.4] So there could be short-term therapies, which are still lengthy to come up with, that are more drug-based.\n[05:44.8] And there may be others that actually correct the gene.\n[05:48.3] But those are almost certainly further in the future.\n[05:56.2] You kind of answered his next one as well. [do not use: interviewer]\n[05:59.0] But I'll ask it again. Why are conferences like this important for future research and collaboration? [do not use: interviewer]\n[06:07.7] So conferences like this are absolutely essential.\n[06:11.3] And again, I give an anecdote that's real life for me.\n[06:17.0] I study synaptic proteins. A lot of these genes that encode these synaptic proteins just in the last 10, 15 years, they're clearly sensitive.\n[06:25.2] And you can get a point mutation.\n[06:26.9] You can have severe consequences.\n[06:29.7] Half my lab studies one class of proteins, which has been known for decades, even before the genetics, the next-gen sequencing, caught up to be important.\n[06:41.5] But there's no advocacy group.\n[06:43.5] And it lags so far behind. I just have parents or providers.\n[06:49.9] They find out online that I've published on it.\n[06:52.0] And they ask me questions. The other half of lab study is GRIN disorders.\n[06:55.7] And it's just the community is hugely important.\n[07:00.0] It gets more research dollars.\n[07:01.9] But also, you learn more. And you use that knowledge to better inform what you're doing.\n[07:07.3] Also, by getting everyone together, the parents and the affected individuals or children and the scientists, you make sure people aren't doing the same thing.\n[07:16.6] So you kind of divide and conquer. [do not use: interviewer]\n[07:19.2] And you have highly collaborative teams, which I just don't think is possible. [do not use: interviewer]\n[07:26.5] It's just much more difficult if you don't have a nucleating event like these meetings that are around these foundations.\n[07:37.4] So for some considering attending next year, what makes it so valuable?\n[07:43.5] Well, I think it's valuable because I think there's nothing like face-to-face conversations, the sidebar conversations.\n[07:53.6] I collaborate with a couple of the people that are at this particular meeting.\n[08:00.1] And I see them probably, I don't know, a couple times a year.\n[08:03.8] I still learn more when I see them in person because we're talking about it or we're listening to a talk together.\n[08:08.9] And we'll turn and be like, what if you do this?\n[08:11.1] Or what if you do that? And it just speeds up the thought process because I know that parents are frustrated that developing therapies are so slow.\n[08:27.0] Science is slow. Publishing is slow.\n[08:30.5] So if you want to wait for a paper to be published on a particular topic, you may have wasted a year or two trying to embark on something that's already been done.\n[08:38.9] And since there's limited resources to talk to people in real time and figure out how to best approach the problem is very efficient.\n[08:47.2] It's also rewarding. I'm kind of a people person.\n[08:49.3] So I like to talk to people. So it's better than just being in your office or the lab all day.\n[08:57.9] What's the talk about so that everyone can ask? [do not use: interviewer]\n[09:02.5] Yeah, you want to talk about the inter-university? [do not use: interviewer]\n[09:03.9] Oh, right. Right. So I work in the intramural program of NINDS at NIH in the Bethesda campus. [do not use: interviewer]\n[09:13.1] And basically, I'm a basic researcher.\n[09:17.0] And even though we've collaborated on case studies with other clinicians around the world when they contact us, there's always a little bit more of a complication because I haven't been associated with a protocol.\n[09:30.2] That's all changed in the last few months.\n[09:32.2] I'm now associated with the neurogenetics team at NINDS.\n[09:36.8] And this is really fabulous for me and I think for the research and the people that are affected, hopefully, by my research in that we can bring in patients to the clinical center.\n[09:49.0] You would have to get to Bethesda and you'd obviously have to schedule it and all that.\n[09:52.7] But we could collect all the clinical data.\n[09:57.0] The clinicians can take blood samples.\n[09:59.6] They can take skin biopsy. These are important if we want to make cell lines, patient-derived cell lines.\n[10:08.6] Also, just collating all the information and having the neurodevelopmental analysis, everything in one place.\n[10:14.9] And it's absolutely to share. So there are green or green centers of excellence.\n[10:22.0] This isn't to compete with them or supplant it in any way.\n[10:26.5] If people are happy with the testing and everything they've gotten, they don't need to do this.\n[10:32.0] We're hoping it's added value.\n[10:33.7] Certainly will help me as a researcher because I'll be able to accept patient information and tissue and things like that and coordinate it all in one place.\n[10:45.2] So we have a team of their neurologists.\n[10:48.7] One's an epileptologist. A couple of them are neurogeneticists.\n[10:54.1] And they're all playing a role in this.\n[10:56.1] So we're very excited about it.\n[10:57.4] It's a new opportunity. I'm curious for myself.\n[11:00.9] Will families get care? [do not use: interviewer]\n[11:05.8] So NIH has the largest clinical research hospital in the world.\n[11:16.2] No one pays. They don't even have a billing department.\n[11:19.1] So you would have to get to Bethesda.\n[11:21.5] But if you're brought in under this protocol, which is a very broad protocol looking at genetic disorders, then you could get these analyses.\n[11:31.3] And you could contribute the information and blood samples.\n[11:37.0] And it would all be taken care of.\n[11:40.2] It's not a normal hospital. You wouldn't go to the clinical center if you broke your leg or if you're having a baby.\n[11:47.0] It's a research hospital. So almost every patient that's certainly an inpatient, and even these, you have to be under a protocol.\n[11:55.2] So it's all research associated.\n[11:59.0] Yeah, that was a good distinction. [do not use: crew talk]\n[12:01.1] I also like what she said about the not repeating efforts in the publications. [do not use: crew talk]\n[12:07.0] And then the last thing, this is an optional question. [do not use: crew talk]\n[12:10.6] But how do you think research on NMDA receptors, does it inform all of the greedy genes? [do not use: crew talk]\n[12:19.7] And then how does that, how so? [do not use: crew talk]\n[12:26.5] I mean, I could just say stuff. [do not use: crew talk]\n[12:30.2] But I don't really, I can talk. [do not use: crew talk]\n[12:32.6] But I don't know how directly I can answer that. [do not use: crew talk]\n[12:36.4] I mean, there's a couple of ways you can answer that. [do not use: crew talk]\n[12:38.9] I could say, OK, I can answer that. [do not use: crew talk]\n[12:42.1] Ask me a question. Come on. How does research on NMDA receptors influence what we know about the other greedy genes? [do not use: crew talk]\n[12:49.7] How does it all connect together? [do not use: crew talk]\n[12:51.7] Right. Well, I think a lot can be learned from research on all the greedy genes and that they can help inform one another.\n[13:00.5] But I would argue that the whole glutamatergic synapse, a lot of the phenotypes of patients that have, or individuals that have variants and various synaptic proteins overlap.\n[13:13.3] So glutamate receptors, NMDA, AMPA, they're really the first postsynaptic site that glutamate binds.\n[13:22.6] But it triggers this downstream effect.\n[13:25.4] And many of those proteins are all implicated in various disorders.\n[13:30.7] So you can easily make the argument that learning more about the glutamatergic synapse and rare variants in NMDA are going to inform the other greedy disorders.\n[13:42.0] In particular, since they all have the same ligand, in your brain, glutamate binds to AMPA receptors and canate receptors and NMDA receptors.\n[13:55.2] So they're going to be activated by the same neurotransmitter.\n[13:59.3] So you can imagine that if you have a gain of function in NMDA receptors, it's going to increase the signaling.\n[14:06.2] And if you have a loss effect, it's going to decrease it.\n[14:10.0] And that this might help with some therapies that might be able to cross over.\n[14:14.0] AMPA kinds, ones that stimulate AMPA versus.\n[14:17.7] Some of those might have therapeutic promise, even if it's not the exact subunit that your child has the variant in.\n[14:33.0] Is that OK? Anything else you feel important to say over here? [do not use: crew talk]\n[14:36.1] No, I think I'm all fine. Scientists don't like this. [do not use: crew talk]\n[14:41.4] We're not supposed to be interviewed, right? [do not use: crew talk]\n[14:47.6] My favorite part is every time. [do not use: crew talk]",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "So that's kind of my journey. And I started off being a very basic scientist and really have pivoted.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "A short, warm turn."
+   },
+   {
+    "quote": "I'm a basic scientist. So in particular, in person, you just learn a lot more than through a Zoom call or from reading things online.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "Why meeting families matters."
+   },
+   {
+    "quote": "So we're very excited about it.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "Excited, short."
+   },
+   {
+    "quote": "Science is slow. Publishing is slow.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "Science is slow."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "So that's kind of my journey. And I started off being a very basic scientist and really have pivoted.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "A short, warm turn."
+   },
+   {
+    "quote": "So we primarily study NMDA receptors.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "The GRIN link in her words."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "So that's kind of my journey. And I started off being a very basic scientist and really have pivoted.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "A short, warm turn."
+   },
+   {
+    "quote": "So we primarily study NMDA receptors.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "The GRIN link in her words."
+   },
+   {
+    "quote": "I'm a basic scientist. So in particular, in person, you just learn a lot more than through a Zoom call or from reading things online.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "Why meeting families matters."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "So that's kind of my journey. And I started off being a very basic scientist and really have pivoted.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "A short, warm turn."
+   },
+   {
+    "quote": "I'm a basic scientist. So in particular, in person, you just learn a lot more than through a Zoom call or from reading things online.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "Why meeting families matters."
+   },
+   {
+    "quote": "And I don't think we would have ever dreamed to kind of go in that direction if we didn't have such a robust relationship with the GRIN families.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "The families changed her research."
+   }
+  ],
+  "bite:6": [
+   {
+    "quote": "But there's no advocacy group.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "Why a community matters."
+   },
+   {
+    "quote": "And it's just the community is hugely important.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "The families' role."
+   },
+   {
+    "quote": "I'm a basic scientist. So in particular, in person, you just learn a lot more than through a Zoom call or from reading things online.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "Why meeting families matters."
+   },
+   {
+    "quote": "So you kind of divide and conquer.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "Why meetings help."
+   },
+   {
+    "quote": "And I don't think we would have ever dreamed to kind of go in that direction if we didn't have such a robust relationship with the GRIN families.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "The families changed her research."
+   }
+  ],
+  "bite:7": [
+   {
+    "quote": "And the flip side of that is families have to understand it's a marathon.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "Honest about time."
+   },
+   {
+    "quote": "That we're all working really hard, that there's a lot of different angles that we're using to try to understand the mechanisms underlying GRIN disorders, but that it takes a lot of scientists, a lot of clinicians.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "Many teams, many angles."
+   },
+   {
+    "quote": "Science is slow. Publishing is slow.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "Science is slow."
+   }
+  ],
+  "bite:8": [
+   {
+    "quote": "So there's a lot of potential pharmacological interventions that are further along than you might imagine.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "Hope, said carefully."
+   },
+   {
+    "quote": "But those are almost certainly further in the future.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "Honest limit."
+   },
+   {
+    "quote": "And the flip side of that is families have to understand it's a marathon.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "Honest about time."
+   },
+   {
+    "quote": "That we're all working really hard, that there's a lot of different angles that we're using to try to understand the mechanisms underlying GRIN disorders, but that it takes a lot of scientists, a lot of clinicians.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "Many teams, many angles."
+   }
+  ],
+  "bite:9": [
+   {
+    "quote": "And the flip side of that is families have to understand it's a marathon.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "Honest about time."
+   },
+   {
+    "quote": "So you kind of divide and conquer.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "Why meetings help."
+   },
+   {
+    "quote": "I'm a basic scientist. So in particular, in person, you just learn a lot more than through a Zoom call or from reading things online.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "Why meeting families matters."
+   }
+  ],
+  "bite:11": [
+   {
+    "quote": "That's all changed in the last few months.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "The NIH news."
+   },
+   {
+    "quote": "And this is really fabulous for me and I think for the research and the people that are affected, hopefully, by my research in that we can bring in patients to the clinical center.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "Her excitement."
+   },
+   {
+    "quote": "So we're very excited about it.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "Excited, short."
+   }
+  ],
+  "bite:12": [
+   {
+    "quote": "So we're very excited about it.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "Excited, short."
+   },
+   {
+    "quote": "And this is really fabulous for me and I think for the research and the people that are affected, hopefully, by my research in that we can bring in patients to the clinical center.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "Her excitement."
+   }
+  ],
+  "bite:13": [
+   {
+    "quote": "So NIH has the largest clinical research hospital in the world.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "The NIH fact."
+   },
+   {
+    "quote": "It's a research hospital. So almost every patient that's certainly an inpatient, and even these, you have to be under a protocol.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "Her limit, clear."
+   },
+   {
+    "quote": "It's not a normal hospital. You wouldn't go to the clinical center if you broke your leg or if you're having a baby.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "Her limit."
+   }
+  ],
+  "bite:14": [
+   {
+    "quote": "And I don't think we would have ever dreamed to kind of go in that direction if we didn't have such a robust relationship with the GRIN families.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "The families changed her research."
+   },
+   {
+    "quote": "And it's just the community is hugely important.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "The families' role."
+   },
+   {
+    "quote": "I'm a basic scientist. So in particular, in person, you just learn a lot more than through a Zoom call or from reading things online.",
+    "who": "Dr. Katherine Roche",
+    "file": "MVI_0940.MP4",
+    "why": "Why meeting families matters."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "I'm kind of a people person.",
+    "line": "It's also rewarding. I'm kind of a people person.",
+    "why": "The human moment first."
+   },
+   {
+    "text": "A research hospital where no one pays",
+    "line": "So NIH has the largest clinical research hospital in the world.",
+    "why": "Atdhe's 6 Oct hook line."
+   },
+   {
+    "text": "Science is slow.",
+    "line": "Science is slow. Publishing is slow.",
+    "why": "Honest and quotable."
+   },
+   {
+    "text": "We would never have dreamed of it",
+    "line": "And I don't think we would have ever dreamed to kind of go in that direction if we didn't have such a robust relationship with the GRIN families.",
+    "why": "The families changed her lab."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "CureGRIN long-form, packaged like the Meg Crane reference: hook text on frame 1, a B-roll button, name plate, a title card with the music landing, a mid-film break, two short explainers. One graphic at a time, captions always on, logos on the end card only.",
+  "devices": [
+   {
+    "row": "00:00–00:07",
+    "device": "Hook text, static",
+    "asset": "highlight_callout (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:07–00:10",
+    "device": "3-shot B-roll button",
+    "asset": "MVI_0089 0:00, MVI_0079 0:01.6, MVI_3776 0:05",
+    "source": "GRIN2B B-Roll"
+   },
+   {
+    "row": "00:10–00:18",
+    "device": "Name plate",
+    "asset": "tag_label (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:18–00:22",
+    "device": "Title card, music lands",
+    "asset": "statement_card (MG library)",
+    "source": "Script (Atdhe's 6 Oct line)"
+   },
+   {
+    "row": "00:22–01:00",
+    "device": "Explainer 1: AI voiceover + text",
+    "asset": "highlight_callout; lab footage TBD",
+    "source": "Script; CureGRIN's published lab videos"
+   },
+   {
+    "row": "01:00–01:20",
+    "device": "Key words one at a time",
+    "asset": "word_stack (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "01:20–01:56",
+    "device": "3-shot B-roll pod of the families",
+    "asset": "MVI_3787 0:20, MVI_0111 0:00.5, MVI_0118 0:04",
+    "source": "GRIN2B B-Roll"
+   },
+   {
+    "row": "02:04–02:58",
+    "device": "Infographic cutaway over the 6a/6b join",
+    "asset": "MVI_0070 0:04",
+    "source": "GRIN2B B-Roll"
+   },
+   {
+    "row": "03:15–03:19",
+    "device": "Brand wipe + chapter card, music change",
+    "asset": "brand_wipe; statement_card (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "03:19–04:01",
+    "device": "Explainer 2: AI voiceover + text",
+    "asset": "highlight_callout; lab footage TBD",
+    "source": "Script; CureGRIN's published lab videos"
+   },
+   {
+    "row": "04:19–05:08",
+    "device": "Top text on her limit",
+    "asset": "highlight_callout (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "05:29–05:34",
+    "device": "Shared CureGRIN end card",
+    "asset": "end_card (name typed until the logo arrives)",
+    "source": "endcards/index.json, 22 Oct 2026"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "MVI_0089.MP4",
+    "path": "GRIN2B Conference - July 2026/B-Roll/MVI_0089.MP4",
+    "drive": null,
+    "at": 3.3,
+    "dur": 1.2,
+    "cx": 0.5,
+    "what": "Dr. Roche and a man seated at the table with a microphone (visual.json)",
+    "frame": null
+   },
+   {
+    "clip": "MVI_0079.MP4",
+    "path": "GRIN2B Conference - July 2026/B-Roll/MVI_0079.MP4",
+    "drive": null,
+    "at": 4.8,
+    "dur": 1.5,
+    "cx": 0.5,
+    "what": "Panel, Dr. Roche holding the microphone (visual.json)",
+    "frame": null
+   },
+   {
+    "clip": "MVI_3765.MP4",
+    "path": "GRIN2B Conference - July 2026/B-Roll/MVI_3765.MP4",
+    "drive": null,
+    "at": 18.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "Poster with a bee and the word RESEARCH (visual.json)",
+    "frame": null
+   },
+   {
+    "clip": "MVI_3787.MP4",
+    "path": "GRIN2B Conference - July 2026/B-Roll/MVI_3787.MP4",
+    "drive": null,
+    "at": 60.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "Families with children watch a speaker on stage (visual.json)",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "Shared CureGRIN end card",
+    "kind": "end_card",
+    "file": null,
+    "url": "https://f.io/G6KB3-oh",
+    "local": null,
+    "alpha": false,
+    "size": "1920x1080",
+    "fps": 24
+   },
+   {
+    "name": "Name plate (as the approved short)",
+    "kind": "lower third",
+    "file": null,
+    "url": "https://f.io/G6KB3-oh",
+    "local": null,
+    "alpha": true,
+    "size": "1920x1080",
+    "fps": 24
+   },
+   {
+    "name": "CureGRIN graphics package",
+    "kind": "package",
+    "file": null,
+    "url": null,
+    "local": "deliverables/graphics-packages/CureGRIN",
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": [
+   {
+    "name": "Explainer text animation (16:9)",
+    "kind": "text animation",
+    "note": "Built by the Motion graphics tab on this page (rows 00:22 and 03:19)."
+   }
+  ]
+ }
 }
