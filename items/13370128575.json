@@ -1,0 +1,266 @@
+{
+ "id": "13370128575",
+ "client": "s4s",
+ "eyebrow": "Soles4Souls · Denver 4EveryKid · Voya volunteer morning, 19 Oct 2026 · Social short",
+ "title": "Angela Harrell:",
+ "title_q": "“Where Are My Jordans?”",
+ "title_short": "Angela Harrell · Where Are My Jordans?",
+ "editor": "Bleron",
+ "due": "2026-11-17",
+ "format": "9:16 only · 1080×1920",
+ "length": "about 60 s",
+ "edit_key": "S4SDenverWhereAreMyJordans001",
+ "headline": "Kids at a 4EveryKid giveaway ask for Jordans by name, because a brand-name pair is how a kid facing homelessness gets to blend in.",
+ "story": [
+  "Angela laughs about the tough customers: kids asking where their Jordans are, or if there are any Nikes. In the end everyone leaves happy. Some wear them out the door, some keep the box to show their family.",
+  "4EveryKid puts new branded athletic shoes on kids facing homelessness. In the US that is 1.5 million kids. All kids want to be like everyone else: try out for the team, run track, get to school safely.",
+  "The button: new shoes let them hold their head up a little higher and blend in, because that's all you want as a kid."
+ ],
+ "feel": [
+  "Playful",
+  "Warm",
+  "Real",
+  "Hopeful"
+ ],
+ "do": [
+  "Hook text “Where are my Jordans?” on frame 1 over the shoes on the sorting table.",
+  "Name super at 0:07, small, lower left, 2 s. Never at 0:00.",
+  "Cut back to Angela on camera for “1.5 million kids”.",
+  "Cut to the end card right after “anyway”.",
+  "Keep it 45 to 60 s."
+ ],
+ "dont": [
+  "No logo, title card or fade at 0:00.",
+  "No second aspect ratio. 9:16 only.",
+  "No stock footage.",
+  "No lines from her Are You Happy? file (NNM_3560). They belong to item 13347176315.",
+  "Don't make it about Voya, her job title, or the warehouse day as a timeline.",
+  "No kids' names or school names on screen. There are no kids in this folder."
+ ],
+ "links": {
+  "brief": {
+   "title": "Editor brief: Angela Harrell, “Where are my Jordans?” (pulse.13370128575)",
+   "url": "https://docs.google.com/document/d/1JhiygjqoK2h7PqjFQbK--Z8--yJMoPUxai1Xhq5_0iI/edit",
+   "note": "Full brief with the AV map. Bites, B-roll picks, on-screen text and rules are set there."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Production Planning 13011940021 reads Requested, owner Nick. Until then, match the pace of your delivered 4EveryKid cuts."
+  },
+  "footage": {
+   "title": "Denver 4EveryKid Oct. 2026 raw",
+   "url": "https://drive.google.com/drive/folders/1hGkzhXMF_ARbQU9setK_8ol9mJ0Qzu6k",
+   "note": "CAM A (FX6) holds the interviews; the Are You Happy? files are also copied in AYH Interviews. Shot horizontal."
+  }
+ },
+ "bp_intro": "Voice is all <span class=\"mono\">NNM_3559.MXF</span> (CAM A, 6:06, Track 1 lav). B-roll picks and in/out points are from the brief's AV map and visual.json. Times are mm:ss from the first frame of each file.",
+ "rows": [
+  {
+   "tc": "00:00–00:07",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "B-roll: <span class=\"mono\">NNM_3502.MXF</span> 0:01.7–0:05.0, gloved hand pointing at colorful children's shoes on the table. Then <span class=\"mono\">NNM_3495.MXF</span> 0:17.8–0:23.9, blue gloves tying the laces of white and black shoes.",
+   "motion": "Hook text on <b>frame 1</b>, big, bold, centered: <q>Where are my Jordans?</q> Does not animate on. Off by 0:04. No logo, no lower third, no fade.",
+   "voice": {
+    "who": "Angela",
+    "quote": "Sometimes we get some really tough customers who are very specific. They're like, where are my Jordans? Do you have any Nikes?",
+    "src": "3559 05:19–05:26"
+   },
+   "sfx": "Room tone under the B-roll.",
+   "music": "Warm, playful bed on frame 1, low."
+  },
+  {
+   "tc": "00:07–00:18",
+   "beat": "EVERYONE LEAVES HAPPY",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Angela on camera, wide, orange Voya shirt, smiling (visual.json segment 4:34–6:06). Reframe to 9:16, face centered.",
+   "motion": "Name super at <span class=\"mono\">00:07–00:09</span>, small, lower left: “Angela Harrell · Voya Foundation”. Captions on.",
+   "voice": {
+    "who": "Angela",
+    "quote": "But in the end, everyone leaves happy. Some kids want to wear their shoes right out. Some kids want to put them in a box, keep them brand new and take them home to share with their families just the thrill of these new pair of shoes.",
+    "src": "3559 05:26–05:37"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:18–00:34",
+   "beat": "WHO THESE KIDS ARE",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "B-roll: <span class=\"mono\">DJI_20261019100503_0012_D_B01.MP4</span> 0:00–0:05.9, volunteers in orange sorting a pile of shoes under the Soles4Souls banner. Then <span class=\"mono\">DJI_20261019092923_0002_D_B01.MP4</span> 0:12.3–0:16.4, a box of new sneakers with tags. Back to Angela on camera for “1.5 million kids”.",
+   "motion": "Captions on. Caption “4EveryKid”: the transcript writes “For Every Kid”. Optional text card on the number: <q>1.5 million kids</q> only.",
+   "voice": {
+    "who": "Angela",
+    "quote": "4EveryKid is an amazing program where we work with schools and nonprofits across the country to put a new pair of branded athletic shoes on the feet of children who are experiencing homelessness. And believe it or not, in the United States, that's 1.5 million kids.",
+    "src": "3559 02:29–02:45"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:34–00:48",
+   "beat": "BE LIKE EVERYONE ELSE",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Angela on camera (visual.json segment 1:31–4:34). One cutaway: <span class=\"mono\">DJI_20261019100743_0017_D_B01.MP4</span> 0:00–0:05.6, volunteers in gloves sorting and packing shoes.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Angela",
+    "quote": "All kids just want to be like everyone else. And so a branded pair of sneakers perhaps allows them to try out for the basketball team or run track or really just get to school comfortably and safely.",
+    "src": "3559 02:56–03:09"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:48–00:57",
+   "beat": "BUTTON",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Angela on camera. Hold on her face to the end of the line. Cut to the end card right after “anyway”.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Angela",
+    "quote": "And more than anything else, it allows them to hold their head up a little bit higher and blend in because that's all you really want to do as a kid anyway.",
+    "src": "3559 03:10–03:18"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Resolve on “anyway”."
+  },
+  {
+   "tc": "00:57–01:00",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "The new S4S typography end card.",
+   "motion": "Only the bottom CTA line changes. No logo bug before it.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music only. 1 s fade."
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Editing brief",
+   "<a href=\"https://docs.google.com/document/d/1JhiygjqoK2h7PqjFQbK--Z8--yJMoPUxai1Xhq5_0iI/edit\">Editor brief: Angela Harrell, “Where are my Jordans?” (pulse.13370128575)</a> (Google Doc). This page is built from it."
+  ],
+  [
+   "Reference",
+   "Not chosen yet. Production Planning 13011940021 reads Requested, owner Nick."
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/1hGkzhXMF_ARbQU9setK_8ol9mJ0Qzu6k\">Denver 4EveryKid Oct. 2026 raw</a> · Voya volunteer day, Soles4Souls Colorado Regional Distribution Center, 19 Oct 2026"
+  ],
+  [
+   "Clip",
+   "<a href=\"https://drive.google.com/file/d/1Pq9-BxMXy4H9l6-9yANY4YdoRUfoXD3B/view\">NNM_3559.MXF</a> · Angela interview, 6:06 · CAM A (FX6) · 11.3 GB"
+  ],
+  [
+   "Clip",
+   "<a href=\"https://drive.google.com/file/d/1yNW4LS0HPOYRjb1lMqMWMeVGucZv8mDy/view\">NNM_3502.MXF</a> · B-roll, gloved hand at the sorting table · CAM A (FX6) · 0.2 GB"
+  ],
+  [
+   "Clip",
+   "<a href=\"https://drive.google.com/file/d/1RnyU1wxdfRQcvF3ZBxhc-XDY87gloves/view\">NNM_3495.MXF</a> · B-roll, gloves tying laces · CAM A (FX6) · 0.7 GB"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/16l2bwPD_H1xQnOzcggcTlM_FluJduRwBv5ecb1bZXks/edit\">Transcripts - Denver 4EveryKid Oct. 2026</a> · per-clip docs and .srt files in CAM A (FX6) › EditingResources"
+  ],
+  [
+   "visual.json",
+   "Yes: EditingResources › EditTranscripts › visual.json."
+  ],
+  [
+   "B-roll",
+   "CAM B (Gimbal) DJI_20261019*.MP4, CAM A floor clips NNM_3481 to NNM_3558, CAM C (GoPro) DJI_0001 to DJI_0008 (no transcript, no visual.json for CAM C)."
+  ],
+  [
+   "Brand",
+   "Teal <span class=\"mono\">#62CCBF</span>, black, white. Buenos Aires for titles, Roboto for body. End card: the new S4S typography card with the AYH × Soles4Souls lockup. CTA line: <q>A new pair of shoes for a kid experiencing homelessness → soles4souls.org</q>"
+  ],
+  [
+   "Music",
+   "Warm, upbeat licensed track. Save the license with the project."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "Sony FX6, 3840×2160, 23.976 fps, shot horizontal (16:9). Videographer: Zach Baker (Never Not Media)."
+  ],
+  [
+   "Timeline",
+   "1080×1920 at <b>23.976 fps</b>. Same rate as the source."
+  ],
+  [
+   "Crop",
+   "Reframe to 9:16. A 9:16 window of UHD is 1215×2160, so up to 120% stays sharp. Keep the face in the center third."
+  ],
+  [
+   "Audio",
+   "Use <b>Track 1 (lav)</b>. Track 2 is the shotgun, backup only. Listen to both on the first bite before you lock the mix."
+  ],
+  [
+   "Clean-up",
+   "Warehouse room noise. Noise reduction and a level pass on every interview bite before V1."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. Music under the voice the whole way. Do not duck the voice."
+  ],
+  [
+   "Captions",
+   "Burned in, US English. S4S style: black text on a teal <span class=\"mono\">#62CCBF</span> box. Never white on teal. Large, max 2 lines. Bottom 20% clear for app buttons."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920. One file, 9:16 only. Upload to Frame.io → Ready for Review."
+  ]
+ ],
+ "checklist": [
+  "Soles4Souls and 4EveryKid are spelled exactly. The transcript writes “Souls for Souls”, “Souls4Souls” and “For Every Kid”. Never caption those.",
+  "US English in every caption.",
+  "Text is big enough to read on a phone. Text size is this client's most common note.",
+  "Audio is cleaned (noise reduction, level pass) before V1.",
+  "Frame 1 is the shoe B-roll with “Where are my Jordans?” on screen. No logo, title card or fade at 0:00.",
+  "End card is the new S4S typography card. Only the CTA line changes.",
+  "Captions: “Soles4Souls”, “4EveryKid”, “Jordans”, “Nikes”. “Skechers” with no T if it is named.",
+  "Name super at 0:07, not before 0:03. No lower third at the head.",
+  "No kids on screen, no stock kid footage.",
+  "Music never ducks the voice."
+ ],
+ "decisions": [],
+ "client_note": "<b>Why this matters:</b> the Are You Happy? collab posts are part of what Soles4Souls expects this fall. Sydney asked to <q>keep the notes joy themed, positive.</q> Every solo ends on the mission and the soles4souls.org ask.",
+ "ask_examples": [
+  "Which shot opens the video?",
+  "When does the name super come in?",
+  "Can I use her Are You Happy? answers?",
+  "Which end card do I use?"
+ ],
+ "transcript": "Machine transcript (Whisper) from the shoot's transcript doc. Times are mm:ss from the first frame of each file, not camera timecode. Speaker tags are often wrong. Names are by ear. Garbage lines from silent stretches are left out.\n\n== NNM_3559.MXF (Angela Harrell) ==\n[00:00] Q: So, can you tell me your name and what you at VOYA?\n[00:08] My name is Angela Harrell and I am the Senior Vice President, Chief Purpose Talent and Inclusion\n[00:15] Officer as well as the President of VOYA Foundation.\n[00:25] So I chose to spend the morning volunteering here today with my colleagues from VOYA Financial\n[00:32] as a component of our employee volunteer sabbatical with Souls4Souls that we have every single\n[00:39] year.\n[00:40] I also happen to be on the board of Souls4Souls.\n[00:43] I've served on the board for six years and so this non-profit is near and dear to my\n[00:49] heart.\n[00:50] Q: Why is it near and dear to your heart?\n[00:53] So Souls4Souls is near and dear to my heart because they are impacting people's lives\n[00:58] in a really significant and simple way.\n[01:01] They're breaking the cycle of poverty through the things that some of us take for granted,\n[01:07] shoes and clothing.\n[01:09] And so one of the things that we are able to do is enable economic empowerment through\n[01:15] the collection of used or new shoes and clothing.\n[01:21] The thing go to entrepreneurs in other countries where they're able to resell and take care\n[01:27] of their family, their needs.\n[01:29] And so it's a small thing.\n[01:31] We're here today sorting donated shoes that have been gently used, making sure that we've\n[01:38] got pairs, that we're binding them together and we're packing them up for the next part\n[01:42] of their journey.\n[01:45] Q: And why do you think this work is so important?\n[01:52] I think this work is so important because it's providing people with an opportunity.\n[01:57] In fact, the program name is For Opportunity.\n[02:01] We're providing people with the means to take care of themselves, to empower their\n[02:06] families economically through our collection of used shoes and clothing, individuals are\n[02:14] able to resell these in low income nations and take care of their family's most pressing\n[02:20] needs.\n[02:21] Okay.\n[02:22] Q: Can you talk a little bit more about the For Every Kid since you guys are doing that tomorrow?\n[02:26] Yes.\n[02:29] For Every Kid is an amazing program where we work with schools and nonprofits across\n[02:36] the country to put a new pair of branded athletic shoes on the feet of children who are experiencing\n[02:44] homelessness.\n[02:45] And believe it or not, in the United States, that's 1.5 million kids.\n[02:52] And in doing this, it provides them with a level playing field.\n[02:56] All kids just want to be like everyone else.\n[02:59] And so a branded pair of sneakers perhaps allows them to try out for the basketball\n[03:04] team or run track or really just get to school comfortably and safely.\n[03:10] And more than anything else, it allows them to hold their head up a little bit higher\n[03:15] and blend in because that's all you really want to do as a kid anyway.\n[03:19] Awesome.\n[03:23] Q: And then how does doing this work make you feel and how do you feel after today?\n[03:29] Yeah.\n[03:31] So doing this work makes me feel such a sense of gratitude.\n[03:36] One, to be able to, through my company, volunteer.\n[03:41] Our company, Voya Financial, provides every employee with 40 hours of paid volunteer time\n[03:48] every year.\n[03:49] Community is really important.\n[03:51] Going back for me is so central to who I am as an individual.\n[03:57] Q: Why I really love this work is because I've had the ability to see everything along the\n[04:03] chain from the collection of shoes, which I do myself, throughout the year, to seeing\n[04:10] those shoes in a warehouse being sorted.\n[04:13] And then getting to our nonprofit partners outside of the United States, which I've been\n[04:18] able to do in Guatemala and Honduras and in the Dominican Republic.\n[04:23] And then seeing the individuals who actually get those shoes, being able to meet with those\n[04:28] people and understand how this is actually changing their lives and the lives of their\n[04:33] families.\n[04:35] Q: What's gorgeous is other employees of Voya being able to experience parts of this story\n[04:42] as well.\n[04:43] And so that's what really just fills my heart and gives me such gratitude that we have this\n[04:49] chance to serve.\n[04:51] And this service has such a significant impact.\n[05:03] I am so excited for tomorrow.\n[05:05] My favorite thing about Souls for Souls is distribution.\n[05:09] I love when we have kids excited about their new pair of branded shoes.\n[05:19] Sometimes we get some really tough customers who are very specific.\n[05:22] Q: They're like, where are my Jordans?\n[05:24] Q: Do you have any Nikes?\n[05:26] But in the end, everyone leaves happy.\n[05:29] Some kids want to wear their shoes right out.\n[05:31] Some kids want to put them in a box, keep them brand new and take them home to share\n[05:37] with their families just the thrill of these new pair of shoes.\n[05:42] And so that is what is so exciting, that we get that opportunity to put some smiles and\n[05:48] some pep and steps for kids at school.\n[05:54] And we really will have a chance also as employees of Voya to experience something together that\n[06:01] I think is really special and impactful."
+}
