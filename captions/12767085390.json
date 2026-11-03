@@ -1,0 +1,817 @@
+{
+ "item": "12767085390",
+ "client": "kiva",
+ "style": {
+  "font": {
+   "css": "\"Inter\"",
+   "w": 600
+  },
+  "size": 52,
+  "y": 1500,
+  "max_lines": 1,
+  "reveal": "phrase",
+  "fg": "#2AA967",
+  "shadow": true
+ },
+ "tracks": [
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:00–00:03"
+   ],
+   "beat": "HOOK",
+   "title": "Hook",
+   "clip": "P1000802.MOV",
+   "start": 513.3,
+   "src": "P1000802.MOV 08:33.3",
+   "dur": 2.4,
+   "words": [
+    {
+     "w": "Honestly,",
+     "t0": 0.15,
+     "t1": 0.636,
+     "e": 0
+    },
+    {
+     "w": "there",
+     "t0": 0.636,
+     "t1": 0.928,
+     "e": 0
+    },
+    {
+     "w": "isn't",
+     "t0": 0.928,
+     "t1": 1.22,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 1.22,
+     "t1": 1.318,
+     "e": 0
+    },
+    {
+     "w": "typical",
+     "t0": 1.318,
+     "t1": 1.707,
+     "e": 0
+    },
+    {
+     "w": "day.",
+     "t0": 1.707,
+     "t1": 1.95,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 0,
+     "t0": 0.1,
+     "t1": 0.586
+    },
+    {
+     "a": 1,
+     "b": 5,
+     "t0": 0.586,
+     "t1": 2.3
+    }
+   ],
+   "text": "Honestly, there isn't a typical day.",
+   "n": 1
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:03–00:15"
+   ],
+   "beat": "CONVERSATIONS",
+   "title": "Conversations",
+   "clip": "P1000802.MOV",
+   "start": 526.49,
+   "src": "P1000802.MOV 08:46.5",
+   "dur": 12.48,
+   "words": [
+    {
+     "w": "It's",
+     "t0": 0.15,
+     "t1": 0.302,
+     "e": 0
+    },
+    {
+     "w": "always",
+     "t0": 0.302,
+     "t1": 0.514,
+     "e": 0
+    },
+    {
+     "w": "conversations.",
+     "t0": 0.514,
+     "t1": 0.97,
+     "e": 0
+    },
+    {
+     "w": "And",
+     "t0": 2.15,
+     "t1": 2.592,
+     "e": 0
+    },
+    {
+     "w": "it's",
+     "t0": 2.592,
+     "t1": 3.145,
+     "e": 0
+    },
+    {
+     "w": "either",
+     "t0": 3.145,
+     "t1": 3.919,
+     "e": 0
+    },
+    {
+     "w": "with",
+     "t0": 3.919,
+     "t1": 4.472,
+     "e": 0
+    },
+    {
+     "w": "people",
+     "t0": 4.472,
+     "t1": 5.246,
+     "e": 0
+    },
+    {
+     "w": "on",
+     "t0": 5.246,
+     "t1": 5.578,
+     "e": 0
+    },
+    {
+     "w": "my",
+     "t0": 5.578,
+     "t1": 5.909,
+     "e": 0
+    },
+    {
+     "w": "team,",
+     "t0": 5.909,
+     "t1": 6.573,
+     "e": 0
+    },
+    {
+     "w": "or",
+     "t0": 7.457,
+     "t1": 7.789,
+     "e": 0
+    },
+    {
+     "w": "with",
+     "t0": 7.789,
+     "t1": 8.342,
+     "e": 0
+    },
+    {
+     "w": "our",
+     "t0": 8.342,
+     "t1": 8.784,
+     "e": 0
+    },
+    {
+     "w": "partners,",
+     "t0": 8.784,
+     "t1": 9.89,
+     "e": 0
+    },
+    {
+     "w": "with",
+     "t0": 11.15,
+     "t1": 11.297,
+     "e": 0
+    },
+    {
+     "w": "borrowers,",
+     "t0": 11.297,
+     "t1": 11.619,
+     "e": 0
+    },
+    {
+     "w": "with",
+     "t0": 11.619,
+     "t1": 11.766,
+     "e": 0
+    },
+    {
+     "w": "lenders.",
+     "t0": 11.766,
+     "t1": 12.03,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 2,
+     "t0": 0.1,
+     "t1": 2.1
+    },
+    {
+     "a": 3,
+     "b": 5,
+     "t0": 2.1,
+     "t1": 3.869
+    },
+    {
+     "a": 6,
+     "b": 10,
+     "t0": 3.869,
+     "t1": 7.407
+    },
+    {
+     "a": 11,
+     "b": 14,
+     "t0": 7.407,
+     "t1": 11.1
+    },
+    {
+     "a": 15,
+     "b": 16,
+     "t0": 11.1,
+     "t1": 11.569
+    },
+    {
+     "a": 17,
+     "b": 18,
+     "t0": 11.569,
+     "t1": 12.38
+    }
+   ],
+   "text": "It's always conversations. And it's either with people on my team, or with our partners, with borrowers, with lenders.",
+   "n": 2
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:15–00:19"
+   ],
+   "beat": "DECISIONS",
+   "title": "Decisions",
+   "clip": "P1000802.MOV",
+   "start": 539.49,
+   "src": "P1000802.MOV 08:59.5",
+   "dur": 4.28,
+   "words": [
+    {
+     "w": "It's",
+     "t0": 0.15,
+     "t1": 0.533,
+     "e": 0
+    },
+    {
+     "w": "having",
+     "t0": 0.533,
+     "t1": 1.07,
+     "e": 0
+    },
+    {
+     "w": "conversations",
+     "t0": 1.07,
+     "t1": 2.143,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 2.143,
+     "t1": 2.45,
+     "e": 0
+    },
+    {
+     "w": "making",
+     "t0": 2.45,
+     "t1": 2.987,
+     "e": 0
+    },
+    {
+     "w": "decisions.",
+     "t0": 2.987,
+     "t1": 3.83,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 2,
+     "t0": 0.1,
+     "t1": 2.093
+    },
+    {
+     "a": 3,
+     "b": 5,
+     "t0": 2.093,
+     "t1": 4.18
+    }
+   ],
+   "text": "It's having conversations and making decisions.",
+   "n": 3
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:19–00:35"
+   ],
+   "beat": "ON THE ROAD",
+   "title": "On The Road",
+   "clip": "P1000802.MOV",
+   "start": 546.76,
+   "src": "P1000802.MOV 09:06.8",
+   "dur": 18.19,
+   "words": [
+    {
+     "w": "Sometimes",
+     "t0": 0.154,
+     "t1": 0.848,
+     "e": 0
+    },
+    {
+     "w": "I'm",
+     "t0": 0.848,
+     "t1": 1.148,
+     "e": 0
+    },
+    {
+     "w": "traveling,",
+     "t0": 1.88,
+     "t1": 2.59,
+     "e": 0
+    },
+    {
+     "w": "sitting",
+     "t0": 3.235,
+     "t1": 3.752,
+     "e": 0
+    },
+    {
+     "w": "with",
+     "t0": 3.752,
+     "t1": 4.075,
+     "e": 0
+    },
+    {
+     "w": "partners,",
+     "t0": 4.075,
+     "t1": 4.72,
+     "e": 0
+    },
+    {
+     "w": "visiting",
+     "t0": 5.88,
+     "t1": 6.332,
+     "e": 0
+    },
+    {
+     "w": "some",
+     "t0": 6.332,
+     "t1": 6.583,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 6.583,
+     "t1": 6.733,
+     "e": 0
+    },
+    {
+     "w": "our",
+     "t0": 6.733,
+     "t1": 6.934,
+     "e": 0
+    },
+    {
+     "w": "countries",
+     "t0": 6.934,
+     "t1": 7.436,
+     "e": 0
+    },
+    {
+     "w": "where",
+     "t0": 7.436,
+     "t1": 7.737,
+     "e": 0
+    },
+    {
+     "w": "we",
+     "t0": 7.737,
+     "t1": 7.887,
+     "e": 0
+    },
+    {
+     "w": "create",
+     "t0": 7.887,
+     "t1": 8.239,
+     "e": 0
+    },
+    {
+     "w": "impact,",
+     "t0": 8.239,
+     "t1": 8.64,
+     "e": 0
+    },
+    {
+     "w": "sometimes",
+     "t0": 9.88,
+     "t1": 10.204,
+     "e": 0
+    },
+    {
+     "w": "just",
+     "t0": 10.204,
+     "t1": 10.366,
+     "e": 0
+    },
+    {
+     "w": "sitting",
+     "t0": 10.366,
+     "t1": 10.625,
+     "e": 0
+    },
+    {
+     "w": "down",
+     "t0": 10.625,
+     "t1": 10.787,
+     "e": 0
+    },
+    {
+     "w": "with",
+     "t0": 10.787,
+     "t1": 10.949,
+     "e": 0
+    },
+    {
+     "w": "lenders,",
+     "t0": 10.949,
+     "t1": 11.24,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 11.88,
+     "t1": 12.168,
+     "e": 0
+    },
+    {
+     "w": "sometimes",
+     "t0": 12.168,
+     "t1": 12.887,
+     "e": 0
+    },
+    {
+     "w": "it",
+     "t0": 12.887,
+     "t1": 13.103,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 13.103,
+     "t1": 13.318,
+     "e": 0
+    },
+    {
+     "w": "sitting",
+     "t0": 13.318,
+     "t1": 13.894,
+     "e": 0
+    },
+    {
+     "w": "down",
+     "t0": 13.894,
+     "t1": 14.253,
+     "e": 0
+    },
+    {
+     "w": "with",
+     "t0": 14.253,
+     "t1": 14.613,
+     "e": 0
+    },
+    {
+     "w": "our",
+     "t0": 14.613,
+     "t1": 14.9,
+     "e": 0
+    },
+    {
+     "w": "team",
+     "t0": 14.9,
+     "t1": 15.26,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 15.88,
+     "t1": 16.12,
+     "e": 0
+    },
+    {
+     "w": "figuring",
+     "t0": 16.12,
+     "t1": 16.66,
+     "e": 0
+    },
+    {
+     "w": "out",
+     "t0": 16.66,
+     "t1": 16.9,
+     "e": 0
+    },
+    {
+     "w": "our",
+     "t0": 16.9,
+     "t1": 17.14,
+     "e": 0
+    },
+    {
+     "w": "strategy.",
+     "t0": 17.14,
+     "t1": 17.74,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 2,
+     "t0": 0.104,
+     "t1": 3.185
+    },
+    {
+     "a": 3,
+     "b": 5,
+     "t0": 3.185,
+     "t1": 5.83
+    },
+    {
+     "a": 6,
+     "b": 10,
+     "t0": 5.83,
+     "t1": 7.386
+    },
+    {
+     "a": 11,
+     "b": 14,
+     "t0": 7.386,
+     "t1": 9.83
+    },
+    {
+     "a": 15,
+     "b": 17,
+     "t0": 9.83,
+     "t1": 10.575
+    },
+    {
+     "a": 18,
+     "b": 20,
+     "t0": 10.575,
+     "t1": 11.83
+    },
+    {
+     "a": 21,
+     "b": 25,
+     "t0": 11.83,
+     "t1": 13.844
+    },
+    {
+     "a": 26,
+     "b": 29,
+     "t0": 13.844,
+     "t1": 15.83
+    },
+    {
+     "a": 30,
+     "b": 34,
+     "t0": 15.83,
+     "t1": 18.09
+    }
+   ],
+   "text": "Sometimes I'm traveling, sitting with partners, visiting some of our countries where we create impact, sometimes just sitting down with lenders, and sometimes it is sitting down with our team and figuring out our strategy.",
+   "n": 4
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:35–00:42"
+   ],
+   "beat": "NO TYPICAL DAY",
+   "title": "No Typical Day",
+   "clip": "P1000802.MOV",
+   "start": 565.49,
+   "src": "P1000802.MOV 09:25.5",
+   "dur": 7.52,
+   "words": [
+    {
+     "w": "So",
+     "t0": 0.15,
+     "t1": 0.326,
+     "e": 0
+    },
+    {
+     "w": "yeah,",
+     "t0": 0.326,
+     "t1": 0.679,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 0.679,
+     "t1": 0.797,
+     "e": 0
+    },
+    {
+     "w": "typical",
+     "t0": 0.797,
+     "t1": 1.267,
+     "e": 0
+    },
+    {
+     "w": "day,",
+     "t0": 1.267,
+     "t1": 1.561,
+     "e": 0
+    },
+    {
+     "w": "there",
+     "t0": 1.561,
+     "t1": 1.913,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 1.913,
+     "t1": 2.09,
+     "e": 0
+    },
+    {
+     "w": "no",
+     "t0": 2.09,
+     "t1": 2.266,
+     "e": 0
+    },
+    {
+     "w": "typical",
+     "t0": 2.266,
+     "t1": 2.736,
+     "e": 0
+    },
+    {
+     "w": "day,",
+     "t0": 2.736,
+     "t1": 3.03,
+     "e": 0
+    },
+    {
+     "w": "but",
+     "t0": 4.15,
+     "t1": 4.384,
+     "e": 0
+    },
+    {
+     "w": "it",
+     "t0": 4.384,
+     "t1": 4.559,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 4.559,
+     "t1": 4.734,
+     "e": 0
+    },
+    {
+     "w": "always",
+     "t0": 4.734,
+     "t1": 5.143,
+     "e": 0
+    },
+    {
+     "w": "full",
+     "t0": 5.143,
+     "t1": 5.435,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 5.435,
+     "t1": 5.61,
+     "e": 0
+    },
+    {
+     "w": "meaningful",
+     "t0": 5.61,
+     "t1": 6.252,
+     "e": 0
+    },
+    {
+     "w": "conversations",
+     "t0": 6.252,
+     "t1": 7.07,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 4,
+     "t0": 0.1,
+     "t1": 1.511
+    },
+    {
+     "a": 5,
+     "b": 9,
+     "t0": 1.511,
+     "t1": 4.1
+    },
+    {
+     "a": 10,
+     "b": 14,
+     "t0": 4.1,
+     "t1": 5.385
+    },
+    {
+     "a": 15,
+     "b": 17,
+     "t0": 5.385,
+     "t1": 7.42
+    }
+   ],
+   "text": "So yeah, a typical day, there is no typical day, but it is always full of meaningful conversations",
+   "n": 5
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:42–00:46"
+   ],
+   "beat": "BUTTON",
+   "title": "Button",
+   "clip": "P1000802.MOV",
+   "start": 573.49,
+   "src": "P1000802.MOV 09:33.5",
+   "dur": 2.7,
+   "words": [
+    {
+     "w": "and",
+     "t0": 0.15,
+     "t1": 0.333,
+     "e": 0
+    },
+    {
+     "w": "sometimes",
+     "t0": 0.333,
+     "t1": 0.789,
+     "e": 0
+    },
+    {
+     "w": "good,",
+     "t0": 0.789,
+     "t1": 1.063,
+     "e": 0
+    },
+    {
+     "w": "sometimes",
+     "t0": 1.063,
+     "t1": 1.52,
+     "e": 0
+    },
+    {
+     "w": "hard",
+     "t0": 1.52,
+     "t1": 1.748,
+     "e": 0
+    },
+    {
+     "w": "decisions.",
+     "t0": 1.748,
+     "t1": 2.25,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 2,
+     "t0": 0.1,
+     "t1": 1.013
+    },
+    {
+     "a": 3,
+     "b": 5,
+     "t0": 1.013,
+     "t1": 2.6
+    }
+   ],
+   "text": "and sometimes good, sometimes hard decisions.",
+   "n": 6
+  }
+ ],
+ "note": "Kiva CEO-series captions: Kiva green #2AA967, Inter, soft shadow, about 25% smaller, low in the lower third, one line at a time, lines broken at natural phrases. Timed from the start and end of each line in the shoot's caption file (Block 1 Kitchen.srt); word times inside a line are spread by length, so check by ear. Where the plan trims “either,”, “you know” or a pause, cut the caption clip at the same place. The page cannot add letter spacing: Brit and Atdhe want more space between letters and words, so if you set captions in Premiere, open the tracking."
+}

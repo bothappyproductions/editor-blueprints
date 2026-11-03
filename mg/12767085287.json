@@ -1,0 +1,142 @@
+{
+ "item": "12767085287",
+ "client": "kiva",
+ "note": "The script asks for seven question cards (Nick's questions, top of frame) and the end card. No name super: Nick's brief has none.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Question 1",
+   "tpl": "highlight_callout",
+   "dur": 1.6,
+   "pos": "top",
+   "text": {
+    "main": "Coffee or tea?"
+   },
+   "cue": "Question card at the top on frame 1: “Coffee or tea?” Already on screen at 0:00, static.",
+   "src": "Script, row 00:00–00:02, Motion graphics & type.",
+   "rows": [
+    "00:00–00:02"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:01.5. Top third."
+  },
+  {
+   "n": 2,
+   "title": "Question 2",
+   "tpl": "highlight_callout",
+   "dur": 1.6,
+   "pos": "top",
+   "text": {
+    "main": "Morning person or night owl?"
+   },
+   "cue": "Question card at the top at 00:02, 1.5 s: “Morning person or night owl?”",
+   "src": "Script, row 00:02–00:06, Motion graphics & type.",
+   "rows": [
+    "00:02–00:06"
+   ],
+   "use": "Put it on at 00:02 as the cut lands, hold 1.5 s, top third. Keep captions on."
+  },
+  {
+   "n": 3,
+   "title": "Question 3",
+   "tpl": "highlight_callout",
+   "dur": 1.6,
+   "pos": "top",
+   "text": {
+    "main": "Favorite spot in Seattle?"
+   },
+   "cue": "Question card at the top at 00:06, 1.5 s: “Favorite spot in Seattle?”",
+   "src": "Script, row 00:06–00:15, Motion graphics & type.",
+   "rows": [
+    "00:06–00:15"
+   ],
+   "use": "Put it on at 00:06 as the cut lands, hold 1.5 s, top third. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "Question 4",
+   "tpl": "highlight_callout",
+   "dur": 1.6,
+   "pos": "top",
+   "text": {
+    "main": "Last book you actually finished?"
+   },
+   "cue": "Question card at the top at 00:15, 1.5 s: “Last book you actually finished?”",
+   "src": "Script, row 00:15–00:21, Motion graphics & type.",
+   "rows": [
+    "00:15–00:21"
+   ],
+   "use": "Put it on at 00:15 as the cut lands, hold 1.5 s, top third. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "Question 5",
+   "tpl": "highlight_callout",
+   "dur": 1.6,
+   "pos": "top",
+   "text": {
+    "main": "One word for your leadership style?"
+   },
+   "cue": "Question card at the top at 00:21, 1.5 s: “One word for your leadership style?”",
+   "src": "Script, row 00:21–00:23, Motion graphics & type.",
+   "rows": [
+    "00:21–00:23"
+   ],
+   "use": "Put it on at 00:21 as the cut lands, hold 1.5 s, top third. Keep captions on."
+  },
+  {
+   "n": 6,
+   "title": "Question 6",
+   "tpl": "highlight_callout",
+   "dur": 1.6,
+   "pos": "top",
+   "text": {
+    "main": "Window or aisle?"
+   },
+   "cue": "Question card at the top at 00:23, 1.5 s: “Window or aisle?”",
+   "src": "Script, row 00:23–00:25, Motion graphics & type.",
+   "rows": [
+    "00:23–00:25"
+   ],
+   "use": "Put it on at 00:23 as the cut lands, hold 1.5 s, top third. Keep captions on."
+  },
+  {
+   "n": 7,
+   "title": "Question 7",
+   "tpl": "highlight_callout",
+   "dur": 1.6,
+   "pos": "top",
+   "text": {
+    "main": "Something you're bad at?"
+   },
+   "cue": "Question card at the top at 00:25, 1.5 s: “Something you're bad at?”",
+   "src": "Script, row 00:25–00:30, Motion graphics & type.",
+   "rows": [
+    "00:25–00:30"
+   ],
+   "use": "Put it on at 00:25 as the cut lands, hold 1.5 s, top third. Keep captions on."
+  },
+  {
+   "n": 8,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:30–00:33"
+   ],
+   "cue": "End card: Kiva logo, then “Give a little. Change a lot.” and kiva.org.",
+   "src": "Kiva's white wordmark from the Kiva brand kit built from kiva.org (Mac Studio, state/kiva/brand/logos, 10 Oct 2026), per endcards/index.json. Colours from index.json.",
+   "c": {
+    "bg": "#223829",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/kiva/kiva-logo-white.svg",
+   "text": {
+    "lines": [
+     "Give a little. Change a lot.",
+     "kiva.org"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it right after his last line and the short hold, and hold it to the end. Same card on the 9:16 and the 16:9 version."
+  }
+ ]
+}

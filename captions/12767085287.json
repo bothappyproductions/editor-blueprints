@@ -1,0 +1,709 @@
+{
+ "item": "12767085287",
+ "client": "kiva",
+ "style": {
+  "font": {
+   "css": "\"Inter\"",
+   "w": 600
+  },
+  "size": 52,
+  "y": 1500,
+  "max_lines": 1,
+  "reveal": "phrase",
+  "fg": "#2AA967",
+  "shadow": true
+ },
+ "tracks": [
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:00–00:02"
+   ],
+   "beat": "HOOK",
+   "title": "Hook",
+   "clip": "P1000803.MOV",
+   "start": 314.42,
+   "src": "P1000803.MOV 05:14.4",
+   "dur": 0.8,
+   "words": [
+    {
+     "w": "Coffee.",
+     "t0": 0.15,
+     "t1": 0.35,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 0,
+     "t0": 0.1,
+     "t1": 0.7
+    }
+   ],
+   "text": "Coffee.",
+   "n": 1
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:02–00:06"
+   ],
+   "beat": "MORNING PERSON",
+   "title": "Morning Person",
+   "clip": "P1000803.MOV",
+   "start": 317.4,
+   "src": "P1000803.MOV 05:17.4",
+   "dur": 4.74,
+   "words": [
+    {
+     "w": "Oh,",
+     "t0": 0.15,
+     "t1": 0.408,
+     "e": 0
+    },
+    {
+     "w": "morning",
+     "t0": 0.408,
+     "t1": 0.925,
+     "e": 0
+    },
+    {
+     "w": "person.",
+     "t0": 0.925,
+     "t1": 1.441,
+     "e": 0
+    },
+    {
+     "w": "I'm",
+     "t0": 1.441,
+     "t1": 1.699,
+     "e": 0
+    },
+    {
+     "w": "up",
+     "t0": 1.699,
+     "t1": 1.893,
+     "e": 0
+    },
+    {
+     "w": "at",
+     "t0": 1.893,
+     "t1": 2.086,
+     "e": 0
+    },
+    {
+     "w": "five",
+     "t0": 2.086,
+     "t1": 2.409,
+     "e": 0
+    },
+    {
+     "w": "o'clock,",
+     "t0": 2.409,
+     "t1": 2.99,
+     "e": 0
+    },
+    {
+     "w": "but",
+     "t0": 3.59,
+     "t1": 3.707,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 3.707,
+     "t1": 3.765,
+     "e": 0
+    },
+    {
+     "w": "sleep",
+     "t0": 3.765,
+     "t1": 3.94,
+     "e": 0
+    },
+    {
+     "w": "very",
+     "t0": 3.94,
+     "t1": 4.086,
+     "e": 0
+    },
+    {
+     "w": "early.",
+     "t0": 4.086,
+     "t1": 4.29,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 2,
+     "t0": 0.1,
+     "t1": 1.391
+    },
+    {
+     "a": 3,
+     "b": 7,
+     "t0": 1.391,
+     "t1": 3.54
+    },
+    {
+     "a": 8,
+     "b": 12,
+     "t0": 3.54,
+     "t1": 4.64
+    }
+   ],
+   "text": "Oh, morning person. I'm up at five o'clock, but I sleep very early.",
+   "n": 2
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:06–00:15"
+   ],
+   "beat": "FAVORITE SPOT",
+   "title": "Favorite Spot",
+   "clip": "P1000803.MOV",
+   "start": 326.56,
+   "src": "P1000803.MOV 05:26.6",
+   "dur": 9.48,
+   "words": [
+    {
+     "w": "You've",
+     "t0": 0.15,
+     "t1": 0.579,
+     "e": 0
+    },
+    {
+     "w": "seen",
+     "t0": 0.579,
+     "t1": 0.885,
+     "e": 0
+    },
+    {
+     "w": "it",
+     "t0": 0.885,
+     "t1": 1.13,
+     "e": 0
+    },
+    {
+     "w": "with",
+     "t0": 1.13,
+     "t1": 1.25,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 1.13,
+     "t1": 1.374,
+     "e": 0
+    },
+    {
+     "w": "bridge",
+     "t0": 1.374,
+     "t1": 1.803,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 1.803,
+     "t1": 2.109,
+     "e": 0
+    },
+    {
+     "w": "we,",
+     "t0": 2.109,
+     "t1": 2.229,
+     "e": 0
+    },
+    {
+     "w": "we",
+     "t0": 2.109,
+     "t1": 2.293,
+     "e": 0
+    },
+    {
+     "w": "just",
+     "t0": 2.293,
+     "t1": 2.599,
+     "e": 0
+    },
+    {
+     "w": "went",
+     "t0": 2.599,
+     "t1": 2.905,
+     "e": 0
+    },
+    {
+     "w": "to.",
+     "t0": 2.905,
+     "t1": 3.15,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 3.47,
+     "t1": 3.574,
+     "e": 0
+    },
+    {
+     "w": "live",
+     "t0": 3.574,
+     "t1": 3.832,
+     "e": 0
+    },
+    {
+     "w": "here",
+     "t0": 3.832,
+     "t1": 4.091,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 4.091,
+     "t1": 4.246,
+     "e": 0
+    },
+    {
+     "w": "Ravenna",
+     "t0": 4.246,
+     "t1": 4.661,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 4.661,
+     "t1": 4.816,
+     "e": 0
+    },
+    {
+     "w": "Seattle",
+     "t0": 4.816,
+     "t1": 5.23,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 5.59,
+     "t1": 5.721,
+     "e": 0
+    },
+    {
+     "w": "there's",
+     "t0": 5.721,
+     "t1": 5.984,
+     "e": 0
+    },
+    {
+     "w": "this",
+     "t0": 5.984,
+     "t1": 6.149,
+     "e": 0
+    },
+    {
+     "w": "beautiful",
+     "t0": 6.149,
+     "t1": 6.477,
+     "e": 0
+    },
+    {
+     "w": "bridge",
+     "t0": 6.477,
+     "t1": 6.707,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 6.707,
+     "t1": 6.871,
+     "e": 0
+    },
+    {
+     "w": "goes",
+     "t0": 6.871,
+     "t1": 7.036,
+     "e": 0
+    },
+    {
+     "w": "over",
+     "t0": 7.036,
+     "t1": 7.2,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 7.2,
+     "t1": 7.32,
+     "e": 0
+    },
+    {
+     "w": "ravine,",
+     "t0": 7.2,
+     "t1": 7.43,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 8.19,
+     "t1": 8.286,
+     "e": 0
+    },
+    {
+     "w": "it's",
+     "t0": 8.286,
+     "t1": 8.406,
+     "e": 0
+    },
+    {
+     "w": "one",
+     "t0": 8.406,
+     "t1": 8.502,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 8.502,
+     "t1": 8.574,
+     "e": 0
+    },
+    {
+     "w": "my",
+     "t0": 8.574,
+     "t1": 8.646,
+     "e": 0
+    },
+    {
+     "w": "favorite",
+     "t0": 8.646,
+     "t1": 8.862,
+     "e": 0
+    },
+    {
+     "w": "spots.",
+     "t0": 8.862,
+     "t1": 9.03,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 3,
+     "t0": 0.1,
+     "t1": 1.08
+    },
+    {
+     "a": 4,
+     "b": 7,
+     "t0": 1.08,
+     "t1": 2.059
+    },
+    {
+     "a": 8,
+     "b": 11,
+     "t0": 2.059,
+     "t1": 3.42
+    },
+    {
+     "a": 12,
+     "b": 18,
+     "t0": 3.42,
+     "t1": 5.54
+    },
+    {
+     "a": 19,
+     "b": 22,
+     "t0": 5.54,
+     "t1": 6.427
+    },
+    {
+     "a": 23,
+     "b": 28,
+     "t0": 6.427,
+     "t1": 8.14
+    },
+    {
+     "a": 29,
+     "b": 35,
+     "t0": 8.14,
+     "t1": 9.38
+    }
+   ],
+   "text": "You've seen it with the bridge that we, we just went to. I live here in Ravenna in Seattle and there's this beautiful bridge that goes over a ravine, and it's one of my favorite spots.",
+   "n": 3
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:15–00:21"
+   ],
+   "beat": "LAST BOOK",
+   "title": "Last Book",
+   "clip": "P1000803.MOV",
+   "start": 344.91,
+   "src": "P1000803.MOV 05:44.9",
+   "dur": 5.14,
+   "words": [
+    {
+     "w": "Last",
+     "t0": 0.15,
+     "t1": 0.38,
+     "e": 0
+    },
+    {
+     "w": "book",
+     "t0": 0.38,
+     "t1": 0.609,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 0.609,
+     "t1": 0.839,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 0.839,
+     "t1": 0.931,
+     "e": 0
+    },
+    {
+     "w": "actually",
+     "t0": 0.931,
+     "t1": 1.344,
+     "e": 0
+    },
+    {
+     "w": "finished.",
+     "t0": 1.344,
+     "t1": 1.803,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 1.803,
+     "t1": 1.895,
+     "e": 0
+    },
+    {
+     "w": "don't",
+     "t0": 1.895,
+     "t1": 2.171,
+     "e": 0
+    },
+    {
+     "w": "remember.",
+     "t0": 2.171,
+     "t1": 2.63,
+     "e": 0
+    },
+    {
+     "w": "I,",
+     "t0": 3.55,
+     "t1": 3.67,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 3.67,
+     "t1": 3.79,
+     "e": 0
+    },
+    {
+     "w": "do",
+     "t0": 3.67,
+     "t1": 3.85,
+     "e": 0
+    },
+    {
+     "w": "not",
+     "t0": 3.85,
+     "t1": 4.09,
+     "e": 0
+    },
+    {
+     "w": "remember.",
+     "t0": 4.09,
+     "t1": 4.69,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 3,
+     "t0": 0.1,
+     "t1": 0.881
+    },
+    {
+     "a": 4,
+     "b": 5,
+     "t0": 0.881,
+     "t1": 1.753
+    },
+    {
+     "a": 6,
+     "b": 8,
+     "t0": 1.753,
+     "t1": 3.5
+    },
+    {
+     "a": 9,
+     "b": 13,
+     "t0": 3.5,
+     "t1": 5.04
+    }
+   ],
+   "text": "Last book that I actually finished. I don't remember. I, I do not remember.",
+   "n": 4
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:21–00:23"
+   ],
+   "beat": "ONE WORD",
+   "title": "One Word",
+   "clip": "P1000803.MOV",
+   "start": 355.79,
+   "src": "P1000803.MOV 05:55.8",
+   "dur": 0.84,
+   "words": [
+    {
+     "w": "Authentic.",
+     "t0": 0.15,
+     "t1": 0.39,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 0,
+     "t0": 0.1,
+     "t1": 0.74
+    }
+   ],
+   "text": "Authentic.",
+   "n": 5
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:23–00:25"
+   ],
+   "beat": "WINDOW OR AISLE",
+   "title": "Window Or Aisle",
+   "clip": "P1000803.MOV",
+   "start": 360.87,
+   "src": "P1000803.MOV 06:00.9",
+   "dur": 0.8,
+   "words": [
+    {
+     "w": "Aisle.",
+     "t0": 0.15,
+     "t1": 0.35,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 0,
+     "t0": 0.1,
+     "t1": 0.7
+    }
+   ],
+   "text": "Aisle.",
+   "n": 6
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:25–00:30"
+   ],
+   "beat": "CLOSER",
+   "title": "Closer",
+   "clip": "P1000803.MOV",
+   "start": 366.68,
+   "src": "P1000803.MOV 06:06.7",
+   "dur": 4.82,
+   "words": [
+    {
+     "w": "Too",
+     "t0": 0.15,
+     "t1": 0.244,
+     "e": 0
+    },
+    {
+     "w": "many",
+     "t0": 0.244,
+     "t1": 0.362,
+     "e": 0
+    },
+    {
+     "w": "things.",
+     "t0": 0.362,
+     "t1": 0.55,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 3.11,
+     "t1": 3.191,
+     "e": 0
+    },
+    {
+     "w": "am",
+     "t0": 3.191,
+     "t1": 3.313,
+     "e": 0
+    },
+    {
+     "w": "bad",
+     "t0": 3.313,
+     "t1": 3.476,
+     "e": 0
+    },
+    {
+     "w": "at",
+     "t0": 3.476,
+     "t1": 3.598,
+     "e": 0
+    },
+    {
+     "w": "impromptu",
+     "t0": 3.598,
+     "t1": 4.004,
+     "e": 0
+    },
+    {
+     "w": "answers.",
+     "t0": 4.004,
+     "t1": 4.37,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 2,
+     "t0": 0.1,
+     "t1": 3.06
+    },
+    {
+     "a": 3,
+     "b": 8,
+     "t0": 3.06,
+     "t1": 4.72
+    }
+   ],
+   "text": "Too many things. I am bad at impromptu answers.",
+   "n": 7
+  }
+ ],
+ "note": "Kiva CEO-series captions: Kiva green #2AA967, Inter, soft shadow, about 25% smaller, low in the lower third, one line at a time, lines broken at natural phrases. Timed from the B cam (P1000912) caption cues moved onto the A cam clock (+2.1 s); word times inside a cue are spread by length, so check by ear. Where the plan trims “We,” or the “Um” pause, cut the caption clip at the same place. The page cannot add letter spacing: Brit and Atdhe want more space between letters and words, so if you set captions in Premiere, open the tracking."
+}

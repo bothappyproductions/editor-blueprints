@@ -1,0 +1,727 @@
+{
+ "item": "12925052298",
+ "client": "kiva",
+ "style": {
+  "font": {
+   "css": "\"Inter\"",
+   "w": 600
+  },
+  "size": 52,
+  "y": 1500,
+  "max_lines": 1,
+  "reveal": "phrase",
+  "fg": "#2AA967",
+  "shadow": true
+ },
+ "tracks": [
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:00–00:04"
+   ],
+   "beat": "HOOK",
+   "title": "Hook",
+   "clip": "P1000798.MOV",
+   "start": 282.43,
+   "src": "P1000798.MOV 04:42.4",
+   "dur": 4.56,
+   "words": [
+    {
+     "w": "Hi,",
+     "t0": 0.15,
+     "t1": 0.435,
+     "e": 0
+    },
+    {
+     "w": "I'm",
+     "t0": 0.435,
+     "t1": 0.72,
+     "e": 0
+    },
+    {
+     "w": "Vishal",
+     "t0": 0.72,
+     "t1": 1.22,
+     "e": 0
+    },
+    {
+     "w": "Ghotge.",
+     "t0": 1.22,
+     "t1": 1.79,
+     "e": 0
+    },
+    {
+     "w": "I'm",
+     "t0": 3.11,
+     "t1": 3.3,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 3.3,
+     "t1": 3.491,
+     "e": 0
+    },
+    {
+     "w": "CEO",
+     "t0": 3.491,
+     "t1": 3.681,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 3.681,
+     "t1": 3.824,
+     "e": 0
+    },
+    {
+     "w": "Kiva.",
+     "t0": 3.824,
+     "t1": 4.11,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 3,
+     "t0": 0.1,
+     "t1": 3.06
+    },
+    {
+     "a": 4,
+     "b": 8,
+     "t0": 3.06,
+     "t1": 4.46
+    }
+   ],
+   "text": "Hi, I'm Vishal Ghotge. I'm the CEO of Kiva.",
+   "n": 1
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:04–00:08"
+   ],
+   "beat": "THANK YOU",
+   "title": "Thank You",
+   "clip": "P1000798.MOV",
+   "start": 286.59,
+   "src": "P1000798.MOV 04:46.6",
+   "dur": 3.74,
+   "words": [
+    {
+     "w": "And",
+     "t0": 0.15,
+     "t1": 0.287,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 0.287,
+     "t1": 0.356,
+     "e": 0
+    },
+    {
+     "w": "want",
+     "t0": 0.356,
+     "t1": 0.527,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 0.527,
+     "t1": 0.63,
+     "e": 0
+    },
+    {
+     "w": "personally",
+     "t0": 0.63,
+     "t1": 1.007,
+     "e": 0
+    },
+    {
+     "w": "thank",
+     "t0": 1.007,
+     "t1": 1.213,
+     "e": 0
+    },
+    {
+     "w": "you",
+     "t0": 1.213,
+     "t1": 1.35,
+     "e": 0
+    },
+    {
+     "w": "for",
+     "t0": 1.63,
+     "t1": 1.781,
+     "e": 0
+    },
+    {
+     "w": "making",
+     "t0": 1.781,
+     "t1": 2.045,
+     "e": 0
+    },
+    {
+     "w": "your",
+     "t0": 2.045,
+     "t1": 2.234,
+     "e": 0
+    },
+    {
+     "w": "first",
+     "t0": 2.234,
+     "t1": 2.46,
+     "e": 0
+    },
+    {
+     "w": "loan",
+     "t0": 2.46,
+     "t1": 2.649,
+     "e": 0
+    },
+    {
+     "w": "with",
+     "t0": 2.649,
+     "t1": 2.837,
+     "e": 0
+    },
+    {
+     "w": "Kiva",
+     "t0": 2.837,
+     "t1": 3.026,
+     "e": 0
+    },
+    {
+     "w": "today.",
+     "t0": 3.026,
+     "t1": 3.29,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 4,
+     "t0": 0.1,
+     "t1": 0.957
+    },
+    {
+     "a": 5,
+     "b": 10,
+     "t0": 0.957,
+     "t1": 2.41
+    },
+    {
+     "a": 11,
+     "b": 14,
+     "t0": 2.41,
+     "t1": 3.64
+    }
+   ],
+   "text": "And I want to personally thank you for making your first loan with Kiva today.",
+   "n": 2
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:08–00:17"
+   ],
+   "beat": "THE NEED",
+   "title": "The Need",
+   "clip": "P1000798.MOV",
+   "start": 291.36,
+   "src": "P1000798.MOV 04:51.4",
+   "dur": 9.32,
+   "words": [
+    {
+     "w": "You",
+     "t0": 0.15,
+     "t1": 0.356,
+     "e": 0
+    },
+    {
+     "w": "know,",
+     "t0": 0.356,
+     "t1": 0.665,
+     "e": 0
+    },
+    {
+     "w": "we",
+     "t0": 0.665,
+     "t1": 0.82,
+     "e": 0
+    },
+    {
+     "w": "see",
+     "t0": 0.82,
+     "t1": 1.026,
+     "e": 0
+    },
+    {
+     "w": "it",
+     "t0": 1.026,
+     "t1": 1.181,
+     "e": 0
+    },
+    {
+     "w": "every",
+     "t0": 1.181,
+     "t1": 1.49,
+     "e": 0
+    },
+    {
+     "w": "day",
+     "t0": 1.49,
+     "t1": 1.696,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 1.696,
+     "t1": 1.953,
+     "e": 0
+    },
+    {
+     "w": "people",
+     "t0": 1.953,
+     "t1": 2.314,
+     "e": 0
+    },
+    {
+     "w": "across",
+     "t0": 2.314,
+     "t1": 2.675,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 2.675,
+     "t1": 2.881,
+     "e": 0
+    },
+    {
+     "w": "world",
+     "t0": 2.881,
+     "t1": 3.19,
+     "e": 0
+    },
+    {
+     "w": "have",
+     "t0": 3.83,
+     "t1": 4.013,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 4.013,
+     "t1": 4.159,
+     "e": 0
+    },
+    {
+     "w": "talent",
+     "t0": 4.159,
+     "t1": 4.415,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 4.415,
+     "t1": 4.561,
+     "e": 0
+    },
+    {
+     "w": "ambition",
+     "t0": 4.561,
+     "t1": 4.89,
+     "e": 0
+    },
+    {
+     "w": "but",
+     "t0": 5.79,
+     "t1": 5.914,
+     "e": 0
+    },
+    {
+     "w": "they",
+     "t0": 5.914,
+     "t1": 6.069,
+     "e": 0
+    },
+    {
+     "w": "don't",
+     "t0": 6.069,
+     "t1": 6.255,
+     "e": 0
+    },
+    {
+     "w": "often",
+     "t0": 6.255,
+     "t1": 6.441,
+     "e": 0
+    },
+    {
+     "w": "have",
+     "t0": 6.441,
+     "t1": 6.596,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 6.596,
+     "t1": 6.72,
+     "e": 0
+    },
+    {
+     "w": "resources",
+     "t0": 6.72,
+     "t1": 7.03,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 7.85,
+     "t1": 7.931,
+     "e": 0
+    },
+    {
+     "w": "build",
+     "t0": 7.931,
+     "t1": 8.092,
+     "e": 0
+    },
+    {
+     "w": "better",
+     "t0": 8.092,
+     "t1": 8.279,
+     "e": 0
+    },
+    {
+     "w": "lives",
+     "t0": 8.279,
+     "t1": 8.441,
+     "e": 0
+    },
+    {
+     "w": "for",
+     "t0": 8.441,
+     "t1": 8.548,
+     "e": 0
+    },
+    {
+     "w": "themselves.",
+     "t0": 8.548,
+     "t1": 8.87,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 6,
+     "t0": 0.1,
+     "t1": 1.646
+    },
+    {
+     "a": 7,
+     "b": 11,
+     "t0": 1.646,
+     "t1": 3.78
+    },
+    {
+     "a": 12,
+     "b": 16,
+     "t0": 3.78,
+     "t1": 5.74
+    },
+    {
+     "a": 17,
+     "b": 20,
+     "t0": 5.74,
+     "t1": 6.391
+    },
+    {
+     "a": 21,
+     "b": 25,
+     "t0": 6.391,
+     "t1": 8.042
+    },
+    {
+     "a": 26,
+     "b": 29,
+     "t0": 8.042,
+     "t1": 9.22
+    }
+   ],
+   "text": "You know, we see it every day that people across the world have the talent and ambition but they don't often have the resources to build better lives for themselves.",
+   "n": 3
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:17–00:23"
+   ],
+   "beat": "WHAT THE LOAN DOES",
+   "title": "What The Loan Does",
+   "clip": "P1000798.MOV",
+   "start": 302.13,
+   "src": "P1000798.MOV 05:02.1",
+   "dur": 5.84,
+   "words": [
+    {
+     "w": "And",
+     "t0": 0.15,
+     "t1": 0.3,
+     "e": 0
+    },
+    {
+     "w": "what",
+     "t0": 0.3,
+     "t1": 0.488,
+     "e": 0
+    },
+    {
+     "w": "you",
+     "t0": 0.488,
+     "t1": 0.638,
+     "e": 0
+    },
+    {
+     "w": "have",
+     "t0": 0.638,
+     "t1": 0.826,
+     "e": 0
+    },
+    {
+     "w": "done",
+     "t0": 0.826,
+     "t1": 1.014,
+     "e": 0
+    },
+    {
+     "w": "through",
+     "t0": 1.014,
+     "t1": 1.314,
+     "e": 0
+    },
+    {
+     "w": "your",
+     "t0": 1.314,
+     "t1": 1.502,
+     "e": 0
+    },
+    {
+     "w": "loan",
+     "t0": 1.502,
+     "t1": 1.69,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 2.63,
+     "t1": 2.773,
+     "e": 0
+    },
+    {
+     "w": "make",
+     "t0": 2.773,
+     "t1": 3.011,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 3.011,
+     "t1": 3.106,
+     "e": 0
+    },
+    {
+     "w": "direct",
+     "t0": 3.106,
+     "t1": 3.439,
+     "e": 0
+    },
+    {
+     "w": "contribution",
+     "t0": 3.439,
+     "t1": 4.058,
+     "e": 0
+    },
+    {
+     "w": "towards",
+     "t0": 4.058,
+     "t1": 4.438,
+     "e": 0
+    },
+    {
+     "w": "making",
+     "t0": 4.438,
+     "t1": 4.771,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 4.771,
+     "t1": 5.009,
+     "e": 0
+    },
+    {
+     "w": "happen.",
+     "t0": 5.009,
+     "t1": 5.39,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 4,
+     "t0": 0.1,
+     "t1": 0.964
+    },
+    {
+     "a": 5,
+     "b": 9,
+     "t0": 0.964,
+     "t1": 2.961
+    },
+    {
+     "a": 10,
+     "b": 12,
+     "t0": 2.961,
+     "t1": 4.008
+    },
+    {
+     "a": 13,
+     "b": 16,
+     "t0": 4.008,
+     "t1": 5.74
+    }
+   ],
+   "text": "And what you have done through your loan is make a direct contribution towards making that happen.",
+   "n": 4
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:23–00:29"
+   ],
+   "beat": "BUTTON",
+   "title": "Button",
+   "clip": "P1000798.MOV",
+   "start": 308.45,
+   "src": "P1000798.MOV 05:08.4",
+   "dur": 5.62,
+   "words": [
+    {
+     "w": "So",
+     "t0": 0.15,
+     "t1": 0.403,
+     "e": 0
+    },
+    {
+     "w": "thank",
+     "t0": 0.403,
+     "t1": 0.909,
+     "e": 0
+    },
+    {
+     "w": "you",
+     "t0": 0.909,
+     "t1": 1.247,
+     "e": 0
+    },
+    {
+     "w": "for",
+     "t0": 1.247,
+     "t1": 1.584,
+     "e": 0
+    },
+    {
+     "w": "being",
+     "t0": 1.584,
+     "t1": 2.09,
+     "e": 0
+    },
+    {
+     "w": "part",
+     "t0": 2.09,
+     "t1": 2.512,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 2.512,
+     "t1": 2.765,
+     "e": 0
+    },
+    {
+     "w": "helping",
+     "t0": 2.765,
+     "t1": 3.44,
+     "e": 0
+    },
+    {
+     "w": "people",
+     "t0": 3.44,
+     "t1": 4.03,
+     "e": 0
+    },
+    {
+     "w": "build",
+     "t0": 4.31,
+     "t1": 4.457,
+     "e": 0
+    },
+    {
+     "w": "better",
+     "t0": 4.457,
+     "t1": 4.629,
+     "e": 0
+    },
+    {
+     "w": "lives",
+     "t0": 4.629,
+     "t1": 4.777,
+     "e": 0
+    },
+    {
+     "w": "for",
+     "t0": 4.777,
+     "t1": 4.875,
+     "e": 0
+    },
+    {
+     "w": "themselves.",
+     "t0": 4.875,
+     "t1": 5.17,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 4,
+     "t0": 0.1,
+     "t1": 2.04
+    },
+    {
+     "a": 5,
+     "b": 9,
+     "t0": 2.04,
+     "t1": 4.407
+    },
+    {
+     "a": 10,
+     "b": 13,
+     "t0": 4.407,
+     "t1": 5.52
+    }
+   ],
+   "text": "So thank you for being part of helping people build better lives for themselves.",
+   "n": 5
+  }
+ ],
+ "note": "Kiva CEO-series captions: Kiva green #2AA967, Inter, soft shadow, about 25% smaller, low in the lower third, one line at a time, lines broken at natural phrases. Timed from the start and end of each line in the shoot's caption file (Block 2 Yard.srt); word times inside a line are spread by length, so check by ear. Where the plan cuts a pause, cut the caption clip at the same place. The page cannot add letter spacing: Brit and Atdhe want more space between letters and words, so if you set captions in Premiere, open the tracking."
+}

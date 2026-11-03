@@ -1,0 +1,479 @@
+{
+ "id": "12925071020",
+ "client": "kiva",
+ "eyebrow": "Kiva · Seattle shoot, Block 2 Yard · 29 Jul 2026 · Email thank-you",
+ "title": "Vishal:",
+ "title_q": "“Thank You for Your First Donation”",
+ "title_short": "Vishal · Thank You: First Donation",
+ "editor": "Bleron",
+ "due": "",
+ "format": "16:9 + 9:16 · 1920×1080 and 1080×1920",
+ "length": "about 30 s plus the end card",
+ "edit_key": "KIVAVishalThankYouPackFIRSTDONATION001",
+ "headline": "Kiva's CEO thanks a first-time donor and says what the donation does: it helps Kiva service loans, find new partners and reach the most vulnerable borrowers.",
+ "story": [
+  "One take, straight to camera. Vishal says who he is, thanks the donor, and explains in plain words why a donation matters when loans go straight to borrowers.",
+  "Kiva drops this into the email a donor gets after a first donation, so it stands alone: no shared intro, no B-roll story, no hook text. It ends on his thank-you line and a short hold.",
+  "<b>What is left to do:</b> the picture and the words are approved. Only the captions change: Kiva's CEO-series caption style, with more space between letters and words (“the most vulnerable” is too tight)."
+ ],
+ "feel": [
+  "Warm",
+  "Personal",
+  "Direct",
+  "Grateful"
+ ],
+ "do": [
+  "Do not re-cut. Picture, words and order are approved. Fix the captions only.",
+  "Captions: Kiva green #2AA967, about 25% smaller, low in the lower third, a little less blur, more space between letters and between words.",
+  "Give “the most vulnerable” clear space between the words.",
+  "Name super after his self-intro, at 00:04: “Vishal Ghotge” / “CEO of Kiva”, small, lower corner.",
+  "End on “So thank you for helping us live our mission.” Hold about 0.6 s, then the end card."
+ ],
+ "dont": [
+  "No hook text, headline or title card. This is an email video.",
+  "No logo, name or fade at 0:00. Frame 1 is his face and his first word.",
+  "Never the transcript's “Kodke”. It is Ghotge.",
+  "No B-roll story and no stats.",
+  "Never “investment” on screen."
+ ],
+ "links": {
+  "brief": {
+   "title": "Editor brief: Kiva Thank You pack (General, First Loan, Top Lender, First Donation)",
+   "url": "https://docs.google.com/document/d/1da241eGAQ2wDjY8MwnIlqgWIYjX3SZWdE1uIJ67EhxE/edit",
+   "note": "The brief for all four Thank You videos. This page is the First Donation video (bite 4, the third and cleanest take)."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Nick owes it. Production Planning row 12459860634 (Kiva CEO Thought Leadership Content) has no reference."
+  },
+  "footage": {
+   "title": "Seattle shoot 2026 ▸ Block 2 Yard",
+   "url": "https://drive.google.com/drive/folders/1Aovcf_VoQkEu8dsD1P3W_9rXn--PcB6x",
+   "note": "A cam P1000798.MOV holds every Thank You take. B cam P1000907.MOV. Sound is the lav WAV 071721_001 in ENHANCED AUDIO."
+  }
+ },
+ "bp_intro": "Picture is <span class=\"mono\">P1000798.MOV</span> (A cam, the third First Donation take, the cleanest). Times are camera times in that clip, from the start and end of each line in the shoot's caption file. Sound is the lav WAV <span class=\"mono\">071721_001</span> (about 0.5 s earlier than the camera): sync on the waveform. The transcript below uses Ghotge for the name and Atdhe's by-ear caption fixes. There is no visual.json and no frame on this page yet: the picture is the same seated shot for the whole video.",
+ "rows": [
+  {
+   "tc": "00:00–00:04",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Vishal on the A cam, <a href=\"https://drive.google.com/file/d/1Ld1pIK9tuxHgRiHpt8E-ciZ56fWPdjAd/view\">P1000798.MOV</a>, seated in the yard in his green Kiva T-shirt, talking straight into the lens. Start on “Hi” (<span class=\"mono\">11:11.1</span>). Frame 1 is his face and his first word. Stay on his face: he is talking to the donor.",
+   "motion": "Nothing on screen but captions. Email video, so the brief keeps frame 1 clean. Captions from frame 1.",
+   "voice": {
+    "who": "Vishal Ghotge",
+    "quote": "Hi, I'm Vishal Ghotge. I'm the CEO of Kiva.",
+    "src": "P1000798.MOV 11:11.1 to 11:14.9"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Keep the approved bed, low under his voice from frame 1 (premiumbeat.com).",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Hi,"
+    }
+   ]
+  },
+  {
+   "tc": "00:04–00:08",
+   "beat": "THANK YOU",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same shot. Cut the pause before “And” to about 0.25 s. Stay on his face for the thank-you.",
+   "motion": "Name super at 00:04 for 3 s, small, lower corner: “Vishal Ghotge” / “CEO of Kiva”. Captions on.",
+   "voice": {
+    "who": "Vishal Ghotge",
+    "quote": "And I want to personally thank you for your donation to Kiva today.",
+    "src": "P1000798.MOV 11:15.6 to 11:20.0"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady, low.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "And"
+    }
+   ]
+  },
+  {
+   "tc": "00:08–00:18",
+   "beat": "WHAT A DONATION DOES",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same shot. He explains the idea in plain words: stay on his face (the brief keeps him on camera). If you trim a breath, hide it with the B cam <a href=\"https://drive.google.com/file/d/1XE5YD_mBhxchVqUD99daEV8GbXfh-JPe/view\">P1000907.MOV</a> (same moment about 4.6 s later on that clip).",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Vishal Ghotge",
+    "quote": "You know, loans on Kiva go directly to our borrowers, helping them build better lives. And donations like the one you made actually help us service those loans.",
+    "src": "P1000798.MOV 11:20.1 to 11:30.1"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady, low.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "You"
+    }
+   ]
+  },
+  {
+   "tc": "00:18–00:27",
+   "beat": "WHAT IT BUILDS",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same shot, his face. Atdhe's caption fixes for this line: “It helps us”, “needed, it helps us find new partners, and make sure”.",
+   "motion": "Captions only. Give “the most vulnerable” clear space between the words: Atdhe found it too tight.",
+   "voice": {
+    "who": "Vishal Ghotge",
+    "quote": "It helps us build the infrastructure needed, it helps us find new partners, and make sure that we are reaching the most vulnerable borrowers.",
+    "src": "P1000798.MOV 11:30.1 to 11:39.3"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady, low.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "It"
+    }
+   ]
+  },
+  {
+   "tc": "00:27–00:30",
+   "beat": "BUTTON",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same shot. End on “mission.” and hold his face about 0.6 s (to about <span class=\"mono\">11:42.6</span>). Cut before “and thanks for your contribution” (<span class=\"mono\">11:42.8</span>).",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Vishal Ghotge",
+    "quote": "So thank you for helping us live our mission.",
+    "src": "P1000798.MOV 11:39.4 to 11:42.0"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed starts to resolve on “mission”.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "So"
+    }
+   ]
+  },
+  {
+   "tc": "00:30–00:33",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "End card on Kiva dark forest green <span class=\"mono\">#223829</span>: the Kiva logo, then <q>Give a little. Change a lot.</q> and <b>kiva.org</b>. The logo is here only (the corner K is the one exception, see decisions).",
+   "motion": "End card: Kiva logo, then “Give a little. Change a lot.” and kiva.org. Nothing else.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed resolves. 1 s fade.",
+   "shots": []
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Editing brief",
+   "<a href=\"https://docs.google.com/document/d/1da241eGAQ2wDjY8MwnIlqgWIYjX3SZWdE1uIJ67EhxE/edit\">pulse.12767095361</a> · the Thank You pack brief (all four videos). This page is the First Donation (bite 4) video."
+  ],
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/1uBSu18mph40QBWsCePjErgIL8tuv36KgW1VDVkk7qNg/edit\">CEO Video Content Filming Day</a> · Kiva's plan and prompts for the 29 Jul shoot (Block 2: Thank you's)"
+  ],
+  [
+   "Reference",
+   "Not chosen yet. Nick owes it."
+  ],
+  [
+   "Current cut",
+   "<a href=\"https://f.io/qKIJjRUp\">Frame.io review link</a> · <a href=\"https://drive.google.com/file/d/15SqTH4rHu2sgl1QvfMv9vzQrMPeHGttw/view?usp=drivesdk\">current version on Drive</a> (V4). Picture and words are approved: only the captions change."
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/1akpgM9K7BrCY3cVjMzJYvPOJMc98EjGv\">Seattle shoot 2026</a> › <a href=\"https://drive.google.com/drive/folders/1Aovcf_VoQkEu8dsD1P3W_9rXn--PcB6x\">Block 2 Yard</a>"
+  ],
+  [
+   "Clip",
+   "<a href=\"https://drive.google.com/file/d/1Ld1pIK9tuxHgRiHpt8E-ciZ56fWPdjAd/view\">P1000798.MOV</a> · A cam · the take at 11:11 to 11:43 · B cam <a href=\"https://drive.google.com/file/d/1XE5YD_mBhxchVqUD99daEV8GbXfh-JPe/view\">P1000907.MOV</a>"
+  ],
+  [
+   "Lav sound",
+   "<a href=\"https://drive.google.com/file/d/1l5dljHoby2WccoC63KtQpyfPJ5UVDhf8/view\">071721_001_Tr1-esv2-50p-bg-10p-music-10p.wav</a> · ENHANCED AUDIO · pairs with P1000798"
+  ],
+  [
+   "Caption file",
+   "<a href=\"https://drive.google.com/file/d/1XWyuBfjn6qKIf-5CWMwDAQ1pTVas8QD7/view\">Block 2 Yard.srt</a> · one timeline of the whole block; P1000798 starts at 0:00, so its times are clip times"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/11KUYjQO3JTMo62PygUde1EyEiQV-4NI650g5x49IdNA/edit\">Transcripts - Seattle shoot 2026</a> · one section per clip. It spells his name “Kodke”. That is wrong: Ghotge."
+  ],
+  [
+   "visual.json",
+   "None for this shoot. Framing notes come from each clip's poster frame and the shoot notes: check on scrub."
+  ],
+  [
+   "Brand graphics package",
+   "<a href=\"https://drive.google.com/drive/folders/1k9waXGmkaznC2dwdi9s7eixWhOQv_fWG\">Kiva graphics package</a> · lower third bar (<a href=\"https://drive.google.com/file/d/1FZBm2AaY5mb_ABUaf6I503o_6F8mAmMv/view\">Kiva_05</a>), title plate (<a href=\"https://drive.google.com/file/d/1KmZf7A7vXdykyfLy7rUpjEQLaR8c-LTF/view\">Kiva_06</a>), focus brackets, wipes, textures. Empty plates: type the words on top in Inter (Kiva's Post Grotesk if you have it)."
+  ],
+  [
+   "Brand",
+   "Kiva dark forest green <span class=\"mono\">#223829</span>, Kiva green <span class=\"mono\">#2AA967</span> (CEO captions), action green <span class=\"mono\">#276A43</span>, light mint <span class=\"mono\">#EDF4F1</span>. Font: Post Grotesk (Inter on this page). The yellow kiva.org on end cards is accepted."
+  ],
+  [
+   "Logo",
+   "Branding and Font columns on Monday are empty. Corner logo: Kiva's new green K (Kathryn's files KivaSquare.jpg, Group 5671.png, Group 5671.svg, shared in Slack; ask Nick if you cannot open them). End card logo on this page: Kiva's white wordmark (endcards/kiva)."
+  ],
+  [
+   "Music",
+   "premiumbeat.com royalty-free only. Warm and hopeful. Check copyright on anything over 1 minute."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "3840×2160 (UHD) camera files from Block 2 Yard. Check the frame rate on import. Camera sound is a guide only."
+  ],
+  [
+   "Timeline",
+   "1920×1080 and 1080×1920, at the frame rate of the approved cut. Do not change it now."
+  ],
+  [
+   "Crop",
+   "16:9: UHD scales down to 1920×1080. 9:16: the crop is 1215×2160, scaled down, never up. His face sits a little left of center (about 45% from the left on the poster frame): check the crop on scrub."
+  ],
+  [
+   "Audio",
+   "Lav WAV <a href=\"https://drive.google.com/file/d/1l5dljHoby2WccoC63KtQpyfPJ5UVDhf8/view\">071721_001_Tr1-esv2-50p-bg-10p-music-10p.wav</a> (ENHANCED AUDIO). The same word is about 0.5 s earlier in the WAV than in P1000798.MOV. Sync on the waveform."
+  ],
+  [
+   "B cam",
+   "<a href=\"https://drive.google.com/file/d/1XE5YD_mBhxchVqUD99daEV8GbXfh-JPe/view\">P1000907.MOV</a> (side angle, Block 2 Yard B CAM). The same moment is about 4.6 s later on its clock. Use it only to hide a trim."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. Music low under his voice."
+  ],
+  [
+   "Captions",
+   "Kiva's CEO-series style: about 25% smaller than the first round, inside the lower third, Kiva green <span class=\"mono\">#2AA967</span>, a little less blur behind the letters, a soft shadow, and more space between letters and between words (Brit's kerning note, and Atdhe: the captions still look tight). Lines break at natural phrases. Not <span class=\"mono\">#EDF4F1</span> on <span class=\"mono\">#223829</span>. The caption clips on this page are Inter, Kiva green, soft shadow, one line at a time. The page cannot add letter spacing: if you set the captions in Premiere, open the tracking until the letters breathe."
+  ],
+  [
+   "Export",
+   "Two files: H.264 MP4 1920×1080 (16:9) and 1080×1920 (9:16). Same cut, same captions, re-framed."
+  ]
+ ],
+ "checklist": [
+  "Frame 1 is Vishal's face and his first word. No logo, name or fade at 0:00.",
+  "Captions read “Hi, I'm Vishal Ghotge.” with “I'm” and a period after his name.",
+  "Captions match his words: “for your donation”, “It helps us”, “needed, it helps us find new partners, and make sure”.",
+  "“the most vulnerable” has clear space between the words.",
+  "Captions are Kiva green #2AA967, about 25% smaller, inside the lower third, a little less blur, more space between letters and words.",
+  "Name super “Vishal Ghotge” / “CEO of Kiva” comes after his self-intro, at 00:04, not before.",
+  "The top-corner logo is Kiva's new green K, never on frame 1.",
+  "End card reads exactly “Give a little. Change a lot.” plus kiva.org.",
+  "Both files exported: 16:9 and 9:16, same cut, same captions.",
+  "The word “investment” is nowhere on screen."
+ ],
+ "decisions": [
+  {
+   "t": "Top-corner logo",
+   "b": "Kiva's own rule and Atdhe's Frame.io note on this cut keep Kiva's new green K logo in a top corner. The general blueprint rule says no logo before the end card. This plan keeps the K (never on frame 1). Atdhe confirms."
+  },
+  {
+   "t": "No hook text",
+   "b": "The general rule wants hook text on frame 1. The Thank You brief says these email videos have none, and this plan follows the brief. Atdhe confirms."
+  },
+  {
+   "t": "New green K logo file",
+   "b": "The end card folder only has Kiva's white wordmark, so the end card on this page uses it. Nick adds the new green K files to endcards/kiva if the end card should carry the K."
+  },
+  {
+   "t": "No deadline on Monday",
+   "b": "The Deadline column is empty. Nick sets it."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> Kiva sends this to first-time donors. Brit checks names and captions first, so the captions must be right on this version.",
+ "ask_examples": [
+  "Do I re-cut anything?",
+  "What caption style does Kiva want?",
+  "Where does the name super go?",
+  "Which sound file goes with P1000798?"
+ ],
+ "transcript": "--- P1000798.MOV ---\n[00:00.7] Okay, we are fully rolling. [do not use: crew talk]\n[00:03.0] All right, we are rolling. [do not use: crew talk]\n[00:03.9] So first thing Vishal, can you just introduce yourself [do not use: crew talk]\n[00:07.0] and tell us your job title with Kiva? [do not use: crew talk]\n[00:09.4] Hi, I am Vishal Ghotge.\n[00:11.5] I'm the CEO of Kiva.\n[00:13.3] Perfect, and you wanna do that one more time? [do not use: crew talk]\n[00:14.8] Like word it a little different? [do not use: crew talk]\n[00:15.9] And I'd say just keep looking in here. [do not use: crew talk]\n[00:18.2] Try not to look up either of us at the end. [do not use: crew talk]\n[00:20.7] So I'll say multiple different versions of it [do not use: crew talk]\n[00:23.6] with pauses in the middle. [do not use: crew talk]\n[00:24.7] Perfect, yeah, that sounds great. [do not use: crew talk]\n[00:27.1] Hi, I am Vishal Ghotge.\n[00:30.2] Hi, I am Vishal Ghotge.\n[00:32.1] I am the CEO of Kiva.\n[00:34.7] Hello, I am Vishal.\n[00:37.4] I lead Kiva.\n[00:40.1] Hi, I am Vishal Ghotge.\n[00:42.2] I am the CEO of Kiva.\n[00:44.6] Awesome, all right, let's get into it. [do not use: crew talk]\n[00:46.2] So the first thank you prompt we have here for you [do not use: crew talk]\n[00:48.8] is share a sincere, heartfelt thank you for supporting Kiva. [do not use: crew talk]\n[00:53.9] And it doesn't have to be specific to lending [do not use: crew talk]\n[00:56.6] or donating or partners or ambassadors, [do not use: crew talk]\n[00:58.8] it's kind of like a general thank you. [do not use: crew talk]\n[01:00.7] Yeah, okay, let me see what I have. [do not use: crew talk]\n[01:07.6] And you wanna, we'll do some short, some long, right? [do not use: crew talk]\n[01:10.6] Yup, you got it. [do not use: crew talk]\n[01:21.0] Hi, I'm Vishal Ghotge.\n[01:22.6] I'm the CEO of Kiva.\n[01:24.3] And I wanna personally thank you for being part of Kiva.\n[01:28.3] You know, we see all around the world\n[01:30.6] that people have the talent and ambition\n[01:34.0] but sometimes don't have access to capital.\n[01:37.0] And with Kiva, we are trying to make that, [do not use: general take 1 stops here]\n[01:40.7] we're trying to make that, [do not use: general take 1 stops here]\n[01:43.2] let's start over again. [do not use: general take 1 stops here]\n[01:44.2] It's all good, yeah, take two. [do not use: general take 1 stops here]\n[01:46.6] Hi, I'm Vishal Ghotge.\n[01:48.2] I'm the CEO of Kiva.\n[01:49.9] And I wanna thank you personally for being part of Kiva.\n[01:55.0] We see all around the world\n[01:56.5] that people have the talent and ambition\n[01:59.2] but they don't have access to opportunity every time.\n[02:02.6] And what you have done through your contribution to Kiva\n[02:05.4] is help make that opportunity available\n[02:08.3] to people around the world.\n[02:09.9] And I genuinely thank you for being part of our mission.\n[02:13.5] Thank you.\n[02:15.0] That sounded awesome. [do not use: crew talk]\n[02:16.1] I thought that was great, yeah. [do not use: crew talk]\n[02:17.7] Let's try again. [do not use: crew talk]\n[02:18.5] I think I said thank yous quite a few times. [do not use: crew talk]\n[02:20.8] Awesome, yeah, let's do it one more time. [do not use: crew talk]\n[02:33.4] I'm Vishal Ghotge.\n[02:34.9] I'm the CEO of Kiva.\n[02:36.8] And I wanna personally thank you for being part of Kiva.\n[02:40.7] You know, we see every day\n[02:43.2] that there are people around the world\n[02:44.9] who have the talent and ambition\n[02:47.0] but often they don't have the resources\n[02:49.1] to build better lives for themselves.\n[02:51.2] And what you have done through your contribution\n[02:54.0] is help make that happen.\n[02:56.0] So thank you for being part of our mission.\n[03:00.8] I love it, that was awesome. [do not use: crew talk]\n[03:02.9] All right, so the next thank you that we have here [do not use: crew talk]\n[03:06.2] is to share a thank you for a lender [do not use: crew talk]\n[03:08.3] who's making their first loan on Kiva. [do not use: crew talk]\n[03:20.3] Hi, I'm Vishal Ghotge.\n[03:22.6] I am the CEO of Kiva.\n[03:24.6] And I want to personally thank you\n[03:26.6] for making your first loan on Kiva.\n[03:29.8] You know, we see this every day\n[03:32.2] that people across the world have the talent and ambition\n[03:35.9] but they don't often have the resources\n[03:37.8] to build better lives for themselves.\n[03:40.1] And what you have done through your first loan\n[03:42.3] is help make that happen.\n[03:44.9] It might be a, okay, we'll start with that again. [do not use: crew talk]\n[03:47.8] Got you. Was it okay? [do not use: crew talk]\n[03:49.0] It sounded really great up until that point. [do not use: crew talk]\n[03:50.9] Yeah, sorry, I get too conscious. [do not use: crew talk]\n[03:52.9] Hey, no worries, no worries, you're doing awesome so far. [do not use: crew talk]\n[04:01.6] Hi, I'm Vishal Ghotge.\n[04:03.9] I'm the CEO of Kiva.\n[04:06.1] And I want to personally thank you\n[04:07.8] for making your first loan today.\n[04:10.9] You know, we see it every day that people across the world\n[04:14.8] have the talent and ambition\n[04:16.5] but they often don't have the resources\n[04:18.7] to build a better life for themselves.\n[04:21.3] And what you have done through your first loan\n[04:24.1] is make that opportunity happen.\n[04:27.5] Thank you.\n[04:29.5] That sounded great. [do not use: crew talk]\n[04:30.5] Okay, let's do one more. [do not use: crew talk]\n[04:31.4] All right, let's do it. [do not use: crew talk]\n[04:42.6] Hi, I'm Vishal Ghotge.\n[04:45.5] I'm the CEO of Kiva.\n[04:46.7] And I want to personally thank you\n[04:48.2] for making your first loan with Kiva today.\n[04:51.5] You know, we see it every day that people across the world\n[04:55.2] have the talent and ambition\n[04:57.1] but they don't often have the resources\n[04:59.2] to build better lives for themselves.\n[05:02.3] And what you have done through your loan\n[05:04.8] is make a direct contribution towards making that happen.\n[05:08.6] So thank you for being part of helping people\n[05:12.8] build better lives for themselves.\n[08:43.1] So the next one we got here [do not use: crew talk]\n[08:44.7] is share a thank you to a donor [do not use: crew talk]\n[08:47.1] making their very first donation on Kiva. [do not use: crew talk]\n[08:50.0] Okay, let me see that. [do not use: crew talk]\n[09:01.5] Is it a first time donor? [do not use: crew talk]\n[09:02.8] Yeah, first time donor. [do not use: crew talk]\n[09:04.0] Yeah. [do not use: crew talk]\n[09:05.8] Hi, I'm Vishal Ghotge. [do not use: first donation take 1 stops after this line]\n[09:08.3] I am the CEO of Kiva. [do not use: first donation take 1 stops after this line]\n[09:10.6] And I want to personally thank you for your donations. [do not use: first donation take 1 stops after this line]\n[09:14.2] Let's do that again. [do not use: crew talk]\n[09:15.1] Donation, first, say thank you for your donation. [do not use: crew talk]\n[09:18.8] Hi, I'm Vishal Ghotge.\n[09:21.6] I'm the CEO of Kiva.\n[09:23.8] And I want to personally thank you for your donation.\n[09:27.0] You know, loans that are made on Kiva\n[09:30.0] go directly to our borrowers.\n[09:34.0] But the donations that you're making\n[09:36.5] is actually how we can make those loans happen.\n[09:39.4] It allows Kiva to function.\n[09:41.2] It allows us to reach more, harder to reach borrowers.\n[09:46.1] And figure out how we can make loans.\n[09:51.8] Hey, all good. [do not use: crew talk]\n[09:52.6] Sounded good up until that point, too. [do not use: crew talk]\n[09:54.4] I know, I know. [do not use: crew talk]\n[09:55.3] Okay, okay. [do not use: crew talk]\n[10:04.5] Hi, I'm Vishal Ghotge.\n[10:06.9] I'm the CEO of Kiva.\n[10:08.7] And I want to personally thank you\n[10:10.3] for your donation to Kiva.\n[10:12.5] You know, loans on Kiva directly help our borrowers.\n[10:17.0] And the donations like the one that you made\n[10:19.6] actually help us build the infrastructure\n[10:22.0] that's needed to make those loans happen.\n[10:24.9] It allows us to reach new borrowers,\n[10:27.3] find new partners, and make sure that those loans\n[10:30.8] are actually making the difference in people's lives.\n[10:34.1] So thank you for supporting Kiva\n[10:36.6] and helping us in our mission.\n[10:40.1] That sounded awesome. [do not use: crew talk]\n[10:41.4] One thing I'm gonna do super quick [do not use: crew talk]\n[10:43.4] that'll maybe make this easier for both of us, [do not use: crew talk]\n[10:45.4] I'm gonna grab this chair here so I'm eye level with you. [do not use: crew talk]\n[10:49.4] Oh yeah, so I'm not looking up. [do not use: crew talk]\n[10:50.9] Am I looking up at all? [do not use: crew talk]\n[10:52.0] No, you're not. [do not use: crew talk]\n[10:52.8] I don't think so. [do not use: crew talk]\n[10:53.7] Honestly, my knees were just kind of hurting. [do not use: crew talk]\n[10:55.4] That's why I grabbed it. [do not use: crew talk]\n[10:56.4] You should get a chair, too. [do not use: crew talk]\n[10:57.5] We don't even know the chairs, right? [do not use: crew talk]\n[10:59.5] You want me to grab you a chair? [do not use: crew talk]\n[11:00.5] No, I'm okay. [do not use: crew talk]\n[11:01.5] All right, cool. [do not use: crew talk]\n[11:02.4] Can we do that again? [do not use: crew talk]\n[11:03.8] Yeah, we could do that one more time. [do not use: crew talk]\n[11:05.1] That sounded really good, though, [do not use: crew talk]\n[11:06.2] but always good to have an extra take, for sure. [do not use: crew talk]\n[11:08.7] Yeah, let's do it. [do not use: crew talk]\n[11:11.1] Hi, I'm Vishal Ghotge.\n[11:13.9] I'm the CEO of Kiva.\n[11:15.6] And I want to personally thank you\n[11:17.1] for your donation to Kiva today.\n[11:20.1] You know, loans on Kiva go directly to our borrowers,\n[11:23.4] helping them build better lives.\n[11:25.6] And donations like the one you made\n[11:27.6] actually help us service those loans.\n[11:30.1] It helps us build the infrastructure needed.\n[11:32.5] It helps us find new partners\n[11:34.7] and make sure that we are reaching\n[11:37.0] the most vulnerable borrowers.\n[11:39.4] So thank you for helping us live our mission\n[11:42.8] and thanks for your contribution.\n[11:45.5] Awesome, looks really nice, too. [do not use: crew talk]\n[11:47.4] Some of the light's starting to come through a little bit, [do not use: crew talk]\n[11:49.5] but I can't see it on his face. [do not use: crew talk]\n[11:51.2] I can see it a little bit. [do not use: crew talk]",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "Hi, I'm Vishal Ghotge.",
+    "who": "Vishal Ghotge",
+    "file": "P1000798.MOV",
+    "why": "The same intro, any clean take."
+   },
+   {
+    "quote": "I'm the CEO of Kiva.",
+    "who": "Vishal Ghotge",
+    "file": "P1000798.MOV",
+    "why": "His title on its own."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "for your donation to Kiva.",
+    "who": "Vishal Ghotge",
+    "file": "P1000798.MOV",
+    "why": "Take 2 of the same thank-you line, without “today”."
+   },
+   {
+    "quote": "And I want to personally thank you for your donation.",
+    "who": "Vishal Ghotge",
+    "file": "P1000798.MOV",
+    "why": "Take 1 of the thank-you, shorter."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "You know, loans on Kiva directly help our borrowers.",
+    "who": "Vishal Ghotge",
+    "file": "P1000798.MOV",
+    "why": "Take 2: the same idea, shorter."
+   },
+   {
+    "quote": "actually help us build the infrastructure",
+    "who": "Vishal Ghotge",
+    "file": "P1000798.MOV",
+    "why": "Take 2: what a donation builds."
+   },
+   {
+    "quote": "is actually how we can make those loans happen.",
+    "who": "Vishal Ghotge",
+    "file": "P1000798.MOV",
+    "why": "Take 1: donations make the loans happen."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "find new partners, and make sure that those loans",
+    "who": "Vishal Ghotge",
+    "file": "P1000798.MOV",
+    "why": "Take 2: partners and loans that make a difference."
+   },
+   {
+    "quote": "are actually making the difference in people's lives.",
+    "who": "Vishal Ghotge",
+    "file": "P1000798.MOV",
+    "why": "Take 2: the difference in people's lives."
+   },
+   {
+    "quote": "It allows us to reach new borrowers,",
+    "who": "Vishal Ghotge",
+    "file": "P1000798.MOV",
+    "why": "Take 2: reaching new borrowers."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "So thank you for supporting Kiva",
+    "who": "Vishal Ghotge",
+    "file": "P1000798.MOV",
+    "why": "Take 2 button."
+   },
+   {
+    "quote": "and helping us in our mission.",
+    "who": "Vishal Ghotge",
+    "file": "P1000798.MOV",
+    "why": "Take 2 button, second half."
+   },
+   {
+    "quote": "and thanks for your contribution.",
+    "who": "Vishal Ghotge",
+    "file": "P1000798.MOV",
+    "why": "The tag right after the take 3 button."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "Thank you",
+    "line": "So thank you for helping us live our mission",
+    "why": "Only if Kiva ever wants a hook: the thank-you itself."
+   },
+   {
+    "text": "Your donation helps",
+    "line": "actually help us service those loans.",
+    "why": "What the donation does, in his words."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "Email video: the brief keeps him on camera with no B-roll story and no hook text. One name super, captions and the end card. Every row stays on his face because he is thanking the viewer directly.",
+  "devices": [
+   {
+    "row": "00:04–00:08",
+    "device": "Name super",
+    "asset": "Vishal Ghotge / CEO of Kiva",
+    "source": "MG library of this page (Kiva lower third bar Kiva_05 in the graphics package as an alternative)"
+   },
+   {
+    "row": "00:30–00:33",
+    "device": "End card",
+    "asset": "Kiva white wordmark on #223829, Give a little. Change a lot., kiva.org",
+    "source": "endcards/kiva"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "P1000907.MOV",
+    "path": "Block 2 Yard/B CAM/P1000907.MOV",
+    "drive": "1XE5YD_mBhxchVqUD99daEV8GbXfh-JPe",
+    "at": 700.0,
+    "dur": 3.0,
+    "cx": 0.6,
+    "what": "B cam side angle of the same take, only to hide a trim",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "Kiva lower third bar",
+    "kind": "lower_third",
+    "file": "Kiva_05_Lower-third-bar_9x16_ProRes4444.mov",
+    "url": "https://drive.google.com/file/d/1FZBm2AaY5mb_ABUaf6I503o_6F8mAmMv/view",
+    "local": "deliverables/graphics-packages/Kiva/Kiva_05_Lower-third-bar_9x16_ProRes4444.mov",
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   },
+   {
+    "name": "Kiva end card (white wordmark on dark forest green)",
+    "kind": "end_card",
+    "file": "endcards/kiva/kiva-logo-white.svg",
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920 and 1920x1080",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
+}

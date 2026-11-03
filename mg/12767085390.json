@@ -1,0 +1,46 @@
+{
+ "item": "12767085390",
+ "client": "kiva",
+ "note": "The script asks for the hook text and the end card. Kiva approved this cut, so nothing else is added; every other row is captions only.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "What does a normal day actually look like?"
+   },
+   "cue": "Hook text on frame 1, top third: “What does a normal day actually look like?” Already on screen at 0:00. It does not animate on.",
+   "src": "Script, row 00:00–00:03, Motion graphics & type.",
+   "rows": [
+    "00:00–00:03"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third. Only if the approved cut has room for it: see decisions."
+  },
+  {
+   "n": 2,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:46–00:49"
+   ],
+   "cue": "End card: Kiva logo, then “Give a little. Change a lot.” and kiva.org.",
+   "src": "Kiva's white wordmark from the Kiva brand kit built from kiva.org (Mac Studio, state/kiva/brand/logos, 10 Oct 2026), per endcards/index.json. Colours from index.json.",
+   "c": {
+    "bg": "#223829",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/kiva/kiva-logo-white.svg",
+   "text": {
+    "lines": [
+     "Give a little. Change a lot.",
+     "kiva.org"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it after the short hold on “decisions.” and hold it to the end. Same card on the 9:16 and the 16:9 version."
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "item": "12925052298",
+ "client": "kiva",
+ "note": "The script asks for one name super and the end card. Email video: no hook text (brief). Every other row is captions only.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Vishal Ghotge"
+   },
+   "cue": "Name super at 00:04 for 3 s, small, lower corner: “Vishal Ghotge” / “CEO of Kiva”",
+   "src": "Script, row 00:04–00:08, Motion graphics & type.",
+   "rows": [
+    "00:04–00:08"
+   ],
+   "use": "Put it on at 00:04 for 3 s, after he says who he is. Move it to a lower corner, above the captions. Type the second line CEO of Kiva under the name."
+  },
+  {
+   "n": 2,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:29–00:32"
+   ],
+   "cue": "End card: Kiva logo, then “Give a little. Change a lot.” and kiva.org.",
+   "src": "Kiva's white wordmark from the Kiva brand kit built from kiva.org (Mac Studio, state/kiva/brand/logos, 10 Oct 2026), per endcards/index.json. Colours from index.json.",
+   "c": {
+    "bg": "#223829",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/kiva/kiva-logo-white.svg",
+   "text": {
+    "lines": [
+     "Give a little. Change a lot.",
+     "kiva.org"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it right after the hold on his last line and hold it to the end. Same card on the 16:9 and the 9:16 version."
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "item": "12767044920",
+ "client": "kiva",
+ "note": "The script asks for six label cards between sections and the end card. No label before the first section: the pack opens on the first intro take. The $25 section card reads “CTA — LEND” because graphics never carry a $ sign.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Label Cta First Loan",
+   "tpl": "statement_card",
+   "dur": 2,
+   "upper": true,
+   "text": {
+    "main": "CTA — FIRST LOAN"
+   },
+   "cue": "Text card, full frame, 2 s: “CTA — FIRST LOAN”",
+   "src": "Script, row 00:17–00:19, Motion graphics & type.",
+   "rows": [
+    "00:17–00:19"
+   ],
+   "use": "Full frame between sections, 2 s. Plain label, no logo. It sits between the takes, never over them."
+  },
+  {
+   "n": 2,
+   "title": "Label Cta Lend",
+   "tpl": "statement_card",
+   "dur": 2,
+   "upper": true,
+   "text": {
+    "main": "CTA — LEND"
+   },
+   "cue": "Text card, full frame, 2 s: “CTA — LEND”",
+   "src": "Script, row 00:29–00:31, Motion graphics & type.",
+   "rows": [
+    "00:29–00:31"
+   ],
+   "use": "Full frame between sections, 2 s. Plain label, no logo. It sits between the takes, never over them."
+  },
+  {
+   "n": 3,
+   "title": "Label Learn More",
+   "tpl": "statement_card",
+   "dur": 2,
+   "upper": true,
+   "text": {
+    "main": "LEARN MORE"
+   },
+   "cue": "Text card, full frame, 2 s: “LEARN MORE”",
+   "src": "Script, row 00:40–00:42, Motion graphics & type.",
+   "rows": [
+    "00:40–00:42"
+   ],
+   "use": "Full frame between sections, 2 s. Plain label, no logo. It sits between the takes, never over them."
+  },
+  {
+   "n": 4,
+   "title": "Label Thank Yous",
+   "tpl": "statement_card",
+   "dur": 2,
+   "upper": true,
+   "text": {
+    "main": "THANK YOUS"
+   },
+   "cue": "Text card, full frame, 2 s: “THANK YOUS”",
+   "src": "Script, row 00:46–00:48, Motion graphics & type.",
+   "rows": [
+    "00:46–00:48"
+   ],
+   "use": "Full frame between sections, 2 s. Plain label, no logo. It sits between the takes, never over them."
+  },
+  {
+   "n": 5,
+   "title": "Label More Soon",
+   "tpl": "statement_card",
+   "dur": 2,
+   "upper": true,
+   "text": {
+    "main": "MORE SOON"
+   },
+   "cue": "Text card, full frame, 2 s: “MORE SOON”",
+   "src": "Script, row 00:59–01:01, Motion graphics & type.",
+   "rows": [
+    "00:59–01:01"
+   ],
+   "use": "Full frame between sections, 2 s. Plain label, no logo. It sits between the takes, never over them."
+  },
+  {
+   "n": 6,
+   "title": "Label None Of This Happens",
+   "tpl": "statement_card",
+   "dur": 2,
+   "upper": true,
+   "text": {
+    "main": "NONE OF THIS HAPPENS"
+   },
+   "cue": "Text card, full frame, 2 s: “NONE OF THIS HAPPENS”",
+   "src": "Script, row 01:04–01:06, Motion graphics & type.",
+   "rows": [
+    "01:04–01:06"
+   ],
+   "use": "Full frame between sections, 2 s. Plain label, no logo. It sits between the takes, never over them."
+  },
+  {
+   "n": 7,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:10–01:14"
+   ],
+   "cue": "End card: Kiva logo, then “Give a little. Change a lot.” and kiva.org.",
+   "src": "Kiva's white wordmark from the Kiva brand kit built from kiva.org (Mac Studio, state/kiva/brand/logos, 10 Oct 2026), per endcards/index.json. Colours from index.json.",
+   "c": {
+    "bg": "#223829",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/kiva/kiva-logo-white.svg",
+   "text": {
+    "lines": [
+     "Give a little. Change a lot.",
+     "kiva.org"
+    ]
+   },
+   "dur": 4.0,
+   "use": "This is the end card at the end of the pack. Put it after the last take and hold it 4 s. Same card on the 16:9 and the 9:16 version."
+  }
+ ]
+}
