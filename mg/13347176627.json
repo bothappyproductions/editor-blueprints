@@ -1,0 +1,104 @@
+{
+ "item": "13347176627",
+ "client": "s4s",
+ "note": "The script asks for five graphics: the hook text, Josh's name super, the three places as key words and two question top texts. The other rows are captions only. The end card is the client's own file.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook question",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "Are you happy?"
+   },
+   "cue": "Hook text on frame 1: “Are you happy?” Already on screen at 0:00. Does not animate on.",
+   "src": "Script, row 00:00–00:10, Motion graphics & type.",
+   "rows": [
+    "00:00–00:10"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) so it is on screen at 0:00. Hold it until 00:02. Top third, black text on the teal plate."
+  },
+  {
+   "n": 2,
+   "title": "Josh name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Josh Feliciano"
+   },
+   "cue": "Name super at 00:03 for 2 s, lower left above the captions: “Josh Feliciano” / Warehouse Coordinator, Soles4Souls Denver.",
+   "src": "Script, row 00:00–00:10, Motion graphics & type.",
+   "rows": [
+    "00:00–00:10"
+   ],
+   "use": "Put it on at 00:03 for 2 s. Move it lower left, above the captions. Type the second line Warehouse Coordinator, Soles4Souls Denver under the name."
+  },
+  {
+   "n": 3,
+   "title": "Three places",
+   "tpl": "word_stack",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "items": [
+     "Dominican Republic",
+     "Guatemala",
+     "Haiti"
+    ]
+   },
+   "cue": "Key words at 00:20, top third, one at a time as he says them: “Dominican Republic” “Guatemala” “Haiti”.",
+   "src": "Script, row 00:17–00:29, Motion graphics & type.",
+   "rows": [
+    "00:17–00:29"
+   ],
+   "use": "Put it on at 00:20. Each place comes in as he says it. Top third, over the B-roll. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "Source question",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "What is the source of your happiness?"
+   },
+   "cue": "Top text at 00:29 for 2 s: “What is the source of your happiness?”",
+   "src": "Script, row 00:29–00:33, Motion graphics & type.",
+   "rows": [
+    "00:29–00:33"
+   ],
+   "use": "Put it on at 00:29 and hold 2 s, in the top band, over his face. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "Message question",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "One message to the entire world?"
+   },
+   "cue": "Top text at 00:33 for 2 s: “One message to the entire world?”",
+   "src": "Script, row 00:33–00:40, Motion graphics & type.",
+   "rows": [
+    "00:33–00:40"
+   ],
+   "use": "Put it on at 00:33 and hold 2 s, in the top band. Keep captions on."
+  },
+  {
+   "n": 6,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:40–00:43"
+   ],
+   "cue": "The new Soles4Souls typography end card.",
+   "src": "Soles4Souls' new typography end card (S4S art director, locked 8/13), taken unchanged from the tail of the delivered Traditional_S4SBronxLuisWarehouseToCommunity001-4.mp4 (Drive, 21 Oct 2026). The .ai source is with Nick/Almi.",
+   "file": "endcards/s4s/s4s-typography-end-card.mp4",
+   "dur": 2.8,
+   "use": "This is the end card, the client's own file. Put it at 00:40 after the last line. Only the bottom CTA line changes for this video: A new pair of shoes for a kid experiencing homelessness → soles4souls.org. Hold it to the end."
+  }
+ ]
+}

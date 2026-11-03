@@ -1,0 +1,104 @@
+{
+ "item": "13370128575",
+ "client": "s4s",
+ "note": "The script asks for five graphics: the hook text, Angela's name super, the 4EveryKid tag, the 1.5 million kids card and three key words. The button row is captions only. The end card is the client's own file.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Jordans hook",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "center",
+   "text": {
+    "main": "Where are my Jordans?"
+   },
+   "cue": "Hook text on frame 1, big, bold, centered: “Where are my Jordans?” Already on screen at 0:00. Does not animate on. Off by 00:04.",
+   "src": "Script, row 00:00–00:06, Motion graphics & type.",
+   "rows": [
+    "00:00–00:06"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) so it is on screen at 0:00. Hold it until 00:04. Centered and big, over the shoe B-roll."
+  },
+  {
+   "n": 2,
+   "title": "Angela name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Angela Harrell"
+   },
+   "cue": "Name super at 00:07 for 2 s, small, lower left above the captions: “Angela Harrell” · Voya Foundation.",
+   "src": "Script, row 00:06–00:18, Motion graphics & type.",
+   "rows": [
+    "00:06–00:18"
+   ],
+   "use": "Put it on at 00:07 for 2 s. Move it lower left, above the captions. Type the second line Voya Foundation under the name."
+  },
+  {
+   "n": 3,
+   "title": "4EveryKid tag",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "4EveryKid"
+   },
+   "cue": "Program tag at 00:19, upper left, 2 s: “4EveryKid”.",
+   "src": "Script, row 00:18–00:38, Motion graphics & type.",
+   "rows": [
+    "00:18–00:38"
+   ],
+   "use": "Put it on at 00:19 for 2 s, upper left, as she names the program."
+  },
+  {
+   "n": 4,
+   "title": "1.5 million kids",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "1.5 million kids"
+   },
+   "cue": "Text card at 00:35 for 2 s, top third, over her face: “1.5 million kids”.",
+   "src": "Script, row 00:18–00:38, Motion graphics & type.",
+   "rows": [
+    "00:18–00:38"
+   ],
+   "use": "Put it on at 00:35 for 2 s as she says the number, top third over her face. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "Team, track, school",
+   "tpl": "word_stack",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "items": [
+     "basketball team",
+     "run track",
+     "get to school"
+    ]
+   },
+   "cue": "Key words at 00:42, top third, one at a time as she says them: “basketball team” “run track” “get to school”.",
+   "src": "Script, row 00:38–00:51, Motion graphics & type.",
+   "rows": [
+    "00:38–00:51"
+   ],
+   "use": "Put it on at 00:42. Each phrase comes in as she says it. Top third. Keep captions on."
+  },
+  {
+   "n": 6,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:59–01:02"
+   ],
+   "cue": "The new Soles4Souls typography end card.",
+   "src": "Soles4Souls' new typography end card (S4S art director, locked 8/13), taken unchanged from the tail of the delivered Traditional_S4SBronxLuisWarehouseToCommunity001-4.mp4 (Drive, 21 Oct 2026). The .ai source is with Nick/Almi.",
+   "file": "endcards/s4s/s4s-typography-end-card.mp4",
+   "dur": 2.8,
+   "use": "This is the end card, the client's own file. Put it at 00:59 right after “anyway”. Same CTA line as the delivered Bronx and MOA 4EveryKid cuts. Hold it to the end."
+  }
+ ]
+}

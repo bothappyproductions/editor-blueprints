@@ -1,0 +1,57 @@
+{
+ "item": "13330679608",
+ "client": "s4s",
+ "note": "The script asks for two graphics: brackets on the pie and Rod's name super. Rod's lines are captions, typed from the audio (no transcript yet). The end card here is a stand-in with the CTA: in your timeline use Sydney's holiday slide, which already has the Soles4Souls wordmark.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Pie brackets",
+   "tpl": "corner_frame",
+   "dur": 1.6,
+   "text": {},
+   "cue": "Brackets on the pie at 00:04 for 1.5 s, no label.",
+   "src": "Script, row 00:03–00:06, Motion graphics & type.",
+   "rows": [
+    "00:03–00:06"
+   ],
+   "use": "Put it on at 00:04 around the pie as the hands load it. Move it so it frames the pie in your shot."
+  },
+  {
+   "n": 2,
+   "title": "Rod name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Rod Arnold, CMO"
+   },
+   "cue": "Name super at 00:06 for 2 s, small, lower left above the captions: “Rod Arnold, CMO”.",
+   "src": "Script, row 00:06–00:11, Motion graphics & type.",
+   "rows": [
+    "00:06–00:11"
+   ],
+   "use": "Put it on at 00:06 for 2 s. Move it lower left, above the captions."
+  },
+  {
+   "n": 3,
+   "title": "End slide (stand-in)",
+   "tpl": "end_card",
+   "rows": [
+    "00:18–00:22"
+   ],
+   "cue": "Sydney's holiday end slide with the CTA in the open middle.",
+   "src": "Stand-in for Sydney's holiday end slide (Holiday_bkg_social_V1_2.jpg / Holiday_bkg_social_V2_2.jpg, sent 22 Oct 2026, in our Drive; not in endcards/ yet). Colors from the V2 slide. The slide already carries the Soles4Souls wordmark.",
+   "c": {
+    "bg": "#5D8BAD",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "lines": [
+     "Donate + share to help us hit our goal link in bio!"
+    ]
+   },
+   "dur": 4.0,
+   "use": "This card is a stand-in so you can time the cut. In your timeline put Sydney's holiday slide (V1 or V2) at 00:18 and type this CTA in the open middle. The slide already has the Soles4Souls wordmark: add no logo. Hold it to the end."
+  }
+ ]
+}

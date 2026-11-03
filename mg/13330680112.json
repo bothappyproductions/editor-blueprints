@@ -1,0 +1,92 @@
+{
+ "item": "13330680112",
+ "client": "s4s",
+ "note": "The script asks for six text cards and the end slide. Four cards are made here. The cards on 00:11–00:17 and 00:17–00:24 carry dollar amounts, so they are not built (no money on graphics): type them on the S4S title plate from the graphics package. The end card here is a stand-in with the CTA: in your timeline use Sydney's holiday slide, which already has the Soles4Souls wordmark.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Get excited",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Get excited..."
+   },
+   "cue": "If the handwriting is not readable in the 9:16 crop, put “Get excited...” as a text card in the center, already on screen at 0:00. It does not animate on.",
+   "src": "Script, row 00:00–00:03, Motion graphics & type.",
+   "rows": [
+    "00:00–00:03"
+   ],
+   "use": "Only if the handwriting on the paper is not readable in the 9:16 crop. Start the clip at frame 0045 (fully on) so it is on screen at 0:00. Hold it until the foot steps, about 00:03."
+  },
+  {
+   "n": 2,
+   "title": "The date",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Giving ShoesDay is December 1st"
+   },
+   "cue": "Text card after the foot lift, centered, big: “Giving ShoesDay is December 1st”",
+   "src": "Script, row 00:03–00:06, Motion graphics & type.",
+   "rows": [
+    "00:03–00:06"
+   ],
+   "use": "Bring it on right after the foot lift, on the music lift. Hold it to the cut at 00:06."
+  },
+  {
+   "n": 3,
+   "title": "A child's future",
+   "tpl": "highlight_callout",
+   "dur": 5,
+   "pos": "center",
+   "text": {
+    "main": "A new pair of shoes can help change a child's future."
+   },
+   "cue": "Text card, centered, big: “A new pair of shoes can help change a child's future.”",
+   "src": "Script, row 00:06–00:11, Motion graphics & type.",
+   "rows": [
+    "00:06–00:11"
+   ],
+   "use": "Over the kids B-roll from 00:06 to 00:11. Hold it long enough to read twice."
+  },
+  {
+   "n": 4,
+   "title": "Without you",
+   "tpl": "highlight_callout",
+   "dur": 5,
+   "pos": "center",
+   "text": {
+    "main": "We can't do it without you."
+   },
+   "cue": "Text card, centered, big: “We can't do it without you.”",
+   "src": "Script, row 00:24–00:29, Motion graphics & type.",
+   "rows": [
+    "00:24–00:29"
+   ],
+   "use": "Over the happiest reaction from 00:24 to 00:29."
+  },
+  {
+   "n": 5,
+   "title": "End slide (stand-in)",
+   "tpl": "end_card",
+   "rows": [
+    "00:29–00:34"
+   ],
+   "cue": "Sydney's holiday end slide with the CTA in the open middle.",
+   "src": "Stand-in for Sydney's holiday end slide (Holiday_bkg_social_V1_2.jpg / Holiday_bkg_social_V2_2.jpg, sent 22 Oct 2026, in our Drive; not in endcards/ yet). Colors from the V2 slide. The slide already carries the Soles4Souls wordmark.",
+   "c": {
+    "bg": "#5D8BAD",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "lines": [
+     "Give the gift of joy. Donate now at s4s.org/gsd"
+    ]
+   },
+   "dur": 4.0,
+   "use": "This card is a stand-in so you can time the cut. In your timeline put Sydney's holiday slide (V1 or V2) at 00:29 and type this CTA in the open middle. The slide already has the Soles4Souls wordmark: add no logo. Hold it to the end."
+  }
+ ]
+}

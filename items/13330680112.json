@@ -1,20 +1,20 @@
 {
  "id": "13330680112",
  "client": "s4s",
- "eyebrow": "Soles4Souls · Giving ShoesDay 2026 · Pinned post #1",
+ "eyebrow": "Soles4Souls · Giving ShoesDay 2026 · Pinned post #1 · posts mid-November",
  "title": "GSD Announcement:",
  "title_q": "Paper-Reveal Date",
  "title_short": "Giving ShoesDay · Announcement (paper reveal)",
  "editor": "Bleron",
  "due": "2026-11-11",
  "format": "9:16 only · 1080×1920",
- "length": "about 31 s",
+ "length": "about 34 s",
  "edit_key": "S4SGSDAnnouncementPaperReveal001",
- "headline": "Pinned post #1: a paper reveal opens on the date, then the mission and the goal.",
+ "headline": "Pinned post #1: a paper reveal gives the date, Giving ShoesDay is December 1st, then the kids, the goal and the ask.",
  "story": [
-  "A paper says “Get excited…”. A foot steps on another paper; when it lifts, the date is there: Giving ShoesDay is December 1st.",
-  "Kids open shoe boxes, try on shoes and smile while the cards say what $20 does and what the goal is: 2,500 kids, $50,000.",
-  "Joyful high-fives, then the ask on Sydney's holiday end slide."
+  "A paper says “Get excited...”. A foot steps on another paper; when it lifts, the date is there: Giving ShoesDay is December 1st. The music lifts on the foot lift.",
+  "Then B-roll beats that build: kids open shoe boxes, try on new shoes, run and play, while Sydney's cards say what a new pair can do and what the goal is: 2,500 kids by midnight on December 1st.",
+  "<b>Loops:</b> L1 “Excited for what?” opens at 0:00 and closes at about 0:03 on the date. L2 “Can they reach 2,500 kids in one day?” opens on the goal card and closes in the button. <b>Button:</b> “We can't do it without you.” over the happiest reaction you have, then Sydney's holiday end slide."
  ],
  "feel": [
   "Excited",
@@ -23,175 +23,201 @@
   "Warm"
  ],
  "do": [
-  "Open on the paper “Get excited…” close-up.",
-  "Make the foot lift reveal the date on a beat.",
-  "Kids, shoes and smiles for every mission card.",
-  "Warm, hopeful, light-bells music that builds on the reveal.",
-  "Keep it 30 to 40 s."
+  "Watch Sydney's trend reel first and copy its reveal timing.",
+  "Open on the paper “Get excited...” close-up, words readable on frame 1.",
+  "Lift the music exactly on the foot lift that shows the date.",
+  "Kids, new shoes and smiles under every card. Hold each card long enough to read twice.",
+  "Use the date-reveal frame as the cover frame. Keep it 30 to 40 s."
  ],
  "dont": [
-  "No Christmas imagery. Holiday vibes only.",
-  "No logo at 0:00. The S4S logo is already on the end slide.",
+  "No Christmas imagery: no Santa, no trees, no “Merry Christmas”. Holiday vibes only.",
+  "No logo at 0:00 and no logo added to the end slide: the wordmark is already on it.",
   "No stock footage. Client footage only.",
-  "No second aspect ratio. 9:16 only."
+  "No voice-over, no lower thirds, no second aspect ratio.",
+  "Don't make it about Soles4Souls history or a general brand message."
  ],
  "links": {
   "brief": {
    "title": "S4S - Giving ShoesDay + End of Year 2026 - client editing doc (Sydney, 19 Oct)",
    "url": "https://docs.google.com/document/d/13hfJB14GQ5wNKDQ2Oqlg69JKrCkWiLveIcILajjIofE/edit",
-   "note": "Sydney's own doc, sent in #only_soles4souls on 19 Oct. On-screen text and flow are hers."
+   "note": "Sydney's own doc, sent in #only_soles4souls on 19 Oct. Nick's editor brief on the Monday item (29 Oct) turns it into this plan. Card words are hers."
   },
   "reference": {
    "title": "Trend reference (Instagram)",
    "url": "https://www.instagram.com/reel/C9wXUP-yQSS/?stkn=ZDRjNGg2eDlwZnB0",
-   "note": "Sydney's paper-reveal trend."
+   "note": "Sydney chose it. Watch it first and copy the reveal timing."
   },
   "footage": {
-   "title": "Canto: happy kids B-roll",
-   "url": "https://soles4souls.canto.com/b/VPMCH",
-   "note": "Plus the intro paper clip (Canto SIA39) and Christe's 4EveryKid upload."
+   "title": "Canto: GSD intro paper clip (SIA39)",
+   "url": "https://soles4souls.canto.com/b/SIA39",
+   "note": "Happy kids are on Canto VPMCH and in Christe's upload on our Drive (Christe Upload › Happy kids). The Canto clips are not in our Drive yet."
   }
  },
- "bp_intro": "All picture is client footage: the intro paper clip on Canto, happy kids on Canto, and Christe's 4EveryKid upload. The text cards are Sydney's, word for word. Durations are targets for a 30 to 40 s cut.",
+ "bp_intro": "Text-on-screen video, no voice. All picture is client footage: the intro paper clip (Canto SIA39), happy kids on Canto (VPMCH) and Christe's 4EveryKid footage on our Drive. There is no transcript and no visual.json for this footage, and the Canto clips are not in our Drive yet, so every shot is picked on scrub. Card words are Sydney's, word for word. Row times follow Nick's AV map for a 34 s cut.",
  "rows": [
   {
    "tc": "00:00–00:03",
    "beat": "HOOK",
    "kind": "hook",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Intro clip (Canto SIA39): close-up of the paper that says “Get excited...”.",
-   "motion": "Text: <q>Get excited...</q>",
+   "visual": "Intro clip (Canto SIA39): close-up of the paper that says “Get excited...”, then a foot steps on the second paper. Crop to 9:16 so the handwriting stays readable. B-roll TBD on scrub.",
+   "motion": "Hook text on <b>frame 1</b>: <q>Get excited...</q> The words on the paper are the hook. If the handwriting is not readable in the 9:16 crop, put <q>Get excited...</q> as a text card in the center, already on screen at 0:00. It does not animate on.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Warm, light bells."
+   "music": "Warm, hopeful instrumental with light holiday bells, on frame 1.",
+   "shots": []
   },
   {
-   "tc": "00:03–00:07",
+   "tc": "00:03–00:06",
    "beat": "THE DATE",
    "kind": "turn",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Intro clip: a foot steps on the paper; on lift, it reads the date.",
-   "motion": "Text: <q>Giving ShoesDay is December 1st</q>",
+   "visual": "Intro clip (SIA39): the foot lifts and the paper shows the date. Cut on the lift, on the beat. Use this frame as the cover frame of the pinned post.",
+   "motion": "Text card after the foot lift, centered, big: <q>Giving ShoesDay is December 1st</q>",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Builds on the reveal."
+   "music": "Music lifts exactly on the foot lift.",
+   "shots": []
   },
   {
-   "tc": "00:07–00:12",
+   "tc": "00:06–00:11",
    "beat": "MISSION",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Kids opening shoe boxes, trying on shoes, smiling.",
-   "motion": "Text: <q>A new pair of shoes can help change a child's future.</q>",
+   "visual": "Kids open shoe boxes, try on new shoes and smile. From Canto VPMCH or <a href=\"https://drive.google.com/drive/folders/1iwfFVqDMZJvlc8APk-yictEO91yV9uFu\">Christe Upload</a> › <a href=\"https://drive.google.com/drive/folders/191OGOBAoFc4QEYiSnpqVdbggXsX7LRkd\">Happy kids</a> (Drive: IMG_9737, IMG_9994, IMG_9995). B-roll TBD on scrub.",
+   "motion": "Text card, centered, big: <q>A new pair of shoes can help change a child's future.</q>",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": []
   },
   {
-   "tc": "00:12–00:17",
-   "beat": "$20",
+   "tc": "00:11–00:17",
+   "beat": "ONE PAIR",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Kids trying on shoes, big smiles.",
-   "motion": "Text: <q>$20 = one new pair of athletic shoes for a child experiencing homelessness.</q>",
+   "visual": "Kids trying on new shoes, big smiles. Same sources. B-roll TBD on scrub.",
+   "motion": "Text card, centered, big, Sydney's words exactly: <q>$20 = one new pair of athletic shoes for a child experiencing homelessness.</q>",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": []
   },
   {
-   "tc": "00:17–00:23",
+   "tc": "00:17–00:24",
    "beat": "THE GOAL",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Kids running, playing, laughing with friends.",
-   "motion": "Text: <q>Our goal: 2,500 kids. $50,000 raised before midnight on December 1st.</q>",
+   "visual": "Kids running, playing and laughing with friends. B-roll TBD on scrub.",
+   "motion": "Text card, centered, big, Sydney's words exactly: <q>Our goal: 2,500 kids. $50,000 raised before midnight on December 1st.</q>",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": []
   },
   {
-   "tc": "00:23–00:27",
+   "tc": "00:24–00:29",
    "beat": "WE NEED YOU",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Close-ups: joyful reactions, high-fives.",
-   "motion": "Text: <q>We can't do it without you.</q>",
+   "visual": "Close-ups: the happiest reaction you have, high-fives. B-roll TBD on scrub.",
+   "motion": "Text card, centered, big: <q>We can't do it without you.</q>",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": []
   },
   {
-   "tc": "00:27–00:31",
+   "tc": "00:29–00:34",
    "beat": "END SLIDE",
    "kind": "end",
-   "frame": null,
+   "frame": "f_holiday_v1",
    "crop": "none",
-   "frame_tag": null,
-   "frame_alt": null,
-   "visual": "Sydney's holiday end slide (V1 light blue or V2 dark blue).",
-   "motion": "CTA in the open middle: <q>Give the gift of joy. Donate now at s4s.org/gsd</q>",
+   "frame_tag": "Holiday_bkg_social_V1_2.jpg",
+   "frame_alt": "Sydney's holiday end slide V1: light blue with red and blue string lights and snowflakes, the SOLES4SOULS wordmark at the top, open space in the middle.",
+   "visual": "Sydney's holiday end slide: <a href=\"https://drive.google.com/file/d/1U0l7tq-tdLvtAnmDVoWyctP6j4kASb0z/view\">Holiday_bkg_social_V1_2.jpg</a> (light blue <span class=\"mono\">#CEE2ED</span>, string lights) or <a href=\"https://drive.google.com/file/d/1lqHLgTbF1dpE3V3jUDR_h-gyFj_Yorn7/view\">Holiday_bkg_social_V2_2.jpg</a> (dark blue <span class=\"mono\">#5D8BAD</span>, berries and snow). 9:16, 1081×1921: scale to 1080×1920. The Soles4Souls wordmark is already at the top of the slide: add no logo. Use the same slide in all four Giving ShoesDay videos.",
+   "motion": "CTA in the open middle, white on V2 or dark blue <span class=\"mono\">#5D8BAD</span> on V1, big: <q>Give the gift of joy. Donate now at s4s.org/gsd</q>",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Resolve."
+   "music": "Resolve, then 1 s fade.",
+   "shots": []
   }
  ],
- "frames": {},
+ "frames": {
+  "f_holiday_v1": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAKAAWgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1OiiitzmCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoqhrd8+n6c9xEoZwQq7ugJ7motJl1CRy11cWk9uUyJIeoPpVculxX1salFYEN5q2qGSbTjbwWysVTzVyZMfypf7ZuG0e9mMaxXtodrrjK5z1/nT5GLmRvUVBFKz2SSnG8xBzx325rD0vUNVvVhk+12Cq7YMZGHIB54pKNxuVjo6KwLzUr6XVZ7OymtrfyQMef1lPtWt9oNtYie/KIyoDJs5GfQetDi0CkmWaKx/tF5DNa3N3N5MdxNsNu2AsabSRk/3uP6UuuajNaNaw2zxRtcMf30vKoBj/Gjld7BzK1zXorMgu7q106e51NoJBFyjwH74/l1qktxr0lr9uQWojK7xbleSv1+lHKLmOgorEl1l5ItLmtgqrdTbJFYZI9QKs3F7NHrtpZqV8mWNmbI5yM9/wo5WPmRpUVm6PezXkl8JiuIZzGm1cce9VdT1G7GqCwtJre3xGHMk/wDET2FHK72DmVrm5RUFkbk2sZvBGJ8fN5ZytT1IwooooAKKKKACiigjHWgAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiikYhVLMQABkk9qAFormdR1yWVjHaExxf3x95v8Kf4aWWS6lmZmKqmDkk5JrnWIjKfLHU9KWW1IUHVqO1uh0dFFFdB5pU1TzzZSC2t47hzj93J0Yd6x9HsJhqpuVsGsLfyyrxl87yfQV0dFUpWVhON3c560Gp6Mr2kVibyDeWikRsYB7GmnS7z+xtRMqb7y8YOY07c9P510dFPnFymRp1xfugtrjTXgRYSokLg5IGAMe9ZWk2lzZmDzNCLzI+ftBfBHPXHsK6yijm8g5TntcguJ7iVH0dblCuIZo2wy/X/CrVvptwdJs4JZgtxbsJAWG9cjOAR3xmteilzO1g5Ve5z91Jd3atpsyq0rzmMzG2OwR7fvDtnPvVvWI5/s0EcdhHfQqMSIxw3AwCK1c0UcwcpzmmaRM9jqEM0TWsVzjyoWbcUx3P6U5LjWorMWP9m7pVTyxOHGzHTP5V0NFPnvuHL2OeudIuLbTLBbQCae0l8xlzjeT1xUtpHe32tRX1zaG1igjKqrtksT/+utyijnYcqObs21PTri9EelyTJNOXDbwOKsa3HPNOA+kJeQbMKyth1bvz6VuUUc2t7By6WM3w/az2emJDdcPuJC5zsB6CtKiipbu7lJWVgooopAFFFFAD4dpYKykkngg9KmuAuCwAYk4Jz0qsCQcjrRmlbUq+lgooopkhRRRQAUUUUAFFFFABRRRQAUUUUAFNd1jRndgqqMlicACnVnOn9pXjI/NnbNgr2lkHr7L/AD+lNIGwW6u73mxRYYD0uJlyW91X09zUgsGbma+vHP8AsyBB+SirtFF+wrdykbOePm2vpgf7s+JFP9f1qhq2pmG0a2voWhll+QOnzIR/eB/mOvNblQ3dtHdwNDKDg8gjqp7Ee4o0ekhxbi1KO6OWh0q7nkUJCyqf42+7j1z3rqLK1js7dYY+g5J7sfWmafPJLE8dxj7RC3ly47ns34jBq1WMKMabbR2YjHVMRFRlsgooorU4wooooAKKKKACiiorpmS1meP76oxH1xQ3ZXHFczSJaK5jT9cnicLdMZYj1J+8v+NdKjrIiujBlYZBHcVnTqxqLQ6cVhKmGlae3cdRRRWhyhRR2z29apzapYQEiW8hBHUB8n9KdrhcuUVQTV7SRQ0XnyKejJA5B/HFO/tS2H3hcIPVrdx/SizFdF2iq0WoWczbY7qIt/dLYP5GrPpRYZn6rqaWCBQA8zD5V9Pc1T0O/uru8lWeTcmzOMAAHPasS8kknuJZZc7mc5z29q3/AA5amK2adxhpfu/7orhjUnUqrse7Vw1DDYNt2cnpfz8vQ2KKKK7TwgooooAKKKKACiiigAooooAKKKKACiiigAoopGIVSzHAAyTQAtFcvHrEzamszOwhZtvl54C/4966is6dWNS9jqxOEnhnFT6kV1N9ntZp/wDnmhb8hXJnW7y20+GKBI4XVS0hYbmJJPY9ycmul1f/AJB0w7HaD9NwqvrWiQ6m/mF2imUY3gZBHoRXRBpbnFJN7GFZ+K7qNgLuJJk7lRtYf0rqLG9gv4BNbPuXoQeCp9CK5r/hELjd/wAfkOPXYc1taJo6aUshEzSvJgMcYAx6CnPktoKHPfU1KKKKyNCko2a04HSW2DN9VbA/Q1dqhYN9qup70f6ogQwn+8qk5b6E/wAqv02JBRRRSGFFFFABRRRQAUhAIIIyDwaWigDir61e0u3gI6H5T6jtW74adzayxtkrG+FP16j/AD61Y1R7E7YrqPzpj/q4oxmQ/THQfXiqWnaTejzDdXbwxSY/cxEAgDoCR0684/OsKWG5Jc19D08TmXt6CpuOvX/M0rnULe3k8osZJj0hiXc5/AdPxqLOpXP3Visoz3b95J+XQfrVq2tYLSPZbRLGp64HJ+p6mpq6LroeXZ9SgNKt3O67ea6b/pu5I/75GBWb4nuIrG1htYIIUWY5bEYwFGO31roa5vxpbl7W3uFHEblW9gen6irg7yVyZq0XYb4W1RpLh7FseXgvFhQuPUcV02T6muH8IRl9YDDokbE/y/rXcUVElIKbbiRzQxTrtniSQejqD/Oqh01YwfsM8tqT/Cp3J/3yf6Yq/RUXaLsjnrWxSyfbrCiUbgI7jHyfRvQ/Xj3roB046UMqupVgGUjBBGQRWahbS7hIWJNlK22Ik/6luyk/3T29OlFk3dLUbnJpKTul+Bp0UUUhBTXZUXc7BVHcnAokdY0Z3OFUZJ9BXH6lfyX0xZsiIfcT0H+NY1qyprzO3BYKWKk9bJbs7Kiq2m5/s+23dfLX+VWa1TurnJOPLJx7BRRRTJCiiigAooooAKKKKACqmrMV0y5K9fLNN83UU+9aQS+8c5X9GH9aR7typS40262sMMFCuCPwNEotpoqnNQmpPozkMHPH4V3i52jPXAzXLWAijvWN5aXEUUZJjLI7BjnjjH863P7XsO9yB/vIw/pWNChKne535hjqeJ5eXpcl1KMzafcIv3jGSv1HI/lU0MqzwxzL92RQw/EZqr/a2n/8/cX6/wCFU9P1O0t/NtfNLIjEwlY2bch5xwOx4/KuizseZdXNmiqP9ohv9TZ3kv8A2x2j82xRv1Kb7kMFsv8AelfzG/IcfrSsO5cd1jQvIyqijJZjgCstbkay0kNpJi0Q7ZpAfmf/AGV9B7/lVlNNjdw95I93IOnmfdX6KOB+tcO99NE/7h3gdGIVY22hRnpjv+NXCN9iJytuehoixoqIoVVGAAOAKdWdoWo/2lYLK2BKp2SAevr+NaNQ1Z2ZondBRVbUnaPT7hkJDCM4IrnNJ1R7OUJKxaBjyCc7fcVjOsoSUWduHwU69KVSD26HWUUgIIyDkHvS1qcQUUnQZPQVkahrXlxn+z4GuW3bfMHEYP17/hx700m9hNpGpcTxW0RlnkWNB/Exql5l5ff6gNaW5/5aOP3rj/ZX+H6nn2qHSjZ3cgna5F3eKMncR+79lXoPqPzrXpvQNyC0s4LRSIUwzcu7HLOfcnk1PRRUjCiiigAqK5gjureSCZd0cgwRUtFAGZoujx6UJSshleQ8sRjAHQVp1BPeW1ucTTxofQnn8qZBqNncOEiuELnoOmfzpOom9XqaRoVOXmUXb0LVUDeTXLsmnIjKpw1xJ9wH0UDlj+lF+WuJ47BGKiRS87A4IjHGB9Tx9M1PcyCysZJIowVhjJWNeBgDpVmRD9glfm41C6Y+kZEa/kB/WmT6RHPC0TXd5scYIabcP1FZll4shkcLeQGIH+NDuA+o610MciSxrJE6ujDIZTkEU3zR3EuWWxl6c+pvbbjNBM8bNHJHKpUhlOOGH4Hkd6s/2isXF7DJan+8w3J/30OPzxS2Xy32oIOnmI/4lBn+VXaTeoJaGfrOZtKlMBDhscqc5Ge1cza2r3VysMfJJ5I/hHcmulu9HtLlHVQ8Bf7xhbaCfcdDTbaK90+IRrGl3GP4w22U/XPB/OsKmHjUd7no4XMJ4aDgl/w5pKoRVVRhVAApapLqlqGCzl7Z/wC7cIU/Xp+tXFYOu5CGU91ORW1rHBe4tFFFIAooooAKxdd1OW1kSC2YK+NztjP0FbVcbrDFtTuSez4/KufEzcYaHp5VQjVre+rpI6qwuRd2kc4GCw+Yeh70VQ8MkmwcHoJTj8hRWtOXNBNnJiqap1pQWyZr0UUVZzhk+tGT6mnxRNIehx60112NgkE98UDsJVa9t2nVHify7iI7opPQ9wfUHvVmkJABJIAHJJ7UbCtcrWl4LgtFIpiuUH7yFjyPceo96tVzeq6lDeDZArI8ZzHc45X6d8f5xWjaz6lDbRPdRJdBlBLQHDj8Dw34flRGUZ6xZpUo1KWlRWNOuS8T6K6SvfWqFo25lRRyp9fpXSRanaz4iEyq4/5ZyDYw/A1ZweuKqLcWYySkjkfBMjfabqP+ExhvxBx/WuuqKK2ggd3hhjjZ/vFVA3fWpcH0NEpczuEVZWGTRiWF426OpU/jXESQvFK8UgwyHDA12U97a2/E1xGh/ulsn8hzWdfxtqSf6HaMsvG25mQIAPoeT+VYVaHtLM9HBY/6qpK17/mXNGLtpluXznbgZ9M8fpRLqEfmGK0RrqYdVjPyr/vN0H86httLcW6Q313LcKoxsX5FP1xy34mtGONIoxHEiog6KowBWsUopLc4qk/aTcrWu7lH7DLdHdqUodeot4siMfXu348e1V/E8TnRXEAwsbKzKowNo9vTpWxSEBgQwBBGCD3qlLW5DWljzaC8mt7tLmNsSIcjHf2r0aCVZ4I5o/uyKGH0NcnrXhm4t2NxYRtLbsfuDlk/xFdFocUsOk2sc6lZFTlT1HJrSo1JJozppptMvUUUViahRRRQAVDeRyy2skcEnlyMMK3pU1FDV1YqMnGSkuhxNzZ3Nux86F1/2sZB/GktIZZplSKNmckYx256129FciwiTumew85lKHK4a+v9fmY+jQzwahfLdvvlIRkJbdhCWwM1rsoZSrDKkYI9RVS9hlEsd3agNNGCrRk48xD1XPY9xUlrewXOVjfEg+9E/wArr9Qa7XrqeItNDg9Y059NvGiIJjPMTf3l/wARWt4QuJ4rs2jE+TKhcA/wkd/xrpr62trmApeojRdcucY989qwl0i3ubiJNNeVLRGzLIDw59Fbqf5CtOdSjZmfJyyujX0w+b9ouh92eUlPdFG0H8cE/jV6moixoqIoVVAAA6AU6smaoKKKKQCMAylWAKnqCMiqbaXZlt0cRhf+9AxjP6cVdop3aC1zD1O4m01VWHUt8rH5YbkKcj1yBmrFndalPaxzmC0kDjOFlKn+RFcfqt1JLqt1MG58wqPoDgD9K6jwgHGkEt90ysV+nH9c1rKNo3MoyvKxf+2XK/6zTZ/rG6P/AFFH9pIPv2t6n1tyf5Zq7T4mRQ29ck9KyuuxrbzM7+1bQfeMy/70Dj+lYeszWj3AmthPIZB8+yI8Ed+QK6rJ9TRk+p/Ok1GW6Lp1KlN3g7GVZXlhaWywxPKwHJIhckk9e1FauT6n86KEopWSJlKU5OUnqwooooEKjFGyOtDMWOWOT60lFAwrK8R3BhsRGpwZm2n6Dr/StWs/VtOOoCLbKEKE5yM5BrOqpODUdzowcqca8ZVNkctbQSXM6wxDLMcfT3rtoYxFEka9EUKPwqvYafDYoRENzn7znqf/AK1W6ihR9mtdzozDGrEySj8K/EjmhinXbPEki+jqD/Oqv9lWY/1SSQ/9cpWT9AavUV0XaPOsil/Zyf8AP1e49PtBo/su1b/WCaX/AK6TO36Zq7RRdisiGC2t7f8A494I4/8AcQA1NRRSGFFFFABRRRQAZOMZOB2ooooAKKKKACiiigAooooAKKKKACo5rKC7Ki4gjk9C69PoakqwoZlTzAAo6HPNDdhpXMz+yLGOQ4tI2KnqwLAfnmrXQYHQVZYMA/l42nO455qvRdvcGkgooooEFFFFABRRRQBwF3ptxJrk9pEhLtKSDjgKTnJ9ua7mzt0tLWK3i+5GuAfX3qXvmlq5TciYwUQoooqCgooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKfEgdsE4plOiCFv3hwKGND9n7vbsO/dimSIEbAYN7ips/uSQvyA9PUVFLsyPL6YpIbGUUUUyQooooAKKKKACiiigAp6yHK7ySoOcUyigY+SQ+YxQkA+nemUUUAFFFFAgooooAKKKKACiiigAopWUqQD3GaSgAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAF3tt254zmkoooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKcjlDxjn1GabRQBallXDKjAMO+OtVaKKSVht3CiiimIKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKVCA4LDI9KSigBXILEqMA9qSiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACipYFBbJK46YPeidQgCqvA/i9aV9bDtpciooopiCiiigAooooAKKKKACiinsiiNWDAk9R6UDGUUUUCCiiigAooooAKKKKACiiigAooooAKKKKAFIGwHdznpSUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAKjbHDYzigsTnk4PJFJRQMKKKKBBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRSqpYEjHAzSUAFFFFABRRRQAUUUUAFFFFACqjNnaM4pXTYFyeSM4pYiA+5iRj071JLNuQFcZIwRjpS1uUkrEFFFFMkKKXI24xznrSUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQArDaxGQcdxSUUUAFFFFABRRRQAVMsOUDNlQPvZqGpVmKx4BJYnvzxSdxq3UiOMnHTtmilY7jnAH0pKYgooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKkgALjJGfQjrTp1VdoBHA4GOtK+th20uQ0UUUxBRRRQAUUUUAFFFFABRRRQAUqqWbA6mkpUbY2cA+maBjpIygBPp39aZUkkzPxngjpio6FcHboFFFFAgooooAKKKKACiiigAooooAKKKKACiiigBUAZwGOAe9OeIouWIzngURyMnQ4HfinyzbmYYVl7HFLW5WliGiiimSFFFFABRRRQAUUUUAFSJCzAkqemR71HUkcvlqcD5ie/pSdxq3UYylTg4z9aSlchmJAwD2pKYgooooAASpyDg0pYkAE8DpSUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFPhAZtrLnPcdqBoZRU8yKqrhhgD86goTuDVgooooEFFFFABRRR1oAKKCMHB60UAFFFFABRRQBk4FABRSsCrEHqOKSgAooooAKKKKACiiigAoopWRlxuGM0AJRRRQAUUUoYhSvGDQAlFFFABRRRQAUUUUAFFKqls7RnAyaCpUAnuMigBKKKKACiiigAooooAKKKKACgEgEA8HrRRQA5nLIqnovSm0UUAFFFFABRRRQAUAkHI6iiigAYliSTkmiiigAooooAKdGwVskZP1xTaKAJp5Ffhc8H8D71DRRQlYbdwooooEFFFFABRRRQBJERtK7Cc9wOlSMpXaSC+0YxUSSMilRjBp7uqiMxnkDrUvctPQif75yMc9PSihiWJJ6n0oqiBKKKKACiiigAooooAKKKKAJIXVDkgls+vFLOysxwDkHGc8YqKilbW476WCiiimIKKKKACiilXGRuzjvigBKKD146UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFACliVC8YBzSUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUuBsJ3c56UAJRRRQAUUU9o9sYcMDntQMZRRRQIKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACgckZOKKKAHyoqNhW3DFMoooGFFFFAgooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigB0Y+YfMFxzk1LMiAErjJ5PPT6VBSsxY5JzxilbUd9BKKKKYgooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoAycUUUATpFskXeNwI4I6ZpnlZQtnbjkA+lPVggUq5djxjPApJNoLeYuH7EVOpehDRRRVEBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUAEnAGSaUqQASODQAlFFFABRRRQAUUUUAFFFFABQSWOScmiigAooooAKKKKACiiigAoooAJIA5JoAKKCMHBooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAfEQHGQSc8YOKlndGXIAPbr0qvRStqO+lgooopiCiiigAooooAKKKKACjBxnHHrRRk4xnj0oAKKKKACiiigAooooAKmt3VclyMDpxzUNFDVxp2Hzbd5CqBjuDnNMoooBhRRRQIKKKKACigAk4AyaKACiiigAooooAKKKKACiiigAAJPAzT5I2jPOMdvemqxU5BI+hp0spk6ge3qKNR6WGUUUUCCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigC1b4KYyC2OAOoFVn25+QED3pKKSQ29AooopiCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAClVS5woyaSnxsqclct2JPShjQPGVLdSAetMqa4cM2B29+KhpIHuFFFFMQUUUAZ4FABRQQQcEYPvRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAAAWOAMk1IsfD7jgqOlMjBLgL1zVjgb/MwzAc4Hak2UkVyrAAkcHoaSpZlbYrFgy9sDpUVNCYUUUUCCiiigAooooAKKKKACiiigAooooAKKKKACiiigAoBIII6iiigBXYu25utJRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABUkcuwNkZJHWo6KB3sFFFFAgooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAciF2wP1puDjODipoZSoIY8AcCmzuHYEE49D2pXdyrKxHRRRTJCiigcnAoAKKUqQMkHrikoAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKsxRfIQw2kjrnqPpSbsNK5Wop0gAYhQRj1ptMQUUUUAFFFFABRRRQAUUUUAFPiID84x7jNMooGWrjbs42556/561VoyfWiklYG7hRRRTEFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFK7l23N1pKKACiiigApyuVz3yMc02igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoorKi122a4aKRWjAYqHJyD9fSplOMbXZrToVKqbgr2NWik69KWqMgooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACucGv3Ec7LNDGyhiCoyCPxro65zxBp7JKbuJco3+sA/hPr9DWGIc1Hmi9j0ctVCdR06qvfY2rK9gvY98Lcj7ynqtWa43TJWt7yKVWCgN8+Txt759q6ie+hikESB5piMiKIbmx6nsB9aqhOVSN2jPH4eGHqWg7r8i1RVLzdRblbS3Qekk5J/QYpDd3cPNxYMV7tbyCTH4cGtrHDcvUVDa3UF3Hvt5A4BwcdVPoR1BqakMKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK4zVYDb38yEcFty/Q812dUdU01L9F+bZKv3Wxn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"
+ },
  "files": [
   [
-   "Editing brief",
-   "<a href=\"https://docs.google.com/document/d/13hfJB14GQ5wNKDQ2Oqlg69JKrCkWiLveIcILajjIofE/edit\">S4S - Giving ShoesDay + End of Year 2026 - client editing doc (Sydney, 19 Oct)</a>. This page is built from it."
+   "Editor brief",
+   "Nick's editor brief on this Monday item (29 Oct). This page is that plan."
+  ],
+  [
+   "Client doc",
+   "<a href=\"https://docs.google.com/document/d/13hfJB14GQ5wNKDQ2Oqlg69JKrCkWiLveIcILajjIofE/edit\">S4S - Giving ShoesDay + End of Year 2026 - client editing doc (Sydney, 19 Oct)</a>. On-screen words are Sydney's."
   ],
   [
    "Campaign brief",
    "<a href=\"https://soles4souls-my.sharepoint.com/:w:/g/personal/alessandrar_soles4souls_org/IQCta6x6tnKSTrW4q7pDlmZFAaOChZDgPxogeNx6evhidKk?e=kTNuOK\">FY27 Holiday Campaign Brief</a> (client SharePoint)"
   ],
   [
-   "Footage",
-   "<a href=\"https://soles4souls.canto.com/b/SIA39\">Intro paper clip (Canto)</a> · <a href=\"https://soles4souls.canto.com/b/VPMCH\">Happy kids B-roll (Canto)</a> · <a href=\"https://drive.google.com/drive/folders/1iwfFVqDMZJvlc8APk-yictEO91yV9uFu\">Christe's 4EveryKid upload</a>"
+   "Reference",
+   "<a href=\"https://www.instagram.com/reel/C9wXUP-yQSS/?stkn=ZDRjNGg2eDlwZnB0\">Sydney's paper-reveal trend (Instagram)</a>"
   ],
   [
-   "End card",
-   "Sydney's holiday end slide: <a href=\"https://drive.google.com/file/d/1U0l7tq-tdLvtAnmDVoWyctP6j4kASb0z/view\">V1 light blue</a> or <a href=\"https://drive.google.com/file/d/1lqHLgTbF1dpE3V3jUDR_h-gyFj_Yorn7/view\">V2 dark blue</a>. 9:16, S4S logo already in the top of the slide. CTA text in the open middle area; no extra logo."
+   "Footage",
+   "<a href=\"https://soles4souls.canto.com/b/SIA39\">Intro paper clip (Canto SIA39)</a> · <a href=\"https://soles4souls.canto.com/b/VPMCH\">Happy kids (Canto VPMCH)</a> · <a href=\"https://drive.google.com/drive/folders/1iwfFVqDMZJvlc8APk-yictEO91yV9uFu\">Christe Upload</a> › <a href=\"https://drive.google.com/drive/folders/191OGOBAoFc4QEYiSnpqVdbggXsX7LRkd\">Happy kids</a> (Drive: IMG_9737, IMG_9994, IMG_9995). The Canto clips are not in our Drive yet."
+  ],
+  [
+   "Music",
+   "Warm, hopeful, light holiday bells, instrumental, licensed. Pick a track family you can reuse: Pie 1 and Pie 2 (also yours) must sound like the same campaign."
+  ],
+  [
+   "End slide",
+   "Sydney's holiday end slide: <a href=\"https://drive.google.com/file/d/1U0l7tq-tdLvtAnmDVoWyctP6j4kASb0z/view\">Holiday_bkg_social_V1_2.jpg</a> (light blue) or <a href=\"https://drive.google.com/file/d/1lqHLgTbF1dpE3V3jUDR_h-gyFj_Yorn7/view\">Holiday_bkg_social_V2_2.jpg</a> (dark blue). 9:16, the Soles4Souls wordmark is already in the top of the slide. CTA text in the open middle; no extra logo."
+  ],
+  [
+   "Brand graphics package",
+   "<a href=\"https://drive.google.com/drive/folders/1HaEuSzPDVfNxrNACiSyO0nl4Er-d9mFF\">S4S graphics package</a> (Drive): lower third bar, title plate, underline, circle burst, focus brackets, color wipe, shape swipe, topic tag, texture and gradient loops, 1080×1920, 30 fps, ProRes 4444. The plates are empty: type the words on them. The Motion graphics tab on this page has the graphics this script asks for as transparent .mov files."
   ],
   [
    "Facts",
-   "Giving ShoesDay is 1 Dec. Goal: 2,500 kids, $50,000. End of Year runs 2 to 31 Dec. Goal: 5,000 kids, $100,000. $20 = one new pair of athletic shoes (two with a match). GSD match: dollar for dollar up to $25,000, pending confirmation."
+   "Giving ShoesDay is Tuesday, December 1st. Goal: 2,500 kids with new shoes. End of Year runs December 2 to 31; goal 5,000 kids. Spelling: Soles4Souls, Giving ShoesDay (capital S and D), 4EveryKid, s4s.org/gsd."
   ]
  ],
  "tech": [
   [
    "Source",
-   "Client footage from Canto and Christe's 4EveryKid upload. Mixed sizes and frame rates: conform on import."
+   "Client footage from Canto (SIA39, VPMCH) and Christe's Drive upload (phone clips). Sizes and frame rates differ: check each clip."
   ],
   [
    "Timeline",
-   "1080×1920. Frame rate = the majority of the clips."
+   "1080×1920 at <b>24 fps</b> (Nick's brief). Canto and phone clips can be 30 or 60 fps: conform them on purpose, and use the high frame rate only for slow motion you choose."
   ],
   [
    "Crop",
-   "Horizontal clips: center-crop to 9:16, faces in frame. No stretching."
+   "Horizontal clips: crop to 9:16 with faces inside the frame. Never stretch."
   ],
   [
    "Text",
-   "All on-screen text exactly as written in Sydney's doc. Big, readable on a phone. S4S fonts (Buenos Aires titles, Roboto body)."
+   "Cards big and centered, out of the bottom 20% and away from the right edge (Instagram buttons sit there). Hold each card long enough to read twice: text size is Soles4Souls' most common note. Titles in Buenos Aires (Roboto Black if you don't have it), body Roboto. Black text on teal, never white on teal. The first card is on screen at 0:00 and does not animate on; later cards can."
   ],
   [
    "Loudness",
@@ -199,25 +225,119 @@
   ],
   [
    "Export",
-   "H.264 MP4, 1080×1920. One file, 9:16 only."
+   "H.264 MP4, 1080×1920, 9:16 only. Upload to Frame.io with the Edit Key in the file name."
+  ],
+  [
+   "Captions",
+   "None: there are no spoken lines. The cards are the text."
   ]
  ],
  "checklist": [
-  "Every on-screen line is word for word from Sydney's doc.",
-  "Giving ShoesDay is one word “ShoesDay”, capital S and D.",
-  "Soles4Souls and 4EveryKid spelled exactly.",
-  "Text is big enough to read on a phone. Text size is this client's most common note.",
-  "US English.",
-  "Ends on Sydney's holiday end slide with the CTA in the open middle.",
-  "The date card reads “Giving ShoesDay is December 1st”.",
-  "URL is s4s.org/gsd."
+  "First card on screen at frame 1. No logo at 0:00.",
+  "Every card matches Sydney's words exactly: Soles4Souls, Giving ShoesDay, s4s.org/gsd.",
+  "Text readable on a phone. Nothing in the bottom 20% or under the right-side buttons.",
+  "The music lifts on the foot lift. The date frame is the cover frame.",
+  "No Christmas imagery. Client footage only.",
+  "End = Sydney's holiday slide + the exact CTA from this plan. No extra logo: the wordmark is already on the slide.",
+  "Music licensed, levels even, no clipping.",
+  "1080×1920, 24 fps timeline, Edit Key in the file name."
  ],
- "decisions": [],
+ "decisions": [
+  {
+   "t": "Dollar amounts on two cards",
+   "b": "Sydney's cards at 00:11 and 00:17 carry donation amounts. They stay word for word in this plan because they are her on-screen copy, but the Motion graphics tab does not build money lines: the editor types them on the S4S title plate. Nick: confirm they stay as written."
+  }
+ ],
  "client_note": "<b>Why this matters:</b> Giving ShoesDay (1 Dec) is Soles4Souls' biggest day of the year. Sydney wrote every line herself: keep it joy themed and positive.",
  "ask_examples": [
   "Where is the footage?",
   "Which end slide do I use?",
-  "Can I change the text?",
-  "Is the match confirmed?"
- ]
+  "Can I change the card words?",
+  "Where does the music lift?"
+ ],
+ "transcript": "No transcript: this is a text-on-screen video with no voice. The card words are in the rows, word for word from Sydney's doc.",
+ "alts": {
+  "hook:0": []
+ },
+ "visual_pack": {
+  "amount": "Soles4Souls runs fuller packages, but these Giving ShoesDay videos are text-led: one big card per beat, client footage under every card, no logo before the end slide.",
+  "devices": [
+   {
+    "row": "00:00–00:03",
+    "device": "Hook text (the paper, or a static card)",
+    "asset": "Get excited...",
+    "source": "Canto SIA39 · MG library of this page"
+   },
+   {
+    "row": "00:03–00:06",
+    "device": "Date reveal + text card",
+    "asset": "Giving ShoesDay is December 1st",
+    "source": "Canto SIA39 · MG library of this page"
+   },
+   {
+    "row": "00:06–00:11",
+    "device": "Text card over kids B-roll",
+    "asset": "A new pair of shoes can help change a child's future.",
+    "source": "MG library of this page · Canto VPMCH / Christe Upload"
+   },
+   {
+    "row": "00:11–00:17",
+    "device": "Text card on the S4S title plate (typed by the editor)",
+    "asset": "Sydney's one-pair card",
+    "source": "S4S graphics package (title plate)"
+   },
+   {
+    "row": "00:17–00:24",
+    "device": "Text card on the S4S title plate (typed by the editor)",
+    "asset": "Sydney's goal card",
+    "source": "S4S graphics package (title plate)"
+   },
+   {
+    "row": "00:24–00:29",
+    "device": "Text card over the happiest reaction",
+    "asset": "We can't do it without you.",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "00:29–00:34",
+    "device": "End slide + CTA",
+    "asset": "Holiday_bkg_social_V1_2.jpg or V2_2.jpg",
+    "source": "Sydney (Drive)"
+   }
+  ],
+  "broll_pool": [],
+  "elements": [
+   {
+    "name": "S4S title plate (S4S_05_Title-plate_9x16_ProRes4444.mov)",
+    "kind": "title_plate",
+    "file": null,
+    "url": "https://drive.google.com/file/d/17xk97mFNY5ci75Q-HCU-1z4dyR-yumBm/view",
+    "local": null,
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   },
+   {
+    "name": "Sydney's holiday end slide V1, light blue (Holiday_bkg_social_V1_2.jpg)",
+    "kind": "end_card_background",
+    "file": null,
+    "url": "https://drive.google.com/file/d/1U0l7tq-tdLvtAnmDVoWyctP6j4kASb0z/view",
+    "local": null,
+    "alpha": false,
+    "size": "1081x1921",
+    "fps": null
+   },
+   {
+    "name": "Sydney's holiday end slide V2, dark blue (Holiday_bkg_social_V2_2.jpg)",
+    "kind": "end_card_background",
+    "file": null,
+    "url": "https://drive.google.com/file/d/1lqHLgTbF1dpE3V3jUDR_h-gyFj_Yorn7/view",
+    "local": null,
+    "alpha": false,
+    "size": "1081x1921",
+    "fps": null
+   }
+  ],
+  "new_elements": []
+ }
 }

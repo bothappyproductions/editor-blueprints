@@ -1,0 +1,21 @@
+{
+ "item": "13330680505",
+ "client": "s4s",
+ "style": {
+  "font": {
+   "css": "\"Roboto\"",
+   "w": 700
+  },
+  "size": 64,
+  "y": 1350,
+  "max_lines": 2,
+  "reveal": "phrase",
+  "fg": "#000000",
+  "box": {
+   "bg": "#62CCBF",
+   "r": 10
+  }
+ },
+ "note": "No caption clips: this is a text-on-screen video with no spoken lines. The cards are the text.",
+ "tracks": []
+}

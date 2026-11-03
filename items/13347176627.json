@@ -13,8 +13,8 @@
  "headline": "The only Soles4Souls employee in Denver says he always wanted this work, because it makes him part of something bigger than himself.",
  "story": [
   "Josh is the warehouse coordinator, the only Soles4Souls employee in Denver. Asked if he is happy, he says yes: he always wanted this kind of work, and it lets him give back to people in need all over the world.",
-  "He runs on volunteers. Hundreds to thousands of shoes come in every week. The sorted shoes go to places like the Dominican Republic, Guatemala and Haiti, where they help people start a business and get out of poverty.",
-  "His happiness is being part of something bigger than him. His message: be the best human you can be."
+  "He runs on volunteers. Hundreds up to thousands of shoes come in every week. The sorted shoes go to places like the Dominican Republic, Guatemala and Haiti, where they help people start a business and get out of poverty.",
+  "His happiness is being part of something bigger than him. His message: try to be the best human you can be. <b>Loops:</b> L1 “Are you happy?” opens at 0:00 and closes at once on “I am happy.” L2 “Why?” opens on “I've always wanted to do this kind of work” and closes on “bigger than me”."
  ],
  "feel": [
   "Humble",
@@ -23,19 +23,18 @@
   "Joyful"
  ],
  "do": [
-  "Open on the question and “I am happy.”",
-  "Lower third on his first appearance: Josh Feliciano / Warehouse Coordinator, Soles4Souls Denver.",
-  "Trim each bite on the brief's “…”.",
-  "End on “less fortunate.”",
-  "Keep it 30 to 45 s."
+  "Open on Josh with the hook text <q>Are you happy?</q> already on screen at 0:00.",
+  "Name super at 00:03 for 2 s: Josh Feliciano / Warehouse Coordinator, Soles4Souls Denver.",
+  "Trim each bite on the “…” and cut pauses over 0.7 s to about 0.25 s.",
+  "Cover every jump between takes and clips with the B-roll in this plan.",
+  "End on “less fortunate.” Keep it 40 to 45 s."
  ],
  "dont": [
-  "No logo, title card or fade at 0:00.",
-  "No second aspect ratio. 9:16 only.",
-  "No stock footage.",
-  "Don't use the 02:55 take of his message (beeping). Use the 03:10 retake.",
-  "Don't use the “I don't know” section (3576 01:08–01:46).",
-  "Don't caption “For Opportunity”. It is 4Opportunity."
+  "No logo, title card, name or fade at 0:00. No name super before 00:03.",
+  "No second aspect ratio (9:16 only) and no stock footage.",
+  "Don't use the 02:55 take of his message (beeping). Use the 03:12 retake.",
+  "Don't use the “I don't know” section (NNM_3576 01:08 to 01:46) or his answer about Voya (NNM_3575 02:17 to 02:44).",
+  "Never caption “Souls for Souls” or “For Opportunity”. It is Soles4Souls and 4Opportunity."
  ],
  "links": {
   "brief": {
@@ -46,105 +45,213 @@
   "reference": {
    "missing": true,
    "title": "Not chosen yet",
-   "note": "Production Planning 13011940021 reads Requested, owner Nick. Until then, match the pace of your delivered 4EveryKid cuts."
+   "note": "Nick owes it. Production Planning 13011940021 reads Requested, owner Nick. Until then, match the pace of your delivered 4EveryKid cuts."
   },
   "footage": {
    "title": "Denver 4EveryKid Oct. 2026 raw",
    "url": "https://drive.google.com/drive/folders/1hGkzhXMF_ARbQU9setK_8ol9mJ0Qzu6k",
-   "note": "CAM A (FX6) holds the interviews; the Are You Happy? files are also copied in AYH Interviews. Shot horizontal."
+   "note": "CAM A (FX6) holds both interview clips; the Are You Happy? file NNM_3576 is also copied in AYH Interviews. B-roll: CAM B (Gimbal) and the CAM A floor clips. Shot horizontal (16:9)."
   }
  },
- "bp_intro": "Two files from CAM A (FX6): <span class=\"mono\">NNM_3575.MXF</span> (main interview) and <span class=\"mono\">NNM_3576.MXF</span> (Are You Happy? answers). Ranges are from the brief; times are mm:ss from the first frame of each file. Cut inside each range on the “…”. The machine transcript of 3576 has garbage lines in the silent stretches; trust your ears.",
+ "bp_intro": "Two clips from CAM A (FX6): <span class=\"mono\">NNM_3576.MXF</span> (Are You Happy? answers, 3:24) and <span class=\"mono\">NNM_3575.MXF</span> (main interview, 7:12). Times are mm:ss.s from the first frame of each file, from the word times in the shoot's output.json. B-roll picks come from visual.json; no frames were pulled yet, so check each pick on scrub. Word times can drift: check every cut by ear.",
  "rows": [
   {
-   "tc": "00:00–00:11",
+   "tc": "00:00–00:10",
    "beat": "HOOK",
    "kind": "hook",
    "frame": null,
-   "crop": "none",
-   "frame_tag": null,
-   "frame_alt": null,
-   "visual": "Josh on camera, reframed to 9:16, face centered. Keep the interviewer's “Are you happy?” only if it is clean, else start on “I am happy.”",
-   "motion": "Hook text on <b>frame 1</b>, top third, big: <q>Are you happy?</q> Captions from 0:00. Lower third at 00:01–00:04: “Josh Feliciano” / “Warehouse Coordinator, Soles4Souls Denver”.",
+   "crop": "c",
+   "frame_tag": "NNM_3576 0:05",
+   "frame_alt": "From visual.json (frame not pulled yet): Josh, glasses and a T-shirt, in the warehouse with bags and boxes behind him, talking with his hands.",
+   "visual": "Josh on camera, <a href=\"https://drive.google.com/file/d/1GvuzSLjsNyda7A4Y8WSRrj8LQuCbJEsu/view\">NNM_3576.MXF</a>, 16:9 wide: crop to 9:16 with his face in the center third. Start on “I am happy.” (<span class=\"mono\">00:04.6</span>). You may keep the interviewer's “Are you happy?” (<span class=\"mono\">00:03.1</span> to <span class=\"mono\">00:03.7</span>) under the hook text if it is clean; else start on “I am happy.” Cut the pause after “opportunity” (<span class=\"mono\">00:10.2</span> to <span class=\"mono\">00:11.3</span>) to about 0.25 s. On “to give back to those who are in need” cut to <a href=\"https://drive.google.com/file/d/1xzDOAq36UJAmmF5Cngh2mng4jxiQCss_/view\">DJI_20261019102036_0019_D_B01.MP4</a> <span class=\"mono\">00:03.3</span> to <span class=\"mono\">00:05.8</span>: volunteers in orange shirts around a table, the SOLES4SOULS banner behind them (visual.json, handheld, sharp). Back to his face on “all over the world.”",
+   "motion": "Hook text on <b>frame 1</b>: <q>Are you happy?</q> Already on screen at 0:00. Does not animate on. Top third, big, black text on the teal plate. It goes out at 00:02. Name super at 00:03 for 2 s, lower left above the captions: <q>Josh Feliciano</q> / Warehouse Coordinator, Soles4Souls Denver. Captions on from frame 1.",
    "voice": {
-    "who": "Josh",
+    "who": "Josh Feliciano",
     "quote": "I am happy. You know, I've always wanted to do this kind of work. And Soles4Souls has given me the opportunity to give back to those who are in need all over the world.",
-    "src": "3576 00:03–00:16"
+    "src": "NNM_3576.MXF 00:04.6 to 00:15.7"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Warm, upbeat bed on frame 1, low."
+   "music": "Warm, upbeat licensed bed on frame 1, low under his voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I"
+    },
+    {
+     "clip": "DJI_20261019102036_0019_D_B01.MP4",
+     "at": 3.3,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "Denver 4EveryKid Oct. 2026/CAM B (Gimbal)/DJI_20261019102036_0019_D_B01.MP4",
+     "drive": "1xzDOAq36UJAmmF5Cngh2mng4jxiQCss_",
+     "layout": "full",
+     "what": "volunteers in orange shirts around a table, SOLES4SOULS banner behind (visual.json; check on scrub)"
+    },
+    {
+     "face": true,
+     "from_word": "all"
+    }
+   ]
   },
   {
-   "tc": "00:11–00:19",
+   "tc": "00:10–00:17",
    "beat": "THE ONLY ONE",
    "kind": "",
    "frame": null,
-   "crop": "none",
-   "frame_tag": null,
-   "frame_alt": null,
-   "visual": "Cut to 3575. Start on “I am the only”. Cut out “so I rely heavily on my volunteers just to help process the product that comes through here.”",
-   "motion": "Hook text off. Captions only. Caption “Soles4Souls”: the transcript writes “Souls for Souls”.",
+   "crop": "c",
+   "frame_tag": "NNM_3575 3:58",
+   "frame_alt": "From visual.json (frame not pulled yet): Josh in the warehouse, hands clasped in front of him, boxes and bags behind him.",
+   "visual": "Cut to <a href=\"https://drive.google.com/file/d/1yuGvJKGSOS0t1JikmD__96tA7yDY_7uR/view\">NNM_3575.MXF</a> (main interview), his face. Start on “I am the only” (<span class=\"mono\">03:57.3</span>). Leave out “so I rely heavily on my volunteers just to help process the product that comes through here.” (<span class=\"mono\">04:01.9</span> to <span class=\"mono\">04:07.8</span>) and go to “We get hundreds” (<span class=\"mono\">04:08.1</span>). Cover that jump with B-roll: <a href=\"https://drive.google.com/file/d/1Jf-mbQ51ozm8KAc9TwUxA05FruY9vEKs/view\">DJI_20261019093059_0005_D_B01.MP4</a> <span class=\"mono\">00:03.1</span> to <span class=\"mono\">00:04.6</span>, boxes full of shoes stacked in the warehouse, then <a href=\"https://drive.google.com/file/d/1e6DRfVuHErYgUvuQHgFTWPUIlgqOO7vD/view\">DJI_20261019093119_0007_D_B01.MP4</a> <span class=\"mono\">00:10.0</span> to <span class=\"mono\">00:11.3</span>, boxes of shoes and clothing on the floor (both from visual.json, check on scrub). Out on “per week,” (<span class=\"mono\">04:10.8</span>).",
+   "motion": "Captions only. Caption “Soles4Souls”: the machine transcript writes “Souls for Souls”.",
    "voice": {
-    "who": "Josh",
+    "who": "Josh Feliciano",
     "quote": "I am the only Soles4Souls employee here in Denver, … We get hundreds up to thousands of shoes per week,",
-    "src": "3575 03:55–04:19"
+    "src": "NNM_3575.MXF 03:57.3 to 04:01.5 + 04:08.1 to 04:10.8"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I"
+    },
+    {
+     "clip": "DJI_20261019093059_0005_D_B01.MP4",
+     "at": 3.1,
+     "dur": 1.5,
+     "cx": 0.5,
+     "path": "Denver 4EveryKid Oct. 2026/CAM B (Gimbal)/DJI_20261019093059_0005_D_B01.MP4",
+     "drive": "1Jf-mbQ51ozm8KAc9TwUxA05FruY9vEKs",
+     "layout": "full",
+     "what": "boxes full of shoes stacked in the warehouse (visual.json)"
+    },
+    {
+     "clip": "DJI_20261019093119_0007_D_B01.MP4",
+     "at": 10.0,
+     "dur": 1.3,
+     "cx": 0.5,
+     "path": "Denver 4EveryKid Oct. 2026/CAM B (Gimbal)/DJI_20261019093119_0007_D_B01.MP4",
+     "drive": "1e6DRfVuHErYgUvuQHgFTWPUIlgqOO7vD",
+     "layout": "full",
+     "what": "boxes of shoes and clothing on the floor (visual.json)"
+    }
+   ]
   },
   {
-   "tc": "00:19–00:29",
+   "tc": "00:17–00:29",
    "beat": "WHERE THEY GO",
    "kind": "turn",
    "frame": null,
-   "crop": "none",
-   "frame_tag": null,
-   "frame_alt": null,
-   "visual": "3575, punch in to 110%. Jump from “Haiti” to “start a business” (03:33).",
-   "motion": "Captions only.",
+   "crop": "c",
+   "frame_tag": "DJI_0012 0:18",
+   "frame_alt": "From visual.json (frame not pulled yet): people in orange shirts sort shoes and clothing, a SOLES4SOULS banner behind them.",
+   "visual": "Josh on <a href=\"https://drive.google.com/file/d/1yuGvJKGSOS0t1JikmD__96tA7yDY_7uR/view\">NNM_3575.MXF</a>, punch in to 110% so it does not match the last shot. Start on “these shoes” (<span class=\"mono\">02:58.4</span>), leave out “that were sorted today” and go to “will most likely” (<span class=\"mono\">03:00.0</span>). On “end up in places like” cut to <a href=\"https://drive.google.com/file/d/1Gcl_m4Q7ABpXpXvN8gcLtByiEXY6j3yc/view\">DJI_20261019100503_0012_D_B01.MP4</a> <span class=\"mono\">00:17.6</span> to <span class=\"mono\">00:19.6</span>: people in orange shirts sort shoes and clothing under the SOLES4SOULS banner. On “the Dominican Republic, Guatemala, Haiti” cut to <a href=\"https://drive.google.com/file/d/1gApXxb8pTQ__mT6rrEAvMxLWNPghVlXj/view\">DJI_20261019100659_0016_D_B01.MP4</a> <span class=\"mono\">00:04.2</span> to <span class=\"mono\">00:06.7</span>: people in orange shirts around a table full of shoes. Back to his face for “which help people in these lower income countries” (<span class=\"mono\">03:22.2</span>). The transcript has 7 s with no words between “countries” and “start” (<span class=\"mono\">03:26.0</span> to <span class=\"mono\">03:33.2</span>): listen and cut them. On “start a business,” cut to <a href=\"https://drive.google.com/file/d/1WziDt8NUBGPYh1pAUQqbOmkcYD3-_zmh/view\">NNM_3537.MXF</a> <span class=\"mono\">00:08.0</span> to <span class=\"mono\">00:10.0</span>: two volunteers sort shoes at a table, a Soles4Souls sign behind them. On “and get themselves out of poverty.” cut to <a href=\"https://drive.google.com/file/d/1iL0nH3OkIxWbAyv7FqVxhuusrNT2srJ9/view\">NNM_3457.MXF</a> <span class=\"mono\">00:07.0</span> to <span class=\"mono\">00:09.5</span>: the Soles4Souls sign on the building, “Turning shoes and clothing into opportunity”. All B-roll picks are from visual.json: check each on scrub.",
+   "motion": "Key words at 00:20, top third, one at a time as he says them: <q>Dominican Republic</q> <q>Guatemala</q> <q>Haiti</q>. Captions on.",
    "voice": {
-    "who": "Josh",
-    "quote": "these shoes … will most likely end up in places like the Dominican Republic, Guatemala, Haiti, … start a business, and get themselves out of poverty.",
-    "src": "3575 03:00–03:35"
+    "who": "Josh Feliciano",
+    "quote": "these shoes … will most likely end up in places like the Dominican Republic, Guatemala, Haiti, … which help people in these lower income countries start a business, and get themselves out of poverty.",
+    "src": "NNM_3575.MXF 02:58.4 to 02:59.2 + 03:00.0 to 03:05.7 + 03:22.2 to 03:26.0 + 03:33.2 to 03:36.9"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "these"
+    },
+    {
+     "clip": "DJI_20261019100503_0012_D_B01.MP4",
+     "at": 17.6,
+     "dur": 2.0,
+     "cx": 0.5,
+     "path": "Denver 4EveryKid Oct. 2026/CAM B (Gimbal)/DJI_20261019100503_0012_D_B01.MP4",
+     "drive": "1Gcl_m4Q7ABpXpXvN8gcLtByiEXY6j3yc",
+     "layout": "full",
+     "what": "people in orange shirts sort shoes and clothing, SOLES4SOULS banner (visual.json)"
+    },
+    {
+     "clip": "DJI_20261019100659_0016_D_B01.MP4",
+     "at": 4.2,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "Denver 4EveryKid Oct. 2026/CAM B (Gimbal)/DJI_20261019100659_0016_D_B01.MP4",
+     "drive": "1gApXxb8pTQ__mT6rrEAvMxLWNPghVlXj",
+     "layout": "full",
+     "what": "people in orange shirts around a table full of shoes (visual.json)"
+    },
+    {
+     "face": true,
+     "from_word": "which"
+    },
+    {
+     "clip": "NNM_3537.MXF",
+     "at": 8.0,
+     "dur": 2.0,
+     "cx": 0.5,
+     "path": "Denver 4EveryKid Oct. 2026/CAM A (FX6)/NNM_3537.MXF",
+     "drive": "1WziDt8NUBGPYh1pAUQqbOmkcYD3-_zmh",
+     "layout": "full",
+     "what": "two volunteers sort shoes at a table, Soles4Souls sign behind (visual.json)"
+    },
+    {
+     "clip": "NNM_3457.MXF",
+     "at": 7.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "Denver 4EveryKid Oct. 2026/CAM A (FX6)/NNM_3457.MXF",
+     "drive": "1iL0nH3OkIxWbAyv7FqVxhuusrNT2srJ9",
+     "layout": "full",
+     "what": "Soles4Souls sign on the building: Turning shoes and clothing into opportunity (visual.json)"
+    }
+   ]
   },
   {
-   "tc": "00:29–00:34",
+   "tc": "00:29–00:33",
    "beat": "SOURCE OF HAPPINESS",
    "kind": "",
    "frame": null,
-   "crop": "none",
-   "frame_tag": null,
-   "frame_alt": null,
-   "visual": "Back to 3576 at 100%. Out on “bigger than me”.",
-   "motion": "Captions only.",
+   "crop": "c",
+   "frame_tag": "NNM_3576 0:34",
+   "frame_alt": "From visual.json (frame not pulled yet): Josh in the warehouse, glasses and a T-shirt, talking to camera.",
+   "visual": "Back to <a href=\"https://drive.google.com/file/d/1GvuzSLjsNyda7A4Y8WSRrj8LQuCbJEsu/view\">NNM_3576.MXF</a> at 100%, his face. Start on “Source” (<span class=\"mono\">00:33.6</span>). Out on “bigger than me.” (<span class=\"mono\">00:37.5</span>). His face is the strongest picture for his own answer: no B-roll here.",
+   "motion": "Top text at 00:29 for 2 s: <q>What is the source of your happiness?</q> Captions on.",
    "voice": {
-    "who": "Josh",
+    "who": "Josh Feliciano",
     "quote": "Source of my happiness is just being part of something that is bigger than me.",
-    "src": "3576 00:33–00:42"
+    "src": "NNM_3576.MXF 00:33.6 to 00:37.5"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Small lift."
+   "music": "Small lift.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Source"
+    }
+   ]
   },
   {
-   "tc": "00:34–00:40",
+   "tc": "00:33–00:40",
    "beat": "ONE MESSAGE",
    "kind": "",
    "frame": null,
-   "crop": "none",
-   "frame_tag": null,
-   "frame_alt": null,
-   "visual": "3576, the 03:10 retake. Start on “Try to be”. Hold 0.7 s after “less fortunate”.",
-   "motion": "Captions only.",
+   "crop": "c",
+   "frame_tag": "NNM_3576 3:13",
+   "frame_alt": "From visual.json (frame not pulled yet): the last part of NNM_3576 is marked as a shot of a “Trash Only” sign on the floor. Check on scrub that the camera is on Josh at 03:12.",
+   "visual": "<a href=\"https://drive.google.com/file/d/1GvuzSLjsNyda7A4Y8WSRrj8LQuCbJEsu/view\">NNM_3576.MXF</a>, the retake. Start on “Try to be” (<span class=\"mono\">03:12.6</span>). Do not use the first take at 02:55 (beeping over it). visual.json marks this part of the clip as a floor shot: check on scrub that his face is in frame; if it is not, keep his voice over <a href=\"https://drive.google.com/file/d/1ifPBjeqMaQDRPzSpr2MMyQ8CXhtfP_R-/view\">DJI_20261019100743_0017_D_B01.MP4</a> <span class=\"mono\">00:05.6</span> to <span class=\"mono\">00:11.6</span> (volunteers sort a table of bags and boxes). Hold 0.7 s after “less fortunate.” (<span class=\"mono\">03:18.6</span>), then the end card.",
+   "motion": "Top text at 00:33 for 2 s: <q>One message to the entire world?</q> Captions on.",
    "voice": {
-    "who": "Josh",
+    "who": "Josh Feliciano",
     "quote": "Try to be the best human you can be, and do something for others that are less fortunate.",
-    "src": "3576 03:10–03:20"
+    "src": "NNM_3576.MXF 03:12.6 to 03:18.6"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Resolve on “fortunate”."
+   "music": "Bed resolves on “fortunate”.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Try"
+    }
+   ]
   },
   {
    "tc": "00:40–00:43",
@@ -154,18 +261,19 @@
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "New S4S typography end card with the AYH × Soles4Souls lockup.",
-   "motion": "CTA line: <q>A new pair of shoes for a kid experiencing homelessness → soles4souls.org</q> Nothing else changes on the card.",
+   "visual": "The new Soles4Souls typography end card with the AYH × Soles4Souls lockup (client file, the Motion graphics tab has it).",
+   "motion": "CTA line: <q>A new pair of shoes for a kid experiencing homelessness → soles4souls.org</q> Nothing else changes on the card. No logo before this card.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Last note rings out. 1 s fade."
+   "music": "Last note rings out. 1 s fade.",
+   "shots": []
   }
  ],
  "frames": {},
  "files": [
   [
    "Editing brief",
-   "<a href=\"https://docs.google.com/document/d/11WF-5X_ZwTj5Qd9HWtL47dGzY1j98Abyp7zpaX7-rq4/edit\">S4S AYH Solo — Josh Feliciano (Denver) — Editing Brief</a> (Google Doc). This page is built from it."
+   "<a href=\"https://docs.google.com/document/d/11WF-5X_ZwTj5Qd9HWtL47dGzY1j98Abyp7zpaX7-rq4/edit\">S4S AYH Solo — Josh Feliciano (Denver) — Editing Brief</a> (Google Doc). Bites, order, lower third and end card are set there."
   ],
   [
    "Reference",
@@ -177,23 +285,31 @@
   ],
   [
    "Clip",
-   "<a href=\"https://drive.google.com/file/d/1GvuzSLjsNyda7A4Y8WSRrj8LQuCbJEsu/view\">NNM_3576.MXF</a> · Are You Happy? answers · CAM A (FX6); copy in AYH Interviews · 6.3 GB"
+   "<a href=\"https://drive.google.com/file/d/1GvuzSLjsNyda7A4Y8WSRrj8LQuCbJEsu/view\">NNM_3576.MXF</a> · Are You Happy? answers · 3:24 · CAM A (FX6); copy in AYH Interviews"
   ],
   [
    "Clip",
-   "<a href=\"https://drive.google.com/file/d/1yuGvJKGSOS0t1JikmD__96tA7yDY_7uR/view\">NNM_3575.MXF</a> · main interview · CAM A (FX6) · 13.3 GB"
+   "<a href=\"https://drive.google.com/file/d/1yuGvJKGSOS0t1JikmD__96tA7yDY_7uR/view\">NNM_3575.MXF</a> · main interview · 7:12 · CAM A (FX6)"
   ],
   [
    "Transcript",
-   "<a href=\"https://docs.google.com/document/d/16l2bwPD_H1xQnOzcggcTlM_FluJduRwBv5ecb1bZXks/edit\">Transcripts - Denver 4EveryKid Oct. 2026</a> · per-clip docs and .srt files in CAM A (FX6) › EditingResources"
+   "<a href=\"https://docs.google.com/document/d/16l2bwPD_H1xQnOzcggcTlM_FluJduRwBv5ecb1bZXks/edit\">Transcripts - Denver 4EveryKid Oct. 2026</a> · word times in <a href=\"https://drive.google.com/file/d/1VL9zJFHSSmLH2eHZGxUrTZoIwKu6mCf7/view\">output.json</a> · <a href=\"https://drive.google.com/file/d/1iRh67qmGhvlnFmqQ6K7kMnwQLsm1d8Zt/view\">Denver 4EveryKid Oct. 2026.srt</a>"
   ],
   [
    "visual.json",
-   "Yes: EditingResources › EditTranscripts › visual.json."
+   "<a href=\"https://drive.google.com/file/d/1ovARm756abRcLcqEZeOdwBgzkSC06R0f/view\">visual.json</a> (shoot level, the shot index). B-roll picks in this plan come from it; no frames were pulled yet."
+  ],
+  [
+   "B-roll picks",
+   "<a href=\"https://drive.google.com/file/d/1xzDOAq36UJAmmF5Cngh2mng4jxiQCss_/view\">DJI_20261019102036_0019_D_B01.MP4</a> 0:03.3 to 0:05.8 · <a href=\"https://drive.google.com/file/d/1Jf-mbQ51ozm8KAc9TwUxA05FruY9vEKs/view\">DJI_20261019093059_0005_D_B01.MP4</a> 0:03.1 to 0:04.6 · <a href=\"https://drive.google.com/file/d/1e6DRfVuHErYgUvuQHgFTWPUIlgqOO7vD/view\">DJI_20261019093119_0007_D_B01.MP4</a> 0:10.0 to 0:11.3 · <a href=\"https://drive.google.com/file/d/1Gcl_m4Q7ABpXpXvN8gcLtByiEXY6j3yc/view\">DJI_20261019100503_0012_D_B01.MP4</a> 0:17.6 to 0:19.6 · <a href=\"https://drive.google.com/file/d/1gApXxb8pTQ__mT6rrEAvMxLWNPghVlXj/view\">DJI_20261019100659_0016_D_B01.MP4</a> 0:04.2 to 0:06.7 · <a href=\"https://drive.google.com/file/d/1WziDt8NUBGPYh1pAUQqbOmkcYD3-_zmh/view\">NNM_3537.MXF</a> 0:08.0 to 0:10.0 · <a href=\"https://drive.google.com/file/d/1iL0nH3OkIxWbAyv7FqVxhuusrNT2srJ9/view\">NNM_3457.MXF</a> 0:07.0 to 0:09.5"
+  ],
+  [
+   "Brand graphics package",
+   "<a href=\"https://drive.google.com/drive/folders/1HaEuSzPDVfNxrNACiSyO0nl4Er-d9mFF\">S4S graphics package</a> (Drive): lower third bar, title plate, underline, circle burst, focus brackets, color wipe, shape swipe, topic tag, texture and gradient loops, 1080×1920, 30 fps, ProRes 4444. The plates are empty: type the words on them. The Motion graphics tab on this page has the graphics this script asks for as transparent .mov files."
   ],
   [
    "Brand",
-   "Teal <span class=\"mono\">#62CCBF</span>, black, white. Buenos Aires for titles, Roboto for body. End card: the new S4S typography card with the AYH × Soles4Souls lockup. CTA line: <q>A new pair of shoes for a kid experiencing homelessness → soles4souls.org</q>"
+   "Teal <span class=\"mono\">#62CCBF</span>, black, white. Buenos Aires for titles (Roboto Black if you don't have it), Roboto for body. Black text on teal, never white on teal. End card: the new S4S typography card with the AYH × Soles4Souls lockup."
   ],
   [
    "Music",
@@ -203,7 +319,7 @@
  "tech": [
   [
    "Source",
-   "Sony FX6, 3840×2160, 23.976 fps, shot horizontal (16:9). Videographer: Zach Baker (Never Not Media)."
+   "Sony FX6, 3840×2160, 23.976 fps, shot horizontal (16:9). Videographer: Zach Baker (Never Not Media). CAM B (Gimbal) B-roll is also 3840×2160 at 23.976 fps (visual.json)."
   ],
   [
    "Timeline",
@@ -211,15 +327,15 @@
   ],
   [
    "Crop",
-   "Reframe to 9:16. A 9:16 window of UHD is 1215×2160, so up to 120% stays sharp. Keep the face in the center third."
+   "Reframe to 9:16. A 9:16 window of UHD is 1215×2160, so up to 120% stays sharp. Keep his face in the center third. B-roll cx values are 0.5 by default: check each crop by eye."
   ],
   [
    "Audio",
-   "Use <b>Track 1 (lav)</b>. Track 2 is the shotgun, backup only. Listen to both on the first bite before you lock the mix."
+   "Use <b>Track 1 (lav)</b>. Track 2 is the shotgun, backup only. Listen to both on the first bite before you lock the mix. B-roll sound off or very low: people talk in some clips."
   ],
   [
    "Clean-up",
-   "Warehouse room noise. Noise reduction and a level pass on every interview bite before V1."
+   "Warehouse room noise. Noise reduction and a level pass on every interview bite before V1 (standing S4S rule)."
   ],
   [
    "Loudness",
@@ -227,30 +343,333 @@
   ],
   [
    "Captions",
-   "Burned in, US English. S4S style: black text on a teal <span class=\"mono\">#62CCBF</span> box. Never white on teal. Large, max 2 lines. Bottom 20% clear for app buttons."
+   "Burned in, US English. S4S style: black text on a teal <span class=\"mono\">#62CCBF</span> box. Never white on teal. Large, max 2 lines. Bottom 20% clear for app buttons. The Captions section on this page has them as transparent .mov files, timed to the cut."
   ],
   [
    "Export",
-   "H.264 MP4, 1080×1920. One file, 9:16 only. Upload to Frame.io → Ready for Review."
+   "H.264 MP4, 1080×1920. One file, 9:16 only. Upload to Frame.io → Ready for Review with the Edit Key in the file name."
   ]
  ],
  "checklist": [
-  "Soles4Souls and 4EveryKid are spelled exactly. The transcript writes “Souls for Souls”, “Souls4Souls” and “For Every Kid”. Never caption those.",
-  "US English in every caption.",
+  "Frame 1 is Josh with <q>Are you happy?</q> on screen. No logo, title card, name or fade at 0:00.",
+  "Name super at 00:03 reads “Josh Feliciano / Warehouse Coordinator, Soles4Souls Denver”.",
+  "Soles4Souls and 4EveryKid are spelled exactly. Never caption “Souls for Souls” or “For Every Kid”.",
+  "Every jump between takes is covered by B-roll or a punch-in.",
+  "No B-roll sound or talk under his voice.",
+  "His message is the 03:12 retake, no beeping.",
   "Text is big enough to read on a phone. Text size is this client's most common note.",
   "Audio is cleaned (noise reduction, level pass) before V1.",
-  "Frame 1 is the person talking with the hook text. No logo, title card or fade at 0:00.",
-  "End card is the new S4S typography card with the AYH × Soles4Souls lockup and the CTA line from the brief.",
-  "Lower third reads “Josh Feliciano / Warehouse Coordinator, Soles4Souls Denver”.",
-  "His message is the 03:10 retake, no beeping."
+  "End card is the new S4S typography card with the AYH × Soles4Souls lockup and the CTA line from the brief."
  ],
- "decisions": [],
+ "decisions": [
+  {
+   "t": "Same bites in a draft Denver cut",
+   "b": "A draft brief in the shoot folder (“The only Soles4Souls employee in Denver”, not on the board yet, no Edit Key) plans the same NNM_3575 lines this cut uses (03:57 and 02:58). If Nick boards that cut, one of the two needs other lines so the posts do not repeat."
+  }
+ ],
  "client_note": "<b>Why this matters:</b> the Are You Happy? collab posts are part of what Soles4Souls expects this fall. Sydney asked to <q>keep the notes joy themed, positive.</q> Every solo ends on the mission and the soles4souls.org ask.",
  "ask_examples": [
   "What is the hook text?",
   "Which take of his message do I use?",
-  "Which part of 3576 do I skip?",
+  "Which parts of the clips do I skip?",
   "Which end card do I use?"
  ],
- "transcript": "Machine transcript (Whisper) from the shoot's transcript doc. Times are mm:ss from the first frame of each file, not camera timecode. Speaker tags are often wrong. Names are by ear. Garbage lines from silent stretches are left out.\n\n== NNM_3575.MXF (Josh Feliciano) ==\n[00:00] Q: What do I do with my hands?\n[00:09] You don't have to worry about them, honestly.\n[00:13] Alright, tell me your name and what you do at Souls for Souls.\n[00:17] My name is Josh Feliciano. I am the warehouse coordinator here in Colorado.\n[00:25] Denver.\n[00:25] Q: Could you say Souls for Souls in that?\n[00:29] I am Josh Feliciano.\n[00:35] I am the warehouse coordinator for Souls for Souls here in Denver, Colorado.\n[00:39] Q: What happens here at the Colorado Regional Distribution Center?\n[00:57] So at the Distribution Center, it is where all the donations\n[01:01] come through here. We process them, we repackage them\n[01:05] based on size and\n[01:09] style sometimes, and we set them up for\n[01:13] shipment to various countries.\n[01:18] Q: Can you give me a little more on that as far as what you told those guys\n[01:23] Q: where you pair up shoes and make sure\n[01:26] just a little more of that intro that you gave to them\n[01:34] Q: the volunteers?\n[01:34] So what we try to do here at the Donation Center\n[01:39] or at the Distribution Center, I am sorry, let's do it again.\n[01:43] Q: What we do here at the Distribution Center is make sure that the product\n[01:47] is product that can be used wherever they end up\n[01:51] next after this stop here in Colorado. So we want to make sure\n[01:55] that they are pairs, we want to make sure that they still have life in them, and that\n[01:59] our partners down in areas we serve have good\n[02:03] usable shoes.\n[02:13] Q: What does it mean to have a partner like Voya show up to help?\n[02:17] I think having Voya as a partner is a way\n[02:21] to raise awareness of\n[02:26] non-profits like us. There are many people that do similar work, but I think\n[02:30] with Voya they have a reach to a certain demographic\n[02:34] that's really helpful for us, not only making people\n[02:38] aware that we exist, but also\n[02:42] from a financial perspective.\n[02:48] Now you're good.\n[02:53] Q: Where do the shoes that were sorted today\n[02:56] end up? So these shoes that were sorted today will\n[03:00] most likely end up in places like the Dominican Republic,\n[03:04] Guatemala, Haiti, just to name a few.\n[03:08] Q: What happens there? Give me that little brief.\n[03:12] So a lot of the product we get through here are used\n[03:16] shoes, and it helps our program called\n[03:20] For Opportunity, which help people\n[03:24] in these lower income countries\n[03:33] start a business,\n[03:35] and get themselves out of poverty.\n[03:39] Q: What does it mean to you, you talked about it a little earlier with everybody,\n[03:43] but what does it mean to you to have not only Voya,\n[03:47] Q: but other volunteers throughout the week?\n[03:51] Q: What's that like to have people come in and help you out?\n[03:55] Yeah, so for me, I am the only\n[03:59] Souls for Souls employee here in Denver, so I rely heavily\n[04:03] on my volunteers just to help process the product that comes\n[04:07] through here. We get hundreds up to thousands of shoes per week,\n[04:11] and we do need the hands to help us sort\n[04:15] through all of those shoes to make sure that we are sending things out\n[04:19] that are still in use or able to be used.\n[04:23] Okay, and can you give me a quick\n[04:27] Q: what you told me this morning, how you get both shoes from donations\n[04:31] as well as DSW, there's new, there's old.\n[04:35] Yeah, okay, so a lot of our shoes we receive are\n[04:39] either from our donation boxes we have\n[04:43] throughout the Denver area, whether it's in churches, schools,\n[04:47] rec centers, we have them in shoe\n[04:51] stores, and I also have\n[04:55] a network of volunteers that help me pick up these shoes and\n[04:59] bring them here to our facility so that we can sort through them.\n[05:03] Okay, and then can you tell me a little bit\n[05:08] about just the before every kid\n[05:13] Q: and kind of tomorrow what these guys are doing?\n[05:17] If you don't know, that's fine.\n[05:21] No, I do.\n[05:26] So with the before every kid program, it's a program geared towards\n[05:30] American, towards kids experiencing\n[05:34] homelessness here in America where they get brand new\n[05:38] name brand shoes that we provide\n[05:42] for them.\n[05:47] Q: Give me that one more time.\n[05:51] Before every kid is a program\n[05:58] that provides kids experiencing homelessness\n[06:02] with a new set of shoes.\n[06:07] So the for every kid program is a program\n[06:10] geared towards kids experiencing homelessness here in America\n[06:14] Q: where they get a brand new pair of shoes.\n[06:21] If you could say\n[06:23] Q: one thing to the people who support Souls for Souls, what would that be?\n[06:31] Thank you. A big thank you for supporting us. We need\n[06:35] all of the support and\n[06:43] take two.\n[06:46] Maybe lead off with\n[06:49] if I could say one thing to the people who support us, it would be a huge\n[06:56] thank you.\n[06:57] If I could say one thing to those who support us, it's\n[07:01] a big thank you. We cannot do what we do without\n[07:05] your help.\n[07:09] Alright, now you have your phone blocked.\n\n== NNM_3576.MXF (Josh Feliciano) ==\n[00:01] OK.\n[00:03] Q: Are you happy?\n[00:04] I am happy.\n[00:05] You know, I've always wanted to do this kind of work.\n[00:07] And Souls for Souls has given me the opportunity\n[00:11] to give back to those who are in need all over the world.\n[00:16] Awesome.\n[00:18] Q: What is the source of your happiness?\n[00:33] Source of my happiness is just being part of something\n[00:36] that is bigger than me.\n[00:38] And I'm happy to be just a part of that.\n[00:42] OK.\n[00:46] Q: Tell me a little bit more about that,\n[00:48] like what is giving back, and how does giving back\n[00:52] Q: make you happy, or why?\n[01:08] Q: Why does it make me happy?\n[01:11] Q: I mean, why do you do this?\n[01:12] Just straight up on this.\n[01:14] Q: Why are you here?\n[01:17] Q: Why this?\n[01:22] I think because, man, I don't know.\n[01:39] Q: You don't know?\n[01:40] I don't know.\n[01:46] Q: Try again?\n[01:47] Q: Why are you here?\n[01:49] Q: Why do you do this?\n[01:51] Obviously, you wake up every day,\n[01:52] and you're excited to be here, and you're\n[01:55] excited to get stuff from volunteers\n[01:57] Q: and help other people, right?\n[02:00] Q: So why do you do that every morning?\n[02:03] I think I do it because I know that it's\n[02:06] going to help someone that is less fortunate.\n[02:10] And I feel like any little thing that I can do\n[02:15] Q: will make an impact, no matter how great it is.\n[02:19] I don't know what I'm talking about.\n[02:20] No, that's great.\n[02:21] I think you pick up from that.\n[02:23] Any little thing I can do, it can help somebody.\n[02:26] Q: And that's really all that matters, right?\n[02:28] Yeah.\n[02:29] So go ahead.\n[02:30] So I do what I do because I know that it\n[02:35] is going to benefit someone that is less fortunate somewhere\n[02:43] in the world.\n[02:46] And then last one.\n[02:47] If you could give one message to the entire world,\n[02:49] Q: what would it be?\n[02:55] If I could give one message, be a good human.\n[03:03] Q: Do what you can to help those that are less fortunate.\n[03:07] Let's do that one more time because of the beeping.\n[03:09] OK.\n[03:09] Yeah.\n[03:10] Q: If I could give one message to the entire world, it would be?\n[03:12] Try to be the best human you can be,\n[03:14] and do something for others that are less fortunate.\n[03:19] It makes you feel good.\n[03:20] Cool."
+ "transcript": "Machine transcript (word times from the shoot's output.json). Times are mm:ss.s from the first frame of each clip. Names are spelled the client's way (Soles4Souls, 4EveryKid, 4Opportunity); the machine wrote them wrong. Interviewer and crew lines are marked. Josh's Are You Happy answers are in the second clip.\n\n--- NNM_3576.MXF ---\n[00:01.7] [interviewer, do not use: OK.]\n[00:03.1] [interviewer, do not use: Are you happy?]\n[00:04.6] I am happy.\n[00:05.2] You know, I've always wanted to do this kind of work.\n[00:07.5] And Soles4Souls has given me the opportunity\n[00:11.3] to give back to those who are in need all over the world.\n[00:16.6] [interviewer, do not use: Awesome.]\n[00:18.1] [interviewer, do not use: What is the source of your happiness?]\n[00:33.6] Source of my happiness is just being part of something\n[00:36.1] that is bigger than me.\n[00:38.4] And I'm happy to be just a part of that.\n[00:42.9] [interviewer, do not use: OK.]\n[00:46.4] [interviewer, do not use: Tell me a little bit more about that,]\n[00:48.7] [interviewer, do not use: like what is giving back, and how does giving back]\n[00:52.0] [interviewer, do not use: make you happy, or why?]\n[01:08.7] [do not use, the I don't know section: Why does it make me happy?]\n[01:11.5] [do not use, the I don't know section: I mean, why do you do this?]\n[01:12.8] [do not use, the I don't know section: Just straight up on this.]\n[01:14.7] [do not use, the I don't know section: Why are you here?]\n[01:17.1] [do not use, the I don't know section: Why this?]\n[01:22.0] [do not use, the I don't know section: I think because, man, I don't know.]\n[01:39.0] [do not use, the I don't know section: You don't know?]\n[01:40.3] [do not use, the I don't know section: I don't know.]\n[01:46.2] [do not use, the I don't know section: Try again?]\n[01:47.2] [interviewer, do not use: Why are you here?]\n[01:49.0] [interviewer, do not use: Why do you do this?]\n[01:51.5] [interviewer, do not use: Obviously, you wake up every day,]\n[01:52.9] [interviewer, do not use: and you're excited to be here, and you're]\n[01:55.9] [interviewer, do not use: excited to get stuff from volunteers]\n[01:57.6] [interviewer, do not use: and help other people, right?]\n[02:00.9] [interviewer, do not use: So why do you do that every morning?]\n[02:03.0] I think I do it because I know that it's\n[02:06.2] going to help someone that is less fortunate.\n[02:11.0] And I feel like any little thing that I can do\n[02:15.9] will make an impact, no matter how great it is.\n[02:19.0] [do not use, off-hand remark: I don't know what I'm talking about.]\n[02:20.5] [interviewer, do not use: No, that's great.]\n[02:22.0] [interviewer, do not use: I think you pick up from that.]\n[02:23.3] [interviewer, do not use: Any little thing I can do, it can help somebody.]\n[02:26.5] [interviewer, do not use: And that's really all that matters, right?]\n[02:28.2] [interviewer, do not use: Yeah.]\n[02:29.4] [interviewer, do not use: So go ahead.]\n[02:30.3] So I do what I do because I know that it\n[02:35.5] is going to benefit someone that is less fortunate somewhere\n[02:43.1] in the world.\n[02:46.2] [interviewer, do not use: And then last one.]\n[02:47.1] [interviewer, do not use: If you could give one message to the entire world,]\n[02:49.3] [interviewer, do not use: what would it be?]\n[02:55.4] [do not use, beeping on this take, use the retake at 03:12: If I could give one message, be a good human.]\n[03:03.1] [do not use, beeping on this take, use the retake at 03:12: Do what you can to help those that are less fortunate.]\n[03:07.0] [crew talk, do not use: Let's do that one more time because of the beeping.]\n[03:09.1] [crew talk, do not use: OK.]\n[03:09.6] [crew talk, do not use: Yeah.]\n[03:10.1] If I could give one message to the entire world, it would be?\n[03:12.6] Try to be the best human you can be,\n[03:14.6] and do something for others that are less fortunate.\n[03:19.3] It makes you feel good.\n[03:20.9] [crew talk, do not use: Cool.]\n\n--- NNM_3575.MXF ---\n[00:00.1] [crew talk, do not use: What do I do with my hands?]\n[00:09.1] [interviewer, do not use: You don't have to worry about them, honestly.]\n[00:13.1] [interviewer, do not use: Alright, tell me your name and what you do at Soles4Souls.]\n[00:17.1] My name is Josh Feliciano. I am the warehouse coordinator here in Colorado.\n[00:25.9] Denver.\n[00:25.9] [interviewer, do not use: Could you say Soles4Souls in that?]\n[00:29.8] I am Josh Feliciano.\n[00:35.6] I am the warehouse coordinator for Soles4Souls here in Denver, Colorado.\n[00:39.3] [interviewer, do not use: What happens here at the Colorado Regional Distribution Center?]\n[00:57.5] So at the Distribution Center, it is where all the donations\n[01:01.3] come through here. We process them, we repackage them\n[01:05.8] based on size and\n[01:09.7] style sometimes, and we set them up for\n[01:13.3] shipment to various countries.\n[01:18.2] [interviewer, do not use: Can you give me a little more on that as far as what you told those guys]\n[01:23.3] [interviewer, do not use: where you pair up shoes and make sure]\n[01:26.2] [interviewer, do not use: just a little more of that intro that you gave to them]\n[01:34.4] [interviewer, do not use: the volunteers?]\n[01:34.4] [do not use, false start: So what we try to do here at the Donation Center]\n[01:39.3] [do not use, false start: or at the Distribution Center, I am sorry, let's do it again.]\n[01:43.3] What we do here at the Distribution Center is make sure that the product\n[01:47.3] is product that can be used wherever they end up\n[01:51.3] next after this stop here in Colorado. So we want to make sure\n[01:55.3] that they are pairs, we want to make sure that they still have life in them, and that\n[01:59.3] our partners down in areas we serve have good\n[02:03.3] usable shoes.\n[02:13.2] [interviewer, do not use: What does it mean to have a partner like Voya show up to help?]\n[02:17.2] [left out: his answer about Voya as a partner]\n[02:48.5] [interviewer, do not use: Now you're good.]\n[02:53.4] [interviewer, do not use: Where do the shoes that were sorted today]\n[02:56.3] [interviewer, do not use: end up?]\n[02:56.9] So these shoes that were sorted today will\n[03:00.4] most likely end up in places like the Dominican Republic,\n[03:04.4] Guatemala, Haiti, just to name a few.\n[03:08.4] [interviewer, do not use: What happens there? Give me that little brief.]\n[03:12.4] So a lot of the product we get through here are used\n[03:16.4] shoes, and it helps our program called\n[03:20.4] 4Opportunity, which help people\n[03:24.4] in these lower income countries\n[03:33.2] start a business,\n[03:35.3] and get themselves out of poverty.\n[03:39.4] [interviewer, do not use: What does it mean to you, you talked about it a little earlier with everybody,]\n[03:43.4] [interviewer, do not use: but what does it mean to you to have not only Voya,]\n[03:47.4] [interviewer, do not use: but other volunteers throughout the week?]\n[03:51.4] [interviewer, do not use: What's that like to have people come in and help you out?]\n[03:55.6] Yeah, so for me, I am the only\n[03:59.4] Soles4Souls employee here in Denver, so I rely heavily\n[04:03.4] on my volunteers just to help process the product that comes\n[04:07.4] through here. We get hundreds up to thousands of shoes per week,\n[04:11.4] and we do need the hands to help us sort\n[04:15.4] through all of those shoes to make sure that we are sending things out\n[04:19.7] that are still in use or able to be used.\n[04:23.8] [interviewer, do not use: Okay, and can you give me a quick]\n[04:27.6] [interviewer, do not use: what you told me this morning, how you get both shoes from donations]\n[04:31.6] [interviewer, do not use: as well as DSW, there's new, there's old.]\n[04:35.6] Yeah, okay, so a lot of our shoes we receive are\n[04:39.6] either from our donation boxes we have\n[04:43.8] throughout the Denver area, whether it's in churches, schools,\n[04:47.6] rec centers, we have them in shoe\n[04:51.6] stores, and I also have\n[04:55.6] a network of volunteers that help me pick up these shoes and\n[04:59.6] bring them here to our facility so that we can sort through them.\n[05:03.6] [interviewer, do not use: Okay, and then can you tell me a little bit]\n[05:08.9] [interviewer, do not use: about just the 4EveryKid]\n[05:13.1] [interviewer, do not use: and kind of tomorrow what these guys are doing?]\n[05:17.8] [interviewer, do not use: If you don't know, that's fine.]\n[05:21.8] No, I do.\n[05:26.2] So with the 4EveryKid program, it's a program geared towards\n[05:30.2] American, towards kids experiencing\n[05:34.2] homelessness here in America where they get brand new\n[05:38.2] name brand shoes that we provide\n[05:42.7] for them.\n[05:47.1] [interviewer, do not use: Give me that one more time.]\n[05:51.1] 4EveryKid is a program\n[05:58.6] that provides kids experiencing homelessness\n[06:02.6] with a new set of shoes.\n[06:07.9] So the 4EveryKid program is a program\n[06:10.6] geared towards kids experiencing homelessness here in America\n[06:14.6] where they get a brand new pair of shoes.\n[06:21.6] [interviewer, do not use: If you could say]\n[06:23.9] [interviewer, do not use: one thing to the people who support Soles4Souls, what would that be?]\n[06:31.6] Thank you. A big thank you for supporting us. We need\n[06:35.3] all of the support and\n[06:43.2] [crew talk, do not use: take two.]\n[06:46.9] [crew talk, do not use: Maybe lead off with]\n[06:49.0] if I could say one thing to the people who support us, it would be a huge\n[06:56.9] thank you.\n[06:57.2] If I could say one thing to those who support us, it's\n[07:01.1] a big thank you. We cannot do what we do without\n[07:05.0] your help.\n[07:09.2] [crew talk, do not use: Alright, now you have your phone blocked.]",
+ "alts": {
+  "hook:0": [
+   {
+    "text": "Something bigger than me",
+    "line": "Source of my happiness is just being part of something that is bigger than me.",
+    "why": "His title line as the hook."
+   },
+   {
+    "text": "The only Soles4Souls employee in Denver",
+    "line": "Yeah, so for me, I am the only Soles4Souls employee here in Denver, so I rely heavily on my volunteers just to help process the product that comes through here.",
+    "why": "A surprising fact that makes you stay."
+   },
+   {
+    "text": "Up to thousands of shoes per week",
+    "line": "We get hundreds up to thousands of shoes per week, and we do need the hands to help us sort through all of those shoes to make sure that we are sending things out that are still in use or able to be used.",
+    "why": "The scale, in his words."
+   },
+   {
+    "text": "Be the best human you can be",
+    "line": "Try to be the best human you can be, and do something for others that are less fortunate.",
+    "why": "His message as the hook."
+   },
+   {
+    "text": "Where do donated shoes go?",
+    "line": "So these shoes that were sorted today will most likely end up in places like the Dominican Republic, Guatemala, Haiti, just to name a few.",
+    "why": "A question his answer pays off."
+   }
+  ],
+  "bite:0": [
+   {
+    "quote": "And I'm happy to be just a part of that.",
+    "who": "Josh Feliciano",
+    "file": "NNM_3576.MXF",
+    "why": "A short yes, right after his source line."
+   },
+   {
+    "quote": "I think I do it because I know that it's going to help someone that is less fortunate.",
+    "who": "Josh Feliciano",
+    "file": "NNM_3576.MXF",
+    "why": "Why he does it, in one line."
+   },
+   {
+    "quote": "So I do what I do because I know that it is going to benefit someone that is less fortunate somewhere in the world.",
+    "who": "Josh Feliciano",
+    "file": "NNM_3576.MXF",
+    "why": "His clean retake of why he does it."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "Yeah, so for me, I am the only Soles4Souls employee here in Denver, so I rely heavily on my volunteers just to help process the product that comes through here.",
+    "who": "Josh Feliciano",
+    "file": "NNM_3575.MXF",
+    "why": "The whole line, with the volunteers."
+   },
+   {
+    "quote": "We get hundreds up to thousands of shoes per week, and we do need the hands to help us sort through all of those shoes to make sure that we are sending things out that are still in use or able to be used.",
+    "who": "Josh Feliciano",
+    "file": "NNM_3575.MXF",
+    "why": "The scale and why he needs hands."
+   },
+   {
+    "quote": "I am the warehouse coordinator for Soles4Souls here in Denver, Colorado.",
+    "who": "Josh Feliciano",
+    "file": "NNM_3575.MXF",
+    "why": "Who he is, if the super is not enough."
+   },
+   {
+    "quote": "a network of volunteers that help me pick up these shoes and bring them here to our facility so that we can sort through them.",
+    "who": "Josh Feliciano",
+    "file": "NNM_3575.MXF",
+    "why": "How the shoes reach him."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "So these shoes that were sorted today will most likely end up in places like the Dominican Republic, Guatemala, Haiti, just to name a few.",
+    "who": "Josh Feliciano",
+    "file": "NNM_3575.MXF",
+    "why": "The places, in one clean take."
+   },
+   {
+    "quote": "So a lot of the product we get through here are used shoes, and it helps our program called 4Opportunity, which help people in these lower income countries start a business, and get themselves out of poverty.",
+    "who": "Josh Feliciano",
+    "file": "NNM_3575.MXF",
+    "why": "Names the program (caption 4Opportunity)."
+   },
+   {
+    "quote": "So the 4EveryKid program is a program geared towards kids experiencing homelessness here in America where they get a brand new pair of shoes.",
+    "who": "Josh Feliciano",
+    "file": "NNM_3575.MXF",
+    "why": "The 4EveryKid side of his work."
+   },
+   {
+    "quote": "So we want to make sure that they are pairs, we want to make sure that they still have life in them, and that our partners down in areas we serve have good usable shoes.",
+    "who": "Josh Feliciano",
+    "file": "NNM_3575.MXF",
+    "why": "What the sorting checks."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "And I'm happy to be just a part of that.",
+    "who": "Josh Feliciano",
+    "file": "NNM_3576.MXF",
+    "why": "His short follow-up."
+   },
+   {
+    "quote": "And I feel like any little thing that I can do will make an impact, no matter how great it is.",
+    "who": "Josh Feliciano",
+    "file": "NNM_3576.MXF",
+    "why": "Small acts count."
+   },
+   {
+    "quote": "So I do what I do because I know that it is going to benefit someone that is less fortunate somewhere in the world.",
+    "who": "Josh Feliciano",
+    "file": "NNM_3576.MXF",
+    "why": "Why he does it."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "If I could say one thing to those who support us, it's a big thank you. We cannot do what we do without your help.",
+    "who": "Josh Feliciano",
+    "file": "NNM_3575.MXF",
+    "why": "A thank-you message instead."
+   },
+   {
+    "quote": "And I feel like any little thing that I can do will make an impact, no matter how great it is.",
+    "who": "Josh Feliciano",
+    "file": "NNM_3576.MXF",
+    "why": "A message about small acts."
+   },
+   {
+    "quote": "So I do what I do because I know that it is going to benefit someone that is less fortunate somewhere in the world.",
+    "who": "Josh Feliciano",
+    "file": "NNM_3576.MXF",
+    "why": "Ends on the world, like his message."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "Soles4Souls runs fuller packages: hook text, a name super, key words, two question texts and B-roll pods over every jump between takes. His two answers stay on his face: his face is the strongest picture there. No logo before the end card.",
+  "devices": [
+   {
+    "row": "00:00–00:10",
+    "device": "Hook text (static), name super, 1 B-roll shot",
+    "asset": "Are you happy? · S4S lower third bar · DJI_0019 0:03.3 to 0:05.8",
+    "source": "MG library of this page · S4S graphics package · Drive CAM B (Gimbal)"
+   },
+   {
+    "row": "00:10–00:17",
+    "device": "B-roll pod over the jump (2 shots)",
+    "asset": "DJI_0005 0:03.1 to 0:04.6 · DJI_0007 0:10.0 to 0:11.3",
+    "source": "Drive CAM B (Gimbal), from visual.json"
+   },
+   {
+    "row": "00:17–00:29",
+    "device": "Key words (word stack), punch-in, B-roll pod (4 shots)",
+    "asset": "Dominican Republic / Guatemala / Haiti · DJI_0012 0:17.6 · DJI_0016 0:04.2 · NNM_3537 0:08.0 · NNM_3457 0:07.0",
+    "source": "MG library of this page · Drive CAM A and CAM B, from visual.json"
+   },
+   {
+    "row": "00:29–00:33",
+    "device": "Question top text, face only",
+    "asset": "What is the source of your happiness?",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "00:33–00:40",
+    "device": "Question top text, face only",
+    "asset": "One message to the entire world?",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "00:40–00:43",
+    "device": "End card",
+    "asset": "Soles4Souls typography end card + CTA line",
+    "source": "endcards/s4s"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "DJI_20261019100503_0012_D_B01.MP4",
+    "path": "Denver 4EveryKid Oct. 2026/CAM B (Gimbal)/DJI_20261019100503_0012_D_B01.MP4",
+    "drive": "1Gcl_m4Q7ABpXpXvN8gcLtByiEXY6j3yc",
+    "at": 5.9,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "people in orange shirts at a table with shoes, bags and boxes, banner behind (medium shot)",
+    "frame": null
+   },
+   {
+    "clip": "DJI_20261019102036_0019_D_B01.MP4",
+    "path": "Denver 4EveryKid Oct. 2026/CAM B (Gimbal)/DJI_20261019102036_0019_D_B01.MP4",
+    "drive": "1xzDOAq36UJAmmF5Cngh2mng4jxiQCss_",
+    "at": 9.8,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "people in orange shirts around a table, SOLES4SOULS banner (locked off)",
+    "frame": null
+   },
+   {
+    "clip": "DJI_20261019102232_0021_D_B01.MP4",
+    "path": "Denver 4EveryKid Oct. 2026/CAM B (Gimbal)/DJI_20261019102232_0021_D_B01.MP4",
+    "drive": "1cC1H4txAUtIy0G07MwIGREgLjqvpKOpi",
+    "at": 4.5,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "volunteers in orange shirts, one in gloves handling a pair of shoes",
+    "frame": null
+   },
+   {
+    "clip": "DJI_20261019093003_0004_D_B01.MP4",
+    "path": "Denver 4EveryKid Oct. 2026/CAM B (Gimbal)/DJI_20261019093003_0004_D_B01.MP4",
+    "drive": "1YXzYi9ncu4ByVDKrleYWHc1R76fhZ3EW",
+    "at": 3.9,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "a cardboard box full of shoes, New Balance among them",
+    "frame": null
+   },
+   {
+    "clip": "NNM_3458.MXF",
+    "path": "Denver 4EveryKid Oct. 2026/CAM A (FX6)/NNM_3458.MXF",
+    "drive": "13oQYfej5W491vzWtwtBiRKVeNipIOAB8",
+    "at": 3.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "the Soles4Souls sign: Turning shoes and clothing into opportunity",
+    "frame": null
+   },
+   {
+    "clip": "NNM_3563.MXF",
+    "path": "Denver 4EveryKid Oct. 2026/CAM A (FX6)/NNM_3563.MXF",
+    "drive": "1LXP7aTkMgOK9IA8-L5CrjxrbxSDKUrn_",
+    "at": 14.3,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "volunteers in orange shirts sort shoes at a table",
+    "frame": null
+   },
+   {
+    "clip": "NNM_3523.MXF",
+    "path": "Denver 4EveryKid Oct. 2026/CAM A (FX6)/NNM_3523.MXF",
+    "drive": "1yrCsBqNoSvNWWLswpJZ02QsEBRIGFMKX",
+    "at": 2.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "volunteers sort shoes, SOLES4SOULS banner behind",
+    "frame": null
+   },
+   {
+    "clip": "NNM_3456.MXF",
+    "path": "Denver 4EveryKid Oct. 2026/CAM A (FX6)/NNM_3456.MXF",
+    "drive": "1ukhkqo1wxd8NwHv2ufq37KdxvNU1n9dj",
+    "at": 2.7,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "a Soles4Souls donation box outside: Donate shoes & clothing here!",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "S4S lower third bar (S4S_04_Lower-third-bar_9x16_ProRes4444.mov)",
+    "kind": "lower_third",
+    "file": null,
+    "url": "https://drive.google.com/file/d/1d1ZQUA47o_HirJZ4JHWA9gq6ZV8r9a6w/view",
+    "local": null,
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   },
+   {
+    "name": "S4S title plate (S4S_05_Title-plate_9x16_ProRes4444.mov)",
+    "kind": "title_plate",
+    "file": null,
+    "url": "https://drive.google.com/file/d/17xk97mFNY5ci75Q-HCU-1z4dyR-yumBm/view",
+    "local": null,
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   },
+   {
+    "name": "Soles4Souls typography end card (client file)",
+    "kind": "end_card",
+    "file": "endcards/s4s/s4s-typography-end-card.mp4",
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
 }
