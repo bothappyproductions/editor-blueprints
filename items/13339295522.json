@@ -1,0 +1,274 @@
+{
+ "id": "13339295522",
+ "client": "niwrc",
+ "eyebrow": "NIWRC · OKC DVAM Reception, Skydance Brewing · 9 Oct 2026 · Are You Happy (AYH)",
+ "title": "Lucy Simpson:",
+ "title_q": "“Look to Each Other for Our Strength”",
+ "title_short": "Lucy Simpson · AYH · Look to Each Other for Our Strength",
+ "editor": "Qendrim",
+ "due": "2026-11-11",
+ "format": "9:16 vertical · 1080×1920 (source is already vertical, 2160×3840)",
+ "length": "about 43 s",
+ "edit_key": "NIWRCOKCAYHLucy001",
+ "headline": "NIWRC's CEO, off the formal script: she is so very happy, she is grandma now, and her message to the world is to look to each other for strength.",
+ "story": [
+  "Warm and personal. <b>Family first</b> (\"I'm grandma now, which is crazy\"), then the work, arm in arm with other strong Native women leaders. She ends on community and resilience: NIWRC's voice in one line."
+ ],
+ "feel": [
+  "Warm",
+  "Proud",
+  "Gentle laugh",
+  "Hopeful"
+ ],
+ "do": [
+  "Let the \"grandma\" laugh play. It is the heart of the piece.",
+  "Show women together on \"arm in arm with so many other strong Native women leaders\".",
+  "Use TAKE 2 of the world message only (from 01:03.6).",
+  "Close on her face for the last line."
+ ],
+ "dont": [
+  "Do not use take 1 (\"listen to the voices of our native women\", 00:43.96–00:52.80) or \"I don't know, let me think about that.\"",
+  "Do not reuse bites from Ardit's Lucy cuts (\"Safety Is Not the Absence of Violence\", \"There Is No Shame in It\", donor thank-you). This clip shares none.",
+  "No B-roll woman who could be mistaken for Lucy (she wears a colorful patterned dress and beaded earrings).",
+  "No crew audio (\"Good job.\", \"Okay.\")."
+ ],
+ "links": {
+  "brief": {
+   "title": "Lucy Simpson · Are You Happy · \"Look to Each Other for Our Strength\"",
+   "url": "https://docs.google.com/document/d/1jZSAixsCiA0vE1boMeXFj32rXz9WpD29zdvGsySi_mM/edit",
+   "note": "The blueprint was written as a Google Doc. This page is the same plan, on the site."
+  },
+  "reference": {
+   "title": "Approved NIWRC traditional (Q)",
+   "url": "https://f.io/zKa6KyXr",
+   "note": "No AYH reference is on the Monday item. Match your approved NIWRC traditional for captions, color and pacing, and keep this in step with your Christie, Brandi and Cory AYH cuts. Nick owes the AYH reference if he wants a different one."
+  },
+  "footage": {
+   "title": "Interview 2 folder",
+   "url": "https://drive.google.com/drive/folders/1RLI90H-H6_riYf6R5rVW3QCkQFdVUVY4",
+   "note": "Interview 2 folder (in the NIWRC OKC 9 Oct 2026 raw folder) · B-Roll folder · B1"
+  }
+ },
+ "bp_intro": "One source clip: <b>26-10-09 C1 Happy - NIWRC Event 7.MP4</b> (vertical 2160×3840, 23.976 fps, 88 s). Times are source times in that file, from the word-level transcript (Interview 2.transcript.json), not the master-transcript times in the old brief. B-roll from B-Roll/B1. <b>The first text card is already on screen at 0:00 and does not animate on.</b>",
+ "rows": [
+  {
+   "tc": "00:00–00:03",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Lucy, medium, standing outdoors, patterned dress, beaded earrings, tree and building behind. Start on \"I\". Punch in so her face sits in the top third.",
+   "motion": "Question card <b>ARE YOU HAPPY?</b> on screen at frame 0 (no animate-on). Out on \"happy.\"",
+   "voice": {
+    "who": "Lucy",
+    "quote": "I am so very happy.",
+    "src": "26-10-09 C1 Happy - NIWRC Event 7.MP4 00:02.91–00:04.79 (hold her smile 0.5 s)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music starts under, low."
+  },
+  {
+   "tc": "00:03–00:07",
+   "beat": "SOURCE",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Lucy, same frame.",
+   "motion": "Question card <b>WHAT IS THE SOURCE OF YOUR HAPPINESS?</b> in at 00:03, out at 00:04.5. Name super at 00:05, 2.5 s: <b>Lucy Simpson</b> / Chief Executive Officer, NIWRC.",
+   "voice": {
+    "who": "Lucy",
+    "quote": "My happiness comes from my family and my children and my grandchildren.",
+    "src": "26-10-09 C1 Happy - NIWRC Event 7.MP4 00:10.13–00:13.85"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:07–00:11",
+   "beat": "GRANDMA",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Stay on her face. Let the laugh after \"crazy\" play out (to about 00:17.6).",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Lucy",
+    "quote": "I'm grandma now, which is crazy.",
+    "src": "26-10-09 C1 Happy - NIWRC Event 7.MP4 00:14.41–00:16.21 (+ laugh to ~00:17.6)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:11–00:20",
+   "beat": "THE WORK",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Face for \"And also just knowing that I do this work to promote safety in solidarity\". On \"arm in arm with so many other strong Native women leaders\" cut to <b>B1 Event 29</b> 00:11.5–00:34.5 (three women at a table, talking) or <b>B1 Event 39</b> 00:19.3–00:57.8 (three women at a table). Pick the shot where no woman looks like Lucy. Center crop 16:9 to 9:16.",
+   "motion": "Highlight the words <b>STRONG NATIVE WOMEN LEADERS</b> in the caption (brand pill). Nothing else.",
+   "voice": {
+    "who": "Lucy",
+    "quote": "And also just knowing that I do this work to promote safety in solidarity and arm in arm with so many other strong Native women leaders.",
+    "src": "26-10-09 C1 Happy - NIWRC Event 7.MP4 00:17.77–00:26.93"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:20–00:25",
+   "beat": "MESSAGE",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Back on Lucy, face.",
+   "motion": "Question card <b>ONE MESSAGE TO THE ENTIRE WORLD?</b> in at 00:20, out at 00:21.5.",
+   "voice": {
+    "who": "Lucy",
+    "quote": "it would be to really take care of each other, protect each other,",
+    "src": "26-10-09 C1 Happy - NIWRC Event 7.MP4 01:03.63–01:08.65 (TAKE 2; start on \"it\", the card replaces the question)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:25–00:29",
+   "beat": "STRENGTH",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Lucy, face. Hold.",
+   "motion": "Kinetic quote: <b>LOOK TO EACH OTHER FOR OUR STRENGTH</b> word-stack, in on \"look\", out at end of line.",
+   "voice": {
+    "who": "Lucy",
+    "quote": "and to look to each other for our strength.",
+    "src": "26-10-09 C1 Happy - NIWRC Event 7.MP4 01:09.23–01:13.63"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:29–00:40",
+   "beat": "RESILIENCE",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Lucy, face to the end. visual.json says she looks up from about 01:06; that reads well here.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Lucy",
+    "quote": "As Native people, we have so much resilience and it's just so important that we really have that opportunity to bring that knowledge and those experiences to the world.",
+    "src": "26-10-09 C1 Happy - NIWRC Event 7.MP4 01:14.59–01:25.31 (tighten the 0.8 s gap before \"those\")"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music swells gently on \"to the world.\""
+  },
+  {
+   "tc": "00:40–00:43",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "End card.",
+   "motion": "NIWRC × Happy Productions end card, white NIWRC logo on red. Logo only here.",
+   "voice": "<span class=\"none\">(music only)</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music out."
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Editing brief",
+   "<a href=\"https://docs.google.com/document/d/1jZSAixsCiA0vE1boMeXFj32rXz9WpD29zdvGsySi_mM/edit\">Lucy Simpson · Are You Happy · &quot;Look to Each Other for Our Strength&quot;</a> (Google Doc). This page is built from it."
+  ],
+  [
+   "Brief",
+   "<a href=\"https://docs.google.com/document/d/1yqy2PNVp9mBkfLOHEulYDndBG27v6nHBC_niSn8AUNE/edit\">Editing Brief (Google Doc)</a>"
+  ],
+  [
+   "Reference",
+   "<a href=\"https://f.io/zKa6KyXr\">Approved NIWRC traditional (Q)</a> — No AYH reference is on the Monday item. Match your approved NIWRC traditional for captions, color and pacing, and keep this in step with your Christie, Brandi and Cory AYH cuts. Nick owes the AYH reference if he wants a different one."
+  ],
+  [
+   "Footage",
+   "<a href=\"https://drive.google.com/drive/folders/1RLI90H-H6_riYf6R5rVW3QCkQFdVUVY4\">Interview 2 folder</a> (in the <a href=\"https://drive.google.com/drive/folders/1jivE7s9xcOSQyoSJ-CRO4Z0AhyqGXnRg\">NIWRC OKC 9 Oct 2026 raw folder</a>) · <a href=\"https://drive.google.com/drive/folders/1dGx5Fx5jLztaq-g6KuesN2pjPZbdlUSg\">B-Roll folder</a> · <a href=\"https://drive.google.com/drive/folders/10NgSmy-lusV-taZa8z8Rl4F-soIm5wj7\">B1</a>"
+  ],
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/1EOtGp60jDrQ8FyH2H-m-xPMhHDHACBcLYHuASPvai3k/edit\">NIWRC Production Brief — Oklahoma City, October 2026</a>"
+  ],
+  [
+   "Standing rules",
+   "No victim imagery. Nothing that shows a woman in fear or harm.<br>Supers: name and title only. No Tribal affiliation on screen.<br>Capital T in \"Tribal\" and capital N in \"Native\" everywhere on screen, captions too.<br>Music: Native music only if made AND performed by a verified US Native artist. Otherwise a neutral instrumental.<br>Hopeful, never somber. Logo only on the end card (white logo on NIWRC red)."
+  ],
+  [
+   "Alternates",
+   "\"And if I could give one message to the entire world,\" (00:53.40–01:02.83, take 2 question, has a long pause inside) if the question card does not work alone."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "2160×3840 vertical, 23.976 fps. No crop needed."
+  ],
+  [
+   "B-roll",
+   "B1 clips are 3840×2160, 59.94 fps. Center-crop to 9:16, conform to timeline fps."
+  ],
+  [
+   "Timeline",
+   "1080×1920, 23.976 fps."
+  ],
+  [
+   "Audio",
+   "Check which channel is the live mic on the first seconds. Social loudness -14 LUFS."
+  ],
+  [
+   "Captions",
+   "Your approved NIWRC caption template. Capitalise \"Native\" (the transcript writes it lowercase)."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920."
+  ],
+  [
+   "Upload name",
+   "25_Traditional_NIWRCOKCAYHLucy001-1.mp4 (raise -1 by one for every new version)"
+  ],
+  [
+   "Frame.io folder",
+   "National Indigenous Women's Resource Center / niwrc_batch_4_2026"
+  ]
+ ],
+ "checklist": [
+  "0:00 frame shows her face AND the ARE YOU HAPPY? card. No logo, no fade.",
+  "Only take 2 of the world message is used.",
+  "The grandma laugh is in.",
+  "B-roll women cannot be mistaken for Lucy.",
+  "\"Native\" capitalised in every caption.",
+  "Name super not before 0:03: Lucy Simpson / Chief Executive Officer, NIWRC.",
+  "No crew audio at the end.",
+  "End card: white logo on red, logo nowhere else."
+ ],
+ "decisions": [],
+ "client_note": "<b>Why this matters:</b> the OKC Are You Happy? cuts are a series (Christie, Brandi, Cory, Jacob, Lucy). Keep them in one look. Hopeful, never somber.",
+ "ask_examples": [],
+ "transcript": "--- 26-10-09 C1 Happy - NIWRC Event 7.MP4 ---\n[00:02.9] I am so very happy.\n[00:10.1] My happiness comes from my family and my children and my grandchildren.\n[00:14.4] I'm grandma now, which is crazy.\n[00:17.8] And also just knowing that I do this work to promote safety in solidarity and\n[00:23.6] arm in arm with so many other strong native women leaders.\n[00:38.4] I don't know, let me think about that.\n[00:44.0] If I could give one message to the entire world,\n[00:47.6] it would be to really listen to the voices of our native women.\n[00:53.4] And if I could give one message to the entire world,\n[01:03.6] it would be to really take care of each other, protect each other,\n[01:09.2] and to look to each other for our strength.\n[01:14.6] As native people, we have so much resilience and it's just so\n[01:19.2] important that we really have that opportunity to bring that knowledge and\n[01:24.2] those experiences to the world.\n[01:26.9] Good job.\n[01:27.5] Okay."
+}
