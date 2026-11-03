@@ -1,0 +1,363 @@
+{
+ "id": "13412205523",
+ "client": "niwrc",
+ "eyebrow": "NIWRC · OKC DVAM Reception · 9 Oct 2026 · Donor thank-you set (1 of 3, with Kerri and tai)",
+ "title": "Cory Johnson:",
+ "title_q": "“This One Is for You”",
+ "title_short": "Cory Johnson · Donor thank-you",
+ "editor": "Qendrim",
+ "due": "2026-11-04",
+ "format": "9:16 only · 1080×1920 (source 16:9, crop)",
+ "length": "about 14 s (the real lines run about 10 s)",
+ "edit_key": "NIWRCOKCCoryDonorThankYou001",
+ "headline": "Cory thanks the donor himself, face to camera: what they gave makes an everlasting change for Native women and communities.",
+ "story": [
+  "Cory asked for this clip himself on camera. NIWRC sends it to donors after Domestic Violence Awareness Month. Three lines and a smile: the thanks, what the gift does, “Thank you.”",
+  "<b>Loops:</b> L1 “Who is thanking me, and for what?” opens at 0:00 and closes at 00:05 on “to support Native women and communities”. L2 “What did my gift change?” opens at 0:00 and closes on “everlasting change”. <b>Stakes:</b> safety and sovereignty for Native women and communities. The donor made it possible."
+ ],
+ "feel": [
+  "Warm",
+  "Personal",
+  "Grateful",
+  "Direct"
+ ],
+ "do": [
+  "Open on Cory mid-sentence with <q>THIS ONE IS FOR YOU</q> already on screen at 0:00.",
+  "Use the C1 Event 3 sound for every line (live mic), also under the C2 angle.",
+  "Name super at 00:03, lower left, 2.5 s: Cory Johnson / Development and Strategic Impact Officer, NIWRC.",
+  "Let him finish the smile after “Thank you.”, about 1 s, then the end card.",
+  "Match the pacing, captions and color of your Kerri and tai thank-you clips. The three post as a set."
+ ],
+ "dont": [
+  "Do not open with “Hi, my name is Cory Johnson…”. His name and title go on the super.",
+  "No cutaways, no reception footage, no programs list, nothing sad.",
+  "No “Good.” and no laugh after “Thank you.”.",
+  "No logo, name card or fade at 0:00.",
+  "No Tribal affiliation on the super. Name and title only."
+ ],
+ "links": {
+  "brief": {
+   "title": "NIWRC — Cory Johnson donor thank-you — Director's Blueprint (Google Doc)",
+   "url": "https://docs.google.com/document/d/1_1ulFN9uPNSaaaIix5HyExqPyxaJ6J4cMdAt2oVi7K4/edit",
+   "note": "The first version of this plan, as a Google Doc. This page is the current plan."
+  },
+  "reference": {
+   "title": "Approved NIWRC traditional - Cory (Q)",
+   "url": "https://f.io/vkQU5U4U",
+   "note": "Your own approved Cory cut. Watch it first; match its pacing, captions and color."
+  },
+  "footage": {
+   "title": "NIWRC OKC 9 Oct 2026 raw ▸ Interview 1",
+   "url": "https://drive.google.com/drive/folders/1MESYaq7SViO5X_F9-VKZ-8h19RfwBhnV",
+   "note": "Interview 1 = Cory. The thank-you take: 26-10-09 C1 Happy - NIWRC Event 3.MP4 (0:34, front camera, live mic) and 26-10-09 C2 Happy - NIWRC Event 3.MP4 (0:34, second angle). Event 2 is an earlier take."
+  }
+ },
+ "bp_intro": "Picture and sound: <span class=\"mono\">26-10-09 C1 Happy - NIWRC Event 3.MP4</span> (3840×2160, 23.976 fps, 0:34; C1 = live mic). Second angle: <span class=\"mono\">26-10-09 C2 Happy - NIWRC Event 3.MP4</span>, same take: the same word comes about 1.15 s earlier in the C2 file (C1 00:14.4 = C2 00:13.3). Times are C1 source times worked out from the C2 word times (C1 = C2 + 1.15 s, steady across the take): the C1 machine transcript squeezes several words to almost nothing (for example “communities.” 00:18.83 to 00:18.85), the C2 one is steadier. Set every in and out point on the waveform. No frames were pulled for these clips yet: the shots are named from visual.json.",
+ "rows": [
+  {
+   "tc": "00:00–00:04",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Cory on <a href=\"https://drive.google.com/file/d/1nYMx9LF05guLywDyPtlKPsgoeNgM0UtV/view\">C1 Event 3</a>, mid-sentence. visual.json, segment 00:08.5 to 00:25.5: wide, locked off, a man in a suit stands outdoors and talks with his hands, a cafe behind him. Crop 9:16 on his face and punch in so he reads at phone size. Start on “I” (<span class=\"mono\">00:14.5</span>). Face only: this is a personal thank-you and his face is the strongest picture.",
+   "motion": "Hook text on <b>frame 1</b>: <q>THIS ONE IS FOR YOU</q>. Already on screen at 0:00. Does not animate on. Top third, big, bold. Out at 00:02.5. Name super at 00:03 for 2.5 s, lower left above the captions: <q>Cory Johnson</q> / Development and Strategic Impact Officer, NIWRC. Name and title only. Captions on.",
+   "voice": {
+    "who": "Cory Johnson",
+    "quote": "I personally want to thank you for making your donation to support Native women and communities.",
+    "src": "26-10-09 C1 Happy - NIWRC Event 3.MP4 00:14.5 to 00:17.7"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Soft music starts low on frame 1. Neutral instrumental, warm. No lyrics.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I"
+    }
+   ]
+  },
+  {
+   "tc": "00:04–00:09",
+   "beat": "EVERLASTING CHANGE",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Stay on C1, or cut once to <a href=\"https://drive.google.com/file/d/12QDa_VDhuPPzmdWb-gngOWmwRFW1aEuH/view\">C2 Event 3</a> on “everlasting change” (C1 <span class=\"mono\">00:19.4</span> = C2 <span class=\"mono\">00:18.2</span>; sync by waveform). visual.json: C2 segment 00:08.5 to 00:25.5 is a medium shot of the same take, locked off. Keep the C1 sound under the C2 picture. Back to C1 for the end of the line if the C2 framing is weaker.",
+   "motion": "Highlight <b>everlasting change</b> in the caption, in your NIWRC caption template. Captions on.",
+   "voice": {
+    "who": "Cory Johnson",
+    "quote": "Your donation makes an everlasting change to bring safety and promote sovereignty for Native women and communities.",
+    "src": "26-10-09 C1 Happy - NIWRC Event 3.MP4 00:18.5 to 00:23.6 (the C2 transcript hears “create safety” and “women in communities”: caption the words he says)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Your"
+    },
+    {
+     "clip": "26-10-09 C2 Happy - NIWRC Event 3.MP4",
+     "at": 18.2,
+     "dur": 2.0,
+     "cx": null,
+     "path": "Interview 1/26-10-09 C2 Happy - NIWRC Event 3.MP4",
+     "drive": "12QDa_VDhuPPzmdWb-gngOWmwRFW1aEuH",
+     "layout": "full",
+     "what": "Optional second angle of Cory, same take (medium, visual.json). Crop TBD on scrub."
+    },
+    {
+     "face": true,
+     "from_word": "safety"
+    }
+   ]
+  },
+  {
+   "tc": "00:09–00:11",
+   "beat": "BUTTON",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "C1. Hold his smile about 1 s after “Thank you.” Stop before the crew's “Good?” (about <span class=\"mono\">00:25.7</span>).",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Cory Johnson",
+    "quote": "Thank you.",
+    "src": "26-10-09 C1 Happy - NIWRC Event 3.MP4 00:23.9 to 00:24.3"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed resolves.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Thank"
+    }
+   ]
+  },
+  {
+   "tc": "00:11–00:14",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "End card: NIWRC logo, white on NIWRC red <span class=\"mono\">#981C20</span>. The logo is here only.",
+   "motion": "Your approved NIWRC end card: white logo on red. No logo before this card.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music out.",
+   "shots": []
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Director's Blueprint (Google Doc)",
+   "<a href=\"https://docs.google.com/document/d/1_1ulFN9uPNSaaaIix5HyExqPyxaJ6J4cMdAt2oVi7K4/edit\">Cory Johnson donor thank-you — Director's Blueprint</a>. This page is the current plan."
+  ],
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/1EOtGp60jDrQ8FyH2H-m-xPMhHDHACBcLYHuASPvai3k/edit\">NIWRC Production Brief — Oklahoma City, October 2026</a>"
+  ],
+  [
+   "Reference",
+   "<a href=\"https://f.io/vkQU5U4U\">Approved NIWRC traditional - Cory (Q)</a>"
+  ],
+  [
+   "Footage folder",
+   "<a href=\"https://drive.google.com/drive/folders/1jivE7s9xcOSQyoSJ-CRO4Z0AhyqGXnRg\">NIWRC OKC 9 Oct 2026 raw</a> · <a href=\"https://drive.google.com/drive/folders/1MESYaq7SViO5X_F9-VKZ-8h19RfwBhnV\">Interview 1</a>"
+  ],
+  [
+   "Interview clip",
+   "<a href=\"https://drive.google.com/file/d/1nYMx9LF05guLywDyPtlKPsgoeNgM0UtV/view\">26-10-09 C1 Happy - NIWRC Event 3.MP4</a> · 0:34 · front camera, wide, live mic · the take this cut uses"
+  ],
+  [
+   "Second angle",
+   "<a href=\"https://drive.google.com/file/d/12QDa_VDhuPPzmdWb-gngOWmwRFW1aEuH/view\">26-10-09 C2 Happy - NIWRC Event 3.MP4</a> · 0:34 · medium · camera mic"
+  ],
+  [
+   "Earlier take (not this cut)",
+   "<a href=\"https://drive.google.com/file/d/1ZyfPK-YyRUW9smVUyHG_YSsPPdwQz2f7/view\">26-10-09 C1 Happy - NIWRC Event 2.MP4</a> · different words, an earlier try"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1yODBl0X9NOx2zTUCqWO2Y9-A-hK0vdQjIMUP9S7fwmY/edit\">Transcripts - Interview 1</a> · <a href=\"https://drive.google.com/file/d/17M_VBAjvdvQg7PfNLqmtnSeEx7WCddp2/view\">Interview 1.transcript.json</a> (word times used here)"
+  ],
+  [
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/1aSJbS1IAKZCaVOjGit2YtNZ1Ge33acMG/view\">visual.json</a> (shoot level, Erin's shot index). The shots on this page are named from it."
+  ],
+  [
+   "B-roll picks",
+   "None by plan: a face-to-camera thank-you, like the Kerri and tai clips."
+  ],
+  [
+   "Brand graphics package",
+   "NIWRC package: Drive <span class=\"mono\">deliverables/graphics-packages/NIWRC</span>. Folder link not available in this run. Type the words on the empty plates in Source Sans 3."
+  ],
+  [
+   "Brand",
+   "Oswald and Source Sans 3. NIWRC red <span class=\"mono\">#981C20</span>, purple <span class=\"mono\">#4D3271</span>, light base <span class=\"mono\">#E7DED5</span>, near black <span class=\"mono\">#231F20</span>."
+  ],
+  [
+   "Music",
+   "Native music only if it is made AND performed by a verified US Native artist. Otherwise a neutral instrumental. Music never competes with the voice."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "Two Sony cameras, 3840×2160, 23.976 fps (visual.json). C1 Event 3 is wide, C2 Event 3 is medium."
+  ],
+  [
+   "Audio",
+   "C1 = live mic. On his interview (C1 Event 1) it measured about -27 dB mean, peaks -7 dB, dual mono. C2 = camera mic. Use C1 sound for every line. He is outdoors with a cafe behind him: level pass and light noise reduction."
+  ],
+  [
+   "Timeline",
+   "1080×1920 at <b>23.976 fps</b> (no conform)."
+  ],
+  [
+   "Crop",
+   "4K 16:9. A 9:16 crop is 1215×2160, so it is scaled down, never up. C1 is wide (his face is small in frame): punch in up to about 1.5× and check sharpness."
+  ],
+  [
+   "Loudness",
+   "-14 LUFS integrated, -1 dBTP peak. Music always under the voice (client rule: music never competes with the voice)."
+  ],
+  [
+   "Captions",
+   "Burned in, low in the frame, Source Sans 3 bold, white with a soft shadow, in your approved NIWRC caption template. Capital N in “Native”. “Cory” is C-O-R-Y."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920, 9:16. Upload to Frame.io → Ready for Review."
+  ]
+ ],
+ "checklist": [
+  "0:00 = his face with THIS ONE IS FOR YOU already on screen. No logo, no fade, no “Hi, my name is”.",
+  "The hook text does not animate on.",
+  "Super at 00:03: Cory Johnson / Development and Strategic Impact Officer, NIWRC. Listen to his title at C1 Event 3 00:10 first. No Tribal affiliation.",
+  "C1 sound under every shot, also the C2 angle.",
+  "“Good.” and the laugh after “Thank you.” are cut.",
+  "Capital N in “Native” in every caption.",
+  "No cutaways, no reception footage, no victim imagery. Hopeful, never somber.",
+  "Pacing, captions and color match your Kerri and tai thank-you clips.",
+  "End card: white logo on red. Logo only there.",
+  "9:16 only, 1080×1920."
+ ],
+ "decisions": [],
+ "client_note": "<b>Why this matters:</b> NIWRC sends these thank-you clips to donors after DVAM. Cory, Kerri and tai go out as a set, so they must look and feel the same.",
+ "ask_examples": [
+  "Which camera do I use for sound?",
+  "What is his exact title on the super?",
+  "Do I use any B-roll?",
+  "Where do I stop after “Thank you.”?"
+ ],
+ "transcript": "Machine transcript of Cory Johnson's donor thank-you takes (Interview 1 folder, NIWRC OKC, 9 Oct 2026). Times are mm:ss.s in each file. Event 3 is the take this cut uses; Event 2 is an earlier take with different words. The C1 transcript writes “Shooting” and C2 writes “Corey”: both are wrong (Cory, Strategic).\n--- 26-10-09 C1 Happy - NIWRC Event 3.MP4 ---\n[00:08.2] Hi, my name is Cory Johnson and I serve as a Development and Shooting Impact Officer for the National Indigenous Women's Resource Centre. [do not use: spoken intro; his name and title go on the super]\n[00:14.4] I personally want to thank you for making your donation to support Native women and communities.\n[00:19.4] Your donation makes an everlasting change to bring safety and promote sovereignty for Native women and communities.\n[00:24.4] Thank you.\n[00:25.7] Good. [do not use: crew talk]\n[00:30.8] Thank you.\n--- 26-10-09 C2 Happy - NIWRC Event 3.MP4 ---\n[00:07.1] Hi, my name is Corey Johnson and I serve as a development and a strategic impact officer for the National Indigenous Women's Resource Center. [do not use: spoken intro; his name and title go on the super]\n[00:13.3] I personally want to thank you for making your donation to support Native women in communities.\n[00:17.4] Your donation makes an everlasting change to create safety and promote sovereignty for Native women in communities.\n[00:22.8] Thank you.\n[00:24.8] Good? [do not use: crew talk]\n[00:24.9] I was just laughing. [do not use: crew talk]\n[00:25.9] Okay, good. [do not use: crew talk]\n--- 26-10-09 C1 Happy - NIWRC Event 2.MP4 ---\n[00:14.4] Hi, my name is Corey Johnson. [do not use: spoken intro]\n[00:15.6] I serve as a development and strategic impact officer here at the National Indigenous Women's Resource Center. [do not use: spoken intro]\n[00:20.9] I personally want to thank you for making your donation today.\n[00:23.9] Your impact changes lives for Native women and communities to create safety for lasting change and growing this opportunity.\n[00:29.4] Thank you.\n[00:30.6] 50%? [do not use: crew talk]\n[00:32.7] Slower? [do not use: crew talk]\n[00:33.1] Okay. [do not use: crew talk]\n[00:36.5] I'm going to take my abyssal right now. [do not use: crew talk]\n--- 26-10-09 C2 Happy - NIWRC Event 2.MP4 ---\n[00:02.9] I was gonna wait till they, oh, maybe they're walking away, okay. [do not use: crew talk]\n[00:07.5] Okay. [do not use: crew talk]\n[00:15.8] Hi, my name is Cory Johnson. [do not use: spoken intro]\n[00:17.0] I serve as a development and strategic impact officer here at the National Indigenous Women's Resource Center. [do not use: spoken intro]\n[00:22.3] I personally want to thank you for making your donation today.\n[00:25.3] Your impact changes lives for Native women and communities to create safety for lasting change and promoting a somber team. [do not use: the end of this line is a transcript error; C1 Event 2 hears “growing this opportunity”]\n[00:31.0] Thank you.\n[00:32.0] Okay. [do not use: crew talk]\n[00:34.0] Okay. [do not use: crew talk]\n[00:36.1] Okay. [do not use: crew talk]\n[00:37.9] Okay. [do not use: crew talk]\n[00:40.5] I'm gonna take my abyssal line out. [do not use: crew talk]",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "I personally want to thank you for making your donation today.",
+    "who": "Cory Johnson",
+    "file": "26-10-09 C1 Happy - NIWRC Event 2.MP4",
+    "why": "Same thanks from the earlier take, shorter."
+   },
+   {
+    "quote": "Your donation makes an everlasting change to bring safety and promote sovereignty for Native women and communities.",
+    "who": "Cory Johnson",
+    "file": "26-10-09 C1 Happy - NIWRC Event 3.MP4",
+    "why": "Lead with what the gift does."
+   },
+   {
+    "quote": "Your impact changes lives for Native women and communities to create safety for lasting change and growing this opportunity.",
+    "who": "Cory Johnson",
+    "file": "26-10-09 C1 Happy - NIWRC Event 2.MP4",
+    "why": "The earlier take's version of the impact line."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "Your impact changes lives for Native women and communities to create safety for lasting change and growing this opportunity.",
+    "who": "Cory Johnson",
+    "file": "26-10-09 C1 Happy - NIWRC Event 2.MP4",
+    "why": "Same idea from the earlier take: lives change, safety lasts."
+   },
+   {
+    "quote": "I personally want to thank you for making your donation to support Native women and communities.",
+    "who": "Cory Johnson",
+    "file": "26-10-09 C1 Happy - NIWRC Event 3.MP4",
+    "why": "The thanks itself, if the hook moves."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "Thank you.",
+    "who": "Cory Johnson",
+    "file": "26-10-09 C1 Happy - NIWRC Event 2.MP4",
+    "why": "Same words from the earlier take, if this one is clipped."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "THIS ONE IS FOR YOU",
+    "line": "I personally want to thank you for making your donation to support Native women and communities.",
+    "why": "Direct and personal: the donor knows at once the clip is for them."
+   },
+   {
+    "text": "EVERLASTING CHANGE",
+    "line": "Your donation makes an everlasting change to bring safety and promote sovereignty for Native women and communities.",
+    "why": "His strongest words as the hook."
+   },
+   {
+    "text": "YOUR GIFT CHANGES LIVES",
+    "line": "Your impact changes lives for Native women and communities to create safety for lasting change and growing this opportunity.",
+    "why": "From the earlier take, if you use that line."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "NIWRC runs light: one designed element at a time, text only when it helps, no logo before the end card, no victim imagery. This thank-you stays on his face by plan (the Cory, Kerri and tai set all do): hook text, one name super, the end card.",
+  "devices": [
+   {
+    "row": "00:00–00:04",
+    "device": "Hook text, static, then name super at 00:03",
+    "asset": "Hook text <q>THIS ONE IS FOR YOU</q>; name super Cory Johnson",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "00:04–00:09",
+    "device": "Optional angle change to C2",
+    "asset": "C2 Event 3 about 00:18.2",
+    "source": "Drive Interview 1"
+   },
+   {
+    "row": "00:11–00:14",
+    "device": "End card",
+    "asset": "NIWRC logo white on red",
+    "source": "endcards/niwrc"
+   }
+  ],
+  "broll_pool": [],
+  "elements": [
+   {
+    "name": "NIWRC end card (white logo on red)",
+    "kind": "end_card",
+    "file": "endcards/niwrc/niwrc-logo-white.svg",
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
+}

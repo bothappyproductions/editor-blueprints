@@ -1,0 +1,498 @@
+{
+ "id": "12937285887",
+ "client": "freedom-reads",
+ "eyebrow": "Freedom Reads · Washington Corrections Center for Women, ILP 2026 Tour · Interview cut",
+ "title": "Samantha:",
+ "title_q": "“A Book About Censorship”",
+ "title_short": "Samantha · A Book About Censorship",
+ "editor": "Qendrim",
+ "due": "2026-11-03",
+ "format": "9:16 only · 1080×1920 (source 16:9, crop)",
+ "length": "about 60 s",
+ "edit_key": "FREEDOMREADSSamanthaCensorship001",
+ "headline": "Her group was reading a book about censorship when one of their own books got pulled. The faraway idea happened to them, and it became a beautiful conversation.",
+ "story": [
+  "The story of the year at WCCW: the ILP readers were reading <b>The Book Censor's Library</b> at the same time one of the books was pulled from them by the institution. The idea in the book stopped being far away, and it brought the book “really to the forefront”.",
+  "Keep eyes on the book and the idea. It is not about the facility and not about what could happen to her. Calm, curious, a little wry. It ends on “a neat experience, as frustrating as it was.”"
+ ],
+ "feel": [
+  "Thoughtful",
+  "Calm",
+  "Wry",
+  "Bookish"
+ ],
+ "do": [
+  "Open mid-story on “This group specifically”, with <q>A book about censorship</q> already on screen.",
+  "Name card at 00:03: Samantha / Washington Corrections Center for Women. First name only.",
+  "Book card at 00:05, title exactly as printed: The Book Censor's Library by Bothayna Al-Essa.",
+  "Dry room. No music until the last row.",
+  "Group B-roll on “a beautiful conversation”, from WCCW clips only, and only shots the “Take Our Name Back” cut does not use."
+ ],
+ "dont": [
+  "Do not use “I hope I don't get anybody in trouble for this.” (02:05.8). Hard rule.",
+  "No attack on the facility. Never put a line about the institution on a graphic.",
+  "Do not say on screen which book was pulled. She does not name it.",
+  "No last name on screen or in captions. Do not use her spoken intro (00:08.5).",
+  "No Minnesota files: never P1055378, P1055350, P1055354 or WSP000xx without “v”."
+ ],
+ "links": {
+  "brief": {
+   "title": "Editor brief: Samantha, “A Book About Censorship” (pulse.12937285887)",
+   "url": "https://docs.google.com/document/d/1i31umKHR47SVvNcsssxCUJhLLsX2wBx0Jj08Fvh8nkA/edit",
+   "note": "Bites, order and rules come from it. There is no production brief: Freedom Reads filmed this and sent it to us."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Nick owes it. Production Planning has no row for the Washington ILP stop. Match your other Washington ILP cuts."
+  },
+  "footage": {
+   "title": "Washington ILP Videos",
+   "url": "https://drive.google.com/drive/folders/1qkwwC72jeFGbSYSd6X1QL7LRbRGnKUjE",
+   "note": "Interview: P1055419.MOV (5:57, WCCW, one camera). Group B-roll: P1055376.MOV and P1055379.MOV (WCCW). P1055378.MOV is Minnesota: never use it."
+  }
+ },
+ "bp_intro": "All lines are from <span class=\"mono\">P1055419.MOV</span> (5:57, WCCW, one camera, 16:9, sound recorded into the camera). Times are mm:ss.s in that file, from the word-level transcript; the Monday brief's times match the file. No frames were pulled for the WCCW clips yet and visual.json has no shot data, so the picture in every row is from the brief and the transcript: check each shot on scrub.",
+ "rows": [
+  {
+   "tc": "00:00–00:05",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Samantha on camera, <a href=\"https://drive.google.com/file/d/16bn5egXE0jSCVDBs72TS2E_0UEelT9dW/view\">P1055419</a>, mid-story. Start on “This” (<span class=\"mono\">02:08.8</span>). Crop 9:16 on her face. Framing TBD on scrub. Check no ID badge or lanyard card is readable. Face only: the hook is her words.",
+   "motion": "Hook text on <b>frame 1</b>, top third: <q>A book about censorship</q>. Already on screen at 0:00. Does not animate on. Out at 00:03. Name card at 00:03 for 2.5 s, lower left above the captions: <q>Samantha</q> / Washington Corrections Center for Women. First name only. Captions on.",
+   "voice": {
+    "who": "Samantha",
+    "quote": "This group specifically, I think it was really poignant that we were reading a book about censorship",
+    "src": "P1055419.MOV 02:08.8 to 02:14.0"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music. Dry room.</span>",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "This"
+    }
+   ]
+  },
+  {
+   "tc": "00:05–00:10",
+   "beat": "PULLED",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Stay on Samantha. Cut the pause before “at” to about 0.25 s.",
+   "motion": "Book card at 00:05 for 3 s, top third: <q>The Book Censor's Library by Bothayna Al-Essa · Inside Literary Prize 2026 shortlist</q>. Title exactly as printed, capitals and apostrophe. It names the book they were reading, not the book that was pulled. Captions on.",
+   "voice": {
+    "who": "Samantha",
+    "quote": "at the same time that one of the books got pulled from our content by the institution.",
+    "src": "P1055419.MOV 02:14.8 to 02:19.2"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "at"
+    }
+   ]
+  },
+  {
+   "tc": "00:10–00:28",
+   "beat": "A BEAUTIFUL CONVERSATION",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Samantha for “a beautiful conversation”. Skip “I think that that's really, really interesting.” (02:19.9). On “Talking about how you're reading this book” (<span class=\"mono\">02:28.1</span>) cut to the group: B-roll TBD on scrub from <a href=\"https://drive.google.com/file/d/1e5zNzuYY3qQLOGPxnIfZeHLmiFF16AJr/view\">P1055376</a> 00:00 to 01:00 (the WCCW group talking about the book), 2 or 3 shots of about 2 s: readers in the circle, a book in hands. Mute the B-roll sound. Back to Samantha on “And it seems like this far away idea” (<span class=\"mono\">02:37.8</span>). WCCW clips only. Do not use P1055379 00:10 to 00:56 or P1055376 01:18 to 01:49: the “Take Our Name Back” cut uses them (client: no repeated B-roll in this batch). Check no ID badge is readable.",
+   "motion": "Key words, top third, as she says them (00:10): <q>a beautiful conversation</q>. 2 s. Captions on.",
+   "voice": {
+    "who": "Samantha",
+    "quote": "And it was actually a beautiful conversation that we had as a group. Talking about how you're reading this book that talks about censorship in other countries. And it's a different culture where books are banned and content is illicit. And it seems like this far away idea that impacts other places.",
+    "src": "P1055419.MOV 02:23.8 to 02:42.3"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "And"
+    },
+    {
+     "clip": "P1055376.MOV",
+     "at": null,
+     "dur": 2.0,
+     "cx": null,
+     "path": "Freedom Reads/Raw Footage/Washington ILP Videos/P1055376.MOV",
+     "drive": "1e5zNzuYY3qQLOGPxnIfZeHLmiFF16AJr",
+     "layout": "full",
+     "what": "TBD on scrub: WCCW readers in the book circle (pick in 00:00 to 01:00)"
+    },
+    {
+     "clip": "P1055376.MOV",
+     "at": null,
+     "dur": 2.0,
+     "cx": null,
+     "path": "Freedom Reads/Raw Footage/Washington ILP Videos/P1055376.MOV",
+     "drive": "1e5zNzuYY3qQLOGPxnIfZeHLmiFF16AJr",
+     "layout": "full",
+     "what": "TBD on scrub: a book in a reader's hands (pick in 00:00 to 01:00)"
+    },
+    {
+     "face": true,
+     "from_word": "seems"
+    }
+   ]
+  },
+  {
+   "tc": "00:28–00:42",
+   "beat": "IT HAPPENED TO US",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Straight on Samantha. Her face carries this: calm, not angry. Optional cutaway on “brought the ideas in that other book” (<span class=\"mono\">02:51.8</span>): a book in a reader's hands from P1055376, TBD on scrub (not a P1055379 trade shot).",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Samantha",
+    "quote": "And then it directly happens to us in a way that it wasn't done properly. It wasn't done according to process. And so it kind of brought the ideas in that other book really to the forefront.",
+    "src": "P1055419.MOV 02:42.8 to 02:56.6"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "And"
+    }
+   ]
+  },
+  {
+   "tc": "00:42–00:57",
+   "beat": "BUTTON",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Samantha. Skip “And it became a much more different experience.” (02:57.1). Slow 2% push-in. Hold about 1 s after “as frustrating as it was.”",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Samantha",
+    "quote": "And then to kind of reread and then re-discuss that content after that had happened is something that I think a literary event like this, you never expect it to be that poignant. But it was kind of a neat experience, as frustrating as it was.",
+    "src": "P1055419.MOV 02:59.8 to 03:12.9"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<b>Music enters</b> under “you never expect it to be that poignant” (about 03:07 in the clip), soft and warm. It is the only music in the video.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "And"
+    }
+   ]
+  },
+  {
+   "tc": "00:57–01:01",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Clean end card. Warm off-white <span class=\"mono\">#F2EBE8</span> background. No captions.",
+   "motion": "Freedom Reads name, typed until James sends the logo. Then <q>Inside Literary Prize 2026</q>, then <q>Follow @freedombeginswithabook</q>. No captions.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music resolves and ends.",
+   "shots": []
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Editor brief",
+   "<a href=\"https://docs.google.com/document/d/1i31umKHR47SVvNcsssxCUJhLLsX2wBx0Jj08Fvh8nkA/edit\">pulse.12937285887</a> (Google Doc). This page is built from it."
+  ],
+  [
+   "Production brief",
+   "None. Freedom Reads filmed this footage themselves and sent it to us."
+  ],
+  [
+   "Reference",
+   "Not chosen yet. Nick owes it."
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/1qkwwC72jeFGbSYSd6X1QL7LRbRGnKUjE\">Washington ILP Videos</a> · WCCW files: P1055376, P1055379, P1055416, P1055419"
+  ],
+  [
+   "Interview clip",
+   "<a href=\"https://drive.google.com/file/d/16bn5egXE0jSCVDBs72TS2E_0UEelT9dW/view\">P1055419.MOV</a> · 5:57 · Samantha · WCCW · one camera"
+  ],
+  [
+   "B-roll",
+   "<a href=\"https://drive.google.com/file/d/1e5zNzuYY3qQLOGPxnIfZeHLmiFF16AJr/view\">P1055376.MOV</a> (WCCW group, 2:02) · <a href=\"https://drive.google.com/file/d/1apBnEzwhOv6tmhtVZGb8gb-VUVXGNUJa/view\">P1055379.MOV</a> (WCCW group, 2:29; its book trade and the opening lines belong to “Take Our Name Back”)"
+  ],
+  [
+   "Book",
+   "The Book Censor's Library by Bothayna Al-Essa, on the 2026 Inside Literary Prize shortlist (<a href=\"https://www.freedomreads.org/news/press-releases/inside-literary-prize-awarded-to-the-book-censor-s-library-by-bothayna-al-essa\">Freedom Reads press release</a>)."
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1P-ls9K4Bwa8RvqHqO6hTIGhJTwGaZ2iJyFOnwA6d7vY/edit\">Transcripts - Washington ILP Videos</a> · speaker labels are often wrong, trust the voice"
+  ],
+  [
+   "Word times",
+   "<a href=\"https://drive.google.com/file/d/1QKAF_vpI3XQFGyt2gaD6760m4vqWfGx5/view\">Washington ILP Videos.transcript.json</a> (times used here)"
+  ],
+  [
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/1GwtGWawL5j0nc9wOyWv7nsFUjshGetGs/view\">EditTranscripts/visual.json</a> · no shot data for these clips, so every shot here is TBD on scrub"
+  ],
+  [
+   "Brand graphics package",
+   "Freedom Reads package: Drive <span class=\"mono\">deliverables/graphics-packages/</span> (Freedom Reads). Folder link not available in this run."
+  ],
+  [
+   "Brand pack",
+   "Branding and Font columns are empty. Freedom Reads fonts are Metric2 and Redaction (licensed); ask Nick for the logo and end-card files. Colors: charcoal <span class=\"mono\">#292424</span> on off-white <span class=\"mono\">#F2EBE8</span> or cream <span class=\"mono\">#FFE4B8</span>."
+  ],
+  [
+   "Music",
+   "No client music rule on file. Use a licensed royalty-free track and save the license with the project."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "P1055419.MOV: 16:9, one camera, sound recorded into the camera. The brief says 1080p: probe on import. If it is 1080p, a 9:16 crop is already an upscale, so keep punch-ins at 110% or less."
+  ],
+  [
+   "Timeline",
+   "1080×1920 at the source frame rate (probe it). Do not conform."
+  ],
+  [
+   "Audio",
+   "Recorded into the camera. Solo both channels and keep the cleaner one as mono."
+  ],
+  [
+   "Loudness",
+   "-14 LUFS integrated, -1 dBTP peak. Music 18 to 20 dB under the voice."
+  ],
+  [
+   "Captions",
+   "Burned in, low on the frame but above the bottom 15% (app buttons). Long lines split in two. None on the end card. Freedom Reads caption kit: dark text <span class=\"mono\">#292424</span> on cream <span class=\"mono\">#FFE4B8</span>."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920, about 16 Mbps. One file, 9:16 only."
+  ]
+ ],
+ "checklist": [
+  "“Freedom Reads” is two words with two r's.",
+  "First name only. No last name on screen or in captions.",
+  "“I hope I don't get anybody in trouble for this.” is not in the cut.",
+  "The card reads The Book Censor's Library (capitals and apostrophe) by Bothayna Al-Essa.",
+  "No card says which book was pulled.",
+  "No ID badge, lanyard card or DOC number is readable. Zoom to 200% on every shot.",
+  "No Minnesota files. No B-roll shot that “Take Our Name Back” uses.",
+  "“ILP” in capitals. Any text you write says “incarcerated people”, never “inmates”.",
+  "No music before the last row. Captions gone before the end card.",
+  "9:16 only, 1080×1920."
+ ],
+ "decisions": [
+  {
+   "t": "Prize line on the book card",
+   "b": "The Book Censor's Library won the 2026 Inside Literary Prize (Freedom Reads press release, 4 Sep 2026). The card says “Inside Literary Prize 2026 shortlist”, which is true. Say “winner” instead? Nick or James decides."
+  },
+  {
+   "t": "Name card",
+   "b": "The Monday brief puts her full name on the card. Freedom Reads' standing rule is first names only, so this plan uses “Samantha”. Nick confirms with James."
+  },
+  {
+   "t": "No visual reference",
+   "b": "There is no Production Planning row for the Washington ILP stop. Nick picks one."
+  }
+ ],
+ "client_note": "<b>Why this matters here:</b> Freedom Reads sends cuts back for a wrong name, facility or book title, and never wants a facility shown in a bad light.",
+ "ask_examples": [
+  "Which book was pulled?",
+  "Can I show her last name?",
+  "Which B-roll is mine and which belongs to “Take Our Name Back”?",
+  "When does the music start?"
+ ],
+ "transcript": "Machine transcript of P1055419.MOV (Samantha, ILP judge, Washington Corrections Center for Women). Times are mm:ss.s in the file. Speaker labels in the source are often wrong: the questions are the interviewer, the answers are Samantha. “Adenon” is the transcript's spelling of the book Ædnan.\n--- P1055419.MOV ---\n[00:02.5] Alright, so can you introduce yourself and tell us about your relationship with reading? [do not use: interviewer]\n[00:08.5] [do not use: she says her full name here; first names only, line left out]\n[00:11.5] My relationship with reading has existed since I was a kid, you know?\n[00:17.5] I've always had the ability to kind of expand my thinking and show me things that I don't see, even when they're right in front of me.\n[00:25.5] Helps me to kind of look at the world through many, many different lenses.\n[00:30.5] And also the escapist aspect of it.\n[00:34.5] Reading can kind of take me outside of whatever pain I might be experiencing better than anything else.\n[00:40.5] So reading is very, very important to me.\n[00:43.5] Absolutely.\n[00:47.9] Can you walk me through how the conversations about the books unfold? [do not use: interviewer]\n[00:53.6] The conversations about these books that we have been reading together, I've actually had a lot of experiences with people who sat down and we talked in the day room with people who weren't reading them.\n[01:06.6] And they became very, very interested in the work that we were doing.\n[01:10.6] The conversations that we had in this group setting, it's really refreshing to be in a space with like-minded people who are able to see what an author is saying\n[01:22.0] and then kind of figure out why are they saying that?\n[01:24.6] Why are they saying it in the way that it's being described?\n[01:27.7] Because not everybody reads that way.\n[01:29.7] A lot of people, which is fine, I think read just for entertainment's sake.\n[01:33.6] And reading has so much more to offer that.\n[01:35.7] And so being in a space like this with the Freedom Reads Project and being able to actually have conversations about why things are being written in the way that they're being written has been really good.\n[01:45.4] Absolutely.\n[01:46.3] That was great.\n[01:49.7] What new ideas or perspectives have stayed with you from your reading? [do not use: interviewer]\n[01:54.8] New ideas or perspectives that have stayed with me I would say the censorship aspect for this group and this event.\n[02:05.8] [do not use: hard rule, line left out]\n[02:08.8] This group specifically, I think it was really poignant that we were reading a book about censorship at the same time that one of the books got pulled from our content by the institution.\n[02:19.9] I think that that's really, really interesting.\n[02:23.8] And it was actually a beautiful conversation that we had as a group.\n[02:28.1] Talking about how you're reading this book that talks about censorship in other countries.\n[02:33.8] And it's a different culture where books are banned and content is illicit.\n[02:37.8] And it seems like this far away idea that impacts other places.\n[02:42.8] And then it directly happens to us in a way that it wasn't done properly.\n[02:49.8] It wasn't done according to process.\n[02:51.8] And so it kind of brought the ideas in that other book really to the forefront.\n[02:57.1] And it became a much more different experience.\n[02:59.8] And then to kind of reread and then re-discuss that content after that had happened is something that I think a literary event like this, you never expect it to be that poignant.\n[03:09.8] But it was kind of a neat experience, as frustrating as it was.\n[03:15.2] Absolutely.\n[03:17.0] What [do not use: interviewer]\n[03:21.7] would you want the authors of these books to know about how their work is being received inside? [do not use: interviewer]\n[03:26.8] Oh gosh, I would hope all of these authors of what I would want them to know about how the books are being received.\n[03:33.8] That they're being received with so much gratitude and so much open-mindedness.\n[03:42.3] There's been the ability of people from so many different personal backgrounds and cultural backgrounds to have conversations about the same things.\n[03:52.8] And how different we all see them based on our own experiences.\n[03:56.9] And I think it's really important for authors to know that their one piece of content\n[04:01.9] can have so many different impacts based on the people that are looking at that content.\n[04:06.8] And just the gratitude of being able to have meaningful content also be entertaining.\n[04:14.0] That's really great.\n[04:15.8] Absolutely.\n[04:17.8] What has reading these books shown you that might surprise someone who thinks that books don't matter? [do not use: interviewer]\n[04:27.6] What have they shown me that might surprise somebody who thinks books don't matter?\n[04:34.6] Well, I would say the censorship example would be a really good thing.\n[04:43.1] Something that people think that books don't matter.\n[04:45.7] I think, like in the example of Adenon, being able to read content that was intentionally written from an indigenous perspective, following in more indigenous format.\n[04:57.6] That gets across feelings and sensations and experiences that somebody who's talking about those experiences\n[05:09.2] can never accurately portray.\n[05:10.6] And I think that somebody who thinks books don't matter is really missing out on the opportunity to feel those experiences from the direct perspective of the people who are there.\n[05:23.8] You can learn in a textbook about a certain culture all day long, but until you've sat down and read the content and had a conversation with somebody who is from that culture,\n[05:32.8] you're just missing such a big array of colors on the color scheme, you know?\n[05:39.4] Absolutely.\n[05:39.8] That makes sense.\n[05:42.5] Absolutely.\n[05:43.0] Question, did you read all five books? [do not use: interviewer]\n[05:45.0] All right.\n[05:46.0] Still in that process.\n[05:48.4] All right.\n[05:49.4] I think we're good, because I think we're kicking off this event in five minutes. [do not use: off-topic]\n[05:53.4] I'm going to ask for the microphone. [do not use: off-topic]\n[05:55.4] Yeah, see, I would have ran off. [do not use: off-topic]",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "New ideas or perspectives that have stayed with me I would say the censorship aspect for this group and this event.",
+    "who": "Samantha",
+    "file": "P1055419.MOV",
+    "why": "Her set-up line: censorship is what stayed with her."
+   },
+   {
+    "quote": "And it seems like this far away idea that impacts other places.",
+    "who": "Samantha",
+    "file": "P1055419.MOV",
+    "why": "The faraway idea, short."
+   },
+   {
+    "quote": "And it's a different culture where books are banned and content is illicit.",
+    "who": "Samantha",
+    "file": "P1055419.MOV",
+    "why": "The book's world in one line."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "And then it directly happens to us in a way that it wasn't done properly.",
+    "who": "Samantha",
+    "file": "P1055419.MOV",
+    "why": "The same turn in her own later words."
+   },
+   {
+    "quote": "I think that that's really, really interesting.",
+    "who": "Samantha",
+    "file": "P1055419.MOV",
+    "why": "Short reaction after the reveal."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "The conversations that we had in this group setting, it's really refreshing to be in a space with like-minded people who are able to see what an author is saying",
+    "who": "Samantha",
+    "file": "P1055419.MOV",
+    "why": "What the group conversations are like."
+   },
+   {
+    "quote": "And so being in a space like this with the Freedom Reads Project and being able to actually have conversations about why things are being written in the way that they're being written has been really good.",
+    "who": "Samantha",
+    "file": "P1055419.MOV",
+    "why": "Names Freedom Reads and the group talks."
+   },
+   {
+    "quote": "There's been the ability of people from so many different personal backgrounds and cultural backgrounds to have conversations about the same things.",
+    "who": "Samantha",
+    "file": "P1055419.MOV",
+    "why": "Many backgrounds, one conversation."
+   },
+   {
+    "quote": "And how different we all see them based on our own experiences.",
+    "who": "Samantha",
+    "file": "P1055419.MOV",
+    "why": "Short, warm."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "And it became a much more different experience.",
+    "who": "Samantha",
+    "file": "P1055419.MOV",
+    "why": "Short line after the turn."
+   },
+   {
+    "quote": "And I think that somebody who thinks books don't matter is really missing out on the opportunity to feel those experiences from the direct perspective of the people who are there.",
+    "who": "Samantha",
+    "file": "P1055419.MOV",
+    "why": "Why books matter, if the facility lines must go."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "But it was kind of a neat experience, as frustrating as it was.",
+    "who": "Samantha",
+    "file": "P1055419.MOV",
+    "why": "The button alone, shorter."
+   },
+   {
+    "quote": "That they're being received with so much gratitude and so much open-mindedness.",
+    "who": "Samantha",
+    "file": "P1055419.MOV",
+    "why": "A warm close about gratitude."
+   },
+   {
+    "quote": "And just the gratitude of being able to have meaningful content also be entertaining.",
+    "who": "Samantha",
+    "file": "P1055419.MOV",
+    "why": "Gratitude for meaningful books."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "A book about censorship",
+    "line": "This group specifically, I think it was really poignant that we were reading a book about censorship at the same time that one of the books got pulled from our content by the institution.",
+    "why": "The brief's hook: the irony in four words."
+   },
+   {
+    "text": "Then it happened to us",
+    "line": "And then it directly happens to us in a way that it wasn't done properly.",
+    "why": "The turn as the hook."
+   },
+   {
+    "text": "A faraway idea",
+    "line": "And it seems like this far away idea that impacts other places.",
+    "why": "Sets up the turn: far away, then right here."
+   },
+   {
+    "text": "Where books are banned",
+    "line": "And it's a different culture where books are banned and content is illicit.",
+    "why": "The book's world in four words."
+   },
+   {
+    "text": "You never expect it",
+    "line": "And then to kind of reread and then re-discuss that content after that had happened is something that I think a literary event like this, you never expect it to be that poignant.",
+    "why": "Her own surprise as the hook."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "Freedom Reads runs simple: charcoal type on off-white or cream, one card at a time, book titles exact, no logo before the end card. This cut has the hook text, a name card, one book card, one key-words moment and group B-roll in the middle; her face carries the rest because the plan keeps eyes on her and the idea.",
+  "devices": [
+   {
+    "row": "00:00–00:05",
+    "device": "Hook text, static, then name card at 00:03",
+    "asset": "Hook text <q>A book about censorship</q>; name card Samantha",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "00:05–00:10",
+    "device": "Book card",
+    "asset": "The Book Censor's Library by Bothayna Al-Essa",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "00:10–00:28",
+    "device": "Key words, then 2 or 3 group B-roll shots",
+    "asset": "<q>a beautiful conversation</q>; P1055376 00:00 to 01:00, TBD on scrub",
+    "source": "MG library; Drive Washington ILP Videos"
+   },
+   {
+    "row": "00:57–01:01",
+    "device": "End card",
+    "asset": "Freedom Reads name, ILP 2026, follow line",
+    "source": "endcards/index.json (freedom-reads)"
+   }
+  ],
+  "broll_pool": [],
+  "elements": [
+   {
+    "name": "Freedom Reads end card (name typed until the logo arrives)",
+    "kind": "end_card",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
+}

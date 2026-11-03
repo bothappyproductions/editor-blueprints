@@ -1,0 +1,294 @@
+{
+ "id": "13304671686",
+ "client": "niwrc",
+ "eyebrow": "NIWRC · OKC DVAM Reception · 9 Oct 2026 · General donor thank-you",
+ "title": "Lucy Simpson:",
+ "title_q": "“We Can't Do This Work Without You”",
+ "title_short": "Lucy Simpson · Donor thank-you",
+ "editor": "Ardit",
+ "due": "2026-11-09",
+ "format": "9:16 only · 1080×1920 (source 16:9, crop)",
+ "length": "about 14 s (the take runs about 11 s)",
+ "edit_key": "NIWRCOKCLucyDonorThankYou001",
+ "headline": "NIWRC's Chief Executive Officer thanks everyone who supports NIWRC: we can't do this work without you.",
+ "story": [
+  "A general thank-you from Lucy Simpson to everyone who supports NIWRC. It is not tied to a campaign or a date, so NIWRC can send it to donors any time. Miranda asked for it herself: “One from Lucy, like a general thank you video, like thanking donors maybe.”",
+  "<b>Loop:</b> “Who makes this work possible?” opens at 0:00 and closes on “We can't do this work without you.” <b>Stakes:</b> the work itself. One take, said straight to the camera, then her smile. It shares no lines with her other cuts."
+ ],
+ "feel": [
+  "Warm",
+  "Grateful",
+  "Steady",
+  "Hopeful"
+ ],
+ "do": [
+  "Picture: C2 Event 5 (medium). Sound: C1 Event 6 (live mic).",
+  "Open on Lucy with <q>WHO MAKES THIS WORK POSSIBLE?</q> already on screen at 0:00.",
+  "Name super at 00:03, lower left, 2.5 s: Lucy Simpson / Chief Executive Officer, NIWRC.",
+  "Keep her lines in order. Hold about 1 s after the last “Thank you.”",
+  "Match Qendrim's approved NIWRC look (the Reference) and the Cory, Kerri and tai thank-you clips: same lower third, captions, color and pacing."
+ ],
+ "dont": [
+  "Do not use lines from her other cuts: her interview (C2 Event 4 / C1 Event 5) and her Are You Happy clip (C1 Event 7) belong to other items.",
+  "Do not use the C2 camera-mic sound, unless a word is missing on C1.",
+  "No victim imagery, no red handprint, no stock footage.",
+  "No Tribal affiliation on the super. Name and title only.",
+  "No logo, name card or fade at 0:00."
+ ],
+ "links": {
+  "brief": {
+   "title": "NIWRC Production Brief — Oklahoma City, October 2026",
+   "url": "https://docs.google.com/document/d/1EOtGp60jDrQ8FyH2H-m-xPMhHDHACBcLYHuASPvai3k/edit",
+   "note": "The shoot plan. The brief for this cut is Claire's note on the Monday item: a general donor thank-you from Lucy, Miranda's second priority for the OKC batch."
+  },
+  "reference": {
+   "title": "Approved NIWRC traditional (Q) - match this look",
+   "url": "https://f.io/zKa6KyXr",
+   "note": "Chosen by Nick. Watch it first; match its lower thirds, captions, color, music feel and pacing."
+  },
+  "footage": {
+   "title": "NIWRC OKC 9 Oct 2026 raw ▸ Interview 2",
+   "url": "https://drive.google.com/drive/folders/1RLI90H-H6_riYf6R5rVW3QCkQFdVUVY4",
+   "note": "Interview 2 = Lucy Simpson. Thank-you take: 26-10-09 C2 Happy - NIWRC Event 5.MP4 (0:18, side camera, medium) and 26-10-09 C1 Happy - NIWRC Event 6.MP4 (0:18, front camera, wide, live mic)."
+  }
+ },
+ "bp_intro": "Times are C2 source times in <span class=\"mono\">26-10-09 C2 Happy - NIWRC Event 5.MP4</span> (3840×2160, 23.976 fps, 0:18), from Erin's word-level transcript. Sound comes from <span class=\"mono\">26-10-09 C1 Happy - NIWRC Event 6.MP4</span>, the live mic. The two files run almost in sync (C1 “We” 00:11.6 = C2 00:11.6; C1 can be up to 0.3 s earlier). The C1 transcript only hears her from “your advocacy” (C1 00:09.2): listen to C1 from 00:03. If the first sentence is on C1, use C1 sound for all of it. If it is not, use the C2 sound for that sentence only, cleaned and matched. It is Lucy Simpson: visual.json shows the same red and white patterned top and glasses as her interview in this folder. No frames were pulled for these clips yet.",
+ "rows": [
+  {
+   "tc": "00:00–00:08",
+   "beat": "HOOK · THANK YOU",
+   "kind": "hook",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Lucy on <a href=\"https://drive.google.com/file/d/1M-DfRfTUpC20oqATJ1voRIv0lKPDw7TF/view\">C2 Event 5</a>. visual.json, segment 00:04.5 to 00:13.5: medium, locked off, a woman in a red and white patterned blouse, large earrings and glasses, outdoors, looking at the camera. Crop 9:16 on her face; check where she sits in the 16:9 frame on scrub. Start on “Thank” (<span class=\"mono\">00:03.7</span>). Keep her short pauses. Face only: a personal thank-you from the CEO, and the Cory, Kerri and tai clips stay on the face too.",
+   "motion": "Hook text on <b>frame 1</b>: <q>WHO MAKES THIS WORK POSSIBLE?</q> Already on screen at 0:00. Does not animate on. Top third, big, bold. Out at 00:02.5. Name super at 00:03 for 2.5 s, lower left above the captions: <q>Lucy Simpson</q> / Chief Executive Officer, NIWRC. Name and title only. Captions on.",
+   "voice": {
+    "who": "Lucy Simpson",
+    "quote": "Thank you to all of those of you who support NIWRC through your time, your advocacy, and your funding.",
+    "src": "26-10-09 C2 Happy - NIWRC Event 5.MP4 00:03.7 to 00:11.3 (sound: C1 Event 6)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Soft music starts low on frame 1. Neutral instrumental, warm, not sad. No lyrics.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Thank"
+    }
+   ]
+  },
+  {
+   "tc": "00:08–00:11",
+   "beat": "BUTTON",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same shot. Hold about 1 s after the last “Thank you.” The clip ends at 00:18: do not run into the end of the file.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Lucy Simpson",
+    "quote": "We can't do this work without you. Thank you.",
+    "src": "26-10-09 C2 Happy - NIWRC Event 5.MP4 00:11.6 to 00:14.3 (sound: C1 Event 6 00:11.6 to 00:14.0)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed lifts a little, then resolves into the end card.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "We"
+    }
+   ]
+  },
+  {
+   "tc": "00:11–00:14",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "End card: NIWRC logo, white on NIWRC red <span class=\"mono\">#981C20</span>. The logo is here only.",
+   "motion": "Your approved NIWRC end card: white logo on red. No logo before this card.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music out.",
+   "shots": []
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/1EOtGp60jDrQ8FyH2H-m-xPMhHDHACBcLYHuASPvai3k/edit\">NIWRC Production Brief — Oklahoma City, October 2026</a>"
+  ],
+  [
+   "Reference",
+   "<a href=\"https://f.io/zKa6KyXr\">Approved NIWRC traditional (Q) - match this look</a> (chosen by Nick)"
+  ],
+  [
+   "Why this cut",
+   "Miranda on the NIWRC bi-weekly: <a href=\"https://fathom.video/calls/857668925?timestamp=110\">Fathom, 1:50</a> · <a href=\"https://fathom.video/calls/857668925?timestamp=240\">Fathom, 4:00</a>"
+  ],
+  [
+   "Footage folder",
+   "<a href=\"https://drive.google.com/drive/folders/1jivE7s9xcOSQyoSJ-CRO4Z0AhyqGXnRg\">NIWRC OKC 9 Oct 2026 raw</a> · <a href=\"https://drive.google.com/drive/folders/1RLI90H-H6_riYf6R5rVW3QCkQFdVUVY4\">Interview 2</a>"
+  ],
+  [
+   "Picture",
+   "<a href=\"https://drive.google.com/file/d/1M-DfRfTUpC20oqATJ1voRIv0lKPDw7TF/view\">26-10-09 C2 Happy - NIWRC Event 5.MP4</a> · 0:18 · side camera, medium · camera mic only"
+  ],
+  [
+   "Sound",
+   "<a href=\"https://drive.google.com/file/d/1Ax0jDr6Eo6iDcunSDx_I0Qh5uiRtFKqu/view\">26-10-09 C1 Happy - NIWRC Event 6.MP4</a> · 0:18 · front camera, wide · live mic"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1R1XZdIkjOt48iHQ6bqquqJ-EK5xpJM0Roqu9LrZbFC8/edit\">Transcripts - Interview 2</a> · <a href=\"https://drive.google.com/file/d/1HehjgUGsl6rhxTERvjPp-yuNE91wrJYW/view\">Interview 2.transcript.json</a> (word times used here)"
+  ],
+  [
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/1aSJbS1IAKZCaVOjGit2YtNZ1Ge33acMG/view\">visual.json</a> (shoot level, Erin's shot index). The shots on this page are named from it."
+  ],
+  [
+   "B-roll picks",
+   "None by plan: a face-to-camera thank-you."
+  ],
+  [
+   "Brand graphics package",
+   "NIWRC package: Drive <span class=\"mono\">deliverables/graphics-packages/NIWRC</span>. Folder link not available in this run. Type the words on the empty plates in Source Sans 3."
+  ],
+  [
+   "Brand",
+   "Oswald and Source Sans 3. NIWRC red <span class=\"mono\">#981C20</span>, purple <span class=\"mono\">#4D3271</span>, light base <span class=\"mono\">#E7DED5</span>, near black <span class=\"mono\">#231F20</span>."
+  ],
+  [
+   "Music",
+   "Native music only if it is made AND performed by a verified US Native artist. Otherwise a neutral instrumental. Music never competes with the voice."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "Two Sony cameras, 3840×2160, 23.976 fps (visual.json). C2 Event 5 is medium, C1 Event 6 is wide."
+  ],
+  [
+   "Audio",
+   "C1 Event 6 = live mic, about -27 dB. C2 Event 5 = camera mic, about -44 dB: mute it unless C1 is missing a word. Sync C1 to the C2 picture by her first word."
+  ],
+  [
+   "Timeline",
+   "1080×1920 at <b>23.976 fps</b> (no conform)."
+  ],
+  [
+   "Crop",
+   "4K 16:9. A 9:16 crop is 1215×2160, so it is scaled down, never up. Small push-ins stay sharp."
+  ],
+  [
+   "Loudness",
+   "-14 LUFS integrated, -1 dBTP peak. Music always under the voice (client rule: music never competes with the voice)."
+  ],
+  [
+   "Captions",
+   "Burned in, low in the frame, Source Sans 3 bold, white with a soft shadow, in Qendrim's approved NIWRC caption style. Write NIWRC in capitals."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920, 9:16. Upload to Frame.io → Ready for Review."
+  ]
+ ],
+ "checklist": [
+  "0:00 = Lucy with WHO MAKES THIS WORK POSSIBLE? already on screen. No logo, no name, no fade.",
+  "The hook text does not animate on.",
+  "Super at 00:03: Lucy Simpson / Chief Executive Officer, NIWRC. No Tribal affiliation.",
+  "Check it is Lucy Simpson on screen (a board member is also named Lucy).",
+  "Sound in the export is C1 Event 6, not the C2 camera mic.",
+  "No line from her other cuts is in this one.",
+  "No victim imagery, no red handprint, no stock footage. Hopeful, never somber.",
+  "Lower third, captions and color match Qendrim's approved NIWRC look.",
+  "End card: white logo on red. Logo only there.",
+  "9:16 only, 1080×1920."
+ ],
+ "decisions": [
+  {
+   "t": "Length",
+   "b": "The Monday item says about 45 s, but her thank-you take runs about 11 s, so the clip lands near 14 s with the end card, like the Cory, Kerri and tai clips. If NIWRC wants it longer, Nick picks more Lucy lines; her other lines belong to her other cuts."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> Miranda named this the second priority of the OKC batch. It is NIWRC's evergreen thank-you to donors, in the CEO's own words.",
+ "ask_examples": [
+  "Which file is picture and which is sound?",
+  "Is the first sentence on the C1 file?",
+  "What goes on the super?",
+  "Why is it only 14 s?"
+ ],
+ "transcript": "Machine transcript of Lucy Simpson's donor thank-you take (Interview 2 folder, NIWRC OKC, 9 Oct 2026). Times are mm:ss.s in each file. C2 Event 5 (side camera) and C1 Event 6 (front camera, live mic) are the same take. The C1 transcript only starts at “your advocacy”.\n--- 26-10-09 C2 Happy - NIWRC Event 5.MP4 ---\n[00:03.7] Thank you to all of those of you who support NIWRC through your time, your advocacy, and your funding.\n[00:11.6] We can't do this work without you. Thank you.\n--- 26-10-09 C1 Happy - NIWRC Event 6.MP4 ---\n[00:09.2] your advocacy and your funding.\n[00:11.6] We can't do this work without you. Thank you.",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "We can't do this work without you.",
+    "who": "Lucy Simpson",
+    "file": "26-10-09 C2 Happy - NIWRC Event 5.MP4",
+    "why": "Her strongest line, if you want it first."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "Thank you to all of those of you who support NIWRC through your time, your advocacy, and your funding.",
+    "who": "Lucy Simpson",
+    "file": "26-10-09 C2 Happy - NIWRC Event 5.MP4",
+    "why": "The full thank-you line, if the order changes."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "WHO MAKES THIS WORK POSSIBLE?",
+    "line": "We can't do this work without you.",
+    "why": "A question her last line answers."
+   },
+   {
+    "text": "WE CAN'T DO THIS WITHOUT YOU",
+    "line": "We can't do this work without you.",
+    "why": "Her strongest line as the hook, then she says it at the end."
+   },
+   {
+    "text": "THANK YOU FOR YOUR TIME",
+    "line": "Thank you to all of those of you who support NIWRC through your time, your advocacy, and your funding.",
+    "why": "Plain and direct: the donor knows at once what this is."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "NIWRC runs light: one designed element at a time, no logo before the end card, no victim imagery. This thank-you stays on her face by plan, like the Cory, Kerri and tai clips: hook text, one name super, the end card.",
+  "devices": [
+   {
+    "row": "00:00–00:08",
+    "device": "Hook text, static, then name super at 00:03",
+    "asset": "Hook text <q>WHO MAKES THIS WORK POSSIBLE?</q>; name super Lucy Simpson",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "00:11–00:14",
+    "device": "End card",
+    "asset": "NIWRC logo white on red",
+    "source": "endcards/niwrc"
+   }
+  ],
+  "broll_pool": [],
+  "elements": [
+   {
+    "name": "NIWRC end card (white logo on red)",
+    "kind": "end_card",
+    "file": "endcards/niwrc/niwrc-logo-white.svg",
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
+}

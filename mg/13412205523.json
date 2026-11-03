@@ -1,0 +1,56 @@
+{
+ "item": "13412205523",
+ "client": "niwrc",
+ "note": "The script asks for the hook text and one name super, then the client's end card. Row 00:04–00:09 asks only for a highlight inside the caption, and captions are the editor's, so no graphic there.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "THIS ONE IS FOR YOU"
+   },
+   "cue": "Hook text on frame 1: THIS ONE IS FOR YOU. Already on screen at 0:00. Does not animate on.",
+   "src": "Script, row 00:00–00:04, Motion graphics & type.",
+   "rows": [
+    "00:00–00:04"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:02.5. Top third, big, bold. Keep captions on."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 2.5,
+   "pos": "center",
+   "text": {
+    "main": "Cory Johnson"
+   },
+   "cue": "Name super at 00:03 for 2.5 s, lower left above the captions: Cory Johnson / Development and Strategic Impact Officer, NIWRC.",
+   "src": "Script, row 00:00–00:04, Motion graphics & type.",
+   "rows": [
+    "00:00–00:04"
+   ],
+   "use": "Put it on at 00:03 for 2.5 s. Move it lower left, above the captions. Type the second line Development and Strategic Impact Officer, NIWRC under the name."
+  },
+  {
+   "n": 3,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:11–00:14"
+   ],
+   "cue": "Your approved NIWRC end card: white logo on red.",
+   "src": "NIWRC logo (white) from NIWRC's onboarding brand file, in the brand kit 10 Oct 2026. Client rule: white logo on red. (endcards/index.json, 2026-10-10)",
+   "c": {
+    "bg": "#981C20",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/niwrc/niwrc-logo-white.svg",
+   "dur": 3.0,
+   "use": "This is the end card. Put it right after his smile at 00:11 and hold it to the end. Music out."
+  }
+ ]
+}

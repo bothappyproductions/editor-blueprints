@@ -1,0 +1,575 @@
+{
+ "id": "12937251195",
+ "client": "freedom-reads",
+ "eyebrow": "Freedom Reads · Washington Corrections Center for Women, ILP 2026 Tour · Book club group cut",
+ "title": "The WCCW book club:",
+ "title_q": "“Take Our Name Back”",
+ "title_short": "WCCW book club · Take Our Name Back",
+ "editor": "Qendrim",
+ "due": "2026-11-03",
+ "format": "9:16 only · 1080×1920 (source 16:9, crop)",
+ "length": "about 54 s",
+ "edit_key": "FREEDOMREADSTakeOurNameBack001",
+ "headline": "What a room full of readers sounds like: a name and a culture taken back, a language worth saving, a book full of hearts in the margins, and a library on the house.",
+ "story": [
+  "A music-led group cut from the WCCW book club. It is texture, not a lecture: short lines from the room, the readers' own words, and the books in their hands.",
+  "<b>Arc:</b> a reader talks about taking a name and a culture back, another says Native American culture and its language are endangered, then the room lightens with a traded book full of notes, and it ends on the library: “The library is on the house.” Speakers are not named."
+ ],
+ "feel": [
+  "Warm",
+  "Proud",
+  "Textured",
+  "Music-led"
+ ],
+ "do": [
+  "Open on “take our culture back, take our name and our land back”, with <q>Take our name back</q> already on screen.",
+  "Music leads. Bring the lines up over it as texture. Captions carry the words: the room is echoey.",
+  "Make the book trade (P1055379 00:30 to 00:56) the visual centerpiece: the annotated copy, the notes in the margins.",
+  "Facility line at 00:03: Washington Corrections Center for Women. No name cards.",
+  "End on the library line, then the end card."
+ ],
+ "dont": [
+  "Never use P1055378.MOV. It is Minnesota and looks like it belongs.",
+  "No profanity: P1055376 01:07 and 01:12, P1055379 01:09.5.",
+  "Do not use “I hate it here.” (P1055379 01:15.5 and 01:17.5) or the line about facility rules (01:41.7).",
+  "No name cards. Speakers are not named.",
+  "No B-roll shot that Samantha's “A Book About Censorship” cut uses."
+ ],
+ "links": {
+  "brief": {
+   "title": "Editor brief: WCCW book club, “Take Our Name Back” (pulse.12937251195)",
+   "url": "https://docs.google.com/document/d/1shZmprwfwq8StQgtRmM53qqaiPl2cd3eQF0EXFhGhHc/edit",
+   "note": "Bites, order and rules come from it. There is no production brief: Freedom Reads filmed this and sent it to us."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Nick owes it. Production Planning has no row for the Washington ILP stop. Match your other Washington ILP cuts."
+  },
+  "footage": {
+   "title": "Washington ILP Videos",
+   "url": "https://drive.google.com/drive/folders/1qkwwC72jeFGbSYSd6X1QL7LRbRGnKUjE",
+   "note": "Group clips: P1055379.MOV (2:29) and P1055376.MOV (2:02), WCCW. P1055378.MOV sits between them and is Minnesota: never use it."
+  }
+ },
+ "bp_intro": "Lines are from <span class=\"mono\">P1055379.MOV</span> (2:29) and <span class=\"mono\">P1055376.MOV</span> (2:02), the WCCW group discussion: one camera each, 16:9, sound recorded into the camera (echoey, no external mic). Times are mm:ss.s in each file, from the word-level transcript. No frames were pulled for these clips yet and visual.json has no shot data, so the picture in every row is from the brief and the transcript: check each shot on scrub.",
+ "rows": [
+  {
+   "tc": "00:00–00:03",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "<a href=\"https://drive.google.com/file/d/1apBnEzwhOv6tmhtVZGb8gb-VUVXGNUJa/view\">P1055379</a> at <span class=\"mono\">00:21.0</span>, the reader who says it. Crop 9:16 on her. Picture TBD on scrub. Check no ID badge is readable.",
+   "motion": "Hook text on <b>frame 1</b>, top third: <q>Take our name back</q>. Already on screen at 0:00. Does not animate on. Out at 00:03. Captions on.",
+   "voice": {
+    "who": "WCCW reader",
+    "quote": "take our culture back, take our name and our land back.",
+    "src": "P1055379.MOV 00:21.0 to 00:23.8"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music starts on frame 1 and leads: warm, proud, steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "take"
+    }
+   ]
+  },
+  {
+   "tc": "00:03–00:13",
+   "beat": "A NAME",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same reader, from the start of her story. Keep her pace: the music carries the pauses. The hook line comes right after “revive our culture,” in the clip: it already played at 0:00, so cut straight to the next row.",
+   "motion": "Context line at 00:03 for 3 s, top third: <q>Washington Corrections Center for Women</q>. Captions on.",
+   "voice": {
+    "who": "WCCW reader",
+    "quote": "My name is not, my name is Jose, like my grandfather's. And I'm proud to be Mexican and we need to revive our culture,",
+    "src": "P1055379.MOV 00:10.6 to 00:20.6"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music under, dialogue up.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "My"
+    }
+   ]
+  },
+  {
+   "tc": "00:13–00:16",
+   "beat": "THIS BOOK",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Stay on her, or a book in a reader's hands from P1055379, TBD on scrub.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "WCCW reader",
+    "quote": "But that's what this book reminded me of.",
+    "src": "P1055379.MOV 00:24.6 to 00:26.6"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music up between lines.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "But"
+    }
+   ]
+  },
+  {
+   "tc": "00:16–00:28",
+   "beat": "ENDANGERED",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "<a href=\"https://drive.google.com/file/d/1e5zNzuYY3qQLOGPxnIfZeHLmiFF16AJr/view\">P1055376</a>, the reader who says it. She speaks slowly: keep every word and her pace, and lay the group circle from the same clip over the middle of the line, TBD on scrub (not a shot Samantha's cut uses).",
+   "motion": "Key word, top third, as she says it (about 00:21): <q>endangered</q>. 2 s. Captions on.",
+   "voice": {
+    "who": "WCCW reader",
+    "quote": "I'm writing a paper right now on the fact that Native American culture is endangered and their way of life is becoming endangered.",
+    "src": "P1055376.MOV 01:18.0 to 01:29.6"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music dips under her voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I'm"
+    },
+    {
+     "clip": "P1055376.MOV",
+     "at": null,
+     "dur": 2.0,
+     "cx": null,
+     "path": "Freedom Reads/Raw Footage/Washington ILP Videos/P1055376.MOV",
+     "drive": "1e5zNzuYY3qQLOGPxnIfZeHLmiFF16AJr",
+     "layout": "full",
+     "what": "TBD on scrub: the group circle, over the middle of the line"
+    },
+    {
+     "face": true,
+     "from_word": "their"
+    }
+   ]
+  },
+  {
+   "tc": "00:28–00:35",
+   "beat": "LANGUAGE",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same reader. Hold on her face: the line is the picture.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "WCCW reader",
+    "quote": "The language is dying and once the language dies, the things that get passed down through that language are also going to die with it.",
+    "src": "P1055376.MOV 01:42.2 to 01:48.8"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music lifts after “die with it.” and turns lighter into the book trade.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "The"
+    }
+   ]
+  },
+  {
+   "tc": "00:35–00:43",
+   "beat": "THE BOOK TRADE",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "The visual centerpiece: <a href=\"https://drive.google.com/file/d/1apBnEzwhOv6tmhtVZGb8gb-VUVXGNUJa/view\">P1055379</a> 00:30 to 00:56, two readers and an annotated copy (“You have all these little notes in here” 00:30.3, “You guys should trade it back” 00:40.3, “Your smile on your face right now” 00:56.6). Picture TBD on scrub. Build 3 or 4 shots: the book, the notes in the margins, the hands passing it, the smiles. Room sound low under the music; bring up only this line.",
+   "motion": "Brackets on the notes in the book margin as she says the line about the hearts (about 00:37), 2 s, only if the shot shows the page. Captions on.",
+   "voice": {
+    "who": "WCCW reader",
+    "quote": "Little hearts and exclamation points and questions.",
+    "src": "P1055379.MOV 00:46.3 to 00:49.1"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music up. Light and warm.",
+   "shots": [
+    {
+     "clip": "P1055379.MOV",
+     "at": 30.0,
+     "dur": 2.0,
+     "cx": null,
+     "path": "Freedom Reads/Raw Footage/Washington ILP Videos/P1055379.MOV",
+     "drive": "1apBnEzwhOv6tmhtVZGb8gb-VUVXGNUJa",
+     "layout": "full",
+     "what": "TBD on scrub: the annotated book (heard at 00:30.3)"
+    },
+    {
+     "clip": "P1055379.MOV",
+     "at": 40.0,
+     "dur": 2.0,
+     "cx": null,
+     "path": "Freedom Reads/Raw Footage/Washington ILP Videos/P1055379.MOV",
+     "drive": "1apBnEzwhOv6tmhtVZGb8gb-VUVXGNUJa",
+     "layout": "full",
+     "what": "TBD on scrub: the book passed back (heard at 00:40.3)"
+    },
+    {
+     "clip": "P1055379.MOV",
+     "at": 46.0,
+     "dur": 3.0,
+     "cx": null,
+     "path": "Freedom Reads/Raw Footage/Washington ILP Videos/P1055379.MOV",
+     "drive": "1apBnEzwhOv6tmhtVZGb8gb-VUVXGNUJa",
+     "layout": "full",
+     "what": "TBD on scrub: the notes in the margins, under the line"
+    },
+    {
+     "clip": "P1055379.MOV",
+     "at": 56.0,
+     "dur": 1.5,
+     "cx": null,
+     "path": "Freedom Reads/Raw Footage/Washington ILP Videos/P1055379.MOV",
+     "drive": "1apBnEzwhOv6tmhtVZGb8gb-VUVXGNUJa",
+     "layout": "full",
+     "what": "TBD on scrub: the smiles (heard at 00:56.6)"
+    }
+   ]
+  },
+  {
+   "tc": "00:43–00:50",
+   "beat": "THE LIBRARY",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "P1055379, whoever says it, or shelves and books in the room under it, TBD on scrub. The line before it reads “The metro goal is to be creating freedom libraries.” (01:25.5) in the transcript: listen, and caption only what is said. Hold 1 s after “library.”",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "WCCW reader",
+    "quote": "The library is on the house. You guys have 24 hours of access to the library.",
+    "src": "P1055379.MOV 01:35.5 to 01:41.6"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music resolves.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "The"
+    }
+   ]
+  },
+  {
+   "tc": "00:50–00:54",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Clean end card. Warm off-white <span class=\"mono\">#F2EBE8</span> background. No captions.",
+   "motion": "Freedom Reads name, typed until James sends the logo. Then <q>Freedom Libraries</q>, then <q>Follow @freedombeginswithabook</q>. No captions.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music out.",
+   "shots": []
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Editor brief",
+   "<a href=\"https://docs.google.com/document/d/1shZmprwfwq8StQgtRmM53qqaiPl2cd3eQF0EXFhGhHc/edit\">pulse.12937251195</a> (Google Doc). This page is built from it."
+  ],
+  [
+   "Production brief",
+   "None. Freedom Reads filmed this footage themselves and sent it to us."
+  ],
+  [
+   "Reference",
+   "Not chosen yet. Nick owes it."
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/1qkwwC72jeFGbSYSd6X1QL7LRbRGnKUjE\">Washington ILP Videos</a> · WCCW files: P1055376, P1055379, P1055416, P1055419"
+  ],
+  [
+   "Group clips",
+   "<a href=\"https://drive.google.com/file/d/1apBnEzwhOv6tmhtVZGb8gb-VUVXGNUJa/view\">P1055379.MOV</a> · 2:29 · WCCW group · <a href=\"https://drive.google.com/file/d/1e5zNzuYY3qQLOGPxnIfZeHLmiFF16AJr/view\">P1055376.MOV</a> · 2:02 · WCCW group"
+  ],
+  [
+   "Never use",
+   "P1055378.MOV (Minnesota, sits between the two WCCW files)."
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1P-ls9K4Bwa8RvqHqO6hTIGhJTwGaZ2iJyFOnwA6d7vY/edit\">Transcripts - Washington ILP Videos</a> · speaker labels are often wrong, trust the voice"
+  ],
+  [
+   "Word times",
+   "<a href=\"https://drive.google.com/file/d/1QKAF_vpI3XQFGyt2gaD6760m4vqWfGx5/view\">Washington ILP Videos.transcript.json</a> (times used here)"
+  ],
+  [
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/1GwtGWawL5j0nc9wOyWv7nsFUjshGetGs/view\">EditTranscripts/visual.json</a> · no shot data for these clips, so every shot here is TBD on scrub"
+  ],
+  [
+   "Brand graphics package",
+   "Freedom Reads package: Drive <span class=\"mono\">deliverables/graphics-packages/</span> (Freedom Reads). Folder link not available in this run."
+  ],
+  [
+   "Brand pack",
+   "Branding and Font columns are empty. Freedom Reads fonts are Metric2 and Redaction (licensed); ask Nick for the logo and end-card files. Colors: charcoal <span class=\"mono\">#292424</span> on off-white <span class=\"mono\">#F2EBE8</span> or cream <span class=\"mono\">#FFE4B8</span>."
+  ],
+  [
+   "Music",
+   "No client music rule on file. Use a licensed royalty-free track and save the license with the project."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "P1055379 and P1055376: 16:9, one camera each, sound recorded into the camera. The brief says 1080p: probe on import. If it is 1080p, a 9:16 crop is already an upscale, so keep punch-ins at 110% or less."
+  ],
+  [
+   "Timeline",
+   "1080×1920 at the source frame rate (probe it). Do not conform."
+  ],
+  [
+   "Audio",
+   "Room sound, echoey, no external mic. Clean each line (light noise reduction and de-reverb) and keep the music under the words when a line plays."
+  ],
+  [
+   "Loudness",
+   "-14 LUFS integrated, -1 dBTP peak. Music 18 to 20 dB under the voice."
+  ],
+  [
+   "Captions",
+   "Burned in, low on the frame but above the bottom 15% (app buttons). Long lines split in two. None on the end card. Freedom Reads caption kit: dark text <span class=\"mono\">#292424</span> on cream <span class=\"mono\">#FFE4B8</span>."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920, about 16 Mbps. One file, 9:16 only."
+  ]
+ ],
+ "checklist": [
+  "“Freedom Reads” is two words with two r's. “Freedom Library” and “Freedom Libraries” have capitals.",
+  "No P1055378 (Minnesota) shot anywhere.",
+  "No profanity and no “I hate it here.”",
+  "No name cards. The facility line reads Washington Corrections Center for Women.",
+  "No ID badge, lanyard card or DOC number is readable. Zoom to 200% on every shot.",
+  "No B-roll shot that Samantha's cut uses.",
+  "Any text you write says “incarcerated people”, never “inmates”.",
+  "Captions match the audio, low, long lines split, gone before the end card.",
+  "9:16 only, 1080×1920."
+ ],
+ "decisions": [
+  {
+   "t": "No visual reference",
+   "b": "There is no Production Planning row for the Washington ILP stop. Nick picks one."
+  }
+ ],
+ "client_note": "<b>Why this matters here:</b> Freedom Reads flagged repeated B-roll across the last batch. This cut and Samantha's share the same WCCW group clips, so split the shots between them.",
+ "ask_examples": [
+  "Which file is Minnesota?",
+  "Which shots are the book trade?",
+  "Can I name the speakers?",
+  "Which shots are Samantha's?"
+ ],
+ "transcript": "Machine transcript of the WCCW book club group discussion (Washington Corrections Center for Women). Times are mm:ss.s in each file. Speakers are not named and the speaker labels are not usable. P1055378.MOV (Minnesota) is not part of this set.\n--- P1055379.MOV ---\n[00:00.0] They can't come here, they work second generation kind of blended in with the American way and the third generation was like no, no way.\n[00:10.6] My name is not, my name is Jose, like my grandfather's.\n[00:15.8] And I'm proud to be Mexican and we need to revive our culture, take our culture back, take our name and our land back.\n[00:24.6] But that's what this book reminded me of.\n[00:30.3] You have all these little notes in here.\n[00:32.3] Yeah, that one's your book.\n[00:34.3] I told you this was your book.\n[00:36.3] All of your little...\n[00:38.3] You guys should trade back.\n[00:40.3] You guys should trade it back.\n[00:42.3] You really liked this a lot.\n[00:44.3] You know what I'm saying?\n[00:46.3] Little hearts and exclamation points and questions.\n[00:52.1] I like it.\n[00:52.5] Yeah, but your notes are still there.\n[00:54.3] Your notes are there.\n[00:56.6] Your smile on your face right now.\n[01:00.6] That's okay.\n[01:00.8] Maki will do it.\n[01:07.5] It's hers, but she'll trade it back to you.\n[01:09.5] [do not use: profanity, line left out]\n[01:15.5] [do not use: negative line about the facility, left out]\n[01:17.5] [do not use: negative line about the facility, left out]\n[01:23.5] No, just you two.\n[01:25.5] The metro goal is to be creating freedom libraries.\n[01:33.4] Creating freedom books inside the library.\n[01:35.5] The library is on the house.\n[01:37.5] You guys have 24 hours of access to the library.\n[01:41.7] [do not use: line about facility rules, left out]\n[01:47.3] Perfect timing.\n[01:49.3] So, question.\n[01:51.3] Are we giving these back to you?\n[01:54.5] No, those are yours.\n[01:56.6] We keep saying them.\n[01:59.4] Those are completely yours.\n[02:01.7] We're going to try to figure out two.\n[02:05.7] Yeah.\n[02:05.8] They're probably...\n[02:10.5] I don't know.\n[02:15.8] Hey, Miranda.\n[02:20.9] How do we think about the book being written as an indigenous first project?\n[02:24.6] It's kind of one of the first times that we ever get something like that.\n--- P1055376.MOV ---\n[00:00.1] You're people, you're my people, you're my tribe, and that was definitely a topic in this book, just the cultural glue that kept these three friends together no matter how far.\n[00:11.0] And there's way stronger glue, there's E6000 and you got Elmer's Glue too with people like Americans, right?\n[00:17.6] We're all Americans, we have this weaker but still tangible American culture.\n[00:22.0] But there's definitely also people who are kind of adrift and can feel like a significant lack of cultural glue, you know what I\n[00:31.1] mean?\n[00:31.2] Where all we have is like, well I guess we live in the same state, like go Washington, you know what I mean?\n[00:37.0] Go to the same school.\n[00:38.4] I don't, I'm from here, I'm not even from here.\n[00:42.9] They shipped me out here, they drove me out here, it was a long drive.\n[00:49.0] But I think you're absolutely correct because American culture is appropriated, right?\n[00:53.9] So we don't actually have a culture, it's we've taken bits and pieces from everywhere else.\n[00:59.0] And I always try to push back in terms of like, it's so funny how we say American culture because America is compromised of Canada, South America, and the United States basically.\n[01:07.0] [do not use: profanity, line left out]\n[01:12.0] [do not use: profanity, line left out]\n[01:14.0] We hydrophobics in a boiling pot that don't want to touch each other.\n[01:18.0] I'm writing a paper right now on the fact that Native American culture is endangered and their way of life is becoming endangered.\n[01:30.0] And how we have to put that back in that is language, right?\n[01:36.2] Because they don't, we don't have to speak our language because everybody speaks English here.\n[01:42.2] The language is dying and once the language dies, the things that get passed down through that language are also going to die with it.\n[01:49.2] And I think that that's exactly like that cultural bond that is just there when it's your culture, you know?\n[01:57.2] And you're right, American culture is just going to...",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "You're people, you're my people, you're my tribe, and that was definitely a topic in this book, just the cultural glue that kept these three friends together no matter how far.",
+    "who": "WCCW reader",
+    "file": "P1055376.MOV",
+    "why": "Warm, about belonging and the book."
+   },
+   {
+    "quote": "Little hearts and exclamation points and questions.",
+    "who": "WCCW reader",
+    "file": "P1055379.MOV",
+    "why": "The lightest, most visual line."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "They can't come here, they work second generation kind of blended in with the American way and the third generation was like no, no way.",
+    "who": "WCCW reader",
+    "file": "P1055379.MOV",
+    "why": "The lead-in to the name story: three generations."
+   },
+   {
+    "quote": "So we don't actually have a culture, it's we've taken bits and pieces from everywhere else.",
+    "who": "WCCW reader",
+    "file": "P1055376.MOV",
+    "why": "Culture from another angle."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "It's kind of one of the first times that we ever get something like that.",
+    "who": "WCCW reader",
+    "file": "P1055379.MOV",
+    "why": "About the book, short."
+   },
+   {
+    "quote": "You really liked this a lot.",
+    "who": "WCCW reader",
+    "file": "P1055379.MOV",
+    "why": "Short and warm, from the trade."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "Because they don't, we don't have to speak our language because everybody speaks English here.",
+    "who": "WCCW reader",
+    "file": "P1055376.MOV",
+    "why": "The language point, short."
+   },
+   {
+    "quote": "We're all Americans, we have this weaker but still tangible American culture.",
+    "who": "WCCW reader",
+    "file": "P1055376.MOV",
+    "why": "Culture as the glue, gentler."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "Because they don't, we don't have to speak our language because everybody speaks English here.",
+    "who": "WCCW reader",
+    "file": "P1055376.MOV",
+    "why": "Lead-in to the language line."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "You have all these little notes in here.",
+    "who": "WCCW reader",
+    "file": "P1055379.MOV",
+    "why": "Opens the trade."
+   },
+   {
+    "quote": "You guys should trade it back.",
+    "who": "WCCW reader",
+    "file": "P1055379.MOV",
+    "why": "The trade itself."
+   },
+   {
+    "quote": "Your notes are there.",
+    "who": "WCCW reader",
+    "file": "P1055379.MOV",
+    "why": "Short, about the notes."
+   },
+   {
+    "quote": "Your smile on your face right now.",
+    "who": "WCCW reader",
+    "file": "P1055379.MOV",
+    "why": "The smile."
+   }
+  ],
+  "bite:6": [
+   {
+    "quote": "Those are completely yours.",
+    "who": "WCCW reader",
+    "file": "P1055379.MOV",
+    "why": "The books are theirs to keep."
+   },
+   {
+    "quote": "The library is on the house.",
+    "who": "WCCW reader",
+    "file": "P1055379.MOV",
+    "why": "The library line alone, shorter."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "Take our name back",
+    "line": "And I'm proud to be Mexican and we need to revive our culture, take our culture back, take our name and our land back.",
+    "why": "The brief's hook."
+   },
+   {
+    "text": "You're my tribe",
+    "line": "You're people, you're my people, you're my tribe, and that was definitely a topic in this book, just the cultural glue that kept these three friends together no matter how far.",
+    "why": "Warm, about belonging and the book."
+   },
+   {
+    "text": "Little hearts in the margins",
+    "line": "Little hearts and exclamation points and questions.",
+    "why": "Opens on the lightest, most visual beat."
+   },
+   {
+    "text": "The library is on the house",
+    "line": "The library is on the house.",
+    "why": "Leads with the library."
+   },
+   {
+    "text": "When a language dies",
+    "line": "The language is dying and once the language dies, the things that get passed down through that language are also going to die with it.",
+    "why": "Strong stakes line, for a weightier open."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "Freedom Reads runs simple: charcoal type on off-white or cream, one card at a time, no logo before the end card. This cut is music-led texture: hook text, the facility line, one key word, brackets on the book notes, and the book trade as the B-roll centerpiece.",
+  "devices": [
+   {
+    "row": "00:00–00:03",
+    "device": "Hook text, static",
+    "asset": "<q>Take our name back</q>",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "00:03–00:13",
+    "device": "Facility context line",
+    "asset": "<q>Washington Corrections Center for Women</q>",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "00:16–00:28",
+    "device": "Key word, group B-roll over the middle of the line",
+    "asset": "<q>endangered</q>; P1055376 group shots TBD on scrub",
+    "source": "MG library; Drive Washington ILP Videos"
+   },
+   {
+    "row": "00:35–00:43",
+    "device": "B-roll centerpiece and brackets on the notes",
+    "asset": "P1055379 00:30 to 00:56, TBD on scrub",
+    "source": "Drive Washington ILP Videos; MG library"
+   },
+   {
+    "row": "00:50–00:54",
+    "device": "End card",
+    "asset": "Freedom Reads name, Freedom Libraries, follow line",
+    "source": "endcards/index.json (freedom-reads)"
+   }
+  ],
+  "broll_pool": [],
+  "elements": [
+   {
+    "name": "Freedom Reads end card (name typed until the logo arrives)",
+    "kind": "end_card",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
+}

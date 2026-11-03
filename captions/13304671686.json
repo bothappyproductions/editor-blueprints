@@ -1,0 +1,277 @@
+{
+ "item": "13304671686",
+ "client": "niwrc",
+ "style": {
+  "font": {
+   "css": "\"Source Sans 3\"",
+   "w": 700
+  },
+  "size": 62,
+  "y": 1380,
+  "max_lines": 2,
+  "reveal": "phrase",
+  "fg": "#FFFFFF",
+  "shadow": true
+ },
+ "note": "Plain sans (Source Sans 3), white, soft shadow, low in the frame (NIWRC style). Use Qendrim's approved NIWRC caption template if it differs. Timed from the word times of C2 Event 5 (the picture file); 19/19 and 9/9 words matched. The sound is C1 Event 6, almost in sync (up to 0.3 s): check by ear.",
+ "tracks": [
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:00–00:08"
+   ],
+   "beat": "HOOK · THANK YOU",
+   "title": "Hook · Thank You",
+   "clip": "26-10-09 C2 Happy - NIWRC Event 5.MP4",
+   "start": 3.54,
+   "src": "26-10-09 C2 Happy - NIWRC Event 5.MP4 00:03.5",
+   "dur": 8.22,
+   "words": [
+    {
+     "w": "Thank",
+     "t0": 0.15,
+     "t1": 0.63,
+     "e": 0
+    },
+    {
+     "w": "you",
+     "t0": 0.63,
+     "t1": 0.89,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 0.89,
+     "t1": 1.17,
+     "e": 0
+    },
+    {
+     "w": "all",
+     "t0": 1.17,
+     "t1": 1.35,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 1.35,
+     "t1": 1.55,
+     "e": 0
+    },
+    {
+     "w": "those",
+     "t0": 1.55,
+     "t1": 1.71,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 1.71,
+     "t1": 1.93,
+     "e": 0
+    },
+    {
+     "w": "you",
+     "t0": 1.93,
+     "t1": 2.07,
+     "e": 0
+    },
+    {
+     "w": "who",
+     "t0": 2.07,
+     "t1": 2.27,
+     "e": 0
+    },
+    {
+     "w": "support",
+     "t0": 2.27,
+     "t1": 2.47,
+     "e": 0
+    },
+    {
+     "w": "NIWRC",
+     "t0": 2.47,
+     "t1": 3.57,
+     "e": 0
+    },
+    {
+     "w": "through",
+     "t0": 3.57,
+     "t1": 4.19,
+     "e": 0
+    },
+    {
+     "w": "your",
+     "t0": 4.19,
+     "t1": 4.87,
+     "e": 0
+    },
+    {
+     "w": "time,",
+     "t0": 4.87,
+     "t1": 5.11,
+     "e": 0
+    },
+    {
+     "w": "your",
+     "t0": 5.71,
+     "t1": 6.07,
+     "e": 0
+    },
+    {
+     "w": "advocacy,",
+     "t0": 6.07,
+     "t1": 6.35,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 7.11,
+     "t1": 7.33,
+     "e": 0
+    },
+    {
+     "w": "your",
+     "t0": 7.33,
+     "t1": 7.57,
+     "e": 0
+    },
+    {
+     "w": "funding.",
+     "t0": 7.57,
+     "t1": 7.77,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 3,
+     "t0": 0.1,
+     "t1": 1.3
+    },
+    {
+     "a": 4,
+     "b": 8,
+     "t0": 1.3,
+     "t1": 2.22
+    },
+    {
+     "a": 9,
+     "b": 11,
+     "t0": 2.22,
+     "t1": 4.14
+    },
+    {
+     "a": 12,
+     "b": 13,
+     "t0": 4.14,
+     "t1": 5.66
+    },
+    {
+     "a": 14,
+     "b": 15,
+     "t0": 5.66,
+     "t1": 7.06
+    },
+    {
+     "a": 16,
+     "b": 18,
+     "t0": 7.06,
+     "t1": 8.12
+    }
+   ],
+   "text": "Thank you to all of those of you who support NIWRC through your time, your advocacy, and your funding.",
+   "n": 1
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:08–00:11"
+   ],
+   "beat": "BUTTON",
+   "title": "Button",
+   "clip": "26-10-09 C2 Happy - NIWRC Event 5.MP4",
+   "start": 11.46,
+   "src": "26-10-09 C2 Happy - NIWRC Event 5.MP4 00:11.5",
+   "dur": 3.24,
+   "words": [
+    {
+     "w": "We",
+     "t0": 0.15,
+     "t1": 0.39,
+     "e": 0
+    },
+    {
+     "w": "can't",
+     "t0": 0.39,
+     "t1": 1.25,
+     "e": 0
+    },
+    {
+     "w": "do",
+     "t0": 1.25,
+     "t1": 1.37,
+     "e": 0
+    },
+    {
+     "w": "this",
+     "t0": 1.37,
+     "t1": 1.53,
+     "e": 0
+    },
+    {
+     "w": "work",
+     "t0": 1.53,
+     "t1": 1.71,
+     "e": 0
+    },
+    {
+     "w": "without",
+     "t0": 1.71,
+     "t1": 1.97,
+     "e": 0
+    },
+    {
+     "w": "you.",
+     "t0": 1.97,
+     "t1": 2.25,
+     "e": 0
+    },
+    {
+     "w": "Thank",
+     "t0": 2.41,
+     "t1": 2.61,
+     "e": 0
+    },
+    {
+     "w": "you.",
+     "t0": 2.61,
+     "t1": 2.79,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 4,
+     "t0": 0.1,
+     "t1": 1.66
+    },
+    {
+     "a": 5,
+     "b": 6,
+     "t0": 1.66,
+     "t1": 2.36
+    },
+    {
+     "a": 7,
+     "b": 8,
+     "t0": 2.36,
+     "t1": 3.14
+    }
+   ],
+   "text": "We can't do this work without you. Thank you.",
+   "n": 2
+  }
+ ]
+}

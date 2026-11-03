@@ -1,0 +1,355 @@
+{
+ "item": "13412205523",
+ "client": "niwrc",
+ "style": {
+  "font": {
+   "css": "\"Source Sans 3\"",
+   "w": 700
+  },
+  "size": 62,
+  "y": 1380,
+  "max_lines": 2,
+  "reveal": "phrase",
+  "fg": "#FFFFFF",
+  "shadow": true
+ },
+ "note": "Plain sans (Source Sans 3), white, soft shadow, low in the frame (NIWRC style). Use Qendrim's approved NIWRC caption template if it differs. Timed from the C2 Event 3 word times moved onto C1 (C1 = C2 + 1.15 s), because the C1 machine times squeeze several words; 16/16, 17/17 and 2/2 words matched. Check every line by ear. The caption follows C1's “bring safety” and “Native women and communities”; the C2 transcript hears “create” and “in”. Caption the words he says.",
+ "tracks": [
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:00–00:04"
+   ],
+   "beat": "HOOK",
+   "title": "Hook",
+   "clip": "26-10-09 C1 Happy - NIWRC Event 3.MP4",
+   "start": 14.32,
+   "src": "26-10-09 C1 Happy - NIWRC Event 3.MP4 00:14.3",
+   "dur": 3.78,
+   "words": [
+    {
+     "w": "I",
+     "t0": 0.15,
+     "t1": 0.27,
+     "e": 0
+    },
+    {
+     "w": "personally",
+     "t0": 0.27,
+     "t1": 0.41,
+     "e": 0
+    },
+    {
+     "w": "want",
+     "t0": 0.41,
+     "t1": 0.73,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 0.73,
+     "t1": 0.83,
+     "e": 0
+    },
+    {
+     "w": "thank",
+     "t0": 0.83,
+     "t1": 0.93,
+     "e": 0
+    },
+    {
+     "w": "you",
+     "t0": 0.93,
+     "t1": 1.07,
+     "e": 0
+    },
+    {
+     "w": "for",
+     "t0": 1.07,
+     "t1": 1.23,
+     "e": 0
+    },
+    {
+     "w": "making",
+     "t0": 1.23,
+     "t1": 1.47,
+     "e": 0
+    },
+    {
+     "w": "your",
+     "t0": 1.47,
+     "t1": 1.69,
+     "e": 0
+    },
+    {
+     "w": "donation",
+     "t0": 1.69,
+     "t1": 1.87,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 1.87,
+     "t1": 2.41,
+     "e": 0
+    },
+    {
+     "w": "support",
+     "t0": 2.41,
+     "t1": 2.57,
+     "e": 0
+    },
+    {
+     "w": "Native",
+     "t0": 2.57,
+     "t1": 2.81,
+     "e": 0
+    },
+    {
+     "w": "women",
+     "t0": 2.81,
+     "t1": 3.03,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 3.03,
+     "t1": 3.17,
+     "e": 0
+    },
+    {
+     "w": "communities.",
+     "t0": 3.17,
+     "t1": 3.33,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 2,
+     "t0": 0.1,
+     "t1": 0.68
+    },
+    {
+     "a": 3,
+     "b": 7,
+     "t0": 0.68,
+     "t1": 1.42
+    },
+    {
+     "a": 8,
+     "b": 11,
+     "t0": 1.42,
+     "t1": 2.52
+    },
+    {
+     "a": 12,
+     "b": 13,
+     "t0": 2.52,
+     "t1": 2.98
+    },
+    {
+     "a": 14,
+     "b": 15,
+     "t0": 2.98,
+     "t1": 3.68
+    }
+   ],
+   "text": "I personally want to thank you for making your donation to support Native women and communities.",
+   "n": 1
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:04–00:09"
+   ],
+   "beat": "EVERLASTING CHANGE",
+   "title": "Everlasting Change",
+   "clip": "26-10-09 C1 Happy - NIWRC Event 3.MP4",
+   "start": 18.36,
+   "src": "26-10-09 C1 Happy - NIWRC Event 3.MP4 00:18.4",
+   "dur": 5.68,
+   "words": [
+    {
+     "w": "Your",
+     "t0": 0.15,
+     "t1": 0.17,
+     "e": 0
+    },
+    {
+     "w": "donation",
+     "t0": 0.17,
+     "t1": 0.29,
+     "e": 0
+    },
+    {
+     "w": "makes",
+     "t0": 0.29,
+     "t1": 0.81,
+     "e": 0
+    },
+    {
+     "w": "an",
+     "t0": 0.81,
+     "t1": 1.01,
+     "e": 0
+    },
+    {
+     "w": "everlasting",
+     "t0": 1.01,
+     "t1": 1.57,
+     "e": 0
+    },
+    {
+     "w": "change",
+     "t0": 1.57,
+     "t1": 1.99,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 1.99,
+     "t1": 2.67,
+     "e": 0
+    },
+    {
+     "w": "bring",
+     "t0": 2.67,
+     "t1": 2.81,
+     "e": 0
+    },
+    {
+     "w": "safety",
+     "t0": 2.81,
+     "t1": 3.03,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 3.03,
+     "t1": 3.53,
+     "e": 0
+    },
+    {
+     "w": "promote",
+     "t0": 3.53,
+     "t1": 3.69,
+     "e": 0
+    },
+    {
+     "w": "sovereignty",
+     "t0": 3.69,
+     "t1": 4.09,
+     "e": 0
+    },
+    {
+     "w": "for",
+     "t0": 4.09,
+     "t1": 4.53,
+     "e": 0
+    },
+    {
+     "w": "Native",
+     "t0": 4.55,
+     "t1": 4.65,
+     "e": 0
+    },
+    {
+     "w": "women",
+     "t0": 4.65,
+     "t1": 4.91,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 4.91,
+     "t1": 5.07,
+     "e": 0
+    },
+    {
+     "w": "communities.",
+     "t0": 5.07,
+     "t1": 5.23,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 2,
+     "t0": 0.1,
+     "t1": 0.76
+    },
+    {
+     "a": 3,
+     "b": 5,
+     "t0": 0.76,
+     "t1": 1.94
+    },
+    {
+     "a": 6,
+     "b": 8,
+     "t0": 1.94,
+     "t1": 2.98
+    },
+    {
+     "a": 9,
+     "b": 11,
+     "t0": 2.98,
+     "t1": 4.04
+    },
+    {
+     "a": 12,
+     "b": 14,
+     "t0": 4.04,
+     "t1": 4.86
+    },
+    {
+     "a": 15,
+     "b": 16,
+     "t0": 4.86,
+     "t1": 5.58
+    }
+   ],
+   "text": "Your donation makes an everlasting change to bring safety and promote sovereignty for Native women and communities.",
+   "n": 2
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:09–00:11"
+   ],
+   "beat": "BUTTON",
+   "title": "Button",
+   "clip": "26-10-09 C1 Happy - NIWRC Event 3.MP4",
+   "start": 23.76,
+   "src": "26-10-09 C1 Happy - NIWRC Event 3.MP4 00:23.8",
+   "dur": 0.96,
+   "words": [
+    {
+     "w": "Thank",
+     "t0": 0.15,
+     "t1": 0.33,
+     "e": 0
+    },
+    {
+     "w": "you.",
+     "t0": 0.33,
+     "t1": 0.51,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 1,
+     "t0": 0.1,
+     "t1": 0.86
+    }
+   ],
+   "text": "Thank you.",
+   "n": 3
+  }
+ ]
+}
