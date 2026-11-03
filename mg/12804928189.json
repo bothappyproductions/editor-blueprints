@@ -1,0 +1,187 @@
+{
+ "item": "12804928189",
+ "client": "cass",
+ "note": "The script asks for 11 graphics: hook text, two tags, three lower thirds, three pull-quotes, the AYH title card and the photo title. The first 10 in timeline order are made. The photo title on 01:47–01:55 is longer than a tag can hold: type it in the brand font. The end card types CASS until the CASS logo is in the repo; add the Are You Happy logo next to it.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "two NBA players were serving dinner at a family shelter"
+   },
+   "cue": "Hook text on frame 1: two NBA players were serving dinner at a family shelter Already on screen at 0:00. Does not animate on.",
+   "src": "Script, row 00:00–00:05, Motion graphics & type.",
+   "rows": [
+    "00:00–00:05"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third, over the archive clip."
+  },
+  {
+   "n": 2,
+   "title": "Archive tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Finding Hoopers"
+   },
+   "cue": "Archive tag at 00:01 for 3 s, upper corner: Finding Hoopers.",
+   "src": "Script, row 00:00–00:05, Motion graphics & type.",
+   "rows": [
+    "00:00–00:05"
+   ],
+   "use": "Put it on at 00:01 for 3 s, small, upper corner."
+  },
+  {
+   "n": 3,
+   "title": "Location tag",
+   "tpl": "tag_label",
+   "dur": 2.5,
+   "pos": "upper",
+   "text": {
+    "main": "Phoenix, AZ · July"
+   },
+   "cue": "Location tag at 00:05 for 2.5 s, upper left: Phoenix, AZ · July.",
+   "src": "Script, row 00:05–00:12, Motion graphics & type.",
+   "rows": [
+    "00:05–00:12"
+   ],
+   "use": "Put it on at 00:05 over the drone shot. Upper left."
+  },
+  {
+   "n": 4,
+   "title": "Lower third",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Cody Williams"
+   },
+   "cue": "Lower third at 00:13 for 3 s: Cody Williams / Minnesota Timberwolves.",
+   "src": "Script, row 00:12–00:21, Motion graphics & type.",
+   "rows": [
+    "00:12–00:21"
+   ],
+   "use": "Put it on at 00:13 for 3 s. Move it low, captions just under it, no overlap. Type the second line Minnesota Timberwolves under the name."
+  },
+  {
+   "n": 5,
+   "title": "Lower third",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Jalen Williams"
+   },
+   "cue": "Lower third at 00:22 for 3 s: Jalen Williams / Oklahoma City Thunder.",
+   "src": "Script, row 00:21–00:28, Motion graphics & type.",
+   "rows": [
+    "00:21–00:28"
+   ],
+   "use": "Put it on at 00:22 for 3 s. Move it low, captions just under it, no overlap. Type the second line Oklahoma City Thunder under the name."
+  },
+  {
+   "n": 6,
+   "title": "Pull-quote",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "We took Sundays really personal."
+   },
+   "cue": "Pull-quote top text at 00:40 for 3 s, top band, as he says it: We took Sundays really personal.",
+   "src": "Script, row 00:33–00:44, Motion graphics & type.",
+   "rows": [
+    "00:33–00:44"
+   ],
+   "use": "Put it on at 00:40 as he says it. Top band."
+  },
+  {
+   "n": 7,
+   "title": "Lower third",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Nicole Williams"
+   },
+   "cue": "Lower third at 00:45 for 3 s: Nicole Williams / Mother of Jalen & Cody · WTTP Foundation.",
+   "src": "Script, row 00:44–01:00, Motion graphics & type.",
+   "rows": [
+    "00:44–01:00"
+   ],
+   "use": "Put it on at 00:45 for 3 s. Move it low, captions just under it, no overlap. Type the second line Mother of Jalen & Cody · WTTP Foundation under the name."
+  },
+  {
+   "n": 8,
+   "title": "Pull-quote",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "There's always somebody doing worse than you."
+   },
+   "cue": "Pull-quote top text at 01:14 for 3 s, top band, as he says it: There's always somebody doing worse than you.",
+   "src": "Script, row 01:11–01:18, Motion graphics & type.",
+   "rows": [
+    "01:11–01:18"
+   ],
+   "use": "Put it on at 01:14 as he says it. Top band."
+  },
+  {
+   "n": 9,
+   "title": "AYH title card",
+   "tpl": "question_card",
+   "dur": 1.6,
+   "upper": true,
+   "text": {
+    "main": "Are you happy?"
+   },
+   "cue": "AYH title card: ARE YOU HAPPY? full screen for 1.5 s after he asks.",
+   "src": "Script, row 01:23–01:28, Motion graphics & type.",
+   "rows": [
+    "01:23–01:28"
+   ],
+   "use": "Cut it in right after Nick asks, full screen, then back to the brothers."
+  },
+  {
+   "n": 10,
+   "title": "Pull-quote",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "the happier moments that you do get, I think you got to cherish them."
+   },
+   "cue": "Pull-quote top text at 01:41 for 3 s, top band, as he says it: the happier moments that you do get, I think you got to cherish them.",
+   "src": "Script, row 01:37–01:47, Motion graphics & type.",
+   "rows": [
+    "01:37–01:47"
+   ],
+   "use": "Put it on at 01:41 as he says it. Top band."
+  },
+  {
+   "n": 11,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:55–02:00"
+   ],
+   "dur": 4.0,
+   "cue": "End card: CASS logo + Are You Happy logo.",
+   "src": "No CASS end card or logo file is in the repo yet (endcards/index.json has no CASS entry, checked 3 Nov 2026), so CASS is typed in CASS navy. The script asks for the CASS logo and the Are You Happy logo; no AYH logo file is in endcards/ either.",
+   "c": {
+    "bg": "#2C2B77",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "CASS",
+    "lines": []
+   },
+   "use": "After the photo at 01:55, under Nick's last line. Put the Are You Happy logo next to CASS from the V2 project. Hold it to the end."
+  }
+ ]
+}

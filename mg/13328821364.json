@@ -1,0 +1,113 @@
+{
+ "item": "13328821364",
+ "client": "cass",
+ "note": "The script asks for the hook text, one lower third, two top text lines and a key-words stack, so 5 graphics and the end card. Rows 00:10–00:21 and 00:21–00:30 are captions only. The CASS logo file is not in endcards/ yet, so the end card types CASS until it is added.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "We're never just too far gone."
+   },
+   "cue": "Hook text on frame 1: We're never just too far gone. Already on screen at 0:00. Does not animate on.",
+   "src": "Script, row 00:00–00:10, Motion graphics & type.",
+   "rows": [
+    "00:00–00:10"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third."
+  },
+  {
+   "n": 2,
+   "title": "Lower third",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Gabriela"
+   },
+   "cue": "Lower third at 00:03 for 3 s, lower left above the captions: Gabriela / Shelter Support, The Haven.",
+   "src": "Script, row 00:00–00:10, Motion graphics & type.",
+   "rows": [
+    "00:00–00:10"
+   ],
+   "use": "Put it on at 00:03 for 3 s, after the hook text goes out. Move it lower left, above the captions. Type the second line Shelter Support, The Haven under the name."
+  },
+  {
+   "n": 3,
+   "title": "Top text",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "there's a root behind it"
+   },
+   "cue": "Top text at 00:35 for 2.5 s, top band, as she says it: there's a root behind it.",
+   "src": "Script, row 00:30–00:41, Motion graphics & type.",
+   "rows": [
+    "00:30–00:41"
+   ],
+   "use": "Put it on at 00:35 as she says it. Top band. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "Key words",
+   "tpl": "word_stack",
+   "dur": 6,
+   "pos": "top",
+   "text": {
+    "items": [
+     "an apartment",
+     "a job",
+     "tears of joy"
+    ]
+   },
+   "cue": "Key words at 00:42, stacked in the top band as she says them: an apartment / a job / tears of joy.",
+   "src": "Script, row 00:41–00:50, Motion graphics & type.",
+   "rows": [
+    "00:41–00:50"
+   ],
+   "use": "Start at 00:42 so each phrase lands as she says it. Top band. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "Top text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "I didn't allow my circumstances to dictate who I was"
+   },
+   "cue": "Top text at 00:55 for 3 s, top band, as she says it: I didn't allow my circumstances to dictate who I was.",
+   "src": "Script, row 00:50–01:01, Motion graphics & type.",
+   "rows": [
+    "00:50–01:01"
+   ],
+   "use": "Put it on at 00:55 as she says it. Top band. Keep captions on."
+  },
+  {
+   "n": 6,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:01–01:05"
+   ],
+   "dur": 4.0,
+   "cue": "End card: CASS logo, then the line For more information visit cassaz.org.",
+   "src": "No CASS end card or logo file is in the repo yet (endcards/index.json has no CASS entry, checked 3 Nov 2026), so CASS is typed. Line from the script's end card row (cassaz.org, the CASS end card line in the client file); colours from the CASS brand (navy #2C2B77, white).",
+   "c": {
+    "bg": "#2C2B77",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "CASS",
+    "lines": [
+     "For more information visit cassaz.org"
+    ]
+   },
+   "use": "After the last line at 01:01. Hold it to the end. Swap in the CASS logo once it is in the repo."
+  }
+ ]
+}

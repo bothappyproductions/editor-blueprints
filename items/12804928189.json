@@ -8,13 +8,13 @@
  "editor": "Bleron",
  "due": "2026-08-24",
  "format": "9:16 only · 1080×1920",
- "length": "about 90 s",
+ "length": "about 2 min (row 10 is the first cut if you need time)",
  "edit_key": "CASSAreYouHappyWilliamsJourney001",
  "headline": "Nick the hooper meets two NBA players, and the payoff isn't basketball: Jalen and Cody Williams came home to serve Sunday dinner at a family shelter.",
  "story": [
   "Nick is a basketball guy. In Phoenix in July he hears two NBA players are serving dinner at a family shelter. He's in.",
-  "They didn't come home for training, they came home for Sunday dinner. Their mom Nicole runs it: a fine-dining night that tells residents they are valued.",
-  "Are you happy? One laughs: who can be upset after Sunday dinner. The other: cherish the happy moments. Then the photo."
+  "They didn't come home for training, they came home for Sunday dinner. Their mom Nicole spearheads it: a fine-dining night that tells residents they are heard and valued.",
+  "<b>Turn:</b> Are you happy? One laughs: who can be upset after a Sunday dinner. The other: cherish the happy moments. <b>Button:</b> the photo, then the end card."
  ],
  "feel": [
   "Warm",
@@ -23,37 +23,37 @@
   "Grounded"
  ],
  "do": [
-  "Cold open on the Finding Hoopers clip, hard cut out on the beat.",
-  "Give Nicole a real block and her full label.",
-  "Let the laugh land clean on the first answer: no cutaway, no swell.",
-  "Hold a beat on a speaker after he stops talking before cutting away.",
-  "End on the photo, then the end card."
+  "Cold open on the Finding Hoopers clip, hard cut out on the beat, hook text on screen at 0:00.",
+  "Cody's title is Minnesota Timberwolves; keep <q>I'm 21</q> whole.",
+  "Names, titles and captions sit low; captions under the name and title, never overlapping.",
+  "Hold 1 s on a speaker after he stops talking before you cut away.",
+  "Only the interview audio under each voice: no second audio track anywhere."
  ],
  "dont": [
-  "Don't say “I play for the Utah Jazz”: Cody was traded.",
+  "No <q>I play for Utah Jazz</q>: Cody was traded.",
   "Don't let the reveal become a sports edit.",
-  "No kids' faces or identifying resident details without a confirmed release.",
-  "Don't super a name on beats 9, 10, 12 or 13 until you confirm the speaker by picture.",
+  "No child's face or identifying resident details without a confirmed release.",
+  "No name on rows 01:11, 01:18, 01:28 or 01:37 until the speaker is confirmed by picture.",
   "Don't trim the question, the two answers or the photo."
  ],
  "links": {
   "brief": {
    "title": "A/V Script — Williams Brothers Sunday Dinner (Journey Cut)",
    "url": "https://docs.google.com/document/d/16d6qke4ieSSP7KCy31cQA7zOrLSdm4kFbTEVcz32Dvg/edit",
-   "note": "15 beats, every bite verbatim and timecoded. Locked and approved by Nick (Monday, 14 Aug)."
+   "note": "15 beats, locked and approved by Nick (Monday, 14 Aug). The bites on this page are the exact transcript words for the script's ranges; where the script's wording differs, this page is right."
   },
   "reference": {
    "missing": true,
    "title": "None on the item",
-   "note": "Match the Finding Hoopers series look for the cold open."
+   "note": "Nick owes it. Match the Finding Hoopers series look for the cold open."
   },
   "footage": {
-   "title": "CASS July 2026 shoot",
-   "url": "https://drive.google.com/drive/folders/1igYrvZ_kWXHBVSeg2BHgNbH8rEtsMsU3",
-   "note": "Williams Brothers Family Dinner · Williams Family &amp; Friends Interviews · Family Shelter Outdoor B Roll · CASS Family Shelter Drone Shots."
+   "title": "CASS Shoot July 2026 raw",
+   "url": "https://drive.google.com/drive/folders/1Gn6-CcgXmATGQXax3ENW_9aMCtOXZ44O",
+   "note": "Interviews: Jalen &amp; Cody Williams NBA Player Interviews &amp; AYH (C4414), Mrs. Williams Interview (C4415), Williams Family Welcome Speech (C4347). B-roll: Williams Brothers Family Dinner, CASS Family Shelter Drone Shots."
   }
  },
- "bp_intro": "Bites are from <span class=\"mono\">20260726_C4414.MP4</span> (Jalen &amp; Cody) and <span class=\"mono\">C4415</span> (Nicole), horizontal 4K. Times are from the A/V script and are relative to each clip. Nick's lines are his VO. After the intros the transcript doesn't say which brother is talking: confirm by picture.",
+ "bp_intro": "Bites are from <span class=\"mono\">20260726_C4414.MP4</span> (Jalen and Cody), <span class=\"mono\">20260726_C4415.MP4</span> (Nicole) and <span class=\"mono\">20260726_C4347.MP4</span> (Cody's welcome, optional). Times are mm:ss.s in each clip, from the shoot's srt matched to the clip, so trim by ear. Nick's lines are his recorded voice-over. B-roll was picked from visual.json; no frames could be pulled this run.",
  "rows": [
   {
    "tc": "00:00–00:05",
@@ -63,342 +63,594 @@
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "<b>Archive:</b> Finding Hoopers, Nick guarding The Professor. Punch in on the best move.",
-   "motion": "Small archive tag, upper corner: <q>Finding Hoopers</q>. No logo, no lower third. Hard cut out on the beat.",
+   "visual": "<b>Archive:</b> the Finding Hoopers clip, Nick guarding The Professor. Punch in on the best move. Hard cut out on the beat. The clip is not in the CASS folder: take it from the V2 project.",
+   "motion": "Hook text on <b>frame 1</b>: <q>two NBA players were serving dinner at a family shelter</q> Already on screen at 0:00. Does not animate on. Top third. It goes out at 00:03. Archive tag at 00:01 for 3 s, upper corner: <q>Finding Hoopers</q>. No logo, no lower third.",
    "voice": {
     "who": "Nick (VO)",
     "quote": "If you've checked our Finding Hoopers series, you already know, I'm a basketball guy.",
-    "src": "Nick VO"
+    "src": "Nick VO, recorded for this cut (A/V script, beat lines)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Hoop energy."
+   "music": "Hoop energy under the cold open.",
+   "shots": []
   },
   {
    "tc": "00:05–00:12",
    "beat": "SETUP",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Drone push toward Vista Colina (CASS Family Shelter Drone Shots), heat shimmer, then Nick walking in with camera gear.",
-   "motion": "<q>Phoenix, AZ · July</q>. Caption “that night,” with the comma.",
+   "visual": "Drone push toward Vista Colina: <a href=\"https://drive.google.com/file/d/1clDTJD-kfCQgHViHWkrbQ9vrlldJVSyA/view\">DJI_0105.MP4</a> from <span class=\"mono\">02:30.0</span> for 3 s (the family shelter rooftops with solar panels, from the air, 2.7K). Then Nick walking in with camera gear (from the V2 project; not in visual.json).",
+   "motion": "Location tag at 00:05 for 2.5 s, upper left: <q>Phoenix, AZ · July</q>. Captions on. Caption <q>that night,</q> with the comma.",
    "voice": {
     "who": "Nick (VO)",
-    "quote": "So when a shoot took me to Phoenix in the middle of July, and I found out two NBA players were serving dinner at a family shelter that night… yeah. I was in.",
-    "src": "Nick VO"
+    "quote": "So when a shoot took me to Phoenix in the middle of July, and I found out two NBA players were serving dinner at a family shelter that night, yeah. I was in.",
+    "src": "Nick VO, recorded for this cut (A/V script, beat lines)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed under the voice."
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "clip": "DJI_0105.MP4",
+     "at": 150.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "CASS Shoot July 2026/CASS Family Shelter Drone Shots/DJI_0105.MP4",
+     "drive": "1clDTJD-kfCQgHViHWkrbQ9vrlldJVSyA",
+     "layout": "full",
+     "what": "family shelter rooftops from the air"
+    }
+   ]
   },
   {
-   "tc": "00:12–00:18",
+   "tc": "00:12–00:21",
    "beat": "CODY",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Smash cut to the two-shot interview. Cody first. Reframe 9:16 on him.",
-   "motion": "<b>Lower third:</b> Cody Williams | Minnesota Timberwolves, low in frame. Captions sit just under it, never overlapping. CASS all caps (transcript: “cast”).",
+   "visual": "Smash cut to the two-shot interview <a href=\"https://drive.google.com/file/d/1duX4Qo56RzZX-_HZa8d1k4faKeRNcSak/view\">20260726_C4414.MP4</a>, reframed 9:16 on Cody. <q>My name's Cody Williams.</q> (<span class=\"mono\">00:12.5</span>), then cut <q>I play for Utah Jazz.</q> (he was traded) and go straight to <q>I'm 21 and grew up here in Arizona</q> (<span class=\"mono\">00:14.9</span>). Keep the <q>I'm</q> before <q>21</q>: it must not be clipped. Hide the jump with a small punch-in.",
+   "motion": "Lower third at 00:13 for 3 s: <q>Cody Williams</q> / Minnesota Timberwolves. Low in the frame; captions sit just under it, never overlapping (Atdhe, 2 and 3 Nov). Captions on.",
    "voice": {
     "who": "Cody Williams",
-    "quote": "My name's Cody Williams. … grew up here in Arizona, so it's always nice coming back, be able to work with CASS.",
-    "src": "C4414 0:12→0:20 (cut “I play for the Utah Jazz”)"
+    "quote": "My name's Cody Williams. I'm 21 and grew up here in Arizona, so it's always nice coming back and be able to work with CASS.",
+    "src": "20260726_C4414.MP4 00:12.5 to 00:13.9 + 00:14.9 to 00:21.6"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed under the voice."
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "My name's Cody Williams"
+    },
+    {
+     "face": true,
+     "from_word": "I'm 21 and grew up"
+    }
+   ]
   },
   {
-   "tc": "00:18–00:24",
+   "tc": "00:21–00:28",
    "beat": "JALEN",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Reframe on Jalen. Optional 0.5 s trophy still on “champion”. Keep it quick.",
-   "motion": "<b>Lower third:</b> Jalen Williams | Oklahoma City Thunder. Jalen, not “Jaylen”.",
+   "visual": "Reframe 9:16 on Jalen, same clip, from <span class=\"mono\">00:21.6</span>. Keep it quick: no sports graphics.",
+   "motion": "Lower third at 00:22 for 3 s: <q>Jalen Williams</q> / Oklahoma City Thunder. Jalen, not Jaylen. Low in the frame; captions sit just under it, never overlapping (Atdhe, 2 and 3 Nov). Captions on.",
    "voice": {
     "who": "Jalen Williams",
     "quote": "I'm Jalen Williams. I play for the Oklahoma City Thunder, champion of Oklahoma City Thunder.",
-    "src": "C4414 0:21→0:27"
+    "src": "20260726_C4414.MP4 00:21.6 to 00:28.7"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed under the voice."
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I'm Jalen Williams"
+    }
+   ]
   },
   {
-   "tc": "00:24–00:29",
+   "tc": "00:28–00:33",
    "beat": "THE TURN",
    "kind": "turn",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Quiet setup B-roll: white tablecloths going down, plates squared up, centerpieces, empty chairs in a row.",
+   "visual": "Quiet setup B-roll: <a href=\"https://drive.google.com/file/d/1p8dLpiJmclo55xTv6CXH2jrwfsk6Puu8/view\">20260726_C4276.MP4</a> from <span class=\"mono\">00:00.5</span> for 2.5 s (two people in black set tables: white cloths, red checkered runners, white plates); <a href=\"https://drive.google.com/file/d/1Yf0o5LtOUip9WsoM980b0U_ecMysCGEB/view\">20260726_C4277.MP4</a> from <span class=\"mono\">00:03.0</span> for 2 s (gold plates and napkins laid on the checkered cloth); <a href=\"https://drive.google.com/file/d/1oaybzLpu-v-SjA3e4Hgrmlv4fupFfoFS/view\">20260726_C4317.MP4</a> from <span class=\"mono\">00:00.5</span> for 2 s (white chairs and a set table with flowers).",
    "motion": "Captions only.",
    "voice": {
     "who": "Nick (VO)",
     "quote": "But they didn't come home for training. They came home for Sunday dinner.",
-    "src": "Nick VO"
+    "src": "Nick VO, recorded for this cut (A/V script, beat lines)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Music drops out for half a beat, then back softer."
+   "music": "Music drops out for half a beat, then back softer.",
+   "shots": [
+    {
+     "clip": "20260726_C4276.MP4",
+     "at": 0.5,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "CASS Shoot July 2026/Williams Brothers Family Dinner/20260726_C4276.MP4",
+     "drive": "1p8dLpiJmclo55xTv6CXH2jrwfsk6Puu8",
+     "layout": "full",
+     "what": "tables being set with checkered runners"
+    },
+    {
+     "clip": "20260726_C4277.MP4",
+     "at": 3.0,
+     "dur": 2.0,
+     "cx": 0.5,
+     "path": "CASS Shoot July 2026/Williams Brothers Family Dinner/20260726_C4277.MP4",
+     "drive": "1Yf0o5LtOUip9WsoM980b0U_ecMysCGEB",
+     "layout": "full",
+     "what": "gold plates and napkins"
+    },
+    {
+     "clip": "20260726_C4317.MP4",
+     "at": 0.5,
+     "dur": 2.0,
+     "cx": 0.5,
+     "path": "CASS Shoot July 2026/Williams Brothers Family Dinner/20260726_C4317.MP4",
+     "drive": "1oaybzLpu-v-SjA3e4Hgrmlv4fupFfoFS",
+     "layout": "full",
+     "what": "white chairs, set table, flowers"
+    }
+   ]
   },
   {
-   "tc": "00:29–00:39",
+   "tc": "00:33–00:44",
    "beat": "WHY SUNDAY DINNER",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Over setup and serving B-roll: napkins folded, trays out, volunteers in matching shirts.",
-   "motion": "Pull-quote: <q>We took Sundays really personal.</q>",
+   "visual": "Jalen on <a href=\"https://drive.google.com/file/d/1duX4Qo56RzZX-_HZa8d1k4faKeRNcSak/view\">20260726_C4414.MP4</a> from <span class=\"mono\">00:39.6</span>, then over the setup: <a href=\"https://drive.google.com/file/d/1siVTYVal5e4kkCaDOe29eGKFbFXf4zDO/view\">20260726_C4286.MP4</a> from <span class=\"mono\">00:03.5</span> for 2.5 s (a box of bow-tie pasta, flowers and a place card on the checkered cloth); <a href=\"https://drive.google.com/file/d/1OgoSzAk9z7n7hdUR8gU2AHvdHG_WGxsB/view\">20260726_C4291.MP4</a> from <span class=\"mono\">00:00.5</span> for 2 s (a menu, A Taste of Italy, on a plate); <a href=\"https://drive.google.com/file/d/1XI0nQyP1GNlNks_jewX_FDesMN-6d3Xd/view\">20260726_C4334.MP4</a> from <span class=\"mono\">00:10.0</span> for 2.5 s (a woman adjusts a flower arrangement on a table). Back to Jalen for <q>so we took Sundays really personal.</q> End the bite on <q>personal</q>.",
+   "motion": "Pull-quote top text at 00:40 for 3 s, top band, as he says it: <q>We took Sundays really personal.</q> Captions on.",
    "voice": {
-    "who": "Jalen",
-    "quote": "Our thing is centered around Sunday dinner, family dinner. It's just how we grew up. It was the one time where nobody had any AAU basketball. Nobody was working, so we took Sundays really personal.",
-    "src": "C4414 0:39→0:50"
+    "who": "Jalen Williams",
+    "quote": "Our thing is centered around Sunday dinner, family dinner. It's just how we grew up. It was like the one time where nobody had any AAU basketball. Nobody was working, so we took Sundays really personal.",
+    "src": "20260726_C4414.MP4 00:39.6 to 00:50.0"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed under the voice."
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Our thing is centered"
+    },
+    {
+     "clip": "20260726_C4286.MP4",
+     "at": 3.5,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "CASS Shoot July 2026/Williams Brothers Family Dinner/20260726_C4286.MP4",
+     "drive": "1siVTYVal5e4kkCaDOe29eGKFbFXf4zDO",
+     "layout": "full",
+     "what": "bow-tie pasta box and flowers"
+    },
+    {
+     "clip": "20260726_C4291.MP4",
+     "at": 0.5,
+     "dur": 2.0,
+     "cx": 0.5,
+     "path": "CASS Shoot July 2026/Williams Brothers Family Dinner/20260726_C4291.MP4",
+     "drive": "1OgoSzAk9z7n7hdUR8gU2AHvdHG_WGxsB",
+     "layout": "full",
+     "what": "A Taste of Italy menu on a plate"
+    },
+    {
+     "clip": "20260726_C4334.MP4",
+     "at": 10.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "CASS Shoot July 2026/Williams Brothers Family Dinner/20260726_C4334.MP4",
+     "drive": "1XI0nQyP1GNlNks_jewX_FDesMN-6d3Xd",
+     "layout": "full",
+     "what": "flowers set on a table"
+    },
+    {
+     "face": true,
+     "from_word": "so we took Sundays"
+    }
+   ]
   },
   {
-   "tc": "00:39–00:48",
+   "tc": "00:44–01:00",
    "beat": "MEET MOM",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Nicole's interview, then her working the room: directing volunteers, checking tables.",
-   "motion": "<b>Lower third:</b> Nicole Williams | Mother of Jalen &amp; Cody · WTTP Foundation, low in frame. Captions under it, no overlap.",
+   "visual": "Nicole's interview <a href=\"https://drive.google.com/file/d/1neGDwU_7hORAOfjpObo7HcAUNW-INYSa/view\">20260726_C4415.MP4</a> from <span class=\"mono\">00:05.0</span>. Give her a real block. Cutaways of her working the room only where it is really her: visual.json does not name people, so check by picture (candidates: <a href=\"https://drive.google.com/file/d/12IbvRTaTviNLgjMaNAjatUqVT64KXY4U/view\">20260726_C4344.MP4</a> from <span class=\"mono\">00:10.0</span>, a woman in a black dress at a podium; <a href=\"https://drive.google.com/file/d/1kz1J8VtEz3YuOtKiWWKKoR-IAlxdUDsN/view\">20260726_C4375.MP4</a> from <span class=\"mono\">00:06.0</span>, a woman in a black dress holds a plate).",
+   "motion": "Lower third at 00:45 for 3 s: <q>Nicole Williams</q> / Mother of Jalen &amp; Cody · WTTP Foundation. Low in the frame; captions sit just under it, never overlapping (Atdhe, 2 and 3 Nov). Captions on.",
    "voice": {
     "who": "Nicole Williams",
-    "quote": "I'm Nicole Williams. I'm the mother of Jalen and Cody Williams… one of the things they do through the foundation is the Williams Brothers Sunday Dinner, that they have me spearheading.",
-    "src": "C4415 0:05→0:19"
+    "quote": "I'm Nicole Williams. I'm the mother of Jalen and Cody Williams. Jalen and Cody have a foundation, the WTTP Foundation. And one of their things that they do during this foundation is do the Williams Brothers Sunday dinner that they have me spearheading.",
+    "src": "20260726_C4415.MP4 00:05.0 to 00:20.5"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed under the voice."
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I'm Nicole Williams"
+    }
+   ]
   },
   {
-   "tc": "00:48–00:57",
+   "tc": "01:00–01:11",
    "beat": "WHAT THE DINNER IS",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Best serving footage: plates out, drinks poured, family in aprons, guests laughing. No kids' faces without a release.",
-   "motion": "<q>Fine dining, at a family shelter.</q> Caption “fine-dining” hyphenated and the comma after “them”.",
+   "visual": "Nicole from <span class=\"mono\">00:22.1</span>, then the best serving footage: <a href=\"https://drive.google.com/file/d/1O41d1JYSA5GgYh0Po0eG95KbEBOD3czJ/view\">20260726_C4353.MP4</a> from <span class=\"mono\">00:09.0</span> for 2.5 s (full tables with white flowers in front of the Mediterranean mural); <a href=\"https://drive.google.com/file/d/1oT7ynYgquJrzCA_TR_3R5e7ii2yl3CUJ/view\">20260726_C4318.MP4</a> from <span class=\"mono\">00:15.0</span> for 2.5 s (a man serves food to a seated guest); <a href=\"https://drive.google.com/file/d/1ztDx9-pL0wjS46jvIZhWV6EBWD8oA-pf/view\">20260726_C4373.MP4</a> from <span class=\"mono\">00:01.5</span> for 2 s (a man reaches for a glass at a table). No child's face clear without a confirmed release.",
+   "motion": "Captions only. Caption <q>fine-dining</q> with the hyphen and <q>rooting and cheering for them,</q> with the comma.",
    "voice": {
     "who": "Nicole Williams",
-    "quote": "We come to the shelter and give the residents a fine-dining experience, just letting them know that they are heard, that we value them, that we're rooting and cheering for them, and we serve them.",
-    "src": "C4415 0:22→0:32"
+    "quote": "We come to the shelter and we put on and give the residents a fine-dining experience, just letting them know that they are heard, that we value them, that we're rooting and cheering for them, and we serve them.",
+    "src": "20260726_C4415.MP4 00:22.1 to 00:33.2"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed under the voice."
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "We come to the shelter"
+    },
+    {
+     "clip": "20260726_C4353.MP4",
+     "at": 9.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "CASS Shoot July 2026/Williams Brothers Family Dinner/20260726_C4353.MP4",
+     "drive": "1O41d1JYSA5GgYh0Po0eG95KbEBOD3czJ",
+     "layout": "full",
+     "what": "full tables, flowers, mural"
+    },
+    {
+     "clip": "20260726_C4318.MP4",
+     "at": 15.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "CASS Shoot July 2026/Williams Brothers Family Dinner/20260726_C4318.MP4",
+     "drive": "1oT7ynYgquJrzCA_TR_3R5e7ii2yl3CUJ",
+     "layout": "full",
+     "what": "man serves food to a seated guest"
+    },
+    {
+     "clip": "20260726_C4373.MP4",
+     "at": 1.5,
+     "dur": 2.0,
+     "cx": 0.5,
+     "path": "CASS Shoot July 2026/Williams Brothers Family Dinner/20260726_C4373.MP4",
+     "drive": "1ztDx9-pL0wjS46jvIZhWV6EBWD8oA-pf",
+     "layout": "full",
+     "what": "man reaches for a glass"
+    }
+   ]
   },
   {
-   "tc": "00:57–01:06",
+   "tc": "01:11–01:18",
    "beat": "WHY THEY GIVE BACK",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Back to the two-shot. Intercut Nicole listening or the brothers at a table.",
-   "motion": "Pull-quote: <q>There's always somebody doing worse than you.</q>",
+   "visual": "Back to the two-shot <a href=\"https://drive.google.com/file/d/1duX4Qo56RzZX-_HZa8d1k4faKeRNcSak/view\">20260726_C4414.MP4</a> from <span class=\"mono\">01:42.6</span>. Intercut one beat of <a href=\"https://drive.google.com/file/d/1FV-LXM3Kz58xev3dwbjq97bBylWGwdO4/view\">20260726_C4340.MP4</a> from <span class=\"mono\">00:01.0</span> for 2 s (people seated at a table in the tent, a TV screen behind). Hold 1 s on him after he stops talking before you cut away.",
+   "motion": "Pull-quote top text at 01:14 for 3 s, top band, as he says it: <q>There's always somebody doing worse than you.</q> No name super until the speaker is confirmed by picture. Captions on.",
    "voice": {
-    "who": "Brother A (confirm by picture)",
+    "who": "Jalen or Cody (confirm by picture)",
     "quote": "It's something that our parents didn't let us take for granted. I feel like there's always somebody doing worse than you.",
-    "src": "C4414 1:42→1:50"
+    "src": "20260726_C4414.MP4 01:42.6 to 01:48.2"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed under the voice."
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "It's something that our parents"
+    },
+    {
+     "clip": "20260726_C4340.MP4",
+     "at": 1.0,
+     "dur": 2.0,
+     "cx": 0.5,
+     "path": "CASS Shoot July 2026/Williams Brothers Family Dinner/20260726_C4340.MP4",
+     "drive": "1FV-LXM3Kz58xev3dwbjq97bBylWGwdO4",
+     "layout": "full",
+     "what": "people at a table in the tent"
+    }
+   ]
   },
   {
-   "tc": "01:06–01:13",
+   "tc": "01:18–01:23",
    "beat": "THE PAYOFF LINE",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Widest, warmest room shot: full tables, everyone eating. Alt: Cody at the mic, C4347 about 0:27 “We're here to serve you guys.”",
-   "motion": "Caption “to be able to give back is” with no break. First beat to cut if you need time.",
+   "visual": "The widest, warmest room shot: <a href=\"https://drive.google.com/file/d/150I1f_DeZ1USZhC8SeZV-4yotzODioKA/view\">20260726_C4364.MP4</a> from <span class=\"mono\">00:11.0</span> for 3 s (white tables with flowers and glasses, wide). Alt: Cody at the mic, <a href=\"https://drive.google.com/file/d/1kLCntxAUT_o91XFz2zMUCyCimJUSm6DP/view\">20260726_C4347.MP4</a> from <span class=\"mono\">00:27.5</span>, <q>We're here to serve you guys</q>. First row to cut if you need time.",
+   "motion": "Captions only. Caption <q>to be able to give back is</q> on one line, no break.",
    "voice": {
-    "who": "Brother B (confirm by picture)",
-    "quote": "Being fortunate enough to be in this position, to be able to give back is the biggest thing ever.",
-    "src": "C4414 2:52→2:58"
+    "who": "Jalen or Cody (confirm by picture)",
+    "quote": "Being fortunate enough to be in this position to be able to give back is the biggest thing ever.",
+    "src": "20260726_C4414.MP4 02:54.1 to 02:58.4"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed under the voice."
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "clip": "20260726_C4364.MP4",
+     "at": 11.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "CASS Shoot July 2026/Williams Brothers Family Dinner/20260726_C4364.MP4",
+     "drive": "150I1f_DeZ1USZhC8SeZV-4yotzODioKA",
+     "layout": "full",
+     "what": "wide room, white tables, flowers"
+    }
+   ]
   },
   {
-   "tc": "01:13–01:17",
+   "tc": "01:23–01:28",
    "beat": "THE QUESTION",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Over-the-shoulder or reverse on Nick, AYH style. Beat of silence, the brothers glance at each other.",
-   "motion": "AYH title card treatment: <q>ARE YOU HAPPY?</q>",
+   "visual": "Nick asks, <a href=\"https://drive.google.com/file/d/1duX4Qo56RzZX-_HZa8d1k4faKeRNcSak/view\">20260726_C4414.MP4</a> from <span class=\"mono\">04:18.5</span>. Over-the-shoulder or a reverse on Nick if the V2 project has one; otherwise the two-shot. A beat of silence, the brothers glance at each other.",
+   "motion": "AYH title card: <q>ARE YOU HAPPY?</q> full screen for 1.5 s after he asks. Captions on under his question.",
    "voice": {
-    "who": "Nick",
-    "quote": "Last question I got for you both, this one I ask everyone. Are you happy?",
-    "src": "C4414 4:18"
+    "who": "Nick Reis",
+    "quote": "Last question I got for you both. This one I ask everyone. Are you happy?",
+    "src": "20260726_C4414.MP4 04:18.5 to 04:23.9"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed under the voice."
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Last question"
+    }
+   ]
   },
   {
-   "tc": "01:17–01:26",
+   "tc": "01:28–01:37",
    "beat": "THE LAUGH",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Stay on his face. Hold a second after he stops before cutting.",
-   "motion": "Keep “Am I happy?”: the repeat-back is the charm.",
+   "visual": "Stay on his face, <a href=\"https://drive.google.com/file/d/1duX4Qo56RzZX-_HZa8d1k4faKeRNcSak/view\">20260726_C4414.MP4</a> from <span class=\"mono\">04:24.7</span>. Keep <q>Am I happy? I am now.</q>, then go to <q>Who can be upset</q> (<span class=\"mono\">04:33.5</span>); hide that join with a punch-in, not a cutaway. Hold 1 s on him after he stops talking.",
+   "motion": "Captions only. Keep <q>Am I happy?</q> in the captions: the repeat-back is the charm.",
    "voice": {
-    "who": "Brother A (confirm by picture)",
-    "quote": "Am I happy? I am now… Who can be upset after a Sunday dinner with a bunch of their family and friends? I mean, yeah, I'm really happy actually.",
-    "src": "C4414 4:25→4:38"
+    "who": "Jalen or Cody (confirm by picture)",
+    "quote": "Am I happy? I am now. Who can be upset after a Sunday dinner with a bunch of their family and friends? I mean, yeah, I'm really happy actually.",
+    "src": "20260726_C4414.MP4 04:24.7 to 04:26.1 + 04:33.5 to 04:40.0"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "No swell."
+   "music": "No swell.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Am I happy?"
+    }
+   ]
   },
   {
-   "tc": "01:26–01:36",
+   "tc": "01:37–01:47",
    "beat": "THE WEIGHT",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Quiet montage under the back half: plates passed, Nicole watching from the edge of the room, golden light on the lot.",
-   "motion": "Pull-quote: <q>The happier moments that you do get, you've got to cherish them.</q>",
+   "visual": "His face from <span class=\"mono\">04:43.2</span> for the first sentence, then a quiet montage under the back half: <a href=\"https://drive.google.com/file/d/1v5wMNPIC0fJxx2WQcEWCpHU-KXfm8xyt/view\">20260726_C4372.MP4</a> from <span class=\"mono\">00:00.5</span> for 2.5 s (guests seated at the tables); <a href=\"https://drive.google.com/file/d/1XCUVUCucAJhCgn-C3qo1ewPKmsaO5nVY/view\">20260726_C4367.MP4</a> from <span class=\"mono\">00:03.0</span> for 2.5 s (a TV in the tent shows THE WILLIAMS FAMILY WELCOMES YOU); <a href=\"https://drive.google.com/file/d/1rc6PumsDlEySO1l3CY07bWtWnSk8bqqJ/view\">DJI_0106.MP4</a> from <span class=\"mono\">04:00.0</span> for 3 s (the lot with a mountain behind, from the air).",
+   "motion": "Pull-quote top text at 01:41 for 3 s, top band, as he says it: <q>the happier moments that you do get, I think you got to cherish them.</q> Captions on.",
    "voice": {
-    "who": "Brother B (confirm by picture)",
-    "quote": "Life's not always going to be happy, so the happier moments that you do get, I think you've got to cherish them. And this is one of them, for sure.",
-    "src": "C4414 4:40→4:51"
+    "who": "Jalen or Cody (confirm by picture)",
+    "quote": "I think life is not always going to be happy. So the happier moments that you do get, I think you got to cherish them. And this is one of them for sure.",
+    "src": "20260726_C4414.MP4 04:43.2 to 04:52.5"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed under the voice."
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I think life is not"
+    },
+    {
+     "clip": "20260726_C4372.MP4",
+     "at": 0.5,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "CASS Shoot July 2026/Williams Brothers Family Dinner/20260726_C4372.MP4",
+     "drive": "1v5wMNPIC0fJxx2WQcEWCpHU-KXfm8xyt",
+     "layout": "full",
+     "what": "guests seated at tables"
+    },
+    {
+     "clip": "20260726_C4367.MP4",
+     "at": 3.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "CASS Shoot July 2026/Williams Brothers Family Dinner/20260726_C4367.MP4",
+     "drive": "1XCUVUCucAJhCgn-C3qo1ewPKmsaO5nVY",
+     "layout": "full",
+     "what": "TV: THE WILLIAMS FAMILY WELCOMES YOU"
+    },
+    {
+     "clip": "DJI_0106.MP4",
+     "at": 240.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "CASS Shoot July 2026/CASS Family Shelter Drone Shots/DJI_0106.MP4",
+     "drive": "1rc6PumsDlEySO1l3CY07bWtWnSk8bqqJ",
+     "layout": "full",
+     "what": "the lot and a mountain from the air"
+    }
+   ]
   },
   {
-   "tc": "01:36–01:43",
+   "tc": "01:47–01:55",
    "beat": "BUTTON",
    "kind": "",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "<b>The photo:</b> Nick with Jalen &amp; Cody. Hold, slow push in.",
-   "motion": "<q>Williams Brothers Sunday Dinner · Vista Colina Family Shelter</q>. Caption “down-to-earth” hyphenated, period after “met”.",
+   "visual": "<b>The photo:</b> Nick with Jalen and Cody (from the V2 project; not in the shoot folder). Hold, slow push in. A moving push on a photo is fine; never a freeze frame of a speaker.",
+   "motion": "Title on the photo at 01:48 for 4 s, top band: <q>Williams Brothers Sunday Dinner · Vista Colina Family Shelter</q>. Caption <q>down-to-earth</q> with hyphens and a period after <q>met</q>.",
    "voice": {
     "who": "Nick (VO)",
-    "quote": "An NBA champion and a top 10 pick. Two of the most down-to-earth guys I've ever met, and the thing they're proudest of is serving their community.",
-    "src": "Nick VO"
+    "quote": "An NBA champion and a top 10 pick. Two of the most down-to-earth guys I've ever met. And the thing they're proudest of is serving their community.",
+    "src": "Nick VO, recorded for this cut (A/V script, beat lines)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Lift."
+   "music": "Lift.",
+   "shots": []
   },
   {
-   "tc": "01:43–01:48",
+   "tc": "01:55–02:00",
    "beat": "CTA / END CARD",
    "kind": "end",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Last frame of the room, everyone still eating.",
+   "visual": "Last frame of the room, everyone still eating (<a href=\"https://drive.google.com/file/d/150I1f_DeZ1USZhC8SeZV-4yotzODioKA/view\">20260726_C4364.MP4</a> from <span class=\"mono\">00:01.0</span> for 2 s (tables set for the meal, people talking), no child's face), then the end card.",
    "motion": "End card: CASS logo + Are You Happy logo.",
    "voice": {
     "who": "Nick (VO)",
     "quote": "Follow CASS and the WTTP Foundation, and go have dinner with somebody this Sunday.",
-    "src": "Nick VO (optional tag: Jalen, C4414 5:15 “Coming to a city near you.”)"
+    "src": "Nick VO, recorded for this cut (A/V script, beat lines)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Out."
+   "music": "Out.",
+   "shots": [
+    {
+     "clip": "20260726_C4364.MP4",
+     "at": 1.0,
+     "dur": 2.0,
+     "cx": 0.5,
+     "path": "CASS Shoot July 2026/Williams Brothers Family Dinner/20260726_C4364.MP4",
+     "drive": "150I1f_DeZ1USZhC8SeZV-4yotzODioKA",
+     "layout": "full",
+     "what": "tables set for the meal"
+    }
+   ]
   }
  ],
  "frames": {},
  "files": [
   [
    "A/V script",
-   "<a href=\"https://docs.google.com/document/d/16d6qke4ieSSP7KCy31cQA7zOrLSdm4kFbTEVcz32Dvg/edit\">Williams Brothers Sunday Dinner (Journey Cut)</a> (Google Doc). This page is built from it plus the Frame.io notes."
+   "<a href=\"https://docs.google.com/document/d/16d6qke4ieSSP7KCy31cQA7zOrLSdm4kFbTEVcz32Dvg/edit\">Williams Brothers Sunday Dinner (Journey Cut)</a> (Google Doc)."
   ],
   [
-   "Shoot folder",
-   "<a href=\"https://drive.google.com/drive/folders/1igYrvZ_kWXHBVSeg2BHgNbH8rEtsMsU3\">CASS July 2026 shoot</a>"
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/173RqbvQDPqpGYetufr6q1CL_zRCrLVXx/edit\">CASS Williams Brothers Community Dinner &amp; Staff Interview Day</a> (Production Planning)."
   ],
   [
-   "Interviews",
-   "20260726_C4414.MP4 (Jalen &amp; Cody, incl. the Are You Happy answers) · 20260726_C4415.MP4 (Nicole Williams) · 20260726_C4347.MP4 (Cody's welcome speech, optional)"
+   "Footage folder",
+   "<a href=\"https://drive.google.com/drive/folders/1Gn6-CcgXmATGQXax3ENW_9aMCtOXZ44O\">CASS Shoot July 2026 raw</a>"
   ],
   [
-   "Archive",
-   "Finding Hoopers clip: Nick guarding The Professor (cold open)."
+   "Interview clips",
+   "<a href=\"https://drive.google.com/file/d/1duX4Qo56RzZX-_HZa8d1k4faKeRNcSak/view\">20260726_C4414.MP4</a> (Jalen &amp; Cody, incl. the Are You Happy answers) · <a href=\"https://drive.google.com/file/d/1neGDwU_7hORAOfjpObo7HcAUNW-INYSa/view\">20260726_C4415.MP4</a> (Nicole Williams) · <a href=\"https://drive.google.com/file/d/1kLCntxAUT_o91XFz2zMUCyCimJUSm6DP/view\">20260726_C4347.MP4</a> (Cody's welcome speech, optional)"
   ],
   [
-   "Still",
-   "Nick's photo with Jalen &amp; Cody (the button)."
+   "B-roll picks",
+   "<a href=\"https://drive.google.com/file/d/1clDTJD-kfCQgHViHWkrbQ9vrlldJVSyA/view\">DJI_0105.MP4</a> · <a href=\"https://drive.google.com/file/d/1p8dLpiJmclo55xTv6CXH2jrwfsk6Puu8/view\">20260726_C4276.MP4</a> · <a href=\"https://drive.google.com/file/d/1Yf0o5LtOUip9WsoM980b0U_ecMysCGEB/view\">20260726_C4277.MP4</a> · <a href=\"https://drive.google.com/file/d/1oaybzLpu-v-SjA3e4Hgrmlv4fupFfoFS/view\">20260726_C4317.MP4</a> · <a href=\"https://drive.google.com/file/d/1siVTYVal5e4kkCaDOe29eGKFbFXf4zDO/view\">20260726_C4286.MP4</a> · <a href=\"https://drive.google.com/file/d/1OgoSzAk9z7n7hdUR8gU2AHvdHG_WGxsB/view\">20260726_C4291.MP4</a> · <a href=\"https://drive.google.com/file/d/1XI0nQyP1GNlNks_jewX_FDesMN-6d3Xd/view\">20260726_C4334.MP4</a> · <a href=\"https://drive.google.com/file/d/1O41d1JYSA5GgYh0Po0eG95KbEBOD3czJ/view\">20260726_C4353.MP4</a> · <a href=\"https://drive.google.com/file/d/1oT7ynYgquJrzCA_TR_3R5e7ii2yl3CUJ/view\">20260726_C4318.MP4</a> · <a href=\"https://drive.google.com/file/d/1ztDx9-pL0wjS46jvIZhWV6EBWD8oA-pf/view\">20260726_C4373.MP4</a> · <a href=\"https://drive.google.com/file/d/1FV-LXM3Kz58xev3dwbjq97bBylWGwdO4/view\">20260726_C4340.MP4</a> · <a href=\"https://drive.google.com/file/d/150I1f_DeZ1USZhC8SeZV-4yotzODioKA/view\">20260726_C4364.MP4</a> · <a href=\"https://drive.google.com/file/d/1v5wMNPIC0fJxx2WQcEWCpHU-KXfm8xyt/view\">20260726_C4372.MP4</a> · <a href=\"https://drive.google.com/file/d/1XCUVUCucAJhCgn-C3qo1ewPKmsaO5nVY/view\">20260726_C4367.MP4</a> · <a href=\"https://drive.google.com/file/d/1rc6PumsDlEySO1l3CY07bWtWnSk8bqqJ/view\">DJI_0106.MP4</a>"
+  ],
+  [
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/1F2c4uUZYW9bDxq3SNuPL-fxY-j-B6gn9/view\">visual.json</a> (July shoot). Picks are from it; check on scrub, and check every frame for children."
+  ],
+  [
+   "Archive and still",
+   "Finding Hoopers clip (Nick guarding The Professor) and Nick's photo with Jalen and Cody: both in the V2 project, not in the shoot folder."
   ],
   [
    "Not this cut",
    "CASSAreYouHappyWilliams001 is the traditional AYH cut of the same interview. Separate edit. Don't merge them."
+  ],
+  [
+   "Brand graphics package",
+   "CASS has no graphics package folder yet. Use the Motion graphics tab of this page (CASS colours, Work Sans)."
+  ],
+  [
+   "Brand",
+   "Work Sans (captions and type). CASS navy <span class=\"mono\">#2C2B77</span>, green <span class=\"mono\">#26B485</span>, blue <span class=\"mono\">#006C9F</span>, purple <span class=\"mono\">#7E3F98</span>, light <span class=\"mono\">#EEEEF1</span>. CASS always in capitals."
   ]
  ],
  "tech": [
   [
    "Source",
-   "Horizontal 4K: 20260726_C4414.MP4, C4415, C4347 plus dinner B-roll and drone. Check frame rate on import."
+   "Horizontal 1920×1080 interview and dinner clips at 23.976 fps (visual.json); drone DJI clips 2720 wide at 23.976 fps. Check on import."
   ],
   [
    "Timeline",
-   "1080×1920. Face-track reframe from 4K."
+   "1080×1920 at 23.976 fps. Face-track reframe from the 16:9 two-shot."
   ],
   [
    "Audio",
-   "Interview sound from the camera files. V2 has a second audio track playing under the voice in two spots: find it and kill it."
+   "Interview sound from the camera files. Only that track under each voice: solo the tracks on every bite and remove any second audio track playing underneath. Nick's VO as recorded for V2."
   ],
   [
    "Loudness",
    "−14 LUFS integrated, −1 dBTP peak. Music under every voice."
   ],
   [
-   "Captions",
-   "Burned in, AYH house style. Low in frame, just under the name and title, never overlapping them."
+   "Names and captions",
+   "Names and titles low in the frame. Captions just under them, never overlapping. Burned in."
   ],
   [
    "Export",
-   "H.264 MP4, 1080×1920. One file, 9:16 only."
+   "H.264 MP4, 1080×1920, 9:16 only. Upload with the file name at the top of this page."
   ]
  ],
  "checklist": [
-  "CASS all caps everywhere (transcript: Cass, CAS, cast).",
-  "Vista Colina, two words (transcript: Vista Kalina).",
-  "Jalen, not Jaylen. Cody's title: Minnesota Timberwolves.",
-  "No “I play for the Utah Jazz”.",
-  "Name and title sit low; captions under them, no overlap.",
-  "No background audio track under any voice.",
-  "Hold a beat after each speaker finishes.",
-  "No kids' faces or resident details without a confirmed release.",
-  "Speaker confirmed by picture before any name on beats 9, 10, 12, 13.",
-  "WTTP Foundation styling confirmed before it goes on screen."
+  "Frame 1 is the Finding Hoopers clip with the hook text already on screen. No logo.",
+  "No <q>I play for Utah Jazz</q>; Cody's title reads Minnesota Timberwolves; <q>I'm 21</q> is whole.",
+  "Names and titles sit low; captions under them, no overlap anywhere.",
+  "Captions: <q>that night,</q> · <q>fine-dining</q> · <q>rooting and cheering for them,</q> · <q>to be able to give back is</q> · <q>down-to-earth guys I've ever met.</q>",
+  "No second audio track under any voice.",
+  "Hold 1 s on each speaker after he stops talking.",
+  "CASS in capitals everywhere; Vista Colina two words; Jalen, not Jaylen.",
+  "No child's face or resident details without a confirmed release.",
+  "Speaker confirmed by picture before any name on the brothers' answer rows.",
+  "The file is 9:16 only."
  ],
  "decisions": [
   {
-   "t": "Atdhe's Frame.io notes on V2 (2 and 3 Nov)",
-   "b": "Cut “I play for the Utah Jazz” (traded), title Minnesota Timberwolves. Names, titles and captions lower, no overlap. Fix “that night,” “fine-dining”, “rooting and cheering for them,” “to be able to give back is”, “down-to-earth guys I've ever met.” The “I'm” before 21 is cut out: put it back. Kill the second audio track in two spots. Hold on him a second after he stops talking."
+   "t": "Children's releases",
+   "b": "Raised on Frame.io (28 Aug): children's faces show near the end card. Until releases are confirmed, keep children's faces out (crop or swap the shot)."
   },
   {
-   "t": "Kids' releases",
-   "b": "Raised on Frame.io 28 Aug: kids' faces are visible near the end card. Until releases are confirmed, keep those faces out (crop or swap the shot)."
+   "t": "Which brother says what",
+   "b": "The transcript does not say who answers after the intros (rows 01:11, 01:18, 01:28, 01:37). Confirm by picture before any name goes on screen."
+  },
+  {
+   "t": "WTTP Foundation styling",
+   "b": "The A/V script asks to confirm the exact styling of the WTTP Foundation name with the family before it goes on screen."
   }
  ],
  "client_note": "<b>Why this matters:</b> it's an AYH journey piece where Nicole is the engine. CASS and the family will check every name and title.",
@@ -406,6 +658,628 @@
   "What's Cody's title now?",
   "Which brother is talking at 4:25?",
   "Can I show the kids at the end?",
-  "What can I trim to get under 90 s?"
- ]
+  "What can I trim to get the length down?"
+ ],
+ "transcript": "Machine transcript of the July 26 interviews (the shoot's srt, matched to each clip). Times are mm:ss.s in each clip. CASS is written in capitals. After the intros the transcript does not say which brother is talking: confirm by picture. Nick's voice-over lines are on the rows, not here.\n--- 20260726_C4414.MP4 ---\n[00:00.0] I got both. [do not use: crew talk]\n[00:02.7] Yeah, get a little waterfall. [do not use: crew talk]\n[00:04.9] All right, y'all ready? [do not use: crew talk]\n[00:05.8] Yeah. [do not use: crew talk]\n[00:06.3] OK, first question, can you both just introduce yourselves real quick and say a little bit about who you are?\n[00:12.5] My name's Cody Williams.\n[00:13.9] I play for Utah Jazz. [do not use: he was traded]\n[00:14.9] I'm 21 and grew up here in Arizona, so it's always nice coming back and be able to work with CASS.\n[00:21.6] I'm Jalen Williams.\n[00:23.0] I play for the Oklahoma City Thunder, champion of Oklahoma City Thunder.\n[00:28.7] Yeah, kind of on the lines of what my little brother said, we grew up here.\n[00:33.1] Being able to do and put on these events is super dope.\n[00:35.5] This is something that we did growing up.\n[00:39.6] Our thing is centered around Sunday dinner, family dinner.\n[00:42.8] It's just how we grew up.\n[00:43.8] It was like the one time where nobody had any AAU basketball.\n[00:47.1] Nobody was working, so we took Sundays really personal to be able to eat together and share a meal and get all the cool civil wear out that we never really use.\n[00:55.1] And just over time, that just kind of became our thing.\n[00:58.1] It was a way for our family to connect, go through the week, what happened that week, what's going to happen upcoming week.\n[01:03.4] And now we get to share it with another group of people that think this is like our third or fourth event.\n[01:08.3] So it's only getting bigger.\n[01:10.0] I think the word's spreading.\n[01:11.1] And hopefully, we can feed hundreds more people and just be able to share meals, stuff that we did growing up.\n[01:16.6] Yeah, that's what it's all about right there, for sure.\n[01:18.8] So what did your parents teach you about using your platform to serve your community?\n[01:25.2] I think just the biggest thing is understanding the position we're in.\n[01:30.8] (line left out: not for this video)\n[01:37.4] So to be able to share that with people that aren't in our position is something we just grew up doing.\n[01:42.6] It's something that our parents didn't let us take for granted.\n[01:45.8] I feel like there's always somebody doing worse than you.\n[01:48.2] So we always try to keep that in the back of our mind.\n[01:50.4] And at the same time, just understanding where everybody comes from, I think that's a big one for me.\n[01:55.6] Personally, everybody's going through their own thing.\n[01:58.3] And we're all human.\n[01:59.1] I think that, at the end of the day, is what makes this event special and what makes just our group, our surrounding, really special.\n[02:06.4] Yeah, just piggyback off that.\n[02:08.8] I think the biggest thing is growing up, we always knew how fortunate we were in terms of our parents always made sure that we were giving back to the\n[02:17.7] community, realizing not everyone has the things we had.\n[02:22.8] Not everyone was able to just go to a gym and work out.\n[02:25.8] Their main worry would be basketball practice.\n[02:28.1] Like he said, there's always someone that's doing worse than you.\n[02:30.9] So I feel like growing up, they always made sure that giving back and being part of the community and staying connected to God and giving back\n[02:37.6] to those in the community and spreading the word of God was always just a big thing in our family.\n[02:41.9] So being able to introduce that, coming and working with CASS.\n[02:45.8] And like he said, people we've never met, being able to introduce that to them and kind of show them just the way we were growing up.\n[02:52.0] I feel like that's a huge part of this.\n[02:54.0] So being fortunate enough to be in this position to be able to give back is the biggest thing ever.\n[02:58.4] Yeah, 100%.\n[02:59.8] So what moment from tonight stood out to you all the most, would you say?\n[03:03.6] The heat, for sure.\n[03:04.4] I was sweating.\n[03:05.8] A lot of people sweat in today's shirts.\n[03:07.1] I would honestly say the fact that we were able to be as efficient as we were with the fact that it was really hot.\n[03:12.8] But I think, and I think Cody would probably agree, the fact that it was that hot and everybody still had that good of a time just kind of lets\n[03:18.8] you know the impact that we're having.\n[03:20.4] And I mean, obviously you'll probably say the same thing.\n[03:23.7] Just like as hot as it was, it didn't feel that hot because everybody was having fun or talking, just bonding over just stuff.\n[03:30.8] You know, we're eating.\n[03:31.6] I think eating is almost like a sacred thing.\n[03:34.6] Like you look back at the beginning of time, like everybody eats with each other.\n[03:39.1] And it's like a sign of respect and endearment.\n[03:41.4] And no matter how hot it was, it was just fun to be around everybody.\n[03:46.9] Totally.\n[03:47.7] So two more questions.\n[03:49.2] What would you say to a kid out here who has a big dream but is going through a difficult scenario?\n[03:57.8] I always think about this quote that I heard a long time ago.\n[04:00.5] And it's tough times don't last.\n[04:01.9] Tough people do.\n[04:03.1] And that's one thing that I always just kind of keep in the back of my mind.\n[04:06.7] I think if you can out-tough the tough times, you'll be better for it in the long run.\n[04:10.8] And that's what makes you special.\n[04:14.9] Woo!\n[04:15.5] Yeah, I got to follow up after that.\n[04:18.3] Hey, last question I got for you both.\n[04:19.9] This one I ask everyone.\n[04:21.7] Are you happy?\n[04:24.7] Am I happy?\n[04:25.3] I am now.\n[04:26.1] I mean, yeah, especially after doing this, you get to meet a bunch of people you've never met, see familiar faces.\n[04:31.0] You get to just enjoy a nice Sunday dinner.\n[04:33.3] Like who can be upset after a Sunday dinner with a bunch of their family and friends?\n[04:37.4] I mean, yeah, I'm really happy actually.\n[04:40.0] Yeah, I mean, I'm happy.\n[04:43.2] I think life is not always going to be happy.\n[04:45.8] So the happier moments that you do get, I think you got to cherish them.\n[04:49.4] And this is one of them for sure.\n[04:52.5] Life's hard for everybody.\n[04:53.6] And like I say, you're not always going to be happy.\n[04:56.0] So any time that you can share a moment, just pause and eat with the fam and kind of chill and just be reminded of what's important in life.\n[05:03.4] I think that that's what everybody's chasing.\n[05:05.7] That's where the happiness feeling comes from.\n[05:07.7] And yeah, you just try and chase that as much as you can through all life.\n[05:11.6] Totally.\n[05:11.9] And what's the old message to the world, would you say?\n[05:15.9] Come into a city near you. [check by ear: may be Coming to a city near you]\n[05:20.7] Yeah, that's pretty good.\n[05:21.7] Yeah, I like that one.\n[05:23.3] Perfect.\n[05:23.8] That's all I got.\n[05:24.5] Yeah.\n--- 20260726_C4415.MP4 ---\n[00:00.0] Question I have for you, though.\n[00:01.2] Can you please just introduce yourself and tell me a little bit about who you are?\n[00:05.0] I'm Nicole Williams.\n[00:06.0] I'm the mother of Jalen and Cody Williams.\n[00:09.1] Jalen and Cody have a foundation, the WTTP Foundation.\n[00:13.0] And one of their things that they do during this foundation is do the Williams Brothers Sunday dinner that they have me spearheading.\n[00:20.5] So every three or four months, we come to the shelter and we put on and give the residents a fine dining experience, just letting them know that they are heard,\n[00:29.2] that we value them, that we're rooting and cheering for them.\n[00:32.1] And we serve them.\n[00:33.2] So family and friends do all the serving.\n[00:35.6] So awesome.\n[00:36.8] So where did the idea for coming up with this dinner and holding this begin with you guys?\n[00:42.0] So it began growing up, the boys.\n[00:45.6] Our lives were pretty hectic in a fun way.\n[00:47.9] They were obviously heavily into basketball, so that's a lot of practices, games, traveling, tournaments.\n[00:53.4] But we connected at the dinner table, without the TV, without the phone.\n[00:57.1] And that was our time to actually connect at the dinner table.\n[00:59.9] And on Sundays is when we do an even bigger dinner and we still connect at the dinner table, hence the Williams Brothers Sunday dinner.\n[01:06.0] Totally, that completely makes sense.\n[01:08.1] So why did your family choose to host the dinner with CASS here at Vista Colina?\n[01:12.5] CASS is one of the best shelters you could ever partner with.\n[01:15.2] One of the main reasons is because the staff at CASS, they have the same values that we do as a family and they care for all of their residents\n[01:23.5] and they want everyone to succeed and they want everyone to feel heard and be seen, and that's exactly what we want.\n[01:29.8] Yeah, exactly, for sure.\n[01:31.4] (line left out: not for this video)\n[01:36.6] Well, serving as a family, because we eat as a family.\n[01:39.2] We connect as a family.\n[01:40.6] So that's why it's important for us to do this as a family.\n[01:43.2] Jalen and Cody can come do this during their off season.\n[01:45.9] Obviously they can't come in season, but the off season they can come do this.\n[01:49.7] But hey, we connect as a family, so we're gonna do this as a family.\n[01:53.8] Absolutely.\n[01:54.4] So what values did you try to teach Jalen and Cody about community and responsibility?\n[02:01.2] For one, that everyone is human and that we are all equal and in God's eyes, we are all equal, regardless of our race, regardless of our color,\n[02:08.2] ethnicity, regardless of our socioeconomic status, regardless of what we got going on in life, we are all the same.\n[02:14.9] Everyone deserves the same treatment.\n[02:16.3] I don't care where you live, who you are, where you come from.\n[02:19.3] We all deserve to be treated the best.\n[02:22.3] So true, for sure.\n[02:24.8] What do you hope that families that were here felt tonight or can take away from tonight?\n[02:29.3] I hope that families and communities will be able to find time to connect at the dinner table.\n[02:34.6] And if it's not at the dinner table, find some kind of time to connect on a routine basis as a family, because we all know that communication\n[02:42.0] and connecting is very important for a family unit.\n[02:44.7] So that's what I'm hoping to get from these dinners.\n[02:46.6] And I hope that all the residents here feel the love from our table to theirs.\n[02:51.0] It definitely seemed like it, for sure.\n[02:52.8] So last question I have for you is, what do you hope that others take away from seeing your family come out and serve here?\n[03:00.2] I hope they take away from this that they're still good in the world.\n[03:02.9] In a world that seems divided, a lot of hatred, a lot of judgment, I hope everyone here sees that there are still good people in the world.\n[03:12.8] There are still people that are rooting and cheering for everyone.\n[03:15.7] And that's us, that's what we do.\n[03:17.5] Totally.\n[03:18.3] That's all the questions I got for you.\n[03:19.2] Is there anything else you wanna share?\n[03:20.2] No, that's it.\n[03:21.0] Thank you for everything.\n[03:21.9] Perfect, thank you.\n[03:23.0] I appreciate it.\n--- 20260726_C4347.MP4 ---\n[00:07.4] Just want to thank everybody for coming out, like my parents said, this is something that we grew up doing, sharing meals and just having like a\n[00:14.9] sense of community.\n[00:16.0] This is my first time that I've been able to get to one of these get-togethers since the season.\n[00:21.5] So this has been really cool.\n[00:22.8] I don't want to take too much of your guys' time because you guys want to eat.\n[00:23.9] I want to eat with you guys.\n[00:24.5] So yeah, if you need anything, raise your glass, raise your plates.\n[00:25.5] We're here to help.\n[00:27.5] We're here to serve you guys and thank you guys for coming.\n[00:28.5] Like you said, my name is Cody.\n[00:29.7] It's great to see some familiar faces, you know, nice to see some of you guys and connect.\n[00:30.5] So, you know, the goal of this is really just to connect with you guys and kick back and relax.\n[00:32.5] You know, I wanted to feel like you just came home from church, you know, you're with your family and you want to enjoy life.\n(00:34 to 01:15 left out: not for this video)",
+ "alts": {
+  "bite:2": [
+   {
+    "quote": "Just want to thank everybody for coming out, like my parents said, this is something that we grew up doing, sharing meals and just having like a sense of community.",
+    "who": "Cody Williams",
+    "file": "20260726_C4347.MP4",
+    "why": "Cody at the mic."
+   },
+   {
+    "quote": "This is my first time that I've been able to get to one of these get-togethers since the season.",
+    "who": "Cody Williams",
+    "file": "20260726_C4347.MP4",
+    "why": "First dinner since the season."
+   },
+   {
+    "quote": "We're here to serve you guys and thank you guys for coming.",
+    "who": "Cody Williams",
+    "file": "20260726_C4347.MP4",
+    "why": "Cody at the mic."
+   },
+   {
+    "quote": "My name's Cody Williams.",
+    "who": "Cody Williams",
+    "file": "20260726_C4414.MP4",
+    "why": "His intro."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "Yeah, kind of on the lines of what my little brother said, we grew up here.",
+    "who": "Jalen Williams",
+    "file": "20260726_C4414.MP4",
+    "why": "Home for both of them."
+   },
+   {
+    "quote": "Being able to do and put on these events is super dope.",
+    "who": "Jalen Williams",
+    "file": "20260726_C4414.MP4",
+    "why": "Why he loves it."
+   },
+   {
+    "quote": "This is something that we did growing up.",
+    "who": "Jalen Williams",
+    "file": "20260726_C4414.MP4",
+    "why": "Family roots."
+   },
+   {
+    "quote": "It was a way for our family to connect, go through the week, what happened that week, what's going to happen upcoming week.",
+    "who": "Jalen Williams",
+    "file": "20260726_C4414.MP4",
+    "why": "What Sunday dinner was."
+   },
+   {
+    "quote": "And now we get to share it with another group of people",
+    "who": "Jalen Williams",
+    "file": "20260726_C4414.MP4",
+    "why": "Sharing it now."
+   },
+   {
+    "quote": "And hopefully, we can feed hundreds more people and just be able to share meals, stuff that we did growing up.",
+    "who": "Jalen Williams",
+    "file": "20260726_C4414.MP4",
+    "why": "Hundreds more people."
+   },
+   {
+    "quote": "Our thing is centered around Sunday dinner, family dinner. It's just how we grew up. It was like the one time where nobody had any AAU basketball. Nobody was working, so we took Sundays really personal",
+    "who": "Jalen Williams",
+    "file": "20260726_C4414.MP4",
+    "why": "Why Sundays."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "Yeah, kind of on the lines of what my little brother said, we grew up here.",
+    "who": "Jalen Williams",
+    "file": "20260726_C4414.MP4",
+    "why": "Home for both of them."
+   },
+   {
+    "quote": "Being able to do and put on these events is super dope.",
+    "who": "Jalen Williams",
+    "file": "20260726_C4414.MP4",
+    "why": "Why he loves it."
+   },
+   {
+    "quote": "This is something that we did growing up.",
+    "who": "Jalen Williams",
+    "file": "20260726_C4414.MP4",
+    "why": "Family roots."
+   },
+   {
+    "quote": "It was a way for our family to connect, go through the week, what happened that week, what's going to happen upcoming week.",
+    "who": "Jalen Williams",
+    "file": "20260726_C4414.MP4",
+    "why": "What Sunday dinner was."
+   },
+   {
+    "quote": "And now we get to share it with another group of people",
+    "who": "Jalen Williams",
+    "file": "20260726_C4414.MP4",
+    "why": "Sharing it now."
+   },
+   {
+    "quote": "And hopefully, we can feed hundreds more people and just be able to share meals, stuff that we did growing up.",
+    "who": "Jalen Williams",
+    "file": "20260726_C4414.MP4",
+    "why": "Hundreds more people."
+   }
+  ],
+  "bite:6": [
+   {
+    "quote": "But we connected at the dinner table, without the TV, without the phone.",
+    "who": "Nicole Williams",
+    "file": "20260726_C4415.MP4",
+    "why": "Connected at the table."
+   },
+   {
+    "quote": "CASS is one of the best shelters you could ever partner with.",
+    "who": "Nicole Williams",
+    "file": "20260726_C4415.MP4",
+    "why": "Why CASS."
+   },
+   {
+    "quote": "they have the same values that we do as a family and they care for all of their residents and they want everyone to succeed",
+    "who": "Nicole Williams",
+    "file": "20260726_C4415.MP4",
+    "why": "Same values."
+   },
+   {
+    "quote": "Well, serving as a family, because we eat as a family. We connect as a family.",
+    "who": "Nicole Williams",
+    "file": "20260726_C4415.MP4",
+    "why": "Serving as a family."
+   },
+   {
+    "quote": "Everyone deserves the same treatment.",
+    "who": "Nicole Williams",
+    "file": "20260726_C4415.MP4",
+    "why": "Same treatment for all."
+   },
+   {
+    "quote": "And I hope that all the residents here feel the love from our table to theirs.",
+    "who": "Nicole Williams",
+    "file": "20260726_C4415.MP4",
+    "why": "From our table to theirs."
+   },
+   {
+    "quote": "I hope they take away from this that they're still good in the world.",
+    "who": "Nicole Williams",
+    "file": "20260726_C4415.MP4",
+    "why": "Still good in the world."
+   },
+   {
+    "quote": "There are still people that are rooting and cheering for everyone.",
+    "who": "Nicole Williams",
+    "file": "20260726_C4415.MP4",
+    "why": "Rooting for everyone."
+   }
+  ],
+  "bite:7": [
+   {
+    "quote": "But we connected at the dinner table, without the TV, without the phone.",
+    "who": "Nicole Williams",
+    "file": "20260726_C4415.MP4",
+    "why": "Connected at the table."
+   },
+   {
+    "quote": "CASS is one of the best shelters you could ever partner with.",
+    "who": "Nicole Williams",
+    "file": "20260726_C4415.MP4",
+    "why": "Why CASS."
+   },
+   {
+    "quote": "they have the same values that we do as a family and they care for all of their residents and they want everyone to succeed",
+    "who": "Nicole Williams",
+    "file": "20260726_C4415.MP4",
+    "why": "Same values."
+   },
+   {
+    "quote": "Well, serving as a family, because we eat as a family. We connect as a family.",
+    "who": "Nicole Williams",
+    "file": "20260726_C4415.MP4",
+    "why": "Serving as a family."
+   },
+   {
+    "quote": "Everyone deserves the same treatment.",
+    "who": "Nicole Williams",
+    "file": "20260726_C4415.MP4",
+    "why": "Same treatment for all."
+   },
+   {
+    "quote": "And I hope that all the residents here feel the love from our table to theirs.",
+    "who": "Nicole Williams",
+    "file": "20260726_C4415.MP4",
+    "why": "From our table to theirs."
+   },
+   {
+    "quote": "I hope they take away from this that they're still good in the world.",
+    "who": "Nicole Williams",
+    "file": "20260726_C4415.MP4",
+    "why": "Still good in the world."
+   },
+   {
+    "quote": "There are still people that are rooting and cheering for everyone.",
+    "who": "Nicole Williams",
+    "file": "20260726_C4415.MP4",
+    "why": "Rooting for everyone."
+   },
+   {
+    "quote": "I'm Nicole Williams. I'm the mother of Jalen and Cody Williams.",
+    "who": "Nicole Williams",
+    "file": "20260726_C4415.MP4",
+    "why": "Her intro, short."
+   }
+  ],
+  "bite:8": [
+   {
+    "quote": "And we're all human.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "We're all human."
+   },
+   {
+    "quote": "I think the biggest thing is growing up, we always knew how fortunate we were in terms of our parents always made sure that we were giving back to the community,",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Raised to give back."
+   },
+   {
+    "quote": "being fortunate enough to be in this position to be able to give back is the biggest thing ever.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "The biggest thing ever."
+   },
+   {
+    "quote": "I think eating is almost like a sacred thing.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Eating is sacred."
+   },
+   {
+    "quote": "And it's tough times don't last. Tough people do.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Tough times don't last."
+   },
+   {
+    "quote": "who can be upset after a Sunday dinner with a bunch of their family and friends? I mean, yeah, I'm really happy actually.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Who can be upset."
+   },
+   {
+    "quote": "I think life is not always going to be happy. So the happier moments that you do get, I think you got to cherish them. And this is one of them for sure.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Cherish the happy moments."
+   },
+   {
+    "quote": "So any time that you can share a moment, just pause and eat with the fam and kind of chill and just be reminded of what's important in life.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Pause and eat with the fam."
+   },
+   {
+    "quote": "That's where the happiness feeling comes from.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Where happiness comes from."
+   }
+  ],
+  "bite:9": [
+   {
+    "quote": "It's something that our parents didn't let us take for granted. I feel like there's always somebody doing worse than you.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Always somebody doing worse."
+   },
+   {
+    "quote": "And we're all human.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "We're all human."
+   },
+   {
+    "quote": "I think the biggest thing is growing up, we always knew how fortunate we were in terms of our parents always made sure that we were giving back to the community,",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Raised to give back."
+   },
+   {
+    "quote": "I think eating is almost like a sacred thing.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Eating is sacred."
+   },
+   {
+    "quote": "And it's tough times don't last. Tough people do.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Tough times don't last."
+   },
+   {
+    "quote": "who can be upset after a Sunday dinner with a bunch of their family and friends? I mean, yeah, I'm really happy actually.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Who can be upset."
+   },
+   {
+    "quote": "I think life is not always going to be happy. So the happier moments that you do get, I think you got to cherish them. And this is one of them for sure.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Cherish the happy moments."
+   },
+   {
+    "quote": "So any time that you can share a moment, just pause and eat with the fam and kind of chill and just be reminded of what's important in life.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Pause and eat with the fam."
+   },
+   {
+    "quote": "That's where the happiness feeling comes from.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Where happiness comes from."
+   }
+  ],
+  "bite:11": [
+   {
+    "quote": "It's something that our parents didn't let us take for granted. I feel like there's always somebody doing worse than you.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Always somebody doing worse."
+   },
+   {
+    "quote": "And we're all human.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "We're all human."
+   },
+   {
+    "quote": "I think the biggest thing is growing up, we always knew how fortunate we were in terms of our parents always made sure that we were giving back to the community,",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Raised to give back."
+   },
+   {
+    "quote": "being fortunate enough to be in this position to be able to give back is the biggest thing ever.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "The biggest thing ever."
+   },
+   {
+    "quote": "I think eating is almost like a sacred thing.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Eating is sacred."
+   },
+   {
+    "quote": "And it's tough times don't last. Tough people do.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Tough times don't last."
+   },
+   {
+    "quote": "who can be upset after a Sunday dinner with a bunch of their family and friends? I mean, yeah, I'm really happy actually.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Who can be upset."
+   },
+   {
+    "quote": "I think life is not always going to be happy. So the happier moments that you do get, I think you got to cherish them. And this is one of them for sure.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Cherish the happy moments."
+   },
+   {
+    "quote": "So any time that you can share a moment, just pause and eat with the fam and kind of chill and just be reminded of what's important in life.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Pause and eat with the fam."
+   },
+   {
+    "quote": "That's where the happiness feeling comes from.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Where happiness comes from."
+   }
+  ],
+  "bite:12": [
+   {
+    "quote": "It's something that our parents didn't let us take for granted. I feel like there's always somebody doing worse than you.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Always somebody doing worse."
+   },
+   {
+    "quote": "And we're all human.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "We're all human."
+   },
+   {
+    "quote": "I think the biggest thing is growing up, we always knew how fortunate we were in terms of our parents always made sure that we were giving back to the community,",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Raised to give back."
+   },
+   {
+    "quote": "being fortunate enough to be in this position to be able to give back is the biggest thing ever.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "The biggest thing ever."
+   },
+   {
+    "quote": "I think eating is almost like a sacred thing.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Eating is sacred."
+   },
+   {
+    "quote": "And it's tough times don't last. Tough people do.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Tough times don't last."
+   },
+   {
+    "quote": "who can be upset after a Sunday dinner with a bunch of their family and friends? I mean, yeah, I'm really happy actually.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Who can be upset."
+   },
+   {
+    "quote": "So any time that you can share a moment, just pause and eat with the fam and kind of chill and just be reminded of what's important in life.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Pause and eat with the fam."
+   },
+   {
+    "quote": "That's where the happiness feeling comes from.",
+    "who": "Jalen or Cody (confirm by picture)",
+    "file": "20260726_C4414.MP4",
+    "why": "Where happiness comes from."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "Are you happy?",
+    "line": "last question I got for you both. This one I ask everyone. Are you happy?",
+    "why": "The AYH question on frame 1."
+   },
+   {
+    "text": "Who can be upset after a Sunday dinner?",
+    "line": "who can be upset after a Sunday dinner with a bunch of their family and friends? I mean, yeah, I'm really happy actually.",
+    "why": "The laugh line as the hook."
+   },
+   {
+    "text": "We took Sundays really personal.",
+    "line": "Our thing is centered around Sunday dinner, family dinner. It's just how we grew up. It was like the one time where nobody had any AAU basketball. Nobody was working, so we took Sundays really personal",
+    "why": "Why Sunday dinner."
+   },
+   {
+    "text": "There's always somebody doing worse than you.",
+    "line": "It's something that our parents didn't let us take for granted. I feel like there's always somebody doing worse than you.",
+    "why": "Why they give back."
+   },
+   {
+    "text": "From our table to theirs.",
+    "line": "And I hope that all the residents here feel the love from our table to theirs.",
+    "why": "Nicole's line, warm."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "AYH journey cut on CASS's fuller package: hook text, archive and location tags, three lower thirds, three pull-quotes, the AYH title card, the photo title, dinner B-roll pods on the setup, serving and montage rows, drone on the setup and the weight row, end card with both logos.",
+  "devices": [
+   {
+    "row": "00:00–00:05",
+    "device": "Hook text, archive tag",
+    "asset": "highlight_callout, tag_label",
+    "source": "Script"
+   },
+   {
+    "row": "00:05–00:12",
+    "device": "Location tag, drone",
+    "asset": "tag_label; DJI_0105 02:30",
+    "source": "Script; CASS Family Shelter Drone Shots"
+   },
+   {
+    "row": "00:12–00:21",
+    "device": "Lower third",
+    "asset": "tag_label",
+    "source": "Script"
+   },
+   {
+    "row": "00:21–00:28",
+    "device": "Lower third",
+    "asset": "tag_label",
+    "source": "Script"
+   },
+   {
+    "row": "00:28–00:33",
+    "device": "3-shot setup pod",
+    "asset": "C4276, C4277, C4317",
+    "source": "Williams Brothers Family Dinner (July)"
+   },
+   {
+    "row": "00:33–00:44",
+    "device": "Pull-quote, 3-shot setup pod",
+    "asset": "highlight_callout; C4286, C4291, C4334",
+    "source": "Williams Brothers Family Dinner (July)"
+   },
+   {
+    "row": "00:44–01:00",
+    "device": "Lower third",
+    "asset": "tag_label",
+    "source": "Script"
+   },
+   {
+    "row": "01:00–01:11",
+    "device": "3-shot serving pod",
+    "asset": "C4353, C4318, C4373",
+    "source": "Williams Brothers Family Dinner (July)"
+   },
+   {
+    "row": "01:11–01:18",
+    "device": "Pull-quote, 1 cutaway",
+    "asset": "highlight_callout; C4340",
+    "source": "Williams Brothers Family Dinner (July)"
+   },
+   {
+    "row": "01:18–01:23",
+    "device": "Widest room shot",
+    "asset": "C4364 00:11",
+    "source": "Williams Brothers Family Dinner (July)"
+   },
+   {
+    "row": "01:23–01:28",
+    "device": "AYH title card",
+    "asset": "question_card",
+    "source": "Script"
+   },
+   {
+    "row": "01:37–01:47",
+    "device": "Pull-quote, 3-shot montage",
+    "asset": "highlight_callout; C4372, C4367, DJI_0106",
+    "source": "Williams Brothers Family Dinner (July); drone"
+   },
+   {
+    "row": "01:47–01:55",
+    "device": "Photo title (typed by the editor)",
+    "asset": "Brand font",
+    "source": "Script"
+   },
+   {
+    "row": "01:55–02:00",
+    "device": "End card",
+    "asset": "end_card (CASS name until the logo file is in the repo) + AYH logo",
+    "source": "Script"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "20260726_C4296.MP4",
+    "at": 7.0,
+    "dur": 2.0,
+    "cx": 0.5,
+    "path": "CASS Shoot July 2026/Williams Brothers Family Dinner/20260726_C4296.MP4",
+    "drive": "1zuB5q-1ZO1xvb43DLagvZ5yeqJ4JWubx",
+    "layout": "full",
+    "what": "Event set-up: white tables, red checkered cloths, white chairs (visual.json).",
+    "frame": null
+   },
+   {
+    "clip": "20260726_C4312.MP4",
+    "at": 7.0,
+    "dur": 2.5,
+    "cx": 0.5,
+    "path": "CASS Shoot July 2026/Williams Brothers Family Dinner/20260726_C4312.MP4",
+    "drive": "1SW94UhW2v0KN5I5oIWMlX3JenCW9wjUD",
+    "layout": "full",
+    "what": "Festive outdoor tables with floral centrepieces (visual.json).",
+    "frame": null
+   },
+   {
+    "clip": "20260726_C4351.MP4",
+    "at": 12.5,
+    "dur": 2.5,
+    "cx": 0.5,
+    "path": "CASS Shoot July 2026/Williams Brothers Family Dinner/20260726_C4351.MP4",
+    "drive": "1EaTfhcnAlTTFZlSiHstZsOJ1hCsTsswZ",
+    "layout": "full",
+    "what": "Tables in front of the mural, people seated (visual.json).",
+    "frame": null
+   },
+   {
+    "clip": "20260726_C4357.MP4",
+    "at": 1.0,
+    "dur": 2.0,
+    "cx": 0.5,
+    "path": "CASS Shoot July 2026/Williams Brothers Family Dinner/20260726_C4357.MP4",
+    "drive": "1xjFY0Fd2P0DrjxvTP37obgFmcaNXwzX-",
+    "layout": "full",
+    "what": "Round tables with flowers, guests talking (visual.json).",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "CASS end card (name until the logo file is added)",
+    "kind": "end_card",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
 }

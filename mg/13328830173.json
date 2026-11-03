@@ -1,0 +1,129 @@
+{
+ "item": "13328830173",
+ "client": "cass",
+ "note": "The script asks for the question as hook text, one name super, three top text lines and a key-words stack, so 6 graphics and the end card. Rows 00:25–00:30 and 00:30–00:34 are captions only. The CASS logo file is not in endcards/ yet, so the end card types CASS until it is added.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook question",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "You had to choose between medicine and food?"
+   },
+   "cue": "Hook text on frame 1: You had to choose between medicine and food? Already on screen at 0:00. Does not animate on.",
+   "src": "Script, row 00:00–00:10, Motion graphics & type.",
+   "rows": [
+    "00:00–00:10"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Barbara"
+   },
+   "cue": "Name super at 00:04 for 3 s, lower left above the captions: Barbara / Resident, The Haven.",
+   "src": "Script, row 00:00–00:10, Motion graphics & type.",
+   "rows": [
+    "00:00–00:10"
+   ],
+   "use": "Put it on at 00:04 for 3 s. Move it lower left, above the captions. Type the second line Resident, The Haven under the name."
+  },
+  {
+   "n": 3,
+   "title": "Top text",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "Everybody has a story."
+   },
+   "cue": "Top text at 00:12 for 2 s, top band, as she says it: Everybody has a story.",
+   "src": "Script, row 00:10–00:14, Motion graphics & type.",
+   "rows": [
+    "00:10–00:14"
+   ],
+   "use": "Put it on at 00:12 as she says it. Top band. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "Key words",
+   "tpl": "word_stack",
+   "dur": 5,
+   "pos": "top",
+   "text": {
+    "items": [
+     "They lost their home",
+     "medical issues",
+     "different stories"
+    ]
+   },
+   "cue": "Key words at 00:21, stacked in the top band as she says them: They lost their home / medical issues / different stories.",
+   "src": "Script, row 00:14–00:25, Motion graphics & type.",
+   "rows": [
+    "00:14–00:25"
+   ],
+   "use": "Start at 00:21 so each phrase lands as she says it. Top band. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "Top text",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "I've been blessed with this place helping me"
+   },
+   "cue": "Top text at 00:38 for 2.5 s, top band, as she says it: I've been blessed with this place helping me.",
+   "src": "Script, row 00:34–00:41, Motion graphics & type.",
+   "rows": [
+    "00:34–00:41"
+   ],
+   "use": "Put it on at 00:38 as she says it. Top band."
+  },
+  {
+   "n": 6,
+   "title": "Top text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Don't give up because there is help out there."
+   },
+   "cue": "Top text at 00:44 for 3 s, top band, as she says it: Don't give up because there is help out there.",
+   "src": "Script, row 00:41–00:48, Motion graphics & type.",
+   "rows": [
+    "00:41–00:48"
+   ],
+   "use": "Put it on at 00:44 as she says it. Top band. Keep captions on."
+  },
+  {
+   "n": 7,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:48–00:52"
+   ],
+   "dur": 4.0,
+   "cue": "End card: CASS logo, then the line For more information visit cassaz.org.",
+   "src": "No CASS end card or logo file is in the repo yet (endcards/index.json has no CASS entry, checked 3 Nov 2026), so CASS is typed. Line from the script's end card row (cassaz.org, the CASS end card line in the client file); colours from the CASS brand (navy #2C2B77, white).",
+   "c": {
+    "bg": "#2C2B77",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "CASS",
+    "lines": [
+     "For more information visit cassaz.org"
+    ]
+   },
+   "use": "After the last line at 00:48. Hold it to the end. Swap in the CASS logo once it is in the repo."
+  }
+ ]
+}

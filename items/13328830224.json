@@ -1,20 +1,20 @@
 {
  "id": "13328830224",
  "client": "cass",
- "eyebrow": "CASS · Oct 2026 interviews · 13 Oct 2026 · Traditional",
+ "eyebrow": "CASS · The Haven interview day, Phoenix · 13 Oct 2026 · Traditional",
  "title": "Nathan Smith:",
  "title_q": "“People Just Need a Chance”",
  "title_short": "Nathan Smith (CEO) · People Just Need a Chance",
  "editor": "Bleron",
  "due": "2026-11-09",
  "format": "9:16 only · 1080×1920",
- "length": "about 57 s",
+ "length": "about 62 s",
  "edit_key": "CASSNathanSmith001",
- "headline": "CASS's CEO says homelessness is not only the person on the street corner. It is families who lost a job, and what they need is a chance.",
+ "headline": "CASS's CEO says homelessness is not only the person on the street corner: it is families who lost a job, and with some stability they are right back on track. People just need a chance.",
  "story": [
-  "Nathan came to CASS and saw that people experiencing homelessness take their opportunities too. They want a shot.",
-  "Most people don't know CASS runs a family shelter. Many of those families were barely getting by, lost a job, and had to hit the streets with their kids.",
-  "A woman at The Haven, with a case manager, found work and her own housing. People just need a chance."
+  "Nathan opens on what CASS taught him: people experiencing homelessness take their opportunities too. <b>They also want a shot.</b>",
+  "Then the part people miss: families. CASS runs a 30-unit emergency shelter for families. Many were barely making it by, lost a job, and had to hit the streets with their kids.",
+  "<b>Turn:</b> with resources and stability they are right back on track. <b>Proof:</b> a woman at The Haven found the right job and moved into housing of her own. <b>Button:</b> people just need a chance."
  ],
  "feel": [
   "Hopeful",
@@ -23,230 +23,980 @@
   "Warm"
  ],
  "do": [
-  "Open on “They also want a shot.”",
-  "Cut the family-shelter story tight.",
-  "Use the side angle (C4899) to hide jump cuts.",
-  "End on “People just need a chance.”",
-  "Keep it about 60 s."
+  "Open on <q>They also want a shot.</q> with the hook text on screen at 0:00.",
+  "Put the question on screen before his answer (CASS staff-video rule).",
+  "Keep <q>Theirs are,</q> so the viewer knows he is telling a family's story.",
+  "Use the side angle (C4899) to hide every join.",
+  "End on his face: <q>People just need a chance.</q>"
  ],
  "dont": [
-  "No debt or financing story.",
-  "No rebranding aside.",
-  "No logo at 0:00.",
-  "Nothing somber.",
-  "No second aspect ratio."
+  "Only the lines on this page: the brief leaves out his business story and the rebranding aside.",
+  "No dinner footage (client rule for staff videos).",
+  "No resident's face clear in any B-roll.",
+  "No logo before the end card.",
+  "Nothing somber: the families row turns to hope right after."
  ],
  "links": {
   "brief": {
    "title": "CASS — Nathan Smith (CEO) Traditional — Editing Brief",
    "url": "https://docs.google.com/document/d/1w51ts4XsAA_x64ECoYoIQ_rd9mR10WKJHhG-tJ6T7Vs/edit",
-   "note": "Hook, middle and button ranges are set there; the exact words below come from the transcript."
+   "note": "Hook 02:22–02:29, middle 03:14–04:31 then 07:05–07:25, button 07:35. Every quote below is checked word for word against the transcript."
   },
   "reference": {
    "missing": true,
-   "title": "Existing CASS traditionals",
-   "note": "The brief says match CASSBrittnieNeighbors001. No other reference on the item."
+   "title": "Not chosen yet",
+   "note": "Nick owes it (Production Planning: reference requested 5 Oct). The brief says match the existing CASS traditionals (CASSBrittnieNeighbors001)."
   },
   "footage": {
-   "title": "CASS OCT 2026 › Interviews",
-   "url": "https://drive.google.com/drive/folders/1-HPTT2nPGbWU81ITExWk0Um92I_4ZXKj",
-   "note": "Two angles per person: front (20261013/14_C53xx) and side (C49xx)."
+   "title": "Nathan Smith CASS CEO Interview",
+   "url": "https://drive.google.com/drive/folders/1qVby6j0a0lZ52_NIv45NzvSQbbZSvDhj",
+   "note": "Front angle 20261013_C5378.MP4 (14:52) and side angle C4899.MP4 (15:18). B-roll: The Haven B Roll (CASS OCT 2026) and the July family-shelter drone and playground clips."
   }
  },
- "bp_intro": "Nathan's interview: <span class=\"mono\">20261013_C5378.MP4</span> (front) and <span class=\"mono\">C4899.MP4</span> (side). Ranges are the brief's; times are mm:ss in C5378 from the transcript. Rows are trimmed to about 60 s.",
+ "bp_intro": "All bites are from <span class=\"mono\">20261013_C5378.MP4</span> (front angle). Times are mm:ss.s in that clip, from the phrase times in the shoot's output.json split by word length, so trim each cut by ear. The side angle C4899.MP4 runs 17.4 s later. B-roll was picked from visual.json; no frames could be pulled this run.",
  "rows": [
   {
-   "tc": "00:00–00:07",
+   "tc": "00:00–00:06",
    "beat": "HOOK",
    "kind": "hook",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Nathan, front angle. Start on “what I realized”.",
-   "motion": "Captions from 0:00. Super from 0:03: “Nathan Smith · CEO, CASS”.",
+   "visual": "Nathan, front angle, <a href=\"https://drive.google.com/file/d/196M1Rg9DUdwfFTALhK1OpeUT2gDALIaK/view\">20261013_C5378.MP4</a>, already talking at <span class=\"mono\">02:22.9</span>. Start on <q>I got to CASS</q> (cut the <q>And</q> before it). His face is the strongest picture for the claim, so no B-roll. CEO on camera: check the light on his face (client rule).",
+   "motion": "Hook text on <b>frame 1</b>: <q>They also want a shot.</q> Already on screen at 0:00. Does not animate on. Top third. It goes out at 00:03. Captions start on frame 1.",
    "voice": {
-    "who": "Nathan",
-    "quote": "what I realized is those people take advantage of opportunities, too. They also want a shot.",
-    "src": "C5378 02:22–02:29"
+    "who": "Nathan Smith",
+    "quote": "I got to CASS, and what I realized is those people take advantage of opportunities, too. They also want a shot.",
+    "src": "20261013_C5378.MP4 02:22.9 to 02:28.8"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Hopeful bed on frame 1."
+   "music": "Light, hopeful bed starts low on frame 1. No lyrics.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I got to CASS"
+    }
+   ]
   },
   {
-   "tc": "00:07–00:16",
+   "tc": "00:06–00:15",
    "beat": "NOT ONLY THE STREET CORNER",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Side angle (C4899).",
-   "motion": "Captions only.",
+   "visual": "Front angle from <span class=\"mono\">03:14.4</span>. Cut <q>That is true.</q> and go straight to <q>They matter deeply.</q> (<span class=\"mono\">03:24.1</span>); hide that join on the side angle <a href=\"https://drive.google.com/file/d/169_sGlkL6SnLDX7jkQiaNdDJdOWqFQ4R/view\">C4899.MP4</a> at <span class=\"mono\">03:41.5</span>. His face carries this line: no B-roll.",
+   "motion": "Question text at 00:06 for 3 s, top band: <q>What do you wish people understood about homelessness?</q> Name super at 00:09 for 3 s, lower left above the captions: <q>Nathan Smith</q> / Chief Executive Officer, CASS. Captions on.",
    "voice": {
-    "who": "Nathan",
-    "quote": "homelessness isn't just that thing that's visible, that person, those people that are the most visible to you on a street corner. That is true. They matter deeply.",
-    "src": "C5378 03:14–03:25"
+    "who": "Nathan Smith",
+    "quote": "homelessness isn't just that thing that's visible, that person, those people that are the most visible to you on a street corner. They matter deeply.",
+    "src": "20261013_C5378.MP4 03:14.4 to 03:21.7 + 03:24.1 to 03:24.7"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Hopeful bed under the voice."
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "homelessness isn't just"
+    },
+    {
+     "face": true,
+     "angle": "side",
+     "clip": "C4899.MP4",
+     "at": 221.0,
+     "from_word": "They matter deeply"
+    }
+   ]
   },
   {
-   "tc": "00:16–00:27",
+   "tc": "00:15–00:27",
    "beat": "FAMILIES",
    "kind": "turn",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Front angle. Cut out “People often don't know this… 30-unit emergency shelter”.",
-   "motion": "Captions only.",
+   "visual": "Front angle from <span class=\"mono\">03:29.6</span> for <q>But what we don't always talk about</q>. On <q>CASS has a 30-unit emergency shelter for families</q> cut to <a href=\"https://drive.google.com/file/d/1rc6PumsDlEySO1l3CY07bWtWnSk8bqqJ/view\">DJI_0106.MP4</a> from <span class=\"mono\">00:20.0</span> for 3 s (the family shelter buildings with solar panels on the roofs, from the air, July drone; crop centre). Back to his face on <q>who are experiencing homelessness</q>.",
+   "motion": "Number pop at 00:23 for 3 s, top band, as he says it: <q>30</q> / <q>unit emergency shelter for families</q>. Captions on.",
    "voice": {
-    "who": "Nathan",
-    "quote": "what we don't always talk about is the number of families that are experiencing homelessness. … we take families up to household sizes of 10 or more.",
-    "src": "C5378 03:29–03:46"
+    "who": "Nathan Smith",
+    "quote": "But what we don't always talk about is the number of families that are experiencing homelessness. People often don't know this, but CASS has a 30-unit emergency shelter for families who are experiencing homelessness.",
+    "src": "20261013_C5378.MP4 03:29.6 to 03:41.8"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Hopeful bed under the voice."
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "But what we don't"
+    },
+    {
+     "clip": "DJI_0106.MP4",
+     "at": 20.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "CASS Shoot July 2026/CASS Family Shelter Drone Shots/DJI_0106.MP4",
+     "drive": "1rc6PumsDlEySO1l3CY07bWtWnSk8bqqJ",
+     "layout": "full",
+     "what": "the family shelter buildings from the air"
+    },
+    {
+     "face": true,
+     "from_word": "who are experiencing"
+    }
+   ]
   },
   {
-   "tc": "00:27–00:42",
+   "tc": "00:27–00:35",
    "beat": "BARELY MAKING IT",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Side angle, then front. He is speaking as the parent: keep his tone.",
+   "visual": "Side angle <a href=\"https://drive.google.com/file/d/169_sGlkL6SnLDX7jkQiaNdDJdOWqFQ4R/view\">C4899.MP4</a> at <span class=\"mono\">04:13.7</span> for <q>Theirs are, I was barely making it by.</q> He speaks as the parent, so keep <q>Theirs are</q> in: it tells the viewer this is a family's story, not his. Cut from <q>making it by</q> to <q>my organization let me go</q> (<span class=\"mono\">04:06.9</span>) under <a href=\"https://drive.google.com/file/d/1pLsD-YebScwMr3qub0HYWYp7Ndw8lLTt/view\">20260726_C4274.MP4</a> from <span class=\"mono\">00:03.0</span> for 2.5 s (an empty playground with a slide under a canopy at the family shelter, no people). Front angle for <q>And me and my children had to hit the streets.</q>",
    "motion": "Captions only.",
    "voice": {
-    "who": "Nathan",
-    "quote": "I was barely making it by. I could not really put enough to save. And then for any number of reasons kind of outside my control, like reductions in force, my organization let me go. I found myself without income. And me and my children had to hit the streets.",
-    "src": "C5378 03:56–04:12"
+    "who": "Nathan Smith",
+    "quote": "Theirs are, I was barely making it by. My organization let me go. I found myself without income. And me and my children had to hit the streets.",
+    "src": "20261013_C5378.MP4 03:56.3 to 03:59.0 + 04:06.9 to 04:12.0"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Hopeful bed under the voice."
+   "music": "Bed under the voice. No sad turn.",
+   "shots": [
+    {
+     "face": true,
+     "angle": "side",
+     "clip": "C4899.MP4",
+     "at": 253.7,
+     "from_word": "Theirs are"
+    },
+    {
+     "clip": "20260726_C4274.MP4",
+     "at": 3.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "CASS Shoot July 2026/Family Shelter Outdoor B Roll/20260726_C4274.MP4",
+     "drive": "1pLsD-YebScwMr3qub0HYWYp7Ndw8lLTt",
+     "layout": "full",
+     "what": "empty playground with a slide under a canopy"
+    },
+    {
+     "face": true,
+     "from_word": "And me and my children"
+    }
+   ]
   },
   {
-   "tc": "00:42–00:51",
+   "tc": "00:35–00:44",
+   "beat": "RIGHT BACK ON TRACK",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Front angle from <span class=\"mono\">04:23.8</span>. This is the turn to hope: stay on his face for <q>They're right back on track</q>. On <q>they're rebuilding for their families</q> cut to <a href=\"https://drive.google.com/file/d/1u_y10WfDUT7Aj2eUaGOGtzKg7id_gkb5/view\">DJI_0107.MP4</a> from <span class=\"mono\">00:12.0</span> for 2.5 s (a row of white-roofed family units with solar panels, from the air).",
+   "motion": "Top text at 00:39 for 2.5 s, top band, as he says it: <q>They're right back on track</q>. Captions on.",
+   "voice": {
+    "who": "Nathan Smith",
+    "quote": "with some important resources and some stability and opportunity to improve. They're right back on track, and they're changing their lives, and they're rebuilding for their families.",
+    "src": "20261013_C5378.MP4 04:23.8 to 04:32.5"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Small lift.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "with some important resources"
+    },
+    {
+     "clip": "DJI_0107.MP4",
+     "at": 12.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "CASS Shoot July 2026/CASS Family Shelter Drone Shots/DJI_0107.MP4",
+     "drive": "1u_y10WfDUT7Aj2eUaGOGtzKg7id_gkb5",
+     "layout": "full",
+     "what": "white-roofed family units from the air"
+    }
+   ]
+  },
+  {
+   "tc": "00:44–00:56",
    "beat": "THE HAVEN",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Front angle. Two jumps: cover with the side angle.",
-   "motion": "Captions only.",
+   "visual": "Front angle for <q>Then she transferred over to The Haven.</q> (<span class=\"mono\">07:05.5</span>). On <q>The Haven</q> cut to <a href=\"https://drive.google.com/file/d/1qyUCBA_Wcx-EcCHAwxbIgHm5R8etTGIf/view\">20261014_C5419.MP4</a> from <span class=\"mono\">00:02.5</span> for 2.5 s (the blue sign Welcome to The Haven with parking directions). Join to <q>we're able to really work with her</q> (<span class=\"mono\">07:14.4</span>) on the side angle <a href=\"https://drive.google.com/file/d/169_sGlkL6SnLDX7jkQiaNdDJdOWqFQ4R/view\">C4899.MP4</a> at <span class=\"mono\">07:31.8</span>. On <q>find the right kind of job for her</q> cut to <a href=\"https://drive.google.com/file/d/1v-2mz4MIrCSLiCEkmxuH4nScPT5qbUxh/view\">20261014_C5410.MP4</a> from <span class=\"mono\">00:05.0</span> for 2.5 s (The Haven courtyard, string lights and greenery). Then <q>She was able to</q> (<span class=\"mono\">07:21.3</span>) straight to <q>move into the kind of housing that she could pay for herself</q> (cut <q>start stacking up her income and ultimately</q>) under <a href=\"https://drive.google.com/file/d/1byIywUO9H8hzyRgYrvdmtVereRrvLYhv/view\">20261014_C5429.MP4</a> from <span class=\"mono\">00:03.0</span> for 2.5 s (a colourful Haven building with a large mural, parking lot in front). End the bite on <q>herself</q>.",
+   "motion": "Location tag at 00:44 for 2.5 s, upper left: <q>The Haven</q>. Captions on.",
    "voice": {
-    "who": "Nathan",
-    "quote": "we have enough case managers that every single individual is on a caseload. … And ultimately, she was able to find it. … move into the kind of housing that she could pay for herself",
-    "src": "C5378 07:07–07:28"
+    "who": "Nathan Smith",
+    "quote": "Then she transferred over to The Haven. We're able to really work with her to address a lot of the issues and find the right kind of job for her. And ultimately, she was able to find it. She was able to move into the kind of housing that she could pay for herself.",
+    "src": "20261013_C5378.MP4 07:05.5 to 07:06.9 + 07:14.4 to 07:21.1 + 07:21.3 to 07:21.9 + 07:24.1 to 07:26.8"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Hopeful bed under the voice."
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Then she transferred"
+    },
+    {
+     "clip": "20261014_C5419.MP4",
+     "at": 2.5,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "CASS OCT 2026/The Haven B Roll/20261014_C5419.MP4",
+     "drive": "1qyUCBA_Wcx-EcCHAwxbIgHm5R8etTGIf",
+     "layout": "full",
+     "what": "Welcome to The Haven sign"
+    },
+    {
+     "face": true,
+     "angle": "side",
+     "clip": "C4899.MP4",
+     "at": 451.8,
+     "from_word": "we're able to really"
+    },
+    {
+     "clip": "20261014_C5410.MP4",
+     "at": 5.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "CASS OCT 2026/The Haven B Roll/20261014_C5410.MP4",
+     "drive": "1v-2mz4MIrCSLiCEkmxuH4nScPT5qbUxh",
+     "layout": "full",
+     "what": "Haven courtyard with string lights"
+    },
+    {
+     "clip": "20261014_C5429.MP4",
+     "at": 3.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "CASS OCT 2026/The Haven B Roll/20261014_C5429.MP4",
+     "drive": "1byIywUO9H8hzyRgYrvdmtVereRrvLYhv",
+     "layout": "full",
+     "what": "Haven building with a large mural"
+    }
+   ]
   },
   {
-   "tc": "00:51–00:54",
+   "tc": "00:56–00:58",
    "beat": "BUTTON",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Front angle. Hold a beat after “chance”.",
-   "motion": "Captions only.",
+   "visual": "Front angle at <span class=\"mono\">07:35.3</span>. End on his face: <q>People just need a chance.</q> Hold 1 s after <q>chance</q> on live picture (no freeze frame).",
+   "motion": "Top text at 00:56 for 2 s, top band, as he says it: <q>People just need a chance.</q> Captions on.",
    "voice": {
-    "who": "Nathan",
+    "who": "Nathan Smith",
     "quote": "People just need a chance.",
-    "src": "C5378 07:35"
+    "src": "20261013_C5378.MP4 07:35.3 to 07:36.3"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Resolve."
+   "music": "Resolve.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "People just need a chance"
+    }
+   ]
   },
   {
-   "tc": "00:54–00:57",
+   "tc": "00:58–01:02",
    "beat": "END CARD",
    "kind": "end",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "CASS logo end card.",
-   "motion": "cassaz.org.",
+   "visual": "CASS end card on the navy <span class=\"mono\">#2C2B77</span> background. The logo is here only.",
+   "motion": "End card: CASS logo, then the line <q>For more information visit cassaz.org</q>. Big enough to read.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Resolve."
+   "music": "Music out, 1 s fade.",
+   "shots": []
   }
  ],
  "frames": {},
  "files": [
   [
    "Editing brief",
-   "<a href=\"https://docs.google.com/document/d/1w51ts4XsAA_x64ECoYoIQ_rd9mR10WKJHhG-tJ6T7Vs/edit\">CASS — Nathan Smith (CEO) Traditional — Editing Brief</a> (Google Doc). This page is built from it."
+   "<a href=\"https://docs.google.com/document/d/1w51ts4XsAA_x64ECoYoIQ_rd9mR10WKJHhG-tJ6T7Vs/edit\">CASS — Nathan Smith (CEO) Traditional — Editing Brief</a> (Google Doc)."
+  ],
+  [
+   "Footage folder",
+   "<a href=\"https://drive.google.com/drive/folders/1-HPTT2nPGbWU81ITExWk0Um92I_4ZXKj\">CASS OCT 2026</a> · <a href=\"https://drive.google.com/drive/folders/1vPO0HJINzW21JGJv5uwSTU7CICrPVKIo\">Interviews</a> · <a href=\"https://drive.google.com/drive/folders/1qVby6j0a0lZ52_NIv45NzvSQbbZSvDhj\">Nathan Smith CASS CEO Interview</a> · <a href=\"https://drive.google.com/drive/folders/1iF58ek9-YgW_DjdwvcUvMmXgXgiF51Vf\">The Haven B Roll</a>"
+  ],
+  [
+   "Interview clips",
+   "<a href=\"https://drive.google.com/file/d/196M1Rg9DUdwfFTALhK1OpeUT2gDALIaK/view\">20261013_C5378.MP4</a> (front, 14:52) · <a href=\"https://drive.google.com/file/d/169_sGlkL6SnLDX7jkQiaNdDJdOWqFQ4R/view\">C4899.MP4</a> (side, 15:18)"
+  ],
+  [
+   "B-roll picks",
+   "<a href=\"https://drive.google.com/file/d/1rc6PumsDlEySO1l3CY07bWtWnSk8bqqJ/view\">DJI_0106.MP4</a> · <a href=\"https://drive.google.com/file/d/1pLsD-YebScwMr3qub0HYWYp7Ndw8lLTt/view\">20260726_C4274.MP4</a> · <a href=\"https://drive.google.com/file/d/1u_y10WfDUT7Aj2eUaGOGtzKg7id_gkb5/view\">DJI_0107.MP4</a> · <a href=\"https://drive.google.com/file/d/1qyUCBA_Wcx-EcCHAwxbIgHm5R8etTGIf/view\">20261014_C5419.MP4</a> · <a href=\"https://drive.google.com/file/d/1v-2mz4MIrCSLiCEkmxuH4nScPT5qbUxh/view\">20261014_C5410.MP4</a> · <a href=\"https://drive.google.com/file/d/1byIywUO9H8hzyRgYrvdmtVereRrvLYhv/view\">20261014_C5429.MP4</a>"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1o8aGAn5XRulGp7ZVI6_v0nQF-5pmAOf8Mf0rMMTLm9k/edit\">Transcripts - Interviews</a> (Google Doc) · <a href=\"https://drive.google.com/file/d/1F0QpMep4JDngjiXBso6DyrSxizlpsUvN/view\">output.json</a> · <a href=\"https://drive.google.com/file/d/1y5FVir7xDb2GbrYgmVB_9G38CDznMvfP/view\">CASS OCT 2026.srt</a>"
+  ],
+  [
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/1yFn3puM_45DRlc1dVsiJ6GAqeHeTDtBZ/view\">visual.json</a> (CASS OCT 2026) · <a href=\"https://drive.google.com/file/d/1F2c4uUZYW9bDxq3SNuPL-fxY-j-B6gn9/view\">visual.json</a> (July shoot, drone and playground). Picks are from them; check on scrub."
   ],
   [
    "Reference",
    "Match the existing CASS traditionals (CASSBrittnieNeighbors001, Monday 13252339711 / 13252336435)."
   ],
   [
-   "Shoot folder",
-   "<a href=\"https://drive.google.com/drive/folders/1-HPTT2nPGbWU81ITExWk0Um92I_4ZXKj\">CASS OCT 2026</a> › Interviews"
+   "His title",
+   "<a href=\"https://www.cassaz.org/board---leadership\">cassaz.org Our Leadership</a>: Nathan Smith, Chief Executive Officer."
   ],
   [
-   "Clips",
-   "<a href=\"https://drive.google.com/file/d/196M1Rg9DUdwfFTALhK1OpeUT2gDALIaK/view\">20261013_C5378.MP4</a> (front) · <a href=\"https://drive.google.com/file/d/169_sGlkL6SnLDX7jkQiaNdDJdOWqFQ4R/view\">C4899.MP4</a> (side)"
+   "Brand graphics package",
+   "CASS has no graphics package folder yet. Use the Motion graphics tab of this page (CASS colours, Work Sans)."
   ],
   [
-   "Transcript",
-   "<a href=\"https://docs.google.com/document/d/1o8aGAn5XRulGp7ZVI6_v0nQF-5pmAOf8Mf0rMMTLm9k/edit\">Transcripts - Interviews</a> (CASS OCT 2026 › Interviews › EditingResources)"
+   "Brand",
+   "Work Sans (captions and type). CASS navy <span class=\"mono\">#2C2B77</span>, green <span class=\"mono\">#26B485</span>, blue <span class=\"mono\">#006C9F</span>, purple <span class=\"mono\">#7E3F98</span>, light <span class=\"mono\">#EEEEF1</span>. CASS always in capitals."
   ],
   [
    "Music",
-   "Hopeful, warm, licensed. Never somber."
+   "Light, hopeful, warm, licensed, no lyrics. Never somber."
   ]
  ],
  "tech": [
   [
    "Source",
-   "Two angles per interview: the 20261013/14_C53xx file (front) and the C49xx file (side). Probe frame size and rate on import; they are not listed on the item."
+   "<span class=\"mono\">20261013_C5378.MP4</span> (front): 1920×1080 at 59.94 fps. <span class=\"mono\">C4899.MP4</span> (side): 1920×1080 at 23.976 fps (visual.json; check on import). Haven B-roll 1920×1080 at 59.94 fps. July drone DJI clips 2720 wide at 23.976 fps; July playground clips 1920×1080 at 23.976 fps."
+  ],
+  [
+   "Side angle sync",
+   "A time in C5378 plus 17.4 s is the same moment in C4899.MP4 (matched on the two transcripts). Sync the angles by audio and use the side angle to hide every join."
   ],
   [
    "Timeline",
-   "1080×1920. Conform both angles to one rate."
+   "1080×1920 at <b>23.976 fps</b>, like the other CASS traditionals. Conform the 59.94 fps clips."
   ],
   [
    "Crop",
-   "16:9 to 9:16 on the speaker. Use the side angle to hide jump cuts."
+   "16:9 to 9:16 centred on the speaker. Check every crop by eye: no frames could be pulled this run."
   ],
   [
    "Audio",
-   "Recorded into the camera. Check both angles' channels on the first bite and use the cleanest."
+   "Recorded into the cameras. Check both channels on both angles on the first bite and use the cleanest one. 2-frame crossfades at every join."
   ],
   [
    "Loudness",
-   "−14 LUFS integrated, −1 dBTP peak. Music well under the voice."
+   "−14 LUFS integrated, −1 dBTP peak. Music at least 12 dB under the voice."
+  ],
+  [
+   "Pauses",
+   "Pauses over 0.7 s inside a bite are cut to about 0.25 s. Cover each cut with the side angle or B-roll."
   ],
   [
    "Captions",
-   "White text on the CASS navy <span class=\"mono\">#2C2B77</span> box. Work Sans. Max 2 lines."
+   "Burned in. White Work Sans on the CASS navy <span class=\"mono\">#2C2B77</span> box, max 2 lines, low in the frame. Never under the name super. CASS in capitals."
   ],
   [
    "Export",
-   "H.264 MP4, 1080×1920. One file, 9:16 only."
+   "H.264 MP4, 1080×1920, 9:16 only. Upload to Frame.io with the file name at the top of this page, then Ready for Review."
   ]
  ],
  "checklist": [
-  "Open on the hook at 0:00. Logo only on the end card.",
-  "CASS in capitals. “Central Arizona Shelter Services” spelled out on first use if it appears in text.",
-  "Captions: white on navy #2C2B77, Work Sans.",
-  "End card: CASS logo with cassaz.org.",
-  "Hopeful, never somber.",
-  "Residents are filmed from behind unless they signed a release. Check before any resident B-roll.",
-  "Match the look of the existing CASS traditionals (CASSBrittnieNeighbors001).",
-  "Caption “CASS”: the transcript writes “CAST” and “Cass”."
+  "Frame 1 is Nathan talking with <q>They also want a shot.</q> already on screen. No logo, name or fade.",
+  "The question is on screen at 00:06, before his answer.",
+  "Name super from 00:09: Nathan Smith / Chief Executive Officer, CASS.",
+  "<q>Theirs are,</q> is in, so his parent story reads as a family's story.",
+  "Nothing from the parts the transcript leaves out or marks do not use.",
+  "No dinner B-roll and no resident's face in any B-roll.",
+  "His face is well lit (CEO rule).",
+  "Captions say CASS in capitals, white on the navy box.",
+  "End card: CASS with <q>For more information visit cassaz.org</q>.",
+  "The file is 9:16 only."
  ],
  "decisions": [],
- "client_note": "<b>Why this matters:</b> CASS wants hopeful, human stories about who is really experiencing homelessness in Maricopa County. Zsirai's direction changes: check the newest note on the item before cutting.",
- "ask_examples": [],
- "transcript": "Machine transcript from “Transcripts - Interviews” (CASS OCT 2026 › Interviews › EditingResources). Times are mm:ss from the first frame of each file. Speaker tags are often wrong; the interviewer is off camera.\n\n== 20261013_C5378.MP4 (Nathan Smith) ==\n[00:00] And we're rolling on this one.\n[00:01] I'm just going to come through super quick.\n[00:04] And I'll stand right here.\n[00:06] And if you look at me when you answer, that would be perfect.\n[00:09] OK.\n[00:12] So for those who may not know you, can you introduce yourself\n[00:15] and tell us what drew you to this work?\n[00:18] Yeah, my name is Nathan Smith.\n[00:19] I'm the CEO of Cass.\n[00:22] I've been here at Cass for two years now.\n[00:24] What drew me to this work was ultimately,\n[00:26] I wanted to get into the kind of work\n[00:28] where I could help the most disadvantaged\n[00:30] people in our society.\n[00:32] Once upon a time, I went on a mission trip\n[00:34] to India as a middle class guy who had never really worried\n[00:38] about abject poverty before.\n[00:40] It wasn't really a concern of mine.\n[00:41] I was sort of shielded from it, for the most part.\n[00:44] You see some poverty out here in the US, and it's problematic.\n[00:47] But it's different.\n[00:48] Sometimes you go overseas to countries\n[00:51] where there's incredible wealth inequity,\n[00:54] and the kinds of problems are at a scale\n[00:56] like you can barely imagine from a Western perspective,\n[00:59] particularly in the US.\n[01:00] You see some of that stuff for the first time.\n[01:02] It's incredibly eye-opening, especially when you balance it\n[01:05] with the kind of joy and gratefulness\n[01:07] that, say, an orphan in a village in India\n[01:10] with a missing eye, no economic opportunities, is facing.\n[01:15] So I saw that.\n[01:16] My life changed.\n[01:17] I came back to Phoenix, and I said,\n[01:18] I've got to be able to devote myself to this on a daily basis,\n[01:21] rather than once a year flying to a foreign country.\n[01:24] And then when I came to CAST, I said, hey,\n[01:26] this is an opportunity to work with an organization that\n[01:29] serves thousands of people every single year\n[01:31] and gives them that kind of opportunity.\n[01:33] And that's what I really wanted to do, was to say, hey,\n[01:36] let's do this in a way that brings great opportunities\n[01:39] to thousands of people.\n[01:41] And that's what CAST provides.\n[01:43] And since coming to CAST, what has this role taught you\n[01:48] about the community we serve?\n[01:55] Yeah, let's see.\n[01:57] OK, great.\n[01:58] Since I came to CAST, what I've learned about the community\n[02:01] that we serve is this, that truly\n[02:04] some of the most down-and-out people that you look out\n[02:08] when you're going on your car on the side of the freeway\n[02:12] or in a canal or in a park, and you see them yelling at the sky\n[02:17] or know that there's a really good chance that they're deeply\n[02:20] addicted to substances.\n[02:22] And I got to CAST, and what I realized\n[02:24] is those people take advantage of opportunities, too.\n[02:27] They also want a shot.\n[02:29] They don't necessarily want to stay in the same situation\n[02:32] that they're in.\n[02:33] In fact, some of the issue is the way\n[02:35] is we as service providers organize and develop\n[02:38] our services simply aren't a match\n[02:40] for some of those most chronically homeless\n[02:43] individuals in our community.\n[02:45] And so what I've learned is you look at those people,\n[02:47] and you don't think, oh, we're just\n[02:48] going to give them a place to stay\n[02:50] and let them ride it out until they die.\n[02:52] No, you make sure that they have an opportunity, too,\n[02:54] because there's a better life for them, and they want it,\n[02:57] and they can get to it.\n[02:58] And CAST has taught me that.\n[03:00] I love that.\n[03:01] And what do you wish people understood about homelessness?\n[03:05] Beyond the fact that everybody isn't on drugs,\n[03:08] people just don't want to work, beyond that,\n[03:10] what do you wish people understood?\n[03:11] What I wish people understood about homelessness\n[03:14] is that homelessness isn't just that thing that's visible,\n[03:17] that person, those people that are the most visible to you\n[03:21] on a street corner.\n[03:22] That is true.\n[03:24] They matter deeply.\n[03:25] And in a very important way, CAST is here for them.\n[03:29] But what we don't always talk about\n[03:31] is the number of families that are experiencing homelessness.\n[03:35] People often don't know this, but CAST\n[03:37] has a 30-unit emergency shelter for families\n[03:41] who are experiencing homelessness.\n[03:42] And we take families up to household sizes of 10 or more.\n[03:46] So we take some really big families.\n[03:48] And their problems often are different than just,\n[03:51] I'm on drugs, or I have serious mental illness.\n[03:56] Theirs are, I was barely making it by.\n[03:59] I could not really put enough to save.\n[04:01] And then for any number of reasons kind of outside\n[04:04] my control, like reductions in force,\n[04:06] my organization let me go.\n[04:08] I found myself without income.\n[04:10] And me and my children had to hit the streets.\n[04:12] And I wish people knew more that that\n[04:15] is a large story around homelessness\n[04:18] here in Maricopa County, is it is just a lot of people who\n[04:22] are down on their luck and with some important resources\n[04:26] and some stability and opportunity to improve.\n[04:28] They're right back on track, and they're changing their lives,\n[04:31] and they're rebuilding for their families.\n[04:34] OK, and understanding our approach,\n[04:37] how would you say we are different\n[04:39] from other organizations?\n[04:40] Or what makes our approach unique?\n[04:43] There are two things about CAST that I\n[04:44] find are unique within the broader homelessness response\n[04:47] system.\n[04:48] Here in Maricopa County.\n[04:49] One, we're not the only ones, but this\n[04:52] is very important to us.\n[04:53] We are very low barrier.\n[04:55] People can come in using drugs, they\n[04:58] can't use drugs on property, but they can be under the influence.\n[05:02] They bring quite a bit of stuff when they come to us.\n[05:04] We allow people to have more than one pet,\n[05:06] and it doesn't have to be a service animal\n[05:08] or emotional support animal.\n[05:09] It can literally be a pet.\n[05:10] And if they bring them in, we'll help them get vaccinated.\n[05:13] So there are all these things that CAST has figured out\n[05:16] how to systematically remove as a barrier\n[05:19] to facilitate greater access to a shelter bed.\n[05:22] That is one important uniqueness about CAST.\n[05:24] The other, and to me this is very important\n[05:27] because this is what makes CAST critical in our community,\n[05:30] is that we serve at volume.\n[05:32] At our downtown shelter, we have 600 beds for people\n[05:35] who are experiencing homelessness.\n[05:37] We have another 130 units for people 55 and older.\n[05:41] And the 30 unit family shelter is the second largest family\n[05:44] shelter in Maricopa County.\n[05:45] So the other thing, and I think what makes us truly unique\n[05:48] in this response system, is that we serve\n[05:50] a whole bunch of people.\n[05:52] And that's important considering the rise in homelessness\n[05:55] in the county over the last several years.\n[05:58] And when you think about when they come through our doors,\n[06:01] let's just talk about just downtown.\n[06:03] When they come to the doors, what\n[06:04] do you hope that they experience besides just having\n[06:07] a place to sleep?\n[06:13] OK.\n[06:14] When people come to CAST, I hope they experience\n[06:17] something like this.\n[06:18] I got to talk to one of the people that we're serving here\n[06:21] and just kind of get a sense of what their story was like.\n[06:25] And this is a person who is ultimately\n[06:26] eligible to go over to our older adult shelter called\n[06:29] The Haven.\n[06:30] But they started here at the downtown shelter\n[06:32] with the 600 beds.\n[06:34] So they came here and they were like, listen,\n[06:36] I just need a place to stay.\n[06:38] I lost my job.\n[06:40] I'm having a lot of trouble getting a new job,\n[06:42] trying to transfer careers.\n[06:43] But people see my resume and see I bounced around\n[06:47] and they don't want to hire me.\n[06:48] Or I show up and I open my mouth and they\n[06:50] see how bad my teeth are and they\n[06:52] don't want to give me a chance for these customer service\n[06:54] roles.\n[06:55] And she said that she came here and she was just\n[06:57] feeling absolutely rejected by everybody and down and out\n[07:01] and facing depression.\n[07:02] So we brought her in here.\n[07:03] She had a safe place to stay.\n[07:05] Then she transferred over to The Haven.\n[07:07] Now, one of the things about The Haven\n[07:08] is we have enough case managers that every single individual is\n[07:12] on a caseload.\n[07:13] So in that scenario, we're able to really work with her\n[07:16] to address a lot of the issues and find\n[07:17] the right kind of job for her.\n[07:19] And ultimately, she was able to find it.\n[07:21] She was able to start stacking up her income\n[07:23] and ultimately move into the kind of housing\n[07:25] that she could pay for herself, which is great.\n[07:28] What I want people to have when they come to Cass\n[07:30] is that kind of an experience, really\n[07:33] that kind of an opportunity.\n[07:35] People just need a chance.\n[07:36] And when they come to Cass, I want\n[07:37] to make sure we give them that at every single one\n[07:40] of our shelters for whatever their needs are.\n[07:43] It's a pretty meaningful moment.\n[07:45] What else would you say is the most meaningful moment\n[07:48] that as the Cass CEO has taught you?\n[07:51] So as Cass CEO, the most meaningful moment I've had\n[07:56] is not as cool or as eye-opening or even as tear jerky\n[08:00] as what I may have said when I was working directly\n[08:03] in programs years ago.\n[08:04] And the reason why is I find that it's important to make\n[08:07] sure that Cass exists to do this work for thousands of people\n[08:11] every year for years and years and years\n[08:13] to come because it looks like that's what's\n[08:15] going to be needed from us.\n[08:16] So in that way, the biggest thing\n[08:19] that has happened in my opinion at Cass was once upon a time,\n[08:22] we had $200,000 in the bank account, which is essentially\n[08:26] right around a payroll.\n[08:27] And we had $2.8 million of debt that was about to mature\n[08:31] and become due immediately.\n[08:33] And we did not have any capacity to pay for it\n[08:36] without going back on the agreements\n[08:38] that we made and sacrificing our credit rating and things\n[08:41] of that nature.\n[08:42] So we worked really, really hard with Dudley Ventures Group,\n[08:46] the Phoenix IDA.\n[08:48] We were lucky enough to close two new markets tax credit\n[08:51] deals.\n[08:52] Those entities put us through the due diligence ringer\n[08:55] like you could not imagine.\n[08:57] Ultimately, we came out on the other side of that.\n[09:00] It netted us $4.8 million.\n[09:02] We were able to pay off the $2.8 million debt,\n[09:05] put some money in the bank account,\n[09:06] put some money in the investment accounts.\n[09:08] And here's the most important thing.\n[09:10] Again, I run the business of Cass\n[09:13] so that we can do the mission of Cass.\n[09:16] And it's important that we put ourselves in position\n[09:19] to be sustainable and to make sure\n[09:21] that we could continue serving and providing opportunities\n[09:24] to thousands of people.\n[09:25] So when you ask the CEO that question, the answer is, oh,\n[09:28] we saved the day.\n[09:30] And we made it so that we weren't worried about where\n[09:32] our next meal was coming from so we could invest\n[09:34] into serving people better.\n[09:37] And knowing the challenges or the obstacles\n[09:40] you've overcome, what gives you hope for Cass in the future?\n[09:45] When I first came to Cass a little over two years ago,\n[09:49] one of the things I knew was going to have to be repaired\n[09:51] was our reputation in the community.\n[09:53] There were a number of things that we had done.\n[09:55] Honestly, in good favor and in good faith\n[09:57] by people who were working at Cass before.\n[09:59] But some of the things that we had done\n[10:02] had made it so that there was a lot of distrust\n[10:04] toward Cass in the community, especially by funders\n[10:07] and by local businesses and people of that nature.\n[10:09] So for me, it was really important\n[10:11] that we take a step back and that we do some work\n[10:15] to heal our reputation.\n[10:16] And now as I look forward to our future,\n[10:18] we just went back and surveyed a bunch of people\n[10:20] in our community as part of our rebranding exercise\n[10:23] that we're doing.\n[10:24] And to hear what people said about Cass today,\n[10:27] people in the community recognized\n[10:29] that once upon a time, our reputation was questionable.\n[10:33] And now they're saying, since your reputation has improved\n[10:36] so drastically as far as thinking about your brand,\n[10:38] here's how you should think about your brand.\n[10:40] What that means for me is people in our community,\n[10:43] not just at Cass, have some optimism about our future,\n[10:47] realize that we've cleaned up a lot of the things\n[10:49] that brought harm to our reputation.\n[10:51] And now, honestly, the sky's the limit.\n[10:54] Now we get the chance to take a step back and envision\n[10:56] what is our future like from being a licensed behavioral\n[11:00] health entity, potentially being a housing developer\n[11:03] and owner to move people into housing\n[11:05] and make sure that they have a place to go.\n[11:07] But we don't get there without healing our reputation.\n[11:09] And that is what makes us think about\n[11:11] what our future could be.\n[11:13] That was good.\n[11:13] You mentioned the rebranding, which brings up this question.\n[11:16] Oh, a doozy.\n[11:17] What does actually envisioning a community\n[11:21] where everyone has a home, what does that actually mean to you?\n[11:25] Right now, that is our vision statement.\n[11:27] Like you said, we are in the middle of rebranding.\n[11:30] What does that really mean to you?\n[11:32] So I'm going to not touch too much on the rebranding.\n[11:34] No, you don't have to touch on rebranding.\n[11:35] Yeah, I'll just touch on this statement.\n[11:37] Because quite frankly, after all this,\n[11:39] it ain't going to change much.\n[11:41] We can sit around and talk a little more.\n[11:43] But after all this is done, I'm going to look at you.\n[11:47] It's a lie.\n[11:49] I'm like, dang, am I in the wrong part of marketing?\n[11:52] We had a rebranding meeting today.\n[11:53] And I'm like.\n[11:54] And so there's some context here.\n[11:57] Yeah, I got you.\n[11:59] All right, say it again.\n[12:02] What does envisioning a community where everyone has a home\n[12:05] really mean to you?\n[12:06] I got it.\n[12:07] So one of the things that, when I came to Cass,\n[12:09] you think about what are some things that need to change?\n[12:12] What are some things that need to stay the same?\n[12:14] What are things that are going well but can be improved on?\n[12:17] And yeah, naturally, new CEO comes.\n[12:20] And there was a lot of things that I thought\n[12:22] could be changed.\n[12:23] I am proud, though, that one thing I never\n[12:26] thought needed to be changed was the vision that\n[12:29] guides the work of Cass.\n[12:30] Cass's vision is a community where everyone has a home.\n[12:34] Here's what I love about that.\n[12:35] It's bigger than us.\n[12:37] Cass is never going to achieve that vision on our own.\n[12:39] That's frankly quite impossible.\n[12:41] We can't make it so that everyone has a home.\n[12:44] So it forces us to say, what is the best way\n[12:47] to do our specific work within that broader community goal?\n[12:51] And who else do we need to bring to the table\n[12:53] to make sure we achieve that goal?\n[12:55] That's what I love about that very compelling mission\n[12:58] statement is it forces us to ask and answer\n[13:01] the important questions around what's our best contribution\n[13:05] and who do we need to partner so that everyone\n[13:07] in our community has a home.\n[13:10] And if you had to describe your job in one word,\n[13:12] what would you say?\n[13:18] Oh.\n[13:19] Because we get to them every time.\n[13:21] I don't know why.\n[13:21] One word.\n[13:22] You know I got words.\n[13:23] One word.\n[13:33] Lead.\n[13:34] If I had to describe my job in one word, it would be lead.\n[13:40] What does that mean to you?\n[13:41] Well, OK, thank you.\n[13:42] I can get some more words.\n[13:45] What I mean by that one word is that people at Cass\n[13:50] need direction.\n[13:52] We do employee satisfaction surveys.\n[13:54] One thing that people don't love is\n[13:56] when they feel like they don't have direction.\n[13:58] They do love it, conversely, when\n[14:00] they know the direction that they, their team,\n[14:03] their organization is headed, and they know\n[14:05] how they can best contribute.\n[14:06] That's my job for the organization.\n[14:08] But what I love about my setup today\n[14:10] is I've got a very strong executive team that\n[14:12] manages the day-to-day work very well here at Cass.\n[14:16] That gives me an ability to lead in the community,\n[14:19] to make sure that our local continuum of care, which\n[14:21] receives over $15 million a year for homelessness,\n[14:24] and other state and municipal entities,\n[14:29] have the kind of voice that they need to help them think well\n[14:33] through their direction.\n[14:35] And so I find myself not only as a leader at Cass,\n[14:37] giving people guidance and direction and purpose\n[14:40] in their job, but also doing that in the community.\n[14:42] And I take that very seriously.\n[14:45] We're done.\n[14:46] Awesome.\n[14:47] Hey, pretty handsome.\n[14:48] That was amazing.\n[14:49] OK.\n[14:49] Here's a good one, OK?\n[14:51] Yeah.\n[14:51] All right."
+ "client_note": "<b>Why this matters:</b> CASS wants hopeful, human stories about who is really homeless in Maricopa County. Coming from the CEO, the families line is a fact most donors have never heard.",
+ "ask_examples": [
+  "Why keep <q>Theirs are</q>?",
+  "Where does the question go?",
+  "Which B-roll can I use for Nathan?",
+  "Can I use the dinner footage?"
+ ],
+ "transcript": "Machine transcript of Nathan Smith's interview (output.json segments, CASS OCT 2026). Times are mm:ss.s in the front-angle clip. CASS is written in capitals (the machine wrote Cass and CAST). The side angle C4899.MP4 is the same talk 17.4 s later.\n--- 20261013_C5378.MP4 ---\n[00:00.0] And we're rolling on this one. [do not use: crew talk]\n[00:01.5] I'm just going to come through super quick. [do not use: crew talk]\n[00:04.6] And I'll stand right here. [do not use: crew talk]\n[00:06.4] And if you look at me when you answer, that would be perfect. [do not use: crew talk]\n[00:09.1] OK. [do not use: crew talk]\n[00:12.4] So for those who may not know you, can you introduce yourself and tell us what drew you to this work?\n[00:18.3] Yeah, my name is Nathan Smith.\n[00:19.9] I'm the CEO of CASS.\n[00:22.0] I've been here at CASS for two years now.\n[00:24.4] What drew me to this work was ultimately, I wanted to get into the kind of work where I could help the most disadvantaged people in our society.\n[00:32.5] Once upon a time, I went on a mission trip to India as a middle class guy who had never really worried about abject poverty before.\n[00:40.4] It wasn't really a concern of mine.\n[00:41.9] I was sort of shielded from it, for the most part.\n[00:44.5] You see some poverty out here in the US, and it's problematic.\n[00:47.8] But it's different.\n[00:49.0] Sometimes you go overseas to countries where there's incredible wealth inequity, and the kinds of problems are at a scale like you can barely imagine from a Western perspective,\n[00:59.3] particularly in the US.\n[01:00.4] You see some of that stuff for the first time.\n[01:02.3] It's incredibly eye-opening, especially when you balance it with the kind of joy and gratefulness that, say, an orphan in a village in India\n[01:10.7] with a missing eye, no economic opportunities, is facing.\n[01:15.0] So I saw that.\n[01:16.0] My life changed.\n[01:17.2] I came back to Phoenix, and I said, I've got to be able to devote myself to this on a daily basis, rather than once a year flying to a foreign country.\n[01:24.5] And then when I came to CASS, I said, hey, this is an opportunity to work with an organization that serves thousands of people every single year\n[01:31.8] and gives them that kind of opportunity.\n[01:33.8] And that's what I really wanted to do, was to say, hey, let's do this in a way that brings great opportunities to thousands of people.\n[01:41.0] And that's what CASS provides.\n[01:43.1] And since coming to CASS, what has this role taught you about the community we serve?\n[01:55.9] Yeah, let's see.\n[01:57.9] OK, great.\n[01:59.0] Since I came to CASS, what I've learned about the community that we serve is this, that truly some of the most down-and-out people that you look out\n[02:08.5] when you're going on your car on the side of the freeway or in a canal or in a park, and you see them yelling at the sky or know that there's a really good chance that they're deeply\n[02:20.5] addicted to substances.\n[02:22.7] And I got to CASS, and what I realized is those people take advantage of opportunities, too.\n[02:27.9] They also want a shot.\n[02:29.4] They don't necessarily want to stay in the same situation that they're in.\n[02:33.2] In fact, some of the issue is the way is we as service providers organize and develop our services simply aren't a match for some of those most chronically homeless\n[02:43.2] individuals in our community.\n[02:45.1] And so what I've learned is you look at those people, and you don't think, oh, we're just going to give them a place to stay and let them ride it out until they die.\n[02:52.3] No, you make sure that they have an opportunity, too, because there's a better life for them, and they want it, and they can get to it.\n[02:58.5] And CASS has taught me that.\n[03:00.5] I love that.\n[03:01.3] And what do you wish people understood about homelessness?\n[03:05.3] Beyond the fact that everybody isn't on drugs, people just don't want to work, beyond that, what do you wish people understood?\n[03:11.9] What I wish people understood about homelessness is that homelessness isn't just that thing that's visible, that person, those people that are the most visible to you\n[03:21.2] on a street corner.\n[03:22.8] That is true.\n[03:24.1] They matter deeply.\n[03:25.7] And in a very important way, CASS is here for them.\n[03:29.6] But what we don't always talk about is the number of families that are experiencing homelessness.\n[03:35.1] People often don't know this, but CASS has a 30-unit emergency shelter for families who are experiencing homelessness.\n[03:42.6] And we take families up to household sizes of 10 or more.\n[03:46.3] So we take some really big families.\n[03:48.6] And their problems often are different than just, I'm on drugs, or I have serious mental illness.\n[03:56.3] Theirs are, I was barely making it by.\n[03:59.5] I could not really put enough to save.\n[04:01.9] And then for any number of reasons kind of outside my control, like reductions in force, my organization let me go.\n[04:08.7] I found myself without income.\n[04:10.4] And me and my children had to hit the streets.\n[04:12.8] And I wish people knew more that that is a large story around homelessness here in Maricopa County, is it is just a lot of people who are down on their luck and with some important resources\n[04:26.0] and some stability and opportunity to improve.\n[04:28.6] They're right back on track, and they're changing their lives, and they're rebuilding for their families.\n[04:34.2] OK, and understanding our approach, how would you say we are different from other organizations?\n[04:40.6] Or what makes our approach unique?\n[04:43.3] There are two things about CASS that I find are unique within the broader homelessness response system.\n[04:48.3] Here in Maricopa County.\n[04:49.5] One, we're not the only ones, but this is very important to us.\n[04:53.7] We are very low barrier.\n[04:55.4] People can come in using drugs, they can't use drugs on property, but they can be under the influence.\n[05:02.1] They bring quite a bit of stuff when they come to us.\n[05:04.8] We allow people to have more than one pet, and it doesn't have to be a service animal or emotional support animal.\n[05:09.6] It can literally be a pet.\n[05:10.9] And if they bring them in, we'll help them get vaccinated.\n[05:13.9] So there are all these things that CASS has figured out how to systematically remove as a barrier to facilitate greater access to a shelter bed.\n[05:22.1] That is one important uniqueness about CASS.\n[05:24.8] The other, and to me this is very important because this is what makes CASS critical in our community, is that we serve at volume.\n[05:32.8] At our downtown shelter, we have 600 beds for people who are experiencing homelessness.\n[05:37.5] We have another 130 units for people 55 and older.\n[05:41.1] And the 30 unit family shelter is the second largest family shelter in Maricopa County.\n[05:45.9] So the other thing, and I think what makes us truly unique in this response system, is that we serve a whole bunch of people.\n[05:52.7] And that's important considering the rise in homelessness in the county over the last several years.\n[05:58.0] And when you think about when they come through our doors, let's just talk about just downtown.\n[06:03.3] When they come to the doors, what do you hope that they experience besides just having a place to sleep?\n[06:13.4] OK.\n[06:14.8] When people come to CASS, I hope they experience something like this.\n[06:18.3] I got to talk to one of the people that we're serving here and just kind of get a sense of what their story was like.\n[06:25.0] And this is a person who is ultimately eligible to go over to our older adult shelter called The Haven.\n[06:30.4] But they started here at the downtown shelter with the 600 beds.\n[06:34.0] So they came here and they were like, listen, I just need a place to stay.\n[06:38.2] I lost my job.\n[06:40.1] I'm having a lot of trouble getting a new job, trying to transfer careers.\n[06:43.9] But people see my resume and see I bounced around and they don't want to hire me.\n[06:48.5] Or I show up and I open my mouth and they see how bad my teeth are and they don't want to give me a chance for these customer service roles.\n[06:55.6] And she said that she came here and she was just feeling absolutely rejected by everybody and down and out and facing depression.\n[07:02.8] So we brought her in here.\n[07:03.9] She had a safe place to stay.\n[07:05.5] Then she transferred over to The Haven.\n[07:07.1] Now, one of the things about The Haven is we have enough case managers that every single individual is on a caseload.\n[07:13.5] So in that scenario, we're able to really work with her to address a lot of the issues and find the right kind of job for her.\n[07:19.4] And ultimately, she was able to find it.\n[07:21.3] She was able to start stacking up her income and ultimately move into the kind of housing that she could pay for herself, which is great.\n[07:28.2] What I want people to have when they come to CASS is that kind of an experience, really that kind of an opportunity.\n[07:35.3] People just need a chance.\n[07:36.7] And when they come to CASS, I want to make sure we give them that at every single one of our shelters for whatever their needs are.\n[07:43.4] It's a pretty meaningful moment.\n[07:45.4] What else would you say is the most meaningful moment that as the CASS CEO has taught you?\n[07:51.3] So as CASS CEO, the most meaningful moment I've had is not as cool or as eye-opening or even as tear jerky as what I may have said when I was working directly\n[08:03.2] in programs years ago.\n[08:04.8] And the reason why is I find that it's important to make sure that CASS exists to do this work for thousands of people every year for years and years and years\n[08:13.5] to come because it looks like that's what's going to be needed from us.\n(08:16 to 09:36 left out: not for this video)\n[09:37.6] And knowing the challenges or the obstacles you've overcome, what gives you hope for CASS in the future? [do not use: reputation and rebranding answer (brief)]\n[09:45.3] When I first came to CASS a little over two years ago, one of the things I knew was going to have to be repaired was our reputation in the community. [do not use: reputation and rebranding answer (brief)]\n[09:53.5] There were a number of things that we had done. [do not use: reputation and rebranding answer (brief)]\n[09:55.5] Honestly, in good favor and in good faith by people who were working at CASS before. [do not use: reputation and rebranding answer (brief)]\n[09:59.8] (line left out: not for this video)\n[10:09.9] So for me, it was really important that we take a step back and that we do some work to heal our reputation. [do not use: reputation and rebranding answer (brief)]\n[10:16.8] And now as I look forward to our future, we just went back and surveyed a bunch of people in our community as part of our rebranding exercise [do not use: reputation and rebranding answer (brief)]\n[10:23.8] that we're doing. [do not use: reputation and rebranding answer (brief)]\n[10:24.7] And to hear what people said about CASS today, people in the community recognized that once upon a time, our reputation was questionable. [do not use: reputation and rebranding answer (brief)]\n[10:33.4] And now they're saying, since your reputation has improved so drastically as far as thinking about your brand, here's how you should think about your brand. [do not use: reputation and rebranding answer (brief)]\n[10:40.9] What that means for me is people in our community, not just at CASS, have some optimism about our future, realize that we've cleaned up a lot of the things [do not use: reputation and rebranding answer (brief)]\n[10:49.9] that brought harm to our reputation. [do not use: reputation and rebranding answer (brief)]\n[10:52.0] And now, honestly, the sky's the limit. [do not use: reputation and rebranding answer (brief)]\n[10:54.2] Now we get the chance to take a step back and envision what is our future like from being a licensed behavioral health entity, potentially being a housing developer [do not use: reputation and rebranding answer (brief)]\n[11:03.2] and owner to move people into housing and make sure that they have a place to go. [do not use: reputation and rebranding answer (brief)]\n[11:07.2] But we don't get there without healing our reputation. [do not use: reputation and rebranding answer (brief)]\n[11:09.5] And that is what makes us think about what our future could be. [do not use: reputation and rebranding answer (brief)]\n[11:13.1] That was good. [do not use: reputation and rebranding answer (brief)]\n[11:14.0] You mentioned the rebranding, which brings up this question. [do not use: crew talk and rebranding aside]\n[11:16.9] Oh, a doozy. [do not use: crew talk and rebranding aside]\n[11:17.7] What does actually envisioning a community where everyone has a home, what does that actually mean to you? [do not use: crew talk and rebranding aside]\n[11:25.1] Right now, that is our vision statement. [do not use: crew talk and rebranding aside]\n[11:27.2] Like you said, we are in the middle of rebranding. [do not use: crew talk and rebranding aside]\n[11:30.1] What does that really mean to you? [do not use: crew talk and rebranding aside]\n[11:32.1] So I'm going to not touch too much on the rebranding. [do not use: crew talk and rebranding aside]\n[11:34.8] No, you don't have to touch on rebranding. [do not use: crew talk and rebranding aside]\n[11:35.8] Yeah, I'll just touch on this statement. [do not use: crew talk and rebranding aside]\n[11:37.5] Because quite frankly, after all this, it ain't going to change much. [do not use: crew talk and rebranding aside]\n[11:41.0] We can sit around and talk a little more. [do not use: crew talk and rebranding aside]\n[11:43.2] But after all this is done, I'm going to look at you. [do not use: crew talk and rebranding aside]\n[11:47.7] It's a lie. [do not use: crew talk and rebranding aside]\n[11:49.8] I'm like, dang, am I in the wrong part of marketing? [do not use: crew talk and rebranding aside]\n[11:52.1] We had a rebranding meeting today. [do not use: crew talk and rebranding aside]\n[11:53.6] And I'm like. [do not use: crew talk and rebranding aside]\n[11:54.9] And so there's some context here. [do not use: crew talk and rebranding aside]\n[11:57.1] Yeah, I got you. [do not use: crew talk and rebranding aside]\n[11:59.7] All right, say it again. [do not use: crew talk and rebranding aside]\n[12:02.3] What does envisioning a community where everyone has a home really mean to you? [do not use: crew talk and rebranding aside]\n[12:06.6] I got it. [do not use: crew talk and rebranding aside]\n[12:07.2] So one of the things that, when I came to CASS, you think about what are some things that need to change?\n[12:12.4] What are some things that need to stay the same?\n[12:14.4] What are things that are going well but can be improved on?\n[12:17.5] And yeah, naturally, new CEO comes.\n[12:20.7] And there was a lot of things that I thought could be changed.\n[12:23.7] I am proud, though, that one thing I never thought needed to be changed was the vision that guides the work of CASS.\n[12:30.9] CASS's vision is a community where everyone has a home.\n[12:34.5] Here's what I love about that.\n[12:35.9] It's bigger than us.\n[12:37.2] CASS is never going to achieve that vision on our own.\n[12:39.8] That's frankly quite impossible.\n[12:41.4] We can't make it so that everyone has a home.\n[12:44.3] So it forces us to say, what is the best way to do our specific work within that broader community goal?\n[12:51.5] And who else do we need to bring to the table to make sure we achieve that goal?\n[12:55.8] That's what I love about that very compelling mission statement is it forces us to ask and answer the important questions around what's our best contribution\n[13:05.2] and who do we need to partner so that everyone in our community has a home.\n[13:10.3] And if you had to describe your job in one word, what would you say?\n[13:18.6] Oh.\n[13:19.7] Because we get to them every time.\n[13:21.1] I don't know why.\n[13:21.8] One word.\n[13:22.2] You know I got words.\n[13:23.9] One word.\n[13:33.2] Lead.\n[13:34.1] If I had to describe my job in one word, it would be lead.\n[13:40.2] What does that mean to you?\n[13:41.4] Well, OK, thank you.\n[13:42.9] I can get some more words.\n[13:45.5] What I mean by that one word is that people at CASS need direction.\n[13:52.0] We do employee satisfaction surveys.\n[13:54.3] One thing that people don't love is when they feel like they don't have direction.\n[13:58.8] They do love it, conversely, when they know the direction that they, their team, their organization is headed, and they know how they can best contribute.\n[14:06.8] That's my job for the organization.\n[14:08.9] But what I love about my setup today is I've got a very strong executive team that manages the day-to-day work very well here at CASS.\n(14:16 to 14:33 left out: not for this video)\n[14:35.5] And so I find myself not only as a leader at CASS, giving people guidance and direction and purpose in their job, but also doing that in the community.\n[14:42.4] And I take that very seriously.\n[14:45.4] We're done. [do not use: crew talk]\n[14:46.7] Awesome. [do not use: crew talk]\n[14:47.2] Hey, pretty handsome. [do not use: crew talk]\n[14:48.1] That was amazing. [do not use: crew talk]\n[14:49.5] OK. [do not use: crew talk]\n[14:50.0] Here's a good one, OK? [do not use: crew talk]\n[14:51.0] Yeah. [do not use: crew talk]\n[14:51.6] All right. [do not use: crew talk]",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "And I got to CASS, and what I realized is those people take advantage of opportunities, too. They also want a shot.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "They want a shot."
+   },
+   {
+    "quote": "They don't necessarily want to stay in the same situation that they're in.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Nobody wants to stay stuck."
+   },
+   {
+    "quote": "No, you make sure that they have an opportunity, too, because there's a better life for them, and they want it, and they can get to it.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "A better life they can reach."
+   },
+   {
+    "quote": "homelessness isn't just that thing that's visible, that person, those people that are the most visible to you on a street corner.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Not only the street corner."
+   },
+   {
+    "quote": "But what we don't always talk about is the number of families that are experiencing homelessness.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "The families."
+   },
+   {
+    "quote": "People often don't know this, but CASS has a 30-unit emergency shelter for families who are experiencing homelessness.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "The family shelter fact."
+   },
+   {
+    "quote": "And we take families up to household sizes of 10 or more. So we take some really big families.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Big families."
+   },
+   {
+    "quote": "They're right back on track, and they're changing their lives, and they're rebuilding for their families.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Back on track."
+   },
+   {
+    "quote": "What I want people to have when they come to CASS is that kind of an experience, really that kind of an opportunity.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "What he wants for every client."
+   },
+   {
+    "quote": "People just need a chance.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "The button."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "And I got to CASS, and what I realized is those people take advantage of opportunities, too. They also want a shot.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "They want a shot."
+   },
+   {
+    "quote": "They don't necessarily want to stay in the same situation that they're in.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Nobody wants to stay stuck."
+   },
+   {
+    "quote": "No, you make sure that they have an opportunity, too, because there's a better life for them, and they want it, and they can get to it.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "A better life they can reach."
+   },
+   {
+    "quote": "But what we don't always talk about is the number of families that are experiencing homelessness.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "The families."
+   },
+   {
+    "quote": "People often don't know this, but CASS has a 30-unit emergency shelter for families who are experiencing homelessness.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "The family shelter fact."
+   },
+   {
+    "quote": "And we take families up to household sizes of 10 or more. So we take some really big families.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Big families."
+   },
+   {
+    "quote": "They're right back on track, and they're changing their lives, and they're rebuilding for their families.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Back on track."
+   },
+   {
+    "quote": "What I want people to have when they come to CASS is that kind of an experience, really that kind of an opportunity.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "What he wants for every client."
+   },
+   {
+    "quote": "People just need a chance.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "The button."
+   },
+   {
+    "quote": "CASS's vision is a community where everyone has a home.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "The CASS vision."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "And I got to CASS, and what I realized is those people take advantage of opportunities, too. They also want a shot.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "They want a shot."
+   },
+   {
+    "quote": "They don't necessarily want to stay in the same situation that they're in.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Nobody wants to stay stuck."
+   },
+   {
+    "quote": "No, you make sure that they have an opportunity, too, because there's a better life for them, and they want it, and they can get to it.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "A better life they can reach."
+   },
+   {
+    "quote": "homelessness isn't just that thing that's visible, that person, those people that are the most visible to you on a street corner.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Not only the street corner."
+   },
+   {
+    "quote": "People often don't know this, but CASS has a 30-unit emergency shelter for families who are experiencing homelessness.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "The family shelter fact."
+   },
+   {
+    "quote": "And we take families up to household sizes of 10 or more. So we take some really big families.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Big families."
+   },
+   {
+    "quote": "They're right back on track, and they're changing their lives, and they're rebuilding for their families.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Back on track."
+   },
+   {
+    "quote": "What I want people to have when they come to CASS is that kind of an experience, really that kind of an opportunity.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "What he wants for every client."
+   },
+   {
+    "quote": "People just need a chance.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "The button."
+   },
+   {
+    "quote": "CASS's vision is a community where everyone has a home.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "The CASS vision."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "And I got to CASS, and what I realized is those people take advantage of opportunities, too. They also want a shot.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "They want a shot."
+   },
+   {
+    "quote": "They don't necessarily want to stay in the same situation that they're in.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Nobody wants to stay stuck."
+   },
+   {
+    "quote": "No, you make sure that they have an opportunity, too, because there's a better life for them, and they want it, and they can get to it.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "A better life they can reach."
+   },
+   {
+    "quote": "homelessness isn't just that thing that's visible, that person, those people that are the most visible to you on a street corner.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Not only the street corner."
+   },
+   {
+    "quote": "But what we don't always talk about is the number of families that are experiencing homelessness.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "The families."
+   },
+   {
+    "quote": "People often don't know this, but CASS has a 30-unit emergency shelter for families who are experiencing homelessness.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "The family shelter fact."
+   },
+   {
+    "quote": "And we take families up to household sizes of 10 or more. So we take some really big families.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Big families."
+   },
+   {
+    "quote": "They're right back on track, and they're changing their lives, and they're rebuilding for their families.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Back on track."
+   },
+   {
+    "quote": "What I want people to have when they come to CASS is that kind of an experience, really that kind of an opportunity.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "What he wants for every client."
+   },
+   {
+    "quote": "People just need a chance.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "The button."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "And I got to CASS, and what I realized is those people take advantage of opportunities, too. They also want a shot.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "They want a shot."
+   },
+   {
+    "quote": "They don't necessarily want to stay in the same situation that they're in.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Nobody wants to stay stuck."
+   },
+   {
+    "quote": "No, you make sure that they have an opportunity, too, because there's a better life for them, and they want it, and they can get to it.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "A better life they can reach."
+   },
+   {
+    "quote": "homelessness isn't just that thing that's visible, that person, those people that are the most visible to you on a street corner.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Not only the street corner."
+   },
+   {
+    "quote": "But what we don't always talk about is the number of families that are experiencing homelessness.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "The families."
+   },
+   {
+    "quote": "People often don't know this, but CASS has a 30-unit emergency shelter for families who are experiencing homelessness.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "The family shelter fact."
+   },
+   {
+    "quote": "And we take families up to household sizes of 10 or more. So we take some really big families.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Big families."
+   },
+   {
+    "quote": "They're right back on track, and they're changing their lives, and they're rebuilding for their families.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Back on track."
+   },
+   {
+    "quote": "What I want people to have when they come to CASS is that kind of an experience, really that kind of an opportunity.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "What he wants for every client."
+   },
+   {
+    "quote": "People just need a chance.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "The button."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "And I got to CASS, and what I realized is those people take advantage of opportunities, too. They also want a shot.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "They want a shot."
+   },
+   {
+    "quote": "They don't necessarily want to stay in the same situation that they're in.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Nobody wants to stay stuck."
+   },
+   {
+    "quote": "No, you make sure that they have an opportunity, too, because there's a better life for them, and they want it, and they can get to it.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "A better life they can reach."
+   },
+   {
+    "quote": "homelessness isn't just that thing that's visible, that person, those people that are the most visible to you on a street corner.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Not only the street corner."
+   },
+   {
+    "quote": "But what we don't always talk about is the number of families that are experiencing homelessness.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "The families."
+   },
+   {
+    "quote": "People often don't know this, but CASS has a 30-unit emergency shelter for families who are experiencing homelessness.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "The family shelter fact."
+   },
+   {
+    "quote": "And we take families up to household sizes of 10 or more. So we take some really big families.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Big families."
+   },
+   {
+    "quote": "They're right back on track, and they're changing their lives, and they're rebuilding for their families.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Back on track."
+   },
+   {
+    "quote": "What I want people to have when they come to CASS is that kind of an experience, really that kind of an opportunity.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "What he wants for every client."
+   },
+   {
+    "quote": "People just need a chance.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "The button."
+   }
+  ],
+  "bite:6": [
+   {
+    "quote": "And I got to CASS, and what I realized is those people take advantage of opportunities, too. They also want a shot.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "They want a shot."
+   },
+   {
+    "quote": "They don't necessarily want to stay in the same situation that they're in.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Nobody wants to stay stuck."
+   },
+   {
+    "quote": "No, you make sure that they have an opportunity, too, because there's a better life for them, and they want it, and they can get to it.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "A better life they can reach."
+   },
+   {
+    "quote": "homelessness isn't just that thing that's visible, that person, those people that are the most visible to you on a street corner.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Not only the street corner."
+   },
+   {
+    "quote": "But what we don't always talk about is the number of families that are experiencing homelessness.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "The families."
+   },
+   {
+    "quote": "People often don't know this, but CASS has a 30-unit emergency shelter for families who are experiencing homelessness.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "The family shelter fact."
+   },
+   {
+    "quote": "And we take families up to household sizes of 10 or more. So we take some really big families.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Big families."
+   },
+   {
+    "quote": "They're right back on track, and they're changing their lives, and they're rebuilding for their families.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Back on track."
+   },
+   {
+    "quote": "What I want people to have when they come to CASS is that kind of an experience, really that kind of an opportunity.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "What he wants for every client."
+   },
+   {
+    "quote": "CASS's vision is a community where everyone has a home.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "The CASS vision."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "They also want a shot.",
+    "line": "And I got to CASS, and what I realized is those people take advantage of opportunities, too. They also want a shot.",
+    "why": "His main claim, short."
+   },
+   {
+    "text": "People just need a chance.",
+    "line": "People just need a chance.",
+    "why": "The title line on frame 1."
+   },
+   {
+    "text": "Not just the person on the street corner.",
+    "line": "homelessness isn't just that thing that's visible, that person, those people that are the most visible to you on a street corner.",
+    "why": "Breaks the picture people expect."
+   },
+   {
+    "text": "A 30-unit emergency shelter for families",
+    "line": "People often don't know this, but CASS has a 30-unit emergency shelter for families who are experiencing homelessness.",
+    "why": "A fact most viewers do not know."
+   },
+   {
+    "text": "They're right back on track.",
+    "line": "They're right back on track, and they're changing their lives, and they're rebuilding for their families.",
+    "why": "Hope first."
+   },
+   {
+    "text": "There's a better life for them.",
+    "line": "No, you make sure that they have an opportunity, too, because there's a better life for them, and they want it, and they can get to it.",
+    "why": "Hope as the first frame."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "CASS runs a fuller package (client file). Here: hook text, the question on screen, a name super, a number pop, two top lines, a place tag, family-shelter drone and playground B-roll, Haven B-roll for The Haven story, the side angle on every join, logo only on the end card.",
+  "devices": [
+   {
+    "row": "00:00–00:06",
+    "device": "Hook text, static",
+    "asset": "highlight_callout",
+    "source": "Script"
+   },
+   {
+    "row": "00:06–00:15",
+    "device": "Question text, name super, side angle on the join",
+    "asset": "highlight_callout, tag_label; C4899",
+    "source": "Script; interview side angle"
+   },
+   {
+    "row": "00:15–00:27",
+    "device": "Number pop, drone cutaway",
+    "asset": "stat_counter; DJI_0106 00:20",
+    "source": "Script; CASS Family Shelter Drone Shots (July)"
+   },
+   {
+    "row": "00:27–00:35",
+    "device": "Side angle, B-roll over the join",
+    "asset": "C4899; 20260726_C4274 00:03",
+    "source": "Interview side angle; Family Shelter Outdoor B Roll (July)"
+   },
+   {
+    "row": "00:35–00:44",
+    "device": "Top text, drone cutaway",
+    "asset": "highlight_callout; DJI_0107 00:12",
+    "source": "Script; CASS Family Shelter Drone Shots (July)"
+   },
+   {
+    "row": "00:44–00:56",
+    "device": "Place tag, 3-shot Haven pod",
+    "asset": "tag_label; C5419, C5410, C5429",
+    "source": "Script; The Haven B Roll"
+   },
+   {
+    "row": "00:56–00:58",
+    "device": "Top text on his face",
+    "asset": "highlight_callout",
+    "source": "Script"
+   },
+   {
+    "row": "00:58–01:02",
+    "device": "End card",
+    "asset": "end_card (CASS name until the logo file is in the repo)",
+    "source": "Script"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "20261014_C5413.MP4",
+    "at": 9.5,
+    "dur": 2.5,
+    "cx": 0.5,
+    "path": "CASS OCT 2026/The Haven B Roll/20261014_C5413.MP4",
+    "drive": "1kqNYdF-qUKxPnvkIG7ODWp2Jz3yDP7OH",
+    "layout": "full",
+    "what": "A Haven building with the sign THE HAVEN (visual.json).",
+    "frame": null
+   },
+   {
+    "clip": "20261014_C5406.MP4",
+    "at": 11.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "path": "CASS OCT 2026/The Haven B Roll/20261014_C5406.MP4",
+    "drive": "1XxDk9pkyC81eo6AenCuhKdekzIpu9duX",
+    "layout": "full",
+    "what": "Haven building with balconies and string lights (visual.json).",
+    "frame": null
+   },
+   {
+    "clip": "DJI_0105.MP4",
+    "at": 230.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "path": "CASS Shoot July 2026/CASS Family Shelter Drone Shots/DJI_0105.MP4",
+    "drive": "1clDTJD-kfCQgHViHWkrbQ9vrlldJVSyA",
+    "layout": "full",
+    "what": "Rooftops with solar panels at the family shelter, from the air (visual.json).",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "CASS end card (name until the logo file is added)",
+    "kind": "end_card",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
 }

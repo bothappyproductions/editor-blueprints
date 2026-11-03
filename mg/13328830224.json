@@ -1,0 +1,142 @@
+{
+ "item": "13328830224",
+ "client": "cass",
+ "note": "The script asks for the hook text, a question text, one name super, a number pop, two top text lines and a place tag, so 7 graphics and the end card. The CASS logo file is not in endcards/ yet, so the end card types CASS until it is added.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "They also want a shot."
+   },
+   "cue": "Hook text on frame 1: They also want a shot. Already on screen at 0:00. Does not animate on.",
+   "src": "Script, row 00:00–00:06, Motion graphics & type.",
+   "rows": [
+    "00:00–00:06"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third."
+  },
+  {
+   "n": 2,
+   "title": "Question text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "What do you wish people understood about homelessness?"
+   },
+   "cue": "Question text at 00:06 for 3 s, top band: What do you wish people understood about homelessness?",
+   "src": "Script, row 00:06–00:15, Motion graphics & type.",
+   "rows": [
+    "00:06–00:15"
+   ],
+   "use": "Put it on at 00:06 for 3 s in the top band, before his answer lands."
+  },
+  {
+   "n": 3,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Nathan Smith"
+   },
+   "cue": "Name super at 00:09 for 3 s, lower left above the captions: Nathan Smith / Chief Executive Officer, CASS.",
+   "src": "Script, row 00:06–00:15, Motion graphics & type.",
+   "rows": [
+    "00:06–00:15"
+   ],
+   "use": "Put it on at 00:09 for 3 s. Move it lower left, above the captions. Type the second line Chief Executive Officer, CASS under the name."
+  },
+  {
+   "n": 4,
+   "title": "Number pop",
+   "tpl": "stat_counter",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "number": "30",
+    "label": "unit emergency shelter for families"
+   },
+   "cue": "Number pop at 00:23 for 3 s, top band, as he says it: 30 / unit emergency shelter for families.",
+   "src": "Script, row 00:15–00:27, Motion graphics & type.",
+   "rows": [
+    "00:15–00:27"
+   ],
+   "use": "Start at 00:23 so the number lands on <30-unit>. Top band, over the drone shot."
+  },
+  {
+   "n": 5,
+   "title": "Top text",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "They're right back on track"
+   },
+   "cue": "Top text at 00:39 for 2.5 s, top band, as he says it: They're right back on track.",
+   "src": "Script, row 00:35–00:44, Motion graphics & type.",
+   "rows": [
+    "00:35–00:44"
+   ],
+   "use": "Put it on at 00:39 as he says it. Top band."
+  },
+  {
+   "n": 6,
+   "title": "Place tag",
+   "tpl": "tag_label",
+   "dur": 2.5,
+   "pos": "upper",
+   "text": {
+    "main": "The Haven"
+   },
+   "cue": "Location tag at 00:44 for 2.5 s, upper left: The Haven.",
+   "src": "Script, row 00:44–00:56, Motion graphics & type.",
+   "rows": [
+    "00:44–00:56"
+   ],
+   "use": "Put it on at 00:44 over the Welcome to The Haven sign. Upper left."
+  },
+  {
+   "n": 7,
+   "title": "Top text",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "People just need a chance."
+   },
+   "cue": "Top text at 00:56 for 2 s, top band, as he says it: People just need a chance.",
+   "src": "Script, row 00:56–00:58, Motion graphics & type.",
+   "rows": [
+    "00:56–00:58"
+   ],
+   "use": "Put it on at 00:56 as he says it. Top band. Keep captions on."
+  },
+  {
+   "n": 8,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:58–01:02"
+   ],
+   "dur": 4.0,
+   "cue": "End card: CASS logo, then the line For more information visit cassaz.org.",
+   "src": "No CASS end card or logo file is in the repo yet (endcards/index.json has no CASS entry, checked 3 Nov 2026), so CASS is typed. Line from the script's end card row (cassaz.org, the CASS end card line in the client file); colours from the CASS brand (navy #2C2B77, white).",
+   "c": {
+    "bg": "#2C2B77",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "CASS",
+    "lines": [
+     "For more information visit cassaz.org"
+    ]
+   },
+   "use": "After the last line at 00:58. Hold it to the end. Swap in the CASS logo once it is in the repo."
+  }
+ ]
+}

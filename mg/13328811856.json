@@ -1,0 +1,114 @@
+{
+ "item": "13328811856",
+ "client": "cass",
+ "note": "The script asks for the hook text, one name super, a key-words stack, a number pop and one top text line, so 5 graphics and the end card. The CASS logo file is not in endcards/ yet, so the end card types CASS until it is added.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "I just really started seeing people."
+   },
+   "cue": "Hook text on frame 1: I just really started seeing people. Already on screen at 0:00. Does not animate on.",
+   "src": "Script, row 00:00–00:13, Motion graphics & type.",
+   "rows": [
+    "00:00–00:13"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Nicole Peña"
+   },
+   "cue": "Name super at 00:04 for 3 s, lower left above the captions: Nicole Peña / Chief Development Officer, CASS.",
+   "src": "Script, row 00:00–00:13, Motion graphics & type.",
+   "rows": [
+    "00:00–00:13"
+   ],
+   "use": "Put it on at 00:04 for 3 s. Move it lower left, above the captions. Type the second line Chief Development Officer, CASS under the name."
+  },
+  {
+   "n": 3,
+   "title": "Key words",
+   "tpl": "word_stack",
+   "dur": 6,
+   "pos": "top",
+   "text": {
+    "items": [
+     "a case manager",
+     "into housing",
+     "fresh pair of sheets"
+    ]
+   },
+   "cue": "Key words at 00:15, stacked in the top band as she says them: a case manager / into housing / fresh pair of sheets.",
+   "src": "Script, row 00:13–00:34, Motion graphics & type.",
+   "rows": [
+    "00:13–00:34"
+   ],
+   "use": "Start at 00:15 so each phrase lands as she says it. Top band. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "Number pop",
+   "tpl": "stat_counter",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "number": "830",
+    "label": "people are housed under CASS's roof"
+   },
+   "cue": "Number pop at 00:36 for 3 s, top band, as she says it: 830 / people are housed under CASS's roof.",
+   "src": "Script, row 00:34–00:51, Motion graphics & type.",
+   "rows": [
+    "00:34–00:51"
+   ],
+   "use": "Start at 00:36 so the number lands on <830>. Top band."
+  },
+  {
+   "n": 5,
+   "title": "Top text",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "Welcome to the family."
+   },
+   "cue": "Top text at 00:51 for 2.5 s, top band, as she says it: Welcome to the family.",
+   "src": "Script, row 00:51–00:56, Motion graphics & type.",
+   "rows": [
+    "00:51–00:56"
+   ],
+   "use": "Put it on at 00:51 as she says it. Top band. Keep captions on."
+  },
+  {
+   "n": 6,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:56–01:00"
+   ],
+   "dur": 4.0,
+   "cue": "End card: CASS logo, then the line For more information visit cassaz.org.",
+   "src": "No CASS end card or logo file is in the repo yet (endcards/index.json has no CASS entry, checked 3 Nov 2026), so CASS is typed. Line from the script's end card row (cassaz.org, the CASS end card line in the client file); colours from the CASS brand (navy #2C2B77, white).",
+   "c": {
+    "bg": "#2C2B77",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "CASS",
+    "lines": [
+     "For more information visit cassaz.org"
+    ]
+   },
+   "use": "After the last line at 00:56. Hold it to the end. Swap in the CASS logo once it is in the repo."
+  }
+ ]
+}

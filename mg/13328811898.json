@@ -1,0 +1,110 @@
+{
+ "item": "13328811898",
+ "client": "cass",
+ "note": "The script asks for the hook text, a number pop, one name super and two top text lines, so 5 graphics and the end card. Row 00:37–00:47 is captions only. The CASS logo file is not in endcards/ yet, so the end card types CASS until it is added.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "If a client had a case manager"
+   },
+   "cue": "Hook text on frame 1: If a client had a case manager Already on screen at 0:00. Does not animate on.",
+   "src": "Script, row 00:00–00:11, Motion graphics & type.",
+   "rows": [
+    "00:00–00:11"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third."
+  },
+  {
+   "n": 2,
+   "title": "Number pop",
+   "tpl": "stat_counter",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "number": "3×",
+    "label": "almost three times as likely"
+   },
+   "cue": "Number pop at 00:07 for 3 s, top band, as he says it: 3× / almost three times as likely.",
+   "src": "Script, row 00:00–00:11, Motion graphics & type.",
+   "rows": [
+    "00:00–00:11"
+   ],
+   "use": "Start at 00:07 so the number lands on <almost three times>. Top band, over the B-roll shot."
+  },
+  {
+   "n": 3,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Richard Southee, PhD"
+   },
+   "cue": "Name super at 00:12 for 3 s, lower left above the captions: Richard Southee, PhD / Director of Compliance and Continuous Improvement, CASS.",
+   "src": "Script, row 00:11–00:20, Motion graphics & type.",
+   "rows": [
+    "00:11–00:20"
+   ],
+   "use": "Put it on at 00:12 for 3 s. Move it lower left, above the captions. Type the second line Director of Compliance and Continuous Improvement, CASS under the name (Nick confirms the title)."
+  },
+  {
+   "n": 4,
+   "title": "Top text",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "all criticism is feedback and all feedback is good."
+   },
+   "cue": "Top text at 00:20 for 2.5 s, top band, as he says it: all criticism is feedback and all feedback is good.",
+   "src": "Script, row 00:20–00:28, Motion graphics & type.",
+   "rows": [
+    "00:20–00:28"
+   ],
+   "use": "Put it on at 00:20 as he says it. Top band. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "Top text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "more like a thousand solutions to homelessness"
+   },
+   "cue": "Top text at 00:30 for 3 s, top band, as he says it: more like a thousand solutions to homelessness.",
+   "src": "Script, row 00:28–00:37, Motion graphics & type.",
+   "rows": [
+    "00:28–00:37"
+   ],
+   "use": "Put it on at 00:30 as he says it, over the drone shot. Top band."
+  },
+  {
+   "n": 6,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:47–00:51"
+   ],
+   "dur": 4.0,
+   "cue": "End card: CASS logo, then the line For more information visit cassaz.org.",
+   "src": "No CASS end card or logo file is in the repo yet (endcards/index.json has no CASS entry, checked 3 Nov 2026), so CASS is typed. Line from the script's end card row (cassaz.org, the CASS end card line in the client file); colours from the CASS brand (navy #2C2B77, white).",
+   "c": {
+    "bg": "#2C2B77",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "CASS",
+    "lines": [
+     "For more information visit cassaz.org"
+    ]
+   },
+   "use": "After the last line at 00:47. Hold it to the end. Swap in the CASS logo once it is in the repo."
+  }
+ ]
+}

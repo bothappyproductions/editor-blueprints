@@ -8,13 +8,13 @@
  "editor": "Bleron",
  "due": "2026-11-09",
  "format": "9:16 only · 1080×1920",
- "length": "about 46 s",
+ "length": "about 52 s",
  "edit_key": "CASSBarbara001",
- "headline": "A Haven resident has to choose between food and medication, and wants people to know that everybody has a story.",
+ "headline": "A Haven resident has to choose between food and medication, and wants people to know that everybody has a story, and that there is help out there.",
  "story": [
   "Barbara has to have food, but she also has to have medication. Medication is more important, so she does without food.",
-  "People who have never been homeless don't understand: they're not all drug addicts. Many lost their homes to medical issues. Being homeless ages you; she turned gray.",
-  "Her message: take it day by day. Don't give up, because there is help out there."
+  "People who have never been homeless don't understand: everybody has a story. They are not all drug addicts; many lost their homes to medical issues. Being homeless ages you; she turned gray.",
+  "<b>Turn:</b> she has been blessed with this place helping her. <b>Button:</b> take it day by day. Don't give up, because there is help out there."
  ],
  "feel": [
   "Honest",
@@ -23,230 +23,940 @@
   "Warm"
  ],
  "do": [
-  "Open on the food-or-medication choice.",
-  "Let her say “everybody has a story” clean.",
-  "Use the side angle (C4902) to hide jump cuts.",
-  "End on “there is help out there.”",
-  "Keep it about 60 s."
+  "Open on the food-or-medication choice, with the question on screen at 0:00.",
+  "Let her say <q>everybody has a story</q> clean, on her face.",
+  "Use the side angle (C4902) to hide the joins.",
+  "Turn to hope on <q>I've been blessed with this place helping me</q>.",
+  "End on <q>there is help out there.</q>"
  ],
  "dont": [
-  "No trust-fund lines (02:01–02:07).",
-  "No “people have been after me” (03:18–03:25).",
-  "No logo at 0:00.",
+  "No trust-fund lines (01:58–02:10).",
+  "No <q>people have been after me</q> (03:18–03:26).",
+  "No logo before the end card.",
   "Nothing that pities her. Dignity first.",
-  "No second aspect ratio."
+  "No other resident's face clear in any B-roll."
  ],
  "links": {
   "brief": {
    "title": "CASS — Barbara (Haven Resident) Traditional — Editing Brief",
    "url": "https://docs.google.com/document/d/1r8VgVFdPOhawpkp2AzWzcBTL3EY54wVIwE-4lxL0QBA/edit",
-   "note": "Hook, middle and button ranges are set there; the exact words below come from the transcript."
+   "note": "Hook 00:32–00:43, middle 01:52–02:35 then 03:01–03:04, button 03:33–03:40. Every quote below is checked word for word against the transcript."
   },
   "reference": {
    "missing": true,
-   "title": "Existing CASS traditionals",
-   "note": "The brief says match CASSBrittnieNeighbors001. No other reference on the item."
+   "title": "Not chosen yet",
+   "note": "Nick owes it (Production Planning: reference requested 5 Oct). The brief says match the existing CASS traditionals (CASSBrittnieNeighbors001)."
   },
   "footage": {
-   "title": "CASS OCT 2026 › Interviews",
-   "url": "https://drive.google.com/drive/folders/1-HPTT2nPGbWU81ITExWk0Um92I_4ZXKj",
-   "note": "Two angles per person: front (20261013/14_C53xx) and side (C49xx)."
+   "title": "Barbara Client Interview",
+   "url": "https://drive.google.com/drive/folders/1lhM2rZ8yNYxpVmrY8YtWfSEAQXqLJBuF",
+   "note": "Front angle 20261014_C5390.MP4 (3:51) and side angle C4902.MP4 (4:14). B-roll: The Haven B Roll, where she lives."
   }
  },
- "bp_intro": "Barbara's interview: <span class=\"mono\">20261014_C5390.MP4</span> (front) and <span class=\"mono\">C4902.MP4</span> (side). Ranges are the brief's; times are mm:ss in C5390 from the transcript.",
+ "bp_intro": "All bites are from <span class=\"mono\">20261014_C5390.MP4</span> (front angle). Times are mm:ss.s in that clip, from the phrase times in the shoot's output.json split by word length, so trim each cut by ear. The side angle C4902.MP4 runs 18.8 s later. B-roll is from The Haven, picked from visual.json; no frames could be pulled this run.",
  "rows": [
   {
-   "tc": "00:00–00:11",
+   "tc": "00:00–00:10",
    "beat": "HOOK",
    "kind": "hook",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Barbara, front angle. Start on “I have to have food”.",
-   "motion": "Captions from 0:00. Super from 0:03: “Barbara · Resident, The Haven”.",
+   "visual": "Barbara, front angle, <a href=\"https://drive.google.com/file/d/1Yv9uQqkxm6ZGl1RR6fMfiu2g8OW7g1UJ/view\">20261014_C5390.MP4</a>, from <span class=\"mono\">00:33.8</span>. Start on <q>I have to have food</q> (cut <q>I mean,</q> before it). Cut the pause before <q>I do without food.</q> (about <span class=\"mono\">00:43.2</span>) on the side angle <a href=\"https://drive.google.com/file/d/1llMDsvFdqr8MAk3DPyrKYvudHzhQ1fLw/view\">C4902.MP4</a> at <span class=\"mono\">01:02.0</span>. Her face is the strongest picture: no B-roll.",
+   "motion": "Hook text on <b>frame 1</b>: <q>You had to choose between medicine and food?</q> Already on screen at 0:00. Does not animate on. Top third. It goes out at 00:03. Name super at 00:04 for 3 s, lower left above the captions: <q>Barbara</q> / Resident, The Haven. First name only. Captions start on frame 1.",
    "voice": {
     "who": "Barbara",
     "quote": "I have to have food, but I also have to have medication. Medication is more important. So I have to buy the medication. I do without food.",
-    "src": "C5390 00:33–00:43"
+    "src": "20261014_C5390.MP4 00:33.8 to 00:43.7"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Gentle bed on frame 1."
+   "music": "Gentle, warm bed starts low on frame 1. No lyrics.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I have to have food"
+    },
+    {
+     "face": true,
+     "angle": "side",
+     "clip": "C4902.MP4",
+     "at": 62.0,
+     "from_word": "I do without food"
+    }
+   ]
   },
   {
-   "tc": "00:11–00:14",
+   "tc": "00:10–00:14",
    "beat": "EVERYBODY HAS A STORY",
    "kind": "turn",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Front angle.",
-   "motion": "Captions only.",
+   "visual": "Front angle from <span class=\"mono\">01:52.2</span>. Let her say it clean on her face.",
+   "motion": "Top text at 00:12 for 2 s, top band, as she says it: <q>Everybody has a story.</q> Captions on.",
    "voice": {
     "who": "Barbara",
-    "quote": "everybody has a story.",
-    "src": "C5390 01:52–01:57"
+    "quote": "What people don't understand that have never been homeless is that everybody has a story.",
+    "src": "20261014_C5390.MP4 01:52.2 to 01:55.6"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Hopeful bed under the voice."
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "What people don't understand"
+    }
+   ]
   },
   {
-   "tc": "00:14–00:24",
+   "tc": "00:14–00:25",
    "beat": "NOT ALL DRUG ADDICTS",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Side angle (C4902). Skip 02:01–02:07 (trust fund).",
-   "motion": "Captions only.",
+   "visual": "Side angle <a href=\"https://drive.google.com/file/d/1llMDsvFdqr8MAk3DPyrKYvudHzhQ1fLw/view\">C4902.MP4</a> at <span class=\"mono\">02:29.3</span> for <q>I just wish people would get it out there more</q> (skip the trust-fund lines before it). On <q>They're here for other reasons.</q> cut to <a href=\"https://drive.google.com/file/d/1P29y6xC-O69MLrSTmnSg8OLMggPrnlWy/view\">20261014_C5415.MP4</a> from <span class=\"mono\">00:04.0</span> for 2.5 s (a Haven building with a big hummingbird mural, a car in front). Front angle for <q>They lost their home, medical issues, different stories.</q>",
+   "motion": "Key words at 00:21, stacked in the top band as she says them: <q>They lost their home</q> / <q>medical issues</q> / <q>different stories</q>. Captions on.",
    "voice": {
     "who": "Barbara",
     "quote": "I just wish people would get it out there more about homeless people, that they're not all drug addicts. They're here for other reasons. They lost their home, medical issues, different stories.",
-    "src": "C5390 02:10–02:21"
+    "src": "20261014_C5390.MP4 02:10.5 to 02:21.1"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Hopeful bed under the voice."
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "angle": "side",
+     "clip": "C4902.MP4",
+     "at": 149.3,
+     "from_word": "I just wish people"
+    },
+    {
+     "clip": "20261014_C5415.MP4",
+     "at": 4.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "CASS OCT 2026/The Haven B Roll/20261014_C5415.MP4",
+     "drive": "1P29y6xC-O69MLrSTmnSg8OLMggPrnlWy",
+     "layout": "full",
+     "what": "Haven building with a hummingbird mural"
+    },
+    {
+     "face": true,
+     "from_word": "They lost their home"
+    }
+   ]
   },
   {
-   "tc": "00:24–00:31",
+   "tc": "00:25–00:30",
    "beat": "MEDICAL ISSUES",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Front angle.",
+   "visual": "Front angle from <span class=\"mono\">02:30.8</span>. On <q>pushed them out of their apartments and their homes</q> cut to <a href=\"https://drive.google.com/file/d/1N39eCZaLHv30JHz5xXvZfZOOgfXBrxqG/view\">20261014_C5411.MP4</a> from <span class=\"mono\">00:04.0</span> for 2.5 s (a three-storey Haven building with balconies and purple doors).",
    "motion": "Captions only.",
    "voice": {
     "who": "Barbara",
     "quote": "A lot of people here have medical issues, and it's caused them, pushed them out of their apartments and their homes.",
-    "src": "C5390 02:30–02:35"
+    "src": "20261014_C5390.MP4 02:30.8 to 02:36.0"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Hopeful bed under the voice."
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "A lot of people here"
+    },
+    {
+     "clip": "20261014_C5411.MP4",
+     "at": 4.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "CASS OCT 2026/The Haven B Roll/20261014_C5411.MP4",
+     "drive": "1N39eCZaLHv30JHz5xXvZfZOOgfXBrxqG",
+     "layout": "full",
+     "what": "three-storey Haven building with balconies"
+    }
+   ]
   },
   {
-   "tc": "00:31–00:35",
+   "tc": "00:30–00:34",
    "beat": "IT AGES YOU",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Front angle, punch in a little.",
+   "visual": "Front angle from <span class=\"mono\">03:01.8</span>, punched in a little. Her face carries this: no B-roll.",
    "motion": "Captions only.",
    "voice": {
     "who": "Barbara",
     "quote": "It ages you too. I turned gray being homeless.",
-    "src": "C5390 03:01–03:05"
+    "src": "20261014_C5390.MP4 03:01.8 to 03:05.4"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Hopeful bed under the voice."
+   "music": "Bed under the voice. No sad turn.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "It ages you too"
+    }
+   ]
   },
   {
-   "tc": "00:35–00:43",
+   "tc": "00:34–00:41",
+   "beat": "THIS PLACE HELPING ME",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Side angle <a href=\"https://drive.google.com/file/d/1llMDsvFdqr8MAk3DPyrKYvudHzhQ1fLw/view\">C4902.MP4</a> at <span class=\"mono\">03:03.8</span> for <q>Once you're in the system</q>. On <q>which I've been blessed with this place helping me</q> cut to <a href=\"https://drive.google.com/file/d/1F765AEfxgL1GVMlWoN5f5LLKYBRivItM/view\">20261014_C5433.MP4</a> from <span class=\"mono\">00:00.5</span> for 2 s (a Haven building with HAVEN painted on it, parked cars in front), then her face, front angle.",
+   "motion": "Top text at 00:38 for 2.5 s, top band, as she says it: <q>I've been blessed with this place helping me</q>. Captions on.",
+   "voice": {
+    "who": "Barbara",
+    "quote": "Once you're in the system, it's hard to get out of if you don't have the help out there, which I've been blessed with this place helping me.",
+    "src": "20261014_C5390.MP4 02:45.0 to 02:51.8"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Small lift.",
+   "shots": [
+    {
+     "face": true,
+     "angle": "side",
+     "clip": "C4902.MP4",
+     "at": 183.8,
+     "from_word": "Once you're in the system"
+    },
+    {
+     "clip": "20261014_C5433.MP4",
+     "at": 0.5,
+     "dur": 2.0,
+     "cx": 0.5,
+     "path": "CASS OCT 2026/The Haven B Roll/20261014_C5433.MP4",
+     "drive": "1F765AEfxgL1GVMlWoN5f5LLKYBRivItM",
+     "layout": "full",
+     "what": "HAVEN painted on the building"
+    },
+    {
+     "face": true,
+     "from_word": "helping me"
+    }
+   ]
+  },
+  {
+   "tc": "00:41–00:48",
    "beat": "BUTTON",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Front angle. Hold on her face after “out there”.",
-   "motion": "Captions only.",
+   "visual": "Front angle from <span class=\"mono\">03:33.5</span>. Hold on her face after <q>there is help out there.</q> 1 s on live picture (no freeze frame).",
+   "motion": "Top text at 00:44 for 3 s, top band, as she says it: <q>Don't give up because there is help out there.</q> Captions on.",
    "voice": {
     "who": "Barbara",
-    "quote": "Take day by day. Don't give up because there is help out there.",
-    "src": "C5390 03:35–03:40"
+    "quote": "I just say, hang in there. Take day by day. Don't give up because there is help out there.",
+    "src": "20261014_C5390.MP4 03:33.5 to 03:39.8"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Lift, then resolve."
+   "music": "Lift, then resolve.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I just say, hang in there"
+    }
+   ]
   },
   {
-   "tc": "00:43–00:46",
+   "tc": "00:48–00:52",
    "beat": "END CARD",
    "kind": "end",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "CASS logo end card.",
-   "motion": "cassaz.org.",
+   "visual": "CASS end card on the navy <span class=\"mono\">#2C2B77</span> background. The logo is here only.",
+   "motion": "End card: CASS logo, then the line <q>For more information visit cassaz.org</q>. Big enough to read.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Resolve."
+   "music": "Music out, 1 s fade.",
+   "shots": []
   }
  ],
  "frames": {},
  "files": [
   [
    "Editing brief",
-   "<a href=\"https://docs.google.com/document/d/1r8VgVFdPOhawpkp2AzWzcBTL3EY54wVIwE-4lxL0QBA/edit\">CASS — Barbara (Haven Resident) Traditional — Editing Brief</a> (Google Doc). This page is built from it."
+   "<a href=\"https://docs.google.com/document/d/1r8VgVFdPOhawpkp2AzWzcBTL3EY54wVIwE-4lxL0QBA/edit\">CASS — Barbara (Haven Resident) Traditional — Editing Brief</a> (Google Doc)."
+  ],
+  [
+   "Footage folder",
+   "<a href=\"https://drive.google.com/drive/folders/1-HPTT2nPGbWU81ITExWk0Um92I_4ZXKj\">CASS OCT 2026</a> · <a href=\"https://drive.google.com/drive/folders/1vPO0HJINzW21JGJv5uwSTU7CICrPVKIo\">Interviews</a> · <a href=\"https://drive.google.com/drive/folders/1lhM2rZ8yNYxpVmrY8YtWfSEAQXqLJBuF\">Barbara Client Interview</a> · <a href=\"https://drive.google.com/drive/folders/1iF58ek9-YgW_DjdwvcUvMmXgXgiF51Vf\">The Haven B Roll</a>"
+  ],
+  [
+   "Interview clips",
+   "<a href=\"https://drive.google.com/file/d/1Yv9uQqkxm6ZGl1RR6fMfiu2g8OW7g1UJ/view\">20261014_C5390.MP4</a> (front, 3:51) · <a href=\"https://drive.google.com/file/d/1llMDsvFdqr8MAk3DPyrKYvudHzhQ1fLw/view\">C4902.MP4</a> (side, 4:14)"
+  ],
+  [
+   "B-roll picks",
+   "<a href=\"https://drive.google.com/file/d/1P29y6xC-O69MLrSTmnSg8OLMggPrnlWy/view\">20261014_C5415.MP4</a> · <a href=\"https://drive.google.com/file/d/1N39eCZaLHv30JHz5xXvZfZOOgfXBrxqG/view\">20261014_C5411.MP4</a> · <a href=\"https://drive.google.com/file/d/1F765AEfxgL1GVMlWoN5f5LLKYBRivItM/view\">20261014_C5433.MP4</a>"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1o8aGAn5XRulGp7ZVI6_v0nQF-5pmAOf8Mf0rMMTLm9k/edit\">Transcripts - Interviews</a> (Google Doc) · <a href=\"https://drive.google.com/file/d/1F0QpMep4JDngjiXBso6DyrSxizlpsUvN/view\">output.json</a> · <a href=\"https://drive.google.com/file/d/1y5FVir7xDb2GbrYgmVB_9G38CDznMvfP/view\">CASS OCT 2026.srt</a>"
+  ],
+  [
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/1yFn3puM_45DRlc1dVsiJ6GAqeHeTDtBZ/view\">visual.json</a> (CASS OCT 2026). Picks are from it; check on scrub."
   ],
   [
    "Reference",
    "Match the existing CASS traditionals (CASSBrittnieNeighbors001, Monday 13252339711 / 13252336435)."
   ],
   [
-   "Shoot folder",
-   "<a href=\"https://drive.google.com/drive/folders/1-HPTT2nPGbWU81ITExWk0Um92I_4ZXKj\">CASS OCT 2026</a> › Interviews"
+   "Brand graphics package",
+   "CASS has no graphics package folder yet. Use the Motion graphics tab of this page (CASS colours, Work Sans)."
   ],
   [
-   "Clips",
-   "<a href=\"https://drive.google.com/file/d/1Yv9uQqkxm6ZGl1RR6fMfiu2g8OW7g1UJ/view\">20261014_C5390.MP4</a> (front) · <a href=\"https://drive.google.com/file/d/1llMDsvFdqr8MAk3DPyrKYvudHzhQ1fLw/view\">C4902.MP4</a> (side)"
-  ],
-  [
-   "Transcript",
-   "<a href=\"https://docs.google.com/document/d/1o8aGAn5XRulGp7ZVI6_v0nQF-5pmAOf8Mf0rMMTLm9k/edit\">Transcripts - Interviews</a> (CASS OCT 2026 › Interviews › EditingResources)"
+   "Brand",
+   "Work Sans (captions and type). CASS navy <span class=\"mono\">#2C2B77</span>, green <span class=\"mono\">#26B485</span>, blue <span class=\"mono\">#006C9F</span>, purple <span class=\"mono\">#7E3F98</span>, light <span class=\"mono\">#EEEEF1</span>. CASS always in capitals."
   ],
   [
    "Music",
-   "Hopeful, warm, licensed. Never somber."
+   "Light, hopeful, warm, licensed, no lyrics. Never somber."
   ]
  ],
  "tech": [
   [
    "Source",
-   "Two angles per interview: the 20261013/14_C53xx file (front) and the C49xx file (side). Probe frame size and rate on import; they are not listed on the item."
+   "<span class=\"mono\">20261014_C5390.MP4</span> (front): 1920×1080 at 59.94 fps. <span class=\"mono\">C4902.MP4</span> (side): 1920×1080 at 23.976 fps (visual.json; check on import). Haven B-roll 1920×1080 at 59.94 fps."
+  ],
+  [
+   "Side angle sync",
+   "A time in C5390 plus 18.8 s is the same moment in C4902.MP4 (matched on the two transcripts). Sync the angles by audio and use the side angle to hide every join."
   ],
   [
    "Timeline",
-   "1080×1920. Conform both angles to one rate."
+   "1080×1920 at <b>23.976 fps</b>, like the other CASS traditionals. Conform the 59.94 fps clips."
   ],
   [
    "Crop",
-   "16:9 to 9:16 on the speaker. Use the side angle to hide jump cuts."
+   "16:9 to 9:16 centred on the speaker. Check every crop by eye: no frames could be pulled this run."
   ],
   [
    "Audio",
-   "Recorded into the camera. Check both angles' channels on the first bite and use the cleanest."
+   "Recorded into the cameras. Check both channels on both angles on the first bite and use the cleanest one. 2-frame crossfades at every join."
   ],
   [
    "Loudness",
-   "−14 LUFS integrated, −1 dBTP peak. Music well under the voice."
+   "−14 LUFS integrated, −1 dBTP peak. Music at least 12 dB under the voice."
+  ],
+  [
+   "Pauses",
+   "Pauses over 0.7 s inside a bite are cut to about 0.25 s. Cover each cut with the side angle or B-roll."
   ],
   [
    "Captions",
-   "White text on the CASS navy <span class=\"mono\">#2C2B77</span> box. Work Sans. Max 2 lines."
+   "Burned in. White Work Sans on the CASS navy <span class=\"mono\">#2C2B77</span> box, max 2 lines, low in the frame. Never under the name super. CASS in capitals."
   ],
   [
    "Export",
-   "H.264 MP4, 1080×1920. One file, 9:16 only."
+   "H.264 MP4, 1080×1920, 9:16 only. Upload to Frame.io with the file name at the top of this page, then Ready for Review."
   ]
  ],
  "checklist": [
-  "Open on the hook at 0:00. Logo only on the end card.",
-  "CASS in capitals. “Central Arizona Shelter Services” spelled out on first use if it appears in text.",
-  "Captions: white on navy #2C2B77, Work Sans.",
-  "End card: CASS logo with cassaz.org.",
-  "Hopeful, never somber.",
-  "Residents are filmed from behind unless they signed a release. Check before any resident B-roll.",
-  "Match the look of the existing CASS traditionals (CASSBrittnieNeighbors001).",
-  "No trust-fund lines and no “people have been after me”."
+  "Frame 1 is Barbara talking with the question already on screen. No logo, name or fade.",
+  "Name super from 00:04: Barbara / Resident, The Haven. First name only.",
+  "No trust-fund lines and no <q>people have been after me</q>.",
+  "The story turns to hope on <q>this place helping me</q> before the button.",
+  "Only Haven B-roll, no other resident's face in it.",
+  "Captions say CASS in capitals, white on the navy box.",
+  "End card: CASS with <q>For more information visit cassaz.org</q>.",
+  "The file is 9:16 only."
  ],
- "decisions": [],
- "client_note": "<b>Why this matters:</b> CASS wants hopeful, human stories about who is really experiencing homelessness in Maricopa County. Zsirai's direction changes: check the newest note on the item before cutting.",
- "ask_examples": [],
- "transcript": "Machine transcript from “Transcripts - Interviews” (CASS OCT 2026 › Interviews › EditingResources). Times are mm:ss from the first frame of each file. Speaker tags are often wrong; the interviewer is off camera.\n\n== 20261014_C5390.MP4 (Barbara) ==\n[00:00] White lens, no.\n[00:01] All right, it's all right, we're good to go.\n[00:03] OK.\n[00:05] And you can just look right in here when you answer.\n[00:07] And I'll be here, too.\n[00:08] OK, I'll just make eye contact with you, no?\n[00:11] Yeah, that works.\n[00:13] OK, Barbara, we recently shared your story\n[00:15] about difficult choices you face between food assistance,\n[00:19] Medicaid, and getting the medication you needed.\n[00:21] I want to talk a little more about that experience.\n[00:24] Can you take us back to that moment, what\n[00:27] was going through your head when you realized\n[00:28] you had to choose between medicine and food?\n[00:32] Very difficult situation.\n[00:33] I mean, I have to have food, but I also have to have medication.\n[00:37] Medication is more important.\n[00:39] So I have to buy the medication.\n[00:43] I do without food.\n[00:45] I actually go to the food banks, too, occasionally.\n[00:49] And do you have transportation?\n[00:51] Can you talk about how difficult that may be when\n[00:53] you don't have transportation?\n[00:55] I have no transportation.\n[00:57] It's hard for me to walk because I have stomach issues.\n[01:00] So yeah, I pay for an Uber or Lyft, occasionally.\n[01:06] But that also gets expensive, so I really\n[01:08] have no transportation.\n[01:11] How did having to choose between basic necessities\n[01:15] affect your health and your everyday life?\n[01:18] Oh, yeah, basic necessities are like shampoo, conditioner,\n[01:21] that.\n[01:21] You don't want to go out.\n[01:22] You don't want to do anything because you\n[01:24] feel like you are feeling up to par or like you fit in.\n[01:28] So basic necessities are very important.\n[01:32] What do you wish people understood\n[01:34] about the difficult decisions people experiencing homelessness\n[01:37] have to make just to survive?\n[01:40] OK, can you repeat that one more time?\n[01:42] I'm sorry.\n[01:42] What do you wish people understood\n[01:45] about the difficult decisions people experiencing homelessness\n[01:49] have to make just to survive?\n[01:52] What people don't understand that have never been homeless\n[01:54] is that everybody has a story.\n[01:57] Mine have been, I'm a little bit different, but I do have people.\n[02:01] I have a trust fund.\n[02:04] But the people that are doing my trust fund won't help me.\n[02:07] So the homelessness that they could care less about,\n[02:10] I just wish people would get it out there more\n[02:12] about homeless people, that they're not all drug addicts.\n[02:14] They're here for other reasons.\n[02:17] They lost their home, medical issues, different stories.\n[02:21] And that's what people need to hear is the true stories,\n[02:24] not that they're drug addicts or they\n[02:27] choose to be on the streets.\n[02:28] Because there's a lot of us here.\n[02:30] A lot of people here have medical issues,\n[02:33] and it's caused them, pushed them out of their apartments\n[02:35] and their homes.\n[02:37] If you could speak directly to someone\n[02:38] facing the same choices today, what\n[02:41] would you want them to know?\n[02:43] It's a rough life.\n[02:44] Once you're in the system, it's hard to get out\n[02:46] of if you don't have the help out there, which\n[02:49] I've been blessed with this place helping me.\n[02:52] But I still feel like I'm stuck.\n[02:55] It's hard to get out of it.\n[02:56] So avoid trying to become homeless\n[02:59] because it's a rough life.\n[03:01] It ages you too.\n[03:04] I turned gray being homeless.\n[03:06] But it's just not easy life.\n[03:11] And maybe if you're comfortable sharing,\n[03:12] what is the hardest part about your experience\n[03:14] that you may rarely talk about?\n[03:18] That's a hard one because I've been through a lot of stuff\n[03:20] and I feel like people have been after me.\n[03:25] Long story, I don't want to get into it.\n[03:27] But I've also met a lot of nice people\n[03:30] that have helped me along the way too.\n[03:33] I just say, hang in there.\n[03:35] Take day by day.\n[03:37] Don't give up because there is help out there.\n[03:40] And your life will come together again if you're patient.\n[03:44] Thank you for sharing.\n[03:47] Did you OK?\n[03:48] I mean.\n[03:48] Yeah, you did awesome.\n[03:49] Those were really great answers."
+ "decisions": [
+  {
+   "t": "One added line",
+   "b": "The brief's bites go from <q>I turned gray being homeless</q> straight to the button. This plan adds her line <q>which I've been blessed with this place helping me</q> (02:45) before the button so the story lands hopeful (all-clients rule). Nick can drop the THIS PLACE HELPING ME row: the cut is then about 45 s."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> CASS wants real residents telling their own story with dignity, landing on the next step. Barbara's food-or-medication choice is the kind of truth donors remember.",
+ "ask_examples": [
+  "Which lines must stay out?",
+  "Why is the question on screen at 0:00?",
+  "Can I show other residents in the B-roll?",
+  "Can I write her last name?"
+ ],
+ "transcript": "Machine transcript of Barbara's interview (output.json segments, CASS OCT 2026). Times are mm:ss.s in the front-angle clip. The interviewer's questions are in the same file. The side angle C4902.MP4 is the same talk 18.8 s later.\n--- 20261014_C5390.MP4 ---\n[00:00.0] White lens, no. [do not use: crew talk]\n[00:01.6] All right, it's all right, we're good to go. [do not use: crew talk]\n[00:03.6] OK. [do not use: crew talk]\n[00:05.4] And you can just look right in here when you answer. [do not use: crew talk]\n[00:07.7] And I'll be here, too. [do not use: crew talk]\n[00:08.6] OK, I'll just make eye contact with you, no? [do not use: crew talk]\n[00:11.2] Yeah, that works. [do not use: crew talk]\n[00:13.2] OK, Barbara, we recently shared your story\n[00:15.4] about difficult choices you face between food assistance,\n[00:19.2] Medicaid, and getting the medication you needed.\n[00:21.8] I want to talk a little more about that experience.\n[00:24.9] Can you take us back to that moment, what\n[00:27.1] was going through your head when you realized\n[00:28.9] you had to choose between medicine and food?\n[00:32.2] Very difficult situation.\n[00:33.4] I mean, I have to have food, but I also have to have medication.\n[00:37.3] Medication is more important.\n[00:39.2] So I have to buy the medication.\n[00:43.2] I do without food.\n[00:45.1] I actually go to the food banks, too, occasionally.\n[00:49.4] And do you have transportation?\n[00:51.4] Can you talk about how difficult that may be when\n[00:53.7] you don't have transportation?\n[00:55.4] I have no transportation.\n[00:57.7] It's hard for me to walk because I have stomach issues.\n[01:00.6] (line left out: not for this video)\n[01:06.4] (line left out: not for this video)\n[01:08.6] have no transportation. [do not use: not for this video]\n[01:11.6] How did having to choose between basic necessities\n[01:15.9] affect your health and your everyday life?\n[01:18.8] Oh, yeah, basic necessities are like shampoo, conditioner,\n[01:21.3] that.\n[01:21.9] You don't want to go out.\n[01:22.7] You don't want to do anything because you\n[01:24.7] feel like you are feeling up to par or like you fit in.\n[01:28.9] So basic necessities are very important.\n[01:32.6] What do you wish people understood\n[01:34.1] about the difficult decisions people experiencing homelessness\n[01:37.8] have to make just to survive?\n[01:40.5] OK, can you repeat that one more time?\n[01:42.0] I'm sorry.\n[01:42.6] What do you wish people understood\n[01:45.6] about the difficult decisions people experiencing homelessness\n[01:49.5] have to make just to survive?\n[01:52.2] What people don't understand that have never been homeless\n[01:54.3] is that everybody has a story.\n[01:58.0] Mine have been, I'm a little bit different, but I do have people. [do not use: trust-fund lines (brief)]\n[02:02.0] (line left out: not for this video)\n[02:04.9] (line left out: not for this video)\n[02:07.3] So the homelessness that they could care less about, [do not use: trust-fund lines (brief)]\n[02:10.5] I just wish people would get it out there more\n[02:12.3] about homeless people, that they're not all drug addicts.\n[02:14.9] They're here for other reasons.\n[02:17.5] They lost their home, medical issues, different stories.\n[02:21.4] And that's what people need to hear is the true stories,\n[02:24.8] not that they're drug addicts or they\n[02:27.4] choose to be on the streets.\n[02:28.6] Because there's a lot of us here.\n[02:30.8] A lot of people here have medical issues,\n[02:33.1] and it's caused them, pushed them out of their apartments\n[02:35.7] and their homes.\n[02:37.1] If you could speak directly to someone\n[02:38.8] facing the same choices today, what\n[02:41.3] would you want them to know?\n[02:43.6] It's a rough life.\n[02:45.0] Once you're in the system, it's hard to get out\n[02:47.0] of if you don't have the help out there, which\n[02:49.1] I've been blessed with this place helping me.\n[02:52.4] But I still feel like I'm stuck.\n[02:55.7] It's hard to get out of it.\n[02:56.8] So avoid trying to become homeless\n[02:59.1] because it's a rough life.\n[03:01.8] It ages you too.\n[03:04.1] I turned gray being homeless.\n[03:06.6] But it's just not easy life.\n[03:11.2] And maybe if you're comfortable sharing,\n[03:13.0] what is the hardest part about your experience\n[03:14.8] that you may rarely talk about?\n[03:18.3] That's a hard one because I've been through a lot of stuff [do not use (brief)]\n[03:20.4] and I feel like people have been after me. [do not use (brief)]\n[03:25.6] Long story, I don't want to get into it. [do not use (brief)]\n[03:27.6] But I've also met a lot of nice people\n[03:30.1] that have helped me along the way too.\n[03:33.5] I just say, hang in there.\n[03:35.8] Take day by day.\n[03:37.8] Don't give up because there is help out there.\n[03:40.8] And your life will come together again if you're patient.\n[03:44.9] Thank you for sharing. [do not use: crew talk]\n[03:47.5] Did you OK? [do not use: crew talk]\n[03:48.1] I mean. [do not use: crew talk]\n[03:48.6] Yeah, you did awesome. [do not use: crew talk]\n[03:49.6] Those were really great answers. [do not use: crew talk]",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "What people don't understand that have never been homeless is that everybody has a story.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Everybody has a story."
+   },
+   {
+    "quote": "I just wish people would get it out there more about homeless people, that they're not all drug addicts.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Not all drug addicts."
+   },
+   {
+    "quote": "They lost their home, medical issues, different stories.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Different stories."
+   },
+   {
+    "quote": "And that's what people need to hear is the true stories, not that they're drug addicts or they choose to be on the streets.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "The true stories."
+   },
+   {
+    "quote": "A lot of people here have medical issues, and it's caused them, pushed them out of their apartments and their homes.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Medical issues."
+   },
+   {
+    "quote": "which I've been blessed with this place helping me.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "This place helps her."
+   },
+   {
+    "quote": "It ages you too. I turned gray being homeless.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "It ages you."
+   },
+   {
+    "quote": "But I've also met a lot of nice people that have helped me along the way too.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Nice people along the way."
+   },
+   {
+    "quote": "I just say, hang in there. Take day by day. Don't give up because there is help out there.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Don't give up."
+   },
+   {
+    "quote": "And your life will come together again if you're patient.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Life comes together again."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "I have to have food, but I also have to have medication. Medication is more important. So I have to buy the medication. I do without food.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "The hard choice."
+   },
+   {
+    "quote": "I just wish people would get it out there more about homeless people, that they're not all drug addicts.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Not all drug addicts."
+   },
+   {
+    "quote": "They lost their home, medical issues, different stories.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Different stories."
+   },
+   {
+    "quote": "And that's what people need to hear is the true stories, not that they're drug addicts or they choose to be on the streets.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "The true stories."
+   },
+   {
+    "quote": "A lot of people here have medical issues, and it's caused them, pushed them out of their apartments and their homes.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Medical issues."
+   },
+   {
+    "quote": "which I've been blessed with this place helping me.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "This place helps her."
+   },
+   {
+    "quote": "It ages you too. I turned gray being homeless.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "It ages you."
+   },
+   {
+    "quote": "But I've also met a lot of nice people that have helped me along the way too.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Nice people along the way."
+   },
+   {
+    "quote": "I just say, hang in there. Take day by day. Don't give up because there is help out there.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Don't give up."
+   },
+   {
+    "quote": "And your life will come together again if you're patient.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Life comes together again."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "I have to have food, but I also have to have medication. Medication is more important. So I have to buy the medication. I do without food.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "The hard choice."
+   },
+   {
+    "quote": "What people don't understand that have never been homeless is that everybody has a story.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Everybody has a story."
+   },
+   {
+    "quote": "They lost their home, medical issues, different stories.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Different stories."
+   },
+   {
+    "quote": "And that's what people need to hear is the true stories, not that they're drug addicts or they choose to be on the streets.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "The true stories."
+   },
+   {
+    "quote": "A lot of people here have medical issues, and it's caused them, pushed them out of their apartments and their homes.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Medical issues."
+   },
+   {
+    "quote": "which I've been blessed with this place helping me.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "This place helps her."
+   },
+   {
+    "quote": "It ages you too. I turned gray being homeless.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "It ages you."
+   },
+   {
+    "quote": "But I've also met a lot of nice people that have helped me along the way too.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Nice people along the way."
+   },
+   {
+    "quote": "I just say, hang in there. Take day by day. Don't give up because there is help out there.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Don't give up."
+   },
+   {
+    "quote": "And your life will come together again if you're patient.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Life comes together again."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "I have to have food, but I also have to have medication. Medication is more important. So I have to buy the medication. I do without food.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "The hard choice."
+   },
+   {
+    "quote": "What people don't understand that have never been homeless is that everybody has a story.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Everybody has a story."
+   },
+   {
+    "quote": "I just wish people would get it out there more about homeless people, that they're not all drug addicts.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Not all drug addicts."
+   },
+   {
+    "quote": "They lost their home, medical issues, different stories.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Different stories."
+   },
+   {
+    "quote": "And that's what people need to hear is the true stories, not that they're drug addicts or they choose to be on the streets.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "The true stories."
+   },
+   {
+    "quote": "which I've been blessed with this place helping me.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "This place helps her."
+   },
+   {
+    "quote": "It ages you too. I turned gray being homeless.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "It ages you."
+   },
+   {
+    "quote": "But I've also met a lot of nice people that have helped me along the way too.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Nice people along the way."
+   },
+   {
+    "quote": "I just say, hang in there. Take day by day. Don't give up because there is help out there.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Don't give up."
+   },
+   {
+    "quote": "And your life will come together again if you're patient.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Life comes together again."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "I have to have food, but I also have to have medication. Medication is more important. So I have to buy the medication. I do without food.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "The hard choice."
+   },
+   {
+    "quote": "What people don't understand that have never been homeless is that everybody has a story.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Everybody has a story."
+   },
+   {
+    "quote": "I just wish people would get it out there more about homeless people, that they're not all drug addicts.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Not all drug addicts."
+   },
+   {
+    "quote": "They lost their home, medical issues, different stories.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Different stories."
+   },
+   {
+    "quote": "And that's what people need to hear is the true stories, not that they're drug addicts or they choose to be on the streets.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "The true stories."
+   },
+   {
+    "quote": "A lot of people here have medical issues, and it's caused them, pushed them out of their apartments and their homes.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Medical issues."
+   },
+   {
+    "quote": "which I've been blessed with this place helping me.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "This place helps her."
+   },
+   {
+    "quote": "But I've also met a lot of nice people that have helped me along the way too.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Nice people along the way."
+   },
+   {
+    "quote": "I just say, hang in there. Take day by day. Don't give up because there is help out there.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Don't give up."
+   },
+   {
+    "quote": "And your life will come together again if you're patient.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Life comes together again."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "I have to have food, but I also have to have medication. Medication is more important. So I have to buy the medication. I do without food.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "The hard choice."
+   },
+   {
+    "quote": "What people don't understand that have never been homeless is that everybody has a story.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Everybody has a story."
+   },
+   {
+    "quote": "I just wish people would get it out there more about homeless people, that they're not all drug addicts.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Not all drug addicts."
+   },
+   {
+    "quote": "They lost their home, medical issues, different stories.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Different stories."
+   },
+   {
+    "quote": "And that's what people need to hear is the true stories, not that they're drug addicts or they choose to be on the streets.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "The true stories."
+   },
+   {
+    "quote": "A lot of people here have medical issues, and it's caused them, pushed them out of their apartments and their homes.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Medical issues."
+   },
+   {
+    "quote": "which I've been blessed with this place helping me.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "This place helps her."
+   },
+   {
+    "quote": "It ages you too. I turned gray being homeless.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "It ages you."
+   },
+   {
+    "quote": "But I've also met a lot of nice people that have helped me along the way too.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Nice people along the way."
+   },
+   {
+    "quote": "I just say, hang in there. Take day by day. Don't give up because there is help out there.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Don't give up."
+   }
+  ],
+  "bite:6": [
+   {
+    "quote": "I have to have food, but I also have to have medication. Medication is more important. So I have to buy the medication. I do without food.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "The hard choice."
+   },
+   {
+    "quote": "What people don't understand that have never been homeless is that everybody has a story.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Everybody has a story."
+   },
+   {
+    "quote": "I just wish people would get it out there more about homeless people, that they're not all drug addicts.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Not all drug addicts."
+   },
+   {
+    "quote": "They lost their home, medical issues, different stories.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Different stories."
+   },
+   {
+    "quote": "And that's what people need to hear is the true stories, not that they're drug addicts or they choose to be on the streets.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "The true stories."
+   },
+   {
+    "quote": "A lot of people here have medical issues, and it's caused them, pushed them out of their apartments and their homes.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Medical issues."
+   },
+   {
+    "quote": "which I've been blessed with this place helping me.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "This place helps her."
+   },
+   {
+    "quote": "It ages you too. I turned gray being homeless.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "It ages you."
+   },
+   {
+    "quote": "But I've also met a lot of nice people that have helped me along the way too.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Nice people along the way."
+   },
+   {
+    "quote": "And your life will come together again if you're patient.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Life comes together again."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "Everybody has a story.",
+    "line": "What people don't understand that have never been homeless is that everybody has a story.",
+    "why": "The title line."
+   },
+   {
+    "text": "Medication is more important.",
+    "line": "I have to have food, but I also have to have medication. Medication is more important. So I have to buy the medication. I do without food.",
+    "why": "Her choice, in her words."
+   },
+   {
+    "text": "They're not all drug addicts.",
+    "line": "I just wish people would get it out there more about homeless people, that they're not all drug addicts.",
+    "why": "Breaks the myth first."
+   },
+   {
+    "text": "There is help out there.",
+    "line": "I just say, hang in there. Take day by day. Don't give up because there is help out there.",
+    "why": "Hope first."
+   },
+   {
+    "text": "Your life will come together again.",
+    "line": "And your life will come together again if you're patient.",
+    "why": "Hope first, her promise."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "CASS runs a fuller package (client file). Here: the question as hook text, a name super, one top line, a key-words stack, two more top lines, Haven building B-roll (no resident faces), the side angle on the joins, logo only on the end card.",
+  "devices": [
+   {
+    "row": "00:00–00:10",
+    "device": "Question as hook text, name super, side angle",
+    "asset": "highlight_callout, tag_label; C4902",
+    "source": "Script; interview side angle"
+   },
+   {
+    "row": "00:10–00:14",
+    "device": "Top text on her face",
+    "asset": "highlight_callout",
+    "source": "Script"
+   },
+   {
+    "row": "00:14–00:25",
+    "device": "Key words stack, side angle, 1 B-roll shot",
+    "asset": "word_stack; C4902; 20261014_C5415 00:04",
+    "source": "Script; The Haven B Roll"
+   },
+   {
+    "row": "00:25–00:30",
+    "device": "B-roll on the homes line",
+    "asset": "20261014_C5411 00:04",
+    "source": "The Haven B Roll"
+   },
+   {
+    "row": "00:30–00:34",
+    "device": "Her face, punched in",
+    "asset": "C5390",
+    "source": "Interview"
+   },
+   {
+    "row": "00:34–00:41",
+    "device": "Top text, side angle, 1 B-roll shot",
+    "asset": "highlight_callout; C4902; 20261014_C5433 00:00.5",
+    "source": "Script; The Haven B Roll"
+   },
+   {
+    "row": "00:41–00:48",
+    "device": "Top text on her face",
+    "asset": "highlight_callout",
+    "source": "Script"
+   },
+   {
+    "row": "00:48–00:52",
+    "device": "End card",
+    "asset": "end_card (CASS name until the logo file is in the repo)",
+    "source": "Script"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "20261014_C5416.MP4",
+    "at": 4.0,
+    "dur": 2.5,
+    "cx": 0.5,
+    "path": "CASS OCT 2026/The Haven B Roll/20261014_C5416.MP4",
+    "drive": "1z5_T81Yzva5iKMGfsRjSYl7LQn3TWw8j",
+    "layout": "full",
+    "what": "A colourful Haven building with balconies, a white car in front (visual.json).",
+    "frame": null
+   },
+   {
+    "clip": "20261014_C5437.MP4",
+    "at": 3.0,
+    "dur": 2.5,
+    "cx": 0.5,
+    "path": "CASS OCT 2026/The Haven B Roll/20261014_C5437.MP4",
+    "drive": "1FN3u8Y-Ts-AT32GMcNJnaCb_qkO-jrZL",
+    "layout": "full",
+    "what": "A colourful mural on a Haven building with a rainbow light (visual.json).",
+    "frame": null
+   },
+   {
+    "clip": "20261014_C5445.MP4",
+    "at": 5.0,
+    "dur": 2.5,
+    "cx": 0.5,
+    "path": "CASS OCT 2026/The Haven B Roll/20261014_C5445.MP4",
+    "drive": "1M2Pd-MqWI_CKmYQdUqYKW0_j08UKdy9O",
+    "layout": "full",
+    "what": "Raised garden beds at The Haven (visual.json).",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "CASS end card (name until the logo file is added)",
+    "kind": "end_card",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
 }

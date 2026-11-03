@@ -1,20 +1,20 @@
 {
  "id": "13328811898",
  "client": "cass",
- "eyebrow": "CASS · Oct 2026 interviews · 14 Oct 2026 · Traditional",
- "title": "Dr. Richard Southee:",
+ "eyebrow": "CASS · The Haven interview day, Phoenix · 14 Oct 2026 · Traditional",
+ "title": "Richard Southee, PhD:",
  "title_q": "“Three Times as Likely”",
- "title_short": "Dr. Richard Southee · Three Times as Likely",
+ "title_short": "Richard Southee, PhD · Three Times as Likely",
  "editor": "Bleron",
  "due": "2026-11-18",
  "format": "9:16 only · 1080×1920",
- "length": "about 43 s",
+ "length": "about 51 s",
  "edit_key": "CASSRichardSouthee001",
  "headline": "CASS found that a client with a case manager is almost three times as likely to have a positive outcome. There isn't one solution to homelessness; there are a thousand.",
  "story": [
-  "The data: with a case manager, a client's odds of a positive outcome go up almost three times.",
-  "He writes policy thinking about the clients he worked with. And if you want to complain, he's the guy to complain to.",
-  "Not one solution to homelessness, but a thousand. Every person needs a different one."
+  "<b>The finding:</b> with a case manager, a client's odds of a positive outcome go up almost three times.",
+  "He writes policy thinking about the clients he worked with. All feedback is good, and if you want to complain, he's the guy to complain to.",
+  "<b>Turn:</b> not one solution to homelessness, but a thousand; every person needs a different one. <b>Button:</b> if clients know CASS cares and is working on it, CASS is doing a good job."
  ],
  "feel": [
   "Clear",
@@ -23,194 +23,761 @@
   "Hopeful"
  ],
  "do": [
-  "Open on the three-times number.",
-  "Lower third: Dr. Richard Southee · Former CEO, CASS.",
+  "Open on the case-manager finding with the hook text on screen at 0:00.",
+  "Put the number on screen as he says <q>almost three times</q>.",
   "Let the complaint line land with a smile.",
-  "End on the thousand solutions.",
-  "Keep it about 60 s."
+  "Use the side angle (C4901) to hide the joins.",
+  "End on his face: <q>we're doing a good job.</q>"
  ],
  "dont": [
-  "No logo at 0:00.",
   "No policy jargon on screen.",
-  "No second aspect ratio.",
-  "Nothing somber.",
-  "Don't over-explain the data."
+  "Only the lines on this page; the transcript marks what is off limits.",
+  "No logo before the end card.",
+  "Don't over-explain the data.",
+  "Nothing somber."
  ],
  "links": {
   "brief": {
    "title": "CASS — Dr. Richard Southee Traditional — Editing Brief",
    "url": "https://docs.google.com/document/d/1IDDwS1EV50u_e2M4w0kwMC5zbR_nVXi_f0b5v5J6SEw/edit",
-   "note": "Hook, middle and button ranges are set there; the exact words below come from the transcript."
+   "note": "Hook 04:33–04:39, middle 01:54–02:08 then 06:48, button 07:30–07:46. Every quote below is checked word for word against the transcript. The brief's lower third (Former CEO) does not match cassaz.org: see Decisions."
   },
   "reference": {
    "missing": true,
-   "title": "Existing CASS traditionals",
-   "note": "The brief says match CASSBrittnieNeighbors001. No other reference on the item."
+   "title": "Not chosen yet",
+   "note": "Nick owes it (Production Planning: reference requested 5 Oct). The brief says match the existing CASS traditionals (CASSBrittnieNeighbors001)."
   },
   "footage": {
-   "title": "CASS OCT 2026 › Interviews",
-   "url": "https://drive.google.com/drive/folders/1-HPTT2nPGbWU81ITExWk0Um92I_4ZXKj",
-   "note": "Two angles per person: front (20261013/14_C53xx) and side (C49xx)."
+   "title": "Dr. Richard Southee original ED Interview",
+   "url": "https://drive.google.com/drive/folders/16XJ9ZRS5fcNJKW7qx1_uJJLq2PkEWL0D",
+   "note": "Front angle 20261014_C5389.MP4 (8:04) and side angle C4901.MP4 (9:23). B-roll: July downtown staff B-roll and The Haven drone."
   }
  },
- "bp_intro": "Dr. Southee's interview: <span class=\"mono\">20261014_C5389.MP4</span> (front) and <span class=\"mono\">C4901.MP4</span> (side). Ranges are the brief's; times are mm:ss in C5389 from the transcript.",
+ "bp_intro": "All bites are from <span class=\"mono\">20261014_C5389.MP4</span> (front angle). Times are mm:ss.s in that clip, from the phrase times in the shoot's output.json split by word length, so trim each cut by ear. The side angle C4901.MP4 runs 68.3 s later. B-roll was picked from visual.json; no frames could be pulled this run.",
  "rows": [
   {
-   "tc": "00:00–00:08",
+   "tc": "00:00–00:11",
    "beat": "HOOK",
    "kind": "hook",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Dr. Southee, front angle.",
-   "motion": "Captions from 0:00. Text: <q>3× more likely</q>. Lower third from 0:03: “Dr. Richard Southee · Former CEO, CASS”.",
+   "visual": "Richard, front angle, <a href=\"https://drive.google.com/file/d/15zHsFmVSEwMie6okC3VnUrhvXlVNT1og/view\">20261014_C5389.MP4</a>, from <span class=\"mono\">04:33.7</span>. Start on <q>we found</q> (cut the <q>And</q> before it). Stay on his face for <q>if a client had a case manager</q>. On <q>almost three times</q> (about <span class=\"mono\">04:40.9</span>) cut to <a href=\"https://drive.google.com/file/d/1_qHIwcJTmbZ6kqpwBGL4mlN7a5ijX2XR/view\">20260727_C4420.MP4</a> from <span class=\"mono\">00:07.0</span> for 2.5 s (a staff member at a desk with a laptop, taking notes, downtown shelter, July), then back to his face for <q>likely to have a positive outcome.</q>",
+   "motion": "Hook text on <b>frame 1</b>: <q>If a client had a case manager</q> Already on screen at 0:00. Does not animate on. Top third. It goes out at 00:03. Number pop at 00:07 for 3 s, top band, as he says it: <q>3×</q> / <q>almost three times as likely</q>. Captions start on frame 1.",
    "voice": {
-    "who": "Dr. Southee",
-    "quote": "if a client had a case manager their odds of having a positive outcome shot up … almost three times as much as likely to have a positive outcome.",
-    "src": "C5389 04:33–04:42"
+    "who": "Richard Southee",
+    "quote": "We found that if a client had a case manager their odds of having a positive outcome shot up by a significant percentage almost three times as much as likely to have a positive outcome.",
+    "src": "20261014_C5389.MP4 04:33.7 to 04:44.0"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Hopeful bed on frame 1."
+   "music": "Light, hopeful bed starts low on frame 1. No lyrics.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "We found"
+    },
+    {
+     "clip": "20260727_C4420.MP4",
+     "at": 7.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "CASS Shoot July 2026/Downtown Shelter B Roll/Staff B Roll @ Downtown Shelter/20260727_C4420.MP4",
+     "drive": "1_qHIwcJTmbZ6kqpwBGL4mlN7a5ijX2XR",
+     "layout": "full",
+     "what": "staff member at a desk with a laptop, taking notes"
+    },
+    {
+     "face": true,
+     "from_word": "likely to have a positive outcome"
+    }
+   ]
   },
   {
-   "tc": "00:08–00:22",
+   "tc": "00:11–00:20",
    "beat": "THINKING ABOUT CLIENTS",
    "kind": "turn",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Side angle (C4901).",
-   "motion": "Captions only.",
+   "visual": "Side angle <a href=\"https://drive.google.com/file/d/1fAR8qtUUvS8OY_pjHxj1ZUZfkULivKd0/view\">C4901.MP4</a> at <span class=\"mono\">03:07.9</span>. On <q>the clients that I interacted with</q> cut to <a href=\"https://drive.google.com/file/d/1C0oq2gfe8Tbgyo3vnvXomkuj2AAUHdAm/view\">20260727_C4426.MP4</a> from <span class=\"mono\">00:08.0</span> for 2.5 s (a staff member at a desk smiles in conversation, downtown shelter, July). Back to the front angle for <q>their day-to-day interactions with the organization.</q>",
+   "motion": "Name super at 00:12 for 3 s, lower left above the captions: <q>Richard Southee, PhD</q> / Director of Compliance and Continuous Improvement, CASS. Captions on.",
    "voice": {
-    "who": "Dr. Southee",
+    "who": "Richard Southee",
     "quote": "I'm sitting down and thinking about a policy and thinking about the clients that I interacted with and how this policy is going to impact their day-to-day interactions with the organization.",
-    "src": "C5389 01:54–02:08"
+    "src": "20261014_C5389.MP4 01:59.6 to 02:07.7"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Hopeful bed under the voice."
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "angle": "side",
+     "clip": "C4901.MP4",
+     "at": 187.9,
+     "from_word": "I'm sitting down"
+    },
+    {
+     "clip": "20260727_C4426.MP4",
+     "at": 8.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "CASS Shoot July 2026/Downtown Shelter B Roll/Staff B Roll @ Downtown Shelter/20260727_C4426.MP4",
+     "drive": "1C0oq2gfe8Tbgyo3vnvXomkuj2AAUHdAm",
+     "layout": "full",
+     "what": "staff member smiles in conversation at a desk"
+    },
+    {
+     "face": true,
+     "from_word": "their day-to-day interactions"
+    }
+   ]
   },
   {
-   "tc": "00:22–00:26",
+   "tc": "00:20–00:28",
    "beat": "COMPLAIN TO ME",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Front angle. Let the smile land.",
-   "motion": "Captions only.",
+   "visual": "Front angle from <span class=\"mono\">06:07.2</span> for <q>All criticism is feedback and all feedback is good.</q> Join to <q>I tell clients all the time</q> (<span class=\"mono\">06:49.0</span>) on the side angle <a href=\"https://drive.google.com/file/d/1fAR8qtUUvS8OY_pjHxj1ZUZfkULivKd0/view\">C4901.MP4</a> at <span class=\"mono\">07:57.3</span>. Let the smile land on <q>I'm the guy to complain to</q>: hold 1 s on his face.",
+   "motion": "Top text at 00:20 for 2.5 s, top band, as he says it: <q>all criticism is feedback and all feedback is good.</q> Captions on.",
    "voice": {
-    "who": "Dr. Southee",
-    "quote": "I tell clients all the time, if you want to complain, I'm the guy to complain to.",
-    "src": "C5389 06:48–06:52"
+    "who": "Richard Southee",
+    "quote": "All criticism is feedback and all feedback is good. I tell clients all the time, if you want to complain, I'm the guy to complain to.",
+    "src": "20261014_C5389.MP4 06:07.2 to 06:10.1 + 06:49.0 to 06:52.1"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Hopeful bed under the voice."
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "All criticism is feedback"
+    },
+    {
+     "face": true,
+     "angle": "side",
+     "clip": "C4901.MP4",
+     "at": 477.3,
+     "from_word": "I tell clients all the time"
+    }
+   ]
   },
   {
-   "tc": "00:26–00:40",
+   "tc": "00:28–00:37",
+   "beat": "A THOUSAND SOLUTIONS",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Front angle from <span class=\"mono\">07:28.7</span> (start on <q>there isn't a solution</q>, cut <q>The unfortunate reality is that</q>). On <q>a thousand solutions to homelessness</q> cut to <a href=\"https://drive.google.com/file/d/1GGwNNMKim3CTM-g3xrY0e3gDJmOOBSuZ/view\">2026-10-14-13-04-57-182.MP4</a> from <span class=\"mono\">03:20.0</span> for 3 s (The Haven from the air, a big mural on the side of a building, 720p drone). Back to his face for <q>every person needs a different solution.</q>",
+   "motion": "Top text at 00:30 for 3 s, top band, as he says it: <q>more like a thousand solutions to homelessness</q>. Captions on.",
+   "voice": {
+    "who": "Richard Southee",
+    "quote": "There isn't a solution to homelessness, but more like a thousand solutions to homelessness, and every person needs a different solution.",
+    "src": "20261014_C5389.MP4 07:28.7 to 07:36.3"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Small lift.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "There isn't a solution"
+    },
+    {
+     "clip": "2026-10-14-13-04-57-182.MP4",
+     "at": 200.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "CASS OCT 2026/The Haven Drone Shots/2026-10-14-13-04-57-182.MP4",
+     "drive": "1GGwNNMKim3CTM-g3xrY0e3gDJmOOBSuZ",
+     "layout": "full",
+     "what": "The Haven from the air, mural on a building"
+    },
+    {
+     "face": true,
+     "from_word": "every person needs"
+    }
+   ]
+  },
+  {
+   "tc": "00:37–00:47",
    "beat": "BUTTON",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Front angle. Start on the brief's range (07:30); the sentence begins just before it, so find a clean in on scrub. Hold after “different solution”.",
+   "visual": "Front angle from <span class=\"mono\">07:40.2</span>. Stay on his face to the end: <q>I think that tells us we're doing a good job.</q> Hold 1 s on live picture (no freeze frame).",
    "motion": "Captions only.",
    "voice": {
-    "who": "Dr. Southee",
-    "quote": "not a solution to homelessness, but more like a thousand solutions to homelessness, and every person needs a different solution.",
-    "src": "C5389 07:30–07:37"
+    "who": "Richard Southee",
+    "quote": "And if our clients know that we have the compassion and care for them and that we're working towards that, even if we don't have it for them right now, I think that tells us we're doing a good job.",
+    "src": "20261014_C5389.MP4 07:40.2 to 07:48.6"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Resolve."
+   "music": "Resolve.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "And if our clients know"
+    }
+   ]
   },
   {
-   "tc": "00:40–00:43",
+   "tc": "00:47–00:51",
    "beat": "END CARD",
    "kind": "end",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "CASS logo end card.",
-   "motion": "cassaz.org.",
+   "visual": "CASS end card on the navy <span class=\"mono\">#2C2B77</span> background. The logo is here only.",
+   "motion": "End card: CASS logo, then the line <q>For more information visit cassaz.org</q>. Big enough to read.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Resolve."
+   "music": "Music out, 1 s fade.",
+   "shots": []
   }
  ],
  "frames": {},
  "files": [
   [
    "Editing brief",
-   "<a href=\"https://docs.google.com/document/d/1IDDwS1EV50u_e2M4w0kwMC5zbR_nVXi_f0b5v5J6SEw/edit\">CASS — Dr. Richard Southee Traditional — Editing Brief</a> (Google Doc). This page is built from it."
+   "<a href=\"https://docs.google.com/document/d/1IDDwS1EV50u_e2M4w0kwMC5zbR_nVXi_f0b5v5J6SEw/edit\">CASS — Dr. Richard Southee Traditional — Editing Brief</a> (Google Doc)."
+  ],
+  [
+   "Footage folder",
+   "<a href=\"https://drive.google.com/drive/folders/1-HPTT2nPGbWU81ITExWk0Um92I_4ZXKj\">CASS OCT 2026</a> · <a href=\"https://drive.google.com/drive/folders/1vPO0HJINzW21JGJv5uwSTU7CICrPVKIo\">Interviews</a> · <a href=\"https://drive.google.com/drive/folders/16XJ9ZRS5fcNJKW7qx1_uJJLq2PkEWL0D\">Dr. Richard Southee original ED Interview</a> · <a href=\"https://drive.google.com/drive/folders/1mnBsEqiSaGjc0yIKzfM64EyWXglBnp7Y\">The Haven Drone Shots</a>"
+  ],
+  [
+   "Interview clips",
+   "<a href=\"https://drive.google.com/file/d/15zHsFmVSEwMie6okC3VnUrhvXlVNT1og/view\">20261014_C5389.MP4</a> (front, 8:04) · <a href=\"https://drive.google.com/file/d/1fAR8qtUUvS8OY_pjHxj1ZUZfkULivKd0/view\">C4901.MP4</a> (side, 9:23)"
+  ],
+  [
+   "B-roll picks",
+   "<a href=\"https://drive.google.com/file/d/1_qHIwcJTmbZ6kqpwBGL4mlN7a5ijX2XR/view\">20260727_C4420.MP4</a> · <a href=\"https://drive.google.com/file/d/1C0oq2gfe8Tbgyo3vnvXomkuj2AAUHdAm/view\">20260727_C4426.MP4</a> · <a href=\"https://drive.google.com/file/d/1GGwNNMKim3CTM-g3xrY0e3gDJmOOBSuZ/view\">2026-10-14-13-04-57-182.MP4</a>"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1o8aGAn5XRulGp7ZVI6_v0nQF-5pmAOf8Mf0rMMTLm9k/edit\">Transcripts - Interviews</a> (Google Doc) · <a href=\"https://drive.google.com/file/d/1F0QpMep4JDngjiXBso6DyrSxizlpsUvN/view\">output.json</a> · <a href=\"https://drive.google.com/file/d/1y5FVir7xDb2GbrYgmVB_9G38CDznMvfP/view\">CASS OCT 2026.srt</a>"
+  ],
+  [
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/1yFn3puM_45DRlc1dVsiJ6GAqeHeTDtBZ/view\">visual.json</a> (CASS OCT 2026) · <a href=\"https://drive.google.com/file/d/1F2c4uUZYW9bDxq3SNuPL-fxY-j-B6gn9/view\">visual.json</a> (July shoot). Picks are from them; check on scrub."
+  ],
+  [
+   "His name and title",
+   "<a href=\"https://www.cassaz.org/board---leadership\">cassaz.org Our Leadership</a>: Richard Southee, PhD, Director of Compliance and Continuous Improvement."
   ],
   [
    "Reference",
    "Match the existing CASS traditionals (CASSBrittnieNeighbors001, Monday 13252339711 / 13252336435)."
   ],
   [
-   "Shoot folder",
-   "<a href=\"https://drive.google.com/drive/folders/1-HPTT2nPGbWU81ITExWk0Um92I_4ZXKj\">CASS OCT 2026</a> › Interviews"
+   "Brand graphics package",
+   "CASS has no graphics package folder yet. Use the Motion graphics tab of this page (CASS colours, Work Sans)."
   ],
   [
-   "Clips",
-   "<a href=\"https://drive.google.com/file/d/15zHsFmVSEwMie6okC3VnUrhvXlVNT1og/view\">20261014_C5389.MP4</a> (front) · <a href=\"https://drive.google.com/file/d/1fAR8qtUUvS8OY_pjHxj1ZUZfkULivKd0/view\">C4901.MP4</a> (side)"
-  ],
-  [
-   "Transcript",
-   "<a href=\"https://docs.google.com/document/d/1o8aGAn5XRulGp7ZVI6_v0nQF-5pmAOf8Mf0rMMTLm9k/edit\">Transcripts - Interviews</a> (CASS OCT 2026 › Interviews › EditingResources)"
+   "Brand",
+   "Work Sans (captions and type). CASS navy <span class=\"mono\">#2C2B77</span>, green <span class=\"mono\">#26B485</span>, blue <span class=\"mono\">#006C9F</span>, purple <span class=\"mono\">#7E3F98</span>, light <span class=\"mono\">#EEEEF1</span>. CASS always in capitals."
   ],
   [
    "Music",
-   "Hopeful, warm, licensed. Never somber."
+   "Light, hopeful, warm, licensed, no lyrics. Never somber."
   ]
  ],
  "tech": [
   [
    "Source",
-   "Two angles per interview: the 20261013/14_C53xx file (front) and the C49xx file (side). Probe frame size and rate on import; they are not listed on the item."
+   "<span class=\"mono\">20261014_C5389.MP4</span> (front): 1920×1080 at 59.94 fps. <span class=\"mono\">C4901.MP4</span> (side): 1920×1080 at 23.976 fps (visual.json; check on import). July downtown B-roll 1920×1080 at 23.976 fps. Haven drone 1280×720 at about 24 fps in visual.json (may be a proxy; a gentle push-in is fine)."
+  ],
+  [
+   "Side angle sync",
+   "A time in C5389 plus 68.3 s is the same moment in C4901.MP4 (matched on the two transcripts). Sync the angles by audio and use the side angle to hide every join."
   ],
   [
    "Timeline",
-   "1080×1920. Conform both angles to one rate."
+   "1080×1920 at <b>23.976 fps</b>, like the other CASS traditionals. Conform the 59.94 fps clips."
   ],
   [
    "Crop",
-   "16:9 to 9:16 on the speaker. Use the side angle to hide jump cuts."
+   "16:9 to 9:16 centred on the speaker. Check every crop by eye: no frames could be pulled this run."
   ],
   [
    "Audio",
-   "Recorded into the camera. Check both angles' channels on the first bite and use the cleanest."
+   "Recorded into the cameras. Check both channels on both angles on the first bite and use the cleanest one. 2-frame crossfades at every join."
   ],
   [
    "Loudness",
-   "−14 LUFS integrated, −1 dBTP peak. Music well under the voice."
+   "−14 LUFS integrated, −1 dBTP peak. Music at least 12 dB under the voice."
+  ],
+  [
+   "Pauses",
+   "Pauses over 0.7 s inside a bite are cut to about 0.25 s. Cover each cut with the side angle or B-roll."
   ],
   [
    "Captions",
-   "White text on the CASS navy <span class=\"mono\">#2C2B77</span> box. Work Sans. Max 2 lines."
+   "Burned in. White Work Sans on the CASS navy <span class=\"mono\">#2C2B77</span> box, max 2 lines, low in the frame. Never under the name super. CASS in capitals."
   ],
   [
    "Export",
-   "H.264 MP4, 1080×1920. One file, 9:16 only."
+   "H.264 MP4, 1080×1920, 9:16 only. Upload to Frame.io with the file name at the top of this page, then Ready for Review."
   ]
  ],
  "checklist": [
-  "Open on the hook at 0:00. Logo only on the end card.",
-  "CASS in capitals. “Central Arizona Shelter Services” spelled out on first use if it appears in text.",
-  "Captions: white on navy #2C2B77, Work Sans.",
-  "End card: CASS logo with cassaz.org.",
-  "Hopeful, never somber.",
-  "Residents are filmed from behind unless they signed a release. Check before any resident B-roll.",
-  "Match the look of the existing CASS traditionals (CASSBrittnieNeighbors001).",
-  "Lower third: Dr. Richard Southee · Former CEO, CASS."
+  "Frame 1 is Richard talking with <q>If a client had a case manager</q> already on screen. No logo, name or fade.",
+  "The number pop lands on <q>almost three times</q>, with the word <q>almost</q> on screen.",
+  "Name super from 00:12 as Nick confirms it (see Decisions). Spell Southee with two e's.",
+  "Nothing from the lines the transcript leaves out or marks do not use.",
+  "No dinner B-roll and no resident's face in any B-roll.",
+  "Captions say CASS in capitals, white on the navy box.",
+  "End card: CASS with <q>For more information visit cassaz.org</q>.",
+  "The file is 9:16 only."
  ],
- "decisions": [],
- "client_note": "<b>Why this matters:</b> CASS wants hopeful, human stories about who is really experiencing homelessness in Maricopa County. Zsirai's direction changes: check the newest note on the item before cutting.",
- "ask_examples": [],
- "transcript": "Machine transcript from “Transcripts - Interviews” (CASS OCT 2026 › Interviews › EditingResources). Times are mm:ss from the first frame of each file. Speaker tags are often wrong; the interviewer is off camera.\n\n== 20261014_C5389.MP4 (Dr. Richard Southee) ==\n[00:00] Okay, we're good to go.\n[00:02] All right, can you start by saying your name and your role here at Cass?\n[00:06] My name is Richard Southie. I'm the regional executive director.\n[00:10] You're gonna call yourself a doctor?\n[00:12] Oh, should I?\n[00:14] Yeah, I like that.\n[00:16] Go!\n[00:19] My name is... no, I'm not gonna call myself a doctor.\n[00:21] Okay.\n[00:23] Okay, anyway looking back over your time at Cass,\n[00:27] how has your perspective changed as you moved from program leadership to compliance?\n[00:32] I think when I was working in program leadership, there's a lot of\n[00:38] lofty goals that you really want to set and there's a lot of frustration and sort of the limitations that are in place\n[00:45] because you don't always get full visibility into what is causing some of the decisions that are being made and moving over to compliance\n[00:51] really gave visibility and sort of the infrastructure that exists around what we're doing, why some of these limitations exist, and also\n[00:57] how to navigate around them to reach those sort of loftier goals that we have.\n[01:00] So I've both become more grounded in the work, but also\n[01:04] really finding more ways to do the work that we love to do.\n[01:08] And what experiences from working directly with clients\n[01:13] continue to influence decisions you make today, you think?\n[01:20] Um...\n[01:22] I get time to like think about these, right?\n[01:24] Yeah, this is just us.\n[01:27] Yeah, Nathan took like five minutes each question.\n[01:31] Don't feel bad.\n[01:36] Do you want me to ask it again?\n[01:38] Yeah.\n[01:38] Okay, what experiences from working directly with clients continue to influence the decisions you make today?\n[01:45] You know, I came into this work because of\n[01:48] what it felt like to interact with clients and the way that it really\n[01:51] felt that we were living the mission, getting to work with clients every day.\n[01:54] And so now doing a lot of the compliance work and thinking about policies, a lot of the time\n[01:59] I'm sitting down and thinking about a policy and thinking about the clients that I interacted with and how this policy is going to impact\n[02:04] their day-to-day interactions with the organization.\n[02:08] And so it really gives me the ability to ground the work that I'm doing now in the experiences of our clients.\n[02:18] Really being able to tap into sort of their challenges and their frustrations and the things that I heard as a\n[02:25] program manager or as a case manager and the things that frustrated them and\n[02:30] using that when I'm thinking about policy and going, okay, is this policy going to have a negative impact on our clients?\n[02:35] If it is, how do I\n[02:37] incorporate that understanding into the policy to make sure that they're having a good experience as well while still reaching whatever goals\n[02:44] we're trying to accomplish with it.\n[02:46] When our donors and supporters hear the word compliance, how should they understand\n[02:52] the way it works within our organization?\n[02:54] Yeah, compliance for our organization means really two things.\n[02:57] One, it means doing the things that everyone expects us to do.\n[03:01] So when we say in a contract that we're going to do something, when someone gives us money\n[03:04] with the expectation that we're going to do something, compliance is making sure that we're doing that, watching our metrics, watching our\n[03:11] policies and procedures to make sure when we said we're going to do something that we're actually doing it.\n[03:15] And then the other element of it is making sure that we're doing the things that no one is expecting us to do.\n[03:21] But are needed in order to meet these goals.\n[03:24] And so when someone says that they're expecting a certain level of outcomes, we have to actually be able to meet those outcomes.\n[03:31] But then there's all this extra work on the background that goes to making sure that those outcomes are being tracked appropriately.\n[03:35] That the infrastructure is in place to make those outcomes achievable.\n[03:39] And so a part of compliance is really ensuring that we're following all the rules and that we know how to follow those rules.\n[03:45] That's a good answer. Can you maybe share a time where\n[03:50] you were like digging through our\n[03:54] data or compliance and you found maybe like a discovery that\n[03:59] helped us improve a certain program or a certain policy?\n[04:05] Yeah, I mean a lot of the work that we do is spending that time looking at the data and understanding what it means for us.\n[04:11] One of the easiest examples is looking at case management outcomes.\n[04:16] There's always been a push for case management in this community.\n[04:19] But there hasn't been a lot of evidence support that case management makes a meaningful outcome beyond what we see doing the work.\n[04:25] And so we got the opportunity to really sit down and pull the data and look to see what were the things that were\n[04:30] contributing to clients being successful and how do we replicate them.\n[04:33] And we found that if a client had a case manager their odds of having a positive outcome shot up by a\n[04:39] significant percentage almost three times as much as likely to have a positive outcome.\n[04:44] And so that really helps inform what we need to be focusing our funding on, what we need to focus our attention on, and\n[04:49] who we need to be thinking about when we're trying to figure out solutions for our clients.\n[04:55] And looking back, you've been at CAS for about what, seven, five years? Six years.\n[05:00] Okay, and looking back over the years from the time you started to now, where have you seen the biggest growth in CAS?\n[05:10] That's maybe like impactful to you.\n[05:12] Yeah.\n[05:14] You know, I think CAS's engagement with the community has changed pretty dramatically over the past five or six years.\n[05:21] And I've seen us come from sort of having a passive place in this community where everyone knows who CAS is,\n[05:27] but we're not really leveraging that too much, to really being in a position where we're talking about what we're doing,\n[05:32] more informing the community about what we're doing,\n[05:34] but we're also informing the community about what our clients need and what this community needs to address homelessness.\n[05:39] And so really seeing CAS move to being in front of all of this, in front of the community, and\n[05:45] leveraging our voice to help our clients has been a change that I've really appreciated getting to see.\n[05:50] And because we're talking about the community, how do we see\n[05:54] like community\n[05:59] feedback\n[06:00] as feedback versus criticism when it comes to compliance, do you think?\n[06:05] From a compliance perspective, all criticism is feedback and all feedback is good.\n[06:10] If we're not doing something right, my job is to make sure that we're doing it right. And so any type of feedback is good.\n[06:17] We track all of our grievances and incidents and I think it makes some people grimace a little when they get a client giving\n[06:24] grievance and saying they weren't treated correctly at some point or that something went wrong.\n[06:28] But that is data and information for us that I can use as compliance to make sure that we're doing something correctly.\n[06:35] If a policy isn't being followed or our policy isn't comprehensive enough to address something that's going wrong, a grievance and\n[06:42] complaint or someone being upset with us is how we identify those gaps. And so for me, I'm always happy to hear those.\n[06:48] I tell clients all the time, if you want to complain, I'm the guy to complain to.\n[06:52] And so it's always good seeing those things, especially as they become more infrequent. It means we're doing a good job.\n[07:00] Good. And what do you hope that people will say about,\n[07:05] mainly our clients, say about our quality of care in, let's say, the next four years?\n[07:12] That seems like a Nathan question.\n[07:17] You know, I think\n[07:19] it's important for me that clients say that they believe we as an organization and we as staff care about them.\n[07:26] The unfortunate reality is that there isn't a\n[07:30] solution to homelessness, but more like a thousand solutions to homelessness, and every person needs a different solution. And so\n[07:37] sometimes it takes a little bit longer to get someone to where they need to be. And if our clients know that we have the\n[07:42] compassion and care for them and that we're working towards that, even if we don't have it for them right now,\n[07:46] I think that tells us we're doing a good job.\n[07:49] And if you had to describe your role in one word, what would you say? My role? Yeah.\n[07:56] Compliance.\n[08:00] Okay, I have nothing else. Awesome. Sweet. All right. I think we're all good."
+ "decisions": [
+  {
+   "t": "His name super",
+   "b": "The brief says <q>Dr. Richard Southee · Former CEO, CASS</q>. cassaz.org (Our Leadership) lists <q>Richard Southee, PhD</q>, Director of Compliance and Continuous Improvement; on camera he calls himself the regional executive director and says he will not call himself a doctor. This plan uses the website's name and title. Nick confirms with Zsirai before export."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> CASS wants supporters to see that the work is measured and human at the same time. A real finding, told warmly, does both.",
+ "ask_examples": [
+  "What is his title on the super?",
+  "Do I write Dr. or PhD?",
+  "Where does the number go?",
+  "Which B-roll can I use for Richard?"
+ ],
+ "transcript": "Machine transcript of Richard Southee's interview (output.json segments, CASS OCT 2026). Times are mm:ss.s in the front-angle clip. CASS is written in capitals; his surname is spelled as on cassaz.org. The side angle C4901.MP4 is the same talk 68.3 s later.\n--- 20261014_C5389.MP4 ---\n[00:00.0] Okay, we're good to go. [do not use: crew talk]\n[00:02.5] All right, can you start by saying your name and your role here at CASS?\n[00:06.8] My name is Richard Southee. I'm the regional executive director.\n[00:10.2] You're gonna call yourself a doctor? [do not use: crew talk]\n[00:12.2] Oh, should I? [do not use: crew talk]\n[00:14.2] Yeah, I like that. [do not use: crew talk]\n[00:16.4] Go! [do not use: crew talk]\n[00:19.2] My name is... no, I'm not gonna call myself a doctor. [do not use: crew talk]\n[00:21.4] Okay. [do not use: crew talk]\n[00:23.4] Okay, anyway looking back over your time at CASS,\n[00:27.4] how has your perspective changed as you moved from program leadership to compliance?\n[00:32.5] I think when I was working in program leadership, there's a lot of\n[00:38.5] lofty goals that you really want to set and there's a lot of frustration and sort of the limitations that are in place\n[00:45.2] because you don't always get full visibility into what is causing some of the decisions that are being made and moving over to compliance\n[00:51.2] really gave visibility and sort of the infrastructure that exists around what we're doing, why some of these limitations exist, and also\n[00:57.2] how to navigate around them to reach those sort of loftier goals that we have.\n[01:00.4] So I've both become more grounded in the work, but also\n[01:04.7] really finding more ways to do the work that we love to do.\n[01:09.0] And what experiences from working directly with clients\n[01:13.2] continue to influence decisions you make today, you think?\n[01:20.7] Um... [do not use: crew talk]\n[01:22.4] I get time to like think about these, right? [do not use: crew talk]\n[01:24.4] Yeah, this is just us. [do not use: crew talk]\n[01:27.4] Yeah, Nathan took like five minutes each question. [do not use: crew talk]\n[01:31.0] Don't feel bad. [do not use: crew talk]\n[01:36.5] Do you want me to ask it again? [do not use: crew talk]\n[01:38.2] Yeah.\n[01:38.8] Okay, what experiences from working directly with clients continue to influence the decisions you make today?\n[01:45.8] You know, I came into this work because of\n[01:48.5] what it felt like to interact with clients and the way that it really\n[01:51.7] felt that we were living the mission, getting to work with clients every day.\n[01:54.8] And so now doing a lot of the compliance work and thinking about policies, a lot of the time\n[01:59.6] I'm sitting down and thinking about a policy and thinking about the clients that I interacted with and how this policy is going to\n[02:04.7] impact\n[02:05.0] their day-to-day interactions with the organization.\n[02:08.9] And so it really gives me the ability to ground the work that I'm doing now in the experiences of our clients.\n[02:18.7] Really being able to tap into sort of their challenges and their frustrations and the things that I heard as a\n[02:25.1] program manager or as a case manager and the things that frustrated them and\n[02:30.6] using that when I'm thinking about policy and going, okay, is this policy going to have a negative impact on our clients?\n[02:35.3] If it is, how do I\n[02:37.3] incorporate that understanding into the policy to make sure that they're having a good experience as well while still reaching whatever goals\n[02:44.6] we're trying to accomplish with it.\n[02:46.1] When our donors and supporters hear the word compliance, how should they understand\n[02:52.1] the way it works within our organization?\n[02:54.1] Yeah, compliance for our organization means really two things.\n[02:58.0] One, it means doing the things that everyone expects us to do.\n[03:01.1] (line left out: not for this video)\n[03:04.6] with the expectation that we're going to do something, compliance is making sure that we're doing that, watching our metrics, watching our [do not use: not for this video]\n[03:11.3] policies and procedures to make sure when we said we're going to do something that we're actually doing it.\n[03:15.5] And then the other element of it is making sure that we're doing the things that no one is expecting us to do.\n[03:21.7] But are needed in order to meet these goals.\n[03:24.5] And so when someone says that they're expecting a certain level of outcomes, we have to actually be able to meet those outcomes.\n[03:31.2] But then there's all this extra work on the background that goes to making sure that those outcomes are being tracked appropriately.\n[03:36.0] That the infrastructure is in place to make those outcomes achievable.\n[03:39.2] And so a part of compliance is really ensuring that we're following all the rules and that we know how to follow those rules.\n[03:45.5] That's a good answer. Can you maybe share a time where\n[03:50.3] you were like digging through our\n[03:54.4] data or compliance and you found maybe like a discovery that\n[03:59.7] helped us improve a certain program or a certain policy?\n[04:05.2] Yeah, I mean a lot of the work that we do is spending that time looking at the data and understanding what it means\n[04:11.2] for us.\n[04:11.9] One of the easiest examples is looking at case management outcomes.\n[04:16.5] There's always been a push for case management in this community.\n[04:19.3] But there hasn't been a lot of evidence support that case management makes a meaningful outcome beyond what we see doing the work.\n[04:25.5] And so we got the opportunity to really sit down and pull the data and look to see what were the things that were\n[04:30.8] contributing to clients being successful and how do we replicate them.\n[04:33.4] And we found that if a client had a case manager their odds of having a positive outcome shot up by a\n[04:39.8] significant percentage almost three times as much as likely to have a positive outcome.\n[04:44.2] (line left out: not for this video)\n[04:49.8] who we need to be thinking about when we're trying to figure out solutions for our clients.\n[04:55.1] And looking back, you've been at CASS for about what, seven, five years? Six years.\n[05:00.5] Okay, and looking back over the years from the time you started to now, where have you seen the biggest growth in CASS?\n[05:10.1] That's maybe like impactful to you.\n[05:12.1] Yeah.\n[05:14.9] You know, I think CASS's engagement with the community has changed pretty dramatically over the past five or six years.\n[05:21.3] And I've seen us come from sort of having a passive place in this community where everyone knows who CASS is,\n[05:27.2] but we're not really leveraging that too much, to really being in a position where we're talking about what we're doing,\n[05:32.1] more informing the community about what we're doing,\n[05:34.1] but we're also informing the community about what our clients need and what this community needs to address homelessness.\n[05:39.3] And so really seeing CASS move to being in front of all of this, in front of the community, and\n[05:45.6] leveraging our voice to help our clients has been a change that I've really appreciated getting to see.\n[05:50.8] And because we're talking about the community, how do we see\n[05:54.9] like community\n[05:59.9] feedback\n[06:00.9] as feedback versus criticism when it comes to compliance, do you think?\n[06:05.4] From a compliance perspective, all criticism is feedback and all feedback is good.\n[06:10.2] If we're not doing something right, my job is to make sure that we're doing it right.\n[06:14.9] And so any type of feedback is good.\n[06:17.8] We track all of our grievances and incidents and I think it makes some people grimace a little when they get a client giving\n[06:24.5] grievance and saying they weren't treated correctly at some point or that something went wrong.\n[06:28.9] But that is data and information for us that I can use as compliance to make sure that we're doing something correctly.\n[06:35.0] If a policy isn't being followed or our policy isn't comprehensive enough to address something that's going wrong, a grievance and\n[06:42.6] complaint or someone being upset with us is how we identify those gaps. And so for me, I'm always happy to hear those.\n[06:49.0] I tell clients all the time, if you want to complain, I'm the guy to complain to.\n[06:52.8] And so it's always good seeing those things, especially as they become more infrequent. It means we're doing a good job.\n[07:00.9] Good. And what do you hope that people will say about,\n[07:05.2] mainly our clients, say about our quality of care in, let's say, the next four years?\n[07:12.7] That seems like a Nathan question. [do not use: crew talk]\n[07:17.8] You know, I think\n[07:19.6] it's important for me that clients say that they believe we as an organization and we as staff care about them.\n[07:26.9] The unfortunate reality is that there isn't a\n[07:30.7] solution to homelessness, but more like a thousand solutions to homelessness, and every person needs a different solution. And so\n[07:37.2] sometimes it takes a little bit longer to get someone to where they need to be.\n[07:40.2] And if our clients know that we have the\n[07:42.2] compassion and care for them and that we're working towards that, even if we don't have it for them right now,\n[07:46.4] I think that tells us we're doing a good job.\n[07:49.9] And if you had to describe your role in one word, what would you say? My role? Yeah.\n[07:56.2] Compliance.\n[08:00.3] Okay, I have nothing else. Awesome. Sweet. All right. I think we're all good. [do not use: crew talk]",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "You know, I came into this work because of what it felt like to interact with clients and the way that it really felt that we were living the mission, getting to work with clients every day.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "Why he came to this work."
+   },
+   {
+    "quote": "I'm sitting down and thinking about a policy and thinking about the clients that I interacted with and how this policy is going to impact their day-to-day interactions with the organization.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "Clients in every policy."
+   },
+   {
+    "quote": "And so it really gives me the ability to ground the work that I'm doing now in the experiences of our clients.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "Grounded in clients."
+   },
+   {
+    "quote": "From a compliance perspective, all criticism is feedback and all feedback is good.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "All feedback is good."
+   },
+   {
+    "quote": "If we're not doing something right, my job is to make sure that we're doing it right.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "His job."
+   },
+   {
+    "quote": "I tell clients all the time, if you want to complain, I'm the guy to complain to.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "The smile line."
+   },
+   {
+    "quote": "it's important for me that clients say that they believe we as an organization and we as staff care about them.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "Clients feel cared for."
+   },
+   {
+    "quote": "there isn't a solution to homelessness, but more like a thousand solutions to homelessness, and every person needs a different solution.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "A thousand solutions."
+   },
+   {
+    "quote": "And if our clients know that we have the compassion and care for them and that we're working towards that, even if we don't have it for them right now, I think that tells us we're doing a good job.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "Compassion and care."
+   },
+   {
+    "quote": "I think CASS's engagement with the community has changed pretty dramatically over the past five or six years.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "How CASS has grown."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "we found that if a client had a case manager their odds of having a positive outcome shot up by a significant percentage almost three times as much as likely to have a positive outcome.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "The finding."
+   },
+   {
+    "quote": "You know, I came into this work because of what it felt like to interact with clients and the way that it really felt that we were living the mission, getting to work with clients every day.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "Why he came to this work."
+   },
+   {
+    "quote": "And so it really gives me the ability to ground the work that I'm doing now in the experiences of our clients.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "Grounded in clients."
+   },
+   {
+    "quote": "From a compliance perspective, all criticism is feedback and all feedback is good.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "All feedback is good."
+   },
+   {
+    "quote": "If we're not doing something right, my job is to make sure that we're doing it right.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "His job."
+   },
+   {
+    "quote": "I tell clients all the time, if you want to complain, I'm the guy to complain to.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "The smile line."
+   },
+   {
+    "quote": "it's important for me that clients say that they believe we as an organization and we as staff care about them.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "Clients feel cared for."
+   },
+   {
+    "quote": "there isn't a solution to homelessness, but more like a thousand solutions to homelessness, and every person needs a different solution.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "A thousand solutions."
+   },
+   {
+    "quote": "And if our clients know that we have the compassion and care for them and that we're working towards that, even if we don't have it for them right now, I think that tells us we're doing a good job.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "Compassion and care."
+   },
+   {
+    "quote": "I think CASS's engagement with the community has changed pretty dramatically over the past five or six years.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "How CASS has grown."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "we found that if a client had a case manager their odds of having a positive outcome shot up by a significant percentage almost three times as much as likely to have a positive outcome.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "The finding."
+   },
+   {
+    "quote": "You know, I came into this work because of what it felt like to interact with clients and the way that it really felt that we were living the mission, getting to work with clients every day.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "Why he came to this work."
+   },
+   {
+    "quote": "I'm sitting down and thinking about a policy and thinking about the clients that I interacted with and how this policy is going to impact their day-to-day interactions with the organization.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "Clients in every policy."
+   },
+   {
+    "quote": "And so it really gives me the ability to ground the work that I'm doing now in the experiences of our clients.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "Grounded in clients."
+   },
+   {
+    "quote": "From a compliance perspective, all criticism is feedback and all feedback is good.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "All feedback is good."
+   },
+   {
+    "quote": "If we're not doing something right, my job is to make sure that we're doing it right.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "His job."
+   },
+   {
+    "quote": "I tell clients all the time, if you want to complain, I'm the guy to complain to.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "The smile line."
+   },
+   {
+    "quote": "it's important for me that clients say that they believe we as an organization and we as staff care about them.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "Clients feel cared for."
+   },
+   {
+    "quote": "there isn't a solution to homelessness, but more like a thousand solutions to homelessness, and every person needs a different solution.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "A thousand solutions."
+   },
+   {
+    "quote": "And if our clients know that we have the compassion and care for them and that we're working towards that, even if we don't have it for them right now, I think that tells us we're doing a good job.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "Compassion and care."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "we found that if a client had a case manager their odds of having a positive outcome shot up by a significant percentage almost three times as much as likely to have a positive outcome.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "The finding."
+   },
+   {
+    "quote": "You know, I came into this work because of what it felt like to interact with clients and the way that it really felt that we were living the mission, getting to work with clients every day.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "Why he came to this work."
+   },
+   {
+    "quote": "I'm sitting down and thinking about a policy and thinking about the clients that I interacted with and how this policy is going to impact their day-to-day interactions with the organization.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "Clients in every policy."
+   },
+   {
+    "quote": "And so it really gives me the ability to ground the work that I'm doing now in the experiences of our clients.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "Grounded in clients."
+   },
+   {
+    "quote": "From a compliance perspective, all criticism is feedback and all feedback is good.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "All feedback is good."
+   },
+   {
+    "quote": "If we're not doing something right, my job is to make sure that we're doing it right.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "His job."
+   },
+   {
+    "quote": "I tell clients all the time, if you want to complain, I'm the guy to complain to.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "The smile line."
+   },
+   {
+    "quote": "it's important for me that clients say that they believe we as an organization and we as staff care about them.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "Clients feel cared for."
+   },
+   {
+    "quote": "And if our clients know that we have the compassion and care for them and that we're working towards that, even if we don't have it for them right now, I think that tells us we're doing a good job.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "Compassion and care."
+   },
+   {
+    "quote": "I think CASS's engagement with the community has changed pretty dramatically over the past five or six years.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "How CASS has grown."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "we found that if a client had a case manager their odds of having a positive outcome shot up by a significant percentage almost three times as much as likely to have a positive outcome.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "The finding."
+   },
+   {
+    "quote": "You know, I came into this work because of what it felt like to interact with clients and the way that it really felt that we were living the mission, getting to work with clients every day.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "Why he came to this work."
+   },
+   {
+    "quote": "I'm sitting down and thinking about a policy and thinking about the clients that I interacted with and how this policy is going to impact their day-to-day interactions with the organization.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "Clients in every policy."
+   },
+   {
+    "quote": "And so it really gives me the ability to ground the work that I'm doing now in the experiences of our clients.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "Grounded in clients."
+   },
+   {
+    "quote": "From a compliance perspective, all criticism is feedback and all feedback is good.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "All feedback is good."
+   },
+   {
+    "quote": "If we're not doing something right, my job is to make sure that we're doing it right.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "His job."
+   },
+   {
+    "quote": "I tell clients all the time, if you want to complain, I'm the guy to complain to.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "The smile line."
+   },
+   {
+    "quote": "it's important for me that clients say that they believe we as an organization and we as staff care about them.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "Clients feel cared for."
+   },
+   {
+    "quote": "there isn't a solution to homelessness, but more like a thousand solutions to homelessness, and every person needs a different solution.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "A thousand solutions."
+   },
+   {
+    "quote": "I think CASS's engagement with the community has changed pretty dramatically over the past five or six years.",
+    "who": "Richard Southee",
+    "file": "20261014_C5389.MP4",
+    "why": "How CASS has grown."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "If a client had a case manager",
+    "line": "we found that if a client had a case manager their odds of having a positive outcome shot up by a significant percentage almost three times as much as likely to have a positive outcome.",
+    "why": "Sets up the finding."
+   },
+   {
+    "text": "A thousand solutions to homelessness",
+    "line": "there isn't a solution to homelessness, but more like a thousand solutions to homelessness, and every person needs a different solution.",
+    "why": "A big idea in five words."
+   },
+   {
+    "text": "I'm the guy to complain to.",
+    "line": "I tell clients all the time, if you want to complain, I'm the guy to complain to.",
+    "why": "Warm and surprising."
+   },
+   {
+    "text": "All feedback is good.",
+    "line": "From a compliance perspective, all criticism is feedback and all feedback is good.",
+    "why": "Short and bold."
+   },
+   {
+    "text": "Every person needs a different solution.",
+    "line": "there isn't a solution to homelessness, but more like a thousand solutions to homelessness, and every person needs a different solution.",
+    "why": "Human first."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "CASS runs a fuller package (client file). Here: hook text, a number pop, a name super, two top lines, downtown staff B-roll for the case-manager lines, one Haven drone shot, the side angle on the joins, logo only on the end card.",
+  "devices": [
+   {
+    "row": "00:00–00:11",
+    "device": "Hook text, number pop over 1 B-roll shot",
+    "asset": "highlight_callout, stat_counter; 20260727_C4420 00:07",
+    "source": "Script; Staff B Roll @ Downtown Shelter (July)"
+   },
+   {
+    "row": "00:11–00:20",
+    "device": "Name super, side angle, 1 B-roll shot",
+    "asset": "tag_label; C4901; 20260727_C4426 00:08",
+    "source": "Script; Staff B Roll @ Downtown Shelter (July)"
+   },
+   {
+    "row": "00:20–00:28",
+    "device": "Top text, side angle on the join",
+    "asset": "highlight_callout; C4901",
+    "source": "Script; interview side angle"
+   },
+   {
+    "row": "00:28–00:37",
+    "device": "Top text, drone cutaway",
+    "asset": "highlight_callout; Haven drone 03:20",
+    "source": "Script; The Haven Drone Shots"
+   },
+   {
+    "row": "00:37–00:47",
+    "device": "His face to the end",
+    "asset": "C5389",
+    "source": "Interview"
+   },
+   {
+    "row": "00:47–00:51",
+    "device": "End card",
+    "asset": "end_card (CASS name until the logo file is in the repo)",
+    "source": "Script"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "20260727_C4423.MP4",
+    "at": 8.0,
+    "dur": 2.5,
+    "cx": 0.5,
+    "path": "CASS Shoot July 2026/Downtown Shelter B Roll/Staff B Roll @ Downtown Shelter/20260727_C4423.MP4",
+    "drive": "1ulDPI3Vz_CqH8Qr48q9Ru-ZZRokCG1D-",
+    "layout": "full",
+    "what": "Two staff members talk at a desk with a laptop (visual.json, soft).",
+    "frame": null
+   },
+   {
+    "clip": "20261014_C5416.MP4",
+    "at": 4.0,
+    "dur": 2.5,
+    "cx": 0.5,
+    "path": "CASS OCT 2026/The Haven B Roll/20261014_C5416.MP4",
+    "drive": "1z5_T81Yzva5iKMGfsRjSYl7LQn3TWw8j",
+    "layout": "full",
+    "what": "A colourful Haven building with balconies (visual.json).",
+    "frame": null
+   },
+   {
+    "clip": "20261014_C5432.MP4",
+    "at": 3.0,
+    "dur": 2.5,
+    "cx": 0.5,
+    "path": "CASS OCT 2026/The Haven B Roll/20261014_C5432.MP4",
+    "drive": "1bBd6FOSNuo16PxPD2KNaWdLw6XpARRKE",
+    "layout": "full",
+    "what": "A hummingbird mural on a Haven building (visual.json).",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "CASS end card (name until the logo file is added)",
+    "kind": "end_card",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
 }
