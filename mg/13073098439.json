@@ -1,0 +1,173 @@
+{
+ "item": "13073098439",
+ "client": "cass",
+ "note": "The script asks for the hook text and eight name supers, one per person, then the end card. The WHY LEAD row is captions only.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Describe your job in one word"
+   },
+   "cue": "Hook text on frame 1: “Describe your job in one word” Already on screen at 0:00. Does not animate on.",
+   "src": "Script, row 00:00–00:03, Motion graphics & type.",
+   "rows": [
+    "00:00–00:03"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third."
+  },
+  {
+   "n": 2,
+   "title": "Nathan Smith super",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Nathan Smith"
+   },
+   "cue": "Name super at 00:03 for 3 s, lower left: “Nathan Smith” / CEO, CASS",
+   "src": "Script, row 00:03–00:07, Motion graphics & type.",
+   "rows": [
+    "00:03–00:07"
+   ],
+   "use": "Put it on at 00:03 for 3 s. Move it lower left, above the captions. Type the second line <CEO, CASS> under the name."
+  },
+  {
+   "n": 3,
+   "title": "Nicole Peña super",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Nicole Peña"
+   },
+   "cue": "Name super at 00:12 for 3 s, lower left: “Nicole Peña” / Chief Development Officer, CASS",
+   "src": "Script, row 00:12–00:18, Motion graphics & type.",
+   "rows": [
+    "00:12–00:18"
+   ],
+   "use": "Put it on at 00:12 for 3 s. Move it lower left, above the captions. Type the second line <Chief Development Officer, CASS> under the name."
+  },
+  {
+   "n": 4,
+   "title": "Gabriela super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Gabriela"
+   },
+   "cue": "Name super at 00:18 for 2 s, lower left: “Gabriela” / Shelter Support, The Haven",
+   "src": "Script, row 00:18–00:21, Motion graphics & type.",
+   "rows": [
+    "00:18–00:21"
+   ],
+   "use": "Put it on at 00:18 for 2 s. Move it lower left, above the captions. Type the second line <Shelter Support, The Haven> under the name."
+  },
+  {
+   "n": 5,
+   "title": "Richard Southee super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Richard Southee"
+   },
+   "cue": "Name super at 00:21 for 2 s, lower left: “Richard Southee” / Regional Executive Director, CASS",
+   "src": "Script, row 00:21–00:24, Motion graphics & type.",
+   "rows": [
+    "00:21–00:24"
+   ],
+   "use": "Put it on at 00:21 for 2 s. Move it lower left, above the captions. Type the second line <Regional Executive Director, CASS> under the name."
+  },
+  {
+   "n": 6,
+   "title": "Lucinda Patterson super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Lucinda Patterson"
+   },
+   "cue": "Name super at 00:24 for 2 s, lower left: “Lucinda Patterson” / Chief Financial Officer, CASS",
+   "src": "Script, row 00:24–00:27, Motion graphics & type.",
+   "rows": [
+    "00:24–00:27"
+   ],
+   "use": "Put it on at 00:24 for 2 s. Move it lower left, above the captions. Type the second line <Chief Financial Officer, CASS> under the name."
+  },
+  {
+   "n": 7,
+   "title": "Janet super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Janet"
+   },
+   "cue": "Name super at 00:27 for 2 s, lower left: “Janet” / HR Director, CASS",
+   "src": "Script, row 00:27–00:30, Motion graphics & type.",
+   "rows": [
+    "00:27–00:30"
+   ],
+   "use": "Put it on at 00:27 for 2 s. Move it lower left, above the captions. Type the second line <HR Director, CASS> under the name."
+  },
+  {
+   "n": 8,
+   "title": "Crystal Singleton super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Crystal Singleton"
+   },
+   "cue": "Name super at 00:30 for 2 s, lower left: “Crystal Singleton” / Program Manager, Vista Colina Family Shelter",
+   "src": "Script, row 00:30–00:33, Motion graphics & type.",
+   "rows": [
+    "00:30–00:33"
+   ],
+   "use": "Put it on at 00:30 for 2 s. Move it lower left, above the captions. Type the second line <Program Manager, Vista Colina Family Shelter> under the name."
+  },
+  {
+   "n": 9,
+   "title": "Bri super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Bri"
+   },
+   "cue": "Name super at 00:33 for 2 s, lower left: “Bri” / Case Manager, Vista Colina Family Shelter",
+   "src": "Script, row 00:33–00:36, Motion graphics & type.",
+   "rows": [
+    "00:33–00:36"
+   ],
+   "use": "Put it on at 00:33 for 2 s. Move it lower left, above the captions. Type the second line <Case Manager, Vista Colina Family Shelter> under the name."
+  },
+  {
+   "n": 10,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:36–00:40"
+   ],
+   "cue": "End card",
+   "src": "No CASS end card or logo file is in the repo yet (endcards/index.json has no CASS entry). The CASS name is typed in CASS navy until the logo file is added to endcards/cass/. Wording from the client file: cassaz.org.",
+   "c": {
+    "bg": "#2C2B77",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "CASS",
+    "lines": [
+     "For more information visit cassaz.org"
+    ]
+   },
+   "dur": 4.0,
+   "use": "After Bri's word at 00:36. Hold it to the end. Music fades out over 1 s."
+  }
+ ]
+}

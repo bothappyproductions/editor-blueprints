@@ -1,0 +1,126 @@
+{
+ "item": "13385185147",
+ "client": "cass",
+ "format": "16x9",
+ "note": "A 16:9 video, so every graphic is horizontal. The script asks for the hook text, one name super and four highlight lines, then the end card. Questions are heard and captioned, not drawn as cards.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook question",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "What do you wish every donor understood?"
+   },
+   "cue": "Hook text on frame 1: “What do you wish every donor understood?” Already on screen at 0:00. Does not animate on.",
+   "src": "Script, row 00:00–00:10, Motion graphics & type.",
+   "rows": [
+    "00:00–00:10"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:04. Top of the frame."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Lucinda Patterson"
+   },
+   "cue": "Name super at 00:15 for 3 s, lower left: “Lucinda Patterson” / Chief Financial Officer, CASS",
+   "src": "Script, row 00:15–00:20, Motion graphics & type.",
+   "rows": [
+    "00:15–00:20"
+   ],
+   "use": "Put it on at 00:15 for 3 s. Move it lower left, above the captions. Type the second line <Chief Financial Officer, CASS> under the name."
+  },
+  {
+   "n": 3,
+   "title": "Mission-driven",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "mission-driven, more so than driven just to make a profit"
+   },
+   "cue": "Highlight text in the top band at 00:36 for 3 s: “mission-driven, more so than driven just to make a profit”",
+   "src": "Script, row 00:26–00:44, Motion graphics & type.",
+   "rows": [
+    "00:26–00:44"
+   ],
+   "use": "Put it on when she says mission-driven, about 00:36, for 3 s. Top band. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "Clients come first",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Clients come first."
+   },
+   "cue": "Highlight text in the top band at 01:56 for 3 s: “Clients come first.”",
+   "src": "Script, row 01:48–02:12, Motion graphics & type.",
+   "rows": [
+    "01:48–02:12"
+   ],
+   "use": "Put it on as she says it, about 01:56, for 3 s. Top band. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "Not frivolously",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "It's not being used frivolously."
+   },
+   "cue": "Highlight text in the top band at 02:26 for 3 s: “It's not being used frivolously.”",
+   "src": "Script, row 02:17–02:39, Motion graphics & type.",
+   "rows": [
+    "02:17–02:39"
+   ],
+   "use": "Put it on as she says it, about 02:26, for 3 s. Top band. Keep captions on."
+  },
+  {
+   "n": 6,
+   "title": "It's fulfilling",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "It's fulfilling."
+   },
+   "cue": "Highlight text in the top band at 02:43 for 2 s: “It's fulfilling.”",
+   "src": "Script, row 02:43–02:54, Motion graphics & type.",
+   "rows": [
+    "02:43–02:54"
+   ],
+   "use": "Put it on as she says it, at 02:43, for 2 s. Top band. Keep captions on."
+  },
+  {
+   "n": 7,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "02:54–03:00"
+   ],
+   "cue": "End card",
+   "src": "No CASS end card or logo file is in the repo yet (endcards/index.json has no CASS entry). The CASS name is typed in CASS navy until the logo file is added to endcards/cass/. Wording from the client file: cassaz.org.",
+   "c": {
+    "bg": "#2C2B77",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "CASS",
+    "lines": [
+     "For more information visit cassaz.org"
+    ]
+   },
+   "dur": 4.0,
+   "use": "After her last line at 02:54. Hold it to the end. Music fades out over 1 s."
+  }
+ ]
+}

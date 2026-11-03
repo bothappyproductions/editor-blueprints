@@ -1,0 +1,61 @@
+{
+ "item": "12727618253",
+ "client": "cass",
+ "note": "The script asks for the hook text and one name super, then the end card. Every other row is captions only.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook question",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "What has fatherhood asked of you?"
+   },
+   "cue": "Hook text on frame 1: “What has fatherhood asked of you?” Already on screen at 0:00. Does not animate on.",
+   "src": "Script, row 00:00–00:10, Motion graphics & type.",
+   "rows": [
+    "00:00–00:10"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:04. Top third."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Ian Snyder"
+   },
+   "cue": "Name super at 00:22 for 3 s, lower left: “Ian Snyder” / Vista Colina Family Shelter",
+   "src": "Script, row 00:22–00:29, Motion graphics & type.",
+   "rows": [
+    "00:22–00:29"
+   ],
+   "use": "Put it on at 00:22 for 3 s. Move it lower left, above the captions, never on them. Type the second line <Vista Colina Family Shelter> under the name."
+  },
+  {
+   "n": 3,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:01–01:06"
+   ],
+   "cue": "End card",
+   "src": "No CASS end card or logo file is in the repo yet (endcards/index.json has no CASS entry). The CASS name is typed in CASS navy until the logo file is added to endcards/cass/. Wording from the client file: cassaz.org.",
+   "c": {
+    "bg": "#2C2B77",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "CASS",
+    "lines": [
+     "For more information on Vista Colina Family Shelter visit CASSAZ.org"
+    ]
+   },
+   "dur": 4.0,
+   "use": "After his last line at 01:01. Hold it to the end. Music fades out over 1 s."
+  }
+ ]
+}

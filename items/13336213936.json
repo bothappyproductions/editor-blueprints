@@ -1,0 +1,1039 @@
+{
+ "id": "13336213936",
+ "client": "cass",
+ "eyebrow": "CASS · The Haven (55+ shelter), Phoenix area · 13–14 Oct 2026 · Evergreen film",
+ "title": "The Haven:",
+ "title_q": "“A Safe Place to Rebuild”",
+ "title_short": "The Haven (55+ shelter) · Evergreen",
+ "editor": "Bleron",
+ "due": "2026-11-09",
+ "format": "16:9 only · 1920×1080 (CASS YouTube evergreen, like the Vista Colina film)",
+ "length": "about 1:45",
+ "edit_key": "CASSHavenEvergreen001",
+ "headline": "The Haven is CASS's shelter for people 55 and older, and the people who live and work there say what it gives them: safety, each other and a new beginning.",
+ "story": [
+  "Bessie carries it. She would not have been here without her dog, Lucy, and she fought to find a shelter that would take them both. The Haven did. What it gave her first was safety.",
+  "Around her: Nathan on who The Haven is for (130 units for people 55 and older), Nicole on a senior who just moved into her own apartment, Gabriela who loves coming to work, Barbara who met people who helped her. It ends on Bessie: <q>I love new beginnings. They make you strong.</q>",
+  "The building has to be full of people. Murals, balconies and the courtyard set the place; residents are filmed from behind unless they are on camera by choice."
+ ],
+ "feel": [
+  "Warm",
+  "Dignified",
+  "Hopeful",
+  "Calm"
+ ],
+ "do": [
+  "Open on Lucy and Bessie with the hook text on screen.",
+  "Use The Haven's own B-roll and drone (13–14 Oct), people over empty walls.",
+  "Lower thirds on each first on-camera line, above the captions.",
+  "Let Bessie's lines breathe; she is the heart of the film.",
+  "End on Bessie's new-beginnings line, then a wide from the air."
+ ],
+ "dont": [
+  "No downtown shelter or Vista Colina B-roll: this is The Haven only.",
+  "No dinner B-roll.",
+  "No resident's face except the people interviewed. Residents from behind.",
+  "No Barbara trust-fund lines.",
+  "No logo before the end card."
+ ],
+ "links": {
+  "brief": {
+   "title": "Editing Brief — The Haven Evergreen (Google Doc)",
+   "url": "https://docs.google.com/document/d/1UiY3pwpwUhW_Zx5bz1Rxa0kEhIEFC22MkxS6hSssMgY/edit",
+   "note": "The doc is empty. This plan is built from the transcripts and the client's goals, on the template of the Vista Colina evergreen (16:9, YouTube)."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Nick owes it (Production Planning shows Reference: Requested). The Vista Colina evergreen is the template the 6 Aug brief named."
+  },
+  "footage": {
+   "title": "CASS OCT 2026",
+   "url": "https://drive.google.com/drive/folders/1-HPTT2nPGbWU81ITExWk0Um92I_4ZXKj",
+   "note": "Interviews (Bessie, Barbara, Gabriela, Nathan, Nicole), The Haven B Roll, Bessie and Dog B Roll, The Haven Drone Shots."
+  }
+ },
+ "bp_intro": "Bites: Bessie <span class=\"mono\">20261014_C5396.MP4</span>, Barbara <span class=\"mono\">20261014_C5390.MP4</span>, Gabriela <span class=\"mono\">20261014_C5426.MP4</span>, Nathan <span class=\"mono\">20261013_C5378.MP4</span>, Nicole <span class=\"mono\">20261013_C5379.MP4</span>. Times are mm:ss in each clip, from the shoot's machine transcript (phrase times, split by word length), so trim each cut by ear. B-roll picks come from visual.json; check each on scrub.",
+ "rows": [
+  {
+   "tc": "00:00–00:06",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Open on Lucy: <a href=\"https://drive.google.com/file/d/1m6ww3KPYzfBDME1GAzX1FA0SMBXr8NCj/view\">20261014_C5391.MP4</a> <span class=\"mono\">00:12.0</span> to <span class=\"mono\">00:15.0</span>, Lucy walks along a grassy path by a fence. Then Bessie with Lucy: <a href=\"https://drive.google.com/file/d/1wXgJJeTgpUvx3oCwy4ANepcCw86Fy61O/view\">20261014_C5400.MP4</a> <span class=\"mono\">00:08.0</span> to <span class=\"mono\">00:11.0</span>, Bessie in a cap and grey hoodie holds Lucy's leash outside a purple building (visual.json). Bessie's voice over both.",
+   "motion": "Hook text on frame 1: <q>What has she meant to you?</q> Already on screen at 0:00. Does not animate on. Top of the frame. It goes out at 00:04. Captions on from frame 1.",
+   "voice": {
+    "who": "Bessie",
+    "quote": "I would not have been here if I didn't have my dog.",
+    "src": "20261014_C5396.MP4 01:16.1 to 01:21.5"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music on frame 1: warm, hopeful, gentle, licensed and cleared for YouTube. Low under the voice.",
+   "shots": [
+    {
+     "clip": "20261014_C5391.MP4",
+     "at": 12.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": null,
+     "drive": "1m6ww3KPYzfBDME1GAzX1FA0SMBXr8NCj",
+     "layout": "full",
+     "what": "Lucy walks on a grassy path"
+    },
+    {
+     "clip": "20261014_C5400.MP4",
+     "at": 8.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": null,
+     "drive": "1wXgJJeTgpUvx3oCwy4ANepcCw86Fy61O",
+     "layout": "full",
+     "what": "Bessie holds Lucy's leash outside a purple building"
+    }
+   ]
+  },
+  {
+   "tc": "00:06–00:09",
+   "beat": "THE HAVEN",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Drone: <a href=\"https://drive.google.com/file/d/11hTgWpu20MLxKyvoyICd0-mvHeUYDxtq/view\">2026-10-14-12-57-59-832.MP4</a> <span class=\"mono\">00:20.0</span> to <span class=\"mono\">00:23.0</span>, The Haven, the building with its large sign, from the air. Music lifts.",
+   "motion": "Location tag at 00:06 for 3 s, upper left: <q>The Haven</q>.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "clip": "2026-10-14-12-57-59-832.MP4",
+     "at": 20.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": null,
+     "drive": "11hTgWpu20MLxKyvoyICd0-mvHeUYDxtq",
+     "layout": "full",
+     "what": "The Haven from the air"
+    }
+   ]
+  },
+  {
+   "tc": "00:09–00:13",
+   "beat": "WHO IT IS FOR",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Nathan on camera, <a href=\"https://drive.google.com/file/d/196M1Rg9DUdwfFTALhK1OpeUT2gDALIaK/view\">20261013_C5378.MP4</a> <span class=\"mono\">05:37.5</span> (front angle; side angle <a href=\"https://drive.google.com/file/d/169_sGlkL6SnLDX7jkQiaNdDJdOWqFQ4R/view\">C4899.MP4</a> about 17 s later). Then <a href=\"https://drive.google.com/file/d/1kqNYdF-qUKxPnvkIG7ODWp2Jz3yDP7OH/view\">20261014_C5413.MP4</a> <span class=\"mono\">00:03.0</span> to <span class=\"mono\">00:06.0</span>, the building with the sign THE HAVEN under <q>55 and older</q>.",
+   "motion": "Name super at 00:09 for 2 s, lower left: <q>Nathan Smith</q> / CEO, CASS. Number pop at 00:10 in the top band: <q>130</q> units for people 55 and older.",
+   "voice": {
+    "who": "Nathan Smith",
+    "quote": "We have another 130 units for people 55 and older.",
+    "src": "20261013_C5378.MP4 05:37.5 to 05:40.4"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "We"
+    },
+    {
+     "clip": "20261014_C5413.MP4",
+     "at": 3.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": null,
+     "drive": "1kqNYdF-qUKxPnvkIG7ODWp2Jz3yDP7OH",
+     "layout": "full",
+     "what": "THE HAVEN sign on the building"
+    }
+   ]
+  },
+  {
+   "tc": "00:13–00:30",
+   "beat": "A NEW APARTMENT",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Nicole on camera, <a href=\"https://drive.google.com/file/d/1tl5QdCxrxfg2IFREXe_01RlzcEebz_X5/view\">20261013_C5379.MP4</a> <span class=\"mono\">07:36.9</span>, for the first line. Then life at The Haven, no single resident who could be mistaken for the woman she talks about: <a href=\"https://drive.google.com/file/d/1bTB18n8kYXgiOmBks6Q0y1c42adafN3J/view\">20261014_C5434.MP4</a> <span class=\"mono\">00:03.0</span> to <span class=\"mono\">00:06.5</span>, people gather on a balcony of THE HAVEN; <a href=\"https://drive.google.com/file/d/1XxDk9pkyC81eo6AenCuhKdekzIpu9duX/view\">20261014_C5406.MP4</a> <span class=\"mono\">00:04.0</span> to <span class=\"mono\">00:08.0</span>, balconies with string lights and greenery. Back to Nicole for <q>And there's so much hope here.</q>",
+   "motion": "Name super at 00:13 for 3 s, lower left: <q>Nicole Peña</q> / Chief Development Officer, CASS.",
+   "voice": {
+    "who": "Nicole Peña",
+    "quote": "We just saw a woman who was staying at our Haven get a brand new apartment for the first time. So she's a senior and had a lot of health problems. And now she has her own place. She's connected with doctors. All of these things, no longer homeless. And there's so much hope here.",
+    "src": "20261013_C5379.MP4 07:36.9 to 07:53.8"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "We"
+    },
+    {
+     "clip": "20261014_C5434.MP4",
+     "at": 3.0,
+     "dur": 3.5,
+     "cx": 0.5,
+     "path": null,
+     "drive": "1bTB18n8kYXgiOmBks6Q0y1c42adafN3J",
+     "layout": "full",
+     "what": "people on a Haven balcony"
+    },
+    {
+     "clip": "20261014_C5406.MP4",
+     "at": 4.0,
+     "dur": 4.0,
+     "cx": 0.5,
+     "path": null,
+     "drive": "1XxDk9pkyC81eo6AenCuhKdekzIpu9duX",
+     "layout": "full",
+     "what": "balconies with string lights"
+    },
+    {
+     "face": true,
+     "from_word": "And"
+    }
+   ]
+  },
+  {
+   "tc": "00:30–00:38",
+   "beat": "BESSIE AND LUCY",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Bessie on camera, <a href=\"https://drive.google.com/file/d/15RwYcM08rE_w1519zaaKACaLmZ9rbybE/view\">20261014_C5396.MP4</a> <span class=\"mono\">02:30.1</span>. Her face is the picture here.",
+   "motion": "Name super at 00:30 for 3 s, lower left: <q>Bessie</q> / Resident, The Haven.",
+   "voice": {
+    "who": "Bessie",
+    "quote": "There's no way that I would be separated from my dog. It would be like losing my arms or my legs. There's no way.",
+    "src": "20261014_C5396.MP4 02:30.1 to 02:38.0"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "There's"
+    }
+   ]
+  },
+  {
+   "tc": "00:38–00:57",
+   "beat": "SHE FOUGHT FOR IT",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "The pet side of The Haven: <a href=\"https://drive.google.com/file/d/13ixthdjFJdA-jWyzyFo-AnmD8RJGQXZ5/view\">20261014_C5435.MP4</a> <span class=\"mono\">00:02.5</span> to <span class=\"mono\">00:06.0</span>, a green lawn with a dog station; <a href=\"https://drive.google.com/file/d/10UAblni0QbZKu83OZgcLQWcLTPnKjAUm/view\">20261014_C5436.MP4</a> <span class=\"mono\">00:02.5</span> to <span class=\"mono\">00:05.5</span>, a sign asking pet owners to clean up; <a href=\"https://drive.google.com/file/d/1JjEi45mMZwtfXHobmxmxMwiLwWy3ig61/view\">20261014_C5392.MP4</a> <span class=\"mono\">00:04.0</span> to <span class=\"mono\">00:08.0</span>, Bessie on a bench with Lucy beside her. Back to Bessie on <q>this was where I wanted to be</q>.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Bessie",
+    "quote": "I knew that it was possible to have a dog in a shelter and I fought like crazy to find the best one that I could for both she and I. And I bugged them like crazy here until I got accepted because I knew this was where I wanted to be.",
+    "src": "20261014_C5396.MP4 02:38.0 to 02:56.7"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "clip": "20261014_C5435.MP4",
+     "at": 2.5,
+     "dur": 3.5,
+     "cx": 0.5,
+     "path": null,
+     "drive": "13ixthdjFJdA-jWyzyFo-AnmD8RJGQXZ5",
+     "layout": "full",
+     "what": "lawn with a dog station"
+    },
+    {
+     "clip": "20261014_C5436.MP4",
+     "at": 2.5,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": null,
+     "drive": "10UAblni0QbZKu83OZgcLQWcLTPnKjAUm",
+     "layout": "full",
+     "what": "pet clean-up sign"
+    },
+    {
+     "clip": "20261014_C5392.MP4",
+     "at": 4.0,
+     "dur": 4.0,
+     "cx": 0.5,
+     "path": null,
+     "drive": "1JjEi45mMZwtfXHobmxmxMwiLwWy3ig61",
+     "layout": "full",
+     "what": "Bessie on a bench with Lucy"
+    },
+    {
+     "face": true,
+     "from_word": "because"
+    }
+   ]
+  },
+  {
+   "tc": "00:57–01:09",
+   "beat": "SAFETY",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Courtyard: <a href=\"https://drive.google.com/file/d/1f5xeIh46gmpFiFUIHVM5OfWxqAD3jhBZ/view\">20261014_C5401.MP4</a> <span class=\"mono\">00:06.0</span> to <span class=\"mono\">00:11.0</span>, the courtyard with the hummingbird mural, string lights and seating; <a href=\"https://drive.google.com/file/d/1n2N8nKTwEJU3MGYv0j1whRUNvh7bHOry/view\">20261014_C5441.MP4</a> <span class=\"mono\">00:02.0</span> to <span class=\"mono\">00:06.0</span>, colourful buildings, string lights and trees. Back to Bessie on <q>we had safety</q>.",
+   "motion": "Highlight text in the top band at 01:05 for 3 s: <q>The main thing is that we had safety</q>.",
+   "voice": {
+    "who": "Bessie",
+    "quote": "It was wonderful. It took me a couple days at least to appreciate that we had food and shelter. The main thing is that we had safety,",
+    "src": "20261014_C5396.MP4 04:59.2 to 05:11.1"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "clip": "20261014_C5401.MP4",
+     "at": 6.0,
+     "dur": 5.0,
+     "cx": 0.5,
+     "path": null,
+     "drive": "1f5xeIh46gmpFiFUIHVM5OfWxqAD3jhBZ",
+     "layout": "full",
+     "what": "courtyard, mural, string lights"
+    },
+    {
+     "clip": "20261014_C5441.MP4",
+     "at": 2.0,
+     "dur": 4.0,
+     "cx": 0.5,
+     "path": null,
+     "drive": "1n2N8nKTwEJU3MGYv0j1whRUNvh7bHOry",
+     "layout": "full",
+     "what": "courtyard, colourful buildings"
+    },
+    {
+     "face": true,
+     "from_word": "The"
+    }
+   ]
+  },
+  {
+   "tc": "01:09–01:14",
+   "beat": "THE STAFF",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Gabriela on camera, <a href=\"https://drive.google.com/file/d/1Zv74FxRnTsc2L7W1cGO0JiZipziH2rzf/view\">20261014_C5426.MP4</a> <span class=\"mono\">07:54.2</span>.",
+   "motion": "Name super at 01:09 for 3 s, lower left: <q>Gabriela</q> / Shelter Support, The Haven. First name only.",
+   "voice": {
+    "who": "Gabriela",
+    "quote": "It's not even a job because I love coming to work, you know, I love being around coworkers,",
+    "src": "20261014_C5426.MP4 07:54.2 to 07:59.0"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "It's"
+    }
+   ]
+  },
+  {
+   "tc": "01:14–01:27",
+   "beat": "WE NEED EACH OTHER",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Residents filmed from behind: <a href=\"https://drive.google.com/file/d/1CJLnUMV6Kii093ezE5ug7apnOVLqx78O/view\">20261014_C5420.MP4</a> <span class=\"mono\">00:04.0</span> to <span class=\"mono\">00:08.0</span>, a resident in a striped shirt walks away past the purple building; <a href=\"https://drive.google.com/file/d/1TPVdExL0X4y2mvn1g2Rbfp4QYdSqP28k/view\">20261014_C5422.MP4</a> <span class=\"mono\">00:03.0</span> to <span class=\"mono\">00:07.0</span>, a resident walks the path past the mural. Back to Bessie for <q>to move forward</q>.",
+   "motion": "Highlight text in the top band at 01:20 for 3 s: <q>We need the strength of each other to move forward</q>.",
+   "voice": {
+    "who": "Bessie",
+    "quote": "everybody has their own story of hardship, but we all need each other. We need the strength of each other to move forward,",
+    "src": "20261014_C5396.MP4 06:00.2 to 06:12.8"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "clip": "20261014_C5420.MP4",
+     "at": 4.0,
+     "dur": 4.0,
+     "cx": 0.5,
+     "path": null,
+     "drive": "1CJLnUMV6Kii093ezE5ug7apnOVLqx78O",
+     "layout": "full",
+     "what": "resident walks away, purple building"
+    },
+    {
+     "clip": "20261014_C5422.MP4",
+     "at": 3.0,
+     "dur": 4.0,
+     "cx": 0.5,
+     "path": null,
+     "drive": "1TPVdExL0X4y2mvn1g2Rbfp4QYdSqP28k",
+     "layout": "full",
+     "what": "resident walks past the mural"
+    },
+    {
+     "face": true,
+     "from_word": "to"
+    }
+   ]
+  },
+  {
+   "tc": "01:27–01:31",
+   "beat": "NICE PEOPLE",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Barbara on camera, <a href=\"https://drive.google.com/file/d/1Yv9uQqkxm6ZGl1RR6fMfiu2g8OW7g1UJ/view\">20261014_C5390.MP4</a> <span class=\"mono\">03:27.6</span>. Start on <q>But I've also met</q>.",
+   "motion": "Name super at 01:27 for 3 s, lower left: <q>Barbara</q> / Resident, The Haven.",
+   "voice": {
+    "who": "Barbara",
+    "quote": "But I've also met a lot of nice people that have helped me along the way too.",
+    "src": "20261014_C5390.MP4 03:27.6 to 03:31.2"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "But"
+    }
+   ]
+  },
+  {
+   "tc": "01:31–01:39",
+   "beat": "BUTTON",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Bessie on camera for the line. On <q>They make you strong</q> go wide from the air: <a href=\"https://drive.google.com/file/d/11hTgWpu20MLxKyvoyICd0-mvHeUYDxtq/view\">2026-10-14-12-57-59-832.MP4</a> <span class=\"mono\">00:50.0</span> to <span class=\"mono\">00:54.0</span>, the courtyard and the colourful mural on the roof.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Bessie",
+    "quote": "It's a new beginning and I feel very excited about it because I love new beginnings. They make you strong.",
+    "src": "20261014_C5396.MP4 07:51.4 to 07:59.2"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music lifts, then resolves into the end card.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "It's"
+    },
+    {
+     "clip": "2026-10-14-12-57-59-832.MP4",
+     "at": 50.0,
+     "dur": 4.0,
+     "cx": 0.5,
+     "path": null,
+     "drive": "11hTgWpu20MLxKyvoyICd0-mvHeUYDxtq",
+     "layout": "full",
+     "what": "courtyard and roof mural from the air"
+    }
+   ]
+  },
+  {
+   "tc": "01:39–01:45",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "End card on CASS navy <span class=\"mono\">#2C2B77</span>: CASS logo, then the line.",
+   "motion": "End card: CASS logo with the line <q>For more information visit cassaz.org</q>. The logo is here only.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music out, 1 s fade."
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Interview clips",
+   "<a href=\"https://drive.google.com/file/d/15RwYcM08rE_w1519zaaKACaLmZ9rbybE/view\">20261014_C5396.MP4</a> Bessie · <a href=\"https://drive.google.com/file/d/1Yv9uQqkxm6ZGl1RR6fMfiu2g8OW7g1UJ/view\">20261014_C5390.MP4</a> Barbara · <a href=\"https://drive.google.com/file/d/1Zv74FxRnTsc2L7W1cGO0JiZipziH2rzf/view\">20261014_C5426.MP4</a> Gabriela · <a href=\"https://drive.google.com/file/d/196M1Rg9DUdwfFTALhK1OpeUT2gDALIaK/view\">20261013_C5378.MP4</a> Nathan · <a href=\"https://drive.google.com/file/d/1tl5QdCxrxfg2IFREXe_01RlzcEebz_X5/view\">20261013_C5379.MP4</a> Nicole"
+  ],
+  [
+   "B-roll folders",
+   "<a href=\"https://drive.google.com/drive/folders/1iF58ek9-YgW_DjdwvcUvMmXgXgiF51Vf\">The Haven B Roll</a> · <a href=\"https://drive.google.com/drive/folders/1Ktw4FfigWGrLbshQWVC8tFaW_bM5NUJU\">Bessie and Dog B Roll</a> · <a href=\"https://drive.google.com/drive/folders/1mnBsEqiSaGjc0yIKzfM64EyWXglBnp7Y\">The Haven Drone Shots</a>"
+  ],
+  [
+   "B-roll picks",
+   "<a href=\"https://drive.google.com/file/d/1m6ww3KPYzfBDME1GAzX1FA0SMBXr8NCj/view\">20261014_C5391.MP4</a> · <a href=\"https://drive.google.com/file/d/1wXgJJeTgpUvx3oCwy4ANepcCw86Fy61O/view\">20261014_C5400.MP4</a> · <a href=\"https://drive.google.com/file/d/11hTgWpu20MLxKyvoyICd0-mvHeUYDxtq/view\">2026-10-14-12-57-59-832.MP4</a> · <a href=\"https://drive.google.com/file/d/1kqNYdF-qUKxPnvkIG7ODWp2Jz3yDP7OH/view\">20261014_C5413.MP4</a> · <a href=\"https://drive.google.com/file/d/1bTB18n8kYXgiOmBks6Q0y1c42adafN3J/view\">20261014_C5434.MP4</a> · <a href=\"https://drive.google.com/file/d/1XxDk9pkyC81eo6AenCuhKdekzIpu9duX/view\">20261014_C5406.MP4</a> · <a href=\"https://drive.google.com/file/d/13ixthdjFJdA-jWyzyFo-AnmD8RJGQXZ5/view\">20261014_C5435.MP4</a> · <a href=\"https://drive.google.com/file/d/10UAblni0QbZKu83OZgcLQWcLTPnKjAUm/view\">20261014_C5436.MP4</a> · <a href=\"https://drive.google.com/file/d/1JjEi45mMZwtfXHobmxmxMwiLwWy3ig61/view\">20261014_C5392.MP4</a> · <a href=\"https://drive.google.com/file/d/1f5xeIh46gmpFiFUIHVM5OfWxqAD3jhBZ/view\">20261014_C5401.MP4</a> · <a href=\"https://drive.google.com/file/d/1n2N8nKTwEJU3MGYv0j1whRUNvh7bHOry/view\">20261014_C5441.MP4</a> · <a href=\"https://drive.google.com/file/d/1CJLnUMV6Kii093ezE5ug7apnOVLqx78O/view\">20261014_C5420.MP4</a> · <a href=\"https://drive.google.com/file/d/1TPVdExL0X4y2mvn1g2Rbfp4QYdSqP28k/view\">20261014_C5422.MP4</a>"
+  ],
+  [
+   "Transcripts",
+   "<a href=\"https://drive.google.com/file/d/1F0QpMep4JDngjiXBso6DyrSxizlpsUvN/view\">output.json</a> · <a href=\"https://drive.google.com/file/d/1y5FVir7xDb2GbrYgmVB_9G38CDznMvfP/view\">CASS OCT 2026.srt</a> (EditTranscripts)"
+  ],
+  [
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/1yFn3puM_45DRlc1dVsiJ6GAqeHeTDtBZ/view\">visual.json</a> (shoot level). Picks are from it; check them on scrub."
+  ],
+  [
+   "Template",
+   "CASS Evergreen — Vista Colina Family Shelter (YouTube), Monday 12731596620: 16:9, lower thirds, CASS end card."
+  ],
+  [
+   "Brand graphics package",
+   "CASS has no graphics package folder yet. Use the Motion graphics tab of this page (CASS colours, Work Sans)."
+  ],
+  [
+   "Brand",
+   "Work Sans (captions and type). CASS navy <span class=\"mono\">#2C2B77</span>, green <span class=\"mono\">#26B485</span>, blue <span class=\"mono\">#006C9F</span>, purple <span class=\"mono\">#7E3F98</span>, light <span class=\"mono\">#EEEEF1</span>. CASS always in capitals."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "Interview front angles and Haven B-roll: 1920×1080 at 59.94 fps. Side angles (C49xx): 1920×1080 at 23.976 fps. Drone: 1280×720 at about 24 fps in visual.json (may be a proxy; probe on import)."
+  ],
+  [
+   "Timeline",
+   "1920×1080 at <b>23.976 fps</b>. Conform the 59.94 fps clips (slow motion is fine on B-roll)."
+  ],
+  [
+   "Crop",
+   "No crop on the interviews. A gentle push-in on drone shots if they are 720p."
+  ],
+  [
+   "Audio",
+   "Recorded into the camera. Bessie's clip has Lucy nearby: clean any dog noise under her lines."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. Music under every voice."
+  ],
+  [
+   "Captions",
+   "Burned in. White Work Sans on the CASS navy <span class=\"mono\">#2C2B77</span> box, low in the frame, max 2 lines. Captions stay on under the lower thirds and never overlap them. CASS in capitals."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1920×1080, 16:9 only. Music cleared for YouTube."
+  ]
+ ],
+ "checklist": [
+  "Frame 1: Lucy and the hook text. No logo, no name before 00:06.",
+  "Only The Haven's footage: no downtown, no Vista Colina, no dinner.",
+  "Lower thirds: Nathan Smith, Nicole Peña, Bessie, Gabriela, Barbara, spelled as here.",
+  "Residents filmed from behind, except Bessie and Barbara.",
+  "The number is 130 units for people 55 and older, as Nathan says it.",
+  "Music cleared for YouTube.",
+  "CASS in capitals. 1920×1080 only."
+ ],
+ "decisions": [
+  {
+   "t": "Brief doc is empty",
+   "b": "The linked editing brief has no text. This plan follows the client's goals and the Vista Colina evergreen template. Nick to confirm the story (Bessie as the heart) before the cut."
+  },
+  {
+   "t": "Releases",
+   "b": "Bessie and Barbara are on camera. Zsirai brought the release clipboard to the shoot; confirm both are signed for YouTube."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> CASS asked for two evergreen YouTube films, one per shelter. Vista Colina is done; this is The Haven's, from the first shoot HP has ever done there.",
+ "ask_examples": [
+  "Can I use the Vista Colina B-roll?",
+  "Who gets a lower third?",
+  "Which drone shot opens The Haven?",
+  "Can I show residents' faces?"
+ ],
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "She just turned approximately eight. I've had her about seven years.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 00:32.5."
+   },
+   {
+    "quote": "She's been very loving, very concerned, but she didn't know what food was.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 00:47.8."
+   },
+   {
+    "quote": "Whenever I lost everything else, I still had my dog.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 01:36.7."
+   },
+   {
+    "quote": "I've always been an animal person since I was a tiny, tiny child.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 03:36.4."
+   },
+   {
+    "quote": "If you're a good person, don't give that good side up.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 07:35.4."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "At our downtown shelter, we have 600 beds for people who are experiencing homelessness.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Nathan Smith, same interview. Source 05:32.8."
+   },
+   {
+    "quote": "When people come to CASS, I hope they experience something like this.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Nathan Smith, same interview. Source 06:14.8."
+   },
+   {
+    "quote": "But they started here at the downtown shelter with the 600 beds.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Nathan Smith, same interview. Source 06:30.4."
+   },
+   {
+    "quote": "So we brought her in here. She had a safe place to stay.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Nathan Smith, same interview. Source 07:02.8."
+   },
+   {
+    "quote": "Then she transferred over to The Haven.",
+    "who": "Nathan Smith",
+    "file": "20261013_C5378.MP4",
+    "why": "Nathan Smith, same interview. Source 07:05.5."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "And so I know that sometimes the problem seems overwhelming, and it seems almost like it's too much for just an individual to handle. But coming together as a community, I just don't want people to get discouraged, because we see those miracles every day.",
+    "who": "Nicole Peña",
+    "file": "20261013_C5379.MP4",
+    "why": "Nicole Peña, same interview. Source 07:20.4."
+   },
+   {
+    "quote": "We don't just think of them as a donor. But they really quickly become integrated into the solutions that we feel we need to have in our toolkit to help people get into a safe place to live.",
+    "who": "Nicole Peña",
+    "file": "20261013_C5379.MP4",
+    "why": "Nicole Peña, same interview. Source 08:16.0."
+   },
+   {
+    "quote": "So you think when someone donates to CASS, they're becoming part of our larger family. They're becoming part of an army of supporters who really see the solutions for the unhoused.",
+    "who": "Nicole Peña",
+    "file": "20261013_C5379.MP4",
+    "why": "Nicole Peña, same interview. Source 08:44.8."
+   },
+   {
+    "quote": "And so we like to think that we take their donations and we stretch them as far as we can go. We have community folks that give us sheets and towels from hotels.",
+    "who": "Nicole Peña",
+    "file": "20261013_C5379.MP4",
+    "why": "Nicole Peña, same interview. Source 08:58.5."
+   },
+   {
+    "quote": "And they get to be a part of that. And I hope in my heart of hearts that we communicate not only our gratitude and our thanks, but also the impact of the work, the impact that they're having on the lives.",
+    "who": "Nicole Peña",
+    "file": "20261013_C5379.MP4",
+    "why": "Nicole Peña, same interview. Source 09:26.7."
+   },
+   {
+    "quote": "We have another 130 at the Haven Shelter for Seniors. And then we have 30 families that are at Vista Colina. And when I think about that impact, I think of all the people allowing",
+    "who": "Nicole Peña",
+    "file": "20261013_C5379.MP4",
+    "why": "Nicole Peña, same interview. Source 09:48.3."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "And she's been interested. She's been very loving, very concerned, but she didn't know what food was. She didn't know what a person was.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 00:45.4."
+   },
+   {
+    "quote": "She is always here for me. When everybody else maybe has have left or called me a bad person, my dog still loves me.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 01:55.6."
+   },
+   {
+    "quote": "I've always been an animal person since I was a tiny, tiny child. I've had horses, dogs, cats. You name it, I've had it.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 03:36.4."
+   },
+   {
+    "quote": "I've always worked six and seven days a week. I've worked since I was 12 years old. All of a sudden, I lost everything.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 04:29.4."
+   },
+   {
+    "quote": "We had finally safety and it gave me a new platform to build on. We are building and we are moving forward.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 05:18.6."
+   },
+   {
+    "quote": "It's tough, really tough, but it's also the strongest and best thing that you can ever do for yourself. I enjoyed this conversation.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 06:31.3."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "She's been very loving, very concerned, but she didn't know what food was. She didn't know what a person was. She lived on birds and rabbits and was severely mistreated, so I'm very happy to have her.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 00:47.8."
+   },
+   {
+    "quote": "She is always here for me. When everybody else maybe has have left or called me a bad person, my dog still loves me. She's what I need to get through rough times and I would be lost without her.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 01:55.6."
+   },
+   {
+    "quote": "It would be losing a big part of my soul if I would have had to leave my dog. It would be losing probably the kindest part of myself to leave my dog. I could not make it without it.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 03:18.3."
+   },
+   {
+    "quote": "You name it, I've had it. I need the understanding of a dog, of an animal, to go on in this world, to have purpose in my life, to have a meaning. I'm probably going to back up a lot.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 03:44.4."
+   },
+   {
+    "quote": "Well, when I had to be on the streets with my dog, I had a car at the time. I had to stay in my car with my dog and I knew that this couldn't be. I've always worked six and seven days a week.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 04:20.3."
+   },
+   {
+    "quote": "I would have never foreseen this ever, but here I am and you just have to learn to take the good. You have to take the bad with the good, but take the good and build on it.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 07:18.6."
+   }
+  ],
+  "bite:6": [
+   {
+    "quote": "I've had her about seven years. She came from the reservation, so it's a toss-up who rescued whom, but I think we rescued each other.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 00:35.2."
+   },
+   {
+    "quote": "I could not make it without it. I've always been an animal person since I was a tiny, tiny child. I've had horses, dogs, cats.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 03:32.2."
+   },
+   {
+    "quote": "I need the understanding of a dog, of an animal, to go on in this world, to have purpose in my life, to have a meaning.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 03:47.4."
+   },
+   {
+    "quote": "I had to stay in my car with my dog and I knew that this couldn't be. I've always worked six and seven days a week.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 04:24.2."
+   },
+   {
+    "quote": "All of a sudden, I lost everything. I knew that I had to find a place for both she and I so we could reset and move forward.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 04:35.0."
+   },
+   {
+    "quote": "Don't be afraid to ask for help. It's tough, really tough, but it's also the strongest and best thing that you can ever do for yourself.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 06:28.0."
+   }
+  ],
+  "bite:7": [
+   {
+    "quote": "It's a gratitude beyond, you know, I'm just very grateful, very happy, very, it's such a fulfilling job.",
+    "who": "Gabriela",
+    "file": "20261014_C5426.MP4",
+    "why": "Gabriela, same interview. Source 07:43.8."
+   },
+   {
+    "quote": "And like my heart just like overfills with joy and tears of joy come out, you know, when I'm by myself doing my notes.",
+    "who": "Gabriela",
+    "file": "20261014_C5426.MP4",
+    "why": "Gabriela, same interview. Source 08:11.7."
+   },
+   {
+    "quote": "My courage, my courage that I kept going and I didn't allow my circumstances to dictate who I was and who I am evolving and being.",
+    "who": "Gabriela",
+    "file": "20261014_C5426.MP4",
+    "why": "Gabriela, same interview. Source 08:32.5."
+   }
+  ],
+  "bite:8": [
+   {
+    "quote": "She came from the reservation, so it's a toss-up who rescued whom, but I think we rescued each other. And she's been interested.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 00:37.6."
+   },
+   {
+    "quote": "She didn't know what a person was. She lived on birds and rabbits and was severely mistreated, so I'm very happy to have her.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 00:53.6."
+   },
+   {
+    "quote": "She is always here for me. When everybody else maybe has have left or called me a bad person, my dog still loves me.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 01:55.6."
+   },
+   {
+    "quote": "I've always been an animal person since I was a tiny, tiny child. I've had horses, dogs, cats. You name it, I've had it.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 03:36.4."
+   },
+   {
+    "quote": "I've always worked six and seven days a week. I've worked since I was 12 years old. All of a sudden, I lost everything.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 04:29.4."
+   },
+   {
+    "quote": "It's tough, really tough, but it's also the strongest and best thing that you can ever do for yourself. I enjoyed this conversation.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 06:31.3."
+   }
+  ],
+  "bite:9": [
+   {
+    "quote": "Very difficult situation. I mean, I have to have food, but I also have to have medication.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Barbara, same interview. Source 00:32.2."
+   },
+   {
+    "quote": "Oh, yeah, basic necessities are like shampoo, conditioner, that. You don't want to go out.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Barbara, same interview. Source 01:18.8."
+   },
+   {
+    "quote": "What people don't understand that have never been homeless is that everybody has a story.",
+    "who": "Barbara",
+    "file": "20261014_C5390.MP4",
+    "why": "Barbara, same interview. Source 01:52.2."
+   }
+  ],
+  "bite:10": [
+   {
+    "quote": "She came from the reservation, so it's a toss-up who rescued whom, but I think we rescued each other.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 00:37.6."
+   },
+   {
+    "quote": "She's been very loving, very concerned, but she didn't know what food was. She didn't know what a person was.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 00:47.8."
+   },
+   {
+    "quote": "It would be losing a big part of my soul if I would have had to leave my dog.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 03:18.3."
+   },
+   {
+    "quote": "I could not make it without it. I've always been an animal person since I was a tiny, tiny child.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 03:32.2."
+   },
+   {
+    "quote": "Well, when I had to be on the streets with my dog, I had a car at the time.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 04:20.3."
+   },
+   {
+    "quote": "I knew that I had to find a place for both she and I so we could reset and move forward.",
+    "who": "Bessie",
+    "file": "20261014_C5396.MP4",
+    "why": "Bessie, same interview. Source 04:37.9."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "What has she meant to you?",
+    "line": "I would not have been here if I didn't have my dog.",
+    "why": "Bessie and Lucy: a picture and a promise in one line."
+   },
+   {
+    "text": "A safe place to rebuild",
+    "line": "We had finally safety and it gave me a new platform to build on.",
+    "why": "The Haven's job in one line."
+   },
+   {
+    "text": "We all need each other",
+    "line": "everybody has their own story of hardship, but we all need each other.",
+    "why": "Community, in a resident's words."
+   },
+   {
+    "text": "I love new beginnings",
+    "line": "It's a new beginning and I feel very excited about it because I love new beginnings.",
+    "why": "Hopeful from frame 1, pays off at the end."
+   },
+   {
+    "text": "There's so much hope here",
+    "line": "And there's so much hope here.",
+    "why": "Nicole's line as the promise of the film."
+   }
+  ]
+ },
+ "transcript": "Machine transcripts (output.json, CASS OCT 2026 › EditingResources › EditTranscripts). Times are mm:ss from the first frame of each clip. The interviewer is off camera. Bessie and Barbara are in full; Nathan, Nicole and Gabriela are the parts about The Haven. The recogniser writes Cass: on screen it is always CASS.\n\n--- 20261014_C5396.MP4 — Bessie\n[00:00.0] Okay now we're good. Okay can you start with your first name?\n[00:03.5] Bessie. B-E-S-S-I-E. And you can look at me when you answer too, Bessie. Thank you.\n[00:14.7] Come here, Lucy. Okay. So tell me a little bit about your dog. What's her name and\n[00:28.8] how did you two find each other? Lucy is a rescue. She just turned approximately eight. I've had her\n[00:36.2] about seven years. She came from the reservation, so it's a toss-up who rescued whom, but I think\n[00:43.4] we rescued each other. And she's been interested. She's been very loving, very concerned, but she\n[00:52.1] didn't know what food was. She didn't know what a person was. She lived on\n[01:00.2] birds and rabbits and was severely mistreated, so I'm very happy to have her. Very happy. She's my\n[01:09.9] buddy. And what has she meant to you during these most difficult moments? I would not have been here\n[01:18.7] if I didn't have my dog. I needed her so I could stay grounded, to give me purpose,\n[01:29.0] to give me someone to talk to. I needed her more than anything else in this world.\n[01:36.7] Whenever I lost everything else, I still had my dog. I still have my Lucy. I love Lucy.\n[01:46.2] What do you think your dog has given you emotionally that you maybe may have not found\n[01:51.7] anywhere else? Unconditional support. She is always here for me. When everybody else maybe\n[02:01.3] has have left or called me a bad person, my dog still loves me. She's what I need\n[02:12.4] to get through rough times and I would be lost without her. And when you were told that you may\n[02:24.7] have to separate from your dog to enter shelter, what ran through your mind? There's no way that I\n[02:31.9] would be separated from my dog. It would be like losing my arms or my legs. There's no way. I knew\n[02:39.1] that it was possible to have a dog in a shelter and I fought like crazy to find the best one that\n[02:45.8] I could for both she and I. And I bugged them like crazy here until I got accepted because\n[02:53.6] I knew this was where I wanted to be. I could not be without my dog. She's my person. I love that.\n[03:02.8] What do you wish people understood about why leaving your dog behind wasn't a simple option?\n[03:18.3] It would be losing a big part of my soul if I would have had to leave my dog. It would be\n[03:25.5] losing probably the kindest part of myself to leave my dog. I could not make it without it.\n[03:36.4] I've always been an animal person since I was a tiny, tiny child. I've had horses, dogs, cats.\n[03:44.4] You name it, I've had it. I need the understanding of a dog, of an animal,\n[03:54.9] to go on in this world, to have purpose in my life, to have a meaning.\n[04:02.8] I'm probably going to back up a lot. When did you first have to come to shelter or\n[04:11.2] find shelter? What was that life altering moment? What was that like at the moment? What was the\n[04:17.2] life altering moment that you ended up having to come to shelter? Well, when I had to be on the\n[04:21.8] streets with my dog, I had a car at the time.\n[04:24.2] I had to stay in my car with my dog and I knew that\n[04:28.2] this couldn't be. I've always worked six and seven days a week. I've worked since I was 12 years old.\n[04:35.0] All of a sudden, I lost everything. I knew that I had to find a place for both she and I\n[04:43.4] so we could reset and move forward. What did it mean to you that you and your dog finally had\n[04:56.4] a safe place to rebuild again? It was wonderful. It took me a couple days at least to\n[05:06.1] appreciate that we had food and shelter. The main thing is that we had safety, that people couldn't\n[05:12.4] come in here and hurt us or take us away. We had finally safety and it gave me a new platform to\n[05:27.6] build on. We are building and we are moving forward. What would you want other people in\n[05:37.2] similar situations to know about asking for help? Asking for help can be the hardest thing to do,\n[05:51.7] but it is the most rewarding thing to do. I've learned from everybody that is living here with me,\n[06:00.2] everybody has their own story of hardship, but we all need each other. We need the strength of\n[06:10.1] each other to move forward, to create a life that change is possible, that we are strong,\n[06:19.0] that together especially we have not lost our human spark and that it makes us stronger.\n[06:28.0] Don't be afraid to ask for help. It's tough, really tough, but it's also the strongest and\n[06:37.1] best thing that you can ever do for yourself. I enjoyed this conversation. You seemed very wise\n[06:44.2] and what you've had to say was very powerful. If I were you 30, 20 years ago,\n[06:49.9] what would you say to me? I would have never seen myself in this situation,\n[06:56.1] but what I would say to myself is it only takes one or two bad mistakes or bad choices or bad\n[07:06.9] people in your life to completely change everything and it will throw you into a situation\n[07:15.2] that you just had no idea that was coming. I would have never foreseen this ever, but here I am\n[07:23.7] and you just have to learn to take the good. You have to take the bad with the good,\n[07:31.1] but take the good and build on it. Be stronger. If you're a good person, don't give that good side\n[07:40.2] up. Just keep being a good person and through hard work you can rebuild your life. It's a new\n[07:52.9] beginning and I feel very excited about it because I love new beginnings. They make you strong.\n[07:59.3] Thank you. All good? Yeah, it was good.\n\n--- 20261014_C5390.MP4 — Barbara\n[00:00.0] White lens, no.\n[00:01.6] All right, it's all right, we're good to go.\n[00:03.6] OK.\n[00:05.4] And you can just look right in here when you answer.\n[00:07.7] And I'll be here, too.\n[00:08.6] OK, I'll just make eye contact with you, no?\n[00:11.2] Yeah, that works.\n[00:13.2] OK, Barbara, we recently shared your story\n[00:15.4] about difficult choices you face between food assistance,\n[00:19.2] Medicaid, and getting the medication you needed.\n[00:21.8] I want to talk a little more about that experience.\n[00:24.9] Can you take us back to that moment, what\n[00:27.1] was going through your head when you realized\n[00:28.9] you had to choose between medicine and food?\n[00:32.2] Very difficult situation.\n[00:33.4] I mean, I have to have food, but I also have to have medication.\n[00:37.3] Medication is more important.\n[00:39.2] So I have to buy the medication.\n[00:43.2] I do without food.\n[00:45.1] I actually go to the food banks, too, occasionally.\n[00:49.4] And do you have transportation?\n[00:51.4] Can you talk about how difficult that may be when\n[00:53.7] you don't have transportation?\n[00:55.4] I have no transportation.\n[00:57.7] It's hard for me to walk because I have stomach issues.\n[01:00.6] So yeah, I pay for an Uber or Lyft, occasionally.\n[01:06.4] But that also gets expensive, so I really\n[01:08.6] have no transportation.\n[01:11.6] How did having to choose between basic necessities\n[01:15.9] affect your health and your everyday life?\n[01:18.8] Oh, yeah, basic necessities are like shampoo, conditioner,\n[01:21.3] that.\n[01:21.9] You don't want to go out.\n[01:22.7] You don't want to do anything because you\n[01:24.7] feel like you are feeling up to par or like you fit in.\n[01:28.9] So basic necessities are very important.\n[01:32.6] What do you wish people understood\n[01:34.1] about the difficult decisions people experiencing homelessness\n[01:37.8] have to make just to survive?\n[01:40.5] OK, can you repeat that one more time?\n[01:42.0] I'm sorry.\n[01:42.6] What do you wish people understood\n[01:45.6] about the difficult decisions people experiencing homelessness\n[01:49.5] have to make just to survive?\n[01:52.2] What people don't understand that have never been homeless\n[01:54.3] is that everybody has a story.\n[01:58.0] Mine have been, I'm a little bit different, but I do have people.\n[02:02.0] I have a trust fund. [do not use: trust fund lines]\n[02:04.9] But the people that are doing my trust fund won't help me. [do not use: trust fund lines]\n[02:07.3] So the homelessness that they could care less about, [do not use: trust fund lines]\n[02:10.5] I just wish people would get it out there more\n[02:12.3] about homeless people, that they're not all drug addicts.\n[02:14.9] They're here for other reasons.\n[02:17.5] They lost their home, medical issues, different stories.\n[02:21.4] And that's what people need to hear is the true stories,\n[02:24.8] not that they're drug addicts or they\n[02:27.4] choose to be on the streets.\n[02:28.6] Because there's a lot of us here.\n[02:30.8] A lot of people here have medical issues,\n[02:33.1] and it's caused them, pushed them out of their apartments\n[02:35.7] and their homes.\n[02:37.1] If you could speak directly to someone\n[02:38.8] facing the same choices today, what\n[02:41.3] would you want them to know?\n[02:43.6] It's a rough life.\n[02:45.0] Once you're in the system, it's hard to get out\n[02:47.0] of if you don't have the help out there, which\n[02:49.1] I've been blessed with this place helping me.\n[02:52.4] But I still feel like I'm stuck.\n[02:55.7] It's hard to get out of it.\n[02:56.8] So avoid trying to become homeless\n[02:59.1] because it's a rough life.\n[03:01.8] It ages you too.\n[03:04.1] I turned gray being homeless.\n[03:06.6] But it's just not easy life.\n[03:11.2] And maybe if you're comfortable sharing,\n[03:13.0] what is the hardest part about your experience\n[03:14.8] that you may rarely talk about?\n[03:18.3] That's a hard one because I've been through a lot of stuff [do not use: she does not want to get into it]\n[03:20.4] and I feel like people have been after me. [do not use: she does not want to get into it]\n[03:25.6] Long story, I don't want to get into it. [do not use: she does not want to get into it]\n[03:27.6] But I've also met a lot of nice people\n[03:30.1] that have helped me along the way too.\n[03:33.5] I just say, hang in there.\n[03:35.8] Take day by day.\n[03:37.8] Don't give up because there is help out there.\n[03:40.8] And your life will come together again if you're patient.\n[03:44.9] Thank you for sharing.\n[03:47.5] Did you OK?\n[03:48.1] I mean.\n[03:48.6] Yeah, you did awesome.\n[03:49.6] Those were really great answers.\n\n--- 20261013_C5378.MP4 — Nathan Smith\n[05:22.1] That is one important uniqueness about CASS.\n[05:24.8] The other, and to me this is very important\n[05:27.4] because this is what makes CASS critical in our community,\n[05:30.5] is that we serve at volume.\n[05:32.8] At our downtown shelter, we have 600 beds for people\n[05:35.9] who are experiencing homelessness.\n[05:37.5] We have another 130 units for people 55 and older.\n[05:41.1] And the 30 unit family shelter is the second largest family\n[05:44.2] shelter in Maricopa County.\n[05:45.9] So the other thing, and I think what makes us truly unique\n[05:48.4] in this response system, is that we serve\n[05:50.7] a whole bunch of people.\n[05:52.7] And that's important considering the rise in homelessness\n[05:55.1] in the county over the last several years.\n[05:58.0] And when you think about when they come through our doors,\n[06:01.3] let's just talk about just downtown.\n[06:03.3] When they come to the doors, what\n[06:04.8] do you hope that they experience besides just having\n[06:07.5] a place to sleep?\n[06:13.4] OK.\n[06:14.8] When people come to CASS, I hope they experience\n[06:17.7] something like this.\n[06:18.3] I got to talk to one of the people that we're serving here\n[06:21.5] and just kind of get a sense of what their story was like.\n[06:25.0] And this is a person who is ultimately\n[06:26.7] eligible to go over to our older adult shelter called\n[06:29.3] The Haven.\n[06:30.4] But they started here at the downtown shelter\n[06:32.6] with the 600 beds.\n[06:34.0] So they came here and they were like, listen,\n[06:36.0] I just need a place to stay.\n[06:38.2] I lost my job.\n[06:40.1] I'm having a lot of trouble getting a new job,\n[06:42.5] trying to transfer careers.\n[06:43.9] But people see my resume and see I bounced around\n[06:47.1] and they don't want to hire me.\n[06:48.5] Or I show up and I open my mouth and they\n[06:50.6] see how bad my teeth are and they\n[06:52.6] don't want to give me a chance for these customer service\n[06:54.8] roles.\n[06:55.6] And she said that she came here and she was just\n[06:57.6] feeling absolutely rejected by everybody and down and out\n[07:01.2] and facing depression.\n[07:02.8] So we brought her in here.\n[07:03.9] She had a safe place to stay.\n[07:05.5] Then she transferred over to The Haven.\n[07:07.1] Now, one of the things about The Haven\n[07:08.7] is we have enough case managers that every single individual is\n[07:12.3] on a caseload.\n[07:13.5] So in that scenario, we're able to really work with her\n[07:16.1] to address a lot of the issues and find\n[07:17.8] the right kind of job for her.\n[07:19.4] And ultimately, she was able to find it.\n[07:21.3] She was able to start stacking up her income\n[07:23.5] and ultimately move into the kind of housing\n[07:25.4] that she could pay for herself, which is great.\n[07:28.2] What I want people to have when they come to CASS\n[07:30.7] is that kind of an experience, really\n[07:33.2] that kind of an opportunity.\n[07:35.3] People just need a chance.\n[07:36.7] And when they come to CASS, I want\n[07:37.9] to make sure we give them that at every single one\n[07:40.2] of our shelters for whatever their needs are.\n[07:43.4] It's a pretty meaningful moment.\n[07:45.4] What else would you say is the most meaningful moment\n[07:48.3] that as the CASS CEO has taught you?\n\n--- 20261013_C5379.MP4 — Nicole Peña\n[07:12.3] that they need.\n[07:12.9] We see how a donor's donation, we\n[07:16.4] see the impact of the community here in our footprint.\n[07:20.4] And so I know that sometimes the problem seems overwhelming,\n[07:23.8] and it seems almost like it's too much for just an individual\n[07:27.7] to handle.\n[07:28.5] But coming together as a community,\n[07:30.7] I just don't want people to get discouraged, because we\n[07:33.0] see those miracles every day.\n[07:34.2] We see the hope every day.\n[07:36.9] We just saw a woman who was staying at our Haven\n[07:40.2] get a brand new apartment for the first time.\n[07:42.4] So she's a senior and had a lot of health problems.\n[07:46.0] And now she has her own place.\n[07:48.7] She's connected with doctors.\n[07:50.6] All of these things, no longer homeless.\n[07:52.7] And there's so much hope here.\n[07:53.9] So I just hope that the community sees that.\n[07:57.0] And they don't just see the problem,\n[07:58.6] but they see that there is a solution.\n[08:02.2] You kind of answered this next question.\n[08:03.8] But when someone chooses to give to CASS,\n[08:06.5] are they really becoming a part of it?\n[08:08.2] I feel like you kind of answered that.\n[08:09.2] Right.\n[08:09.7] Well, I mean, when someone gives to CASS,\n[08:12.4] they're not just becoming, or they're not just a donor.\n[08:16.0] We don't just think of them as a donor.\n[08:17.6] But they really quickly become integrated into the solutions\n[08:22.5] that we feel we need to have in our toolkit\n[08:25.6] to help people get into a safe place to live.\n[08:29.5] So a dollar turns into some type of, I don't like that,\n[08:36.9] OK, ask me again.\n[08:39.6] When someone donates to CASS, what\n[08:42.0] are they becoming a part of?\n[08:44.8] So you think when someone donates to CASS,\n[08:46.7] they're becoming part of our larger family.\n[08:49.8] They're becoming part of an army of supporters\n[08:52.9] who really see the solutions for the unhoused.\n[08:57.2] They're possible.\n[08:58.5] And so we like to think that we take their donations\n[09:02.7] and we stretch them as far as we can go.\n[09:05.6] We have community folks that give us\n[09:08.5] sheets and towels from hotels.\n[09:10.6] We have people who come and teach classes\n[09:15.9] on how to navigate systems, on how to budget, everything\n[09:20.6] you can possibly manage.\n[09:21.7] There's this huge community that surrounds our work.\n[09:26.7] And they get to be a part of that.\n[09:28.3] And I hope in my heart of hearts that we communicate not only\n[09:32.4] our gratitude and our thanks, but also the impact\n[09:34.7] of the work, the impact that they're having on the lives.\n[09:37.9] Because I think about every night,\n[09:40.0] 830 people are housed under CASS's roof.\n[09:44.2] So we have 600 folks sleeping in our downtown shelter.\n[09:48.3] We have another 130 at the Haven Shelter for Seniors.\n[09:52.0] And then we have 30 families that are at Vista Colina.\n[09:55.8] And when I think about that impact,\n[09:58.2] I think of all the people allowing that to be possible,\n\n--- 20261014_C5426.MP4 — Gabriela\n[07:20.0] that no matter how hard life gets\n[07:22.3] or what battles come their way,\n[07:24.1] that as long as they keep on speaking life to themselves,\n[07:27.5] that they could keep going and think,\n[07:29.0] oh, doors will start to open for them\n[07:31.0] as long as they keep thriving, keep thriving.\n[07:34.4] I love that.\n[07:35.4] And what does it mean to you now\n[07:37.5] that you're in this position\n[07:39.2] and that you can offer that kind of guidance\n[07:41.9] and support to someone else?\n[07:43.8] It's a gratitude beyond, you know,\n[07:47.4] I'm just very grateful, very happy, very,\n[07:51.0] it's such a fulfilling job.\n[07:54.2] It's not even a job because I love coming to work, you know,\n[07:58.0] I love being around coworkers,\n[08:00.0] seeing all the familiar faces,\n[08:02.0] although we do do a lot of turnarounds,\n[08:03.8] but just getting to hear their,\n[08:06.1] like when they're excited that they get an apartment\n[08:08.4] or they get a job or they're like, it's just so fulfilling.\n[08:11.7] And like my heart just like overfills with joy\n[08:15.1] and tears of joy come out, you know,\n[08:18.4] when I'm by myself doing my notes.\n[08:23.9] When you look at yourself now,\n[08:25.4] like when you look at yourself in the mirror,\n[08:26.9] what would you say to yourself?\n[08:28.4] Like, what are you most proud of?\n[08:32.5] My courage, my courage that I kept going\n[08:38.1] and I didn't allow my circumstances to dictate who I was\n[08:43.1] and who I am evolving and being.\n[08:48.9] And if you had to describe your job in one word,\n[08:50.9] what would you say?\n[08:53.3] Fulfilling.\n[08:55.8] Thank you.\n[08:58.6] That was good.\n[08:59.4] You did a great job.\n[09:00.6] Thank you, thank you.\n[09:04.1] That was, that got me teary eyed.",
+ "visual_pack": {
+  "amount": "CASS runs a fuller package. This film is B-roll led with one designed moment about every 20 s: hook text, a place tag, a number pop, two highlight lines, lower thirds and the end card.",
+  "devices": [
+   {
+    "row": "00:00–00:06",
+    "device": "Hook text over Lucy and Bessie",
+    "asset": "What has she meant to you?",
+    "source": "MG library of this page; Bessie and Dog B Roll"
+   },
+   {
+    "row": "00:06–00:09",
+    "device": "Place tag over the drone",
+    "asset": "The Haven",
+    "source": "MG library of this page; The Haven Drone Shots"
+   },
+   {
+    "row": "00:09–00:13",
+    "device": "Lower third + number pop",
+    "asset": "Nathan Smith / CEO, CASS; 130",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "00:13–00:30",
+    "device": "Lower third + Haven B-roll",
+    "asset": "Nicole Peña; C5434, C5406",
+    "source": "MG library of this page; The Haven B Roll"
+   },
+   {
+    "row": "00:30–00:57",
+    "device": "Lower third + pet-area pod",
+    "asset": "Bessie; C5435, C5436, C5392",
+    "source": "MG library of this page; The Haven B Roll; Bessie and Dog B Roll"
+   },
+   {
+    "row": "00:57–01:09",
+    "device": "Highlight text + courtyard pod",
+    "asset": "The main thing is that we had safety; C5401, C5441",
+    "source": "MG library of this page; The Haven B Roll"
+   },
+   {
+    "row": "01:14–01:27",
+    "device": "Highlight text + residents from behind",
+    "asset": "We need the strength of each other to move forward; C5420, C5422",
+    "source": "MG library of this page; The Haven B Roll"
+   },
+   {
+    "row": "01:39–01:45",
+    "device": "End card",
+    "asset": "CASS name + cassaz.org (logo file still to add)",
+    "source": "MG library of this page"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "20261014_C5418.MP4",
+    "path": null,
+    "drive": "1hm1R9_8yNzdwkQ11twiS7n5ISTVduxW1",
+    "at": 2.5,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "sign: Welcome to The Haven, Resident Parking (visual.json)",
+    "frame": null
+   },
+   {
+    "clip": "20261014_C5440.MP4",
+    "path": null,
+    "drive": "1BpCXVYKl95pypmSsmG-gciR112xRh5MU",
+    "at": 2.5,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "THE HAVEN painted on the building (visual.json)",
+    "frame": null
+   },
+   {
+    "clip": "20261014_C5445.MP4",
+    "path": null,
+    "drive": "1M2Pd-MqWI_CKmYQdUqYKW0_j08UKdy9O",
+    "at": 2.5,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "raised garden beds (visual.json)",
+    "frame": null
+   },
+   {
+    "clip": "20261014_C5409.MP4",
+    "path": null,
+    "drive": "1xkPxdBFDtk08-3-xLjTczKFCKzkkwbnj",
+    "at": 4.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "garden bed with plants, pink building behind (visual.json)",
+    "frame": null
+   },
+   {
+    "clip": "20261014_C5414.MP4",
+    "path": null,
+    "drive": "15B6ewCG8jWu22vlNiNiy2FCUYtMjXOVQ",
+    "at": 3.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "blue Welcome sign on a door (visual.json)",
+    "frame": null
+   },
+   {
+    "clip": "20261014_C5399.MP4",
+    "path": null,
+    "drive": "1o6XdupsshMHfPMSqMk7K9WdFVShAy85u",
+    "at": 7.0,
+    "dur": 4.0,
+    "cx": 0.5,
+    "what": "a woman walks with a dog on a leash (visual.json)",
+    "frame": null
+   }
+  ],
+  "elements": [],
+  "new_elements": []
+ }
+}
