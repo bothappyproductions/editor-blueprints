@@ -1,0 +1,163 @@
+{
+ "item": "13386500443",
+ "client": "watsi",
+ "format": "16x9",
+ "note": "The script asks for eight graphics: the hook question, the name super, three top texts for her three points, two number pops (8 and 30) and the recap list card. Then the end card. Horizontal 16:9, like the video.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook question",
+   "tpl": "highlight_callout",
+   "dur": 3.0,
+   "pos": "top",
+   "text": {
+    "main": "What's the most unique thing about Watsi?"
+   },
+   "cue": "Hook text on frame 1: What's the most unique thing about Watsi?",
+   "src": "Script, row 00:00–00:03, Motion graphics & type.",
+   "rows": [
+    "00:00–00:03"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Over the walking shot. It is the thumbnail."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 3.0,
+   "pos": "center",
+   "text": {
+    "main": "Sonam Singh"
+   },
+   "cue": "Name super at 00:04 for 3 s, lower left, above the captions, large: Sonam Singh",
+   "src": "Script, row 00:03–00:09, Motion graphics & type.",
+   "rows": [
+    "00:03–00:09"
+   ],
+   "use": "At 00:04. Move it lower left, above the captions. Type the second line Director of Marketing & Insights under it."
+  },
+  {
+   "n": 3,
+   "title": "First, the people",
+   "tpl": "highlight_callout",
+   "dur": 2.0,
+   "pos": "top",
+   "text": {
+    "main": "First, the people"
+   },
+   "cue": "Top text on her words: First, the people",
+   "src": "Script, row 00:09–00:35, Motion graphics & type.",
+   "rows": [
+    "00:09–00:35"
+   ],
+   "use": "Top third, on her words at 00:08.9. 2 s."
+  },
+  {
+   "n": 4,
+   "title": "8 people",
+   "tpl": "stat_counter",
+   "dur": 3.0,
+   "pos": "top",
+   "text": {
+    "number": "8",
+    "label": "people across seven time zones"
+   },
+   "cue": "number pop 8 with the line people across seven time zones",
+   "src": "Script, row 00:09–00:35, Motion graphics & type.",
+   "rows": [
+    "00:09–00:35"
+   ],
+   "use": "Top third, on “eight people” at about 00:18.3. 3 s. Over the B-roll."
+  },
+  {
+   "n": 5,
+   "title": "Second, your impact page",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "Second, your Watsi Impact page"
+   },
+   "cue": "Top text on her words: Second, your Watsi Impact page",
+   "src": "Script, row 00:55–01:16, Motion graphics & type.",
+   "rows": [
+    "00:55–01:16"
+   ],
+   "use": "Top third, on her words at 00:55.0. 2.5 s."
+  },
+  {
+   "n": 6,
+   "title": "Third, simple to help",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "And third, we make it really simple to help."
+   },
+   "cue": "Top text on her words: And third, we make it really simple to help.",
+   "src": "Script, row 01:16–01:28, Motion graphics & type.",
+   "rows": [
+    "01:16–01:28"
+   ],
+   "use": "Top third, on her words at 01:16.5. 2.5 s."
+  },
+  {
+   "n": 7,
+   "title": "About 30 seconds",
+   "tpl": "stat_counter",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "number": "30",
+    "label": "seconds"
+   },
+   "cue": "number pop 30 with the line seconds",
+   "src": "Script, row 01:16–01:28, Motion graphics & type.",
+   "rows": [
+    "01:16–01:28"
+   ],
+   "use": "Top third, on “about 30 seconds” at about 01:23.0. 2.5 s. Over the donation-flow recording."
+  },
+  {
+   "n": 8,
+   "title": "My three things",
+   "tpl": "list_card",
+   "dur": 6.0,
+   "text": {
+    "main": "my three things",
+    "items": [
+     "a very human team",
+     "see your impact",
+     "a very simple way to help"
+    ]
+   },
+   "cue": "List card, full frame",
+   "src": "Script, row 01:45–01:53, Motion graphics & type.",
+   "rows": [
+    "01:45–01:53"
+   ],
+   "use": "Full frame from “A very small” at about 01:47.0. Each point comes in on her words. Captions stay on."
+  },
+  {
+   "n": 9,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "02:08–02:11"
+   ],
+   "cue": "watsi.org, all lowercase, Lato, navy. One line. Nothing under it.",
+   "src": "Watsi's own end card words from the script (watsi.org, the Who Gives close, or the Watsi x AYH lines). Watsi's scripts say no logo lockup. Source date: 6 Oct 2026.",
+   "c": {
+    "bg": "#D3EDFA",
+    "fg": "#2E2844"
+   },
+   "text": {
+    "lines": [
+     "watsi.org"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 02:08 after the last line and hold it to the end."
+  }
+ ]
+}

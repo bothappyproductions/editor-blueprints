@@ -1,0 +1,123 @@
+{
+ "item": "13386485946",
+ "client": "watsi",
+ "format": "16x9",
+ "note": "The script asks for six graphics: the hook question, the name super, brackets on the receipt row, two top-text lines and the 100% number pop. Then the end card. Horizontal 16:9, like the video.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook question",
+   "tpl": "highlight_callout",
+   "dur": 3.0,
+   "pos": "top",
+   "text": {
+    "main": "Did my money actually do what I thought it would?"
+   },
+   "cue": "Hook text on frame 1: Did my money actually do what I thought it would?",
+   "src": "Script, row 00:00–00:03, Motion graphics & type.",
+   "rows": [
+    "00:00–00:03"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Over the walking shot. It is the thumbnail."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 3.0,
+   "pos": "center",
+   "text": {
+    "main": "Sonam Singh"
+   },
+   "cue": "Name super at 00:04 for 3 s, lower left, above the captions, large: Sonam Singh",
+   "src": "Script, row 00:03–00:14, Motion graphics & type.",
+   "rows": [
+    "00:03–00:14"
+   ],
+   "use": "At 00:04. Move it lower left, above the captions. Type the second line Director of Marketing & Insights under it."
+  },
+  {
+   "n": 3,
+   "title": "Receipt row brackets",
+   "tpl": "corner_frame",
+   "dur": 3.0,
+   "text": {},
+   "cue": "Brackets on one receipt row in the screen recording, for 3 s",
+   "src": "Script, row 00:14–00:28, Motion graphics & type.",
+   "rows": [
+    "00:14–00:28"
+   ],
+   "use": "On the screen recording, after the scroll stops. Move the brackets onto one receipt row."
+  },
+  {
+   "n": 4,
+   "title": "Boring Google sheet",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "a very boring Google sheet"
+   },
+   "cue": "Top text as she says it",
+   "src": "Script, row 00:28–00:44, Motion graphics & type.",
+   "rows": [
+    "00:28–00:44"
+   ],
+   "use": "Top third, on her words at 00:40.4. Out after 2.5 s."
+  },
+  {
+   "n": 5,
+   "title": "100% to the care",
+   "tpl": "stat_counter",
+   "dur": 3.0,
+   "pos": "top",
+   "text": {
+    "number": "100%",
+    "label": "of it goes directly to the medical partner"
+   },
+   "cue": "Number pop 100% with the line of it goes directly to the medical partner, top third",
+   "src": "Script, row 00:55–01:10, Motion graphics & type.",
+   "rows": [
+    "00:55–01:10"
+   ],
+   "use": "Top third, on “100%” at about 00:56.9. 3 s."
+  },
+  {
+   "n": 6,
+   "title": "Follow the money",
+   "tpl": "highlight_callout",
+   "dur": 3.0,
+   "pos": "top",
+   "text": {
+    "main": "you can actually follow the money."
+   },
+   "cue": "Top text on her words: you can actually follow the money.",
+   "src": "Script, row 01:27–01:32, Motion graphics & type.",
+   "rows": [
+    "01:27–01:32"
+   ],
+   "use": "Top third, on her words. Hold it to the cut to the end card."
+  },
+  {
+   "n": 7,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:32–01:35"
+   ],
+   "cue": "watsi.org, all lowercase, Lato, navy. One line. Nothing under it.",
+   "src": "Watsi's own end card words from the script (watsi.org, the Who Gives close, or the Watsi x AYH lines). Watsi's scripts say no logo lockup. Source date: 6 Oct 2026.",
+   "c": {
+    "bg": "#D3EDFA",
+    "fg": "#2E2844"
+   },
+   "text": {
+    "lines": [
+     "watsi.org"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 01:32 after the last line and hold it to the end."
+  }
+ ]
+}

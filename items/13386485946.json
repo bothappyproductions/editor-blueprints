@@ -1,0 +1,983 @@
+{
+ "id": "13386485946",
+ "client": "watsi",
+ "eyebrow": "Watsi · Clinica Noel, Medellín · 20 Oct 2026 · FAQ 2 of 5",
+ "title": "FAQ:",
+ "title_q": "“Did My Money Actually Do What I Thought It Would?”",
+ "title_short": "Sonam · FAQ 2 · Did my money do what I thought?",
+ "editor": "Qendrim",
+ "due": "2026-11-06",
+ "format": "16:9 only · 1920×1080",
+ "length": "about 1:35",
+ "edit_key": "WATSIColOctSonamFAQFollowTheMoney001",
+ "headline": "You do not have to take Watsi's word for it: the payments are public, the update comes back to you, and 100% goes to the medical partner, so you can follow the money.",
+ "story": [
+  "Sonam answers one donor question in one clean take: <b>did my money actually do what I thought it would?</b> She says it is a fair question, then shows how Watsi makes the whole process visible.",
+  "Three proofs, in her order: the public <b>transparency document</b> (“a very boring Google sheet”), the <b>update</b> that closes the loop, and <b>100%</b> going straight to the medical partner. She ends on the work before the gift and the line that names the video: <b>you can actually follow the money.</b>"
+ ],
+ "feel": [
+  "Honest",
+  "Warm",
+  "Clear",
+  "A little funny"
+ ],
+ "do": [
+  "Open on the question as text, over the group walking. Then cut straight to her answer.",
+  "Cut from the one clean take, Mincho7651. Keep her order.",
+  "Show the real transparency document, recorded fresh from watsi.org.",
+  "Fresh Clinica Noel B-roll from 20 Oct only.",
+  "Captions on the whole time she speaks, one line at a time."
+ ],
+ "dont": [
+  "No Smile Train logo or sign in any frame (the pink “Fundación SmileTrain” wall is in Mincho7594).",
+  "No reused hospital entrance or patient sequence from the July cuts.",
+  "No child's face without a release. Never name the CSC hospital.",
+  "No fake website or spreadsheet. Only real pages, recorded fresh.",
+  "No logo or name at 0:00."
+ ],
+ "links": {
+  "brief": {
+   "title": "Director's Blueprint (Nick, 26 Oct)",
+   "url": "https://docs.google.com/document/d/1zeYEVCcQEgMjHr40qKK7PHusOWB9KqOO3HfsVhQvNUM/edit",
+   "note": "Nick's plan for this FAQ, linked on Monday. If it asks for something this page does not have, Nick's doc wins: tell Nick."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Nick owes it: Production Planning 13052130421 has no reference link. The client's steer for Sonam's FAQs: the same sit-down look as Mackinnon's interviews on the July Medellín trip. Sonam's FAQ format (17 Sep): the question typed on screen first, bold yellow, over natural movement, then straight into the answer."
+  },
+  "footage": {
+   "title": "Watsi Colombia Oct 20 RAW ▸ VIDEOS ▸ INTERVIEWS",
+   "url": "https://drive.google.com/drive/folders/1a488VdoDM2ssh-J9pBbxmH3F1ckF1QFd",
+   "note": "Mincho7651.MP4 is the one clean take (1:42). Mincho7650.MP4 is a spare take with false starts. B-roll is in VIDEOS ▸ BROLL."
+  }
+ },
+ "bp_intro": "All bites are from <span class=\"mono\">Mincho7651.MP4</span> (1:42, 4K, 23.976 fps, one locked-off camera, teleprompter). Times are mm:ss.s in that clip, from the word-level transcript (output.json). Word times can drift by about 0.2 s: find each cut on the waveform. The transcript writes Watsi as “Whatsy”: it is Watsi. No frames were pulled yet: shots are named from visual.json, so check each one on scrub.",
+ "rows": [
+  {
+   "tc": "00:00–00:03",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "No face yet. Natural movement: <a href=\"https://drive.google.com/file/d/1LZMKig_CGwceMN4Ez3GO-FfQdflvJ8VJ/view\">Mincho7629.MP4</a> <span class=\"mono\">00:00.5</span> to <span class=\"mono\">00:03.5</span>, the Watsi group walking down a Clinica Noel corridor (visual.json: women walking a corridor, numbers on the walls, a pink door). Check on scrub that no Smile Train logo is in frame. Her own read of the question is not used: the text replaces it.",
+   "motion": "Hook text on <b>frame 1</b>: <q>Did my money actually do what I thought it would?</q> Already on screen at 0:00, does not animate on. Top third, Lato Bold, Watsi yellow <span class=\"mono\">#FFCC33</span>, soft shadow, big. It doubles as the thumbnail. Holds to 00:03, then cut straight to Sonam.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "Room tone from the corridor clip, low.",
+   "music": "Music starts on frame 1. Warm, light, hopeful. No drums, no lyrics.",
+   "shots": [
+    {
+     "clip": "Mincho7629.MP4",
+     "at": 0.5,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "VIDEOS/BROLL/Mincho7629.MP4",
+     "drive": "1LZMKig_CGwceMN4Ez3GO-FfQdflvJ8VJ",
+     "layout": "full",
+     "what": "The Watsi group walks down a corridor"
+    }
+   ]
+  },
+  {
+   "tc": "00:03–00:14",
+   "beat": "TRUST",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Sonam to camera, the full 16:9 frame: seated, orange T-shirt with a logo, the Clinica Noel name on the wall behind her. One take, locked off. Start on “It's”. Face only: this is where we meet her.",
+   "motion": "Hook text off at 00:03. Name super at 00:04 for 3 s, lower left, above the captions, large: <q>Sonam Singh</q> / Director of Marketing &amp; Insights. Captions on from her first word.",
+   "voice": {
+    "who": "Sonam Singh",
+    "quote": "It's a completely reasonable question. If we are asking you to trust us with your money, we should show you what happens to it. That's why we make the whole process pretty unusually visible.",
+    "src": "Mincho7651.MP4 00:08.5 to 00:18.6"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed 18 to 20 dB under her voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "It's"
+    }
+   ]
+  },
+  {
+   "tc": "00:14–00:28",
+   "beat": "VISIBLE",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Her face on “In addition”. On “monthly reports” cut to <a href=\"https://drive.google.com/file/d/1r6_moyojcXRwE1CeaKgUygtga2OC7LJj/view\">Mincho7647.MP4</a> <span class=\"mono\">00:26.5</span> to <span class=\"mono\">00:30.0</span>: a computer monitor with the Watsi logo at Clinica Noel (visual.json; check on scrub). On “This has a receipt” cut to a <b>screen recording of Watsi's real transparency document</b>, opened from watsi.org. Record it fresh on a laptop, 1920×1080. Never fake a page. Scroll slowly to one row. Back to her face when the row ends.",
+   "motion": "Brackets on one receipt row in the screen recording, for 3 s, after the scroll stops. Captions on.",
+   "voice": {
+    "who": "Sonam Singh",
+    "quote": "In addition to sharing not just annual financial statements on watsi.org but even monthly reports, we also publish payments in real-time transparency document. This has a receipt of each payment we make to our medical partners for each individual patients.",
+    "src": "Mincho7651.MP4 00:19.1 to 00:33.1"
+   },
+   "sfx": "One soft UI tap on the cut to the screen recording. Nothing else.",
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "In"
+    },
+    {
+     "clip": "Mincho7647.MP4",
+     "at": 26.5,
+     "dur": 3.5,
+     "cx": 0.5,
+     "path": "VIDEOS/BROLL/Mincho7647.MP4",
+     "drive": "1r6_moyojcXRwE1CeaKgUygtga2OC7LJj",
+     "layout": "full",
+     "what": "Monitor with the Watsi logo at Clinica Noel"
+    },
+    {
+     "screen": "watsi.org transparency document, recorded fresh",
+     "from_word": "This"
+    },
+    {
+     "face": true,
+     "from_word": "And"
+    }
+   ]
+  },
+  {
+   "tc": "00:28–00:44",
+   "beat": "OLD SCHOOL",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Her face the whole row. She is funny here (“a boring Google sheet”). The face is the strongest picture, so no cutaway. One slow 3% push-in across the row.",
+   "motion": "Top text as she says it, about <span class=\"mono\">00:40.4</span>: <q>a very boring Google sheet</q>. Lato Bold, white. Out after 2.5 s. Captions on.",
+   "voice": {
+    "who": "Sonam Singh",
+    "quote": "And okay, I'll admit our transparency document is a little old-school but I also love how simple it is. It's just a boring Google sheet but maybe in a world where everything is getting more complicated and more polished, a very boring Google sheet is what becomes rare.",
+    "src": "Mincho7651.MP4 00:33.7 to 00:48.7"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady. Let her joke land, no hit.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "And"
+    }
+   ]
+  },
+  {
+   "tc": "00:44–00:55",
+   "beat": "THE LOOP",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Her face on “Okay and then”. On “we send you an update” cut to <a href=\"https://drive.google.com/file/d/18LYURAxtpB1z1ujnZ4sGidtXcp3cKF1R/view\">Mincho7708.MP4</a> <span class=\"mono\">00:08.0</span> to <span class=\"mono\">00:11.0</span>: a guest in a white cap sits with a young boy, both hold cards, a man takes a photo (visual.json). Then <a href=\"https://drive.google.com/file/d/1kvPVCwlMOKr5tZImvOJw4NJVf_CXa6_M/view\">Mincho7713.MP4</a> <span class=\"mono\">00:07.0</span> to <span class=\"mono\">00:10.0</span>: a family around a table at the art activity, the boy holds a green toy. Back to her face on “and you really hear from them”. Children: use only with a release (ask Nick).",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Sonam Singh",
+    "quote": "Okay and then we also close the communication loop. Once a patient has had the treatment, we send you an update about what happened to them, how they're doing, what they are back to and you really hear from them.",
+    "src": "Mincho7651.MP4 00:49.1 to 01:00.2"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Okay"
+    },
+    {
+     "clip": "Mincho7708.MP4",
+     "at": 8.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "VIDEOS/BROLL/Mincho7708.MP4",
+     "drive": "18LYURAxtpB1z1ujnZ4sGidtXcp3cKF1R",
+     "layout": "full",
+     "what": "Guest and a boy hold cards"
+    },
+    {
+     "clip": "Mincho7713.MP4",
+     "at": 7.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "VIDEOS/BROLL/Mincho7713.MP4",
+     "drive": "1kvPVCwlMOKr5tZImvOJw4NJVf_CXa6_M",
+     "layout": "full",
+     "what": "A family at the art activity table"
+    },
+    {
+     "face": true,
+     "from_word": "and"
+    }
+   ]
+  },
+  {
+   "tc": "00:55–01:10",
+   "beat": "100%",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Her face on “And the donation itself”. On “goes directly to the medical partner” cut to <a href=\"https://drive.google.com/file/d/1G-9j4KU59NHuEhYcuYA8C9i2i2Ql97uG/view\">Mincho7602.MP4</a> <span class=\"mono\">01:10.0</span> to <span class=\"mono\">01:13.0</span>: a surgeon in scrubs and a colleague in a blue cap talk in the corridor (visual.json). Then <a href=\"https://drive.google.com/file/d/1-5165z9CDMjwU62n2BsUntC9iD06YMbO/view\">Mincho7603.MP4</a> <span class=\"mono\">00:12.0</span> to <span class=\"mono\">00:15.0</span>: healthcare workers in scrubs talk in the corridor. Back to her face on “it pays for the surgery you decided to support.” No patient faces.",
+   "motion": "Number pop <q>100%</q> with the line <q>of it goes directly to the medical partner</q>, top third, on her words, 3 s. Captions on.",
+   "voice": {
+    "who": "Sonam Singh",
+    "quote": "And the donation itself, 100% of it goes directly to the medical partner providing the care. It doesn't pass through the patient or their family, it isn't simply given to someone to spend however they want, it pays for the surgery you decided to support.",
+    "src": "Mincho7651.MP4 01:00.3 to 01:15.6"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Small lift under the number.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "And"
+    },
+    {
+     "clip": "Mincho7602.MP4",
+     "at": 70.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "VIDEOS/BROLL/Mincho7602.MP4",
+     "drive": "1G-9j4KU59NHuEhYcuYA8C9i2i2Ql97uG",
+     "layout": "full",
+     "what": "Surgeon and colleague talk in the corridor"
+    },
+    {
+     "clip": "Mincho7603.MP4",
+     "at": 12.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "VIDEOS/BROLL/Mincho7603.MP4",
+     "drive": "1-5165z9CDMjwU62n2BsUntC9iD06YMbO",
+     "layout": "full",
+     "what": "Healthcare workers talk in the corridor"
+    },
+    {
+     "face": true,
+     "from_word": "it"
+    }
+   ]
+  },
+  {
+   "tc": "01:10–01:27",
+   "beat": "BEFORE THE GIFT",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Her face on “There's also a lot of work”. On “due diligence” cut to <a href=\"https://drive.google.com/file/d/1O80mT10tE2W4cxVyH6D4QBGh_EVCtfhu/view\">Mincho7632.MP4</a> <span class=\"mono\">00:05.0</span> to <span class=\"mono\">00:08.0</span>: the group in a meeting room, some standing, some seated (visual.json, likely the welcome with Clinica Noel leadership). On “regularly review” cut to <a href=\"https://drive.google.com/file/d/10MEsMdCCj4wrgvnUqYPtS_r1NhfGcg5M/view\">Mincho7644.MP4</a> <span class=\"mono\">00:46.0</span> to <span class=\"mono\">00:49.0</span>: medical staff seated at a laptop, talking (visual.json). Back to her face for the end of the line.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Sonam Singh",
+    "quote": "There's also a lot of work that happens before your donation ever gets there that we could do an even better job talking about. We do initial and ongoing due diligence with our medical partner, stay in close communication with them for any need and challenges that come up and regularly review how each program is operating.",
+    "src": "Mincho7651.MP4 01:15.9 to 01:32.2"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "There's"
+    },
+    {
+     "clip": "Mincho7632.MP4",
+     "at": 5.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "VIDEOS/BROLL/Mincho7632.MP4",
+     "drive": "1O80mT10tE2W4cxVyH6D4QBGh_EVCtfhu",
+     "layout": "full",
+     "what": "The group in a meeting room"
+    },
+    {
+     "clip": "Mincho7644.MP4",
+     "at": 46.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "VIDEOS/BROLL/Mincho7644.MP4",
+     "drive": "10MEsMdCCj4wrgvnUqYPtS_r1NhfGcg5M",
+     "layout": "full",
+     "what": "Medical staff at a laptop"
+    },
+    {
+     "face": true,
+     "from_word": "and"
+    }
+   ]
+  },
+  {
+   "tc": "01:27–01:32",
+   "beat": "FOLLOW THE MONEY",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Her face. Hold 0.7 s after “money.”, then cut to the end card. No fade.",
+   "motion": "Top text on her words: <q>you can actually follow the money.</q> Lato Bold, Watsi yellow. Holds to the cut. Captions on.",
+   "voice": {
+    "who": "Sonam Singh",
+    "quote": "So basically you don't just have to take our word for it, you can actually follow the money.",
+    "src": "Mincho7651.MP4 01:32.8 to 01:37.0"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed resolves on “money.”",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "So"
+    }
+   ]
+  },
+  {
+   "tc": "01:32–01:35",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Clean end card, full frame. Light cyan <span class=\"mono\">#D3EDFA</span> background. Navy is never a background.",
+   "motion": "<b>watsi.org</b>, all lowercase, Lato, navy <span class=\"mono\">#2E2844</span>. One line. Nothing under it. No logo before this card.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music out with a 1 s fade.",
+   "shots": []
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Director's Blueprint",
+   "<a href=\"https://docs.google.com/document/d/1zeYEVCcQEgMjHr40qKK7PHusOWB9KqOO3HfsVhQvNUM/edit\">Nick's doc for FAQ 2</a>"
+  ],
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/14hF29qXD3LHqk0KzcuUsgWyBPRrlSmr7C_KEF_kWvuI/edit\">Watsi x Clinica Noel Production Brief, Oct 20 Board Visit</a>"
+  ],
+  [
+   "Client script",
+   "<a href=\"https://docs.google.com/document/d/1ckwlTzk5uqgsduGp2i31b4y6OVEoHLAuICrMZ8CZqGw/edit\">Colombia Script_Oct 2026_Sonam</a> (Watsi's own script for the five FAQs)"
+  ],
+  [
+   "Take map",
+   "<a href=\"https://docs.google.com/document/d/1G7rJNCnKwmg1x3q76osbmWc-NIgpe16Z6T1otzzGbFs/edit\">Watsi Colombia Oct 20 take map</a>"
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/1kf3g1xLxYOxcCdFU_A3Z-JhzzW5b9-8X\">Watsi Colombia Oct 20 2026 RAW</a> · <a href=\"https://drive.google.com/drive/folders/1a488VdoDM2ssh-J9pBbxmH3F1ckF1QFd\">INTERVIEWS</a> · <a href=\"https://drive.google.com/drive/folders/1RGWkFvBMzs1FIr_1OGJvyer22XaYqcRs\">BROLL</a>"
+  ],
+  [
+   "Interview clip",
+   "<a href=\"https://drive.google.com/file/d/1GfpZneSkxp894NDOLZirGuKaw8k6R7Kh/view\">Mincho7651.MP4</a> · 1:42 · the clean take · spare: <a href=\"https://drive.google.com/file/d/1q9Oca8M-mEIeM8G97Y80mBw9HbR6ebtN/view\">Mincho7650.MP4</a>"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1mANw4hUQWRhGZvcjgm8F6OYpvXnh23lf9ntX2DrC72U/edit\">Transcripts - Watsi Colombia Oct 20 2026</a> · <a href=\"https://drive.google.com/file/d/1jt2kV0FPOBE2SbOlmrxztwJUil4wLZ_l/view\">output.json</a> (word times) · <a href=\"https://drive.google.com/file/d/1vLryayRYW_ONvRXwQiTw43ae1gPs2DHO/view\">.srt</a>"
+  ],
+  [
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/1MnEAU_2ZM7ogqeYS9rZAitCY7PvI8Xd6/view\">visual.json</a> (Erin's shot index for this shoot)"
+  ],
+  [
+   "B-roll picks",
+   "<a href=\"https://drive.google.com/file/d/1LZMKig_CGwceMN4Ez3GO-FfQdflvJ8VJ/view\">Mincho7629.MP4</a> <span class=\"mono\">00:00.5</span> to <span class=\"mono\">00:03.5</span> · <a href=\"https://drive.google.com/file/d/1r6_moyojcXRwE1CeaKgUygtga2OC7LJj/view\">Mincho7647.MP4</a> <span class=\"mono\">00:26.5</span> to <span class=\"mono\">00:30.0</span> · <a href=\"https://drive.google.com/file/d/18LYURAxtpB1z1ujnZ4sGidtXcp3cKF1R/view\">Mincho7708.MP4</a> <span class=\"mono\">00:08.0</span> to <span class=\"mono\">00:11.0</span> · <a href=\"https://drive.google.com/file/d/1kvPVCwlMOKr5tZImvOJw4NJVf_CXa6_M/view\">Mincho7713.MP4</a> <span class=\"mono\">00:07.0</span> to <span class=\"mono\">00:10.0</span> · <a href=\"https://drive.google.com/file/d/1G-9j4KU59NHuEhYcuYA8C9i2i2Ql97uG/view\">Mincho7602.MP4</a> <span class=\"mono\">01:10.0</span> to <span class=\"mono\">01:13.0</span> · <a href=\"https://drive.google.com/file/d/1-5165z9CDMjwU62n2BsUntC9iD06YMbO/view\">Mincho7603.MP4</a> <span class=\"mono\">00:12.0</span> to <span class=\"mono\">00:15.0</span> · <a href=\"https://drive.google.com/file/d/1O80mT10tE2W4cxVyH6D4QBGh_EVCtfhu/view\">Mincho7632.MP4</a> <span class=\"mono\">00:05.0</span> to <span class=\"mono\">00:08.0</span> · <a href=\"https://drive.google.com/file/d/10MEsMdCCj4wrgvnUqYPtS_r1NhfGcg5M/view\">Mincho7644.MP4</a> <span class=\"mono\">00:46.0</span> to <span class=\"mono\">00:49.0</span>"
+  ],
+  [
+   "Brand pack",
+   "<a href=\"https://drive.google.com/drive/folders/1my9RNjTawX8JeQO2eQDHSphWP8KTg09r\">LOTUS illustrations</a> · <a href=\"https://drive.google.com/drive/folders/1T7bIehcX3_l6F-CXUu-LHCyPE58nq9df\">September Spirit font</a> · <a href=\"https://drive.google.com/file/d/1u8R2iKmydBN2xF_h0wIE6X-NZo0mslXs/view\">Watsi brand guide</a> · Lato for all text on screen"
+  ],
+  [
+   "Brand graphics package",
+   "Watsi package on Drive: <span class=\"mono\">deliverables/graphics-packages/Watsi</span>. Plates are empty: type the words in Lato."
+  ],
+  [
+   "Music",
+   "Uppbeat, like other Watsi cuts. Save the licence certificate with the project: Watsi uploads to YouTube themselves and a claim blocks the upload."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "Mincho7651.MP4: 3840×2160, 23.976 fps, one camera, locked off, wide. Audio recorded into the camera."
+  ],
+  [
+   "Timeline",
+   "1920×1080 at <b>23.976 fps</b>. Same as the source. No frame-rate change."
+  ],
+  [
+   "Framing",
+   "The interview is a wide shot (her face is small in 4K). Scale to about 150% so she sits on a third, eyes in the top third. Up to 200% stays native. B-roll from BROLL is 4K at 23.976 or 59.94 fps: conform 59.94 clips to 23.976 (slow motion is fine for walking shots)."
+  ],
+  [
+   "Audio",
+   "Check both camera channels on the waveform. Use the live mic on both sides and mute the other. Clean the room tone lightly."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. Music always under the voice."
+  ],
+  [
+   "Captions",
+   "Burned in. Lato Bold, white, soft shadow, large, word by word, one line at a time, low in the frame. Always on while she speaks, also in her pauses. Fix every “Whatsy” to Watsi by hand."
+  ],
+  [
+   "Screen recording",
+   "Record the real transparency document from watsi.org on a laptop at 1920×1080 or larger. No fake UI."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1920×1080, 16:9. Upload to Frame.io."
+  ]
+ ],
+ "checklist": [
+  "Frame 1 is the walking shot with the question already on screen. No logo, no name.",
+  "The question reads “Did my money actually do what I thought it would?” exactly.",
+  "Name super at 00:04, above the captions, large: Sonam Singh / Director of Marketing & Insights.",
+  "Every caption says Watsi, capital W only, and watsi.org all lowercase. Never “Whatsy”.",
+  "“100%” is written with the % sign, the same in the caption and the number pop.",
+  "The transparency document is the real page, recorded fresh.",
+  "No Smile Train logo, sign or shirt in any frame.",
+  "No child's face without a release.",
+  "Captions never drop out while she speaks.",
+  "Ends on watsi.org, lowercase, nothing under it."
+ ],
+ "decisions": [
+  {
+   "t": "Nick's Director's Blueprint",
+   "b": "Nick's doc for this FAQ (Monday brief link) is not shared with the account that built this page. Nick checks that it asks for nothing this page leaves out."
+  },
+  {
+   "t": "Format",
+   "b": "Nick's item title says 16:9. FAQ 1 and FAQ 4 have separate “Vertical” items. Nick says if FAQ 2 needs a vertical twin; it would be its own item and Edit Key."
+  },
+  {
+   "t": "Name super style",
+   "b": "Atdhe's 27 Oct note on FAQ 4 says “Same comment as other sonam video about name and title style”. That comment is not on Monday. Nick shares it so FAQ 2 matches."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> 2026 is Watsi's year of trust and transparency, and Sonam asked for FAQs that open on the question so the first frame says what the video is about.",
+ "ask_examples": [
+  "Which take do I cut from?",
+  "Where do I get the transparency document?",
+  "Can I show the kids at the art activity?",
+  "Do I keep her reading the question?"
+ ],
+ "transcript": "--- Mincho7651.MP4 ---\n[00:00.0] [do not use: crew talk] enough.\n[00:00.4] [do not use: the read question: the hook text replaces it] Does the money actually do what a donor thinks it would?\n[00:08.5] It's a completely reasonable question.\n[00:10.5] If we are asking you to trust us with your money, we should show you what happens to it.\n[00:15.2] That's why we make the whole process pretty unusually visible.\n[00:19.1] In addition to sharing not just annual financial statements on watsi.org but even monthly reports, we also publish payments in real-time transparency document.\n[00:28.5] This has a receipt of each payment we make to our medical partners for each individual patients.\n[00:33.7] And okay, I'll admit our transparency document is a little old-school but I also love how simple it is.\n[00:39.8] It's just a boring Google sheet but maybe in a world where everything is getting more complicated and more polished, a very boring Google sheet is what becomes rare.\n[00:49.1] Okay and then we also close the communication loop.\n[00:52.2] Once a patient has had the treatment, we send you an update about what happened to them, how they're doing, what they are back to and you really hear from them.\n[01:00.3] And the donation itself, 100% of it goes directly to the medical partner providing the care.\n[01:06.5] It doesn't pass through the patient or their family, it isn't simply given to someone to spend however they want, it pays for the surgery you decided to support.\n[01:15.9] There's also a lot of work that happens before your donation ever gets there that we could do an even better job talking about.\n[01:21.8] We do initial and ongoing due diligence with our medical partner, stay in close communication with them for any need and challenges that come up and regularly review how each program is operating.\n[01:32.8] So basically you don't just have to take our word for it, you can actually follow the money.\n--- Mincho7650.MP4 ---\n[00:02.8] [do not use: crew talk or a false start] Did my money actually do what I thought it would?\n[00:07.0] [do not use: crew talk or a false start] Oh, sorry.\n[00:08.4] [do not use: crew talk or a false start] OK, that was the question.\n[00:10.2] [do not use: crew talk or a false start] Yes, I will start with the answer.\n[00:13.0] [do not use: crew talk or a false start] Ah, you want to say the because I'm so it's written again.\n[00:18.1] [do not use: crew talk or a false start] See, if you see, does the money it's coming twice.\n[00:22.3] [do not use: crew talk or a false start] If you scroll down.\n[00:23.2] [do not use: crew talk or a false start] Yeah.\n[00:23.9] [do not use: crew talk or a false start] Does the money actually do so?\n[00:25.5] [do not use: crew talk or a false start] It's repeating.\n[00:26.0] [do not use: crew talk or a false start] Yes, yes, for sure.\n[00:28.3] [do not use: crew talk or a false start] OK, let's start with the answer.\n[00:31.3] [do not use: crew talk or a false start] Yeah.\n[00:32.8] [do not use: crew talk or a false start] Three, two.\n[00:35.3] [do not use: crew talk or a false start] Does the money actually do what a donor thinks it would?\n[00:38.6] It's a completely reasonable question.\n[00:40.4] If you are asking you to trust us with your money, we should show you what happens to it.\n[00:44.9] That's why we make the whole process pretty unusually visible.\n[00:48.6] In addition to sharing not just financial statements on what's your work, but even monthly reports, we also publish payments in real time.\n[00:55.8] Transparency document.\n[00:57.2] This has a receipt of each payment we make to our medical partners for individual patients.\n[01:02.3] And OK, I'll admit our transparency document is a little old school, but I also love how simple it is.\n[01:07.6] It's just a boring Google sheet.\n[01:09.3] But maybe in a world where everything is getting more complicated and more polished, a very boring Google sheet is going to become rare.\n[01:16.5] OK, and then we also close the communication loop.\n[01:19.1] Once a patient has had the treatment, we send you an update of what happened, how they're doing, what they're back to.\n[01:25.8] And you really hear from them and the donation itself.\n[01:29.4] 100 percent of it goes directly to the medical partner providing the care.\n[01:33.0] It doesn't pass through the patient or it doesn't go through the family.\n[01:36.0] And it isn't simply given to somebody to spend money.\n[01:38.7] It pays for the surgery you decided to support.\n[01:41.9] There's also a lot of work that happens before your donation ever gets there, that we do an even better job talking about.\n[01:48.3] [do not use: crew talk or a false start] I missed a word there.\n[01:50.4] [do not use: crew talk or a false start] How do you feel?\n[01:51.9] [do not use: crew talk or a false start] I think speed is good.\n[01:54.6] [do not use: crew talk or a false start] Yeah, I think this was just like getting comfortable with the teleprompter.\n[02:02.0] [do not use: crew talk or a false start] Like, I just missed a word and then the whole statement changed for me.\n[02:06.7] [do not use: crew talk or a false start] There's also there's also a lot of work.\n[02:10.2] [do not use: crew talk or a false start] Yeah, three to.\n[02:12.8] [do not use: crew talk or a false start] There's also a lot of work that happens before your donation ever gets there that we could do.\n[02:18.7] [do not use: crew talk or a false start] Oh, I'm doing.\n[02:21.0] [do not use: crew talk or a false start] We could do an even.\n[02:22.1] [do not use: crew talk or a false start] OK, let's go back to there's also scroll down.\n[02:28.9] [do not use: crew talk or a false start] No, no, no, down, down, down.\n[02:31.9] [do not use: crew talk or a false start] Yeah, there's also a lot of OK, I get the three to one.\n[02:36.3] There's also a lot of work that happens before your donation ever gets there that we could do an even better job talking about.\n[02:43.5] We do initial and ongoing due diligence with our medical partners, stay in close communication with them for any need and challenges that come up and regularly review how each program is operating.\n[02:53.6] So basically, you don't just have to take a word for it.\n[02:56.2] You can actually follow the money.\n[03:01.4] [do not use: crew talk or a false start] It ended.\n[03:02.0] [do not use: crew talk or a false start] That was it.",
+ "alts": {
+  "bite:1": [
+   {
+    "quote": "In addition to sharing not just annual financial statements on watsi.org but even monthly reports, we also publish payments in real-time transparency document.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "This has a receipt of each payment we make to our medical partners for each individual patients.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And okay, I'll admit our transparency document is a little old-school but I also love how simple it is.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "It's just a boring Google sheet but maybe in a world where everything is getting more complicated and more polished, a very boring Google sheet is what becomes rare.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "Okay and then we also close the communication loop.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "Once a patient has had the treatment, we send you an update about what happened to them, how they're doing, what they are back to and you really hear from them.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And the donation itself, 100% of it goes directly to the medical partner providing the care.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "It's a completely reasonable question.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "If we are asking you to trust us with your money, we should show you what happens to it.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "That's why we make the whole process pretty unusually visible.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And okay, I'll admit our transparency document is a little old-school but I also love how simple it is.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "It's just a boring Google sheet but maybe in a world where everything is getting more complicated and more polished, a very boring Google sheet is what becomes rare.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "Okay and then we also close the communication loop.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "Once a patient has had the treatment, we send you an update about what happened to them, how they're doing, what they are back to and you really hear from them.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And the donation itself, 100% of it goes directly to the medical partner providing the care.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "It's a completely reasonable question.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "If we are asking you to trust us with your money, we should show you what happens to it.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "That's why we make the whole process pretty unusually visible.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "In addition to sharing not just annual financial statements on watsi.org but even monthly reports, we also publish payments in real-time transparency document.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "This has a receipt of each payment we make to our medical partners for each individual patients.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "Okay and then we also close the communication loop.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "Once a patient has had the treatment, we send you an update about what happened to them, how they're doing, what they are back to and you really hear from them.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And the donation itself, 100% of it goes directly to the medical partner providing the care.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "It's a completely reasonable question.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "If we are asking you to trust us with your money, we should show you what happens to it.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "That's why we make the whole process pretty unusually visible.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "In addition to sharing not just annual financial statements on watsi.org but even monthly reports, we also publish payments in real-time transparency document.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "This has a receipt of each payment we make to our medical partners for each individual patients.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And okay, I'll admit our transparency document is a little old-school but I also love how simple it is.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "It's just a boring Google sheet but maybe in a world where everything is getting more complicated and more polished, a very boring Google sheet is what becomes rare.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And the donation itself, 100% of it goes directly to the medical partner providing the care.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "It's a completely reasonable question.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "If we are asking you to trust us with your money, we should show you what happens to it.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "That's why we make the whole process pretty unusually visible.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "In addition to sharing not just annual financial statements on watsi.org but even monthly reports, we also publish payments in real-time transparency document.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "This has a receipt of each payment we make to our medical partners for each individual patients.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And okay, I'll admit our transparency document is a little old-school but I also love how simple it is.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "It's just a boring Google sheet but maybe in a world where everything is getting more complicated and more polished, a very boring Google sheet is what becomes rare.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "Okay and then we also close the communication loop.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "Once a patient has had the treatment, we send you an update about what happened to them, how they're doing, what they are back to and you really hear from them.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   }
+  ],
+  "bite:6": [
+   {
+    "quote": "It's a completely reasonable question.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "If we are asking you to trust us with your money, we should show you what happens to it.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "That's why we make the whole process pretty unusually visible.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "In addition to sharing not just annual financial statements on watsi.org but even monthly reports, we also publish payments in real-time transparency document.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "This has a receipt of each payment we make to our medical partners for each individual patients.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And okay, I'll admit our transparency document is a little old-school but I also love how simple it is.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "It's just a boring Google sheet but maybe in a world where everything is getting more complicated and more polished, a very boring Google sheet is what becomes rare.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "Okay and then we also close the communication loop.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "Once a patient has had the treatment, we send you an update about what happened to them, how they're doing, what they are back to and you really hear from them.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And the donation itself, 100% of it goes directly to the medical partner providing the care.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   }
+  ],
+  "bite:7": [
+   {
+    "quote": "It's a completely reasonable question.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "If we are asking you to trust us with your money, we should show you what happens to it.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "That's why we make the whole process pretty unusually visible.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "In addition to sharing not just annual financial statements on watsi.org but even monthly reports, we also publish payments in real-time transparency document.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "This has a receipt of each payment we make to our medical partners for each individual patients.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And okay, I'll admit our transparency document is a little old-school but I also love how simple it is.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "It's just a boring Google sheet but maybe in a world where everything is getting more complicated and more polished, a very boring Google sheet is what becomes rare.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "Okay and then we also close the communication loop.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "Once a patient has had the treatment, we send you an update about what happened to them, how they're doing, what they are back to and you really hear from them.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And the donation itself, 100% of it goes directly to the medical partner providing the care.",
+    "who": "Sonam Singh",
+    "file": "Mincho7651.MP4",
+    "why": "Another clean line from the same take."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "Did my money actually do what I thought it would?",
+    "line": "Did my money actually do what I thought it would?",
+    "why": "The FAQ title, as she read it in the spare take."
+   },
+   {
+    "text": "You can actually follow the money",
+    "line": "So basically you don't just have to take our word for it, you can actually follow the money.",
+    "why": "The payoff line as a promise."
+   },
+   {
+    "text": "A very boring Google sheet",
+    "line": "It's just a boring Google sheet but maybe in a world where everything is getting more complicated and more polished, a very boring Google sheet is what becomes rare.",
+    "why": "Funny and surprising. Makes people stay."
+   },
+   {
+    "text": "100% goes to the care",
+    "line": "And the donation itself, 100% of it goes directly to the medical partner providing the care.",
+    "why": "The clearest fact in the answer."
+   },
+   {
+    "text": "We should show you what happens to it",
+    "line": "If we are asking you to trust us with your money, we should show you what happens to it.",
+    "why": "Her reason in one line."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "Watsi: simplicity, one brand element at a time, never slapped on. This cut has the hook question, one name super, one bracket on the real document, two top-text lines, one number pop and the end card. B-roll covers the proofs; her face carries the jokes.",
+  "devices": [
+   {
+    "row": "00:00–00:03",
+    "device": "Hook question over natural movement",
+    "asset": "Mincho7629 0:00.5 to 0:03.5 + hook text",
+    "source": "BROLL + MG library of this page"
+   },
+   {
+    "row": "00:03–00:14",
+    "device": "Name super",
+    "asset": "Sonam Singh / Director of Marketing & Insights",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "00:14–00:28",
+    "device": "B-roll + real screen recording + brackets",
+    "asset": "Mincho7647 0:26.5; watsi.org transparency document",
+    "source": "BROLL; recorded fresh"
+   },
+   {
+    "row": "00:28–00:44",
+    "device": "Top text on her face",
+    "asset": "a very boring Google sheet",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "00:44–00:55",
+    "device": "B-roll pod",
+    "asset": "Mincho7708 0:08; Mincho7713 0:07",
+    "source": "BROLL"
+   },
+   {
+    "row": "00:55–01:10",
+    "device": "Number pop + B-roll pod",
+    "asset": "100%; Mincho7602 1:10; Mincho7603 0:12",
+    "source": "MG library + BROLL"
+   },
+   {
+    "row": "01:10–01:27",
+    "device": "B-roll pod",
+    "asset": "Mincho7632 0:05; Mincho7644 0:46",
+    "source": "BROLL"
+   },
+   {
+    "row": "01:27–01:32",
+    "device": "Top text payoff",
+    "asset": "you can actually follow the money.",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "01:32–01:35",
+    "device": "End card",
+    "asset": "watsi.org on light cyan",
+    "source": "endcards/index.json (watsi)"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "Mincho7635.MP4",
+    "path": "VIDEOS/BROLL/Mincho7635.MP4",
+    "drive": "1DJ-QfGDV1QdBgjGyJW7NxZhgqBU1k2zC",
+    "at": 0.5,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "Group walks a corridor with a pink wall and a blue door",
+    "frame": null
+   },
+   {
+    "clip": "Mincho7609.MP4",
+    "path": "VIDEOS/BROLL/Mincho7609.MP4",
+    "drive": "1mQkckqJLT5vgqIyxPHIHQMjCGLC6veqf",
+    "at": 28.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "Healthcare workers in blue scrubs talk in a corridor",
+    "frame": null
+   },
+   {
+    "clip": "Mincho7600.MP4",
+    "path": "VIDEOS/BROLL/Mincho7600.MP4",
+    "drive": "1LO49N-_KPFdTk0gsbPaRKmWRTPDwBV1R",
+    "at": 10.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "Group in a corridor by a pink wall with a “PISO” sign",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "Watsi end card (watsi.org on light cyan)",
+    "kind": "end_card",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1920x1080",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
+}

@@ -1,0 +1,1075 @@
+{
+ "id": "13386500443",
+ "client": "watsi",
+ "eyebrow": "Watsi · Clinica Noel, Medellín · 20 Oct 2026 · FAQ 3 of 5",
+ "title": "FAQ:",
+ "title_q": "“What's the Most Unique Thing About Watsi?”",
+ "title_short": "Sonam · FAQ 3 · Most unique thing about Watsi",
+ "editor": "Qendrim",
+ "due": "2026-11-05",
+ "format": "16:9 only · 1920×1080",
+ "length": "about 2:11",
+ "edit_key": "WATSIColOctSonamFAQMostUnique001",
+ "headline": "Three things people say make Watsi different: a very small, very human team, a place where you can see your impact, and a very simple way to help.",
+ "story": [
+  "Sonam answers <b>what's the most unique thing about Watsi?</b> with three things she hears from donors all the time. It is warm and a little funny: eight people across seven time zones, and a supporter who asked them to list the whole team.",
+  "<b>1. The people.</b> <b>2. Your own Watsi Impact page.</b> <b>3. Giving is simple</b>, about 30 seconds, no phone number. She sums up the three, then adds a fourth: the transparency document that lets you follow the money."
+ ],
+ "feel": [
+  "Warm",
+  "Human",
+  "Light",
+  "Clear"
+ ],
+ "do": [
+  "Open on the question as text over the group walking. Then straight into her answer.",
+  "Cut from take 2 only (from 00:33). Keep her three-part order.",
+  "Mark each point with one short top text, one at a time.",
+  "Show the real impact page and the real donation flow, recorded fresh.",
+  "Captions on the whole time she speaks, one line at a time."
+ ],
+ "dont": [
+  "Do not use take 1 (00:00 to 00:31) or the flubbed phone-number line (02:03.3 to 02:24.1).",
+  "No Smile Train logo or sign in any frame (the pink “Fundación SmileTrain” wall is in Mincho7594).",
+  "No child's face without a release. Never name the CSC hospital.",
+  "No fake pages. No logo or name at 0:00.",
+  "Do not reuse the B-roll ranges used in FAQ 2 (Mincho7629, 7647, 7708, 7713, 7602, 7603, 7632, 7644)."
+ ],
+ "links": {
+  "brief": {
+   "title": "Director's Blueprint (Nick, 26 Oct)",
+   "url": "https://docs.google.com/document/d/1dDeL4smwFzysA3Y_ar1qnJ0AQnG8r8CjU18VSwX29G0/edit",
+   "note": "Nick's plan for this FAQ, linked on Monday. If it asks for something this page does not have, Nick's doc wins: tell Nick."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Nick owes it: Production Planning 13052130421 has no reference link. The client's steer for Sonam's FAQs: the same sit-down look as Mackinnon's interviews on the July Medellín trip. Sonam's FAQ format (17 Sep): the question typed on screen first, bold yellow, over natural movement, then straight into the answer."
+  },
+  "footage": {
+   "title": "Watsi Colombia Oct 20 RAW ▸ VIDEOS ▸ INTERVIEWS",
+   "url": "https://drive.google.com/drive/folders/1a488VdoDM2ssh-J9pBbxmH3F1ckF1QFd",
+   "note": "Mincho7652.MP4 (3:11). Take 2 runs 00:33 to 03:04. B-roll is in VIDEOS ▸ BROLL."
+  }
+ },
+ "bp_intro": "All bites are from <span class=\"mono\">Mincho7652.MP4</span> (3:11, 4K, 23.976 fps, one locked-off camera, teleprompter), take 2. Times are mm:ss.s in that clip, from the word-level transcript (output.json). Word times can drift by about 0.2 s: find each cut on the waveform. The transcript writes Watsi as “Whatsy” and labels some of her lines “Interviewer”: every line here is Sonam. No frames were pulled yet: shots are named from visual.json, so check each one on scrub.",
+ "rows": [
+  {
+   "tc": "00:00–00:03",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "No face yet. Natural movement: <a href=\"https://drive.google.com/file/d/1DJ-QfGDV1QdBgjGyJW7NxZhgqBU1k2zC/view\">Mincho7635.MP4</a> <span class=\"mono\">00:00.5</span> to <span class=\"mono\">00:03.5</span>, the group walking down a corridor with a pink wall and a blue door (visual.json). Check on scrub that no Smile Train logo is in frame. Her own read of the question is not used: the text replaces it.",
+   "motion": "Hook text on <b>frame 1</b>: <q>What's the most unique thing about Watsi?</q> Already on screen at 0:00, does not animate on. Top third, Lato Bold, Watsi yellow <span class=\"mono\">#FFCC33</span>, soft shadow, big. It doubles as the thumbnail. Holds to 00:03, then cut straight to Sonam.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "Room tone from the corridor clip, low.",
+   "music": "Music starts on frame 1. Warm, light, hopeful. No drums, no lyrics.",
+   "shots": [
+    {
+     "clip": "Mincho7635.MP4",
+     "at": 0.5,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "VIDEOS/BROLL/Mincho7635.MP4",
+     "drive": "1DJ-QfGDV1QdBgjGyJW7NxZhgqBU1k2zC",
+     "layout": "full",
+     "what": "The group walks a corridor"
+    }
+   ]
+  },
+  {
+   "tc": "00:03–00:09",
+   "beat": "THREE ANSWERS",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Sonam to camera, full 16:9 frame: seated, orange T-shirt with a logo, the Clinica Noel name on the wall behind her. Take 2 only (from 00:33): take 1 has a stop at 00:13. Start on “I actually have”.",
+   "motion": "Hook text off at 00:03. Name super at 00:04 for 3 s, lower left, above the captions, large: <q>Sonam Singh</q> / Director of Marketing &amp; Insights. Captions on from her first word.",
+   "voice": {
+    "who": "Sonam Singh",
+    "quote": "I actually have three answers to this one. And they are all things I hear from our community pretty often.",
+    "src": "Mincho7652.MP4 00:36.2 to 00:41.6"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed 18 to 20 dB under her voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I"
+    }
+   ]
+  },
+  {
+   "tc": "00:09–00:35",
+   "beat": "1 · THE PEOPLE",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Her face on “First, the people”. On “We are spread all over the globe” cut to <a href=\"https://drive.google.com/file/d/17S8Y-vn4gDWjLA_wdl3XlHZPNcVJC45E/view\">Mincho7585.MP4</a> <span class=\"mono\">00:06.0</span> to <span class=\"mono\">00:09.5</span>: women talk in a hallway, one in an orange shirt with a logo (visual.json; it may be Sonam herself, check on scrub). Back to her face on “And somehow people are always like”. Stay on her for the website story: it is her joke.",
+   "motion": "Top text on her words: <q>First, the people</q>, 2 s. Then number pop <q>8</q> with the line <q>people across seven time zones</q> as she says it, top third, 3 s. Captions on.",
+   "voice": {
+    "who": "Sonam Singh",
+    "quote": "First, the people when I talk with donors and partners, they are always surprised when they find out how small our team actually is. We are spread all over the globe, literally eight people across seven time zones, and we are doing a lot. And somehow people are always like, wait, that's the whole team? One time a supporter reached out to say it would be more transparent if we listed our whole team on our website. And we had to get back to them saying, really, that is our whole team.",
+    "src": "Mincho7652.MP4 00:42.4 to 01:07.6"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady. Let “wait, that's the whole team?” land.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "First,"
+    },
+    {
+     "clip": "Mincho7585.MP4",
+     "at": 6.0,
+     "dur": 3.5,
+     "cx": 0.5,
+     "path": "VIDEOS/BROLL/Mincho7585.MP4",
+     "drive": "17S8Y-vn4gDWjLA_wdl3XlHZPNcVJC45E",
+     "layout": "full",
+     "what": "Women talk in a hallway"
+    },
+    {
+     "face": true,
+     "from_word": "And"
+    }
+   ]
+  },
+  {
+   "tc": "00:35–00:55",
+   "beat": "SMALL ON PURPOSE",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Her face on “I think there's something”. On “our medical partners” cut to <a href=\"https://drive.google.com/file/d/1mQkckqJLT5vgqIyxPHIHQMjCGLC6veqf/view\">Mincho7609.MP4</a> <span class=\"mono\">00:28.0</span> to <span class=\"mono\">00:31.0</span>: healthcare workers in blue scrubs and surgical caps talk in a corridor (visual.json). On “open communication, listening” cut to <a href=\"https://drive.google.com/file/d/1dd8uyWrnYblUgKlTYcEhlqfakH9G1Lxk/view\">Mincho7616.MP4</a> <span class=\"mono\">03:20.0</span> to <span class=\"mono\">03:23.0</span>: women in pink and white talk in a hospital corridor (visual.json). Back to her face on “and actually being there”.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Sonam Singh",
+    "quote": "I think there's something really special about being this small and spread out globally. Our technology allows us to scale without having to build a giant organization around it. It's built into our business model. So a lot of our energy can go into the things that really matter, our medical partners, open communication, listening, and actually being there when someone reaches out.",
+    "src": "Mincho7652.MP4 01:08.7 to 01:28.7"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I"
+    },
+    {
+     "clip": "Mincho7609.MP4",
+     "at": 28.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "VIDEOS/BROLL/Mincho7609.MP4",
+     "drive": "1mQkckqJLT5vgqIyxPHIHQMjCGLC6veqf",
+     "layout": "full",
+     "what": "Healthcare workers talk in a corridor"
+    },
+    {
+     "clip": "Mincho7616.MP4",
+     "at": 200.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "VIDEOS/BROLL/Mincho7616.MP4",
+     "drive": "1dd8uyWrnYblUgKlTYcEhlqfakH9G1Lxk",
+     "layout": "full",
+     "what": "Women talk in a hospital corridor"
+    },
+    {
+     "face": true,
+     "from_word": "and"
+    }
+   ]
+  },
+  {
+   "tc": "00:55–01:16",
+   "beat": "2 · YOUR IMPACT PAGE",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Her face on “Second”. On “You can see everyone you have helped” cut to a <b>screen recording of a real Watsi donor profile</b> (impact page) on a phone: the people helped, the countries, the updates. Record it fresh from a real account Watsi gives us (ask Nick). Never fake a page. Back to her face on “It's all just there.”",
+   "motion": "Top text on her words: <q>Second, your Watsi Impact page</q>, 2.5 s. Captions on.",
+   "voice": {
+    "who": "Sonam Singh",
+    "quote": "Second, your Watsi Impact page. Yes, you have your own Watsi profile too. You can see everyone you have helped, the countries you're giving has reached, and all the updates from the people you have supported, all in one place. And we don't make you ask for this information, which I think is really important to share. It's all just there. You always know your impact and you can actually see it.",
+    "src": "Mincho7652.MP4 01:29.7 to 01:50.7"
+   },
+   "sfx": "One soft UI tap on the cut to the screen recording.",
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Second,"
+    },
+    {
+     "screen": "real Watsi donor profile on a phone, recorded fresh",
+     "from_word": "You"
+    },
+    {
+     "face": true,
+     "from_word": "It's"
+    }
+   ]
+  },
+  {
+   "tc": "01:16–01:28",
+   "beat": "3 · SIMPLE TO HELP",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Her face on “And third”. On “making a donation” cut to a <b>screen recording of the real watsi.org donation flow</b> on a phone, start to finish, sped up to fit. Record it fresh. Back to her face on “We don't ask for your company name.” Cut out 02:03.3 to 02:24.1: she flubs the phone-number line and starts again.",
+   "motion": "Top text on her words: <q>And third, we make it really simple to help.</q>, 2.5 s. Then number pop <q>30</q> with the line <q>seconds</q> when she says about 30 seconds, top third, 2.5 s. Captions on.",
+   "voice": {
+    "who": "Sonam Singh",
+    "quote": "And third, we make it really simple to help. I have watched someone from landing on Watsi who were making a donation in about 30 seconds. We don't ask for your company name. We don't ask for your address.",
+    "src": "Mincho7652.MP4 01:51.6 to 02:02.6"
+   },
+   "sfx": "One soft UI tap on the cut to the screen recording.",
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "And"
+    },
+    {
+     "screen": "real watsi.org donation flow on a phone, recorded fresh",
+     "from_word": "who"
+    },
+    {
+     "face": true,
+     "from_word": "We"
+    }
+   ]
+  },
+  {
+   "tc": "01:28–01:45",
+   "beat": "THE POINT",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Her face, from the clean retake at 02:24.2 (“We don't ask for your phone number”). On “Giving should be simple and we think even joyful” cut to <a href=\"https://drive.google.com/file/d/1tqbUwtElrIKzaflqr3-3QxUyswal9Own/view\">Mincho7685.MP4</a> <span class=\"mono\">00:14.0</span> to <span class=\"mono\">00:17.0</span>: a woman shows how to make a bracelet at the art activity, a child watches (visual.json). Children: use only with a release (ask Nick).",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Sonam Singh",
+    "quote": "We don't ask for your phone number, which as a marketer makes my life slightly difficult to be honest, but I also think that's the point. You came here to help. Why should you have to spend five minutes filling out a form before you can just do that? Giving should be simple and we think even joyful.",
+    "src": "Mincho7652.MP4 02:24.2 to 02:41.2"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "We"
+    },
+    {
+     "clip": "Mincho7685.MP4",
+     "at": 14.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "VIDEOS/BROLL/Mincho7685.MP4",
+     "drive": "1tqbUwtElrIKzaflqr3-3QxUyswal9Own",
+     "layout": "full",
+     "what": "Bracelet making at the art activity"
+    },
+    {
+     "face": true,
+     "from_word": "So"
+    }
+   ]
+  },
+  {
+   "tc": "01:45–01:53",
+   "beat": "MY THREE THINGS",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Her face on “So those are my three things.” Then the full-frame list card for the three points. Back to her face for the last words if the card ends early.",
+   "motion": "List card, full frame, from her words A very small: heading <q>my three things</q>, then <q>a very human team</q>, <q>see your impact</q>, <q>a very simple way to help</q>, one at a time on her words. Light cyan background, navy text. Captions stay on over it.",
+   "voice": {
+    "who": "Sonam Singh",
+    "quote": "So those are my three things. A very small, very human team, a place where you can actually see your impact and a very simple way to help.",
+    "src": "Mincho7652.MP4 02:42.0 to 02:49.3"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Small lift under the list.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "So"
+    },
+    {
+     "card": "list_card",
+     "from_word": "A"
+    }
+   ]
+  },
+  {
+   "tc": "01:53–02:08",
+   "beat": "ONE MORE",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Her face. She adds a fourth point: the transparency document. Stay on her. Hold 0.7 s after “right now.”, then cut to the end card.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Sonam Singh",
+    "quote": "And I have a fourth one to wait, our transparency document. It's a little old school. It's just a simple Google sheet, but it makes it easy to follow the money. And while we have done this since day one, we think this level of transparency is only getting more and more important right now.",
+    "src": "Mincho7652.MP4 02:50.2 to 03:04.3"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed resolves on “right now.”",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "And"
+    }
+   ]
+  },
+  {
+   "tc": "02:08–02:11",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Clean end card, full frame. Light cyan <span class=\"mono\">#D3EDFA</span> background. Navy is never a background.",
+   "motion": "<b>watsi.org</b>, all lowercase, Lato, navy <span class=\"mono\">#2E2844</span>. One line. Nothing under it. No logo before this card.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music out with a 1 s fade.",
+   "shots": []
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Director's Blueprint",
+   "<a href=\"https://docs.google.com/document/d/1dDeL4smwFzysA3Y_ar1qnJ0AQnG8r8CjU18VSwX29G0/edit\">Nick's doc for FAQ 3</a>"
+  ],
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/14hF29qXD3LHqk0KzcuUsgWyBPRrlSmr7C_KEF_kWvuI/edit\">Watsi x Clinica Noel Production Brief, Oct 20 Board Visit</a>"
+  ],
+  [
+   "Client script",
+   "<a href=\"https://docs.google.com/document/d/1ckwlTzk5uqgsduGp2i31b4y6OVEoHLAuICrMZ8CZqGw/edit\">Colombia Script_Oct 2026_Sonam</a> (Watsi's own script for the five FAQs)"
+  ],
+  [
+   "Take map",
+   "<a href=\"https://docs.google.com/document/d/1G7rJNCnKwmg1x3q76osbmWc-NIgpe16Z6T1otzzGbFs/edit\">Watsi Colombia Oct 20 take map</a>"
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/1kf3g1xLxYOxcCdFU_A3Z-JhzzW5b9-8X\">Watsi Colombia Oct 20 2026 RAW</a> · <a href=\"https://drive.google.com/drive/folders/1a488VdoDM2ssh-J9pBbxmH3F1ckF1QFd\">INTERVIEWS</a> · <a href=\"https://drive.google.com/drive/folders/1RGWkFvBMzs1FIr_1OGJvyer22XaYqcRs\">BROLL</a>"
+  ],
+  [
+   "Interview clip",
+   "<a href=\"https://drive.google.com/file/d/1rMD-iSxitnUWHaQJ0Z-ZwFo6nD1ju5iv/view\">Mincho7652.MP4</a> · 3:11 · take 2 from 00:33"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1mANw4hUQWRhGZvcjgm8F6OYpvXnh23lf9ntX2DrC72U/edit\">Transcripts - Watsi Colombia Oct 20 2026</a> · <a href=\"https://drive.google.com/file/d/1jt2kV0FPOBE2SbOlmrxztwJUil4wLZ_l/view\">output.json</a> (word times) · <a href=\"https://drive.google.com/file/d/1vLryayRYW_ONvRXwQiTw43ae1gPs2DHO/view\">.srt</a>"
+  ],
+  [
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/1MnEAU_2ZM7ogqeYS9rZAitCY7PvI8Xd6/view\">visual.json</a> (Erin's shot index for this shoot)"
+  ],
+  [
+   "B-roll picks",
+   "<a href=\"https://drive.google.com/file/d/1DJ-QfGDV1QdBgjGyJW7NxZhgqBU1k2zC/view\">Mincho7635.MP4</a> <span class=\"mono\">00:00.5</span> to <span class=\"mono\">00:03.5</span> · <a href=\"https://drive.google.com/file/d/17S8Y-vn4gDWjLA_wdl3XlHZPNcVJC45E/view\">Mincho7585.MP4</a> <span class=\"mono\">00:06.0</span> to <span class=\"mono\">00:09.5</span> · <a href=\"https://drive.google.com/file/d/1mQkckqJLT5vgqIyxPHIHQMjCGLC6veqf/view\">Mincho7609.MP4</a> <span class=\"mono\">00:28.0</span> to <span class=\"mono\">00:31.0</span> · <a href=\"https://drive.google.com/file/d/1dd8uyWrnYblUgKlTYcEhlqfakH9G1Lxk/view\">Mincho7616.MP4</a> <span class=\"mono\">03:20.0</span> to <span class=\"mono\">03:23.0</span> · <a href=\"https://drive.google.com/file/d/1tqbUwtElrIKzaflqr3-3QxUyswal9Own/view\">Mincho7685.MP4</a> <span class=\"mono\">00:14.0</span> to <span class=\"mono\">00:17.0</span>"
+  ],
+  [
+   "Brand pack",
+   "<a href=\"https://drive.google.com/drive/folders/1my9RNjTawX8JeQO2eQDHSphWP8KTg09r\">LOTUS illustrations</a> · <a href=\"https://drive.google.com/drive/folders/1T7bIehcX3_l6F-CXUu-LHCyPE58nq9df\">September Spirit font</a> · <a href=\"https://drive.google.com/file/d/1u8R2iKmydBN2xF_h0wIE6X-NZo0mslXs/view\">Watsi brand guide</a> · Lato for all text on screen"
+  ],
+  [
+   "Brand graphics package",
+   "Watsi package on Drive: <span class=\"mono\">deliverables/graphics-packages/Watsi</span>. Plates are empty: type the words in Lato."
+  ],
+  [
+   "Music",
+   "Uppbeat, like other Watsi cuts. Save the licence certificate with the project: Watsi uploads to YouTube themselves and a claim blocks the upload."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "Mincho7652.MP4: 3840×2160, 23.976 fps, one camera, locked off, wide. Audio recorded into the camera."
+  ],
+  [
+   "Timeline",
+   "1920×1080 at <b>23.976 fps</b>. Same as the source. No frame-rate change."
+  ],
+  [
+   "Framing",
+   "The interview is a wide shot (her face is small in 4K). Scale to about 150% so she sits on a third, eyes in the top third. Up to 200% stays native. B-roll at 59.94 fps (Mincho7585, 7609, 7685): conform to 23.976."
+  ],
+  [
+   "The cut at 02:03",
+   "Cut from “We don't ask for your address.” (ends 02:02.6) to the retake “We don't ask for your phone number” (02:24.2). Same framing, so cover the jump with the screen recording or a 3% punch-in."
+  ],
+  [
+   "Audio",
+   "Check both camera channels on the waveform. Use the live mic on both sides and mute the other."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. Music always under the voice."
+  ],
+  [
+   "Captions",
+   "Burned in. Lato Bold, white, soft shadow, large, word by word, one line at a time, low in the frame. Always on while she speaks. Fix every “Whatsy” to Watsi by hand."
+  ],
+  [
+   "Screen recordings",
+   "Record the real donor profile and the real donation flow on a phone, vertical, then place them in the 16:9 frame (centered, with the brand light cyan behind). No fake UI."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1920×1080, 16:9. Upload to Frame.io."
+  ]
+ ],
+ "checklist": [
+  "Frame 1 is the walking shot with the question already on screen. No logo, no name.",
+  "The question reads “What's the most unique thing about Watsi?” exactly.",
+  "Name super at 00:04, above the captions, large: Sonam Singh / Director of Marketing & Insights.",
+  "Nothing from take 1 and nothing from 02:03.3 to 02:24.1.",
+  "“Watsi Impact page” and “Watsi profile” are spelled Watsi in the captions and the top text.",
+  "The number pops read 8 and 30, the same as she says them.",
+  "The impact page and donation flow are real, recorded fresh.",
+  "No Smile Train logo or sign in any frame. No child's face without a release.",
+  "Captions never drop out while she speaks.",
+  "Ends on watsi.org, lowercase, nothing under it."
+ ],
+ "decisions": [
+  {
+   "t": "Nick's Director's Blueprint",
+   "b": "Nick's doc for this FAQ (Monday brief link) is not shared with the account that built this page. Nick checks that it asks for nothing this page leaves out."
+  },
+  {
+   "t": "Fourth point",
+   "b": "Nick's title says about 2:12, which only fits with her fourth point (the transparency document, 02:50 to 03:04). It repeats FAQ 2. Kept in this plan; Nick can drop the ONE MORE row if FAQ 2 posts first."
+  },
+  {
+   "t": "A real donor profile",
+   "b": "The impact page needs a real donor account to record. Nick asks Sonam which profile we may show on screen."
+  },
+  {
+   "t": "Format",
+   "b": "Nick's item title says 16:9. FAQ 1 and FAQ 4 have separate “Vertical” items. Nick says if FAQ 3 needs a vertical twin; it would be its own item and Edit Key."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> 2026 is Watsi's year of trust and transparency. This FAQ is the friendly one: it shows the people behind Watsi and how easy it is to help.",
+ "ask_examples": [
+  "Which take do I use?",
+  "Where do I cut the phone-number line?",
+  "Whose donor profile can I record?",
+  "Do I keep the fourth point?"
+ ],
+ "transcript": "--- Mincho7652.MP4 ---\n[00:00.4] [do not use: take 1, she stops and restarts] Three, two.\n[00:03.2] [do not use: take 1, she stops and restarts] What's the most unique thing about Watsi?\n[00:06.2] [do not use: take 1, she stops and restarts] Okay, I actually have three answers to this one.\n[00:09.6] [do not use: take 1, she stops and restarts] And they are all things I hear from our community pretty often.\n[00:13.4] [do not use: take 1, she stops and restarts] First, the people when I talk, oh, sorry.\n[00:19.8] [do not use: take 1, she stops and restarts] First, the people, oh, then space, okay.\n[00:22.8] [do not use: take 1, she stops and restarts] You wouldn't have known.\n[00:24.5] [do not use: take 1, she stops and restarts] Should we start from the beginning?\n[00:25.8] [do not use: take 1, she stops and restarts] Start from the beginning, yes.\n[00:29.8] [do not use: take 1, she stops and restarts] You ready?\n[00:30.9] [do not use: take 1, she stops and restarts] Yep.\n[00:31.8] [do not use: take 1, she stops and restarts] Two.\n[00:33.4] [do not use: the read question: the hook text replaces it] What's the most unique thing about Watsi?\n[00:35.8] Okay, I actually have three answers to this one.\n[00:39.2] And they are all things I hear from our community pretty often.\n[00:42.4] First, the people when I talk with donors and partners, they are always surprised when they find out how small our team actually is.\n[00:50.2] We are spread all over the globe, literally eight people across seven time zones, and we are doing a lot.\n[00:54.8] And somehow people are always like, wait, that's the whole team?\n[00:58.5] One time a supporter reached out to say it would be more transparent if we listed our whole team on our website.\n[01:04.9] And we had to get back to them saying, really, that is our whole team.\n[01:08.7] I think there's something really special about being this small and spread out globally.\n[01:13.1] Our technology allows us to scale without having to build a giant organization around it.\n[01:18.1] It's built into our business model.\n[01:19.6] So a lot of our energy can go into the things that really matter, our medical partners, open communication, listening, and actually being there when someone reaches out.\n[01:29.7] Second, your Watsi Impact page.\n[01:31.6] Yes, you have your own Watsi profile too.\n[01:33.9] You can see everyone you have helped, the countries you're giving has reached, and all the updates from the people you have supported, all in one place.\n[01:42.3] And we don't make you ask for this information, which I think is really important to share.\n[01:46.8] It's all just there.\n[01:48.0] You always know your impact and you can actually see it.\n[01:51.6] And third, we make it really simple to help.\n[01:54.6] I have watched someone from landing on Watsi who were making a donation in about 30 seconds.\n[01:59.9] We don't ask for your company name.\n[02:01.6] We don't ask for your address.\n[02:03.3] [do not use: flubbed line, she restarts at 02:24.2] We don't ask for your phone number, which to be honest, as a marketer, it makes my life slightly difficult to be honest, but I think I'm saying honest twice.\n[02:16.4] [do not use: flubbed line, she restarts at 02:24.2] Third point.\n[02:17.9] [do not use: flubbed line, she restarts at 02:24.2] We don't ask.\n[02:19.9] [do not use: flubbed line, she restarts at 02:24.2] We don't ask, okay, yeah.\n[02:21.8] [do not use: flubbed line, she restarts at 02:24.2] Three, two.\n[02:24.2] We don't ask for your phone number, which as a marketer makes my life slightly difficult to be honest, but I also think that's the point.\n[02:31.8] You came here to help.\n[02:33.2] Why should you have to spend five minutes filling out a form before you can just do that?\n[02:39.1] Giving should be simple and we think even joyful.\n[02:42.0] So those are my three things.\n[02:43.5] A very small, very human team, a place where you can actually see your impact and a very simple way to help.\n[02:50.2] And I have a fourth one to wait, our transparency document.\n[02:52.8] It's a little old school.\n[02:53.8] It's just a simple Google sheet, but it makes it easy to follow the money.\n[02:57.9] And while we have done this since day one, we think this level of transparency is only getting more and more important right now.\n[03:07.4] [do not use: crew talk] How do you feel?\n[03:08.3] [do not use: crew talk] Good.\n[03:09.1] [do not use: crew talk] Good?\n[03:09.9] [do not use: crew talk] Yeah, that was good.",
+ "alts": {
+  "bite:1": [
+   {
+    "quote": "Okay, I actually have three answers to this one.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "First, the people when I talk with donors and partners, they are always surprised when they find out how small our team actually is.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "We are spread all over the globe, literally eight people across seven time zones, and we are doing a lot.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And somehow people are always like, wait, that's the whole team?",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "One time a supporter reached out to say it would be more transparent if we listed our whole team on our website.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And we had to get back to them saying, really, that is our whole team.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "I think there's something really special about being this small and spread out globally.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "Our technology allows us to scale without having to build a giant organization around it.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "It's built into our business model.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "Okay, I actually have three answers to this one.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And they are all things I hear from our community pretty often.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "I think there's something really special about being this small and spread out globally.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "Our technology allows us to scale without having to build a giant organization around it.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "It's built into our business model.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "Okay, I actually have three answers to this one.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And they are all things I hear from our community pretty often.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "First, the people when I talk with donors and partners, they are always surprised when they find out how small our team actually is.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "We are spread all over the globe, literally eight people across seven time zones, and we are doing a lot.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And somehow people are always like, wait, that's the whole team?",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "One time a supporter reached out to say it would be more transparent if we listed our whole team on our website.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And we had to get back to them saying, really, that is our whole team.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "Okay, I actually have three answers to this one.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And they are all things I hear from our community pretty often.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "First, the people when I talk with donors and partners, they are always surprised when they find out how small our team actually is.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "We are spread all over the globe, literally eight people across seven time zones, and we are doing a lot.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And somehow people are always like, wait, that's the whole team?",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "One time a supporter reached out to say it would be more transparent if we listed our whole team on our website.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And we had to get back to them saying, really, that is our whole team.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "I think there's something really special about being this small and spread out globally.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "Our technology allows us to scale without having to build a giant organization around it.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "It's built into our business model.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "Okay, I actually have three answers to this one.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And they are all things I hear from our community pretty often.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "First, the people when I talk with donors and partners, they are always surprised when they find out how small our team actually is.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "We are spread all over the globe, literally eight people across seven time zones, and we are doing a lot.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And somehow people are always like, wait, that's the whole team?",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "One time a supporter reached out to say it would be more transparent if we listed our whole team on our website.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And we had to get back to them saying, really, that is our whole team.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "I think there's something really special about being this small and spread out globally.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "Our technology allows us to scale without having to build a giant organization around it.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "It's built into our business model.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   }
+  ],
+  "bite:6": [
+   {
+    "quote": "Okay, I actually have three answers to this one.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And they are all things I hear from our community pretty often.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "First, the people when I talk with donors and partners, they are always surprised when they find out how small our team actually is.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "We are spread all over the globe, literally eight people across seven time zones, and we are doing a lot.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And somehow people are always like, wait, that's the whole team?",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "One time a supporter reached out to say it would be more transparent if we listed our whole team on our website.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And we had to get back to them saying, really, that is our whole team.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "I think there's something really special about being this small and spread out globally.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "Our technology allows us to scale without having to build a giant organization around it.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "It's built into our business model.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   }
+  ],
+  "bite:7": [
+   {
+    "quote": "Okay, I actually have three answers to this one.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And they are all things I hear from our community pretty often.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "First, the people when I talk with donors and partners, they are always surprised when they find out how small our team actually is.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "We are spread all over the globe, literally eight people across seven time zones, and we are doing a lot.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And somehow people are always like, wait, that's the whole team?",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "One time a supporter reached out to say it would be more transparent if we listed our whole team on our website.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And we had to get back to them saying, really, that is our whole team.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "I think there's something really special about being this small and spread out globally.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "Our technology allows us to scale without having to build a giant organization around it.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "It's built into our business model.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   }
+  ],
+  "bite:8": [
+   {
+    "quote": "Okay, I actually have three answers to this one.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And they are all things I hear from our community pretty often.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "First, the people when I talk with donors and partners, they are always surprised when they find out how small our team actually is.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "We are spread all over the globe, literally eight people across seven time zones, and we are doing a lot.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And somehow people are always like, wait, that's the whole team?",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "One time a supporter reached out to say it would be more transparent if we listed our whole team on our website.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "And we had to get back to them saying, really, that is our whole team.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "I think there's something really special about being this small and spread out globally.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "Our technology allows us to scale without having to build a giant organization around it.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   },
+   {
+    "quote": "It's built into our business model.",
+    "who": "Sonam Singh",
+    "file": "Mincho7652.MP4",
+    "why": "Another clean line from the same take."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "What's the most unique thing about Watsi?",
+    "line": "What's the most unique thing about Watsi?",
+    "why": "The FAQ title, as read on the take."
+   },
+   {
+    "text": "Wait, that's the whole team?",
+    "line": "And somehow people are always like, wait, that's the whole team?",
+    "why": "Surprising and funny. People stay to hear more."
+   },
+   {
+    "text": "8 people. 7 time zones.",
+    "line": "We are spread all over the globe, literally eight people across seven time zones, and we are doing a lot.",
+    "why": "A number that surprises."
+   },
+   {
+    "text": "Donate in about 30 seconds",
+    "line": "I have watched someone from landing on Watsi who were making a donation in about 30 seconds.",
+    "why": "A clear, simple promise."
+   },
+   {
+    "text": "Giving should be simple",
+    "line": "Giving should be simple and we think even joyful.",
+    "why": "Her belief in one line."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "Watsi: simplicity, one brand element at a time, never slapped on. One top text marks each of her three points, two number pops, one list card for the recap, the name super and the end card. Her face carries the jokes.",
+  "devices": [
+   {
+    "row": "00:00–00:03",
+    "device": "Hook question over natural movement",
+    "asset": "Mincho7635 0:00.5 to 0:03.5 + hook text",
+    "source": "BROLL + MG library of this page"
+   },
+   {
+    "row": "00:03–00:09",
+    "device": "Name super",
+    "asset": "Sonam Singh / Director of Marketing & Insights",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "00:09–00:35",
+    "device": "Top text + number pop + B-roll",
+    "asset": "First, the people; 8; Mincho7585 0:06",
+    "source": "MG library + BROLL"
+   },
+   {
+    "row": "00:35–00:55",
+    "device": "B-roll pod",
+    "asset": "Mincho7609 0:28; Mincho7616 3:20",
+    "source": "BROLL"
+   },
+   {
+    "row": "00:55–01:16",
+    "device": "Top text + real screen recording",
+    "asset": "Second, your Watsi Impact page; donor profile",
+    "source": "MG library; recorded fresh"
+   },
+   {
+    "row": "01:16–01:28",
+    "device": "Top text + number pop + real screen recording",
+    "asset": "And third...; 30; donation flow",
+    "source": "MG library; recorded fresh"
+   },
+   {
+    "row": "01:28–01:45",
+    "device": "B-roll",
+    "asset": "Mincho7685 0:14",
+    "source": "BROLL"
+   },
+   {
+    "row": "01:45–01:53",
+    "device": "List card, full frame",
+    "asset": "my three things",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "02:08–02:11",
+    "device": "End card",
+    "asset": "watsi.org on light cyan",
+    "source": "endcards/index.json (watsi)"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "Mincho7621.MP4",
+    "path": "VIDEOS/BROLL/Mincho7621.MP4",
+    "drive": "1EHY4IIrVNn8vbu7OvYDzXVOt10mLHIJT",
+    "at": 8.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "People gathered and talking in a large room",
+    "frame": null
+   },
+   {
+    "clip": "Mincho7641.MP4",
+    "path": "VIDEOS/BROLL/Mincho7641.MP4",
+    "drive": "1gozSL9qnzhsKPwGtdzcQ7mawu-nrN9Tr",
+    "at": 5.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "Two women in conversation, medium shot",
+    "frame": null
+   },
+   {
+    "clip": "Mincho7710.MP4",
+    "path": "VIDEOS/BROLL/Mincho7710.MP4",
+    "drive": "1dR1GqI5aAmBTegjqrb5QEzb79Bm6N093",
+    "at": 0.5,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "A woman and a boy wave at the camera (child: release needed)",
+    "frame": null
+   },
+   {
+    "clip": "Mincho7586.MP4",
+    "path": "VIDEOS/BROLL/Mincho7586.MP4",
+    "drive": "1buwFmrqCD2YxY6qS-EwTGm9gdKfwvP5g",
+    "at": 8.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "A woman in a green shirt with a logo talks with a woman in orange",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "Watsi end card (watsi.org on light cyan)",
+    "kind": "end_card",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1920x1080",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
+}

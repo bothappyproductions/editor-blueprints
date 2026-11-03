@@ -1,0 +1,92 @@
+{
+ "item": "12714476457",
+ "client": "watsi",
+ "note": "The script asks for four graphics: the question on top, the name super, the Uganda pin and one quote. Then the end card. Sonam did not like the V3 animation, so nothing else.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Question on top",
+   "tpl": "highlight_callout",
+   "dur": 3.5,
+   "pos": "top",
+   "text": {
+    "main": "How do hospitals work with Watsi?"
+   },
+   "cue": "Question on top from frame 1: How do hospitals work with Watsi?",
+   "src": "Script, row 00:00–00:04, Motion graphics & type.",
+   "rows": [
+    "00:00–00:04"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03.5. Over the walking shot. It is the thumbnail."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 3.0,
+   "pos": "center",
+   "text": {
+    "main": "Mackinnon Engen"
+   },
+   "cue": "Name super at 00:04 for 3 s, lower left, above the captions, large: Mackinnon Engen",
+   "src": "Script, row 00:04–00:07, Motion graphics & type.",
+   "rows": [
+    "00:04–00:07"
+   ],
+   "use": "At 00:04. Move it lower left, above the captions, large. Type the second line Executive Director, Watsi under it."
+  },
+  {
+   "n": 3,
+   "title": "Uganda pin",
+   "tpl": "tag_label",
+   "dur": 2.5,
+   "pos": "upper",
+   "text": {
+    "main": "Uganda"
+   },
+   "cue": "Location pin Uganda on her words",
+   "src": "Script, row 00:55–01:11, Motion graphics & type.",
+   "rows": [
+    "00:55–01:11"
+   ],
+   "use": "Upper left, on “partner hospitals in Uganda” at about 00:58.1. 2.5 s."
+  },
+  {
+   "n": 4,
+   "title": "Without Watsi",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "we could not have done this without Watsi."
+   },
+   "cue": "Top text on her words: we could not have done this without Watsi.",
+   "src": "Script, row 01:11–01:15, Motion graphics & type.",
+   "rows": [
+    "01:11–01:15"
+   ],
+   "use": "Top third, on her words at about 01:12.5. Holds 2.5 s."
+  },
+  {
+   "n": 5,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:17–01:20"
+   ],
+   "cue": "watsi.org, all lowercase, Lato, navy. One line. Nothing under it.",
+   "src": "Watsi's own end card words from the script (watsi.org, the Who Gives close, or the Watsi x AYH lines). Watsi's scripts say no logo lockup. Source date: 6 Oct 2026.",
+   "c": {
+    "bg": "#D3EDFA",
+    "fg": "#2E2844"
+   },
+   "text": {
+    "lines": [
+     "watsi.org"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 01:17 after the last line and hold it to the end."
+  }
+ ]
+}
