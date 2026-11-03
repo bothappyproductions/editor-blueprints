@@ -1,0 +1,256 @@
+{
+ "id": "13083750636",
+ "client": "mha",
+ "eyebrow": "MHA Nebraska · Keya House, Lincoln · 9 Sep 2026 · Social short",
+ "title": "Keya House Warm Line:",
+ "title_q": "“Somewhere You Can Call”",
+ "title_short": "Keya House Warm Line · Somewhere You Can Call",
+ "editor": "Bleron",
+ "due": "2026-10-28",
+ "format": "9:16 only · 1080×1920",
+ "length": "about 47 s",
+ "edit_key": "MHAWarmLineSomewhereYouCanCall001",
+ "headline": "The warm line is a real person with lived experience who picks up and talks with you. Not a call center, not a crisis line.",
+ "story": [
+  "A phone rings at Keya House and Madison picks up.",
+  "Amber explains: call and talk with a peer for up to 15 minutes about anything, and it doesn't always have to be a struggle. It is not a crisis line; for crisis there is 988.",
+  "A warm line is just a safe space to talk with a peer. If you're struggling, call this number."
+ ],
+ "feel": [
+  "Warm",
+  "Safe",
+  "Human",
+  "Calm"
+ ],
+ "do": [
+  "Open on the ringing phone with “Someone will pick up.”",
+  "Cut to Madison's real calls over Amber's lines.",
+  "Keep the 988 line and put it on screen.",
+  "End card: “If you're struggling, call this number.” + the number + logo, 5 s.",
+  "Keep it 40 to 47 s."
+ ],
+ "dont": [
+  "Not therapy, diagnosis, treatment or crisis. Not a hotline, hospital or office.",
+  "Don't type a phone number from Google. Use the number MHA gives us.",
+  "Never “patient”, “therapy”, “treatment”, “clinic”, “facility”.",
+  "No guest face without a signed release. No street number on screen.",
+  "No desk, keyboard or paper filler B-roll."
+ ],
+ "links": {
+  "brief": {
+   "title": "Editor brief: Keya House Warm Line, “Somewhere You Can Call” (pulse.13083750636)",
+   "url": "https://docs.google.com/document/d/1Xy2V4CawN1-lG61ummknbq27BDwxDMf7NBDfNQ8HOBY/edit",
+   "note": "Bites, AV map and rules are set there."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Production Planning 12324447439 reads Requested, owner Nick."
+  },
+  "footage": {
+   "title": "MHA September 2026 raw",
+   "url": "https://drive.google.com/drive/folders/1-B8N77LRfWIqQIyZaqP4ULirziTGsyye",
+   "note": "Day 1 › Keya House: Amber Interview (C4695), Madison Warm Line Call (C4689, C4691, C4692, C4693), Keya House and Staff B Roll (C4667)."
+  }
+ },
+ "bp_intro": "Times are from the per-clip Day 1 transcript, counted from the start of each clip. Amber's warm-line answer is <span class=\"mono\">C4695</span> 07:17–08:01. Interviews are 24 fps, B-roll 50 fps: interpret the 50 fps clips on a 24 fps timeline on purpose.",
+ "rows": [
+  {
+   "tc": "00:00–00:04",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "C4689 00:00: the Panasonic cordless phone on the wooden table, an incoming call on its screen. Madison picks up at 00:02.",
+   "motion": "Hook text on <b>frame 1</b>, big and bold: <q>Someone will pick up.</q> No logo, no name plate.",
+   "voice": {
+    "who": "Madison",
+    "quote": "Keya House, this is Madison.",
+    "src": "C4689 00:02"
+   },
+   "sfx": "The phone ring.",
+   "music": "Soft, warm bed."
+  },
+  {
+   "tc": "00:04–00:14",
+   "beat": "CALL US",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Amber on camera (green MHA shirt, seated) for 3 s, then C4691 00:00: Madison on the phone, glasses, patterned curtains, green wall.",
+   "motion": "Super once, lower corner, 3 s: “Amber Pendley · Director of Operations, MHA Nebraska”. Caption “Keya” (transcript: Kea).",
+   "voice": {
+    "who": "Amber",
+    "quote": "Go ahead and give Keya House a call and you will connect with a peer and you can talk to us for up to 15 minutes about anything that you are or may be struggling with or maybe you just want someone to talk to.",
+    "src": "C4695 07:17"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:14–00:17",
+   "beat": "NOT ALWAYS A STRUGGLE",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "C4691 00:56–01:01: Madison laughing on the call.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Amber",
+    "quote": "It doesn't always have to be a struggle.",
+    "src": "C4695 07:28"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:17–00:29",
+   "beat": "NOT A CRISIS LINE",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Amber on camera 4 s, then C4667 00:00 phone close-up, then C4693 00:07 Madison on the flip phone in the MHA sweatshirt.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Amber",
+    "quote": "One thing that I wanna reiterate is we are not a crisis line. … We do intentional peer support where we just wanna support you in your wellness journey but we do not handle crisis over the phone.",
+    "src": "C4695 07:30, 07:37"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:29–00:35",
+   "beat": "988",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Amber on camera.",
+   "motion": "Text card: <q>In crisis? Call or text 988.</q>",
+   "voice": {
+    "who": "Amber",
+    "quote": "So there are other alternatives for crisis like the 988 number if you do find yourself in a crisis",
+    "src": "C4695 07:45"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:35–00:42",
+   "beat": "BUTTON",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "C4692 00:11: Madison ends the call, smiling by the window.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Amber / Madison",
+    "quote": "a warm line is just a safe space to call and conversate with a peer. / It was nice talking to you.",
+    "src": "C4695 07:55 · C4692 00:11"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Resolve."
+  },
+  {
+   "tc": "00:42–00:47",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "End card.",
+   "motion": "<q>If you're struggling, call this number.</q> + the Keya House warm-line number + MHA Nebraska logo. Hold 5 s.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music only."
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Editing brief",
+   "<a href=\"https://docs.google.com/document/d/1Xy2V4CawN1-lG61ummknbq27BDwxDMf7NBDfNQ8HOBY/edit\">pulse.13083750636</a> (Google Doc). This page is built from it."
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/1-B8N77LRfWIqQIyZaqP4ULirziTGsyye\">MHA September 2026 raw</a>"
+  ],
+  [
+   "Clips",
+   "Day 1/Keya House/Amber Interview/20260909_C4695.MP4 (8:38) · Day 1/Keya House/Madison Warm Line Call at Keya/20260909_C4689, C4691, C4692, C4693 · Day 1/Keya House/Keya House and Staff B Roll/20260909_C4667.MP4 · optional Day 1/Keya House/Morgan and Adrian Keya Peer Support Interviews/20260909_C4697.MP4"
+  ],
+  [
+   "Transcript",
+   "Day 1 › EditingResources › transcript (“Transcripts - Day 1” + Day 1.transcript.json + Keybites + SRT Groups)."
+  ],
+  [
+   "visual.json",
+   "MHA September 2026 › EditingResources › EditTranscripts › visual.json"
+  ],
+  [
+   "Client ask",
+   "Madison Herman, pre-production call 8 Sep: the warm line is the most overlooked part of the job, takes calls from across the country, and the video must end on “if you're struggling, call this number.”"
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "Sony FX3. Interviews 24 fps, B-roll 50 fps. Lav into the camera: check the multi-mono lav channels on C4695."
+  ],
+  [
+   "Timeline",
+   "1080×1920 at 24 fps. Interpret the 50 fps B-roll on purpose."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. Soft music; don't cut on hard beats over Amber."
+  ],
+  [
+   "Captions",
+   "Every spoken word. Clean bold sans until Nick sends the brand kit. One text block, one place, the whole video."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920. One file, 9:16 only."
+  ]
+ ],
+ "checklist": [
+  "Frame 1: the ringing phone with “Someone will pick up.”",
+  "“Keya House” spelled right everywhere (never Kea).",
+  "988 card is in.",
+  "The phone number on the end card is the one MHA confirmed, not a Google search.",
+  "No clipped or duplicated caption words; captions start on the same line.",
+  "No guest face without a release.",
+  "Never “patient”, “therapy”, “treatment”, “clinic” or “facility”."
+ ],
+ "decisions": [
+  {
+   "t": "Warm-line phone number",
+   "b": "Not in the brief on purpose. Nick or Atdhe confirms the Keya House warm-line number with Madison before the cut ships."
+  },
+  {
+   "t": "Revision notes",
+   "b": "This item is in Needs Revisions at V1. Read the Frame.io notes first; this page is the plan for everything they don't change."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> Madison asked for this one herself. The warm line is the most overlooked part of the job, and the video must end on “if you're struggling, call this number.”",
+ "ask_examples": [
+  "What phone number goes on the end card?",
+  "Can I cut the 988 line?",
+  "Which words are off limits?",
+  "How do I handle the 50 fps clips?"
+ ]
+}
