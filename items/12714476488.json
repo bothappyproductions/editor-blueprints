@@ -1,0 +1,316 @@
+{
+ "id": "12714476488",
+ "client": "watsi",
+ "eyebrow": "Watsi · Medellín, Clínica Noel · 28 Jul 2026 · FAQ",
+ "title": "V05:",
+ "title_q": "How Do You Know Surgeries Actually Happened?",
+ "title_short": "V05 · How Do You Know Surgeries Actually Happened?",
+ "editor": "Bleron",
+ "due": "2026-09-07",
+ "format": "9:16 only · 1080×1920",
+ "length": "about 90 s",
+ "edit_key": "WATSIFAQVerified001",
+ "headline": "The skeptic's question, answered by the CEO: Watsi tracks every patient, posts every payment receipt, reports what goes wrong, and refunds donors to choose again.",
+ "story": [
+  "How do we know care actually happens? Many donors came to Watsi as nonprofit skeptics, so transparency was built in from day one.",
+  "Every patient is tracked to outcome. Every payment receipt is public: over 35,000. When plans change, Watsi says so and the funds go back to the donor to choose another patient.",
+  "Audits, site visits, spot checks. Not a perfect system, but the most transparent one they know how to build."
+ ],
+ "feel": [
+  "Honest",
+  "Steady",
+  "Clear",
+  "Trustworthy"
+ ],
+ "do": [
+  "Question on top from frame 1: “How do we know care actually happens?”",
+  "Lay the transparency screen recording over “you can actually see the receipt”.",
+  "Keep her natural pauses. Don't tighten every gap.",
+  "Name super “Mackinnon” after the question, never at 0:00.",
+  "Out at 1:37.7, after “…we know how to build.”"
+ ],
+ "dont": [
+  "No sad tone on the “doesn't go as planned” section.",
+  "No stats graphics. The captions carry the numbers.",
+  "No title card or logo at 0:00.",
+  "Don't over-cut: rapid trims make the teleprompter read show.",
+  "No second aspect ratio. 9:16 only."
+ ],
+ "links": {
+  "brief": {
+   "title": "Watsi Medellín — Edit Scripts from the Footage, V05",
+   "url": "https://docs.google.com/document/d/1gGIrzWhlp1uzF2PwEGM3DLqgH9LuvLu9J2Mpt2b5uII/edit",
+   "note": "Nick's edit scripts for all 28 Medellín videos. V05 sets the take, in/out and the proof shot."
+  },
+  "reference": {
+   "title": "charity: water — Scott Harrison founder ad",
+   "url": "https://www.facebook.com/ads/library/?id=4677437162533348",
+   "note": "Chosen by Atdhe for the Medellín Mackinnon pieces. Take from it: one person talking straight to camera, big captions that carry the story with sound off, one story, one ask. Do not copy its music or its stock B-roll."
+  },
+  "footage": {
+   "title": "Watsi Medellín raw + transcripts",
+   "url": "https://drive.google.com/drive/folders/1TH290hIMOFFstl2eTMEi0La20EI13xTL",
+   "note": "Interviews &amp; Mackinnon Scripts › Mincho5147.MP4 (1:40, one camera)."
+  }
+ },
+ "bp_intro": "All source times are in <span class=\"mono\">Mincho5147.MP4</span> (one 4K camera, Mackinnon only). Times come from the transcript and are accurate to about 1 s. Find exact in and out points on the waveform. She asks the two questions herself; the transcript labels them “Interviewer”.",
+ "rows": [
+  {
+   "tc": "00:00–00:06",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Mackinnon, locked-off. In-point at 0:07.5.",
+   "motion": "<b>Question on top</b> from <b>frame 1</b>, top third: <q>How do we know care actually happens?</q> Lato Bold, Watsi yellow <span class=\"mono\">#FFCC33</span>, soft shadow. Stays at least 5 s.",
+   "voice": {
+    "who": "Mackinnon",
+    "quote": "How do we know care actually happens? This is a really good question and I'm really glad people ask it.",
+    "src": "C5147 00:07.5–00:13"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Keep the current bed. Low under her voice."
+  },
+  {
+   "tc": "00:06–00:15",
+   "beat": "SKEPTICS",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same take.",
+   "motion": "<b>Name super</b> “Mackinnon” after the question, lower left, large, first name only. Caption Watsi (transcript: WOTC).",
+   "voice": {
+    "who": "Mackinnon",
+    "quote": "A lot of our Watsi community honestly has come to us as nonprofit skeptics. So trust and transparency has been built into Watsi's model since day one.",
+    "src": "C5147 00:13–00:22"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Keep the current bed. Low under her voice."
+  },
+  {
+   "tc": "00:15–00:21",
+   "beat": "100% TRACKED",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same take.",
+   "motion": "Captions write “100%” as a number.",
+   "voice": {
+    "who": "Mackinnon",
+    "quote": "We track a hundred percent of patients from pre-surgery to outcomes. We share this in real time on our website.",
+    "src": "C5147 00:22–00:28"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Keep the current bed. Low under her voice."
+  },
+  {
+   "tc": "00:21–00:29",
+   "beat": "THE RECEIPT",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "<b>Proof shot:</b> screen recording of watsi.org/transparency scrolling to a receipt row, 3 to 4 s. Then back on her.",
+   "motion": "Captions: “35,000” as a number, watsi.org lowercase (transcript: wotc.org).",
+   "voice": {
+    "who": "Mackinnon",
+    "quote": "You can actually see the receipt of our payment to the hospital for every single patient we've ever supported, over 35,000 on watsi.org.",
+    "src": "C5147 00:28–00:36"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Keep the current bed. Low under her voice."
+  },
+  {
+   "tc": "00:29–00:39",
+   "beat": "EVERY PATIENT",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same take.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Mackinnon",
+    "quote": "And for every patient when you donate, we share a breakdown of how the funds are used, a timeline for that patient's care, and the humans involved in the process the whole way through.",
+    "src": "C5147 00:36–00:46"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Keep the current bed. Low under her voice."
+  },
+  {
+   "tc": "00:39–01:01",
+   "beat": "NOT AS PLANNED",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "On her. Plain and steady: honesty, not sadness.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Mackinnon",
+    "quote": "Are there cases where something changes or doesn't go as planned? Of course. A surgery postponed for additional testing or even because a war has broken out, a patient's condition changed, a family moved. As simple as our model is, global health is also really complicated. So every surgery, wherever you are, carries risks. And we report those too. We tell you what happened. And I've seen actually this builds more trust in our community.",
+    "src": "C5147 00:46–01:11"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Keep the current bed. Low under her voice."
+  },
+  {
+   "tc": "01:01–01:07",
+   "beat": "FUNDS BACK",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same take.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Mackinnon",
+    "quote": "If a surgery can't happen, the funds are given back to each donor to choose another patient to help.",
+    "src": "C5147 01:11–01:17"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Keep the current bed. Low under her voice."
+  },
+  {
+   "tc": "01:07–01:19",
+   "beat": "AUDITS",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same take.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Mackinnon",
+    "quote": "We also conduct periodic partner audits, site visits, spot checks on financial records. We try to do the hard part so you can have a simple, easy, and trustworthy way to give.",
+    "src": "C5147 01:17–01:29"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Keep the current bed. Low under her voice."
+  },
+  {
+   "tc": "01:19–01:28",
+   "beat": "BUTTON",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "On her. Out at 1:37.7.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Mackinnon",
+    "quote": "And we share everything, every patient, every payment, every outcome. Is it a perfect system? No, but the most transparent one we know how to build.",
+    "src": "C5147 01:29–01:37.7"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Resolve."
+  },
+  {
+   "tc": "01:28–01:31",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Clean end card. Light cyan <span class=\"mono\">#D3EDFA</span> background.",
+   "motion": "<b>watsi.org</b>, all lowercase, Lato, navy <span class=\"mono\">#2E2844</span>. Nothing else.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Out."
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Edit scripts",
+   "<a href=\"https://docs.google.com/document/d/1gGIrzWhlp1uzF2PwEGM3DLqgH9LuvLu9J2Mpt2b5uII/edit\">Watsi Medellín — Edit Scripts from the Footage</a> (Nick, 4 Aug) · V05 and the three transcript traps"
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/1TH290hIMOFFstl2eTMEi0La20EI13xTL\">Watsi Medellín</a>"
+  ],
+  [
+   "Clip",
+   "<a href=\"https://drive.google.com/file/d/1D7E2bnYnXu5vYBtNfOs0q9eU-fEUJ2Du/view\">Mincho5147.MP4</a> · In 0:07.5 · Out 1:37.7"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/10v-mHNaOrdTTRdKsHFCn-hYyG_mBNayU4Ef34wYUurg/edit\">Transcripts - Interviews &amp; Mackinnon Scripts</a>. It writes Watsi as “WOTC” and Clínica Noel as “Clinic Unwell”."
+  ],
+  [
+   "Proof shot",
+   "New screen recording of watsi.org/transparency scrolling to a payment receipt row."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "3840×2160, 23.976 fps, H.264, 2-ch audio recorded into the camera"
+  ],
+  [
+   "Timeline",
+   "1080×1920 at <b>23.976 fps</b>. Same as the source. No frame-rate change."
+  ],
+  [
+   "Crop",
+   "A 9:16 crop of 4K is 1215×2160, so it is sharper than 1080×1920. Punch-ins up to 112% stay native."
+  ],
+  [
+   "Audio",
+   "2 channels recorded into the camera. Pick the live channel on the waveform and map it to both sides. Mute the other. (Not measured: the Drive download limit stopped the audio check.)"
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak."
+  ],
+  [
+   "Captions",
+   "Lato Bold, white, soft shadow, large. Pop word by word. No highlight box, no shading block. One line at a time. Always on screen, also in pauses. Keep the bottom 20% clear for app buttons."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920, about 16 Mbps."
+  ]
+ ],
+ "checklist": [
+  "Read every caption against the audio. Sonam checks every word, and typos are her top complaint.",
+  "The transcript writes “WOTC”. It is Watsi, capital W only. The URL is watsi.org, all lowercase.",
+  "The question is on screen from frame 1 and stays at least 5 seconds.",
+  "Name super “Mackinnon” is large, first name only, and never at 0:00.",
+  "Captions never drop out, even in pauses.",
+  "Keep her natural pauses. The delivery must sound like her, not a teleprompter.",
+  "Only one brand element on screen at a time.",
+  "The receipt line has the transparency screen recording over it.",
+  "“100%” and “35,000” are numbers in the captions."
+ ],
+ "decisions": [
+  {
+   "t": "Revision notes",
+   "b": "This item is in Needs Revisions. Read the Frame.io notes first; this page is the plan for everything they don't change."
+  },
+  {
+   "t": "Teleprompter read",
+   "b": "Watsi (4 Aug call) wants the scripted pieces to sound natural. Favour pauses over tight trims. If a section reads stiff, flag it to Nick instead of shipping it."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> trust and transparency is Watsi's 2026 theme, and many donors arrive as skeptics. This is the CEO answering that head on.",
+ "ask_examples": [
+  "Where does the proof shot come from?",
+  "Who asks the question?",
+  "Can I tighten her pauses?",
+  "What is the out-point?"
+ ]
+}

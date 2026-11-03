@@ -1,0 +1,268 @@
+{
+ "id": "12767069937",
+ "client": "kiva",
+ "eyebrow": "Kiva · Seattle walk-and-talk · 29 Jul 2026 · Social thought leadership",
+ "title": "Vishal:",
+ "title_q": "What Makes Kiva Special",
+ "title_short": "Vishal · What Makes Kiva Special",
+ "editor": "Bleron",
+ "due": "2026-09-07",
+ "format": "16:9 + 9:16 · 1920×1080 and 1080×1920",
+ "length": "about 1:15 to 1:30",
+ "edit_key": "KIVAVishalWhatMakesKivaSpecial001",
+ "headline": "Why Kiva is different, from the CEO: $25 gives you agency over problems that feel too big, and everyday people fund it and see exactly where the money goes.",
+ "story": [
+  "Big problems like climate change or poverty feel too big to solve.",
+  "With Kiva it can be $25 or $50. That agency makes people feel part of the solution, not burdened.",
+  "Everyday people fund it, and they see transparently what happens to their money."
+ ],
+ "feel": [
+  "Confident",
+  "Clear",
+  "Warm",
+  "Direct"
+ ],
+ "do": [
+  "Cold open on “Often we see large problems…”, him mid-walk.",
+  "Keep both arguments, in order: agency, then everyday people + transparency.",
+  "Name super after the hook: “Vishal Ghotge” / “CEO of Kiva”, small, lower corner.",
+  "Cover every trim with Block 3 BROLL.",
+  "End card: “Give a little. Change a lot.” + kiva.org.",
+  "End on the transparency line."
+ ],
+ "dont": [
+  "Do not open with who he is.",
+  "Not a soft personal reflection or Kiva boilerplate.",
+  "Don't let the optional graft push the cut past 1:30.",
+  "No name plate, logo or fade at 0:00.",
+  "Never “investment” on screen.",
+  "Never the transcript's spelling of his name.",
+  "No big lime captions. Brit's caption spec only."
+ ],
+ "links": {
+  "brief": {
+   "title": "Editor brief: What Makes Kiva Special (pulse.12767069937)",
+   "url": "https://docs.google.com/document/d/1EhpLOWifbz5EwXaP07ti0VwaDw15bYFHT_mXqpBapCg/edit",
+   "note": "Nick's Batch 2 notes rebuilt into the standard brief (12 Aug). Bites and order are set there."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Nick owes it. Production Planning row 12459860634 (Kiva CEO Thought Leadership Content) has no reference."
+  },
+  "footage": {
+   "title": "Seattle shoot 2026",
+   "url": "https://drive.google.com/drive/folders/1akpgM9K7BrCY3cVjMzJYvPOJMc98EjGv",
+   "note": "Block 3 Walk and Talk › P1000934.MOV (main take). Sound is on the lav WAV 071721_024 in ENHANCED AUDIO."
+  }
+ },
+ "bp_intro": "Picture is <span class=\"mono\">P1000934.MOV</span> (second, shorter take). Sound is the lav WAV <span class=\"mono\">071721_024</span> (esv2). Times below are <b>camera</b> times from the brief. The WAV starts a few seconds earlier: sync on the waveform.",
+ "rows": [
+  {
+   "tc": "00:00–00:08",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Him mid-walk, already speaking. 9:16: crop centered on him.",
+   "motion": "Optional hook text on <b>frame 1</b>, top, 6 words max: <q>Problems too big to solve?</q> No name super yet.",
+   "voice": {
+    "who": "Vishal",
+    "quote": "Often we see large problems like climate change or poverty in the world and they seem too big to solve.",
+    "src": "P1000934 00:02"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed in, low."
+  },
+  {
+   "tc": "00:08–00:17",
+   "beat": "AGENCY",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same take.",
+   "motion": "<b>Name super</b> “Vishal Ghotge” / “CEO of Kiva” at about 0:05–0:08, small, lower corner.",
+   "voice": {
+    "who": "Vishal",
+    "quote": "It can be $25, $50, whatever you put in.",
+    "src": "P1000934 00:22"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Low bed under his voice."
+  },
+  {
+   "tc": "00:17–00:31",
+   "beat": "PART OF THE SOLUTION",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same take. Cut to BROLL to hide the trim into this line.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Vishal",
+    "quote": "And that agency that it gives you helps people feel that they can be part of the solution and not just feel burdened…",
+    "src": "P1000934 00:33"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Low bed under his voice."
+  },
+  {
+   "tc": "00:31–00:46",
+   "beat": "EVERYDAY PEOPLE",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Walk-and-talk, BROLL over trims.",
+   "motion": "Captions only.",
+   "voice": "His line that Kiva is funded by everyday individuals, between 00:33 and 01:04 in the take. Find it on the transcript.",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:46–00:54",
+   "beat": "TRANSPARENCY (BUTTON)",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Back on him for the last line.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Vishal",
+    "quote": "And they can see transparently what happens to the money that they are putting in.",
+    "src": "P1000934 01:04"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Resolve."
+  },
+  {
+   "tc": "00:54–01:04",
+   "beat": "OPTIONAL GRAFT",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Only if the cut stays under 1:30. Place it before the button. Match colour to P1000934.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Vishal",
+    "quote": "But there are local organizations that are on the ground that understand cultural context…",
+    "src": "P1000933 01:33 (longer take)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "01:04–01:08",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "End card.",
+   "motion": "<q>Give a little. Change a lot.</q> + kiva.org.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Out."
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Editing brief",
+   "<a href=\"https://docs.google.com/document/d/1EhpLOWifbz5EwXaP07ti0VwaDw15bYFHT_mXqpBapCg/edit\">pulse.12767069937</a> (Google Doc). This page is built from it."
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/1akpgM9K7BrCY3cVjMzJYvPOJMc98EjGv\">Seattle shoot 2026</a> › Block 3 Walk and Talk"
+  ],
+  [
+   "Clip",
+   "<a href=\"https://drive.google.com/file/d/1VTky-OZ-l0W-8slwiYeD8eRzG0QkFphM/view\">P1000934.MOV</a> · main take"
+  ],
+  [
+   "Lav sound",
+   "<a href=\"https://drive.google.com/file/d/1jjFSK0hr6USoIE2ETScBSkGYeHACPNoJ/view\">071721_024_Tr1-esv2-50p-bg-10p-music-10p.wav</a> · ENHANCED AUDIO · pairs with the main take"
+  ],
+  [
+   "Alt take",
+   "P1000933.MOV (longer take) with 071721_023 esv2 WAV. Only for the optional local-partner graft."
+  ],
+  [
+   "Transcript",
+   "EditingResources › transcript (Seattle shoot 2026.transcript.json + Block 3 Walk and Talk.srt). It spells his name “Kodke”. It is Ghotge."
+  ],
+  [
+   "B-roll",
+   "Block 3 Walk and Talk › BROLL (P1000915–P1000918 and the rest). Pick on scrub; no visual.json."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "3840×2160 camera files, Block 3 Walk and Talk. Check the frame rate on import. Camera sound is a guide only."
+  ],
+  [
+   "Timeline",
+   "1920×1080 and 1080×1920, at the interview's frame rate."
+  ],
+  [
+   "Crop",
+   "16:9: UHD scales down to 1920×1080. 9:16: the crop is 1215×2160, scaled down, never up. Punch-ins up to about 112% stay sharp in both."
+  ],
+  [
+   "Audio",
+   "Use the ENHANCED AUDIO lav WAV (esv2). Sync it to the camera on the waveform. The lav WAV starts a few seconds before the camera file (times in each row)."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. Music low under his voice (“lower music” was a Kiva note on Kiva in Schools)."
+  ],
+  [
+   "Captions",
+   "Brit's CEO-series style: about 25% smaller than the first round, inside the lower third, Kiva green <span class=\"mono\">#2AA967</span>, a little less blur behind, a little more space between letters, soft (not hard) shadow edge. Post Grotesk if available. Max 2 lines. Not <span class=\"mono\">#EDF4F1</span> on <span class=\"mono\">#223829</span>."
+  ],
+  [
+   "Export",
+   "Two files: H.264 MP4 1920×1080 (16:9) and 1080×1920 (9:16), about 16 Mbps. Same cut, same captions, re-framed."
+  ]
+ ],
+ "checklist": [
+  "His name is Vishal Ghotge (G-H-O-T-G-E). The super reads “Vishal Ghotge” / “CEO of Kiva”. Never the transcript's “Kodke”.",
+  "The word “investment” is nowhere on screen.",
+  "“U.S.”, never “United States”, in any text.",
+  "Captions match his words exactly. No dropped words. Lines break at natural phrases.",
+  "Captions are Kiva green #2AA967, about 25% smaller, low, a little less blur, a little more letter spacing. Not #EDF4F1 on #223829.",
+  "No name super, logo or fade at 0:00. The new green K logo sits in a top corner, never on frame 1.",
+  "End card reads exactly “Give a little. Change a lot.” plus kiva.org.",
+  "Both versions exported: 16:9 and 9:16. Nothing important is cut off in the 9:16 crop."
+ ],
+ "decisions": [
+  {
+   "t": "Revision notes",
+   "b": "This item is in Needs Revisions. Read the Frame.io notes first; this page is the plan for everything they don't change."
+  },
+  {
+   "t": "Caption style",
+   "b": "The Google Doc brief says #EDF4F1 on #223829. Brit's later CEO-series spec wins: Kiva green #2AA967, smaller, in the lower third."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> Brit asked for this question on the 13 Jul call so Kiva stands apart. It is the CEO speaking with authority.",
+ "ask_examples": [
+  "Which lav file goes with P1000934?",
+  "Do I use the local-partner line?",
+  "What colour are the captions?",
+  "What goes on the end card?"
+ ]
+}
