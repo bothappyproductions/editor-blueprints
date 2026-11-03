@@ -8,7 +8,7 @@
  "editor": "Ardit",
  "due": "2026-11-05",
  "format": "9:16 only · 1080×1920",
- "length": "about 56 s",
+ "length": "about 62 s (the five brief bites run 57 s)",
  "edit_key": "CureGRINLeuchterEveryParent001",
  "headline": "One message from the drug company CEO straight to GRIN parents: we learned from you, and you are at the center of the work every day.",
  "story": [
@@ -23,11 +23,11 @@
   "Sincere"
  ],
  "do": [
-  "Open on D1's first sentence at 24:39. Start clean after Keith talks (24:17–24:24).",
-  "Hook text TO EVERY GRIN PARENT on frame 1.",
-  "Close on D1's second half, from “We've learned a lot from you”.",
+  "Open on D1's first sentence at 24:39.4. Start clean after Keith talks (24:17–24:24).",
+  "Hook text TO EVERY GRIN PARENT on frame 1, static.",
+  "Close on D1's second half, from “We've learned a lot from you as a community”.",
   "If D1 doesn't join cleanly in two halves, use the whole D1 take as hook plus button.",
-  "Keep it near 55 s."
+  "Mute the B-roll sound."
  ],
  "dont": [
   "No logo, name or fade at 0:00.",
@@ -55,117 +55,191 @@
    "note": "Folders: Keith Lunch Presentation, Interviews, GRIN Therapeutucs Morning Meeting B Roll."
   }
  },
- "bp_intro": "Bruce's interview: <span class=\"mono\">20261008_C5186.MP4</span> front angle (59.94 fps, he looks at the lens) and <span class=\"mono\">C4896.MP4</span> side angle (23.976 fps). The side angle runs about 5 s earlier than the front (03:43 front = 03:38 side). Bite times are from the transcript doc, counted from the first frame of C5186. He does many takes: use only the takes below. Stills are real frames from the same setup.",
+ "bp_intro": "Bruce's interview: front angle <span class=\"mono\">20261008_C5186.MP4</span> (59.94 fps, he looks at the lens) and side angle <span class=\"mono\">C4896.MP4</span> (23.976 fps), which runs <b>4.75 s earlier</b> (front 03:43.3 = side 03:38.6). Bite times are mm:ss.s in the front clip, from the word times in Interviews.transcript.json; each bite also gives the side-angle time. He does many takes: use only the takes below. B-roll picks come from the brief and Erin's shot index (visual.json), which does not name people, so check each on scrub. Rows marked “frame still to pull” get a real frame in the overnight Mac pass.",
  "rows": [
   {
-   "tc": "00:00–00:07",
+   "tc": "00:00–00:05",
    "beat": "HOOK",
    "kind": "hook",
-   "frame": "f_C5186_1530",
+   "frame": null,
    "crop": "c",
-   "frame_tag": "front angle, src 25:30 (same setup)",
-   "frame_alt": "Bruce, front angle, seated left of centre, window behind.",
-   "visual": "Bruce, front angle, from 24:39. Already talking. Crop 9:16 on his face.",
-   "motion": "Hook text on <b>frame 1</b>, big and bold: <q>TO EVERY GRIN PARENT</q>. Does not animate on. Name super at <span class=\"mono\">00:04–00:06</span>, small, lower left: “Bruce Leuchter” / “CEO, GRIN Therapeutics”. Not before 0:03.",
+   "frame_tag": "front, src 24:39",
+   "frame_alt": "Bruce, front angle, light grey quarter-zip, window and plant behind (frame still to pull).",
+   "visual": "<a href=\"https://drive.google.com/file/d/10cTnUJ-MPFM_21cCM8WMMzutCp2TJEzn/view\">20261008_C5186.MP4</a> from <span class=\"mono\">24:39.4</span>, front angle, the 24:39 take. Start clean on “What I want” (Keith talks before this take). His face, already talking on frame 1. Crop 9:16 on his face, centre about 58% from the left. Face only: he talks straight to the parents.",
+   "motion": "Hook text on <b>frame 1</b>, big and bold, top third: <q>TO EVERY GRIN PARENT</q>. Already on screen at 0:00. Does not animate on. It goes out at 00:03. Name super at <span class=\"mono\">00:04–00:06</span>, small, lower left, above the captions: “Bruce Leuchter” / “CEO, GRIN Therapeutics”. Not before 0:03.",
    "voice": {
-    "who": "Bruce",
+    "who": "Bruce Leuchter",
     "quote": "What I want every parent in this community to know is that we care deeply about your lived experiences.",
-    "src": "C5186 24:39–24:46"
+    "src": "20261008_C5186.MP4 24:39.4 to 24:44.7 (side angle C4896.MP4 24:34.7 to 24:40.0)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Warm, quiet bed on frame 1."
+   "music": "Warm, quiet bed starts low on frame 1.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "What"
+    }
+   ]
   },
   {
-   "tc": "00:07–00:14",
+   "tc": "00:05–00:16",
    "beat": "FAMILY MEETINGS",
    "kind": "",
-   "frame": "f_C4896_221",
-   "crop": "c",
-   "frame_tag": "side angle, same setup",
-   "frame_alt": "Bruce in profile on the right, side angle. A desk and a screen behind.",
-   "visual": "Side angle <span class=\"mono\">C4896.MP4</span> from 13:52.",
-   "motion": "Hook text off. Captions only.",
+   "frame": "f_k5208_20",
+   "crop": "l",
+   "frame_tag": "B-roll C5208 0:20",
+   "frame_alt": "Lunch room, wide: Keith presents to the GRIN Therapeutics team, a slide of family photos on the TV, staff around the table.",
+   "visual": "<a href=\"https://drive.google.com/file/d/1VYVa3uloTrbRp-kHSmcnwfeGsSmfANMU/view\">C4896.MP4</a> from <span class=\"mono\">13:52.4</span>, side angle (front <span class=\"mono\">13:57.1</span>). On “sit in family meetings” (front <span class=\"mono\">13:58.7</span>) cut to <a href=\"https://drive.google.com/file/d/1cgcu-DBE5b03OgwSgFH2jKZINcMpgKhi/view\">20261008_C5208.MP4</a> <span class=\"mono\">00:19.0</span> to <span class=\"mono\">00:21.5</span>: Keith, a GRIN dad, tells his family's story to the GRIN Therapeutics team at lunch, family photos on the screen (crop centre about 27%: the staff and the photos; the Zoom tiles stay out of the crop; picture only, mute it). Back to Bruce on “the impact that it has on me” (front <span class=\"mono\">14:04.1</span>).",
+   "motion": "Captions only.",
    "voice": {
-    "who": "Bruce",
+    "who": "Bruce Leuchter",
     "quote": "I've had opportunities to sit in family meetings and every single time that I do, the impact that it has on me is deep and it's moving.",
-    "src": "C5186 13:57–14:04"
+    "src": "20261008_C5186.MP4 13:57.1 to 14:07.8 (side angle C4896.MP4 13:52.4 to 14:03.0)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Warm, quiet bed under the voice."
+   "music": "Bed steady, low.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I've"
+    },
+    {
+     "clip": "20261008_C5208.MP4",
+     "at": 19.0,
+     "dur": 2.5,
+     "cx": 0.27,
+     "path": "CureGRIN Foundation/Raw Footage/CureGRIN NYC OCT 2026/Keith Lunch Presentation/20261008_C5208.MP4",
+     "drive": "1cgcu-DBE5b03OgwSgFH2jKZINcMpgKhi",
+     "layout": "full",
+     "what": "Keith's lunch talk to the GRIN Therapeutics team, family photos on the screen"
+    },
+    {
+     "face": true,
+     "from_word": "the"
+    }
+   ]
   },
   {
-   "tc": "00:14–00:28",
+   "tc": "00:16–00:31",
    "beat": "BEYOND ONE MEDICINE",
    "kind": "turn",
-   "frame": "f_C5186_226",
-   "crop": "c",
-   "frame_tag": "front angle, same setup",
-   "frame_alt": "Bruce in a grey sweater, seated left of centre, bright window and a plant behind.",
-   "visual": "Front angle from 15:48. Cover 4 s with <span class=\"mono\">20261008_C5129.MP4</span> (Quinn and Keith). Check on scrub.",
-   "motion": "Captions only. Caption “radiprodil” (the transcript writes RadiproDil).",
+   "frame": "f_c5129_5",
+   "crop": "r",
+   "frame_tag": "B-roll C5129 0:05",
+   "frame_alt": "Morning meeting: Quinn, in a white top, talks on the left; Keith, in a plaid jacket, listens on the right.",
+   "visual": "<a href=\"https://drive.google.com/file/d/10cTnUJ-MPFM_21cCM8WMMzutCp2TJEzn/view\">20261008_C5186.MP4</a> from <span class=\"mono\">15:48.5</span>, front angle. On “what I want each parent of a child with GRIN NDD to know” (<span class=\"mono\">15:50.9</span>) cut to <a href=\"https://drive.google.com/file/d/1JBDlrJKntipS1dfKPm3hAUQFKXXxkaSM/view\">20261008_C5129.MP4</a> <span class=\"mono\">00:04.0</span> to <span class=\"mono\">00:07.0</span>: Quinn talks, Keith (a parent) listens (crop centre about 70% on Keith, picture only). Back to his face on “is that our mission” (<span class=\"mono\">15:54.6</span>) and stay on it.",
+   "motion": "Key words, top text at <span class=\"mono\">00:29</span> for 2 s, as he says them: <q>how you're gonna be able to live your lives</q>. Captions on. Caption radiprodil with that spelling (the machine transcript writes RadiproDil).",
    "voice": {
-    "who": "Bruce",
+    "who": "Bruce Leuchter",
     "quote": "But what I want the community to know, what I want each parent of a child with GRIN NDD to know is that our mission extends beyond the impact of radiprodil, and it extends to how you're gonna be able to live your lives.",
-    "src": "C5186 15:48–16:02"
+    "src": "20261008_C5186.MP4 15:48.5 to 16:02.9 (side angle C4896.MP4 15:43.8 to 15:58.1)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Warm, quiet bed under the voice."
+   "music": "Bed steady, low.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "But"
+    },
+    {
+     "clip": "20261008_C5129.MP4",
+     "at": 4.0,
+     "dur": 3.0,
+     "cx": 0.7,
+     "path": "CureGRIN Foundation/Raw Footage/CureGRIN NYC OCT 2026/GRIN Therapeutucs Morning Meeting B Roll/20261008_C5129.MP4",
+     "drive": "1JBDlrJKntipS1dfKPm3hAUQFKXXxkaSM",
+     "layout": "full",
+     "what": "Quinn talks, Keith listens at the morning meeting"
+    },
+    {
+     "face": true,
+     "from_word": "is"
+    }
+   ]
   },
   {
-   "tc": "00:28–00:38",
+   "tc": "00:31–00:43",
    "beat": "WE SERVE FAMILIES",
    "kind": "",
-   "frame": "f_C4896_221",
-   "crop": "c",
-   "frame_tag": "side angle, same setup",
-   "frame_alt": "Bruce in profile on the right, side angle. A desk and a screen behind.",
-   "visual": "Side angle from 17:57. One punch in on “we serve families”.",
-   "motion": "Captions only.",
+   "frame": null,
+   "crop": "r",
+   "frame_tag": "side, src 17:57",
+   "frame_alt": "Bruce, side angle (frame still to pull).",
+   "visual": "<a href=\"https://drive.google.com/file/d/1VYVa3uloTrbRp-kHSmcnwfeGsSmfANMU/view\">C4896.MP4</a> from <span class=\"mono\">17:57.3</span>, side angle (front <span class=\"mono\">18:02.0</span>). One punch in on “we serve families” (front <span class=\"mono\">18:04.9</span>). Face only: this is his promise.",
+   "motion": "Key words, top text at <span class=\"mono\">00:32</span> for 2 s, as he says them: <q>we serve patients and we serve families</q>. Captions on.",
    "voice": {
-    "who": "Bruce",
+    "who": "Bruce Leuchter",
     "quote": "We operate a company, but we serve patients and we serve families. And the motivation and energy that we get from your lived experience translates into everything that we do.",
-    "src": "C5186 18:02–18:12"
+    "src": "20261008_C5186.MP4 18:02.0 to 18:13.8 (side angle C4896.MP4 17:57.2 to 18:09.0)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Warm, quiet bed under the voice."
+   "music": "Bed steady, low.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "We"
+    }
+   ]
   },
   {
-   "tc": "00:38–00:52",
+   "tc": "00:43–00:58",
    "beat": "BUTTON",
    "kind": "",
-   "frame": "f_C5186_226",
+   "frame": "f_k5224_82",
    "crop": "c",
-   "frame_tag": "front angle, same setup",
-   "frame_alt": "Bruce in a grey sweater, seated left of centre, bright window and a plant behind.",
-   "visual": "Front angle from 24:46. Hold his face to “every day.”",
+   "frame_tag": "B-roll C5224 1:22",
+   "frame_alt": "Lunch room, wide: Keith at the front by the screen, GRIN Therapeutics staff around the table.",
+   "visual": "<a href=\"https://drive.google.com/file/d/10cTnUJ-MPFM_21cCM8WMMzutCp2TJEzn/view\">20261008_C5186.MP4</a> from <span class=\"mono\">24:46.4</span>, front angle. On “So as we continue to work together” (<span class=\"mono\">24:52.5</span>) cut to <a href=\"https://drive.google.com/file/d/1vxndaqstVQDKxnDXIAG3oheJtHHUj0mk/view\">20261008_C5224.MP4</a> <span class=\"mono\">01:22.0</span> to <span class=\"mono\">01:24.5</span>: the lunch wide, Keith with the GRIN Therapeutics staff (crop centre about 40%; keep the Zoom tiles out of the crop; picture only). Back to his face on “just recognize” (<span class=\"mono\">24:56.9</span>) and hold his face to “every day.”",
    "motion": "Captions only.",
    "voice": {
-    "who": "Bruce",
+    "who": "Bruce Leuchter",
     "quote": "We've learned a lot from you as a community, and it's driven everything that we do. So as we continue to work together to find a novel treatment for this disease, just recognize that you're front and center for what we do at this company every day.",
-    "src": "C5186 24:46–25:00"
+    "src": "20261008_C5186.MP4 24:46.4 to 25:01.5 (side angle C4896.MP4 24:41.7 to 24:56.8)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Lift, then resolve on “every day”."
+   "music": "Lift, then resolve on “every day”.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "We've"
+    },
+    {
+     "clip": "20261008_C5224.MP4",
+     "at": 82.0,
+     "dur": 2.5,
+     "cx": 0.4,
+     "path": "CureGRIN Foundation/Raw Footage/CureGRIN NYC OCT 2026/Keith Lunch Presentation/20261008_C5224.MP4",
+     "drive": "1vxndaqstVQDKxnDXIAG3oheJtHHUj0mk",
+     "layout": "full",
+     "what": "Lunch wide: Keith with the GRIN Therapeutics staff"
+    },
+    {
+     "face": true,
+     "from_word": "just"
+    }
+   ]
   },
   {
-   "tc": "00:52–00:56",
+   "tc": "00:58–01:02",
    "beat": "END CARD",
    "kind": "end",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "CureGRIN end card. The logo is on the end card only.",
-   "motion": "<q>Support CureGRIN today.</q> and curegrin.org.",
+   "visual": "CureGRIN end card, brand purple <span class=\"mono\">#5C3D8D</span>, white type. The logo is on the end card only. Until Lauren's high-res logo arrives the name CureGRIN is typed.",
+   "motion": "End card: <q>Support CureGRIN today.</q> and <q>curegrin.org</q>.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Resolve. 1 s fade."
+   "music": "Resolve. 1 s fade.",
+   "shots": []
   }
  ],
  "frames": {
-  "f_C5186_1530": "data:image/jpeg;base64,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",
-  "f_C4896_221": "data:image/jpeg;base64,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",
-  "f_C5186_226": "data:image/jpeg;base64,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"
+  "f_c5129_5": "data:image/jpeg;base64,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",
+  "f_k5208_20": "data:image/jpeg;base64,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",
+  "f_k5208_36": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgACSAJJAAD//gARTGF2YzU4LjEzNC4xMDAA/9sAQwAICAgJCAkLCwsLCwsNDA0NDQ0NDQ0NDQ0NDg4OERERDg4ODQ0ODhAQERESExIRERERExMUFBQYGBcXHBwdIiIp/8QAswAAAQUBAQEAAAAAAAAAAAAABgcFAwQCAQAIAQADAQEBAAAAAAAAAAAAAAACAQMABAUQAAIBAwICBQUJCwgIBQUBAAECAwQAERIhBTFBUSITBmGRMoFxQtEHk7FyFFIjYnOywTWhM+EVU9KSFhckVdM0s6KjVJRFRPCCJUOEw/HC4mODpGQRAAICAAUDAwMFAQEBAQAAAAABAhEhMRJBA2FxUYEiE7EEMvCRofEz4ULRgv/AABEIAJIBBAMBIgACEQADEQD/2gAMAwEAAhEDEQA/ANcGcS8Pp3HIqfJ7o9duwtr4OCOHU+UeM6T2XQo47R5qwBFuouRQ9e1vl7W8YlW5BeVvd4xoX2+C9WzHr0L5fReEazdHiHFaXhcPfVLMqaguVUscnlsN7uGxzjnCX46aXh6SrA08+0jKXC6IpH3UEE504521ixPBWZHjbgn72X4mT3r1/Pbgn72X4iT3rbx8D9Wf+MU/+7Sf3l7HwRVX9sUx/wDTyf3l00E/lj5/hl/+e/BP3s3xEnvXr+e/A/30vxEnvXSX4Ias8uLU5/8ATyf3l6/ofrf7Vp/93k/vL2gXyx8/Uu/z44H++l+Ik969DxxwP99L8RJ710P6IK3+1ab/AHeT+8v39EFd/alN8RJ/He0Mfyx8/Uc18bcDP/nS/Eye9cw8Z8F/fSfEye9bQPgir1/4nTfESfx3KvwUV4/4lTfEyfxWtDN8kfI5/wA9OC/vpfiZPevQ8a8E/fS/ES/w22f0U1/9o0vxUvv3z+iniH9o0vxUvv29DN8kfI7DxtwP9/J8RL/Dcg8ccC/2iT4iX+G0w8SeHZvDdVFTzTxztLF3oaNWUAa2XB1dPZsfO1jQSdi6L454B01EnxEv8Nk3DuIU3FKZammcvE5YKxVkOVODswB5i0Dm8PVUHBIuMM8PcSsFCAnvAGZkDctByynKhtQG5tWfA35ApfK05/1zW2qMmnljTr1DQXsXgXsWjGxexeBexeMbF7F5F7F4x2+32+3jCJcKZZKGBlV1BU4DyNMw7R5yP2m9fstxtt4N+Tqf5rfhtbpi5Iq8zmQL13kSHDSIp6iwB+W45B2T7LEeKyP9LYg+jKw2Pk6RnJ9Vs1WGy1FPnHfRZHMa1yM+TN2Nsjy4/PaZMR3qSPJ3IkDaiw9LqznG5x02osJ+xgOc9iM6uv7Mb3liZqi6E/PfQM5xvjn5PbZB4a7us4bE9QiSOryKGKrkgHnt7bx4ieKFIIkAQMwbsAAc8b452xDCRi/Xt+d4vGPG4KQZ41wz79Kf/wCaa5jfuHDPG+H/ADpz/qJLcfyQM/xl2YoGh8tioIydhhDp5YAz6/PfO7lPKqHt0oTnPmFi89X9HrZjrWMCpYOx5hcY7GQRqzjnzGem2iv4p3k1ZAzDsNEqP7srLHuzjC4IJ2G219Hy41W3hUcvxOrtVh/IoPdTAn+snBJOCiHHkHkuzFlRhpA5zz7K+rAsE4/FUd3CkVRLCJO7jOZNEZdQpUr2HIZsHO4GLd4qgUNAklVK0znGo4UuZGH6NQu2QQenrzdWrgnaxvBJYft5M4JR1a14SqSb806ppd9wpyvWPOL6COsWLU1ZDXwLNGp0nIwwwwI5g3folBqc8tCbDyyN7yfnue9YWC1SvMfL5i4GAz6TDl0t+JxedIB9JvO/ya7wJZxfMWHeIPFFNwDCmOSqk9MosrR6AeRYnXz6Bi4OA+NKPjU4hMMtOxOF1Sd4pboUnC4z0bYJsdcbq8SnxT06tLoBPhMNP+26cSwGY/Qo8YkdMZml2woOc2nTrSK+DSMhUjUjyyZ25g5AIzao+OZpKXxRR1UZg1UtPBIqzatLkSynHZU/iwcGwbjdXNxjiDVUgp1aQRpiJnKqqrpBZ3UMSMdpjvuLCW5fjftQ3SzwtAIlpmSINqRTPO8at0lVJCaj0kDNrN4MAHAqTSNI+1IHV9s/XaZVdfNJwin4f3dIRC+e9SQmQgZwNJUBefab3WLVHwgNPA6MH6sn+a9ppLcK21lQVi5BcYvYtCNFgozekYMARyIyNxvdeb0G9htn737aOIhgPo0basbHnnB6xzsZOuom6/egmH/W49+5U7XIg46iD8lsaDu4GAJycFSTkkacfrvvh9tT1PThYt/brsdfvUawaz8BVWeA/wB+vV+uohEeDD/w6D2P+G1umLbODfk+H/v/AA2t1uCyLvNkMnon2Gwyuj76etZdpIqgac5x2k5+3qNmr8j7LA6+aZeJ1i9bJpGht8IuO0PabJdcjLA5SUyVEMn0tdRzkEnGk8sjB+Wz+EaKaAZzpiQZ9kY3sN7sJA50sVK5Gx7RwcDffyWW02TQU2ef0dOfX3XTZtJJCk9VjXQ1kyUaGOplRGY7ITzJ3O3Lbcm3MSEuhmkkc5CgFiVJ6Dvnp32sGWpqYab6K8bjGGzjYj7kgbjlvb1RV4keKNiwJZB2hjfI5HGPPi3OSe39iiG0nO8XqT0rxcxHTdngozxul8iT/gXVN2eCsBxum8sc/wCDbWaFL8X2L3F6TWatlJjLSlNS4z2hlue242z5bTniNTU1FSYYIV+zwz4OJH0qiEn6xbRqA6N7WGc0ZkdpHYfa93yXGsk/dcuyc7DrsMNLwuCvbi5rmbTqaSP6OMvE6jAUCQZ0dkswB32O9nHN2/8AmIDpxXsd9t6LXGeJR0GtiocqoYjSW0kLtyBIbPIjdedh549WcTniiBMEZm7xpZEOmBnR1bZV1MmMEEb6jZtLBRcQqT3dVpNQe9QNTybhwWwCHwSMHI6MHqtsn4QrLOtLK8ssKs2FppAHKnSVDsxXY8/Yeq4y5vuU2lBVqw9y/v8As6ePh+00VKUr0+72t03nmqWP0K1JW1dMGpYytSAwYyoO6hdXAJVCyd53inIZiMcrP+EsrAEjSzHJGotyGPSIGcWmcrcX4VwwV9RRSNEELkkYKjoMiqdaD2jbpunwT4TaSGRRV0zxpnd4mMvLqVtOPPe4vlfI5y48crvCntTx6i51w/EuOE7SxeGLa7YdBdCrE/8Ax/DfNLeT838NhtJ8IvhirZV+m9yWGft43iUb40lyNAPTz5X3i/wg+HuFwsyVSVsunKQ0x7zUTyBkAMaDrJOR1X2Hm0Jlx4PV8Sre9ZdX0h1bQMLhDp2GT0AHnnNsnAopqjiyUseoO00YXBxsrZ1Z6NIGq6I46/EuJSyfRxCKiVnEcbu4BbLHJcknJ6dhk7AC3+m8Rx8F4hTSd2jNFMDKAq6gjKVddZHpaWO3LOM3yqEvkrO3dnqOUXwprBpVXl1kFXi+OjqPFUKVjMkAgpxIy5yFLSnoBI35nBwN7GOI0fD462VaANLTjToY5O+kagGYKWUNkAkb2X8UqE49xJJOGVKsJ4YeTaSCoY/aA+iVGc55XBFwaqFSyTSN3qEDIOrnuNJ8udrpJ1fc5eNYR7ZDFWUPCI+G00kMjGrYjvozyGx1ZXSAuk4CnUdWbPfDQC8JpQPqt/mNdabw5WBGMjyafdbodvPm3PhEfc0cUYOdGsZ9kjXrt5UE1gPK3KLhFyi8CRz/AKNvYbacap412JNLGANe/Ie5zt5rdZ/0bew2LPWyx8Zij7vvFjipyMe4Dw4LHyDngjyixleHdDWm1fnDv1Hl5JFeKMKMtgE9WM+TPO73AlVXq8HO8ecejnt8r7PIqMsh07KcnpwN+dw+HGDGtwAPtF2GMAnUxXblpzi1o0zTvO/oHKanHKqCK/X2/XQkInwn/Axf934ZtzFj/hpnfhFOZCWb7TJP3xrf7gjoebPEZvwHlbzm/X4WxEgHlbzm9Yz1+e+A328I1jyt5z79+x5W85v1+zbMbzm/ZuPNp/4m4jVQ1uiKqmgCwodMbMoJLNknT04A520tToTdIUQ33hbY47ReVaj/ACibRF+LcVEev6fV8yP0p6APfs+PiE8BHCuIyxNVHutLLrCMzSQYLFirDnudrLTpkr8gSeqMq8BdxOsKVrMrI0bzTpIhyNDpKYsdoMuX1hzt6IJG106Exd6yTOjl48sqghT3UmNsssYRsjoA2yTdNfhgpDz4RN/vEZ/9oXtvhd4eOfCKj4yH+G64fr/pNylVaHtvX0HObi7aTHTyh5U710khWELI2hWMatrfDdsqSuBg5BFu3hutrKurKSTKoNEhki7WoVGSWdWDNGBudeBknHUbFP6XeELz4RVD2Gm/Vcsfwu8DDahwutRjzYCmz5w4NktGLd3nnS/YCWtqtCvssunXqK2Y5iuCwORggkEHPPOYztYRxn4OeCcYLSCL6FM3/m0xCKT1vF3fdtnpwAfLbQnwucFbnRcRH/bAf/eu0nwqcDb/AJfiA/8A1w/31vWuhNRmtmJ/xD4JuP0+TSTUtYvQNZgk9ayAp/p2nUtHUUtTJSTLieOVonQMGw4OkrqQlTg7ZBv6Cn+FbgiwTNFDW94qMYw8UYUvjshiJjgFsZ25WinBIGr5qieR/tC2dTD0nclnbPQeo4POxlJJWdHFGc5U0dMUfD4C5+0lk0gFsYyo2xjdQvPrtjZyzFiWJJJJO+T0n1m3DjBlWraKQDEeAMciDvkHy9PyW0k8vS6PfvRyvyUnnXgNvDsjpNC6ySQsrMwkBKYxz7So5A6MaTna1e4HJ+09Tq5LMNZaR9TNy3yFFolwYnUcBwMN59vJZ34K4t9FWldyNPotk4AUkrknyc/VZcsYuCe9/wAAxbTfYVKWOp7StNkDnl2K+zfndXh/+HT2v+G10KrxFRiZkURy6mXuwJ8BsjchgCOfPN2eDtr4fTN9aNW6+e/O46aHqtDytyi4BcwvCNsgcEHpuJaCl7zve5jMmlUMhHaKqMAE56Bc4uUXjGBSw/u038h6fXctJSU9GJO4iSLvDqfTntNjGTknovYuQXhEt9vN9vGEF8NH/wAJg9sv+Y1v2bH/AA0c8Kh+dL/mG364LI6JZs3fgbxfs2xHqiqipIJJ5ThIxk45+QAdJJ2A67T6v8U8UkfFOsdMh3HZEkmPumbK+oLZT4igep4TUxx+nhZEGcFjGwYqPKQDjy2ksNU8pUZJx5Plto2AtHBa162ijeU5lxiTYLvnngbW6Zsf4CNNMCeZABB5hhzHs3t+zai7C5IODrLCztj/ABHw9R8Sm76Uyh9IXsSaRgctsHrt+zfbIAEv5n8PIxrqcH/8v/2251nBIaqKnj1yx/Rsd2yMAwwunckHot7vV62KkCL+GdasprKoqwwQTGcj4vNtzeB6Zv8AmJx/I/htQL7i9qkKkJw3gaDl9Jm8ye9bRxXwtDwumafv5nxgY0rzJxuegWpMlcY6vujGO70KTJrXUHY4CFOYyOXX0XdlgjqFKsqsORBwR7CL2pmpCAL2em5ROU6j6v12tDcB4ef+Vg+LX3rgPh/h3+ywfFr71lqFpEYklZlxyzv7Rb/w6dqKi75RnOskZ3O+x8wtq4u8BrqjuERIkcogUAA6NtQx1nJuxHURNQaARqWPBB2xjpHTvZtWkhwel2UpKtppHcktrLE6sdOfxXEe7OdiORGNvN0XxUBPJfP5PbbxR0EUh3CnrGrbce27Ri5YE2y3wEPLUdwo7cinQ4OCpZchjjmu25G4s0oPD3FqSnESywMT6TFpN/uiChyd+u3DwpwmkhR51jTvQ2gNqZtClQSBqJAzmzpI8WPJnp8GQnDeFOOSgYqqZcHIGuTY9f6K1N4XTvSUNNA5BaKGONiudJZVAJGQDjN1a6rWhg14y7HTGOtscz5BzNg61tZBMZBUzZYk+mSM/N9H1Y5XCU1HOykOOU8hVhcosR4Fxx6+RoZtOsDIK7cuggWWiyTTVgyTi6ZMLlFwi5BbBJxcgNwA3IDeETg33Nx5v2bZhBPDDA8Ji+fL+GbIc2z8JjEFM0Y9zPOP9Yd7dM3zLI6pYNkmbH/EXGDwmkDJjvpTojz0dbY8ny2+ZtJvFtb9K4kYwcrTroHzju34hZLEBjPU8Qq65g088rkcsscD2DkPVb94beD6QY54o5AQSHZNTKR0dO3qsTHMeuy3w7CrPI59yuF9pPvWTMhVIJqeoRRHoDIRvuNuo4wfZkEXcaNx0ZHWN7E6WTupVPUcH5je8bN6ZjzB8nmvUZuxu1X3XclbGI5cjYONQ8h6RdHVaMW9V6D3UDXvVeMWw15ll0oSAWIBIA5nyeu4NdxySqBucXhCcOW4hxGoaVUilkkWJ+6YyhSunSNQ2x2TqYcjah8Gp5aamxUFe8GdTczpBOlWb3Wnlnqtl4fDBQzL3YIQaiW21MSxOTyPTj2W9/TAUI6TnJyOm0mv5FoaxHeN45kDIQQbjlUMrLkjIIyOYyMZHl6rbaSoWCPRjIz1j3729aPqt+b37basaTa8DJD4S4LBHoeE1BznvJWYv7OwVAHqtN/EtLTUPF3hp4xFGI4yFBOMsmTzJO/y2Yt4oqTVvAtNEwEjIrCUpgBsKZNSMqluQ33PKxjjsNXxGvaqFMyKgSKQKRJgxoCx2APonO69B6rJTrNi0t5JsZ4UJycL0/Jd+mr4qcnUuTtyGeQx121VlTrmcRjSqnAHs2zdLfObsuRrKgKQung3iVHUpURo6iRnWTQeySNOnYHnjTviz9RfyvBLJE6vGzIynIZTgg9YItbPCfi1K8JR1rhajH2chwBMOo9T/LYuWptvc1UOXi+Y08FM4z6UnsxpBNg8lfsrHpHmNqjx3hJ4vQmFTiRTrjzyJxgqerUNs9BtAquuWGV4VDHSxVweyFZTgqD04NxlF68rsvFr486aeKFB8LVhhqZ5hpkMcZ7JOMlmAwD5M72aDxBWMwAip0HSSZG2/wBEWkXhni8EFS0UiKgl5Slj2ce5PRg9fXZrWTw6VdHVs82VgQOgAEHpPMWUrhHwDFa5eQ7j4hM5BLgZ6ABj/r128U9Q0j4ONxt1kj9XRaa8OrQGUMbMYatU0MGHZZSPPcouaeLbLzjxyjhFKvAUA3IDbfV11NQxmWeRIk62OPULYE8acGd9Pev7dDY+S+k4aYY5vubbIeJ0U6B0njKn7oXL9Npv30f8oe/bMItwWUvRBickySEn127arqrRHhrS0+kqqyuYwTn7NjlTnp25+W96r5arA6W7xPVVSKanllO/dozeYZtDXmM0jyMe07Fj7Sc2t8qiVGRtwwII6wbSLifAqyhkdu71R9plZcHsg9XPbps4gSGxVJ5b4zZTwbXA/eyAohAUA7b+u2OgQ7Pn2WRwSpjS+6tzB3Ftg6gqRgxyu40tnzWVUDaoBURkhkX7Qe5kC8wR145HoNpzHM9NLpU6UYHSTurpjcZ6GHV67NeBVkZRlyrI+CN+asMHHXbiO7COfTUwdk6io7xPKp5/mtjzc1bUJwWOOZNTQK/bBxhUkbGkbDCj3PV03UMsUvbhfXG26sNs/wDRvSW5kyYNfdd1dVyKC3kHSbAI20l0ZpNQ0nkdjbxBLwU4SSpYP7pWTTg+1ufquGvjowv9VjEzZG5ZBGB/KU59dg5UFQwmGLo1jb67/wAVxtBndZHA290T8pt/WGjdFOF7wjtoDnSentKdJ8l+FJTH3J87e/YlAcjhY4zK5GMncj8dziEHOHl26m/Vb2aKkUAaX5fWblcUdL/W4hTh9GJGkzvuANOD0b5trFieCE141JJRVlQqE6amFVfVvqx5twRtbAK2pUMBK4DNrYZ2L4xqPlxt7LULxbwapq6iOWN1LaDqVwVOdhzxywB0c82CycF4km/0dmHWpDfjzdcFhZKpPZjQSc5672pzck0EkOBLG8eT7pSvy3GmFO9mTqibOL1rk2wSCN1I2Ix1XnI2uUFVGTyHL3rZgjm8R8Zlpo42r6nSi6MK5TI+6K4Lbbbk2zU0EtbMsMQ1O56TgDrZieQHMm4xpkibfpz57KfClIcvM3Nm7pfmru5+TzWV0h0WoPCDYDSVRH3uMY9TSOufbpu2aFeG4p4pGk73t6nKndTuOyMA4x12RawzFj6vIOi4al4hCxcqoAzliAAfabnO5RaKcctE0/T0Y2wCRmwOfUTz9hsnooZdEstQ3dQwJ3j9JKj3I6MnrsIl8R8Opj2BJO4+oMJn5zfiBvh8TcRrKKqXEKU8oERQA95151E3OFvNYFeTTH8ZW+mJnj3iKXjk6tju449o0zyHWfLbZAZNQ0k21xyqraSLeaeaKMg55W22Akh9WB2AJ53r6M3l/PdBeIuRkOBev2hJ+8F62Oois19GtfDrX9Ig2PWOo+T5LCzkEg7EbEdRszppmUjB2Ns3GaB1mM6DKSDJxjst0+fnZzjuSi9hlzcU695Ew6QMr7R7/K++e9AXKw6Ejq+8oKmRF2UnUm3uW3GM9XL1XqOt1Yy2/lGbLPEvBZPon0saRpkIQZ3aNvS5fVNp8w088Z6sXZOMkSlBxeKoK4KwONLuhXq5f/Fl/C6yCMp3ThFCaTpIGNxjn0WlaICRq22ztZLwfhtRV1SRxuipIuSkjBNa9XLce3G1p9MTUli3SFKrK6OogniMglLRPGIy67l15k8hvjB6MWP8CoaqhV4ZpEkaRk7qONi++4J5czty2vM/h3xFWz08c8UZENRIWmjkTCwGMFQ+k6myd1GD02T8PpZPDxZ6elSqd/TkkOJcfVjJ9BfJ09Ni+RJVeZRcbk7rImWgkjkCTgo+QBGeZycDJGRg+231eEVPIKu3QGF+g4xVVKEikkUj0k1I7fyQc+u5YuNSB8rTzdRDAD8/Ri5PqViqwSxGl6RS3ajGR0EDY+W+fR40Hop5hblLO0+7IE36Dkn23AEB573MorHCkp6FlJ7ld+gk7fnsb8TSHhqa6UAhm04XLNERuWboWPluTzt9SGFiqso6FHkGeQ89zVVOiM2lBvpH5ropKrqycou6ugM4KU4tWdzHURvL3feSsrbaFxsM9GdtgTZjHw9YZdaygso9wrcjt6RGLav2PRFgwgSNhyeMd249jJgi6nFK+XhcWFqZmJGAsjB+f3RXV+e9ruSpUZQqLxsg43WQxTlSVZs8ukXQWrh0blR5rEamq7xiSdTMdzcSSY5m6aNbuQOrSqQZVFBQcapu5lIG4IK4yCOo2MVHwe1jSH6NNEUPLWSD+a9U1SUbKnFmFDxJpF7tmI8t0UNKwJyeoF6T4N5s5qqpVH1Y/fNuEngGkVSBPI3kyPesqLr0vM3s5XwGL6kp9rWwKEqqfCvEqepKU9PNNF9bbzHcWccL4DWUtEsmldRTBjyBIrE75HI+0GyNWj/cn1ubsK4/cf6Rt0YBKuPxArslLw5io2EjFTk9YXWNurNj1ZwbxTWjE1LUOoOQoCaQfmqbWMSgf8v/AKd6i4hCJo4jE6mRtIOrIB89lpXkV9D5xqKeakkaKeN4pF5o6lWHqNlUfDKii4UXmIXvmDrH7pRjm3UT1WceKeHJXcYoJGUEQxOZD9chx3anr3ybg8Q0/wDVqePkd2f2kbDzWHJGovoU4a1xve/oJa2zZvUch1YG2em9TRd3KynrvKw5bGbngwmmmXVRyOzgi+93L1C3Gng+z9dz9wbdCsUykqVKjpFvwCTwGN8Mrev2EfKLF+G8ObSQXYfVu9T1TQSd07ZGojI5Ajn6rOM1LLYGUJQz3KfE+GmFNUcLE75KMQvRgnJ5+QDFs9PBPPI9OIJnMTDvnX0R06dfI7cwu9nKTiU5JIXf2b8ibp8V43TcGo5JyeWAFHSx5AAdJsZcWroHDl+PZPuAHF62moqGtilQTAfo49WMM+MrqG4GOkWnn06inOf2WpIGx7+f8+CLxU19RVSO0rHtsX0+5GTnA9lyUFHWcTmEVMhc9J5Ig62bkPltx41BYsXJyvllgulEoqqfAVeGxLqIUjvpxkDlsrgtvZFQUtYlVTTSRCkBcKFOtgiNhdT6ssB1jOdrLOC+GaXhYEkhFRUfXYdlPvanl8472RNFnODpz7rnv173GXKk/bjW7D+DXFqbq1VLwx3M0VAIoo3E3enDOcHA+sxG2noXzXkUM09Uzz1kKK3oRqNTFF6tRXHmO9idJWjhnexVavWrrCBsojsxGRq2AA+S6FTwyu4rL9JSWKKJto43DyvCBthZNYB3BPK9irba9/Qz4KUKi0ov21Lx6411HCccQpq6vWhabDyaUZW0kqYwPYO1nqslgaJ6fV/WMxrpkLRN6SjtHV7rfpzbTwmjqaNShlWYZ9J86s+rnbgYVb0tTfOZmHqBOLnN6oxrboWtvDBfVkroFYjUH8qnIvmnAvDzQwEBjjbkByFw/tGkZsB/YMGx0t7C1JboswDE6a2XHMDPaOD7kdN3pZe8Od8dAOdh5M2McRlMc8MqNhxGxTr3Ychc1NUyTUM0skzyMA+Wc7jA5dF5PBrqBdz2HjWDyObS7xNVvLWGPOyCzyiSQ0StjRr5MNjkqDz5+e0w46k0NaxlOonp6x+azSqXnCwm7WKGfvMG5w2bjeMOuoc7wqS9V9EZJkJJovxkg2/Uc2467HoYpXbGMWQ0dKYnBY3XWkswdLYZRNrQXOLp0xX0c3aGxsIOwpxcafktJdlLpobtqcb3VEiZiqrliAB0mx88ToV4jT6qiIBWJJ1DA2sT8R8Uq+Lzmh4eGeNDiV12Bb6urqHTbJH4Q4s4ye6X2t+qwkxii8S4xwyOpSWSojKKpPZOoncnG3XYHx3xYavMdMg0k57xxvn7kX4eC+Ie6lgHrNyDwTU+6qYR/wBe223fqKq9AHknqJW1OxJvcc0oPQbOR4HY86yMer9d7HgUf7co9i/rsdK8Dbl5YPw8QnVANAuX9pT/AFBZKvg3SMfT1/kXr+Z//wDuX+RZ0vAPuFIj2c+yxEk94259N/lNl6emfZYgfTb57/Kb5eHc6vuNi+zvo9JufWbbq4BqGq1b/YSc9/cm77eh6zdGs/wVV94l/AN2lmiCEhZRjkLWDgEccfDYNCKmpcnSAMnrOOZtIG5WsXA/ybTfMFj9z+PqH9v+T7DunO9+6vCc737q+I6wA40T9OqRnoz68WY8I/JlJ96FhvGv8fU/N/FZlwj8mUn3pb6OT/OBaX+XH/8Aodo+Rtu4kAZafIz2vetxj5G2/iP6WD53vXFEGNFW7ftCHtHcyg7nfsNzvvBgG4hDnftrz9t4q/yhB7ZPwWuTgv5Qh+evy31LJdjjeb7hF4ijQSREKoIGxwM+mOm22pAHCuI4GPtG+RbdvEXpx+z/AOsW1VX5K4j98b5Fvm/9P0HD/R/rYIOEgHhsWQP0sP4BtMfHIArgBttan8I/Jsf32H8A2mPjn/HD2XXaPb/6X3n+vAFxW6xdFtUVusXRaNsXY/TtzQ7i2xPTtzTmLYmO1OT3yW8n0jbNB+mS3k+kbpxZyHzf5cfqSpcPFGK8PqCCQe7bcbHlcyXBxX8nVP3tvkvpOQGPDAA4ehAAJ3J6T7TZSNxYt4Y/J0dlK8rig9jSqOoXMqL9UeYXEtzrZAkiov1R5hcyov1R5hca3MtsRrSvUPNftK9Q816v1sE//9k=",
+  "f_k5224_82": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgACSAJJAAD//gARTGF2YzU4LjEzNC4xMDAA/9sAQwAICAgJCAkLCwsLCwsNDA0NDQ0NDQ0NDQ0NDg4OERERDg4ODQ0ODhAQERESExIRERERExMUFBQYGBcXHBwdIiIp/8QArAAAAQQDAQAAAAAAAAAAAAAABgUDAgcABAEIAQADAQEBAAAAAAAAAAAAAAAAAQIDBAUQAAIBAwICBgQGDwYHAAMBAAECAwQAERIhMQVBInFRBhMygWEUk0LRoZGxFnKCksFi09IVNFIHI1MzNUMkVOFzwrKig6NEdLMlVfARAAICAAUCBAUEAwEBAAAAAAABEQJRITESA2FBE3GRMoGx0SKh4cFC8PGCMyNy/8AAEQgAkgEEAwEiAAIRAAMRAP/aAAwDAQACEQMRAD8AWFFvKLgot4C8jYkBcxfALnYBA2ic8Yjl9RjpjcfNa41onOf1STssAql6SuX/ANaq+Cl/Ntvyawf3FUP+3L8l+v2qFhVNTMNQ2wpbOw+i+mrixnzOBAPVY7tnHR7N76fDeDOTxHh8zyCq1g+JU/ey/Jb6mqHRUD1SX64NVEoBMw3GR1Tvx4fQb6KyDGTKD6j8lnhvB+g/FeHz+h5J8yqHTUD1yXLz6of3lQPupPlv1t71T4yXHDO4PDf2ey8M9MDgsg7R/pZ4b6+geI8DyV73Vj++qPv5Plufv1WP/YqPhJPzr9ZeZTHG8ZyccBx7uFxMlH0+V96M/RjNnhvr6B4rw/J5Q/SFZ/mqj4WT862m5lXj/wByq+Gk/Ov1siUsudKwtjjhVP4Ll7rB/Ji+8X5LWyP8B4vT8nklebcw/wA7VfDSfnXuRc1r+muqfhn/ADr9Ue5038iH4NPktieipvJk/wAPB6D/AN0n7J/Fs2h4vT8nm1OZ8x/zlT8K/wAt7Xv/ADZY1l95qwjEhXMj6WI4gHO5HTjhaetHWaQfdZiNt9DY+nGLXp6SD3VlSOVWGpkV5agLrx+w9OE+ce03O3qjaejYnjnPNB/7tT8K13ahyB2C/P5gnTdtBHThlP4bv+P0R2D6rTUDHhcxcBcxciJi3BbYNzFgDotwW2LdFsRMW4LgLcFgHQLkBeC5gWAcxeYueLzFgFRKzlyAEwO8nPDut6mfz49eMd1oI5qAsrAqDhdHTx2Y5PH2WtcskM1LqPHO/b03BrEG1i+328tANtaLzgZpZB7LW2tG5t+qv2WB2LoDLFEGchVCjJOwG1uhkYAgqQRnORw77aKpJBpdQylVyDwPC+KkeABGmw0jq9HD6r6c57RHxn6HDFdvfdPTbHzmTY6vs+a8AXoA+a2tC8PLT73/AEuaALsFC9OwxbJg6zRpjUVGo4GcDJ7hcsKe62po0fTqUNpORnoN8wp+Iu/s/wBLrKFrPf8AQSmXpHbH4j2F7hfNK9wtry0/lr9H+lvDh3fNaKIB49ZQFNYGSoI1Y7yOOLcvUNNB57TeUpd1CM25yoxtjcdAtzSv8sfQfzbb25ROimce/wAAY/bNR/Rl+0f/AJTeABTkIBnt/Nvs+8Mn2jfUbkDy+J6wLgVEoAGw8xsdgGb6Jq2Z0japkAZlXLyNpXJA1HJ4DibKeUcv5rzCGoeGeLTSRqSHSME4ViAv8NuhTuxA9to0U0/mgRka5SsYyseNzsOspUbnjeUnV6Gc95M/J6pacVaVIMayalGMZJGkgM2OGRvuCLuSP0R2D6rqbnvLqzlVSkFU8TsYw6mMbYJK49BDkFcbjsu2I/RHYLLahXTWeo+LnbYN6fMq0cvo5ajSW0AAD8ZjgZ7hk73JSUuDYqJWiUED4wH0nF683OIKd3Vo5cI+jIIOTqxwx0m6T5hzStmqHf3ib798A9wGdrJPD3OGqV8lyzynAz8bGd8k/SLyte0TX8l24rdmpLJ/TUIZV8uQFlDDJXhkjuPdazRVC1cHmhSvXZcE59Hp4CxSWFSoZQSyjKljqJ4HGcnbf6bXfD39mg980p/6uFqtrPlef2xMEWq6ZPXEWhbgtsW6L3JJi3ALiLcAsAzF9xcrywDzKkvkkRsFkQjdc/G7eizTks4npX0rpVH0gezAP4brdXGAfxu+z7w22qjlI/m/8C3m83Jv/EXL5fb5YIg1o/Nv1Z+y1hrR+bfqsn2p+q0BdUODGn2q/ULdwB0C9WFmEMRVdXUTO+Pijvt4O/TGR61+W+uDzx28uOT3fOLzJzwPbtc5mh0gHjeYHcLzJ7r5k59E/SLZLRK8vgJPEYvtqRwZeXo8xpffKYxaymWU5BIOx9hFjFTyKplTSlU4KroHpDYd+Cc549ty7qpdeLcpmA1tub+k/wBq31XX9fymRqaMJIyOrBc5Pp40gMdsDixO5tX8OUNXR0lWKl9ZkOpTqZur5ePjAdNqvJuyiC+XgXHWd06dv1K0oIuYVcU5paeFkiT+NsFLrgnScsPMJCk6fZaAsza8JFC7PpVVMYbcnbSDwJJxmyKgkrBFUCjppGXy/wDEmJ5sFMHd9L4HTw3xmx8MiuSIVckjQuqQaTnbSUcNntJ9lrAqNchN8Rtzejro4q9EikZUdShVtSZ0jrqWzjBGnOxF3onAdguifErcwatQ8xp5Ip9KaWleZ2MeTpA8x2ULx4Djx3u9k4DsFu2oLKq0+A8LFvF7haKHLEZm9HOzYUncdONsd1lItiroqavhMVTGsibnfiu3pK3FSO8XDUpoqj22TwKRq4fPhk0ekcEY7x0+u1jwhyiaT3hpg6NpAT4uRnOoN9R77SpKqliapkp2kemikZI5XXT5gHSo+NvsDtnGcC3+QeKWp6thPnyGAQKDvHv6Q6D7QMXnx8d3Ken90Orm5KZWWuH1LPjppdbO4ZljiI07DURk7Y2Oe+yLkbauX6u+WUjs1WiNUebTGWIl1ddmQE9U8T246Og2seHSW5WhKspaWY6WGlgPMOAQe4Xfhqlsp0cnNfkfIs9ZygWhbwtoW8t2ZkxbouAty2Bl5eXlginlpov5cXwUf5t7MSLECFCqDxCqqjPf1QLituXibkr5fCcWC8y8TcwpqqojhhpykMgTLhyx6itk4kHf+zj221V2cITaWocNaNzf9Ul+0b6rC28X82wT5VHtjbTJnfpx5ucDstdSvl5lyM1EoRXZJgwTIXqMy7ZJPR323V11ErJ6F/Ue9PF/tp/yi9qwik8b+Gkp4g3MYwVjQN/Dn2IUZ4R3sp468MOcLzGM/wDbn/JX0Sjhh4MLryxZvGnh1V1GvTH+3N+Tzev9nvhf/wDor8DUfkrJQRbBhjeWJ/Zv4cxn39fgp/yV9Hjfw4eFcPgp/wAlZKCLYMK7yxceMvD54Vg+Cm/J3L7MOQ/5v/xTfk7WRX3YP0CKX0eniOAz02jVdRUAjyopT+0RGxzju243rfZhyL/N/wDim/J3H7M+QcPe/wDxTfk7nbV2TmehrXkvVRs+YxXU85mEqrUESYLIFZscPZt67WqB5padxIjIcaRqUpnq9xtP+y7khGfej8FL+ZbH2XclLnFW51bBfJlxno+Jeu+uzbtpPa38vIyvvvZP70o9ubr6A7ScsreWLLFDOF85QkuHBBOCNSaqdip3OOnFoY8K1McrMZEXyiCpWUqysvWD5NOwIxjHtvc5hzOam51RIZOpgeYmerlmYFuB6OnoFkg57RcweqT3ecGEDJYqnmISRlTxO4PDJs2Vw/sD3XSTxKv8VUVfzJVraiVdUagKpcbohLEJHHTpuclmYnHfdrp6I7BdVVnOaevoqn+HKZI0kjYPMqza8nH8DSuI0UjJ2Ox2zdpx+ivYPquORadTasxmPi698ec6lhjj5XTMyy1KFpSpwVQ5CKT0KSCz43KrjpuwRfn/AJ7zQV3Mq/mCnq6/dqfH7KAKW7SOt7M3KKWYhVciriBCdKYycnEkijBfH/8At71I3ORjV9Vs54nURt9d9RhnieN2sgbkuz923M5WE1FIzFceZFk8CNmX6LtwE3558Bsx5pAEZgda5HeurcfQTfoUWrrTqiR4W8tsrb63ADy3K4i5WwMvLy8sAoSu8T8toGZCzzyLsywjUFPcXJCZ7wCSLZ5V4qj5pU+QKWWMnOG1K4+6wBj57q1J4miwdu+13kcqwVKTKcadtzgYN4PTQ6Uk2sy22N1lzPk3Npq+okig1RyOGB8xRnqqOBI7rsqORZUDKVbI6CCPmtwKLqrdc0RZTkypxyHm5RkNNs2D/ViyCAR3nbeyui5bU0/JfdnTEuJ+rqB9NmKjI26bL9IvhUWOztqJVSKsj5HOsaq/L52fHWZa2JAx9i+Q2B7Mm2ZeR1+oGno2hA4h6lJSfWEjx9F2voF88sW976C2LFlU/oXmzLgxD79fltteQ8zB/pD79flu2TGLaHls5QMpcAEqCNQB4EjiM2tzHtRV9RR1VLFrlTQFG/WX5bTEr0U+i3zfLdpcy5UnMIWiYkBukcQRwNi32Fr/AJmT7xfltq2InXARIubQrnUr/N8t7C85pjnCSnHHAG3bvasPBMZ41Ev3qW7H4KVNQFVOA/pDCb/NblChiOOd037Ev0L8tsNzeDVkJJ/0/LZH9hMRx/iJvoT5LdXwNTnjUT/Qn5tigMxOojV18fmUyqyZ0sC4BDDoIxe97jzLUMU69+fNXG3qsu5Tyan5TAYotTam1szkFmOMdAAwBwAtWEYtiAWrTxNVyF8UYfBUMyx5AOc4IjyOPfY7W+FPEvMJA8stMxAAHX0rtwGAou4RGLdCXe54snasCmYfAviFSWWSgUv6R1HVg7EZ8onh7bu4HQmTnqrnbc7DoHTcVXFvLta1GVlP4mr6mDyswBiSfORpEZQeA0LgMMZBDFbrznIpg8UcIEQQElF9DJPHB3ycb7myzxPyz9D18aQVDyrUpPUeXIq5h/iLgB1xqXLNgFcgDibrmrkkknkzg9bGeHC4pWytm5/vc6L3o+P7axL9PI4wYHTlTfFMkfEfG4jFt6jvnPsxjjc01O2wyTsfl3vY5yz/AN3SGTmqODqAVye9SB0+0bfTd+C6D8CVQ5T7zK665CulVB4nB05I4fjH2WTHnnNYpTL705GcmPqlOwKRwH03PLdVaTwKpx2vmi3Ft9TYVyTxQnMJxTzRiOQ+iy+ix7sHcfPZiDcpqylE2Tq4ZtKbnbCm3gc2yTt5eXlgHiAUzwzNFJnqsQPxh0N2Eb2oCndMHScXrTSk1kxbj5jD6DgWpvWK0IjG989pOukJBZ4Vmk8/yi2AwOxOBmz8G6dpZyrKQcEEH1i7aknVIRO2FUxLKT0ejk/hsrlkO+akT+cc+pOTx5kzJK3oQpjW3tP7K+02GQePpjUAT0qLFnrBCWcDvBOATYNzGvk5lWzVDE/xGOn2INlA7BeujHN6QYyeg6Kvp+YwCanfWh24YIPcQeBvcuvPBEx8uqjzsCjevcfJZ7qtFEpDtYNPzPFbO6UqqrAw+a0hR5XBC7KDsM6QG2Ptsj5qymkl1FwoUs4Q4ZlXcpkbjUBgkb4NhvK+Vye9/wAILB5kcJTzMysuQrH0uOCMYNohyw75XWPzBGcx6Ah0EHIcOANQ7iN+O3di1fyhenTQR8vphFGchRux4u2N3PtJudBUPPE2vAKHHq+e6jUa7SbWgXLSLzVcGkAtSMdwLZqKqCkj8yVtKjbPbcEmDsAOHf0fTwtms1SwsqhNXFdahgCOGQbJyyJYmV/ianpJY44wJSd5BkqVX2bY1cc9Axi037JZ1qZv4oMLL/DysYZHbZAmoqGXOzZPDexavp6iGplnmD9ZmJZUyCoO4wMDhnBJ4WMpKxnVS4dA/VbPRnb5rS3W6fsYy2z0RQT+90sU2MF1ye7I2OPZkbey94C0Xkk0B5fTASxE6OAkQnJJ6M5teCnuN7RBZwXMXzFyAtgUz4+rEh5/EjYAFDEC2+V1SyH6CLrZ+szNgnJY2Q+Oa1KrxFX4IPlmOnU56IUCsPv9VjeR3nh+G2OcoJjj6J4i1GmhVicISR0fdD2WlgjPE8RZHyuHzKqPGohsPn7U5IO/svSmUvAkX6RH5fB1sB2y2lTllGM9YnpHsvc9+1RKx27+HD671eaTwh401AEppb2EHJ+Y4zY3LzKJGKRapF4ZxpHqJ4/RfBL5ORuJO5pcfHXOOjDnkVR/+2ikGCEy4GTtpXbOOjOBd8qxwM8cDPbfnTwQ8VVzdIxrDuQcEggopBbhxOw9V+h830UrBx8lpZsK1vq96QN6XMuZQ8qop6uY9SGNnxndsDZR7SdruDMVJuZUNM2iapgibGdLyIrYPTgkHFs/prlX+epPho/zr8h805pPzatnq6g6pJnLb7hB8VF7lUbC0/WO4WpRUD3NYZIappDwlJcHGNzx+e9eKQ9NlVTSmugaNRlhhl9hvQp/DPNJDtCSOkjfHtwN7xN4Y5ySPz6yPV/TVlMh9hOMeyy/xfXCg5WtIjHVJmNRncR6snfs2tX5HyhOWwFMamYHWxXGTjuPddW+J673vmLIDlYQI17fjH6bzr9157I35IpxKvd5g6G3t9DlgO8XKOmZhvsLUIFipjqxrIvZuDlVWwy8Gssb1AJwWCY9VnplF1DBzcwTawoXoOLJoPESPgN03nJpAW1E+VOFztaXTVCJKs7SBWG2k6cDB7r14q6SRuqOOLcSqkVmyAV1hcY7+OLl2LVRVbmULAgzfOL4nMYI84lI1ccYuM0YCq3xWBH+l6TwxDG3SvSe/tsVmDqsBS/SkR/vX9V689YsqMEmkViNiVLAHsGM3GLRHnG2bdjkzaCDIuYLHCketyVCgsIjuRxON+Pde1+mosAGJmIG50Sb+04F6OvLH7Y/ULg2DbTa0CEztTX0VUhSSIlWGk7ScG2+e6sp1pkFQ0pRZaXaGJlGibDHVr4MW7t9u67OWGAbsEUZ6QAPnxdZ+IaT3PmMwHCRjKoxjAY/PvnheibfczaVeyHTzHlss8jSUeE8grGF9JZcqwOSRhVOodJIOLWOWVXLp1nHvUlEdtIeeVcDRuY31jB1b449tgubVuTcs/S9V5HnLAAhcyMpZVwQN8EYzniTdKuff1f+CXdtfoj0b4cqTW8loJixkLQIGc7lmTqFjnfJK5ObWxYR4Bk08lNK7DzKOqqYCDscB9QOk74Oo4s4vVGTE5OTcqVy/uFHqZizsaeJmZmOWYsykkknc5vzLzSA0NfWU7dXyZ5YsdwWQ49WMYv1Zfnn94tEKTxFK49Gshjn+6wUb50z67YgK81c+l09x+S1mm5m9JGPLxqK4DkeiCc7A8fXwtARNR7L2c2pyfUo3pZ3nYvIxZjuSbZLC9TWc4F91GzQbci7yRa166M0bMkkfXMiuYxGvezjgOjG+eGDd9x+J5oaWMSxB5lT+JKx8uNiPjhcat+J2G/C6z8NUnulGHYYeXEjev8Apr6h1u02U0lL77PHFx1uoY/ijrN8wuHZ9hwix+W1M9RSpNNpDS9dVVSoVDw4778d++xjx/TrU+H6mQ8afEq749n4eFlgIUADYAYA7gLEPHNSkPh2u1H+oqxj2lmGLsz7nm/VearazeZuCi06Wj93GScseJ6PVZJRSPBIGXoxkd4No5cNt6hatCett0beoXmjVhtTVFPUDDDBPQw/DdMeO/D1ByqshmpfM/xPmO6swZFKkYC9O+SdybsuOUKoxnPTdZ+Nqz3iqhAz1QbbsCQFgFtrmybW5SlQd7cdlLHF5TmbpLaJpXfsvbpwxIIGbzTnNrvKqIyMMDN1JnAS8uIWIM1q8UcbALjpye03CCl8uJwV1bZFsUchZxkcDw9t52yNK5r9wqeJIqbLDUAQdtz7cXpR8y5G+UPmIw6JAQSfUAPntUU6oAL1zSx56yrn2gD67Ow4zzEiqmZ5kal8jyl4oWH8TfpZusNtsBduOTezHLBICNOmTPBCXTHtdkXf2DN78VPGzBEEZY7AArk/Pe9+jZgp/hjbfbHRcqUwhYsRwPYLhIVjUsxVV6c9FqARem1SmqIgwbRGp330qASMcCR2ZA4G6kIAap5bDWnzdTZIUZDvpKg/y86Tt+LaZzbkMNdUBpAzkIFDgsm2ScYG22ccLNeeSplHihZyoZneFVZgQRpUqpySd+/bjaZyjn3LKypalqaWpjnY/wAHUrrG2kZYHGCrbEjVtdOYyf1RKic6/RgC/hCEnYzL6wfrWyrwv4ei5f7wGlGZDGQXA4Lq6u3Hc8LNZ+VcqqwXWOUE7ErUzRgEdBUSYB7BezHSR0yxJGxOAQSxVnGBtlsAt90SbFZzm2+gOqjJR1ACv5dUrVVFQs0KB5IwoEZLEqioc9cD4ubJ+S1SRPoeOWSQ4AZCzYB4nyzJgKPxFJvYrIo2WSLTKwPQvkhdXHUCRr495sReOsjbJgkyODIQfXs2bi3LavImtMDXj4qX4nVqLPPcWdV1lPQx+bUSCJM6dRzxPRsD3XTf7w5KTnD0VTR1NPIYY5Y5AZFRsagy6Q27fG2G96fPW53zB4KeE1TI2oNE0hRSw3y5kZV4cMmxR+Rc5WYwe41LPjcInmAA8Msmpfnvqryq1Z08zivxPjbTlx3WglABMkHe4Fjb9XS1XL5fLqYZKeTGdEqFGI7xniPaL0CS3DhdzJBIE77/AE2octpTWVkMTElSdUmP2F3Oe3h67TuHRj27fhss8LwfrFQd84iU/wDU3/DaY1qWCmyKO/rfTw+gWW+HIwXkkPFVwPuj8gsRB2j9qL8lmHhpw8E7jhrC5+1zk2kNhQzYunv3kc5Ro05eD1wwlkXqkAYOltSsSD+KVHfaz4p8dUvLUenoXSoqthq9KGLI4lgcMw6FHA8bp2noeac7qHkVHmeRi0kz7KSeJLHb1C22SkJoLYF9y12PR+BMwgzzZf8AE9EewZva+wSD+a1xuRe1iKk0i8JHHrzazSV7sQjkBviONg3sbt77HhbkbYOknY8D3G5LLHhqfNiBGzeiynoNgPi+mYNHOBlRsx9ptWpa8p1j6QGlx3n4r/gNq0lPHzWhkgbi24PqtwIqBHueojNzqaSShneKQbqfpHfbI3NqByPxuSbO+Q5iXLAb2IU8AJBslhcjSFNgBTDWKK6NG9Ftj3b3vS0ZhqJGjRnHpAKO+0Q00hjSVVJbUN/XapzLmaUIj8yqWAlRgEk6j3YAJvnf3WZ3KqXHVsI4Y5mpfRCyAZwd/Ub06jnnKhIq11LmQKE1vCJVwN8bg6d98fPaDyrxNJVTNGw9EAg6gdS942GOw3peJ5eYfpGnWCQxxSqJEKYXrD0yx6cd1v2mdkrKcQxXnHKcxmBadcMp1CMIQAd8YUHOLWIuaRSnVE3mZ2Kj0vUvGxfw9zOPmcWKuKISx5VxoUhxwDDA45tLqamej59U+7CSNVjUqNOF1aE3XUCM3SrNteyaZnxvxE4yalNPFdgvkaKX0Y3TB31DSfvei+CJOqdI2yR7M91vUFNU1NHFPM41yBmYvs27HiMbbXKSHycapYhnhk4z2bXnfKZy/BahZSMsqBeqoHYMXqjytYJGGHSRe6y46Qew5x22y0Z4i516lo6qxzRtGyqyt1mVgCCRwO/TbkUEMSMEjRdRGcAbgZvKYafOZ/2AE09Jzvq24XJWFvBk6yv6xuRAG2G31W3oHqt88b1at2p4HkjAZhjAbOOI446Ll5lTtQKc/q4dAgXTqZm6vFsL8buwTtb3h3mENBT1iVBIaWRSiMTqKiNV2B4jV3XuyU/JaoJLUwvHPId5IUOkaTvwOeHsNqS8r5NMhARZ1OMSGXMo7CSpXsxb25Q3qFeV24bUh52lzOmUIBfE3L5OeLGXeCDQ2Y5SGOQRgoSDsDsfVYc3hGvUZilpZR+LJg/9QxfoSKj5ZJFJH7vGiE4IfAzt0EnhYbzrwpyRYXan5hU0MoVyqxTNOGPEL5Iyx7hpIN68P/nVVTy9Tk8Kq0T9Sh6mF6aV4pBh0OGGQcHtGRZ5yiNaXl0OrC9UyuTtjVvk9gxdeSBzIVfXryQ2rOrPTnO+e21/mPMmnjEKdSIALjpbA6fZ3C+pmVVqGC+IeXtpCu2y4BKEDPyZ9l6HPufPFyyl5dSzYWTM1Q8bbt8VYyQeGxZgeO1iFBC1ZUJCGCls792Bm1HnfIavlUUM0rRsJiyqFPWGkA5I9dpDcQanJqM8xro4sZUZd+7Svf2m7jp08kKigBQOA2G3ZYP4Romip5ahxpMxCpkYOhen1n6rMlYxkG4tmy65LzFsVGBffeLT1kDDJuWtbQFcC4vwuQuL8LAN1fSX2pv9FlPJydK9liy+kv2n4DZRyf0V7LpdhAr4vA97Ow4D6rDksy8X/rZ7B9VhqW8Qf7CtT8bXqDeRe20GDja9y/8AqL22uw1qWfTKPdxsOF15+8MAfo4gAEq+447EXYlL+rjsuvP3iejy37WT6xeHH7mdnL/z9BL5J/aaf/P+Gz/nYB5VE2N1lGD0jPceiwDkn9qR/wDz/huwOd/2TH/vLZb3fAzX/P8A2/cHeTMVqEAJH8ReG3QbLYutzCpzvuvHf+6WxHlH6yn+4v1Gy6D+0KntH/4luu68q/Ix4va//vk+YsVe8Kg7jy22PDjaZSRxy+WJEVwGXAYBsb9Gc2qVX9Jf9trT6D4n26/XfJze/wCJrb2UFqtVUliCgKNLbAYHR3W0Lfr/AOtF9q1sC9FovJDrodHxrgLmPjXAWFnb1a39Vk9X1i9q9Ws/VZPV9YtPR+QnoJvJwGWTO+HbGftrVJYYjxjQ9qj5LTOTejL9uf8AmFrEnCy+vwXyDh0f97CQ8MWf6afej5LUqeKNVGEQdigfgvSfjajB6AtdiyoPHsUcfNEZERS8ILFVALHPEkDc9t163E3Y37wP7Si/2B/zXXLcTfbT2ryOO+r8ze5MT79F919V2R4pAaDkwIyDWbg7g9VON1tyf9ei+6+q7K8Uf0eS/wD2f8KW/wCX+rEvZ8RYYYYgbAXw3J/TbtuJuEUzIyccem3MnvNtx8PXc7og/9k="
  },
  "files": [
   [
@@ -186,19 +260,27 @@
   ],
   [
    "Interview",
-   "<a href=\"https://drive.google.com/file/d/10cTnUJ-MPFM_21cCM8WMMzutCp2TJEzn/view\">20261008_C5186.MP4</a> front angle · <a href=\"https://drive.google.com/file/d/1VYVa3uloTrbRp-kHSmcnwfeGsSmfANMU/view\">C4896.MP4</a> side angle"
+   "<a href=\"https://drive.google.com/file/d/10cTnUJ-MPFM_21cCM8WMMzutCp2TJEzn/view\">20261008_C5186.MP4</a> front angle · <a href=\"https://drive.google.com/file/d/1VYVa3uloTrbRp-kHSmcnwfeGsSmfANMU/view\">C4896.MP4</a> side angle (4.75 s earlier)"
   ],
   [
-   "B-roll",
-   "Folder GRIN Therapeutucs Morning Meeting B Roll. 94 clips."
+   "B-roll picks",
+   "<a href=\"https://drive.google.com/file/d/1cgcu-DBE5b03OgwSgFH2jKZINcMpgKhi/view\">20261008_C5208.MP4</a> 0:19 to 0:21.5 · <a href=\"https://drive.google.com/file/d/1JBDlrJKntipS1dfKPm3hAUQFKXXxkaSM/view\">20261008_C5129.MP4</a> 0:04 to 0:07 · <a href=\"https://drive.google.com/file/d/1vxndaqstVQDKxnDXIAG3oheJtHHUj0mk/view\">20261008_C5224.MP4</a> 1:22 to 1:24.5"
+  ],
+  [
+   "B-roll folder",
+   "<a href=\"https://drive.google.com/drive/folders/1FSwDo0vHmm-9Oa10jal-q7I7yzMS0OeL\">GRIN Therapeutucs Morning Meeting B Roll</a> (94 clips, 20261008_C5092 to C5185) · <a href=\"https://drive.google.com/drive/folders/1Z-s7_8Q1hi8PSYl9uELu2_tNf6fBIrLB\">Keith Lunch Presentation</a>"
   ],
   [
    "Transcript",
-   "<a href=\"https://docs.google.com/document/d/1Fqst34MEDg8P_CAHdaCnBjvAgFBAwJuHPu4G7_eHFRU/edit\">Transcripts - Interviews</a> · the folder also has transcript.json with word times"
+   "<a href=\"https://docs.google.com/document/d/1Fqst34MEDg8P_CAHdaCnBjvAgFBAwJuHPu4G7_eHFRU/edit\">Transcripts - Interviews</a> (Google Doc) · <a href=\"https://drive.google.com/file/d/1MuQ4PiovIO-cdq9RnXJ1aDjfpjI5IBBo/view\">Interviews.transcript.json</a> (word times; bite times on this page come from it)"
   ],
   [
    "visual.json",
-   "No separate file. The shot notes are inside transcript.json in each EditingResources folder."
+   "<a href=\"https://drive.google.com/file/d/1R4aI_PjdMTS9nzVMtJJ1_vux-p-OpWRh/view\">visual.json</a> (shoot level, EditingResources › EditTranscripts). Erin's shot index. It does not name people: picks of Bruce, Quinn and Keith are from the brief and the clothes in its notes. Check each pick on scrub."
+  ],
+  [
+   "Brand graphics package",
+   "<a href=\"https://drive.google.com/drive/folders/1VYxyZxSqJezFvbT3l1xc5UtZn1U0cSjw\">CureGRIN graphics package</a> (Drive, 1080×1920 ProRes 4444 with alpha): lower third bar, title plate, underline draw, focus brackets, topic tag, colour wipe, textures. Type on the empty plates in Inter."
   ],
   [
    "Moving portrait",
@@ -206,13 +288,17 @@
   ],
   [
    "Music",
-   "Warm and quiet, under the voice."
+   "Warm and quiet, under the voice. No lyrics."
   ]
  ],
  "tech": [
   [
    "Source",
-   "Two cameras, both 1920×1080. Files named 20261008_C5… (the lunch talk, the morning B-roll, Bruce front angle): <b>59.94 fps</b>. Files named C48… (Keith front angle, Bruce side angle): <b>23.976 fps</b>. Measured on C5224, C5195, C5186, C4898 and C4896. Check the other files on import. Audio: 2 channels, recorded into the camera."
+   "Two cameras, both 1920×1080. Bruce front angle <span class=\"mono\">20261008_C5186.MP4</span> (and the lunch talk and morning B-roll, all <span class=\"mono\">20261008_C5…</span> files): <b>59.94 fps</b>. Side angle <span class=\"mono\">C4896.MP4</span>: <b>23.976 fps</b>. From the shot index (visual.json)."
+  ],
+  [
+   "Angles",
+   "The side angle runs <b>4.75 s earlier</b> than the front angle (front 03:43.3 = side 03:38.6). Measured on the word times all through the interview; it does not drift."
   ],
   [
    "Timeline",
@@ -220,23 +306,23 @@
   ],
   [
    "Crop",
-   "The source is 1080p. A 9:16 crop is an upscale of about 178%. Do not punch in more than that. Use the two angles for variety."
+   "The source is 1080p, so a 9:16 crop is an upscale of about 178%. Do not punch in more than that. Front angle: Bruce sits a little right of centre, crop centre about 58% from the left. Side angle: he sits right of centre, crop centre about 60%."
   ],
   [
    "Audio",
-   "Keith wears a lav at lunch. Two camera channels. The audio check did not run. On scrub, find the channel with the lav and use it on both sides."
+   "Recorded into the camera, two channels on each angle. The audio check did not run: on scrub, pick the cleaner channel and keep the front-angle audio under the whole bite. Mute the B-roll sound (the morning meeting and lunch clips carry other people talking)."
   ],
   [
    "Loudness",
-   "-14 LUFS integrated, -1 dBTP peak. Music well under the voice."
+   "-14 LUFS integrated, -1 dBTP peak. Music warm and quiet, well under the voice."
   ],
   [
    "Captions",
-   "Burned in from the first word to the last. Brand purple pill style, same as the GRIN2B cuts. Spellings: CureGRIN, GRIN1, GRIN disorders, GRIN NDD, GRIN Therapeutics, Neurvati, radiprodil, Beeline study, Honeycomb study. The machine transcript writes Nervati, redipridil, radiparidil and RadiproDil: all wrong."
+   "Burned in from the first word to the last. CureGRIN brand purple pill <span class=\"mono\">#5C3D8D</span>, white Inter Bold, up to 2 lines, low in the frame. Ready-made transparent caption clips are in the Captions section. Spellings: CureGRIN, GRIN1, GRIN disorders, GRIN NDD, GRIN Therapeutics, Neurvati, radiprodil, Beeline study, Honeycomb study. The machine transcript writes Nervati, redipridil, radiparidil and RadiproDil: all wrong."
   ],
   [
    "Export",
-   "H.264 MP4, 1080×1920, 9:16. Upload to Frame.io → Ready for Review."
+   "H.264 MP4, 1080×1920, 9:16 only. Upload to Frame.io (name and folder under the title) → Ready for Review."
   ]
  ],
  "checklist": [
@@ -244,17 +330,25 @@
   "The hook text is on screen at 0:00 and does not animate on.",
   "Spellings in every caption: CureGRIN, GRIN Therapeutics, Neurvati, radiprodil, GRIN NDD.",
   "Name super reads Bruce Leuchter / CEO, GRIN Therapeutics, after Quinn confirms it.",
-  "No line about 2027, 2028 or genetic medicines (07:20–08:10) is in the cut.",
-  "Zoom tiles with staff names on the lunch TV are cropped or blurred.",
+  "No line about 2027, 2028 or genetic medicines (07:28–08:13) is in the cut.",
+  "B-roll is picture only: the meeting and lunch clips carry other people talking.",
+  "Zoom tiles with staff names on the lunch TV stay out of the crop.",
   "End card says “Support CureGRIN today.” and curegrin.org. The logo is only there.",
   "9:16 only. Nick sends it to GRIN Therapeutics for approval before anything posts.",
-  "None of the 25:22–25:45 take or 13:51–13:55 is in the cut.",
-  "“radiprodil” is lower case and spelled right."
+  "Nothing from the 25:22 take or 13:51 to 13:55 (cut 13277142333 uses them)."
  ],
  "decisions": [
   {
    "t": "GRIN Therapeutics approves before posting",
-   "b": "Their staff are in the B-roll. Nick sends the cut to GRIN Therapeutics first. Quinn confirms the name super before captions lock."
+   "b": "Their staff are in the B-roll and the lunch room. Nick sends the cut to GRIN Therapeutics first. Quinn confirms every name and title before captions lock."
+  },
+  {
+   "t": "Length",
+   "b": "The brief says about 50 s and the Monday item says about 40 s, but the five bites the brief chose run 57 s on their own, so this plan runs about 62 s with the end card. Nick decides: keep all five, or drop D3 (BEYOND ONE MEDICINE)."
+  },
+  {
+   "t": "End card logo",
+   "b": "endcards/ has no CureGRIN logo yet, so the end card types the name CureGRIN. The Drive graphics package does hold a CureGRIN_03 logo end card plate. Nick decides whether that plate ships until Lauren's high-res logo arrives."
   }
  ],
  "client_note": "<b>Why this matters:</b> these films are for big donors and partners. They show a small family foundation as a real partner of a drug company. Hopeful, never sad. Dignity, not pity.",
@@ -264,5 +358,313 @@
   "What if D1 won't split cleanly?",
   "How do I spell radiprodil?"
  ],
- "transcript": "--- 20261008_C5186.MP4 (times are mm:ss in this file)\n[00:06] All right, we're good.\n[00:07] Okay.\n[00:10] Okay.\n[00:11] So, why did Nervati choose to focus on GRIN?\n[00:16] Nervati's choice to focus on GRIN,\n[00:20] neurodevelopmental disorder,\n[00:22] was born out of, first and foremost, the unmet need.\n[00:26] And big driver of what we do is targeting indications\n[00:31] where there's no available treatments,\n[00:33] where we can make a really big difference\n[00:34] for patients and caregivers.\n[00:36] But the layer beneath that\n[00:39] is the genetically defined disease.\n[00:41] And when we can find ourselves organizing\n[00:43] around a genetically defined disease,\n[00:46] we can convince ourselves\n[00:47] that we've got an opportunity to deliver outsized effect\n[00:51] because we're going after underlying disease biology.\n[00:55] So to us, when we step back and thought about\n[00:57] solving for the unmet need and doing it\n[01:00] by way of pursuing a genetically defined\n[03:19] and if there's a way that you can say\n[03:21] what we're trying to do at GRIN Therapeutics?\n[03:23] Yep.\n[03:24] As a through line?\n[03:25] Sure.\n[03:25] Give the headline of that.\n[03:27] Yeah.\n[03:27] So we can pull that out in less than 30 seconds.\n[03:29] Yeah, can you ask the question again,\n[03:31] just so it's fresh in my mind?\n[03:32] Yeah, yeah.\n[03:34] One of the questions we hear from families\n[03:35] is whether we should think of radiparidil\n[03:37] as just another epilepsy drug,\n[03:38] or as something that could help treat\n[03:39] a broader range of GRIN symptoms.\n[03:41] How would you answer that?\n[03:43] We do not see at GRIN Therapeutics radiparidil\n[03:45] as a seizure medicine.\n[03:47] We see it as a medicine to treat\n[03:49] GRIN-related neurodevelopmental disorder.\n[03:51] That is critically important.\n[03:53] It's the organizing principle for the company.\n[03:56] It resonates with PIs and KOLs.\n[03:58] It's wanted by families, caregivers,\n[04:01] and of course by patients who need something\n[04:04] that is gonna target the underlying disease biology\n[04:07] and not just try to target a given symptom.\n[04:13] One of the biggest pain points\n[04:14] that we hear from families is that they can't take part\n[06:34] We know parents and families\n[06:37] want their variants characterized.\n[06:39] They're diagnosed with a Grin mutation,\n[06:41] and they're eager to know what the variant characterization is.\n[06:44] For us, that's critical,\n[06:46] because that enables enrollment in our study.\n[06:48] But it's not just us as a company who cares about that.\n[06:51] It's the broader ecosystem.\n[06:52] It's the principal investigators with whom we work.\n[06:55] It's the basic scientists\n[06:56] who are involved in characterizing these variants.\n[06:58] It's a community of people who want to ensure\n[07:01] that the right patient is enrolled in our study\n[07:03] to deliver maximum benefit to patients, families,\n[07:06] and the broader community.\n[07:09] That was great.\n[07:10] Is there anything else you wanna, do you feel good about it?\n[07:12] I think so.\n[07:13] Okay.\n[07:14] Are families who are interested\n[07:15] in more than small molecules?\n[07:17] Is Grin Therapeutics considering any genetic medicines?\n[07:19] For the record,\n[07:21] this is not something that we are publicly posting.\n[07:23] Keith just wants to know the answer.\n[07:24] Okay.\n[07:28] At Grin Therapeutics,\n[07:29] we're interested in Grin-related neurodevelopmental disorder,\n[07:32] first and foremost.\n[13:26] Okay.\n[13:30] As the CEO of Grin Therapeutics,\n[13:32] I think about a lot of things.\n[13:34] My day-to-day is thinking about drug development.\n[13:37] How do we run our study most effectively?\n[13:40] How do we make sure that we're accounting\n[13:41] for safety and quality?\n[13:43] How do we engage our principal investigators?\n[13:46] All of that is important on a day-to-day basis,\n[13:49] but I like to step back.\n[13:51] I like to step back and think about the lives\n[13:54] of these patients and their families.\n[13:57] I've had opportunities to sit in family meetings\n[14:01] and every single time that I do,\n[14:04] the impact that it has on me is deep and it's moving.\n[14:08] I think about the experiences of these patients\n[14:11] and their family members,\n[14:12] the constant focus that they bring\n[14:16] to caring for their loved ones\n[14:18] and the significant lift associated\n[14:20] with engaging the services they need,\n[25:00] for what we do at this company every day.\n[25:02] And, well, that's probably good enough.\n[25:09] My mind is on another topic.\n[25:17] All right, I'm gonna make it short and sweet,\n[25:18] super short and sweet.\n[25:22] What I want every parent in this community to know\n[25:25] is that we care deeply about your lived experiences.\n[25:29] We've learned a lot from you,\n[25:31] and we've put those learnings to work at Grin Therapeutics\n[25:35] to deliver a novel treatment for you and your child\n[25:39] and to make a difference in your lives.\n[25:41] That's what motivates us every single day,\n[25:44] and that's why we do this work.\n[25:47] That was it right there.\n[25:48] That was perfect.\n[25:49] Awesome.\n[25:51] Amazing.\n[25:54] All right, that was painful."
+ "transcript": "--- 20261008_C5186.MP4 ---\n[00:00.0] [Bruce Leuchter, CEO of GRIN Therapeutics. Front angle. The side angle C4896.MP4 runs 4.75 s earlier. Only his takes are listed; crew talk between takes is left out.]\n[00:16.7] Neurvati's choice to focus on GRIN,\n[00:20.7] neurodevelopmental disorder,\n[00:22.5] was born out of, first and foremost, the unmet need.\n[00:26.8] And big driver of what we do is targeting indications [do not use: cut 13277142333 uses this line]\n[00:31.2] where there's no available treatments, [do not use: cut 13277142333 uses this line]\n[00:33.1] where we can make a really big difference [do not use: cut 13277142333 uses this line]\n[00:34.4] for patients and caregivers. [do not use: cut 13277142333 uses this line]\n[00:36.8] But the layer beneath that\n[00:39.2] is the genetically defined disease.\n[00:41.4] And when we can find ourselves organizing\n[00:43.7] around a genetically defined disease,\n[00:46.4] we can convince ourselves\n[00:47.7] that we've got an opportunity to deliver outsized effect\n[00:51.3] because we're going after underlying disease biology.\n[00:55.1] So to us, when we step back and thought about\n[00:58.0] solving for the unmet need and doing it\n[01:00.2] by way of pursuing a genetically defined\n[01:03.1] neurodevelopmental disorder,\n[01:04.5] it fit perfectly with our mandate\n[01:06.8] and with how we think about drug development in general.\n[01:25.0] Our goal with GRIN therapeutics\n[01:28.6] is to do something different.\n[01:31.2] Different from what's come before us\n[01:32.8] and consistent with where I think\n[01:34.6] the broader DEE and NDD space is going.\n[01:39.3] So we came from a moment in time\n[01:41.3] at which people were aiming to treat symptoms.\n[01:43.6] These kids have rip-roaring seizures,\n[01:46.4] really high degree of morbidity\n[01:48.8] and high degree of frequency,\n[01:50.7] and treating the seizures is really important.\n[01:52.3] And there's some good medicines out there,\n[01:53.8] both approved and in development,\n[01:55.4] that stand the chance to help these patients in general,\n[01:58.8] those with DEEs and NDDs.\n[02:00.4] But if you could target underlying disease biology\n[02:04.8] and go after not just a singular symptom,\n[02:07.8] but the broad array of symptoms\n[02:09.8] that specifically GRIN NDD patients suffer from,\n[02:13.5] the value to patients and caregivers and physicians\n[02:17.2] goes up substantially.\n[02:18.8] So we think about our NR2B NAM,\n[02:22.0] which targets the GLUEN2B subunit of the NMDA receptor\n[02:25.4] as being entirely consistent with that thesis\n[02:29.2] of treating the broader disease.\n[02:31.6] We've spent a lot of time with the families\n[02:33.8] and the communities, the caregivers,\n[02:36.1] the physicians who treat them,\n[02:38.1] and what was different from us,\n[02:41.2] relative to their prior experiences,\n[02:42.9] is that we can target underlying disease,\n[02:45.6] and in doing that,\n[02:46.9] potentially deliver outsized effect for these patients,\n[02:50.6] which they desperately need.\n[02:52.2] It does not marginalize other viable treatments,\n[02:56.3] it just puts us in a position to be much more specific\n[03:00.0] with treating these patients and their underlying disease\n[03:03.1] as opposed to treating their symptoms.\n[03:43.3] We do not see at GRIN Therapeutics radiprodil [do not use: cut 13277142333 uses this line]\n[03:45.7] as a seizure medicine. [do not use: cut 13277142333 uses this line]\n[03:47.7] We see it as a medicine to treat [do not use: cut 13277142333 uses this line]\n[03:49.9] GRIN-related neurodevelopmental disorder. [do not use: cut 13277142333 uses this line]\n[03:51.5] That is critically important.\n[03:53.5] It's the organizing principle for the company.\n[03:56.1] It resonates with PIs and KOLs.\n[03:58.9] It's wanted by families, caregivers,\n[04:01.9] and of course by patients who need something\n[04:04.5] that is gonna target the underlying disease biology\n[04:07.7] and not just try to target a given symptom.\n[04:37.2] We know patients and families want a viable therapy\n[04:42.3] for their disease, and when they have a desire\n[04:44.6] to enroll in our study, they have to go through a process\n[04:48.7] that makes sure that they're the right patient\n[04:51.3] at the right time for this clinical trial.\n[04:54.8] In our case, looking at their variant specifically,\n[04:58.1] characterizing it, knowing they have a mutation\n[05:00.8] on a GRIN gene, but then using that information\n[05:03.8] to better understand what that mutation,\n[05:06.5] how that mutation should be characterized.\n[05:30.9] We know our goal is to get them in the study\n[05:35.8] as quickly as we can.\n[05:37.4] We wanna make sure that we've got the highest probability\n[05:41.5] of delivering the greatest amount of benefit to patients.\n[05:44.1] That requires variant characterization.\n[05:46.1] It's a process, and we're doing everything we can\n[05:48.6] with as many collaborators as we can\n[05:50.3] to make sure that we're delivering\n[05:52.0] variant characterization as quickly as possible.\n[06:34.8] We know parents and families\n[06:37.4] want their variants characterized.\n[06:39.4] They're diagnosed with a GRIN mutation,\n[06:41.4] and they're eager to know what the variant characterization is.\n[06:44.6] For us, that's critical,\n[06:46.1] because that enables enrollment in our study.\n[06:48.4] But it's not just us as a company who cares about that.\n[06:51.1] It's the broader ecosystem.\n[06:52.4] It's the principal investigators with whom we work.\n[06:55.1] It's the basic scientists\n[06:56.3] who are involved in characterizing these variants.\n[06:58.2] It's a community of people who want to ensure\n[07:01.2] that the right patient is enrolled in our study\n[07:03.4] to deliver maximum benefit to patients, families,\n[07:06.3] and the broader community.\n[07:28.5] [do not use: 07:28 to 08:13, the genetic medicines answer. Bruce said on camera it is not public.]\n[09:05.8] Our goal at GRIN Therapeutics is to treat patients\n[09:08.4] with GRIN-related neurodevelopmental disorder.\n[09:10.7] It is true that in the first efforts at the company,\n[09:13.6] we focused on gain of function patients\n[09:15.5] and there's all the right reasons for us to have done that.\n[09:19.5] But we don't wanna stop there.\n[09:20.6] We wanna focus on patients\n[09:21.9] who could potentially benefit from radiprodil\n[09:24.8] where the biological rationale\n[09:26.2] and the mechanistic rationale supports it.\n[09:29.3] So as we continue to do our work on a preclinical level\n[09:32.7] and plan for clinical development,\n[09:34.5] thinking about biological rationale\n[09:36.6] and mechanistic rationale,\n[09:38.4] it became clear that studying patients\n[09:40.9] with non-gain of function variants had viability.\n[10:04.8] We wanna treat as many GRIN-related\n[10:06.3] neurodevelopmental disorder patients as we can.\n[10:08.7] The organizing principle for the company\n[10:11.0] is to deliver as much benefit to this community as we can.\n[10:15.0] Our first efforts were in GRIN-related NDD\n[10:17.5] with gain of function variants.\n[10:19.3] The biological and mechanistic rationale\n[10:21.3] that we use to study this population are robust and intact.\n[10:25.9] As we've done more work, both preclinically\n[10:29.3] and translationally, we have come to the view\n[10:31.8] that we can potentially deliver more benefit\n[10:34.7] to the broader community,\n[10:35.5] patients with non-gain of function variants\n[10:37.7] who have GRIN NDD.\n[10:39.3] So our goal in initiating the 102 study\n[10:42.4] is to test that hypothesis\n[10:44.4] and to potentially put ourselves in a position\n[10:46.9] where we're not just focused\n[10:48.2] on the gain of function population,\n[10:50.0] but we're focused on the non-gain of function population\n[10:52.5] as well.\n[10:53.6] We're very eager to begin that study.\n[10:55.5] We have organized around it as a company\n[10:58.3] and we should be in a position to initiate it [do not use: date slip, never on screen or in the cut]\n[11:00.5] in the beginning of 2028. [do not use: date slip, never on screen or in the cut]\n[11:31.3] We're very eager to start the 102 study,\n[11:34.0] our study in the non-gain of function patient population.\n[11:36.7] We've been working on that now for many, many months,\n[11:39.8] thinking about the trial design,\n[11:41.6] interacting with regulators,\n[11:43.7] enlisting the support advice of principal investigators\n[11:47.2] and key opinion leaders,\n[11:48.7] all of which has brought us to a point\n[11:50.4] where we should be in a position to initiate that study\n[11:52.9] in the first half of 2028. [do not use: date slip, never on screen or in the cut]\n[12:31.0] The non-gain of function study in GRIN NDD\n[12:33.6] is really important to this company.\n[12:35.5] Not just us, it's important to families\n[12:37.6] across the GRIN community\n[12:38.7] who are waiting for a novel treatment.\n[12:41.1] We're very far down the line in a global phase three\n[12:43.8] for the gain of function population,\n[12:45.7] but for many, many months,\n[12:47.1] we've been thinking through\n[12:48.0] the non-gain of function population.\n[12:50.3] And based on the preclinical work that we've done,\n[12:53.0] the engagement of principal investigators\n[12:54.8] and key opinion leaders,\n[12:56.5] we're now in a position where we can initiate that study.\n[12:59.1] That will happen in the beginning of 2027 [do not use: date line, stays out unless Quinn or Keith confirms it in writing]\n[13:02.0] and we're very excited about being able to offer something\n[13:04.7] to patients who haven't been enabled to enroll\n[13:07.0] in the Honeycomb study and the Beeline study.\n[13:30.4] As the CEO of GRIN Therapeutics,\n[13:32.9] I think about a lot of things.\n[13:34.6] My day-to-day is thinking about drug development.\n[13:37.7] How do we run our study most effectively?\n[13:40.3] How do we make sure that we're accounting\n[13:41.7] for safety and quality?\n[13:43.6] How do we engage our principal investigators?\n[13:46.2] All of that is important on a day-to-day basis,\n[13:49.5] but I like to step back.\n[13:51.2] I like to step back and think about the lives [do not use: cut 13277142333 uses this line]\n[13:54.1] of these patients and their families. [do not use: cut 13277142333 uses this line]\n[13:57.1] I've had opportunities to sit in family meetings\n[14:01.6] and every single time that I do,\n[14:04.1] the impact that it has on me is deep and it's moving.\n[14:08.9] I think about the experiences of these patients\n[14:11.6] and their family members,\n[14:12.5] the constant focus that they bring\n[14:16.2] to caring for their loved ones\n[14:18.2] and the significant lift associated\n[14:20.9] with engaging the services they need,\n[14:22.7] engaging the doctors they need,\n[14:24.8] switching between medicines, modifying diets,\n[14:28.7] understanding how to get the assistance\n[14:30.0] from the broader community.\n[14:31.6] It is a significant burden,\n[14:33.8] but it's also a significant challenge for these parents\n[14:36.8] that I can't speak highly enough about.\n[15:29.0] As the CEO of GRIN Therapeutics,\n[15:31.5] I'm focused every day on developing radiprodil\n[15:34.9] for the GRIN NDD community.\n[15:38.6] Our focus is nonstop on quality and safety\n[15:42.1] and engaging our stakeholders, the PIs, the KOLs,\n[15:45.5] and the parents of these kids.\n[15:48.5] But what I want the community to know,\n[15:50.9] what I want each parent of a child with GRIN NDD to know\n[15:54.6] is that our mission extends beyond\n[15:58.0] the impact of radiprodil,\n[15:59.7] and it extends to how you're gonna be able\n[16:02.4] to live your lives.\n[16:03.3] What help can we provide this community?\n[16:05.9] How can we make a difference?\n[16:08.0] And it's the making a difference part of the job\n[16:11.2] that is most motivating, most energizing,\n[16:14.4] and it's what keeps us focused as a company.\n[16:17.4] So I would tell parents with GRIN NDD,\n[16:21.0] parents who are managing patients with GRIN NDD,\n[16:24.9] that we care deeply about your experience.\n[16:28.1] We're energized and motivated by you and your loved ones,\n[16:32.8] and our mission is to help,\n[16:35.4] and our goal is to be able to do that.\n[17:50.5] What I would tell any parent in this community\n[17:53.1] is that I care deeply about their lived experiences.\n[17:57.5] It's those experiences that drive us every single day.\n[18:02.0] We operate a company, but we serve patients\n[18:04.9] and we serve families.\n[18:06.6] And the motivation and energy that we get\n[18:09.9] from your lived experience translates\n[18:12.5] into everything that we do.\n[18:14.5] And we're grateful to be attached to this community.\n[18:16.6] We're grateful to serve this community.\n[18:18.8] And our goal is to continue partnering with us\n[18:21.6] and let's achieve success together.\n[18:28.3] I think our shared goal is finding a treatment\n[18:35.1] that changes the lives of patients and families.\n[18:56.1] What I would say to any parent in our community\n[18:59.0] is that we are fighting for you and your family.\n[19:02.6] We're doing it every day.\n[19:04.0] We're energized by your lived experience.\n[19:06.5] We care, we wanna make a change.\n[19:09.0] We believe we can.\n[20:27.1] What I would tell any parent in our community\n[20:29.9] is that we're energized by you.\n[20:33.2] We're energized by your lived experience.\n[20:36.2] We hear about it, it touches us, and it motivates us.\n[21:50.7] What I would tell any parent in our community\n[21:53.1] is that the work that they do every day of the week,\n[21:57.2] every week of the year, to care for their loved one,\n[22:00.4] to care for their child, energizes us and motivates us.\n[22:06.4] We're working every day of the week, every week of the month,\n[22:10.7] every month of the year.\n[24:39.4] What I want every parent in this community to know\n[24:42.2] is that we care deeply about your lived experiences.\n[24:46.4] We've learned a lot from you as a community,\n[24:49.5] and it's driven everything that we do.\n[24:52.5] So as we continue to work together\n[24:54.9] to find a novel treatment for this disease,\n[24:56.9] just recognize that you're front and center\n[25:00.0] for what we do at this company every day.\n[25:22.6] What I want every parent in this community to know [do not use: cut 13277142333 uses this take]\n[25:26.0] is that we care deeply about your lived experiences. [do not use: cut 13277142333 uses this take]\n[25:29.5] We've learned a lot from you, [do not use: cut 13277142333 uses this take]\n[25:31.9] and we've put those learnings to work at GRIN Therapeutics [do not use: cut 13277142333 uses this take]\n[25:36.0] to deliver a novel treatment for you and your child [do not use: cut 13277142333 uses this take]\n[25:39.2] and to make a difference in your lives. [do not use: cut 13277142333 uses this take]\n[25:41.6] That's what motivates us every single day, [do not use: cut 13277142333 uses this take]\n[25:44.3] and that's why we do this work. [do not use: cut 13277142333 uses this take]",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "So I would tell parents with GRIN NDD, parents who are managing patients with GRIN NDD, that we care deeply about your experience.",
+    "who": "Bruce Leuchter",
+    "file": "20261008_C5186.MP4",
+    "why": "A direct word to parents."
+   },
+   {
+    "quote": "What I would tell any parent in this community is that I care deeply about their lived experiences. It's those experiences that drive us every single day.",
+    "who": "Bruce Leuchter",
+    "file": "20261008_C5186.MP4",
+    "why": "Another take of his message to parents."
+   },
+   {
+    "quote": "What I would say to any parent in our community is that we are fighting for you and your family. We're doing it every day.",
+    "who": "Bruce Leuchter",
+    "file": "20261008_C5186.MP4",
+    "why": "We are fighting for you: strong and direct."
+   },
+   {
+    "quote": "What I would tell any parent in our community is that we're energized by you. We're energized by your lived experience. We hear about it, it touches us, and it motivates us.",
+    "who": "Bruce Leuchter",
+    "file": "20261008_C5186.MP4",
+    "why": "Another take: energized by families."
+   },
+   {
+    "quote": "What I would tell any parent in our community is that the work that they do every day of the week, every week of the year, to care for their loved one, to care for their child, energizes us and motivates us.",
+    "who": "Bruce Leuchter",
+    "file": "20261008_C5186.MP4",
+    "why": "Names the daily work of parents."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "I think about the experiences of these patients and their family members, the constant focus that they bring to caring for their loved ones",
+    "who": "Bruce Leuchter",
+    "file": "20261008_C5186.MP4",
+    "why": "He sees what families carry every day."
+   },
+   {
+    "quote": "It is a significant burden, but it's also a significant challenge for these parents that I can't speak highly enough about.",
+    "who": "Bruce Leuchter",
+    "file": "20261008_C5186.MP4",
+    "why": "Respect for the parents."
+   },
+   {
+    "quote": "And it's the making a difference part of the job that is most motivating, most energizing, and it's what keeps us focused as a company.",
+    "who": "Bruce Leuchter",
+    "file": "20261008_C5186.MP4",
+    "why": "Making a difference keeps them going."
+   },
+   {
+    "quote": "As the CEO of GRIN Therapeutics, I think about a lot of things. My day-to-day is thinking about drug development.",
+    "who": "Bruce Leuchter",
+    "file": "20261008_C5186.MP4",
+    "why": "The CEO's view, then he steps back."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "And it's the making a difference part of the job that is most motivating, most energizing, and it's what keeps us focused as a company.",
+    "who": "Bruce Leuchter",
+    "file": "20261008_C5186.MP4",
+    "why": "Making a difference keeps them going."
+   },
+   {
+    "quote": "We're energized and motivated by you and your loved ones, and our mission is to help, and our goal is to be able to do that.",
+    "who": "Bruce Leuchter",
+    "file": "20261008_C5186.MP4",
+    "why": "Energized by families, short and warm."
+   },
+   {
+    "quote": "I think our shared goal is finding a treatment that changes the lives of patients and families.",
+    "who": "Bruce Leuchter",
+    "file": "20261008_C5186.MP4",
+    "why": "A shared goal with families."
+   },
+   {
+    "quote": "We're energized by your lived experience. We care, we wanna make a change. We believe we can.",
+    "who": "Bruce Leuchter",
+    "file": "20261008_C5186.MP4",
+    "why": "Short lines of care and belief."
+   },
+   {
+    "quote": "As the CEO of GRIN Therapeutics, I'm focused every day on developing radiprodil for the GRIN NDD community.",
+    "who": "Bruce Leuchter",
+    "file": "20261008_C5186.MP4",
+    "why": "Ties the work to the GRIN NDD community."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "And we're grateful to be attached to this community. We're grateful to serve this community.",
+    "who": "Bruce Leuchter",
+    "file": "20261008_C5186.MP4",
+    "why": "Grateful to serve this community."
+   },
+   {
+    "quote": "I think our shared goal is finding a treatment that changes the lives of patients and families.",
+    "who": "Bruce Leuchter",
+    "file": "20261008_C5186.MP4",
+    "why": "A shared goal with families."
+   },
+   {
+    "quote": "We're energized by your lived experience. We care, we wanna make a change. We believe we can.",
+    "who": "Bruce Leuchter",
+    "file": "20261008_C5186.MP4",
+    "why": "Short lines of care and belief."
+   },
+   {
+    "quote": "What I would tell any parent in our community is that we're energized by you. We're energized by your lived experience. We hear about it, it touches us, and it motivates us.",
+    "who": "Bruce Leuchter",
+    "file": "20261008_C5186.MP4",
+    "why": "Another take: energized by families."
+   },
+   {
+    "quote": "What I would tell any parent in this community is that I care deeply about their lived experiences. It's those experiences that drive us every single day.",
+    "who": "Bruce Leuchter",
+    "file": "20261008_C5186.MP4",
+    "why": "Another take of his message to parents."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "What I would say to any parent in our community is that we are fighting for you and your family. We're doing it every day.",
+    "who": "Bruce Leuchter",
+    "file": "20261008_C5186.MP4",
+    "why": "We are fighting for you: strong and direct."
+   },
+   {
+    "quote": "What I would tell any parent in our community is that the work that they do every day of the week, every week of the year, to care for their loved one, to care for their child, energizes us and motivates us.",
+    "who": "Bruce Leuchter",
+    "file": "20261008_C5186.MP4",
+    "why": "Names the daily work of parents."
+   },
+   {
+    "quote": "What I would tell any parent in our community is that we're energized by you. We're energized by your lived experience. We hear about it, it touches us, and it motivates us.",
+    "who": "Bruce Leuchter",
+    "file": "20261008_C5186.MP4",
+    "why": "Another take: energized by families."
+   },
+   {
+    "quote": "We're energized and motivated by you and your loved ones, and our mission is to help, and our goal is to be able to do that.",
+    "who": "Bruce Leuchter",
+    "file": "20261008_C5186.MP4",
+    "why": "Energized by families, short and warm."
+   },
+   {
+    "quote": "I think our shared goal is finding a treatment that changes the lives of patients and families.",
+    "who": "Bruce Leuchter",
+    "file": "20261008_C5186.MP4",
+    "why": "A shared goal with families."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "WHAT A DRUG COMPANY CEO WANTS PARENTS TO KNOW",
+    "line": "What I want every parent in this community to know is that we care deeply about your lived experiences.",
+    "why": "Pays off on his first line."
+   },
+   {
+    "text": "WE SERVE FAMILIES",
+    "line": "We operate a company, but we serve patients and we serve families.",
+    "why": "Short and strong."
+   },
+   {
+    "text": "YOU ARE FRONT AND CENTER",
+    "line": "So as we continue to work together to find a novel treatment for this disease, just recognize that you're front and center for what we do at this company every day.",
+    "why": "Pays off on the button."
+   },
+   {
+    "text": "WE ARE FIGHTING FOR YOU",
+    "line": "What I would say to any parent in our community is that we are fighting for you and your family. We're doing it every day.",
+    "why": "A direct word to parents."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "CureGRIN runs clean and warm: captions on the whole time, one designed element at a time, no logo before the end card, no pity. This cut has 4 graphics from the script, 3 B-roll shots and the end card.",
+  "devices": [
+   {
+    "row": "00:00–00:05",
+    "device": "Hook text, static, then name super at 00:04",
+    "asset": "MG 1 and MG 2",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "00:05–00:16",
+    "device": "Side angle, 1 B-roll shot",
+    "asset": "C5208 0:19 to 0:21.5",
+    "source": "Drive lunch talk"
+   },
+   {
+    "row": "00:16–00:31",
+    "device": "Front angle, 1 B-roll shot, key-word top text",
+    "asset": "C5129 0:04 to 0:07; MG 3",
+    "source": "Drive morning meeting B-roll; MG library"
+   },
+   {
+    "row": "00:31–00:43",
+    "device": "Side angle with one punch in, key-word top text",
+    "asset": "MG 4",
+    "source": "MG library"
+   },
+   {
+    "row": "00:43–00:58",
+    "device": "Front angle, 1 B-roll shot, back to his face",
+    "asset": "C5224 1:22 to 1:24.5",
+    "source": "Drive lunch talk"
+   },
+   {
+    "row": "00:58–01:02",
+    "device": "End card",
+    "asset": "CureGRIN typed name on purple",
+    "source": "endcards/index.json"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "20261008_C5161.MP4",
+    "at": 19.5,
+    "dur": 3.0,
+    "cx": 0.5,
+    "path": "CureGRIN Foundation/Raw Footage/CureGRIN NYC OCT 2026/GRIN Therapeutucs Morning Meeting B Roll/20261008_C5161.MP4",
+    "drive": "1EGpm2eeaUHW7z9kLEKfqSI1jSwNd4HHQ",
+    "layout": "full",
+    "what": "Quinn talks, Keith listens, medium (shot notes)",
+    "frame": null
+   },
+   {
+    "clip": "20261008_C5145.MP4",
+    "at": 4.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "path": "CureGRIN Foundation/Raw Footage/CureGRIN NYC OCT 2026/GRIN Therapeutucs Morning Meeting B Roll/20261008_C5145.MP4",
+    "drive": "1M_rUWPfMHK5US-NI03jgQXm8kt1YyijO",
+    "layout": "full",
+    "what": "Quinn and Keith at the table, medium (shot notes)",
+    "frame": null
+   },
+   {
+    "clip": "20261008_C5208.MP4",
+    "at": 36.0,
+    "dur": 2.5,
+    "cx": 0.27,
+    "path": "CureGRIN Foundation/Raw Footage/CureGRIN NYC OCT 2026/Keith Lunch Presentation/20261008_C5208.MP4",
+    "drive": "1cgcu-DBE5b03OgwSgFH2jKZINcMpgKhi",
+    "layout": "full",
+    "what": "Keith points at the family photos on the screen, staff watching",
+    "frame": "f_k5208_36"
+   },
+   {
+    "clip": "20261008_C5135.MP4",
+    "at": 3.5,
+    "dur": 3.0,
+    "cx": 0.5,
+    "path": "CureGRIN Foundation/Raw Footage/CureGRIN NYC OCT 2026/GRIN Therapeutucs Morning Meeting B Roll/20261008_C5135.MP4",
+    "drive": "1ASYC3maXD3PJGstADC6eNV8hcaVJgXZz",
+    "layout": "full",
+    "what": "Bruce listens at the meeting table, hands clasped (shot notes)",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "CureGRIN lower third bar",
+    "kind": "lower_third",
+    "file": "CureGRIN_04_Lower-third-bar_9x16_ProRes4444.mov",
+    "url": "https://drive.google.com/file/d/1U2rrfb75-Db9mSSb6qaoCQ5LjE2INNVG/view",
+    "local": null,
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   },
+   {
+    "name": "CureGRIN underline draw",
+    "kind": "underline",
+    "file": "CureGRIN_06_Underline-draw_9x16_ProRes4444.mov",
+    "url": "https://drive.google.com/file/d/19MrhnzsZY5WDaP8-15mGeSp_yMZrwlK2/view",
+    "local": null,
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   },
+   {
+    "name": "CureGRIN topic tag",
+    "kind": "tag",
+    "file": "CureGRIN_11_Topic-tag_9x16_ProRes4444.mov",
+    "url": "https://drive.google.com/file/d/1wrrT84BZXzmKcgTeJ1m9dgecCAjgpt-s/view",
+    "local": null,
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   },
+   {
+    "name": "CureGRIN end card (typed name, the logo is still owed)",
+    "kind": "end_card",
+    "file": "endcards/index.json → curegrin (kind name)",
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
 }

@@ -8,13 +8,13 @@
  "editor": "Bleron",
  "due": "2026-11-03",
  "format": "9:16 only · 1080×1920",
- "length": "about 44 s",
+ "length": "about 40 s",
  "edit_key": "S4SDenverAyhAngelaHarrell001",
  "headline": "A Soles4Souls board member says shoes break the cycle of poverty, and that her happiness comes from giving back.",
  "story": [
   "Angela has served on the Soles4Souls board for six years. She says they break the cycle of poverty through things some of us take for granted: shoes and clothing.",
   "Asked if she is happy, she says yes. The source is the ability to give back and serve others.",
-  "1.5 million kids in the US face homelessness. New shoes let them hold their head up and blend in. Her message: kindness and care really matter."
+  "In the United States, 1.5 million kids face homelessness. New shoes let them hold their head up a little higher and blend in. Her message: kindness and care really matter."
  ],
  "feel": [
   "Warm",
@@ -23,18 +23,18 @@
   "Kind"
  ],
  "do": [
-  "Open on the board line with the hook text.",
-  "Lower third on her first appearance: Angela Harrell / President, Voya Foundation · Soles4Souls Board Member.",
-  "Trim each bite on the brief's “…”.",
+  "Open on the board line with the hook text on screen.",
+  "Name super at 00:03: Angela Harrell / President, Voya Foundation · Soles4Souls Board Member.",
+  "Cut to the box of donated sneakers on “shoes and clothing”.",
   "End on “except for kindness.”",
-  "Keep it 30 to 45 s."
+  "Keep it about 40 s."
  ],
  "dont": [
   "No logo, title card or fade at 0:00.",
   "No second aspect ratio. 9:16 only.",
   "No stock footage.",
-  "Don't use 3560 00:09–00:14 (her checking whether to say “yes, I'm happy”).",
-  "Don't reuse the “Where are my Jordans?” cut (item 13370128575 uses 3559 05:19–05:37 and 02:29–03:18)."
+  "Don't use NNM_3560 00:09 to 00:14 (she checks whether to say “yes, I'm happy”).",
+  "No B-roll of a single woman in an orange shirt: she could be mistaken for Angela."
  ],
  "links": {
   "brief": {
@@ -45,136 +45,198 @@
   "reference": {
    "missing": true,
    "title": "Not chosen yet",
-   "note": "Production Planning 13011940021 reads Requested, owner Nick. Until then, match the pace of your delivered 4EveryKid cuts."
+   "note": "Nick owes it. The Production Planning row (13011940021) has no reference. Until then, match the pace of your delivered 4EveryKid cuts."
   },
   "footage": {
    "title": "Denver 4EveryKid Oct. 2026 raw",
    "url": "https://drive.google.com/drive/folders/1hGkzhXMF_ARbQU9setK_8ol9mJ0Qzu6k",
-   "note": "CAM A (FX6) holds the interviews; the Are You Happy? files are also copied in AYH Interviews. Shot horizontal."
+   "note": "CAM A (FX6): NNM_3559.MXF (main interview) and NNM_3560.MXF (Are You Happy? answers, also in AYH Interviews). B-roll: CAM B (Gimbal) and CAM A. Shot horizontal."
   }
  },
- "bp_intro": "Two files from CAM A (FX6): <span class=\"mono\">NNM_3559.MXF</span> (main interview, 6:06) and <span class=\"mono\">NNM_3560.MXF</span> (Are You Happy? answers). Ranges are from the brief; times are mm:ss from the first frame of each file. Cut inside each range on the “…”. 3560 is matched to Angela by file order: check her face against 3559.",
+ "bp_intro": "Two files from CAM A (FX6): <span class=\"mono\">NNM_3559.MXF</span> (main interview, 6:06) and <span class=\"mono\">NNM_3560.MXF</span> (Are You Happy? answers, 2:11; a copy is in AYH Interviews). Times are mm:ss.s from the first frame of each file, from the word times in output.json (good to about 0.2 s): find exact points on the waveform. The B-roll pick comes from visual.json and still needs a look on scrub. Brand names are spelled right in the transcript below.",
  "rows": [
   {
-   "tc": "00:00–00:11",
+   "tc": "00:00–00:09",
    "beat": "HOOK",
    "kind": "hook",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Angela on camera, orange Voya shirt, poster behind. Reframe to 9:16, face centered. Start on “I've served on the board”. Jump to “They're breaking the cycle” (01:01).",
-   "motion": "Hook text on <b>frame 1</b>, top third, big: <q>Shoes break the cycle.</q> Captions from 0:00. Lower third at 00:01–00:04: “Angela Harrell” / “President, Voya Foundation · Soles4Souls Board Member”.",
+   "visual": "Angela on camera, <a href=\"https://drive.google.com/file/d/1Pq9-BxMXy4H9l6-9yANY4YdoRUfoXD3B/view\">NNM_3559.MXF</a>, from <span class=\"mono\">00:44.1</span>, reframed to 9:16, face centered, orange Voya shirt. Start on “I've served on the board”. Cut out “and so this non-profit is near and dear to my heart …” and land on “They're breaking the cycle” (<span class=\"mono\">01:01.8</span>). Punch in to 110% on that cut. On “take for granted, shoes and clothing” (<span class=\"mono\">01:06.0</span>) cut to <a href=\"https://drive.google.com/file/d/14S6cWxogrJK5F4dgLnT3526oaoifUYM4/view\">DJI_20261019092923_0002_D_B01.MP4</a> from <span class=\"mono\">00:12.5</span>, about 2 s (a box of donated sneakers, some with tags). It is a visual.json pick: check it on scrub.",
+   "motion": "Hook text on <b>frame 1</b>, top third, big: <q>Shoes break the cycle.</q> Already on screen at 0:00. It does not animate on. It goes out at 00:05. Name super at 00:03 for 3 s, lower left: <q>Angela Harrell</q> / President, Voya Foundation · Soles4Souls Board Member. Above the captions. Captions on.",
    "voice": {
-    "who": "Angela",
+    "who": "Angela Harrell",
     "quote": "I've served on the board for six years … They're breaking the cycle of poverty through the things that some of us take for granted, shoes and clothing.",
-    "src": "3559 00:40–01:09"
+    "src": "NNM_3559.MXF 00:44.0 to 00:46.0 + 01:01.8 to 01:08.2"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Warm, upbeat bed on frame 1, low."
+   "music": "Warm, upbeat bed on frame 1, low.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I've"
+    },
+    {
+     "face": true,
+     "from_word": "They're"
+    },
+    {
+     "clip": "DJI_20261019092923_0002_D_B01.MP4",
+     "at": 12.5,
+     "dur": 2.0,
+     "cx": 0.5,
+     "path": "CAM B (Gimbal)/DJI_20261019092923_0002_D_B01.MP4",
+     "drive": "14S6cWxogrJK5F4dgLnT3526oaoifUYM4",
+     "layout": "full",
+     "what": "a box of donated sneakers, some with tags"
+    }
+   ]
   },
   {
-   "tc": "00:11–00:18",
+   "tc": "00:09–00:14",
    "beat": "ARE YOU HAPPY",
    "kind": "turn",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Cut to 3560. Start on “Yes, I'm happy.” Cut the question in between.",
-   "motion": "Hook text off. Captions only.",
+   "visual": "Cut to <a href=\"https://drive.google.com/file/d/1aNxDST02Dk59rv2jQq-ZFUx38O3Ix4AC/view\">NNM_3560.MXF</a> at <span class=\"mono\">00:14.7</span>. Start on “Yes, I'm happy.” Leave out 00:09 to 00:14 (she checks what to say) and the question after her yes. Close the pause before “and to serve others” to 0.3 s. Face only: this is her answer, and her face is the strongest picture.",
+   "motion": "Top text at 00:09, 2 s: <q>Are you happy?</q> Captions on.",
    "voice": {
-    "who": "Angela",
+    "who": "Angela Harrell",
     "quote": "Yes, I'm happy. … The source of my happiness is the ability to give back and to serve others.",
-    "src": "3560 00:14–00:26"
+    "src": "NNM_3560.MXF 00:14.7 to 00:15.3 + 00:19.9 to 00:25.7"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Small lift."
+   "music": "Small lift.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Yes"
+    },
+    {
+     "face": true,
+     "from_word": "The"
+    }
+   ]
   },
   {
-   "tc": "00:18–00:31",
+   "tc": "00:14–00:25",
    "beat": "WHY SHOES",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Back to 3559. Start on “in the United States, that's 1.5 million kids.” Jump to “it allows them” (03:10). Punch in to 110% to hide the cut.",
-   "motion": "Captions only. Optional small text “1.5 million kids” on the number.",
+   "visual": "Back to <a href=\"https://drive.google.com/file/d/1Pq9-BxMXy4H9l6-9yANY4YdoRUfoXD3B/view\">NNM_3559.MXF</a> at <span class=\"mono\">02:46.6</span>. Start on “in the United States”. Cut to “it allows them” (<span class=\"mono\">03:12.2</span>). Punch in to 110% on that cut. Face only: there are no kids in this footage, and her face carries the line.",
+   "motion": "Small text at 00:15, 2 s, top third: <q>1.5 million kids</q> Captions on.",
    "voice": {
-    "who": "Angela",
-    "quote": "1.5 million kids. … it allows them to hold their head up a little bit higher and blend in because that's all you really want to do as a kid anyway.",
-    "src": "3559 02:45–03:19"
+    "who": "Angela Harrell",
+    "quote": "in the United States, that's 1.5 million kids. … it allows them to hold their head up a little bit higher and blend in because that's all you really want to do as a kid anyway.",
+    "src": "NNM_3559.MXF 02:46.6 to 02:50.6 + 03:12.2 to 03:18.8"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "in"
+    },
+    {
+     "face": true,
+     "from_word": "it"
+    }
+   ]
   },
   {
-   "tc": "00:31–00:41",
+   "tc": "00:25–00:37",
    "beat": "ONE MESSAGE",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "3560 at 100%. Start on “kindness and care”. Cut out “Really matters. And so, it's something that each one of us absolutely have the ability to give.” Hold 0.7 s after “kindness”.",
+   "visual": "<a href=\"https://drive.google.com/file/d/1aNxDST02Dk59rv2jQq-ZFUx38O3Ix4AC/view\">NNM_3560.MXF</a> from <span class=\"mono\">01:13.7</span>, back to 100%. Cut out “Really matters. And so, it's something that each one of us absolutely have the ability to give.” and land on “It's not about economics” (<span class=\"mono\">01:29.7</span>). Punch in to 110% on that cut. Hold 0.7 s after “kindness”. Face only: her message.",
    "motion": "Captions only.",
    "voice": {
-    "who": "Angela",
-    "quote": "kindness and care really matter. … It's not about economics, it's not about politics, it's not about anything except for kindness.",
-    "src": "3560 01:13–01:32"
+    "who": "Angela Harrell",
+    "quote": "If I could send one message to the entire world, it would be that kindness and care really matter. … It's not about economics, it's not about politics, it's not about anything except for kindness.",
+    "src": "NNM_3560.MXF 01:13.7 to 01:20.2 + 01:29.7 to 01:35.4"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Resolve on “kindness”."
+   "music": "Resolve on “kindness”.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "If"
+    },
+    {
+     "face": true,
+     "from_word": "It's"
+    }
+   ]
   },
   {
-   "tc": "00:41–00:44",
+   "tc": "00:37–00:40",
    "beat": "END CARD",
    "kind": "end",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "New S4S typography end card with the AYH × Soles4Souls lockup.",
-   "motion": "CTA line: <q>A new pair of shoes for a kid experiencing homelessness → soles4souls.org</q> Nothing else changes on the card.",
+   "visual": "End card: the S4S typography card (teal, white SOLES4SOULS with “Step Forward” under it). It is the client's own file in the Motion graphics tab. Use it exactly as it is, right after the last word.",
+   "motion": "No logo before this card.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Last note rings out. 1 s fade."
+   "music": "Last note rings out. 1 s fade.",
+   "shots": []
   }
  ],
- "frames": {},
  "files": [
   [
    "Editing brief",
    "<a href=\"https://docs.google.com/document/d/1aorLBCXBrg-YMBtq3AYYu_YIBefgeb9rKW_gkLRMu4M/edit\">S4S AYH Solo — Angela Harrell (Denver) — Editing Brief</a> (Google Doc). This page is built from it."
   ],
   [
+   "Production brief",
+   "None found in Drive for the Denver day."
+  ],
+  [
    "Reference",
-   "Not chosen yet. Production Planning 13011940021 reads Requested, owner Nick."
+   "Not chosen yet. Production Planning 13011940021 has no reference. Nick owes it."
   ],
   [
    "Shoot folder",
-   "<a href=\"https://drive.google.com/drive/folders/1hGkzhXMF_ARbQU9setK_8ol9mJ0Qzu6k\">Denver 4EveryKid Oct. 2026 raw</a> · Voya volunteer day, Soles4Souls Colorado Regional Distribution Center, 19 Oct 2026"
+   "<a href=\"https://drive.google.com/drive/folders/1hGkzhXMF_ARbQU9setK_8ol9mJ0Qzu6k\">Denver 4EveryKid Oct. 2026 raw</a> · Voya volunteer day at the Soles4Souls Colorado warehouse, 19 Oct 2026"
   ],
   [
    "Clip",
-   "<a href=\"https://drive.google.com/file/d/1aNxDST02Dk59rv2jQq-ZFUx38O3Ix4AC/view\">NNM_3560.MXF</a> · Are You Happy? answers · CAM A (FX6); copy in AYH Interviews · 4.0 GB"
+   "<a href=\"https://drive.google.com/file/d/1aNxDST02Dk59rv2jQq-ZFUx38O3Ix4AC/view\">NNM_3560.MXF</a> · 2:11 · Are You Happy? answers · CAM A (FX6); copy in AYH Interviews"
   ],
   [
    "Clip",
-   "<a href=\"https://drive.google.com/file/d/1Pq9-BxMXy4H9l6-9yANY4YdoRUfoXD3B/view\">NNM_3559.MXF</a> · main interview · CAM A (FX6) · 11.3 GB"
+   "<a href=\"https://drive.google.com/file/d/1Pq9-BxMXy4H9l6-9yANY4YdoRUfoXD3B/view\">NNM_3559.MXF</a> · 6:06 · main interview · CAM A (FX6)"
+  ],
+  [
+   "B-roll picks",
+   "<a href=\"https://drive.google.com/file/d/14S6cWxogrJK5F4dgLnT3526oaoifUYM4/view\">DJI_20261019092923_0002_D_B01.MP4</a> 00:12.5 to 00:14.5 (box of donated sneakers)"
   ],
   [
    "Transcript",
-   "<a href=\"https://docs.google.com/document/d/16l2bwPD_H1xQnOzcggcTlM_FluJduRwBv5ecb1bZXks/edit\">Transcripts - Denver 4EveryKid Oct. 2026</a> · per-clip docs and .srt files in CAM A (FX6) › EditingResources"
+   "<a href=\"https://drive.google.com/file/d/1VL9zJFHSSmLH2eHZGxUrTZoIwKu6mCf7/view\">output.json</a> (EditTranscripts, word times) · <a href=\"https://docs.google.com/document/d/16l2bwPD_H1xQnOzcggcTlM_FluJduRwBv5ecb1bZXks/edit\">Transcripts - Denver 4EveryKid Oct. 2026</a> · <a href=\"https://drive.google.com/file/d/1iRh67qmGhvlnFmqQ6K7kMnwQLsm1d8Zt/view\">Denver 4EveryKid Oct. 2026.srt</a>"
   ],
   [
    "visual.json",
-   "Yes: EditingResources › EditTranscripts › visual.json."
+   "<a href=\"https://drive.google.com/file/d/1ovARm756abRcLcqEZeOdwBgzkSC06R0f/view\">visual.json</a> (shot index). The B-roll picks come from it."
+  ],
+  [
+   "Brand graphics package",
+   "<a href=\"https://drive.google.com/drive/folders/1HaEuSzPDVfNxrNACiSyO0nl4Er-d9mFF\">S4S graphics package</a> (lower third bar, underline draw, topic tag and more; 9:16, alpha). Type the words on the empty plates in Roboto."
   ],
   [
    "Brand",
-   "Teal <span class=\"mono\">#62CCBF</span>, black, white. Buenos Aires for titles, Roboto for body. End card: the new S4S typography card with the AYH × Soles4Souls lockup. CTA line: <q>A new pair of shoes for a kid experiencing homelessness → soles4souls.org</q>"
+   "Teal <span class=\"mono\">#62CCBF</span>, black, white. Buenos Aires for titles (no file here: use Roboto Black), Roboto for body. Black text on teal, never white on teal. End card: the S4S typography card in the Motion graphics tab."
   ],
   [
    "Music",
@@ -184,7 +246,7 @@
  "tech": [
   [
    "Source",
-   "Sony FX6, 3840×2160, 23.976 fps, shot horizontal (16:9). Videographer: Zach Baker (Never Not Media)."
+   "Sony FX6, 3840×2160, 23.976 fps, shot horizontal (16:9). B-roll: CAM B (DJI gimbal) and CAM A, also 3840×2160, 23.976 fps. Videographer: Zach Baker (Never Not Media)."
   ],
   [
    "Timeline",
@@ -192,15 +254,19 @@
   ],
   [
    "Crop",
-   "Reframe to 9:16. A 9:16 window of UHD is 1215×2160, so up to 120% stays sharp. Keep the face in the center third."
+   "Reframe to 9:16. A 9:16 window of UHD is 1215×2160, so up to 120% stays sharp. Keep the face in the center third. B-roll crops are a downscale, so tight crops are fine. The cx numbers come from visual.json, not from frames: check each crop by eye."
   ],
   [
    "Audio",
-   "Use <b>Track 1 (lav)</b>. Track 2 is the shotgun, backup only. Listen to both on the first bite before you lock the mix."
+   "Use <b>Track 1 (lav)</b>. Track 2 is the shotgun, backup only (Zach's footage notes). Listen to both on the first bite before you lock the mix. B-roll sound stays low under the voice."
   ],
   [
    "Clean-up",
    "Warehouse room noise. Noise reduction and a level pass on every interview bite before V1."
+  ],
+  [
+   "Cuts",
+   "Soles4Souls asked on the 22 Oct call for no audio pops at cuts. Cut on a breath or a gap between words. Put a 2-frame audio crossfade on every cut inside a bite. B-roll covers most cuts; where it does not, punch in (100% to 110%)."
   ],
   [
    "Loudness",
@@ -208,7 +274,7 @@
   ],
   [
    "Captions",
-   "Burned in, US English. S4S style: black text on a teal <span class=\"mono\">#62CCBF</span> box. Never white on teal. Large, max 2 lines. Bottom 20% clear for app buttons."
+   "Burned in, US English. S4S style: black text on a teal <span class=\"mono\">#62CCBF</span> box, Roboto Bold. Never white on teal. Large, max 2 lines. Bottom 20% clear for app buttons. Ready caption clips for every bite are in the Captions tab."
   ],
   [
    "Export",
@@ -216,22 +282,431 @@
   ]
  ],
  "checklist": [
-  "Soles4Souls and 4EveryKid are spelled exactly. The transcript writes “Souls for Souls”, “Souls4Souls” and “For Every Kid”. Never caption those.",
+  "Soles4Souls and 4EveryKid are spelled exactly. Never “Souls for Souls”, “Souls4Souls”, “the SOFA” or “For Every Kid” (the machine transcript is wrong).",
   "US English in every caption.",
   "Text is big enough to read on a phone. Text size is this client's most common note.",
-  "Audio is cleaned (noise reduction, level pass) before V1.",
-  "Frame 1 is the person talking with the hook text. No logo, title card or fade at 0:00.",
-  "End card is the new S4S typography card with the AYH × Soles4Souls lockup and the CTA line from the brief.",
-  "Lower third reads “Angela Harrell / President, Voya Foundation · Soles4Souls Board Member”.",
-  "The face in 3560 is Angela (file order match, check against 3559)."
+  "No audio pop at any cut (client note, 22 Oct call). Every cut inside a bite has a short audio crossfade.",
+  "Frame 1 is the person talking with the hook text already on screen. No logo, title card or fade at 0:00.",
+  "The name super starts at 00:03, not before.",
+  "The end card is the S4S typography card from the Motion graphics tab, used exactly as it is.",
+  "Name super reads “Angela Harrell / President, Voya Foundation · Soles4Souls Board Member”.",
+  "The face in NNM_3560 is Angela (matched by file order: check against NNM_3559).",
+  "The small text reads “1.5 million kids”, the words she says."
  ],
- "decisions": [],
- "client_note": "<b>Why this matters:</b> the Are You Happy? collab posts are part of what Soles4Souls expects this fall. Sydney asked to <q>keep the notes joy themed, positive.</q> Every solo ends on the mission and the soles4souls.org ask.",
+ "decisions": [
+  {
+   "t": "End card line",
+   "b": "The editing brief asks for an AYH × Soles4Souls lockup with the line “A new pair of shoes for a kid experiencing homelessness → soles4souls.org”. The client's latest end card file (the S4S typography card, used on the other MOA cuts) shows SOLES4SOULS and “Step Forward”, with no AYH lockup and no URL line. This page uses the file as it is. Nick: if the brief's line is wanted, get the .ai from Almi and change only the bottom line."
+  },
+  {
+   "t": "Same lines as “Where Are My Jordans?”",
+   "b": "The “1.5 million kids … blend in” row uses NNM_3559 02:46 to 03:19. The later Angela cut “Where Are My Jordans?” (13370128575, due 17 Nov) uses 02:29 to 03:18 too. This solo is due first and keeps the brief's bite. Nick: change one of the two cuts. Alternates for this row are in the ↻ Different bite list."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> the Are You Happy? collab posts are part of what Soles4Souls expects this fall. Sydney asked to <q>keep the notes joy themed, positive.</q> Every solo ends on the mission and the Soles4Souls end card.",
  "ask_examples": [
   "What is the hook text?",
-  "Which part of 3560 do I cut?",
+  "Which part of NNM_3560 do I cut?",
   "Can I use the Jordans lines here?",
   "Which end card do I use?"
  ],
- "transcript": "Machine transcript (Whisper) from the shoot's transcript doc. Times are mm:ss from the first frame of each file, not camera timecode. Speaker tags are often wrong. Names are by ear. Garbage lines from silent stretches are left out.\n\n== NNM_3559.MXF (Angela Harrell) ==\n[00:00] Q: So, can you tell me your name and what you at VOYA?\n[00:08] My name is Angela Harrell and I am the Senior Vice President, Chief Purpose Talent and Inclusion\n[00:15] Officer as well as the President of VOYA Foundation.\n[00:25] So I chose to spend the morning volunteering here today with my colleagues from VOYA Financial\n[00:32] as a component of our employee volunteer sabbatical with Souls4Souls that we have every single\n[00:39] year.\n[00:40] I also happen to be on the board of Souls4Souls.\n[00:43] I've served on the board for six years and so this non-profit is near and dear to my\n[00:49] heart.\n[00:50] Q: Why is it near and dear to your heart?\n[00:53] So Souls4Souls is near and dear to my heart because they are impacting people's lives\n[00:58] in a really significant and simple way.\n[01:01] They're breaking the cycle of poverty through the things that some of us take for granted,\n[01:07] shoes and clothing.\n[01:09] And so one of the things that we are able to do is enable economic empowerment through\n[01:15] the collection of used or new shoes and clothing.\n[01:21] The thing go to entrepreneurs in other countries where they're able to resell and take care\n[01:27] of their family, their needs.\n[01:29] And so it's a small thing.\n[01:31] We're here today sorting donated shoes that have been gently used, making sure that we've\n[01:38] got pairs, that we're binding them together and we're packing them up for the next part\n[01:42] of their journey.\n[01:45] Q: And why do you think this work is so important?\n[01:52] I think this work is so important because it's providing people with an opportunity.\n[01:57] In fact, the program name is For Opportunity.\n[02:01] We're providing people with the means to take care of themselves, to empower their\n[02:06] families economically through our collection of used shoes and clothing, individuals are\n[02:14] able to resell these in low income nations and take care of their family's most pressing\n[02:20] needs.\n[02:21] Okay.\n[02:22] Q: Can you talk a little bit more about the For Every Kid since you guys are doing that tomorrow?\n[02:26] Yes.\n[02:29] For Every Kid is an amazing program where we work with schools and nonprofits across\n[02:36] the country to put a new pair of branded athletic shoes on the feet of children who are experiencing\n[02:44] homelessness.\n[02:45] And believe it or not, in the United States, that's 1.5 million kids.\n[02:52] And in doing this, it provides them with a level playing field.\n[02:56] All kids just want to be like everyone else.\n[02:59] And so a branded pair of sneakers perhaps allows them to try out for the basketball\n[03:04] team or run track or really just get to school comfortably and safely.\n[03:10] And more than anything else, it allows them to hold their head up a little bit higher\n[03:15] and blend in because that's all you really want to do as a kid anyway.\n[03:19] Awesome.\n[03:23] Q: And then how does doing this work make you feel and how do you feel after today?\n[03:29] Yeah.\n[03:31] So doing this work makes me feel such a sense of gratitude.\n[03:36] One, to be able to, through my company, volunteer.\n[03:41] Our company, Voya Financial, provides every employee with 40 hours of paid volunteer time\n[03:48] every year.\n[03:49] Community is really important.\n[03:51] Going back for me is so central to who I am as an individual.\n[03:57] Q: Why I really love this work is because I've had the ability to see everything along the\n[04:03] chain from the collection of shoes, which I do myself, throughout the year, to seeing\n[04:10] those shoes in a warehouse being sorted.\n[04:13] And then getting to our nonprofit partners outside of the United States, which I've been\n[04:18] able to do in Guatemala and Honduras and in the Dominican Republic.\n[04:23] And then seeing the individuals who actually get those shoes, being able to meet with those\n[04:28] people and understand how this is actually changing their lives and the lives of their\n[04:33] families.\n[04:35] Q: What's gorgeous is other employees of Voya being able to experience parts of this story\n[04:42] as well.\n[04:43] And so that's what really just fills my heart and gives me such gratitude that we have this\n[04:49] chance to serve.\n[04:51] And this service has such a significant impact.\n[05:03] I am so excited for tomorrow.\n[05:05] My favorite thing about Souls for Souls is distribution.\n[05:09] I love when we have kids excited about their new pair of branded shoes.\n[05:19] Sometimes we get some really tough customers who are very specific.\n[05:22] Q: They're like, where are my Jordans?\n[05:24] Q: Do you have any Nikes?\n[05:26] But in the end, everyone leaves happy.\n[05:29] Some kids want to wear their shoes right out.\n[05:31] Some kids want to put them in a box, keep them brand new and take them home to share\n[05:37] with their families just the thrill of these new pair of shoes.\n[05:42] And so that is what is so exciting, that we get that opportunity to put some smiles and\n[05:48] some pep and steps for kids at school.\n[05:54] And we really will have a chance also as employees of Voya to experience something together that\n[06:01] I think is really special and impactful.\n\n== NNM_3560.MXF (Angela Harrell) ==\n[00:03] This is the Are You Happy block.\n[00:06] Q: And so, super simple question, are you happy?\n[00:09] Yes.\n[00:11] Q: Am I supposed to say yes, I'm happy?\n[00:14] Yes.\n[00:14] Okay.\n[00:14] Yes, I'm happy.\n[00:16] Q: Okay, and then what is the source of your happiness?\n[00:19] The source of my happiness is the ability to give back\n[00:24] and to serve others.\n[00:26] And tell me a little bit more about that.\n[00:32] Q: How giving back makes me happy is,\n[00:36] oh.\n[00:36] Giving back makes me happy.\n[00:38] Q: Oh, giving back?\n[00:39] Okay.\n[00:40] Giving back makes me happy because it really provides me\n[00:44] with a chance to kinda show love and care for people.\n[00:49] Sometimes people I know, sometimes people I don't.\n[00:52] But I feel like I have been so fortunate in my life\n[00:56] and it gives me the ability to pull others\n[00:59] kind of who are in need up a step as well.\n[01:03] And so, I love the ability to give back.\n[01:07] And then if you could send one message to the entire world,\n[01:10] Q: what would that message be?\n[01:13] If I could send one message to the entire world,\n[01:17] it would be that kindness and care really matter.\n[01:22] Really matters.\n[01:23] And so, it's something that each one of us\n[01:27] absolutely have the ability to give.\n[01:29] It's not about economics, it's not about politics,\n[01:32] it's not about anything except for kindness.\n[01:36] Work of this nature allows you to put that to the test.\n[01:41] Volunteerism and service allows you to put kindness\n[01:45] and care into something significant,\n[01:48] but it can also be something small and simple,\n[01:52] like a smile, like a thank you,\n[01:55] like sharing gratitude to someone,\n[01:58] like opening the door.\n[01:59] Kindness and care is something\n[02:02] throughout the course of your day, practice it.\n[02:04] It'll make you feel incredible\n[02:06] and it'll make the people around you feel incredible too."
+ "transcript": "--- NNM_3559.MXF ---\n[00:02.6] So, can you tell me your name and what you at Voya?\n[00:08.6] My name is Angela Harrell and I am the Senior Vice President, Chief Purpose Talent and Inclusion Officer as well as the President of Voya Foundation.\n[00:25.8] So I chose to spend the morning volunteering here today with my colleagues from Voya Financial as a component of our employee volunteer sabbatical with Soles4Souls that we have every single year.\n[00:40.3] I also happen to be on the board of Soles4Souls.\n[00:44.0] I've served on the board for six years and so this non-profit is near and dear to my heart.\n[00:50.3] Why is it near and dear to your heart?\n[00:53.0] So Soles4Souls is near and dear to my heart because they are impacting people's lives in a really significant and simple way.\n[01:01.8] They're breaking the cycle of poverty through the things that some of us take for granted, shoes and clothing.\n[01:09.4] And so one of the things that we are able to do is enable economic empowerment through the collection of used or new shoes and clothing.\n[01:21.7] The thing go to entrepreneurs in other countries where they're able to resell and take care of their family, their needs.\n[01:29.7] And so it's a small thing.\n[01:31.3] We're here today sorting donated shoes that have been gently used, making sure that we've got pairs, that we're binding them together and we're packing them up for the next part of their journey.\n[01:45.8] And why do you think this work is so important?\n[01:52.4] I think this work is so important because it's providing people with an opportunity.\n[01:57.5] In fact, the program name is 4Opportunity.\n[02:01.9] We're providing people with the means to take care of themselves, to empower their families economically through our collection of used shoes and clothing, individuals are able to resell these in low income nations and take care of their family's most pressing needs.\n[02:21.5] Okay.\n[02:22.5] Can you talk a little bit more about the 4EveryKid since you guys are doing that tomorrow?\n[02:26.9] Yes.\n[02:29.0] 4EveryKid is an amazing program where we work with schools and nonprofits across the country to put a new pair of branded athletic shoes on the feet of children who are experiencing homelessness. [also in the “Where Are My Jordans?” cut]\n[02:45.9] And believe it or not, in the United States, that's 1.5 million kids. [also in the “Where Are My Jordans?” cut]\n[02:52.2] And in doing this, it provides them with a level playing field. [also in the “Where Are My Jordans?” cut]\n[02:56.9] All kids just want to be like everyone else. [also in the “Where Are My Jordans?” cut]\n[02:59.4] And so a branded pair of sneakers perhaps allows them to try out for the basketball team or run track or really just get to school comfortably and safely. [also in the “Where Are My Jordans?” cut]\n[03:10.8] And more than anything else, it allows them to hold their head up a little bit higher and blend in because that's all you really want to do as a kid anyway. [also in the “Where Are My Jordans?” cut]\n[03:19.3] Awesome.\n[03:23.7] And then how does doing this work make you feel and how do you feel after today?\n[03:29.9] Yeah.\n[03:31.6] So doing this work makes me feel such a sense of gratitude.\n[03:36.5] One, to be able to, through my company, volunteer.\n[03:49.5] Community is really important.\n[03:51.6] Going back for me is so central to who I am as an individual.\n[03:57.6] Why I really love this work is because I've had the ability to see everything along the chain from the collection of shoes, which I do myself, throughout the year, to seeing those shoes in a warehouse being sorted.\n[04:13.6] And then getting to our nonprofit partners outside of the United States, which I've been able to do in Guatemala and Honduras and in the Dominican Republic.\n[04:23.2] And then seeing the individuals who actually get those shoes, being able to meet with those people and understand how this is actually changing their lives and the lives of their families.\n[04:35.5] What's gorgeous is other employees of Voya being able to experience parts of this story as well.\n[04:43.9] And so that's what really just fills my heart and gives me such gratitude that we have this chance to serve.\n[04:51.1] And this service has such a significant impact.\n[05:03.7] I am so excited for tomorrow.\n[05:05.7] My favorite thing about Soles4Souls is distribution.\n[05:09.8] I love when we have kids excited about their new pair of branded shoes.\n[05:19.2] Sometimes we get some really tough customers who are very specific. [do not use: do not use: the “Where Are My Jordans?” cut uses this]\n[05:22.3] They're like, where are my Jordans? [do not use: do not use: the “Where Are My Jordans?” cut uses this]\n[05:24.1] Do you have any Nikes? [do not use: do not use: the “Where Are My Jordans?” cut uses this]\n[05:26.5] But in the end, everyone leaves happy. [do not use: do not use: the “Where Are My Jordans?” cut uses this]\n[05:29.3] Some kids want to wear their shoes right out. [do not use: do not use: the “Where Are My Jordans?” cut uses this]\n[05:31.8] Some kids want to put them in a box, keep them brand new and take them home to share with their families just the thrill of these new pair of shoes. [do not use: do not use: the “Where Are My Jordans?” cut uses this]\n[05:42.4] And so that is what is so exciting, that we get that opportunity to put some smiles and some pep and steps for kids at school.\n[05:54.0] And we really will have a chance also as employees of Voya to experience something together that I think is really special and impactful.\n--- NNM_3560.MXF ---\n[00:03.9] This is the Are You Happy block.\n[00:06.4] And so, super simple question, are you happy?\n[00:09.7] Yes. [do not use: she checks what to say]\n[00:11.5] Am I supposed to say yes, I'm happy? [do not use: she checks what to say]\n[00:14.0] Yes. [do not use: she checks what to say]\n[00:14.0] Okay. [do not use: she checks what to say]\n[00:14.7] Yes, I'm happy.\n[00:16.5] Okay, and then what is the source of your happiness?\n[00:19.9] The source of my happiness is the ability to give back and to serve others.\n[00:26.9] And tell me a little bit more about that.\n[00:32.7] How giving back makes me happy is, oh.\n[00:37.0] Giving back makes me happy.\n[00:38.2] Oh, giving back?\n[00:39.4] Okay.\n[00:40.9] Giving back makes me happy because it really provides me with a chance to kinda show love and care for people.\n[00:49.5] Sometimes people I know, sometimes people I don't.\n[00:52.8] But I feel like I have been so fortunate in my life and it gives me the ability to pull others kind of who are in need up a step as well.\n[01:03.5] And so, I love the ability to give back.\n[01:07.7] And then if you could send one message to the entire world, what would that message be?\n[01:13.7] If I could send one message to the entire world, it would be that kindness and care really matter.\n[01:22.6] Really matters.\n[01:23.9] And so, it's something that each one of us absolutely have the ability to give.\n[01:29.7] It's not about economics, it's not about politics, it's not about anything except for kindness.\n[01:36.4] Work of this nature allows you to put that to the test.\n[01:41.1] Volunteerism and service allows you to put kindness and care into something significant, but it can also be something small and simple, like a smile, like a thank you, like sharing gratitude to someone, like opening the door.\n[01:60.0] Kindness and care is something throughout the course of your day, practice it.\n[02:04.9] It'll make you feel incredible and it'll make the people around you feel incredible too.",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "Soles4Souls is near and dear to my heart because they are impacting people's lives in a really significant and simple way.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Why she cares."
+   },
+   {
+    "quote": "I think this work is so important because it's providing people with an opportunity.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "An opportunity."
+   },
+   {
+    "quote": "So doing this work makes me feel such a sense of gratitude.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Gratitude."
+   },
+   {
+    "quote": "And so that's what really just fills my heart and gives me such gratitude that we have this chance to serve.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Fills her heart."
+   },
+   {
+    "quote": "And this service has such a significant impact.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Short."
+   },
+   {
+    "quote": "I love when we have kids excited about their new pair of branded shoes.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Kids excited. Not in the Jordans cut."
+   },
+   {
+    "quote": "And so that is what is so exciting, that we get that opportunity to put some smiles and some pep and steps for kids at school.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Smiles for kids at school."
+   },
+   {
+    "quote": "Giving back makes me happy because it really provides me with a chance to kinda show love and care for people.",
+    "who": "Angela Harrell",
+    "file": "NNM_3560.MXF",
+    "why": "Why giving back makes her happy."
+   },
+   {
+    "quote": "And so, I love the ability to give back.",
+    "who": "Angela Harrell",
+    "file": "NNM_3560.MXF",
+    "why": "Short."
+   },
+   {
+    "quote": "Kindness and care is something throughout the course of your day, practice it.",
+    "who": "Angela Harrell",
+    "file": "NNM_3560.MXF",
+    "why": "Her message, practical."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "Soles4Souls is near and dear to my heart because they are impacting people's lives in a really significant and simple way.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Why she cares."
+   },
+   {
+    "quote": "They're breaking the cycle of poverty through the things that some of us take for granted, shoes and clothing.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Breaking the cycle."
+   },
+   {
+    "quote": "I think this work is so important because it's providing people with an opportunity.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "An opportunity."
+   },
+   {
+    "quote": "So doing this work makes me feel such a sense of gratitude.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Gratitude."
+   },
+   {
+    "quote": "And so that's what really just fills my heart and gives me such gratitude that we have this chance to serve.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Fills her heart."
+   },
+   {
+    "quote": "And this service has such a significant impact.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Short."
+   },
+   {
+    "quote": "I love when we have kids excited about their new pair of branded shoes.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Kids excited. Not in the Jordans cut."
+   },
+   {
+    "quote": "And so that is what is so exciting, that we get that opportunity to put some smiles and some pep and steps for kids at school.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Smiles for kids at school."
+   },
+   {
+    "quote": "Giving back makes me happy because it really provides me with a chance to kinda show love and care for people.",
+    "who": "Angela Harrell",
+    "file": "NNM_3560.MXF",
+    "why": "Why giving back makes her happy."
+   },
+   {
+    "quote": "And so, I love the ability to give back.",
+    "who": "Angela Harrell",
+    "file": "NNM_3560.MXF",
+    "why": "Short."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "Soles4Souls is near and dear to my heart because they are impacting people's lives in a really significant and simple way.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Why she cares."
+   },
+   {
+    "quote": "They're breaking the cycle of poverty through the things that some of us take for granted, shoes and clothing.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Breaking the cycle."
+   },
+   {
+    "quote": "I think this work is so important because it's providing people with an opportunity.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "An opportunity."
+   },
+   {
+    "quote": "So doing this work makes me feel such a sense of gratitude.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Gratitude."
+   },
+   {
+    "quote": "And so that's what really just fills my heart and gives me such gratitude that we have this chance to serve.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Fills her heart."
+   },
+   {
+    "quote": "And this service has such a significant impact.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Short."
+   },
+   {
+    "quote": "I love when we have kids excited about their new pair of branded shoes.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Kids excited. Not in the Jordans cut."
+   },
+   {
+    "quote": "And so that is what is so exciting, that we get that opportunity to put some smiles and some pep and steps for kids at school.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Smiles for kids at school."
+   },
+   {
+    "quote": "Giving back makes me happy because it really provides me with a chance to kinda show love and care for people.",
+    "who": "Angela Harrell",
+    "file": "NNM_3560.MXF",
+    "why": "Why giving back makes her happy."
+   },
+   {
+    "quote": "And so, I love the ability to give back.",
+    "who": "Angela Harrell",
+    "file": "NNM_3560.MXF",
+    "why": "Short."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "Soles4Souls is near and dear to my heart because they are impacting people's lives in a really significant and simple way.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Why she cares."
+   },
+   {
+    "quote": "They're breaking the cycle of poverty through the things that some of us take for granted, shoes and clothing.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Breaking the cycle."
+   },
+   {
+    "quote": "I think this work is so important because it's providing people with an opportunity.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "An opportunity."
+   },
+   {
+    "quote": "So doing this work makes me feel such a sense of gratitude.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Gratitude."
+   },
+   {
+    "quote": "And so that's what really just fills my heart and gives me such gratitude that we have this chance to serve.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Fills her heart."
+   },
+   {
+    "quote": "And this service has such a significant impact.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Short."
+   },
+   {
+    "quote": "I love when we have kids excited about their new pair of branded shoes.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Kids excited. Not in the Jordans cut."
+   },
+   {
+    "quote": "And so that is what is so exciting, that we get that opportunity to put some smiles and some pep and steps for kids at school.",
+    "who": "Angela Harrell",
+    "file": "NNM_3559.MXF",
+    "why": "Smiles for kids at school."
+   },
+   {
+    "quote": "Giving back makes me happy because it really provides me with a chance to kinda show love and care for people.",
+    "who": "Angela Harrell",
+    "file": "NNM_3560.MXF",
+    "why": "Why giving back makes her happy."
+   },
+   {
+    "quote": "And so, I love the ability to give back.",
+    "who": "Angela Harrell",
+    "file": "NNM_3560.MXF",
+    "why": "Short."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "Shoes break the cycle.",
+    "line": "They're breaking the cycle of poverty through the things that some of us take for granted, shoes and clothing.",
+    "why": "The plan's hook."
+   },
+   {
+    "text": "Are you happy?",
+    "line": "The source of my happiness is the ability to give back and to serve others.",
+    "why": "The Are You Happy? question and her answer."
+   },
+   {
+    "text": "Kindness and care really matter.",
+    "line": "it would be that kindness and care really matter.",
+    "why": "Her message as the hook."
+   },
+   {
+    "text": "Nothing except kindness.",
+    "line": "it's not about anything except for kindness.",
+    "why": "Short, strong button."
+   },
+   {
+    "text": "Practice it.",
+    "line": "Kindness and care is something throughout the course of your day, practice it.",
+    "why": "A clear ask to the viewer."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "S4S runs fuller: hook text on frame 1, a name super at 00:03, Are You Happy? style top text, B-roll from the warehouse day on the lines that name it, black text on teal, the client's end card. No logo before the end card.",
+  "devices": [
+   {
+    "row": "00:00–00:09",
+    "device": "Hook text, static, Name super, B-roll, 1 shot",
+    "asset": "DJI_20261019092923_0002_D_B01.MP4 00:12.5",
+    "source": "Denver raw (visual.json picks); script"
+   },
+   {
+    "row": "00:09–00:14",
+    "device": "Top text, Face, punch-in to hide cuts",
+    "asset": "Interview clip and MG library of this page",
+    "source": "Script; S4S graphics package"
+   },
+   {
+    "row": "00:14–00:25",
+    "device": "Top text, Face, punch-in to hide cuts",
+    "asset": "Interview clip and MG library of this page",
+    "source": "Script; S4S graphics package"
+   },
+   {
+    "row": "00:25–00:37",
+    "device": "Face, punch-in to hide cuts",
+    "asset": "Interview clip and MG library of this page",
+    "source": "Script; S4S graphics package"
+   },
+   {
+    "row": "00:37–00:40",
+    "device": "End card",
+    "asset": "S4S typography card",
+    "source": "endcards/s4s"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "DJI_20261019100743_0017_D_B01.MP4",
+    "path": "CAM B (Gimbal)/DJI_20261019100743_0017_D_B01.MP4",
+    "drive": "1ifPBjeqMaQDRPzSpr2MMyQ8CXhtfP_R-",
+    "at": 1.0,
+    "dur": 2.0,
+    "cx": 0.5,
+    "what": "volunteers in orange shirts and gloves sort and pack shoes at a table",
+    "frame": null
+   },
+   {
+    "clip": "NNM_3464.MXF",
+    "path": "CAM A (FX6)/NNM_3464.MXF",
+    "drive": "1A4cEWZ__rLrf7Hm_DC_iS-ueSw2x7kt3",
+    "at": 5.0,
+    "dur": 2.5,
+    "cx": 0.5,
+    "what": "a pile of sneakers in a box",
+    "frame": null
+   },
+   {
+    "clip": "NNM_3469.MXF",
+    "path": "CAM A (FX6)/NNM_3469.MXF",
+    "drive": "1yCALqxmLuCt6firl2Y9h5gbNIEWWD0cT",
+    "at": 6.0,
+    "dur": 2.5,
+    "cx": 0.5,
+    "what": "the Soles4Souls banner: Turning shoes and clothing into opportunity",
+    "frame": null
+   },
+   {
+    "clip": "DJI_20261019100503_0012_D_B01.MP4",
+    "path": "CAM B (Gimbal)/DJI_20261019100503_0012_D_B01.MP4",
+    "drive": "1Gcl_m4Q7ABpXpXvN8gcLtByiEXY6j3yc",
+    "at": 7.0,
+    "dur": 2.0,
+    "cx": 0.5,
+    "what": "Voya volunteers at a table of shoes and clothing",
+    "frame": null
+   },
+   {
+    "clip": "NNM_3490.MXF",
+    "path": "CAM A (FX6)/NNM_3490.MXF",
+    "drive": "1uuTvSyZVot_9iR7a_8w51QaOz6jKpCbA",
+    "at": 21.0,
+    "dur": 2.5,
+    "cx": 0.5,
+    "what": "a woman in an orange shirt with an “Angela” name tag holds a black bag (visual.json). If it is Angela, use it on “give back and to serve others”.",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "S4S lower third bar (empty plate, type the name in Roboto)",
+    "kind": "lower_third",
+    "file": "S4S_04_Lower-third-bar_9x16_ProRes4444.mov",
+    "url": "https://drive.google.com/file/d/1d1ZQUA47o_HirJZ4JHWA9gq6ZV8r9a6w/view",
+    "local": null,
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   },
+   {
+    "name": "S4S underline draw (under a top text line)",
+    "kind": "underline",
+    "file": "S4S_06_Underline-draw_9x16_ProRes4444.mov",
+    "url": "https://drive.google.com/file/d/1SHszODdPnkAtdj7v7mh_iEhw7gVHCE_S/view",
+    "local": null,
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   },
+   {
+    "name": "S4S typography end card (SOLES4SOULS + Step Forward)",
+    "kind": "end_card",
+    "file": "endcards/s4s/s4s-typography-end-card.mp4",
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ },
+ "frames": {}
 }

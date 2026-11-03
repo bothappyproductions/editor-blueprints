@@ -1,0 +1,68 @@
+{
+ "item": "13347156407",
+ "client": "s4s",
+ "note": "The script asks for three graphics: the hook text, the name super and the One message to the world? top text. Every other row is captions only. The last row is the client's end card.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Are you happy?"
+   },
+   "cue": "Hook text on frame 1, top third, big: “Are you happy?”",
+   "src": "Script, row 00:00–00:03, Motion graphics & type.",
+   "rows": [
+    "00:00–00:03"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third, black text on teal."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Eliana Breo"
+   },
+   "cue": "Name super at 00:03 for 3 s, lower left: “Eliana Breo” / Volunteerism & Giving, Voya",
+   "src": "Script, row 00:03–00:06, Motion graphics & type.",
+   "rows": [
+    "00:03–00:06"
+   ],
+   "use": "Put it on at 00:03 for 3 s. Move it lower left, above the captions. Type the second line “Volunteerism & Giving, Voya” under the name, or use the S4S lower third bar."
+  },
+  {
+   "n": 3,
+   "title": "Question text",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "One message to the world?"
+   },
+   "cue": "Top text at 00:31, 2 s: “One message to the world?”",
+   "src": "Script, row 00:31–00:40, Motion graphics & type.",
+   "rows": [
+    "00:31–00:40"
+   ],
+   "use": "Put it on at 00:31 and hold 2 s, in the top band. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "End card",
+   "tpl": "end_card",
+   "dur": 2.8,
+   "cue": "No logo before this card.",
+   "src": "Soles4Souls' new typography end card (S4S art director, locked 8/13), taken unchanged from the tail of the delivered Traditional_S4SBronxLuisWarehouseToCommunity001-4.mp4 (Drive, 21 Oct 2026). The .ai source is with Nick/Almi.",
+   "rows": [
+    "00:40–00:43"
+   ],
+   "use": "This is the end card, the client's own file. Put it at 00:40 right after the last word and use it exactly as it is.",
+   "file": "endcards/s4s/s4s-typography-end-card.mp4"
+  }
+ ]
+}

@@ -8,13 +8,13 @@
  "editor": "Bleron",
  "due": "2026-11-04",
  "format": "9:16 only · 1080×1920",
- "length": "about 40 s",
+ "length": "about 44 s",
  "edit_key": "S4SMOAAyhVirginiaSwitzer001",
- "headline": "The co-chair of Soles4Souls Twin Cities says her life is filled to overflowing, and that new shoes tell a kid someone cares.",
+ "headline": "The co-chair of Soles4Souls Twin Cities says her life is filled to overflowing, and that cool new shoes tell a kid someone cares.",
  "story": [
-  "Virginia co-chairs Soles4Souls Twin Cities. This was their second shoe distribution at Mall of America: 500 of the 10,000 homeless kids in the Twin Cities got new shoes.",
-  "Asked if she is happy, she says she is beyond happy. She feels called to serve, and giving her gifts makes her one happy camper.",
-  "Cool new shoes signal that someone cares. Confidence changes, kids go to school and play sports. Just a pair of shoes, but it can change the world."
+  "Virginia co-chairs the Soles4Souls Twin Cities initiative. This was their second annual shoe distribution at Mall of America: 500 of the 10,000 homeless kids in the Twin Cities got new shoes.",
+  "Asked if she is happy, she says she is beyond happy. She is called to serve, and any time she can give of her gifts, she is one happy camper.",
+  "Cool new shoes signal that someone cares. When a kid's confidence changes, they go to school and play sports. Just a pair of shoes, but it can change the world."
  ],
  "feel": [
   "Joyful",
@@ -23,19 +23,18 @@
   "Warm"
  ],
  "do": [
-  "Open on the 500-of-10,000 line with the number on screen.",
-  "Lower third on her first appearance: Virginia Switzer / Co-Chair, Soles4Souls Twin Cities.",
-  "Trim each bite on the brief's “…”.",
+  "Open on the 500-of-10,000 line with the hook text on screen.",
+  "Name super at 00:03: Virginia Switzer / Co-Chair, Soles4Souls Twin Cities.",
+  "Keep her energy. Close pauses to about 0.3 s, except the one before “to overflowing” (0.6 s).",
   "End on “it can change the world.”",
-  "Keep it 30 to 45 s."
+  "Keep it about 40 s."
  ],
  "dont": [
   "No logo, title card or fade at 0:00.",
   "No second aspect ratio. 9:16 only.",
-  "No stock footage. We have no B-roll from this station.",
-  "No “It's God” answer (3160 00:31–00:57).",
-  "Don't use “I just hit the mic, so I'm sorry about that.”",
-  "Don't reuse her partner solo's or the montage's cut."
+  "No stock footage. This shoot has no B-roll.",
+  "No “It's God” answer (030_3160 00:33 to 00:58). The brief leaves it out.",
+  "Don't use the mic bump (030_3160 00:30) or “I just hit the mic”."
  ],
  "links": {
   "brief": {
@@ -46,124 +45,168 @@
   "reference": {
    "missing": true,
    "title": "Not chosen yet",
-   "note": "Nick owes it. Production Planning for this shoot still reads Needs Reference. Until a producer picks one, match the pacing of your delivered Bronx 4EveryKid cuts."
+   "note": "Nick owes it. The Production Planning row for this shoot (13011571732) has no reference. Until a producer picks one, match the pacing of your delivered Bronx 4EveryKid cuts."
   },
   "footage": {
    "title": "MOA Interviews Sep 2026",
    "url": "https://drive.google.com/drive/folders/1WNUgGNAkmVMe3A8BU4g3TwtFRf3TTCvB",
-   "note": "S4S_MOA. 030_3157.MXF (1:09), 030_3163.MXF (1:30), 030_3160.MXF (2:42), 030_3172.MXF (1:04), 030_3167.MXF (1:46), 030_3165.MXF (0:55), 030_3155.MXF (1:45). One camera."
+   "note": "S4S_MOA › Interviews_1 › XDROOT: 030_3159.MXF (14:12, main interview) and 030_3160.MXF (2:42, Are You Happy? answers). One camera, interviews only."
   }
  },
- "bp_intro": "Two files: <span class=\"mono\">030_3159.MXF</span> (main interview, 14:12) and <span class=\"mono\">030_3160.MXF</span> (Are You Happy? answers, 2:42). Ranges are from the brief. Cut inside each range on the “…”; durations below are the trimmed lengths.",
+ "bp_intro": "Two files: <span class=\"mono\">030_3159.MXF</span> (main interview, 14:12) and <span class=\"mono\">030_3160.MXF</span> (Are You Happy? answers, 2:42). Times are mm:ss.s from the first frame of each file, from the word times in output.json (good to about 0.2 s): find exact points on the waveform. Brand names are spelled right in the transcript below.",
  "rows": [
   {
-   "tc": "00:00–00:09",
+   "tc": "00:00–00:13",
    "beat": "HOOK",
    "kind": "hook",
-   "frame": "f_3160_still",
+   "frame": null,
    "crop": "c",
-   "frame_tag": "still, 3160",
-   "frame_alt": "Virginia Switzer seated, name sticker, windows behind",
-   "visual": "Virginia on camera. Start on “our second annual”. Cut out “which is amazing and”.",
-   "motion": "Hook text on <b>frame 1</b>, top third, big: <q>500 of 10,000 kids.</q> Captions from 0:00. Lower third at 00:01–00:04: “Virginia Switzer” / “Co-Chair, Soles4Souls Twin Cities”.",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Virginia on camera, <a href=\"https://drive.google.com/file/d/1w2MjsKXc4ys0WIfL1WXtpsG-_yyN61-E/view\">030_3159.MXF</a>, from <span class=\"mono\">00:59.6</span>. Start on “our second annual”. Cut out “which is amazing. And” and land on “we are serving” (<span class=\"mono\">01:07.0</span>). Punch in to 110% on that cut. Face only: this shoot has no B-roll (interviews only), and her face carries the line. Crop center, about 105%.",
+   "motion": "Hook text on <b>frame 1</b>, top third, big: <q>500 of 10,000 kids.</q> Already on screen at 0:00. It does not animate on. It goes out at 00:05. Name super at 00:03 for 3 s, lower left: <q>Virginia Switzer</q> / Co-Chair, Soles4Souls Twin Cities. Above the captions. Captions on.",
    "voice": {
-    "who": "Virginia",
-    "quote": "our second annual shoe distribution event at the Mall of America, … we are serving 500 of the 10,000 homeless kiddos in the Twin Cities with new shoes",
-    "src": "3159 00:58–01:15"
+    "who": "Virginia Switzer",
+    "quote": "our second annual shoe distribution event at the Mall of America, … we are serving 500 of the 10,000 homeless kiddos in the Twin Cities with new shoes.",
+    "src": "030_3159.MXF 00:59.6 to 01:04.5 + 01:07.0 to 01:14.7"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Warm, upbeat bed on frame 1."
+   "music": "Warm, upbeat bed on frame 1.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "our"
+    },
+    {
+     "face": true,
+     "from_word": "we"
+    }
+   ]
   },
   {
-   "tc": "00:09–00:16",
+   "tc": "00:13–00:24",
    "beat": "ARE YOU HAPPY",
    "kind": "turn",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Cut to 3160. Cut out “Oh my goodness.” Stop on “beyond happy”. Do not use the mic bump after it.",
-   "motion": "Hook text off. Captions only.",
+   "visual": "Cut to <a href=\"https://drive.google.com/file/d/1Nw9vaoR9EbK4Mr6EmQDZ-bKq71xFWfXp/view\">030_3160.MXF</a> at <span class=\"mono\">00:07.7</span>. Cut out “Oh my goodness.” Close the 2 s pause inside “filled … to overflowing” to about 0.6 s. Out on “beyond happy”. Do not use the mic bump after it (00:30). Face only: no B-roll in this shoot.",
+   "motion": "Top text at 00:13, 2 s: <q>Are you happy?</q> Captions on.",
    "voice": {
-    "who": "Virginia",
+    "who": "Virginia Switzer",
     "quote": "Am I happy? … My life has been filled to overflowing. I am beyond happy.",
-    "src": "3160 00:07–00:21"
+    "src": "030_3160.MXF 00:07.7 to 00:08.1 + 00:09.4 to 00:21.3"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Small lift on “overflowing”."
+   "music": "Small lift on “overflowing”.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Am"
+    },
+    {
+     "face": true,
+     "from_word": "My"
+    }
+   ]
   },
   {
-   "tc": "00:16–00:23",
+   "tc": "00:24–00:30",
    "beat": "CALLED TO SERVE",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "3160, punch in to 110%. Cut out the middle (“so anytime I can put the incredible sort of… amazing gifts to give. And so for me,”).",
+   "visual": "<a href=\"https://drive.google.com/file/d/1Nw9vaoR9EbK4Mr6EmQDZ-bKq71xFWfXp/view\">030_3160.MXF</a> from <span class=\"mono\">01:06.8</span>, punch in to 110%. Start on “I'm called to serve.” Cut out “So anytime I can put the incredible sort of, you know, I think we come hardwired from the factory with amazing gifts to give. And so for me,” and land on “anytime I can give of those gifts” (<span class=\"mono\">01:20.3</span>). Back to 100% on that cut. Face only: no B-roll in this shoot.",
    "motion": "Captions only.",
    "voice": {
-    "who": "Virginia",
-    "quote": "I'm called to serve, … anytime I can give of those gifts, I am just one happy camper.",
-    "src": "3160 01:05–01:24"
+    "who": "Virginia Switzer",
+    "quote": "I'm called to serve. … anytime I can give of those gifts, I am just one happy camper.",
+    "src": "030_3160.MXF 01:06.5 to 01:07.3 + 01:20.3 to 01:24.4"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I'm"
+    },
+    {
+     "face": true,
+     "from_word": "anytime"
+    }
+   ]
   },
   {
-   "tc": "00:23–00:33",
+   "tc": "00:30–00:38",
    "beat": "WHY SHOES",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Back to 3159 at 100%. Cut out “and from those kids perspective when someone cares My confidence changes and”.",
-   "motion": "Captions only. Caption it as she means it: “Cool new shoes signal that someone cares about me.”",
+   "visual": "Back to <a href=\"https://drive.google.com/file/d/1w2MjsKXc4ys0WIfL1WXtpsG-_yyN61-E/view\">030_3159.MXF</a> at <span class=\"mono\">06:27.1</span>, 100%. Start on “cool new shoes”. Cut out “and from those kids' perspective, when someone cares, my confidence changes, and” and land on “when my confidence changes” (<span class=\"mono\">06:41.2</span>). Punch in to 110% on that cut. Out on “sports”. Face only: no B-roll in this shoot.",
+   "motion": "Captions only. Caption her words as she says them (“signals”).",
    "voice": {
-    "who": "Virginia",
-    "quote": "cool new shoes signals that someone cares about me … when my confidence changes I go to school I participate in sports",
-    "src": "3159 06:24–06:47"
+    "who": "Virginia Switzer",
+    "quote": "cool new shoes, signals that someone cares about me, … when my confidence changes, I go to school, I participate in sports,",
+    "src": "030_3159.MXF 06:27.1 to 06:31.4 + 06:41.2 to 06:45.1"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "cool"
+    },
+    {
+     "face": true,
+     "from_word": "when"
+    }
+   ]
   },
   {
-   "tc": "00:33–00:37",
+   "tc": "00:38–00:41",
    "beat": "BUTTON",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "3159, punch in to 110%. Hold 0.7 s on her face after “world”.",
+   "visual": "<a href=\"https://drive.google.com/file/d/1w2MjsKXc4ys0WIfL1WXtpsG-_yyN61-E/view\">030_3159.MXF</a> at <span class=\"mono\">09:34.0</span>, punch in to 110%. Hold 0.7 s on her face after “world”.",
    "motion": "Captions only.",
    "voice": {
-    "who": "Virginia",
-    "quote": "Just a pair of shoes, but it can change the world",
-    "src": "3159 09:34–09:39"
+    "who": "Virginia Switzer",
+    "quote": "Just a pair of shoes, but it can change the world.",
+    "src": "030_3159.MXF 09:34.0 to 09:35.8"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Resolve on “world”."
+   "music": "Resolve on “world”.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Just"
+    }
+   ]
   },
   {
-   "tc": "00:37–00:40",
+   "tc": "00:41–00:44",
    "beat": "END CARD",
    "kind": "end",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "New S4S typography end card with the AYH × Soles4Souls lockup.",
-   "motion": "CTA line: <q>A new pair of shoes for a kid experiencing homelessness → soles4souls.org</q> Nothing else changes on the card.",
+   "visual": "End card: the S4S typography card (teal, white SOLES4SOULS with “Step Forward” under it). It is the client's own file in the Motion graphics tab. Use it exactly as it is, right after the last word.",
+   "motion": "No logo before this card.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Last note rings out. 1 s fade."
+   "music": "Last note rings out. 1 s fade.",
+   "shots": []
   }
  ],
- "frames": {
-  "f_3160_still": "data:image/jpeg;base64,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"
- },
  "files": [
   [
    "Editing brief",
@@ -183,23 +226,27 @@
   ],
   [
    "Clip",
-   "<a href=\"https://drive.google.com/file/d/1Nw9vaoR9EbK4Mr6EmQDZ-bKq71xFWfXp/view\">030_3160.MXF</a> · 2:42 · Interviews_1 › XDROOT"
-  ],
-  [
-   "Clip",
    "<a href=\"https://drive.google.com/file/d/1w2MjsKXc4ys0WIfL1WXtpsG-_yyN61-E/view\">030_3159.MXF</a> · 14:12 · main interview · Interviews_1 › XDROOT"
   ],
   [
+   "Clip",
+   "<a href=\"https://drive.google.com/file/d/1Nw9vaoR9EbK4Mr6EmQDZ-bKq71xFWfXp/view\">030_3160.MXF</a> · 2:42 · Are You Happy? answers · Interviews_1 › XDROOT"
+  ],
+  [
    "Transcript",
-   "<a href=\"https://docs.google.com/document/d/1aBmcqB9BLmF7HPFP_1NYwpAWNqVHXsYraEOqPJRP4TU/edit\">S4S MOA Sept 26 2026 — Interview transcripts</a> · <a href=\"https://drive.google.com/file/d/1HrN2qf9dyb3IQUy8Z5bv0RDXHozINxbf/view\">MOA_Interviews.transcript.json</a> (word times used above). Machine transcript from Channel 2. Names are by ear."
+   "<a href=\"https://drive.google.com/file/d/19Xl4f0YkNQ5q1igyhS4qBLzurlrKEWG4/view\">output.json</a> (EditTranscripts, word times) · <a href=\"https://docs.google.com/document/d/1uKxcq4TT9U1T_9yU8FJwLLQdqcIO_IqMV0zznEKRonE/edit\">Transcripts - MOA Interviews Sep 2026</a> · <a href=\"https://drive.google.com/file/d/1xR1Q0xYIIb9usspNRsmntwsBRTq8E-Aj/view\">MOA Interviews Sep 2026.srt</a> · <a href=\"https://drive.google.com/file/d/1HrN2qf9dyb3IQUy8Z5bv0RDXHozINxbf/view\">MOA_Interviews.transcript.json</a> (Channel 2 machine transcript; used for 030_3157, 030_3166 and 030_3167, which output.json leaves out)"
   ],
   [
    "visual.json",
-   "None for this shoot. Shots in this plan come from frames of the real files."
+   "<a href=\"https://drive.google.com/file/d/1Pj4fIPaw_qUdoen4q2Gk8cFSbEBXwf0o/view\">visual.json</a> (shot index). This shoot is interviews only: no B-roll."
+  ],
+  [
+   "Brand graphics package",
+   "<a href=\"https://drive.google.com/drive/folders/1HaEuSzPDVfNxrNACiSyO0nl4Er-d9mFF\">S4S graphics package</a> (lower third bar, underline draw, topic tag and more; 9:16, alpha). Type the words on the empty plates in Roboto."
   ],
   [
    "Brand",
-   "Teal <span class=\"mono\">#62CCBF</span>, black, white. Buenos Aires for titles, Roboto for body. End card: the new S4S typography card with the AYH × Soles4Souls lockup. CTA line: <q>A new pair of shoes for a kid experiencing homelessness → soles4souls.org</q>"
+   "Teal <span class=\"mono\">#62CCBF</span>, black, white. Buenos Aires for titles (no file here: use Roboto Black), Roboto for body. Black text on teal, never white on teal. End card: the S4S typography card in the Motion graphics tab."
   ],
   [
    "Music",
@@ -209,7 +256,7 @@
  "tech": [
   [
    "Source",
-   "Sony MXF, 3840×2160 UHD, 23.98 fps, 16:9, 4 audio channels (camera operator's notes). One camera, locked off."
+   "Sony MXF from one camera, locked off, wide. 3840×2160 UHD, 23.976 fps, 16:9 (visual.json), 4 audio channels (camera operator's notes)."
   ],
   [
    "Timeline",
@@ -228,12 +275,16 @@
    "Air-conditioning hum on every Mall of America interview. Take a noise print from room tone in the same file first. Then noise reduction and a level pass. Do this before V1."
   ],
   [
+   "Cuts",
+   "Soles4Souls asked on the 22 Oct call for no audio pops at cuts. Cut on a breath or a gap between words. Put a 2-frame audio crossfade on every cut inside a bite. Hide picture jumps with a punch-in (100% to 110%)."
+  ],
+  [
    "Loudness",
    "−14 LUFS integrated, −1 dBTP peak. Music well under the voice."
   ],
   [
    "Captions",
-   "Burned in, US English. S4S style: black text on a teal <span class=\"mono\">#62CCBF</span> box. Never white on teal. Large, max 2 lines. Keep the bottom 20% clear for app buttons."
+   "Burned in, US English. S4S style: black text on a teal <span class=\"mono\">#62CCBF</span> box, Roboto Bold. Never white on teal. Large, max 2 lines. Keep the bottom 20% clear for app buttons. Ready caption clips for every bite are in the Captions tab."
   ],
   [
    "Export",
@@ -241,23 +292,491 @@
   ]
  ],
  "checklist": [
-  "Soles4Souls and 4EveryKid are spelled exactly. Never “Souls for Souls”, “the SOFA” or “For Every Kid” (the machine transcript is wrong).",
+  "Soles4Souls and 4EveryKid are spelled exactly. Never “Souls for Souls”, “Souls4Souls”, “the SOFA” or “For Every Kid” (the machine transcript is wrong).",
   "US English in every caption.",
   "Text is big enough to read on a phone. Text size is this client's most common note.",
-  "Audio is cleaned (noise print, noise reduction, level pass) before V1. Air-conditioning hum is on every MOA file.",
-  "Frame 1 is the person talking with the hook text. No logo, title card or fade at 0:00.",
-  "End card is the new S4S typography card with the AYH × Soles4Souls lockup and the CTA line from the brief.",
-  "Lower third reads “Virginia Switzer / Co-Chair, Soles4Souls Twin Cities”.",
-  "Numbers read “500” and “10,000” in captions.",
+  "No audio pop at any cut (client note, 22 Oct call). Every cut inside a bite has a short audio crossfade.",
+  "Frame 1 is the person talking with the hook text already on screen. No logo, title card or fade at 0:00.",
+  "The name super starts at 00:03, not before.",
+  "The end card is the S4S typography card from the Motion graphics tab, used exactly as it is.",
+  "Name super reads “Virginia Switzer / Co-Chair, Soles4Souls Twin Cities” (surname still to confirm, see decisions).",
+  "Captions write “500” and “10,000” as figures.",
   "No faith answer in the cut."
  ],
- "decisions": [],
- "client_note": "<b>Why this matters:</b> the Are You Happy? collab posts are part of what Soles4Souls expects this fall. Sydney asked to <q>keep the notes joy themed, positive.</q> Every solo ends on the mission and the soles4souls.org ask.",
+ "decisions": [
+  {
+   "t": "End card line",
+   "b": "The editing brief asks for an AYH × Soles4Souls lockup with the line “A new pair of shoes for a kid experiencing homelessness → soles4souls.org”. The client's latest end card file (the S4S typography card, used on the other MOA cuts) shows SOLES4SOULS and “Step Forward”, with no AYH lockup and no URL line. This page uses the file as it is. Nick: if the brief's line is wanted, get the .ai from Almi and change only the bottom line."
+  },
+  {
+   "t": "Her surname",
+   "b": "Monday and the brief say Virginia Switzer. Her name sticker shows only “Virginia S”, and the machine transcript hears her say “Virginia Schweitzer” (030_3159 00:29.9, 030_3160 02:34). Nick: confirm the spelling with Rachel before the name super ships."
+  },
+  {
+   "t": "Lines shared with her other cuts",
+   "b": "“cool new shoes, signals that someone cares about me” is also in her partner solo (13214701936, due 13 Nov), and “beyond happy” and “one happy camper” are in the AYH answers montage (13223850425). The brief chose them on purpose. Nick: if they post close together, swap in alternates from the ↻ Different bite list."
+  },
+  {
+   "t": "B-roll for a cut with none",
+   "b": "Mall of America is interviews only: the event B-roll was never shared with us, so every row stays on the face with graphics. Three checked shots from the Nashville 4EveryKid day (14 Oct) are in the B-roll pool if Nick wants pictures on the general lines. They show another event, so default is faces only."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> the Are You Happy? collab posts are part of what Soles4Souls expects this fall. Sydney asked to <q>keep the notes joy themed, positive.</q> Every solo ends on the mission and the Soles4Souls end card.",
  "ask_examples": [
   "What is the hook text?",
-  "Which part of 3160 do I skip?",
+  "Which part of 030_3160 do I skip?",
   "Where do I cut the shoes line?",
-  "Which end card do I use?"
+  "How do I spell her surname?"
  ],
- "transcript": "Machine transcript of Channel 2 (boom). Times are mm:ss from the first frame of each file, not camera timecode. Names are by ear. The interviewer is off camera.\n\n== 030_3159.MXF (Virginia Switzer) ==\n*co-chair, Soles4Souls Twin Cities initiative. Interview. Length 14:12.*\n[00:18] You're welcome. Okay, it's okay. We're good. Yes, my name is Virginia Switzer and I am one of the co-chairs of our souls for souls Twin Cities initiative and Super happy to be here.\n[00:46] So this is yep, what is the event and who is it serving? So excited this event is our second annual Shoe distribution event at the Mall of America, which is amazing and we are serving 500 of the 10,000 homeless kiddos in the Twin Cities with new shoes, so super excited\n[01:17] great feedback Smiling faces happy feet. It's amazing. So why the Mall of America we are just beyond Fortunate as part of our expansion Initiative, you know one little seed planted in one area just sprouts and causes other seeds to be planted and sprouted and So through the relationship that I had with souls\n[01:57] recruited our co-chair Kate Simic she then recruited the team at the Mall of America and they just jumped on board with both feet and So much incredible enthusiasm They are our partners in this initiative and have been supporting us Ever since we fostered that relationship and we are just so grateful\n[02:29] Yeah Did the Mall of America approach us or we approached them all of America actually we approached them all of America because we had just kind of a sideways relationship with The person who oversees all of the activities here at the mall and just had the chance to connect with them and\n[02:54] through that relationship Her name is Sarah and through the relationship with Sarah got pulled into the Mall of America and from there she just took the ball and Ran with it. She's Sarah's the director of all the activities here at the mall and she just felt so\n[03:11] Passionate about our souls cause what we're trying to do felt like it was such a great community fit Here in the Twin Cities that she said yes and has said yes to everything over and over again And we are just so grateful for that relationship and for Sarah's heart and her care for the work that we do at souls\n[03:36] Yeah Yes Yes, so once we reached out to Sarah so so When we learned that the Mall of America was coming on board with our Twin Cities initiative Through Sarah and her it's just Sarah and her heart We just knew that we were on to something very special in terms of our presence in the city and\n[04:18] Being able to have a bigger bigger outreach a bigger billboard a bigger platform To share our souls message She's been so instrumental in helping connect with the retailers here in our back to school event We do a field day here where kiddos can come and experience them all and learn about souls\n[04:41] And then of course we do this shoe distribution event So it's really been this building of the relationship the stacking of events the collaboration with Sarah On how we can spread the souls message and just the impact it makes in the community We are so lucky as Minnesotans that we have\n[04:59] this amazing facility and That through Sarah and the work that she does they have such a heart for service here I I don't know what it's like in other towns or other cities But this place cares about giving back to the community that it's rooted in and it's made all the difference\n[05:41] Yep So when I heard we were in partnership with them all of the America my heart did the happy dance Let me say that again stop when I heard we were in partnership with them all of America My heart did the happy dance because I knew it would be a platform for us to reach\n[05:59] hundreds of people with our souls message That's good a new pair of shoes changes the kids life and you know, this sounds a little Corny and I I didn't really get it until I got it shoes signal new shoes cool new shoes signals that someone cares about me and from those kids perspective\n[06:36] when someone cares My confidence changes and when my confidence changes I go to school I participate in sports my feet are healthier the impact that one single pair of shoes can make is Astounding and I think when you look at our impact stats It's almost like really just just shoes just shoes. They're a basic human need\n[07:05] They're a basic human need that is attached to having a sense of dignity and to knowing that you belong and that you fit in and that you're capable of so much more because you can move and So it's it's all of those things in so much. It's not just shoes. It's not shoes. It's\n[07:30] telling a kiddo We see you you fit we care and there's so much more you're capable of and let these shoes help provide that foundation So today here at the Mall of America is part of a much bigger story here in the Twin Cities We're going to be serving 500 kids with new pairs of shoes, which is huge\n[08:05] This last year here. We've been able to reach close to 4,700 kids with new shoes and that represents a 168 percent increase over what we were able to do last year, so we're just We're just getting started, but we're growing exponentially Our goal is to serve the 10,000 homeless kids here in the Twin Cities with new shoes year after year after year\n[08:35] So we're making incredible progress and are super excited about what this next year holds I hope people take away that We are a community that cares You're not alone You are loved you are seen and we need each other now more than ever it's such a small thing to do that makes such a big impact and\n[09:16] We're all called to serve in some way, and I hope people feel I Hope they feel the love and I hope they feel that we've given them just a small piece of happiness and confidence and possibility Just a pair of shoes, but it can change the world Is there anything else I want to say about the partnership?\n[09:52] Just say yes, raise raise your hand shoes are $20 a pair, but it's not about the money. It's about the impact of the shoes So there's so many ways to get involved. There's so many ways to help and support and We just love that people are coming in all kinds of ways\n[10:12] To this cause here in the Twin Cities, and we're almost halfway there We've got halfway to go and then we want to repeat repeat repeat, so we need you come come join us Sure Yep, I'll lean back. Yep. I wanted to be a part of this because I feel called to serve and this was such an easy. Yes\n[11:07] It's shoes. It's a basic human need it makes a world of difference to the kids receiving the shoes and It was such a it was just such a natural. Yes Is there a moment from today that stuck with me or will stick with me? It's the smiles on the kids faces Oh my gosh, they are so happy to be here. They are so\n[11:40] Excited to pick out their shoes. They love their shoes. They strut out with them and You know, you know from volunteering and from interacting With everyone here, you know for this small moment you've made a difference in someone's life, and that's everything Yeah, what do you tell somebody about who's thinking about volunteering?\n[12:32] You know what just say yes, you can give a little or a lot you can be involved as much as you want to The team at souls is so fantastic. They're so oriented toward the yes So even if you say oh my gosh, I don't have money to give give time Even if you say I don't have time to give maybe there's another way you can contribute. It's just an easy. Yes, and so\n[12:56] No, if you feel it in your heart then let your feet follow Well, if you're on the fence about Volunteering I would first want to understand why so if you're Concerned that it's going to take more time Then you can give you get to choose how much time if you are\n[13:36] Concerned that you won't know what to do like at a shoe distribution event. No worries souls as expert at Training the volunteers for a shoe distribution event in the roles that are needed and what to do If you're concerned that you know you're not going to be able to meet the expectation or whatever it is\n[13:56] Here's the great news. There is no expectation you just show up with your heart Open and your willing hands and you will find your way\n\n== 030_3160.MXF (Virginia Switzer) ==\n*\"Are You Happy?\" answers. Length 2:42.*\n[00:07] Am I happy? Oh my goodness. My life has been filled to overflowing. I am beyond happy. I can't—I don't even know the words. The answer is yes and then some. And I just hit the mic, so I'm sorry about that.\n[00:33] Yeah, yeah. I'm the source of my happiness. I hope I can say this. It's God. And yeah, it's God. You know, life is a lot sweeter with Him in the center.\n[00:56] So hopefully I can say that. If we want a non-religious answer, it would be what makes me happy. Well, I'm called to serve, so anytime I can put the incredible sort of—you know, I think we come hardwired from the factory with amazing gifts to give.\n[01:18] And so for me, anytime I can give of those gifts, I am just one happy camper. And then, you know, nature. And my husband and my puppy dog, you know, all of that.\n[01:32] Put that all together and shoes. Yep, yep. One message to the whole world keeping this in mind. You, you are more powerful than you know. You have more to give and to offer than you could ever imagine.\n[02:09] And so move in the direction that you feel called because only you can do the work that you were put here to do, only you. And like I said, each of us, I think we come hardwired from the factory with our special instructions.\n[02:29] And, you know, nobody else can do the Virginia Switzer work in the world. Virginia Switzer was called to do that. So answer your call."
+ "transcript": "--- 030_3159.MXF ---\n[00:05.1] Thank you very much. [do not use: crew set-up talk]\n[00:05.8] You're welcome. [do not use: crew set-up talk]\n[00:07.7] All right. [do not use: crew set-up talk]\n[00:08.4] First question. [do not use: crew set-up talk]\n[00:09.4] Q: Can you tell me your name and your role? [do not use: crew set-up talk]\n[00:10.3] The other thing is you're going to look right at the camera. [do not use: crew set-up talk]\n[00:15.3] It's kind of a tricky thing to do. [do not use: crew set-up talk]\n[00:16.3] It's okay. [do not use: crew set-up talk]\n[00:17.6] I'll hide back here so we're kind of having a conversation. [do not use: crew set-up talk]\n[00:19.2] We're good. [do not use: crew set-up talk]\n[00:19.3] All right, great. [do not use: crew set-up talk]\n[00:20.1] Q: So can you tell me your name and your role today? [do not use: crew set-up talk]\n[00:21.1] Yes. [do not use: crew set-up talk]\n[00:29.9] My name is Virginia Schweitzer, and I am one of the co-chairs of our Soles4Souls Twin Cities initiative, and super happy to be here.\n[00:43.4] Fantastic.\n[00:45.3] All right.\n[00:46.6] Q: So what is this event and who is it serving today?\n[00:52.0] Q: So this is, yep, what is the event and who is it serving?\n[00:57.1] So excited.\n[00:58.6] This event is our second annual shoe distribution event at the Mall of America, which is amazing.\n[01:07.0] And we are serving 500 of the 10,000 homeless kiddos in the Twin Cities with new shoes.\n[01:15.7] So super excited, great feedback, smiling faces, happy feet, it's amazing.\n[01:25.0] Q: So why the Mall of America?\n[01:33.3] We are just beyond fortunate as part of our expansion initiative.\n[01:41.4] You know, one little seed planted in one area just sprouts and causes other seeds to be planted and sprouted.\n[01:52.3] And so through the relationship that I had with Souls, recruited our co-chair Kate Simic.\n[02:00.6] She then recruited the team at the Mall of America, and they just jumped on board with both feet and so much incredible enthusiasm.\n[02:10.5] They are our partners in this initiative and have been supporting us ever since we fostered that relationship.\n[02:18.5] And we are just so grateful.\n[02:19.7] Q: Did the Mall of America approach you?\n[02:28.0] I guess I would like a little background.\n[02:29.8] Yeah.\n[02:30.9] Q: Did the Mall of America approach us or we approached the Mall of America?\n[02:35.5] Actually, we approached the Mall of America because we had just kind of a sideways relationship with the person who oversees all of the activities here at the Mall and just had the chance to connect with them.\n[02:53.9] And through that relationship, her name is Sarah, and through the relationship with Sarah, I got pulled into the Mall of America, and from there, she just took the ball and ran with it.\n[03:06.0] Sarah's the director of all the activities here at the Mall, and she just felt so passionate about our Souls cause, what we're trying to do.\n[03:16.8] Felt like it was such a great community fit here in the Twin Cities that she said yes and has said yes to everything over and over again.\n[03:26.1] We are just so grateful for that relationship and for Sarah's heart and her care for the work that we do at Souls.\n[03:33.2] Thank you.\n[03:34.6] This isn't really on the question, but I'm going to ask that same question, but from a different point of view.\n[03:36.5] Yes.\n[03:37.5] Maybe talk about Sarah.\n[03:39.4] Yes.\n[03:39.5] This time, I would like your point of view, when you learned that it was going to be at the Mall of America.\n[03:41.5] So, once we reached out to Sarah.\n[03:53.8] So, when we learned that the Mall of America was coming on board with our Twin Cities initiative through Sarah and her heart, we just knew that we were on to something very special in terms of our presence in the city and being able to have a bigger outreach, a bigger billboard, a bigger platform to share our Souls message.\n[04:27.8] She's been so instrumental in helping connect with the retailers here in our back to school event.\n[04:35.6] We do a field day here where kiddos can come and experience the Mall and learn about Souls.\n[04:41.8] And then, of course, we do this shoe distribution event.\n[04:44.0] So, it's really been this building of the relationship, the stacking of events, the collaboration with Sarah on how we can spread the Souls message and just the impact it makes in the community.\n[04:56.7] We are so lucky as Minnesotans that we have this amazing facility and that through Sarah and the work that she does, they have such a heart for service here.\n[05:09.4] I don't know what it's like in other towns or other cities, but this place cares about giving back to the community that it's rooted in and it's made all the difference.\n[05:42.4] So, when I heard we were in partnership with the Mall of America, my heart did the happy dance. [do not use: restart]\n[05:49.7] Let me say that again. [do not use: restart]\n[05:51.1] Stop. [do not use: restart]\n[05:51.1] When I heard we were in partnership with the Mall of America, my heart did the happy dance because I knew it would be a platform for us to reach hundreds of people with our Souls message. [do not use: restart]\n[06:03.1] Great.\n[06:03.8] That's excellent.\n[06:05.2] They can use any one of those three.\n[06:06.4] That's good.\n[06:06.8] Good, good.\n[06:07.8] Thank you.\n[06:09.2] Q: So, what does a new pair of shoes change for?\n[06:12.5] A new pair of shoes changes a kid's life, and you know, this sounds a little corny, and I didn't really get it until I got it.\n[06:24.5] Shoes signal new shoes, cool new shoes, signals that someone cares about me, and from those kids' perspective, when someone cares, my confidence changes, and when my confidence changes, I go to school, I participate in sports, my feet are healthier.\n[06:47.6] The impact that one single pair of shoes can make is astounding, and I think when you look at our impact stats, it's almost like really just shoes, just shoes.\n[07:03.6] They're a basic human need.\n[07:06.1] They're a basic human need that is attached to having a sense of dignity and to knowing that you belong and that you fit in and that you're capable of so much more because you can move, and so it's all of those things in so much.\n[07:26.5] It's not just shoes.\n[07:27.8] It's not shoes.\n[07:29.9] Telling a kiddo, we see you, you fit, we care, and there's so much more you're capable of, and let these shoes help provide that foundation.\n[07:54.4] So today here at the Mall of America is part of a much bigger story here in the Twin Cities.\n[08:00.1] We're going to be serving 500 kids with new pairs of shoes, which is huge.\n[08:06.0] This last year here, we've been able to reach close to 4,700 kids with new shoes, and that represents a 168% increase over what we were able to do last year.\n[08:21.4] So we're just getting started, but we're growing exponentially.\n[08:27.0] Our goal is to serve the 10,000 homeless kids here in the Twin Cities with new shoes year after year after year.\n[08:35.8] So we're making incredible progress and are super excited about what this next year holds.\n[08:52.9] I hope people take away that we are a community that cares.\n[09:00.1] You're not alone.\n[09:02.0] You are loved.\n[09:03.5] You are seen, and we need each other now more than ever.\n[09:08.8] It's such a small thing to do that makes such a big impact, and we're all called to serve in some way, and I hope people feel, I hope they feel the love, and I hope they feel that we've given them just a small piece of happiness and confidence and possibility.\n[09:34.0] Just a pair of shoes, but it can change the world.\n[09:39.8] So, you've got a lot to say about this.\n[09:42.0] I guess this is a great question.\n[09:43.4] Q: Is there anything else you want to say about it?\n[09:49.7] Q: Is there anything else I want to say about the partnership?\n[09:53.4] Just say yes.\n[09:54.6] Raise your hand.\n[09:59.7] It's about the impact of the shoes.\n[10:01.2] So there's so many ways to get involved.\n[10:03.8] There's so many ways to help and support, and we just love that people are coming in all kinds of ways to this cause here in the Twin Cities, and we're almost halfway there.\n[10:17.5] We've got halfway to go, and then we want to repeat, repeat, repeat.\n[10:21.9] So we need you.\n[10:22.6] Come, come join us.\n[10:30.9] Q: What's your question?\n[10:31.5] Sure.\n[10:32.0] All right, you're enthusiastic, and you're leaning forward, so I want to make sure...\n[10:36.9] Yep, I'll lean back, yep.\n[10:49.5] Next segment.\n[10:54.6] Q: So why did you want to be a part of this?\n[10:58.0] I wanted to be a part of this because I feel called to serve, and this was such an easy yes.\n[11:07.6] It's shoes.\n[11:08.6] It's a basic human need.\n[11:11.2] It makes a world of difference to the kids receiving the shoes, and it was just such a natural yes.\n[11:23.3] Q: So is there a moment from today that stuck with you?\n[11:29.4] Q: Is there a moment from today that stuck with me or will stick with me?\n[11:32.9] It's the smiles on the kids' faces.\n[11:35.0] Oh my gosh.\n[11:36.0] They are so happy to be here.\n[11:39.0] They are so excited to pick out their shoes.\n[11:42.3] They love their shoes.\n[11:44.0] They strut out with them, and you know from volunteering and from interacting with everyone here, you know for this small moment you've made a difference in someone's life, and that's everything.\n[12:00.5] So you actually, there's a couple questions that you've already asked.\n[12:03.2] These are great.\n[12:05.9] Q: So what do you notice on kids' faces when you find their pair?\n[12:08.6] I think you've already kind of talked about that.\n[12:10.5] Yeah.\n[12:11.1] Q: And then why do shoes matter more than people might think?\n[12:14.2] And you also very eloquently explained how they're more than just shoes.\n[12:18.6] So last question, we're going to jump to the end here.\n[12:21.9] Q: What would you tell someone thinking about volunteering?\n[12:28.8] Q: What would I tell somebody about who's thinking about volunteering?\n[12:32.5] Q: You know what?\n[12:32.9] Just say yes.\n[12:33.8] You can give a little or a lot.\n[12:35.1] You can be involved as much as you want to.\n[12:38.3] The team at Souls is so fantastic.\n[12:40.8] They're so oriented toward the yes.\n[12:47.8] Even if you say, I don't have time to give, maybe there's another way you can contribute.\n[12:51.6] It's just an easy yes.\n[12:53.8] And so I don't know, if you feel it in your heart, then let your feet follow.\n[13:01.9] Excellent.\n[13:02.8] I'm going to ask that again.\n[13:04.2] That's a wonderful answer.\n[13:11.3] So I'm a person who's on the fence about volunteering.\n[13:16.4] I don't know if I want to sell it.\n[13:18.5] Q: How would you sell it to me?\n[13:20.0] Well, if you're on the fence about volunteering, I would first want to understand why.\n[13:26.1] So if you're concerned that it's going to take more time than you can give, you get to choose how much time.\n[13:34.9] If you are concerned that you won't know what to do, like at a shoe distribution event, no worries.\n[13:43.1] Souls is expert at training the volunteers for a shoe distribution event in the roles that are needed and what to do.\n[13:51.4] If you're concerned that, you know, you're not going to be able to meet the expectation or whatever it is, here's the great news.\n[13:57.6] There is no expectation.\n[13:59.2] You just show up with your heart open and your willing hands and you will find your way.\n--- 030_3160.MXF ---\n[00:07.7] Am I happy?\n[00:08.6] Oh my goodness.\n[00:09.4] My life has been filled to overflowing.\n[00:19.1] I am beyond happy.\n[00:21.8] I can't, I don't even know the words.\n[00:28.5] The answer is yes and then some.\n[00:30.5] And I just hit the mic so sorry about that. [do not use: mic bump]\n[00:33.2] The source of my happiness? [do not use: faith answer: the brief leaves it out]\n[00:42.6] I hope I can say this. [do not use: faith answer: the brief leaves it out]\n[00:45.7] It's God. [do not use: faith answer: the brief leaves it out]\n[00:46.3] And yeah, it's God. [do not use: faith answer: the brief leaves it out]\n[00:50.9] You know, life is a lot sweeter with Him in the center. [do not use: faith answer: the brief leaves it out]\n[00:56.3] So hopefully I can say that. [do not use: faith answer: the brief leaves it out]\n[00:58.6] If we want a non-religious answer, it would be what makes me happy.\n[01:05.0] Well, called, I'm called to serve.\n[01:07.8] So anytime I can put the incredible sort of, you know, I think we come hardwired from the factory with amazing gifts to give.\n[01:18.2] And so for me, anytime I can give of those gifts, I am just one happy camper.\n[01:24.9] And then, you know, nature and my husband and my puppy dog, I, you know, all of that, put that all together and shoes.\n[01:52.7] One message to the whole world keeping this in mind.\n[01:58.9] You, you, are more powerful than you know.\n[02:02.8] You have more to give and to offer than you could ever imagine.\n[02:08.6] And so move in the direction that you feel called because only you can do the work that you were put here to do, only you.\n[02:20.7] And like I said, each of us, I think we come hardwired from the factory with our special instructions and you know, nobody else can do the Virginia Schweitzer work in the world.\n[02:34.1] Virginia Schweitzer was called to do that.\n[02:36.0] So answer your call.",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "I am beyond happy.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Short and strong. Also in the montage."
+   },
+   {
+    "quote": "The answer is yes and then some.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Her yes, with a smile."
+   },
+   {
+    "quote": "You, you, are more powerful than you know.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Her message, first line. Also in the montage."
+   },
+   {
+    "quote": "You have more to give and to offer than you could ever imagine.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Her message, second line."
+   },
+   {
+    "quote": "only you can do the work that you were put here to do, only you.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Her call to act."
+   },
+   {
+    "quote": "So answer your call.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Short button."
+   },
+   {
+    "quote": "A new pair of shoes changes a kid's life, and you know, this sounds a little corny, and I didn't really get it until I got it.",
+    "who": "Virginia Switzer",
+    "file": "030_3159.MXF",
+    "why": "Shoes change a life."
+   },
+   {
+    "quote": "They're a basic human need.",
+    "who": "Virginia Switzer",
+    "file": "030_3159.MXF",
+    "why": "Short and strong."
+   },
+   {
+    "quote": "It's not just shoes.",
+    "who": "Virginia Switzer",
+    "file": "030_3159.MXF",
+    "why": "Short and strong. Also in her partner solo."
+   },
+   {
+    "quote": "I hope people take away that we are a community that cares.",
+    "who": "Virginia Switzer",
+    "file": "030_3159.MXF",
+    "why": "A community that cares."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "The answer is yes and then some.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Her yes, with a smile."
+   },
+   {
+    "quote": "You, you, are more powerful than you know.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Her message, first line. Also in the montage."
+   },
+   {
+    "quote": "You have more to give and to offer than you could ever imagine.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Her message, second line."
+   },
+   {
+    "quote": "only you can do the work that you were put here to do, only you.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Her call to act."
+   },
+   {
+    "quote": "So answer your call.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Short button."
+   },
+   {
+    "quote": "A new pair of shoes changes a kid's life, and you know, this sounds a little corny, and I didn't really get it until I got it.",
+    "who": "Virginia Switzer",
+    "file": "030_3159.MXF",
+    "why": "Shoes change a life."
+   },
+   {
+    "quote": "They're a basic human need.",
+    "who": "Virginia Switzer",
+    "file": "030_3159.MXF",
+    "why": "Short and strong."
+   },
+   {
+    "quote": "It's not just shoes.",
+    "who": "Virginia Switzer",
+    "file": "030_3159.MXF",
+    "why": "Short and strong. Also in her partner solo."
+   },
+   {
+    "quote": "I hope people take away that we are a community that cares.",
+    "who": "Virginia Switzer",
+    "file": "030_3159.MXF",
+    "why": "A community that cares."
+   },
+   {
+    "quote": "You are seen, and we need each other now more than ever.",
+    "who": "Virginia Switzer",
+    "file": "030_3159.MXF",
+    "why": "Hopeful."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "I am beyond happy.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Short and strong. Also in the montage."
+   },
+   {
+    "quote": "The answer is yes and then some.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Her yes, with a smile."
+   },
+   {
+    "quote": "You, you, are more powerful than you know.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Her message, first line. Also in the montage."
+   },
+   {
+    "quote": "You have more to give and to offer than you could ever imagine.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Her message, second line."
+   },
+   {
+    "quote": "only you can do the work that you were put here to do, only you.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Her call to act."
+   },
+   {
+    "quote": "So answer your call.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Short button."
+   },
+   {
+    "quote": "A new pair of shoes changes a kid's life, and you know, this sounds a little corny, and I didn't really get it until I got it.",
+    "who": "Virginia Switzer",
+    "file": "030_3159.MXF",
+    "why": "Shoes change a life."
+   },
+   {
+    "quote": "They're a basic human need.",
+    "who": "Virginia Switzer",
+    "file": "030_3159.MXF",
+    "why": "Short and strong."
+   },
+   {
+    "quote": "It's not just shoes.",
+    "who": "Virginia Switzer",
+    "file": "030_3159.MXF",
+    "why": "Short and strong. Also in her partner solo."
+   },
+   {
+    "quote": "I hope people take away that we are a community that cares.",
+    "who": "Virginia Switzer",
+    "file": "030_3159.MXF",
+    "why": "A community that cares."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "I am beyond happy.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Short and strong. Also in the montage."
+   },
+   {
+    "quote": "The answer is yes and then some.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Her yes, with a smile."
+   },
+   {
+    "quote": "You, you, are more powerful than you know.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Her message, first line. Also in the montage."
+   },
+   {
+    "quote": "You have more to give and to offer than you could ever imagine.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Her message, second line."
+   },
+   {
+    "quote": "only you can do the work that you were put here to do, only you.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Her call to act."
+   },
+   {
+    "quote": "So answer your call.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Short button."
+   },
+   {
+    "quote": "A new pair of shoes changes a kid's life, and you know, this sounds a little corny, and I didn't really get it until I got it.",
+    "who": "Virginia Switzer",
+    "file": "030_3159.MXF",
+    "why": "Shoes change a life."
+   },
+   {
+    "quote": "They're a basic human need.",
+    "who": "Virginia Switzer",
+    "file": "030_3159.MXF",
+    "why": "Short and strong."
+   },
+   {
+    "quote": "It's not just shoes.",
+    "who": "Virginia Switzer",
+    "file": "030_3159.MXF",
+    "why": "Short and strong. Also in her partner solo."
+   },
+   {
+    "quote": "I hope people take away that we are a community that cares.",
+    "who": "Virginia Switzer",
+    "file": "030_3159.MXF",
+    "why": "A community that cares."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "I am beyond happy.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Short and strong. Also in the montage."
+   },
+   {
+    "quote": "The answer is yes and then some.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Her yes, with a smile."
+   },
+   {
+    "quote": "You, you, are more powerful than you know.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Her message, first line. Also in the montage."
+   },
+   {
+    "quote": "You have more to give and to offer than you could ever imagine.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Her message, second line."
+   },
+   {
+    "quote": "only you can do the work that you were put here to do, only you.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Her call to act."
+   },
+   {
+    "quote": "So answer your call.",
+    "who": "Virginia Switzer",
+    "file": "030_3160.MXF",
+    "why": "Short button."
+   },
+   {
+    "quote": "A new pair of shoes changes a kid's life, and you know, this sounds a little corny, and I didn't really get it until I got it.",
+    "who": "Virginia Switzer",
+    "file": "030_3159.MXF",
+    "why": "Shoes change a life."
+   },
+   {
+    "quote": "They're a basic human need.",
+    "who": "Virginia Switzer",
+    "file": "030_3159.MXF",
+    "why": "Short and strong."
+   },
+   {
+    "quote": "It's not just shoes.",
+    "who": "Virginia Switzer",
+    "file": "030_3159.MXF",
+    "why": "Short and strong. Also in her partner solo."
+   },
+   {
+    "quote": "I hope people take away that we are a community that cares.",
+    "who": "Virginia Switzer",
+    "file": "030_3159.MXF",
+    "why": "A community that cares."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "500 of 10,000 kids.",
+    "line": "And we are serving 500 of the 10,000 homeless kiddos in the Twin Cities with new shoes.",
+    "why": "The plan's hook: the number."
+   },
+   {
+    "text": "Are you happy?",
+    "line": "I am beyond happy.",
+    "why": "The Are You Happy? question and her big yes."
+   },
+   {
+    "text": "Just a pair of shoes.",
+    "line": "Just a pair of shoes, but it can change the world.",
+    "why": "The button as the hook."
+   },
+   {
+    "text": "It's not just shoes.",
+    "line": "It's not just shoes.",
+    "why": "Short and strong."
+   },
+   {
+    "text": "You are more powerful than you know.",
+    "line": "You, you, are more powerful than you know.",
+    "why": "Her message as the hook."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "S4S runs fuller: hook text on frame 1, a name super at 00:03, Are You Happy? style top text, black text on teal, the client's end card. No logo before the end card. This shoot has no B-roll, so every row is her face with punch-ins and graphics.",
+  "devices": [
+   {
+    "row": "00:00–00:13",
+    "device": "Hook text, static, Name super, Face, punch-in to hide cuts",
+    "asset": "MG library of this page",
+    "source": "Script; S4S graphics package"
+   },
+   {
+    "row": "00:13–00:24",
+    "device": "Top text, Face, punch-in to hide cuts",
+    "asset": "MG library of this page",
+    "source": "Script; S4S graphics package"
+   },
+   {
+    "row": "00:24–00:30",
+    "device": "Face, punch-in to hide cuts",
+    "asset": "Interview clip",
+    "source": "Script; S4S graphics package"
+   },
+   {
+    "row": "00:30–00:38",
+    "device": "Face, punch-in to hide cuts",
+    "asset": "Interview clip",
+    "source": "Script; S4S graphics package"
+   },
+   {
+    "row": "00:38–00:41",
+    "device": "Face, punch-in to hide cuts",
+    "asset": "Interview clip",
+    "source": "Script; S4S graphics package"
+   },
+   {
+    "row": "00:41–00:44",
+    "device": "End card",
+    "asset": "S4S typography card",
+    "source": "endcards/s4s"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "MVI_4364.MP4",
+    "path": "Nashville 4EveryKid Oct. 2026 raw/MVI_4364.MP4",
+    "drive": "1ho71zH9Vdbe2cnyL2FTa7NVgn1jghbBl",
+    "at": 5.5,
+    "dur": 2.0,
+    "cx": 0.5,
+    "what": "Other event (Nashville 4EveryKid, 14 Oct): a volunteer's hands slide a new black shoe onto a child's foot. Only if Nick says yes.",
+    "frame": "f_4364_6"
+   },
+   {
+    "clip": "MVI_4372.MP4",
+    "path": "Nashville 4EveryKid Oct. 2026 raw/MVI_4372.MP4",
+    "drive": "1QGiG0QtJdDulFsFDHvRkPadrgb1Badyv",
+    "at": 4.5,
+    "dur": 2.0,
+    "cx": 0.5,
+    "what": "Other event (Nashville 4EveryKid, 14 Oct): staff in white shirts high-five two girls on the red carpet. Only if Nick says yes.",
+    "frame": "f_4372_5"
+   },
+   {
+    "clip": "MVI_4349.MP4",
+    "path": "Nashville 4EveryKid Oct. 2026 raw/MVI_4349.MP4",
+    "drive": "1gmeHPcuB-lH_wufvhrr8g94fpuAlHgxq",
+    "at": 8.0,
+    "dur": 2.0,
+    "cx": 0.5,
+    "what": "Other event (Nashville 4EveryKid, 14 Oct): a small girl walks the red carpet under the balloon arch. Only if Nick says yes.",
+    "frame": "f_4349_9"
+   }
+  ],
+  "elements": [
+   {
+    "name": "S4S lower third bar (empty plate, type the name in Roboto)",
+    "kind": "lower_third",
+    "file": "S4S_04_Lower-third-bar_9x16_ProRes4444.mov",
+    "url": "https://drive.google.com/file/d/1d1ZQUA47o_HirJZ4JHWA9gq6ZV8r9a6w/view",
+    "local": null,
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   },
+   {
+    "name": "S4S underline draw (under a top text line)",
+    "kind": "underline",
+    "file": "S4S_06_Underline-draw_9x16_ProRes4444.mov",
+    "url": "https://drive.google.com/file/d/1SHszODdPnkAtdj7v7mh_iEhw7gVHCE_S/view",
+    "local": null,
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   },
+   {
+    "name": "S4S typography end card (SOLES4SOULS + Step Forward)",
+    "kind": "end_card",
+    "file": "endcards/s4s/s4s-typography-end-card.mp4",
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ },
+ "frames": {
+  "f_4364_6": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD//gARTGF2YzU4LjEzNC4xMDAA/9sAQwAJBgcIBwYJCAcICgoJCw0WDw0MDA0bFBUQFiAdIiIgHR8fJCg0LCQmMScfHy09LTE1Nzo6OiMrP0Q/OEM0OTo3/9sAQwEKCgoNDA0aDw8aNyUfJTc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3/8AAEQgAkgEEAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8AyoII7YpEq4UdOa0FUZqpeFQFZeuafLexW9v5jkk44AqdmbHnPiaHZr11HGCzM+QF5JzVSDS7yZtohKe7cV1jXSS3ktxDEVd+rLwzfj2FSRWWoXtrvgKW7bgDGeeM889+Kbl0KhRlPY6DQb+w03TLazLMpjX5mKHGe9cJ4ztFGtT3VmDJbzfPuUcA9wa3tUsoW1QRW7ukUSBWIc/O/fvTmsHWMsjnIHKg7gfzqOez1Fycy0PP1r3fQ5Un0ezkjOVaFcflXj2tWHlyCeJdqucMoGBn1rstB8Qw6V4ZtonJe4XICZ6DPFXdMiKsd4RTSBivM7rxNf3Mm7zTEvZVNWdL8U3ds2J381Cec9aVy7Hb3TRQxvJKQqqMkmvPtY8Rz3crRWh8mFTjcv3m/HtVzxf4iW9sY4LXdsf5pT/SuNE2QdtBLLUt07ffYkepNQw3n2e48yEDcD0xwKiaUlcMOPeoA3zYdOKAudFYXcN5Pm4gQyPwG21naxJtu5IxwE4AqOzkkimRl/hPWp7m0+23E8/nqgLfIuD83FTdJ6lpOSstzM83PBP6UMw52n6imCOQy+WFLOOwFbNvowmjDSs0RPUAU5SSJjTlPZGXDuDqEPOfSu91q0upFt3QFtsQD+ua5e008Wl+k0zq0MR3H1rrru8LrlG+Ujg1lUn0R0UaTTuyppaubiND1LdKq6/ITeOBxjArc8OW2Ypr2QcnKp9O9cxqUhnvJCepYmunCxsrmGKld2IRb+dZTSNwIwDn8an8PaqdK1OOdiTE3yyL6qa1YLEL4TupyOX6fQVypJ6fjV1HzX8jGOh7MWWWNZYzuRwCpHcVHuI61zPw/wBaFzC2lT/fiUvA3+z3H4V1Ui4PNZGxGefpXD+ObaOK1kCMgMhDBN3OQfSr3i/xT/Zh+w2RzdEfO/aP/wCvXnU1w80jSys0kjHLMxyTScbiU7aD7KaezuIriEYeNsiu7fVYZ5o7uxkDSKAZFB7dwRXn5m9adBcvC++Jyp6cd6ozWh6Y0sVwFmgIOR8wzzSvYRS/vtp3DuvG70zXCWuuy2y7QFbngntWlD4gvZU2iVVUj+EVLlymkYueiNvUL2G2mWKQNuCLnbjFFcvrFyZb0uMnKLn64oo5kXyHWs+6McVlajOXUJ5mQWwQD0qpBe3ttgyozx+/+NMuJfNbepJTOR/Wk9VoT11LlmywSiNSCCec/wA60pAdisjbGzwVOM1jxOoDGTnA7VNpzuxKSnKNjbnsaxlfc6FZaGg7h4iQ4LKfmXHT6UxLj7OsUTfMr9D3FMuIFhVplkK4HNVHkAwQM/KTUp8w9lYqa9dqM23yHvn0rGMo7EmmXZaa4dyeCaaowMKCfrW8VZHPJ3ZKHJ60ocggr1pihj2pfLcdqARcSVZkMTAZxxWVPBsk+U4FWlDI6sAeDU1/GpBlRcAjoaEwkroyvM/hI49aYXI6cg1MwI+8nHtUOPSrMnoWoW+cA9c5FbenqvkyRSxhtmCOOmay9OhDfO+MDpzWnvMQ3RPuO3GOoNQ4Od0jopyUGmX7SCBLoyhAHcAGpbq3vmcLC6PEeSwONn1rDTUTE+HBX61oRaoGjKnJU8YU1g4STOuM4SWjItctJLWyjkafzPMOKuaGkuqi3tYupGGY9FA6msm/d9Q2/ZwzgOFRclixrt/DGgX2jWcovhH5k20hFOSgGep/GteT3dTkdX320bVxbJZ2LQROqlU2qBXFQaFfXs8pwqEdC3euivIpTnIII6HJqTSHkSVvNk3DHSqhUnF2JlGLVxIdIlTQW0+SYF3HLelcrfeHzaIxa5jLY4FdtqkcdxArmR0291Nc1PaJLIC0jOAe5pynPZCiodTnvD12ml6tBezMRFGxD7Rk7SK6rUfiBpqw/wDEvjkuJ2/hdSir7k/4Vxur2/2a5miA+Unj+dYygqXXGDjpTiZvTYfd3Ul3dS3E7ZkkYsx9zUW4VHn14rXOlxPZNNBckzIoZ42XGfoe9NySEouWxmEj0JpjSY9qcwZTz0pjgHpTJsBO8feFWLeV0kADcAVT2mtewsbdrdZZZW3Hqoo5ebQcW1qXo75dg34J+lFNFlaY6yfiwoqPqz7nR9ZXY6SzlEyFWIOOMY61l6lb/ZmLRY8tm+76GpmwsDlflcHIxU8cY1C2aN+JMdfesFeLNJJPTqZkUhMbL14+X1qeO4ERXnzBjkYxtrPBaJiCDuQ4I9q0IbR5ESXGC2eAe1XdIhNtFvz2kJhYhkI5z3BqBoD5UkOTwCQT2plzKto3zqBs+6M5qgmpSSTHH3TwaVl0NI8vMucZZaPc3as8QUqp/ibGfpVeWKSNmjYcqcEV0VkJIrAGIbmyc8dBUV7p0lxGJlwH7+9JT1HKiuW6MKNSv3vlHpUojeRsDNX49InxkrV+z09oiWcZNDmghSb3M2GxkaPjOfYVNHYFUIn5HWtgMsRI4rP1ifbbNsHzHgYqFNtmsqcVG5l6ilusJVR82Mg1i26b5gADjmtCRLiRlVcu7DGPem2kbQ3RSdGVl4weCK2TsjmlFNo2razt7fTS8i72cYU46Gs2SN1XKj8UP8xVia5EgWNGwq9icUsRXozKfbIralFqOpFZpysigCHYLIMqxweOhpLi1kiRgpI+nGRV28gDx70+8COnpSytG8SqGcyn2/OrlbqYOVibQ7n+z57CfH+qdXJ9RnkflXrdyFfkdxnNeQ3Y2ErgL8uBivT9En+16LZT5yWiAP1HFQ9h09B11bq0BzmsJ4ChOGOK6CfOwjNcvrtzc20GbWPdlsM2cbR61BprsacgH2EJurP8g5GOtYDarqDwOG34UZOGycfkP0rY0q7N1bq7Z3A4NA3Gxm+LLQDypQDymDx3B/wNctboguZEkxk9z2rv9fTzdOPHKn9DxXDvYXkKrdzR/uZF4cdCaqO5mwudHRmQ2pz2atK+tI7GzDkkny9q88sTS6a6i1U553HNPu7q1ZgZyXZeABWD5r2Z3RUIx5u5kwad51pl/lPrVCTT3RiCML6mtabUv+eMapjv3qjNcPMcuSTWkYyOWpKn0GolnEhVlaVu5AwKYHZRhOB6ZpN3tTSK1jpsYt3FLEnLZJ9qKTHvRV8zJsdGxJV1c5PYipbecxlSRtZh8voRVOQNHckqSYnPHtSsh3/IdwHv92uPR7nW5tsjviPtsjgcMc1oQSYgTY33OoPeqlzDu6H5h296ZaxyS/u06vwRTcb6BFtMoapM88+Oam0XTbm9nXZGwhB+Z8cV1+haPbwKX2pNcd3YcD2FXbiZrYFEQKndQMAfSt/q8nD3dy1HW7KVsiW0/ktnymXkjqDV2GOPYMLx71lS3yrJvFX7a5WVQQ3BrilFp6o6SZ12r8oFY97eGFyshC+hrbLLjrWXqVvBK6tJgkngUlvqGvQyPtMzuTjenrWxp8lo4jsLiNJPtPLS9427AVBqMSw2gACjPYVkRT+W4OfusCPaqiz0MPhY1KTlLcXULKe1uZLeUYKNjOMEjsai1lWaJbzhmfCSZ6hsf1rr9Slh1PTIrxWiyGA24y0jdwKoX+jyDwze3LRYKkOiHqoHetE7Ssc+IVOeH5rWkjjbZ1kAUnBHT3q7ZxGSZY1AyT+FZSZRAw6g8YFJBeT20xlBZg/DCulyajoeLFq65jvYtFt2t8Pc/OR/COBUEfhi2Bz/AGlID7KAKxI9VAjBExbjkE9KadVkPKsQK5HKq+p3clB9DojoEBbM+oGTjGSn/wBetvSru20nT47MT+YiE4LdeTXn7anMekhNC3MrOPPl8pT0ZhRap3FahHZHotnqolmkM8qMhPyIo5Ue/rWZrNzqMTyS2komswMhYwN6eoIrBj+0qM2rJcjHDRuNw/Cqeo3l3ao8k4aKcfxK4yfqKEpp6glBQtFk51+2uGEf2Xyc5+bPH41d8OXXn3c0KqflG4Htj0rnbJ9P1SQ/2i0kN23SVGAV/qO1aUGiPaOstveSnLD5RwT+Irp6HFc7G7iMtnKhHVTXNq0U+gz2csgR0Y7M/mKta3rAhBghf5sYJrl3ly+c9am47D47S4eMRqwC+marXFjdQ5JUkexq/Bd7AQBmpUvzn5xxS55FciaOfZiOGBB96b5pHGK6W4tba8jJAAb1FYN7YSWxz95fWqU7mcoNEAbPSlBqHcacGqyCXNFR5opgdEzqYRu654qa1jEUjLICQy7gT2qgu6aMBW4B5xWhHOpUDqw4ya5ZLsdisnYSQoboMuANuSK1vDVtE93NORuiT5V965+4kw7iPgYA5rqNDC22nxRHh2GTW9CN5aivdm7u2J8u1V/ugVl31wjBk43DoCcZqaeV8gKOaozwwT4FwuCDwfeuyabWhqpWWplalaOEWWLLBhzjsazbW+uLWUqVYrnp6V07kRxeXtBSsZbRXm3IQy56+tTKHMtUJSbJRqErrwcH3NJGk0lwgmYsCcgGpJLIbg4T5gR0q/5Be6jUfKwGRzWMMPFK8h+0urmRr0fkXa7GJjYZAz0NY7yEvjNbviKB1iVyPuPg/jWAExyxFctSChKyPbwtVzoxsdD4Ue4lvXhtZI/tJiPk+Z0HPOPfFdtrr/Z9DvIW+Zvszb+O+K858PM667ZyQ5PlvuY+i969Au1GoWckTn5Z8q+DyBRA87Gq9XQ8cjY+YeSFxzzTJAp6NhfWus1vwoNMtnu7WVpIx99WwCo9feseC0UxmScqqgd+9brY8d7le109SiSSHG45GT2qdTErnahnHdQMAU63ja8byhlYh1PTitmK3t4IwoQYHrSsBjy3RMe2O1dR6rg1RuJvPdFZ2zjHz9q6kQwyrgIAD36VUn8JXV0Wmt2ODyA9S2ktSowlLbUwGtpFlVIG3yE8GM5/WtKzgWDzv7WtxKAcEuSSpqtc2l3pEipdo8ZJ4bAKn8agmuZGG4FSD12nr+FZu8kacvLqa62egeesoeYKOdmcg1o3V8kY/ddhkD0rAsiSgkMu0g8xE4z/AI1ZuJB0AAzzTjdaXuK19bEMjNLIWJ68mg7DTHOBxUJPNUIsxlA2M0pZQ3WqwbmkZ+aAuaEFwIjkE4q1KySJzyp61jCSrUUpZB7VLRSaZUv7Ly8yRcp7VnjrW55nVW5B7VmXkAjfcvKnpWkZGU4kFFNoqzM3VIVcIQcDn1pEYhQST0wSKhUFizdD1pyYnGc4weeaxehsm20iQso2k9uua7Y2uYLOSNiOAWPtXDXzxhYgrAnIzj0ro31G5vPIgtwyRqoH6V0UY8xrHext/aWTBMZI9QOlU70vLH5gKOnVkPWmiZ7YLDGxlnf1PAqa4s9QQbmaMD/drrcknYFJJ6nOSX0tyohAbGce+K27SFbdEglUbSMhs9Kz9TkeKe33qme+0YrVuIlmtY3WTdIF5wajY2SsRzII7gRpLuXrxTp5BHdQu5wuw4+tVbSCSMySRg7z1B5zWmoW5t8PGNwNQ1KcWnoN6WItQiGoafKirzsz9WHSuIAcnaFO7OMAc138B8lgoIXB61z1/AsGouWGxtxZTjOc+lc+JgopNHfgG5XgvU0tB0jyYl8wgSSDc5PX6VrT3sWnWxYgPtbaAD1rLsZreRl+1XEqkckDqK0Z1t7m38m3iBV8ZaXnj2HrXOpJIynSl7Re0WhPeXFrd6PM7yKsciFeeoJ7Yrzlll3eXLlgPlwP4jW/Nam1maDJIBzknORVS6tHVA+1lz0NaxloefiKcYzfJsRwlIY9xAiH+0arfaDcXGIyWA6D196iTTZb24WISybiflXGRT3sbvTmZVjUqPvMPvfrVcy2MFFmgLlYZoIXI+Zs/hXRQ6vsZSMFfavOruWWWRXUEMOuetaml3zMgWRSrDsawqq+p14acV7p2mpLDqlo0MihlYd+1eYajYS6feyW8pIKn5T/AHh2Nd9p7Ox4aofEejjULdZQv72PpjqR6VFOfK7F16XOro5DTkDON7EhR61PK+5ifepHsUtkVkkJLDoe1Umfa2DWy11OZ6KxKzZFQscGgSCkY55qjMXNRu2DSqc02QZoEKj5q5atnIqgtW7Q/MfpSYR3Jn6mo3G5AppztzT4UDzAHpSWhW5U+yL3NFdlbeEbm6hWZVIDdMiinzB7NHMtKoiBHU9c9ahiYR5BI554qOVsZK8r096j3EfMKb1JT94szmJhkHkdq6PQrhFnEZIKlAcdxXIs5xg9T0NaljBcfupoWIJ4LCtaLadkaLVnUPIq6lFDFF5av9525/Ct+C4j3CGR+CMHd3rDidpI1R4TJjHzdMVfikgjQhVO7oNxzzWtSi6lRSb0RtdctjH8TqkUiunQNjiodHuhHKQ7AqR3qzr6b9O3KGeTdk//AFq51JpIv4SBWyaWjGjryTFKssf3Dyc1NZT+erPEAF3EGsa01FJbZkJy23GDWnolutrCTGSwflsnoaGS2TXKtsOCc5rI19QbNZ04lhOCFOeK3mUS8rjjrTkWCSIrN5YB+9n+Ksa3waK5tTqunJS6nC298iYLHHNdJpt1PfgJbqmSOCXCkD1rK1+0snkmltYdoQYVV43H1rM07XDBIvmoqSIeH25/MVwKCkbYrGym1fQ6O8M1tL5c4V5P9lgVx9f6VDfzTz28Suw8uMZCjtVOS+luZZJCyETHLFVGM+1aiQlbMTLICh+UxbeRgdTVNchxykp7kdvBHBHvEgMrjCnHSm3um3EdqJJDvj3cswyQcdM1sJp7atCsMKeW0QHzk9ax9Uh1LTBJb3LOIC/XOVc+tZxkpS31JekdjHmuhBLtkCBeowB+tNmngJDooQlsHnr7iq1/bzh0luFP7/lCrZz2qZtC1UIQtlc89sZrVxTIjNpmxYXGwrhq3opVaPcT2zXGR2+o2EIa8tZYowcbnFWbvVzBpzrGfnf5QfT1rBwdzs9rFwuY+rXnn380kXypuIVajtBHev5ch2P296oO45/WmLK0bh0OCDmuq2ljz1P3rm8dAmAyH4FUp4DACp6jitix1lZ7bDHEgXBqhMnnmRzWd3c6HGLV4majcUoOab0NNBwas52PcYHFS252gmq7tnFTQqSQoBJPQetAluSx5kYAZJz0FeieDPB7nZfaknvHGf5mp/BHg0Rql/qC/P1WM9v/AK9egJbkAHOAOABRYobHbqqAfKvtRSPExbOTRTsO58+vCuzhagkVVXgc96meRguFGBUKYkBVvzqSErleQbSM9AeK3tFm3W7xIeRzWJMg28dqv6Ayrc49V+ataUrSRcNJanYafJKbLyzySetWDtjXbsZ5WPQdBWdBc/Z1dc8Zypq/bTzeVkugZj0Ydq7rI6I73SKmoSzk+UgDSNwqjoBWPY2il5VnYiQnkE8CupgMYkJMQMvZl7ViahAi6i7o4V+rIe9ZqF3djk29ijdWnkozQ/MwP3geKvaHqWSIZjtx2oslklLlomRc9xwahvNKKujBgrPyuDzVu1g3VkbVxqsNtdKZG42Yxjk0+5ZJGinhK7ZP427VgajpzxWRmuJd0igbN3UmnaXqTG28oqFdCGAccVNOHIlEV+ZjdacQ3TxngHke4rn7mKN3JBrr9YWCVInu4x5hTAfZxXMXluikNFsZe+BjFcE4OM2KcrqzRRhmntGzE3Hp2P4V1Ogavp+pTR2WqSfZA7Aedn5R+PbNcnKSCdopTbkqG5BofmYJX+E9osrWPSzKEuBcFsESjoR2rl/F2qtdSpZKQQjB5D79q5DRdZ1TS5PLt5C0J6xycr/9arVtO0wlmlOZJGJJrPlhCLtuzen7zV+hc8P2Ru/EEELMfKGZue2O3516MVUd64Dw5J5esW7Z6qyn8RXY+a5OacdjOcbSaLM0cUqNHIqujDBVhmvMfGunwabfRRWrHy3XftJ+77V6QshJ+avOviEV/tpdp58pc1a3Ik9DlGNAG5go70Hmtbw1YPeahDhgmJAoLDPJNXsZRV3YS1s2ibDLtYj+LiricRyKTyK6nXdJ0i2YoJXF0OrM2R+Ncjcq0e4D7vrWUnc6orlRmk/MajbrTye9NPNWc7AZOK9G+G3hkXbDUrxMxqf3YP8AOuE0u0a8vobdf42AP0r3LTI/sNhFbxABUUDigEb0ZRdqDAAqzhSOCMVgqZWJINSA3IGA1Mo0XnhViCworINrIxyW5oosZ3meJ3RQPtHcVQB2ydeKsSnfBG2RkHk+tV5D8v1qEa26iSNuHynip9Fby75S3II6etVEGM5rV0fTZJ5BdPlYowSP9qqi7ME9UdGCNmcA8HHHSrtkQYUaRA8hXnJ6Vk2skjl3EZWNejHvWna3AYKPJDH1ruhLm1sbvRaGkjlRwFGBwAKzZ9Fe8nlmXJY8jnpV1Vkdj5USjjk56UXpuIog8LDeDwBROTXw7ii1snqZ6LcWknlOu2NhgnqKqhruW6UGFWZAVDnpj1q2q6reTg+YkC98jOa0UtGCANcHcOp24zQ0mveNU9DLkks7eQDUfMllXB5+6Pwrdt47OaJZFSNgw4461nXENkl3E08EskwHHHX8K1ntxNCot8J3wVxz7iiL95kMqXMcUzeVKjIB93acUQ6ZYT7k2ibdxtf+lJeXEttEftdoxI7ryDUkFu24TRnaSN2KG4t2DlW7ZhX3gmKWRjaTtFLn/VSjj8DWfd6LJaYW4RkPTd1X867R7oKFN0eS2Ay1fVoXULOgkXHOeaxqUFJXQ42i9DzMWgQEkA8dazoJCvyA969DudItbyWVUUQjPyMh/pXL6h4U1GyZpIlWeEHO5PvY+lcnsp2ZctGrDNHk8vUbZz03iu53g8V59AxjK5BDKwOMc13aMGUMOQRnipiY1t0ywOBxXmvj0H+3pCQRmNSPfivQ94X+LFYfifS7fVbcOQRPGMLIPT0NaIwlseZmtfw/qT6cJp1UOUGYww4DnjNSTeGbxfmRkZf72SKjvbE6QqxORIZRncOlVchJojl1Oacs87lpSc7iaFkd0+Y5zTra1idRIcnIzjtTIMuTxgCpaXRGkXLqyAjikAp0vDEV3fgHwot0i6jfpuTOYkP86aJYfDzw/JNMb+WNgF4TcMV6alo+BuGKbbokShFwmOgFXrdyBtOGBpgkQiIoMKKjdJCOOKtTu0XIXiqj3o6FcUxkRSbP3qKja8GTRQKx4Kv3CKjfolFFQV0JbUBruIEAjPQ12igCNQAAMdBRRQJEsQHl9B0qW1A2rx3oor0ehqvhZb00n7WwycHtWhqygYAAHA6Ciisn/FEvjK0P/HuD3prE5oorSWx0r4RLri8sSOuev4Vuj/j3z39aKKa3MepIyqbcZAP1FYlySFfBxz2oopLdjlsjA1p23W/zN99e9dG5P2JTnnmiio/mKW6I7YnaOa0Yido570UVa+FFy+I4XxFxrE+PaurtgBp1sQBkoP5UUV5z+NmdXZEMlRHm3mz6UUUHOZ5/1J/3TXNeK/8AVW/0ooqluKWxmWxIs48E9TUkH+qaiipluOOxTm++a918OgDRLMAADyx0+lFFUhPcuS9aISdw5NFFMDRfmIZrMuupoooAoN1NFFFAH//Z",
+  "f_4372_5": "data:image/jpeg;base64,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",
+  "f_4349_9": "data:image/jpeg;base64,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"
+ }
 }

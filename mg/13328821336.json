@@ -1,0 +1,110 @@
+{
+ "item": "13328821336",
+ "client": "curegrin",
+ "note": "The script asks for five graphics: the hook text, the name super, one key-word top text and the two AYH question texts, then the CureGRIN end card. The split screen in the hook row is cut by the editor (the TV photo over Keith, purple bar at the seam). No CureGRIN logo file yet: the end card types the name until Lauren's high-res logo arrives.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "10 years for one answer."
+   },
+   "cue": "Hook text on frame 1, big and bold, top third: “10 years for one answer.” Already on screen at 0:00. Does not animate on.",
+   "src": "Script, row 00:00–00:05, Motion graphics & type.",
+   "rows": [
+    "00:00–00:05"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third, big and bold."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 2.5,
+   "pos": "center",
+   "text": {
+    "main": "Keith McArthur"
+   },
+   "cue": "Name super on his first sync, at 00:05 for 2.5 s, lower left, above the captions: “Keith McArthur” / Executive Director, CureGRIN.",
+   "src": "Script, row 00:05–00:09, Motion graphics & type.",
+   "rows": [
+    "00:05–00:09"
+   ],
+   "use": "Put it on at 00:05 for 2.5 s. Move it lower left, above the captions. Type the second line “Executive Director, CureGRIN” under the name (Quinn confirms the title)."
+  },
+  {
+   "n": 3,
+   "title": "Key words",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "all four of the GRIN gene disorders"
+   },
+   "cue": "Key words, top text at 00:52 for 2.5 s, as he says them: “all four of the GRIN gene disorders”.",
+   "src": "Script, row 00:39–00:55, Motion graphics & type.",
+   "rows": [
+    "00:39–00:55"
+   ],
+   "use": "Put it on at 00:52, on his words, for 2.5 s in the top band. Keep the captions on."
+  },
+  {
+   "n": 4,
+   "title": "Question text",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "Are you happy?"
+   },
+   "cue": "Question text, top, at 01:02 for 2 s: “Are you happy?”",
+   "src": "Script, row 01:02–01:12, Motion graphics & type.",
+   "rows": [
+    "01:02–01:12"
+   ],
+   "use": "Put it on at 01:02 as Nick asks, for 2 s in the top band (AYH series look). Keep the captions on."
+  },
+  {
+   "n": 5,
+   "title": "Question text",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "What's the source of your happiness?"
+   },
+   "cue": "Then at 01:06 for 2 s: “What's the source of your happiness?”",
+   "src": "Script, row 01:02–01:12, Motion graphics & type.",
+   "rows": [
+    "01:02–01:12"
+   ],
+   "use": "Put it on at 01:06 as Nick asks, for 2 s in the top band. Keep the captions on."
+  },
+  {
+   "n": 6,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:12–01:16"
+   ],
+   "cue": "End card: “Support CureGRIN today.” and “curegrin.org”.",
+   "src": "No CureGRIN logo file yet (Lauren's high-res logo is still owed); the name is typed until it arrives. endcards/index.json, 22 Oct 2026.",
+   "c": {
+    "bg": "#5C3D8D",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "CureGRIN",
+    "lines": [
+     "Support CureGRIN today.",
+     "curegrin.org"
+    ]
+   },
+   "dur": 4.0,
+   "use": "This is the end card. Put it right after the held beat on “My family.” at 01:12 and hold it to the end. Music resolves, 1 s fade."
+  }
+ ]
+}

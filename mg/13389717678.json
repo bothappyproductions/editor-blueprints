@@ -1,0 +1,98 @@
+{
+ "item": "13389717678",
+ "client": "curegrin",
+ "note": "The script asks for four graphics: the hook text, the name super, one key-word top text and a three-line word stack, then the CureGRIN end card. The super's second line is typed by the editor under the name. No CureGRIN logo file yet: the end card types the name until Lauren's high-res logo arrives.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "STILL WAITING ON YOUR CHILD'S VARIANT?"
+   },
+   "cue": "Hook text on frame 1, big and bold, top third: “STILL WAITING ON YOUR CHILD'S VARIANT?” Already on screen at 0:00. Does not animate on.",
+   "src": "Script, row 00:00–00:10, Motion graphics & type.",
+   "rows": [
+    "00:00–00:10"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third, big and bold."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Bruce Leuchter"
+   },
+   "cue": "Name super at 00:04–00:06, small, lower left, above the captions: “Bruce Leuchter” / “CEO, GRIN Therapeutics”.",
+   "src": "Script, row 00:00–00:10, Motion graphics & type.",
+   "rows": [
+    "00:00–00:10"
+   ],
+   "use": "Put it on at 00:04 for 2 s. Move it lower left, above the captions. Type the second line “CEO, GRIN Therapeutics” under the name."
+  },
+  {
+   "n": 3,
+   "title": "Key words",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "That requires variant characterization."
+   },
+   "cue": "Key words, top text at 00:26 for 2 s, as he says them: “That requires variant characterization.”",
+   "src": "Script, row 00:13–00:37, Motion graphics & type.",
+   "rows": [
+    "00:13–00:37"
+   ],
+   "use": "Put it on at 00:26, on his words, for 2 s in the top band. Keep the captions on."
+  },
+  {
+   "n": 4,
+   "title": "Who is working on it",
+   "tpl": "word_stack",
+   "dur": 6,
+   "pos": "top",
+   "text": {
+    "items": [
+     "the broader ecosystem",
+     "the principal investigators",
+     "the basic scientists"
+    ]
+   },
+   "cue": "Key words stack in, top, as he says them, from 00:39 for 6 s: “the broader ecosystem” / “the principal investigators” / “the basic scientists”.",
+   "src": "Script, row 00:37–00:56, Motion graphics & type.",
+   "rows": [
+    "00:37–00:56"
+   ],
+   "use": "Start it at 00:39. Slide each phrase in on his word, in the top band, over the B-roll. Keep the captions on."
+  },
+  {
+   "n": 5,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:56–01:00"
+   ],
+   "cue": "End card: “Support CureGRIN today.” and “curegrin.org”.",
+   "src": "No CureGRIN logo file yet (Lauren's high-res logo is still owed); the name is typed until it arrives. endcards/index.json, 22 Oct 2026.",
+   "c": {
+    "bg": "#5C3D8D",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "CureGRIN",
+    "lines": [
+     "Support CureGRIN today.",
+     "curegrin.org"
+    ]
+   },
+   "dur": 4.0,
+   "use": "This is the end card. Put it right after “the broader community.” at 00:56 and hold it to the end. Music resolves, 1 s fade."
+  }
+ ]
+}
