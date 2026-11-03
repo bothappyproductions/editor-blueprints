@@ -1,0 +1,619 @@
+{
+ "item": "12767071335",
+ "client": "kiva",
+ "style": {
+  "font": {
+   "css": "\"Inter\"",
+   "w": 500
+  },
+  "size": 54,
+  "y": 1500,
+  "max_lines": 1,
+  "reveal": "phrase",
+  "fg": "#2AA967",
+  "shadow": true
+ },
+ "note": "Kiva CEO-series captions: Kiva green #2AA967 text, Inter Medium (Post Grotesk is not on Google Fonts), about 25% smaller than the first round, low in the lower third, soft shadow, one line at a time. The page cannot add letter spacing: Brit asked for more space between letters and words, so if these look tight, set the captions in Premiere with tracking about +25 and use these clips for timing. Timed from the shoot's caption segments (the word-level output.json is too large to open in the cloud), so check each cut by ear.",
+ "tracks": [
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:00–00:07"
+   ],
+   "beat": "HOOK",
+   "title": "Hook",
+   "clip": "P1000936.MOV",
+   "start": 2.66,
+   "src": "P1000936.MOV 00:02.7",
+   "dur": 7.79,
+   "words": [
+    {
+     "w": "Kiva",
+     "t0": 0.145,
+     "t1": 0.435,
+     "e": 0
+    },
+    {
+     "w": "helps",
+     "t0": 0.435,
+     "t1": 0.784,
+     "e": 0
+    },
+    {
+     "w": "ordinary",
+     "t0": 0.784,
+     "t1": 1.306,
+     "e": 0
+    },
+    {
+     "w": "people",
+     "t0": 1.306,
+     "t1": 1.713,
+     "e": 0
+    },
+    {
+     "w": "lend",
+     "t0": 1.713,
+     "t1": 2.003,
+     "e": 0
+    },
+    {
+     "w": "money",
+     "t0": 2.003,
+     "t1": 2.351,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 2.351,
+     "t1": 2.526,
+     "e": 0
+    },
+    {
+     "w": "individuals",
+     "t0": 2.526,
+     "t1": 3.222,
+     "e": 0
+    },
+    {
+     "w": "around",
+     "t0": 3.222,
+     "t1": 3.629,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 3.629,
+     "t1": 3.861,
+     "e": 0
+    },
+    {
+     "w": "world",
+     "t0": 3.861,
+     "t1": 4.21,
+     "e": 0
+    },
+    {
+     "w": "who",
+     "t0": 4.21,
+     "t1": 4.442,
+     "e": 0
+    },
+    {
+     "w": "are",
+     "t0": 4.442,
+     "t1": 4.674,
+     "e": 0
+    },
+    {
+     "w": "trying",
+     "t0": 4.674,
+     "t1": 5.08,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 5.08,
+     "t1": 5.255,
+     "e": 0
+    },
+    {
+     "w": "build",
+     "t0": 5.255,
+     "t1": 5.603,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 5.603,
+     "t1": 5.719,
+     "e": 0
+    },
+    {
+     "w": "better",
+     "t0": 5.719,
+     "t1": 6.126,
+     "e": 0
+    },
+    {
+     "w": "life",
+     "t0": 6.126,
+     "t1": 6.416,
+     "e": 0
+    },
+    {
+     "w": "for",
+     "t0": 6.416,
+     "t1": 6.648,
+     "e": 0
+    },
+    {
+     "w": "themselves.",
+     "t0": 6.648,
+     "t1": 7.345,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 2,
+     "t0": 0.095,
+     "t1": 1.256
+    },
+    {
+     "a": 3,
+     "b": 5,
+     "t0": 1.256,
+     "t1": 2.301
+    },
+    {
+     "a": 6,
+     "b": 8,
+     "t0": 2.301,
+     "t1": 3.579
+    },
+    {
+     "a": 9,
+     "b": 13,
+     "t0": 3.579,
+     "t1": 5.03
+    },
+    {
+     "a": 14,
+     "b": 18,
+     "t0": 5.03,
+     "t1": 6.366
+    },
+    {
+     "a": 19,
+     "b": 20,
+     "t0": 6.366,
+     "t1": 7.695
+    }
+   ],
+   "text": "Kiva helps ordinary people lend money to individuals around the world who are trying to build a better life for themselves.",
+   "n": 1
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:07–00:14"
+   ],
+   "beat": "THE IDEA",
+   "title": "The Idea",
+   "clip": "P1000936.MOV",
+   "start": 14.21,
+   "src": "P1000936.MOV 00:14.2",
+   "dur": 7.44,
+   "words": [
+    {
+     "w": "Talent",
+     "t0": 0.145,
+     "t1": 0.76,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 0.76,
+     "t1": 1.111,
+     "e": 0
+    },
+    {
+     "w": "ambition",
+     "t0": 1.111,
+     "t1": 1.901,
+     "e": 0
+    },
+    {
+     "w": "are",
+     "t0": 1.901,
+     "t1": 2.253,
+     "e": 0
+    },
+    {
+     "w": "universal,",
+     "t0": 2.253,
+     "t1": 3.219,
+     "e": 0
+    },
+    {
+     "w": "but",
+     "t0": 3.219,
+     "t1": 3.57,
+     "e": 0
+    },
+    {
+     "w": "opportunity",
+     "t0": 3.57,
+     "t1": 4.624,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 4.624,
+     "t1": 4.975,
+     "e": 0
+    },
+    {
+     "w": "access",
+     "t0": 4.975,
+     "t1": 5.59,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 5.59,
+     "t1": 5.853,
+     "e": 0
+    },
+    {
+     "w": "money",
+     "t0": 5.853,
+     "t1": 6.38,
+     "e": 0
+    },
+    {
+     "w": "isn't.",
+     "t0": 6.38,
+     "t1": 6.995,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 3,
+     "t0": 0.095,
+     "t1": 2.203
+    },
+    {
+     "a": 4,
+     "b": 4,
+     "t0": 2.203,
+     "t1": 3.169
+    },
+    {
+     "a": 5,
+     "b": 6,
+     "t0": 3.169,
+     "t1": 4.574
+    },
+    {
+     "a": 7,
+     "b": 11,
+     "t0": 4.574,
+     "t1": 7.345
+    }
+   ],
+   "text": "Talent and ambition are universal, but opportunity and access to money isn't.",
+   "n": 2
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:14–00:22"
+   ],
+   "beat": "HOW YOU TAKE PART",
+   "title": "How You Take Part",
+   "clip": "P1000936.MOV",
+   "start": 47.11,
+   "src": "P1000936.MOV 00:47.1",
+   "dur": 8.21,
+   "words": [
+    {
+     "w": "on",
+     "t0": 0.145,
+     "t1": 0.337,
+     "e": 0
+    },
+    {
+     "w": "Kiva",
+     "t0": 0.337,
+     "t1": 0.657,
+     "e": 0
+    },
+    {
+     "w": "you",
+     "t0": 0.657,
+     "t1": 0.913,
+     "e": 0
+    },
+    {
+     "w": "can",
+     "t0": 0.913,
+     "t1": 1.17,
+     "e": 0
+    },
+    {
+     "w": "choose",
+     "t0": 1.17,
+     "t1": 1.618,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 1.618,
+     "t1": 1.874,
+     "e": 0
+    },
+    {
+     "w": "person",
+     "t0": 1.874,
+     "t1": 2.322,
+     "e": 0
+    },
+    {
+     "w": "you",
+     "t0": 2.322,
+     "t1": 2.578,
+     "e": 0
+    },
+    {
+     "w": "want",
+     "t0": 2.578,
+     "t1": 2.898,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 2.898,
+     "t1": 3.091,
+     "e": 0
+    },
+    {
+     "w": "support",
+     "t0": 3.091,
+     "t1": 3.603,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 3.603,
+     "t1": 3.859,
+     "e": 0
+    },
+    {
+     "w": "put",
+     "t0": 3.859,
+     "t1": 4.115,
+     "e": 0
+    },
+    {
+     "w": "as",
+     "t0": 4.115,
+     "t1": 4.307,
+     "e": 0
+    },
+    {
+     "w": "little",
+     "t0": 4.307,
+     "t1": 4.755,
+     "e": 0
+    },
+    {
+     "w": "as",
+     "t0": 4.755,
+     "t1": 4.948,
+     "e": 0
+    },
+    {
+     "w": "$25",
+     "t0": 4.948,
+     "t1": 5.204,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 5.204,
+     "t1": 5.46,
+     "e": 0
+    },
+    {
+     "w": "join",
+     "t0": 5.46,
+     "t1": 5.78,
+     "e": 0
+    },
+    {
+     "w": "others",
+     "t0": 5.78,
+     "t1": 6.228,
+     "e": 0
+    },
+    {
+     "w": "who",
+     "t0": 6.228,
+     "t1": 6.484,
+     "e": 0
+    },
+    {
+     "w": "are",
+     "t0": 6.484,
+     "t1": 6.74,
+     "e": 0
+    },
+    {
+     "w": "doing",
+     "t0": 6.74,
+     "t1": 7.125,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 7.125,
+     "t1": 7.381,
+     "e": 0
+    },
+    {
+     "w": "same.",
+     "t0": 7.381,
+     "t1": 7.765,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 4,
+     "t0": 0.095,
+     "t1": 1.568
+    },
+    {
+     "a": 5,
+     "b": 8,
+     "t0": 1.568,
+     "t1": 2.848
+    },
+    {
+     "a": 9,
+     "b": 13,
+     "t0": 2.848,
+     "t1": 4.257
+    },
+    {
+     "a": 14,
+     "b": 18,
+     "t0": 4.257,
+     "t1": 5.73
+    },
+    {
+     "a": 19,
+     "b": 22,
+     "t0": 5.73,
+     "t1": 7.075
+    },
+    {
+     "a": 23,
+     "b": 24,
+     "t0": 7.075,
+     "t1": 8.115
+    }
+   ],
+   "text": "on Kiva you can choose the person you want to support and put as little as $25 and join others who are doing the same.",
+   "n": 3
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:22–00:29"
+   ],
+   "beat": "BUTTON",
+   "title": "Button",
+   "clip": "P1000936.MOV",
+   "start": 68.04,
+   "src": "P1000936.MOV 01:08.0",
+   "dur": 7.17,
+   "words": [
+    {
+     "w": "So",
+     "t0": 0.155,
+     "t1": 0.445,
+     "e": 0
+    },
+    {
+     "w": "that's",
+     "t0": 0.445,
+     "t1": 1.121,
+     "e": 0
+    },
+    {
+     "w": "Kiva,",
+     "t0": 1.121,
+     "t1": 1.701,
+     "e": 0
+    },
+    {
+     "w": "helping",
+     "t0": 1.701,
+     "t1": 2.474,
+     "e": 0
+    },
+    {
+     "w": "connect",
+     "t0": 2.474,
+     "t1": 3.247,
+     "e": 0
+    },
+    {
+     "w": "talent",
+     "t0": 3.247,
+     "t1": 3.923,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 3.923,
+     "t1": 4.31,
+     "e": 0
+    },
+    {
+     "w": "desire",
+     "t0": 4.31,
+     "t1": 4.986,
+     "e": 0
+    },
+    {
+     "w": "with",
+     "t0": 4.986,
+     "t1": 5.469,
+     "e": 0
+    },
+    {
+     "w": "opportunity.",
+     "t0": 5.469,
+     "t1": 6.725,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 2,
+     "t0": 0.105,
+     "t1": 1.651
+    },
+    {
+     "a": 3,
+     "b": 5,
+     "t0": 1.651,
+     "t1": 3.873
+    },
+    {
+     "a": 6,
+     "b": 7,
+     "t0": 3.873,
+     "t1": 4.936
+    },
+    {
+     "a": 8,
+     "b": 9,
+     "t0": 4.936,
+     "t1": 7.075
+    }
+   ],
+   "text": "So that's Kiva, helping connect talent and desire with opportunity.",
+   "n": 4
+  }
+ ]
+}

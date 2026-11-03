@@ -1,0 +1,518 @@
+{
+ "id": "12767071313",
+ "client": "kiva",
+ "eyebrow": "Kiva · Seattle kitchen interview · 29 Jul 2026 · Thought leadership",
+ "title": "Vishal:",
+ "title_q": "“The Myth of the Leader Who Knows Everything”",
+ "title_short": "Vishal · The Myth of the Leader Who Knows Everything",
+ "editor": "Bleron",
+ "due": "2026-09-16",
+ "format": "9:16 + 16:9 · 1080×1920 and 1920×1080",
+ "length": "about 39 s",
+ "edit_key": "KIVAVishalLeadershipMyth001",
+ "headline": "The myth is that a leader must know all the answers. Most leaders we admire are also winging it, so it's okay to say you don't know.",
+ "story": [
+  "Cold open on the line Atdhe and Nick picked: <b>“Most leaders that we all admire are also winging it.”</b> Then back into the set-up: the myth (you must know all the answers, keep up a facade), why it exists (your team wants to trust you), and the turn: everyone's human.",
+  "The hook line plays again where it lands in the story, then the permission: it's okay to say you don't know. It ends on his own summary of the myth."
+ ],
+ "feel": [
+  "Honest",
+  "Warm",
+  "Confident",
+  "Light"
+ ],
+ "do": [
+  "Open on frame 1 on the B cam, already on “Most leaders…”, hook text on screen.",
+  "Cut every “um” with invisible cuts: switch angles to hide them.",
+  "Start the facade line at “You need to have the” (no “that”).",
+  "Keep his last line: “And I think that's the myth…”.",
+  "Vertical first. Deliver 9:16 and 16:9."
+ ],
+ "dont": [
+  "No black first frame.",
+  "No interviewer audio: the question is on-screen text only.",
+  "Never “investment” on screen.",
+  "No name plate, logo or fade at 0:00.",
+  "No crowded captions and no lime: Brit's caption spec only."
+ ],
+ "links": {
+  "brief": {
+   "title": "CEO Video Content Filming Day",
+   "url": "https://docs.google.com/document/d/1uBSu18mph40QBWsCePjErgIL8tuv36KgW1VDVkk7qNg/edit",
+   "note": "Kiva's own plan and question list for the 29 Jul Seattle shoot (Production Planning row 12459860634)."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Nick owes it. Production Planning row 12459860634 (Kiva CEO Thought Leadership Content) has no reference."
+  },
+  "footage": {
+   "title": "Seattle shoot 2026 › Block 1 Kitchen",
+   "url": "https://drive.google.com/drive/folders/1LfkfJ0CRe7s24Ba47wTH-xdNygEnhpYQ",
+   "note": "A CAM P1000803.MOV (wide) and B CAM P1000912.MOV (close). Sound is the lav WAV 071721_006 (esv2) in ENHANCED AUDIO. P1000908 is a Block 2 Yard clip and does not hold this answer."
+  }
+ },
+ "bp_intro": "Picture is the wide A cam <span class=\"mono\">P1000803.MOV</span> and the close B cam <span class=\"mono\">P1000912.MOV</span>. Sound is the lav file <span class=\"mono\">071721_006_Tr1-esv2-50p-bg-10p-music-10p.wav</span>. Times are B cam times from the shoot's caption file; the A cam is about 2.9 s ahead and the WAV about 1.3 s behind (both shown in each row). Times come from caption segments, not single words: find the exact cut points on the waveform.",
+ "rows": [
+  {
+   "tc": "00:00–00:05",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Cold open on the close angle <a href=\"https://drive.google.com/file/d/1DHvsLfsNyQl4san7FNpyc5rIBhIi5J3n/view\">P1000912.MOV (B cam)</a> from <span class=\"mono\">13:02.6</span>: Vishal in a white shirt in his living room, in profile. Start on “Most”. <b>Frame 1 is picture, never black.</b> Drop the “um, you know, most,” before it. 9:16 crop on his face.",
+   "motion": "Hook text on <b>frame 1</b>, top: <q>The myth of the leader who knows everything</q> Already on screen at 0:00. It does not animate on. Out at 00:03. No name super yet. Captions on from frame 1.",
+   "voice": {
+    "who": "Vishal Ghotge",
+    "quote": "Most leaders that we all admire are also winging it.",
+    "src": "P1000912.MOV 13:02.6 to 13:07.8 (B cam; A cam P1000803 13:05.5, lav WAV 006 13:01.3)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Warm, light bed under the first word. Low.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Most leaders",
+     "angle": "B cam"
+    }
+   ]
+  },
+  {
+   "tc": "00:05–00:07",
+   "beat": "THE MYTH",
+   "kind": "",
+   "frame": null,
+   "crop": "r",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Back into the set-up on the wide angle <a href=\"https://drive.google.com/file/d/1f3H_WqzOm44SP0RYHWgSfzQkNPWLDPUN/view\">P1000803.MOV (A cam)</a> from <span class=\"mono\">12:33.8</span> (he sits right of center: crop right). Use his answer only; the interviewer's question goes on screen as text.",
+   "motion": "Question text, top third, at <span class=\"mono\">00:05</span> for 3 s: <q>What's a myth about leadership that you think is wrong?</q>",
+   "voice": {
+    "who": "Vishal Ghotge",
+    "quote": "That you need to know all the answers.",
+    "src": "P1000912.MOV 12:30.9 to 12:32.0 (B cam; A cam P1000803 12:33.8, lav WAV 006 12:29.6)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady, low.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "That you need",
+     "angle": "A cam"
+    }
+   ]
+  },
+  {
+   "tc": "00:07–00:13",
+   "beat": "THE FACADE",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Cut out “And that you need to be, you need to be,” and the “that” (Atdhe: the line starts “You need to have the”). Hide the cut on the B cam <a href=\"https://drive.google.com/file/d/1DHvsLfsNyQl4san7FNpyc5rIBhIi5J3n/view\">P1000912.MOV (B cam)</a> from <span class=\"mono\">12:41.3</span>. Cut the pause after “facade of” to about 0.2 s.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Vishal Ghotge",
+    "quote": "You need to have the facade of somebody who knows what they're doing.",
+    "src": "P1000912.MOV 12:41.3 to 12:47.3 (B cam; A cam P1000803 12:44.2, lav WAV 006 12:40.0)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady, low.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "You need to have",
+     "angle": "B cam"
+    }
+   ]
+  },
+  {
+   "tc": "00:13–00:20",
+   "beat": "TRUST",
+   "kind": "",
+   "frame": null,
+   "crop": "r",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "A cam from <span class=\"mono\">12:51.4</span>. Tight, invisible cuts through the “um”s: switch to the B cam to hide each one. Stop on “human”.",
+   "motion": "Name super at <span class=\"mono\">00:13–00:16</span>, small, lower left above the captions: <q>Vishal Ghotge</q> / CEO at Kiva.",
+   "voice": {
+    "who": "Vishal Ghotge",
+    "quote": "Clearly your team wants to know that they can trust the leader. But everyone's human",
+    "src": "P1000912.MOV 12:48.5 to 12:57.2 (B cam; A cam P1000803 12:51.4, lav WAV 006 12:47.2)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady, low.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Clearly",
+     "angle": "A cam"
+    },
+    {
+     "face": true,
+     "from_word": "But everyone's human",
+     "angle": "B cam"
+    }
+   ]
+  },
+  {
+   "tc": "00:20–00:25",
+   "beat": "WINGING IT",
+   "kind": "turn",
+   "frame": null,
+   "crop": "r",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "The hook line lands in the story: play it again here on the wide angle <a href=\"https://drive.google.com/file/d/1f3H_WqzOm44SP0RYHWgSfzQkNPWLDPUN/view\">P1000803.MOV (A cam)</a> from <span class=\"mono\">13:05.5</span>. Drop the “um, you know, most,” before it.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Vishal Ghotge",
+    "quote": "Most leaders that we all admire are also winging it.",
+    "src": "P1000912.MOV 13:02.6 to 13:07.8 (B cam; A cam P1000803 13:05.5, lav WAV 006 13:01.3)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Small lift.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Most leaders",
+     "angle": "A cam"
+    }
+   ]
+  },
+  {
+   "tc": "00:25–00:31",
+   "beat": "IT'S OKAY",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "B cam <a href=\"https://drive.google.com/file/d/1DHvsLfsNyQl4san7FNpyc5rIBhIi5J3n/view\">P1000912.MOV (B cam)</a> from <span class=\"mono\">13:09.0</span>, or the A cam if the cut is clean.",
+   "motion": "Key words, top third, as he says them: <q>It's okay to say that you don't know.</q>",
+   "voice": {
+    "who": "Vishal Ghotge",
+    "quote": "And so it's okay if you don't know. It's okay to say that you don't know.",
+    "src": "P1000912.MOV 13:09.0 to 13:14.3 (B cam; A cam P1000803 13:11.9, lav WAV 006 13:07.7)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady, low.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "And so it's okay",
+     "angle": "B cam"
+    }
+   ]
+  },
+  {
+   "tc": "00:31–00:35",
+   "beat": "BUTTON",
+   "kind": "turn",
+   "frame": null,
+   "crop": "r",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "A cam from <span class=\"mono\">13:18.7</span>. Keep this line: it finishes his thought (Atdhe asked for it). Hold 0.7 s after “everything”. Cut before the interviewer's “Yeah, that's super important for sure.”",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Vishal Ghotge",
+    "quote": "And I think that's the myth where people feel like you need to know everything.",
+    "src": "P1000912.MOV 13:15.8 to 13:18.3 (B cam; A cam P1000803 13:18.7, lav WAV 006 13:14.5)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Resolve on “everything”.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "And I think",
+     "angle": "A cam"
+    }
+   ]
+  },
+  {
+   "tc": "00:35–00:39",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "End card on dark forest green <span class=\"mono\">#223829</span>: Kiva logo, then <q>Give a little. Change a lot.</q> and <b>kiva.org</b>. Same card on the 9:16 and the 16:9 version.",
+   "motion": "End card on dark forest green #223829: Kiva logo, then “Give a little. Change a lot.” and kiva.org. No other logo on this card.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Last note rings out. 1 s fade.",
+   "shots": []
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/1uBSu18mph40QBWsCePjErgIL8tuv36KgW1VDVkk7qNg/edit\">CEO Video Content Filming Day</a> · Block 1 question “What's a myth about leadership that you think is wrong?”"
+  ],
+  [
+   "Reference",
+   "Not chosen yet. Nick owes it."
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/1akpgM9K7BrCY3cVjMzJYvPOJMc98EjGv\">Seattle shoot 2026</a> · <a href=\"https://drive.google.com/drive/folders/1LfkfJ0CRe7s24Ba47wTH-xdNygEnhpYQ\">Block 1 Kitchen</a>"
+  ],
+  [
+   "Clips",
+   "<a href=\"https://drive.google.com/file/d/1f3H_WqzOm44SP0RYHWgSfzQkNPWLDPUN/view\">P1000803.MOV</a> (A cam, wide, about 12:25 to 13:20) · <a href=\"https://drive.google.com/file/d/1DHvsLfsNyQl4san7FNpyc5rIBhIi5J3n/view\">P1000912.MOV</a> (B cam, close)"
+  ],
+  [
+   "Lav sound",
+   "<a href=\"https://drive.google.com/file/d/1FOmcxNWe9VF6f7gsQJMTIfqa3lOu2Hv9/view\">071721_006_Tr1-esv2-50p-bg-10p-music-10p.wav</a> · ENHANCED AUDIO"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/11KUYjQO3JTMo62PygUde1EyEiQV-4NI650g5x49IdNA/edit\">Transcripts - Seattle shoot 2026</a> (it spells his name “Kodke”: it is Ghotge) · <a href=\"https://drive.google.com/file/d/1c04x7KMgb7g4MT87ecK9HWkYWi8xRktp/view\">output.json</a> (word times) · <a href=\"https://drive.google.com/drive/folders/1DmEhRgbKFbAVamz5LTR6Fh3QqsHypaZH\">EditTranscripts folder</a>"
+  ],
+  [
+   "Captions file",
+   "<a href=\"https://drive.google.com/file/d/1FxcKxHJRxYriUy0lE7QSv5MM3IylLS4X/view\">Block 1 Kitchen.srt</a>"
+  ],
+  [
+   "visual.json",
+   "None for the Seattle shoot. Shots are named from the clip folders and the frames other Vishal blueprints pulled from the same clips."
+  ],
+  [
+   "Brand graphics package",
+   "<a href=\"https://drive.google.com/drive/folders/1k9waXGmkaznC2dwdi9s7eixWhOQv_fWG\">Kiva graphics package</a> (lower third bar, topic tag, underline draw, focus brackets, title plate; 9:16 ProRes 4444). Type the words on the plates in Post Grotesk or Inter."
+  ],
+  [
+   "Brand",
+   "Dark forest green <span class=\"mono\">#223829</span> · Kiva green <span class=\"mono\">#2AA967</span> (captions) · site green <span class=\"mono\">#4FAF4E</span> · light mint <span class=\"mono\">#EDF4F1</span>. Font: Post Grotesk (Inter in the graphics). New green K logo: Kathryn's files (KivaSquare.jpg, Group 5671.png / .svg) shared in Slack; ask Nick if you cannot open them."
+  ],
+  [
+   "Music",
+   "premiumbeat.com royalty-free only. Warm and hopeful, no lyrics. Check copyright on anything over 1 minute."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "3840×2160 camera files, two angles (A wide, B close). Check the frame rate on import. Camera sound is a guide only."
+  ],
+  [
+   "Timeline",
+   "Two timelines from one cut: 1080×1920 first, then 1920×1080, at the cameras' frame rate."
+  ],
+  [
+   "Crop",
+   "9:16: crop 1215×2160. A cam: Vishal sits right of center, crop right. B cam: crop on his face. Scale down, never up. 16:9: UHD scales down."
+  ],
+  [
+   "Audio",
+   "Use the lav WAV <span class=\"mono\">071721_006 esv2</span> from ENHANCED AUDIO. Sync both cameras to it on the waveform. Many “um”s: cut them, and hide each cut with an angle change."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. Music low under his voice the whole way (Atdhe: “lower music” on the Vishal cuts)."
+  ],
+  [
+   "Captions",
+   "Brit's CEO-series style: Kiva green <span class=\"mono\">#2AA967</span> text, about 25% smaller than the first round, low inside the lower third, a little less blur behind, a soft shadow and <b>clear space between letters and between words</b> (tracking about +25). Post Grotesk if you have it, else Inter Medium. Break lines at natural phrases. Never <span class=\"mono\">#EDF4F1</span> on <span class=\"mono\">#223829</span> and never the old lime."
+  ],
+  [
+   "Export",
+   "Two files: H.264 MP4 1080×1920 (9:16) and 1920×1080 (16:9), about 16 Mbps."
+  ]
+ ],
+ "checklist": [
+  "His name is Vishal Ghotge (G-H-O-T-G-E) everywhere. Never the transcript's “Kodke”.",
+  "The super reads “Vishal Ghotge” / “CEO at Kiva” (Kiva's staff format), from 0:03, never on frame 1.",
+  "The word “investment” is nowhere on screen. “U.S.”, never “United States”.",
+  "Captions match his words exactly, in Kiva green #2AA967, smaller, low, with clear space between letters and words.",
+  "Frame 1 is picture with the hook text. No black, no logo, no fade at 0:00.",
+  "The green K logo sits in a top corner from 0:03 and its letters are Kiva green.",
+  "End card reads exactly “Give a little. Change a lot.” and kiva.org.",
+  "The video starts on picture, not black.",
+  "Captions read “all the answers.” then “You need to have the facade of somebody who knows what they're doing.” No “that”.",
+  "“somebody who knows” is spelled right.",
+  "The last line “And I think that's the myth where people feel like you need to know everything.” is in.",
+  "No interviewer audio anywhere."
+ ],
+ "decisions": [
+  {
+   "t": "Visual reference",
+   "b": "Production Planning has no reference for the Seattle shoot. Nick picks one."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> Kiva wants Vishal's thought leadership to feel human, not corporate. This is the most honest line he gave all day.",
+ "ask_examples": [
+  "Which line is the hook?",
+  "Do I play the winging-it line twice?",
+  "Which B cam clip goes with P1000803?",
+  "What do I cut in the facade line?"
+ ],
+ "transcript": "Seattle shoot 2026, Block 1 Kitchen, B cam P1000912: Vishal's whole sit-down interview. Times are mm:ss in the file. The A cam P1000803 runs about 2.9 s ahead of it and the lav WAV 006 about 1.3 s behind. Lines that are the interviewer's questions are marked where they matter. Names are written as Kiva spells them.\n--- P1000912.MOV ---\n[00:02] I am now.\n[00:04] Perfect, awesome. [do not use: crew talk]\n[00:05] So, first question we got,\n[00:07] what is a hobby or interest outside of work that you have\n[00:10] that people might be surprised to learn? [do not use: interviewer]\n[00:12] Ooh, surprised to learn.\n[00:15] I love sailing.\n[00:18] I don't know if it's surprising or not, yeah.\n[00:20] Most people in my organization at least know I love running.\n[00:25] Yeah, sailing is definitely a little surprising.\n[00:27] I don't know a whole lot of people who sail.\n[00:29] How did you like get into that, I'm curious.\n[00:31] I don't know.\n[00:32] I was just being in Seattle and I had a friend\n[00:35] who was learning how to sail.\n[00:37] I said, you know, why are the,\n[00:39] I used to love doing, like, exposing myself to everything\n[00:42] and so I took on sailing.\n[00:44] It was just wonderful.\n[00:45] It's just very natural, organic.\n[00:47] You're using the wind to propel.\n[00:49] It's just beautiful.\n[00:51] So, yeah, I love sailing.\n[00:53] Yeah, sounds really cool.\n[00:54] So, if you weren't doing this,\n[00:57] what's something you would be doing instead? [do not use: interviewer]\n[01:00] I don't know whether I have the, you know,\n[01:05] I'll change this a little bit.\n[01:06] Growing up, I loved seeing, in the Indiana Jones movies,\n[01:11] and I always wanted to be an archeologist,\n[01:14] thinking that that's what archeologists do.\n[01:17] So my, yeah, so I would have been an archeologist\n[01:21] like Indiana Jones, not actually doing the hard work.\n[01:26] Going on like tomb raids.\n[01:27] Yeah, I'd be a treasure hunter.\n[01:29] That would be nuts.\n[01:31] All right, so what's the best piece of recent advice\n[01:34] that you've been given? [do not use: interviewer]\n[01:36] I have been given, oh, is, yeah, I was talking to someone\n[01:49] and they mentioned, you know, a lot of things,\n[01:54] a lot of hard things can be done\n[01:56] if people keep in mind two things.\n[02:01] Two things in their mind.\n[02:03] Assume that you're gonna live forever,\n[02:05] which means whatever you're doing\n[02:06] will actually, you can see the impact of.\n[02:10] And second is, if you don't bother to think about\n[02:14] who gets the credit.\n[02:16] So if you think that you're going to live for a long time\n[02:21] and this is going to, you can actually see the change\n[02:25] of this, what are you working on,\n[02:27] and you don't care about the credit,\n[02:29] most hard things can be done.\n[02:31] So that was just, that was really meaningful advice.\n[02:34] Yeah, that's great advice.\n[02:35] That's interesting perspective thing about things\n[02:37] and for sure.\n[02:38] So do you have any daily habits\n[02:41] that help keep you grounded? [do not use: interviewer]\n[02:45] I meditate every day.\n[02:47] And it's been a practice I've been doing\n[02:48] for the past two or three years\n[02:50] and it's been the most transformative experience for me.\n[02:54] It helps me both keep grounded\n[02:57] and also, yeah, when things are hard, get through it.\n[03:04] Definitely.\n[03:05] How did you kind of like find meditation as a hobby\n[03:08] and how, you mentioned a little bit\n[03:10] it helps you keep grounded and stay calm,\n[03:12] but how have you noticed that it's like helped you\n[03:15] in your day-to-day life now? [do not use: interviewer]\n[03:18] It is, I mean, as I mentioned,\n[03:19] like working as a CEO especially,\n[03:23] there is a, one of the hard things\n[03:25] is you're making a lot of decisions.\n[03:27] And some of those decisions will work out,\n[03:33] some of those won't, but your job is to make decisions.\n[03:36] And what is hard is if you always,\n[03:40] if you're identifying yourself as the result\n[03:46] like of those decisions, like your worth,\n[03:48] if you connect that, it's hard\n[03:50] because it is hard to get through\n[03:52] and you can't focus on the work that you need to do.\n[03:56] And what meditation has helped me is being mindful\n[04:02] and being mindful of really disconnecting my thoughts\n[04:13] from who I am, it's hard to explain,\n[04:17] but it's not, it takes, you need to have the presence\n[04:22] to disconnect yourself from this is not me,\n[04:26] like just because this happened doesn't mean\n[04:28] that that is a reflection of who I am.\n[04:31] And that being able to pause and being able to deal\n[04:36] with both failures, hard decisions,\n[04:39] even success requires you to have that pause\n[04:43] and that pause is something that comes to you\n[04:47] if you are practicing meditation and it helps you.\n[04:52] And meditation is not just the practice doing it\n[04:54] like once a day for five minutes,\n[04:56] that's just the helps you be mindful the rest of the day\n[05:01] and it's a journey, but it's something that has helped me.\n[05:05] Definitely, great answer.\n[05:07] So time for these rapid style questions.\n[05:10] First one, coffee or tea? [do not use: interviewer]\n[05:12] Coffee.\n[05:13] Morning person or night owl? [do not use: interviewer]\n[05:15] Oh, morning person, I'm up at five o'clock,\n[05:18] but I sleep very early.\n[05:20] I got you.\n[05:21] Favorite spot in Seattle? [do not use: interviewer]\n[05:24] You've seen it, the bridge that we just went to,\n[05:27] I live here in Ravenna in Seattle\n[05:30] and there's this beautiful bridge that goes over Ravine\n[05:32] and it's one of my favorite spots.\n[05:34] Yeah, we'll see it soon for sure.\n[05:36] Last book you actually finished? [do not use: interviewer]\n[05:42] Last book that I actually finished, I don't remember.\n[05:46] I do not remember.\n[05:48] Hey, all good.\n[05:50] One word for your leadership style.\n[05:53] Authentic.\n[05:55] I love that, great answer.\n[05:56] Window seat or aisle seat? [do not use: interviewer]\n[05:58] Aisle.\n[06:00] I agree, unless I'm trying to sleep.\n[06:01] Something you're bad at.\n[06:04] Too many things.\n[06:07] I am bad at impromptu answers.\n[06:10] Hey, it doesn't seem like it today, you're crushing it.\n[06:13] So, song stuck in your head lately? [do not use: interviewer]\n[06:21] It's a Bollywood song.\n[06:22] So, it's a movie called Kala, it's a Netflix movie\n[06:31] and there's a song called Shak in it\n[06:36] and it's stuck in my head.\n[06:38] Sorry, it's just too much, too specific.\n[06:43] So, I don't know whether anyone will be able\n[06:45] to relate to that song.\n[06:47] Someone might now, you never know.\n[06:50] What's something you're working on right now\n[06:53] or an area of growth you're developing? [do not use: interviewer]\n[06:58] Is a couple of things.\n[07:00] One is giving hard feedback to people\n[07:08] without, or not shying away from it.\n[07:13] That's one.\n[07:14] And second is writing well.\n[07:16] Awesome. [do not use: crew talk]\n[07:17] And hardest leadership lesson that you've learned,\n[07:20] what would you say that is? [do not use: interviewer]\n[07:30] Hardest leadership lesson that I've learned\n[07:33] is it's never going to become easy.\n[07:40] It's always going to be hard.\n[07:43] Yeah, definitely.\n[07:45] So, how has your definition of success changed\n[07:48] since you took this role? [do not use: interviewer]\n[07:51] Yeah, and we talked about this earlier.\n[07:52] For me, more and more success is,\n[07:59] actually doing the work itself\n[08:02] and finding joy and meaning in what you're doing\n[08:06] and not in what it might result into.\n[08:10] Of course, with the expectation it will result well,\n[08:12] but like if you did your job well, that's success.\n[08:16] If I did my job well today, today was good.\n[08:19] That's it.\n[08:19] And keeping it at that.\n[08:21] 100%.\n[08:22] So, what's a leadership habit or practice\n[08:26] you're intentional about? [do not use: interviewer]\n[08:27] Something you do on purpose, not just by default.\n[08:32] That's a good question that I do on purpose.\n[08:35] I think it is learning to intentionally involve people\n[08:47] in decision-making or even in the work.\n[08:50] I tend to, I used to tend to certain things\n[08:54] that I just need to think through myself and get them done.\n[08:57] And I find it very efficient,\n[08:59] but I've learned that just efficiency sometimes\n[09:02] is not what you should aim for.\n[09:06] When you involve people, things might be,\n[09:08] might take a while, might be messy,\n[09:10] but it will result in a better outcome\n[09:15] and will make sure that you are moving along\n[09:17] together somewhere.\n[09:18] So, it's not a journey on your own.\n[09:21] As a leader especially,\n[09:22] you have to be taking everyone along with you.\n[09:25] And that means involving them in the mess\n[09:28] of what's going on that you're working on.\n[09:30] So true, for sure.\n[09:32] So, who's a leader that you admire\n[09:34] and what do you admire about the way they lead? [do not use: interviewer]\n[09:38] It's, I spoke about that earlier.\n[09:40] Yvon Chouinard, who's the CEO of,\n[09:43] the founder, no longer the CEO of Patagonia.\n[09:45] And I've always admired about him\n[09:48] is doing work that is genuinely mission-oriented,\n[09:53] but doing it with joy.\n[09:56] Exactly.\n[09:57] And what's a question you wish more people asked you? [do not use: interviewer]\n[10:08] What's a question that more people asked me? [do not use: interviewer]\n[10:17] I don't know.\n[10:18] We can skip that one, it's all good.\n[10:19] Sorry.\n[10:20] Okay, no worries. [do not use: crew talk]\n[10:21] There's a few more that Britt just added in here too.\n[10:24] So.\n[10:25] Hold on, this is, yeah.\n[10:29] Cool.\n[10:29] So, how do you make a big decision\n[10:32] when the data doesn't give you a clear answer? [do not use: interviewer]\n[10:35] Oh my goodness, that's like every day.\n[10:39] I think there are, I look at it,\n[10:43] and not every decision is the same.\n[10:45] So there is, there are what are, you know,\n[10:50] one-way door decisions and two-way door decisions.\n[10:54] There are the two-way door decisions that easy\n[10:56] where you could make a decision and easily change it\n[10:59] if it didn't work out.\n[11:01] Those are easier to make where you can just say,\n[11:05] hey, the data isn't clear.\n[11:07] Let's make the decision based on whether it's, you know,\n[11:11] it's less important that at that time\n[11:14] you get it perfectly right.\n[11:15] It's more important to actually make a decision soon\n[11:18] because otherwise you lose a bunch of time\n[11:20] because if it didn't work out,\n[11:21] you can easily come back and do the other thing.\n[11:23] So just make the call.\n[11:25] When it is a, what we call a one-way door decision\n[11:28] where you, the decision will have lots of\n[11:34] implications.\n[11:35] You have to be more thoughtful and careful.\n[11:37] And, you know, there's, if you can get data,\n[11:39] more data, great, get it,\n[11:40] but often you will not be able to.\n[11:42] And there, I think it just needs to,\n[11:44] you still need to put,\n[11:45] I put some time-bound restriction.\n[11:48] We need to make this call in so much time\n[11:52] because otherwise you could spend a whole bunch of time on it.\n[11:54] But then make the call based on, you know,\n[11:57] what your principles are, what your mission is.\n[12:01] And eventually, as we spoke earlier,\n[12:02] at some point it is what's instinct\n[12:05] because the data is not giving you that.\n[12:08] And so you need to make the call.\n[12:10] And then as long as you've made the decision with integrity,\n[12:15] what I tell myself and the team is\n[12:17] now let's make that decision the right decision\n[12:21] and work towards making it right.\n[12:24] Awesome. [do not use: crew talk]\n[12:25] And what's a myth about leadership that you think is wrong? [do not use: interviewer's question, use it as on-screen text only]\n[12:30] That you need to know all the answers.\n[12:32] And that you need to be,\n[12:36] you need to be,\n[12:41] you need to have the facade of\n[12:45] somebody who knows what they're doing.\n[12:48] Clearly your\n[12:50] team wants to know that they can trust the leader.\n[12:54] But everyone's human and you,\n[12:59] most people don't know.\n[13:02] Most leaders that we all admire are also winging it.\n[13:08] And so it's okay if you don't know.\n[13:12] It's okay to say that you don't know.\n[13:15] And I think that's the myth\n[13:16] where people feel like you need to know everything.\n[13:19] Yeah, that's super important for sure. [do not use: crew talk]\n[13:21] So how do you build trust with a team quickly,\n[13:24] especially in a remote environment? [do not use: interviewer]\n[13:27] That's really hard.\n[13:29] I wouldn't say I know all the answers to it\n[13:32] or we have figured it out.\n[13:33] It is, A is like you make the time you have available\n[13:39] with everyone count,\n[13:41] which means connect with people genuinely\n[13:45] and get to know people in the time that you have.\n[13:47] So I try to make sure that there is,\n[13:49] you're having a conversation.\n[13:51] And that means getting to know them,\n[13:54] also having fun and not just keeping it to work\n[13:58] because that's how you get to know people and build trust.\n[14:02] Or eventually people are working with people\n[14:04] and you need to know the person that you're working with.\n[14:08] And we've talked about this at length.\n[14:12] I think being vulnerable,\n[14:15] telling people what you don't know,\n[14:16] asking for their help, that builds bonds.\n[14:20] And especially in a remote environment,\n[14:21] making sure that even though you're working remote,\n[14:23] Kiva is a fully remote organization,\n[14:25] still finding time where we can meet in person\n[14:29] once in a while,\n[14:30] because those bonds that are formed\n[14:32] by being in the same physical space together\n[14:34] are irreplaceable.\n[14:37] But yeah, using the precious time that you have together\n[14:41] virtually make it count more than just the work at hand.\n[14:46] Yeah, for sure.\n[14:47] And what do you think is a strength\n[14:50] of Kiva's digital first remote work environment? [do not use: interviewer]\n[14:59] I think one of the strengths we have\n[15:01] is the intentionality with which our organization\n[15:07] and the leaders in our organization\n[15:10] approach the conversations that they have\n[15:14] and the meetings that we have.\n[15:16] For example, we will have venues and meetings\n[15:22] where the point of that meeting\n[15:26] is that people connect with each other.\n[15:29] And I think having that intentionality is critical\n[15:33] because otherwise the connection that we have\n[15:38] is just becomes for the particular work at hand itself.\n[15:43] So especially our people and culture team\n[15:47] does a great job at making sure\n[15:49] that we have more opportunities to connect with each other.\n[15:55] And we have different tools that are available\n[15:58] where like-minded people can come together, discuss things,\n[16:02] and making sure that there are both times\n[16:07] where you can work on your own\n[16:10] because you need the headspace to just do deep work.\n[16:13] Our Wednesdays are typically no meeting days.\n[16:16] So you will just can go do deep work.\n[16:20] But at the same time, every week, other week,\n[16:22] we have all hands where people can come together\n[16:26] and we can talk about what everyone's working on.\n[16:29] So there's a lot of opportunity for connection.\n[16:31] So being intentional about how we are approaching the time.\n[16:35] And having said that,\n[16:37] there is a lot of room for us to improve as well.\n[16:40] Yeah, definitely.\n[16:41] Just like every organization for sure.\n[16:43] But that's super important that you all do that.\n[16:45] And some people in like an in-person office\n[16:47] might not even think to.\n[16:49] So next question I have here is what do you look for\n[16:53] when you're deciding to bet on someone\n[16:55] to invest real trust and opportunity in them? [do not use: interviewer]\n[16:59] Well, that's a deep question.\n[17:05] I think first is honesty and integrity of the person.\n[17:11] That to me without that, nothing works like this.\n[17:14] Does this person, can I trust this person? [do not use: interviewer]\n[17:18] In the sense, are they here for what they're saying\n[17:23] they're here for? [do not use: interviewer]\n[17:25] Can they follow through? [do not use: interviewer]\n[17:26] Can they, even if because they may not know everything,\n[17:31] which I don't know everything,\n[17:32] and they may not have certain capabilities,\n[17:35] but are they gonna show up in an honest way? [do not use: interviewer]\n[17:36] In an honest way.\n[17:37] And then second is, do they take feedback well? [do not use: interviewer]\n[17:43] And do they genuinely want to improve and change\n[17:46] and take feedback or are they defensive\n[17:50] and they are hard for them to take feedback\n[17:56] and do they have the growth mindset\n[18:00] where they'll say, oh, I'm not good at this,\n[18:03] but I can get better.\n[18:04] So if I see these ingredients,\n[18:06] like this person has integrity,\n[18:09] they are someone who genuinely wants to change\n[18:14] and they take feedback well,\n[18:16] it gives me all the more motivation to invest in them. [do not use: Kiva never puts “invest” on screen]\n[18:22] Definitely.\n[18:23] And how were you influenced by your early years\n[18:27] or your parents in the way that you lead now? [do not use: interviewer]\n[18:30] I would say one value is kindness.\n[18:39] I think love and kindness is critical.\n[18:42] And I think I grew up in a very loving family\n[18:45] and that is something that I carry with me.\n[18:51] I tell my kids as well,\n[18:52] it's like the Dalai Lama has a wonderful quote,\n[18:58] which is like, you can be kind,\n[19:06] whenever you can.\n[19:10] Be kind whenever it's possible\n[19:12] and remember it's always possible.\n[19:15] And I like, yeah, it is genuinely always possible, so.\n[19:18] Yeah, that's so true.\n[19:19] That's an awesome quote.\n[19:21] So what's a scar you have, a past failure\n[19:25] or hard experience that you'd point to\n[19:27] as something that shaped you and who you are? [do not use: interviewer]\n[19:34] Quite a few things I would say,\n[19:36] but there's one that comes to mind right now.\n[19:41] You know, when there was a,\n[19:45] at one of my previous jobs,\n[19:51] it's hard to get into details,\n[19:52] but I wrote something,\n[20:01] it was behind someone's back.\n[20:03] And I wrote my opinions or views\n[20:05] and I shared it with others.\n[20:08] And the person I had written it about saw them.\n[20:13] And when we had the conversation,\n[20:20] I felt I wouldn't,\n[20:25] or rather I said something behind someone's back\n[20:27] that I wouldn't say to their face.\n[20:30] And it just resulted in, you know,\n[20:33] I felt really awful after that,\n[20:34] where it was, I really,\n[20:37] I should have put it a different way\n[20:38] or I wouldn't have,\n[20:39] if I go back, I wouldn't have done it the same way.\n[20:43] And I think the one change I made after that\n[20:45] is if I'm speaking with someone\n[20:48] or writing something down, an opinion,\n[20:51] I do look at it and say,\n[20:53] if the person I'm saying this about,\n[20:57] if they read it, could I defend myself? [do not use: interviewer]\n[20:58] Could I say the same thing to their face,\n[21:00] even if it's hard? [do not use: interviewer]\n[21:01] And if I can't, then I change it.\n[21:03] I write it or say it in a different way,\n[21:06] because even though chances are,\n[21:08] somebody will see it as not there,\n[21:09] but that's a principle that I try to employ\n[21:14] because then it just, yeah,\n[21:16] it's, I don't know, that came to mind.\n[21:19] Yeah, I mean, that's a great example.\n[21:20] I mean, it's impressive that, you know,\n[21:22] you thought about, like that you said something\n[21:24] that that person might not have liked\n[21:25] and actually like changed what you do,\n[21:27] instead of just being like, ah, whatever, you know? [do not use: interviewer]\n[21:29] So that's a great example.\n[21:31] The next one here is,\n[21:32] if I had your direct reports in a room right now,\n[21:36] how would they describe you? [do not use: interviewer]\n[21:39] Oh my goodness.\n[21:39] I don't know.\n[21:42] How would they describe me? [do not use: interviewer]\n[21:46] I think they would describe me as authentic.\n[21:49] They would describe me as somebody\n[21:54] they can trust and they know that I'm here\n[21:57] for the right reasons.\n[21:59] Awesome. [do not use: crew talk]\n[22:00] And what's the difference between how people perceive you\n[22:03] and who you actually are? [do not use: interviewer]\n[22:16] I think that's, I'm hoping that that's,\n[22:20] that gap is narrowing day and day\n[22:22] because I try to be as authentic as possible,\n[22:25] which means people hopefully see me as I genuinely am.\n[22:33] I think the only thing that comes to mind is\n[22:38] I often, you know,\n[22:43] what might sometimes seem as decisions\n[22:47] that I'm making quickly,\n[22:52] there's actually a lot of thought behind it.\n[22:57] Yeah, maybe.\n[22:57] But I think overall I would feel,\n[22:59] I think that people see me as how I want to be seen.\n[23:08] Great answer.\n[23:09] So what is the moment you knew this was the work\n[23:12] you wanted to spend your life on? [do not use: interviewer]\n[23:16] Oh, I knew it the first few days.\n[23:19] So I joined Kiva and one of the first thing I was doing\n[23:22] was connecting with our partners, our lenders and everyone.\n[23:27] I think one of our partners spoke with me\n[23:33] and, you know, he's been the Kiva partner\n[23:35] for the last 20 years.\n[23:37] And he said, Vishal, you don't know it yet,\n[23:41] but this is the best decision you've made in your life.\n[23:45] Kiva is the best thing that's happened to the world\n[23:49] in the last 20 years.\n[23:50] That was his perspective, of course. [do not use: crew talk]\n[23:52] But, you know, he, the way he said it,\n[23:59] I have never, I mean, I've worked with partners,\n[24:01] customers throughout my life building products.\n[24:04] People have said thanks and, you know,\n[24:06] but nobody has ever put that much weight\n[24:11] in terms of like what this meant for them\n[24:14] and how much impact this organization has had on them\n[24:19] and the people that they work with.\n[24:22] I said, this is like, I don't know.\n[24:24] I had gave me goosebumps and, you know, I knew it.\n[24:27] This is where I need to be.\n[24:28] Wow, amazing.\n[24:30] And what's the, oh, this is, oh yeah,\n[24:34] I forgot Britt texted this one.\n[24:37] What's the first loan you made on Kiva.org? [do not use: interviewer]\n[24:42] I'll have to go back and see it.\n[24:42] So we'll, I'll take a look and come back.\n[24:45] Okay, we'll come back to that one. [do not use: crew talk]\n[24:46] Here's the last one that she added.\n[24:49] And she said, this might feel too personal.\n[24:52] So take it or leave it.\n[24:53] So up to you.\n[24:54] How does your experience as an immigrant\n[24:56] help connect you to Kiva's work\n[24:58] and the people that we serve? [do not use: interviewer]\n[25:02] Yeah, I mean, less as an immigrant,\n[25:06] but more as where I grew up in.\n[25:09] And I came from a family where we had enough,\n[25:14] but it was, you know, like it was,\n[25:18] there wasn't, on a day-to-day basis,\n[25:22] I saw disparity when I grew up in Mumbai, right? [do not use: interviewer]\n[25:30] There was poverty and people struggling was like apparent.\n[25:36] And I saw what I had growing up as well,\n[25:42] which was, you know, a lot of love, security, education.\n[25:49] And I could see that there is like,\n[25:55] I saw the hard work that people were putting in, you know,\n[25:58] we had people who used to work, you know, close by,\n[26:04] should travel two, three hours every day\n[26:07] to come to the place, like do their work and then go back.\n[26:10] And they did it day in and day out.\n[26:13] And I could also see that it's still,\n[26:16] their lives are still going to be the same,\n[26:17] even after putting all that hard work in.\n[26:20] And I saw how much, you know, starting conditions made,\n[26:25] starting conditions made a difference in outcomes of people.\n[26:29] And you saw people, I saw people trapped in\n[26:35] what seemed like perpetual cycles of poverty\n[26:39] with no fault of their own.\n[26:44] So all those things were,\n[26:50] are things that definitely helped me\n[26:54] like find the right motivation and reason\n[26:57] for doing what we do on a day-to-day basis.\n[27:00] Yeah, that totally made sense.\n[27:01] It must have been very impactful.\n[27:03] All right, the last question we have to do in here,\n[27:05] then we can move outside.\n[27:07] In one plain, simple explanation,\n[27:10] tell someone who's never heard of Kiva\n[27:12] what you all actually do,\n[27:14] and assume they know nothing about microfinancing\n[27:18] or nonprofit lending.\n[27:21] Okay, can I have a minute to think? [do not use: crew talk]\n[27:23] Yeah, go for it, yeah.\n[27:45] Okay, we'll do, let's see, we'll do, [do not use: crew talk]\n[27:48] this is an important one, so we'll do a couple of takes\n[27:50] if it doesn't work out.\n[27:55] People all around the world have, you know,\n[28:01] the talent, desire to do better in their lives.\n[28:04] And they aren't held back because of that.\n[28:07] They're often held back because they don't have access\n[28:09] to certain basics.\n[28:11] And one of the basics is just access to money\n[28:14] that they can invest in their own livelihoods. [do not use: Kiva never puts “invest” on screen]\n[28:16] So imagine a farmer who wants to buy seeds\n[28:21] to grow crops, and they don't have the money\n[28:26] to actually buy the seeds.\n[28:27] If they're able to buy the seeds,\n[28:29] then they can actually farm and, you know,\n[28:31] make money out of it.\n[28:35] And what we do at Kiva is help that farmer\n[28:39] get access to money so they can invest and buy those seeds [do not use: Kiva never puts “invest” on screen]\n[28:43] so that they can get a crop, make money,\n[28:45] and return the money back.\n[28:48] And so think about that across the globe.\n[28:51] If we are able to help people who know how to improve\n[28:55] their lives but just don't have access to money\n[28:57] to put in to their livelihoods, if they had that access,\n[29:01] we would solve so many work problems in the world.\n[29:04] And that's what we do at Kiva, is everyday people\n[29:09] can pool their money together, and we can make these loans\n[29:13] happen to a farmer in Kenya, a fisherman in Philippines,\n[29:18] a basket weaver in Uganda, so they can invest [do not use: Kiva never puts “invest” on screen]\n[29:21] in their own livelihoods and better their lives.\n[29:24] So yeah, you can go to kiva.org, look at stories\n[29:27] and profiles of people across the world,\n[29:30] entrepreneurs who want to grow their own businesses.\n[29:36] You can pool in money with millions of other lenders\n[29:39] around the world and make an accessible loan happen\n[29:42] to that farmer, that fisherman, that basket weaver,\n[29:46] and see how their story progresses.\n[29:50] I love how you ended that answer with kind of a call\n[29:52] to action there, that was awesome.\n[29:54] All right, sweet.\n[29:56] Should we do a couple more of this, or is this? [do not use: interviewer]\n[29:58] We can do that one more time.\n[29:59] Yeah, I'm thinking we'll do that question again outside too,\n[30:02] so I think we're probably all good for now in here.\n[30:05] Great, excellent. Awesome, great work.\n[30:07] Do you wanna change your shirt real quick\n[30:09] before we go outside? [do not use: interviewer]\n[30:10] Anything to suggest for...",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "And so it's okay if you don't know.",
+    "who": "Vishal Ghotge",
+    "file": "P1000912.MOV",
+    "why": "The permission line as the hook."
+   },
+   {
+    "quote": "That you need to know all the answers.",
+    "who": "Vishal Ghotge",
+    "file": "P1000912.MOV",
+    "why": "The myth itself, short."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "It's okay to say that you don't know.",
+    "who": "Vishal Ghotge",
+    "file": "P1000912.MOV",
+    "why": "The permission instead of the myth."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "somebody who knows what they're doing.",
+    "who": "Vishal Ghotge",
+    "file": "P1000912.MOV",
+    "why": "Shorter: only the end of the line."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "team wants to know that they can trust the leader.",
+    "who": "Vishal Ghotge",
+    "file": "P1000912.MOV",
+    "why": "Only the trust part."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "And so it's okay if you don't know.",
+    "who": "Vishal Ghotge",
+    "file": "P1000912.MOV",
+    "why": "Skip the repeat and go to the permission."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "It's okay to say that you don't know.",
+    "who": "Vishal Ghotge",
+    "file": "P1000912.MOV",
+    "why": "Only the second half, shorter."
+   }
+  ],
+  "bite:6": [
+   {
+    "quote": "It's okay to say that you don't know.",
+    "who": "Vishal Ghotge",
+    "file": "P1000912.MOV",
+    "why": "Close on the permission instead."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "The myth of the leader who knows everything",
+    "line": "Most leaders that we all admire are also winging it.",
+    "why": "The title as the hook. His line answers it."
+   },
+   {
+    "text": "Most leaders are winging it",
+    "line": "Most leaders that we all admire are also winging it.",
+    "why": "Atdhe's and Nick's pick for the hook line, said short."
+   },
+   {
+    "text": "It's okay to say you don't know",
+    "line": "It's okay to say that you don't know.",
+    "why": "The permission up front."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "Kiva's CEO series runs light: Vishal is the picture, one text element at a time, captions in Kiva green, the green K logo only in a top corner from 0:03, and the Kiva end card. Nothing covers the captions.",
+  "devices": [
+   {
+    "row": "00:00–00:05",
+    "device": "Hook text, static, top third; close angle",
+    "asset": "highlight_callout (MG library); B cam P1000912",
+    "source": "Script; Block 1 Kitchen"
+   },
+   {
+    "row": "00:05–00:07",
+    "device": "Question text, top third",
+    "asset": "highlight_callout",
+    "source": "Script (the interviewer's question)"
+   },
+   {
+    "row": "00:13–00:20",
+    "device": "Name super; angle changes over the um cuts",
+    "asset": "tag_label; Kiva lower third bar; A and B cam",
+    "source": "Script; Kiva graphics package"
+   },
+   {
+    "row": "00:25–00:31",
+    "device": "Key words top",
+    "asset": "highlight_callout",
+    "source": "Script"
+   },
+   {
+    "row": "00:35–00:39",
+    "device": "End card",
+    "asset": "end_card (MG library)",
+    "source": "endcards/kiva, 10 Oct 2026"
+   }
+  ],
+  "broll_pool": [],
+  "elements": [
+   {
+    "name": "Lower third bar (name super)",
+    "kind": "lower third",
+    "file": "Kiva_05_Lower-third-bar_9x16_ProRes4444.mov",
+    "url": "https://drive.google.com/file/d/1FZBm2AaY5mb_ABUaf6I503o_6F8mAmMv/view",
+    "local": null,
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   },
+   {
+    "name": "Topic tag",
+    "kind": "tag",
+    "file": "Kiva_12_Topic-tag_9x16_ProRes4444.mov",
+    "url": "https://drive.google.com/file/d/1j1BTRreIqAGUSLN8RxsgWSgk1BoOy8Lr/view",
+    "local": null,
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   },
+   {
+    "name": "Underline draw",
+    "kind": "accent",
+    "file": "Kiva_07_Underline-draw_9x16_ProRes4444.mov",
+    "url": "https://drive.google.com/file/d/1gjj2abkhjhWwK49RizFCkHBVmAagWxTx/view",
+    "local": null,
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   },
+   {
+    "name": "Kiva end card (white wordmark on #223829)",
+    "kind": "end_card",
+    "file": "endcards/kiva/kiva-logo-white.svg",
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
+}

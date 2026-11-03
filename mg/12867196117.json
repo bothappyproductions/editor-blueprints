@@ -1,0 +1,161 @@
+{
+ "item": "12867196117",
+ "client": "kiva",
+ "note": "The script asks for the hook text, a location pin, one name super, a key-word line, two tags, a word stack and one more key-word line, so 8 graphics and the end card. One text element is on screen at a time.",
+ "mg": [
+  {
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "What a single loan can help do"
+   },
+   "cue": "Hook text on frame 1, top: “What a single loan can help do”",
+   "src": "Script, row 00:00–00:04, Motion graphics & type.",
+   "rows": [
+    "00:00–00:04"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third. Nothing else on screen with it.",
+   "n": 1
+  },
+  {
+   "title": "Location pin",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Cambodia"
+   },
+   "cue": "Location pin, upper left, at 00:05–00:08: “Cambodia”",
+   "src": "Script, row 00:04–00:10, Motion graphics & type.",
+   "rows": [
+    "00:04–00:10"
+   ],
+   "use": "Put it on at 00:05 for 3 s, upper left, over the photo. Keep captions on.",
+   "n": 2
+  },
+  {
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Vishal Ghotge"
+   },
+   "cue": "Name super at 00:10–00:13, small, lower left above the captions: “Vishal Ghotge” / CEO at Kiva",
+   "src": "Script, row 00:10–00:22, Motion graphics & type.",
+   "rows": [
+    "00:10–00:22"
+   ],
+   "use": "Put it on at 00:10 for 3 s. Move it lower left, above the captions. Type the second line <CEO at Kiva> under it.",
+   "n": 3
+  },
+  {
+   "title": "Key words",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "No, I want to study more"
+   },
+   "cue": "Key words, top third, as he says them: “No, I want to study more”",
+   "src": "Script, row 00:22–00:31, Motion graphics & type.",
+   "rows": [
+    "00:22–00:31"
+   ],
+   "use": "Put it on as he says these words and hold about 3 s, in the top band. Keep captions on.",
+   "n": 4
+  },
+  {
+   "title": "Partner tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Wedu"
+   },
+   "cue": "Topic tag, upper left, as he says it: “Wedu” (Kiva's partner)",
+   "src": "Script, row 00:31–00:36, Motion graphics & type.",
+   "rows": [
+    "00:31–00:36"
+   ],
+   "use": "Put it on as he says it and hold 3 s, upper left. Keep captions on.",
+   "n": 5
+  },
+  {
+   "title": "Her degrees",
+   "tpl": "word_stack",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "items": [
+     "bachelor's",
+     "master's in public policy"
+    ]
+   },
+   "cue": "Key words one at a time, top third, as he says them: “bachelor's” / “master's in public policy”",
+   "src": "Script, row 00:50–00:54, Motion graphics & type.",
+   "rows": [
+    "00:50–00:54"
+   ],
+   "use": "Each line lands on his word. Top band. Keep captions on.",
+   "n": 6
+  },
+  {
+   "title": "Nonprofit tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Banteay Srei"
+   },
+   "cue": "Topic tag, upper left, as he says it: “Banteay Srei”",
+   "src": "Script, row 00:54–01:05, Motion graphics & type.",
+   "rows": [
+    "00:54–01:05"
+   ],
+   "use": "Put it on as he says it and hold 3 s, upper left. Keep captions on.",
+   "n": 7
+  },
+  {
+   "title": "Key words",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "hundreds of women across Cambodia"
+   },
+   "cue": "Key words, top third, as he says them: “hundreds of women across Cambodia”",
+   "src": "Script, row 01:15–01:33, Motion graphics & type.",
+   "rows": [
+    "01:15–01:33"
+   ],
+   "use": "Put it on as he says these words and hold about 3 s, in the top band. Keep captions on.",
+   "n": 8
+  },
+  {
+   "n": 9,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:43–01:47"
+   ],
+   "cue": "End card on dark forest green #223829: Kiva logo, then “Give a little. Change a lot.” and kiva.org.",
+   "src": "Kiva's white wordmark from the Kiva brand kit built from kiva.org (Mac Studio, state/kiva/brand/logos, 10 Oct 2026), endcards/index.json. Tagline from the client file.",
+   "c": {
+    "bg": "#223829",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/kiva/kiva-logo-white.svg",
+   "text": {
+    "lines": [
+     "Give a little. Change a lot.",
+     "kiva.org"
+    ]
+   },
+   "dur": 4.0,
+   "use": "This is the end card. Put it right after “or even a country” at 01:43 and hold it to the end."
+  }
+ ]
+}
