@@ -1,5 +1,5 @@
 {
-"synced": "2026-11-03T14:52:29Z",
+"synced": "2026-11-03T15:56:07Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
@@ -145,8 +145,8 @@
 "st": "missing"
 },
 "13013928660": {
-"st": "review",
-"label": "In review",
+"st": "revise",
+"label": "Needs revisions",
 "due": "2026-10-13",
 "v": "V3"
 },
@@ -1088,8 +1088,8 @@
 "v": "V1"
 },
 "13412186309": {
-"st": "edit",
-"label": "Editing",
+"st": "review",
+"label": "In review",
 "due": "2026-11-04",
 "v": "V1"
 },
@@ -1293,220 +1293,309 @@
 "label": "Needs revisions",
 "due": "2026-08-24",
 "v": "V2"
-}
 },
-"extra": {
-"12489939504": {
-"st": "review",
-"label": "In review",
+"12666660159": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-09-23",
 "v": "V4",
-"ed": "Bleron",
-"client": "Lions International",
-"title": "Kenya Lion (Traditional)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12489939504"
+"ed": "Bleron"
 },
-"13419818860": {
-"st": "review",
-"label": "In review",
-"v": "V1",
-"ed": "Bleron",
-"client": "Network for Teaching Entrepreneurship",
-"title": "NFTEComcastCTVDonationSpot169HD001.mp4 (Batch #1 - 2026)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13419818860"
+"12714476457": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V3"
 },
-"13402557235": {
-"st": "review",
-"label": "In review",
-"due": "2026-10-30",
-"v": "V1",
-"ed": "Qendrim",
-"client": "SFCG",
-"title": "Imagine If: Tin Can Phone · One Stranger - \"We're Always Evolving\" (Courtney, about 28s)",
-"link": "https://docs.google.com/document/d/1TBItHnSnlgylUDQe-WFrr3y0S-3vTwnvQ_jEdxRZ-so/edit?usp=drivesdk"
+"13386485946": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-06",
+"v": "V1"
+},
+"13386500443": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-05",
+"v": "V1"
 },
 "13432382072": {
 "st": "review",
 "label": "In review",
 "due": "2026-10-30",
+"v": "V1"
+},
+"12950146109": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-09-04"
+},
+"12950126041": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-09-07"
+},
+"12950081937": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-09-09"
+},
+"13305757514": {
+"st": "revise",
+"label": "Needs revisions",
 "v": "V1",
-"ed": "Bleron",
-"client": "YCDIF",
-"title": "2026 Year in Review (Dec 13 donor event)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13432382072"
+"note": "Rebecca's stadium footage from the site visit (item 9 of 9 on her 21 Oct editing list, nick@ msg 1a15fd26e76f2ced)"
 },
-"12396146684": {
+"13402557235": {
 "st": "review",
 "label": "In review",
-"due": "2026-08-19",
-"v": "V3",
-"ed": "Bleron",
-"client": "Navy SEAL Foundation",
-"title": "Event Highlight / Sizzle",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12396146684"
+"due": "2026-10-30",
+"v": "V1"
 },
-"12891377964": {
-"st": "review",
-"label": "In review",
-"due": "2026-10-12",
-"v": "V1",
-"ed": "Bleron",
-"client": "NFTE",
-"title": "Fuel a Future: Competition Video 2",
-"link": "https://docs.google.com/document/d/1um8OpXvIrZAsos5u7P1vem9TJ2_cJyX6HwPOGKxFY4g/edit"
-},
-"12396130190": {
-"st": "review",
-"label": "In review",
-"due": "2026-09-01",
-"v": "V3",
-"ed": "Bleron",
-"client": "Navy SEAL Foundation",
-"title": "Jean Cassidy (social clip)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12396130190"
-},
-"12767071313": {
-"st": "review",
-"label": "In review",
-"due": "2026-09-16",
-"v": "V4",
-"ed": "Bleron",
-"client": "Kiva Vishal",
-"title": "The Myth of the Leader Who Knows Everything",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12767071313"
-},
-"12727618241": {
-"st": "review",
-"label": "In review",
-"due": "2026-09-08",
-"v": "V3",
-"ed": "Bleron",
-"client": "Central Arizona Shelter Services",
-"title": "Nicole Williams",
-"link": "https://drive.google.com/drive/folders/1igYrvZ_kWXHBVSeg2BHgNbH8rEtsMsU3"
-},
-"13237902846": {
-"st": "review",
-"label": "In review",
-"v": "V2",
-"ed": "Bleron",
-"client": "Watsi",
-"title": "WATSIAdDonorNoteDavidSQUARE001.mp4 (Batch #6 - 2026)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13237902846"
-},
-"12714476534": {
-"st": "review",
-"label": "In review",
-"due": "2026-10-05",
-"v": "V3",
-"ed": "Bleron",
-"client": "Watsi Medellin",
-"title": "V07 · FAQ — What Happens After Surgery?",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12714476534"
-},
-"13123147560": {
-"st": "review",
-"label": "In review",
-"due": "2026-10-13",
-"v": "V2",
-"ed": "Bleron",
-"client": "Watsi",
-"title": "NYC Sept 22: Kimmy — \"Transparency Means the Messy Parts Too\" (scripted FAQ short, Bleron)",
-"link": "https://docs.google.com/document/d/1AxZBNLcF7DEL_u_MgaNIEKnMLfVNMR35p9sPiti6DB8/edit"
-},
-"12937285887": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-03",
-"v": "V1",
-"ed": "Qendrim",
-"client": "Freedom Reads",
-"title": "V5 \"A Book About Censorship\" (Samantha Jones / WCCW)",
-"link": "https://docs.google.com/document/d/1i31umKHR47SVvNcsssxCUJhLLsX2wBx0Jj08Fvh8nkA/edit"
-},
-"12937251195": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-03",
-"v": "V1",
-"ed": "Qendrim",
-"client": "Freedom Reads",
-"title": "V6 \"Take Our Name Back\" (Group Discussion / WCCW)",
-"link": "https://docs.google.com/document/d/1shZmprwfwq8StQgtRmM53qqaiPl2cd3eQF0EXFhGhHc/edit"
-},
-"12758007252": {
-"st": "review",
-"label": "In review",
-"v": "V3",
-"ed": "Qendrim",
-"client": "Segway",
-"title": "Script 12: Walk, or Segway? (9:16 TikTok)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12758007252"
-},
-"13287615260": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-03",
-"v": "V1",
-"ed": "Qendrim",
-"client": "Lions International",
-"title": "AYH: Ernie Richmann III — \"Three Of His Students Died\" (why Safety Town exists, 9:16, ~70s)",
-"link": "https://docs.google.com/document/d/1ZCaUlnKmWOLv1uzoLb5sQhen6A9BWyf1cKjyQCqXLk8/edit"
-},
-"12936997958": {
-"st": "review",
-"label": "In review",
-"v": "V5",
-"ed": "Qendrim",
-"client": "Family Reach",
-"title": "Kristen & Paisley Patient Story",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12936997958"
-},
-"13386517059": {
-"st": "review",
-"label": "In review",
-"v": "V3",
-"ed": "Qendrim",
-"client": "Watsi",
-"title": "Colombia Oct 20: FAQ 4 of 5 — Sonam: \"What Do You Wish More People Knew They Could Do on Watsi?\" (9:16, ~1:06, full script)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13386517059"
-},
-"12918935079": {
-"st": "review",
-"label": "In review",
-"v": "V7",
-"ed": "Qendrim",
-"client": "AIJ",
-"title": "30th Gala: Cheryl Little Founder Piece (Thirty Years, One Word: Hope)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12918935079"
+"18231033514": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V4"
 },
 "13412205523": {
 "st": "review",
 "label": "In review",
 "due": "2026-11-04",
-"v": "V1",
-"ed": "Qendrim",
-"client": "NIWRC",
-"title": "OKC DVAM Reception 9 Oct: Cory Johnson - donor thank-you clip (9:16, about 15 s)",
-"link": "https://docs.google.com/document/d/1_1ulFN9uPNSaaaIix5HyExqPyxaJ6J4cMdAt2oVi7K4/edit"
+"v": "V1"
 },
-"13352572389": {
+"13304671686": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-09",
+"v": "V1"
+},
+"12937285887": {
+"st": "missing"
+},
+"12937251195": {
 "st": "review",
 "label": "In review",
-"v": "V3",
-"ed": "Qendrim",
-"client": "WNY",
-"title": "WSMO Partner: Buffalo State Fashion & Textile Technology (9:16, ~30–45s)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13352572389"
+"due": "2026-11-03",
+"v": "V2"
 },
-"18231033514": {
+"12918935079": {
+"st": "review",
+"label": "In review",
+"v": "V7"
+},
+"12936997958": {
+"st": "missing"
+},
+"12727625149": {
 "st": "revise",
 "label": "Needs revisions",
-"v": "V4",
-"ed": "Qendrim",
-"client": "CGLA | Search for Common Ground",
-"title": "2025)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/18231033514"
+"due": "2026-09-01",
+"v": "V4"
 },
+"13385185147": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-04",
+"v": "V1"
+},
+"12727618238": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-09-08",
+"v": "V3"
+},
+"12727618253": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-09-24",
+"v": "V1"
+},
+"13073098439": {
+"st": "hold",
+"label": "On hold",
+"note": "Staff 'one word job description' footage"
+},
+"13336213936": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-09"
+},
+"12727618241": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-09-08",
+"v": "V3"
+},
+"12731596620": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V4"
+},
+"13252339711": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V1"
+},
+"13252336435": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V1"
+},
+"12727601019": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V6"
+},
+"12489939504": {
+"st": "review",
+"label": "In review",
+"v": "V4"
+},
+"13287615260": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-03",
+"v": "V1"
+},
+"12489952052": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-05",
+"v": "V3"
+},
+"12489915356": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-03",
+"v": "V10"
+},
+"12396146684": {
+"st": "review",
+"label": "In review",
+"due": "2026-08-19",
+"v": "V3"
+},
+"12396130190": {
+"st": "review",
+"label": "In review",
+"due": "2026-09-01",
+"v": "V3"
+},
+"12758007252": {
+"st": "review",
+"label": "In review",
+"v": "V3"
+},
+"13419818860": {
+"st": "review",
+"label": "In review",
+"v": "V1"
+},
+"12891377964": {
+"st": "review",
+"label": "In review",
+"due": "2026-10-12",
+"v": "V1"
+},
+"12396605627": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V5"
+},
+"12489813219": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V2"
+},
+"12489846602": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V1"
+},
+"13412102343": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-10-30",
+"v": "V2"
+},
+"12767071313": {
+"st": "missing"
+},
+"12867196117": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-10-27",
+"v": "V4"
+},
+"12925038428": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V2"
+},
+"12767095358": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-08-27",
+"v": "V3"
+},
+"12767071335": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V2"
+},
+"12925071020": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V4"
+},
+"12925052298": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V4"
+},
+"12767085287": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V4"
+},
+"12767044920": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V4"
+},
+"12767085390": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V5"
+},
+"13237902846": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V2"
+},
+"12714476534": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-10-05",
+"v": "V3"
+},
+"13123147560": {
+"st": "missing"
+},
+"13386517059": {
+"st": "missing"
+},
+"13351764240": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V1"
+},
+"12997728247": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V4"
+}
+},
+"extra": {
 "18231012695": {
 "st": "revise",
 "label": "Needs revisions",
@@ -1562,43 +1651,6 @@
 "title": "S4SShoesOnCarTrend002.mp4",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/12777897545"
 },
-"12731596620": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V4",
-"ed": "Bleron",
-"client": "CASS Evergreen",
-"title": "Vista Colina Family Shelter (YouTube)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12731596620"
-},
-"12396605627": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V5",
-"ed": "Bleron",
-"client": "NFTE",
-"title": "JD LaRock social clip: \"Young people want a purpose in the world\"",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12396605627"
-},
-"12489813219": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V2",
-"ed": "Bleron",
-"client": "NFTE",
-"title": "JD LaRock Boston social: Listen to the Voice in Your Own Head",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12489813219"
-},
-"12867196117": {
-"st": "revise",
-"label": "Needs revisions",
-"due": "2026-10-27",
-"v": "V4",
-"ed": "Bleron",
-"client": "Kiva",
-"title": "KIVAVishalPhirongStoryVertical001.mp4 (Batch #6 - 2026)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12867196117"
-},
 "12947954368": {
 "st": "revise",
 "label": "Needs revisions",
@@ -1608,43 +1660,6 @@
 "client": "SFCG",
 "title": "Giving Tuesday: $50K Match CTA",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/12947954368"
-},
-"12489846602": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V1",
-"ed": "Bleron",
-"client": "NFTE",
-"title": "Reel AI Raises the Baseline (next technological milestone)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12489846602"
-},
-"13252339711": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V1",
-"ed": "Bleron",
-"client": "Central Arizona Shelter Services",
-"title": "CASSBrittnieNeighbors001PT1.mp4",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13252339711"
-},
-"13252336435": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V1",
-"ed": "Bleron",
-"client": "Central Arizona Shelter Services",
-"title": "CASSBrittnieNeighbors001PT2.mp4",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13252336435"
-},
-"12489952052": {
-"st": "revise",
-"label": "Needs revisions",
-"due": "2026-11-05",
-"v": "V3",
-"ed": "Bleron",
-"client": "Lions International",
-"title": "Icee Lion (Traditional)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12489952052"
 },
 "13310242599": {
 "st": "revise",
@@ -1665,165 +1680,6 @@
 "title": "The Renaissance Girl: Thrifted Shoes + AYH",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/12592125644"
 },
-"13351764240": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V1",
-"ed": "Bleron",
-"client": "Watsi",
-"title": "WATSIAdDonorNoteDeanSQUARE001.mp4 (Batch #6 - 2026)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13351764240"
-},
-"12925038428": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V2",
-"ed": "Bleron",
-"client": "Kiva",
-"title": "KIVAVishalThankYouPackTOPLENDER001.mp4 (Batch #6 - 2026)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12925038428"
-},
-"12767095358": {
-"st": "revise",
-"label": "Needs revisions",
-"due": "2026-08-27",
-"v": "V3",
-"ed": "Bleron",
-"client": "Kiva Vishal",
-"title": "Kiva in Schools: Dave Smith's Million Dollars",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12767095358"
-},
-"12767071335": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V2",
-"ed": "Bleron",
-"client": "Kiva Vishal",
-"title": "What Kiva Actually Is (Short Explainer)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12767071335"
-},
-"12925071020": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V4",
-"ed": "Bleron",
-"client": "Kiva",
-"title": "KIVAVishalThankYouPackFIRSTDONATION001.mp4 (Batch #6 - 2026)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12925071020"
-},
-"12925052298": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V4",
-"ed": "Bleron",
-"client": "Kiva",
-"title": "KIVAVishalThankYouPackFIRSTLOAN001.mp4 (Batch #6 - 2026)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12925052298"
-},
-"12767085287": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V4",
-"ed": "Bleron",
-"client": "Kiva Vishal",
-"title": "Rapid Fire",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12767085287"
-},
-"12767044920": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V4",
-"ed": "Bleron",
-"client": "Kiva Vishal",
-"title": "Intro & CTA B-Roll Pack",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12767044920"
-},
-"12767085390": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V5",
-"ed": "Bleron",
-"client": "Kiva Vishal",
-"title": "There Is No Typical Day",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12767085390"
-},
-"12727601019": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V6",
-"ed": "Bleron",
-"client": "Central Arizona Shelter Services",
-"title": "Sherry Wood (Client)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12727601019"
-},
-"12997728247": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V4",
-"ed": "Bleron",
-"client": "Watsi Meta Ads",
-"title": "DR01 · 100%, Not 90%",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12997728247"
-},
-"12727625149": {
-"st": "revise",
-"label": "Needs revisions",
-"due": "2026-09-01",
-"v": "V4",
-"ed": "Bleron",
-"client": "Central Arizona Shelter Services",
-"title": "Lucinda Patterson (CFO)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12727625149"
-},
-"13385185147": {
-"st": "revise",
-"label": "Needs revisions",
-"due": "2026-11-04",
-"v": "V1",
-"ed": "Bleron",
-"client": "CASS",
-"title": "Lucinda Patterson Longform Cut",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13385185147"
-},
-"12666660159": {
-"st": "revise",
-"label": "Needs revisions",
-"due": "2026-09-23",
-"v": "V4",
-"ed": "Bleron",
-"client": "S4S",
-"title": "Rebecca Kraft: \"The Take-Back Cycle\" (4EveryKid Newmarket)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12666660159"
-},
-"13412102343": {
-"st": "revise",
-"label": "Needs revisions",
-"due": "2026-10-30",
-"v": "V2",
-"ed": "Bleron",
-"client": "NFTE",
-"title": "Fuel a Future: 30s Comcast CTV spot (NFTE | BUILD, QR to nfte.com/fueloursharedfuture)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13412102343"
-},
-"12714476457": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V3",
-"ed": "Bleron",
-"client": "Watsi Medellin",
-"title": "V04 · FAQ — How Do Hospitals Work With Watsi?",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12714476457"
-},
-"12489915356": {
-"st": "revise",
-"label": "Needs revisions",
-"due": "2026-11-03",
-"v": "V10",
-"ed": "Bleron",
-"client": "Lions International",
-"title": "Mexico Lion (Traditional)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12489915356"
-},
 "13348422725": {
 "st": "revise",
 "label": "Needs revisions",
@@ -1833,26 +1689,6 @@
 "client": "Worldreader",
 "title": "US (English) Reel: Global Families Shell (9:16, 25-30s)",
 "link": "https://docs.google.com/document/d/1ZqgLyye_TE9t8mrvERsBdXgZ2F-PuAmSgKALX8J00ik/edit"
-},
-"12727618238": {
-"st": "revise",
-"label": "Needs revisions",
-"due": "2026-09-08",
-"v": "V3",
-"ed": "Bleron",
-"client": "Central Arizona Shelter Services",
-"title": "CASS Williams Brothers Community Dinner — Journey Recap",
-"link": "https://drive.google.com/drive/folders/1igYrvZ_kWXHBVSeg2BHgNbH8rEtsMsU3"
-},
-"12727618253": {
-"st": "revise",
-"label": "Needs revisions",
-"due": "2026-09-24",
-"v": "V1",
-"ed": "Bleron",
-"client": "Central Arizona Shelter Services",
-"title": "Ian Snyder (Client)",
-"link": "https://drive.google.com/drive/folders/1igYrvZ_kWXHBVSeg2BHgNbH8rEtsMsU3"
 },
 "10584081993": {
 "st": "edit",
@@ -1869,42 +1705,6 @@
 "client": "—",
 "title": "S4S Trend Videos",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/10544387821"
-},
-"12950146109": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-09-04",
-"ed": "Atdhe",
-"client": "SFCG",
-"title": "Peace Delivered Carousel: Messages of Peace (handwritten)",
-"link": "https://docs.google.com/document/d/1kRlUnlg55AXIwFQGU4UrnS5DGe7k7yY-xLXqcr4_2xg/edit"
-},
-"12950126041": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-09-07",
-"ed": "Atdhe",
-"client": "SFCG",
-"title": "Peace Delivered Carousel: Emma (one peacemaker)",
-"link": "https://docs.google.com/document/d/1QurQDYeoBqjO8z6V6m4Z9pM3MvAm3CKydVSWToJA76I/edit"
-},
-"12950081937": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-09-09",
-"ed": "Atdhe",
-"client": "SFCG",
-"title": "Peace Delivered Carousel: Pass It On (Olive → stranger → stranger)",
-"link": "https://docs.google.com/document/d/18imzEX2h_ph62Nz0RVbhMmuxhlh12NShcceQ2a4MMRU/edit"
-},
-"13073098439": {
-"st": "hold",
-"label": "On hold",
-"note": "Staff 'one word job description' footage",
-"ed": "Bleron",
-"client": "CASS",
-"title": "\"One Word Job Description\" Staff Montage",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13073098439"
 },
 "13188788568": {
 "st": "edit",
@@ -1962,54 +1762,6 @@
 "client": "Watsi",
 "title": "Colombia Oct 20: Mackinnon thank-you — Universal Fund community (off the cuff)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13299701519"
-},
-"13304671686": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-09",
-"v": "V1",
-"ed": "Ardit",
-"client": "NIWRC",
-"title": "OKC DVAM Reception 9 Oct: Lucy Simpson (CEO) - general donor thank-you (9:16, about 45s)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13304671686"
-},
-"13305757514": {
-"st": "hold",
-"label": "On hold",
-"note": "Rebecca's stadium footage from the site visit (item 9 of 9 on her 21 Oct editing list, nick@ msg 1a15fd26e76f2ced)",
-"ed": "Qendrim",
-"client": "WNY",
-"title": "WSMO: Stadium",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13305757514"
-},
-"13336213936": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-09",
-"ed": "Bleron",
-"client": "CASS Evergreen",
-"title": "The Haven (55+ shelter) — NEW (Oct 2026 Haven footage)",
-"link": "https://docs.google.com/document/d/1UiY3pwpwUhW_Zx5bz1Rxa0kEhIEFC22MkxS6hSssMgY/edit"
-},
-"13386500443": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-05",
-"v": "V1",
-"ed": "Qendrim",
-"client": "Watsi",
-"title": "Colombia Oct 20: FAQ 3 of 5 — Sonam: \"What's the Most Unique Thing About Watsi?\" (16:9, ~2:12, full script)",
-"link": "https://docs.google.com/document/d/1dDeL4smwFzysA3Y_ar1qnJ0AQnG8r8CjU18VSwX29G0/edit"
-},
-"13386485946": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-06",
-"v": "V1",
-"ed": "Qendrim",
-"client": "Watsi",
-"title": "Colombia Oct 20: FAQ 2 of 5 — Sonam: \"Did My Money Actually Do What I Thought It Would?\" (16:9, ~1:37, full script)",
-"link": "https://docs.google.com/document/d/1zeYEVCcQEgMjHr40qKK7PHusOWB9KqOO3HfsVhQvNUM/edit"
 }
 }
 }
