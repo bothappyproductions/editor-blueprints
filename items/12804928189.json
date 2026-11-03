@@ -1,0 +1,411 @@
+{
+ "id": "12804928189",
+ "client": "cass",
+ "eyebrow": "Are You Happy × CASS · Vista Colina Family Shelter, Phoenix · 26 Jul 2026 · Journey cut, Nick on screen",
+ "title": "Williams Brothers:",
+ "title_q": "Sunday Dinner",
+ "title_short": "AYH × CASS · Williams Brothers Sunday Dinner (Journey cut)",
+ "editor": "Bleron",
+ "due": "2026-08-24",
+ "format": "9:16 only · 1080×1920",
+ "length": "about 90 s",
+ "edit_key": "CASSAreYouHappyWilliamsJourney001",
+ "headline": "Nick the hooper meets two NBA players, and the payoff isn't basketball: Jalen and Cody Williams came home to serve Sunday dinner at a family shelter.",
+ "story": [
+  "Nick is a basketball guy. In Phoenix in July he hears two NBA players are serving dinner at a family shelter. He's in.",
+  "They didn't come home for training, they came home for Sunday dinner. Their mom Nicole runs it: a fine-dining night that tells residents they are valued.",
+  "Are you happy? One laughs: who can be upset after Sunday dinner. The other: cherish the happy moments. Then the photo."
+ ],
+ "feel": [
+  "Warm",
+  "Fun",
+  "Real",
+  "Grounded"
+ ],
+ "do": [
+  "Cold open on the Finding Hoopers clip, hard cut out on the beat.",
+  "Give Nicole a real block and her full label.",
+  "Let the laugh land clean on the first answer: no cutaway, no swell.",
+  "Hold a beat on a speaker after he stops talking before cutting away.",
+  "End on the photo, then the end card."
+ ],
+ "dont": [
+  "Don't say “I play for the Utah Jazz”: Cody was traded.",
+  "Don't let the reveal become a sports edit.",
+  "No kids' faces or identifying resident details without a confirmed release.",
+  "Don't super a name on beats 9, 10, 12 or 13 until you confirm the speaker by picture.",
+  "Don't trim the question, the two answers or the photo."
+ ],
+ "links": {
+  "brief": {
+   "title": "A/V Script — Williams Brothers Sunday Dinner (Journey Cut)",
+   "url": "https://docs.google.com/document/d/16d6qke4ieSSP7KCy31cQA7zOrLSdm4kFbTEVcz32Dvg/edit",
+   "note": "15 beats, every bite verbatim and timecoded. Locked and approved by Nick (Monday, 14 Aug)."
+  },
+  "reference": {
+   "missing": true,
+   "title": "None on the item",
+   "note": "Match the Finding Hoopers series look for the cold open."
+  },
+  "footage": {
+   "title": "CASS July 2026 shoot",
+   "url": "https://drive.google.com/drive/folders/1igYrvZ_kWXHBVSeg2BHgNbH8rEtsMsU3",
+   "note": "Williams Brothers Family Dinner · Williams Family &amp; Friends Interviews · Family Shelter Outdoor B Roll · CASS Family Shelter Drone Shots."
+  }
+ },
+ "bp_intro": "Bites are from <span class=\"mono\">20260726_C4414.MP4</span> (Jalen &amp; Cody) and <span class=\"mono\">C4415</span> (Nicole), horizontal 4K. Times are from the A/V script and are relative to each clip. Nick's lines are his VO. After the intros the transcript doesn't say which brother is talking: confirm by picture.",
+ "rows": [
+  {
+   "tc": "00:00–00:05",
+   "beat": "COLD OPEN",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "<b>Archive:</b> Finding Hoopers, Nick guarding The Professor. Punch in on the best move.",
+   "motion": "Small archive tag, upper corner: <q>Finding Hoopers</q>. No logo, no lower third. Hard cut out on the beat.",
+   "voice": {
+    "who": "Nick (VO)",
+    "quote": "If you've checked our Finding Hoopers series, you already know, I'm a basketball guy.",
+    "src": "Nick VO"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Hoop energy."
+  },
+  {
+   "tc": "00:05–00:12",
+   "beat": "SETUP",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Drone push toward Vista Colina (CASS Family Shelter Drone Shots), heat shimmer, then Nick walking in with camera gear.",
+   "motion": "<q>Phoenix, AZ · July</q>. Caption “that night,” with the comma.",
+   "voice": {
+    "who": "Nick (VO)",
+    "quote": "So when a shoot took me to Phoenix in the middle of July, and I found out two NBA players were serving dinner at a family shelter that night… yeah. I was in.",
+    "src": "Nick VO"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice."
+  },
+  {
+   "tc": "00:12–00:18",
+   "beat": "CODY",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Smash cut to the two-shot interview. Cody first. Reframe 9:16 on him.",
+   "motion": "<b>Lower third:</b> Cody Williams | Minnesota Timberwolves, low in frame. Captions sit just under it, never overlapping. CASS all caps (transcript: “cast”).",
+   "voice": {
+    "who": "Cody Williams",
+    "quote": "My name's Cody Williams. … grew up here in Arizona, so it's always nice coming back, be able to work with CASS.",
+    "src": "C4414 0:12→0:20 (cut “I play for the Utah Jazz”)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice."
+  },
+  {
+   "tc": "00:18–00:24",
+   "beat": "JALEN",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Reframe on Jalen. Optional 0.5 s trophy still on “champion”. Keep it quick.",
+   "motion": "<b>Lower third:</b> Jalen Williams | Oklahoma City Thunder. Jalen, not “Jaylen”.",
+   "voice": {
+    "who": "Jalen Williams",
+    "quote": "I'm Jalen Williams. I play for the Oklahoma City Thunder, champion of Oklahoma City Thunder.",
+    "src": "C4414 0:21→0:27"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice."
+  },
+  {
+   "tc": "00:24–00:29",
+   "beat": "THE TURN",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Quiet setup B-roll: white tablecloths going down, plates squared up, centerpieces, empty chairs in a row.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Nick (VO)",
+    "quote": "But they didn't come home for training. They came home for Sunday dinner.",
+    "src": "Nick VO"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music drops out for half a beat, then back softer."
+  },
+  {
+   "tc": "00:29–00:39",
+   "beat": "WHY SUNDAY DINNER",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Over setup and serving B-roll: napkins folded, trays out, volunteers in matching shirts.",
+   "motion": "Pull-quote: <q>We took Sundays really personal.</q>",
+   "voice": {
+    "who": "Jalen",
+    "quote": "Our thing is centered around Sunday dinner, family dinner. It's just how we grew up. It was the one time where nobody had any AAU basketball. Nobody was working, so we took Sundays really personal.",
+    "src": "C4414 0:39→0:50"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice."
+  },
+  {
+   "tc": "00:39–00:48",
+   "beat": "MEET MOM",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Nicole's interview, then her working the room: directing volunteers, checking tables.",
+   "motion": "<b>Lower third:</b> Nicole Williams | Mother of Jalen &amp; Cody · WTTP Foundation, low in frame. Captions under it, no overlap.",
+   "voice": {
+    "who": "Nicole Williams",
+    "quote": "I'm Nicole Williams. I'm the mother of Jalen and Cody Williams… one of the things they do through the foundation is the Williams Brothers Sunday Dinner, that they have me spearheading.",
+    "src": "C4415 0:05→0:19"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice."
+  },
+  {
+   "tc": "00:48–00:57",
+   "beat": "WHAT THE DINNER IS",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Best serving footage: plates out, drinks poured, family in aprons, guests laughing. No kids' faces without a release.",
+   "motion": "<q>Fine dining, at a family shelter.</q> Caption “fine-dining” hyphenated and the comma after “them”.",
+   "voice": {
+    "who": "Nicole Williams",
+    "quote": "We come to the shelter and give the residents a fine-dining experience, just letting them know that they are heard, that we value them, that we're rooting and cheering for them, and we serve them.",
+    "src": "C4415 0:22→0:32"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice."
+  },
+  {
+   "tc": "00:57–01:06",
+   "beat": "WHY THEY GIVE BACK",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Back to the two-shot. Intercut Nicole listening or the brothers at a table.",
+   "motion": "Pull-quote: <q>There's always somebody doing worse than you.</q>",
+   "voice": {
+    "who": "Brother A (confirm by picture)",
+    "quote": "It's something that our parents didn't let us take for granted. I feel like there's always somebody doing worse than you.",
+    "src": "C4414 1:42→1:50"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice."
+  },
+  {
+   "tc": "01:06–01:13",
+   "beat": "THE PAYOFF LINE",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Widest, warmest room shot: full tables, everyone eating. Alt: Cody at the mic, C4347 about 0:27 “We're here to serve you guys.”",
+   "motion": "Caption “to be able to give back is” with no break. First beat to cut if you need time.",
+   "voice": {
+    "who": "Brother B (confirm by picture)",
+    "quote": "Being fortunate enough to be in this position, to be able to give back is the biggest thing ever.",
+    "src": "C4414 2:52→2:58"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice."
+  },
+  {
+   "tc": "01:13–01:17",
+   "beat": "THE QUESTION",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Over-the-shoulder or reverse on Nick, AYH style. Beat of silence, the brothers glance at each other.",
+   "motion": "AYH title card treatment: <q>ARE YOU HAPPY?</q>",
+   "voice": {
+    "who": "Nick",
+    "quote": "Last question I got for you both, this one I ask everyone. Are you happy?",
+    "src": "C4414 4:18"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice."
+  },
+  {
+   "tc": "01:17–01:26",
+   "beat": "THE LAUGH",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Stay on his face. Hold a second after he stops before cutting.",
+   "motion": "Keep “Am I happy?”: the repeat-back is the charm.",
+   "voice": {
+    "who": "Brother A (confirm by picture)",
+    "quote": "Am I happy? I am now… Who can be upset after a Sunday dinner with a bunch of their family and friends? I mean, yeah, I'm really happy actually.",
+    "src": "C4414 4:25→4:38"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "No swell."
+  },
+  {
+   "tc": "01:26–01:36",
+   "beat": "THE WEIGHT",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Quiet montage under the back half: plates passed, Nicole watching from the edge of the room, golden light on the lot.",
+   "motion": "Pull-quote: <q>The happier moments that you do get, you've got to cherish them.</q>",
+   "voice": {
+    "who": "Brother B (confirm by picture)",
+    "quote": "Life's not always going to be happy, so the happier moments that you do get, I think you've got to cherish them. And this is one of them, for sure.",
+    "src": "C4414 4:40→4:51"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice."
+  },
+  {
+   "tc": "01:36–01:43",
+   "beat": "BUTTON",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "<b>The photo:</b> Nick with Jalen &amp; Cody. Hold, slow push in.",
+   "motion": "<q>Williams Brothers Sunday Dinner · Vista Colina Family Shelter</q>. Caption “down-to-earth” hyphenated, period after “met”.",
+   "voice": {
+    "who": "Nick (VO)",
+    "quote": "An NBA champion and a top 10 pick. Two of the most down-to-earth guys I've ever met, and the thing they're proudest of is serving their community.",
+    "src": "Nick VO"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Lift."
+  },
+  {
+   "tc": "01:43–01:48",
+   "beat": "CTA / END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Last frame of the room, everyone still eating.",
+   "motion": "End card: CASS logo + Are You Happy logo.",
+   "voice": {
+    "who": "Nick (VO)",
+    "quote": "Follow CASS and the WTTP Foundation, and go have dinner with somebody this Sunday.",
+    "src": "Nick VO (optional tag: Jalen, C4414 5:15 “Coming to a city near you.”)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Out."
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "A/V script",
+   "<a href=\"https://docs.google.com/document/d/16d6qke4ieSSP7KCy31cQA7zOrLSdm4kFbTEVcz32Dvg/edit\">Williams Brothers Sunday Dinner (Journey Cut)</a> (Google Doc). This page is built from it plus the Frame.io notes."
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/1igYrvZ_kWXHBVSeg2BHgNbH8rEtsMsU3\">CASS July 2026 shoot</a>"
+  ],
+  [
+   "Interviews",
+   "20260726_C4414.MP4 (Jalen &amp; Cody, incl. the Are You Happy answers) · 20260726_C4415.MP4 (Nicole Williams) · 20260726_C4347.MP4 (Cody's welcome speech, optional)"
+  ],
+  [
+   "Archive",
+   "Finding Hoopers clip: Nick guarding The Professor (cold open)."
+  ],
+  [
+   "Still",
+   "Nick's photo with Jalen &amp; Cody (the button)."
+  ],
+  [
+   "Not this cut",
+   "CASSAreYouHappyWilliams001 is the traditional AYH cut of the same interview. Separate edit. Don't merge them."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "Horizontal 4K: 20260726_C4414.MP4, C4415, C4347 plus dinner B-roll and drone. Check frame rate on import."
+  ],
+  [
+   "Timeline",
+   "1080×1920. Face-track reframe from 4K."
+  ],
+  [
+   "Audio",
+   "Interview sound from the camera files. V2 has a second audio track playing under the voice in two spots: find it and kill it."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. Music under every voice."
+  ],
+  [
+   "Captions",
+   "Burned in, AYH house style. Low in frame, just under the name and title, never overlapping them."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920. One file, 9:16 only."
+  ]
+ ],
+ "checklist": [
+  "CASS all caps everywhere (transcript: Cass, CAS, cast).",
+  "Vista Colina, two words (transcript: Vista Kalina).",
+  "Jalen, not Jaylen. Cody's title: Minnesota Timberwolves.",
+  "No “I play for the Utah Jazz”.",
+  "Name and title sit low; captions under them, no overlap.",
+  "No background audio track under any voice.",
+  "Hold a beat after each speaker finishes.",
+  "No kids' faces or resident details without a confirmed release.",
+  "Speaker confirmed by picture before any name on beats 9, 10, 12, 13.",
+  "WTTP Foundation styling confirmed before it goes on screen."
+ ],
+ "decisions": [
+  {
+   "t": "Atdhe's Frame.io notes on V2 (2 and 3 Nov)",
+   "b": "Cut “I play for the Utah Jazz” (traded), title Minnesota Timberwolves. Names, titles and captions lower, no overlap. Fix “that night,” “fine-dining”, “rooting and cheering for them,” “to be able to give back is”, “down-to-earth guys I've ever met.” The “I'm” before 21 is cut out: put it back. Kill the second audio track in two spots. Hold on him a second after he stops talking."
+  },
+  {
+   "t": "Kids' releases",
+   "b": "Raised on Frame.io 28 Aug: kids' faces are visible near the end card. Until releases are confirmed, keep those faces out (crop or swap the shot)."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> it's an AYH journey piece where Nicole is the engine. CASS and the family will check every name and title.",
+ "ask_examples": [
+  "What's Cody's title now?",
+  "Which brother is talking at 4:25?",
+  "Can I show the kids at the end?",
+  "What can I trim to get under 90 s?"
+ ]
+}
