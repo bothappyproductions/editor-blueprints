@@ -1,0 +1,322 @@
+{
+ "id": "13353116822",
+ "client": "sfcg",
+ "eyebrow": "Search for Common Ground · Imagine If year-end campaign · Thank-you video, Version B (no match line)",
+ "title": "Imagine If:",
+ "title_q": "Thank You, Version B",
+ "title_short": "Imagine If · Thank you · B (no match line)",
+ "editor": "Qendrim",
+ "due": "2026-11-13",
+ "format": "16:9 · 1920×1080 (client asked for horizontal)",
+ "length": "about 69 s",
+ "edit_key": "SFCGImagineIfThankYouB001",
+ "headline": "The end-of-campaign thank-you, Version B: the same cut as A without the match line, in case the $100,000 goal is not met.",
+ "story": [
+  "The thank-you film for everyone who gave to Imagine If: you chose to believe another way is possible, and people around the world are proving it.",
+  "Four short proofs: hands stained from the same dye, a photo traced back before a rumor spread, a leader who started sharing power, water that became a reason to build together.",
+  "You imagined it, then you helped build it. Thank you for choosing each other."
+ ],
+ "feel": [
+  "Grateful",
+  "Warm",
+  "Proud",
+  "Hopeful"
+ ],
+ "do": [
+  "Start from the locked A cut (13353134260).",
+  "Remove the match line and close the gap cleanly.",
+  "No held frame and no hole in the music where the line was.",
+  "Everything else matches A exactly.",
+  "End on the horizontal bumper."
+ ],
+ "dont": [
+  "Don't re-cut anything except the match line.",
+  "No held frame or music hole where the line was.",
+  "No freeze frames on a speaker.",
+  "No second aspect ratio.",
+  "No logo or title card at 0:00."
+ ],
+ "links": {
+  "brief": {
+   "title": "IMAGINE IF… Email Segments & Landing Page (client doc) · SCRIPT thank you video",
+   "url": "https://docs.google.com/document/d/156mEWrWd418PgT17_1KNnJRTSjE-PHXqg6KMAmU1YYo/edit",
+   "note": "The client's doc. “SCRIPT - thank you video” is the only source for the words."
+  },
+  "reference": {
+   "title": "Horizontal Imagine If bumper (end card)",
+   "url": "https://happyproductions.slack.com/archives/C06PN929TSN/p1792607285547569",
+   "note": "The Reference column links the end card, not a pacing reference. Pace: the client's music inspiration in Files."
+  },
+  "footage": {
+   "title": "Client clips: Emmanuel · Helene · Pesh",
+   "url": "https://drive.google.com/file/d/1oetregYg3SSSjOlmyb30096kx9ucfY9-/view",
+   "note": "Three client clips are linked in the script. B-roll is SFCG footage: no folder is named on the item."
+  }
+ },
+ "bp_intro": "This is Version A (13353134260) with the match line removed. Yana, 21 Oct: if the match goal is not met, they need a version without it. VO durations are estimates; the real VO sets the timing.",
+ "rows": [
+  {
+   "tc": "00:00–00:04",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "B-roll: warm faces from the year's stories. No branding.",
+   "motion": "First text on screen is the opening VO line as a caption. No title, no logo.",
+   "voice": {
+    "who": "VO (scratch until the client's VO arrives)",
+    "quote": "This year, you chose to believe in something extraordinary.",
+    "src": "Client script"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Warm open."
+  },
+  {
+   "tc": "00:04–00:14",
+   "beat": "WHAT YOU BELIEVED",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "B-roll: dialogue, people listening.",
+   "motion": "Captions on the VO.",
+   "voice": {
+    "who": "VO (scratch until the client's VO arrives)",
+    "quote": "That conflict doesn't have to end in violence. That our differences don't have to divide us. And that another way is possible.",
+    "src": "Client script"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed per the music reference."
+  },
+  {
+   "tc": "00:14–00:18",
+   "beat": "PROOF",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "B-roll widens: many places.",
+   "motion": "Captions on the VO.",
+   "voice": {
+    "who": "VO (scratch until the client's VO arrives)",
+    "quote": "And around the world, people are proving it.",
+    "src": "Client script"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed per the music reference."
+  },
+  {
+   "tc": "00:18–00:23",
+   "beat": "DYE",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "B-roll that shows this story: hands stained with dye, working side by side.",
+   "motion": "Captions on the VO.",
+   "voice": {
+    "who": "VO (scratch until the client's VO arrives)",
+    "quote": "Hands stained from the same dye, working side by side.",
+    "src": "Client script"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed per the music reference."
+  },
+  {
+   "tc": "00:23–00:29",
+   "beat": "PHOTO",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "B-roll that shows this story: a photo checked, a rumor stopped.",
+   "motion": "Captions on the VO.",
+   "voice": {
+    "who": "VO (scratch until the client's VO arrives)",
+    "quote": "A photo, traced back to the truth before a rumor could do any damage.",
+    "src": "Client script"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed per the music reference."
+  },
+  {
+   "tc": "00:29–00:34",
+   "beat": "LEADER",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "B-roll that shows this story: a leader sharing the room.",
+   "motion": "Captions on the VO.",
+   "voice": {
+    "who": "VO (scratch until the client's VO arrives)",
+    "quote": "A leader who stopped guarding power and started sharing it.",
+    "src": "Client script"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed per the music reference."
+  },
+  {
+   "tc": "00:34–00:40",
+   "beat": "WATER",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "B-roll that shows this story: a water point, people building together.",
+   "motion": "Captions on the VO.",
+   "voice": {
+    "who": "VO (scratch until the client's VO arrives)",
+    "quote": "Water, once a reason to fight, now a reason to build something together.",
+    "src": "Client script"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed per the music reference."
+  },
+  {
+   "tc": "00:40–00:55",
+   "beat": "NOT JUST STORIES",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "B-roll: communities, faces, hope.",
+   "motion": "Captions on the VO.",
+   "voice": {
+    "who": "VO (scratch until the client's VO arrives)",
+    "quote": "These are not just stories of what could be. They're proof of what's possible. And because you chose to invest in this work, more communities have the opportunity to write stories of their own.",
+    "src": "Client script"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed per the music reference."
+  },
+  {
+   "tc": "00:55–01:04",
+   "beat": "BUTTON",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "B-roll slows. Warmth.",
+   "motion": "Captions on the VO.",
+   "voice": {
+    "who": "VO (scratch until the client's VO arrives)",
+    "quote": "You imagined it. Then you helped build it. Thank you for choosing each other. Here's to everything we imagine next.",
+    "src": "Client script"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Resolve."
+  },
+  {
+   "tc": "01:04–01:09",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Chase's HORIZONTAL Imagine If bumper (Imagine If-Video Bumper-Horizontal.jpg, posted by Yana 21 Oct). Elements to rebuild or animate: Bumper-Background.jpg, ImagineIf-Wordmark.png, LearnMore-Copy.png (Kalindi, 15 Oct).",
+   "motion": "Landing page on the card: <span class=\"mono\">sfcg.org/imagine-if</span>.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Resolve on the bumper."
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Editing brief",
+   "<a href=\"https://docs.google.com/document/d/156mEWrWd418PgT17_1KNnJRTSjE-PHXqg6KMAmU1YYo/edit\">IMAGINE IF… Email Segments & Landing Page</a> (the client's campaign doc; the video scripts are the last two sections). This page is built from it."
+  ],
+  [
+   "End card",
+   "<a href=\"https://happyproductions.slack.com/archives/C06PN929TSN/p1792607285547569\">Horizontal Imagine If bumper</a> (Chase, posted by Yana 21 Oct, Reference column). Supersedes the 15 Oct mockup."
+  ],
+  [
+   "Clips",
+   "<a href=\"https://drive.google.com/file/d/1oetregYg3SSSjOlmyb30096kx9ucfY9-/view\">Emmanuel (South Sudan)</a> · <a href=\"https://drive.google.com/file/d/1RI0jLoBczyyswxL2WdxxtMbKrBCerm1v/view\">Helene audio (Brussels)</a> · <a href=\"https://drive.google.com/file/d/1oI4NHB_8XJXp5pXcT0siI2gYSWZwKSvo/view\">Pesh (Iraq Country Director)</a>"
+  ],
+  [
+   "Music reference",
+   "<a href=\"https://www.youtube.com/watch?v=Ur9ciid5Owc\">Client music inspiration (YouTube)</a>"
+  ],
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/1TdokxFHdyuCXHTOmZS0OKo1vXIo7P2lwCfi-arr2CYM/edit\">SFCG — Shooting Brief: Peace Delivered + Imagine If (V1)</a>"
+  ],
+  [
+   "Client strategy",
+   "<a href=\"https://docs.google.com/document/d/1U4Fh_nZXwIlgA6yPH4rmWYBe9JluP5ZiMsfvzBXw3jw/edit\">IMAGINE IF… Campaign Strategy</a> (the client’s own doc, shared 5 Oct)"
+  ],
+  [
+   "Brand pack",
+   "<a href=\"https://drive.google.com/file/d/1-RqoOsOcTUUCj5zoUEq2-G7g2IvaK0OE/view\">SFCG logo animation 9:16</a> · <a href=\"https://drive.google.com/file/d/1FBASnqbsp8W_RI_VPTffDW1MuFdufYFx/view\">horizontal logo, white text (PNG)</a>. Branding and Font columns on Monday are empty."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "Client clips (Emmanuel, Helene audio, Pesh) and SFCG B-roll. Probe each clip in the NLE: frame rates are not listed on the item."
+  ],
+  [
+   "Timeline",
+   "<b>1920×1080, 16:9</b>. The client asked for a horizontal video: the end card is Chase's HORIZONTAL bumper. Frame rate = the majority of the B-roll."
+  ],
+  [
+   "Voice",
+   "VO: the client is still sending it. Cut to a scratch VO now and swap theirs in when it arrives. Don't hold the edit."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. Music under the VO and the clips, never over them."
+  ],
+  [
+   "Captions",
+   "Royal-blue box <span class=\"mono\">#1E6FD6</span>, white text. Max 2 lines. Word for word with the script and the clips."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1920×1080. One file, 16:9. Upload to Frame.io → Ready for Review."
+  ]
+ ],
+ "checklist": [
+  "Every VO line is the client script, word for word. Nothing added, cut or reworded.",
+  "Clip lines match the speaker's own words and grammar.",
+  "No logo, wordmark, title card or Imagine If branding on the first frame. Branding only on the end card.",
+  "Write “Search for Common Ground”: capital S, small “for”. Never SFCG on screen.",
+  "No freeze frames on a speaker, ever.",
+  "End card is Chase's horizontal Imagine If bumper with sfcg.org/imagine-if.",
+  "Hopeful, never somber. Conflict-sensitive: no identifiable participants in sensitive places."
+ ],
+ "decisions": [
+  {
+   "t": "VO not delivered yet",
+   "b": "The client is still sending VO for the Imagine If content. Cut to a scratch VO and swap theirs in."
+  },
+  {
+   "t": "B-roll source",
+   "b": "Neither the item nor the client doc names a B-roll folder. Use SFCG footage you have cut before. If a story (rumor, water, woman leading) has no real footage, flag it on the item; Atdhe gets it from the client."
+  },
+  {
+   "t": "Build after the campaign video",
+   "b": "The campaign video is due first (approval around 6 Nov). This one goes out when the campaign ends."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> this is the centerpiece video of Search's year-end Imagine If campaign. Yana asked for approval around 6 Nov, before launch.",
+ "ask_examples": [
+  "Where is the script?",
+  "What is different between A and B?",
+  "What if I have no footage for one story?",
+  "Which end card do I use?"
+ ]
+}

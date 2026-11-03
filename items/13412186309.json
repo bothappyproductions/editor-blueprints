@@ -1,0 +1,208 @@
+{
+ "id": "13412186309",
+ "client": "niwrc",
+ "eyebrow": "NIWRC · OKC DVAM Reception · 9 Oct 2026 · Donor thank-you set (2 of 3, with Cory and tai)",
+ "title": "Kerri Colfer:",
+ "title_q": "“You Made This Possible”",
+ "title_short": "Kerri Colfer · Donor thank-you",
+ "editor": "Qendrim",
+ "due": "2026-11-04",
+ "format": "9:16 only · 1080×1920 (source 16:9, crop)",
+ "length": "about 14 s (the real lines run about 10 s)",
+ "edit_key": "NIWRCOKCKerriDonorThankYou001",
+ "headline": "NIWRC's Director of Policy and Research thanks the donors: you make the work possible and bring safety into our communities.",
+ "story": [
+  "Face to camera, warm and direct. NIWRC sends it to donors after DVAM.",
+  "It shares no bites with her “Policy Keeps Our Communities Safe” cut (item 13308129747)."
+ ],
+ "feel": [
+  "Warm",
+  "Direct",
+  "Grateful"
+ ],
+ "do": [
+  "Use C1 Event 19 for picture and sound (live mic, she is in frame).",
+  "Cut out all false starts.",
+  "End on “survivors.” and a 1 s hold.",
+  "Match the pacing, captions and color of your Cory and tai thank-you clips."
+ ],
+ "dont": [
+  "No policy detail, no reception footage, nothing sad.",
+  "No logo or name card at 0:00.",
+  "Don't use “for whatever they do and how they support me” (C1 00:11.04). It is a rehearsal.",
+  "No “Can you see my phone” and no “Yes.”"
+ ],
+ "links": {
+  "brief": {
+   "title": "NIWRC — Kerri Colfer donor thank-you — Director's Blueprint (Google Doc)",
+   "url": "https://docs.google.com/document/d/1jgmiiNd0g0Hemla6DhOSPlk4MOXQZm49eyScl-uqwCY/edit",
+   "note": "The blueprint was written as a Google Doc. This page is the same plan, on the site."
+  },
+  "reference": {
+   "title": "Approved NIWRC traditional (Q)",
+   "url": "https://f.io/zKa6KyXr",
+   "note": "Your own approved NIWRC cut. Watch it first; match pacing, captions and color."
+  },
+  "footage": {
+   "title": "Interview 6 folder",
+   "url": "https://drive.google.com/drive/folders/1apYbE-qdceCwid4q_Zww71YoJNyxt5eT",
+   "note": "In the NIWRC OKC 9 Oct 2026 raw folder. C1 Event 19 (live mic, she is in frame) and C2 Event 11 (camera mic), same take."
+  }
+ },
+ "bp_intro": "C1 Event 19 and C2 Event 11 are the SAME take. C2 runs about 9.5 s behind C1 (C1 “Can you see my phone” 00:26.5 = C2 00:36.2). The good line on C2 starts about 00:50.8, not 00:39.1 (00:39–00:50 on C2 is false starts). Times below are C1 source times from the word-level transcript; sync C2 by waveform.",
+ "rows": [
+  {
+   "tc": "00:00–00:02",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "C1 Event 19, wide, white sweater, glasses, hands in pockets (visual.json 00:42.4–00:56.6). Crop 9:16 on her and punch in so she reads at phone size. Start on “I'd”.",
+   "motion": "Hook text <b>YOU MADE THIS POSSIBLE</b> on screen at frame 0. No animate-on. Out at 00:02.5.",
+   "voice": {
+    "who": "Kerri",
+    "quote": "I'd like to thank the donors for supporting our work,",
+    "src": "26-10-09 C1 Happy - NIWRC Event 19.MP4 00:41.30–00:43.60"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Soft music under."
+  },
+  {
+   "tc": "00:02–00:05",
+   "beat": "SAFETY",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "C1, same frame. If the C1 punch-in is too soft, cut to C2 Event 11 for this line only (C2 ≈ C1 + 9.5 s). Check on scrub first: visual.json says C2 from 00:51.8 shows her seated, partly visible.",
+   "motion": "Name super at 00:03, 2.5 s: <b>Kerri Colfer</b> / Director of Policy and Research, NIWRC. Highlight <b>SAFETY</b> in the caption.",
+   "voice": {
+    "who": "Kerri",
+    "quote": "making our work possible, allowing us to bring safety into our communities",
+    "src": "26-10-09 C1 Happy - NIWRC Event 19.MP4 00:44.30–00:47.96 (cut the 0.7 s gap after “possible,”)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:05–00:09",
+   "beat": "BUTTON",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "C1, same frame. Hold 1 s after “survivors.” The C1 transcript stops at “and really”: LISTEN, the words should be on C1 (same take; C2 has them at 00:57.6–01:01.2). If C1 audio drops, use C2 Event 11 00:57.60–01:01.16 sound, cleaned and matched.",
+   "motion": "Captions only. Capital N in “Native”.",
+   "voice": {
+    "who": "Kerri",
+    "quote": "and really believing that we can make a change for Native people and survivors.",
+    "src": "26-10-09 C1 Happy - NIWRC Event 19.MP4 00:48.62–~00:51.5"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:09–00:12",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "End card.",
+   "motion": "Your approved NIWRC end card, white logo on NIWRC red. Logo only here.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music out."
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Editing brief",
+   "<a href=\"https://docs.google.com/document/d/1jgmiiNd0g0Hemla6DhOSPlk4MOXQZm49eyScl-uqwCY/edit\">Kerri Colfer donor thank-you — Director's Blueprint (Google Doc)</a>. This page is built from it."
+  ],
+  [
+   "Monday brief",
+   "<a href=\"https://docs.google.com/document/d/190ADMgJo3Lki7NuaCvpNS2O0zMWmsQ1O72aAQNFSnRk/edit\">Monday brief + Google Doc</a>"
+  ],
+  [
+   "Reference",
+   "<a href=\"https://f.io/zKa6KyXr\">Approved NIWRC traditional (Q)</a>"
+  ],
+  [
+   "Footage",
+   "<a href=\"https://drive.google.com/drive/folders/1apYbE-qdceCwid4q_Zww71YoJNyxt5eT\">Interview 6 folder</a> in <a href=\"https://drive.google.com/drive/folders/1jivE7s9xcOSQyoSJ-CRO4Z0AhyqGXnRg\">NIWRC OKC 9 Oct 2026 raw</a> · <a href=\"https://drive.google.com/drive/folders/1dGx5Fx5jLztaq-g6KuesN2pjPZbdlUSg\">B-Roll</a> · <a href=\"https://drive.google.com/drive/folders/10NgSmy-lusV-taZa8z8Rl4F-soIm5wj7\">B1</a>"
+  ],
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/1EOtGp60jDrQ8FyH2H-m-xPMhHDHACBcLYHuASPvai3k/edit\">NIWRC Production Brief — Oklahoma City, October 2026</a>"
+  ],
+  [
+   "Music",
+   "Native music only if made AND performed by a verified US Native artist. Otherwise a neutral instrumental. Never competes with the voice."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "Both cameras 3840×2160, 23.976 fps. C1 is wide: a tight 9:16 crop needs up to about 1.5× punch-in. Check sharpness."
+  ],
+  [
+   "Timeline",
+   "1080×1920, 23.976 fps."
+  ],
+  [
+   "Audio",
+   "C1 = live mic (about −27 dB). C2 = camera mic (about −44 dB). Use C1 wherever it has the words."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak."
+  ],
+  [
+   "Captions",
+   "Your approved NIWRC caption template. Capital N in “Native”, capital T in “Tribal”."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920."
+  ],
+  [
+   "Upload name",
+   "<span class=\"mono\">25_Traditional_NIWRCOKCKerriDonorThankYou001-1.mp4</span>"
+  ],
+  [
+   "Frame.io folder",
+   "National Indigenous Women's Resource Center / niwrc_batch_4_2026"
+  ]
+ ],
+ "checklist": [
+  "0:00 = her face + YOU MADE THIS POSSIBLE. No logo, no fade.",
+  "No false starts, no “Can you see my phone”, no “Yes.”",
+  "Last line is complete and clean (C1 or C2 sound).",
+  "Super: Kerri Colfer / Director of Policy and Research, NIWRC. No Tribal affiliation on screen.",
+  "Pacing, captions and color match your Cory and tai thank-you clips.",
+  "Capital N in “Native” and capital T in “Tribal” everywhere.",
+  "No victim imagery. Hopeful, never somber.",
+  "End card: white logo on red. Logo only there."
+ ],
+ "decisions": [
+  {
+   "t": "Length",
+   "b": "The real lines run about 10 s, so the clip lands near 14 s with the end card, not the 22–25 s in the Monday brief. Fine for a donor thank-you unless Nick wants it longer."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> NIWRC sends these thank-you clips to donors after DVAM. Three of them (Cory, Kerri, tai) go out as a set, so they must look and feel the same.",
+ "ask_examples": [
+  "Which camera do I use?",
+  "Where are the last words if C1 drops?",
+  "How long should it be?",
+  "Which end card do I use?"
+ ],
+ "transcript": "--- 26-10-09 C1 Happy - NIWRC Event 19.MP4 ---\n[00:00.0] So directly into camera, thank you to the donors for...\n[00:08.8] And then just fill in the blanks there?\n[00:10.2] Yeah, yeah,\n[00:11.0] I'd like to thank the donors for whatever they do\n[00:15.4] and how they support me.\n[00:16.6] What would you like to thank them for?\n[00:19.1] Nothing.\n[00:26.5] Can you see my phone if I'm standing like this?\n[00:28.1] Yep.\n[00:29.1] Can you hold it?\n[00:29.9] Yeah.\n[00:37.0] Thank you to the donors for...\n[00:39.0] I'd like to thank the donors...\n[00:41.3] I'd like to thank the donors for supporting our work,\n[00:44.3] making our work possible,\n[00:45.8] allowing us to bring safety into our communities\n[00:48.6] and really...\n[00:53.9] Yes.\n--- 26-10-09 C2 Happy - NIWRC Event 11.MP4 ---\n[00:17.8] And then just fill in the blanks there?\n[00:36.2] Can you see my phone if I'm standing like this?\n[00:39.1] I'd like to thank the donors for supporting our work,\n[00:53.5] making our work possible, allowing us to bring safety into our communities,\n[00:57.6] and really believing that we can make a change for native people and survivors."
+}
