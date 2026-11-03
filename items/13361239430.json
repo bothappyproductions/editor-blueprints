@@ -1,0 +1,512 @@
+{
+ "id": "13361239430",
+ "client": "lions",
+ "eyebrow": "Lions International · Hong Kong Convention · Jul 2026 · Lions of the World (Traditional) · Global montage",
+ "title": "Lions of the World:",
+ "title_q": "“I'm From Here”",
+ "title_short": "Hong Kong global montage · I'm from here",
+ "editor": "Bleron",
+ "due": "2026-11-16",
+ "format": "9:16 only · 1080×1920",
+ "length": "about 55 s",
+ "edit_key": "LIONSHongKongGlobalMontage001",
+ "headline": "Lions from every corner of the world are one family. The fun is how many places they come from, said fast, one after another.",
+ "story": [
+  "Maria and Elidia from Mexico open it. Then Hong Kong, Ontario, Germany, Hawaii, Indonesia, Italy and more, one or two seconds each.",
+  "One slower beat: a Lion from Bitola who found Lions from home in Melbourne. A Leo laughs that she's actually from Hong Kong.",
+  "The ending is friendship: new friends from all over the world, best friends now, and Lions who feel like family."
+ ],
+ "feel": [
+  "Fun",
+  "Fast",
+  "Global",
+  "Warm"
+ ],
+ "do": [
+  "Hook text WHERE ARE YOU FROM? on frame 1 over Maria.",
+  "Run the “I'm from” lines fast, 1 to 2 s each, in the order below.",
+  "Change costume, age and setting every cut.",
+  "One small country super per speaker. Country only.",
+  "Cut to the end card on “feeling”."
+ ],
+ "dont": [
+  "No service projects, club titles, awards or convention schedule.",
+  "No “first woman” line or framing.",
+  "No names, club names or titles on screen (Jacqui, 13 Aug: names slow approvals).",
+  "No Taiwan flag in any frame. No election candidate signage or clothing. No Paris Lion “I'm from Taiwan” lines unless Jacqui says yes.",
+  "No editor-added logos. Lions lockup on the end card only."
+ ],
+ "links": {
+  "brief": {
+   "title": "Editor brief: Hong Kong global montage, “I'm from here” (pulse.13361239430)",
+   "url": "https://docs.google.com/document/d/1ddG8sP7ogaUPVmA91ZODx0ivx7sUuH9w6-DHr_J3bHk/edit",
+   "note": "Rebuilt 27 Oct from Jacqui's 20 Oct ask (fathom.video/calls/869171947 at 16:00 and 18:53)."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Delivered Orlando convention compilation",
+   "note": "Jacqui named it as the model on the 20 Oct call. Watch it first and match its pace. No visual reference on the Hong Kong production row (July shoot, before the reference rule)."
+  },
+  "footage": {
+   "title": "Hong Kong Convention raw",
+   "url": "https://drive.google.com/drive/folders/1_d2cIVp0iKMXSQhOGKMTHNWSslXBfFg0",
+   "note": "Lions International / Raw Footage / Hong Kong Convention. Vertical 1080×1920 phone clips, audio in camera. One subject folder per country."
+  }
+ },
+ "bp_intro": "Every file is a vertical 1080×1920 phone clip, audio in camera, in Lions International / Raw Footage / Hong Kong Convention. Times are the brief's, from the per-clip SRTs (seconds.hundredths). Middle lines run 1 to 2 s each; durations below are targets.",
+ "rows": [
+  {
+   "tc": "00:00–00:03",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "IMG_8017 01:58.09–02:37.52, wide, handheld: two women in traditional Mexican dress, one in a sombrero, colourful floor.",
+   "motion": "Hook text on <b>frame 1</b>, big: <q>WHERE ARE YOU FROM?</q> No logo, no lower third, no title card.",
+   "voice": {
+    "who": "Maria",
+    "quote": "Hello, I am Maria from Mexico. Hola, soy María de México.",
+    "src": "More Mexico Lion/IMG_8017.MOV 02:24.34–02:26.46"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Licensed bed on frame 1."
+  },
+  {
+   "tc": "00:03–00:06",
+   "beat": "MEXICO",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Same shot.",
+   "motion": "Hook text off. Super: <b>Mexico</b>.",
+   "voice": {
+    "who": "Elidia",
+    "quote": "Hello, I am Elidia from Mexico. Hola, soy Elidia de México.",
+    "src": "More Mexico Lion/IMG_8017.MOV 02:27.34–02:30.22"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:06–00:08",
+   "beat": "HONG KONG",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "IMG_8006 00:02.59–00:07.73 wide: two women in green shirt and yellow jacket waving and smiling.",
+   "motion": "Super: <b>Hong Kong</b>.",
+   "voice": {
+    "who": "Hong Kong Lions",
+    "quote": "Hi, we are from Hong Kong.",
+    "src": "More Hong Kong Lions/IMG_8006.MOV 00:03.00–00:04.18 (clean second take)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Pace picks up."
+  },
+  {
+   "tc": "00:08–00:09",
+   "beat": "CANADA",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "IMG_7816 medium. Cut in after his name.",
+   "motion": "Country super, lower corner, 1 to 2 s: <b>Canada</b>.",
+   "voice": {
+    "who": "Canada",
+    "quote": "I'm from District A15 and that's in Ontario.",
+    "src": "Canadian Lions/IMG_7816.MOV 00:04.92–00:10.20"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:09–00:11",
+   "beat": "GERMANY",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "IMG_7908 medium. Cut before the club name.",
+   "motion": "Country super, lower corner, 1 to 2 s: <b>Germany</b>.",
+   "voice": {
+    "who": "Germany",
+    "quote": "I'm from multiple district 111, Germany",
+    "src": "German Lion/IMG_7908.MOV 00:39.93–00:46.59"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:11–00:12",
+   "beat": "HAWAII USA",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "IMG_7847 close.",
+   "motion": "Country super, lower corner, 1 to 2 s: <b>Hawaii USA</b>.",
+   "voice": {
+    "who": "Hawaii USA",
+    "quote": "I'm a Lion, Kino'ole Lion member from Honolulu, Hawaii.",
+    "src": "Hawaii Lion/IMG_7847.MOV 00:05.80–00:10.28"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:12–00:14",
+   "beat": "INDONESIA",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "IMG_7935 wide.",
+   "motion": "Country super, lower corner, 1 to 2 s: <b>Indonesia</b>.",
+   "voice": {
+    "who": "Indonesia",
+    "quote": "I'm from Indonesia.",
+    "src": "Indonesia Lion/IMG_7935.MOV 00:40.76–00:42.16"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:14–00:15",
+   "beat": "ITALY",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "IMG_7834 medium. Mid sentence: cut tight.",
+   "motion": "Country super, lower corner, 1 to 2 s: <b>Italy</b>.",
+   "voice": {
+    "who": "Italy",
+    "quote": "I come from Italy",
+    "src": "Italy Lions/IMG_7834.MOV 00:00.21–00:09.01"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:15–00:19",
+   "beat": "NORTH MACEDONIA / AUSTRALIA",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "IMG_7839 medium. The one slower beat: she left home and found Lions from home on the other side of the world.",
+   "motion": "Country super, lower corner, 1 to 2 s: <b>North Macedonia / Australia</b>.",
+   "voice": {
+    "who": "North Macedonia / Australia",
+    "quote": "I'm from Bitola, but I'm living in Melbourne for the past six years.",
+    "src": "Manastir Lion/IMG_7839.MOV 00:59.84–01:02.04"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:19–00:20",
+   "beat": "UGANDA",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "IMG_7896 wide. Cut in after her name.",
+   "motion": "Country super, lower corner, 1 to 2 s: <b>Uganda</b>.",
+   "voice": {
+    "who": "Uganda",
+    "quote": "from the Lions Club of Kumi Central, District 411B, Uganda.",
+    "src": "More Uganda Lion/IMG_7896.MOV 00:12.69–00:20.75"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:20–00:22",
+   "beat": "NETHERLANDS",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "IMG_7877 medium. Cut in after her name, out before her title.",
+   "motion": "Country super, lower corner, 1 to 2 s: <b>Netherlands</b>.",
+   "voice": {
+    "who": "Netherlands",
+    "quote": "from the Netherlands",
+    "src": "Netherlands Lion/IMG_7877.MOV 00:12.49–00:20.23"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:22–00:23",
+   "beat": "USA",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "IMG_7853 medium.",
+   "motion": "Country super, lower corner, 1 to 2 s: <b>USA</b>.",
+   "voice": {
+    "who": "USA",
+    "quote": "I'm from New York City, Brooklyn, Queens, District 20 K1.",
+    "src": "New York Lion/IMG_7853.MOV 00:04.67–00:07.69"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:23–00:25",
+   "beat": "USA",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "IMG_7853, second speaker.",
+   "motion": "Country super, lower corner, 1 to 2 s: <b>USA</b>.",
+   "voice": {
+    "who": "USA",
+    "quote": "I'm from Wichita, Kansas, District M17 N.",
+    "src": "New York Lion/IMG_7853.MOV 00:09.99–00:15.05"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:25–00:27",
+   "beat": "PUERTO RICO",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "IMG_7867 medium. Cut in after his name.",
+   "motion": "Country super, lower corner, 1 to 2 s: <b>Puerto Rico</b>.",
+   "voice": {
+    "who": "Puerto Rico",
+    "quote": "I'm a Lion from 51st Street in Puerto Rico.",
+    "src": "Puerto Rico Lion/IMG_7867.MOV 00:00.14–00:05.76"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:27–00:28",
+   "beat": "ZIMBABWE",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "IMG_7979 medium: man in dark blue uniform with a woman in a black and gold dress, mural behind.",
+   "motion": "Country super, lower corner, 1 to 2 s: <b>Zimbabwe</b>.",
+   "voice": {
+    "who": "Zimbabwe",
+    "quote": "I am Leola and Lona from Zimbabwe.",
+    "src": "Zimbabwe Lion/IMG_7979.MOV 00:04.57–00:06.29"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:28–00:30",
+   "beat": "PHILIPPINES",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "IMG_7796 wide.",
+   "motion": "Country super, lower corner, 1 to 2 s: <b>Philippines</b>.",
+   "voice": {
+    "who": "Philippines",
+    "quote": "From the Philippines.",
+    "src": "Phillipines Lions/IMG_7796.MOV 00:09.39–00:10.09"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:30–00:31",
+   "beat": "THE LAUGH",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "IMG_7993 2 wide. The laugh beat that brings us back to the host city.",
+   "motion": "Country super, lower corner, 1 to 2 s: <b>Hong Kong</b>.",
+   "voice": {
+    "who": "Hong Kong",
+    "quote": "I'm actually from Hong Kong.",
+    "src": "Melbourne Lion/IMG_7993 2.MOV 00:12.92–00:13.90"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:31–00:36",
+   "beat": "NEW FRIENDS",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "IMG_7822 00:34.15–00:45.60 wide: man in a blue and black patterned shirt outside HALL 3.",
+   "motion": "Super: <b>Uganda</b>.",
+   "voice": {
+    "who": "Uganda Lion",
+    "quote": "you will create new friends from all over the world",
+    "src": "Uganda Lions/IMG_7822.MOV 00:38.76–00:43.72"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Settle a little."
+  },
+  {
+   "tc": "00:36–00:41",
+   "beat": "BEST FRIENDS",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "IMG_7985 02:19.82–03:06.49 medium: woman in a purple blazer covered in pins.",
+   "motion": "Super: <b>Thailand</b>.",
+   "voice": {
+    "who": "Thailand Lion",
+    "quote": "we know each other from the lion some of them, and we become the best friend right now",
+    "src": "Thailand Lion/IMG_7985.MOV 02:27.82–02:33.40"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady."
+  },
+  {
+   "tc": "00:41–00:52",
+   "beat": "BUTTON",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "IMG_7908 00:55.20–02:45.55 wide: woman in a blue polo in the convention hall. Cut to the end card on “feeling”.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "German Lion",
+    "quote": "a lot of Lions from all over the world feel like family, and it is just an amazing feeling",
+    "src": "German Lion/IMG_7908.MOV 01:48.95–02:00.53"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Resolve on “feeling”."
+  },
+  {
+   "tc": "00:52–00:55",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Official Lions lockup end card.",
+   "motion": "Lions lockup only. No editor-added logos.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Out."
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Editing brief",
+   "<a href=\"https://docs.google.com/document/d/1ddG8sP7ogaUPVmA91ZODx0ivx7sUuH9w6-DHr_J3bHk/edit\">pulse.13361239430</a> (Google Doc). This page is built from it."
+  ],
+  [
+   "Client ask",
+   "Jacqui, Lions bi-weekly 20 Oct (fathom.video/calls/869171947 at 16:00 and 18:53): a quick-cut compilation of all the Lions we met and where they are from, like the Orlando piece."
+  ],
+  [
+   "Reference",
+   "The delivered Orlando convention compilation. Match its pace."
+  ],
+  [
+   "Shoot folder",
+   "Lions International / Raw Footage / Hong Kong Convention: one folder per country (More Mexico Lion, More Hong Kong Lions, Canadian Lions, German Lion, Hawaii Lion, Indonesia Lion, Italy Lions, Manastir Lion, More Uganda Lion, Netherlands Lion, New York Lion, Puerto Rico Lion, Zimbabwe Lion, Phillipines Lions, Melbourne Lion, Thailand Lion, Uganda Lions)."
+  ],
+  [
+   "Transcript",
+   "EditingResources › EditTranscripts › “Transcripts - Hong Kong Convention” + one .srt per clip."
+  ],
+  [
+   "visual.json",
+   "Yes: EditingResources › EditTranscripts › visual.json (24 Oct)."
+  ],
+  [
+   "Music",
+   "Licensed, YouTube safe. No popular song, no whistling track (Jacqui, 20 Oct)."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "iPhone, vertical 1080×1920 (the Doc Assets stills are 1080×1920). Frame rate was not probed: read it from the clip in the NLE."
+  ],
+  [
+   "Timeline",
+   "1080×1920 at the clip's own frame rate. No frame-rate conversion."
+  ],
+  [
+   "Crop",
+   "Native vertical. No 9:16 crop needed. Every punch-in is an upscale, so keep it at 110% or less."
+  ],
+  [
+   "Audio",
+   "Not measured, check the meters. Phone mic. If Atdhe's voice is louder than the subject (he holds the phone), ride his lines down 4–6 dB."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. Music 18–20 dB under the voice. Lions flagged loud music before."
+  ],
+  [
+   "Captions",
+   "White text on a <b>semi-transparent background box</b> (the locked Lions caption style). No drop shadow. Max 2 lines. Keep the bottom 20% clear for app buttons. Every word matches the audio."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920, about 16 Mbps. One file, 9:16 only."
+  ]
+ ],
+ "checklist": [
+  "Frame 1 is Maria with WHERE ARE YOU FROM?. No logo, name plate or title.",
+  "Country supers only, spelled exactly: Mexico, Hong Kong, Canada, Germany, Hawaii USA, Indonesia, Italy, North Macedonia / Australia, Uganda, Netherlands, USA, Puerto Rico, Zimbabwe, Philippines, Thailand.",
+  "No names, club names or titles on screen.",
+  "No Taiwan flag and no candidate signage in any frame.",
+  "Natural skin: saturation down (the hall light makes skin orange).",
+  "A little room sound under every voice. Don't fully clean it.",
+  "“Leo” is one member, “Leos” the youth group.",
+  "Lions lockup on the end card only."
+ ],
+ "decisions": [],
+ "client_note": "<b>Why this matters:</b> Jacqui asked for it on the 20 Oct call, modeled on the Orlando piece, to show how global the membership is. Hong Kong stays friendship-first (Atdhe, 16 Sept).",
+ "ask_examples": [
+  "What is the order of countries?",
+  "What goes on each super?",
+  "Which files are off limits?",
+  "Which reference do I match?"
+ ]
+}
