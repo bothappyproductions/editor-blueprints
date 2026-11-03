@@ -869,7 +869,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     const subject = mode === "vm" ? `Following up on my voicemail: ${S.planFor}` : `Following up: ${S.planFor}`;
     // Written English for spoken lines: "..." pauses become commas, first letter capitalized.
     const written = (s) => { s = String(s || "").replace(/\s*\.\.\.\s*/g, ", ").replace(/,\s*([.?!])/g, "$1").trim(); return s ? s[0].toUpperCase() + s.slice(1) : ""; };
-    const facesLine = `We film ${faces(r)}, the faces people already trust, and build on the materials you already use, so nothing starts from scratch.`;
+    const facesLine = /\bfilm/i.test(S.resultHow || "") ? "They're real people your community already trusts, not actors or AI, and we build on the materials you already use, so nothing starts from scratch." : `We film ${faces(r)}, the faces people already trust, and build on the materials you already use, so nothing starts from scratch.`;
     const proofLine = "Recently we made \"Coverage at Risk,\" a short documentary for the State of Connecticut's Commission on Racial Equity in Public Health.";
     const aboutUs = S.result
       ? [`We're Happy Productions, ${r.state === "CT" ? "a video studio in Ansonia, CT" : "a video studio serving " + (S.area || "your area")}.`,
@@ -904,6 +904,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
   function faces(r){
     const c = String(r.category || "").toLowerCase();
     if(/prevention/.test(c)) return "your own youth, parents and coalition members";
+    if(/city medicaid coalition/.test(c)) return "your partners' own navigators and outreach staff";
     if(/water|utilit|stormwater|ms4|councils of gov/.test(c) || /stormwater/.test(r.sectorPage || "")) return "your own crews and staff";
     if(/funder/.test(c)) return "your grantees' own navigators and outreach staff";
     if(/paid leave/.test(c)) return "your own staff";
@@ -1045,7 +1046,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     // results pitch yet keep the old "we help X turn Y into videos" intro.
     h += step(3, "Pitch and close",
       (S.result ? say(mk(S.result)) + (S.resultHow ? say(mk(S.resultHow)) : "") : say(mk(S.intro || defaultIntro(r)))) +
-      say(`And it's ${esc(faces(r))} on camera... the people your community already knows and trusts. Not actors, and not AI.`) +
+      (/\bfilm/i.test(S.resultHow || "") ? say("Real people your community already knows... not actors, and not AI.") : say(`And it's ${esc(faces(r))} on camera... the people your community already knows and trusts. Not actors, and not AI.`)) +
       (S.result && S.guarantee ? say(mk(S.guarantee)) : "") +
       say(`Well, super simple${sp}... I don't wanna overstay my welcome, but would you be completely opposed to 25 or 30 minutes with our strategist?`) +
       say(`They'll map out what this could look like for ${mk(S.planFor)}... and you keep that plan no matter what you decide.`) +
