@@ -1,0 +1,62 @@
+{
+ "item": "13402557235",
+ "client": "sfcg",
+ "note": "The script asks for two graphics: the hook text on frame 1 and the name super. Every other row is captions only (Kalindi called animation in the middle of a video inauthentic).",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Is violence inevitable?"
+   },
+   "cue": "Hook text already on screen on frame 1, top third: Is violence inevitable?",
+   "src": "Script, row 00:00–00:08, Motion graphics & type.",
+   "rows": [
+    "00:00–00:08"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. It is on screen at 0:00 and does not animate on. Off on the cut to the wide."
+  },
+  {
+   "n": 2,
+   "title": "Name super Courtney",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Courtney"
+   },
+   "cue": "Name super Courtney, small, lower left, 2 s",
+   "src": "Script, row 00:08–00:12, Motion graphics & type.",
+   "rows": [
+    "00:08–00:12"
+   ],
+   "use": "At 00:08 when she starts to speak, for 2 s. Move it lower left, above the captions. First name only."
+  },
+  {
+   "n": 3,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:33–00:36"
+   ],
+   "cue": "Search for Common Ground lockup + sfcg.org. Nothing under it.",
+   "src": "SFCG's 2024 horizontal logo, white text (SFCG Resources/Logos on Drive). The Imagine If end card is still coming from SFCG (Chase Moore). Source date: 11 Feb 2026.",
+   "c": {
+    "bg": "#003E74",
+    "fg": "#FFFFFF"
+   },
+   "logo_w": 860,
+   "logo": "endcards/sfcg/sfcg-logo-horizontal-2024-white.png",
+   "text": {
+    "lines": [
+     "sfcg.org"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it at 00:33 after the last line and hold it to the end."
+  }
+ ]
+}

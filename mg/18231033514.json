@@ -1,0 +1,47 @@
+{
+ "item": "18231033514",
+ "client": "sfcg",
+ "format": "16x9",
+ "note": "16:9 subtitle pass on the locked V4 cut. The script asks for one graphic: the On Location corner tag on row 00:49–01:15. Everything else stays as V4.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "On Location tag",
+   "tpl": "tag_label",
+   "dur": 4,
+   "pos": "upper",
+   "text": {
+    "main": "On Location"
+   },
+   "cue": "Corner tag, top left: On Location",
+   "src": "Script, row 00:49–01:15, Motion graphics & type.",
+   "rows": [
+    "00:49–01:15"
+   ],
+   "use": "Top left corner, about 4 s, on the first shot filmed at his farm (check V4 for the time). Type the second line Kenneth Ganna Conteh's personal farm under it. Skip it if V4 already has it, spelled right."
+  },
+  {
+   "n": 2,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "10:46–10:51"
+   ],
+   "cue": "Search for Common Ground lockup + sfcg.org. Nothing else.",
+   "src": "SFCG's 2024 horizontal logo, white text (SFCG Resources/Logos on Drive). Source date: 11 Feb 2026.",
+   "c": {
+    "bg": "#003E74",
+    "fg": "#FFFFFF"
+   },
+   "logo_w": 860,
+   "logo": "endcards/sfcg/sfcg-logo-horizontal-2024-white.png",
+   "text": {
+    "lines": [
+     "sfcg.org"
+    ]
+   },
+   "dur": 5.0,
+   "use": "Only if V4 does not already end on this logo. After the last line at 10:46, hold it to the end."
+  }
+ ]
+}
