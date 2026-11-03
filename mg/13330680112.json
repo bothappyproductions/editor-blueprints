@@ -1,92 +1,84 @@
 {
  "item": "13330680112",
  "client": "s4s",
- "note": "The script asks for six text cards and the end slide. Four cards are made here. The cards on 00:11–00:17 and 00:17–00:24 carry dollar amounts, so they are not built (no money on graphics): type them on the S4S title plate from the graphics package. The end card here is a stand-in with the CTA: in your timeline use Sydney's holiday slide, which already has the Soles4Souls wordmark.",
+ "note": "The script asks for six text cards and the end card. The $20 card on 00:10–00:15 and the $50,000 goal card on 00:15–00:21 are not in this library because graphics here never carry money amounts: type those two in the same style (black text on the teal bar, centered).",
  "mg": [
   {
    "n": 1,
    "title": "Get excited",
    "tpl": "highlight_callout",
-   "dur": 3,
+   "dur": 3.0,
    "pos": "center",
    "text": {
     "main": "Get excited..."
    },
-   "cue": "If the handwriting is not readable in the 9:16 crop, put “Get excited...” as a text card in the center, already on screen at 0:00. It does not animate on.",
-   "src": "Script, row 00:00–00:03, Motion graphics & type.",
+   "cue": "Get excited...",
+   "src": "Script, row 00:00–00:02, Motion graphics & type.",
    "rows": [
-    "00:00–00:03"
+    "00:00–00:02"
    ],
-   "use": "Only if the handwriting on the paper is not readable in the 9:16 crop. Start the clip at frame 0045 (fully on) so it is on screen at 0:00. Hold it until the foot steps, about 00:03."
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:02. Black text on the teal bar, big."
   },
   {
    "n": 2,
    "title": "The date",
    "tpl": "highlight_callout",
-   "dur": 3,
+   "dur": 3.0,
    "pos": "center",
    "text": {
     "main": "Giving ShoesDay is December 1st"
    },
-   "cue": "Text card after the foot lift, centered, big: “Giving ShoesDay is December 1st”",
-   "src": "Script, row 00:03–00:06, Motion graphics & type.",
+   "cue": "Giving ShoesDay is December 1st",
+   "src": "Script, row 00:02–00:05, Motion graphics & type.",
    "rows": [
-    "00:03–00:06"
+    "00:02–00:05"
    ],
-   "use": "Bring it on right after the foot lift, on the music lift. Hold it to the cut at 00:06."
+   "use": "Cut it in at the start of the row and hold it to the end of the row. Black text on the teal bar, big."
   },
   {
    "n": 3,
    "title": "A child's future",
    "tpl": "highlight_callout",
-   "dur": 5,
+   "dur": 3.0,
    "pos": "center",
    "text": {
     "main": "A new pair of shoes can help change a child's future."
    },
-   "cue": "Text card, centered, big: “A new pair of shoes can help change a child's future.”",
-   "src": "Script, row 00:06–00:11, Motion graphics & type.",
+   "cue": "A new pair of shoes can help change a child's future.",
+   "src": "Script, row 00:05–00:10, Motion graphics & type.",
    "rows": [
-    "00:06–00:11"
+    "00:05–00:10"
    ],
-   "use": "Over the kids B-roll from 00:06 to 00:11. Hold it long enough to read twice."
+   "use": "Cut it in at the start of the row and hold it to the end of the row. Black text on the teal bar, big."
   },
   {
    "n": 4,
-   "title": "Without you",
+   "title": "We need you",
    "tpl": "highlight_callout",
-   "dur": 5,
+   "dur": 3.0,
    "pos": "center",
    "text": {
     "main": "We can't do it without you."
    },
-   "cue": "Text card, centered, big: “We can't do it without you.”",
-   "src": "Script, row 00:24–00:29, Motion graphics & type.",
+   "cue": "We can't do it without you.",
+   "src": "Script, row 00:21–00:25, Motion graphics & type.",
    "rows": [
-    "00:24–00:29"
+    "00:21–00:25"
    ],
-   "use": "Over the happiest reaction from 00:24 to 00:29."
+   "use": "Cut it in at the start of the row and hold it to the end of the row. Black text on the teal bar, big."
   },
   {
    "n": 5,
-   "title": "End slide (stand-in)",
+   "title": "End card",
    "tpl": "end_card",
    "rows": [
-    "00:29–00:34"
+    "00:25–00:28"
    ],
-   "cue": "Sydney's holiday end slide with the CTA in the open middle.",
-   "src": "Stand-in for Sydney's holiday end slide (Holiday_bkg_social_V1_2.jpg / Holiday_bkg_social_V2_2.jpg, sent 22 Oct 2026, in our Drive; not in endcards/ yet). Colors from the V2 slide. The slide already carries the Soles4Souls wordmark.",
-   "c": {
-    "bg": "#5D8BAD",
-    "fg": "#FFFFFF"
-   },
-   "text": {
-    "lines": [
-     "Give the gift of joy. Donate now at s4s.org/gsd"
-    ]
-   },
-   "dur": 4.0,
-   "use": "This card is a stand-in so you can time the cut. In your timeline put Sydney's holiday slide (V1 or V2) at 00:29 and type this CTA in the open middle. The slide already has the Soles4Souls wordmark: add no logo. Hold it to the end."
+   "file": "endcards/s4s/holiday-2026/gsd-announcement.mp4",
+   "dur": 3.0,
+   "cue": "End card",
+   "src": "Sydney's holiday end slide V1, light blue (Holiday_bkg_social_V1_2.jpg, sent in #only_soles4souls on 22 Oct 2026), with the call to action from Sydney's 19 Oct editing doc, word for word. Built 3 Nov 2026.",
+   "use": "Put it after the last card and hold it to the end. The words are already on it; they fade in at 0.3 s."
   }
  ]
 }

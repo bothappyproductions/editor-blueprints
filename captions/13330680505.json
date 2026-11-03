@@ -16,6 +16,139 @@
    "r": 10
   }
  },
- "note": "No caption clips: this is a text-on-screen video with no spoken lines. The cards are the text.",
- "tracks": []
+ "note": "S4S style. Rod's lines from word-level transcripts. The RESULT line is optional (only if the goal is hit).",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Way more (optional)",
+   "rows": [
+    "00:15–00:20"
+   ],
+   "clip": "IMG_2708.MOV",
+   "start": 4.91,
+   "src": "IMG_2708.MOV 00:04.9",
+   "dur": 1.47,
+   "words": [
+    {
+     "w": "That's",
+     "t0": 0.15,
+     "t1": 0.55,
+     "e": 0
+    },
+    {
+     "w": "way",
+     "t0": 0.55,
+     "t1": 0.65,
+     "e": 0
+    },
+    {
+     "w": "more",
+     "t0": 0.65,
+     "t1": 0.85,
+     "e": 0
+    },
+    {
+     "w": "than",
+     "t0": 0.85,
+     "t1": 1.01,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 1.01,
+     "t1": 1.13,
+     "e": 0
+    },
+    {
+     "w": "expected.",
+     "t0": 1.13,
+     "t1": 1.37,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.09999999999999999,
+     "t1": 1.37,
+     "lines": [
+      [
+       0,
+       3
+      ],
+      [
+       4,
+       5
+      ]
+     ]
+    }
+   ],
+   "text": "That's way more than I expected.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 2,
+   "title": "Thank you",
+   "rows": [
+    "00:20–00:25"
+   ],
+   "clip": "thank you for the support .MOV",
+   "start": -0.15,
+   "src": "thank you for the support .MOV -1:59.9",
+   "dur": 1.79,
+   "words": [
+    {
+     "w": "Thank",
+     "t0": 0.15,
+     "t1": 0.91,
+     "e": 0
+    },
+    {
+     "w": "you",
+     "t0": 0.91,
+     "t1": 1.07,
+     "e": 0
+    },
+    {
+     "w": "for",
+     "t0": 1.07,
+     "t1": 1.23,
+     "e": 0
+    },
+    {
+     "w": "your",
+     "t0": 1.23,
+     "t1": 1.35,
+     "e": 0
+    },
+    {
+     "w": "support.",
+     "t0": 1.35,
+     "t1": 1.69,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.09999999999999999,
+     "t1": 1.69,
+     "lines": [
+      [
+       0,
+       3
+      ],
+      [
+       4,
+       4
+      ]
+     ]
+    }
+   ],
+   "text": "Thank you for your support.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  }
+ ]
 }

@@ -1,79 +1,84 @@
 {
  "item": "13330663787",
  "client": "s4s",
- "note": "The script asks for three text cards and the end slide. The end card here is a stand-in with the CTA: in your timeline use Sydney's holiday slide, which already has the Soles4Souls wordmark.",
+ "note": "The script asks for three text cards (the stakes card is split in two) and the end card.",
  "mg": [
   {
    "n": 1,
    "title": "Almost here",
    "tpl": "highlight_callout",
-   "dur": 4,
+   "dur": 3.0,
    "pos": "center",
    "text": {
     "main": "Our biggest day of the year is almost here! Which means..."
    },
-   "cue": "Hook text on frame 1, centered, big: “Our biggest day of the year is almost here! Which means...” Already on screen at 0:00. Does not animate on.",
+   "cue": "Our biggest day of the year is almost here! Which means...",
    "src": "Script, row 00:00–00:04, Motion graphics & type.",
    "rows": [
     "00:00–00:04"
    ],
-   "use": "Start the clip at frame 0045 (fully on) so it is on screen at 0:00. Hold it until the cut at 00:04. Centered, big."
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:04. Black text on the teal bar, big."
   },
   {
    "n": 2,
    "title": "CMO nervous",
    "tpl": "highlight_callout",
-   "dur": 4,
+   "dur": 3.0,
    "pos": "center",
    "text": {
     "main": "our CMO is getting nervous. Because..."
    },
-   "cue": "Text card, centered, big: “our CMO is getting nervous. Because...”",
+   "cue": "our CMO is getting nervous. Because...",
    "src": "Script, row 00:04–00:08, Motion graphics & type.",
    "rows": [
     "00:04–00:08"
    ],
-   "use": "Over the quick cutaways from 00:04 to 00:08. CMO stays in capitals."
+   "use": "Cut it in at the start of the row and hold it to the end of the row. Black text on the teal bar, big."
   },
   {
    "n": 3,
    "title": "The goal",
-   "tpl": "kinetic_quote",
-   "dur": 7,
+   "tpl": "highlight_callout",
+   "dur": 3.5,
    "pos": "center",
    "text": {
-    "main": "If we hit our goal of providing new shoes for 2,500 kids on December 1st, our CMO gets pied!",
-    "emph": [
-     "pied"
-    ]
+    "main": "If we hit our goal of providing new shoes for 2,500 kids on December 1st,"
    },
-   "cue": "Text card, centered, big: “If we hit our goal of providing new shoes for 2,500 kids on December 1st, our CMO gets pied!”",
-   "src": "Script, row 00:08–00:15, Motion graphics & type.",
+   "cue": "If we hit our goal of providing new shoes for 2,500 kids on December 1st,",
+   "src": "Script, row 00:08–00:14, Motion graphics & type.",
    "rows": [
-    "00:08–00:15"
+    "00:08–00:14"
    ],
-   "use": "Over the quick pie cuts from 00:08 to 00:15. The words come in one by one; hold the full line before the end slide."
+   "use": "First half of the row. Then MG 4 replaces it. Black text on the teal bar, big."
   },
   {
    "n": 4,
-   "title": "End slide (stand-in)",
+   "title": "Gets pied",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "center",
+   "text": {
+    "main": "our CMO gets pied!"
+   },
+   "cue": "our CMO gets pied!",
+   "src": "Script, row 00:08–00:14, Motion graphics & type.",
+   "rows": [
+    "00:08–00:14"
+   ],
+   "use": "Second half of the row, right after MG 3. Black text on the teal bar, big."
+  },
+  {
+   "n": 5,
+   "title": "End card",
    "tpl": "end_card",
    "rows": [
-    "00:15–00:19"
+    "00:14–00:17"
    ],
-   "cue": "Sydney's holiday end slide with the CTA in the open middle.",
-   "src": "Stand-in for Sydney's holiday end slide (Holiday_bkg_social_V1_2.jpg / Holiday_bkg_social_V2_2.jpg, sent 22 Oct 2026, in our Drive; not in endcards/ yet). Colors from the V2 slide. The slide already carries the Soles4Souls wordmark.",
-   "c": {
-    "bg": "#5D8BAD",
-    "fg": "#FFFFFF"
-   },
-   "text": {
-    "lines": [
-     "Donate + share to help us hit our goal link in bio!"
-    ]
-   },
-   "dur": 4.0,
-   "use": "This card is a stand-in so you can time the cut. In your timeline put Sydney's holiday slide (V1 or V2) at 00:15 and type this CTA in the open middle. The slide already has the Soles4Souls wordmark: add no logo. Hold it to the end."
+   "file": "endcards/s4s/holiday-2026/gsd-pie-goal.mp4",
+   "dur": 3.0,
+   "cue": "End card",
+   "src": "Sydney's holiday end slide V1, light blue (Holiday_bkg_social_V1_2.jpg, sent in #only_soles4souls on 22 Oct 2026), with the call to action from Sydney's 19 Oct editing doc, word for word. Built 3 Nov 2026.",
+   "use": "Put it after the last card and hold it to the end. The words are already on it; they fade in at 0.3 s."
   }
  ]
 }

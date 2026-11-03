@@ -1,0 +1,20 @@
+{
+ "item": "13330680341",
+ "client": "s4s",
+ "note": "The script asks for no graphics: Sydney adds every line of text herself after delivery. Only the plain end slide is here.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:14–00:17"
+   ],
+   "file": "endcards/s4s/holiday-2026/eoy-clap-plain.mp4",
+   "dur": 3.0,
+   "cue": "End card",
+   "src": "Sydney's holiday end slide V1, light blue (Holiday_bkg_social_V1_2.jpg, sent in #only_soles4souls on 22 Oct 2026), with the call to action from Sydney's 19 Oct editing doc, word for word. Built 3 Nov 2026.",
+   "use": "Put it after the last card and hold it to the end. The words are already on it; they fade in at 0.3 s. It is the plain slide: Sydney adds the call to action."
+  }
+ ]
+}

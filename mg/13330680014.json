@@ -69,25 +69,16 @@
   },
   {
    "n": 5,
-   "title": "End slide CTA",
-   "tpl": "end_card_overlay",
+   "title": "End card",
+   "tpl": "end_card",
    "rows": [
     "00:28–00:34"
    ],
-   "cue": "CTA text in the open middle of the slide, black, big: Give the gift of shoes this December and help us provide 5,000 kids with new shoes. then Donate now: link in bio",
-   "src": "Sydney's holiday end slide (Holiday_bkg_social_V1_2.jpg and V2_2.jpg on Drive, 22 Oct 2026) with the CTA lines from her 19 Oct editing doc. The slide is not in endcards/ yet, so this graphic is the CTA text only.",
-   "c": {
-    "bg": "#62CCBF",
-    "fg": "#000000"
-   },
-   "text": {
-    "lines": [
-     "Give the gift of shoes this December and help us provide 5,000 kids with new shoes.",
-     "Donate now: link in bio"
-    ]
-   },
-   "dur": 6.0,
-   "use": "Put Sydney's holiday slide at 00:28 and lay these two lines over its open middle. Hold to the end. Black text on the light blue V1 slide; on the dark blue V2 slide type the same lines in white. Add no logo: the wordmark is already on the slide."
+   "file": "endcards/s4s/holiday-2026/eoy-20-years.mp4",
+   "dur": 3.0,
+   "cue": "End card",
+   "src": "Sydney's holiday end slide V1, light blue (Holiday_bkg_social_V1_2.jpg, sent in #only_soles4souls on 22 Oct 2026), with the call to action from Sydney's 19 Oct editing doc, word for word. Built 3 Nov 2026.",
+   "use": "Put it after the last card and hold it to the end. The words are already on it; they fade in at 0.3 s."
   }
  ]
 }

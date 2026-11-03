@@ -16,6 +16,54 @@
    "r": 10
   }
  },
- "note": "No caption clips: Rod's dialogue is not used in this video. The cards are the text.",
- "tracks": []
+ "note": "S4S style. Optional: Rod's “I was nervous.” only if you keep it under the card.",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "I was nervous (optional)",
+   "rows": [
+    "00:04–00:08"
+   ],
+   "clip": "IMG_2672.MOV",
+   "start": -0.15,
+   "src": "IMG_2672.MOV -1:59.9",
+   "dur": 1.21,
+   "words": [
+    {
+     "w": "I",
+     "t0": 0.15,
+     "t1": 0.21,
+     "e": 0
+    },
+    {
+     "w": "was",
+     "t0": 0.21,
+     "t1": 0.73,
+     "e": 0
+    },
+    {
+     "w": "nervous.",
+     "t0": 0.73,
+     "t1": 1.11,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.09999999999999999,
+     "t1": 1.11,
+     "lines": [
+      [
+       0,
+       2
+      ]
+     ]
+    }
+   ],
+   "text": "I was nervous.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  }
+ ]
 }

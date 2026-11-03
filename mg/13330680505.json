@@ -1,96 +1,84 @@
 {
  "item": "13330680505",
  "client": "s4s",
- "note": "The script asks for five text cards and the end slide. Four cards are made here. The result line on 00:14–00:21 carries a dollar amount, so it is not built (no money on graphics) and it may still change: type it on its own layer on the S4S title plate. The end card here is a stand-in with the CTA: in your timeline use Sydney's holiday slide, which already has the Soles4Souls wordmark.",
+ "note": "The script asks for five text cards and the end card. The result card on 00:15–00:20 is not in this library because graphics here never carry money amounts, and it has to stay swappable: type it in the same style (black text on the teal bar, centered).",
  "mg": [
   {
    "n": 1,
    "title": "Results are in",
    "tpl": "highlight_callout",
-   "dur": 3,
+   "dur": 3.0,
    "pos": "center",
    "text": {
     "main": "Giving ShoesDay results are in..."
    },
-   "cue": "Hook text on frame 1, centered, big: “Giving ShoesDay results are in...” Already on screen at 0:00. Does not animate on.",
-   "src": "Script, row 00:00–00:03, Motion graphics & type.",
+   "cue": "Giving ShoesDay results are in...",
+   "src": "Script, row 00:00–00:04, Motion graphics & type.",
    "rows": [
-    "00:00–00:03"
+    "00:00–00:04"
    ],
-   "use": "Start the clip at frame 0045 (fully on) so it is on screen at 0:00. Hold it until 00:03, over the slow-motion swing."
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:04. Black text on the teal bar, big."
   },
   {
    "n": 2,
    "title": "We asked you",
-   "tpl": "kinetic_quote",
-   "dur": 4,
+   "tpl": "highlight_callout",
+   "dur": 4.5,
    "pos": "center",
    "text": {
-    "main": "We asked you to help us serve 2,500 kids with new shoes on Giving ShoesDay...",
-    "emph": [
-     "kids"
-    ]
+    "main": "We asked you to help us serve 2,500 kids with new shoes on Giving ShoesDay..."
    },
-   "cue": "Text card, centered, big: “We asked you to help us serve 2,500 kids with new shoes on Giving ShoesDay...”",
-   "src": "Script, row 00:03–00:07, Motion graphics & type.",
+   "cue": "We asked you to help us serve 2,500 kids with new shoes on Giving ShoesDay...",
+   "src": "Script, row 00:04–00:09, Motion graphics & type.",
    "rows": [
-    "00:03–00:07"
+    "00:04–00:09"
    ],
-   "use": "Over the 1-second recap flashes from 00:03 to 00:07."
+   "use": "Cut it in at the start of the row and hold it to the end of the row. Black text on the teal bar, big."
   },
   {
    "n": 3,
    "title": "Pie time",
    "tpl": "highlight_callout",
-   "dur": 4,
+   "dur": 3.0,
    "pos": "center",
    "text": {
     "main": "You showed up. Now it's pie time!"
    },
-   "cue": "Text card, centered, big: “You showed up. Now it's pie time!”",
-   "src": "Script, row 00:07–00:14, Motion graphics & type.",
+   "cue": "You showed up. Now it's pie time!",
+   "src": "Script, row 00:09–00:15, Motion graphics & type.",
    "rows": [
-    "00:07–00:14"
+    "00:09–00:15"
    ],
-   "use": "Bring it on as the hit starts, about 00:07, and hold 4 s."
+   "use": "Cut it in at the start of the row and hold it to the end of the row. Black text on the teal bar, big."
   },
   {
    "n": 4,
    "title": "Thank you",
    "tpl": "highlight_callout",
-   "dur": 4,
-   "pos": "center",
+   "dur": 3.0,
+   "pos": "upper",
    "text": {
     "main": "Thank you for showing up for kids in need."
    },
-   "cue": "Text card, centered, big: “Thank you for showing up for kids in need.”",
-   "src": "Script, row 00:21–00:27, Motion graphics & type.",
+   "cue": "Thank you for showing up for kids in need.",
+   "src": "Script, row 00:20–00:25, Motion graphics & type.",
    "rows": [
-    "00:21–00:27"
+    "00:20–00:25"
    ],
-   "use": "Over the kids B-roll from 00:21. The music turns sincere here."
+   "use": "Cut it in as Rod finishes his line. Upper third, so the captions stay clear. Black text on the teal bar, big."
   },
   {
    "n": 5,
-   "title": "End slide (stand-in)",
+   "title": "End card",
    "tpl": "end_card",
    "rows": [
-    "00:27–00:33"
+    "00:25–00:28"
    ],
-   "cue": "Sydney's holiday end slide with the CTA in the open middle.",
-   "src": "Stand-in for Sydney's holiday end slide (Holiday_bkg_social_V1_2.jpg / Holiday_bkg_social_V2_2.jpg, sent 22 Oct 2026, in our Drive; not in endcards/ yet). Colors from the V2 slide. The slide already carries the Soles4Souls wordmark.",
-   "c": {
-    "bg": "#5D8BAD",
-    "fg": "#FFFFFF"
-   },
-   "text": {
-    "lines": [
-     "Like and share to spread our mission.",
-     "Help us reach 5,000 kids this holiday season: link in bio"
-    ]
-   },
-   "dur": 4.0,
-   "use": "This card is a stand-in so you can time the cut. In your timeline put Sydney's holiday slide (V1 or V2) at 00:27 and type this CTA in the open middle. The slide already has the Soles4Souls wordmark: add no logo. Hold it to the end."
+   "file": "endcards/s4s/holiday-2026/gsd-pie-reveal.mp4",
+   "dur": 3.0,
+   "cue": "End card",
+   "src": "Sydney's holiday end slide V1, light blue (Holiday_bkg_social_V1_2.jpg, sent in #only_soles4souls on 22 Oct 2026), with the call to action from Sydney's 19 Oct editing doc, word for word. Built 3 Nov 2026.",
+   "use": "Put it after the last card and hold it to the end. The words are already on it; they fade in at 0.3 s."
   }
  ]
 }
