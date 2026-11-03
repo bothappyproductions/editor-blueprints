@@ -1,0 +1,68 @@
+{
+ "item": "13305757514",
+ "client": "wny-womens-foundation",
+ "note": "The script asks for three graphics: the hook text, Sheri's name super and the montage top text. 00:04–00:06: the series title card is already in the V1 project, so it is not rebuilt here. The end card is the series ombre close.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "GAME DAY / TO RUNWAY"
+   },
+   "cue": "Hook text on frame 1: “GAME DAY” / “TO RUNWAY”. Already on screen at 0:00. It does not animate on.",
+   "src": "Script, row 00:00–00:04, Motion graphics & type.",
+   "rows": [
+    "00:00–00:04"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:04. Top band, above her head. Never over her face."
+  },
+  {
+   "n": 2,
+   "title": "Sheri name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Sheri Scavone"
+   },
+   "cue": "Name super at 00:07, 2 seconds, lower half, above the captions and beside her, not over her face: “Sheri Scavone” / “CEO, WNY Women's Foundation”.",
+   "src": "Script, row 00:06–00:14, Motion graphics & type.",
+   "rows": [
+    "00:06–00:14"
+   ],
+   "use": "Put it on at 00:07 for 2 seconds. Move it lower in the frame, beside her and above the captions, not over her face. Type the second line CEO, WNY Women's Foundation under it."
+  },
+  {
+   "n": 3,
+   "title": "Montage top text",
+   "tpl": "highlight_callout",
+   "dur": 10,
+   "pos": "top",
+   "text": {
+    "main": "We've had SO much fun creating this for you!"
+   },
+   "cue": "Top text for the whole montage, in the top band: “We've had SO much fun creating this for you!”",
+   "src": "Script, row 00:14–00:24, Motion graphics & type.",
+   "rows": [
+    "00:14–00:24"
+   ],
+   "use": "Put it on at 00:14 and hold it to the end of the montage at 00:24, in the top band. Keep it off faces."
+  },
+  {
+   "n": 4,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:31–00:40"
+   ],
+   "cue": "The standard WSMO series end card, the Ms Eye Candy ombre close. Nothing on it changes.",
+   "src": "The WSMO ombre close agreed with Rebecca Winner (28 Sep), taken unchanged from the delivered Traditional_WNYWSMOMissEyeCandyBoutique001-3.mp4 (Drive, 7 Oct 2026), with its voice-over (endcards/index.json).",
+   "file": "endcards/wny-womens-foundation/wny-wsmo-ombre-close.mp4",
+   "dur": 9.4,
+   "use": "This is the end card, the client's own file. Put it at 00:31 after Sheri's last line and use it as it is, but mute its voice-over: Sheri already says the date in this cut. Music only."
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "item": "12950081937",
+ "client": "sfcg",
+ "note": "Still carousel (4:5): the type on Slide 1, Slide 2, Slide 3, Slide 4, Slide 5 and Slide 6 is set in the slide design, not as motion graphics, so nothing is made for those slides. The library carries only the SFCG logo end card for the last slide.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "Slide 7"
+   ],
+   "cue": "SFCG horizontal logo, white, and sfcg.org on the last slide.",
+   "src": "SFCG's 2024 horizontal logo, white text (SFCG Resources/Logos on Drive), endcards/index.json, dated 11 Feb 2026.",
+   "logo": "endcards/sfcg/sfcg-logo-horizontal-2024-white.png",
+   "c": {
+    "bg": "#003E74",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "lines": [
+     "sfcg.org"
+    ]
+   },
+   "dur": 3.0,
+   "use": "Carousel: take the white SFCG logo and sfcg.org from this card for the last slide, above the web address. The video file is not needed."
+  }
+ ]
+}

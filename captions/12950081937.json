@@ -1,0 +1,21 @@
+{
+ "item": "12950081937",
+ "client": "sfcg",
+ "style": {
+  "font": {
+   "css": "\"Inter\"",
+   "w": 700
+  },
+  "size": 60,
+  "y": 1330,
+  "max_lines": 2,
+  "reveal": "phrase",
+  "fg": "#FFFFFF",
+  "box": {
+   "bg": "#1E6FD6",
+   "r": 12
+  }
+ },
+ "note": "Still carousel: there is no video, so there are no caption clips. The quotes are set on the slides as designed type (verbatim, see the rows).",
+ "tracks": []
+}

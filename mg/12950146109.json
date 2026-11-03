@@ -1,0 +1,29 @@
+{
+ "item": "12950146109",
+ "client": "sfcg",
+ "note": "Still carousels (4:5): the fixed lines on Slide 1 and Slide 2 are set in the slide design, not as motion graphics, so nothing is made for them. The library carries only the SFCG logo end card for the band on slide 3.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "Slide 3"
+   ],
+   "cue": "SFCG horizontal logo, white, and sfcg.org on the last slide.",
+   "src": "SFCG's 2024 horizontal logo, white text (SFCG Resources/Logos on Drive), endcards/index.json, dated 11 Feb 2026.",
+   "logo": "endcards/sfcg/sfcg-logo-horizontal-2024-white.png",
+   "c": {
+    "bg": "#003E74",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "lines": [
+     "sfcg.org"
+    ]
+   },
+   "dur": 3.0,
+   "use": "Carousel: take the white SFCG logo and sfcg.org from this card for the blue band on slide 3. The video file is not needed."
+  }
+ ]
+}

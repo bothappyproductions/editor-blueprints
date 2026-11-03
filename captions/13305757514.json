@@ -1,0 +1,70 @@
+{
+ "item": "13305757514",
+ "client": "wny-womens-foundation",
+ "style": {
+  "font": {
+   "css": "\"Roboto\"",
+   "w": 700
+  },
+  "size": 62,
+  "y": 1350,
+  "max_lines": 2,
+  "reveal": "phrase",
+  "fg": "#FFFFFF",
+  "box": {
+   "bg": "#872175",
+   "r": 10
+  }
+ },
+ "tracks": [
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:24–00:27"
+   ],
+   "beat": "GO WOMEN, GO BILLS",
+   "title": "Go Women, Go Bills",
+   "clip": "IMG_4136.MOV",
+   "start": 0.0,
+   "src": "IMG_4136.MOV 00:00.0",
+   "dur": 2.11,
+   "words": [
+    {
+     "w": "Go",
+     "t0": 0.0,
+     "t1": 0.15,
+     "e": 0
+    },
+    {
+     "w": "Women,",
+     "t0": 0.15,
+     "t1": 0.34,
+     "e": 0
+    },
+    {
+     "w": "Go",
+     "t0": 0.64,
+     "t1": 0.96,
+     "e": 0
+    },
+    {
+     "w": "Bills!",
+     "t0": 0.96,
+     "t1": 1.66,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 3,
+     "t0": 0,
+     "t1": 2.01
+    }
+   ],
+   "text": "Go Women, Go Bills!",
+   "n": 1
+  }
+ ],
+ "note": "White text in the brand purple #872175 box (WNY series style). Clip 1 (the group cheer) is timed from a speech-to-text pass on IMG_4136.MOV this run; it starts on the clip's first frame. Not captioned here: Sheri's three lines (00:00–00:04, 00:06–00:14, 00:27–00:31). Her 1 Nov clips have no word times yet, so keep the V1 captions for them in the same purple boxes."
+}
