@@ -80,6 +80,8 @@ header{display:flex;flex-direction:column;gap:6px}
 .place{font-size:12.5px;color:var(--muted)}
 .chips{display:flex;flex-wrap:wrap;gap:6px}
 .chip{font-size:11.5px;padding:2px 9px;border-radius:999px;background:var(--surface-2);color:var(--ink);white-space:nowrap}
+.chip.next{background:var(--ok-bg);color:var(--ok);font-weight:600}
+.chip.hold{background:var(--off-bg);color:var(--off)}
 .chip.touch{background:var(--pink)}
 .req{display:flex;flex-direction:column;gap:6px}
 .req blockquote{margin:0;padding:2px 0 2px 12px;border-left:3px solid var(--lav);font-size:13.5px}
@@ -415,7 +417,23 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     }
     return true;
   }
+  /* Call queue lanes, set by the Order field: 900000+ = "Call next" (stays on top until reached),
+     950000+ = "On hold" (after everything else). Anything else sorts the usual way. */
+  const LANE_NEXT = 900000, LANE_HOLD = 950000;
+  function lane(r){
+    const o = Number(r.order) || 0, st = r.status || "new";
+    if(o >= LANE_HOLD) return 2;
+    if(o >= LANE_NEXT && (st === "new" || st === "emailed" || st === "called")) return 0;
+    return 1;
+  }
+  function triedToday(r){
+    if(!r.updatedAt || /^Claude/i.test(r.updatedBy || "")) return false;
+    return new Date(r.updatedAt).toDateString() === new Date().toDateString();
+  }
   function sortRows(a,b){
+    const la = lane(a), lb = lane(b);
+    if(la !== lb) return la - lb;
+    if(la === 0) return (triedToday(a) - triedToday(b)) || (Number(a.order) - Number(b.order));
     return (a.priority||"C").localeCompare(b.priority||"C")
       || (SORDER[a.status||"new"]-SORDER[b.status||"new"])
       || (a.order ?? 9999) - (b.order ?? 9999)
@@ -482,6 +500,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
         <div class="org-top"><span class="pri ${esc(r.priority||"C")}" title="Priority ${esc(r.priority||"C")}">${esc(r.priority||"C")}</span><h3>${esc(r.org)}</h3></div>
         ${place ? `<div class="place">${esc(place)}</div>` : ""}
         <div class="chips">
+          ${lane(r) === 0 ? `<span class="chip next" title="Top of the list until you reach someone. Best time to reach people: 11am to 1pm Eastern.">Call next${triedToday(r) ? " · tried today" : ""}</span>` : lane(r) === 2 ? `<span class="chip hold" title="Parked for now. Call after the Call next cards.">On hold</span>` : ""}
           ${r.category ? `<span class="chip">${esc(r.category)}</span>` : ""}
           ${r.buyerType ? `<span class="chip">${esc(r.buyerType)}</span>` : ""}
           ${r.firstTouch ? `<span class="chip touch">${esc(r.firstTouch)}</span>` : ""}
