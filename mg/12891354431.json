@@ -1,0 +1,103 @@
+{
+ "item": "12891354431",
+ "client": "nfte",
+ "note": "The script asks for the hook text, one name super and two top texts, so 4 graphics and the end card. The page draws one logo on the end card: add the BUILD logo next to the NFTE logo in your edit.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "Talent is universal. Opportunity is not."
+   },
+   "cue": "Hook text on frame 1, white on NFTE purple: “Talent is universal. Opportunity is not.”",
+   "src": "Script, row 00:00–00:04, Motion graphics & type.",
+   "rows": [
+    "00:00–00:04"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:04. Top third, over the winners."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "J.D. LaRock"
+   },
+   "cue": "Small super from 00:05 for 2 s, lower left: “J.D. LaRock” · NFTE CEO.",
+   "src": "Script, row 00:04–00:09, Motion graphics & type.",
+   "rows": [
+    "00:04–00:09"
+   ],
+   "use": "Put it on at 00:05 for 2 s. Move it lower left, above the captions. Type the second line NFTE CEO under it."
+  },
+  {
+   "n": 3,
+   "title": "Top text",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "stronger and larger"
+   },
+   "cue": "Top text as he says it: “stronger and larger”.",
+   "src": "Script, row 00:15–00:30, Motion graphics & type.",
+   "rows": [
+    "00:15–00:30"
+   ],
+   "use": "On his words “stronger and larger”, about 00:27. Top third, over the BUILD students."
+  },
+  {
+   "n": 4,
+   "title": "Top text",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "need something different"
+   },
+   "cue": "Top text as he says it: “need something different”.",
+   "src": "Script, row 00:35–00:40, Motion graphics & type.",
+   "rows": [
+    "00:35–00:40"
+   ],
+   "use": "On his words “need something different”, about 00:37. Top third."
+  },
+  {
+   "n": 5,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:40–00:46"
+   ],
+   "cue": "End card: the words “Fuel a Future”, the NFTE logo and the BUILD logo, and “nfte.com/fuelafuture”.",
+   "src": "NFTE's white logo from the NFTE brand kit (state/nfte/brand/logos, 9 Oct 2026), endcards/index.json. BUILD logo: endcards/nfte/build-logo-white.svg (Alison's BUILD logo, in white). End card words from the 5 Oct client notes on this item.",
+   "c": {
+    "bg": "#4C12A1",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/nfte/nfte-logo-white.svg",
+   "logos": [
+    {
+     "src": "endcards/nfte/nfte-logo-white.svg"
+    },
+    {
+     "src": "endcards/nfte/build-logo-white.svg",
+     "h": 1.35
+    }
+   ],
+   "text": {
+    "lines": [
+     "Fuel a Future",
+     "nfte.com/fuelafuture"
+    ]
+   },
+   "dur": 6.0,
+   "use": "Put it right after the last line at 00:40 and hold it to the very last frame. The page draws the NFTE logo only: place the BUILD logo (endcards/nfte/build-logo-white.svg) beside it at the same height. No fade to black."
+  }
+ ]
+}

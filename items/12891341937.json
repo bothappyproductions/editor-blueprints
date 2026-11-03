@@ -1,59 +1,59 @@
 {
  "id": "12891341937",
  "client": "nfte",
- "eyebrow": "NFTE · Fuel a Future campaign · JD LaRock, Dallas competition · Event film for the National Challenge screen",
+ "eyebrow": "NFTE · Fuel a Future · J.D. LaRock, pitch-competition sit-down (8 May 2026) · Event film, 16:9",
  "title": "Fuel a Future:",
- "title_q": "National Challenge Film",
+ "title_q": "“We Never Ask Students What They Want”",
  "title_short": "Fuel a Future · National Challenge film (16:9)",
  "editor": "Bleron",
  "due": "2026-10-09",
- "format": "16:9 · 1920×1080 (plays on the big screen at the National Challenge)",
- "length": "about 2:00",
+ "format": "16:9 only · 1920×1080 (event film, plays on the big screen in the room)",
+ "length": "about 1:50",
  "edit_key": "NFTEFeelAFutureCompetition001",
- "headline": "What the competition proves: young people build real businesses out of real problems they care about, and NFTE builds and measures the mindset behind it.",
+ "headline": "School rarely asks students what they want. NFTE starts with that question, measures the mindset it builds, and is joining forces with BUILD, because no student should feel they don't have what it takes.",
  "story": [
-  "A student mid-pitch. JD: young people create business ideas that answer a problem in their community.",
-  "School rarely asks students what they want. A NFTE program starts with that question: who are you? NFTE measures the mindset with its Entrepreneurial Mindset Index, and now works with partners like BUILD.",
-  "Students matter, and the capability is already inside them. No student should ever feel they don't have what it takes."
+  "An event film for the room: students, educators and donors. <b>The hook is the system's problem</b>, said by J.D.: so much of what students get is unconnected from what they want. NFTE begins with the opposite question: who are you? Young people build real businesses out of problems they care about, take agency over learning, and NFTE measures that mindset.",
+  "<b>The turn is the merger, said out loud.</b> J.D.: NFTE is merging and partnering with others, with BUILD students on screen, then BUILD says its own name. The button is urgent: no student should ever feel they don't have what it takes, and that is our problem, not theirs. The end card says Fuel a Future with both logos.",
+  "<b>Loops:</b> L1 <q>What do students want?</q> opens at 0:00 and closes at 00:17 on <q>Who are you?</q>. L2 <q>Who fixes it?</q> opens at the turn (01:00) and closes on the button. Hopeful and urgent, never adults talking down to kids."
  ],
  "feel": [
+  "Urgent",
   "Proud",
-  "Inspiring",
   "Clear",
   "Big-screen"
  ],
  "do": [
-  "Open on a student mid-pitch with the hook text.",
-  "Lower third on JD's first on-camera sync.",
-  "Put the NFTE + BUILD line in the middle with BUILD students on screen.",
-  "Mix for a room: dialogue loud and clear.",
-  "End on the awards stage, then the end card."
+  "Open on a student mid-pitch with the hook text on screen at frame 1.",
+  "Lower third on J.D.'s first on-camera line only (00:12).",
+  "BUILD students on screen under the merging line, and BUILD said once, from the merger video.",
+  "Mix for a room: dialogue loud and clear, music under it.",
+  "End on J.D.'s face for the last words, then the new end card."
  ],
  "dont": [
-  "No city or one-event framing on screen.",
-  "No adults talking down to kids.",
+  "No city or one-event framing on screen; no readable place on slides, signs or the stage backdrop.",
+  "No crochet pitch slides with numbers in a tight shot (A36A7830: do not use it).",
   "Don't caption the 22:18 fragment (“problem-side”) without checking the audio.",
-  "Never write “merger”.",
-  "No second aspect ratio."
+  "Never write “merger”: he says “merging and partnering”.",
+  "No second aspect ratio. No black frames, no fade from or to black."
  ],
  "links": {
   "brief": {
-   "title": "Editor brief: Fuel a Future, National Challenge screening video (pulse.12891341937)",
-   "url": "https://docs.google.com/document/d/1-XjRi3YXmcOvqB_GJ4LtHHeRgVtJPU5ZfD0pvAegVfY/edit",
-   "note": "Includes the 10 Sep direction update (NFTE + BUILD). Bites, AV map and rules are set there."
+   "title": "Production Brief — NFTE Dallas, JD Pitch Competition (May 8, 2026)",
+   "url": "https://docs.google.com/document/d/1RDVAy1N94J4giWIHzlEnDcq-bkjChOVx4gP5KmA9MU8/edit",
+   "note": "The shoot brief for the B-roll and the sit-down. The editing brief is <a href=\"https://docs.google.com/document/d/1-XjRi3YXmcOvqB_GJ4LtHHeRgVtJPU5ZfD0pvAegVfY/edit\">pulse.12891341937</a>; this page is the current plan with the 5 Oct client notes in it."
   },
   "reference": {
    "missing": true,
-   "title": "None on purpose",
-   "note": "Footage predates the reference rule. Alison owes past campaign examples; match their pacing if they land."
+   "title": "Not chosen yet",
+   "note": "Atdhe owes it. The Production Planning rows for the NFTE shoots have no reference. Alison also owes past campaign example videos; match their pacing if they land."
   },
   "footage": {
-   "title": "Dallas competition raw (8 May 2026)",
+   "title": "Dallas JD Pitch Competition May 8 2026 (raw)",
    "url": "https://drive.google.com/drive/folders/1fvFqaN04Thizbc-UrN_F8z6gufSVCoI1",
-   "note": "JD sit-down (Interview_Closeup_Audio_Edit.mp4) and event B-roll. BUILD B-roll from the client."
+   "note": "J.D. sit-down (Interview_Closeup_Audio_Edit.mp4) and all event B-roll. BUILD videos from Melanie."
   }
  },
- "bp_intro": "All JD lines are from <span class=\"mono\">Interview_Closeup_Audio_Edit.mp4</span> (Dallas, audio synced). Picture rows are real Dallas visual.json rows. Times are in that file.",
+ "bp_intro": "All J.D. lines are from <span class=\"mono\">Interview_Closeup_Audio_Edit.mp4</span> (the pitch-competition sit-down, sound synced in). Times are mm:ss.s in that file from the line times in output.json: there are no word times, so find each in and out on the waveform. B-roll is named from Erin's visual.json for the pitch competition and from the BUILD videos. One frame is a real frame of a BUILD video; the rest still need pulling.",
  "rows": [
   {
    "tc": "00:00–00:08",
@@ -61,215 +61,707 @@
    "kind": "hook",
    "frame": null,
    "crop": "none",
-   "frame_tag": null,
-   "frame_alt": null,
-   "visual": "A36A7830.MP4 00:35–00:47: student presenting COST STRUCTURE slides.",
-   "motion": "Hook text on <b>frame 1</b>: <q>Real problems. Real businesses.</q> No logo, no name plate.",
+   "frame_tag": "pitches 11:40",
+   "frame_alt": "visual.json: a student stands and pitches to a seated group. Not a pulled frame.",
+   "visual": "A student mid-pitch on frame 1: <a href=\"https://drive.google.com/file/d/1TSLwOCwP4dFs785yKY8mJT63AycpZG2Z/view\">pitches.mp4</a> inside <span class=\"mono\">11:31</span> to <span class=\"mono\">15:21</span> (visual.json: a presenter addressing a seated group). Pick a moment with the student speaking and no readable slide. J.D.'s voice under it; cut “Once again,” at the head.",
+   "motion": "Hook text on <b>frame 1</b>: <q>We never ask students what they want.</q> Already on screen at 0:00. It does not animate on. Large, white bold, top third. Out at 00:05. No logo, no name plate.",
    "voice": {
     "who": "J.D. LaRock",
-    "quote": "you meet young people who create fantastic business ideas that respond to a problem in their community that they care about",
-    "src": "DAL 31:43"
+    "quote": "so much of what students receive is completely untethered and unconnected from any idea of what the student wants.",
+    "src": "Interview_Closeup_Audio_Edit.mp4 32:07.6 to 32:14.8 (cut “Once again,” at the head; line times only)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed in."
+   "music": "Warm, hopeful bed starts on frame 1, low. Mix for a room.",
+   "shots": [
+    {
+     "clip": "pitches.mp4",
+     "at": 700.0,
+     "dur": 8.0,
+     "cx": 0.5,
+     "path": "Dallas JD Pitch Competition May 8 2026/1DX b-roll/pitches.mp4",
+     "drive": "1TSLwOCwP4dFs785yKY8mJT63AycpZG2Z",
+     "layout": "full",
+     "what": "A student pitching to a seated group (visual.json; pick on scrub)"
+    }
+   ]
   },
   {
-   "tc": "00:08–00:20",
+   "tc": "00:08–00:17",
    "beat": "WHO ARE YOU?",
    "kind": "turn",
    "frame": null,
    "crop": "none",
-   "frame_tag": null,
-   "frame_alt": null,
-   "visual": "A36A7828.MP4 00:12–00:35 (presenter, education slides), then JD on camera for “Who are you?”.",
-   "motion": "Lower third on JD's first sync: “J.D. LaRock · CEO, NFTE”.",
+   "frame_tag": "A36A7828 0:20",
+   "frame_alt": "visual.json: a presenter in front of a classroom, education slides on screen. Not a pulled frame.",
+   "visual": "Classroom B-roll first: <a href=\"https://drive.google.com/file/d/1fITXHL3KR90SuHZfxQ8x7adancL7ztzd/view\">A36A7828.MP4</a> <span class=\"mono\">00:20</span> to <span class=\"mono\">00:24</span> (visual.json: a presenter in front of a classroom). Keep slide text soft. Then J.D. on camera, <a href=\"https://drive.google.com/file/d/16CTqxv5U0cHTvrdF2AXhuC5DxxDK1_Nt/view\">Interview_Closeup_Audio_Edit.mp4</a>, for <q>But a NFTE program begins with that question. Who are you?</q> Hold 1 s after <q>Who are you?</q>.",
+   "motion": "Lower third at <span class=\"mono\">00:12</span> for 3 s, on his first on-camera line: <q>J.D. LaRock</q> / CEO, NFTE. Lower left, above the captions.",
    "voice": {
     "who": "J.D. LaRock",
-    "quote": "so much of what students receive is completely untethered and unconnected from any idea of what the student wants. … we never ask the students what they want. But a NFTE program begins with that question. Who are you?",
-    "src": "DAL 32:06, 32:16–32:24"
+    "quote": "we never ask the students what they want. But a NFTE program begins with that question. Who are you?",
+    "src": "Interview_Closeup_Audio_Edit.mp4 32:17.4 to 32:24.8 (cut “Why that happens,” at the head)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed under the voice."
+   "music": "Bed under the voice. Loop 1 closes here.",
+   "shots": [
+    {
+     "clip": "A36A7828.MP4",
+     "at": 20.0,
+     "dur": 4.0,
+     "cx": 0.5,
+     "path": "Dallas JD Pitch Competition May 8 2026/R6 b-roll/A36A7828.MP4",
+     "drive": "1fITXHL3KR90SuHZfxQ8x7adancL7ztzd",
+     "layout": "full",
+     "what": "A presenter in front of a classroom (visual.json)"
+    },
+    {
+     "face": true,
+     "from_word": "But"
+    }
+   ]
   },
   {
-   "tc": "00:20–00:35",
+   "tc": "00:17–00:27",
+   "beat": "REAL PROBLEMS",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": "A36A7829 0:41",
+   "frame_alt": "visual.json: a young woman presents to students. Not a pulled frame.",
+   "visual": "B-roll under his voice: <a href=\"https://drive.google.com/file/d/1Iu23O43OCbta9pKuYmQmfgsm0d003RV-/view\">A36A7829.MP4</a> <span class=\"mono\">00:41</span> to <span class=\"mono\">00:50</span> (visual.json: a young woman presenting to students). Keep the screen behind her out of frame or soft. Cut “That's why” at the head.",
+   "motion": "Key words, top third, as he says them: <q>a problem in their community</q>.",
+   "voice": {
+    "who": "J.D. LaRock",
+    "quote": "you meet young people who create fantastic business ideas that respond to a problem in their community that they care about",
+    "src": "Interview_Closeup_Audio_Edit.mp4 31:44.5 to 31:52.6 (cut “That's why”; out before “an issue in their family”)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "clip": "A36A7829.MP4",
+     "at": 41.0,
+     "dur": 9.0,
+     "cx": 0.5,
+     "path": "Dallas JD Pitch Competition May 8 2026/R6 b-roll/A36A7829.MP4",
+     "drive": "1Iu23O43OCbta9pKuYmQmfgsm0d003RV-",
+     "layout": "full",
+     "what": "A young woman presents to students (visual.json)"
+    }
+   ]
+  },
+  {
+   "tc": "00:27–00:38",
    "beat": "AGENCY",
    "kind": "",
    "frame": null,
    "crop": "none",
-   "frame_tag": null,
-   "frame_alt": null,
-   "visual": "A36A7829.MP4 00:41–00:54 (young woman presenting), A36A7827.MP4 00:13–00:39 (audience).",
+   "frame_tag": "A36A7827 0:20",
+   "frame_alt": "visual.json: a diverse audience, adults and children, seated and listening. Not a pulled frame.",
+   "visual": "J.D. on camera, <a href=\"https://drive.google.com/file/d/16CTqxv5U0cHTvrdF2AXhuC5DxxDK1_Nt/view\">Interview_Closeup_Audio_Edit.mp4</a> from <span class=\"mono\">03:19.7</span>. On <q>presenting learning</q> cut to the audience: <a href=\"https://drive.google.com/file/d/1SRCftp9-s1sx217AMRTwjd_qxNvE4FPk/view\">A36A7827.MP4</a> <span class=\"mono\">00:20</span> to <span class=\"mono\">00:24</span> (visual.json: a diverse audience, seated and listening). Competition Video 2 uses 0:00 and 0:13 of this clip.",
    "motion": "Captions only.",
    "voice": {
     "who": "J.D. LaRock",
-    "quote": "What I see in NFTE students that's missing from traditional classroom settings is the opportunity to take agency over learning",
-    "src": "DAL 03:19"
+    "quote": "What I see in NFTE students that's missing from traditional classroom settings is the opportunity to take agency over learning and to do that by presenting learning.",
+    "src": "Interview_Closeup_Audio_Edit.mp4 03:19.7 to 03:30.8"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed under the voice."
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "What"
+    },
+    {
+     "clip": "A36A7827.MP4",
+     "at": 20.0,
+     "dur": 4.0,
+     "cx": 0.5,
+     "path": "Dallas JD Pitch Competition May 8 2026/R6 b-roll/A36A7827.MP4",
+     "drive": "1SRCftp9-s1sx217AMRTwjd_qxNvE4FPk",
+     "layout": "full",
+     "what": "A diverse audience listening (visual.json)"
+    }
+   ]
   },
   {
-   "tc": "00:35–01:00",
+   "tc": "00:38–00:52",
    "beat": "THE MINDSET INDEX",
    "kind": "",
    "frame": null,
    "crop": "none",
-   "frame_tag": null,
-   "frame_alt": null,
-   "visual": "judges.mp4 02:20–07:01 (judge scoring), 07:01–09:21 (six judges at the table).",
-   "motion": "Captions only.",
+   "frame_tag": "judges 2:20",
+   "frame_alt": "visual.json: a judge writing scores at the table, papers spread. Not a pulled frame.",
+   "visual": "Judges at work under his voice: <a href=\"https://drive.google.com/file/d/1-Q3K0YuKfbVPFnxxcEZrhGraLOlKkkou/view\">judges.mp4</a> <span class=\"mono\">02:20</span> to <span class=\"mono\">07:01</span> (visual.json: a judge writing scores at the table), then <span class=\"mono\">07:01</span> to <span class=\"mono\">09:21</span> (six judges around the table). Two shots, about 3 s each, picked on scrub. Cut the gap between the two lines (<span class=\"mono\">22:10.7</span> to <span class=\"mono\">22:33.0</span>); do not caption the “problem-side” line in between.",
+   "motion": "Number pop, top third, as he says it: <q>8</q> entrepreneurial mindset capabilities.",
    "voice": {
     "who": "J.D. LaRock",
-    "quote": "At NFTE, we pioneered the Entrepreneurial Mindset Index, which measures things that most people believe can't be measured but actually can be measured. … We call them entrepreneurial mindset capabilities. There are eight of them.",
-    "src": "DAL 22:02, 22:32"
+    "quote": "At NFTE, we pioneered the Entrepreneurial Mindset Index, which measures things that most people believe can't be measured but actually can be measured. We call them entrepreneurial mindset capabilities. There are eight of them.",
+    "src": "Interview_Closeup_Audio_Edit.mp4 22:02.1 to 22:10.7 + 22:33.0 to 22:36.4"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed under the voice."
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "clip": "judges.mp4",
+     "at": 150.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "Dallas JD Pitch Competition May 8 2026/1DX b-roll/judges.mp4",
+     "drive": "1-Q3K0YuKfbVPFnxxcEZrhGraLOlKkkou",
+     "layout": "full",
+     "what": "A judge writing scores at the table (visual.json; pick on scrub)"
+    },
+    {
+     "clip": "judges.mp4",
+     "at": 450.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "Dallas JD Pitch Competition May 8 2026/1DX b-roll/judges.mp4",
+     "drive": "1-Q3K0YuKfbVPFnxxcEZrhGraLOlKkkou",
+     "layout": "full",
+     "what": "Six judges around the table (visual.json; pick on scrub)"
+    }
+   ]
   },
   {
-   "tc": "01:00–01:10",
+   "tc": "00:52–01:07",
    "beat": "BIGGER TOGETHER",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": "The BUILD Journey 0:25",
+   "frame_alt": "BUILD students at laptops in class (named in the Comcast blueprint). Not a pulled frame.",
+   "visual": "J.D. on camera, <a href=\"https://drive.google.com/file/d/16CTqxv5U0cHTvrdF2AXhuC5DxxDK1_Nt/view\">Interview_Closeup_Audio_Edit.mp4</a>, for <q>And at NFTE, we actually are taking it a step further.</q> On <q>merging and partnering</q> cut to BUILD students: <a href=\"https://drive.google.com/file/d/1OAo_5IWuozM8B7YCm9duZot3p9TDxayV/view\">The BUILD Journey _ From Student to CEO.mp4</a> around <span class=\"mono\">0:25.6</span> (BUILD students at laptops in class), then <span class=\"mono\">NFTE + BUILD Intent to Merge Announcement.mp4</span> around <span class=\"mono\">1:56.2</span> (BUILD students on stage with the big lit BUILD letters; Library drive). Both named in the Comcast blueprint: check on scrub. Clean shots only: no BUILD name bars, logos or subtitles. Not the Cendy and Jim steps shot: Competition Video 2 uses it.",
+   "motion": "Captions on. Caption NFTE where the transcript writes Nifty.",
+   "voice": {
+    "who": "J.D. LaRock",
+    "quote": "And at NFTE, we actually are taking it a step further. We are beginning the process of merging and partnering with other organizations that do what we do to help this thing become stronger and larger.",
+    "src": "Interview_Closeup_Audio_Edit.mp4 27:21.7 to 27:36.0"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed lifts on “stronger and larger”.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "And"
+    },
+    {
+     "clip": "The BUILD Journey _ From Student to CEO.mp4",
+     "at": 25.6,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "BUILD Videos for HP (Melanie, Oct 27 2026)/The BUILD Journey _ From Student to CEO.mp4",
+     "drive": "1OAo_5IWuozM8B7YCm9duZot3p9TDxayV",
+     "layout": "full",
+     "what": "BUILD students at laptops in class (check on scrub)"
+    },
+    {
+     "clip": "NFTE + BUILD Intent to Merge Announcement.mp4",
+     "at": 116.2,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "Network for Teaching Entrepreneurship (NFTE, pronounced nifty)/Edits/NFTEFeelAFutureCompetition002/_client/NFTE + BUILD Intent to Merge Announcement.mp4",
+     "drive": null,
+     "layout": "full",
+     "what": "BUILD students on stage with the big lit BUILD letters (check on scrub)"
+    }
+   ]
+  },
+  {
+   "tc": "01:07–01:14",
+   "beat": "SAY BUILD",
    "kind": "",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "BUILD students on screen (client BUILD B-roll, on scrub).",
-   "motion": "Captions only.",
+   "visual": "One short line from <span class=\"mono\">NFTE + BUILD Intent to Merge Announcement.mp4</span> (Alison's file, Library drive) where the speaker says <q>BUILD</q>. Alison: Thais, the leader of BUILD, speaks in it. Use her face and voice. Crop out the video's own name bar. Pick a different line from the one Competition Video 2 uses.",
+   "motion": "Captions on, typed from what you hear. BUILD in capitals.",
    "voice": {
-    "who": "J.D. LaRock",
-    "quote": "We are beginning the process of merging and partnering with other organizations that do what we do to help this thing become stronger and larger.",
-    "src": "DAL 27:25"
+    "who": "TBD on scrub (the speaker in the merger video)",
+    "quote": "TBD on scrub: one short line in the merger video that says “BUILD”.",
+    "src": "NFTE + BUILD Intent to Merge Announcement.mp4 · time TBD on scrub (no transcript of this file yet)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed under the voice."
+   "music": "Bed under the line. Their own music stays out.",
+   "shots": []
   },
   {
-   "tc": "01:10–01:25",
+   "tc": "01:14–01:30",
    "beat": "ALREADY INSIDE THEM",
    "kind": "",
    "frame": null,
    "crop": "none",
-   "frame_tag": null,
-   "frame_alt": null,
-   "visual": "pitches.mp4 11:31–15:21; A36A7831.MP4 00:00–00:08 (podium, AIYANA student-business logo).",
-   "motion": "Captions only.",
+   "frame_tag": "A36A7831 0:00",
+   "frame_alt": "visual.json: a podium, a student-business logo on the screen. Not a pulled frame.",
+   "visual": "J.D. on camera, <a href=\"https://drive.google.com/file/d/16CTqxv5U0cHTvrdF2AXhuC5DxxDK1_Nt/view\">Interview_Closeup_Audio_Edit.mp4</a> from <span class=\"mono\">35:52.9</span>. Cut the pause before <q>They have all of the innate capabilities</q> (<span class=\"mono\">35:59.1</span> to <span class=\"mono\">36:00.9</span>) and cover it with <a href=\"https://drive.google.com/file/d/17VCZBYxYpKImAQK3GZBbj1W1MqUh5pyT/view\">A36A7831.MP4</a> <span class=\"mono\">00:00</span> to <span class=\"mono\">00:08</span> (visual.json: a podium, a student-business logo on screen), then a pitch: <a href=\"https://drive.google.com/file/d/1TSLwOCwP4dFs785yKY8mJT63AycpZG2Z/view\">pitches.mp4</a> around <span class=\"mono\">12:30</span> (pick on scrub).",
+   "motion": "Key words, top third, as he says them: <q>already inside them</q>.",
    "voice": {
     "who": "J.D. LaRock",
-    "quote": "The NFTE program shows students that they matter … They have all of the innate capabilities to create a business essentially already inside them.",
-    "src": "DAL 35:52, 36:00"
+    "quote": "The NFTE program shows students that they matter, and I wish that more students understood from the get-go that they do matter. They have all of the innate capabilities to create a business essentially already inside them.",
+    "src": "Interview_Closeup_Audio_Edit.mp4 35:52.9 to 35:59.1 + 36:00.9 to 36:05.7"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed under the voice."
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "The"
+    },
+    {
+     "clip": "A36A7831.MP4",
+     "at": 0.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "Dallas JD Pitch Competition May 8 2026/R6 b-roll/A36A7831.MP4",
+     "drive": "17VCZBYxYpKImAQK3GZBbj1W1MqUh5pyT",
+     "layout": "full",
+     "what": "A podium, a student-business logo on screen (visual.json)"
+    },
+    {
+     "clip": "pitches.mp4",
+     "at": 750.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "Dallas JD Pitch Competition May 8 2026/1DX b-roll/pitches.mp4",
+     "drive": "1TSLwOCwP4dFs785yKY8mJT63AycpZG2Z",
+     "layout": "full",
+     "what": "A student pitching (visual.json; pick on scrub)"
+    }
+   ]
   },
   {
-   "tc": "01:25–01:45",
+   "tc": "01:30–01:40",
    "beat": "BUTTON",
    "kind": "",
    "frame": null,
    "crop": "none",
-   "frame_tag": null,
-   "frame_alt": null,
-   "visual": "awards.mp4 03:48–11:25 (group of eight on stage), then 11:25–15:14 hallway congratulations.",
-   "motion": "Captions only.",
+   "frame_tag": "awards stage",
+   "frame_alt": "visual.json: students on stage holding awards. Not a pulled frame.",
+   "visual": "The awards stage under the first line: <a href=\"https://drive.google.com/file/d/1OmVY856Fs9GXkf-BCU5wbjTudgzewM8Z/view\">awards.mp4</a> inside <span class=\"mono\">05:00</span> to <span class=\"mono\">11:25</span> (students on stage, celebration), not the <span class=\"mono\">03:48</span> moment Competition Video 2 uses. Crop so the backdrop text cannot be read. Then J.D.'s face for <q>That's our problem, not theirs.</q> Hold 1 s on him, then the end card.",
+   "motion": "Top text as he says it: <q>That's our problem, not theirs.</q> Captions on.",
    "voice": {
     "who": "J.D. LaRock",
-    "quote": "no student should ever feel like they don't have what it takes to launch a business",
-    "src": "DAL 36:10"
+    "quote": "no student should ever feel like they don't have what it takes to launch a business. That's our problem, not theirs.",
+    "src": "Interview_Closeup_Audio_Edit.mp4 36:10.6 to 36:15.2 + 37:19.2 to 37:20.5 (cut “But” at the head; the second line closes his answer about students who feel they don't matter)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Lift, then resolve."
+   "music": "Lift, then resolve into the end card.",
+   "shots": [
+    {
+     "clip": "awards.mp4",
+     "at": 420.0,
+     "dur": 4.0,
+     "cx": 0.5,
+     "path": "Dallas JD Pitch Competition May 8 2026/1DX b-roll/awards.mp4",
+     "drive": "1OmVY856Fs9GXkf-BCU5wbjTudgzewM8Z",
+     "layout": "full",
+     "what": "Students on stage, celebration (visual.json; pick on scrub)"
+    },
+    {
+     "face": true,
+     "from_word": "That's"
+    }
+   ]
   },
   {
-   "tc": "01:45–01:50",
+   "tc": "01:40–01:48",
    "beat": "END CARD",
    "kind": "end",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "End card.",
-   "motion": "<q>Fuel a Future Like Mine</q> + NFTE.com/fuelafuture.",
+   "visual": "End card: the words <q>Fuel a Future</q>, the NFTE logo and the BUILD logo, and <q>nfte.com/fuelafuture</q>. NFTE purple <span class=\"mono\">#4C12A1</span>. Hold it to the very last frame. No fade to black.",
+   "motion": "End card: the words “Fuel a Future”, the NFTE logo and the BUILD logo, and “nfte.com/fuelafuture”. NFTE purple #4C12A1, white type. No logo before this card.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Out."
+   "music": "Final note rings out on the card.",
+   "shots": []
   }
  ],
- "frames": {},
+ "frames": {
+  "f_cendy_83": "data:image/jpeg;base64,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"
+ },
  "files": [
   [
-   "Editing brief",
-   "<a href=\"https://docs.google.com/document/d/1-XjRi3YXmcOvqB_GJ4LtHHeRgVtJPU5ZfD0pvAegVfY/edit\">pulse.12891341937</a> (Google Doc). This page is built from it."
+   "Editing brief (old)",
+   "<a href=\"https://docs.google.com/document/d/1-XjRi3YXmcOvqB_GJ4LtHHeRgVtJPU5ZfD0pvAegVfY/edit\">pulse.12891341937</a> (Google Doc). This page is the current plan."
   ],
   [
-   "Footage",
-   "<a href=\"https://drive.google.com/drive/folders/1fvFqaN04Thizbc-UrN_F8z6gufSVCoI1\">Dallas raw</a> · <a href=\"https://drive.google.com/drive/folders/1BiTDNFiqRfgTVagYgkXH1Eqe4luN13hY\">Boston JD</a> (optional color only)"
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/1RDVAy1N94J4giWIHzlEnDcq-bkjChOVx4gP5KmA9MU8/edit\">Production Brief — NFTE Dallas, JD Pitch Competition (May 8, 2026)</a>"
   ],
   [
-   "BUILD B-roll (client)",
-   "<a href=\"https://photos.app.goo.gl/aGUCbH6q1bmaQdny7\">2024 BUILDFest LA</a> · <a href=\"https://photos.app.goo.gl/KjPk6pMAjwmaq9Ka6\">2026 BUILDFest LA</a> · Vimeo <a href=\"https://vimeo.com/846403773\">846403773</a> · <a href=\"https://vimeo.com/1092465264\">1092465264</a> · <a href=\"https://vimeo.com/439357961\">439357961</a>. No visual.json: pick on scrub."
+   "Footage folder",
+   "<a href=\"https://drive.google.com/drive/folders/1fvFqaN04Thizbc-UrN_F8z6gufSVCoI1\">Dallas JD Pitch Competition May 8 2026</a>"
+  ],
+  [
+   "J.D. clip",
+   "<a href=\"https://drive.google.com/file/d/16CTqxv5U0cHTvrdF2AXhuC5DxxDK1_Nt/view\">Interview_Closeup_Audio_Edit.mp4</a> (sit-down, sound synced in) · Interview_Wide_Audio_Edit.mp4 is the same take, wide, about 3 s later"
   ],
   [
    "Transcript",
-   "“Transcripts - Dallas JD Pitch Competition May 8 2026” + transcript.json in the Dallas folder. visual.json: yes."
+   "<a href=\"https://drive.google.com/file/d/1Ssfqkk7Bmx2Qj15ZLP3mYjCkY9033Puz/view\">pitch competition output.json</a> (line times only for the sit-down) · <a href=\"https://docs.google.com/document/d/1-R7PsokdZwC9mR3nZo2szFrTzIMwqz_fj0vS4ykYZa4/edit\">Transcripts - Dallas JD Pitch Competition May 8 2026</a> (R6 b-roll)"
   ],
   [
-   "Client ask",
-   "Alison Swenson, 27 Aug: “one video to show at the National Challenge”. It plays on the big screen in the room."
+   "B-roll picks",
+   "<a href=\"https://drive.google.com/file/d/1TSLwOCwP4dFs785yKY8mJT63AycpZG2Z/view\">pitches.mp4</a> · <a href=\"https://drive.google.com/file/d/1fITXHL3KR90SuHZfxQ8x7adancL7ztzd/view\">A36A7828.MP4</a> · <a href=\"https://drive.google.com/file/d/1Iu23O43OCbta9pKuYmQmfgsm0d003RV-/view\">A36A7829.MP4</a> · <a href=\"https://drive.google.com/file/d/1SRCftp9-s1sx217AMRTwjd_qxNvE4FPk/view\">A36A7827.MP4</a> · <a href=\"https://drive.google.com/file/d/1-Q3K0YuKfbVPFnxxcEZrhGraLOlKkkou/view\">judges.mp4</a> · <a href=\"https://drive.google.com/file/d/17VCZBYxYpKImAQK3GZBbj1W1MqUh5pyT/view\">A36A7831.MP4</a> · <a href=\"https://drive.google.com/file/d/1OmVY856Fs9GXkf-BCU5wbjTudgzewM8Z/view\">awards.mp4</a> · <a href=\"https://drive.google.com/file/d/1cT2P3rsZot-CT-g7naFkPYNRkabzXpJ_/view\">visual.json</a> (Erin's shot index)"
+  ],
+  [
+   "BUILD videos (client)",
+   "<a href=\"https://drive.google.com/drive/folders/1ZE8ijEH5FxODZGuLjNJxht5uNmUYfnlx\">Melanie's BUILD folder</a> (Melanie, 27 Oct; 1280×720): <a href=\"https://drive.google.com/file/d/1SyvMj0SPTdPNWMZ_hYR2Dmh1LWgb1ZxZ/view\">BUILD.org _ Entrepreneurship Education.mp4</a> · <a href=\"https://drive.google.com/file/d/1OAo_5IWuozM8B7YCm9duZot3p9TDxayV/view\">The BUILD Journey _ From Student to CEO.mp4</a> · <a href=\"https://drive.google.com/file/d/1DDWniMhyo7SCjro85VlPusfngAeahDF1/view\">Meet Cendy &amp; Jim _ BUILD Mentorship Story.mp4</a>. The merger video <span class=\"mono\">NFTE + BUILD Intent to Merge Announcement.mp4</span> (Alison, 5 Oct) is on the Library drive: <span class=\"mono\">Network for Teaching Entrepreneurship (NFTE, pronounced nifty)/Edits/NFTEFeelAFutureCompetition002/_client/</span>. Several BUILD videos have name bars, logos or subtitles burned in: use only clean shots."
+  ],
+  [
+   "Logos",
+   "NFTE and BUILD logos, white: <span class=\"mono\">endcards/nfte/nfte-logo-white.svg</span> and <span class=\"mono\">endcards/nfte/build-logo-white.svg</span> on this site. The Fuel a Future logo was attached to Alison's 5 Oct email: ask Atdhe for the file."
+  ],
+  [
+   "Brand",
+   "NFTE purple <span class=\"mono\">#4C12A1</span>, orange <span class=\"mono\">#FF5C39</span>, sky blue <span class=\"mono\">#49B6E3</span>. Circular if you have it, else DM Sans for graphics and Roboto for captions."
+  ],
+  [
+   "Music",
+   "Licensed track only (no set source for NFTE). Save the license with the project. Music always under the voice."
   ]
  ],
  "tech": [
   [
    "Source",
-   "Dallas: Interview_Closeup_Audio_Edit.mp4 (main) and Interview_Wide_Audio_Edit.mp4 (same take, about 3 s later), audio synced in. Event B-roll 1DX (5.5K) and R6. Boston C4258, NYC C4256."
-  ],
-  [
-   "Loudness",
-   "−14 LUFS integrated, −1 dBTP peak. Dialogue wins; music under it."
-  ],
-  [
-   "Captions",
-   "White on NFTE purple <span class=\"mono\">#4C12A1</span>, accent NFTE orange <span class=\"mono\">#FF5C39</span>. Circular if you have it, else house font."
+   "Interview_Closeup_Audio_Edit.mp4 (main) and Interview_Wide_Audio_Edit.mp4 (same take, about 3 s later), sound synced in. Event B-roll: 1DX (5.5K) and R6. BUILD videos 1280×720."
   ],
   [
    "Timeline",
-   "1920×1080, 16:9."
+   "1920×1080, 16:9, at the sit-down's frame rate. Conform the B-roll to it."
+  ],
+  [
+   "Crop",
+   "16:9, no crop for the sit-down. Push in (110% or less) only to hide jumps or to lose readable text in the B-roll. BUILD shots: scale up gently and sharpen."
   ],
   [
    "Mix",
-   "Mix for a room: dialogue loud and clear, music under it."
+   "Mix for a room: dialogue loud and clear, music well under it. The merger-video line keeps its own voice track; leave its music out."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak."
+  ],
+  [
+   "Captions",
+   "Burned in, white on NFTE purple <span class=\"mono\">#4C12A1</span>, max 2 lines, lower third. NFTE and BUILD in capitals. Timed from line times: check by ear."
   ],
   [
    "Export",
-   "H.264 MP4, 1920×1080. One file."
+   "H.264 MP4, 1920×1080, 16:9 only. Picture on the first and last frame. Upload to Frame.io → Ready for Review."
   ]
  ],
  "checklist": [
-  "NFTE in every caption (the transcript writes “Nifty”).",
-  "No city names on screen; no legible “Dallas ISD” or Texas signage.",
-  "Hook text on frame 1. No logo, name plate or fade at 0:00.",
-  "Captions white on NFTE purple #4C12A1, accent orange #FF5C39.",
-  "End card: “Fuel a Future Like Mine” + NFTE.com/fuelafuture.",
-  "Transitions show footage, never black.",
-  "Lower third: J.D. LaRock · CEO, NFTE.",
-  "BUILD students appear in the middle."
+  "Frame 1 is a student mid-pitch with “We never ask students what they want.” on screen. No logo, name or fade.",
+  "Lower third J.D. LaRock / CEO, NFTE on his first on-camera line only.",
+  "BUILD is said once, from the merger video, and BUILD students are on screen under the merging line.",
+  "No place name in any caption, slide, sign or backdrop. No crochet pitch slide with numbers in any shot.",
+  "The “problem-side” line at 22:18 is not in the cut.",
+  "The last words are “That's our problem, not theirs.” on J.D.'s face.",
+  "End card: Fuel a Future, NFTE and BUILD logos, nfte.com/fuelafuture. It holds to the last frame.",
+  "Every caption matches the audio. NFTE in capitals, never Nifty. The word merger is not on screen.",
+  "Transitions show footage, never black. The file is 16:9 only, 1920×1080."
  ],
  "decisions": [
   {
-   "t": "Revision notes",
-   "b": "This item is in Needs Revisions at V1. Read the Frame.io notes first; this page is the plan for everything they don't change."
+   "t": "The BUILD line",
+   "b": "The client wants the word BUILD said, from the merger announcement video. That file is on the Library drive and has no transcript yet, so the exact line is open. Bleron picks one short line that says BUILD on scrub (Alison: Thais, the leader of BUILD, speaks in it); Nick checks the speaker's name and title before any name goes on screen. A clean fallback with word times exists: a BUILD student in BUILD.org _ Entrepreneurship Education.mp4 at about 1:05 says “If it wasn't because of BUILD…” (used in the Comcast spot)."
   },
   {
-   "t": "NFTE + BUILD",
-   "b": "Since the 8 Sep bi-weekly (Alison, Fathom 13:08) the campaign is about NFTE joining forces with BUILD. Say it once in JD's words. Never caption “merger”: he says “merging and partnering”."
+   "t": "What Fuel a Future is",
+   "b": "Alison and Atdhe asked the ending to make clear what Fuel a Future is and why it matters now. J.D. never names Fuel a Future in the footage, so the end card carries the name. If Alison sends one line that says what Fuel a Future is, it goes on the end card under the name."
+  },
+  {
+   "t": "Fuel a Future logo",
+   "b": "The logo file was attached to Alison's 5 Oct email and is not on Drive or this site. Until Atdhe forwards it, the end card types Fuel a Future in the brand font."
+  },
+  {
+   "t": "The urgent last line",
+   "b": "The button adds J.D.'s “That's our problem, not theirs.” (37:19) after “no student should ever feel like they don't have what it takes to launch a business” to answer the call for urgency. If Alison finds it too sharp for the room, end on the first line alone."
   }
  ],
- "client_note": "<b>Why this matters:</b> it plays on the big screen at the National Challenge, to the students, educators and donors in the room. Those students are the subject.",
+ "client_note": "<b>Why this matters:</b> Alison watched this cut on the 5 Oct call and liked the Launch video's hook better: this one needed the same urgency and systems-change framing, and an ending with urgency. It plays to the students, educators and donors in the room.",
  "ask_examples": [
-  "What is the hook?",
-  "Where does the BUILD line go?",
-  "Why 16:9?",
+  "What is the new hook?",
+  "Which line says BUILD?",
+  "Why does it end on J.D.'s face?",
   "What goes on the end card?"
- ]
+ ],
+ "transcript": "The pitch-competition sit-down (J.D. LaRock, 8 May 2026) is the Interview_Closeup_Audio_Edit.mp4 section. Line times come from output.json (no word times for this clip). Speaker labels were wrong and are removed: every answer is J.D.; lines that start with Q: are the interviewer. The machine wrote \"Nifty\"; it is written NFTE here, as he says it. Only the first 5 minutes and 20:00 to the end are here.\n--- Interview_Closeup_Audio_Edit.mp4 ---\n[00:04.4] Q: How does NFTE reflect where education is heading, not just where it's been?\n[00:10.8] NFTE reflects where education is heading because NFTE is about entrepreneurship.\n[00:18.3] Entrepreneurship is fundamentally about creation.\n[00:22.3] Education needs sorely now to head in the direction of cultivating students' creative capabilities in a world of artificial intelligence, in a world of changing professions and changing industries, in a world where the traditional methods are not producing the academic achievement results that students need, and we all can see it, the world and students most of all need something different.\n[00:51.2] NFTE's here not just to spread the gospel of entrepreneurship education, we are now here to reinvent education for what it needs to be, but frankly, what it always should have been.\n[01:04.6] And that's what NFTE is about.\n[01:07.0] Q: And what does learning by doing unlock for students?\n[01:12.3] Learning by doing, first of all, unlocks the fact that students want to do things.\n[01:19.8] People want to do things.\n[01:22.2] Young people do not want to sit all the time in a classroom and hear about theoretical, conceptual things.\n[01:32.2] They want to have a purpose in the world.\n[01:35.4] They want to find out who they're about.\n[01:38.8] And learning by doing allows young people to do those things.\n[01:43.0] [do not use: transcription error]\n[01:44.2] Q: As NFTE approaches its 40th anniversary in 2027, how do these ideas reflect the organization's enduring relevance, and what do they say about NFTE's role in shaping the future of education?\n[01:59.5] NFTE's enduring relevance over 40 years comes from the fact that the world is full of businesses.\n[02:05.8] You can't have a world without them.\n[02:07.4] You can't have an economy without them.\n[02:09.2] You can't have a community without them.\n[02:11.5] And so the fact that we've stood for the idea that entrepreneurship education should be in American schools and schools globally is what we have always stood for. [do not use: names a place; NFTE wants national, evergreen cuts]\n[02:23.8] But now we're taking that concept even further.\n[02:27.0] We truly believe that we are not only teaching the entrepreneurial mindset, which is really applicable to jobs and careers that most people will have, whether they're small business owners or not.\n[02:40.0] We also believe that, again, it's time now to unleash the creative capabilities that human beings have so we can power our world forward in a healthy way and in a way that actually drives individual prosperity and family prosperity, but also individual success and fulfillment.\n[02:59.7] The NFTE model is about unleashing what's within young people so that they can become who they truly are and show the world all of the fantastic things that they can give it.\n[03:11.5] Q: What do you consistently see in NFTE students that's often missing in traditional classroom settings?\n[03:19.7] What I see in NFTE students that's missing from traditional classroom settings is the opportunity to take agency over learning and to do that by presenting learning.\n[03:31.9] We stand up in front of so many talented students around the country and around the world who are seventh graders, eighth graders, ninth graders, tenth graders.\n[03:42.2] We're even working more with younger children now.\n[03:44.8] They stand up there.\n[03:46.5] You wouldn't know that they're in middle school.\n[03:48.6] You would think that they were adults for the sophistication of what they provide.\n[03:52.8] And they have amazing business ideas.\n[03:55.3] They propose businesses that I wouldn't want to buy from, that my family would want to buy from.\n[04:00.2] So where else is that happening in U.S. classrooms? [do not use: names a place; NFTE wants national, evergreen cuts]\n[04:04.1] I don't see it happening anywhere else but in NFTE classrooms and that's why we are working so hard to continue to expand throughout the nation and throughout the world and to bring more of what we do to even more students because they want it.\n[04:18.9] Q: If you could bottle one moment from today to show policymakers, what would it be?\n[04:24.9] If I could bottle one moment today to show policymakers, I would show them nothing more than what those three students did when they got up and they each in very different ways presented fantastic business plans.\n[04:39.7] We had a young learner who presented in Spanish.\n[04:43.0] That was fantastic.\n[04:44.4] That's an asset.\n[04:45.5] It showed people that he can work not only with entrepreneurship ideas but he can work bilingually.\n[04:52.1] By the way, he also did a fantastic job fielding questions and doing them really well.\n[04:57.3] So the fact that a student stood up there, was interrogated on the rigor of his business and stood up to that interrogation is something that I would want to see a district administrator or a school administrator see.\n[20:00.3] I think it's ultimately relevant to sustaining our democracy, our society, because when you have people operating businesses that serve a community, you have many things.\n[20:14.6] You have an entity that is providing something of value to the community.\n[20:20.5] It is economic activity that benefits not just the business owner, but all the people who are connected to what that business owner needs.\n[20:29.5] That helps sustain the community.\n[20:31.6] You also create relationships.\n[20:34.3] You create relationships with your customers.\n[20:37.0] You create relationships with the families who come and discover your business.\n[20:42.1] And so there's a whole human dimension that also creates the social fabric of communities.\n[20:48.4] Entrepreneurship does that too.\n[20:59.2] It's important to measure the economic impact of programs like NFTE because, well, first of all, we're entrepreneurship.\n[21:07.4] So if we aren't measuring our business metrics, then we wouldn't be very good, would we?\n[21:11.5] So we're pretty committed to that idea.\n[21:13.5] But of course, people want to know that a program is not only providing a meaningful experience to a learner, but that it's also providing an effective experience to a learner.\n[21:26.3] Learning can be measured.\n[21:27.5] We all know that.\n[21:28.8] Literacy, numeracy can and should be measured.\n[21:33.2] Knowing where you are in terms of being a literate and financially literate person is essential to operating in life.\n[21:41.2] So programs like ours that make a real effort to measure that type of learning are providing something valuable to the student, to the teacher, to the school, to the state policymakers who want to know how students are doing.\n[21:53.9] So for those reasons, it's important.\n[21:56.8] But measurement goes beyond and can go beyond the traditional way of looking at measurement.\n[22:02.1] At NFTE, we pioneered the Entrepreneurial Mindset Index, which measures things that most people believe can't be measured but actually can be measured.\n[22:11.5] They include things like the ability to manage risk, the ability to spot opportunities, the ability to problem-side, the ability to collaborate.\n[22:22.3] We have designed scientifically valid.\n[22:27.3] We have designed scientifically validated assessments that measure these capabilities.\n[22:33.0] We call them entrepreneurial mindset capabilities.\n[22:35.7] There are eight of them.\n[22:37.1] And we're the only organization in the world, as far as I know, that really attempts to ascertain what all of our students are doing in this regard.\n[22:47.6] This is next generation assessment when you think about it because, once again, we're living in a world where AI can read the document for you.\n[22:57.8] It can analyze the spreadsheet of financials for you.\n[23:01.5] But you also need to have creative capabilities.\n[23:05.2] You need to work with other people.\n[23:07.1] You need to look at the world around you and see if there is an opportunity out there that can help you or if there's something out there that you should be cautious about.\n[23:15.2] AI can't do any of that.\n[23:17.5] But the NFTE program does that.\n[23:19.1] And that's another way that we can cultivate skills and also measure through sound assessment and 21st century assessment.\n[23:44.5] I hope that people take away from this new analysis the idea that entrepreneurship is about so, so much more than just one person starting one business.\n[23:55.3] I really encourage people who read this report and who really think about what NFTE does to recognize that we are empowering individuals.\n[24:04.5] We are empowering families by creating economic lifelines for individuals to provide family prosperity.\n[24:12.5] We are also providing and cultivating people who can be real emblems in their community by setting up businesses, by staying in their community, by investing and reinvigorating their community.\n[24:27.6] Look at what is happening in the United States today.\n[24:32.2] We are finding our way on so many things.\n[24:35.7] We are divided on so many things.\n[24:38.3] But I can't think of a single person I know or who I've ever talked to who has said, my community shouldn't be stronger.\n[24:47.8] There should be fewer businesses.\n[24:50.4] There should be less opportunity.\n[24:53.5] NFTE provides opportunity.\n[24:55.8] It provides a direct practical pathway for a young person to start and sustain a business with real educational knowledge about how to do it.\n[25:04.5] And it provides a pathway for people to benefit themselves, their families, and their communities through that total effort.\n[25:11.0] That is the magic of entrepreneurship.\n[25:12.8] It is so rich.\n[25:28.0] One of the things about the nonprofit field and the education field is that it's often fragmented.\n[25:33.8] There are many organizations that work on many good things.\n[25:38.6] And most of them, most of us, do it in this little pocket.\n[25:43.8] And we do it for a while.\n[25:46.1] And because the nonprofit model is not necessarily always the strongest business model, sometimes those organizations go away.\n[25:56.7] They don't always prosper.\n[25:58.7] The whole organizational fragmentation of the education sector and the nonprofit sector is a limiting factor in our collective effectiveness.\n[26:08.0] So at NFTE a few years ago, we launched our CEO coalition of entrepreneurship education organizations, which banded together and does band together, going to Capitol Hill and the state legislatures to evangelize on behalf of the cause of entrepreneurship education. [do not use: names a place; NFTE wants national, evergreen cuts]\n[26:29.6] What we saw was that policymakers, stakeholders, people from all different states across the country are really interested in what we have to do.\n[26:39.3] And they like the fact that we are working in coalition together now to speak as one voice, that we're not competitors.\n[26:46.5] We are actually colleagues believing in a common philosophy and working in a more coordinated way now to be able to elevate entrepreneurship education faster.\n[26:57.2] Because right now we need to be doing more to elevate entrepreneurship education.\n[27:03.6] American education needs a boost right now. [do not use: names a place; NFTE wants national, evergreen cuts]\n[27:06.7] It needs some new ideas.\n[27:09.0] And right now we have close to 10 or a dozen organizations like NFTE that under our leadership are now advancing this charge.\n[27:19.3] I think we can take it a step further.\n[27:21.7] And at NFTE, we actually are taking it a step further.\n[27:25.1] We are beginning the process of merging and partnering with other organizations that do what we do to help this thing become stronger and larger.\n[27:37.4] And when you unify at that level, at the level of organizations, at the level of the best 21st century entrepreneurship curriculum that we can take, the best entrepreneurship education curriculum that we can create, then you can actually start talking about systems change.\n[27:56.5] I don't know a person out there right now who is totally satisfied with how U.S. education is going, or education in any country for that matter. [do not use: names a place; NFTE wants national, evergreen cuts]\n[28:05.5] That's why people keep knocking at our doorstep wanting more of it.\n[28:09.2] We are seeing how working in coalition and working as, essentially, ultimately, a family of entrepreneurship brands can be a powerful idea that takes this work to the next level.\n[28:30.4] Every student should learn to pitch and respond to questions impromptu because you're going to be put on the spot in your life from time to time.\n[28:39.5] And it's really good to be able to deal with situations like that.\n[28:44.8] The students who prosper and do the best in those situations, I find, are students who know who they are and know their businesses.\n[28:55.7] They know their value.\n[28:57.4] They know the value of their businesses.\n[28:59.0] They know their values.\n[29:00.7] They know themselves because they're so grounded in that way and because they know their business inside and out.\n[29:07.8] I see students take rigorous questions from adults and they knock it out of the ballpark.\n[29:13.5] That is something so useful.\n[29:15.7] Verbal presentation skills, putting ideas together, justifying things impromptu.\n[29:22.5] These are skills that are essential to have.\n[29:24.4] By the way, in a world with AI, these are things that AI can't do.\n[29:29.3] So imagine what we could do if we had a cult- imagine what we could do if we cultivated a generation of students who could do these things well, standing up in front of a room of strangers, talking about their business in the most articulate way it is, and then responding really well to whatever gets thrown at you.\n[29:48.7] That sets you up to respond really well to whatever gets thrown at you in life.\n[29:54.7] Q: One thing schools should stop doing and why?\n[30:08.0] I think that one thing schools should stop doing is stop forgetting about the reason why we're asking students to get all this education in the first place.\n[30:20.7] NFTE is powerful because it starts with the idea that there's a defined endpoint.\n[30:27.9] You're going to have a business plan or a business suit.\n[30:31.1] How many classes have you taken where you didn't really know why you were there?\n[30:36.1] You didn't know what the teacher was going to teach for a semester or a year.\n[30:41.8] And when you sat there for a semester or a year, you wondered why you were learning it.\n[30:47.6] And when you were done and you took all the tests, you didn't really know how you were going to use it.\n[30:55.1] This happens most of the time in education, and it is really not how education should be set up in my opinion.\n[31:06.3] Education is much better when education gives young people a clear idea about why they're there, the end goal, and the end purpose.\n[31:15.2] A NFTE program does that every single time, which is why students are invested in it.\n[31:21.0] The other thing I'll say that is missing from education that needs to be there is the student's motivation, desire, and viewpoint.\n[31:31.8] A NFTE program begins with the student and their idea.\n[31:36.9] That idea doesn't come from anywhere else but the student.\n[31:41.2] So it comes from an authentic place.\n[31:41.2] So it comes from an authentic place.\n[31:43.8] That's why you meet young people who create fantastic business ideas that respond to a\n[31:50.1] problem in their community that they care about, an issue in their family that has been\n[31:55.7] a challenge, a passion that they have, where they're so motivated that that's where they\n[32:01.7] want to direct all of their life's energies, including creating a business out of it.\n[32:06.7] Once again, so much of what students receive is completely untethered and unconnected from\n[32:12.4] any idea of what the student wants.\n[32:16.5] Why that happens, we never ask the students what they want.\n[32:20.2] But a NFTE program begins with that question.\n[32:24.5] Who are you?\n[32:26.0] And what is your business idea that is important to you?\n[32:31.5] Q: One thing AI will change forever.\n[32:49.1] I think that one thing that AI actually will change forever is that ultimately I think\n[32:55.2] it's going to enable us to see how important human centrality itself is.\n[33:02.0] AI is a wonderful productivity tool.\n[33:09.2] It allows us to do many things faster and better than we could before.\n[33:16.0] But there are so many things, even as AI continues to advance, that it will frankly never be\n[33:21.8] able to do.\n[33:23.5] It will never be able to put together those serendipitous far transfer of learning moments\n[33:31.7] where someone, because of their unique individual lived experience or their unique individual\n[33:38.6] body of knowledge that they have only here, this is their database, they can take those\n[33:44.4] things and come up with a completely different and unexpected idea.\n[33:50.2] AI works only on the basis of what has already happened.\n[33:55.7] It has no imagination.\n[33:57.6] It has no deep level creativity.\n[34:02.2] And that's what humans have.\n[34:03.8] So I think that what AI and the AI revolution is going to show us is not just how fantastic\n[34:10.4] AI is and maybe how it will change the shape of jobs.\n[34:15.3] I think it will also show us how we are truly human and what being truly human really means\n[34:21.2] and why being truly human really matters from the standpoint of creativity and advancement\n[34:28.4] and the advancement of education in society too.\n[34:33.1] Q: One mindset shift young people need.\n[34:59.8] You know, I meet so many young people who are looking for the validation and affirmation\n[35:06.3] of an adult, their teacher, their parent, an adult that they care about and trust.\n[35:13.1] And that's very important.\n[35:15.2] And at the same time, I think one thing that many young people could use more of, some\n[35:20.5] of them have it, but some of them could use more of it, is just at the same time that\n[35:25.1] innate self-confidence to stand up for who they are.\n[35:29.5] Young people have great ideas if we'd only ask them a little bit more often.\n[35:35.3] And one of the beauties of the NFTE experience is that we do ask them what they're interested\n[35:39.7] in and why it matters.\n[35:42.6] And I find that this gives our young people a sense of agency because somebody asked them\n[35:49.5] what they care about, what they think.\n[35:52.9] The NFTE program shows students that they matter, and I wish that more students understood\n[35:57.7] from the get-go that they do matter.\n[35:59.9] They do matter.\n[36:00.9] They have all of the innate capabilities to create a business essentially already inside\n[36:05.6] them.\n[36:06.6] They need a helpful guide to help them through that process.\n[36:10.3] But no student should ever feel like they don't have what it takes to launch a business\n[36:15.4] because we work with thousands of students each year and we have worked with millions\n[36:20.8] of students over NFTE's existence.\n[36:23.5] Each and every one was able to do something creative that stemmed from their own self-agency.\n[36:32.2] And they didn't really need anyone else to tell them that they were good enough or that\n[36:36.7] they could do it.\n[36:38.5] They had that inside them already.\n[36:40.6] So I want to see more students recognize that and I want to see more programs like NFTE\n[36:46.2] students embrace that mindset as they move forward in their educations.\n[36:51.4] Education is not supposed to be a process where a student stands in judgment of some\n[36:57.0] adult.\n[36:58.6] Education is a process of human development, supposed to be a process of human development.\n[37:04.5] And I think that some students don't feel that education is a process of human development\n[37:13.1] and don't feel that they matter because the way we've been going about education kind\n[37:17.2] of signals that to them.\n[37:19.2] That's our problem, not theirs.\n[37:21.1] But I want to see more students have strong personal agency and confidence even before\n[37:26.7] they learn the first NFTE lesson.\n[37:28.6] Q: One word to describe the future?\n[37:37.1] Q: One word?\n[37:38.1] Well, you know, unfortunately I don't have one word to describe the future of education\n[37:46.0] because the future of education consists of four words.\n[37:50.4] Network for teaching entrepreneurship, NFTE, the family of brands that we are now creating,\n[37:58.8] the educational movement that we are now developing and leading.\n[38:04.4] We are here to change education in the U.S. and globally at this moment of sore need.\n[38:11.6] We're excited to do it.\n[38:13.5] We can't wait to do more.\n[38:17.8] Q: One word you'd use to describe yourself?\n[38:20.5] I don't know.\n[38:24.2] You don't want to do that one?\n[38:25.2] Okay.\n[38:26.2] We can end there.\n[38:27.2] That's good.\n[38:28.2] All right, good.\n[38:32.2] That's great.\n[38:33.3] Good.",
+ "alts": {
+  "hook:0": [
+   {
+    "text": "We never ask students what they want.",
+    "line": "so much of what students receive is completely untethered and unconnected from any idea of what the student wants.",
+    "why": "The system's problem, said by J.D."
+   },
+   {
+    "text": "Students need something different.",
+    "line": "the world and students most of all need something different.",
+    "why": "The urgency of the Launch hook, in his words."
+   },
+   {
+    "text": "Who are you?",
+    "line": "But a NFTE program begins with that question.",
+    "why": "A question hook."
+   },
+   {
+    "text": "That's our problem.",
+    "line": "That's our problem, not theirs.",
+    "why": "Starts on the urgency; the button then needs a new line."
+   }
+  ],
+  "bite:0": [
+   {
+    "quote": "The other thing I'll say that is missing from education that needs to be there is the student's motivation, desire, and viewpoint.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "What is missing, said plainly."
+   },
+   {
+    "quote": "Young people do not want to sit all the time in a classroom and hear about theoretical, conceptual things.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "Also the Purpose reel's line."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "A NFTE program begins with the student and their idea.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "Same idea, shorter."
+   },
+   {
+    "quote": "That idea doesn't come from anywhere else but the student.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "Short follow-up."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "Every student should learn to pitch and respond to questions impromptu because you're going to be put on the spot in your life from time to time.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "About the competition."
+   },
+   {
+    "quote": "Young people have great ideas if we'd only ask them a little bit more often.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "The Launch reel uses it: only if that cut drops it."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "Entrepreneurship is fundamentally about creation.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "Short, 2 s."
+   },
+   {
+    "quote": "And I find that this gives our young people a sense of agency because somebody asked them what they care about, what they think.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "Agency, from the 35:42 answer."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "We have designed scientifically validated assessments that measure these capabilities.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "The measurement, said simply."
+   },
+   {
+    "quote": "And we're the only organization in the world, as far as I know, that really attempts to ascertain what all of our students are doing in this regard.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "A strong claim; check with Nick before using."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "We are seeing how working in coalition and working as, essentially, ultimately, a family of entrepreneurship brands can be a powerful idea that takes this work to the next level.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "The family of brands."
+   },
+   {
+    "quote": "And when you unify at that level, at the level of organizations, at the level of the best 21st century entrepreneurship curriculum that we can take",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "Leads to systems change."
+   }
+  ],
+  "bite:7": [
+   {
+    "quote": "Each and every one was able to do something creative that stemmed from their own self-agency.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "Students' own agency."
+   },
+   {
+    "quote": "They had that inside them already.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "Short."
+   }
+  ],
+  "bite:8": [
+   {
+    "quote": "But I want to see more students have strong personal agency and confidence even before they learn the first NFTE lesson.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "Softer, hopeful close."
+   },
+   {
+    "quote": "We're excited to do it. We can't wait to do more.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "Upbeat close."
+   },
+   {
+    "quote": "Education is a process of human development, supposed to be a process of human development.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "A big-idea close."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "NFTE runs clean: the hook text, one lower third, a number pop, three short key-word lines, B-roll on most rows, and the Fuel a Future end card with both logos. No logo before the end card. Nothing names a place.",
+  "devices": [
+   {
+    "row": "00:00–00:08",
+    "device": "Hook text over a student pitching",
+    "asset": "highlight_callout (MG library); pitches.mp4",
+    "source": "Script; 1DX b-roll"
+   },
+   {
+    "row": "00:08–00:17",
+    "device": "Classroom B-roll, then the lower third",
+    "asset": "A36A7828.MP4 0:20; tag_label (MG library)",
+    "source": "R6 b-roll; Script; NFTE lower third bar"
+   },
+   {
+    "row": "00:17–00:27",
+    "device": "Student presenting; key words",
+    "asset": "A36A7829.MP4 0:41; highlight_callout",
+    "source": "R6 b-roll; Script"
+   },
+   {
+    "row": "00:27–00:38",
+    "device": "Audience cutaway",
+    "asset": "A36A7827.MP4 0:20",
+    "source": "R6 b-roll"
+   },
+   {
+    "row": "00:38–00:52",
+    "device": "Judges; number pop",
+    "asset": "judges.mp4; stat_counter (MG library)",
+    "source": "1DX b-roll; Script"
+   },
+   {
+    "row": "00:52–01:07",
+    "device": "BUILD students",
+    "asset": "The BUILD Journey 0:25.6; merger video 1:56.2",
+    "source": "BUILD videos (Melanie, Alison)"
+   },
+   {
+    "row": "01:07–01:14",
+    "device": "BUILD line from the merger video",
+    "asset": "NFTE + BUILD Intent to Merge Announcement.mp4 (TBD on scrub)",
+    "source": "Alison, 5 Oct"
+   },
+   {
+    "row": "01:14–01:30",
+    "device": "Podium and pitch cutaways; key words",
+    "asset": "A36A7831.MP4 0:00; pitches.mp4; highlight_callout",
+    "source": "R6 and 1DX b-roll; Script"
+   },
+   {
+    "row": "01:30–01:40",
+    "device": "Awards stage, then top text on his face",
+    "asset": "awards.mp4; highlight_callout",
+    "source": "1DX b-roll; Script"
+   },
+   {
+    "row": "01:40–01:48",
+    "device": "End card, NFTE + BUILD",
+    "asset": "end_card (MG library) + BUILD logo",
+    "source": "endcards/nfte"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "A36A7832.MP4",
+    "path": "Dallas JD Pitch Competition May 8 2026/R6 b-roll/A36A7832.MP4",
+    "drive": "1QBSUrTrmWtqWtQU83WjZ7tFUqGc9hPF4",
+    "at": 60.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "Wide of the room, a speaker at a podium, rows of attendees (visual.json 0:25 to 1:14.9)",
+    "frame": null
+   },
+   {
+    "clip": "awards.mp4",
+    "path": "Dallas JD Pitch Competition May 8 2026/1DX b-roll/awards.mp4",
+    "drive": "1OmVY856Fs9GXkf-BCU5wbjTudgzewM8Z",
+    "at": 800.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "Hallway congratulations (visual.json 11:25 to 15:14)",
+    "frame": null
+   },
+   {
+    "clip": "Meet Cendy & Jim _ BUILD Mentorship Story.mp4",
+    "path": "BUILD Videos for HP (Melanie, Oct 27 2026)/Meet Cendy & Jim _ BUILD Mentorship Story.mp4",
+    "drive": "1DDWniMhyo7SCjro85VlPusfngAeahDF1",
+    "at": 82.7,
+    "dur": 2.6,
+    "cx": 0.5,
+    "what": "A BUILD student and her mentor on campus steps (Competition Video 2 uses this range)",
+    "frame": "f_cendy_83"
+   },
+   {
+    "clip": "BUILD.org _ Entrepreneurship Education.mp4",
+    "path": "BUILD Videos for HP (Melanie, Oct 27 2026)/BUILD.org _ Entrepreneurship Education.mp4",
+    "drive": "1SyvMj0SPTdPNWMZ_hYR2Dmh1LWgb1ZxZ",
+    "at": 65.4,
+    "dur": 2.6,
+    "cx": 0.5,
+    "what": "A BUILD student in a plaid shirt on a city street (the Launch reel uses it)",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "NFTE logo, white",
+    "kind": "end_card",
+    "file": "endcards/nfte/nfte-logo-white.svg",
+    "url": null,
+    "local": null,
+    "alpha": true,
+    "size": "svg",
+    "fps": null
+   },
+   {
+    "name": "BUILD logo, white",
+    "kind": "logo",
+    "file": "endcards/nfte/build-logo-white.svg",
+    "url": null,
+    "local": null,
+    "alpha": true,
+    "size": "svg",
+    "fps": null
+   }
+  ],
+  "new_elements": []
+ }
 }

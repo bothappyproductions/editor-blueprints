@@ -1,249 +1,595 @@
 {
  "id": "12891354431",
  "client": "nfte",
- "eyebrow": "NFTE · Fuel a Future campaign · JD LaRock (Dallas, Boston, NYC) · Social reel: campaign launch",
+ "eyebrow": "NFTE · Fuel a Future · J.D. LaRock (pitch competition 8 May + at home 24 Jun 2026) · Social reel: campaign launch",
  "title": "Fuel a Future:",
  "title_q": "Campaign Launch",
  "title_short": "Fuel a Future · Campaign launch reel",
  "editor": "Bleron",
  "due": "2026-10-08",
  "format": "9:16 only · 1080×1920",
- "length": "about 35 to 45 s",
+ "length": "about 45 s",
  "edit_key": "NFTEFeelAFutureLaunch001",
- "headline": "Launch the Fuel a Future campaign with one idea: talent is everywhere, opportunity is not, and NFTE gives young people the skills and the belief to build their future.",
+ "headline": "Talent is everywhere, opportunity is not. NFTE is joining forces with BUILD to fix that, and the world needs it now.",
  "story": [
-  "Winners on stage, and the line JD quotes: talent is universal, opportunity is not.",
-  "Young people want purpose, not theory. NFTE gives them the skills school doesn't. And now NFTE is merging and partnering with others, like BUILD, to make this bigger.",
-  "It doesn't take much to get over a lot of disadvantages and do something really special."
+  "Keep the hook the client liked: winners on stage and the line J.D. quotes, <b>talent is universal, but opportunity is not</b>.",
+  "Then fast: young people have great ideas, schools are not giving them the skills, and NFTE is merging and partnering to make this bigger. Then BUILD says its own name. The button is urgency: the world and students need something different now. The end card says Fuel a Future with both logos.",
+  "<b>Loops:</b> L1 <q>Talent is universal. Opportunity is not.</q> opens at 0:00 and closes at 00:15 (schools are not giving them the skills). L2 <q>Who fixes it?</q> opens at 00:15 and closes on the end card. Shorter and more urgent than V1: it gets to Fuel a Future by 00:40."
  ],
  "feel": [
   "Bold",
+  "Urgent",
   "Hopeful",
-  "Fast",
   "National"
  ],
  "do": [
-  "Open on winners celebrating with the hook text.",
-  "Students and audience on screen under every JD line.",
-  "Put the NFTE + BUILD line in the middle with BUILD students on screen.",
-  "Cut fast; keep the strongest 2 to 3 middle bites if tight.",
-  "End on the strongest single student moment."
+  "Keep the hook: winners on stage with the hook text on frame 1.",
+  "Get to the point fast. Every row is short; cut pauses over 0.5 s.",
+  "BUILD students on screen under the merging line, and BUILD said once, from the merger video.",
+  "End on the urgent line, then the new end card: Fuel a Future, NFTE + BUILD logos, nfte.com/fuelafuture.",
+  "Students and audience on screen under J.D.'s voice."
  ],
  "dont": [
-  "No city on screen or in captions.",
-  "Don't credit the talent line to JD on screen (he quotes it).",
-  "No JD self-intro, no NFTE history.",
-  "Never write “merger”.",
-  "No second aspect ratio."
+  "No city or school name on screen; no readable place on slides, signs or the stage backdrop.",
+  "Don't credit the talent line to J.D. on screen (he quotes it).",
+  "Never write “merger”: he says “merging and partnering”.",
+  "No crochet pitch slides with numbers in a tight shot (A36A7830).",
+  "No J.D. self-intro, no NFTE history. One aspect ratio: 9:16."
  ],
  "links": {
   "brief": {
-   "title": "Editor brief: Fuel a Future, Campaign Launch (pulse.12891354431)",
-   "url": "https://docs.google.com/document/d/1mDoOUXcQw7Cxa_-AwIyQyQEr5r4lkl6WTQI3vokbQLc/edit",
-   "note": "Includes the 10 Sep direction update (NFTE + BUILD). Bites, AV map and rules are set there."
+   "title": "Production Brief — NFTE Dallas, JD Pitch Competition (May 8, 2026)",
+   "url": "https://docs.google.com/document/d/1RDVAy1N94J4giWIHzlEnDcq-bkjChOVx4gP5KmA9MU8/edit",
+   "note": "The shoot brief for the B-roll and the pitch-competition sit-down. The editing brief is <a href=\"https://docs.google.com/document/d/1mDoOUXcQw7Cxa_-AwIyQyQEr5r4lkl6WTQI3vokbQLc/edit\">pulse.12891354431</a>; this page is the current plan with the 5 Oct client notes in it."
   },
   "reference": {
    "missing": true,
-   "title": "None on purpose",
-   "note": "Footage predates the reference rule. Alison owes past Fuel a Future example videos; if they land, match their pacing."
+   "title": "Not chosen yet",
+   "note": "Atdhe owes it. The Production Planning rows for the NFTE shoots have no reference. Alison also owes past campaign example videos; match their pacing if they land."
   },
   "footage": {
-   "title": "Dallas competition raw (8 May 2026)",
+   "title": "Dallas JD Pitch Competition May 8 2026 (raw)",
    "url": "https://drive.google.com/drive/folders/1fvFqaN04Thizbc-UrN_F8z6gufSVCoI1",
-   "note": "Plus Boston (C4258) and NYC (C4256) JD interviews and BUILD B-roll from the client."
+   "note": "Sit-down and all event B-roll. Plus the home sit-down (Boston folder) and Melanie's BUILD videos."
   }
  },
- "bp_intro": "JD's voice comes from three sit-downs: Dallas (Interview_Closeup_Audio_Edit.mp4), Boston (C4258) and NYC (C4256). Times are per clip from each folder's transcript. Picture is Dallas event B-roll (visual.json) plus client BUILD B-roll.",
+ "bp_intro": "J.D.'s lines come from <span class=\"mono\">20260624_C4258.MP4</span> (at home, word times from output.json, good to about 0.2 s) and <span class=\"mono\">Interview_Closeup_Audio_Edit.mp4</span> (pitch-competition sit-down; line times only, so find the exact in and out on the waveform). B-roll is named from Erin's visual.json for the pitch competition and from the BUILD videos. One frame is a real frame of a BUILD video; the rest still need pulling.",
  "rows": [
   {
    "tc": "00:00–00:04",
    "beat": "HOOK",
    "kind": "hook",
    "frame": null,
-   "crop": "none",
-   "frame_tag": null,
-   "frame_alt": null,
-   "visual": "awards.mp4 inside 03:48–11:25: the group on stage at the backdrop. Pick the strongest 2 s of celebration.",
-   "motion": "Hook text on <b>frame 1</b>, white on NFTE purple: <q>Talent is universal. Opportunity is not.</q> No logo, no name plate.",
+   "crop": "c",
+   "frame_tag": "awards stage",
+   "frame_alt": "visual.json: students on stage at the backdrop, celebrating. Not a pulled frame.",
+   "visual": "Winners on stage: <a href=\"https://drive.google.com/file/d/1OmVY856Fs9GXkf-BCU5wbjTudgzewM8Z/view\">awards.mp4</a> inside <span class=\"mono\">05:00</span> to <span class=\"mono\">11:25</span> (visual.json: a group on stage at the backdrop). Pick the strongest 3 s of celebration on scrub, not the <span class=\"mono\">03:48</span> moment (Competition Video 2 uses it). Crop so no place name on the backdrop can be read. J.D.'s voice under it.",
+   "motion": "Hook text on <b>frame 1</b>, white on NFTE purple: <q>Talent is universal. Opportunity is not.</q> Already on screen at 0:00. It does not animate on. No logo, no name plate.",
    "voice": {
     "who": "J.D. LaRock",
     "quote": "talent is universal, but opportunity is not.",
-    "src": "BOS C4258 26:27"
+    "src": "20260624_C4258.MP4 26:29.2 to 26:32.2 (he quotes it: “the Steve quote that Jane used to say”)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed in, building."
+   "music": "Bed in on frame 1, building.",
+   "shots": [
+    {
+     "clip": "awards.mp4",
+     "at": 300.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "Dallas JD Pitch Competition May 8 2026/1DX b-roll/awards.mp4",
+     "drive": "1OmVY856Fs9GXkf-BCU5wbjTudgzewM8Z",
+     "layout": "full",
+     "what": "Students on stage at the backdrop (visual.json; pick on scrub)"
+    }
+   ]
   },
   {
-   "tc": "00:04–00:12",
-   "beat": "PURPOSE",
+   "tc": "00:04–00:09",
+   "beat": "GREAT IDEAS",
    "kind": "",
    "frame": null,
-   "crop": "none",
-   "frame_tag": null,
-   "frame_alt": null,
-   "visual": "A36A7827.MP4 00:13–00:39 (audience listening), then A36A7829.MP4 00:41–00:54 (young woman presenting).",
-   "motion": "Small super from about 0:06: “J.D. LaRock · NFTE CEO”.",
+   "crop": "c",
+   "frame_tag": "Closeup 35:29",
+   "frame_alt": "J.D. in a suit and tie in front of an NFTE sign (visual.json). Not a pulled frame.",
+   "visual": "J.D. on camera, <a href=\"https://drive.google.com/file/d/16CTqxv5U0cHTvrdF2AXhuC5DxxDK1_Nt/view\">Interview_Closeup_Audio_Edit.mp4</a> from <span class=\"mono\">35:29.5</span>. His first on-camera moment: let it play. 9:16 crop centred on him.",
+   "motion": "Small super from <span class=\"mono\">00:05</span> for 2 s, lower left: <q>J.D. LaRock</q> · NFTE CEO.",
    "voice": {
     "who": "J.D. LaRock",
-    "quote": "Young people do not want to sit all the time in a classroom and hear about theoretical, conceptual things. … They want to have a purpose in the world.",
-    "src": "DAL 01:22, 01:32"
+    "quote": "Young people have great ideas if we'd only ask them a little bit more often.",
+    "src": "Interview_Closeup_Audio_Edit.mp4 35:29.5 to 35:34.4"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed under the voice."
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Young"
+    }
+   ]
   },
   {
-   "tc": "00:12–00:21",
+   "tc": "00:09–00:15",
    "beat": "WHAT SCHOOL MISSES",
    "kind": "",
    "frame": null,
-   "crop": "none",
-   "frame_tag": null,
-   "frame_alt": null,
-   "visual": "A36A7830.MP4 00:35–00:47 (student presenting COST STRUCTURE), then JD on camera 2 to 3 s.",
+   "crop": "c",
+   "frame_tag": "A36A7829 0:41",
+   "frame_alt": "visual.json: a young woman presents to students. Not a pulled frame.",
+   "visual": "B-roll under his voice: <a href=\"https://drive.google.com/file/d/1Iu23O43OCbta9pKuYmQmfgsm0d003RV-/view\">A36A7829.MP4</a> <span class=\"mono\">00:41</span> to <span class=\"mono\">00:47</span> (visual.json: a young woman presenting to students). Keep her slides out of frame or soft. Do not use A36A7830: its slides are full of numbers.",
    "motion": "Captions only.",
    "voice": {
     "who": "J.D. LaRock",
     "quote": "to give them skills and knowledge that their schools otherwise aren't giving to them.",
-    "src": "BOS C4258 02:52"
+    "src": "20260624_C4258.MP4 02:59.9 to 03:06.1"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed under the voice."
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "clip": "A36A7829.MP4",
+     "at": 41.0,
+     "dur": 6.0,
+     "cx": 0.5,
+     "path": "Dallas JD Pitch Competition May 8 2026/R6 b-roll/A36A7829.MP4",
+     "drive": "1Iu23O43OCbta9pKuYmQmfgsm0d003RV-",
+     "layout": "full",
+     "what": "A young woman presents to students (visual.json)"
+    }
+   ]
   },
   {
-   "tc": "00:21–00:29",
+   "tc": "00:15–00:30",
    "beat": "BIGGER TOGETHER",
    "kind": "turn",
-   "frame": null,
-   "crop": "none",
-   "frame_tag": null,
-   "frame_alt": null,
-   "visual": "BUILD students on screen (client BUILD B-roll, picked on scrub).",
-   "motion": "Caption NFTE (transcript: “Nifty”).",
+   "frame": "f_b2plaid",
+   "crop": "c",
+   "frame_tag": "BUILD video 1:06",
+   "frame_alt": "BUILD student in a plaid shirt, smiling on a city street.",
+   "visual": "J.D. on camera, <a href=\"https://drive.google.com/file/d/16CTqxv5U0cHTvrdF2AXhuC5DxxDK1_Nt/view\">Interview_Closeup_Audio_Edit.mp4</a>, for <q>And at NFTE, we actually are taking it a step further.</q> (<span class=\"mono\">27:21.7</span>). On <q>merging and partnering</q> cut to BUILD students: <a href=\"https://drive.google.com/file/d/1SyvMj0SPTdPNWMZ_hYR2Dmh1LWgb1ZxZ/view\">BUILD.org _ Entrepreneurship Education.mp4</a> <span class=\"mono\">1:05.4</span> to <span class=\"mono\">1:08.0</span> (a BUILD student in a plaid shirt, smiling on a city street), then <a href=\"https://drive.google.com/file/d/1OAo_5IWuozM8B7YCm9duZot3p9TDxayV/view\">The BUILD Journey _ From Student to CEO.mp4</a> around <span class=\"mono\">0:25.6</span> (BUILD students at laptops in class; check on scrub). Clean shots only: no BUILD name bars, logos or subtitles. The BUILD files are 1280×720: scale up gently and sharpen.",
+   "motion": "Top text as he says it: <q>stronger and larger</q>. Caption NFTE where the transcript writes Nifty.",
    "voice": {
     "who": "J.D. LaRock",
     "quote": "And at NFTE, we actually are taking it a step further. We are beginning the process of merging and partnering with other organizations that do what we do to help this thing become stronger and larger.",
-    "src": "DAL 27:21, 27:25"
+    "src": "Interview_Closeup_Audio_Edit.mp4 27:21.7 to 27:36.0"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed under the voice."
+   "music": "Bed lifts on “stronger and larger”.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "And"
+    },
+    {
+     "clip": "BUILD.org _ Entrepreneurship Education.mp4",
+     "at": 65.4,
+     "dur": 2.6,
+     "cx": 0.5,
+     "path": "BUILD Videos for HP (Melanie, Oct 27 2026)/BUILD.org _ Entrepreneurship Education.mp4",
+     "drive": "1SyvMj0SPTdPNWMZ_hYR2Dmh1LWgb1ZxZ",
+     "layout": "full",
+     "what": "A BUILD student in a plaid shirt, smiling on a city street (real frame in the Comcast blueprint)"
+    },
+    {
+     "clip": "The BUILD Journey _ From Student to CEO.mp4",
+     "at": 25.6,
+     "dur": 2.0,
+     "cx": 0.5,
+     "path": "BUILD Videos for HP (Melanie, Oct 27 2026)/The BUILD Journey _ From Student to CEO.mp4",
+     "drive": "1OAo_5IWuozM8B7YCm9duZot3p9TDxayV",
+     "layout": "full",
+     "what": "BUILD students at laptops in class (check on scrub)"
+    }
+   ]
   },
   {
-   "tc": "00:29–00:34",
-   "beat": "GREAT IDEAS",
+   "tc": "00:30–00:35",
+   "beat": "SAY BUILD",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "pitches.mp4 11:31–15:21: presenter addressing a seated group. Or BUILD students for the second BUILD beat.",
-   "motion": "Captions only.",
+   "visual": "One short line from <span class=\"mono\">NFTE + BUILD Intent to Merge Announcement.mp4</span> (Alison's file, Library drive) where the speaker says <q>BUILD</q>. Alison: Thais, the leader of BUILD, speaks in it. Use her face and voice. Crop out the video's own name bar. B-roll TBD on scrub.",
+   "motion": "Captions on, typed from what you hear. BUILD in capitals.",
    "voice": {
-    "who": "J.D. LaRock",
-    "quote": "Young people have great ideas if we'd only ask them a little bit more often.",
-    "src": "DAL 35:29"
+    "who": "TBD on scrub (the speaker in the merger video)",
+    "quote": "TBD on scrub: one short line in the merger video that says “BUILD”.",
+    "src": "NFTE + BUILD Intent to Merge Announcement.mp4 · time TBD on scrub (no transcript of this file yet)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed under the voice."
+   "music": "Bed under the line. Their own music stays out.",
+   "shots": []
   },
   {
-   "tc": "00:34–00:40",
-   "beat": "BUTTON",
+   "tc": "00:35–00:40",
+   "beat": "WHY NOW (BUTTON)",
    "kind": "",
    "frame": null,
-   "crop": "none",
-   "frame_tag": null,
-   "frame_alt": null,
-   "visual": "awards.mp4 11:25–15:14: hallway celebration (man in suit and a boy with name tags).",
-   "motion": "Captions only.",
+   "crop": "c",
+   "frame_tag": "Closeup 0:46",
+   "frame_alt": "J.D. in a suit and tie in front of an NFTE sign (visual.json). Not a pulled frame.",
+   "visual": "J.D. on camera, <a href=\"https://drive.google.com/file/d/16CTqxv5U0cHTvrdF2AXhuC5DxxDK1_Nt/view\">Interview_Closeup_Audio_Edit.mp4</a>, about <span class=\"mono\">00:46.4</span> to <span class=\"mono\">00:49.8</span> (line times only: find the start of “the world” on the waveform). Then the hallway celebration under the last words: <a href=\"https://drive.google.com/file/d/1OmVY856Fs9GXkf-BCU5wbjTudgzewM8Z/view\">awards.mp4</a> inside <span class=\"mono\">11:25</span> to <span class=\"mono\">15:14</span> (a man in a suit and a boy with name tags), not the <span class=\"mono\">11:25.6</span> moment Competition Video 2 uses.",
+   "motion": "Top text as he says it: <q>need something different</q>. Captions on.",
    "voice": {
     "who": "J.D. LaRock",
-    "quote": "It does not take much to get over a whole lot of disadvantages and do something really special.",
-    "src": "BOS C4258 26:11"
+    "quote": "the world and students most of all need something different.",
+    "src": "Interview_Closeup_Audio_Edit.mp4 00:46.4 to 00:49.8 (the end of his first answer; line times only)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Resolve."
+   "music": "Bed builds and resolves into the end card.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "the"
+    },
+    {
+     "clip": "awards.mp4",
+     "at": 780.0,
+     "dur": 2.0,
+     "cx": 0.5,
+     "path": "Dallas JD Pitch Competition May 8 2026/1DX b-roll/awards.mp4",
+     "drive": "1OmVY856Fs9GXkf-BCU5wbjTudgzewM8Z",
+     "layout": "full",
+     "what": "Hallway congratulations (visual.json 11:25 to 15:14; pick on scrub)"
+    }
+   ]
   },
   {
-   "tc": "00:40–00:43",
+   "tc": "00:40–00:46",
    "beat": "END CARD",
    "kind": "end",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "End card.",
-   "motion": "<q>Fuel a Future Like Mine</q> + NFTE.com/fuelafuture.",
+   "visual": "End card: the words <q>Fuel a Future</q>, the NFTE logo and the BUILD logo, and <q>nfte.com/fuelafuture</q>. NFTE purple <span class=\"mono\">#4C12A1</span>. Hold it to the last frame. No fade to black.",
+   "motion": "End card: the words “Fuel a Future”, the NFTE logo and the BUILD logo, and “nfte.com/fuelafuture”. NFTE purple #4C12A1, white type. No logo before this card.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Out."
+   "music": "Final note rings out on the card.",
+   "shots": []
   }
  ],
- "frames": {},
+ "frames": {
+  "f_b2plaid": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD//gAQTGF2YzYwLjMxLjEwMgD/2wBDAAgICAkICQsLCwsLCw0MDQ0NDQ0NDQ0NDQ0ODg4REREODg4NDQ4OEBARERITEhERERETExQUFBgYFxccHB0iIin/xACrAAABBQEBAQAAAAAAAAAAAAAEBwUDBgIBAAgBAAMBAQEBAQAAAAAAAAAAAAABAgMEBQYHEAABAwIEBAIHBAcGAwgDAQEBAAIDBBESITEFUUEGE2EicaGRMrGBFEIjUsFyYhUzgtEHorKSc+EWQzRTJSTSg/E1Y/CzwjbidBEAAgIBBAEDBAEDBQEBAAAAAAECEQMSITEEQVEiEwVxYTIUBqFykUIzI9EVsf/AABEIAWgCgAMBIgACEQADEQD/2gAMAwEAAhEDEQA/AAA1OlEzNBAWTpRjNeLilc0caLHE3yJr3DRO8fuJl3F2RXs/7DSX6lYkPmKGc6y9I/zFQE3XnvkyJhIUWyRNd7KRjiqQ7Hdrro6mdhe0+KZ2SI6J6uPICp7RuwwtY4q0NqInjJwSP0kxuLFWKnnfl5iu/HPYn3eGKEHtOhW0wUkjiMynlklwuhGsb8ky8oy+yhMxCdFN0FLyHjlLjYohS1Qouzy8vLyko4TYXQhkup5jZhTYX2WeSWlmkY2TFyFnfYLxlsg5pLrHXZpQLORYpilOZTtMfKmSY5qJFob5yguaInOaDB8yzNA6PJbkfkoo9FyTIKkDApn5qNrrqOU5rsamcRJBQK9dcCy7Jcc1Q5bI3iUbnFYJXBcrlcW2ccuTDlG42zUjmlNG5VYhGG9iR7F0YcLk6BEdZWAgxtPHEUwyVJe4cBkEHNKR5WkkuN/FG0tBI9odJ920556n0L1oQUFSLOiocxoPNaBmk0a4k6ZJ4p6Sla4WY6S3Ij8la4NsqagNc2ntll5bZcDZU5UaKDYnzKOtmyEbhYElOEW11uG4GWHP5crJQB07XOt5cHzt7EaOl606S4cuJ/mlrL+ETV+014baNvcB5jl4IKWCups3wusErrOm69p95htwyLvTmpX7HVuj7csWIXvewNgjWP4kIqKrE4YgRbjkpI3xuu/S/L5pSKrZaYm89O5oHhb5lVWr6fpZLmnlMbs9cmejimpkPF6DLgxkv4ZH8ipLeXL2pvnZWbU8CVl2HR4uWkcVOypYQCNDmhpSRm1RISQpI3KCTPNuija8grz8uJpksdbAhCvZmuNkUhN1yaXFkgxjW4mZqS114HAVqp0VF0zds117fKusIcVM/MWSnlo3eVNDY5ijwlHliisoU7OZ8mYjZSl9lFeyw5y3x7lROyyZJrLrlTTOKEGq7YLYpln2zkrYzJqqe2jRWlrvKs58muPgBmzcuxDNZldmpKfMqA8jpGAGqGQArL5LKDuqWrHIjkjuhXtsjC66DlcspKjmmATBAhmaPcbqMNCyZztkIapMKkAC8VlKQnuQlDSvsiXZIGZStxUBzSaptebomYoQrZKihTCE40eoTW4pyotQp6/7olclnZ7iYtx0Kfos2Jqr47gr2pbYzWXBSHsJeV7to50JDzku9tePPJ7jEayxbY1GOjUeBNZAOgBTtdhUIFloFaxnYDpTzEKy0NQMrqmxvsU8U8uFdmKdDFDgnbbIo9lT4qk09QQNU5sqHLujkKss/wBRdSNfiTNA8vtdO0bbBaRdiVsOg1RSGg1RKpmiPLy8gqmrZDlfNQ6Qz1XKGiyZjNdDT1RlKha664srt2dOOIViuoZCttUcqxhyatAc58qZJjmU8THypll1KuRKG2c5oUHNETaoYaqCwxjlmY5LrNFHLoqQhtefMpYyoHtOJTxiyU3SGmFBROUmKwUV7rinuRN2eaLlEtYFhjc0UBkpgjFKxrrJREwkm2qTWqrX1dUXZ4RkArf1PP26WzT5nEAKj0sbnnm7O3pK9HFFJWOtx6o6YOfiIJJ0B/kr3QdOz1Ja+UmNnDn/AKLOxbYIO2+Yec8vwq+skw2FgpyZqdI7cXX2tk+27JR0rRaMH9Z2ZVhAa0ICOos0BTY2nK9ypUrNnjoNFrLdkG12FStluqszcWFNyKJaU3Cayn7wPBUpGUoSC3MZIML2tcOBAI9aru49L0NYDgb2TrdmnsTt3XDR3yU4luEakS4yiJDvfS9RSB1x3oSLZZ2HoSU1lHJt7iW3MLjbxZ4FfVVWwSR8ikv6m2aFsXdYwBjiWyN5Z80KdOh6NUbEjpqj7JPh8+RUzr2uCg9y299BISDeN/uu/L0oikk7jbOIFx6c1pJKaOZqjYfZFMlug5r38FExxBXJKCEPLSsyFRRvuF0vuueUaZJJG6xRIcm/HZTdzJYygxBEkgshw66ic+640q44wonIuo3MKlbmiWtuF0QVFxQzSsKD0cnioYE0S+UrqiU0WbbnZBP2PKyp1FUYU9RVV3AXUy5Li6Q59vEUbFDYL0TQ4BOTY/KooaGKd2FB9woqryJTeFSFINYSQhp3WUrXZIGocschhMHfJZQGdDTSWQTpSsdNmFDsJrqVsiZGSm6cIyXBTLGFBL3oKRyndogpMliluKgSQXKgLUQTdcw3WyKSLuJE80JuQq41+asO38k+vFazOPJboh5Amyt5pyi9xNdadV6mb9DSXBX36rC892ajuvClyzM6RdYLFq62kICeocRRbwgnLoxiJmORkcpCbA6yLhu4rqTKLDTvcbKyUTC+10ybfBe11caSmwgLvwJsaQfBCGhHtFlEwWC0XWXakWGw6olNccwBRBqQEOI1yEyPwNJVOrajuSJyrdws0i/IqqGXEbrHJxRrCrDQbqVhQkb7otq4sh0oIDlHI5cCw9ZwHIGmOSZ5dSnWc+VM8itkobZtUONVNMc1A3VQWGs0W+3iUcZRrTkqQmNslPmoy3CnB1roGdwCjIAOXLLXZqMlaZmVzUJh8WZRElwxYgCJk90qlEzaE56kf3JYo/AnwW+n6cS1jSQMELbgci7iot//AH7fnb2p26ej7bXu4gBdOrTjLwxuSLrC6z08NN7Z5phpzmCnaMh7sr+lcSZ66Ww6iSzeCkiqcJ0v4oRjHnxRzKc20WkWGwbHOJL5fO6kytcFBshfHmNPkiGlt7Ei/ALUyaRl0mosvNksOHpWnRBw8pIPtXe15ePglYJkYkeXam3DkjYpsIAPtQjW2ywhvBabk7IZc1FuwklJB0jrhMddE2ppponD3mut4HkU5PccOabZZLIcndkxgqYkdZBFJE+CZlxy/Vdx9qotPE6KqMbhk0lqVLe6ZzXucG2CT2Vv/fQfTddkJaonBli4tk8jLZAgDxKAdqnJ4JCDdGVhLkwMh5C8Zlk5Id2qjTYmGB90S3RN0RzTiDkn8YUYK0xatdbAVqBRMxFtOSDCmDrJqNDRiciyYKnMp4nemaQ3ctogyamBCc43kOCxSwhzUb2LZqJPcaWxYKGfyhWBkgwKm07sBCsEMt2qJDgBVWbim9OFRqU3lQhTJAck3z3KcGi4Q0sd1nJNswabK/LclDmIlPpp7rTaYcFNNGdNDPHT5pzYywRP09l3DhWc5PgAV4yTZMnWQ3QTorrOKtjoBay5RQiU7YwFNYWXTGKN4Q2Jw8XCs+2Z2VJZJ5grntJuAq68KZywRdY/cCZ645FPDPcTDuDrXXfmXsKnwMDjmVi6GfJZyx3V4ko7sgNxLxkAQJlUfcUaSWFvfdCuKidIo8a2hsCJQc08UbLkJohGJytFDHpkuvHHUUWSgiIw2Vup2nCEx0NrBWSLRenjVFWbQkz7I4jJN0zC4rpixrcbpaosKHNceKKkprpvkp7BTLIkaRxNgFRUl6HY5SPizXmRrlnks1UWguHknNgyQEbLWTg3Rcs5WbxNgKKRSoeUqIDkBznJM8x1TlO7JNEhuVbIQ3y6qFuqml1UDdVJYdHopHS4Qom6KCZUtyWYlqrFCmXEsObcrQYpkioo9dSR6rGBTRNsVlo3CSHOBFyDyKCBSyaLVqkZsoW+Qf8AeorfbubcLap5oIuzEBzdYobdWYqyAkfZd8QjouSzyP2pG/WW9jtT3LgE9xMIzVZl3Gm25uKV2Z0aPeKhj6vptDG4DjcLOGKUtzpnmUPJeop3Ntc5cEbDV8bJOx1NSP0cWqQdRUpOUl1r8UkT88WKW6Zr2qLDETj5jxVOpd5ZN7j7o76vHniKfBcZJotAe0c1FJWMjGqrL6/C0+bRVKt6n7XC+eSFGyJTURSWbiyU5Ao2Ooa5IVL1jM29nAfJAO6rrJNJne1WsPqYy7HofRJkZIC0OaT8k0THCSCkRg3arkeHd149BI9aULZNzlqB2qiQvv7jne+DwJ5hRlw7WmaYc1umhy3GNk8LrahJfPD26w+IulTmGEEelJ/ukGGrY7TVZ4ZUPsxVWNjm3QzmpysEDKM1TdnnATo7lQSQlOLYySpXQ5aKooEhjALSiWSWWpWAIP7S1oBxD7qQOQ0aJsgZ7uL3dUD8lHdMDcr7hA6uUzysMHmTQmP+3t0TrIwWQFCMgnZ7btWUnuaw4G0OwlPFNJcJjfk5HUsiCFyHToEgpxIxKHt5pRKkjEbclp0d1O1ll0hDCgMxrQjCkOq4pZDgYeBZAyI92aDkasZwsl4wBwURCLLQoZLIhGgUaICsOcsuK40XK0KAmSnuBX7Zzk1J7Ex3cCULZ2mwW+BKzljyXdn7tVzc3WBVkaLR/JVTdD7y6cn6lT4KhJJ5ioy9RSnzFQ4l5LjuzFBPdK2190MM1MwKKAItdcwrrQp2suihBVGwEq3UMOirtHF5grjRR2AXodSJcdx9pYg2yfYxkmmFpsnGNxC9DSU4hZKgdZaxod7wqKiqOPAITdUNFkS+ayaqmdYTTOqM0kBSAEr0bQocd1I1ywkNBQFkQwoDGUQxyxkaIKuhpSpgUPKUoBLgbqgpoe7NOtSmh+qtkIEebqIGxWnnNCufYpUWHtesSOugu7ZYfMmJhFrlStagmTIpryUpOj0+r11ko0RZbY4KB5ULZLFKLsvs9VY0x7idZTvdcJrhkuisZOWqcjx5DRXs+8idwLh7Qpx5Iy/giK6iqomNfNC9jXZtLhkf5fNQOaOznzWElwbdfhlPraWqrXmSxN+ZPwTS/Z62+RA+aur5QwZ5WQDq6Kxtc21Og9psFpHI1sipY092you2yuZ9oHwuVltLWNPJPc+6wZ+eK45YifgLIeKsbNphI4tN1pqn5RCxwfkL2ueenlbjvZXmGZzxcZqkxAkiyUzYdv70ILhyWTnZvGGngrlVIYr8rqnzUzHuJJOav2/0T4X5DJUmVjmAuOQHMpKTvYcoeo3jbacnO6dafb6Rmkbb8f8A1Veqat0A7nbc9pNgSbA/JSQ76MYj+ljde2bC9p9Ga1qbV2Ytwi+C80rIIiLRt9islIKeRzSGhrxoRkk5h3SlccpJIXD7Enmb/iGYVw2uYTlpa4Ei2mYWUtS5NY6XwWyYE39Cqm6xXZito7Iq2yXwjxWIJooHh8jWvwm4BAOfzWMXRpki5KhMHte3UEekEIYsJKUbqLdv2lA4OjjAZYNdgHcxfpageCozRco1nn58LwySflWRxRIp0Qw5qVjLLcvuqvlozuiuVbbXTNfzJ+qmpmczzLWGXUTY4QC6MwZIGnTm0XW1loEdFdQmJOJaVntlTqQDO+Oyy1tinB8ah7VladkjjSOsnoPu1MEN2pzjfks5ouDIJ2+ZagdhIWZnhQsfYoG+SyRG4UmFNkE+WqJM11JXIUclgqASXXnSZJAdcQoTIENJKg3TeKYrQ4OmCgdKm9064Jbp0TqQUDiKzIzJaizUj2XU6SdVjPLkVlj0ZUQoTDhCVAjULB3Ar3tTbAKmxN84V32oaLTr7s5Yvctdvu/kqhu2jlbz+7+Sp+7uyK7Mn6jnwUOV3mKjBXJHXeV5oXmNbmVbBDUQ1CtyUofZZNAHs0RkTSSAgYnXsrDtTGvnbflmr4R0dbB/IzY8d1rkkPNBtj8i44fBWiGkMYBBuhIXZp5geLLo686fJ9fn+j9bHj0xhul+3myaEogIJsgxlFtdderGSkj5HJHRNx9GauhpHIhxsEMc02SgGVxTVO9OszUy1WSykzRIiDlO05JvY/NHM0XLM3jwSopqFCIasJGkQgFQSlSXQ0pRAUxvqCmqQo+pcmaV6qRldEUhQDybqaSRDE3KSdlJnLlRG5RAYSu9uysZiIFOUYyQLcinGJwsoycHr9HI40ekZdDdtFkhRkrnxumbd/J7DsQwqSSR0bS5hs5uYPiow6ywfvX4OIPwWkp3seBCS+WH+S//AEmG6SVVM6OUk/6c1tsfchaBwUBpWRUwxOwnNx/JHUYxxRgfhHrWKbo9bLFa9ipbtS1YaTEGn0qq/s+vkcO6A9v4cVglq/Z3fbYBAS9OPOYNlcMmlGTw6/Ijo2GpxOthYD48uBsnil2loiZHjDXN+20G5z+Cv3+2Xk+d7iOCPg2SODPCtXmbRK66iMNFt7ThFr21Nkp+xRsawi2irPZEeQFla9nY6MebK6zgm2bSWmIPu23sluDzSfbhtZLSx0WNvBK3XRl1iBkExTU41IBRKOlihU4iM1m1tc3DJE/D4EkCygj2nbw4FocDwulhjo4pxnGW+BFkSzYacm5Yz2D+SfyOhPFES6j2Okld+4B8Tmrzt+zwUmExMw8QrbBtdPFl2m+xOH0kTW5CyiTk0TcIMq1QzTLkmWOIVVQ9mNrDGMQB+1Y5gfJWaubhfZU/cqN1HViZriWyMa4eB5j2rFG6V0Z6kpOxG4tHlL4335eYHL2qnxkXV33GY1GwT4icUeCx4jGMknTZCtFA4O9/yr/EecYUT3gqDH5UK6VJ4zhOVFk0vbYo177oKUqoR0iJYNU8RDJM1Oc0/wAAujJk0opM9gXsKLLBZRZBc8cjkwsEdEFH2QinLHNd0XsMyIclz3QjGEWUUoFlZdbDZM9Cd6ylqTZNbjZOKIbHqCoR4muq1FJYpyjlVUKx8jkuuyOQDJgFp04UUWmYmcbJvLippZroN0llaiZyOOcpoc02ySFE0z81o47Ej7CLKd7rIWF11LKclk1R1Y+vKS1IHkddCPW5XWQL5ChKyHcbTHKD3wrztg0VJpbY1etsGinrrc4YIsr/AN38lR95NgVen/u/kqHvejl3S4LnwUB7vOURGU3ud96fSjGLga3IXASVHcqTkorG6wlHcloPpyn6lmMbmuHJMEAsneBVptGmKcsUozi6cXaLzS1kUrQQ4A8wUd9fHE3JwJ8FSYwUU24WSjKL5Po5/wBQTyYtLxLVVar/AL0W6nqb5lO0dRdUiGpLSnmnqrrvxZ62Pm3Nyk2+WWcyXCyDdNony1UjJbldiyJotBEwTDWhPkjrhMlYsmzfwMzPeTkw5Jsb7xR7XWCykax4CQVNjAQBlsonVAC55Md0O3cCGkkugPqvFRme6mMiJTTM1L9UxyvR9RLdM8r0SnZjKQPI/NajzQrnZouDOycSoB7W5KKREtabIadpstkbAZcpmSHigi111MwHglPc9DqTUXuHdwrncUBJCjc5c0lQd7PGUQh0+SxRz3rYb/it6im6SRDNmwTMff3XA+tZK2zwlKpp/lFn3NxLi0XzyTrQNwEN4AD2LsUMVeGm+AixufdK8z7iUtuDY6jRU1R9A5KSTLdSx5cEeQwDkq/HWgDVRybjhvmhFIfJZY42kkgKs1G6B8gigGNzjbwTDXbi+ok7bCTxUHe/Z4EvtKqKsblRZ4mFkwM7wLcla6eshaBa1hzSI1vVHckzikdyuC1O1LvGKNrmvNjy5jwIW62MfkT2FhG7QkljrWIsbpoq6aR8b3QuLg25BB5cEmNfvzaewu97uDPzOgRu19WPe0xMbKCcsJz+CHvyKLhF7FgpN+LHYJBfO11bKfcYpQCCk1kpjbEB5jn7Vuk3EwvwOJuseDW7FYbXMFtCi++x7UnLNwLtCnKCvOhKlsiWKLHHcXXugJqSatiu2MyYbNB4DUqKpqMYvfQEn5J12yqn+hDntwxR3xu902+euqUIN3SDWoeSm9SOjpNtFO113SvGK36uZ/JJ3orR1LuLK+qJjyiiu1n5n5qpSSYVok9jzuzk+TJfpsEiWyhkkFkEZlE+W620nOyXuXULzdYDs10lGklE8DrFP9PLoqsH2KcaeozCwy4XIZaC7JDPdZQMmuFHI4qYddxGbMoURlQRkzUXdXRGDHY6slWnS5JsbJkvOkK00lWRVLrlNcjkVK/NN8huVWkhskY7NHsfkm5gRrAqEFCYhedMocKyWp0g3NGS6jLrruFewqqAgKmgdZeMZK2yMhMkd6d+SlkddNbC5qmMhKxnDc9DB2ko6ZeDs5BQLkS8oR5QkYZJapNjnROvIlC2vQJOqH30o216BR1zjjyWeT938lQ9791yvMp+7+Sou9HJy7J8DlwJu/8AeFFxFQSN859KkjyXC+SUGhdUbXLt7rNoVBsSdoCmeNOVOc1slsA+w5qZ5sEPEbKR5yTaVF3sQ47FHQTEJnxZoiOSy4MkqexgyysqckdDNchVVs5TrSy6K8OWbZpCTssxfcJqqnZFTd3JNtTNqvRXB2LgCafMUTjyQDHZqRz1EyrpHJZbc03yVC1K4lNzr3XFOZz5JsLE5W+8m25BXe4VlbMNTCpJLpvkcuueUO9yuO47OZuNk8U1MbC6b6XNxKsNMNEp5HB0fRfTehjzYfkyb3sl6GhC4BRPixFOpsGIYkLqwz1o5+7gj1slRez3BGUbTyRH0TQNEVEQinWst2jkU68ldmpbApqkbhViqHgAqvTvzK5shjknfka503udZGTuTc8rJI5WXjpuqfVNdSWuQCW3IGXC5Rcp7byPMPBwsqRtte/b6lk7Wh+G4LSSA4HUEggqzN3L9pyzS9pkN3XEbLlrRbkTnyWjUdH5O/q526gxwbOU3V1aWDC25c7QIlnulMYJdPJI4GzThHgsorc9JukOlBHhsXZudqU5VVPjjtYfNMrNwDb4cLf1j/Jbfu0LgMRdIRzvYLZRIUnLYZqmjjicc2BNzX4CQ19k+Gsjd7sbPmL/ABWBOy+ccZ/gC0D4ZeoDBGyTMnETqSrVtdPA0g4mX9ICbPq7DyhgHANb/JcbuOA+40/IfkkxrBL1LnLES27SD6CCq5X0jneduThp/JC/ttjGeZmHxabID9vNnkDWOx35WzUuIpaoh9HWvbJ2pPK8ew+hWmF1wCqjNAZHwvtZ+Mem3NWmnBaxoK557FwbYfNII6aR79A039BTFXdTmWgZRQQtiAFnzAlrnt4Fo8ufMlH7o+23yjiAPaQqIWkrp6/6s5e090jL5Mk1TuvdOMrHWTe9hWqgcTG1xKyHKeRiEJsVdE0EArV1mNhciDA4BAUDOKkhccSw5pC7B74U0FljgFwFNIw4VmmHlCLe3JXQ0MMgIJUKcJG3JQbgAkgo805LxKiLrLhem0BHJmhXNzRiidZMRE1FRoW6JicpGFBq8WLTSulyoREWLuBaJUZfZAUEBtlsBQtkC13W2VCO2zWSou4sGRSykjUhQb3qSR6CeSUkNljoG+dKNtYyCoVG2z1f9s0Cx65ith9m/d/JUXedHK71B+7VC3l2Tl1y4CXBRn+8VwLjj5is3XG+QXAS1TN1QrXImM3KhiY4xtyRkHvKGPRExDzLSPAh0YtvNmqONdlPlRJ7MTftAL5qTGhL5lTsF15+m5GS3C2G6eqZ1gmmJicY/KF24sSgjaCrccjPYJrqJ7lclksmuWS5W3yJGvyJBrJLlT3uE2RvUhebrkzZfCOrCozVslkQ5AXXm4Q+MrmSbHnxxh9mew3K2YLrkZu5EXRJ0R0+rDInKW++yAHxEKDtEp1eAWoYWXRi9yMe3gWCS08PwCtBiNwn2lmaQmh2qOpgnPCptWb9Lv5utFxjun4Y7vkxDJN8ry1Ehckp8QXRjx6FsVmzTzy1S5YI2qc1T/XmyDdTlpQz8iqk2kczgTVFViTLNNmiJU1Sarlb1GE00RyOxIYqeyxZBmRgJ32uTBK5v4h8E3AKeB3be13ika4nplF/kttPIO5Yo+aiYHFwAwyjP0piDuYT7TVHeiwk5tU8HuL3Ipu87LM9uKnectWcTxQOxU/elENU5zCHBrgcjnlcfNKC5l80FJSU8zgZGkOGkjDhcF0RdouMPTYIp+lInQzYnHG1xwG/IcU7f7Uofo7jEJMF8Vz71k0gzsEjYNwl+8IJEgabfom2SIifuYaWCrcW2yzHxIunpkOWLOH/AO0qP6W93Y8F74jrZAu6apmMgJPPz5+8LelSOduBYGmrdhtZwDhn7Gpv7EbXt7s0sz2XsTI7K+o108EaWEcOaWzZVNx281lQ6OmybjdcgeVjQchfin/bdiho4wA0E2uXHVPtNTtc3ysaxo4c0Y9mBlgplKlQTjpdcjCIvvi46M09KLZJcqGc4PKPSsxnJcvIkQ73Pama38Th6lWWEWT5XwyVT2hujR6ymuWkkiFyF0Yc+Je3Ur9DPN0uzNfKsctHrRA8ghN09giXmwTdISSuyzzJA8iC7eORFuBW6Zl33SsVDlS0lwE4OpLN0RlCG2CPmw4UFadik1UWEoGD309V41TCxxa9Bmy0wOAap5JQW6pkinyWZamwVDJpJcyhnOKC79yumZIZI+Syj7oQ73YlGGuTEHCRROkUOCRZwPSsZKXqRklkL23rxjkCmxuLHJsy0Zk0WkC9icFVipjmZlgy3Td3CudxAUH90rvdKA7qz3UBQ491Z7qb+6ud1MBwx3XbXTe2VFMlSAv1PSkPV029lgFXIXjEFaqG1lw9LI5ckP8AYPqM2Kh7xG5wclAkAwqrbjGHXXfmyaYiasSmZj43G4UWJXCpog4HJMkm3m5XD88H5J4GwPRET8wpPoHhSR0jw5DyQlwxPcd4zkEXF7yHiiIARccfmW3gK2DmFZmPlWmtIXpGktQ90S+BrGbk4wx3CHihLnJ/pqZwAyXOlpY8cbIY4jwRHbdZOsUBt7qn+nPBXLLtR0fB+SrzROTe5hCt8lMTyTdNScAuZTbY10skuBgbkUTcIz6Vw1ChdHZaabOrFhy4fAM4ZIYsKPwgrYhWsIojLCU3uNIOAqQzN9CMkhCBfSyO0aUS6+rcvFkeBUqr8kT6q+Sj+ossvpJh9lyjFJM5wGErSENCODsPJnyX54SQQx5kOSeaWGQ8luj2h4ALsjwT/T0ToyOCqMovyd8fpHcxQU5Q5/INFTPPIol9O7DoVYqeMM5BGvLMOYCtSo6V9Om0vd/YoT4SL5Jmngdi0V2rAzRtrppkpXPzRNxa5Mv/AJ/ac9MYOX5KnLAbJnfGQSrXURmN1iLJmkju9YaV4ODNhljm1JNP0Y0GIrHbKeeypGU4KmtzL4hkEZ4LzmkclaabbJam+Bnlb7zzkxg4uccgvH9j04JlrmOw3BbFE5xuOQLsDfmtvhbQLFb5UV5b/wDBljlf2xflkUfSzGN4PJAwV9PuX1DYYnRtieA0utd45GwyCwHmN2ErGcadeT1sXtileqvNUW4PxaHVDPktcFCU0lwE5S0plaHs+azWzNrGqS4zF/ksCuMORxAehEvpZQmWvpZ25i+dgPSuiDHLPkihzbVumyaX2/JGwMaCC7P0oXaqF7ornFi9CeY9vkc7T2onaHHNkkuRxhluAAMluU4WoiOlELM9U3VL9VzSYDRMfOXFdgvK4NHNDTG5snLbmWzSS2J5YeIA1mQQM8IIIITo2VuGxTXWVDI2nNeO+vkWTh7s+y6/ZxfAnqjpUd/9Clywnuub4lcNJloj429x5J5o8RNsvpYWoxv0Pz/Npnlm47JybX2sq8tL4KBjMBT/AFDLJnlaVZnQbTz4UY6fENVXC57SiI5XlJsVBkzA9NclME7NFwoZBZTqK0IZXDAg5nOcnCa10E9qakwcUBXIXcS0+MrHbcqshomZmj4WBN8QN805RuASchqIV2220Xu0OCz3mqVsjeKlsuKVkfZHBRvjHBEGRqDkmbxWds1aSIHgIGREyTtKbZZFSsh0RuesY1FiuuFambo06RZ7ijco1ZmwnuL3cQ+a6mIn7imbIUGFMEgFRoK1sjtVeaCUWCSnaY3NcEpe3XsFz9fFHHwRFWPsstgmKqkaSUdVPs1UqvqnNcc0+1ByhsKdocnlpUJiYUyx1/6yKbXNXzsoZE/JlYWadp5KHsgHkpBVscNVgzAlaYtakrsZoMAU0eqGL7qaE3K9datKLscWi669uS7HZalGSpNoVbGqSIFytVJTg2yVd28YnK8UMGiuEdRrj2J46NttFL9G3gnWOLJSGLJbLAma/IV+SkbwQ/0APIJ7dEcSmiYLaLGeGMWduHN7U14K6/bxbRVXcqLtXISk1AAaVRN4laA5UsaHk7De5WIm4nJ/gow5uir1PMMas1LNYIa0kQrIrIv2cC/ROEG1s4KRkrbp1p5GEBbYmmZ5o0AybRGW6BNkO0hk5db3VbnyNDUJG5tnHxVZ4pQY/psL7UHV6dwFlKPQUSIA1t7rrpWIGunDYwL6lcWBJySPrOzkn8UpPhKxxY0W1QdVL22lNBncBk8ph3Gqmwn7xy7Z4NtmeFi+qY4r3xk/tQ5Gqa+QgHMImOTFqk2o6uRu4sxPJDrt9qvtNd1s15+ZOMqPqvpWaHb6jyJaak0SbhC2SnebZtzCqeEXSispg+M35hVySiYLiy1wRtM+d/qKCc8U1zvFjCAE47fSNq5sLniONgxSyH7LRw4uPIKGSlIfhbzVU3irxTMpoCbNdjeRzw8/yC6IwWo+f0y0auFdfd/gP6p30PkbTUUj2U8YwhoNsR/Ebak8VRZHOteQ+gXW5pQ6Vz3HnYIJ7zKS46LVklt6aAdHUH9ZnwKdKqME3Gqbel7dmoI/Eweop4nC4cv7ndi/40D01SWOF1bttrIy7C4ix0VEeCDcKSKrdHzWdGqdCn4Re4w28UJXRU5aw3F8XyVMi6iDbNe7TQqCr3rvR5G5Gh4rWApzi0KXRupo4xYt+SMNRAPNiGSR+k3SeFuXNOP7WcbYzqnNWKGRIv09fG4HDoq/NUDM3TKKySTIXsukudqubTRpqsIaTK9WSn+5gc/UtY53+EXTBStzT9LlR1H+TL/cKa5HWzB9s3Gi6hjcISKWq0EZP3Uptfy82E8vspgrWSRyOZIHNc02LTqCqE0yRxNkhcWnQ4TY3V2p3SVdDjd5pIWNxm+Zbe1/4SV6WiMldKzy5TlFuOp16WZg95OIOSamOwlGtlBasnsUmDVDk2PsjahwJQD7XUlGMAKyG2KlBACzcXQxEzXEBDyvNlMLWQ0trKGUhucblawArnNTtarQmQuhFlH2gnLt3CyYclVGY1duxUL3OGiOeLIKRS+SkBPmeHapwhe4hNknvBOMOgTfA4fsTSOIamaaVxJzTrN7pTK/MpQRpPgwXO4rBut2WXBa7GJGNVNZRtGaLjic82AuhiTBXBRWVgj2mWTUWRY2XwQuCWyqrytLtm8EHNtLmZhUIYwFMFN9M5pzXjGUgFGoabCRkrpQttZM1PBYqxUjLLm6srMYSPVjfKk+3cWulFrB5Unm8c11T4KmyoiRw5olk7hzQhWmrgcU/BI8RTkhHwnEU0Qp4pm6LDSlIl7Dg1twjIY81mNosj4GZr0IaXE0W6JmREoowXCcaWnxWyT1HRBw91GmytOwy0FL5hkr1RQ2aELR7cAb2Vhhp8AWmKFD4NMZYLbm5KYCy8RcLpogbH5FQNmAct1LsF7qt1VZ23HNeJ9Qyyxu0e99O66zxoctyrGRt1GiSne9yvcApy3fdC7yhxVAqZu4/Na9HJLLFNqjn+o4YdeWhS1VyG09SWOurDT7iAFT2lEtebZLvlDUedCcolsfuw5Feg3xzDqU10VA6otfNP8AFsdvsqYw0mk8rkqChvwe21yiodxxxHzaFCSbTgb7qYalz6Ik+pTnjKcGjs+l9jH1e1GeT9eH+PyWJ+4YTmUx7jvsLXsZjzFyVWKveyAbA3VTmnkmkc83zXL1cOSM9Utkj6P6x9S6Eum8fXya8k6W3EV+RTG7zE5vvpqrNya8HNU2OrLBndclrGkc16Vs+H48hwqmtqonX+234pSKGrBtmkTklLnXVr2rej5WOxYtON1xdrHKbUorg+y/pjvdXFizdfPNY9clOEnxdU1fgWynqmlnyTPNK0k2UO20G9bhGOxTSNY7/iS/dttxGKxPyBVwoujrWdWVOPmWRDC35vdmfkAtevjmlujj+vdrrSnGGGayU221wJ7u0/0VIHX+8qL4BzEQ1f4XOQ+aTOom7FO+d3vzkhv6DTl680sPV3TrX0stWZ3iQkMjj8vbZE3JsYFr5N53zKQze5hJUNib7kTQB/8AfQumUNJ87qcvsuBsdKSeKlhjmq5GxRMc97zYNF/gATlzWGR5K89M0zKOirN1kbcw2igJLCBK7mG5vD2jNpyBzUAh62za49oiMAk7sps6cj3GPI9xpub4RqURPHdRULHNpo3OzfIO48/rPzRhzC83K/ez0sSqCGV8aDfHZPMzLJve1CZTQ0y08cnvN+aG+kwnyPI9OadXMWRGqU2iNCYA2nlcRikyGgaE5QU7WnLM8TmV0RouEWKHNsFBIcoYwG3XMycloOyspIm5rJs0QfSssnSbOknbpeKQf2SgohZSVMwZTyeLSPaELkvwJPQRSsqBSS642Fpzs5pOo48DwKUjpGmbPVPpnOsJIKiP5nT2FMb9tD6iiqRfFE97X30wYcTR7tteWL5K/bF09LRGm3Fk/c+8LpIw3CBG8m+F1zctvc3C9jErSPHyr3P7lMq6SWjlfFMwsewkEH4jiDqCge5ZLxumw0m+xN7t45W5NnYPMBwcDk4fBJ5uP9Pt0pyXUro6tvAHtyf4XHD7HLDNinHhWjpwzxS2bplCkdcoN5cnSr26soX4KmCWF367SL+g6H5KP6c20XHLLo5R2vrxktn/AKDO6RzdVH3ij56YnQIUUrr6LRZYtb7HG8Mk9jPfKw+YlFfRO/Co30ptonGcZC0Sj4G/uZqVkpWTTPui4qc8FqtiWStebLxebIlsGWixIzCNE7IG2VyEIxI50RJ0XWwE6BJoY2/RmRwsnym2mQgXCett29os5wVnjp22GSrSSnuVJmzh4sWrjumWOF8KUOlog/knuPbARotI40TKV+RE5NhYz7KBfszOCWTc9pDWlwCp9RTYTohxSM0yiDZQ5wsrNQbJHGBcXKNihaHaJ+p472ySoAWPbmNbosvpAOSfTZjc03TSgIZYzTUoTRPTXVgMt+SHIDuStKyWylVNEQ4lNUsRYVeKiC98lX6qEA6JOIWKZCzNP1MxMsBuQrBTDJcPWRzY2DVrbNKTbesrpS673Skw3s2JXXl4NZlSctNXLqRgXAIPpwnmEWTPBqrFSxl1sllpcmUlYdACQE90kRc4ZIaCmOSsdDS2tkuiEXRooj3R04DQrBDAABkm6lb5gE8g2XXBDYVFGAi0NG8KcOC2i0SzS8uXXVZCGHcwSx1klm5SzNkdrZK/Vx42kKl122YyTh4rmzdaOXk3xZ8mL9W19hK6yVxByVdJJcr9udAGB2SpMkeF5yThijjVIieSU3b3OAlEUzsUoBUQC6wlkrT4qxWKxslM1zW5K+wUTcAyVN6cONjb+CUeEDCrQJjBWUYa05ckm290pOJLHUR4gqbuW3Y75JtA2IvDtwkkOIc09s2eEt9wexXGLZrOPlVhpenXyi77Rt4nX5N/mpSJSoSSbYIXfZssU3SMta7DBTyTHiB5R6XHyj5lLxDsG2wgEw95w5yXIv8Ao5N9SKfgbZg8rR9hvkb7G2yVrHYnQj9N/ShktnV9VHSD/px2fJ83OIYPkHK4UG0dF9MgPZJSGVn/ABZpWzy3HBouAfQ1N3Vm/wAdJejpQzvOH30gAJjafsNd+I8+ASVySYjqb+CvSoisWp39SNjbL2w2rcM/vBA7CTywjJxv6FaaeomraP6hwfA2RpLI5Gdt4adC9pJIJ4FIn0lsLt23KPGLwwFssx5AA3az0vItbhcpat6raOjgb9XIyON5IBcbDEBcJ7DSE363q+zA2EnPDnbxXzvK/vzyP/E429HJKz15Xtka97JMQLGBtv1ud/gknhYssjtmiCWts1KBU9yLorb7ghj61+fca/F5T9kNaY/0XF2eYVDAySg1THVHQVNKSf8AutYWgYpne9cf8Roa22WUbi1QUtgmneH0sLh+Bo9gspg5VDZd0DG9iQ2BN2k8jwVoxX0Xm5oNTZ6GKacUakQb2XRV8lA5ZJmjG57Co7FHOCxYKiSBoKKjC81oClaM0AEsRsdkGwKbuYUmUhx7gaE11c/d8oWJJi5TbfSPq5xZrnBvmdYaNGvIq4RtilKkGWbGyLPCBe+l8RaR4ka6ZehKns4Ee3Qej80lWJ08gB0Lic9bchnmcsglW29mCjhBuBbmvaxKkeVkduyzmMWOHI+pcZKHBt8iRouQPxxg8MvYoqyF0sXke6NzTdrm2y5aEEEeBTZiTTQQ1DCyWNkjTq17Q4ewqq13Re11VzCHUrv1PMz/AAO/IhJ5V9ddRbPVSU88VLK6F7mOxRvjxWORIbJhzGeQC2f6obm9otQ0Y4/eTeq1retZTxxlykzaGScOJNEu59JVW3+YtEsf44wTb9IWu34JjbQNurlt39Ru7YVdFgHN0EmO3pZIGk/JyuDafZt9gbOwMIfe0jAYn3GoIIGY8QVwZvpymv8ArlX4Z24e8ltkjf5X/gkjqFtkG7bcfJKbW9KSC7qWVsg/A/yu+TvdPqVblpZ6N+GeJ8Z/WGR9B0K4YdXPgl7k6PQ+TrZ17JK/R8lXZsbno9nT5AVkpi0o8loC9GK9pwyxXIp42T0rMmxMI0VvL2rHlcmqK/iuihy7A4e6FFFs8rHZhKGGtsoHRNJW0YpnJki4jFTUOG107MpABqp8IatNN02jn3CaBtpAFboohhVRhcGEKy01UCArjsCjR6spRIw5JP8AcqANJSi1E4DSqbuLw66JC+OynxwhrswnmGVrRomx8rQ6ykZKOKjYuMK5CKqQn0JrdmVuqqWDK6azWNvqp8lxjbHNrQUTHTtOoTZDUgnVO8c4dkFrFo2/jbXZBUUjC3JVOuo3Z5K9usQmasa0jROW6OeUKHOjYSQrVTRZJloItFa6eOwXJghSObHGhorYSWlJnvtK4h1glhqYgQqPu1KCDktpq0aPcSExOatxg3TzWQYTohIos9FxSgVpD6ODERkrVR09k0UbLWVwoY72SjGi0qD6SmvbJWCKIMao6WEWRhbmAuiKKDqRvNGF2aCZ5GrTHElbLZCDsWEKaOQpve+5CJjKyTuQ2tg9rlLdCMKIuutcGJlzbpvqYhgKcroGqPlKYJibb4wAOSaytvIUo2+PPmVFNgVlIqK1MDwW5Imjpe9ICeRXjayddnDXPseKVjnGhSthp8LW5cFe4xYKsbQ1oa1Wpui1SIPObdByUgfwREszItSL62vn6fQmx9cZHYW+pWoNibDIYIYnWaA534uCMso4WYG56nVSpNUK2eUUz2xRueRewUqYd2qSHCNt7NFzY8z/ACHxVRArm47Dtm6Yi6EwyuzMkf3ZueP2XexVqP8Ap6XyWZWjwvDd398DJXSKe1vMX8s+ZTpTRGIG7z3HcMsI1stKQiTY9kptipBBD5nOs6aUizpX8TwA0aOQSQ9fbs/cK18cZJgpQY2kaGQ+872+UeASn7/vH7J26SQvONwwRD7TnuyFhqeKRehoxuVTNAJby08RrJGtGNhEbgXROdfzSEEk2yGiyexaKd1G8Rx09KOQbf8AhFvimGJqK3ipFVuUxbm1hwN9AUTNFhyzRG7JY+loaKv6Q3Clla1ocyQmKM4JZpITiM2M4idW3bawAySPJRf6d1v/AGm+gnkf2aqCaJrO5hY1zxc2ZhJcSODm+lMYlb7sOR0TxQ71LT2a7zt4HUehY3GhdRVdRTu96CWSM/wuIv8ANNLmEKJxT2Y4ycd0KHTbjT1I8rwD+E5FFFJfic1FRblVRe7K63Am4XLLreh0rseqFCIWCFTY9/qm+8Gu9SMZ1G37cR+RWfwyRazRZZwFM0KtDqOn/wCnJ6l7/ckHKN/tCXwz9B/LD1LVjwqJ0l1UZeo5D+7ia3xJuhIJ9z3apjpqcSSyynCyOMZkn0aAcycgtI9eTJlnii6tmj7jYr4pHkNZG3zPcTyACs8tTDttKKMdp9TUeaUsdG90DMvu3sczGx99HNPFBw7fR9BU8U0ttw3yoOGGFhxsheW5xO7b+612d+5YXtkmnBXmZ1RVulqKl7rvfI4uwZ3ETS43wsvYLqx4VjOeeVy/BZaWNsj3WvdsV/G5OnFNNP1DX7ZVO+9kki7j7wucXNtiPu390jlZHbS50lbLiuA5h8LZD81V91j7dRIWuDmdx9nC+efNdF0c8j6G6dr4dy29tRCbtc9wIOrXAC7T6E+EXFknn9PHdraMzlJLI70EHD6wFfzKwC+qppkCR9f7S1/brwPe+6mH6w91x/u/JJThbGRra6+ramkp66B8M0bXxyDzN4/MZ3vzSff7d2qimxxUwEgJs55Mpaf1Q8kA+KdDE92/YN2q4w+KkfgOj5CIwR4YyL/IJTek9u3KgZNBURtEZPcYWysfZ2jmkNPPIpxY94iLXa8vYhaKumgnaXOGEu0525+pUlQi0NDwfccDxGQy9SLLRI20jA4cw5oI9hUy8obsOBiqdkoJj5LU8jtMGV7fqHI/Kyqe5bbuG3hz+33ox9uPOw/Wb7w9YShT08VS3DIxr7G7cQvhcNHDmCOIWI5QzyOvllmb+s5+1ZSxqfB0YuxPE1/uXoxEn7y0c11m9tSk7x0htm73e0fTTHPuxAeb9Nnun1FI/vWy1OyT9uR8crb2a9hv8nN1abcivPyYMuN3do+j6/b6nahp3hP0fn7Fki3Vj+aK+uj/ABBJ0ydwKPimvzXRB7Hidv25GkWx+4tWBuQVbdIs9wqzjLWzcgSnRm6CNuqoLZTdOLahr2aqkOL33LW/ewQQSqvXb2CS0G6bKmoEYJxKtOlL3EnmpZd7jrJWOcbqI10gFrpvL0O96ihuiearcdXJuNWcWqincSgRqrSFqosUFaRbNPVPuBadVTGo+J6rTRt/IdUXuPcMa5LM0jNVqGUgKR0znKJN0R+24qm3DIKysNmqu7e0iyfxoqgqRzcGpDdpVX3FgddWR2hTNUx3unLgaE4rqa7tEAyjN9Fd5aEvdots2y/JcstzVIr9NSm4yVxoKci2S3TbXa2SsdJRYeSIxsCSCLC1bDbuU8gwCy5GLrdCsw/gsYrIgx3Qj9bJy2TGTxDEbo4ZKCBmSJIXPjdyNJ7IkYUQChmKcLvRyskum2tNmlOF0DVtxMKYhLd+fbEqR3WlX/fofK/JJfUYmvPpWc0XjlTDnycEdtMjhModvo+9a6udDtQaQQFKRU3ZctnldharjG4uaqpt8GBoTZ1pvUu1bdHFTyFk1S+xe05siaLuseLjYei62RmOu7blt22kumqGtc7W5xyyW4NbcgcBkAmTZeqG7juQgpaY9prTJLJK+zsI/C0X1NrXKRSoqXEk4iSdXEkk/Mq39APJqqx5ubRM/vFWpeCRczujGg4mEehwP8lz9sU9gbOscrix9V7qrS1Ak9tioIpLuLWgWANuSvTYF5duFP2XyNka7ACbXsb8hY55qjT1b5i5xdYvNyEnvWO4ua6Okabf8V9ieNmj4lVOLe9yphaOpfbg+zx/auptRY6FwpNyhoBjeySR1zYAYg3xtxTjH1NA9ksraWqcIwMTsLbAnRvv5XSFM6r3Bos9sMn8Ja4/MH8krEjYoen4XNLRjZ3qgg6SEZtPPy6WS1hQnvVm+SbjV98hzfKI4YsVwziW8sTvtO1srL0bRjb9u3Spc0CVu3SyF2tsbXFg8Mm6IHprpSTqWpfXVAdHRxEsjGhmcNbeA5n5K67rt8XTfTW+vaSe9EQMWXvN7bWjwGI2WTTbs0VI+XAS97nHVxJ9qNaUHGEUFAyYFOW1Vx27cKWqFx2ZWPNsWgOeTXMccuWIXTTddvZMYo39RtvbBuke4Q2MO5xNnaR/1A1ofxsTk7U6pOXJVmsPUXQVmNe6bZpMWbGNBit5mx4SS4BhxEkA3CScm6GBA9gOigLCESVgqABSFmyJsuWCQgey1ZS4RwShdOdCy1sR3Hdnnbtsib3HyPBEkrP/AI22JDT+K3oCpIZXOneltz6mqRFSRkRj97UOB7UQ8TzdwaM0pUu5bN0LSvoNmw7huktmy1bm3DTis6Mlrg6NzNWtbz1KZt866LoHbXscQoNvaO0XMyfMGkWlY4Br4y4AX+0ea3/TjYRu26/UzNxQ0lpHF2YdJyBvqeZWkUrAv/TXTs1FRT77u5+q3OaLySTAF8TcNmDQee3PWym2nZI6xxM1wyxfIRkQPSb2Vn6i3bbqeBsMk+bnAlsQErrN5EBww38Sk13Drp9ADFTwOwvvYktaSP1vf9ittImyWqZBtn1VYX2EQfhtc3byFzlnkL21VBpa6LcmyuLSHAkyRE54f+rGQBcj7Qt46LG47tXbu3DKQ1h+wzIHhewATF9HIwhzSWkcwbFZtks+jOhzG7aWNa4P7T5Gm2tnOu2/C4KuRALS0t5c9F8+9Hb3X7XPMImsdjY3G1+KzrHI+XQi/JK5RdTVFUGh1K1rjlcSeQ/IsJC2jO0Q0W6nN224KubuwsqCRazgHX9WXjdPNDLPLm6ERtPMPDs/RkfUsbtGwwB7iBgNrkgAB3G/yTGMBdhjGJxOXNNVw55AyBzui3VMUjbCaJxaLWEjTf2FM09SyHMvYBxc4NHtJCqxClbdL3qSJxNyBhPpbkjVSOneodvfFLC6qhxMdiDQ7EbO9F+YVo/adHa/dFvQ7+SzatgHoGqFv4vyWButGbWkvc2ya7+SF3Pd6Gip+9NIWNDgLhjnEYvADROOwMJY8vGAkt4EZOCp2+9OVm61brFgg7TAXOPm7rQfM0AXuMgb6hFw9T7VK8BlbCC42biOA34EOtqrHRVjat0sZFnN1NwQ7liFlU0mEJShJNco+ZJxJTyvieC18bi1w4EGxW4pirh1vtPY3L6hjbCoF3f5jcne3IqmNic3kuJx0ujrnk+Tdji2a5Upcm5ocCtPe8BJGbCXyhoKANWeRQs8r7JvEjs07IDZZ3OOZUHcQzpCEJJOQkUO3dC4TdM7Z7pwifcIA9IE3kEvsE4SnJN4kAeE0JjxT0wDRizRZgbyFlHA7E0WRmgVgkCsu02RIKHvicimsuFmOxZ6RoATomalmFgnMShXHglkhQsjQSpTKE3z1Fk2CJcLPBExNZ4KuyVtjqp4txbxXNJqzVMuEDY/BOIwtCp8O5N4hFP3QEZORGSQDrK8OcpI8gmSCfuuunmJax3IJ3ZNTc3zyIuokwhC0nmkujJ+o1yh5jZYLTmqRgyXXLDF+xpN7EbQpFgFSLvOY8opW4mqZZdomIoG904s7JI9uje3UW8Uu28Mu1ySDdqIyTXspkhN00Omy4bMSlbfExwGiTPa4nxhvgrxQ1RjsEki9RdWQXacA0H/ANCQ/rmsMldHHfKNpHoLs7WX0DTRmKJoPvWu70/6L5r6yP8A2xWAfYlaPbGtPAmVdxySi9ERdmhqqj3TJIGNPgwZ+spPBDM5mIRSEcQx1vbZLptPTFbSbJSR+RzsPdkjBs4GTzWucri9ihchRAXkjCbX1vYX9PgtQus9wBGVyXeGvqXH7fWQuc98EoHi0kW8SMlW97r/AKShnwOIdJaJv8XvewXWrEJ9u9b9duE8w0c8hv6Dcm+rNNp0XCQCvHRYvcY/dMbb+0dwBf8Au4B3X30y90H0n1JSdq2ir6jrC9rjDtLHkSuzxVrmnNkf6gP2/Ta6pFOTt2209I0Hv7i9jpbe82Fzg1reN3j1FOfVe7bi+qloYKjs0tIe3HBAey1rWZC5aQXu43PyTukM+goIIqWJkMLGxxxtDWMaLBoHIJFv6t7811JFtsDsQModUOafKHNGUXpGruGSpu07nVTjtNqZg9vCZ+Ij5OQfWLOzT0cf6znH5gZqNVjSKO0KYKEKZqzKOrdrLllvVAF36A3xu07r2JyPpa9vYmuIwLm4aXPkIwsFzisbnJNPVuxHp/dpqdoJp3/e0rzo+F+YsdDh90+hVz/1SybK+i/qLQQ7dXPljrtuYHfUl8XcqA7EC1jcI8mQvkSLBUAipWbJQo/6a9RTTyRtigsx5YXmdobcC9wLY7fw6p4Z/Tij2+N8m971T0Ya0va2LC4vY33i0yEOcRpZrCbo0jEjIVn2Po7et/e36endHETnUTB0cI+ZF3fwgq5s3jobpd5O30sm91LSB3p7dkse25LHOaWAs90jtXvfNVrfuut835vadIKWnLSwwQXa17ceJuMnPE2wF24fQiqAtQpOkOhvPUSN3vcmFwEIAMUErG+69lzg82Qc8OPgqP1F1RuHUtRinPagYT9PTNtghaQBhu1rMemrgq7hJJJJJOZJJJJ4knMqSNhc4NaCSSAAOZKLAeNh2Sq36vio6YeZ+b3/AGY2DV7vAespdKz9kdLbS/aaKQPqXswy4TeS7vekkI92/JqpY3nb+hdl7FGRU7nWj/vMzdKfL92CRq0HTjmqXtm7h80rjEXyHNznOzJJzJOpVXQmWkROdyTVvMLGQCR7g0NcNV6Stqn3scA4MFvXqm+qpn1MEocS44SRc3NxnzUEje3c6RgsGyP9At8Suu3qP7NKT6Xj/wAKY448gp2sTEWzp7eHftBrRTRDuNc3NxOdrjhwSkQbnWx3wwwt55NcfzSO7c/6erp5OTZWE+i+fqS2tia03F+IPH0rWCsTYfSdRbkxuEtjGf4P/wDSb99kqd222pjkkLnYTIATZt2eYWaLDkVpgyItkiYmsPv2sbi3gfiroSYh17BDuJdqSfSb/FH19OaWpnhP/Dke35A5epNyyZQ/dNzYNway+UjHN+YzHwSxUEpfFhI93xzSCUkxp6uCQfZkaflfNLRtsn3zmi+Y0VwJY7sOCQem/pUXU0Qm2Wq5OawP4nyuB+C1YiUXyF029RVrfoqlh8h7Dz4nKwv6VbewUJVSPx1MTHaGRufgDc+pK9/TVs7o6yWTEWl5wk6ZnQctWlIjRygF73fYjf7XDCPivoD+nELo9lxE3D5MvRbF/wDsshk3Wm3ienZMPsOufmLH8kl5o/BLzutOKmkkZxHxSSPhwuLTqCQfkomrKi9iumkUT6TwVj7QWew0rOh8lQlocXJDnbRwVzNM1RupQgZQptvKaptvdfmlHkpAeSBfQDggTE9FC8FGNhcwK2uoPBQuovBKgKnKHW0TJK54for3LRXGia37b4IBjNS10kWVrp1NW+QcFn9n4eS06mICARPFIEWyZMTu5EdFptUW6goCxaqdzmhHCoIRZoSozROWWqjTSQmpJTdUTPOieW0LiiW7YXck9TYtJRJGzPK82mn8UoTdmHBEDZm20WfxtioTcsqW8VPCKlxAzSgO2YW0C7Ds4B0TUGAJtdO/CLqxNZhF0VBSCJq5M3CFvFUhWMlS65RdDGoOw6V6faalwBKdtCT3JWtyUUiODQFC+K+iyx45JjnNNAgUgWu2QtWXaZGV46LVlk6JgVvdswVSjRiV+YV13R17hNFLTOkkFghil4IYNp8uQTltW2F1cwkeWP7w/LQe1WWnpMLACEbTQiMuNszkgoKSKb9sctN1BVVj8D45cEkbCMQB0xOvllnYJYqqpZSxOkcRlk0ficdAkx36oknZHI4nGWPaeBcJHeoA5KkhB23h9Q+CNhuHloLgLADmcI8LpSNMknnQwNQ2aR+sB7YPEuF/U34pQbnEmBo8FQes6CjqhSxSwxnOR1wMLtAMi2x5q+k2SfdVzn62mZkLRuPtd/omMSnc+lXRuL6NxdxikIDhf8L9D80xU+3SisjiqY3xMaccpc0gCNnmdnobgWHpSq3zuczxKKqdoi3HbHMke+J8zrtc23laziDqHO1GWQS0oBJ27qWbrHXuA+7nZKGcg1hGFvoAACYt0rKqpmkxWZic5xw6uxG9y45m90+71sNbtVzI3uRcpo82fPm0+BVdhqWVNoJbB4yif+Ifgd/+p+SzlsALt1S/bquOdujXDEOLeYVy63fHMNvkiN2SRue30Gyp8keEkHJbqKuSempoXG4p+4G+hzr2+SgpAIUzVG1t0Q1qSLOgLq6clHdIDVkrHSPSG4U2Ovkmipn1VDLHRDuNxvknYbAHE2zgAHeUutzSebVs24byZm0UBnMLMbwHMbZul/O5t/QM0v0fTp3T/btZVM+jftbC+SiBFu6A3BbC7C27m4jYEkGyuICFbpN1Ls0su21tdWRuD2Tvj+oc4dxzcQkEjXXv6HWVbc0uN3EuOvmJdrrqrV1dPVV+9VdbLSVNIyaTDG2dj2kiMBuRcADpew0uq0k2wIsK1ZaXUgM2Vh2OFsbaiteMqZh7f+c4eX/CM0wK+7BTMqdirAbZOk9uAeI+KaViboTmQvqHue8lznkuJPEp42ltq3Cf+IzL02ugw0aBH0loqmlk5Bwafbb4FNIm9y5NpvLbmpGU7WnMWTuYmjTwzC12CQ7n4fmFdEiZVdKaeomjto8keg5j4ofCrf1JS4H08+REsZaSPxMP8iFViFNDMgJctqeKuippsiZIm3OouBYgj5JDkrXRPcqttdE1rndmRwyBOTvMNPmtI7Ej48EHlb2epag8c7KQbZXyPsKeTwuLesp2pen63CS90cd9AXEkeBwgj1qwET6si7O7TkaSBkg/iaPzVWSv9WdHVc1XFK2opwDFhOIvFy0nQYTyKpw6M3En95T/AOJ3/gWbi2MpxStbLVd5tNLl5o23PiBY/BViLo6cn72pjA/Ua5x9eFKx0jsVDTUcZIM74pHC8lja5uPKMk4qhMEkLpZAWh2R8Tf/AEVO6xe+KnnBu3EI2Z5HM35+AS/BrW6AD0Cyo/W+2UNdTRd+LE9z/faS19mg8xrrzTk7BHzfHGe3z+8eGZeGfxIX1V0tRfQbJRR2sTEJHf8AmeYexpA+SRlnStNEWSB8wjjxvJOF2QBJJ00GiUeDqRu6UcDqa7InNDbaPu3I3toMtFKVFD9vVY+SkqYaY+cxPGMcjh+yePikzpn/AFEEcnMt83G4yN1fA+8ZOWt1R6OPtz1lOP8AhTFzf0JMwlNbCTO4FzCjTEeCjLFiUgWy4UQWrBamAMQoywIotWC1ILBTGDyULoQUaWrJCAsbH0wQzqRvBPJaoy1AxidR+CFfR+CsRYoXRgpAVSWhvyQT6DwVydC1QupwkMXE0zCvCjajImYkW2IKNNlahubSN4IptM0ckYGgLtlagTrBxCAtiMLZNlHjVqJNnjGFwMaFwyLONOgsmNkDNmiMSyGY3Iols5TwAZlHLgFhZdVqNCPLy8vJoRki6yWqRcKAIChJ5QxpRb0zVrsigaZXa6qDpLeKsG1U+JocQqk+MyVDfSlDoGYIGqL3Je7DUI6tgZP2HOwusDnkM+V+KLSSdQ76ykFXUGzjI4shB/Fo0/IC60RRYeqKwvqI6Zpt2wJHeJdoPZ8VWKyR0tPdovhfmOYBH8wk5pOpaqGqDquR0rXHN7jic3+Y8OSUKN8VXFijdjZLHdpabi+osqsC9dHQCHasVrGWaR5+RDR6mq1aJJNu3ytoYWwwyMwNvk5gNs889dU+U3WTnC08AJ/FE639l380DLy+QcUlnVU3/a4bfJsTB7blWdnUm2SEY5XxHhIzL/E24Sd7xX09ZutQ+KdktnBowuB91oGmqd7CHqBjZwA03JPPl/onpzmB4A91gwttwH89UwbU5rgXHOwt6CncG5AHI29ipAR1sbJo3MIaWuBu05hw9CRXf+m5YZu7Rsc8E/u25uaeLeI+CW6bNpFsxk3I5eJTlsmxhzXVc7czcRNPIaF1vHkpkrGfOEsD3wh77d1gAmA4/i/n4pme3zL6H3bogS1EtTEQwPBD2Ybhwdra2h5pI+qdgb05URwmYylwxYsOEEEAiw155rKUaKRWmiy0XIYzLofdZ2WTZlessglaukIOot03Lay91DVzUjpAGvMTsJcBoClhn6h3mg6DotzNXK+unqhaaRscgLO4+wcwtDcOBltL3zukSSh9Wblt8vTfT9FSTU8roIyZmxyY3xv7YBxt+zd7na53GSpMZXN66r3bqGGCKuNO4U7nvaYou25zn6l1nEewBV5YXQlYEll6yzdeukB46JQej8Mm01rTlaRx9saT0lLD/S/aabdKDcRI94LJ2DC0296PIm4PAq4ifAk5tcrYt2ybm7XA+r/RKgOidrxOxSTHzO+3Ya+gKVvS20U4s6Nz2k6lziTb+L8lppMyaiaauGFzWueXsYQGtJzI4BWik6drqrN7BAzi/I/Joz9tlbunaelg22AU8YY1oLRlnkTqdU+ALQLKJuvSe2v26MTNfKYn4sWNzPeFjkDpoqoOmdlZl9LiPEySG/8AaSt7hHjpJQBcgYh/CbqhSuAlFrZ63RSE2N8e07bAPJRwNP6Acfabq5dOvt3o7NaLNcA0AaZHT0hV94wDX5cU57FLhrACffa5v5j4IEXVeXl5QUVXqeAyNp38gXNPzsR8FViwABrTcnL2/krv1C2+3vd+BzHeu35qjU7SQ517ZK4uyWQTQkEi/wD9/mn/AKYkbG+eEk+YCQX4tyKaiBc+bM+hE7Y7s7hA7k8lh/iy+KYkKO03ConVczjVQxXIaI8Xzc4i/qV7aLBUzqxgEtLIBckPZ8hY8wRzWb5KKTuc7KLa62QPbiMLmc9ZPLxHHgqn0ZuPblkoycnDuMB/EPeA9Iz+SJ6yrCKSGAZOmlL3AfhjFh/aKotJUPopo54zZ8bg4HxH89ErGfRtO4vhOlsJzIsfR4+BVck+53mE8qqnc0/pxafO1kftG8N3KFj2i0ckeWXuuIzaD4cVPU0Us/0UsMZd9NUtc9+gEbhhfcnL5K3vEnhmjH4KJ0IPJWp1FG7RCybdwXKyysupwoHU5CsMlG9vJCPhcOSBjE6JwURYU9Oj8FF2QUWIZy1YLU+tpGuUh2y6QFaLFgtT/JtjhogZKORvJOwGosUZYj3QuGoURjSKAS1YwpxEN1r6PEgBW4Xo9pTBHU4UQK6yuqJselwmybBWgrf1QKYgiR6FxlYL8S6ExGrkrQBXgpAmB4BERiyiClabIAlXl668mI8vLy5dAHrrBcslyjJQBx5TVVRlwKcHFDPzSGNEFGO4CeKtUADWWCY23a5OcMyVBwc3Wo+mopXj3i3A39J2Xq1Xzr1jI4Ppo75Br328b2v7Ev2+Uz6ujvHmYzjw/iFs/nzXz/1eB9TT317brjwxKhFLcRKzLktUO7Vm2ktikIY7JzCThI/I+IzQriYX35LE9njE1SUKxtTwaCJwzxNxE+k5lEsGlioNljw7VTNIse0CeOalsRlw9XoWq4AFqHtxkkWDQXH5ZpK3TPdO6Vri1xcXXBscylB3SbtU9S6/2CP8WSTa+aiXIC09H1MlTt2KR7HvMhB0Dw1umLxPFWsAuNxoDb0jnokIo6iajwPhkdG8C92m3/r81fdr6xuWx1jLHQTRi+f60f5t9iuMhUKdt1KK2oDbOwNzkN+V/d+avLWhoDQLACwHABNu004gpGHLFJ944jTPT1JzQ2BlzQ4WKQT+slI1s21yjIuZKwj9Atsf7Vkvq+df6u7lFU7vS0cZBdSQOMp4PmIIZ6Q1oJ/SUSdoqIkrY7KUMXQthYlnbLi4V5AGrrGEAk8dVpeQBxcXSuIA6uLS4gDiXH+jlhFuo546f+69Icli/o9IRXbnHc2dBE+3LyvIv/aVwE+Cy1sFV9XO04GASu+JzCz9P2hidI6W3LUehO28sZDuEuI3DiHZ/rAZJs7jGYrO0GQK3Mi8dPvDqRwAthkd6wCn1VjpucSNmbe/uO9GVirOhjMubiaRxBHtSaVDcErr2yNs/BKakr3WaOGrlBki99+r25Z6HNJCJiQSCXcs/R8FPQvbDUwuBt52njcX9Srcm+7bC0B9RA3iA/EfY3Emyfq/bYf3RmmOoLWYQLfpkfBNtBQvy8qU3rBkkEUsVObSMa673gWuL5hoKx/ueqfpHAz/ABO/MKaKLZuMXfo6hmt43e0C49YSbQYy3Pny4Jyn37cXNLRIxocCLtjA9l7lINU7luEk8jZKqd2F7m++WjI20bZO9IuRaHNtkefHJR/UQU7Q50sbCx4N3Pa21vSfBIkZpeckh/jd/NROJdrn6c0vkCj6yG+7c5rC2dsmJocO3dwII5EZetVbqPd6OqjgAcWObI63cGHUcs81TelZjNtsH/xF0Z+R/kUydaODWwuvk2SVw8TgA+JRLixorPUlaKvcn4XYmRARtPLL3iLeKrLnmQ4RpzUReXkNbmT7VaNv6dmfhdOeywi9j+8d8vs/NRyMuf8AT2sfUOO2tbic37yLgG381+Fjml5qIx9JI2wyjOmQuBdJb0Xt0dJWxPiaI2edp1vJdh1Op+aVqRuNjm/iaR7QtOESNkbrxsP6oW7qGEHtN8Bb2LxdYrmlyMmIB5KB8EbuS73QuiRp5pDG+SgadEG6gcCn2916yQDIync3kigy3JOdl7COCAuhscwKB8LTyTu6IFQOg4JBqGSSijdyQL9sHJWJ0TmqK1k7GVr9nPCkbRvHJWBbDmjUJWMHsVoAqbCu4VuQcaFO1RgKQFMAhqmah2uUzXIETgLYUYKkBQBoLS4upgeXl5eQB25XF1esgDK5ZbsvWQAO4KFwRpaoi1AADmrOYRjmKMsSAMa5zIWHUWzXz11/QyN3eaePzw+UBrR+6GG5yH2SSc19BUcoljItoXAX5gHVJt1lR/Qzw1LL+dxaeGmV0wEAkF9V3boRJWRRSH7suu7waM/XolMrdo23dYGvOCkqT7r22ayTwc0ZfNNO1dPzUn1D6uKwd93G8ZsPMlrtOGWqekaLZTNBg8mhFx+SxJGQCTrxslc22kp/2bSsMUb29iLVjc/KPBB1fTm2ThxEb4ifwOIH+E3atEB889Rvw0oF/ekbfxsCVSWDE8DiUr3WvSr4RTtgna8Oc91pAWnIAai4Ovgk2ftVVRytdKwBo+0CHC/LRZTW4Gla+mdsNVMat4BhpiNc8Un2Rbw1KqzGOkcGtGJziA0DUk6BK9RULNroGx3JEbS+Uj7chFz68h4IQFq2fcKilabu7jHZ9s8jxbwv7Fa4d3gkaC8GMm+R82n6KSqDcKqKaE1LYI4qhrXRdpwJaCSA19jcOyzBzVnc+KGCWpllwxxtc8uJsA22fz4KoyUinGh16r6to+m9qfVY2STPBZTRXzkkOhI1DG6uPyXyZPVz11TLUzvMksz3SSPOrnON0Z1Dvc3UG5PqHk9tvkgZ+CMafM6nxTfG0BZSe5SVE7brajxHkFzzKBmwurIutZoA8uLq8gR5eXF1AHVxcXkAeSkf0rqDD1L275T00zNebbPH91JsnjpytkoN7oJmPLCJmsJHB/lPxVR5GfSPUkcLamN0mXcjsDxwn45qrTT7bB5pZmNFubgE0demaWnpZ3yPuyR8ZOI5tc24vbLVuSShzxnndbaqM6F96a6m2htTJC1+E9u7zhf5nNPLyp9q+qMV20sf/mP/ACb/ADXz9s0z49zgOVpAAc/xNt8QlNabPyFr66Z8SeBTUrAfJq2pnwufO9wOueVvQ21kiXUMIi3WraP+qSP4s/zSwvAYy97358ElPVYturzyfHG6/wDDZKXAisjJeJsuE2UBfdZgKxs04ftdIbZhmE3P4SRkrDE9upPLRUvpuXFtjBiF2vkHozv+atUDseXwubraImSOnuSLYs0lO9RCDc6kDK78X+IXSp4Hg3wuH8J/kqB1JSTzbgDHFJIXRNyYxzj5SRyCUlYIrgOS6nSLYd4lsGUFWb//ABOH96ycIukd6kyNO2Ll95NE23pGMn1LOih+6KnJiqocvK5sgv4ix+AUfU9FUbm1scQLnNxvAA55a+Fs0zUNQenquqjkkikd2sBELu4A+4I82Qy52So9PV0NXQvqnRMZjjwYW53dmCbnM31VrdCE62/Z6TaIhJJaWpdbzHRng0Hn4qw7fSyVjg4+7e5Ljn6BdAQ00lROXS63Iwk5NA/NWaMdtgjiBkyN3e6z58bISGWfYwySuZHH7sLS820Bth155lXtUfpRjhNOXPDiIwMhYC7uXHRWWo3ajpzhMge78LPMfnyCbJPR+Vrmn7LnD+0VBMU0/tYyTT+QMAe3COILGm58SSVx9e1ywktyzszyDkUCaqRp1XZJg5BON1IDnHuThqj4twY7VVlczQIujKiN3NEBwKo7Z5GaEoqPcJGaooC4KNyZI914qf8AaMZSAIlkLU3SVVjouyVTHcwm6aQG9igqgj61i62rjdzTC83UWYRQi82XFPhWcK2IIV1S4F7AgCPFZSNkWSxZw2SAJEqnbIm4XUzLpgOLXLd0K1ThMCReC5ZdQBpdWV1AGl5cXUAeXLLq8gCMhRPs1ricgAT7Apimje6j6eglzs6T7tv8WvqugA+N7ZYIpYCHYQNOYtmFS+rpW7iG07b/AHQxuHMOIyPyCZabd6vbH4ojiZfzMPun+RQG59R0FfuWLufRzNjY3C/Jr+eZ0N+SdDK010PmpqslrfsSAZsKv3T9bHR0Boqrt1ETi4iUeYZ6YgdMlXKzbBuDMTBhdrcG4PoKi2eOsoauKGaIyxSPEZsNQ7KxHzVIQuNEGimiDLYQwBttLclK/JpUNA3t00bPwDD/AIclLOSGFUAmHWko7tIwfhe72uA/JJrvUM0kWOOKQxtIxuALg3020SgdWOb+0IQdWw/FxUO2ZUr3jSR59g4okBR+kaJtRWOneLtgb5f8x3un5ZlKaaXHGRfMjnmPnwTtt3TEH0jaiANhmnPce21o3/huBplnccVM7aKoHOLL9RwI+N0khlFpun6h1W2WpmaWNzjjYwNFzzdxKpnX/UuP/smlf92wg1LhlicNIsvsj7Xir31fvP8AtvbrC7aqYYIWnUC3mkt+rf2r5zc50j3PeS5ziXEnMknUlZSajwXdnm5IlsluSiaEQ0BYjJGzDgpBMOCyAFqwTAlEg4L2K6jwhdQBpcXF66AOrqyuoA8vXWrLxjKAMrAf23sf+B7Xf4TdbwkKF+ifAC39VU31WxumBBsIJcj9k8/7SoNNTxVG0SNbEzvtdNOyXD58MPbxxl3DA4uA4hX/AGGRu9dMMiN3OdTvpzn9uPIfAFUfaaiKmbPHUOdHZkpZ5S7FI6J8RjIGgcHDPQYVs90SMkbnsMMuKxY+1h+rZw8eKVuneHta86PaCLHS41SS2HbeAL2LXfkefjwSm9PyGeghccyxuA8PKbIiIf3AFmeVhyvn6UmXUJFPvcLngStdTkBjhdty1wFxzzSpRsklu1jLm3utBd8LpPusdp3FlTTVTqZ7GMZm51hkH+3mqkJDVslVtbcLammp2yXLGyPaSwhw/wCJd2puQCBYK2R0u3R3B26gdpZwhB18T8UlcjHN7gscncD4p62neJoi2CYvewkNYdS3kG/o/BZplUKlCwOfHDSQwtLzYNjiYG34mzeXMpUdrom0NM1hIc/V7sIGZ5Cw0HJMPTO2Cih7khY6aQDTPCz8IPxIVmc4grVEk0kmEXGaFnhgr48LwQeThk5p8CPgckRbEOaHH3Z529BToBM62Cq2urPcxYQfI43s4XyI/lyTP1B1HDt9M5sNhUzA2A+wD9s/klN37cqCKmMVRGZXyA4GYbG/4sR923FfOG87bNT1LpKicvZMSWSBheTn7rswGkcLrNspDOHF7sRNydfEpWeipRFtVVM/3YJcr6XLR+aS2IUsdv3svpwxj1Yz8EpdFPFtuy1LJmmTEx0piZ5R7vlA9CIkmvqGSyOMQsHOLnHkHHmCcgiP2zttEy1RUxOd+Bju4f7F/ZdJTVbnU1WT3WYNI2+Vg+Q19JQDHFzkOQC47Vv7q2Cd8Le3G54YBo4hovc20Geilgic+Rzhlne91V+me2zbXE+Z3eddv8LbepPrZpHWbfC3gFSJH4nDUWJ/eRB3zYbH52IUpQMQNon/AIHlp9DxY+uyOKymikcXF5eUDMrK2uIAyuWWlxIDBXForJQBhcWlxAyNZKlsskIBF+XlleWpBoLq4FsBAGbLmFSroCAIAxTNjUgClAQBhrFOG2XAtXTGaXLL11zEgR1dWbrt0AaXVldQB1cK6uIAyqV1RKXywwjRrS8+l2XwV2Sc73OZK6Z4bjDTgt6MlURFbkIGXFJbvRE24TuvezsP+EWSp1BgYx8mLBgaXEO0Fhf0pHJi973O1LiT7SlIYVR7rX7Yb01RIwfhviYfS11wlG6Y6znqawfVwNcIo3O7kPlN9AS11xz5EJJjfmCrt0zT4aOonOr3YB+i0Z+spJjPofZd1oqykjLJ4753a5wDxmdQSnOpN48sx4ZhIZtwAg46+kZqSWsqadrXRTyMIP2XEeq9lomAX1bJbdHnTDFGL66jknChhcKaGJur8Lf8f/qkx3beq+r3hkcrmylzoY7loBzsPs2HPglq2SnL62Blv3fnPgGjL12SuwFAjYI2NYNGtDR6ALL0kjImOke4NYxpc5xyDWtFyT4ALaRX+rXVUlFTN2ildhdUgmpkBzbH/wBIeL/teGSlugEj626kd1Nvc1S0n6eP7mmaeUTT71uRefMfSqmAogpmrBu2WTNCmaoQVJiSGTBduobldBKAJrlexLONexXQB267deXEAaXb2UZWSSgCXGtCVC5r2adgE91Zc8EKHNZIQAs39LnT1VPV00YxdiZknCwkbx9LVmu6HrW19QHzQRMMrnMuXPcWvOIGwA48yg/6O1gh3uspibfUUuJo4uheD/dc5LTvcEYlZKW3LxhP8J+NiuiHBDElZ0dSRh2OpmkyIOFgYPbd3ySh9LbDtsNO5ojkOF97SPLgcQ1tYIWoOX3YwWFj4/ysnjpuWTHJHJn5QWnjYqyS1RwxQi0bGsH6oA+CpfXTQdvbca9xvtZf8leAq31VEJdsflch7bfO4UjR8rvdM5033j74cXvHw8VaNkoXwAT1Dnl5F2MJJwt4m594/BY2vae7VOmkALGEtDPxkZH5C3tVjcA9xcLCwJF+Xo4qKK5Ldse+yURDJDihJ5+8w8Rzw+CU2B0VQxsjH4g4XBByISCh9z4DT2K07LvM22PAdd8DrFzebf1m/mOaqxMVtNm518G3wGSTNxyYzm4/y4lek3akipG1JkBY8fd55vNvdHjx4JPdxq5q6fvSHK2TRowcP5nmmIbqyR9VMZ3nFI4520Av7voCGqKWKsp3QSAOZJbTItdnmDxCM7drnW+ZytkoGv7bnX46eP8AqkxibS7NNQ7lDTP8wkkZgdyc0uHr4hXKojHfqQ/NtnxtYPFthkn6DbJ92mZdgd9K4VAk4Bv2b8y7h4KqbjOWblMMdgH6DilRImbmvuQ7y2NiPQp4A1viVPubRHWztHN+Ieh2f5qGMeVQNiidN5ba431lff2D8k/xOtw8OKaukNrrtxoCIonBgmf53HCzQczr8ko9J0Zazp6j+GNt/W7+S1SJGSmdjDxfItt89fUUYHYgDxAKutLslBSWLY8bh9p5xer3fUq3ucXZq5AAACcQA0sc8lMykNy8uriyGeXlxeQB5cXl5IDhWbLa4mBghZUhWLKRmVwraygRerLuFdWlqScstLy6gDq8vLyANgrV1haQBrEu4lhdQBq69dZXUAauu3WV5MDeJauo11AEl1y64uIA0CqxuWwS+eWkddziXFhNjnrhPP0FWUIpVED566ndLR0cwla9j3kR+YWPmOfqCSzM80sP9TPtf50fwKR0JTEjV33tqlPgh+h26GLBmGAuzscTsyk0j/eM/Sb8UrNZ+5H6I+ClDI9ue3sDL8WXzQ9WSbaAfO/rW9v/AHQ+fxUdctAKOZYoupI5JDdkcrS7K+jeHgV9IdJ9uop5KuNzJGyHAxzTfJubr8xny8F8w1n/ALxL+kf7i+j/AOm3/wDOx/50395Shls3au/Z231FTbONhLRxecm+shfJHWNVJU1kbpHFzi1znE6kuOq+pOrv/Y6r/wAv/wDI1fKHVP8AzrP8sfFRkGiuBSBRhSBYlkgUgUQUoQBK0EqZYYtpgctdew2XQtJoDgWsK4pAmBjAF7thdK6EvIzHbWS1TlRlMCKyyQpFgpCLT0BV/R9Vba8uwh8phPomYWW9pC+o96YXUuINxFjwfQNCvkvpX/8Aodr/AP8Asp//AMgX17uX/Jy+gf3gtYEy4KK57xkGn02zKK2ed4r4wftEtv8AI+JWPw/L4rO1/wDuEP8Amn4FbMgUNNe9MD9uqR+pceluadE37p/yNR/lu+CkYjmBsMQwt8xF78Mze/j/ADUU0MZOLFwNvC17Zc0XJ+7/AIXfFBy8/wD7ySYyFkJF7HFysfyK3LPBRxPfK/CGXPj4NA5nwU0Go/SCrvUf/Kzf5o/vJeAGH/cVZ9T3CSYb5Q3OEDiBpi8UoG3bkytha+NwIPvDmPAjiEkB0V86T/5Z/wCkfiFKbAuM0748jz1txByPgh/O85NN9BY31/Naqvf+ampf3zP02fEKwYpmw7c/b6MCX97IcT/DLJvySL77tNY/fK1kML3t7xwlrcrHOy+gxok+l/8Aear/ADR8AhkCM7x05uZrGE0r244mG77Nblcakp12vp6ODCZQJX5XNrxs9HH0lKV1J78H+Sf7xVepfccihsu3S742xTwNscJa/LlcWt6lag52io/SX7+r/Rj+JV5GqsCZl7Zqsb9HaaN/4m29hVpGirm/6w/xfks5DK1ZcstriyKMLi6vIAyuLq4gDy8vLyAOLJWlxDAysrSykB//2Q=="
+ },
  "files": [
   [
-   "Editing brief",
-   "<a href=\"https://docs.google.com/document/d/1mDoOUXcQw7Cxa_-AwIyQyQEr5r4lkl6WTQI3vokbQLc/edit\">pulse.12891354431</a> (Google Doc). This page is built from it."
+   "Editing brief (old)",
+   "<a href=\"https://docs.google.com/document/d/1mDoOUXcQw7Cxa_-AwIyQyQEr5r4lkl6WTQI3vokbQLc/edit\">pulse.12891354431</a> (Google Doc). This page is the current plan."
   ],
   [
-   "Footage",
-   "<a href=\"https://drive.google.com/drive/folders/1fvFqaN04Thizbc-UrN_F8z6gufSVCoI1\">Dallas raw</a> · <a href=\"https://drive.google.com/drive/folders/1BiTDNFiqRfgTVagYgkXH1Eqe4luN13hY\">Boston JD</a> · <a href=\"https://drive.google.com/drive/folders/1NzeGNXWmi9autkzrg883xuVvxogU5WzN\">NYC JD</a>"
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/1RDVAy1N94J4giWIHzlEnDcq-bkjChOVx4gP5KmA9MU8/edit\">Production Brief — NFTE Dallas, JD Pitch Competition (May 8, 2026)</a>"
   ],
   [
-   "BUILD B-roll (client)",
-   "<a href=\"https://photos.app.goo.gl/aGUCbH6q1bmaQdny7\">2024 BUILDFest LA</a> · <a href=\"https://photos.app.goo.gl/KjPk6pMAjwmaq9Ka6\">2026 BUILDFest LA</a> · Vimeo <a href=\"https://vimeo.com/846403773\">846403773</a> · <a href=\"https://vimeo.com/1092465264\">1092465264</a> · <a href=\"https://vimeo.com/439357961\">439357961</a>. Download into the Dallas folder under “BUILD B-roll (client)”. No visual.json: pick on scrub."
+   "Footage folders",
+   "<a href=\"https://drive.google.com/drive/folders/1fvFqaN04Thizbc-UrN_F8z6gufSVCoI1\">Dallas JD Pitch Competition May 8 2026</a> · <a href=\"https://drive.google.com/drive/folders/1BiTDNFiqRfgTVagYgkXH1Eqe4luN13hY\">JD LaRock Boston Interview</a>"
+  ],
+  [
+   "J.D. clips",
+   "<a href=\"https://drive.google.com/file/d/1f71QHZEzFUsPh9LuK0-uWDiUf1JohEb7/view\">20260624_C4258.MP4</a> (at home) · <a href=\"https://drive.google.com/file/d/16CTqxv5U0cHTvrdF2AXhuC5DxxDK1_Nt/view\">Interview_Closeup_Audio_Edit.mp4</a> (pitch competition)"
   ],
   [
    "Transcripts",
-   "A “Transcripts …” Google Doc + transcript.json in each folder. visual.json for Dallas only."
+   "<a href=\"https://docs.google.com/document/d/1ULk-Wb7FSbK1gMrkLivus8EjzPlwjwojDClhQ4fD9sY/edit\">Transcripts — JD LaRock Boston Interview</a> · <a href=\"https://drive.google.com/file/d/12Za2hNWXije0Q_WnFRDKTUjrdINxsxZP/view\">home output.json</a> (word times) · <a href=\"https://drive.google.com/file/d/1Ssfqkk7Bmx2Qj15ZLP3mYjCkY9033Puz/view\">pitch competition output.json</a> (line times only for the sit-down)"
+  ],
+  [
+   "B-roll picks",
+   "<a href=\"https://drive.google.com/file/d/1OmVY856Fs9GXkf-BCU5wbjTudgzewM8Z/view\">awards.mp4</a> · <a href=\"https://drive.google.com/file/d/1Iu23O43OCbta9pKuYmQmfgsm0d003RV-/view\">A36A7829.MP4</a> · <a href=\"https://drive.google.com/file/d/1cT2P3rsZot-CT-g7naFkPYNRkabzXpJ_/view\">visual.json</a> (Erin's shot index for the pitch competition)"
+  ],
+  [
+   "BUILD videos (client)",
+   "<a href=\"https://drive.google.com/drive/folders/1ZE8ijEH5FxODZGuLjNJxht5uNmUYfnlx\">Melanie's BUILD folder</a> (Melanie, 27 Oct; 1280×720): <a href=\"https://drive.google.com/file/d/1SyvMj0SPTdPNWMZ_hYR2Dmh1LWgb1ZxZ/view\">BUILD.org _ Entrepreneurship Education.mp4</a> · <a href=\"https://drive.google.com/file/d/1OAo_5IWuozM8B7YCm9duZot3p9TDxayV/view\">The BUILD Journey _ From Student to CEO.mp4</a> · <a href=\"https://drive.google.com/file/d/1DDWniMhyo7SCjro85VlPusfngAeahDF1/view\">Meet Cendy &amp; Jim _ BUILD Mentorship Story.mp4</a>. The merger video <span class=\"mono\">NFTE + BUILD Intent to Merge Announcement.mp4</span> (Alison, 5 Oct) is on the Library drive: <span class=\"mono\">Network for Teaching Entrepreneurship (NFTE, pronounced nifty)/Edits/NFTEFeelAFutureCompetition002/_client/</span>. Several BUILD videos have name bars, logos or subtitles burned in: use only clean shots."
+  ],
+  [
+   "Logos",
+   "NFTE and BUILD logos, white: <span class=\"mono\">endcards/nfte/nfte-logo-white.svg</span> and <span class=\"mono\">endcards/nfte/build-logo-white.svg</span> on this site. The Fuel a Future logo was attached to Alison's 5 Oct email: ask Atdhe for the file."
+  ],
+  [
+   "Brand",
+   "NFTE purple <span class=\"mono\">#4C12A1</span>, orange <span class=\"mono\">#FF5C39</span>, sky blue <span class=\"mono\">#49B6E3</span>. Circular if you have it, else DM Sans for graphics and Roboto for captions."
+  ],
+  [
+   "Music",
+   "Licensed track only (no set source for NFTE). Save the license with the project. Music always under the voice."
   ]
  ],
  "tech": [
   [
    "Source",
-   "Dallas: Interview_Closeup_Audio_Edit.mp4 (main) and Interview_Wide_Audio_Edit.mp4 (same take, about 3 s later), audio synced in. Event B-roll 1DX (5.5K) and R6. Boston C4258, NYC C4256."
+   "20260624_C4258.MP4 is 1920×1080, 23.976 fps, 2-channel (channel 1 is the strong one). Interview_Closeup_Audio_Edit.mp4 has the sit-down sound synced in. Event B-roll: 1DX (5.5K) and R6. BUILD videos 1280×720."
+  ],
+  [
+   "Timeline",
+   "1080×1920. Crop the 5.5K and R6 B-roll to 9:16. Conform everything to the J.D. clips' frame rate."
+  ],
+  [
+   "Crop",
+   "The sit-downs are 16:9: crop 9:16 around J.D. (1080 wide from 1920 is a 1:1 crop from a 1080p frame scaled to 1920 tall, so stay gentle). BUILD shots: scale up gently and sharpen."
+  ],
+  [
+   "Audio",
+   "Match levels and tone between the home and pitch-competition sit-downs so J.D. sounds like one voice. The merger-video line keeps its own voice track; leave its music out."
   ],
   [
    "Loudness",
    "−14 LUFS integrated, −1 dBTP peak. Dialogue wins; music under it."
   ],
   [
-   "Captions",
-   "White on NFTE purple <span class=\"mono\">#4C12A1</span>, accent NFTE orange <span class=\"mono\">#FF5C39</span>. Circular if you have it, else house font."
+   "Pauses",
+   "Pauses inside a bite longer than 0.5 s are cut. The row times count that."
   ],
   [
-   "Timeline",
-   "1080×1920. Crop the 5.5K and R6 B-roll to 9:16."
+   "Captions",
+   "White on NFTE purple <span class=\"mono\">#4C12A1</span>, max 2 lines, NFTE and BUILD in capitals. Rows from the pitch-competition sit-down are timed from line times: check them by ear."
   ],
   [
    "Export",
-   "H.264 MP4, 1080×1920. One file, 9:16 only."
+   "H.264 MP4, 1080×1920, 9:16 only. Picture on the first and last frame. Upload to Frame.io → Ready for Review."
   ]
  ],
  "checklist": [
-  "NFTE in every caption (the transcript writes “Nifty”).",
-  "No city names on screen; no legible “Dallas ISD” or Texas signage.",
-  "Hook text on frame 1. No logo, name plate or fade at 0:00.",
-  "Captions white on NFTE purple #4C12A1, accent orange #FF5C39.",
-  "End card: “Fuel a Future Like Mine” + NFTE.com/fuelafuture.",
-  "Transitions show footage, never black.",
-  "BUILD students appear in at least 2 beats.",
-  "The talent line is not credited to JD."
+  "Frame 1 is the winners on stage with “Talent is universal. Opportunity is not.” No logo, name or fade.",
+  "The talent line is not credited to J.D. on screen.",
+  "BUILD is said once, from the merger video, and BUILD students are on screen under the merging line.",
+  "No city, school or place name in any caption, slide, sign or backdrop.",
+  "No crochet pitch slide with numbers in any shot.",
+  "It is about 45 s and reaches the end card by 00:40.",
+  "End card: Fuel a Future, NFTE and BUILD logos, nfte.com/fuelafuture. It holds to the last frame.",
+  "Every caption matches the audio. NFTE in capitals, never Nifty. The word merger is not on screen.",
+  "The file is 9:16 only."
  ],
  "decisions": [
   {
-   "t": "Revision notes",
-   "b": "This item is in Needs Revisions at V1. Read the Frame.io notes first; this page is the plan for everything they don't change."
+   "t": "The BUILD line",
+   "b": "The client wants the word BUILD said, from the merger announcement video. That file is on the Library drive and has no transcript yet, so the exact line is open. Bleron picks one short line that says BUILD on scrub (Alison: Thais, the leader of BUILD, speaks in it); Nick checks the speaker's name and title before any name goes on screen. A clean fallback with word times exists: a BUILD student in BUILD.org _ Entrepreneurship Education.mp4 at about 1:05 says “If it wasn't because of BUILD…” (used in the Comcast spot)."
   },
   {
-   "t": "NFTE + BUILD",
-   "b": "Since the 8 Sep bi-weekly (Alison, Fathom 13:08) the campaign is about NFTE joining forces with BUILD. Say it once in JD's words. Never caption “merger”: he says “merging and partnering”."
+   "t": "What Fuel a Future is",
+   "b": "Alison and Atdhe asked the ending to make clear what Fuel a Future is and why it matters now. J.D. never names Fuel a Future in the footage, so the end card carries the name. If Alison sends one line that says what Fuel a Future is, it goes on the end card under the name."
+  },
+  {
+   "t": "Fuel a Future logo",
+   "b": "The logo file was attached to Alison's 5 Oct email and is not on Drive or this site. Until Atdhe forwards it, the end card types Fuel a Future in the brand font."
+  },
+  {
+   "t": "Visual reference",
+   "b": "Not chosen yet. Atdhe owes it. Alison also owes past campaign examples."
   }
  ],
- "client_note": "<b>Why this matters:</b> it kicks off NFTE's November campaign. Alison's standing note: past cuts ran too local. Keep it national and evergreen.",
+ "client_note": "<b>Why this matters:</b> Alison watched this cut on the 5 Oct call. She liked its hook best of the Fuel a Future videos and asked for more urgency; Atdhe found it long. It kicks off NFTE's November campaign.",
  "ask_examples": [
-  "What is the hook text?",
-  "Where is the BUILD footage?",
-  "Can I say Dallas?",
+  "Which line says BUILD?",
+  "Can I show the stage backdrop?",
+  "Who is credited for the talent line?",
   "What goes on the end card?"
- ]
+ ],
+ "transcript": "Machine transcripts of J.D. LaRock's sit-downs. The pitch-competition sit-down (J.D. LaRock, 8 May 2026) is the Interview_Closeup_Audio_Edit.mp4 section. Line times come from output.json (no word times for this clip). Speaker labels were wrong and are removed: every answer is J.D.; lines that start with Q: are the interviewer. The machine wrote \"Nifty\"; it is written NFTE here, as he says it. Only the first 5 minutes and 20:00 to the end are here. 20260624_C4258.MP4 lines are from word times (two short parts only). The talent line is a quote J.D. repeats; never credit it to him on screen.\n--- 20260624_C4258.MP4 ---\n[02:37.1] What keeps you motivated in the work?\n[02:42.4] What keeps me motivated in the work that we do at NFTE is the fact that I can see we're making progress in achieving our mission.\n[02:52.6] We exist in the world for a very important purpose, to cultivate young people, to give them knowledge, and in particular, to give them skills and knowledge that their schools otherwise aren't giving to them.\n[03:06.7] It's very, very important.\n[03:08.3] And these are life-changing, transformative skills that will help young people be successful as entrepreneurs or just in their day-to-day lives.\n[03:18.5] If I didn't see both at a human level and at the level of numbers and masses of people that we were not making this change, then I would be worried.\n[03:32.5] But I see that we are making this change.\n[03:34.9] And every year that we do this work, I add chapters to the book of stories, lives that have been, I think, forever transformed by NFTE.\n[03:46.5] And that's very motivating.\n[03:48.1] It's very motivating to know that I wake up every day and I have a job that really makes a difference in the world.\n[03:54.7] Not everybody can say that.\n[03:56.3] Some people do a job.\n[03:58.1] They make a thing.\n[03:59.4] They do a job.\n[04:00.3] They get something that needs to get done done.\n[04:04.0] But it isn't necessarily advancing the world or advancing people's lives.\n[04:10.7] The work of education, the work of nonprofit, the work of entrepreneurship education is different from that and, therefore, much, much more fulfilling.\n[25:02.3] who don't have many other advantages can do amazing things academically and intellectually.\n[25:11.1] And I was just so impressed by that, because it showed me at an early age that there is a lot of deep talent everywhere, and it's really important that we give people the opportunity to develop it and to express it so they can do all that they set out to do in life.\n[25:43.6] From that example, I sort of opened my eyes to the fact that my school was full of students like that, and that's never left me and is a very big part of why I enjoy doing the work that I do and feel that it's important work to do, because it's about creating opportunities for people who have a lot to offer themselves and their communities and the world.\n[26:11.5] And it does not take much to get over a whole lot of disadvantages and do something really special.\n[26:25.2] That makes me think of the Steve quote that Jane used to say, talent is universal, but opportunity is not.\n[26:33.0] Did you grow up in Brooklyn, JD?\n[26:35.0] Queens.\n[26:35.5] Queens,\n--- Interview_Closeup_Audio_Edit.mp4 ---\n[00:04.4] Q: How does NFTE reflect where education is heading, not just where it's been?\n[00:10.8] NFTE reflects where education is heading because NFTE is about entrepreneurship.\n[00:18.3] Entrepreneurship is fundamentally about creation.\n[00:22.3] Education needs sorely now to head in the direction of cultivating students' creative capabilities in a world of artificial intelligence, in a world of changing professions and changing industries, in a world where the traditional methods are not producing the academic achievement results that students need, and we all can see it, the world and students most of all need something different.\n[00:51.2] NFTE's here not just to spread the gospel of entrepreneurship education, we are now here to reinvent education for what it needs to be, but frankly, what it always should have been.\n[01:04.6] And that's what NFTE is about.\n[01:07.0] Q: And what does learning by doing unlock for students?\n[01:12.3] Learning by doing, first of all, unlocks the fact that students want to do things.\n[01:19.8] People want to do things.\n[01:22.2] Young people do not want to sit all the time in a classroom and hear about theoretical, conceptual things.\n[01:32.2] They want to have a purpose in the world.\n[01:35.4] They want to find out who they're about.\n[01:38.8] And learning by doing allows young people to do those things.\n[01:43.0] [do not use: transcription error]\n[01:44.2] Q: As NFTE approaches its 40th anniversary in 2027, how do these ideas reflect the organization's enduring relevance, and what do they say about NFTE's role in shaping the future of education?\n[01:59.5] NFTE's enduring relevance over 40 years comes from the fact that the world is full of businesses.\n[02:05.8] You can't have a world without them.\n[02:07.4] You can't have an economy without them.\n[02:09.2] You can't have a community without them.\n[02:11.5] And so the fact that we've stood for the idea that entrepreneurship education should be in American schools and schools globally is what we have always stood for. [do not use: names a place; NFTE wants national, evergreen cuts]\n[02:23.8] But now we're taking that concept even further.\n[02:27.0] We truly believe that we are not only teaching the entrepreneurial mindset, which is really applicable to jobs and careers that most people will have, whether they're small business owners or not.\n[02:40.0] We also believe that, again, it's time now to unleash the creative capabilities that human beings have so we can power our world forward in a healthy way and in a way that actually drives individual prosperity and family prosperity, but also individual success and fulfillment.\n[02:59.7] The NFTE model is about unleashing what's within young people so that they can become who they truly are and show the world all of the fantastic things that they can give it.\n[03:11.5] Q: What do you consistently see in NFTE students that's often missing in traditional classroom settings?\n[03:19.7] What I see in NFTE students that's missing from traditional classroom settings is the opportunity to take agency over learning and to do that by presenting learning.\n[03:31.9] We stand up in front of so many talented students around the country and around the world who are seventh graders, eighth graders, ninth graders, tenth graders.\n[03:42.2] We're even working more with younger children now.\n[03:44.8] They stand up there.\n[03:46.5] You wouldn't know that they're in middle school.\n[03:48.6] You would think that they were adults for the sophistication of what they provide.\n[03:52.8] And they have amazing business ideas.\n[03:55.3] They propose businesses that I wouldn't want to buy from, that my family would want to buy from.\n[04:00.2] So where else is that happening in U.S. classrooms? [do not use: names a place; NFTE wants national, evergreen cuts]\n[04:04.1] I don't see it happening anywhere else but in NFTE classrooms and that's why we are working so hard to continue to expand throughout the nation and throughout the world and to bring more of what we do to even more students because they want it.\n[04:18.9] Q: If you could bottle one moment from today to show policymakers, what would it be?\n[04:24.9] If I could bottle one moment today to show policymakers, I would show them nothing more than what those three students did when they got up and they each in very different ways presented fantastic business plans.\n[04:39.7] We had a young learner who presented in Spanish.\n[04:43.0] That was fantastic.\n[04:44.4] That's an asset.\n[04:45.5] It showed people that he can work not only with entrepreneurship ideas but he can work bilingually.\n[04:52.1] By the way, he also did a fantastic job fielding questions and doing them really well.\n[04:57.3] So the fact that a student stood up there, was interrogated on the rigor of his business and stood up to that interrogation is something that I would want to see a district administrator or a school administrator see.\n[20:00.3] I think it's ultimately relevant to sustaining our democracy, our society, because when you have people operating businesses that serve a community, you have many things.\n[20:14.6] You have an entity that is providing something of value to the community.\n[20:20.5] It is economic activity that benefits not just the business owner, but all the people who are connected to what that business owner needs.\n[20:29.5] That helps sustain the community.\n[20:31.6] You also create relationships.\n[20:34.3] You create relationships with your customers.\n[20:37.0] You create relationships with the families who come and discover your business.\n[20:42.1] And so there's a whole human dimension that also creates the social fabric of communities.\n[20:48.4] Entrepreneurship does that too.\n[20:59.2] It's important to measure the economic impact of programs like NFTE because, well, first of all, we're entrepreneurship.\n[21:07.4] So if we aren't measuring our business metrics, then we wouldn't be very good, would we?\n[21:11.5] So we're pretty committed to that idea.\n[21:13.5] But of course, people want to know that a program is not only providing a meaningful experience to a learner, but that it's also providing an effective experience to a learner.\n[21:26.3] Learning can be measured.\n[21:27.5] We all know that.\n[21:28.8] Literacy, numeracy can and should be measured.\n[21:33.2] Knowing where you are in terms of being a literate and financially literate person is essential to operating in life.\n[21:41.2] So programs like ours that make a real effort to measure that type of learning are providing something valuable to the student, to the teacher, to the school, to the state policymakers who want to know how students are doing.\n[21:53.9] So for those reasons, it's important.\n[21:56.8] But measurement goes beyond and can go beyond the traditional way of looking at measurement.\n[22:02.1] At NFTE, we pioneered the Entrepreneurial Mindset Index, which measures things that most people believe can't be measured but actually can be measured.\n[22:11.5] They include things like the ability to manage risk, the ability to spot opportunities, the ability to problem-side, the ability to collaborate.\n[22:22.3] We have designed scientifically valid.\n[22:27.3] We have designed scientifically validated assessments that measure these capabilities.\n[22:33.0] We call them entrepreneurial mindset capabilities.\n[22:35.7] There are eight of them.\n[22:37.1] And we're the only organization in the world, as far as I know, that really attempts to ascertain what all of our students are doing in this regard.\n[22:47.6] This is next generation assessment when you think about it because, once again, we're living in a world where AI can read the document for you.\n[22:57.8] It can analyze the spreadsheet of financials for you.\n[23:01.5] But you also need to have creative capabilities.\n[23:05.2] You need to work with other people.\n[23:07.1] You need to look at the world around you and see if there is an opportunity out there that can help you or if there's something out there that you should be cautious about.\n[23:15.2] AI can't do any of that.\n[23:17.5] But the NFTE program does that.\n[23:19.1] And that's another way that we can cultivate skills and also measure through sound assessment and 21st century assessment.\n[23:44.5] I hope that people take away from this new analysis the idea that entrepreneurship is about so, so much more than just one person starting one business.\n[23:55.3] I really encourage people who read this report and who really think about what NFTE does to recognize that we are empowering individuals.\n[24:04.5] We are empowering families by creating economic lifelines for individuals to provide family prosperity.\n[24:12.5] We are also providing and cultivating people who can be real emblems in their community by setting up businesses, by staying in their community, by investing and reinvigorating their community.\n[24:27.6] Look at what is happening in the United States today.\n[24:32.2] We are finding our way on so many things.\n[24:35.7] We are divided on so many things.\n[24:38.3] But I can't think of a single person I know or who I've ever talked to who has said, my community shouldn't be stronger.\n[24:47.8] There should be fewer businesses.\n[24:50.4] There should be less opportunity.\n[24:53.5] NFTE provides opportunity.\n[24:55.8] It provides a direct practical pathway for a young person to start and sustain a business with real educational knowledge about how to do it.\n[25:04.5] And it provides a pathway for people to benefit themselves, their families, and their communities through that total effort.\n[25:11.0] That is the magic of entrepreneurship.\n[25:12.8] It is so rich.\n[25:28.0] One of the things about the nonprofit field and the education field is that it's often fragmented.\n[25:33.8] There are many organizations that work on many good things.\n[25:38.6] And most of them, most of us, do it in this little pocket.\n[25:43.8] And we do it for a while.\n[25:46.1] And because the nonprofit model is not necessarily always the strongest business model, sometimes those organizations go away.\n[25:56.7] They don't always prosper.\n[25:58.7] The whole organizational fragmentation of the education sector and the nonprofit sector is a limiting factor in our collective effectiveness.\n[26:08.0] So at NFTE a few years ago, we launched our CEO coalition of entrepreneurship education organizations, which banded together and does band together, going to Capitol Hill and the state legislatures to evangelize on behalf of the cause of entrepreneurship education. [do not use: names a place; NFTE wants national, evergreen cuts]\n[26:29.6] What we saw was that policymakers, stakeholders, people from all different states across the country are really interested in what we have to do.\n[26:39.3] And they like the fact that we are working in coalition together now to speak as one voice, that we're not competitors.\n[26:46.5] We are actually colleagues believing in a common philosophy and working in a more coordinated way now to be able to elevate entrepreneurship education faster.\n[26:57.2] Because right now we need to be doing more to elevate entrepreneurship education.\n[27:03.6] American education needs a boost right now. [do not use: names a place; NFTE wants national, evergreen cuts]\n[27:06.7] It needs some new ideas.\n[27:09.0] And right now we have close to 10 or a dozen organizations like NFTE that under our leadership are now advancing this charge.\n[27:19.3] I think we can take it a step further.\n[27:21.7] And at NFTE, we actually are taking it a step further.\n[27:25.1] We are beginning the process of merging and partnering with other organizations that do what we do to help this thing become stronger and larger.\n[27:37.4] And when you unify at that level, at the level of organizations, at the level of the best 21st century entrepreneurship curriculum that we can take, the best entrepreneurship education curriculum that we can create, then you can actually start talking about systems change.\n[27:56.5] I don't know a person out there right now who is totally satisfied with how U.S. education is going, or education in any country for that matter. [do not use: names a place; NFTE wants national, evergreen cuts]\n[28:05.5] That's why people keep knocking at our doorstep wanting more of it.\n[28:09.2] We are seeing how working in coalition and working as, essentially, ultimately, a family of entrepreneurship brands can be a powerful idea that takes this work to the next level.\n[28:30.4] Every student should learn to pitch and respond to questions impromptu because you're going to be put on the spot in your life from time to time.\n[28:39.5] And it's really good to be able to deal with situations like that.\n[28:44.8] The students who prosper and do the best in those situations, I find, are students who know who they are and know their businesses.\n[28:55.7] They know their value.\n[28:57.4] They know the value of their businesses.\n[28:59.0] They know their values.\n[29:00.7] They know themselves because they're so grounded in that way and because they know their business inside and out.\n[29:07.8] I see students take rigorous questions from adults and they knock it out of the ballpark.\n[29:13.5] That is something so useful.\n[29:15.7] Verbal presentation skills, putting ideas together, justifying things impromptu.\n[29:22.5] These are skills that are essential to have.\n[29:24.4] By the way, in a world with AI, these are things that AI can't do.\n[29:29.3] So imagine what we could do if we had a cult- imagine what we could do if we cultivated a generation of students who could do these things well, standing up in front of a room of strangers, talking about their business in the most articulate way it is, and then responding really well to whatever gets thrown at you.\n[29:48.7] That sets you up to respond really well to whatever gets thrown at you in life.\n[29:54.7] Q: One thing schools should stop doing and why?\n[30:08.0] I think that one thing schools should stop doing is stop forgetting about the reason why we're asking students to get all this education in the first place.\n[30:20.7] NFTE is powerful because it starts with the idea that there's a defined endpoint.\n[30:27.9] You're going to have a business plan or a business suit.\n[30:31.1] How many classes have you taken where you didn't really know why you were there?\n[30:36.1] You didn't know what the teacher was going to teach for a semester or a year.\n[30:41.8] And when you sat there for a semester or a year, you wondered why you were learning it.\n[30:47.6] And when you were done and you took all the tests, you didn't really know how you were going to use it.\n[30:55.1] This happens most of the time in education, and it is really not how education should be set up in my opinion.\n[31:06.3] Education is much better when education gives young people a clear idea about why they're there, the end goal, and the end purpose.\n[31:15.2] A NFTE program does that every single time, which is why students are invested in it.\n[31:21.0] The other thing I'll say that is missing from education that needs to be there is the student's motivation, desire, and viewpoint.\n[31:31.8] A NFTE program begins with the student and their idea.\n[31:36.9] That idea doesn't come from anywhere else but the student.\n[31:41.2] So it comes from an authentic place.\n[31:41.2] So it comes from an authentic place.\n[31:43.8] That's why you meet young people who create fantastic business ideas that respond to a\n[31:50.1] problem in their community that they care about, an issue in their family that has been\n[31:55.7] a challenge, a passion that they have, where they're so motivated that that's where they\n[32:01.7] want to direct all of their life's energies, including creating a business out of it.\n[32:06.7] Once again, so much of what students receive is completely untethered and unconnected from\n[32:12.4] any idea of what the student wants.\n[32:16.5] Why that happens, we never ask the students what they want.\n[32:20.2] But a NFTE program begins with that question.\n[32:24.5] Who are you?\n[32:26.0] And what is your business idea that is important to you?\n[32:31.5] Q: One thing AI will change forever.\n[32:49.1] I think that one thing that AI actually will change forever is that ultimately I think\n[32:55.2] it's going to enable us to see how important human centrality itself is.\n[33:02.0] AI is a wonderful productivity tool.\n[33:09.2] It allows us to do many things faster and better than we could before.\n[33:16.0] But there are so many things, even as AI continues to advance, that it will frankly never be\n[33:21.8] able to do.\n[33:23.5] It will never be able to put together those serendipitous far transfer of learning moments\n[33:31.7] where someone, because of their unique individual lived experience or their unique individual\n[33:38.6] body of knowledge that they have only here, this is their database, they can take those\n[33:44.4] things and come up with a completely different and unexpected idea.\n[33:50.2] AI works only on the basis of what has already happened.\n[33:55.7] It has no imagination.\n[33:57.6] It has no deep level creativity.\n[34:02.2] And that's what humans have.\n[34:03.8] So I think that what AI and the AI revolution is going to show us is not just how fantastic\n[34:10.4] AI is and maybe how it will change the shape of jobs.\n[34:15.3] I think it will also show us how we are truly human and what being truly human really means\n[34:21.2] and why being truly human really matters from the standpoint of creativity and advancement\n[34:28.4] and the advancement of education in society too.\n[34:33.1] Q: One mindset shift young people need.\n[34:59.8] You know, I meet so many young people who are looking for the validation and affirmation\n[35:06.3] of an adult, their teacher, their parent, an adult that they care about and trust.\n[35:13.1] And that's very important.\n[35:15.2] And at the same time, I think one thing that many young people could use more of, some\n[35:20.5] of them have it, but some of them could use more of it, is just at the same time that\n[35:25.1] innate self-confidence to stand up for who they are.\n[35:29.5] Young people have great ideas if we'd only ask them a little bit more often.\n[35:35.3] And one of the beauties of the NFTE experience is that we do ask them what they're interested\n[35:39.7] in and why it matters.\n[35:42.6] And I find that this gives our young people a sense of agency because somebody asked them\n[35:49.5] what they care about, what they think.\n[35:52.9] The NFTE program shows students that they matter, and I wish that more students understood\n[35:57.7] from the get-go that they do matter.\n[35:59.9] They do matter.\n[36:00.9] They have all of the innate capabilities to create a business essentially already inside\n[36:05.6] them.\n[36:06.6] They need a helpful guide to help them through that process.\n[36:10.3] But no student should ever feel like they don't have what it takes to launch a business\n[36:15.4] because we work with thousands of students each year and we have worked with millions\n[36:20.8] of students over NFTE's existence.\n[36:23.5] Each and every one was able to do something creative that stemmed from their own self-agency.\n[36:32.2] And they didn't really need anyone else to tell them that they were good enough or that\n[36:36.7] they could do it.\n[36:38.5] They had that inside them already.\n[36:40.6] So I want to see more students recognize that and I want to see more programs like NFTE\n[36:46.2] students embrace that mindset as they move forward in their educations.\n[36:51.4] Education is not supposed to be a process where a student stands in judgment of some\n[36:57.0] adult.\n[36:58.6] Education is a process of human development, supposed to be a process of human development.\n[37:04.5] And I think that some students don't feel that education is a process of human development\n[37:13.1] and don't feel that they matter because the way we've been going about education kind\n[37:17.2] of signals that to them.\n[37:19.2] That's our problem, not theirs.\n[37:21.1] But I want to see more students have strong personal agency and confidence even before\n[37:26.7] they learn the first NFTE lesson.\n[37:28.6] Q: One word to describe the future?\n[37:37.1] Q: One word?\n[37:38.1] Well, you know, unfortunately I don't have one word to describe the future of education\n[37:46.0] because the future of education consists of four words.\n[37:50.4] Network for teaching entrepreneurship, NFTE, the family of brands that we are now creating,\n[37:58.8] the educational movement that we are now developing and leading.\n[38:04.4] We are here to change education in the U.S. and globally at this moment of sore need.\n[38:11.6] We're excited to do it.\n[38:13.5] We can't wait to do more.\n[38:17.8] Q: One word you'd use to describe yourself?\n[38:20.5] I don't know.\n[38:24.2] You don't want to do that one?\n[38:25.2] Okay.\n[38:26.2] We can end there.\n[38:27.2] That's good.\n[38:28.2] All right, good.\n[38:32.2] That's great.\n[38:33.3] Good.",
+ "alts": {
+  "hook:0": [
+   {
+    "text": "Talent is universal. Opportunity is not.",
+    "line": "talent is universal, but opportunity is not.",
+    "why": "The hook Alison liked. Keep it."
+   },
+   {
+    "text": "Young people have great ideas.",
+    "line": "Young people have great ideas if we'd only ask them a little bit more often.",
+    "why": "Opens on the students."
+   },
+   {
+    "text": "Students need something different.",
+    "line": "the world and students most of all need something different.",
+    "why": "Opens on the urgency."
+   },
+   {
+    "text": "Who are you?",
+    "line": "But a NFTE program begins with that question.",
+    "why": "A question hook."
+   }
+  ],
+  "bite:0": [
+   {
+    "quote": "And it does not take much to get over a whole lot of disadvantages and do something really special.",
+    "who": "J.D. LaRock",
+    "file": "20260624_C4258.MP4",
+    "why": "The old button: a hopeful line from the same answer."
+   },
+   {
+    "quote": "And I was just so impressed by that, because it showed me at an early age that there is a lot of deep talent everywhere",
+    "who": "J.D. LaRock",
+    "file": "20260624_C4258.MP4",
+    "why": "Deep talent everywhere, in his own words."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "They want to have a purpose in the world.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "Short; also the hook of the Young People Want a Purpose reel."
+   },
+   {
+    "quote": "A NFTE program begins with the student and their idea.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "Short and clear."
+   },
+   {
+    "quote": "Every student should learn to pitch and respond to questions impromptu because you're going to be put on the spot in your life from time to time.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "About the competition itself."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "We exist in the world for a very important purpose, to cultivate young people, to give them knowledge",
+    "who": "J.D. LaRock",
+    "file": "20260624_C4258.MP4",
+    "why": "The start of the same sentence."
+   },
+   {
+    "quote": "Young people do not want to sit all the time in a classroom and hear about theoretical, conceptual things.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "What school misses, from the sit-down."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "We are seeing how working in coalition and working as, essentially, ultimately, a family of entrepreneurship brands can be a powerful idea that takes this work to the next level.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "The family of brands. Second choice in the brief."
+   },
+   {
+    "quote": "And when you unify at that level, at the level of organizations, at the level of the best 21st century entrepreneurship curriculum that we can take",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "Leads to systems change."
+   },
+   {
+    "quote": "And they like the fact that we are working in coalition together now to speak as one voice, that we're not competitors.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "One voice."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "We are here to change education in the U.S. and globally at this moment of sore need.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "More urgent, but it names the U.S.: Alison wants cuts national, so check with Nick."
+   },
+   {
+    "quote": "We're excited to do it. We can't wait to do more.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "Short and upbeat."
+   },
+   {
+    "quote": "NFTE's here not just to spread the gospel of entrepreneurship education, we are now here to reinvent education for what it needs to be, but frankly, what it always should have been.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "A mission line, 12 s."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "NFTE runs clean: the hook text, one small name super, two short top texts, B-roll on most rows, and the Fuel a Future end card with both logos. No logo before the end card. Nothing names a place.",
+  "devices": [
+   {
+    "row": "00:00–00:04",
+    "device": "Hook text over winners on stage",
+    "asset": "highlight_callout (MG library); awards.mp4",
+    "source": "Script; 1DX b-roll"
+   },
+   {
+    "row": "00:04–00:09",
+    "device": "Name super",
+    "asset": "tag_label (MG library); NFTE lower third bar",
+    "source": "Script; NFTE graphics package"
+   },
+   {
+    "row": "00:09–00:15",
+    "device": "Student presenting",
+    "asset": "A36A7829.MP4 0:41",
+    "source": "R6 b-roll"
+   },
+   {
+    "row": "00:15–00:30",
+    "device": "BUILD students; top text",
+    "asset": "BUILD.org video 1:05.4; The BUILD Journey 0:25.6; highlight_callout",
+    "source": "BUILD videos (Melanie); Script"
+   },
+   {
+    "row": "00:30–00:35",
+    "device": "BUILD line from the merger video",
+    "asset": "NFTE + BUILD Intent to Merge Announcement.mp4 (TBD on scrub)",
+    "source": "Alison, 5 Oct"
+   },
+   {
+    "row": "00:35–00:40",
+    "device": "Top text; hallway celebration",
+    "asset": "highlight_callout (MG library); awards.mp4",
+    "source": "Script; 1DX b-roll"
+   },
+   {
+    "row": "00:40–00:46",
+    "device": "End card, NFTE + BUILD",
+    "asset": "end_card (MG library) + BUILD logo",
+    "source": "endcards/nfte"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "A36A7827.MP4",
+    "path": "Dallas JD Pitch Competition May 8 2026/R6 b-roll/A36A7827.MP4",
+    "drive": "1SRCftp9-s1sx217AMRTwjd_qxNvE4FPk",
+    "at": 20.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "A diverse audience listening (visual.json 0:00 to 0:39)",
+    "frame": null
+   },
+   {
+    "clip": "pitches.mp4",
+    "path": "Dallas JD Pitch Competition May 8 2026/1DX b-roll/pitches.mp4",
+    "drive": "1TSLwOCwP4dFs785yKY8mJT63AycpZG2Z",
+    "at": 700.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "A student pitching to a seated group (visual.json 11:31 to 15:21)",
+    "frame": null
+   },
+   {
+    "clip": "A36A7832.MP4",
+    "path": "Dallas JD Pitch Competition May 8 2026/R6 b-roll/A36A7832.MP4",
+    "drive": "1QBSUrTrmWtqWtQU83WjZ7tFUqGc9hPF4",
+    "at": 40.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "Wide of the room, a speaker at a podium, rows of attendees (visual.json 0:25 to 1:14.9)",
+    "frame": null
+   },
+   {
+    "clip": "Meet Cendy & Jim _ BUILD Mentorship Story.mp4",
+    "path": "BUILD Videos for HP (Melanie, Oct 27 2026)/Meet Cendy & Jim _ BUILD Mentorship Story.mp4",
+    "drive": "1DDWniMhyo7SCjro85VlPusfngAeahDF1",
+    "at": 82.7,
+    "dur": 2.6,
+    "cx": 0.5,
+    "what": "A BUILD student and her mentor on campus steps (Competition Video 2 uses this range)",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "NFTE logo, white",
+    "kind": "end_card",
+    "file": "endcards/nfte/nfte-logo-white.svg",
+    "url": null,
+    "local": null,
+    "alpha": true,
+    "size": "svg",
+    "fps": null
+   },
+   {
+    "name": "BUILD logo, white",
+    "kind": "logo",
+    "file": "endcards/nfte/build-logo-white.svg",
+    "url": null,
+    "local": null,
+    "alpha": true,
+    "size": "svg",
+    "fps": null
+   }
+  ],
+  "new_elements": []
+ }
 }

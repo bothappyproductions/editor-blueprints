@@ -1,0 +1,1864 @@
+{
+ "item": "12891341937",
+ "client": "nfte",
+ "style": {
+  "font": {
+   "css": "\"Roboto\"",
+   "w": 700
+  },
+  "size": 62,
+  "y": 1350,
+  "max_lines": 2,
+  "reveal": "phrase",
+  "fg": "#FFFFFF",
+  "box": {
+   "bg": "#4C12A1",
+   "r": 10
+  }
+ },
+ "note": "White text on the NFTE purple #4C12A1 box, Roboto (Circular has no file), max 2 lines, NFTE in capitals. The pitch-competition sit-down has line times only (no word times), so every clip is timed inside its transcript lines: check by ear. Not captioned: 01:07–01:14, the BUILD line is still TBD on scrub.",
+ "tracks": [
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:00–00:08"
+   ],
+   "beat": "HOOK",
+   "title": "Hook",
+   "clip": "Interview_Closeup_Audio_Edit.mp4",
+   "start": 1927.3,
+   "src": "Interview_Closeup_Audio_Edit.mp4 32:07.3",
+   "dur": 8.0,
+   "words": [
+    {
+     "w": "so",
+     "t0": 0.15,
+     "t1": 0.33,
+     "e": 0
+    },
+    {
+     "w": "much",
+     "t0": 0.33,
+     "t1": 0.629,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 0.629,
+     "t1": 0.808,
+     "e": 0
+    },
+    {
+     "w": "what",
+     "t0": 0.808,
+     "t1": 1.107,
+     "e": 0
+    },
+    {
+     "w": "students",
+     "t0": 1.107,
+     "t1": 1.645,
+     "e": 0
+    },
+    {
+     "w": "receive",
+     "t0": 1.645,
+     "t1": 2.123,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 2.123,
+     "t1": 2.302,
+     "e": 0
+    },
+    {
+     "w": "completely",
+     "t0": 2.302,
+     "t1": 2.96,
+     "e": 0
+    },
+    {
+     "w": "untethered",
+     "t0": 2.96,
+     "t1": 3.618,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 3.618,
+     "t1": 3.857,
+     "e": 0
+    },
+    {
+     "w": "unconnected",
+     "t0": 3.857,
+     "t1": 4.574,
+     "e": 0
+    },
+    {
+     "w": "from",
+     "t0": 4.574,
+     "t1": 4.873,
+     "e": 0
+    },
+    {
+     "w": "any",
+     "t0": 5.073,
+     "t1": 5.349,
+     "e": 0
+    },
+    {
+     "w": "idea",
+     "t0": 5.349,
+     "t1": 5.693,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 5.693,
+     "t1": 5.9,
+     "e": 0
+    },
+    {
+     "w": "what",
+     "t0": 5.9,
+     "t1": 6.244,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 6.244,
+     "t1": 6.52,
+     "e": 0
+    },
+    {
+     "w": "student",
+     "t0": 6.52,
+     "t1": 7.071,
+     "e": 0
+    },
+    {
+     "w": "wants.",
+     "t0": 7.071,
+     "t1": 7.553,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 4,
+     "t0": 0.1,
+     "t1": 1.595
+    },
+    {
+     "a": 5,
+     "b": 7,
+     "t0": 1.595,
+     "t1": 2.91
+    },
+    {
+     "a": 8,
+     "b": 8,
+     "t0": 2.91,
+     "t1": 3.568
+    },
+    {
+     "a": 9,
+     "b": 12,
+     "t0": 3.568,
+     "t1": 5.299
+    },
+    {
+     "a": 13,
+     "b": 17,
+     "t0": 5.299,
+     "t1": 7.021
+    },
+    {
+     "a": 18,
+     "b": 18,
+     "t0": 7.021,
+     "t1": 7.903
+    }
+   ],
+   "text": "so much of what students receive is completely untethered and unconnected from any idea of what the student wants.",
+   "timing": "segments",
+   "matched": 1.0,
+   "check": "No word-level times for this clip here: word times are spread inside each caption line. Check the timing by ear.",
+   "n": 1
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:08–00:17"
+   ],
+   "beat": "WHO ARE YOU?",
+   "title": "Who Are You?",
+   "clip": "Interview_Closeup_Audio_Edit.mp4",
+   "start": 1937.21,
+   "src": "Interview_Closeup_Audio_Edit.mp4 32:17.2",
+   "dur": 8.09,
+   "words": [
+    {
+     "w": "we",
+     "t0": 0.15,
+     "t1": 0.289,
+     "e": 0
+    },
+    {
+     "w": "never",
+     "t0": 0.289,
+     "t1": 0.567,
+     "e": 0
+    },
+    {
+     "w": "ask",
+     "t0": 0.567,
+     "t1": 0.752,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 0.752,
+     "t1": 0.938,
+     "e": 0
+    },
+    {
+     "w": "students",
+     "t0": 0.938,
+     "t1": 1.355,
+     "e": 0
+    },
+    {
+     "w": "what",
+     "t0": 1.355,
+     "t1": 1.586,
+     "e": 0
+    },
+    {
+     "w": "they",
+     "t0": 1.586,
+     "t1": 1.818,
+     "e": 0
+    },
+    {
+     "w": "want.",
+     "t0": 1.818,
+     "t1": 2.096,
+     "e": 0
+    },
+    {
+     "w": "But",
+     "t0": 2.996,
+     "t1": 3.26,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 3.26,
+     "t1": 3.392,
+     "e": 0
+    },
+    {
+     "w": "NFTE",
+     "t0": 3.392,
+     "t1": 3.787,
+     "e": 0
+    },
+    {
+     "w": "program",
+     "t0": 3.787,
+     "t1": 4.315,
+     "e": 0
+    },
+    {
+     "w": "begins",
+     "t0": 4.315,
+     "t1": 4.777,
+     "e": 0
+    },
+    {
+     "w": "with",
+     "t0": 4.777,
+     "t1": 5.107,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 5.107,
+     "t1": 5.436,
+     "e": 0
+    },
+    {
+     "w": "question.",
+     "t0": 5.436,
+     "t1": 6.096,
+     "e": 0
+    },
+    {
+     "w": "Who",
+     "t0": 7.276,
+     "t1": 7.387,
+     "e": 0
+    },
+    {
+     "w": "are",
+     "t0": 7.387,
+     "t1": 7.498,
+     "e": 0
+    },
+    {
+     "w": "you?",
+     "t0": 7.498,
+     "t1": 7.636,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 2,
+     "t0": 0.1,
+     "t1": 0.702
+    },
+    {
+     "a": 3,
+     "b": 7,
+     "t0": 0.702,
+     "t1": 2.946
+    },
+    {
+     "a": 8,
+     "b": 12,
+     "t0": 2.946,
+     "t1": 4.727
+    },
+    {
+     "a": 13,
+     "b": 15,
+     "t0": 4.727,
+     "t1": 7.226
+    },
+    {
+     "a": 16,
+     "b": 18,
+     "t0": 7.226,
+     "t1": 7.986
+    }
+   ],
+   "text": "we never ask the students what they want. But a NFTE program begins with that question. Who are you?",
+   "timing": "segments",
+   "matched": 0.95,
+   "check": "No word-level times for this clip here: word times are spread inside each caption line. Check the timing by ear.",
+   "n": 2
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:17–00:27"
+   ],
+   "beat": "REAL PROBLEMS",
+   "title": "Real Problems",
+   "clip": "Interview_Closeup_Audio_Edit.mp4",
+   "start": 1904.33,
+   "src": "Interview_Closeup_Audio_Edit.mp4 31:44.3",
+   "dur": 8.87,
+   "words": [
+    {
+     "w": "you",
+     "t0": 0.15,
+     "t1": 0.416,
+     "e": 0
+    },
+    {
+     "w": "meet",
+     "t0": 0.416,
+     "t1": 0.748,
+     "e": 0
+    },
+    {
+     "w": "young",
+     "t0": 0.748,
+     "t1": 1.146,
+     "e": 0
+    },
+    {
+     "w": "people",
+     "t0": 1.146,
+     "t1": 1.611,
+     "e": 0
+    },
+    {
+     "w": "who",
+     "t0": 1.611,
+     "t1": 1.877,
+     "e": 0
+    },
+    {
+     "w": "create",
+     "t0": 1.877,
+     "t1": 2.342,
+     "e": 0
+    },
+    {
+     "w": "fantastic",
+     "t0": 2.342,
+     "t1": 3.007,
+     "e": 0
+    },
+    {
+     "w": "business",
+     "t0": 3.007,
+     "t1": 3.605,
+     "e": 0
+    },
+    {
+     "w": "ideas",
+     "t0": 3.605,
+     "t1": 4.003,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 4.003,
+     "t1": 4.335,
+     "e": 0
+    },
+    {
+     "w": "respond",
+     "t0": 4.335,
+     "t1": 4.867,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 4.867,
+     "t1": 5.066,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 5.066,
+     "t1": 5.199,
+     "e": 0
+    },
+    {
+     "w": "problem",
+     "t0": 5.739,
+     "t1": 6.177,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 6.177,
+     "t1": 6.341,
+     "e": 0
+    },
+    {
+     "w": "their",
+     "t0": 6.341,
+     "t1": 6.67,
+     "e": 0
+    },
+    {
+     "w": "community",
+     "t0": 6.67,
+     "t1": 7.218,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 7.218,
+     "t1": 7.492,
+     "e": 0
+    },
+    {
+     "w": "they",
+     "t0": 7.492,
+     "t1": 7.766,
+     "e": 0
+    },
+    {
+     "w": "care",
+     "t0": 7.766,
+     "t1": 8.039,
+     "e": 0
+    },
+    {
+     "w": "about",
+     "t0": 8.039,
+     "t1": 8.423,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 3,
+     "t0": 0.1,
+     "t1": 1.561
+    },
+    {
+     "a": 4,
+     "b": 6,
+     "t0": 1.561,
+     "t1": 2.957
+    },
+    {
+     "a": 7,
+     "b": 8,
+     "t0": 2.957,
+     "t1": 3.953
+    },
+    {
+     "a": 9,
+     "b": 10,
+     "t0": 3.953,
+     "t1": 4.817
+    },
+    {
+     "a": 11,
+     "b": 15,
+     "t0": 4.817,
+     "t1": 6.62
+    },
+    {
+     "a": 16,
+     "b": 20,
+     "t0": 6.62,
+     "t1": 8.773
+    }
+   ],
+   "text": "you meet young people who create fantastic business ideas that respond to a problem in their community that they care about",
+   "timing": "segments",
+   "matched": 1.0,
+   "check": "No word-level times for this clip here: word times are spread inside each caption line. Check the timing by ear.",
+   "n": 3
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:27–00:38"
+   ],
+   "beat": "AGENCY",
+   "title": "Agency",
+   "clip": "Interview_Closeup_Audio_Edit.mp4",
+   "start": 199.58,
+   "src": "Interview_Closeup_Audio_Edit.mp4 03:19.6",
+   "dur": 11.72,
+   "words": [
+    {
+     "w": "What",
+     "t0": 0.15,
+     "t1": 0.42,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 0.42,
+     "t1": 0.528,
+     "e": 0
+    },
+    {
+     "w": "see",
+     "t0": 0.528,
+     "t1": 0.744,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 0.744,
+     "t1": 0.906,
+     "e": 0
+    },
+    {
+     "w": "NFTE",
+     "t0": 0.906,
+     "t1": 1.23,
+     "e": 0
+    },
+    {
+     "w": "students",
+     "t0": 1.23,
+     "t1": 1.717,
+     "e": 0
+    },
+    {
+     "w": "that's",
+     "t0": 1.717,
+     "t1": 2.095,
+     "e": 0
+    },
+    {
+     "w": "missing",
+     "t0": 2.095,
+     "t1": 2.527,
+     "e": 0
+    },
+    {
+     "w": "from",
+     "t0": 2.527,
+     "t1": 2.797,
+     "e": 0
+    },
+    {
+     "w": "traditional",
+     "t0": 2.797,
+     "t1": 3.445,
+     "e": 0
+    },
+    {
+     "w": "classroom",
+     "t0": 3.445,
+     "t1": 3.986,
+     "e": 0
+    },
+    {
+     "w": "settings",
+     "t0": 3.986,
+     "t1": 4.472,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 4.472,
+     "t1": 4.634,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 4.634,
+     "t1": 4.85,
+     "e": 0
+    },
+    {
+     "w": "opportunity",
+     "t0": 4.93,
+     "t1": 5.881,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 5.881,
+     "t1": 6.119,
+     "e": 0
+    },
+    {
+     "w": "take",
+     "t0": 6.119,
+     "t1": 6.515,
+     "e": 0
+    },
+    {
+     "w": "agency",
+     "t0": 6.515,
+     "t1": 7.07,
+     "e": 0
+    },
+    {
+     "w": "over",
+     "t0": 7.07,
+     "t1": 7.466,
+     "e": 0
+    },
+    {
+     "w": "learning",
+     "t0": 7.466,
+     "t1": 8.179,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 8.179,
+     "t1": 8.496,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 8.496,
+     "t1": 8.734,
+     "e": 0
+    },
+    {
+     "w": "do",
+     "t0": 8.734,
+     "t1": 8.972,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 8.972,
+     "t1": 9.368,
+     "e": 0
+    },
+    {
+     "w": "by",
+     "t0": 9.368,
+     "t1": 9.606,
+     "e": 0
+    },
+    {
+     "w": "presenting",
+     "t0": 9.606,
+     "t1": 10.478,
+     "e": 0
+    },
+    {
+     "w": "learning.",
+     "t0": 10.478,
+     "t1": 11.27,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 4,
+     "t0": 0.1,
+     "t1": 1.18
+    },
+    {
+     "a": 5,
+     "b": 7,
+     "t0": 1.18,
+     "t1": 2.477
+    },
+    {
+     "a": 8,
+     "b": 9,
+     "t0": 2.477,
+     "t1": 3.395
+    },
+    {
+     "a": 10,
+     "b": 11,
+     "t0": 3.395,
+     "t1": 4.422
+    },
+    {
+     "a": 12,
+     "b": 14,
+     "t0": 4.422,
+     "t1": 5.831
+    },
+    {
+     "a": 15,
+     "b": 18,
+     "t0": 5.831,
+     "t1": 7.416
+    },
+    {
+     "a": 19,
+     "b": 22,
+     "t0": 7.416,
+     "t1": 8.922
+    },
+    {
+     "a": 23,
+     "b": 26,
+     "t0": 8.922,
+     "t1": 11.62
+    }
+   ],
+   "text": "What I see in NFTE students that's missing from traditional classroom settings is the opportunity to take agency over learning and to do that by presenting learning.",
+   "timing": "segments",
+   "matched": 0.96,
+   "check": "No word-level times for this clip here: word times are spread inside each caption line. Check the timing by ear.",
+   "n": 4
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:38–00:52"
+   ],
+   "beat": "THE MINDSET INDEX",
+   "title": "The Mindset Index",
+   "clip": "Interview_Closeup_Audio_Edit.mp4",
+   "start": 1321.96,
+   "src": "Interview_Closeup_Audio_Edit.mp4 22:02.0 (22:02.1–22:10.7 + 22:33.0–22:36.4 joined)",
+   "dur": 12.55,
+   "words": [
+    {
+     "w": "At",
+     "t0": 0.15,
+     "t1": 0.31,
+     "e": 0
+    },
+    {
+     "w": "NFTE,",
+     "t0": 0.31,
+     "t1": 0.682,
+     "e": 0
+    },
+    {
+     "w": "we",
+     "t0": 0.682,
+     "t1": 0.841,
+     "e": 0
+    },
+    {
+     "w": "pioneered",
+     "t0": 0.841,
+     "t1": 1.373,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 1.373,
+     "t1": 1.586,
+     "e": 0
+    },
+    {
+     "w": "Entrepreneurial",
+     "t0": 1.586,
+     "t1": 2.437,
+     "e": 0
+    },
+    {
+     "w": "Mindset",
+     "t0": 2.437,
+     "t1": 2.862,
+     "e": 0
+    },
+    {
+     "w": "Index,",
+     "t0": 2.862,
+     "t1": 3.234,
+     "e": 0
+    },
+    {
+     "w": "which",
+     "t0": 3.234,
+     "t1": 3.553,
+     "e": 0
+    },
+    {
+     "w": "measures",
+     "t0": 3.553,
+     "t1": 4.032,
+     "e": 0
+    },
+    {
+     "w": "things",
+     "t0": 4.032,
+     "t1": 4.404,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 4.404,
+     "t1": 4.67,
+     "e": 0
+    },
+    {
+     "w": "most",
+     "t0": 4.71,
+     "t1": 5.007,
+     "e": 0
+    },
+    {
+     "w": "people",
+     "t0": 5.007,
+     "t1": 5.423,
+     "e": 0
+    },
+    {
+     "w": "believe",
+     "t0": 5.423,
+     "t1": 5.898,
+     "e": 0
+    },
+    {
+     "w": "can't",
+     "t0": 5.898,
+     "t1": 6.255,
+     "e": 0
+    },
+    {
+     "w": "be",
+     "t0": 6.255,
+     "t1": 6.433,
+     "e": 0
+    },
+    {
+     "w": "measured",
+     "t0": 6.433,
+     "t1": 6.968,
+     "e": 0
+    },
+    {
+     "w": "but",
+     "t0": 6.968,
+     "t1": 7.205,
+     "e": 0
+    },
+    {
+     "w": "actually",
+     "t0": 7.205,
+     "t1": 7.74,
+     "e": 0
+    },
+    {
+     "w": "can",
+     "t0": 7.74,
+     "t1": 7.978,
+     "e": 0
+    },
+    {
+     "w": "be",
+     "t0": 7.978,
+     "t1": 8.156,
+     "e": 0
+    },
+    {
+     "w": "measured.",
+     "t0": 8.156,
+     "t1": 8.75,
+     "e": 0
+    },
+    {
+     "w": "We",
+     "t0": 8.72,
+     "t1": 8.836,
+     "e": 0
+    },
+    {
+     "w": "call",
+     "t0": 8.836,
+     "t1": 9.031,
+     "e": 0
+    },
+    {
+     "w": "them",
+     "t0": 9.031,
+     "t1": 9.225,
+     "e": 0
+    },
+    {
+     "w": "entrepreneurial",
+     "t0": 9.225,
+     "t1": 9.846,
+     "e": 0
+    },
+    {
+     "w": "mindset",
+     "t0": 9.846,
+     "t1": 10.156,
+     "e": 0
+    },
+    {
+     "w": "capabilities.",
+     "t0": 10.156,
+     "t1": 10.7,
+     "e": 0
+    },
+    {
+     "w": "There",
+     "t0": 11.48,
+     "t1": 11.629,
+     "e": 0
+    },
+    {
+     "w": "are",
+     "t0": 11.629,
+     "t1": 11.728,
+     "e": 0
+    },
+    {
+     "w": "eight",
+     "t0": 11.728,
+     "t1": 11.877,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 11.877,
+     "t1": 11.951,
+     "e": 0
+    },
+    {
+     "w": "them.",
+     "t0": 11.951,
+     "t1": 12.1,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 3,
+     "t0": 0.1,
+     "t1": 1.323
+    },
+    {
+     "a": 4,
+     "b": 5,
+     "t0": 1.323,
+     "t1": 2.387
+    },
+    {
+     "a": 6,
+     "b": 7,
+     "t0": 2.387,
+     "t1": 3.184
+    },
+    {
+     "a": 8,
+     "b": 10,
+     "t0": 3.184,
+     "t1": 4.354
+    },
+    {
+     "a": 11,
+     "b": 14,
+     "t0": 4.354,
+     "t1": 5.848
+    },
+    {
+     "a": 15,
+     "b": 18,
+     "t0": 5.848,
+     "t1": 7.155
+    },
+    {
+     "a": 19,
+     "b": 22,
+     "t0": 7.155,
+     "t1": 8.67
+    },
+    {
+     "a": 23,
+     "b": 25,
+     "t0": 8.67,
+     "t1": 9.175
+    },
+    {
+     "a": 26,
+     "b": 27,
+     "t0": 9.175,
+     "t1": 10.106
+    },
+    {
+     "a": 28,
+     "b": 28,
+     "t0": 10.106,
+     "t1": 11.43
+    },
+    {
+     "a": 29,
+     "b": 33,
+     "t0": 11.43,
+     "t1": 12.45
+    }
+   ],
+   "text": "At NFTE, we pioneered the Entrepreneurial Mindset Index, which measures things that most people believe can't be measured but actually can be measured. We call them entrepreneurial mindset capabilities. There are eight of them.",
+   "timing": "segments",
+   "matched": 0.97,
+   "check": "No word-level times for this clip here: word times are spread inside each caption line. Check the timing by ear.",
+   "n": 5
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:52–01:07"
+   ],
+   "beat": "BIGGER TOGETHER",
+   "title": "Bigger Together",
+   "clip": "Interview_Closeup_Audio_Edit.mp4",
+   "start": 1641.54,
+   "src": "Interview_Closeup_Audio_Edit.mp4 27:21.5",
+   "dur": 14.92,
+   "words": [
+    {
+     "w": "And",
+     "t0": 0.15,
+     "t1": 0.331,
+     "e": 0
+    },
+    {
+     "w": "at",
+     "t0": 0.331,
+     "t1": 0.468,
+     "e": 0
+    },
+    {
+     "w": "NFTE,",
+     "t0": 0.468,
+     "t1": 0.785,
+     "e": 0
+    },
+    {
+     "w": "we",
+     "t0": 0.785,
+     "t1": 0.921,
+     "e": 0
+    },
+    {
+     "w": "actually",
+     "t0": 0.921,
+     "t1": 1.329,
+     "e": 0
+    },
+    {
+     "w": "are",
+     "t0": 1.329,
+     "t1": 1.511,
+     "e": 0
+    },
+    {
+     "w": "taking",
+     "t0": 1.511,
+     "t1": 1.828,
+     "e": 0
+    },
+    {
+     "w": "it",
+     "t0": 1.828,
+     "t1": 1.964,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 1.964,
+     "t1": 2.055,
+     "e": 0
+    },
+    {
+     "w": "step",
+     "t0": 2.055,
+     "t1": 2.282,
+     "e": 0
+    },
+    {
+     "w": "further.",
+     "t0": 2.282,
+     "t1": 2.69,
+     "e": 0
+    },
+    {
+     "w": "We",
+     "t0": 3.57,
+     "t1": 3.764,
+     "e": 0
+    },
+    {
+     "w": "are",
+     "t0": 3.764,
+     "t1": 4.022,
+     "e": 0
+    },
+    {
+     "w": "beginning",
+     "t0": 4.022,
+     "t1": 4.667,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 4.667,
+     "t1": 4.925,
+     "e": 0
+    },
+    {
+     "w": "process",
+     "t0": 4.925,
+     "t1": 5.442,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 5.442,
+     "t1": 5.635,
+     "e": 0
+    },
+    {
+     "w": "merging",
+     "t0": 5.635,
+     "t1": 6.152,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 6.152,
+     "t1": 6.41,
+     "e": 0
+    },
+    {
+     "w": "partnering",
+     "t0": 6.41,
+     "t1": 7.12,
+     "e": 0
+    },
+    {
+     "w": "with",
+     "t0": 7.12,
+     "t1": 7.443,
+     "e": 0
+    },
+    {
+     "w": "other",
+     "t0": 7.443,
+     "t1": 7.83,
+     "e": 0
+    },
+    {
+     "w": "organizations",
+     "t0": 7.83,
+     "t1": 8.734,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 8.734,
+     "t1": 9.056,
+     "e": 0
+    },
+    {
+     "w": "do",
+     "t0": 9.056,
+     "t1": 9.25,
+     "e": 0
+    },
+    {
+     "w": "what",
+     "t0": 9.25,
+     "t1": 9.7,
+     "e": 0
+    },
+    {
+     "w": "we",
+     "t0": 9.7,
+     "t1": 9.97,
+     "e": 0
+    },
+    {
+     "w": "do",
+     "t0": 9.97,
+     "t1": 10.24,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 10.24,
+     "t1": 10.51,
+     "e": 0
+    },
+    {
+     "w": "help",
+     "t0": 10.51,
+     "t1": 10.96,
+     "e": 0
+    },
+    {
+     "w": "this",
+     "t0": 10.96,
+     "t1": 11.41,
+     "e": 0
+    },
+    {
+     "w": "thing",
+     "t0": 11.41,
+     "t1": 11.95,
+     "e": 0
+    },
+    {
+     "w": "become",
+     "t0": 11.95,
+     "t1": 12.58,
+     "e": 0
+    },
+    {
+     "w": "stronger",
+     "t0": 12.58,
+     "t1": 13.39,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 13.39,
+     "t1": 13.75,
+     "e": 0
+    },
+    {
+     "w": "larger.",
+     "t0": 13.75,
+     "t1": 14.47,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 2,
+     "t0": 0.1,
+     "t1": 0.735
+    },
+    {
+     "a": 3,
+     "b": 6,
+     "t0": 0.735,
+     "t1": 1.778
+    },
+    {
+     "a": 7,
+     "b": 10,
+     "t0": 1.778,
+     "t1": 3.52
+    },
+    {
+     "a": 11,
+     "b": 13,
+     "t0": 3.52,
+     "t1": 4.617
+    },
+    {
+     "a": 14,
+     "b": 17,
+     "t0": 4.617,
+     "t1": 6.102
+    },
+    {
+     "a": 18,
+     "b": 19,
+     "t0": 6.102,
+     "t1": 7.07
+    },
+    {
+     "a": 20,
+     "b": 22,
+     "t0": 7.07,
+     "t1": 8.684
+    },
+    {
+     "a": 23,
+     "b": 27,
+     "t0": 8.684,
+     "t1": 10.19
+    },
+    {
+     "a": 28,
+     "b": 31,
+     "t0": 10.19,
+     "t1": 11.9
+    },
+    {
+     "a": 32,
+     "b": 33,
+     "t0": 11.9,
+     "t1": 13.34
+    },
+    {
+     "a": 34,
+     "b": 35,
+     "t0": 13.34,
+     "t1": 14.82
+    }
+   ],
+   "text": "And at NFTE, we actually are taking it a step further. We are beginning the process of merging and partnering with other organizations that do what we do to help this thing become stronger and larger.",
+   "timing": "segments",
+   "matched": 0.97,
+   "check": "No word-level times for this clip here: word times are spread inside each caption line. Check the timing by ear.",
+   "n": 6
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "01:14–01:30"
+   ],
+   "beat": "ALREADY INSIDE THEM",
+   "title": "Already Inside Them",
+   "clip": "Interview_Closeup_Audio_Edit.mp4",
+   "start": 2152.76,
+   "src": "Interview_Closeup_Audio_Edit.mp4 35:52.8 (35:52.9–35:59.1 + 36:00.9–36:05.7 joined)",
+   "dur": 11.58,
+   "words": [
+    {
+     "w": "The",
+     "t0": 0.15,
+     "t1": 0.34,
+     "e": 0
+    },
+    {
+     "w": "NFTE",
+     "t0": 0.34,
+     "t1": 0.624,
+     "e": 0
+    },
+    {
+     "w": "program",
+     "t0": 0.624,
+     "t1": 1.003,
+     "e": 0
+    },
+    {
+     "w": "shows",
+     "t0": 1.003,
+     "t1": 1.287,
+     "e": 0
+    },
+    {
+     "w": "students",
+     "t0": 1.287,
+     "t1": 1.714,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 1.714,
+     "t1": 1.951,
+     "e": 0
+    },
+    {
+     "w": "they",
+     "t0": 1.951,
+     "t1": 2.188,
+     "e": 0
+    },
+    {
+     "w": "matter,",
+     "t0": 2.188,
+     "t1": 2.567,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 2.567,
+     "t1": 2.757,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 2.757,
+     "t1": 2.851,
+     "e": 0
+    },
+    {
+     "w": "wish",
+     "t0": 2.851,
+     "t1": 3.088,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 3.088,
+     "t1": 3.325,
+     "e": 0
+    },
+    {
+     "w": "more",
+     "t0": 3.325,
+     "t1": 3.562,
+     "e": 0
+    },
+    {
+     "w": "students",
+     "t0": 3.562,
+     "t1": 3.989,
+     "e": 0
+    },
+    {
+     "w": "understood",
+     "t0": 3.989,
+     "t1": 4.51,
+     "e": 0
+    },
+    {
+     "w": "from",
+     "t0": 4.91,
+     "t1": 5.096,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 5.096,
+     "t1": 5.246,
+     "e": 0
+    },
+    {
+     "w": "get-go",
+     "t0": 5.246,
+     "t1": 5.507,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 5.507,
+     "t1": 5.693,
+     "e": 0
+    },
+    {
+     "w": "they",
+     "t0": 5.693,
+     "t1": 5.88,
+     "e": 0
+    },
+    {
+     "w": "do",
+     "t0": 5.88,
+     "t1": 5.992,
+     "e": 0
+    },
+    {
+     "w": "matter.",
+     "t0": 5.992,
+     "t1": 6.29,
+     "e": 0
+    },
+    {
+     "w": "They",
+     "t0": 6.37,
+     "t1": 6.614,
+     "e": 0
+    },
+    {
+     "w": "have",
+     "t0": 6.614,
+     "t1": 6.858,
+     "e": 0
+    },
+    {
+     "w": "all",
+     "t0": 6.858,
+     "t1": 7.053,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 7.053,
+     "t1": 7.199,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 7.199,
+     "t1": 7.394,
+     "e": 0
+    },
+    {
+     "w": "innate",
+     "t0": 7.394,
+     "t1": 7.735,
+     "e": 0
+    },
+    {
+     "w": "capabilities",
+     "t0": 7.735,
+     "t1": 8.369,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 8.369,
+     "t1": 8.516,
+     "e": 0
+    },
+    {
+     "w": "create",
+     "t0": 8.516,
+     "t1": 8.857,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 8.857,
+     "t1": 8.954,
+     "e": 0
+    },
+    {
+     "w": "business",
+     "t0": 8.954,
+     "t1": 9.393,
+     "e": 0
+    },
+    {
+     "w": "essentially",
+     "t0": 9.393,
+     "t1": 9.979,
+     "e": 0
+    },
+    {
+     "w": "already",
+     "t0": 9.979,
+     "t1": 10.369,
+     "e": 0
+    },
+    {
+     "w": "inside",
+     "t0": 10.369,
+     "t1": 10.71,
+     "e": 0
+    },
+    {
+     "w": "them.",
+     "t0": 11.07,
+     "t1": 11.13,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 3,
+     "t0": 0.1,
+     "t1": 1.237
+    },
+    {
+     "a": 4,
+     "b": 6,
+     "t0": 1.237,
+     "t1": 2.138
+    },
+    {
+     "a": 7,
+     "b": 10,
+     "t0": 2.138,
+     "t1": 3.038
+    },
+    {
+     "a": 11,
+     "b": 13,
+     "t0": 3.038,
+     "t1": 3.939
+    },
+    {
+     "a": 14,
+     "b": 15,
+     "t0": 3.939,
+     "t1": 5.046
+    },
+    {
+     "a": 16,
+     "b": 20,
+     "t0": 5.046,
+     "t1": 5.942
+    },
+    {
+     "a": 21,
+     "b": 21,
+     "t0": 5.942,
+     "t1": 6.32
+    },
+    {
+     "a": 22,
+     "b": 24,
+     "t0": 6.32,
+     "t1": 7.003
+    },
+    {
+     "a": 25,
+     "b": 27,
+     "t0": 7.003,
+     "t1": 7.685
+    },
+    {
+     "a": 28,
+     "b": 30,
+     "t0": 7.685,
+     "t1": 8.807
+    },
+    {
+     "a": 31,
+     "b": 33,
+     "t0": 8.807,
+     "t1": 9.929
+    },
+    {
+     "a": 34,
+     "b": 36,
+     "t0": 9.929,
+     "t1": 11.48
+    }
+   ],
+   "text": "The NFTE program shows students that they matter, and I wish that more students understood from the get-go that they do matter. They have all of the innate capabilities to create a business essentially already inside them.",
+   "timing": "segments",
+   "matched": 0.97,
+   "check": "No word-level times for this clip here: word times are spread inside each caption line. Check the timing by ear.",
+   "n": 7
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "01:30–01:40"
+   ],
+   "beat": "BUTTON",
+   "title": "Button",
+   "clip": "Interview_Closeup_Audio_Edit.mp4",
+   "start": 2170.42,
+   "src": "Interview_Closeup_Audio_Edit.mp4 36:10.4 (36:10.6–36:15.2 + 37:19.2–37:20.5 joined)",
+   "dur": 6.49,
+   "words": [
+    {
+     "w": "no",
+     "t0": 0.15,
+     "t1": 0.316,
+     "e": 0
+    },
+    {
+     "w": "student",
+     "t0": 0.316,
+     "t1": 0.76,
+     "e": 0
+    },
+    {
+     "w": "should",
+     "t0": 0.76,
+     "t1": 1.148,
+     "e": 0
+    },
+    {
+     "w": "ever",
+     "t0": 1.148,
+     "t1": 1.425,
+     "e": 0
+    },
+    {
+     "w": "feel",
+     "t0": 1.425,
+     "t1": 1.703,
+     "e": 0
+    },
+    {
+     "w": "like",
+     "t0": 1.703,
+     "t1": 1.98,
+     "e": 0
+    },
+    {
+     "w": "they",
+     "t0": 1.98,
+     "t1": 2.257,
+     "e": 0
+    },
+    {
+     "w": "don't",
+     "t0": 2.257,
+     "t1": 2.59,
+     "e": 0
+    },
+    {
+     "w": "have",
+     "t0": 2.59,
+     "t1": 2.867,
+     "e": 0
+    },
+    {
+     "w": "what",
+     "t0": 2.867,
+     "t1": 3.144,
+     "e": 0
+    },
+    {
+     "w": "it",
+     "t0": 3.144,
+     "t1": 3.311,
+     "e": 0
+    },
+    {
+     "w": "takes",
+     "t0": 3.311,
+     "t1": 3.643,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 3.643,
+     "t1": 3.81,
+     "e": 0
+    },
+    {
+     "w": "launch",
+     "t0": 3.81,
+     "t1": 4.198,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 4.198,
+     "t1": 4.309,
+     "e": 0
+    },
+    {
+     "w": "business.",
+     "t0": 4.309,
+     "t1": 4.808,
+     "e": 0
+    },
+    {
+     "w": "That's",
+     "t0": 4.798,
+     "t1": 5.069,
+     "e": 0
+    },
+    {
+     "w": "our",
+     "t0": 5.069,
+     "t1": 5.224,
+     "e": 0
+    },
+    {
+     "w": "problem,",
+     "t0": 5.224,
+     "t1": 5.573,
+     "e": 0
+    },
+    {
+     "w": "not",
+     "t0": 5.573,
+     "t1": 5.728,
+     "e": 0
+    },
+    {
+     "w": "theirs.",
+     "t0": 5.728,
+     "t1": 6.038,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 3,
+     "t0": 0.1,
+     "t1": 1.375
+    },
+    {
+     "a": 4,
+     "b": 7,
+     "t0": 1.375,
+     "t1": 2.54
+    },
+    {
+     "a": 8,
+     "b": 11,
+     "t0": 2.54,
+     "t1": 3.593
+    },
+    {
+     "a": 12,
+     "b": 15,
+     "t0": 3.593,
+     "t1": 4.748
+    },
+    {
+     "a": 16,
+     "b": 18,
+     "t0": 4.748,
+     "t1": 5.523
+    },
+    {
+     "a": 19,
+     "b": 20,
+     "t0": 5.523,
+     "t1": 6.388
+    }
+   ],
+   "text": "no student should ever feel like they don't have what it takes to launch a business. That's our problem, not theirs.",
+   "timing": "segments",
+   "matched": 1.0,
+   "check": "No word-level times for this clip here: word times are spread inside each caption line. Check the timing by ear.",
+   "n": 8
+  }
+ ]
+}

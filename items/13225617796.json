@@ -5,8 +5,8 @@
  "title": "Student Voice:",
  "title_q": "“We Are the Ones Who Will Live in It”",
  "title_short": "Student · We Will Live in It",
- "editor": "Bleron",
- "due": "2026-10-13",
+ "editor": "Freelance Happy",
+ "due": "2026-11-06",
  "format": "9:16 only · 1080×1920",
  "length": "about 60 s",
  "edit_key": "NFTEUngaStudentVoiceWeWillLiveInIt001",
@@ -53,7 +53,7 @@
    "note": "Folders: Panel, Interviews, Reception, each with Proxies."
   }
  },
- "bp_intro": "Her panel lines are in <span class=\"mono\">L012C003</span> (Track 1). Her to-camera lines are in <span class=\"mono\">C0344.MP4</span>; the same answers are on <span class=\"mono\">L012C002</span> (wide side shot, her mic), about 7–8 s earlier. Times come from the machine transcripts. The pictures are clip stills from Drive (exact time unknown). Check every shot on scrub.",
+ "bp_intro": "Her panel lines are in <span class=\"mono\">L012C003_260922M0.MXF</span> (Track 1). Her to-camera lines are in <span class=\"mono\">C0344.MP4</span>; the same answers are on <span class=\"mono\">L012C002_260922LS.MXF</span> (wide side shot, her mic), about 7 to 8 s earlier. Times are mm:ss.s in each file, from word times of the proxies. The pictures are clip stills from Drive (exact time unknown). Check every shot on scrub.",
  "rows": [
   {
    "tc": "00:00–00:08",
@@ -68,10 +68,16 @@
    "voice": {
     "who": "NFTE student, 14",
     "quote": "we are the ones who are going to be living in this world, like in this future. So if our voices aren't heard, then we won't really be satisfied.",
-    "src": "L012C003 T1 50:31.3–50:39.0 (cut “And”; by ear it is “gonna” and “the future”: caption what you hear)"
+    "src": "L012C003_260922M0.MXF 50:31.6 to 50:39.0 (Track 1; cut “And”; by ear it may be “gonna” and “the future”: caption what you hear)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Light, bright bed starts low under her voice."
+   "music": "Light, bright bed starts low under her voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "we are the ones"
+    }
+   ]
   },
   {
    "tc": "00:08–00:23",
@@ -81,15 +87,35 @@
    "crop": "l",
    "frame_tag": "clip still · L012C002",
    "frame_alt": "Wide side shot of the student in a chair at the NFTE office, people in the background",
-   "visual": "C0344 at the same time: she sits and talks to the camera, dark soft background. The picture is flat (log): correct it. Second angle: L012C002, the wide side shot in the still (she sits on the left). Use it to hide a cut. Check both on scrub.",
+   "visual": "C0344 at the same time: she sits and talks to the camera, dark soft background. The picture is flat (log): colour-correct it. Second angle to hide a cut: <a href=\"https://drive.google.com/file/d/1hXdrQM4S-rPFT5SQHZvAYHlCsP1E0F_G/view\">L012C002_260922LS.MXF</a> about <span class=\"mono\">00:38</span> (the wide side shot in the still; she sits on the left). Check both on scrub.",
    "motion": "<b>Name super</b> <span class=\"mono\">00:09–00:11</span>, small, lower left: \"NFTE student, age 14\". No name, town or school.",
    "voice": {
     "who": "NFTE student, 14",
     "quote": "what sparked my interest in innovation and entrepreneurship was when my high school who is really hyper competitive and I saw that a lot of my ideas were not being heard because only the best of the best were having that exposure.",
-    "src": "C0344 00:44.0–00:59.8 (cut “So”; machine passes differ on “was when / was that” and “who is / was”: caption what you hear) = L012C002 ≈00:37–00:52"
+    "src": "C0344.MP4 00:44.0 to 00:59.8 (cut “So”; caption what you hear) = L012C002 about 00:37 to 00:52"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "what sparked"
+    },
+    {
+     "clip": "L012C002_260922LS.MXF",
+     "at": 45.0,
+     "dur": 2.0,
+     "cx": 0.3,
+     "path": "NYC UNGA Panel Day Sept 22 2026/NYC 2026/Interviews/L012C002_260922LS.MXF",
+     "drive": "1hXdrQM4S-rPFT5SQHZvAYHlCsP1E0F_G",
+     "layout": "full",
+     "what": "Wide side angle of her in the chair (hide a cut)"
+    },
+    {
+     "face": true,
+     "from_word": "because only"
+    }
+   ]
   },
   {
    "tc": "00:23–00:29",
@@ -104,10 +130,16 @@
    "voice": {
     "who": "NFTE student, 14",
     "quote": "what I wanted to do was I was trying to find a way to have my peers ideas heard",
-    "src": "C0344 00:59.9–01:05.5 (cut “So”) = L012C002 ≈00:53–00:59"
+    "src": "C0344.MP4 01:00.3 to 01:05.6 (cut “So”) = L012C002 about 00:53 to 00:59"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "what I wanted"
+    }
+   ]
   },
   {
    "tc": "00:29–00:37",
@@ -122,10 +154,26 @@
    "voice": {
     "who": "NFTE student, 14",
     "quote": "the biggest thing that you will notice is sometimes you're not going to be right. Even if a decision does look right to you, you're not going to be right.",
-    "src": "L012C003 T1 33:16.0–33:23.4"
+    "src": "L012C003_260922M0.MXF 33:16.1 to 33:23.4 (Track 1)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "the biggest thing"
+    },
+    {
+     "clip": "C0345.MP4",
+     "at": 2006.0,
+     "dur": 2.0,
+     "cx": 0.3,
+     "path": "NYC UNGA Panel Day Sept 22 2026/NYC 2026/Panel/C0345.MP4",
+     "drive": "1fzvZjyjSpmb---qiU1X7CPqqFuPabfUG",
+     "layout": "full",
+     "what": "Wide of the panel from the back; she sits on the left (C0345 = L012C003 + 10.0 s)"
+    }
+   ]
   },
   {
    "tc": "00:37–00:42",
@@ -135,15 +183,21 @@
    "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "C0344 at the same time. B-roll TBD on scrub.",
-   "motion": "Captions only. Colour \"still matters\" in NFTE orange.",
+   "visual": "C0344 at the same time, her face. This is her message to other students: stay on her.",
+   "motion": "Key words, top third, as she says them: <q>your message still matters</q>. Captions on.",
    "voice": {
     "who": "NFTE student, 14",
     "quote": "everybody has a message even if it's not something really big your message still matters",
-    "src": "C0344 03:09.5–03:14.7 = L012C002 ≈03:01–03:07"
+    "src": "C0344.MP4 03:09.6 to 03:14.7 = L012C002 about 03:01 to 03:07"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Small lift."
+   "music": "Small lift.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "everybody"
+    }
+   ]
   },
   {
    "tc": "00:42–00:53",
@@ -158,10 +212,30 @@
    "voice": {
     "who": "NFTE student, 14",
     "quote": "I really want to encourage all the educators here today to really listen to our voices and act on decisions that we think would be the best for our future.",
-    "src": "L012C003 T1 50:39.5–50:48.1 (cut “So”) + 2 s of the applause"
+    "src": "L012C003_260922M0.MXF 50:39.7 to 50:48.2 (Track 1; cut “So”) + 2 s of the applause"
    },
    "sfx": "The real applause. 2 s. Nothing added.",
-   "music": "Bed lifts under the applause."
+   "music": "Bed lifts under the applause.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I really want"
+    },
+    {
+     "clip": "C0166.MP4",
+     "at": 3.0,
+     "dur": 1.0,
+     "cx": 0.5,
+     "path": "NYC UNGA Panel Day Sept 22 2026/NYC 2026/Panel/C0166.MP4",
+     "drive": "1uMiDzHNMc_AQR5uRXFRlpFpKcHiVUupE",
+     "layout": "full",
+     "what": "The audience in the panel room, on the applause (a second where nobody speaks)"
+    },
+    {
+     "face": true,
+     "from_word": "applause"
+    }
+   ]
   },
   {
    "tc": "00:53–00:59",
@@ -176,10 +250,16 @@
    "voice": {
     "who": "J.D. LaRock (off camera)",
     "quote": "I'm highly tempted to just call it quits there because you should end on the wise words of a student.",
-    "src": "L012C003 T1 50:54.7–51:00.3"
+    "src": "L012C003_260922M0.MXF 50:54.8 to 51:00.4 (Track 1)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Resolve on \"student\"."
+   "music": "Resolve on \"student\".",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I'm highly tempted"
+    }
+   ]
   },
   {
    "tc": "00:59–01:02",
@@ -189,11 +269,12 @@
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "NFTE end card, same as the other NFTE cuts.",
+   "visual": "NFTE end card, same as the other NFTE cuts: the white NFTE logo on NFTE purple <span class=\"mono\">#4C12A1</span>.",
    "motion": "NFTE logo. Nothing else.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Last note rings out. 1 s fade."
+   "music": "Last note rings out. 1 s fade.",
+   "shots": []
   }
  ],
  "frames": {
@@ -252,12 +333,12 @@
    "None for this shoot."
   ],
   [
-   "Brand",
-   "No brand pack or font on the item. NFTE purple <span class=\"mono\">#4C12A1</span>, orange <span class=\"mono\">#FF5C39</span> (from nfte.com). Their font is Circular; we have no file. Use the caption style of the other NFTE cuts. Logo file: <a href=\"https://drive.google.com/file/d/1I2Ou0hEsnfPf7WpopINX9xM10ZnKI8fX/view\">NFTE_LOGO_Lockup_BrandColor.png</a>."
-  ],
-  [
    "Music",
    "No set source for NFTE. Use a licensed track and save the license with the project."
+  ],
+  [
+   "Brand",
+   "NFTE purple <span class=\"mono\">#4C12A1</span>, orange <span class=\"mono\">#FF5C39</span> (from nfte.com). Their font is Circular; we have no file. Graphics use DM Sans, captions Roboto. NFTE graphics package: Drive <span class=\"mono\">deliverables/graphics-packages/NFTE</span> (lower third bar, title plate, topic tag); type the words on the empty plates."
   ]
  ],
  "tech": [
@@ -316,11 +397,15 @@
   },
   {
    "t": "End card: NFTE alone, or NFTE + BUILD?",
-   "b": "Add a BUILD logo? Atdhe decides."
+   "b": "The UNGA cuts end on the NFTE logo. A white BUILD logo is now on this site (endcards/nfte/build-logo-white.svg). Atdhe decides if the UNGA cuts carry it."
   },
   {
    "t": "Her release and her name",
    "b": "NFTE has named her on its own Instagram, but her release is not confirmed. Atdhe confirms it with NFTE before this posts. Until then: no name on screen."
+  },
+  {
+   "t": "Editor and upload number",
+   "b": "Monday shows the editor as Freelance Happy, who has no editor number yet. Atdhe gives one before the upload, or the item goes back to Bleron (34)."
   }
  ],
  "client_note": "<b>Why this matters:</b> NFTE's second-best reel in 90 days is this student in her own words. They know this format works.",
@@ -330,5 +415,184 @@
   "Where does she say her ideas were not heard?",
   "How do I sync L012C002 to C0344?"
  ],
- "transcript": "Machine transcripts (Oct 7). Times are mm:ss from the first frame of each file. The machine writes \"Nifty\" and \"Aflatune\": it is NFTE and Aflatoun. Her name, town and school are left out on purpose.\n== Interviews › C0344.MP4 (the student, to camera) ==\n[00:00] Give me one second, I'm just gonna do a little hand sink.\n[00:20] Sink two barrels.\n[00:23] Okay, anytime.\n[00:30] So, Arfa, can you tell us a little bit about yourself\n[00:33] and what first sparked your interest\n[00:34] in entrepreneurship and innovation?\n[00:44] So what sparked my interest in innovation\n[00:47] and entrepreneurship was when my high school\n[00:50] who is really hyper competitive and I saw that a lot of my ideas were not being\n[00:55] heard because only the best of the best were having that exposure. So what I\n[01:00] wanted to do was I was trying to find a way to have my peers ideas heard and in\n[01:06] that way like the process I developed my interest in. Perfect. You're 14, right? Okay.\n[01:17] Just wanted to make sure. Okay. So just 14 years old you'll be joining leaders from\n[01:22] Nifty, Pearson, and Aflatune on a panel connected\n[01:25] to the United Nations General Assembly.\n[01:28] What does this opportunity mean to you personally?\n[01:32] I think this opportunity, to me personally,\n[01:34] is a really big achievement because not only\n[01:37] am I having my voice heard at like a really big stage,\n[01:42] but also helping and delivering a message\n[01:45] of kind of like the entire youth, right?\n[01:48] Because I'm like the student voice in this situation.\n[01:50] And that's really personal to me because I get to represent so many people and also myself.\n[02:01] Adults are often the ones making decisions about the future, but our young people will have to live with those decisions the longest.\n[02:09] Why is it important that youth have a voice in solving today's biggest challenges?\n[02:13] I think having a student voice represents what the youth wants. It's really important that having those perspective periods is also really important because if someone makes a decision that doesn't really align with the world that the youth is going to live in but the youth already knew that maybe this is kind of wrong, then you can really mess up the system.\n[02:34] And I really think if the youth collectively makes a decision or at least has a voice to suggest decisions,\n[02:43] I think that would really help with stabilizing the future that the youth lives in.\n[02:50] OK.\n[02:52] And so if another student your age was watching this or watches their panel later on,\n[02:57] wondering if they have what it takes to be an entrepreneur, what would you tell them?\n[03:02] I would tell them that I heard this speech a little long ago and it basically said that\n[03:09] everybody has a message even if it's not something really big your message still\n[03:14] matters and even if it's not big right it can still help a student like a\n[03:19] student or a person that's going through the exact same thing that you went\n[03:23] through and I think it's important to just at least have your message out\n[03:27] there like there's nothing really to lose it's just that you're just giving\n[03:30] advice you sell them. Okay, then so switching audiences, if you could share\n[03:39] one message with the educators, funders, and organizations that support young\n[03:43] people like yourself, what would you want them to understand about the\n[03:47] potential you all hold? I really think they should focus on not having this exact standard for all students\n[03:56] because every student lives differently, has different life experiences\n[04:01] that save the way they like talk or critical thinking right so having one\n[04:09] standard for every student is kind of unfair because not everybody can come up\n[04:14] to that standard or fit into that standard. Wonderful I think that's how do\n[04:23] you feel about those answers good yeah all right that was really all of the\n[04:28] questions.\n== Panel › L012C003_260922M0.MXF, Track 1 ==\n[32:52] It occurs to me that the fact that you founded an entrepreneurship club,\n[32:57] and by design, you're working with peers in a group,\n[33:02] That seems like it has some special meaning in how you've gone about this.\n[33:07] What has been the value of working with your peers to explore entrepreneurship and get\n[33:12] into some of these questions?\n[33:13] I would say the value, the biggest thing that you will notice is sometimes you're not going\n[33:19] to be right.\n[33:19] Even if a decision does look right to you, you're not going to be right.\n[33:24] And getting feedback from those peers that you're doing of it who have the same amount\n[33:29] of love and respect for whatever you're building,\n[33:32] I think that really adds to what you're doing, right?\n[33:35] And getting this feedback can actually help change\n[33:38] what you're doing.\n[49:59] Arfa, what words of wisdom generally would you add?\n[50:02] You're in front of a room full of mostly adults.\n[50:07] Imagine yourself in front of a decision maker.\n[50:09] You get to tell them on the basis of what you know from what you did,\n[50:14] here's how you need to think about this. What are you telling them?\n[50:18] I would say that although AI can generate a lot of ideas,\n[50:23] listening to the youth and their voices is kind of what is really important,\n[50:28] and it kind of gets ignored too.\n[50:31] And we are the ones who are going to be living in this world, like in this future.\n[50:35] So if our voices aren't heard, then we won't really be satisfied.\n[50:39] So I really want to encourage all the educators here today to really listen to our voices\n[50:44] and act on decisions that we think would be the best for our future.\n[50:55] I'm highly tempted to just call it quits there because you should end on the wise words of\n[50:59] a student.\n[51:01] But anything else you'd like to say to close this out?"
+ "transcript": "Machine transcripts (Oct 7). Times are mm:ss from the first frame of each file. The machine writes Nifty and Aflatune: it is NFTE and Aflatoun. Her name, town and school are left out on purpose.\n--- C0344.MP4 ---\n[00:00] [do not use: crew talk] Give me one second, I'm just gonna do a little hand sink.\n[00:20] Sink two barrels.\n[00:23] Okay, anytime.\n[00:30] [do not use: the interviewer, says her name] So, can you tell us a little bit about yourself\n[00:33] and what first sparked your interest\n[00:34] in entrepreneurship and innovation?\n[00:44] So what sparked my interest in innovation\n[00:47] and entrepreneurship was when my high school\n[00:50] who is really hyper competitive and I saw that a lot of my ideas were not being\n[00:55] heard because only the best of the best were having that exposure. So what I\n[01:00] wanted to do was I was trying to find a way to have my peers ideas heard and in\n[01:06] that way like the process I developed my interest in. [do not use: the interviewer] Perfect. You're 14, right? Okay.\n[01:17] Just wanted to make sure. Okay. So just 14 years old you'll be joining leaders from\n[01:22] NFTE, Pearson, and Aflatoun on a panel connected\n[01:25] to the United Nations General Assembly.\n[01:28] What does this opportunity mean to you personally?\n[01:32] I think this opportunity, to me personally,\n[01:34] is a really big achievement because not only\n[01:37] am I having my voice heard at like a really big stage,\n[01:42] but also helping and delivering a message\n[01:45] of kind of like the entire youth, right?\n[01:48] Because I'm like the student voice in this situation.\n[01:50] And that's really personal to me because I get to represent so many people and also myself.\n[02:01] Adults are often the ones making decisions about the future, but our young people will have to live with those decisions the longest.\n[02:09] Why is it important that youth have a voice in solving today's biggest challenges?\n[02:13] I think having a student voice represents what the youth wants. It's really important that having those perspective periods is also really important because if someone makes a decision that doesn't really align with the world that the youth is going to live in but the youth already knew that maybe this is kind of wrong, then you can really mess up the system.\n[02:34] And I really think if the youth collectively makes a decision or at least has a voice to suggest decisions,\n[02:43] I think that would really help with stabilizing the future that the youth lives in.\n[02:50] OK.\n[02:52] And so if another student your age was watching this or watches their panel later on,\n[02:57] wondering if they have what it takes to be an entrepreneur, what would you tell them?\n[03:02] I would tell them that I heard this speech a little long ago and it basically said that\n[03:09] everybody has a message even if it's not something really big your message still\n[03:14] matters and even if it's not big right it can still help a student like a\n[03:19] student or a person that's going through the exact same thing that you went\n[03:23] through and I think it's important to just at least have your message out\n[03:27] there like there's nothing really to lose it's just that you're just giving\n[03:30] advice you sell them. Okay, then so switching audiences, if you could share\n[03:39] one message with the educators, funders, and organizations that support young\n[03:43] people like yourself, what would you want them to understand about the\n[03:47] potential you all hold? I really think they should focus on not having this exact standard for all students\n[03:56] because every student lives differently, has different life experiences\n[04:01] that save the way they like talk or critical thinking right so having one\n[04:09] standard for every student is kind of unfair because not everybody can come up\n[04:14] to that standard or fit into that standard. Wonderful I think that's how do\n[04:23] you feel about those answers good yeah all right that was really all of the\n[04:28] questions.\n--- L012C003_260922M0.MXF ---\n[24:02] And working, and for example, when I first reached out\n[24:06] to the faculty, I felt like so happy\n[24:11] that I had the opportunity to partner with the group\n[24:17] and advertise your competition myself.\n[24:20] And that felt like I was getting quite a bit\n[24:22] of recognition that I wanted,\n[24:24] and I could also advertise to my classmates,\n[24:27] like, oh, I have this competition\n[24:30] and they're willing to sponsor it, right?\n[24:34] So, I thought recognition really does help.\n[24:40] We tend to, I think, undervalue and underrecognize\n[24:43] that students constantly all along the same thing.\n[24:48] It doesn't really matter if it's a law\n[24:52] In fact, you know how it kind of compliments you, and it sort of says, oh, yes, you were\n[24:56] right.\n[24:56] I think it's a little bit annoying, even.\n[24:58] But we can earn for the validation of our fellow human beings, and that's another\n[25:02] thing that we can amplify.\n[25:04] I'd like to do a little crowdsourcing here as we move on with the conversation,\n[25:08] because I think among all of us, we can come up with a set of AI-proof assessments,\n[25:15] demonstrations of knowledge and learning that we use, that we've seen in our worlds,\n[25:22] that we can bring out and organize into some new ways of doing this thing we call education.\n[25:29] And I'll start us off.\n[25:30] So one of the reasons why entrepreneurship is positioned here as the centerpiece of\n[25:35] this panel is because of what we've learned at NFTE as we watch young people develop\n[25:43] businesses and then compete in business plan competitions and are interrogated by judges.\n[25:51] In a setting like that, which is an academic setting, totally an academic setting,\n[25:57] you can see very clearly who really knows what they have learned and who doesn't,\n[26:05] who rely and work with technology appropriately, and who overdid it.\n[26:13] Why?\n[26:14] Because if you're a young person, if you're standing in front of the monitor\n[26:18] but you can't look at the slides, you've got to look at all of you and talk about\n[26:23] your business emotionally.\n[26:25] You've got to talk about the rationale.\n[26:29] You've got to talk through all of the elements of mastery.\n[26:32] Why is this business a good business?\n[26:34] Who is my customer?\n[26:35] Who is my competitor?\n[26:37] Why is this differentiated from other things?\n[26:40] Where are the shortcomings?\n[26:41] What are the finances?\n[26:43] Yeah.\n[26:43] AI can actually help you develop a lot of those things, but it can help you stand\n[26:49] in front of the room like this, not looking there, looking here, and to do it.\n[26:57] That's a demonstration.\n[26:59] And then even more so, this is again a fundamental part of most entrepreneurship\n[27:03] education models.\n[27:05] You have judges, mentors, people from industry, experts who are then quizzing,\n[27:13] testing, probing, another thing that does not get outsourced by technology.\n[27:20] On the spot thinking.\n[27:22] The ability to think on your feet.\n[27:24] The ability to pivot.\n[27:26] The ability to admit that where you started might be a little bit wrong,\n[27:31] but you have the opportunity to adjust.\n[27:34] These are all things that are still very much in play.\n[27:37] And aren't they also very important to every domain of human life,\n[27:44] whether it's the workplace, or your family, or your community?\n[27:49] Don't you have to be able to operate with nuance and to make information\n[27:54] that's unclear and do something that's coaching?\n[27:58] That's what we're talking about here.\n[28:00] Underneath the wrapper of entrepreneurship education.\n[28:04] So let me answer this if you want to add your voice to the conversation.\n[30:01] So excited I'm tripping all over myself.\n[30:04] Panelists, would you like to add?\n[30:07] [do not use: 30:07 to 31:13 is the Ireland story. NFTE keeps it for the global competition, not this recap.]\n[30:07] So one of the experiences last year [do not use]\n[30:09] of the NFTE's World Youth Entrepreneurship Challenge [do not use]\n[30:12] I thought about was, we were just talking about this. [do not use]\n[30:17] Was the questions that are asked by the judges [do not use]\n[30:20] to the contestants. [do not use]\n[30:23] And that's really where you differentiate. [do not use]\n[30:26] Because I thought all of the presenters [do not use]\n[30:28] were unbelievably great. [do not use]\n[30:30] But how are you going to differentiate? [do not use]\n[30:32] Somebody's got to win this thing. [do not use]\n[30:34] And for me, the defining moment, [do not use]\n[30:37] there was one judge from (company name, do not use), [do not use]\n[30:40] kept in asking really annoying questions about, [do not use]\n[30:43] could you change your model from selling it [do not use]\n[30:46] to renting your product? [do not use]\n[30:49] And the woman that won, this 15-year-old woman, young woman from Ireland, just looked him in the eye and said, [do not use]\n[30:55] no, because I want my customers to be able to afford this. [do not use]\n[30:59] And like right then and there, it was like she had that confidence, she cared for her customers, [do not use]\n[31:04] like everybody in the room fell from her. You had to vote for her at that moment. [do not use]\n[31:09] Because that was, you know, she handled that question better than anybody else. [do not use]\n[31:13] And what that speaks to are values that are just outside of the realm of what we typically\n[31:20] consider in academics, although they are at the same time central to the purpose of education\n[31:27] itself.\n[31:29] And that is the ability to make a choice based on a belief in the value system.\n[31:35] That is not tied to big data, analytics, it's just what she wanted, right?\n[31:42] This was a young woman from a rural area in Ireland. Her business was a portable case\n[31:50] to transport vaccines, animal vaccines safely. And her innovation was based on the fact\n[31:57] that you can get animal vaccines to the veterinarian in these rural areas, but you need a safe\n[32:06] and a safe and good way to transport them the last mile\n[32:10] to these rural farms.\n[32:12] And they've got these vaccines, you know,\n[32:14] they're very specialized.\n[32:15] They've got to be in temperature controlled things\n[32:17] and all of this, this is what she invented.\n[32:19] She's 15. She's 15.\n[32:22] So she not only had the skills to be able to put that\n[32:25] together, that actual product, and by the way,\n[32:28] it wasn't just a concept, she had the prototype\n[32:30] and it was a pretty good prototype too.\n[32:33] And but beyond that, she was very clear about what she wanted and did not want for the business,\n[32:39] and it had nothing to do with anyone's concept of a right answer.\n[32:43] Arthur, I want to bring it back to you.\n[32:45] She was emotionally mature.\n[32:46] She was emotionally mature, and mature in lots of other ways too.\n[32:52] It occurs to me that the fact that you founded an entrepreneurship club,\n[32:57] and by design, you're working with peers in a group,\n[33:02] That seems like it has some special meaning in how you've gone about this.\n[33:07] What has been the value of working with your peers to explore entrepreneurship and get\n[33:12] into some of these questions?\n[33:13] I would say the value, the biggest thing that you will notice is sometimes you're not going\n[33:19] to be right.\n[33:19] Even if a decision does look right to you, you're not going to be right.\n[33:24] And getting feedback from those peers that you're doing of it who have the same amount\n[33:29] of love and respect for whatever you're building,\n[33:32] I think that really adds to what you're doing, right?\n[33:35] And getting this feedback can actually help change\n[33:38] what you're doing.\n[45:43] It reminds me of something that we have consistently seen over the past few years in our collective\n[45:48] work with NFTE and all of our organizations.\n[45:52] About four years ago, we started seeing young people do two things with their business\n[45:58] ideas and business plan.\n[46:00] Very clear that they were beginning to use a whole range of different AI tools.\n[46:04] And of course, you know there are many.\n[46:05] It's not just chat and plot, but there's all the design-oriented tools, the financial\n[46:09] tools.\n[46:09] There's not actually a lot of helpful tools that make presentations look better and all of this kind of stuff.\n[46:16] They were starting to use that.\n[46:18] So as an organization we had to, you know, ask ourselves, is that good?\n[46:23] I was like, I don't know, let's see what they can do with it.\n[46:26] The other thing that happened was that steadily, more and more each year, students were proposing businesses that were based in AI.\n[46:33] So in the same way that the Internet Revolution brought on platform-based businesses, the\n[46:38] same way that app development and the iPhone brought on a whole wave of app-based businesses,\n[46:43] we just saw our student competitors naturally proposing and developing businesses that had\n[46:49] AI as the basis of the business in some way, shape, or form.\n[46:54] Either that is AI in the context of some sort of physical technology that they were\n[46:59] developing, or AI as the basis of, let's say, a chatbot or service type of business.\n[47:05] So we saw all of that.\n[47:07] So I think at a certain point, and I imagine all of you agree, we just said at NFTE, well,\n[47:13] the students are showing us where to go here, and we probably should not stop them because\n[47:20] it's a good thing to encourage learners to pursue learning and to lean into the things\n[47:25] that they're passionate about.\n[47:26] So we, you know, yes, we put some parameters around it,\n[47:30] but we generally let it go.\n[47:32] And what we've seen is that two things,\n[47:36] as we discussed before, there has been this very evident,\n[47:40] meaningful division point, this threshold,\n[47:43] between the students who use AI in a responsible way,\n[47:47] in a productive way, and can still demonstrate\n[47:50] learning authentically in sophisticated ways.\n[47:54] Yeah, and so we have just leaned into that.\n[47:57] More comments?\n[48:09] So the difference between a centaur and a reverse centaur.\n[48:13] A centaur is a human head and the power of a horse's body.\n[48:18] And a reverse centaur is a horse's head with a man on it.\n[48:21] And so we want AI, we want to be in charge\n[48:26] of this powerful machine.\n[48:28] We want a human head controlling this powerful machine.\n[48:31] And you talked about some ideas where that's the center.\n[48:35] The flip side is where if the machine is telling us\n[48:38] what to do, right, if you're an Amazon worker\n[48:41] and an algorithm is telling you when to show up\n[48:44] and what picker packer thing to do,\n[48:47] that's gonna drive you to high rates of injury.\n[48:50] or if you're an Uber driver, and an algorithm's going to try and figure out how can it suppress your wages as much as possible.\n[48:59] So that is kind of the metaphor. We want to be the human head on the centaur and not the Uber seat.\n[49:07] That's a very vivid metaphor. We're coming to the end of our session, so I'll continue down the line.\n[49:13] What other words of wisdom would you add? Kirsten, go ahead.\n[49:16] So linking to what you said and what was discussed before, I think one of the most important things\n[49:24] is safety, especially for children and young people.\n[49:28] And as I mentioned before, they did indicate themselves that they think this is one of\n[49:32] the most important things, that they are safe, that they can make informed decisions, can\n[49:39] be critical.\n[49:40] So I think that's where we have our role.\n[49:42] I like what you said before that the young people themselves went a certain way.\n[49:49] So let's go with them, let's follow them, but just make sure that they're operating in a safe environment.\n[49:56] I think that's important for young people.\n[49:59] Arfa, what words of wisdom generally would you add?\n[50:02] You're in front of a room full of mostly adults.\n[50:07] Imagine yourself in front of a decision maker.\n[50:09] You get to tell them on the basis of what you know from what you did,\n[50:14] here's how you need to think about this. What are you telling them?\n[50:18] I would say that although AI can generate a lot of ideas,\n[50:23] listening to the youth and their voices is kind of what is really important,\n[50:28] and it kind of gets ignored too.\n[50:31] And we are the ones who are going to be living in this world, like in this future.\n[50:35] So if our voices aren't heard, then we won't really be satisfied.\n[50:39] So I really want to encourage all the educators here today to really listen to our voices\n[50:44] and act on decisions that we think would be the best for our future.\n[50:55] I'm highly tempted to just call it quits there because you should end on the wise words of\n[50:59] a student.\n[51:01] But anything else you'd like to say to close this out?\n[51:06] Good.\n[51:06] I'll just close this out with this.\n[51:09] One mindset domain that I think is important in this day and age, and frankly I think our conversation kind of brought it out, is skepticism.\n[51:20] Skepticism as an important mindset domain for this day and age, because it's so easy\n[51:29] to get caught up in the daily barrage of news and fatalistic predictions and prognostications\n[51:40] of what all of this will mean.\n[51:42] Let's just admit that no one really knows.\n[51:46] However, let's also admit that's where the skepticism comes in.\n[51:51] But the flip side of skepticism is the possibility for more.\n[51:56] And I think that's what we have explored here today.\n[52:00] So thank you for being a part of this conversation.\n[52:02] Special thanks to all the other young people in the audience.",
+ "alts": {
+  "hook:0": [
+   {
+    "text": "She is 14. Adults listened.",
+    "line": "And we are the ones who are going to be living in this world, like in this future.",
+    "why": "The hook in the plan."
+   },
+   {
+    "text": "Listen to our voices.",
+    "line": "So I really want to encourage all the educators here today to really listen to our voices",
+    "why": "Opens on her ask."
+   },
+   {
+    "text": "Your message still matters.",
+    "line": "everybody has a message even if it's not something really big your message still",
+    "why": "Opens on her advice to other students."
+   },
+   {
+    "text": "Not every student is the same.",
+    "line": "I really think they should focus on not having this exact standard for all students",
+    "why": "Her message to educators."
+   }
+  ],
+  "bite:0": [
+   {
+    "quote": "I would say that although AI can generate a lot of ideas, listening to the youth and their voices is kind of what is really important,",
+    "who": "NFTE student, 14",
+    "file": "L012C003_260922M0.MXF",
+    "why": "Her panel line just before."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "I think this opportunity, to me personally, is a really big achievement because not only am I having my voice heard at like a really big stage,",
+    "who": "NFTE student, 14",
+    "file": "C0344.MP4",
+    "why": "Her voice heard."
+   },
+   {
+    "quote": "Because I'm like the student voice in this situation. And that's really personal to me because I get to represent so many people and also myself.",
+    "who": "NFTE student, 14",
+    "file": "C0344.MP4",
+    "why": "Runner-up in the brief."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "And I really think if the youth collectively makes a decision or at least has a voice to suggest decisions, I think that would really help with stabilizing the future that the youth lives in.",
+    "who": "NFTE student, 14",
+    "file": "C0344.MP4",
+    "why": "Runner-up in the brief."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "And getting feedback from those peers that you're doing of it who have the same amount of love and respect for whatever you're building,",
+    "who": "NFTE student, 14",
+    "file": "L012C003_260922M0.MXF",
+    "why": "The rest of her panel answer."
+   },
+   {
+    "quote": "And getting this feedback can actually help change what you're doing.",
+    "who": "NFTE student, 14",
+    "file": "L012C003_260922M0.MXF",
+    "why": "Short end of the same answer."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "it can still help a student like a student or a person that's going through the exact same thing that you went through",
+    "who": "NFTE student, 14",
+    "file": "C0344.MP4",
+    "why": "The second half of her message."
+   },
+   {
+    "quote": "I think it's important to just at least have your message out there like there's nothing really to lose",
+    "who": "NFTE student, 14",
+    "file": "C0344.MP4",
+    "why": "Short and direct."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "I would say that although AI can generate a lot of ideas, listening to the youth and their voices is kind of what is really important,",
+    "who": "NFTE student, 14",
+    "file": "L012C003_260922M0.MXF",
+    "why": "Runner-up in the brief."
+   },
+   {
+    "quote": "because every student lives differently, has different life experiences",
+    "who": "NFTE student, 14",
+    "file": "C0344.MP4",
+    "why": "Her ask to educators, to camera."
+   }
+  ],
+  "bite:6": []
+ },
+ "visual_pack": {
+  "amount": "NFTE runs clean and this is her story: her face carries most rows, one hook text, two small supers, one key-word line, the room on the applause, and the NFTE end card. No logo before the end card. Nothing names her, her town or her school.",
+  "devices": [
+   {
+    "row": "00:00–00:08",
+    "device": "Hook text, static",
+    "asset": "highlight_callout (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:08–00:23",
+    "device": "Name super; second angle over a cut",
+    "asset": "tag_label (MG library); L012C002",
+    "source": "Script; Interviews"
+   },
+   {
+    "row": "00:29–00:37",
+    "device": "Wide of the panel to hide a cut",
+    "asset": "C0345",
+    "source": "Panel"
+   },
+   {
+    "row": "00:37–00:42",
+    "device": "Key words top",
+    "asset": "highlight_callout (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:42–00:53",
+    "device": "Room on the applause",
+    "asset": "C0166",
+    "source": "Panel B-roll"
+   },
+   {
+    "row": "00:53–00:59",
+    "device": "Super for J.D. (heard, not seen)",
+    "asset": "tag_label (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:59–01:02",
+    "device": "End card",
+    "asset": "end_card (MG library)",
+    "source": "endcards/nfte, 9 Oct 2026"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "C0168.MP4",
+    "path": "NYC UNGA Panel Day Sept 22 2026/NYC 2026/Panel/C0168.MP4",
+    "drive": "1pq-ity9J-Ypud2IIHxf5S9-IkPXwiBsm",
+    "at": 4.0,
+    "dur": 1.5,
+    "cx": 0.5,
+    "what": "The audience listens, a man stands at the back",
+    "frame": null
+   },
+   {
+    "clip": "C0175.MP4",
+    "path": "NYC UNGA Panel Day Sept 22 2026/NYC 2026/Panel/C0175.MP4",
+    "drive": "162oSVvmVlkdav3A76Qk8nRyK7eL9SJb4",
+    "at": 12.0,
+    "dur": 1.5,
+    "cx": 0.5,
+    "what": "The audience from behind, end of the session",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "NFTE logo, white",
+    "kind": "end_card",
+    "file": "endcards/nfte/nfte-logo-white.svg",
+    "url": null,
+    "local": null,
+    "alpha": true,
+    "size": "svg",
+    "fps": null
+   }
+  ],
+  "new_elements": []
+ }
 }

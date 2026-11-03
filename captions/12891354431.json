@@ -1,0 +1,755 @@
+{
+ "item": "12891354431",
+ "client": "nfte",
+ "style": {
+  "font": {
+   "css": "\"Roboto\"",
+   "w": 700
+  },
+  "size": 62,
+  "y": 1350,
+  "max_lines": 2,
+  "reveal": "phrase",
+  "fg": "#FFFFFF",
+  "box": {
+   "bg": "#4C12A1",
+   "r": 10
+  }
+ },
+ "note": "White text on the NFTE purple #4C12A1 box, Roboto (Circular has no file), max 2 lines, NFTE in capitals. The home clip is timed from word times; the pitch-competition rows have line times only, so check them by ear. Not captioned: 00:30–00:35, the BUILD line is still TBD on scrub.",
+ "tracks": [
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:00–00:04"
+   ],
+   "beat": "HOOK",
+   "title": "Hook",
+   "clip": "20260624_C4258.MP4",
+   "start": 1589.07,
+   "src": "20260624_C4258.MP4 26:29.1",
+   "dur": 3.52,
+   "words": [
+    {
+     "w": "talent",
+     "t0": 0.15,
+     "t1": 0.43,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 0.43,
+     "t1": 1.31,
+     "e": 0
+    },
+    {
+     "w": "universal,",
+     "t0": 1.31,
+     "t1": 1.63,
+     "e": 0
+    },
+    {
+     "w": "but",
+     "t0": 2.05,
+     "t1": 2.15,
+     "e": 0
+    },
+    {
+     "w": "opportunity",
+     "t0": 2.15,
+     "t1": 2.33,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 2.33,
+     "t1": 2.91,
+     "e": 0
+    },
+    {
+     "w": "not.",
+     "t0": 2.91,
+     "t1": 3.07,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 2,
+     "t0": 0.1,
+     "t1": 2.0
+    },
+    {
+     "a": 3,
+     "b": 6,
+     "t0": 2.0,
+     "t1": 3.42
+    }
+   ],
+   "text": "talent is universal, but opportunity is not.",
+   "timing": "words",
+   "matched": 1.0,
+   "n": 1
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:04–00:09"
+   ],
+   "beat": "GREAT IDEAS",
+   "title": "Great Ideas",
+   "clip": "Interview_Closeup_Audio_Edit.mp4",
+   "start": 2129.34,
+   "src": "Interview_Closeup_Audio_Edit.mp4 35:29.3",
+   "dur": 5.48,
+   "words": [
+    {
+     "w": "Young",
+     "t0": 0.15,
+     "t1": 0.53,
+     "e": 0
+    },
+    {
+     "w": "people",
+     "t0": 0.53,
+     "t1": 0.974,
+     "e": 0
+    },
+    {
+     "w": "have",
+     "t0": 0.974,
+     "t1": 1.291,
+     "e": 0
+    },
+    {
+     "w": "great",
+     "t0": 1.291,
+     "t1": 1.671,
+     "e": 0
+    },
+    {
+     "w": "ideas",
+     "t0": 1.671,
+     "t1": 2.051,
+     "e": 0
+    },
+    {
+     "w": "if",
+     "t0": 2.051,
+     "t1": 2.241,
+     "e": 0
+    },
+    {
+     "w": "we'd",
+     "t0": 2.241,
+     "t1": 2.558,
+     "e": 0
+    },
+    {
+     "w": "only",
+     "t0": 2.558,
+     "t1": 2.875,
+     "e": 0
+    },
+    {
+     "w": "ask",
+     "t0": 2.875,
+     "t1": 3.129,
+     "e": 0
+    },
+    {
+     "w": "them",
+     "t0": 3.129,
+     "t1": 3.446,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 3.446,
+     "t1": 3.572,
+     "e": 0
+    },
+    {
+     "w": "little",
+     "t0": 3.572,
+     "t1": 4.016,
+     "e": 0
+    },
+    {
+     "w": "bit",
+     "t0": 4.016,
+     "t1": 4.269,
+     "e": 0
+    },
+    {
+     "w": "more",
+     "t0": 4.269,
+     "t1": 4.586,
+     "e": 0
+    },
+    {
+     "w": "often.",
+     "t0": 4.586,
+     "t1": 5.03,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 3,
+     "t0": 0.1,
+     "t1": 1.621
+    },
+    {
+     "a": 4,
+     "b": 8,
+     "t0": 1.621,
+     "t1": 3.079
+    },
+    {
+     "a": 9,
+     "b": 14,
+     "t0": 3.079,
+     "t1": 5.38
+    }
+   ],
+   "text": "Young people have great ideas if we'd only ask them a little bit more often.",
+   "timing": "segments",
+   "matched": 1.0,
+   "check": "No word-level times for this clip here: word times are spread inside each caption line. Check the timing by ear.",
+   "n": 2
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:09–00:15"
+   ],
+   "beat": "WHAT SCHOOL MISSES",
+   "title": "What School Misses",
+   "clip": "20260624_C4258.MP4",
+   "start": 179.74,
+   "src": "20260624_C4258.MP4 02:59.7",
+   "dur": 6.8,
+   "words": [
+    {
+     "w": "to",
+     "t0": 0.15,
+     "t1": 0.27,
+     "e": 0
+    },
+    {
+     "w": "give",
+     "t0": 0.27,
+     "t1": 0.43,
+     "e": 0
+    },
+    {
+     "w": "them",
+     "t0": 0.43,
+     "t1": 1.45,
+     "e": 0
+    },
+    {
+     "w": "skills",
+     "t0": 1.45,
+     "t1": 1.83,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 1.83,
+     "t1": 2.19,
+     "e": 0
+    },
+    {
+     "w": "knowledge",
+     "t0": 2.19,
+     "t1": 2.37,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 2.87,
+     "t1": 2.97,
+     "e": 0
+    },
+    {
+     "w": "their",
+     "t0": 2.97,
+     "t1": 3.35,
+     "e": 0
+    },
+    {
+     "w": "schools",
+     "t0": 3.35,
+     "t1": 3.57,
+     "e": 0
+    },
+    {
+     "w": "otherwise",
+     "t0": 3.57,
+     "t1": 4.59,
+     "e": 0
+    },
+    {
+     "w": "aren't",
+     "t0": 4.59,
+     "t1": 5.81,
+     "e": 0
+    },
+    {
+     "w": "giving",
+     "t0": 5.81,
+     "t1": 5.93,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 5.93,
+     "t1": 6.21,
+     "e": 0
+    },
+    {
+     "w": "them.",
+     "t0": 6.21,
+     "t1": 6.35,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 3,
+     "t0": 0.1,
+     "t1": 1.78
+    },
+    {
+     "a": 4,
+     "b": 7,
+     "t0": 1.78,
+     "t1": 3.3
+    },
+    {
+     "a": 8,
+     "b": 10,
+     "t0": 3.3,
+     "t1": 5.76
+    },
+    {
+     "a": 11,
+     "b": 13,
+     "t0": 5.76,
+     "t1": 6.7
+    }
+   ],
+   "text": "to give them skills and knowledge that their schools otherwise aren't giving to them.",
+   "timing": "words",
+   "matched": 1.0,
+   "n": 3
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:15–00:30"
+   ],
+   "beat": "BIGGER TOGETHER",
+   "title": "Bigger Together",
+   "clip": "Interview_Closeup_Audio_Edit.mp4",
+   "start": 1641.54,
+   "src": "Interview_Closeup_Audio_Edit.mp4 27:21.5",
+   "dur": 14.92,
+   "words": [
+    {
+     "w": "And",
+     "t0": 0.15,
+     "t1": 0.331,
+     "e": 0
+    },
+    {
+     "w": "at",
+     "t0": 0.331,
+     "t1": 0.468,
+     "e": 0
+    },
+    {
+     "w": "NFTE,",
+     "t0": 0.468,
+     "t1": 0.785,
+     "e": 0
+    },
+    {
+     "w": "we",
+     "t0": 0.785,
+     "t1": 0.921,
+     "e": 0
+    },
+    {
+     "w": "actually",
+     "t0": 0.921,
+     "t1": 1.329,
+     "e": 0
+    },
+    {
+     "w": "are",
+     "t0": 1.329,
+     "t1": 1.511,
+     "e": 0
+    },
+    {
+     "w": "taking",
+     "t0": 1.511,
+     "t1": 1.828,
+     "e": 0
+    },
+    {
+     "w": "it",
+     "t0": 1.828,
+     "t1": 1.964,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 1.964,
+     "t1": 2.055,
+     "e": 0
+    },
+    {
+     "w": "step",
+     "t0": 2.055,
+     "t1": 2.282,
+     "e": 0
+    },
+    {
+     "w": "further.",
+     "t0": 2.282,
+     "t1": 2.69,
+     "e": 0
+    },
+    {
+     "w": "We",
+     "t0": 3.57,
+     "t1": 3.764,
+     "e": 0
+    },
+    {
+     "w": "are",
+     "t0": 3.764,
+     "t1": 4.022,
+     "e": 0
+    },
+    {
+     "w": "beginning",
+     "t0": 4.022,
+     "t1": 4.667,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 4.667,
+     "t1": 4.925,
+     "e": 0
+    },
+    {
+     "w": "process",
+     "t0": 4.925,
+     "t1": 5.442,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 5.442,
+     "t1": 5.635,
+     "e": 0
+    },
+    {
+     "w": "merging",
+     "t0": 5.635,
+     "t1": 6.152,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 6.152,
+     "t1": 6.41,
+     "e": 0
+    },
+    {
+     "w": "partnering",
+     "t0": 6.41,
+     "t1": 7.12,
+     "e": 0
+    },
+    {
+     "w": "with",
+     "t0": 7.12,
+     "t1": 7.443,
+     "e": 0
+    },
+    {
+     "w": "other",
+     "t0": 7.443,
+     "t1": 7.83,
+     "e": 0
+    },
+    {
+     "w": "organizations",
+     "t0": 7.83,
+     "t1": 8.734,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 8.734,
+     "t1": 9.056,
+     "e": 0
+    },
+    {
+     "w": "do",
+     "t0": 9.056,
+     "t1": 9.25,
+     "e": 0
+    },
+    {
+     "w": "what",
+     "t0": 9.25,
+     "t1": 9.7,
+     "e": 0
+    },
+    {
+     "w": "we",
+     "t0": 9.7,
+     "t1": 9.97,
+     "e": 0
+    },
+    {
+     "w": "do",
+     "t0": 9.97,
+     "t1": 10.24,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 10.24,
+     "t1": 10.51,
+     "e": 0
+    },
+    {
+     "w": "help",
+     "t0": 10.51,
+     "t1": 10.96,
+     "e": 0
+    },
+    {
+     "w": "this",
+     "t0": 10.96,
+     "t1": 11.41,
+     "e": 0
+    },
+    {
+     "w": "thing",
+     "t0": 11.41,
+     "t1": 11.95,
+     "e": 0
+    },
+    {
+     "w": "become",
+     "t0": 11.95,
+     "t1": 12.58,
+     "e": 0
+    },
+    {
+     "w": "stronger",
+     "t0": 12.58,
+     "t1": 13.39,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 13.39,
+     "t1": 13.75,
+     "e": 0
+    },
+    {
+     "w": "larger.",
+     "t0": 13.75,
+     "t1": 14.47,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 2,
+     "t0": 0.1,
+     "t1": 0.735
+    },
+    {
+     "a": 3,
+     "b": 6,
+     "t0": 0.735,
+     "t1": 1.778
+    },
+    {
+     "a": 7,
+     "b": 10,
+     "t0": 1.778,
+     "t1": 3.52
+    },
+    {
+     "a": 11,
+     "b": 13,
+     "t0": 3.52,
+     "t1": 4.617
+    },
+    {
+     "a": 14,
+     "b": 17,
+     "t0": 4.617,
+     "t1": 6.102
+    },
+    {
+     "a": 18,
+     "b": 19,
+     "t0": 6.102,
+     "t1": 7.07
+    },
+    {
+     "a": 20,
+     "b": 22,
+     "t0": 7.07,
+     "t1": 8.684
+    },
+    {
+     "a": 23,
+     "b": 27,
+     "t0": 8.684,
+     "t1": 10.19
+    },
+    {
+     "a": 28,
+     "b": 31,
+     "t0": 10.19,
+     "t1": 11.9
+    },
+    {
+     "a": 32,
+     "b": 33,
+     "t0": 11.9,
+     "t1": 13.34
+    },
+    {
+     "a": 34,
+     "b": 35,
+     "t0": 13.34,
+     "t1": 14.82
+    }
+   ],
+   "text": "And at NFTE, we actually are taking it a step further. We are beginning the process of merging and partnering with other organizations that do what we do to help this thing become stronger and larger.",
+   "timing": "segments",
+   "matched": 0.97,
+   "check": "No word-level times for this clip here: word times are spread inside each caption line. Check the timing by ear.",
+   "n": 4
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:35–00:40"
+   ],
+   "beat": "WHY NOW (BUTTON)",
+   "title": "Why Now (Button)",
+   "clip": "Interview_Closeup_Audio_Edit.mp4",
+   "start": 45.77,
+   "src": "Interview_Closeup_Audio_Edit.mp4 00:45.8",
+   "dur": 4.47,
+   "words": [
+    {
+     "w": "the",
+     "t0": 0.625,
+     "t1": 0.905,
+     "e": 0
+    },
+    {
+     "w": "world",
+     "t0": 0.625,
+     "t1": 0.675,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 0.668,
+     "t1": 1.013,
+     "e": 0
+    },
+    {
+     "w": "students",
+     "t0": 1.013,
+     "t1": 1.79,
+     "e": 0
+    },
+    {
+     "w": "most",
+     "t0": 1.79,
+     "t1": 2.221,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 2.221,
+     "t1": 2.48,
+     "e": 0
+    },
+    {
+     "w": "all",
+     "t0": 2.48,
+     "t1": 2.825,
+     "e": 0
+    },
+    {
+     "w": "need",
+     "t0": 3.225,
+     "t1": 3.379,
+     "e": 0
+    },
+    {
+     "w": "something",
+     "t0": 3.379,
+     "t1": 3.687,
+     "e": 0
+    },
+    {
+     "w": "different.",
+     "t0": 3.687,
+     "t1": 4.025,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 3,
+     "t0": 0.575,
+     "t1": 1.74
+    },
+    {
+     "a": 4,
+     "b": 7,
+     "t0": 1.74,
+     "t1": 3.329
+    },
+    {
+     "a": 8,
+     "b": 9,
+     "t0": 3.329,
+     "t1": 4.375
+    }
+   ],
+   "text": "the world and students most of all need something different.",
+   "timing": "segments",
+   "matched": 0.9,
+   "check": "No word-level times for this clip here: word times are spread inside each caption line. Check the timing by ear.",
+   "n": 5
+  }
+ ]
+}

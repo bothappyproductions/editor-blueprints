@@ -16,147 +16,149 @@
    "r": 10
   }
  },
- "note": "White text on the NFTE purple #4C12A1 box (the NFTE caption pairing in the content engine), Roboto (their accent face; Circular has no file), max 2 lines, NFTE in capitals. Timed from the words in the source clips. Not captioned: 00:10–00:14: only 9 of 12 words matched the audio (75%), so the line is likely another take or worded differently; check by ear; 00:14–00:17: only 4 of 8 words matched the audio (50%), so the line is likely another take or worded differently; check by ear.",
+ "note": "White text on the NFTE purple #4C12A1 box, Roboto (Circular has no file), max 2 lines, NFTE and Aflatoun spelled right. Timed from word times of C0343; rows 00:10–00:14 and 00:14–00:17 are timed from the wide shot's caption lines, so check them by ear. She has an accent: read every caption against the audio.",
  "tracks": [
   {
-   "n": 1,
-   "title": "Hook",
+   "tpl": "caption_track",
    "rows": [
     "00:00–00:05"
    ],
+   "beat": "HOOK",
+   "title": "Hook",
    "clip": "C0343.MP4",
-   "start": 806.59,
+   "start": 806.65,
    "src": "C0343.MP4 13:26.6",
-   "dur": 5.26,
+   "dur": 5.2,
    "words": [
     {
      "w": "We",
-     "t0": 0.21,
-     "t1": 0.49,
+     "t0": 0.15,
+     "t1": 0.43,
      "e": 0
     },
     {
      "w": "were",
-     "t0": 0.21,
-     "t1": 0.43,
+     "t0": 0.43,
+     "t1": 0.71,
      "e": 0
     },
     {
      "w": "not",
      "t0": 0.43,
-     "t1": 0.83,
+     "t1": 0.77,
      "e": 0
     },
     {
      "w": "born",
-     "t0": 0.83,
-     "t1": 1.23,
+     "t0": 0.77,
+     "t1": 1.17,
      "e": 0
     },
     {
      "w": "in",
-     "t0": 1.23,
-     "t1": 1.39,
+     "t0": 1.17,
+     "t1": 1.33,
      "e": 0
     },
     {
      "w": "the",
-     "t0": 1.39,
-     "t1": 1.518,
+     "t0": 1.33,
+     "t1": 1.458,
      "e": 0
     },
     {
      "w": "times",
-     "t0": 1.518,
-     "t1": 1.71,
+     "t0": 1.458,
+     "t1": 1.65,
      "e": 0
     },
     {
      "w": "where",
-     "t0": 1.71,
-     "t1": 2.05,
+     "t0": 1.65,
+     "t1": 1.99,
      "e": 0
     },
     {
      "w": "there",
-     "t0": 2.05,
-     "t1": 2.0999999999999996,
+     "t0": 1.99,
+     "t1": 2.04,
      "e": 0
     },
     {
      "w": "was",
-     "t0": 2.09,
-     "t1": 2.37,
+     "t0": 2.03,
+     "t1": 2.31,
      "e": 0
     },
     {
      "w": "AI,",
-     "t0": 2.37,
-     "t1": 2.69,
+     "t0": 2.31,
+     "t1": 2.63,
      "e": 0
     },
     {
      "w": "while",
-     "t0": 3.77,
-     "t1": 3.89,
+     "t0": 3.71,
+     "t1": 3.83,
      "e": 0
     },
     {
      "w": "young",
-     "t0": 3.89,
-     "t1": 4.13,
+     "t0": 3.83,
+     "t1": 4.07,
      "e": 0
     },
     {
      "w": "people",
-     "t0": 4.13,
-     "t1": 4.39,
+     "t0": 4.07,
+     "t1": 4.33,
      "e": 0
     },
     {
      "w": "are",
-     "t0": 4.39,
-     "t1": 4.81,
+     "t0": 4.33,
+     "t1": 4.75,
      "e": 0
     }
    ],
-   "pages": [
+   "lines": [
     {
-     "t0": 0.16,
-     "t1": 3.84,
-     "lines": [
-      [
-       0,
-       6
-      ],
-      [
-       7,
-       11
-      ]
-     ]
+     "a": 0,
+     "b": 3,
+     "t0": 0.1,
+     "t1": 1.12
     },
     {
-     "t0": 3.84,
-     "t1": 5.16,
-     "lines": [
-      [
-       12,
-       14
-      ]
-     ]
+     "a": 4,
+     "b": 8,
+     "t0": 1.12,
+     "t1": 1.98
+    },
+    {
+     "a": 9,
+     "b": 12,
+     "t0": 1.98,
+     "t1": 4.02
+    },
+    {
+     "a": 13,
+     "b": 14,
+     "t0": 4.02,
+     "t1": 5.1
     }
    ],
    "text": "We were not born in the times where there was AI, while young people are",
    "timing": "words",
-   "matched": 0.8,
-   "lang": "en"
+   "matched": 0.93,
+   "n": 1
   },
   {
-   "n": 2,
-   "title": "The Question",
+   "tpl": "caption_track",
    "rows": [
     "00:05–00:10"
    ],
+   "beat": "THE QUESTION",
+   "title": "The Question",
    "clip": "C0343.MP4",
    "start": 847.13,
    "src": "C0343.MP4 14:07.1",
@@ -265,47 +267,242 @@
      "e": 0
     }
    ],
-   "pages": [
+   "lines": [
     {
+     "a": 0,
+     "b": 3,
      "t0": 0.1,
-     "t1": 3.06,
-     "lines": [
-      [
-       0,
-       3
-      ],
-      [
-       4,
-       7
-      ]
-     ]
+     "t1": 1.18
     },
     {
-     "t0": 3.06,
-     "t1": 5.9,
-     "lines": [
-      [
-       8,
-       12
-      ],
-      [
-       13,
-       16
-      ]
-     ]
+     "a": 4,
+     "b": 5,
+     "t0": 1.18,
+     "t1": 2.2
+    },
+    {
+     "a": 6,
+     "b": 9,
+     "t0": 2.2,
+     "t1": 3.4
+    },
+    {
+     "a": 10,
+     "b": 12,
+     "t0": 3.4,
+     "t1": 4.42
+    },
+    {
+     "a": 13,
+     "b": 16,
+     "t0": 4.42,
+     "t1": 5.9
     }
    ],
    "text": "we're all discussing as decision makers, like, how should we prepare young people for this AI world?",
    "timing": "words",
    "matched": 1.0,
-   "lang": "en"
+   "n": 2
   },
   {
-   "n": 3,
-   "title": "So Listen",
+   "tpl": "caption_track",
+   "rows": [
+    "00:10–00:14"
+   ],
+   "beat": "THE ANSWER",
+   "title": "The Answer",
+   "clip": "C0343.MP4",
+   "start": 852.85,
+   "src": "C0343.MP4 14:12.8",
+   "dur": 4.6,
+   "words": [
+    {
+     "w": "Well,",
+     "t0": 0.15,
+     "t1": 0.624,
+     "e": 0
+    },
+    {
+     "w": "they",
+     "t0": 0.624,
+     "t1": 1.02,
+     "e": 0
+    },
+    {
+     "w": "are",
+     "t0": 1.02,
+     "t1": 1.376,
+     "e": 0
+    },
+    {
+     "w": "born",
+     "t0": 1.376,
+     "t1": 1.821,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 1.821,
+     "t1": 2.088,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 2.088,
+     "t1": 2.444,
+     "e": 0
+    },
+    {
+     "w": "world",
+     "t0": 2.444,
+     "t1": 2.894,
+     "e": 0
+    },
+    {
+     "w": "as",
+     "t0": 2.894,
+     "t1": 3.119,
+     "e": 0
+    },
+    {
+     "w": "it",
+     "t0": 3.119,
+     "t1": 3.343,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 3.343,
+     "t1": 3.568,
+     "e": 0
+    },
+    {
+     "w": "for",
+     "t0": 3.568,
+     "t1": 3.868,
+     "e": 0
+    },
+    {
+     "w": "them.",
+     "t0": 3.868,
+     "t1": 4.148,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 3,
+     "t0": 0.1,
+     "t1": 1.771
+    },
+    {
+     "a": 4,
+     "b": 7,
+     "t0": 1.771,
+     "t1": 3.069
+    },
+    {
+     "a": 8,
+     "b": 11,
+     "t0": 3.069,
+     "t1": 4.498
+    }
+   ],
+   "text": "Well, they are born in the world as it is for them.",
+   "timing": "segments",
+   "matched": 0.92,
+   "check": "No word-level times for this clip here: word times are spread inside each caption line. Check the timing by ear.",
+   "n": 3
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:14–00:17"
+   ],
+   "beat": "THE ANSWER",
+   "title": "The Answer",
+   "clip": "C0343.MP4",
+   "start": 826.06,
+   "src": "C0343.MP4 13:46.1",
+   "dur": 4.05,
+   "words": [
+    {
+     "w": "Young",
+     "t0": 0.15,
+     "t1": 0.666,
+     "e": 0
+    },
+    {
+     "w": "people",
+     "t0": 0.666,
+     "t1": 1.267,
+     "e": 0
+    },
+    {
+     "w": "often",
+     "t0": 1.267,
+     "t1": 1.733,
+     "e": 0
+    },
+    {
+     "w": "know",
+     "t0": 1.733,
+     "t1": 2.122,
+     "e": 0
+    },
+    {
+     "w": "already",
+     "t0": 2.122,
+     "t1": 2.744,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 2.744,
+     "t1": 2.899,
+     "e": 0
+    },
+    {
+     "w": "lot",
+     "t0": 2.899,
+     "t1": 3.21,
+     "e": 0
+    },
+    {
+     "w": "more.",
+     "t0": 3.21,
+     "t1": 3.598,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 3,
+     "t0": 0.1,
+     "t1": 2.072
+    },
+    {
+     "a": 4,
+     "b": 7,
+     "t0": 2.072,
+     "t1": 3.948
+    }
+   ],
+   "text": "Young people often know already a lot more.",
+   "timing": "segments",
+   "matched": 1.0,
+   "check": "No word-level times for this clip here: word times are spread inside each caption line. Check the timing by ear.",
+   "n": 4
+  },
+  {
+   "tpl": "caption_track",
    "rows": [
     "00:17–00:25"
    ],
+   "beat": "SO LISTEN",
+   "title": "So Listen",
    "clip": "C0343.MP4",
    "start": 811.33,
    "src": "C0343.MP4 13:31.3",
@@ -450,57 +647,62 @@
      "e": 0
     }
    ],
-   "pages": [
+   "lines": [
     {
+     "a": 0,
+     "b": 3,
      "t0": 0.1,
-     "t1": 3.58,
-     "lines": [
-      [
-       0,
-       4
-      ],
-      [
-       5,
-       10
-      ]
-     ]
+     "t1": 1.96
     },
     {
-     "t0": 3.58,
-     "t1": 6.82,
-     "lines": [
-      [
-       11,
-       13
-      ],
-      [
-       14,
-       18
-      ]
-     ]
+     "a": 4,
+     "b": 7,
+     "t0": 1.96,
+     "t1": 2.7
     },
     {
-     "t0": 6.82,
-     "t1": 8.36,
-     "lines": [
-      [
-       19,
-       22
-      ]
-     ]
+     "a": 8,
+     "b": 11,
+     "t0": 2.7,
+     "t1": 3.88
+    },
+    {
+     "a": 12,
+     "b": 12,
+     "t0": 3.88,
+     "t1": 4.42
+    },
+    {
+     "a": 13,
+     "b": 16,
+     "t0": 4.42,
+     "t1": 6.52
+    },
+    {
+     "a": 17,
+     "b": 19,
+     "t0": 6.52,
+     "t1": 7.1
+    },
+    {
+     "a": 20,
+     "b": 22,
+     "t0": 7.1,
+     "t1": 8.36
     }
    ],
    "text": "so it's even more important also to really listen to young people themselves, because they already see the world quite differently from us",
    "timing": "words",
-   "matched": 0.96,
-   "lang": "en"
+   "matched": 1.0,
+   "n": 5
   },
   {
-   "n": 4,
-   "title": "Button",
+   "tpl": "caption_track",
    "rows": [
     "00:25–00:31"
    ],
+   "beat": "BUTTON",
+   "title": "Button",
    "clip": "C0343.MP4",
    "start": 857.15,
    "src": "C0343.MP4 14:17.1",
@@ -528,24 +730,6 @@
      "w": "important",
      "t0": 1.57,
      "t1": 1.81,
-     "e": 0
-    },
-    {
-     "w": "to,",
-     "t0": 1.81,
-     "t1": 2.05,
-     "e": 0
-    },
-    {
-     "w": "you",
-     "t0": 2.05,
-     "t1": 2.29,
-     "e": 0
-    },
-    {
-     "w": "know,",
-     "t0": 2.29,
-     "t1": 2.65,
      "e": 0
     },
     {
@@ -639,40 +823,36 @@
      "e": 0
     }
    ],
-   "pages": [
+   "lines": [
     {
+     "a": 0,
+     "b": 3,
      "t0": 0.1,
-     "t1": 2.92,
-     "lines": [
-      [
-       0,
-       3
-      ],
-      [
-       4,
-       8
-      ]
-     ]
+     "t1": 2.24
     },
     {
-     "t0": 2.92,
-     "t1": 7.3,
-     "lines": [
-      [
-       9,
-       15
-      ],
-      [
-       16,
-       21
-      ]
-     ]
+     "a": 4,
+     "b": 7,
+     "t0": 2.24,
+     "t1": 3.4
+    },
+    {
+     "a": 8,
+     "b": 12,
+     "t0": 3.4,
+     "t1": 4.88
+    },
+    {
+     "a": 13,
+     "b": 18,
+     "t0": 4.88,
+     "t1": 7.3
     }
    ],
-   "text": "it's even more important to, you know, to listen to them and to see what they need from us to support them.",
+   "text": "it's even more important to listen to them and to see what they need from us to support them.",
    "timing": "words",
-   "matched": 0.86,
-   "lang": "en"
+   "matched": 1.0,
+   "n": 6
   }
  ]
 }

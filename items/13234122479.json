@@ -53,7 +53,7 @@
    "note": "Folders: Panel, Interviews, Reception, each with Proxies."
   }
  },
- "bp_intro": "Kirsten is only on camera in the wide shot <span class=\"mono\">L012C001</span> (she sits on the right). Clean sound and the Stephanie cutaway are in <span class=\"mono\">C0343.MP4</span>. L012C001 = C0343 minus 12.6 s; both times are on every row. Times come from the machine transcript, checked against the sound on 7 Oct. No frame grabs on this page. Check every framing note on scrub.",
+ "bp_intro": "Kirsten is only on camera in the wide shot <span class=\"mono\">L012C001_260922XQ.MXF</span> (she sits on the right). Clean sound and the Stephanie cutaway are in <span class=\"mono\">C0343.MP4</span>. L012C001 = C0343 minus 12.6 s; both times are on every row. Times come from the machine transcripts and word times, checked against the sound on 7 Oct. No frame grabs on this page yet. Check every framing note on scrub.",
  "rows": [
   {
    "tc": "00:00–00:05",
@@ -63,15 +63,21 @@
    "crop": "r",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "L012C001 [13:14.1], crop right to Kirsten. Grey top, a glass in her hand. She is already speaking and moves her hand. If the crop is too soft, use a wider crop with both women.",
+   "visual": "<a href=\"https://drive.google.com/file/d/1y9CZ3LWtzb09hH038ukJGV5pUgzheSXg/view\">L012C001_260922XQ.MXF</a> <span class=\"mono\">13:14.2</span>, crop right to Kirsten. Grey top, a glass in her hand. She is already speaking and moves her hand. The shot is flat (log): colour it. If the crop is too soft, use a wider crop with both women.",
    "motion": "Hook text on <b>frame 1</b>, top third: <q>They were born into AI.</q> White, bold, \"born\" in NFTE orange <span class=\"mono\">#FF5C39</span>. Cut on. <b>Name super</b> <span class=\"mono\">00:03–00:05</span>, small, lower left: \"Kirsten Theuns\" / \"Aflatoun\".",
    "voice": {
     "who": "Kirsten Theuns",
     "quote": "We were not born in the times where there was AI, while young people are",
-    "src": "C0343 13:26.8–13:31.3 = L012C001 13:14.1–13:18.7 (machine prints “in a times”; caption what you hear)"
+    "src": "C0343.MP4 13:26.8 to 13:31.3 = L012C001 13:14.2 to 13:18.7 (one pass prints “in a times”, the other “in the times”: caption what you hear)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Light, open bed starts low."
+   "music": "Light, open bed starts low.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "We were not born"
+    }
+   ]
   },
   {
    "tc": "00:05–00:10",
@@ -82,14 +88,20 @@
    "frame_tag": null,
    "frame_alt": null,
    "visual": "L012C001 [13:54.4–13:59.9], crop to Kirsten.",
-   "motion": "Hook text out at <span class=\"mono\">00:05</span>. Captions only.",
+   "motion": "Hook text out at <span class=\"mono\">00:05</span>. Then question text, top third, as she says it: <q>how should we prepare young people for this AI world?</q>.",
    "voice": {
     "who": "Kirsten Theuns",
     "quote": "we're all discussing as decision makers, like, how should we prepare young people for this AI world?",
-    "src": "C0343 14:07.1–14:12.6 = L012C001 13:54.4–13:59.9"
+    "src": "C0343.MP4 14:07.1 to 14:12.6 = L012C001 13:54.5 to 14:00.0"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "we're all discussing"
+    }
+   ]
   },
   {
    "tc": "00:10–00:14",
@@ -104,10 +116,22 @@
    "voice": {
     "who": "Kirsten Theuns",
     "quote": "Well, they are born in the world as it is for them.",
-    "src": "C0343 14:12.7–14:16.1 = L012C001 14:00.1–14:03.5 (machine passes differ on “in the world”; caption what you hear)"
+    "src": "C0343.MP4 14:12.7 to 14:16.1 = L012C001 14:00.1 to 14:03.5 (the L012C001 pass also hears “in the world”)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "clip": "C0343.MP4",
+     "at": 852.7,
+     "dur": 3.4,
+     "cx": 0.5,
+     "path": "NYC UNGA Panel Day Sept 22 2026/NYC 2026/Interviews/C0343.MP4",
+     "drive": "19gWL-lDyzj2xTKBe6YSMkIX-8kArvdYh",
+     "layout": "full",
+     "what": "Stephanie listens (check that her mouth is closed)"
+    }
+   ]
   },
   {
    "tc": "00:14–00:17",
@@ -122,10 +146,16 @@
    "voice": {
     "who": "Kirsten Theuns",
     "quote": "Young people often know already a lot more.",
-    "src": "C0343 13:45.8–13:48.9 = L012C001 13:33.1–13:36.3"
+    "src": "C0343.MP4 13:45.8 to 13:48.9 = L012C001 13:33.2 to 13:36.3 (out before “than us”)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Young people often"
+    }
+   ]
   },
   {
    "tc": "00:17–00:25",
@@ -136,14 +166,26 @@
    "frame_tag": null,
    "frame_alt": null,
    "visual": "The full wide shot of both women, L012C001 [13:19.0–13:26.7], or Stephanie listening in C0343 [13:31–13:39]. This is the one wide moment.",
-   "motion": "Captions only. Colour \"listen\" in NFTE orange.",
+   "motion": "Key words, top third, as she says them: <q>really listen to young people themselves</q>. Colour “listen” in NFTE orange.",
    "voice": {
     "who": "Kirsten Theuns",
     "quote": "so it's even more important also to really listen to young people themselves, because they already see the world quite differently from us",
-    "src": "C0343 13:31.6–13:39.3 = L012C001 13:19.0–13:26.7"
+    "src": "C0343.MP4 13:31.6 to 13:39.3 = L012C001 13:19.0 to 13:26.7"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Small lift."
+   "music": "Small lift.",
+   "shots": [
+    {
+     "clip": "L012C001_260922XQ.MXF",
+     "at": 799.0,
+     "dur": 7.7,
+     "cx": 0.5,
+     "path": "NYC UNGA Panel Day Sept 22 2026/NYC 2026/Interviews/L012C001_260922XQ.MXF",
+     "drive": "1y9CZ3LWtzb09hH038ukJGV5pUgzheSXg",
+     "layout": "full",
+     "what": "The full wide shot of both women (the one wide moment)"
+    }
+   ]
   },
   {
    "tc": "00:25–00:31",
@@ -153,15 +195,21 @@
    "crop": "r",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "L012C001 [14:04.9–14:11.4], crop to Kirsten. Cut \"you know, to\". Hold 0.5 s after \"support them\".",
+   "visual": "L012C001 <span class=\"mono\">14:05.0</span> to <span class=\"mono\">14:11.4</span>, crop to Kirsten. Cut “you know, to” if you hear it. Hold 0.5 s after <q>support them</q>.",
    "motion": "Captions only.",
    "voice": {
     "who": "Kirsten Theuns",
-    "quote": "it's even more important to, you know, to listen to them and to see what they need from us to support them.",
-    "src": "C0343 14:17.6–14:24.0 = L012C001 14:04.9–14:11.4 (cut “you know, to”)"
+    "quote": "it's even more important to listen to them and to see what they need from us to support them.",
+    "src": "C0343.MP4 14:17.6 to 14:24.0 = L012C001 14:05.0 to 14:11.4 (if you hear “you know, to” after “important to”, cut it)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Resolve on \"support them\"."
+   "music": "Resolve on \"support them\".",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "it's even more important"
+    }
+   ]
   },
   {
    "tc": "00:31–00:34",
@@ -171,11 +219,12 @@
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "NFTE end card, same as the other NFTE cuts.",
+   "visual": "NFTE end card, same as the other NFTE cuts: the white NFTE logo on NFTE purple <span class=\"mono\">#4C12A1</span>.",
    "motion": "NFTE logo. Nothing else.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Last note rings out. 1 s fade."
+   "music": "Last note rings out. 1 s fade.",
+   "shots": []
   }
  ],
  "frames": {},
@@ -221,12 +270,12 @@
    "None for this shoot."
   ],
   [
-   "Brand",
-   "No brand pack or font on the item. NFTE purple <span class=\"mono\">#4C12A1</span>, orange <span class=\"mono\">#FF5C39</span> (from nfte.com). Their font is Circular; we have no file. Use the caption style of the other NFTE cuts."
-  ],
-  [
    "Music",
    "No set source for NFTE. Use a licensed track and save the license with the project."
+  ],
+  [
+   "Brand",
+   "NFTE purple <span class=\"mono\">#4C12A1</span>, orange <span class=\"mono\">#FF5C39</span> (from nfte.com). Their font is Circular; we have no file. Graphics use DM Sans, captions Roboto. NFTE graphics package: Drive <span class=\"mono\">deliverables/graphics-packages/NFTE</span> (lower third bar, title plate, topic tag); type the words on the empty plates."
   ]
  ],
  "tech": [
@@ -240,7 +289,7 @@
   ],
   [
    "Colour",
-   "The picture is flat (log). Colour correct both cameras so they match."
+   "Both cameras are flat (log). Colour every shot so skin looks natural and both cameras match. Atdhe flagged the colour on V2 and V3: check each angle before export."
   ],
   [
    "Crop",
@@ -272,7 +321,8 @@
   "No logo before the end card. No title card or fade at 0:00.",
   "Both cameras are colour corrected and match.",
   "Name super is \"Kirsten Theuns\" / \"Aflatoun\". Spell both names right.",
-  "In every cutaway of Stephanie, her mouth is closed."
+  "In every cutaway of Stephanie, her mouth is closed.",
+  "Every motion graphic comes from this page's Motion graphics tab (Atdhe's note on V3)."
  ],
  "decisions": [
   {
@@ -281,11 +331,11 @@
   },
   {
    "t": "End card: NFTE alone, or NFTE + BUILD?",
-   "b": "Add a BUILD logo? Atdhe decides."
+   "b": "The UNGA cuts end on the NFTE logo. A white BUILD logo is now on this site (endcards/nfte/build-logo-white.svg). Atdhe decides if the UNGA cuts carry it."
   },
   {
    "t": "Kirsten's title on the name super",
-   "b": "Add her title? NFTE's own Instagram post of 2 Sep calls her Director of Strategic Partnerships & Development at Aflatoun. Add it, or keep \"Aflatoun\" only?"
+   "b": "She says on the terrace that she is Director of Strategic Partnerships and Development at Aflatoun International, and NFTE's Instagram (2 Sep) says the same. Add it under her name, or keep “Aflatoun” only? Atdhe decides."
   }
  ],
  "client_note": "<b>Why this matters:</b> Aflatoun is an NFTE partner and a World Series of Innovation sponsor. A partner voice on AI and youth fits NFTE's goal to lead on AI in learning.",
@@ -295,5 +345,167 @@
   "Can I use the terrace interviews?",
   "How do I spell Aflatoun?"
  ],
- "transcript": "Machine transcript of Interviews › C0343.MP4 (conversation at NFTE HQ, 22 Sep 2026). Times are mm:ss in C0343. L012C001 time = C0343 time minus 12.6 s. The machine writes \"NFTY\" for NFTE and \"Aflatune\"/\"AFRA\" for Aflatoun. Speaker names are not in the machine pass: Stephanie Alvarado (NFTE) asks, Kirsten Theuns (Aflatoun) answers most lines. Only first pass, check by ear.\n[12:20] Because I do believe that human skills as we say are even more important in this insecure time to\n[12:29] young people and again it's a matter of being and supporting young people at an\n[12:35] early age to make sure you have the critical thinking skills that they know how to solve problems,\n[12:41] how to work on teams because I really don't think it will get more important to have these skills\n[12:45] and again these are skills that you learn over time that you learn in school\n[12:50] that you learn within your community, within your parents and sisters so I think\n[12:55] making sure that this is embedded as early as possible within an education system\n[13:01] is of even more importance than it was before, if I can say like this.\n[13:09] Another theme also is like a lot of people, us decision makers, people that talk about how can we prepare young people\n[13:23] to get to work in this AI world.\n[13:26] We were not born in a times where there was AI,\n[13:30] while young people are.\n[13:31] So it's even more important also to really listen\n[13:34] to young people themselves because they already see the world\n[13:38] quite differently from us because we're trying to adjust\n[13:41] to all this new world, learning AI tools ourselves, et cetera.\n[13:46] All young people often know already a lot more.\n[13:49] Yeah, so I think you know really looking at how many young people see things is also even more important than\n[13:56] It used to be because they know for them. This is the world as they know it right so\n[14:03] That's another thing that we sometimes you know oh, you know we're all discussing as decision makers\n[14:09] Like how should we prepare young people for this AI world?\n[14:12] Well, they are born in the world as it is for them\n[14:16] And so, you know, it's even more important to listen to them and to see what they need from us to support them.\n[14:25] So that's still, I think, for all of us, a bit of a switch, like, OK, you know."
+ "transcript": "Machine transcripts of the conversation at the NFTE office (22 Sep 2026). Stephanie Alvarado (NFTE) asks, Kirsten Theuns (Aflatoun) answers most lines; the speakers are not labelled. The machine writes NFTY and Aflatune for NFTE and Aflatoun. First pass only: check by ear.\n--- C0343.MP4 ---\n[12:20] Because I do believe that human skills as we say are even more important in this insecure time to\n[12:29] young people and again it's a matter of being and supporting young people at an\n[12:35] early age to make sure you have the critical thinking skills that they know how to solve problems,\n[12:41] how to work on teams because I really don't think it will get more important to have these skills\n[12:45] and again these are skills that you learn over time that you learn in school\n[12:50] that you learn within your community, within your parents and sisters so I think\n[12:55] making sure that this is embedded as early as possible within an education system\n[13:01] is of even more importance than it was before, if I can say like this.\n[13:09] Another theme also is like a lot of people, us decision makers, people that talk about how can we prepare young people\n[13:23] to get to work in this AI world.\n[13:26] We were not born in a times where there was AI,\n[13:30] while young people are.\n[13:31] So it's even more important also to really listen\n[13:34] to young people themselves because they already see the world\n[13:38] quite differently from us because we're trying to adjust\n[13:41] to all this new world, learning AI tools ourselves, et cetera.\n[13:46] All young people often know already a lot more.\n[13:49] Yeah, so I think you know really looking at how many young people see things is also even more important than\n[13:56] It used to be because they know for them. This is the world as they know it right so\n[14:03] That's another thing that we sometimes you know oh, you know we're all discussing as decision makers\n[14:09] Like how should we prepare young people for this AI world?\n[14:12] Well, they are born in the world as it is for them\n[14:16] And so, you know, it's even more important to listen to them and to see what they need from us to support them.\n[14:25] So that's still, I think, for all of us, a bit of a switch, like, OK, you know.\n--- L012C001_260922XQ.MXF ---\n[00:13.6] complicated. Okay, so do I officially start? Okay, great.\n[00:18.5] Okay, Kirsten. So thanks for having some time to chat.\n[00:23.0] We're going to get started just kind of getting to know your work and how you've been affiliated with NFTE. So for those who aren't aren't aware of Aflatoun International's work, we'd love to just kind of learn how do you serve your students and, you know, kind of lead in entrepreneurship education. Yeah, thank you, Stephanie. Aflatoun is a global network organization and our main focus is social and financial education and entrepreneurship is part of that for us.\n[00:59.9] We support partners throughout the world. I believe we have almost 500 partners at the moment working in more than 100 countries delivering social financial education to children and young people starting at the age of three.\n[01:15.4] So early childhood development up to adulthood, basically. And this is also how we partner.\n[01:25.7] And one of the areas that Aflatoun does differently than us is with the younger aged students. So tell us a little bit more about and the focus on social emotional learning. So tell us a little bit more about those programs. And yeah, thank you. First of all, maybe about, we always say social financial education because we really believe that children, young people, people in general, need to have the social skills to also learn those financial skills.\n[01:57.3] They need to be aware who they are, who they are within their communities, their rights, responsibilities, to really have a sense of ownership, let's say, before they start learning about saving, budgeting, money matters, basically.\n[02:12.3] So we believe those two are very interlinked. So that's why we always teach both social and financial components. We started with young people because we believe the earlier the better. We've really seen that especially those kind of social soft skills, resilience, teamwork, critical thinking, problem solving. Children learn them at an early age, but they also learn them by doing and practicing. So it's not something we believe that you can start, you know, in secondary school level. It's better to start as early as possible because children do pick this up. And it's also a matter of not just learning this in school, but also within their communities, from their parents, from their peers, et cetera. So that's why we start as early as three years old, basically, to work with children, with their parents, and then up to adulthood. So it's a whole process, let's say. It's a mindset that they learn. Yeah. And one of the things that I often say, or we often say, is it's a mindset. It's also a muscle, to your point, that you have to be building throughout childhood. It's not something you learn once and you're all of a sudden good at problem solving, right? They're skill sets or you have developed strong emotional intelligence or you know, good collaboration skills. It's a muscle you have to build over and over again.\n[03:48.0] And you and I connected now probably three or four years ago. It's been years at this point.\n[03:54.4] And because our work is so complementary between NFTE and Aflatoun, you know, NFTE obviously focusing on entrepreneurship that ties into financial literacy.\n[04:07.7] But I would love to hear from you kind of, how do you see that complementary, you know, work that we do together?\n[04:15.7] Yeah. I remember very well when we met at an education conference outside the building.\n[04:23.9] And I think immediately, I think we spoke the same language basically.\n[04:30.7] For us, the work that we do together with NFTE is also based on the same values. I think we really believe in the same educational values. Education is a right for children. It's not a privilege. And then also the way we bring this education, like both of us have this learning by doing approach. It's also something children need to practice, need to work together to get these skills, to build these skills. So these methodologies that we have, this approach that we have is very much aligned. And I think we also complement each other. As you mentioned yourself, Aflatoun starts at an early age. So we built those foundational skills basically.\n[05:18.5] But these are needed also to build entrepreneurial skills and to build this muscle, build this mindset later on.\n[05:25.6] It's not something that, you know, comes immediately.\n[05:28.6] So I think we complement each other in all these different layers, methodology, you know, the different age groups that they go to, etc. So I think together makes a lot of sense.\n[05:41.4] And in the impact that you are looking to see, I would love for you to share more about kind of your students and examples of this though, the impact that, because I think there's a lot of alignment between when NFTE is thinking about how to not just define it at the individual student level, but also scaling that kind of impact through your partners, you know, through your hundreds of partners. What are we looking to do kind of within the entire landscape, within the ecosystem as part of our work? Indeed, maybe to reflect a bit similar to NFTE, we have this partnership network approach. So for Aflatoun, our work has always been about bringing or scaling, let's say. Of course, we aim to, you know, make an impact in an individual's life, but we also aim to do this at a bigger scale as possible, let's say.\n[06:44.6] So our approach is like we have a specific business model through which we work. It's really working with local partners, both at civil society level, so we work with small community-based organizations in the most remote villages, you know, in Africa, Asia, etc., that work with the most vulnerable children, children that don't go to school, children that drop out early, children that are on the street, etc., that also have a right to this education. On the other hand, we work with ministries, ministries of education, ministries of youth, finance, etc., central banks, to make sure that all children at national level in those countries have access to this social financial education that we provide.\n[07:30.7] So it's this holistic approach that we apply. With regards to impact as well, it's quite interesting, like we do quite a lot of impact studies, randomized control trials, etc., and we do see like a return on investment, really. If you invest in a child from an early age in social financial education, you do see at different levels that it has a return later on in life.\n[07:57.1] There is a lot of focus now in our system, like in the ecosystem nowadays, on foundational education skills, mathematics, English, etc., but we also see that actually children that gain financial literacy skills, entrepreneurship skills, actually also do better with regards to this foundational skill, so that's also, I think, a very important message to bring to, you know, other people outside of our sector that actually believe, oh, children need to have these foundational skills, actually teaching them the skills that we at NFTE provide them actually also improve those.\n[08:34.6] It's quite interesting that we see that more and more also as well.\n[08:42.2] Well, and the fact that, to your point about the focus on foundational literacy, numeracy skills that of course are always important for children to develop, and I think there is an element of organizations like ours leading the way in figuring out how you really measure and report on some of these other durable skills that go through other, you know, subjects or concrete knowledge bases, and it's still very new work that's being done, and so it is hard to quantify and define, so I would love, I know we have our entrepreneurial mindset and we've worked together on some of those things, but I would love any of your thoughts on your work there. For us here, it's always important that we work with the partners on the ground. As I mentioned, we are an organization that works through and with like local partners in different countries, and we get this question a lot also, even from ministries, like how can we actually measure these outcomes, so we really work together closely with teachers, for example, to see how can we embed that, embed measuring, let's say, the impact of the work that we do at their local level, so we have at Aflatoun, we have all kinds of tools for this, but the thing is that the tools need to fit the context as well, so for us, it's always one of the most important elements of the work is that we help the partners in whatever context, whatever country they are to contextualize, let's say, whatever monitoring tools, whatever measuring tools they use to the local situation, making it fit the system that they are operating in, so it's always a bit of a hard, like we have a lot of resources, a lot of materials that can be used as they are, but we always advise and always work with partners to make sure that they fit, so that's, you know, like we need to tailor make it to the local context, I would say, and really work with the people that have the ownership, let's say, in the end, it's not us that do this work, they do the work, let's say, we're there to support, advise, provide assistance, and yeah.\n[11:19.7] Let me see what other questions I have. Okay, so let me reset. So we're living through a time of obviously unprecedented technological change and where young people are facing an unprecedented uncertainty about what the future holds for them and careers, you know, what education trajectories are going to be the right ones to actually be able to help them build lives, and I would love kind of how Aflatoun is thinking about how to help young people prepare for that.\n[12:00.7] Yeah, also here I want to emphasize again the importance of an early start because I do believe that human skills, as we say, are even more important in these insecure times for young people, and again, it's a matter of being and supporting young people at an early age to make sure they have the critical thinking skills that they know how to solve problems, how to work in teams, because I believe it only will get more important to have these skills, and again, these are skills that you learn over time, that you learn in school, that you learn within your community, within your parents, etc.\n[12:41.8] So I think, yeah, making sure that this is embedded as early as possible within an education system is of even more importance than it was before, if I can say like this. Another thing also is like a lot of people, as decision makers, people that talk about how can we prepare young people to get to work in this AI world. We were not born in the times where there was AI, while young people are, so it's even more important also to really listen to young people themselves, because they already see the world quite differently from us, because we're trying to adjust to this new world, learning AI tools ourselves, etc.\n[13:33.1] Well, young people often know already a lot more than us, so I think really looking at how young people see things is also even more important than it used to be, because they know, for them, this is the world as they know it. So that's another thing that we sometimes, you know, oh, we're all discussing as decision makers, like how should we prepare young people for this AI world. Well, they are born in the world as it is for them, so it's even more important to listen to them and to see what they need from us to support them.\n[14:12.5] So that's still, I think, you know, for all of us, a bit of a switch, like, okay, you know.\n[14:18.3] Well, and it connects to the work that we've done together around the World Series of Innovation, because the premise is we want young people developing these skills, like design thinking and problem solving, and we think the best ideas can come from them. We need to give them the opportunity in the space to develop them. So I'd love to hear from you, kind of, in considering working with NFTE on the World Series of Innovation, kind of, what are the important pieces of that for your work that tie into what you're trying to accomplish? No, I fully agree with you.\n[14:54.2] I think the World Series of Innovation is exactly fitting here, because it's a very accessible, how can I say, approachable, let's say, challenge for young people to indeed come with their own ideas. It's everywhere, everybody around the world, you know, can step into this. And it fits really well with how Aflatoun works as well, and for us, we are only happy to join you in this challenge, because you already have the experience of rolling it out, etc.\n[15:27.8] We have, you know, partners that are interested to join, so from that perspective, we're happy to, you know, to contribute and to, we're happy to see that there's a lot of interest from our partners, from young people to join. And as I said, I think the key really here is that it is such an accessible challenge for young people to come with their own, you know, inputs, their own ideas.\n[15:57.2] So we're happy to be part of this, and I think it's a super good example of how we can bring something to young people worldwide. Right, and giving them the opportunity to share their ideas, to get some visibility for those ideas. And to also see that, you know, entrepreneurship, it's, everybody can be an entrepreneur, it's something, you can build those skills, it's not, you know, you don't, it's not something that you're born with, it's something that you can learn. And they practice again, what we said before, it's really learning by doing, and exercise again for them to do together with their peers as well. Right, and I know we've talked about this before, but the ability to reach young people in all different kinds of contexts, and what can be so challenging about this is the sharing of best practices for program implementation at scale, I think is one of the things that we've talked about before and with your team about kind of how can we actually do this to be the most effective possible in the weeds sometimes of specific tools and things like that. So I would love to learn when you are all thinking about growing and bringing on the right partners like NFTE and all the partners that you have around the world, what are you prioritizing to be able to have that impact with young people and reach as many as possible? Hi, as I mentioned, one thing that really helps us reach more and more young people is working with governments. There's more and more requests towards Aflatoun to provide, especially ministries of education, central banks with the technical assistance to include, let's say, financial literacy components into national curricula.\n[18:04.4] And this is a very good way to reach a lot of children.\n[18:07.7] There's many different ways to do this.\n[18:11.1] It's a long term process, of course, working with governments. It's really about designing curricula, training teachers, piloting, et cetera. So it's not something that is done very quickly, but we do believe that this is a very sustainable approach to really include it in national education systems.\n[18:31.2] But as I mentioned before as well, it's still important also to still work with other groups in the civil society because in a lot of countries, a lot of children, young people, don't have access to education in that sense. They don't go. So it's important to also have non-formal educational activities. What we also do, we work more and more with private sector, and we really believe, us together, I think also the same for NFTE, is that to scale up.\n[19:06.6] We have the technical expertise.\n[19:08.6] We know what programs are needed.\n[19:10.5] We know how to measure results, et cetera.\n[19:13.4] But the private sector also can bring the funds.\n[19:16.3] They can bring also the skill, the reach, et cetera. So really working together in a partnership and really we believe that creates social impact. And yet it's not just like you budget or you fund something and you have a report and that's it. No, it's really about this collaboration that you bring both.\n[19:35.9] You complement each other and really have an impact also on the longer term. I really think it's like different stakeholders to bring together and we both have this approach of bringing these different partners together to achieve scale. It's something that you need to do in a group. Yeah, absolutely.\n[19:58.1] I mean, yeah, the challenge that we were able to do for WSI last year is an example of that. I think being able to do it again this year and the collaboration of different NGOs with private for-profit sector is what being able to leverage the partnerships with government in the education, at least in our experience, working primarily with organizations like the US Embassy in different countries is where we've had the most success. But if you don't have the partnerships in place already, there's no way that you're going to be able to build up those avenues for funding and support with government-based stakeholders because they look for you to have the legitimacy through partnership.\n[20:46.8] So let me see what else we were supposed to do. What do you want to make sure and say?\n[21:07.6] Because we're going to give you the access to this recording as well, so if you want if there's something you want to make sure and say that maybe something that arms like there's a little low connectivity in the frame. Yeah, yeah.\n[21:37.4] Oh, you haven't talked about Kidpreneur. I don't know if you want to talk about any of the specific programs. Some of these are kind of like general. Oh, I want to ask this question. Are you okay with that so I can get a sound? Yeah, yeah. I mean, I don't know, like our longevity, like the fact that we've been in this space for so long, and we're continuing to innovate or something like that. Okay. You tell me what else you want me to say.\n[22:22.1] Okay. Okay, so, okay, we're gonna ask that question and then the outside reset.\n[22:33.3] Okay, so as we've been working together, what are the things that Aflatoun values in partnering with NFTE or in considering what areas to collaborate with with us in programs?\n[22:53.6] When I first started to study NFTE and I got to know about NFTE, me and also my educational specialist team, we were very impressed by the quality of your materials, of your resources, of your program, etc. I really believe that the programs that you have with young people are very solid, very innovative, very total, let's say.\n[23:22.2] It's really impressive, I would say.\n[23:26.2] Like our team was really, yeah, it seems like you built this up really based on evidence, etc. So it's really of very good quality, you know, the materials and the programs that you run.\n[23:41.2] And also because you have been around for a long time, you know what works, what doesn't work, and you know, we can see that in the quality of the materials and all the programs that you have.\n[23:56.4] So well done. Well thank you, right back at you. It's really important, I think, being part of this like learning organization and I really see that NFTE, you know, like you are learning, you are adapting, where you see new developments and like being this learning innovative organization that are just within time as well. So, and it's important we see it also within a Aflatoun, like we also have all these resources developed, but every now and then we need to look critically also at our own resources and see like is this still, you know, the latest, it's the same as what we discussed before. Is this really what young people need nowadays? Right. We are going into the discussion with young people also to see like are we missing something?\n[24:45.8] Do we need to change something? Right.\n[24:49.3] Yeah, I think this is also, it makes you very agile as an organization to have that learning approach to always see what can we do better? Do we need to change it?\n[24:59.1] And I think this is where we, another area where we have found each other. Well, that's what I was going to say is what we've learned from you and something that I'd love to learn more about how you have approached it so that you are able to partner with organizations that come from all different areas of the world, not just the sometimes easier to reach urban centers, but also the, you know, in the developing world, the, and Global South where there is rural populations or, you know, children that are harder to reach with materials, kind of how you all have approached being able to make your programs accessible. Yeah, I think it's a lot about really this partnership approach that we talked about before, really having this, how can I say, really listening to each other, really seeing what are the needs and really creating materials that can be adjusted based on those needs as well. We always say within Aflatoun, there's two main things that are very important for whatever we develop. First is that it can be adjusted to the local context, whatever the context is, whatever the target group is that we want to reach, whatever the local setting, etc.\n[26:26.5] Yeah, everything that we develop should be adjusted to the local needs.\n[26:32.2] Secondly is also the methodologies that we have behind it, that everything that we develop is based on an active learning methodology, as we discussed before, maybe learning by doing, etc. So it's first of all this kind of approach that we have. And then also for us, it is very important to work also in settings where there's sometimes no internet, where there's not a lot of formal jobs, especially their skills that we try to teach, as we said before, those soft skills, those social skills, those entrepreneurial skills are even more important for young people to get themselves and get their communities out of poverty. They often don't have the supporting environment always from an infrastructure perspective. We do see very often within Aflatoun and actually, if I may say personally, in my whole career in this development sector that it's so important to have people around you, like within Aflatoun, we organize very often events where we bring young people together from the most difficult backgrounds, the most vulnerable areas.\n[28:01.8] But we often see that there's somebody there to lift them up.\n[28:05.5] There's somebody there to support them. Even though they don't have internet, they have one teacher that takes them, guides them in life, etc. I've seen it so often, you know, that's a supportive, you know, somebody next to you that is everywhere in the world. It doesn't matter where you are, but especially in those settings where you don't have that supporting infrastructure, where there's less technology, there's less formal jobs, etc., to really have somebody there to teach you these kinds of skills, to grow in life, etc., to see the value of working together, to think critically, etc. It pops up very often in our activities.\n[28:51.3] Well, and the part of our role as the organizations supporting educators and, you know, often directly, sometimes directly to students, but usually through educators, that, you know, our role has continued to evolve because the access to just content is everywhere, right? People can access content about, you know, social emotional learning, financial literacy, entrepreneurship, or business, but it isn't the same as actually impacting young people and being able to bring that experience to life through, like you said, active learning, experiential learning, application for real life, and then connecting it to an ecosystem.\n[29:39.7] And I think that's one of the things that in our work together we both prioritize because it's that ability to make it real for the kids instead of it just being something they're reading online that actually makes a difference.\n[29:55.4] So, and on top of that, what we often see as well, working with teachers, working with parents, that they learn a lot in the process themselves as well.\n[30:08.0] I like, when in Aflatoun, of course, like a big part of the work that we do is also around financial literacy skills.\n[30:15.8] People learn how to save money, how to make a budget, etc.\n[30:20.7] A lot of skills that those adults also haven't learned, you know, when they were a child, or, you know, and it's life skills that also, you know, the teachers learn themselves when going through this process.\n[30:34.6] And it's also very important to know how to do these things before you teach also others.\n[30:40.2] So, right, it's, you know, it has this multiple, multiply impact. Yeah, no, the multiplier effect.\n[30:49.3] It really has this, the whole community, let's say, benefits from it. And yeah, all of them become kind of agents of change, you know, within their communities.\n[30:59.3] Well, and our role is to support those educators as they're trying to be that agent or that multiplier in their community with their kids. So, well, is there anything else you want to share? No, I think if we work together, there's so many things we can do. We truly believe in partnership with Enough La Tuna. So, it's a pleasure for us to partner with NFTE and all our partners globally together as well.\n[31:24.8] So, thank you for that. Well, thank you.\n[31:28.8] Okay, yes. I think so. I mean, we answered all the",
+ "alts": {
+  "hook:0": [
+   {
+    "text": "They were born into AI.",
+    "line": "We were not born in a times where there was AI,",
+    "why": "The hook in the plan."
+   },
+   {
+    "text": "Young people know more.",
+    "line": "Well, young people often know already a lot more than us",
+    "why": "A surprising claim."
+   },
+   {
+    "text": "Human skills matter more.",
+    "line": "I do believe that human skills, as we say, are even more important in these insecure times for young people",
+    "why": "Runner-up in the brief."
+   },
+   {
+    "text": "Listen to them.",
+    "line": "so it's even more important to listen to them and to see what they need from us to support them.",
+    "why": "Opens on the ask."
+   }
+  ],
+  "bite:0": [
+   {
+    "quote": "Because I do believe that human skills as we say are even more important in this insecure time to young people",
+    "who": "Kirsten Theuns",
+    "file": "C0343.MP4",
+    "why": "Runner-up in the brief."
+   },
+   {
+    "quote": "because we're trying to adjust to all this new world, learning AI tools ourselves, et cetera.",
+    "who": "Kirsten Theuns",
+    "file": "C0343.MP4",
+    "why": "Adults are still learning."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "Another theme also is like a lot of people, us decision makers, people that talk about how can we prepare young people to get to work in this AI world.",
+    "who": "Kirsten Theuns",
+    "file": "C0343.MP4",
+    "why": "The same question, said earlier."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "because they know for them. This is the world as they know it right so",
+    "who": "Kirsten Theuns",
+    "file": "C0343.MP4",
+    "why": "Runner-up in the brief."
+   },
+   {
+    "quote": "they know, for them, this is the world as they know it.",
+    "who": "Kirsten Theuns",
+    "file": "L012C001_260922XQ.MXF",
+    "why": "The same line in the wide shot's pass."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "because they already see the world quite differently from us",
+    "who": "Kirsten Theuns",
+    "file": "L012C001_260922XQ.MXF",
+    "why": "Short version of the next row."
+   },
+   {
+    "quote": "So I think you know really looking at how many young people see things is also even more important than",
+    "who": "Kirsten Theuns",
+    "file": "C0343.MP4",
+    "why": "How young people see things."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "making sure that this is embedded as early as possible within an education system is of even more importance than it was before, if I can say like this.",
+    "who": "Kirsten Theuns",
+    "file": "L012C001_260922XQ.MXF",
+    "why": "Start early."
+   },
+   {
+    "quote": "it's a matter of being and supporting young people at an early age to make sure they have the critical thinking skills",
+    "who": "Kirsten Theuns",
+    "file": "L012C001_260922XQ.MXF",
+    "why": "Critical thinking."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "So that's still, I think, you know, for all of us, a bit of a switch, like, okay, you know.",
+    "who": "Kirsten Theuns",
+    "file": "L012C001_260922XQ.MXF",
+    "why": "A soft close; ends loosely."
+   },
+   {
+    "quote": "Well, young people often know already a lot more than us, so I think really looking at how young people see things is also even more important than it used to be",
+    "who": "Kirsten Theuns",
+    "file": "L012C001_260922XQ.MXF",
+    "why": "Young people's view, from the wide shot's pass."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "NFTE runs clean: Kirsten's face in the wide shot carries most rows, the hook text, her name super, one question line, one key-word line, Stephanie listening to hide the jumps, and the NFTE end card. No logo before the end card.",
+  "devices": [
+   {
+    "row": "00:00–00:05",
+    "device": "Hook text, static, then the name super",
+    "asset": "highlight_callout + tag_label (MG library)",
+    "source": "Script; NFTE graphics package lower third bar"
+   },
+   {
+    "row": "00:05–00:10",
+    "device": "Question text top",
+    "asset": "highlight_callout (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:10–00:14",
+    "device": "Stephanie listening (cutaway)",
+    "asset": "C0343 14:12.7",
+    "source": "Interviews"
+   },
+   {
+    "row": "00:17–00:25",
+    "device": "The one wide shot; key words top",
+    "asset": "L012C001 13:19.0; highlight_callout",
+    "source": "Interviews; Script"
+   },
+   {
+    "row": "00:31–00:34",
+    "device": "End card",
+    "asset": "end_card (MG library)",
+    "source": "endcards/nfte, 9 Oct 2026"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "C0343.MP4",
+    "path": "NYC UNGA Panel Day Sept 22 2026/NYC 2026/Interviews/C0343.MP4",
+    "drive": "19gWL-lDyzj2xTKBe6YSMkIX-8kArvdYh",
+    "at": 811.6,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "Stephanie listens while Kirsten speaks (check that her mouth is closed)",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "NFTE logo, white",
+    "kind": "end_card",
+    "file": "endcards/nfte/nfte-logo-white.svg",
+    "url": null,
+    "local": null,
+    "alpha": true,
+    "size": "svg",
+    "fps": null
+   }
+  ],
+  "new_elements": []
+ }
 }

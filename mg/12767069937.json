@@ -1,0 +1,115 @@
+{
+ "item": "12767069937",
+ "client": "kiva",
+ "note": "The script asks for the hook text, one name super, two key-word lines and one word stack, so 5 graphics and the end card. One text element on screen at a time. The video is made in both sizes: use the 16:9 / 9:16 switch.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "Problems too big to solve?"
+   },
+   "cue": "Hook text on frame 1, top: “Problems too big to solve?”",
+   "src": "Script, row 00:00–00:11, Motion graphics & type.",
+   "rows": [
+    "00:00–00:11"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:04. Top third."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Vishal Ghotge"
+   },
+   "cue": "Name super at 00:11–00:14, small, lower left above the captions: “Vishal Ghotge” / CEO of Kiva.",
+   "src": "Script, row 00:11–00:31, Motion graphics & type.",
+   "rows": [
+    "00:11–00:31"
+   ],
+   "use": "Put it on at 00:11 for 3 s. Move it lower left, above the captions. Type the second line CEO of Kiva under it."
+  },
+  {
+   "n": 3,
+   "title": "Key words",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "an actionable small step"
+   },
+   "cue": "Key words, top third, as he says them: “an actionable small step”.",
+   "src": "Script, row 00:11–00:31, Motion graphics & type.",
+   "rows": [
+    "00:11–00:31"
+   ],
+   "use": "On his words “an actionable small step”, about 00:16. Top third. After the name super is gone."
+  },
+  {
+   "n": 4,
+   "title": "Key words",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "part of the solution"
+   },
+   "cue": "Key words, top third, as he says them: “part of the solution”.",
+   "src": "Script, row 00:31–00:42, Motion graphics & type.",
+   "rows": [
+    "00:31–00:42"
+   ],
+   "use": "On his words “part of the solution”, about 00:36. Top third."
+  },
+  {
+   "n": 5,
+   "title": "Who funds it",
+   "tpl": "word_stack",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "items": [
+     "you",
+     "me",
+     "a student",
+     "a teacher"
+    ]
+   },
+   "cue": "Key words one at a time, top third, as he says them: “you” / “me” / “a student” / “a teacher”.",
+   "src": "Script, row 00:51–01:10, Motion graphics & type.",
+   "rows": [
+    "00:51–01:10"
+   ],
+   "use": "Each word lands as he says it, about 01:01 to 01:04. Top third. Keep captions on."
+  },
+  {
+   "n": 6,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:16–01:20"
+   ],
+   "cue": "End card on dark forest green #223829: Kiva logo, then “Give a little. Change a lot.” and kiva.org.",
+   "src": "Kiva's white wordmark from the Kiva brand kit built from kiva.org (Mac Studio, state/kiva/brand/logos, 10 Oct 2026), endcards/index.json.",
+   "c": {
+    "bg": "#223829",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/kiva/kiva-logo-white.svg",
+   "text": {
+    "lines": [
+     "Give a little. Change a lot.",
+     "kiva.org"
+    ]
+   },
+   "dur": 4.0,
+   "use": "Right after the last line at 01:16. Hold it to the end. No other logo on this card."
+  }
+ ]
+}

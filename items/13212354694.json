@@ -1,19 +1,20 @@
 {
  "id": "13212354694",
  "client": "nfte",
- "eyebrow": "NFTE · Panel + reception · 22 Sep 2026 · Social reel",
+ "eyebrow": "NFTE · Panel + reception · 22 Sep 2026 · Social reel: the overview recap",
  "title": "UNGA Reel:",
- "title_q": "“A Machine Doesn't Have a Heart”",
- "title_short": "UNGA Reel · A Machine Doesn't Have a Heart",
+ "title_q": "“Human Connection and Collaboration”",
+ "title_short": "UNGA Reel · Panel recap · Human Connection",
  "editor": "Bleron",
- "due": "2026-10-07",
+ "due": "2026-10-20",
  "format": "9:16 only · 1080×1920",
- "length": "about 56 s",
+ "length": "about 55 s",
  "edit_key": "NFTEUngaPanelReceptionReel001",
- "headline": "The skills young people need most are the human ones. A machine doesn't have a heart.",
+ "headline": "One minute of the best panel moments: AI is powerful, the human skills stay ours, and it ends on the student asking the adults to listen.",
  "story": [
-  "NFTE's panel asked how to build human skills in an AI world. After it, two guests answered on camera. <b>Kirsten Theuns</b> (Aflatoun) says young people need compassion, because <b>a machine doesn't have a heart</b>. <b>Kate Parsons</b> says perseverance: working through things that have no easy answer. Two short panel lines sit between them.",
-  "It ends on Kate's answer to \"The one skill AI can't replace is…\": <b>human connection and collaboration</b>. Warm and hopeful. Not a recap of the day, not a city video."
+  "This reel is the overview recap NFTE asked for: the best moments of the panel, strung as one minute, with the reception as texture. It opens on the answer to <q>The one skill AI can't replace is…</q>: <b>human connection and collaboration</b>.",
+  "Then one idea per panelist: J.D. on adjusting when you were wrong, Nich Haber on keeping a human head on the machine, Kirsten Theuns on following the young people. Kirsten on the terrace lands the turn: <b>a machine doesn't have a heart</b>. It ends on the student, asking every educator in the room to listen to their voices, and the real applause.",
+  "<b>Loops:</b> L1 <q>The one skill AI can't replace is…</q> opens at 0:00 and closes at 00:03. L2 <q>Who should we listen to?</q> opens with Kirsten at 00:21 and closes on the student at 00:50. Warm and hopeful, never afraid of AI. Not a city video."
  ],
  "feel": [
   "Warm",
@@ -23,18 +24,18 @@
   "Zero typos"
  ],
  "do": [
-  "Open on frame 1 with Kirsten already saying \"a machine doesn't have a heart\".",
-  "Let the two reflections carry the video. The panel lines are short bridges.",
-  "Cover every pause cut with reception B-roll.",
-  "Keep the button text up until Kate speaks.",
-  "Keep captions on the whole time."
+  "Open on frame 1 with the hook text on screen and Kate about to answer.",
+  "One idea per speaker. Keep each bite whole.",
+  "Name super on everyone who speaks except the student: small, lower left, 2 s.",
+  "Cover every join with the panel room or reception B-roll.",
+  "End on the student and 2 s of the real applause. Keep captions on the whole time."
  ],
  "dont": [
-  "Don't use L012C006 00:26.4–00:29.1. The words are not clear.",
-  "Don't use the videographer's voice.",
-  "Don't use L012C003 30:07–32:43, 45:53–47:27, 50:02–51:00 or 51:42–51:56. Other UNGA cuts own them.",
-  "No city name, skyline title or map. The buildings behind them are fine.",
-  "No logo, title card or fade at 0:00. 9:16 only."
+  "Don't put a name super on the student. Her name is not confirmed.",
+  "Don't use the student's “we are the ones who are going to be living in this world” or J.D.'s “wise words of a student”: the Student Voice cut owns them.",
+  "Don't use L012C003 30:07–31:13 (the Ireland story) or 45:52–47:26 and 51:09–51:56: other UNGA cuts own them.",
+  "Don't use the videographer's voice, or L012C006 after 00:26 (not clear).",
+  "No city name, UN or event name, skyline title or map. No logo, title card or fade at 0:00. 9:16 only."
  ],
  "links": {
   "brief": {
@@ -53,183 +54,228 @@
    "note": "Folders: Panel, Interviews, Reception, each with Proxies."
   }
  },
- "bp_intro": "Voices come from three files: the terrace reflections <span class=\"mono\">L012C006</span> (Kirsten) and <span class=\"mono\">L012C009</span> (Kate), and the panel recording <span class=\"mono\">L012C003</span>. Times are minutes:seconds from the first frame of each file, from the machine transcripts. The pictures here are clip stills from Drive (one per file, exact time unknown). They show the setup, not the exact moment. Check every shot on scrub.",
+ "bp_intro": "Voices come from the panel recording <span class=\"mono\">L012C003_260922M0.MXF</span> (J.D. on Track 2 before 27:52, everyone else on Track 1) and the terrace reflections <span class=\"mono\">L012C009_26092218.MXF</span> (Kate) and <span class=\"mono\">L012C006_260922EP.MXF</span> (Kirsten), Track 2. Times are mm:ss.s in each file, from word times of the proxies (Nich's centaur line has line times only). The pictures are clip stills from Drive (one per file, exact time unknown): they show the setup, not the moment. Check every shot on scrub.",
  "rows": [
   {
-   "tc": "00:00–00:02",
+   "tc": "00:00–00:05",
    "beat": "HOOK",
    "kind": "hook",
-   "frame": "f_l012c006",
+   "frame": "f_l012c009",
    "crop": "c",
-   "frame_tag": "clip still · L012C006",
-   "frame_alt": "Kirsten Theuns on the terrace, black jacket, office towers behind her",
-   "visual": "L012C006 [00:24.6]. Kirsten on the terrace, black jacket, green earrings, looking into the lens. Office towers behind her. She blinks at 00:24.6: start on the nearest frame with her eyes open. Crop centred on her face.",
-   "motion": "Hook text on <b>frame 1</b>, top third: <q>A machine doesn't have a heart.</q> White, bold, \"heart\" in NFTE orange <span class=\"mono\">#FF5C39</span>. Cut on.",
+   "frame_tag": "clip still · L012C009 (time unknown)",
+   "frame_alt": "Kate Parsons on the terrace, tan top, small mic on her top",
+   "visual": "Kate on the terrace, <a href=\"https://drive.google.com/file/d/1GZU-Ac9xjgjvCtabDb4_coirSQjubA98/view\">L012C009_26092218.MXF</a> from <span class=\"mono\">01:35.0</span>: she thinks for a moment, then answers into the lens at <span class=\"mono\">01:36.0</span>. Hold 1 s after <q>collaboration</q> and cut before the videographer's “Beautiful” (about <span class=\"mono\">01:40.6</span>). Crop centred on her face. The question is the videographer's, off camera: do not use his voice.",
+   "motion": "Hook text on <b>frame 1</b>, top third, white bold: <q>The one skill AI can't replace is…</q> Already on screen at 0:00. It does not animate on. Out at <span class=\"mono\">00:02</span>. <b>Name super</b> <span class=\"mono\">00:03–00:05</span>, small, lower left: <q>Kate Parsons</q> / Chief Strategy Officer, CAPS Network.",
    "voice": {
-    "who": "Kirsten Theuns",
-    "quote": "a machine doesn't have a heart",
-    "src": "L012C006 T2 00:24.6–00:25.9 (cut out at 00:25.9; the next words are not clear)"
+    "who": "Kate Parsons",
+    "quote": "Human connection and collaboration.",
+    "src": "L012C009_26092218.MXF 01:36.0 to 01:39.1 (Track 2, the mic; picture from 01:35.0)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Warm, light bed starts low under her voice."
+   "music": "Warm, light bed starts low on frame 1.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Human"
+    }
+   ]
   },
   {
-   "tc": "00:02–00:07",
-   "beat": "WHAT THEY NEED",
+   "tc": "00:05–00:13",
+   "beat": "ADJUST",
+   "kind": "",
+   "frame": "f_c0169",
+   "crop": "c",
+   "frame_tag": "clip still · C0169 (time unknown)",
+   "frame_alt": "Wide shot from the back of the panel room, the panel far away",
+   "visual": "1 s of the room first: <a href=\"https://drive.google.com/file/d/1wrcTEKG24dV3Zeer6qQXuRPIMTTc9J0U/view\">C0169</a> (7 s clip, wide from the back, the panel far away). Then <a href=\"https://drive.google.com/file/d/10_PguxP83YSLa5yzdHp2zgTRw7nhVqQt/view\">L012C003_260922M0.MXF</a> at the same time: J.D. standing with the hand mic, light purple jacket. Crop to him. Track 1 is silent here: the sound is Track 2 (camera mic). Clean the room noise.",
+   "motion": "<b>Name super</b> <span class=\"mono\">00:06–00:08</span>, small, lower left: <q>J.D. LaRock</q> / CEO, NFTE.",
+   "voice": {
+    "who": "J.D. LaRock",
+    "quote": "The ability to admit that where you started might be a little bit wrong, but you have the opportunity to adjust.",
+    "src": "L012C003_260922M0.MXF 27:26.0 to 27:33.4 (Track 2, camera mic)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "clip": "C0169.MP4",
+     "at": 1.0,
+     "dur": 1.0,
+     "cx": 0.5,
+     "path": "NYC UNGA Panel Day Sept 22 2026/NYC 2026/Panel/C0169.MP4",
+     "drive": "1wrcTEKG24dV3Zeer6qQXuRPIMTTc9J0U",
+     "layout": "full",
+     "what": "Wide from the back of the panel room, the panel far away"
+    },
+    {
+     "face": true,
+     "from_word": "The ability"
+    }
+   ]
+  },
+  {
+   "tc": "00:13–00:21",
+   "beat": "A HUMAN HEAD",
    "kind": "",
    "frame": null,
    "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "L012C006, same take, earlier in the file. She looks up as she starts. Same crop.",
-   "motion": "Hook text stays to <span class=\"mono\">00:05</span>. <b>Name super</b> <span class=\"mono\">00:05–00:07</span>, small, lower left: \"Kirsten Theuns\" / \"Aflatoun International\". Colour \"compassion\" in NFTE orange.",
-   "voice": {
-    "who": "Kirsten Theuns",
-    "quote": "What young people need from us that a machine cannot give them, first of all, I think, is compassion.",
-    "src": "L012C006 T2 00:01.4–00:06.6"
-   },
-   "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
-  },
-  {
-   "tc": "00:07–00:11",
-   "beat": "THE PANEL",
-   "kind": "",
-   "frame": "f_c0169",
-   "crop": "c",
-   "frame_tag": "clip still · C0169",
-   "frame_alt": "Wide shot from the back of the panel room, the panel far away",
-   "visual": "1 s of the wide room: C0169, from the back, the panel far away. Then L012C003 at the same time: Nich Haber (Pearson), dark suit. Crop to him.",
-   "motion": "<b>Name super</b> <span class=\"mono\">00:08–00:10</span>, small, lower left: \"Nich Haber\" / \"Pearson\".",
+   "visual": "<a href=\"https://drive.google.com/file/d/10_PguxP83YSLa5yzdHp2zgTRw7nhVqQt/view\">L012C003_260922M0.MXF</a> at the same time: Nich Haber (Pearson), dark suit, long lens. Crop to him. Cut out his “reverse centaur” sentence (<span class=\"mono\">48:18</span> to <span class=\"mono\">48:28</span>) and cover the join with the audience listening: <a href=\"https://drive.google.com/file/d/1pq-ity9J-Ypud2IIHxf5S9-IkPXwiBsm/view\">C0168</a> (13 s clip; a man stands at the back). Pick 1.5 s with nobody talking.",
+   "motion": "<b>Name super</b> <span class=\"mono\">00:14–00:16</span>, small, lower left: <q>Nich Haber</q> / Pearson.",
    "voice": {
     "who": "Nich Haber (Pearson)",
-    "quote": "We want a human head controlling this powerful machine.",
-    "src": "L012C003 T1 48:28.1–48:30.9"
+    "quote": "A centaur is a human head and the power of a horse's body. We want a human head controlling this powerful machine.",
+    "src": "L012C003_260922M0.MXF 48:13.0 to 48:18.0 + 48:28.1 to 48:31.0 (Track 1; the first line has line times only, find it on the waveform)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "A centaur"
+    },
+    {
+     "clip": "C0168.MP4",
+     "at": 5.0,
+     "dur": 1.5,
+     "cx": 0.5,
+     "path": "NYC UNGA Panel Day Sept 22 2026/NYC 2026/Panel/C0168.MP4",
+     "drive": "1pq-ity9J-Ypud2IIHxf5S9-IkPXwiBsm",
+     "layout": "full",
+     "what": "The audience listens, a man stands at the back"
+    },
+    {
+     "face": true,
+     "from_word": "We want"
+    }
+   ]
   },
   {
-   "tc": "00:11–00:21",
-   "beat": "PERSEVERANCE",
-   "kind": "",
-   "frame": "f_l012c009",
-   "crop": "c",
-   "frame_tag": "clip still · L012C009",
-   "frame_alt": "Kate Parsons on the terrace, tan top, small mic on her top",
-   "visual": "L012C009. Kate on the terrace, tan top, wavy brown hair, small mic on her top. She is centred, so the crop is easy. Cut the pauses at 01:01.0–01:01.4 and 01:02.9–01:04.0.",
-   "motion": "<b>Name super</b> <span class=\"mono\">00:12–00:14</span>, small, lower left: \"Kate Parsons\" / \"Chief Strategy Officer, CAPS Network\". Colour \"perseverance\" in NFTE orange.",
-   "voice": {
-    "who": "Kate Parsons",
-    "quote": "One human skill that matters more now than it did before, I would say is maybe that perseverance or being able to push through things that are hard.",
-    "src": "L012C009 T2 00:56.6–01:08.0"
-   },
-   "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
-  },
-  {
-   "tc": "00:21–00:26",
-   "beat": "PERSEVERANCE",
-   "kind": "",
-   "frame": "f_c0181",
-   "crop": "l",
-   "frame_tag": "clip still · C0181",
-   "frame_alt": "Woman in a tan sweater with a drink laughs with a woman in glasses at the reception",
-   "visual": "Cover one of Kate's pause cuts with C0181: a woman in a tan sweater laughs with a guest. It looks like Kate (same top). Check her face. Crop left to her. Or C0180, the wide room.",
-   "motion": "Captions only.",
-   "voice": {
-    "who": "Kate Parsons",
-    "quote": "I think a lot of times in the age of AI or even just general search engines, you can get an answer really quickly.",
-    "src": "L012C009 T2 01:08.0–01:13.0"
-   },
-   "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
-  },
-  {
-   "tc": "00:26–00:35",
-   "beat": "NO EASY ANSWER",
-   "kind": "",
-   "frame": "f_c0182",
-   "crop": "c",
-   "frame_tag": "clip still · C0182",
-   "frame_alt": "Three women talk and hold plates of food in front of red curtains",
-   "visual": "Back on Kate, L012C009. She uses her hand at 01:18. Make the pauses at 01:20.0–01:20.2, 01:20.6–01:21.2 and 01:21.8–01:22.3 shorter. Cover a cut with C0182 (three women with plates) or C0185.",
-   "motion": "Captions only.",
-   "voice": {
-    "who": "Kate Parsons",
-    "quote": "being able to actually work through something where there's not an easy answer is something that will be a skill that will be very much required in the future.",
-    "src": "L012C009 T2 01:14.3–01:24.1 (cut “And so” at the head)"
-   },
-   "sfx": "<span class=\"none\">None.</span>",
-   "music": "Small lift on \"not an easy answer\"."
-  },
-  {
-   "tc": "00:35–00:44",
+   "tc": "00:21–00:31",
    "beat": "FOLLOW THEM",
-   "kind": "",
-   "frame": "f_c0166",
-   "crop": "c",
-   "frame_tag": "clip still · C0166",
-   "frame_alt": "Audience members seated in the panel room, a man in a dark suit listening",
-   "visual": "L012C003 at the same time: Kirsten on the panel, hand mic. One audience shot over the middle: C0166 (still), C0168 or C0175.",
-   "motion": "Captions only. Colour \"follow them\" in NFTE orange.",
-   "voice": {
-    "who": "Kirsten Theuns",
-    "quote": "the young people themselves went a certain way. So let's go with them, let's follow them, but just make sure that they're operating in a safe environment.",
-    "src": "L012C003 T1 49:46.7–49:55.9"
-   },
-   "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
-  },
-  {
-   "tc": "00:44–00:50",
-   "beat": "SAFE, ETHICAL",
-   "kind": "",
-   "frame": "f_c0184",
-   "crop": "c",
-   "frame_tag": "clip still · C0184",
-   "frame_alt": "Woman with long hair and green earrings, grey top, inside the reception room",
-   "visual": "L012C006 on the terrace. Cut the long \"We\" pause (00:14.0–00:14.6) and cover it with C0184 or C0183: a woman in a grey top with green earrings talks with a guest inside. It looks like Kirsten. Check her face.",
-   "motion": "Captions only.",
-   "voice": {
-    "who": "Kirsten Theuns",
-    "quote": "We can support young people to be safe, to be ethical, to think critically.",
-    "src": "L012C006 T2 00:13.2–00:20.0 (out at 00:20.0, before the small sound at 00:20.2)"
-   },
-   "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed thins out."
-  },
-  {
-   "tc": "00:50–00:54",
-   "beat": "BUTTON",
    "kind": "turn",
    "frame": null,
    "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "L012C009 [01:35.5]. Kate thinks in silence, then answers into the lens. Hold 0.5 s after \"collaboration\".",
-   "motion": "Text from the first frame of this row, top third, same style as the hook: <q>The one skill AI can't replace is…</q> Off when she starts to speak. Then captions.",
+   "visual": "<a href=\"https://drive.google.com/file/d/10_PguxP83YSLa5yzdHp2zgTRw7nhVqQt/view\">L012C003_260922M0.MXF</a> at the same time: Kirsten on the panel, grey top, hand mic. Crop to her. One audience shot over the middle: <a href=\"https://drive.google.com/file/d/162oSVvmVlkdav3A76Qk8nRyK7eL9SJb4/view\">C0175</a> (20 s clip, the audience from behind). Then back to her for <q>a safe environment</q>.",
+   "motion": "<b>Name super</b> <span class=\"mono\">00:22–00:24</span>, small, lower left: <q>Kirsten Theuns</q> / Aflatoun.",
    "voice": {
-    "who": "Kate Parsons",
-    "quote": "Human connection and collaboration.",
-    "src": "L012C009 T2 01:37.0–01:39.1 (the prompt at 01:29.5 is the videographer, off camera; do not use his voice)"
+    "who": "Kirsten Theuns",
+    "quote": "the young people themselves went a certain way. So let's go with them, let's follow them, but just make sure that they're operating in a safe environment.",
+    "src": "L012C003_260922M0.MXF 49:46.7 to 49:56.3 (Track 1)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Soft under her silence. Resolve on \"collaboration\"."
+   "music": "Bed steady. Loop 2 opens.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "the young people"
+    },
+    {
+     "clip": "C0175.MP4",
+     "at": 8.0,
+     "dur": 2.0,
+     "cx": 0.5,
+     "path": "NYC UNGA Panel Day Sept 22 2026/NYC 2026/Panel/C0175.MP4",
+     "drive": "162oSVvmVlkdav3A76Qk8nRyK7eL9SJb4",
+     "layout": "full",
+     "what": "The audience from behind"
+    },
+    {
+     "face": true,
+     "from_word": "but just make sure"
+    }
+   ]
   },
   {
-   "tc": "00:54–00:56",
+   "tc": "00:31–00:39",
+   "beat": "A MACHINE DOESN'T HAVE A HEART",
+   "kind": "turn",
+   "frame": "f_l012c006",
+   "crop": "c",
+   "frame_tag": "clip still · L012C006 (time unknown)",
+   "frame_alt": "Kirsten Theuns on the terrace, black jacket, office towers behind her",
+   "visual": "Kirsten on the terrace, <a href=\"https://drive.google.com/file/d/16xg3iFaBBbmUCHYZeY5YnJtexPvhqHtC/view\">L012C006_260922EP.MXF</a> from <span class=\"mono\">00:01.3</span>, then <span class=\"mono\">00:24.4</span> to <span class=\"mono\">00:25.9</span>. Cover the join with 1 s of the reception: <a href=\"https://drive.google.com/file/d/19-0PNwkjuKsE133EoZAClcBzcvAI9FQX/view\">C0182</a> (three women talk and hold plates of food). Stop at <span class=\"mono\">00:25.9</span>: the words after it are not clear. She blinks at 00:24.6: use a frame with her eyes open. No name super here (she had one at 00:22).",
+   "motion": "Key words, top third, as she says them: <q>a machine doesn't have a heart</q>. Colour “heart” in NFTE orange <span class=\"mono\">#FF5C39</span>.",
+   "voice": {
+    "who": "Kirsten Theuns",
+    "quote": "What young people need from us that a machine cannot give them, first of all, I think, is compassion. A machine doesn't have a heart.",
+    "src": "L012C006_260922EP.MXF 00:01.3 to 00:06.6 + 00:24.4 to 00:25.9 (Track 2, the mic)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed thins out a little.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "What"
+    },
+    {
+     "clip": "C0182.MP4",
+     "at": 5.0,
+     "dur": 1.0,
+     "cx": 0.5,
+     "path": "NYC UNGA Panel Day Sept 22 2026/NYC 2026/Reception/C0182.MP4",
+     "drive": "19-0PNwkjuKsE133EoZAClcBzcvAI9FQX",
+     "layout": "full",
+     "what": "Three women talk and hold plates of food (reception)"
+    },
+    {
+     "face": true,
+     "from_word": "A machine"
+    }
+   ]
+  },
+  {
+   "tc": "00:39–00:50",
+   "beat": "LISTEN TO OUR VOICES",
+   "kind": "turn",
+   "frame": "f_c0166",
+   "crop": "c",
+   "frame_tag": "clip still · C0166 (time unknown)",
+   "frame_alt": "Audience members seated in the panel room, a man in a dark suit listening",
+   "visual": "<a href=\"https://drive.google.com/file/d/10_PguxP83YSLa5yzdHp2zgTRw7nhVqQt/view\">L012C003_260922M0.MXF</a> at the same time: the student in close-up, black jacket, white top, hand mic. Cut “So” at the head. On the applause cut for 1 s to the room: <a href=\"https://drive.google.com/file/d/1uMiDzHNMc_AQR5uRXFRlpFpKcHiVUupE/view\">C0166</a> (15 s clip; a moment where nobody speaks; the Student Voice cut uses this clip too, pick a different second). Then back to her smiling.",
+   "motion": "Captions only. No name super on her. Colour “listen to our voices” in NFTE orange.",
+   "voice": {
+    "who": "NFTE student, 14",
+    "quote": "I really want to encourage all the educators here today to really listen to our voices and act on decisions that we think would be the best for our future.",
+    "src": "L012C003_260922M0.MXF 50:39.7 to 50:48.2 (Track 1; cut “So”) + 2 s of the real applause to 50:50.2"
+   },
+   "sfx": "The real applause. 2 s. Nothing added.",
+   "music": "Bed lifts under the applause, then resolves. Loop 2 closes.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I really want"
+    },
+    {
+     "clip": "C0166.MP4",
+     "at": 9.0,
+     "dur": 1.0,
+     "cx": 0.5,
+     "path": "NYC UNGA Panel Day Sept 22 2026/NYC 2026/Panel/C0166.MP4",
+     "drive": "1uMiDzHNMc_AQR5uRXFRlpFpKcHiVUupE",
+     "layout": "full",
+     "what": "The audience in the panel room, on the applause"
+    }
+   ]
+  },
+  {
+   "tc": "00:50–00:53",
    "beat": "END CARD",
    "kind": "end",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "L012C008 (2 s of the buildings at dusk) under the NFTE end card.",
+   "visual": "<a href=\"https://drive.google.com/file/d/16-s6tWNg9T0r7jjQyN0_exf3vdqh9alu/view\">L012C008_260922QQ.MXF</a> (2 s of the buildings at dusk, no people) under the NFTE end card.",
    "motion": "NFTE logo. Nothing else.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Last note rings out. 1 s fade."
+   "music": "Last note rings out. 1 s fade.",
+   "shots": []
   }
  ],
  "frames": {
@@ -247,28 +293,24 @@
    "<a href=\"https://docs.google.com/document/d/1BeOfidEu3eK8XD1MVTdnnKD8_no4dQHoAcZIq7K9ybk/edit\">Production Brief — NFTE UNGA Panel Day (Sept 22, 2026)</a>"
   ],
   [
-   "Reference",
-   "Not chosen yet."
-  ],
-  [
    "Shoot folder",
    "<a href=\"https://drive.google.com/drive/folders/1ihznCW21qB8xxmjIBMqY5GT_7foEWFLj\">NFTE › Raw Footage › NYC UNGA Panel Day Sept 22 2026 › NYC 2026</a>"
   ],
   [
-   "Terrace",
-   "<a href=\"https://drive.google.com/file/d/16xg3iFaBBbmUCHYZeY5YnJtexPvhqHtC/view\">Reception › L012C006_260922EP.MXF</a> (Kirsten, 0:31) · <a href=\"https://drive.google.com/file/d/1GZU-Ac9xjgjvCtabDb4_coirSQjubA98/view\">Reception › L012C009_26092218.MXF</a> (Kate, 1:44) · extra: <a href=\"https://drive.google.com/file/d/1--tahoE_ZJ0NgJ2wS5oNQ6mSTt5W_5BG/view\">L012C007_260922F1.MXF</a> (Kirsten, \"compassion\") · end-card plate: <a href=\"https://drive.google.com/file/d/16-s6tWNg9T0r7jjQyN0_exf3vdqh9alu/view\">L012C008_260922QQ.MXF</a> (0:02)"
+   "Panel",
+   "<a href=\"https://drive.google.com/file/d/10_PguxP83YSLa5yzdHp2zgTRw7nhVqQt/view\">L012C003_260922M0.MXF</a> · 52:46 · long lens · proxy <a href=\"https://drive.google.com/file/d/1qBRdqlwWf1NKdQ-0ui4FOKaNc79big7d/view\">L012C003_260922M0_Proxy.mov</a>. Track 1 = panel mic (silent until 27:52), Track 2 = camera mic."
   ],
   [
-   "Panel",
-   "<a href=\"https://drive.google.com/file/d/10_PguxP83YSLa5yzdHp2zgTRw7nhVqQt/view\">Panel › L012C003_260922M0.MXF</a> · 52:46 · long lens · proxy <a href=\"https://drive.google.com/file/d/1qBRdqlwWf1NKdQ-0ui4FOKaNc79big7d/view\">L012C003_260922M0_Proxy.mov</a>"
+   "Terrace",
+   "<a href=\"https://drive.google.com/file/d/1GZU-Ac9xjgjvCtabDb4_coirSQjubA98/view\">L012C009_26092218.MXF</a> (Kate, 1:44) · <a href=\"https://drive.google.com/file/d/16xg3iFaBBbmUCHYZeY5YnJtexPvhqHtC/view\">L012C006_260922EP.MXF</a> (Kirsten, 0:31) · extra: <a href=\"https://drive.google.com/file/d/1--tahoE_ZJ0NgJ2wS5oNQ6mSTt5W_5BG/view\">L012C007_260922F1.MXF</a> (Kirsten, “compassion”) · end-card plate: <a href=\"https://drive.google.com/file/d/16-s6tWNg9T0r7jjQyN0_exf3vdqh9alu/view\">L012C008_260922QQ.MXF</a> (0:02)"
   ],
   [
    "B-roll",
-   "Reception: <a href=\"https://drive.google.com/file/d/1-oN_pUyqTN0LtdEQNXdL5NU0O0jQwYGh/view\">C0180</a>, <a href=\"https://drive.google.com/file/d/17B6SXivE6ruNXufok7mxDB12kI3KC_FV/view\">C0181</a>, <a href=\"https://drive.google.com/file/d/19-0PNwkjuKsE133EoZAClcBzcvAI9FQX/view\">C0182</a>, <a href=\"https://drive.google.com/file/d/1M5bi9Pq8Brc2HyLQpltkYexFQiTT-YKk/view\">C0183</a>, <a href=\"https://drive.google.com/file/d/1-mPY21qFcyBdYgah5V0vEok_BbhnoPfX/view\">C0184</a>, <a href=\"https://drive.google.com/file/d/16qgbLzaPnCG7rH8UnTCpC-izunleu8Oj/view\">C0185</a>. Panel room: <a href=\"https://drive.google.com/file/d/1uMiDzHNMc_AQR5uRXFRlpFpKcHiVUupE/view\">C0166</a>, <a href=\"https://drive.google.com/file/d/1pq-ity9J-Ypud2IIHxf5S9-IkPXwiBsm/view\">C0168</a>, <a href=\"https://drive.google.com/file/d/1wrcTEKG24dV3Zeer6qQXuRPIMTTc9J0U/view\">C0169</a>, <a href=\"https://drive.google.com/file/d/162oSVvmVlkdav3A76Qk8nRyK7eL9SJb4/view\">C0175</a>. Picture only: the reception sound is loud music."
+   "Panel room: <a href=\"https://drive.google.com/file/d/1uMiDzHNMc_AQR5uRXFRlpFpKcHiVUupE/view\">C0166</a>, <a href=\"https://drive.google.com/file/d/1pq-ity9J-Ypud2IIHxf5S9-IkPXwiBsm/view\">C0168</a>, <a href=\"https://drive.google.com/file/d/1wrcTEKG24dV3Zeer6qQXuRPIMTTc9J0U/view\">C0169</a>, <a href=\"https://drive.google.com/file/d/162oSVvmVlkdav3A76Qk8nRyK7eL9SJb4/view\">C0175</a>. Reception: <a href=\"https://drive.google.com/file/d/1-oN_pUyqTN0LtdEQNXdL5NU0O0jQwYGh/view\">C0180</a>, <a href=\"https://drive.google.com/file/d/17B6SXivE6ruNXufok7mxDB12kI3KC_FV/view\">C0181</a>, <a href=\"https://drive.google.com/file/d/19-0PNwkjuKsE133EoZAClcBzcvAI9FQX/view\">C0182</a>, <a href=\"https://drive.google.com/file/d/1M5bi9Pq8Brc2HyLQpltkYexFQiTT-KYk/view\">C0183</a>, <a href=\"https://drive.google.com/file/d/1-mPY21qFcyBdYgah5V0vEok_BbhnoPfX/view\">C0184</a>, <a href=\"https://drive.google.com/file/d/16qgbLzaPnCG7rH8UnTCpC-izunleu8Oj/view\">C0185</a>. Picture only: the reception sound is loud music."
   ],
   [
    "Transcripts",
-   "<a href=\"https://docs.google.com/document/d/1x_SfodkwSJNStBetxfifkgSlOrD4J5ryxiY_V6ky2HA/edit\">NFTE UNGA — Reception files — machine transcript (Oct 7)</a> · <a href=\"https://docs.google.com/document/d/1wO_FJYvQzrr3E8aB7YKzEEUIl2gC7lxNtcax3GTR9ps/edit\">NFTE UNGA — main panel (second half) + Interviews files — machine transcript (Oct 7)</a>. Internal docs."
+   "<a href=\"https://docs.google.com/document/d/1x_SfodkwSJNStBetxfifkgSlOrD4J5ryxiY_V6ky2HA/edit\">NFTE UNGA — Reception files — machine transcript</a> · <a href=\"https://docs.google.com/document/d/1wO_FJYvQzrr3E8aB7YKzEEUIl2gC7lxNtcax3GTR9ps/edit\">NFTE UNGA — main panel (second half) + Interviews files — machine transcript</a>. Internal docs."
   ],
   [
    "Stills",
@@ -280,7 +322,7 @@
   ],
   [
    "Brand",
-   "No brand pack or font on the item. NFTE purple <span class=\"mono\">#4C12A1</span>, orange <span class=\"mono\">#FF5C39</span> (from nfte.com). Their font is Circular; we have no file. Use the caption style of the other NFTE cuts. Logo file: <a href=\"https://drive.google.com/file/d/1I2Ou0hEsnfPf7WpopINX9xM10ZnKI8fX/view\">NFTE_LOGO_Lockup_BrandColor.png</a>."
+   "NFTE purple <span class=\"mono\">#4C12A1</span>, orange <span class=\"mono\">#FF5C39</span> (from nfte.com). Their font is Circular; we have no file. Graphics use DM Sans, captions Roboto. NFTE graphics package: Drive <span class=\"mono\">deliverables/graphics-packages/NFTE</span> (lower third bar, title plate, topic tag); type the words on the empty plates."
   ],
   [
    "Music",
@@ -290,7 +332,7 @@
  "tech": [
   [
    "Source",
-   "Terrace and panel files: Sony FX6 MXF, 4096×2160, 23.98 fps. Reception and panel B-roll: Sony MP4, 16:9. Confirm on import."
+   "Panel and terrace files: Sony FX6 MXF, 4096×2160, 23.98 fps. Panel-room and reception B-roll: Sony MP4, 16:9. Confirm on import."
   ],
   [
    "Timeline",
@@ -302,15 +344,19 @@
   ],
   [
    "Audio",
-   "Terrace files (L012C006, L012C009): Track 2 is the mic, Track 1 is silent. Panel L012C003: Track 1 is the panel mic (silent until 27:52, very quiet until 28:25; both panel bites are after 48:00). Track 2 is the camera mic. Not measured on this page, check the meters."
+   "Terrace files: Track 2 is the mic, Track 1 is silent. Panel L012C003: Track 1 is the panel mic (silent until 27:52, very quiet until 28:25), so J.D.'s row at 27:26 uses Track 2 (camera mic): clean the room noise and match it to the rest. Not measured on this page, check the meters."
   ],
   [
    "Loudness",
-   "−14 LUFS integrated, −1 dBTP peak. Music 20 dB under the voice. Room sound needs the space."
+   "−14 LUFS integrated, −1 dBTP peak. Music 20 dB under the voices."
+  ],
+  [
+   "Colour",
+   "Grade the panel close-ups and the terrace files so skin looks natural and the two places sit together."
   ],
   [
    "Captions",
-   "Burned in, on for the whole video. NFTE in capitals. Max 2 lines. Keep the bottom 20% clear for app buttons."
+   "Burned in, on for the whole video, white on NFTE purple <span class=\"mono\">#4C12A1</span>. NFTE in capitals. Max 2 lines. Keep the bottom 20% clear for app buttons."
   ],
   [
    "Export",
@@ -318,14 +364,14 @@
   ]
  ],
  "checklist": [
-  "Every caption says NFTE in capitals. Aflatoun, never \"Aflatune\". Theuns, never \"Thunes\".",
-  "Nich Haber is spelled N-i-c-h.",
-  "If Kate Parsons / CAPS Network is still not confirmed when you deliver, write it in your Frame.io note.",
-  "No \"New York\", UN or event name in any on-screen text.",
-  "The hook and the button lines are used only in this reel.",
+  "Frame 1 is Kate with “The one skill AI can't replace is…” on screen. No logo, title card or fade.",
+  "Human connection and collaboration opens the reel; the student closes it.",
+  "Name supers on Kate, J.D., Nich and Kirsten, each 2 s, lower left. None on the student.",
+  "Every caption says NFTE in capitals. Aflatoun, never “Aflatune”. Theuns, never “Thunes”. Nich is spelled N-i-c-h.",
+  "No “New York”, UN or event name in any text we add.",
+  "No line from the Student Voice cut's hook or J.D.'s “wise words of a student”.",
   "No black frames between shots. Every transition shows footage.",
-  "Music sits well under the voices from start to end.",
-  "No logo before the end card. No title card or fade at 0:00.",
+  "Music sits well under the voices. The applause is real, 2 s.",
   "Read every caption against the audio."
  ],
  "decisions": [
@@ -335,19 +381,245 @@
   },
   {
    "t": "End card: NFTE alone, or NFTE + BUILD?",
-   "b": "Add a BUILD logo? Atdhe decides."
+   "b": "The UNGA cuts end on the NFTE logo. A white BUILD logo is now on this site (endcards/nfte/build-logo-white.svg). Atdhe decides if the UNGA cuts carry it."
   },
   {
-   "t": "Kate Parsons, CAPS Network",
-   "b": "Her name and title are written by ear. Atdhe confirms the spelling with NFTE."
+   "t": "Names on the supers",
+   "b": "Kate Parsons / CAPS Network and Nich Haber / Pearson are written by ear. Atdhe confirms the spellings with NFTE. The student gets no super until her name and release are confirmed."
+  },
+  {
+   "t": "Same closing line as the Student Voice cut",
+   "b": "This recap and the Student Voice cut both close on the student's “listen to our voices” line. Atdhe told NFTE the recap ends on the student. If Nick wants the two apart, use her 50:18 line here (in the ↻ options for that row)."
   }
  ],
- "client_note": "<b>Why this matters:</b> Alison called this reel her number 1 priority, for NFTE's social. It is the first UNGA video she sees.",
+ "client_note": "<b>Why this matters:</b> Melanie and Alison asked for a high-level overview recap of the UNGA panel. Atdhe promised them about 60 seconds of the best panel moments, ending on the student.",
  "ask_examples": [
-  "Where does Kirsten say a machine doesn't have a heart?",
-  "Which audio track do I use on the terrace files?",
-  "What B-roll covers Kate's pauses?",
-  "Can I add a BUILD logo to the end card?"
+  "Where does Kate say human connection and collaboration?",
+  "Which audio track do I use for J.D. at 27:26?",
+  "Why no name super on the student?",
+  "What goes on the end card?"
  ],
- "transcript": "Machine transcripts (Oct 7). Times are mm:ss from the first frame of each file. The machine writes \"Thunes\" and \"Aflatune\": it is Theuns and Aflatoun.\n== Reception › L012C006_260922EP.MXF (Kirsten Theuns), Track 2 ==\n[00:01] What young people need from us that a machine cannot give them, first of all, I think, is compassion.\n[00:08] Yeah, a machine doesn't have the feelings that people do.\n[00:14] We can support young people to be safe, to be ethical, to think critically.\n[00:22] And I think this is something, you know, a machine doesn't have a heart.\n[00:25] (not clear, do not use)\n== Reception › L012C007_260922F1.MXF (Kirsten Theuns), Track 2 ==\n[00:00] (videographer) So, finish the sentence. The one skill that AI can't replace is...\n[00:06] Oh, I can think of many, but...\n[00:13] Yeah, as I said again, compassion.\n== Reception › L012C009_26092218.MXF (Kate Parsons), Track 2 ==\n[00:08] Hi, my name is Kate Parsons.\n[00:09] I'm the chief strategy officer at the CAPS network.\n[00:15] (videographer) So how is AI changing the way that you learn or the way that you work?\n[00:22] So AI is changing the way that we work in a couple ways.\n[00:27] We're actually a very human-centric organization where a lot of our work is based on relationships,\n[00:33] but we are using it to really think more intentionally about data and how we can utilize\n[00:39] that data to better support the schools and programs that we work with.\n[00:47] (videographer) The next one is, what is one human skill that you think matters more now than it did five years ago?\n[00:54] That's a good question.\n[00:56] One human skill that matters more now than it did before,\n[01:01] I would say is maybe that perseverance\n[01:05] or being able to push through things that are hard.\n[01:08] I think a lot of times in the age of AI\n[01:10] or even just general search engines,\n[01:11] you can get an answer really quickly.\n[01:14] And so being able to actually work through something\n[01:16] where there's not an easy answer\n[01:17] is something that will be a skill\n[01:20] that will be very much required in the future.\n[01:26] (videographer) So finish this sentence.\n[01:29] (videographer) The one skill that AI can't replace is...\n[01:37] Human connection and collaboration.\n== Panel › L012C003_260922M0.MXF, Track 1 (48:09 Nich Haber, Pearson; 49:16 Kirsten Theuns) ==\n[48:09] So the difference between a centaur and a reverse centaur.\n[48:13] A centaur is a human head and the power of a horse's body.\n[48:18] And a reverse centaur is a horse's head with a man on it.\n[48:21] And so we want AI, we want to be in charge\n[48:26] of this powerful machine.\n[48:28] We want a human head controlling this powerful machine.\n[48:31] And you talked about some ideas where that's the center.\n[48:35] The flip side is where if the machine is telling us\n[48:38] what to do, right, if you're an Amazon worker\n[48:41] and an algorithm is telling you when to show up\n[48:44] and what picker packer thing to do,\n[48:47] that's gonna drive you to high rates of injury.\n[48:50] or if you're an Uber driver, and an algorithm's going to try and figure out how can it suppress your wages as much as possible.\n[48:59] So that is kind of the metaphor. We want to be the human head on the centaur and not the Uber seat.\n[49:07] That's a very vivid metaphor. We're coming to the end of our session, so I'll continue down the line.\n[49:13] What other words of wisdom would you add? Kerstin, go ahead.\n[49:16] So linking to what you said and what was discussed before, I think one of the most important things\n[49:24] is safety, especially for children and young people.\n[49:28] And as I mentioned before, they did indicate themselves that they think this is one of\n[49:32] the most important things, that they are safe, that they can make informed decisions, can\n[49:39] be critical.\n[49:40] So I think that's where we have our role.\n[49:42] I like what you said before that the young people themselves went a certain way.\n[49:49] So let's go with them, let's follow them, but just make sure that they're operating in a safe environment.\n[49:56] I think that's important for young people."
+ "transcript": "Machine transcripts (Oct 7 and 8). Times are mm:ss from the first frame of each file. The machine writes Thunes, Aflatune and Nifty: it is Theuns, Aflatoun and NFTE.\n--- L012C003_260922M0.MXF ---\n[24:02] And working, and for example, when I first reached out\n[24:06] to the faculty, I felt like so happy\n[24:11] that I had the opportunity to partner with the group\n[24:17] and advertise your competition myself.\n[24:20] And that felt like I was getting quite a bit\n[24:22] of recognition that I wanted,\n[24:24] and I could also advertise to my classmates,\n[24:27] like, oh, I have this competition\n[24:30] and they're willing to sponsor it, right?\n[24:34] So, I thought recognition really does help.\n[24:40] We tend to, I think, undervalue and underrecognize\n[24:43] that students constantly all along the same thing.\n[24:48] It doesn't really matter if it's a law\n[24:52] In fact, you know how it kind of compliments you, and it sort of says, oh, yes, you were\n[24:56] right.\n[24:56] I think it's a little bit annoying, even.\n[24:58] But we can earn for the validation of our fellow human beings, and that's another\n[25:02] thing that we can amplify.\n[25:04] I'd like to do a little crowdsourcing here as we move on with the conversation,\n[25:08] because I think among all of us, we can come up with a set of AI-proof assessments,\n[25:15] demonstrations of knowledge and learning that we use, that we've seen in our worlds,\n[25:22] that we can bring out and organize into some new ways of doing this thing we call education.\n[25:29] And I'll start us off.\n[25:30] So one of the reasons why entrepreneurship is positioned here as the centerpiece of\n[25:35] this panel is because of what we've learned at NFTE as we watch young people develop\n[25:43] businesses and then compete in business plan competitions and are interrogated by judges.\n[25:51] In a setting like that, which is an academic setting, totally an academic setting,\n[25:57] you can see very clearly who really knows what they have learned and who doesn't,\n[26:05] who rely and work with technology appropriately, and who overdid it.\n[26:13] Why?\n[26:14] Because if you're a young person, if you're standing in front of the monitor\n[26:18] but you can't look at the slides, you've got to look at all of you and talk about\n[26:23] your business emotionally.\n[26:25] You've got to talk about the rationale.\n[26:29] You've got to talk through all of the elements of mastery.\n[26:32] Why is this business a good business?\n[26:34] Who is my customer?\n[26:35] Who is my competitor?\n[26:37] Why is this differentiated from other things?\n[26:40] Where are the shortcomings?\n[26:41] What are the finances?\n[26:43] Yeah.\n[26:43] AI can actually help you develop a lot of those things, but it can help you stand\n[26:49] in front of the room like this, not looking there, looking here, and to do it.\n[26:57] That's a demonstration.\n[26:59] And then even more so, this is again a fundamental part of most entrepreneurship\n[27:03] education models.\n[27:05] You have judges, mentors, people from industry, experts who are then quizzing,\n[27:13] testing, probing, another thing that does not get outsourced by technology.\n[27:20] On the spot thinking.\n[27:22] The ability to think on your feet.\n[27:24] The ability to pivot.\n[27:26] The ability to admit that where you started might be a little bit wrong,\n[27:31] but you have the opportunity to adjust.\n[27:34] These are all things that are still very much in play.\n[27:37] And aren't they also very important to every domain of human life,\n[27:44] whether it's the workplace, or your family, or your community?\n[27:49] Don't you have to be able to operate with nuance and to make information\n[27:54] that's unclear and do something that's coaching?\n[27:58] That's what we're talking about here.\n[28:00] Underneath the wrapper of entrepreneurship education.\n[28:04] So let me answer this if you want to add your voice to the conversation.\n[30:01] So excited I'm tripping all over myself.\n[30:04] Panelists, would you like to add?\n[30:07] [do not use: 30:07 to 31:13 is the Ireland story. NFTE keeps it for the global competition, not this recap.]\n[30:07] So one of the experiences last year [do not use]\n[30:09] of the NFTE's World Youth Entrepreneurship Challenge [do not use]\n[30:12] I thought about was, we were just talking about this. [do not use]\n[30:17] Was the questions that are asked by the judges [do not use]\n[30:20] to the contestants. [do not use]\n[30:23] And that's really where you differentiate. [do not use]\n[30:26] Because I thought all of the presenters [do not use]\n[30:28] were unbelievably great. [do not use]\n[30:30] But how are you going to differentiate? [do not use]\n[30:32] Somebody's got to win this thing. [do not use]\n[30:34] And for me, the defining moment, [do not use]\n[30:37] there was one judge from (company name, do not use), [do not use]\n[30:40] kept in asking really annoying questions about, [do not use]\n[30:43] could you change your model from selling it [do not use]\n[30:46] to renting your product? [do not use]\n[30:49] And the woman that won, this 15-year-old woman, young woman from Ireland, just looked him in the eye and said, [do not use]\n[30:55] no, because I want my customers to be able to afford this. [do not use]\n[30:59] And like right then and there, it was like she had that confidence, she cared for her customers, [do not use]\n[31:04] like everybody in the room fell from her. You had to vote for her at that moment. [do not use]\n[31:09] Because that was, you know, she handled that question better than anybody else. [do not use]\n[31:13] And what that speaks to are values that are just outside of the realm of what we typically\n[31:20] consider in academics, although they are at the same time central to the purpose of education\n[31:27] itself.\n[31:29] And that is the ability to make a choice based on a belief in the value system.\n[31:35] That is not tied to big data, analytics, it's just what she wanted, right?\n[31:42] This was a young woman from a rural area in Ireland. Her business was a portable case\n[31:50] to transport vaccines, animal vaccines safely. And her innovation was based on the fact\n[31:57] that you can get animal vaccines to the veterinarian in these rural areas, but you need a safe\n[32:06] and a safe and good way to transport them the last mile\n[32:10] to these rural farms.\n[32:12] And they've got these vaccines, you know,\n[32:14] they're very specialized.\n[32:15] They've got to be in temperature controlled things\n[32:17] and all of this, this is what she invented.\n[32:19] She's 15. She's 15.\n[32:22] So she not only had the skills to be able to put that\n[32:25] together, that actual product, and by the way,\n[32:28] it wasn't just a concept, she had the prototype\n[32:30] and it was a pretty good prototype too.\n[32:33] And but beyond that, she was very clear about what she wanted and did not want for the business,\n[32:39] and it had nothing to do with anyone's concept of a right answer.\n[32:43] Arthur, I want to bring it back to you.\n[32:45] She was emotionally mature.\n[32:46] She was emotionally mature, and mature in lots of other ways too.\n[32:52] It occurs to me that the fact that you founded an entrepreneurship club,\n[32:57] and by design, you're working with peers in a group,\n[33:02] That seems like it has some special meaning in how you've gone about this.\n[33:07] What has been the value of working with your peers to explore entrepreneurship and get\n[33:12] into some of these questions?\n[33:13] I would say the value, the biggest thing that you will notice is sometimes you're not going\n[33:19] to be right.\n[33:19] Even if a decision does look right to you, you're not going to be right.\n[33:24] And getting feedback from those peers that you're doing of it who have the same amount\n[33:29] of love and respect for whatever you're building,\n[33:32] I think that really adds to what you're doing, right?\n[33:35] And getting this feedback can actually help change\n[33:38] what you're doing.\n[45:43] It reminds me of something that we have consistently seen over the past few years in our collective\n[45:48] work with NFTE and all of our organizations.\n[45:52] About four years ago, we started seeing young people do two things with their business\n[45:58] ideas and business plan.\n[46:00] Very clear that they were beginning to use a whole range of different AI tools.\n[46:04] And of course, you know there are many.\n[46:05] It's not just chat and plot, but there's all the design-oriented tools, the financial\n[46:09] tools.\n[46:09] There's not actually a lot of helpful tools that make presentations look better and all of this kind of stuff.\n[46:16] They were starting to use that.\n[46:18] So as an organization we had to, you know, ask ourselves, is that good?\n[46:23] I was like, I don't know, let's see what they can do with it.\n[46:26] The other thing that happened was that steadily, more and more each year, students were proposing businesses that were based in AI.\n[46:33] So in the same way that the Internet Revolution brought on platform-based businesses, the\n[46:38] same way that app development and the iPhone brought on a whole wave of app-based businesses,\n[46:43] we just saw our student competitors naturally proposing and developing businesses that had\n[46:49] AI as the basis of the business in some way, shape, or form.\n[46:54] Either that is AI in the context of some sort of physical technology that they were\n[46:59] developing, or AI as the basis of, let's say, a chatbot or service type of business.\n[47:05] So we saw all of that.\n[47:07] So I think at a certain point, and I imagine all of you agree, we just said at NFTE, well,\n[47:13] the students are showing us where to go here, and we probably should not stop them because\n[47:20] it's a good thing to encourage learners to pursue learning and to lean into the things\n[47:25] that they're passionate about.\n[47:26] So we, you know, yes, we put some parameters around it,\n[47:30] but we generally let it go.\n[47:32] And what we've seen is that two things,\n[47:36] as we discussed before, there has been this very evident,\n[47:40] meaningful division point, this threshold,\n[47:43] between the students who use AI in a responsible way,\n[47:47] in a productive way, and can still demonstrate\n[47:50] learning authentically in sophisticated ways.\n[47:54] Yeah, and so we have just leaned into that.\n[47:57] More comments?\n[48:09] So the difference between a centaur and a reverse centaur.\n[48:13] A centaur is a human head and the power of a horse's body.\n[48:18] And a reverse centaur is a horse's head with a man on it.\n[48:21] And so we want AI, we want to be in charge\n[48:26] of this powerful machine.\n[48:28] We want a human head controlling this powerful machine.\n[48:31] And you talked about some ideas where that's the center.\n[48:35] The flip side is where if the machine is telling us\n[48:38] what to do, right, if you're an Amazon worker\n[48:41] and an algorithm is telling you when to show up\n[48:44] and what picker packer thing to do,\n[48:47] that's gonna drive you to high rates of injury.\n[48:50] or if you're an Uber driver, and an algorithm's going to try and figure out how can it suppress your wages as much as possible.\n[48:59] So that is kind of the metaphor. We want to be the human head on the centaur and not the Uber seat.\n[49:07] That's a very vivid metaphor. We're coming to the end of our session, so I'll continue down the line.\n[49:13] What other words of wisdom would you add? Kirsten, go ahead.\n[49:16] So linking to what you said and what was discussed before, I think one of the most important things\n[49:24] is safety, especially for children and young people.\n[49:28] And as I mentioned before, they did indicate themselves that they think this is one of\n[49:32] the most important things, that they are safe, that they can make informed decisions, can\n[49:39] be critical.\n[49:40] So I think that's where we have our role.\n[49:42] I like what you said before that the young people themselves went a certain way.\n[49:49] So let's go with them, let's follow them, but just make sure that they're operating in a safe environment.\n[49:56] I think that's important for young people.\n[49:59] Arfa, what words of wisdom generally would you add?\n[50:02] You're in front of a room full of mostly adults.\n[50:07] Imagine yourself in front of a decision maker.\n[50:09] You get to tell them on the basis of what you know from what you did,\n[50:14] here's how you need to think about this. What are you telling them?\n[50:18] I would say that although AI can generate a lot of ideas,\n[50:23] listening to the youth and their voices is kind of what is really important,\n[50:28] and it kind of gets ignored too.\n[50:31] [do not use: the Student Voice cut owns this line] And we are the ones who are going to be living in this world, like in this future.\n[50:35] So if our voices aren't heard, then we won't really be satisfied.\n[50:39] So I really want to encourage all the educators here today to really listen to our voices\n[50:44] and act on decisions that we think would be the best for our future.\n[50:55] [do not use: the Student Voice cut owns this line] I'm highly tempted to just call it quits there because you should end on the wise words of\n[50:59] a student.\n[51:01] But anything else you'd like to say to close this out?\n[51:06] Good.\n[51:06] I'll just close this out with this.\n[51:09] One mindset domain that I think is important in this day and age, and frankly I think our conversation kind of brought it out, is skepticism.\n[51:20] Skepticism as an important mindset domain for this day and age, because it's so easy\n[51:29] to get caught up in the daily barrage of news and fatalistic predictions and prognostications\n[51:40] of what all of this will mean.\n[51:42] Let's just admit that no one really knows.\n[51:46] However, let's also admit that's where the skepticism comes in.\n[51:51] But the flip side of skepticism is the possibility for more.\n[51:56] And I think that's what we have explored here today.\n[52:00] So thank you for being a part of this conversation.\n[52:02] Special thanks to all the other young people in the audience.\n--- L012C006_260922EP.MXF ---\n[00:01] What young people need from us that a machine cannot give them, first of all, I think, is compassion.\n[00:08] Yeah, a machine doesn't have the feelings that people do.\n[00:14] We can support young people to be safe, to be ethical, to think critically.\n[00:22] And I think this is something, you know, a machine doesn't have a heart.\n[00:25] [do not use: not clear]\n--- L012C007_260922F1.MXF ---\n[00:00] [do not use: the videographer] So, finish the sentence. The one skill that AI can't replace is...\n[00:06] Oh, I can think of many, but...\n[00:13] Yeah, as I said again, compassion.\n--- L012C009_26092218.MXF ---\n[00:08] Hi, my name is Kate Parsons.\n[00:09] I'm the chief strategy officer at the CAPS network.\n[00:15] [do not use: the videographer] So how is AI changing the way that you learn or the way that you work?\n[00:22] So AI is changing the way that we work in a couple ways.\n[00:27] We're actually a very human-centric organization where a lot of our work is based on relationships,\n[00:33] but we are using it to really think more intentionally about data and how we can utilize\n[00:39] that data to better support the schools and programs that we work with.\n[00:47] [do not use: the videographer] The next one is, what is one human skill that you think matters more now than it did five years ago?\n[00:54] That's a good question.\n[00:56] One human skill that matters more now than it did before,\n[01:01] I would say is maybe that perseverance\n[01:05] or being able to push through things that are hard.\n[01:08] I think a lot of times in the age of AI\n[01:10] or even just general search engines,\n[01:11] you can get an answer really quickly.\n[01:14] And so being able to actually work through something\n[01:16] where there's not an easy answer\n[01:17] is something that will be a skill\n[01:20] that will be very much required in the future.\n[01:26] [do not use: the videographer] So finish this sentence.\n[01:29] [do not use: the videographer] The one skill that AI can't replace is...\n[01:37] Human connection and collaboration.",
+ "alts": {
+  "hook:0": [
+   {
+    "text": "The one skill AI can't replace is…",
+    "line": "Human connection and collaboration.",
+    "why": "Atdhe's note: this answer opens the reel."
+   },
+   {
+    "text": "A machine doesn't have a heart.",
+    "line": "And I think this is something, you know, a machine doesn't have a heart.",
+    "why": "The V1 hook, if Atdhe changes his mind."
+   },
+   {
+    "text": "Who is in charge?",
+    "line": "We want a human head controlling this powerful machine.",
+    "why": "A clear image to open on."
+   },
+   {
+    "text": "Listen to them.",
+    "line": "So let's go with them, let's follow them, but just make sure that they're operating in a safe environment.",
+    "why": "Opens on the young people."
+   }
+  ],
+  "bite:0": [
+   {
+    "quote": "I would say is maybe that perseverance or being able to push through things that are hard.",
+    "who": "Kate Parsons",
+    "file": "L012C009_26092218.MXF",
+    "why": "Her other answer, the human skill that matters more now."
+   },
+   {
+    "quote": "being able to actually work through something where there's not an easy answer is something that will be a skill that will be very much required in the future.",
+    "who": "Kate Parsons",
+    "file": "L012C009_26092218.MXF",
+    "why": "Longer, a clear skill."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "On the spot thinking. The ability to think on your feet. The ability to pivot.",
+    "who": "J.D. LaRock",
+    "file": "L012C003_260922M0.MXF",
+    "why": "Short list; the What AI Can't Do for You reel opens on it, so only if that cut changes."
+   },
+   {
+    "quote": "These are all things that are still very much in play.",
+    "who": "J.D. LaRock",
+    "file": "L012C003_260922M0.MXF",
+    "why": "Short; also in that reel."
+   },
+   {
+    "quote": "And aren't they also very important to every domain of human life, whether it's the workplace, or your family, or your community?",
+    "who": "J.D. LaRock",
+    "file": "L012C003_260922M0.MXF",
+    "why": "Widens it to life."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "And so we want AI, we want to be in charge of this powerful machine.",
+    "who": "Nich Haber (Pearson)",
+    "file": "L012C003_260922M0.MXF",
+    "why": "The same idea, said first."
+   },
+   {
+    "quote": "So that is kind of the metaphor. We want to be the human head on the centaur and not the Uber seat.",
+    "who": "Nich Haber (Pearson)",
+    "file": "L012C003_260922M0.MXF",
+    "why": "His own summary."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "I think one of the most important things is safety, especially for children and young people.",
+    "who": "Kirsten Theuns",
+    "file": "L012C003_260922M0.MXF",
+    "why": "Safety, from the start of her answer."
+   },
+   {
+    "quote": "they did indicate themselves that they think this is one of the most important things, that they are safe, that they can make informed decisions, can be critical.",
+    "who": "Kirsten Theuns",
+    "file": "L012C003_260922M0.MXF",
+    "why": "What the young people said."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "Yeah, a machine doesn't have the feelings that people do.",
+    "who": "Kirsten Theuns",
+    "file": "L012C006_260922EP.MXF",
+    "why": "The line between the two."
+   },
+   {
+    "quote": "We can support young people to be safe, to be ethical, to think critically.",
+    "who": "Kirsten Theuns",
+    "file": "L012C006_260922EP.MXF",
+    "why": "What adults can give."
+   },
+   {
+    "quote": "Yeah, as I said again, compassion.",
+    "who": "Kirsten Theuns",
+    "file": "L012C007_260922F1.MXF",
+    "why": "Her answer to the AI question, short."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "I would say that although AI can generate a lot of ideas, listening to the youth and their voices is kind of what is really important,",
+    "who": "NFTE student, 14",
+    "file": "L012C003_260922M0.MXF",
+    "why": "Her other close, not in the Student Voice cut."
+   },
+   {
+    "quote": "I would say the value, the biggest thing that you will notice is sometimes you're not going to be right.",
+    "who": "NFTE student, 14",
+    "file": "L012C003_260922M0.MXF",
+    "why": "Her panel answer on peers; the Student Voice cut uses part of it."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "NFTE runs clean: the hook text, one small name super per speaker, one key-word line, B-roll over every join, and the NFTE end card over the dusk buildings. No logo before the end card. Nothing names a place or the event.",
+  "devices": [
+   {
+    "row": "00:00–00:05",
+    "device": "Hook text, static, then Kate's name super",
+    "asset": "highlight_callout + tag_label (MG library); NFTE lower third bar",
+    "source": "Script; NFTE graphics package"
+   },
+   {
+    "row": "00:05–00:13",
+    "device": "Wide of the room, then J.D. and his name super",
+    "asset": "C0169; tag_label",
+    "source": "Panel B-roll; Script"
+   },
+   {
+    "row": "00:13–00:21",
+    "device": "Name super; audience over the join",
+    "asset": "tag_label; C0168",
+    "source": "Script; Panel B-roll"
+   },
+   {
+    "row": "00:21–00:31",
+    "device": "Name super; audience cutaway",
+    "asset": "tag_label; C0175",
+    "source": "Script; Panel B-roll"
+   },
+   {
+    "row": "00:31–00:39",
+    "device": "Key words top; reception over the join",
+    "asset": "highlight_callout; C0182",
+    "source": "Script; Reception B-roll"
+   },
+   {
+    "row": "00:39–00:50",
+    "device": "Room on the applause",
+    "asset": "C0166",
+    "source": "Panel B-roll"
+   },
+   {
+    "row": "00:50–00:53",
+    "device": "End card over the dusk buildings",
+    "asset": "end_card_overlay (MG library) on L012C008",
+    "source": "endcards/nfte, 9 Oct 2026"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "C0181.MP4",
+    "path": "NYC UNGA Panel Day Sept 22 2026/NYC 2026/Reception/C0181.MP4",
+    "drive": "17B6SXivE6ruNXufok7mxDB12kI3KC_FV",
+    "at": 5.0,
+    "dur": 2.0,
+    "cx": 0.3,
+    "what": "A woman in a tan sweater laughs with a guest. It may be Kate: check her face before using it.",
+    "frame": "f_c0181"
+   },
+   {
+    "clip": "C0184.MP4",
+    "path": "NYC UNGA Panel Day Sept 22 2026/NYC 2026/Reception/C0184.MP4",
+    "drive": "1-mPY21qFcyBdYgah5V0vEok_BbhnoPfX",
+    "at": 10.0,
+    "dur": 2.0,
+    "cx": 0.5,
+    "what": "A woman in a grey top with green earrings talks with a guest inside. It may be Kirsten: check her face before using it.",
+    "frame": "f_c0184"
+   },
+   {
+    "clip": "C0180.MP4",
+    "path": "NYC UNGA Panel Day Sept 22 2026/NYC 2026/Reception/C0180.MP4",
+    "drive": "1-oN_pUyqTN0LtdEQNXdL5NU0O0jQwYGh",
+    "at": 4.0,
+    "dur": 2.0,
+    "cx": 0.5,
+    "what": "Wide of the reception room near the windows. Keep the EXIT sign out of the crop.",
+    "frame": null
+   },
+   {
+    "clip": "C0185.MP4",
+    "path": "NYC UNGA Panel Day Sept 22 2026/NYC 2026/Reception/C0185.MP4",
+    "drive": "16qgbLzaPnCG7rH8UnTCpC-izunleu8Oj",
+    "at": 3.0,
+    "dur": 2.0,
+    "cx": 0.5,
+    "what": "Two women talk in front of red curtains, city lights in the window.",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "NFTE logo, white (end card over footage)",
+    "kind": "end_card",
+    "file": "endcards/nfte/nfte-logo-white.svg",
+    "url": null,
+    "local": null,
+    "alpha": true,
+    "size": "svg",
+    "fps": null
+   }
+  ],
+  "new_elements": []
+ }
 }

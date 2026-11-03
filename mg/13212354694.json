@@ -1,161 +1,121 @@
 {
  "item": "13212354694",
  "client": "nfte",
+ "note": "The script asks for the hook text, four name supers and one key-word line, so 6 graphics and the end card. Nothing on the student's row but captions.",
  "mg": [
   {
    "n": 1,
-   "title": "Feelings people have",
-   "tpl": "quote_card",
-   "dur": 4,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
    "text": {
-    "main": "a machine doesn't have the feelings that people do.",
-    "who": "Kirsten Theuns"
+    "main": "The one skill AI can't replace is…"
    },
-   "src": "Kirsten Theuns, L012C006 [00:08]",
+   "cue": "Hook text on frame 1, top third, white bold: “The one skill AI can't replace is…”",
+   "src": "Script, row 00:00–00:05, Motion graphics & type.",
    "rows": [
-    "00:02–00:07"
+    "00:00–00:05"
    ],
-   "use": "Only if you add this line to the cut, right after “compassion”. Never over a name super.",
-   "upper": true
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:02. Top third."
   },
   {
    "n": 2,
-   "title": "A human head",
-   "tpl": "kinetic_quote",
-   "dur": 3,
-   "pos": "top",
+   "title": "Name super Kate",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
    "text": {
-    "main": "We want a human head controlling this powerful machine.",
-    "emph": [
-     "human"
-    ]
+    "main": "Kate Parsons"
    },
-   "src": "Nich Haber, L012C003 [48:28]",
+   "cue": "Name super 00:03–00:05, small, lower left: “Kate Parsons” / Chief Strategy Officer, CAPS Network.",
+   "src": "Script, row 00:00–00:05, Motion graphics & type.",
    "rows": [
-    "00:07–00:11"
+    "00:00–00:05"
    ],
-   "use": "Over Nich on the panel as he says it. Top third, away from his name super. Keep captions on.",
-   "upper": true
+   "use": "On at 00:03 for 2 s. Move it lower left, above the captions. Type the second line Chief Strategy Officer, CAPS Network under it."
   },
   {
    "n": 3,
-   "title": "Push through",
-   "tpl": "statement_card",
-   "dur": 3.5,
+   "title": "Name super J.D.",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
    "text": {
-    "main": "being able to push through things that are hard.",
-    "emph": [
-     "push through"
-    ]
+    "main": "J.D. LaRock"
    },
-   "src": "Kate Parsons, L012C009 [01:05]",
+   "cue": "Name super 00:06–00:08, small, lower left: “J.D. LaRock” / CEO, NFTE.",
+   "src": "Script, row 00:05–00:13, Motion graphics & type.",
    "rows": [
-    "00:11–00:21"
+    "00:05–00:13"
    ],
-   "use": "Full-frame cutaway on her words to hide a pause cut. Only after her name super is gone.",
-   "upper": true
+   "use": "On at 00:06 for 2 s. Move it lower left, above the captions. Type the second line CEO, NFTE under it."
   },
   {
    "n": 4,
-   "title": "An answer quickly",
-   "tpl": "statement_card",
-   "dur": 3.5,
+   "title": "Name super Nich",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
    "text": {
-    "main": "you can get an answer really quickly.",
-    "emph": [
-     "quickly"
-    ]
+    "main": "Nich Haber"
    },
-   "src": "Kate Parsons, L012C009 [01:11]",
+   "cue": "Name super 00:14–00:16, small, lower left: “Nich Haber” / Pearson.",
+   "src": "Script, row 00:13–00:21, Motion graphics & type.",
    "rows": [
-    "00:21–00:26"
+    "00:13–00:21"
    ],
-   "use": "Full-frame cutaway on her words, in place of the C0181 cover if the shot is weak.",
-   "upper": true
+   "use": "On at 00:14 for 2 s. Move it lower left, above the captions. Type the second line Pearson under it."
   },
   {
    "n": 5,
-   "title": "Not an easy answer",
-   "tpl": "highlight_callout",
-   "dur": 4,
-   "pos": "top",
+   "title": "Name super Kirsten",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
    "text": {
-    "main": "work through something where there's not an easy answer"
+    "main": "Kirsten Theuns"
    },
-   "src": "Kate Parsons, L012C009 [01:14]–[01:16]",
+   "cue": "Name super 00:22–00:24, small, lower left: “Kirsten Theuns” / Aflatoun.",
+   "src": "Script, row 00:21–00:31, Motion graphics & type.",
    "rows": [
-    "00:26–00:35"
+    "00:21–00:31"
    ],
-   "use": "Over Kate as she says it. Keep captions on.",
-   "upper": true
+   "use": "On at 00:22 for 2 s. Move it lower left, above the captions. Type the second line Aflatoun under it."
   },
   {
    "n": 6,
-   "title": "Focus on Kate",
-   "tpl": "corner_frame",
-   "dur": 3,
-   "text": {},
-   "src": "Brackets only, no text.",
+   "title": "Key words",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "a machine doesn't have a heart"
+   },
+   "cue": "Key words, top third, as she says them: “a machine doesn't have a heart”.",
+   "src": "Script, row 00:31–00:39, Motion graphics & type.",
    "rows": [
-    "00:26–00:35"
+    "00:31–00:39"
    ],
-   "use": "Brackets on Kate as she uses her hand at 01:18. Not at the same time as MG 5.",
-   "upper": true
+   "use": "On her words, about 00:36. Top third. Keep captions on."
   },
   {
    "n": 7,
-   "title": "Follow them",
-   "tpl": "highlight_callout",
-   "dur": 4,
-   "pos": "top",
-   "text": {
-    "main": "So let's go with them, let's follow them"
-   },
-   "src": "Kirsten Theuns, L012C003 [49:49]",
-   "rows": [
-    "00:35–00:44"
-   ],
-   "use": "On her words over the panel shot.",
-   "upper": true
-  },
-  {
-   "n": 8,
-   "title": "Safe, ethical, critical",
-   "tpl": "word_stack",
-   "dur": 5,
-   "pos": "top",
-   "text": {
-    "items": [
-     "To be safe",
-     "To be ethical",
-     "To think critically"
-    ]
-   },
-   "src": "Kirsten Theuns, L012C006 [00:14]",
-   "rows": [
-    "00:44–00:50"
-   ],
-   "use": "Each line lands on her word, in the top band. Keep captions on.",
-   "upper": true
-  },
-  {
-   "n": 9,
    "title": "End card",
    "tpl": "end_card_overlay",
    "rows": [
-    "00:54–00:56"
+    "00:50–00:53"
    ],
    "cue": "NFTE logo. Nothing else. L012C008 (2 s of the buildings at dusk) under the NFTE end card.",
-   "src": "NFTE's white logo from the NFTE brand kit (Mac Studio, state/nfte/brand/logos, 9 Oct 2026).",
+   "src": "NFTE's white logo from the NFTE brand kit (Mac Studio, state/nfte/brand/logos, 9 Oct 2026), endcards/index.json.",
    "c": {
     "bg": "#4C12A1",
     "fg": "#FFFFFF"
    },
    "logo": "endcards/nfte/nfte-logo-white.svg",
    "text": {},
-   "dur": 2.0,
-   "use": "This is the end card over the footage: the NFTE logo on L012C008 (2 s of the buildings at dusk). Put it at 00:54 after the last line and hold it to the end. Keep the footage live, no freeze frame."
+   "dur": 3.0,
+   "use": "The NFTE logo over L012C008 (the buildings at dusk). Put it on at 00:50 after the applause and hold it to the end. Keep the footage live, no freeze frame."
   }
- ],
- "note": "The plan for this cut leaves room for only 8 graphics."
+ ]
 }
