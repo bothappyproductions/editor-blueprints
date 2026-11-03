@@ -811,5 +811,53 @@
     "#FFFFFF"
    ]
   ]
+ },
+ "worldreader": {
+  "google": "Montserrat:wght@500;600;700;800",
+  "head": {
+   "css": "\"Montserrat\"",
+   "w": 800
+  },
+  "body": {
+   "css": "\"Montserrat\"",
+   "w": 600
+  },
+  "pal": {
+   "bg": "#104065",
+   "ac": "#285BD5",
+   "ac2": "#BC33A9"
+  },
+  "font_note": "Montserrat is the font of worldreader.org (all site typography), on Google Fonts. Colors from the Worldreader client file: logo blue #285BD5, navy #104065, magenta #BC33A9 (worldreader.org), caption azure #0089FD (approved South Africa cut).",
+  "rules": [
+   "Worldreader is one word; BookSmart has a capital S.",
+   "Never frame families as charity cases.",
+   "Challenge copy: always free, never “free for September”."
+  ],
+  "colors": [
+   [
+    "Brand blue",
+    "#285BD5"
+   ],
+   [
+    "Dark navy",
+    "#104065"
+   ],
+   [
+    "Deep blue",
+    "#0F42BB"
+   ],
+   [
+    "Magenta",
+    "#BC33A9"
+   ],
+   [
+    "Caption azure",
+    "#0089FD"
+   ],
+   [
+    "Pale blue",
+    "#EAF1FF"
+   ]
+  ]
  }
 }
