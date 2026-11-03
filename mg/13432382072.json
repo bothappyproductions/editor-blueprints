@@ -1,0 +1,190 @@
+{
+ "item": "13432382072",
+ "client": "ycdif",
+ "format": "16x9",
+ "note": "The script asks for 15 graphics, so this library makes the first 10 in timeline order and the end card. Not made here, make them in the same style as the chapter tags and cards: row 01:14–01:22 (chapter tag 06 Social growth; its number card waits on the MyBizNiche numbers), row 01:22–01:36 (chapter tag 07 Grants and the Dylan Harris name super), row 01:42–01:50 (V1's three closing text lines; keep V1's exact words) and row 01:50–01:59 (the two closing cards). The number cards V1 has in the Heartland Ranch and Grants chapters carry figures this page does not print: keep them as cut in V1 until Clint confirms. The YCDIF logo is not in the repo yet, so the end card types the name.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 8,
+   "pos": "top",
+   "text": {
+    "main": "Last December, we were eight months old."
+   },
+   "cue": "Hook text on frame 1: “Last December, we were eight months old.” Already on screen at 0:00. It does not animate on.",
+   "src": "Script, row 00:00–00:09, Motion graphics & type.",
+   "rows": [
+    "00:00–00:09"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:08. Top third, over The Ends menu."
+  },
+  {
+   "n": 2,
+   "title": "Name super Rob",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Rob Schneider"
+   },
+   "cue": "Name super at 00:10, lower left, 3 s: “Rob Schneider”. Name only.",
+   "src": "Script, row 00:09–00:14, Motion graphics & type.",
+   "rows": [
+    "00:09–00:14"
+   ],
+   "use": "Put it on at 00:10 for 3 s. Move it lower left, above the captions. Name only, no title."
+  },
+  {
+   "n": 3,
+   "title": "Turn card",
+   "tpl": "statement_card",
+   "dur": 4,
+   "text": {
+    "main": "In 2026, here's what you built."
+   },
+   "cue": "Text card at 00:31, full frame, 4 s: “In 2026, here's what you built.”",
+   "src": "Script, row 00:31–00:35, Motion graphics & type.",
+   "rows": [
+    "00:31–00:35"
+   ],
+   "use": "Full-frame card from 00:31 to 00:35. Cut to it on the music change."
+  },
+  {
+   "n": 4,
+   "title": "Chapter 01 tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "01 Heartland Ranch"
+   },
+   "cue": "Chapter tag at 00:35, top left, 3 s: “01 Heartland Ranch”.",
+   "src": "Script, row 00:35–00:45, Motion graphics & type.",
+   "rows": [
+    "00:35–00:45"
+   ],
+   "use": "Put it on at 00:35 for 3 s, top left. Use the same place for every chapter tag."
+  },
+  {
+   "n": 5,
+   "title": "Name super Kris and Greg",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Kris & Greg Van House"
+   },
+   "cue": "Name super at 00:38, lower left, 3 s: “Kris & Greg Van House”, second line Heartland Ranch.",
+   "src": "Script, row 00:35–00:45, Motion graphics & type.",
+   "rows": [
+    "00:35–00:45"
+   ],
+   "use": "Put it on at 00:38 for 3 s. Move it lower left, above the captions. Type the second line Heartland Ranch under it. Kris with a K."
+  },
+  {
+   "n": 6,
+   "title": "Chapter 02 tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "02 Dr. Phil"
+   },
+   "cue": "Chapter tag at 00:45, top left, 3 s: “02 Dr. Phil”.",
+   "src": "Script, row 00:45–00:52, Motion graphics & type.",
+   "rows": [
+    "00:45–00:52"
+   ],
+   "use": "Put it on at 00:45 for 3 s, top left."
+  },
+  {
+   "n": 7,
+   "title": "Dr. Phil views",
+   "tpl": "stat_counter",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "number": "877,856",
+    "label": "views on one Dr. Phil post"
+   },
+   "cue": "Number pop at 00:48, 3 s: “877,856” views on one Dr. Phil post.",
+   "src": "Script, row 00:45–00:52, Motion graphics & type.",
+   "rows": [
+    "00:45–00:52"
+   ],
+   "use": "Put it on at 00:48 for 3 s, after the chapter tag goes out. Do not export the final until Clint confirms the number."
+  },
+  {
+   "n": 8,
+   "title": "Chapter 03 tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "03 FreedomFest"
+   },
+   "cue": "Chapter tag at 00:52, top left, 3 s: “03 FreedomFest”.",
+   "src": "Script, row 00:52–00:58, Motion graphics & type.",
+   "rows": [
+    "00:52–00:58"
+   ],
+   "use": "Put it on at 00:52 for 3 s, top left."
+  },
+  {
+   "n": 9,
+   "title": "Chapter 04 tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "04 You Can Do It, America!"
+   },
+   "cue": "Chapter tag at 00:58, top left, 3 s: “04 You Can Do It, America!”.",
+   "src": "Script, row 00:58–01:04, Motion graphics & type.",
+   "rows": [
+    "00:58–01:04"
+   ],
+   "use": "Put it on at 00:58 for 3 s, top left."
+  },
+  {
+   "n": 10,
+   "title": "Chapter 05 tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "05 Spotlight partners"
+   },
+   "cue": "Chapter tag at 01:04, top left, 3 s: “05 Spotlight partners”.",
+   "src": "Script, row 01:04–01:14, Motion graphics & type.",
+   "rows": [
+    "01:04–01:14"
+   ],
+   "use": "Put it on at 01:04 for 3 s, top left."
+  },
+  {
+   "n": 11,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "02:03–02:10"
+   ],
+   "cue": "End card: You Can Do It Foundation name and ycdif.com.",
+   "src": "No YCDIF end card or logo file is in endcards/ yet (endcards/index.json has no YCDIF entry), so the name is typed. Colours from ycdif.com (client file, mined 7 Jul 2026).",
+   "c": {
+    "bg": "#121D1F",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "You Can Do It Foundation",
+    "lines": [
+     "ycdif.com"
+    ]
+   },
+   "dur": 7,
+   "use": "This is the end card. Put it right after Rob's line at 02:03 and hold it to 02:10. Fade out slowly. V1 has the logo: keep V1's logo until the logo file is in the repo."
+  }
+ ]
+}

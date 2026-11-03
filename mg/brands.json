@@ -758,5 +758,58 @@
    "Students: first name + last initial + grade."
   ],
   "colors": []
+ },
+ "ycdif": {
+  "google": "Plus+Jakarta+Sans:wght@500;700;800|Fustat:wght@400;600;700",
+  "head": {
+   "css": "\"Plus Jakarta Sans\"",
+   "w": 700
+  },
+  "body": {
+   "css": "\"Fustat\"",
+   "w": 600
+  },
+  "pal": {
+   "bg": "#121D1F",
+   "ac": "#DAA520",
+   "ac2": "#294145",
+   "onAc": "#000000"
+  },
+  "font_note": "Colours and fonts from the ycdif.com site CSS (client file, mined 7 Jul 2026): headings Plus Jakarta Sans, body Fustat, both Google Fonts. No brand guide or font files on file. Headings set to 700 for legibility on video (the site uses 500).",
+  "rules": [
+   "Black text on gold. Never white on gold (too little contrast).",
+   "Logo on the end card only, and none on social versions.",
+   "Kris with a K. Rob Schneider is the spokesperson: never founder."
+  ],
+  "colors": [
+   [
+    "Gold",
+    "#DAA520"
+   ],
+   [
+    "Slate teal",
+    "#294145"
+   ],
+   [
+    "Dark gold",
+    "#A57D18"
+   ],
+   [
+    "Deep teal",
+    "#121D1F"
+   ],
+   [
+    "Black",
+    "#000000"
+   ],
+   [
+    "Body gray",
+    "#585858"
+   ],
+   [
+    "White",
+    "#FFFFFF"
+   ]
+  ]
  }
 }
