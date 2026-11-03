@@ -1,0 +1,84 @@
+{
+ "item": "12666660159",
+ "client": "s4s",
+ "note": "The script asks for the hook text, one name super, one program tag and one top text, so 4 graphics and the end card.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "Your old shoes = 50 points"
+   },
+   "cue": "Hook text on frame 1: Your old shoes = 50 points. Already on screen at 0:00. Does not animate on.",
+   "src": "Script, row 00:00–00:05, Motion graphics & type.",
+   "rows": [
+    "00:00–00:05"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:04. Top third, over the bin shot and then her face. Captions stay on."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Rebecca · DSW Newmarket"
+   },
+   "cue": "Name super at 00:05 for 2 s, small, lower left above the captions: Rebecca · DSW Newmarket",
+   "src": "Script, row 00:05–00:09, Motion graphics & type.",
+   "rows": [
+    "00:05–00:09"
+   ],
+   "use": "Put it on at 00:05 for 2 s. Move it lower left, above the captions. Keep it small."
+  },
+  {
+   "n": 3,
+   "title": "Program tag",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "4EveryKid"
+   },
+   "cue": "Program tag at 00:16, upper left, 2 s: 4EveryKid",
+   "src": "Script, row 00:11–00:21, Motion graphics & type.",
+   "rows": [
+    "00:11–00:21"
+   ],
+   "use": "Put it on at 00:16 for 2 s, upper left, over the girl trying on shoes. Spell it 4EveryKid."
+  },
+  {
+   "n": 4,
+   "title": "It's a cycle",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "It's a cycle."
+   },
+   "cue": "Top text at 00:33 for 2 s, top third: It's a cycle.",
+   "src": "Script, row 00:21–00:36, Motion graphics & type.",
+   "rows": [
+    "00:21–00:36"
+   ],
+   "use": "Put it on at 00:33 when she says it and hold 2 s, top third, over the DONATE HERE bin. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:36–00:39"
+   ],
+   "cue": "End card: the Soles4Souls typography end card with Step Forward. Nothing added.",
+   "src": "Soles4Souls' new typography end card (S4S art director, locked 8/13), taken unchanged from the tail of the delivered Traditional_S4SBronxLuisWarehouseToCommunity001-4.mp4 (Drive, 21 Oct 2026). The .ai source is with Nick/Almi. Date in endcards/index.json: 2026-10-21.",
+   "file": "endcards/s4s/s4s-typography-end-card.mp4",
+   "dur": 2.8,
+   "use": "This is the end card, the client's own file. Put it at 00:36 right after the last line and use it exactly as it is. Music resolves on it."
+  }
+ ]
+}
