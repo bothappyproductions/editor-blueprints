@@ -1,0 +1,124 @@
+{
+ "item": "12891377964",
+ "client": "nfte",
+ "format": "16x9",
+ "note": "16:9 film. The script asks for the hook text, one lower third, one list card, one statement card, one top text and the end card, so 5 graphics and the end card. The page draws one logo on the end card: add the BUILD logo next to the NFTE logo in your edit.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "center",
+   "text": {
+    "main": "School is missing a subject."
+   },
+   "cue": "Hook text on frame 1: “School is missing a subject.” Already on screen at 0:00. It does not animate on.",
+   "src": "Script, row 00:00–00:05, Motion graphics & type.",
+   "rows": [
+    "00:00–00:05"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:04. Over the classroom shot."
+  },
+  {
+   "n": 2,
+   "title": "Lower third",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "J.D. LaRock"
+   },
+   "cue": "Lower third at 00:17 for 3 s, on his first on-camera line: “J.D. LaRock” / CEO, NFTE.",
+   "src": "Script, row 00:17–00:26, Motion graphics & type.",
+   "rows": [
+    "00:17–00:26"
+   ],
+   "use": "Put it on at 00:17 for 3 s, lower left above the captions. Type the second line CEO, NFTE under it."
+  },
+  {
+   "n": 3,
+   "title": "Skills list",
+   "tpl": "list_card",
+   "dur": 5,
+   "text": {
+    "main": "The ability to",
+    "items": [
+     "work in teams",
+     "solve problems",
+     "spot opportunities",
+     "think about the future"
+    ]
+   },
+   "cue": "List card, full frame, about 00:38 to 00:43: “The ability to” · “work in teams” · “solve problems” · “spot opportunities” · “think about the future”.",
+   "src": "Script, row 00:36–00:46, Motion graphics & type.",
+   "rows": [
+    "00:36–00:46"
+   ],
+   "use": "Full-frame cutaway from about 00:38 to 00:43 while he lists the skills. His voice keeps playing. Slide it so each item lands on his words."
+  },
+  {
+   "n": 4,
+   "title": "Statement card",
+   "tpl": "statement_card",
+   "dur": 3,
+   "text": {
+    "main": "Entrepreneurship produces economic mobility."
+   },
+   "cue": "Statement card, full frame, 00:55 to 00:58: “Entrepreneurship produces economic mobility.”",
+   "src": "Script, row 00:55–01:09, Motion graphics & type.",
+   "rows": [
+    "00:55–01:09"
+   ],
+   "use": "Full-frame cutaway 00:55 to 00:58 while he says it. Then B-roll."
+  },
+  {
+   "n": 5,
+   "title": "Top text",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "Right now we need to be doing more"
+   },
+   "cue": "Top text as he says it: “Right now we need to be doing more”. 2.5 s.",
+   "src": "Script, row 01:31–01:36, Motion graphics & type.",
+   "rows": [
+    "01:31–01:36"
+   ],
+   "use": "Put it on at 01:31 as he says it and hold 2.5 s. Top band. Keep captions on."
+  },
+  {
+   "n": 6,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:42–01:50"
+   ],
+   "cue": "End card: the words Fuel a Future, the NFTE logo and the BUILD logo, and nfte.com/fuelafuture.",
+   "src": "NFTE's white logo from the NFTE brand kit (state/nfte/brand/logos, 9 Oct 2026), endcards/index.json. BUILD logo: endcards/nfte/build-logo-white.svg (Alison's BUILD logo, in white). End card words from the 5 Oct client notes on this item.",
+   "c": {
+    "bg": "#4C12A1",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/nfte/nfte-logo-white.svg",
+   "logos": [
+    {
+     "src": "endcards/nfte/nfte-logo-white.svg"
+    },
+    {
+     "src": "endcards/nfte/build-logo-white.svg",
+     "h": 1.35
+    }
+   ],
+   "text": {
+    "lines": [
+     "Fuel a Future",
+     "nfte.com/fuelafuture"
+    ]
+   },
+   "dur": 8.0,
+   "use": "Put it right after the last line at 01:42 and hold it to the very last frame. The page draws the NFTE logo only: place the BUILD logo (endcards/nfte/build-logo-white.svg) beside it at the same height. No fade to black."
+  }
+ ]
+}

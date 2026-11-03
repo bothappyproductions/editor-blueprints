@@ -1,0 +1,1815 @@
+{
+ "item": "12891377964",
+ "client": "nfte",
+ "style": {
+  "font": {
+   "css": "\"Roboto\"",
+   "w": 700
+  },
+  "size": 62,
+  "y": 1350,
+  "max_lines": 2,
+  "reveal": "phrase",
+  "fg": "#FFFFFF",
+  "box": {
+   "bg": "#4C12A1",
+   "r": 10
+  }
+ },
+ "note": "White text on the NFTE purple #4C12A1 box (the NFTE caption pairing), Roboto (Circular has no file), max 2 lines, NFTE in capitals. Timed from the word times in the NYC and home files; clips 4, 8 and 9 (pitch-competition sit-down) have line times only, so check them by ear. Pauses over 0.7 s are cut to 0.25 s. Not captioned: 01:23–01:31, the BUILD line is still TBD on scrub.",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Hook",
+   "rows": [
+    "00:00–00:05"
+   ],
+   "clip": "20260604_C4256.MP4",
+   "start": 933.45,
+   "src": "20260604_C4256.MP4 15:33.5",
+   "dur": 4.26,
+   "words": [
+    {
+     "w": "Reading,",
+     "t0": 0.15,
+     "t1": 0.87,
+     "e": 0
+    },
+    {
+     "w": "writing,",
+     "t0": 1.21,
+     "t1": 1.83,
+     "e": 0
+    },
+    {
+     "w": "arithmetic,",
+     "t0": 2.19,
+     "t1": 2.69,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 3.25,
+     "t1": 3.51,
+     "e": 0
+    },
+    {
+     "w": "entrepreneurship.",
+     "t0": 3.51,
+     "t1": 3.81,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 4.16,
+     "lines": [
+      [
+       0,
+       2
+      ],
+      [
+       3,
+       4
+      ]
+     ]
+    }
+   ],
+   "text": "Reading, writing, arithmetic, and entrepreneurship.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 2,
+   "title": "Every Community",
+   "rows": [
+    "00:05–00:17"
+   ],
+   "clip": "20260604_C4256.MP4",
+   "start": 168.25,
+   "src": "20260604_C4256.MP4 02:48.2 (02:48.4–02:54.2 + 02:59.1–03:06.6 joined)",
+   "dur": 11.95,
+   "words": [
+    {
+     "w": "There",
+     "t0": 0.15,
+     "t1": 0.25,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 0.25,
+     "t1": 0.41,
+     "e": 0
+    },
+    {
+     "w": "not",
+     "t0": 0.41,
+     "t1": 0.57,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 0.57,
+     "t1": 0.73,
+     "e": 0
+    },
+    {
+     "w": "community",
+     "t0": 0.73,
+     "t1": 0.99,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 0.99,
+     "t1": 1.77,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 1.77,
+     "t1": 1.95,
+     "e": 0
+    },
+    {
+     "w": "world",
+     "t0": 1.95,
+     "t1": 2.13,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 2.38,
+     "t1": 2.46,
+     "e": 0
+    },
+    {
+     "w": "does",
+     "t0": 2.46,
+     "t1": 2.58,
+     "e": 0
+    },
+    {
+     "w": "not",
+     "t0": 2.58,
+     "t1": 2.78,
+     "e": 0
+    },
+    {
+     "w": "have",
+     "t0": 2.78,
+     "t1": 3.04,
+     "e": 0
+    },
+    {
+     "w": "commerce",
+     "t0": 3.04,
+     "t1": 3.34,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 3.34,
+     "t1": 4.46,
+     "e": 0
+    },
+    {
+     "w": "business.",
+     "t0": 4.46,
+     "t1": 4.68,
+     "e": 0
+    },
+    {
+     "w": "Schools,",
+     "t0": 4.93,
+     "t1": 5.15,
+     "e": 0
+    },
+    {
+     "w": "all",
+     "t0": 5.81,
+     "t1": 6.81,
+     "e": 0
+    },
+    {
+     "w": "schools,",
+     "t0": 6.81,
+     "t1": 7.11,
+     "e": 0
+    },
+    {
+     "w": "should",
+     "t0": 7.61,
+     "t1": 8.57,
+     "e": 0
+    },
+    {
+     "w": "educate",
+     "t0": 8.57,
+     "t1": 8.97,
+     "e": 0
+    },
+    {
+     "w": "students",
+     "t0": 8.97,
+     "t1": 9.55,
+     "e": 0
+    },
+    {
+     "w": "on",
+     "t0": 9.8,
+     "t1": 9.86,
+     "e": 0
+    },
+    {
+     "w": "fundamental",
+     "t0": 9.86,
+     "t1": 10.12,
+     "e": 0
+    },
+    {
+     "w": "human",
+     "t0": 10.12,
+     "t1": 11.04,
+     "e": 0
+    },
+    {
+     "w": "activities.",
+     "t0": 11.04,
+     "t1": 11.5,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 2.73,
+     "lines": [
+      [
+       0,
+       4
+      ],
+      [
+       5,
+       10
+      ]
+     ]
+    },
+    {
+     "t0": 2.73,
+     "t1": 4.88,
+     "lines": [
+      [
+       11,
+       14
+      ]
+     ]
+    },
+    {
+     "t0": 4.88,
+     "t1": 9.75,
+     "lines": [
+      [
+       15,
+       18
+      ],
+      [
+       19,
+       20
+      ]
+     ]
+    },
+    {
+     "t0": 9.75,
+     "t1": 11.85,
+     "lines": [
+      [
+       21,
+       24
+      ]
+     ]
+    }
+   ],
+   "text": "There is not a community in the world that does not have commerce and business. Schools, all schools, should educate students on fundamental human activities.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 3,
+   "title": "The Gap",
+   "rows": [
+    "00:17–00:26"
+   ],
+   "clip": "20260604_C4256.MP4",
+   "start": 210.45,
+   "src": "20260604_C4256.MP4 03:30.4",
+   "dur": 9.44,
+   "words": [
+    {
+     "w": "That's",
+     "t0": 0.15,
+     "t1": 0.35,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 0.35,
+     "t1": 0.47,
+     "e": 0
+    },
+    {
+     "w": "basic",
+     "t0": 0.47,
+     "t1": 0.79,
+     "e": 0
+    },
+    {
+     "w": "human",
+     "t0": 0.79,
+     "t1": 1.23,
+     "e": 0
+    },
+    {
+     "w": "activity",
+     "t0": 1.23,
+     "t1": 1.57,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 1.57,
+     "t1": 2.15,
+     "e": 0
+    },
+    {
+     "w": "U.S.",
+     "t0": 2.15,
+     "t1": 3.39,
+     "e": 0
+    },
+    {
+     "w": "schooling",
+     "t0": 3.49,
+     "t1": 3.65,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 4.11,
+     "t1": 4.17,
+     "e": 0
+    },
+    {
+     "w": "schooling",
+     "t0": 4.17,
+     "t1": 4.67,
+     "e": 0
+    },
+    {
+     "w": "around",
+     "t0": 4.67,
+     "t1": 5.13,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 5.13,
+     "t1": 5.63,
+     "e": 0
+    },
+    {
+     "w": "world",
+     "t0": 5.63,
+     "t1": 5.81,
+     "e": 0
+    },
+    {
+     "w": "for",
+     "t0": 5.81,
+     "t1": 6.27,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 6.27,
+     "t1": 6.41,
+     "e": 0
+    },
+    {
+     "w": "most",
+     "t0": 6.41,
+     "t1": 6.53,
+     "e": 0
+    },
+    {
+     "w": "part",
+     "t0": 6.53,
+     "t1": 6.79,
+     "e": 0
+    },
+    {
+     "w": "has",
+     "t0": 6.79,
+     "t1": 8.03,
+     "e": 0
+    },
+    {
+     "w": "missed.",
+     "t0": 8.03,
+     "t1": 8.99,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 3.44,
+     "lines": [
+      [
+       0,
+       4
+      ],
+      [
+       5,
+       6
+      ]
+     ]
+    },
+    {
+     "t0": 3.44,
+     "t1": 6.74,
+     "lines": [
+      [
+       7,
+       10
+      ],
+      [
+       11,
+       16
+      ]
+     ]
+    },
+    {
+     "t0": 6.74,
+     "t1": 9.34,
+     "lines": [
+      [
+       17,
+       18
+      ]
+     ]
+    }
+   ],
+   "text": "That's a basic human activity that U.S. schooling and schooling around the world for the most part has missed.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 4,
+   "title": "A World Of Ai",
+   "rows": [
+    "00:26–00:36"
+   ],
+   "clip": "Interview_Closeup_Audio_Edit.mp4",
+   "start": 22.15,
+   "src": "Interview_Closeup_Audio_Edit.mp4 00:22.2",
+   "dur": 9.94,
+   "words": [
+    {
+     "w": "Education",
+     "t0": 0.15,
+     "t1": 0.794,
+     "e": 0
+    },
+    {
+     "w": "needs",
+     "t0": 0.794,
+     "t1": 1.181,
+     "e": 0
+    },
+    {
+     "w": "sorely",
+     "t0": 1.181,
+     "t1": 1.632,
+     "e": 0
+    },
+    {
+     "w": "now",
+     "t0": 1.632,
+     "t1": 1.889,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 1.889,
+     "t1": 2.083,
+     "e": 0
+    },
+    {
+     "w": "head",
+     "t0": 2.083,
+     "t1": 2.405,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 2.405,
+     "t1": 2.598,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 2.598,
+     "t1": 2.856,
+     "e": 0
+    },
+    {
+     "w": "direction",
+     "t0": 2.856,
+     "t1": 3.5,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 3.5,
+     "t1": 3.693,
+     "e": 0
+    },
+    {
+     "w": "cultivating",
+     "t0": 3.693,
+     "t1": 4.466,
+     "e": 0
+    },
+    {
+     "w": "students'",
+     "t0": 4.466,
+     "t1": 5.11,
+     "e": 0
+    },
+    {
+     "w": "creative",
+     "t0": 5.11,
+     "t1": 5.69,
+     "e": 0
+    },
+    {
+     "w": "capabilities",
+     "t0": 6.03,
+     "t1": 6.896,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 6.896,
+     "t1": 7.096,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 7.096,
+     "t1": 7.229,
+     "e": 0
+    },
+    {
+     "w": "world",
+     "t0": 7.229,
+     "t1": 7.628,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 7.628,
+     "t1": 7.828,
+     "e": 0
+    },
+    {
+     "w": "artificial",
+     "t0": 7.828,
+     "t1": 8.561,
+     "e": 0
+    },
+    {
+     "w": "intelligence.",
+     "t0": 8.561,
+     "t1": 9.493,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 3.45,
+     "lines": [
+      [
+       0,
+       3
+      ],
+      [
+       4,
+       8
+      ]
+     ]
+    },
+    {
+     "t0": 3.45,
+     "t1": 6.846,
+     "lines": [
+      [
+       9,
+       11
+      ],
+      [
+       12,
+       13
+      ]
+     ]
+    },
+    {
+     "t0": 6.846,
+     "t1": 9.843,
+     "lines": [
+      [
+       14,
+       18
+      ],
+      [
+       19,
+       19
+      ]
+     ]
+    }
+   ],
+   "text": "Education needs sorely now to head in the direction of cultivating students' creative capabilities in a world of artificial intelligence.",
+   "timing": "segments",
+   "matched": 1.0,
+   "lang": "en",
+   "check": "No word-level times exist for this clip: word times are spread inside each transcript line. Check the timing by ear."
+  },
+  {
+   "n": 5,
+   "title": "The Skills",
+   "rows": [
+    "00:36–00:46"
+   ],
+   "clip": "20260624_C4257.MP4",
+   "start": 72.45,
+   "src": "20260624_C4257.MP4 01:12.4",
+   "dur": 9.51,
+   "words": [
+    {
+     "w": "The",
+     "t0": 0.15,
+     "t1": 0.63,
+     "e": 0
+    },
+    {
+     "w": "ability",
+     "t0": 0.63,
+     "t1": 0.79,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 0.79,
+     "t1": 1.41,
+     "e": 0
+    },
+    {
+     "w": "work",
+     "t0": 1.41,
+     "t1": 2.11,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 2.11,
+     "t1": 2.35,
+     "e": 0
+    },
+    {
+     "w": "teams,",
+     "t0": 2.35,
+     "t1": 2.51,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 2.97,
+     "t1": 3.11,
+     "e": 0
+    },
+    {
+     "w": "ability",
+     "t0": 3.11,
+     "t1": 3.29,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 3.29,
+     "t1": 3.79,
+     "e": 0
+    },
+    {
+     "w": "solve",
+     "t0": 3.79,
+     "t1": 4.01,
+     "e": 0
+    },
+    {
+     "w": "problems,",
+     "t0": 4.01,
+     "t1": 4.37,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 4.85,
+     "t1": 4.99,
+     "e": 0
+    },
+    {
+     "w": "ability",
+     "t0": 4.99,
+     "t1": 5.17,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 5.17,
+     "t1": 5.79,
+     "e": 0
+    },
+    {
+     "w": "spot",
+     "t0": 5.79,
+     "t1": 6.19,
+     "e": 0
+    },
+    {
+     "w": "opportunities,",
+     "t0": 6.19,
+     "t1": 6.59,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 6.84,
+     "t1": 7.32,
+     "e": 0
+    },
+    {
+     "w": "ability",
+     "t0": 7.32,
+     "t1": 7.5,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 7.5,
+     "t1": 8.1,
+     "e": 0
+    },
+    {
+     "w": "think",
+     "t0": 8.1,
+     "t1": 8.4,
+     "e": 0
+    },
+    {
+     "w": "about",
+     "t0": 8.4,
+     "t1": 8.68,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 8.68,
+     "t1": 8.88,
+     "e": 0
+    },
+    {
+     "w": "future.",
+     "t0": 8.88,
+     "t1": 9.06,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 4.8,
+     "lines": [
+      [
+       0,
+       5
+      ],
+      [
+       6,
+       10
+      ]
+     ]
+    },
+    {
+     "t0": 4.8,
+     "t1": 7.45,
+     "lines": [
+      [
+       11,
+       14
+      ],
+      [
+       15,
+       17
+      ]
+     ]
+    },
+    {
+     "t0": 7.45,
+     "t1": 9.41,
+     "lines": [
+      [
+       18,
+       22
+      ]
+     ]
+    }
+   ],
+   "text": "The ability to work in teams, the ability to solve problems, the ability to spot opportunities, the ability to think about the future.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 6,
+   "title": "An Optimistic Moment",
+   "rows": [
+    "00:46–00:55"
+   ],
+   "clip": "20260624_C4258.MP4",
+   "start": 1310.75,
+   "src": "20260624_C4258.MP4 21:50.8",
+   "dur": 8.74,
+   "words": [
+    {
+     "w": "So",
+     "t0": 0.15,
+     "t1": 0.21,
+     "e": 0
+    },
+    {
+     "w": "this",
+     "t0": 0.21,
+     "t1": 0.57,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 0.57,
+     "t1": 0.75,
+     "e": 0
+    },
+    {
+     "w": "an",
+     "t0": 0.75,
+     "t1": 0.91,
+     "e": 0
+    },
+    {
+     "w": "incredibly",
+     "t0": 0.91,
+     "t1": 1.09,
+     "e": 0
+    },
+    {
+     "w": "optimistic",
+     "t0": 1.09,
+     "t1": 1.55,
+     "e": 0
+    },
+    {
+     "w": "moment",
+     "t0": 1.55,
+     "t1": 2.25,
+     "e": 0
+    },
+    {
+     "w": "from",
+     "t0": 2.55,
+     "t1": 2.67,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 2.67,
+     "t1": 2.87,
+     "e": 0
+    },
+    {
+     "w": "perspective",
+     "t0": 2.87,
+     "t1": 3.11,
+     "e": 0
+    },
+    {
+     "w": "because",
+     "t0": 3.11,
+     "t1": 4.23,
+     "e": 0
+    },
+    {
+     "w": "we",
+     "t0": 4.23,
+     "t1": 4.61,
+     "e": 0
+    },
+    {
+     "w": "can",
+     "t0": 4.61,
+     "t1": 4.77,
+     "e": 0
+    },
+    {
+     "w": "all",
+     "t0": 4.77,
+     "t1": 4.99,
+     "e": 0
+    },
+    {
+     "w": "expect",
+     "t0": 5.19,
+     "t1": 5.35,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 5.35,
+     "t1": 5.77,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 5.77,
+     "t1": 5.87,
+     "e": 0
+    },
+    {
+     "w": "coming",
+     "t0": 5.87,
+     "t1": 6.01,
+     "e": 0
+    },
+    {
+     "w": "years",
+     "t0": 6.01,
+     "t1": 6.37,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 6.37,
+     "t1": 7.05,
+     "e": 0
+    },
+    {
+     "w": "raise",
+     "t0": 7.05,
+     "t1": 7.25,
+     "e": 0
+    },
+    {
+     "w": "our",
+     "t0": 7.25,
+     "t1": 7.69,
+     "e": 0
+    },
+    {
+     "w": "mental",
+     "t0": 7.69,
+     "t1": 7.93,
+     "e": 0
+    },
+    {
+     "w": "baseline.",
+     "t0": 7.93,
+     "t1": 8.29,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 2.62,
+     "lines": [
+      [
+       0,
+       4
+      ],
+      [
+       5,
+       7
+      ]
+     ]
+    },
+    {
+     "t0": 2.62,
+     "t1": 5.3,
+     "lines": [
+      [
+       8,
+       10
+      ],
+      [
+       11,
+       14
+      ]
+     ]
+    },
+    {
+     "t0": 5.3,
+     "t1": 8.64,
+     "lines": [
+      [
+       15,
+       20
+      ],
+      [
+       21,
+       23
+      ]
+     ]
+    }
+   ],
+   "text": "So this is an incredibly optimistic moment from that perspective because we can all expect in the coming years to raise our mental baseline.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 7,
+   "title": "Mobility",
+   "rows": [
+    "00:55–01:09"
+   ],
+   "clip": "20260604_C4256.MP4",
+   "start": 3251.45,
+   "src": "20260604_C4256.MP4 54:11.4 (54:11.6–54:14.9 + 54:50.6–55:00.4 joined)",
+   "dur": 13.9,
+   "words": [
+    {
+     "w": "Entrepreneurship",
+     "t0": 0.15,
+     "t1": 1.81,
+     "e": 0
+    },
+    {
+     "w": "produces",
+     "t0": 1.81,
+     "t1": 2.05,
+     "e": 0
+    },
+    {
+     "w": "economic",
+     "t0": 2.05,
+     "t1": 2.79,
+     "e": 0
+    },
+    {
+     "w": "mobility.",
+     "t0": 2.79,
+     "t1": 3.37,
+     "e": 0
+    },
+    {
+     "w": "You",
+     "t0": 3.62,
+     "t1": 4.21,
+     "e": 0
+    },
+    {
+     "w": "can",
+     "t0": 4.79,
+     "t1": 4.95,
+     "e": 0
+    },
+    {
+     "w": "use",
+     "t0": 4.95,
+     "t1": 5.13,
+     "e": 0
+    },
+    {
+     "w": "entrepreneurship",
+     "t0": 5.23,
+     "t1": 5.55,
+     "e": 0
+    },
+    {
+     "w": "education",
+     "t0": 5.55,
+     "t1": 6.37,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 6.37,
+     "t1": 7.03,
+     "e": 0
+    },
+    {
+     "w": "create",
+     "t0": 7.03,
+     "t1": 7.27,
+     "e": 0
+    },
+    {
+     "w": "your",
+     "t0": 7.27,
+     "t1": 7.79,
+     "e": 0
+    },
+    {
+     "w": "own",
+     "t0": 7.79,
+     "t1": 8.03,
+     "e": 0
+    },
+    {
+     "w": "job",
+     "t0": 8.03,
+     "t1": 8.29,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 8.29,
+     "t1": 8.77,
+     "e": 0
+    },
+    {
+     "w": "you",
+     "t0": 8.77,
+     "t1": 9.33,
+     "e": 0
+    },
+    {
+     "w": "can",
+     "t0": 9.33,
+     "t1": 9.49,
+     "e": 0
+    },
+    {
+     "w": "use",
+     "t0": 9.49,
+     "t1": 9.73,
+     "e": 0
+    },
+    {
+     "w": "entrepreneurship",
+     "t0": 9.87,
+     "t1": 10.11,
+     "e": 0
+    },
+    {
+     "w": "education",
+     "t0": 10.11,
+     "t1": 10.93,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 10.93,
+     "t1": 11.53,
+     "e": 0
+    },
+    {
+     "w": "create",
+     "t0": 11.53,
+     "t1": 11.73,
+     "e": 0
+    },
+    {
+     "w": "jobs",
+     "t0": 11.73,
+     "t1": 12.15,
+     "e": 0
+    },
+    {
+     "w": "for",
+     "t0": 12.15,
+     "t1": 12.61,
+     "e": 0
+    },
+    {
+     "w": "those",
+     "t0": 12.61,
+     "t1": 12.83,
+     "e": 0
+    },
+    {
+     "w": "around",
+     "t0": 12.83,
+     "t1": 13.15,
+     "e": 0
+    },
+    {
+     "w": "you.",
+     "t0": 13.15,
+     "t1": 13.45,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 3.57,
+     "lines": [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "t0": 3.57,
+     "t1": 7.98,
+     "lines": [
+      [
+       4,
+       7
+      ],
+      [
+       8,
+       12
+      ]
+     ]
+    },
+    {
+     "t0": 7.98,
+     "t1": 10.88,
+     "lines": [
+      [
+       13,
+       17
+      ],
+      [
+       18,
+       19
+      ]
+     ]
+    },
+    {
+     "t0": 10.88,
+     "t1": 13.8,
+     "lines": [
+      [
+       20,
+       24
+      ],
+      [
+       25,
+       26
+      ]
+     ]
+    }
+   ],
+   "text": "Entrepreneurship produces economic mobility. You can use entrepreneurship education to create your own job and you can use entrepreneurship education to create jobs for those around you.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 8,
+   "title": "Stronger Together",
+   "rows": [
+    "01:09–01:23"
+   ],
+   "clip": "Interview_Closeup_Audio_Edit.mp4",
+   "start": 1641.45,
+   "src": "Interview_Closeup_Audio_Edit.mp4 27:21.4",
+   "dur": 14.29,
+   "words": [
+    {
+     "w": "And",
+     "t0": 0.15,
+     "t1": 0.335,
+     "e": 0
+    },
+    {
+     "w": "at",
+     "t0": 0.335,
+     "t1": 0.473,
+     "e": 0
+    },
+    {
+     "w": "NFTE,",
+     "t0": 0.473,
+     "t1": 0.75,
+     "e": 0
+    },
+    {
+     "w": "we",
+     "t0": 0.75,
+     "t1": 0.889,
+     "e": 0
+    },
+    {
+     "w": "actually",
+     "t0": 0.889,
+     "t1": 1.305,
+     "e": 0
+    },
+    {
+     "w": "are",
+     "t0": 1.305,
+     "t1": 1.489,
+     "e": 0
+    },
+    {
+     "w": "taking",
+     "t0": 1.489,
+     "t1": 1.813,
+     "e": 0
+    },
+    {
+     "w": "it",
+     "t0": 1.813,
+     "t1": 1.951,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 1.951,
+     "t1": 2.043,
+     "e": 0
+    },
+    {
+     "w": "step",
+     "t0": 2.043,
+     "t1": 2.274,
+     "e": 0
+    },
+    {
+     "w": "further.",
+     "t0": 2.274,
+     "t1": 2.69,
+     "e": 0
+    },
+    {
+     "w": "We",
+     "t0": 2.94,
+     "t1": 3.134,
+     "e": 0
+    },
+    {
+     "w": "are",
+     "t0": 3.134,
+     "t1": 3.392,
+     "e": 0
+    },
+    {
+     "w": "beginning",
+     "t0": 3.392,
+     "t1": 4.037,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 4.037,
+     "t1": 4.295,
+     "e": 0
+    },
+    {
+     "w": "process",
+     "t0": 4.295,
+     "t1": 4.812,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 4.812,
+     "t1": 5.005,
+     "e": 0
+    },
+    {
+     "w": "merging",
+     "t0": 5.005,
+     "t1": 5.522,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 5.522,
+     "t1": 5.78,
+     "e": 0
+    },
+    {
+     "w": "partnering",
+     "t0": 5.78,
+     "t1": 6.49,
+     "e": 0
+    },
+    {
+     "w": "with",
+     "t0": 6.49,
+     "t1": 6.813,
+     "e": 0
+    },
+    {
+     "w": "other",
+     "t0": 6.813,
+     "t1": 7.2,
+     "e": 0
+    },
+    {
+     "w": "organizations",
+     "t0": 7.2,
+     "t1": 8.104,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 8.104,
+     "t1": 8.426,
+     "e": 0
+    },
+    {
+     "w": "do",
+     "t0": 8.426,
+     "t1": 8.62,
+     "e": 0
+    },
+    {
+     "w": "what",
+     "t0": 8.62,
+     "t1": 9.07,
+     "e": 0
+    },
+    {
+     "w": "we",
+     "t0": 9.07,
+     "t1": 9.34,
+     "e": 0
+    },
+    {
+     "w": "do",
+     "t0": 9.34,
+     "t1": 9.61,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 9.61,
+     "t1": 9.88,
+     "e": 0
+    },
+    {
+     "w": "help",
+     "t0": 9.88,
+     "t1": 10.33,
+     "e": 0
+    },
+    {
+     "w": "this",
+     "t0": 10.33,
+     "t1": 10.78,
+     "e": 0
+    },
+    {
+     "w": "thing",
+     "t0": 10.78,
+     "t1": 11.32,
+     "e": 0
+    },
+    {
+     "w": "become",
+     "t0": 11.32,
+     "t1": 11.95,
+     "e": 0
+    },
+    {
+     "w": "stronger",
+     "t0": 11.95,
+     "t1": 12.76,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 12.76,
+     "t1": 13.12,
+     "e": 0
+    },
+    {
+     "w": "larger.",
+     "t0": 13.12,
+     "t1": 13.84,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 2.89,
+     "lines": [
+      [
+       0,
+       5
+      ],
+      [
+       6,
+       10
+      ]
+     ]
+    },
+    {
+     "t0": 2.89,
+     "t1": 6.44,
+     "lines": [
+      [
+       11,
+       15
+      ],
+      [
+       16,
+       19
+      ]
+     ]
+    },
+    {
+     "t0": 6.44,
+     "t1": 10.28,
+     "lines": [
+      [
+       20,
+       22
+      ],
+      [
+       23,
+       29
+      ]
+     ]
+    },
+    {
+     "t0": 10.28,
+     "t1": 14.19,
+     "lines": [
+      [
+       30,
+       33
+      ],
+      [
+       34,
+       35
+      ]
+     ]
+    }
+   ],
+   "text": "And at NFTE, we actually are taking it a step further. We are beginning the process of merging and partnering with other organizations that do what we do to help this thing become stronger and larger.",
+   "timing": "segments",
+   "matched": 1.0,
+   "lang": "en",
+   "check": "No word-level times exist for this clip: word times are spread inside each transcript line. Check the timing by ear."
+  },
+  {
+   "n": 9,
+   "title": "Why Now",
+   "rows": [
+    "01:31–01:36"
+   ],
+   "clip": "Interview_Closeup_Audio_Edit.mp4",
+   "start": 1617.45,
+   "src": "Interview_Closeup_Audio_Edit.mp4 26:57.4",
+   "dur": 4.77,
+   "words": [
+    {
+     "w": "Right",
+     "t0": 0.15,
+     "t1": 0.488,
+     "e": 0
+    },
+    {
+     "w": "now",
+     "t0": 0.488,
+     "t1": 0.713,
+     "e": 0
+    },
+    {
+     "w": "we",
+     "t0": 0.713,
+     "t1": 0.882,
+     "e": 0
+    },
+    {
+     "w": "need",
+     "t0": 0.882,
+     "t1": 1.164,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 1.164,
+     "t1": 1.333,
+     "e": 0
+    },
+    {
+     "w": "be",
+     "t0": 1.333,
+     "t1": 1.502,
+     "e": 0
+    },
+    {
+     "w": "doing",
+     "t0": 1.502,
+     "t1": 1.84,
+     "e": 0
+    },
+    {
+     "w": "more",
+     "t0": 1.84,
+     "t1": 2.122,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 2.122,
+     "t1": 2.291,
+     "e": 0
+    },
+    {
+     "w": "elevate",
+     "t0": 2.291,
+     "t1": 2.741,
+     "e": 0
+    },
+    {
+     "w": "entrepreneurship",
+     "t0": 2.741,
+     "t1": 3.699,
+     "e": 0
+    },
+    {
+     "w": "education.",
+     "t0": 3.699,
+     "t1": 4.319,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 2.691,
+     "lines": [
+      [
+       0,
+       6
+      ],
+      [
+       7,
+       9
+      ]
+     ]
+    },
+    {
+     "t0": 2.691,
+     "t1": 4.669,
+     "lines": [
+      [
+       10,
+       11
+      ]
+     ]
+    }
+   ],
+   "text": "Right now we need to be doing more to elevate entrepreneurship education.",
+   "timing": "segments",
+   "matched": 1.0,
+   "lang": "en",
+   "check": "No word-level times exist for this clip: word times are spread inside each transcript line. Check the timing by ear."
+  },
+  {
+   "n": 10,
+   "title": "Button",
+   "rows": [
+    "01:36–01:42"
+   ],
+   "clip": "20260604_C4256.MP4",
+   "start": 939.95,
+   "src": "20260604_C4256.MP4 15:40.0",
+   "dur": 5.26,
+   "words": [
+    {
+     "w": "Success",
+     "t0": 0.15,
+     "t1": 0.17,
+     "e": 0
+    },
+    {
+     "w": "for",
+     "t0": 0.17,
+     "t1": 0.53,
+     "e": 0
+    },
+    {
+     "w": "this",
+     "t0": 0.53,
+     "t1": 0.71,
+     "e": 0
+    },
+    {
+     "w": "movement",
+     "t0": 0.71,
+     "t1": 0.95,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 0.95,
+     "t1": 1.71,
+     "e": 0
+    },
+    {
+     "w": "people",
+     "t0": 1.71,
+     "t1": 1.91,
+     "e": 0
+    },
+    {
+     "w": "understanding",
+     "t0": 1.91,
+     "t1": 2.47,
+     "e": 0
+    },
+    {
+     "w": "entrepreneurship",
+     "t0": 2.47,
+     "t1": 3.29,
+     "e": 0
+    },
+    {
+     "w": "as",
+     "t0": 3.29,
+     "t1": 4.17,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 4.17,
+     "t1": 4.29,
+     "e": 0
+    },
+    {
+     "w": "core",
+     "t0": 4.29,
+     "t1": 4.43,
+     "e": 0
+    },
+    {
+     "w": "subject.",
+     "t0": 4.43,
+     "t1": 4.81,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 2.42,
+     "lines": [
+      [
+       0,
+       3
+      ],
+      [
+       4,
+       6
+      ]
+     ]
+    },
+    {
+     "t0": 2.42,
+     "t1": 5.16,
+     "lines": [
+      [
+       7,
+       11
+      ]
+     ]
+    }
+   ],
+   "text": "Success for this movement is people understanding entrepreneurship as a core subject.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  }
+ ]
+}

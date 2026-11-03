@@ -1,0 +1,125 @@
+{
+ "item": "12489846602",
+ "client": "nfte",
+ "note": "The script asks for the hook text, one name super, the era timeline (a first era tag, then a word stack), one top text, one question text and the end card, so 6 graphics and the end card.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "AI raises the baseline for everybody"
+   },
+   "cue": "Hook text on frame 1: “AI raises the baseline for everybody”. Already on screen at 0:00. It does not animate on.",
+   "src": "Script, row 00:00–00:06, Motion graphics & type.",
+   "rows": [
+    "00:00–00:06"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Dr. J.D. LaRock"
+   },
+   "cue": "Name super at 00:03 for 2 s, lower left above the captions: “Dr. J.D. LaRock”",
+   "src": "Script, row 00:00–00:06, Motion graphics & type.",
+   "rows": [
+    "00:00–00:06"
+   ],
+   "use": "Put it on at 00:03 for 2 s, after the hook text goes out. Move it lower left, above the captions. Type the second line CEO, Network for Teaching Entrepreneurship under it."
+  },
+  {
+   "n": 3,
+   "title": "Era tag",
+   "tpl": "tag_label",
+   "dur": 5,
+   "pos": "top",
+   "text": {
+    "main": "The Industrial Revolution"
+   },
+   "cue": "era tag at 00:06 on “The Industrial Revolution”, top band, 5 s.",
+   "src": "Script, row 00:06–00:12, Motion graphics & type.",
+   "rows": [
+    "00:06–00:12"
+   ],
+   "use": "Put it on as he says The Industrial Revolution (00:06) and hold 5 s. Top band. This is the first stop of the era timeline."
+  },
+  {
+   "n": 4,
+   "title": "Era timeline",
+   "tpl": "word_stack",
+   "dur": 10,
+   "pos": "top",
+   "text": {
+    "items": [
+     "The atomic age",
+     "The personal computer",
+     "The AI age"
+    ]
+   },
+   "cue": "Era timeline, word stack, top band, 00:12.5 to 00:22.5, one era per line as he says it: “The atomic age” · “The personal computer” · “The AI age”.",
+   "src": "Script, row 00:12–00:22.5, Motion graphics & type.",
+   "rows": [
+    "00:12–00:22.5"
+   ],
+   "use": "Start it at 00:12.5. The lines land one by one: slide the clip so each line lands on his word (atomic age about 00:14, personal computer about 00:18, AI age about 00:21). Top band. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "Top text",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "It raises the baseline for everybody"
+   },
+   "cue": "Top text as he says it: “It raises the baseline for everybody”. Top band, 2.5 s.",
+   "src": "Script, row 00:22.5–00:25.5, Motion graphics & type.",
+   "rows": [
+    "00:22.5–00:25.5"
+   ],
+   "use": "Put it on at 00:22.5 as he says it and hold 2.5 s. Top band. Keep captions on."
+  },
+  {
+   "n": 6,
+   "title": "Question text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "What are human capabilities in the age of AI?"
+   },
+   "cue": "Question text at about 00:27, top band, 3 s: “What are human capabilities in the age of AI?”",
+   "src": "Script, row 00:25.5–00:37, Motion graphics & type.",
+   "rows": [
+    "00:25.5–00:37"
+   ],
+   "use": "Put it on as he asks it (about 00:27) and hold 3 s. Top band. Capital W, question mark at the end."
+  },
+  {
+   "n": 7,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:37–00:40"
+   ],
+   "cue": "NFTE wordmark end card only.",
+   "src": "NFTE's white logo from the NFTE brand kit (state/nfte/brand/logos, 9 Oct 2026), endcards/index.json.",
+   "c": {
+    "bg": "#4C12A1",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/nfte/nfte-logo-white.svg",
+   "text": {},
+   "dur": 3.0,
+   "use": "Put it right after the last line at 00:37 and hold it to the very last frame. No fade to black."
+  }
+ ]
+}

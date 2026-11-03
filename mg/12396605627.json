@@ -1,0 +1,78 @@
+{
+ "item": "12396605627",
+ "client": "nfte",
+ "note": "The script asks for the hook text, one name super, one top text and the end card, so 3 graphics and the end card.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "Young people want a purpose."
+   },
+   "cue": "Hook text on frame 1: “Young people want a purpose.” Already on screen at 0:00. It does not animate on.",
+   "src": "Script, row 00:00–00:02.5, Motion graphics & type.",
+   "rows": [
+    "00:00–00:02.5"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:02.5. Top third."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Dr. J.D. LaRock"
+   },
+   "cue": "Name super at 00:03 for 2 s, lower left above the captions: “Dr. J.D. LaRock”",
+   "src": "Script, row 00:02.5–00:10, Motion graphics & type.",
+   "rows": [
+    "00:02.5–00:10"
+   ],
+   "use": "Put it on at 00:03 for 2 s. Move it lower left, above the captions. Type the second line CEO, Network for Teaching Entrepreneurship (NFTE) under it."
+  },
+  {
+   "n": 3,
+   "title": "Top text",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "Learning by doing"
+   },
+   "cue": "Top text when he says “learning by doing” (about 00:21), 2 s: “Learning by doing”.",
+   "src": "Script, row 00:18–00:24.5, Motion graphics & type.",
+   "rows": [
+    "00:18–00:24.5"
+   ],
+   "use": "Put it on when he says learning by doing (about 00:21) and hold 2 s. Top band. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:24.5–00:28"
+   ],
+   "cue": "End card: NFTE logo, white on NFTE purple, Fuel a Future Like Mine, NFTE.com/fuelafuture.",
+   "src": "NFTE's white logo from the NFTE brand kit (state/nfte/brand/logos, 9 Oct 2026), endcards/index.json.",
+   "c": {
+    "bg": "#4C12A1",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/nfte/nfte-logo-white.svg",
+   "text": {
+    "lines": [
+     "Fuel a Future Like Mine",
+     "NFTE.com/fuelafuture"
+    ]
+   },
+   "dur": 3.5,
+   "use": "Put it right after the last line at 00:24.5 and hold it to the very last frame. No fade to black."
+  }
+ ]
+}

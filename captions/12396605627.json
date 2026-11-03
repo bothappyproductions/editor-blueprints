@@ -1,0 +1,608 @@
+{
+ "item": "12396605627",
+ "client": "nfte",
+ "style": {
+  "font": {
+   "css": "\"Roboto\"",
+   "w": 700
+  },
+  "size": 62,
+  "y": 1350,
+  "max_lines": 2,
+  "reveal": "phrase",
+  "fg": "#FFFFFF",
+  "box": {
+   "bg": "#4C12A1",
+   "r": 10
+  }
+ },
+ "note": "White text on the NFTE purple #4C12A1 box (the NFTE caption pairing), Roboto (Circular has no file), max 2 lines, NFTE in capitals. This clip has no word times: words are spread inside each transcript line, so check every clip by ear. Pauses over 0.7 s are cut to 0.25 s, as the plan says.",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Hook",
+   "rows": [
+    "00:00–00:02.5"
+   ],
+   "clip": "Interview_Closeup_Audio_Edit.mp4",
+   "start": 91.95,
+   "src": "Interview_Closeup_Audio_Edit.mp4 01:31.9",
+   "dur": 2.84,
+   "words": [
+    {
+     "w": "They",
+     "t0": 0.15,
+     "t1": 0.417,
+     "e": 0
+    },
+    {
+     "w": "want",
+     "t0": 0.417,
+     "t1": 0.683,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 0.683,
+     "t1": 0.843,
+     "e": 0
+    },
+    {
+     "w": "have",
+     "t0": 0.843,
+     "t1": 1.11,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 1.11,
+     "t1": 1.217,
+     "e": 0
+    },
+    {
+     "w": "purpose",
+     "t0": 1.217,
+     "t1": 1.643,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 1.643,
+     "t1": 1.803,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 1.803,
+     "t1": 2.017,
+     "e": 0
+    },
+    {
+     "w": "world.",
+     "t0": 2.017,
+     "t1": 2.39,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 2.74,
+     "lines": [
+      [
+       0,
+       5
+      ],
+      [
+       6,
+       8
+      ]
+     ]
+    }
+   ],
+   "text": "They want to have a purpose in the world.",
+   "timing": "segments",
+   "matched": 1.0,
+   "lang": "en",
+   "check": "No word-level times exist for this clip: word times are spread inside each transcript line. Check the timing by ear."
+  },
+  {
+   "n": 2,
+   "title": "Learning By Doing",
+   "rows": [
+    "00:02.5–00:10"
+   ],
+   "clip": "Interview_Closeup_Audio_Edit.mp4",
+   "start": 72.05,
+   "src": "Interview_Closeup_Audio_Edit.mp4 01:12.0 (01:12.2–01:18.3 + 01:19.7–01:21.1 joined)",
+   "dur": 7.93,
+   "words": [
+    {
+     "w": "Learning",
+     "t0": 0.15,
+     "t1": 0.788,
+     "e": 0
+    },
+    {
+     "w": "by",
+     "t0": 0.788,
+     "t1": 1.0,
+     "e": 0
+    },
+    {
+     "w": "doing,",
+     "t0": 1.0,
+     "t1": 1.496,
+     "e": 0
+    },
+    {
+     "w": "first",
+     "t0": 1.496,
+     "t1": 1.921,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 1.921,
+     "t1": 2.134,
+     "e": 0
+    },
+    {
+     "w": "all,",
+     "t0": 2.134,
+     "t1": 2.488,
+     "e": 0
+    },
+    {
+     "w": "unlocks",
+     "t0": 2.488,
+     "t1": 3.055,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 3.055,
+     "t1": 3.338,
+     "e": 0
+    },
+    {
+     "w": "fact",
+     "t0": 3.338,
+     "t1": 3.692,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 3.692,
+     "t1": 4.046,
+     "e": 0
+    },
+    {
+     "w": "students",
+     "t0": 4.046,
+     "t1": 4.684,
+     "e": 0
+    },
+    {
+     "w": "want",
+     "t0": 4.684,
+     "t1": 5.038,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 5.038,
+     "t1": 5.251,
+     "e": 0
+    },
+    {
+     "w": "do",
+     "t0": 5.251,
+     "t1": 5.463,
+     "e": 0
+    },
+    {
+     "w": "things.",
+     "t0": 5.463,
+     "t1": 6.03,
+     "e": 0
+    },
+    {
+     "w": "People",
+     "t0": 6.28,
+     "t1": 6.603,
+     "e": 0
+    },
+    {
+     "w": "want",
+     "t0": 6.603,
+     "t1": 6.834,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 6.834,
+     "t1": 6.972,
+     "e": 0
+    },
+    {
+     "w": "do",
+     "t0": 6.972,
+     "t1": 7.111,
+     "e": 0
+    },
+    {
+     "w": "things.",
+     "t0": 7.111,
+     "t1": 7.48,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 3.642,
+     "lines": [
+      [
+       0,
+       3
+      ],
+      [
+       4,
+       8
+      ]
+     ]
+    },
+    {
+     "t0": 3.642,
+     "t1": 6.23,
+     "lines": [
+      [
+       9,
+       14
+      ]
+     ]
+    },
+    {
+     "t0": 6.23,
+     "t1": 7.83,
+     "lines": [
+      [
+       15,
+       19
+      ]
+     ]
+    }
+   ],
+   "text": "Learning by doing, first of all, unlocks the fact that students want to do things. People want to do things.",
+   "timing": "segments",
+   "matched": 1.0,
+   "lang": "en",
+   "check": "No word-level times exist for this clip: word times are spread inside each transcript line. Check the timing by ear."
+  },
+  {
+   "n": 3,
+   "title": "Not In A Seat",
+   "rows": [
+    "00:10–00:18"
+   ],
+   "clip": "Interview_Closeup_Audio_Edit.mp4",
+   "start": 81.95,
+   "src": "Interview_Closeup_Audio_Edit.mp4 01:21.9 (01:22.1–01:29.2 + 01:30.2–01:31.1 joined)",
+   "dur": 8.51,
+   "words": [
+    {
+     "w": "Young",
+     "t0": 0.15,
+     "t1": 0.623,
+     "e": 0
+    },
+    {
+     "w": "people",
+     "t0": 0.623,
+     "t1": 1.175,
+     "e": 0
+    },
+    {
+     "w": "do",
+     "t0": 1.175,
+     "t1": 1.412,
+     "e": 0
+    },
+    {
+     "w": "not",
+     "t0": 1.412,
+     "t1": 1.727,
+     "e": 0
+    },
+    {
+     "w": "want",
+     "t0": 1.727,
+     "t1": 2.122,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 2.122,
+     "t1": 2.358,
+     "e": 0
+    },
+    {
+     "w": "sit",
+     "t0": 2.358,
+     "t1": 2.674,
+     "e": 0
+    },
+    {
+     "w": "all",
+     "t0": 2.674,
+     "t1": 2.989,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 2.989,
+     "t1": 3.305,
+     "e": 0
+    },
+    {
+     "w": "time",
+     "t0": 3.305,
+     "t1": 3.699,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 3.699,
+     "t1": 3.935,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 3.935,
+     "t1": 4.093,
+     "e": 0
+    },
+    {
+     "w": "classroom",
+     "t0": 4.093,
+     "t1": 4.882,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 4.882,
+     "t1": 5.197,
+     "e": 0
+    },
+    {
+     "w": "hear",
+     "t0": 5.197,
+     "t1": 5.592,
+     "e": 0
+    },
+    {
+     "w": "about",
+     "t0": 5.592,
+     "t1": 6.065,
+     "e": 0
+    },
+    {
+     "w": "theoretical,",
+     "t0": 6.065,
+     "t1": 7.09,
+     "e": 0
+    },
+    {
+     "w": "conceptual",
+     "t0": 7.34,
+     "t1": 7.757,
+     "e": 0
+    },
+    {
+     "w": "things.",
+     "t0": 7.757,
+     "t1": 8.06,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 3.649,
+     "lines": [
+      [
+       0,
+       4
+      ],
+      [
+       5,
+       9
+      ]
+     ]
+    },
+    {
+     "t0": 3.649,
+     "t1": 8.41,
+     "lines": [
+      [
+       10,
+       15
+      ],
+      [
+       16,
+       18
+      ]
+     ]
+    }
+   ],
+   "text": "Young people do not want to sit all the time in a classroom and hear about theoretical, conceptual things.",
+   "timing": "segments",
+   "matched": 1.0,
+   "lang": "en",
+   "check": "No word-level times exist for this clip: word times are spread inside each transcript line. Check the timing by ear."
+  },
+  {
+   "n": 4,
+   "title": "Find Out Who They Are",
+   "rows": [
+    "00:18–00:24.5"
+   ],
+   "clip": "Interview_Closeup_Audio_Edit.mp4",
+   "start": 95.15,
+   "src": "Interview_Closeup_Audio_Edit.mp4 01:35.1 (01:35.3–01:37.7 + 01:38.7–01:42.6 joined)",
+   "dur": 6.77,
+   "words": [
+    {
+     "w": "They",
+     "t0": 0.15,
+     "t1": 0.416,
+     "e": 0
+    },
+    {
+     "w": "want",
+     "t0": 0.416,
+     "t1": 0.682,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 0.682,
+     "t1": 0.841,
+     "e": 0
+    },
+    {
+     "w": "find",
+     "t0": 0.841,
+     "t1": 1.107,
+     "e": 0
+    },
+    {
+     "w": "out",
+     "t0": 1.107,
+     "t1": 1.32,
+     "e": 0
+    },
+    {
+     "w": "who",
+     "t0": 1.32,
+     "t1": 1.532,
+     "e": 0
+    },
+    {
+     "w": "they're",
+     "t0": 1.532,
+     "t1": 1.958,
+     "e": 0
+    },
+    {
+     "w": "about.",
+     "t0": 1.958,
+     "t1": 2.33,
+     "e": 0
+    },
+    {
+     "w": "And",
+     "t0": 2.58,
+     "t1": 2.821,
+     "e": 0
+    },
+    {
+     "w": "learning",
+     "t0": 2.821,
+     "t1": 3.364,
+     "e": 0
+    },
+    {
+     "w": "by",
+     "t0": 3.364,
+     "t1": 3.545,
+     "e": 0
+    },
+    {
+     "w": "doing",
+     "t0": 3.545,
+     "t1": 3.907,
+     "e": 0
+    },
+    {
+     "w": "allows",
+     "t0": 3.907,
+     "t1": 4.329,
+     "e": 0
+    },
+    {
+     "w": "young",
+     "t0": 4.329,
+     "t1": 4.691,
+     "e": 0
+    },
+    {
+     "w": "people",
+     "t0": 4.691,
+     "t1": 5.114,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 5.114,
+     "t1": 5.295,
+     "e": 0
+    },
+    {
+     "w": "do",
+     "t0": 5.295,
+     "t1": 5.475,
+     "e": 0
+    },
+    {
+     "w": "those",
+     "t0": 5.475,
+     "t1": 5.837,
+     "e": 0
+    },
+    {
+     "w": "things.",
+     "t0": 5.837,
+     "t1": 6.32,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 2.53,
+     "lines": [
+      [
+       0,
+       5
+      ],
+      [
+       6,
+       7
+      ]
+     ]
+    },
+    {
+     "t0": 2.53,
+     "t1": 6.67,
+     "lines": [
+      [
+       8,
+       12
+      ],
+      [
+       13,
+       18
+      ]
+     ]
+    }
+   ],
+   "text": "They want to find out who they're about. And learning by doing allows young people to do those things.",
+   "timing": "segments",
+   "matched": 1.0,
+   "lang": "en",
+   "check": "No word-level times exist for this clip: word times are spread inside each transcript line. Check the timing by ear."
+  }
+ ]
+}

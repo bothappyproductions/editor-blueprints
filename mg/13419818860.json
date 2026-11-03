@@ -1,0 +1,90 @@
+{
+ "item": "13419818860",
+ "client": "nfte",
+ "format": "16x9",
+ "note": "TV spot, 16:9 at 1920×1080. The script's QR screen with the picture in a window (00:00–00:06.3 and 00:17.5–00:23.0) is the V2 layout from Melanie with Denise's changes; no template draws a picture window, so it is not in this library. The library is the final screen only. The graphics export at 30 fps: in your 29.97 timeline set Interpret Footage to 29.97 so frame counts match.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Final screen · Scan to give",
+   "tpl": "end_card",
+   "dur": 7.0,
+   "qr": {
+    "m": [
+     "1111111011101101010111001000001111111",
+     "1000001010110010000101000100101000001",
+     "1011101010110100100101000111001011101",
+     "1011101001011010110001010110101011101",
+     "1011101010111000000100000010101011101",
+     "1000001001111011000000011010001000001",
+     "1111111010101010101010101010101111111",
+     "0000000001110101011100111111100000000",
+     "1001111111000011000100001010010010111",
+     "0001100100010010101001110111000111110",
+     "0100101010101011101111010101000100001",
+     "1011110001000100111110110011010111111",
+     "1001001010000011000000010001101100001",
+     "1010010101110110101000010011100011010",
+     "0001011011101001001110100111010011111",
+     "1010000001001100000000000001111101110",
+     "1110001111101100011000110001001000100",
+     "1011110001000000010000000011110100100",
+     "0111011100110010110101110001101001001",
+     "0100110011111001100110101110100111001",
+     "1110101100100000111110010011111111000",
+     "0000000000110101011100010101010010100",
+     "1001001010111111000011110101011101001",
+     "1101110110001010001110100011000111100",
+     "1011001001011111010110001000001100011",
+     "1010010111101010011100110111100010000",
+     "1111001110111111010000101111011000011",
+     "1000000011001000100100100001101101110",
+     "1001001011101011101110111101111111101",
+     "0000000010001001010110100100100010100",
+     "1111111010110011011110011100101010001",
+     "1000001010011100100100000100100010010",
+     "1011101010011111101101111011111110010",
+     "1011101010100110010010110011111001101",
+     "1011101001101110000011110000010010001",
+     "1000001001000111010000010011011010111",
+     "1111111010000000000110011000101100001"
+    ],
+    "qz": 4,
+    "url": "https://nfte.com/fueloursharedfuture/?utm_source=comcast&utm_medium=ctv"
+   },
+   "qr_px": 405,
+   "logos": [
+    {
+     "src": "endcards/nfte/nfte-logo-white.svg"
+    },
+    {
+     "src": "endcards/nfte/build-logo-white.svg",
+     "h": 1.35
+    }
+   ],
+   "text": {
+    "head": "FUEL OUR SHARED FUTURE",
+    "lines": [
+     "Launch the Next Generation of Entrepreneurs",
+     "nfte.com/fueloursharedfuture"
+    ],
+    "qr_label": "SCAN TO GIVE"
+   },
+   "upper": false,
+   "size": 130,
+   "c": {
+    "bg": "#4C12A1",
+    "fg": "#FFFFFF",
+    "ac": "#FF5C39",
+    "ac2": "#49B6E3",
+    "onAc": "#FFFFFF"
+   },
+   "cue": "End card only.",
+   "src": "Words: Denise Miller, 28 Oct (points 1 and 5). Landing page nfte.com/fueloursharedfuture (NFTE). Logos: NFTE brand kit + Alison's BUILD logo, in white (endcards/nfte). QR code opens https://nfte.com/fueloursharedfuture/?utm_source=comcast&utm_medium=ctv (tested for the first plan).",
+   "rows": [
+    "00:23.0–00:30.0"
+   ],
+   "use": "Expand out to it at 00:23.0 (frame 690) and hold it to the last frame (899). If you keep Melanie's QR code, place it over this one."
+  }
+ ]
+}

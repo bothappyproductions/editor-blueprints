@@ -1,0 +1,473 @@
+{
+ "id": "12396605627",
+ "client": "nfte",
+ "eyebrow": "NFTE · J.D. LaRock sit-down at the pitch competition · 8 May 2026 · Social reel",
+ "title": "J.D. LaRock:",
+ "title_q": "“Young People Want a Purpose”",
+ "title_short": "J.D. · Young People Want a Purpose",
+ "editor": "Bleron",
+ "due": "",
+ "format": "9:16 only · 1080×1920",
+ "length": "about 28 s",
+ "edit_key": "NFTEJdSocialPurposeInTheWorld001",
+ "headline": "Young people do not want to sit and listen. They want a purpose, and learning by doing gives them one.",
+ "story": [
+  "Open cold on J.D.'s strongest line: <q>They want to have a purpose in the world.</q> Then let him explain it. Students want to do things. They do not want to sit in a classroom and hear theory. Learning by doing lets them find out who they are.",
+  "The picture carries the point. When he says students want to do things, we see a student pitching. When he says they do not want to sit in a classroom, we see a room listening to a presenter. It is national and evergreen: nothing on screen says where it was filmed.",
+  "<b>Loop:</b> <q>Why do young people need a purpose, and what gives it to them?</q> opens at 0:00 and closes on <q>learning by doing allows young people to do those things.</q>"
+ ],
+ "feel": [
+  "Hopeful",
+  "Clear",
+  "Confident",
+  "Evergreen"
+ ],
+ "do": [
+  "Open on J.D. already speaking, with the hook text on screen at frame 1.",
+  "Put a student pitching over <q>students want to do things</q> and a classroom shot over <q>sit all the time in a classroom</q>.",
+  "Cut pauses over 0.7 s to about 0.25 s. The row times already count that.",
+  "End card: NFTE logo, <q>Fuel a Future Like Mine</q> and <q>NFTE.com/fuelafuture</q>.",
+  "Hold the end card to the very last frame."
+ ],
+ "dont": [
+  "No city, region or venue name on screen. That includes slides, boards and signs in the B-roll.",
+  "No slide text that can be read. Crop or push in so screens and boards fall out of frame.",
+  "No logo, name card or fade at 0:00.",
+  "No black frames between shots, and the cut never ends on black.",
+  "Never write NFTE as Nifty."
+ ],
+ "links": {
+  "brief": {
+   "title": "Production Brief — NFTE Dallas, JD Pitch Competition (May 8, 2026)",
+   "url": "https://docs.google.com/document/d/1RDVAy1N94J4giWIHzlEnDcq-bkjChOVx4gP5KmA9MU8/edit",
+   "note": "The shoot brief: the event, the sit-down with J.D. and the B-roll list. The edit plan is this page."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Atdhe owes it. The Production Planning rows for the NFTE shoots have no reference. Until then, match the delivered J.D. LaRock reels."
+  },
+  "footage": {
+   "title": "Dallas JD Pitch Competition May 8 2026 (raw)",
+   "url": "https://drive.google.com/drive/folders/1fvFqaN04Thizbc-UrN_F8z6gufSVCoI1",
+   "note": "J.D. is in Interview/Interview_Closeup_Audio_Edit.mp4. B-roll is in 1DX b-roll and R6 b-roll."
+  }
+ },
+ "bp_intro": "J.D.'s lines are from <span class=\"mono\">Interview_Closeup_Audio_Edit.mp4</span> (Interview folder; the same file is also in Edits). Times are mm:ss in that file, from the line times in output.json. This clip has no word times, so the in and out points are good to about half a second: find them on the waveform. B-roll comes from Erin's visual.json shot index. No frames could be pulled for this page, so check every shot on scrub.",
+ "rows": [
+  {
+   "tc": "00:00–00:02.5",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": "src 01:32",
+   "frame_alt": "J.D. in a suit and tie, medium shot, NFTE sign behind him (visual.json, not a pulled frame).",
+   "visual": "J.D. on camera, <a href=\"https://drive.google.com/file/d/16CTqxv5U0cHTvrdF2AXhuC5DxxDK1_Nt/view\">Interview_Closeup_Audio_Edit.mp4</a>. Start on <q>They</q> at about <span class=\"mono\">01:32.2</span>. 9:16 center crop on his face. His face is the strongest picture for the hook, so no B-roll here.",
+   "motion": "Hook text on <b>frame 1</b>: <q>Young people want a purpose.</q> Already on screen at 0:00. It does not animate on. Top third, white bold, the word purpose in NFTE orange <span class=\"mono\">#FF5C39</span>. It goes out at 00:02.5. Captions start on frame 1.",
+   "voice": {
+    "who": "J.D. LaRock",
+    "quote": "They want to have a purpose in the world.",
+    "src": "Interview_Closeup_Audio_Edit.mp4 01:32.2 to 01:34.4"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Light, optimistic bed starts low on frame 1. No lyrics.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "They"
+    }
+   ]
+  },
+  {
+   "tc": "00:02.5–00:10",
+   "beat": "LEARNING BY DOING",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": "src 01:12",
+   "frame_alt": "J.D. in a suit and tie, medium shot, NFTE sign behind him (visual.json, not a pulled frame).",
+   "visual": "Jump back to the start of his answer, on his face: <q>Learning by doing, first of all,</q> (<span class=\"mono\">01:12.3</span>). Small punch-in (105%) to hide the jump. On <q>students want to do things</q> (about <span class=\"mono\">01:16</span>) cut to a student pitching: <a href=\"https://drive.google.com/file/d/1TSLwOCwP4dFs785yKY8mJT63AycpZG2Z/view\">pitches.mp4</a>, from the range <span class=\"mono\">11:31</span> to <span class=\"mono\">15:21</span> (visual.json: a woman stands at a table and talks to a seated group). Pick a 2.5 s shot where no slide or board text can be read and crop in on her. Back to his face on <q>People want to do things.</q> Cut the pause before it (about <span class=\"mono\">01:18.2</span> to <span class=\"mono\">01:19.8</span>).",
+   "motion": "Name super at 00:03 for 2 s, lower left above the captions: <q>Dr. J.D. LaRock</q> / CEO, Network for Teaching Entrepreneurship (NFTE). Captions on.",
+   "voice": {
+    "who": "J.D. LaRock",
+    "quote": "Learning by doing, first of all, unlocks the fact that students want to do things. People want to do things.",
+    "src": "Interview_Closeup_Audio_Edit.mp4 01:12.3 to 01:21.0"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady, 18 to 20 dB under his voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Learning"
+    },
+    {
+     "clip": "pitches.mp4",
+     "at": 691.2,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "Dallas JD Pitch Competition May 8 2026/1DX b-roll/pitches.mp4",
+     "drive": "1TSLwOCwP4dFs785yKY8mJT63AycpZG2Z",
+     "layout": "full",
+     "what": "A student pitching at a table to a seated group (visual.json 11:31 to 15:21; pick the shot on scrub)"
+    },
+    {
+     "face": true,
+     "from_word": "People"
+    }
+   ]
+  },
+  {
+   "tc": "00:10–00:18",
+   "beat": "NOT IN A SEAT",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": "src 01:22",
+   "frame_alt": "J.D. in a suit and tie, medium shot, NFTE sign behind him (visual.json, not a pulled frame).",
+   "visual": "His face on <q>Young people do not want to sit</q> (<span class=\"mono\">01:22.2</span>). On <q>in a classroom</q> (about <span class=\"mono\">01:25</span>) cut to <a href=\"https://drive.google.com/file/d/1fITXHL3KR90SuHZfxQ8x7adancL7ztzd/view\">A36A7828.MP4</a> <span class=\"mono\">00:12</span> to <span class=\"mono\">00:36</span> (visual.json: a presenter in front of a classroom, a projection screen behind her). 3 s. Keep the screen out of the crop, or soft, so no slide text can be read. Back to his face for <q>conceptual things.</q> Cut the pause at about <span class=\"mono\">01:29.1</span> to <span class=\"mono\">01:30.3</span>.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "J.D. LaRock",
+    "quote": "Young people do not want to sit all the time in a classroom and hear about theoretical, conceptual things.",
+    "src": "Interview_Closeup_Audio_Edit.mp4 01:22.2 to 01:31.0"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Young"
+    },
+    {
+     "clip": "A36A7828.MP4",
+     "at": 12.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "Dallas JD Pitch Competition May 8 2026/R6 b-roll/A36A7828.MP4",
+     "drive": "1fITXHL3KR90SuHZfxQ8x7adancL7ztzd",
+     "layout": "full",
+     "what": "A presenter in front of a classroom (visual.json). Keep the screen text out of frame."
+    },
+    {
+     "face": true,
+     "from_word": "conceptual"
+    }
+   ]
+  },
+  {
+   "tc": "00:18–00:24.5",
+   "beat": "FIND OUT WHO THEY ARE",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": "src 01:35",
+   "frame_alt": "J.D. in a suit and tie, medium shot, NFTE sign behind him (visual.json, not a pulled frame).",
+   "visual": "On <q>They want to find out who they're about.</q> (<span class=\"mono\">01:35.4</span>) cut to a student presenting: <a href=\"https://drive.google.com/file/d/1Iu23O43OCbta9pKuYmQmfgsm0d003RV-/view\">A36A7829.MP4</a> <span class=\"mono\">00:41</span> to <span class=\"mono\">00:55</span> (visual.json: a young woman in front of a classroom, talking to a group of students). 2.5 s. Keep the screen behind her out of the crop. Back to J.D. for <q>And learning by doing allows young people to do those things.</q> Cut the pause at about <span class=\"mono\">01:37.6</span> to <span class=\"mono\">01:38.8</span>. Hold 0.5 s on his face after <q>things</q>.",
+   "motion": "Top text when he says <q>learning by doing</q> (about 00:21), 2 s: <q>Learning by doing</q>. Top band. Captions on.",
+   "voice": {
+    "who": "J.D. LaRock",
+    "quote": "They want to find out who they're about. And learning by doing allows young people to do those things.",
+    "src": "Interview_Closeup_Audio_Edit.mp4 01:35.4 to 01:42.5 (the machine prints “who they're about”; caption what you hear)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Small lift on <q>learning by doing</q>. Not a swell.",
+   "shots": [
+    {
+     "clip": "A36A7829.MP4",
+     "at": 41.2,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "Dallas JD Pitch Competition May 8 2026/R6 b-roll/A36A7829.MP4",
+     "drive": "1Iu23O43OCbta9pKuYmQmfgsm0d003RV-",
+     "layout": "full",
+     "what": "A young woman presents to a group of students (visual.json). Keep the screen out of frame."
+    },
+    {
+     "face": true,
+     "from_word": "And"
+    }
+   ]
+  },
+  {
+   "tc": "00:24.5–00:28",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "End card: NFTE logo, white on NFTE purple <span class=\"mono\">#4C12A1</span>. Two lines under it: <q>Fuel a Future Like Mine</q> and <q>NFTE.com/fuelafuture</q>. Hold it to the very last frame. No fade to black.",
+   "motion": "End card only. No logo before this card.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Last note rings into the card. The picture stays on the card to the last frame.",
+   "shots": []
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/1RDVAy1N94J4giWIHzlEnDcq-bkjChOVx4gP5KmA9MU8/edit\">Production Brief — NFTE Dallas, JD Pitch Competition (May 8, 2026)</a>"
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/1fvFqaN04Thizbc-UrN_F8z6gufSVCoI1\">Dallas JD Pitch Competition May 8 2026</a> · <a href=\"https://drive.google.com/drive/folders/1Q7JeqQA8B6jwK_rYfiQgBgL41xhJzHWt\">Interview</a>"
+  ],
+  [
+   "Interview clip",
+   "<a href=\"https://drive.google.com/file/d/16CTqxv5U0cHTvrdF2AXhuC5DxxDK1_Nt/view\">Interview_Closeup_Audio_Edit.mp4</a> · J.D. sit-down, close shot, audio synced in. <a href=\"https://drive.google.com/file/d/11iJ1YIwsYcmMuUHhR8qefAI6xLQwbV0h/view\">Interview_Wide_Audio_Edit.mp4</a> is the same take from a wide angle (about 3 s later), for cutaways."
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1-R7PsokdZwC9mR3nZo2szFrTzIMwqz_fj0vS4ykYZa4/edit\">Transcripts - Dallas JD Pitch Competition May 8 2026</a> · <a href=\"https://drive.google.com/file/d/1Ssfqkk7Bmx2Qj15ZLP3mYjCkY9033Puz/view\">output.json</a> (line times; no word times for the interview)"
+  ],
+  [
+   "B-roll picks",
+   "<a href=\"https://drive.google.com/file/d/1TSLwOCwP4dFs785yKY8mJT63AycpZG2Z/view\">pitches.mp4</a> 11:31 to 15:21 · <a href=\"https://drive.google.com/file/d/1fITXHL3KR90SuHZfxQ8x7adancL7ztzd/view\">A36A7828.MP4</a> 0:12 to 0:36 · <a href=\"https://drive.google.com/file/d/1Iu23O43OCbta9pKuYmQmfgsm0d003RV-/view\">A36A7829.MP4</a> 0:41 to 0:55 · <a href=\"https://drive.google.com/drive/folders/10SXwZYcIH-gyzDdnTpKghW9nGh-H4e6f\">1DX b-roll</a> · <a href=\"https://drive.google.com/drive/folders/1m38o8qg4CFg1bH-H2TnFddHZ3PILqPUA\">R6 b-roll</a>"
+  ],
+  [
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/1cT2P3rsZot-CT-g7naFkPYNRkabzXpJ_/view\">visual.json</a> (Erin's shot index for this shoot, in the transcripts folder). The visual.json in EditingResources/EditTranscripts lists speech, not shots: do not use it for picture."
+  ],
+  [
+   "Brand graphics package",
+   "NFTE package on Drive: <span class=\"mono\">deliverables/graphics-packages/NFTE</span>. Folder link not available in this run. Type on the empty plates in DM Sans."
+  ],
+  [
+   "Brand",
+   "NFTE purple <span class=\"mono\">#4C12A1</span>, orange <span class=\"mono\">#FF5C39</span>, sky blue <span class=\"mono\">#49B6E3</span> (from nfte.com). Their font is Circular; we have no file, so graphics use DM Sans and captions use Roboto."
+  ],
+  [
+   "Music",
+   "Licensed track only. Save the license with the project."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "<span class=\"mono\">Interview_Closeup_Audio_Edit.mp4</span>: 16:9 sit-down, audio synced in (the shoot recorded audio into the camera). Check the frame rate on import."
+  ],
+  [
+   "Timeline",
+   "1080×1920 at the interview clip's frame rate. Conform the B-roll to it."
+  ],
+  [
+   "Crop",
+   "9:16 center crop of the 16:9 interview, on his face. If the source is 1080p, keep punch-ins at 110% or less and sharpen lightly. Find each B-roll subject on scrub and crop to them."
+  ],
+  [
+   "Audio",
+   "Use the synced audio in the closeup file. Check both channels and map the clean one to both sides."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. Music 18 to 20 dB under his voice."
+  ],
+  [
+   "Pauses",
+   "Pauses inside a bite longer than 0.7 s are cut to about 0.25 s. The row times count that."
+  ],
+  [
+   "Captions",
+   "Burned in, on the whole time. White on the NFTE purple box, max 2 lines, NFTE in capitals. The caption clips on this page are timed from line times, not word times: check each one by ear."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920, 9:16 only. Picture on the last frame, no black tail. Upload to Frame.io → Ready for Review."
+  ]
+ ],
+ "checklist": [
+  "Frame 1 is J.D. talking, with <q>Young people want a purpose.</q> on screen. No logo, name or fade.",
+  "Name super at 00:03, lower left: Dr. J.D. LaRock / CEO, Network for Teaching Entrepreneurship (NFTE).",
+  "A student is on screen when he says students want to do things.",
+  "No slide, board or sign in any shot can be read. No city or region name anywhere.",
+  "Every caption says NFTE in capitals, never Nifty.",
+  "The end card shows the NFTE logo, Fuel a Future Like Mine and NFTE.com/fuelafuture.",
+  "The end card holds to the very last frame. No fade, no black.",
+  "No black frames between shots.",
+  "Music sits under his voice the whole time.",
+  "The file is 9:16 only, 1080×1920."
+ ],
+ "decisions": [
+  {
+   "t": "End card: NFTE alone, or NFTE + BUILD?",
+   "b": "This cut ends on the NFTE logo with Fuel a Future Like Mine and NFTE.com/fuelafuture, as the client asked on this item. Since 5 Oct the Fuel a Future videos close with the NFTE and BUILD logos. Atdhe decides if this reel gets the BUILD logo too (the file is in endcards/nfte)."
+  },
+  {
+   "t": "Visual reference",
+   "b": "Not chosen yet. Atdhe owes it."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> NFTE wants J.D. heard as a national voice. Alison's standing note is evergreen, never local, so nothing in the picture may say where this was filmed.",
+ "ask_examples": [
+  "Which B-roll goes over “students want to do things”?",
+  "Can a slide be readable in a B-roll shot?",
+  "What goes on the end card?",
+  "Does the end card fade out?"
+ ],
+ "transcript": "Machine transcript of Interview_Closeup_Audio_Edit.mp4 (J.D. LaRock, sit-down at the NFTE pitch competition, 8 May 2026). Times are mm:ss in the file, from the line times in output.json (there are no word times for this clip). Speaker labels were wrong and are removed: every answer is J.D.; lines that start with Q: are the interviewer. The machine wrote \"Nifty\"; it is written NFTE here, as he says it.\n--- Interview_Closeup_Audio_Edit.mp4 ---\n[00:04.4] Q: How does NFTE reflect where education is heading, not just where it's been?\n[00:10.8] NFTE reflects where education is heading because NFTE is about entrepreneurship.\n[00:18.3] Entrepreneurship is fundamentally about creation.\n[00:22.3] Education needs sorely now to head in the direction of cultivating students' creative capabilities in a world of artificial intelligence, in a world of changing professions and changing industries, in a world where the traditional methods are not producing the academic achievement results that students need, and we all can see it, the world and students most of all need something different.\n[00:51.2] NFTE's here not just to spread the gospel of entrepreneurship education, we are now here to reinvent education for what it needs to be, but frankly, what it always should have been.\n[01:04.6] And that's what NFTE is about.\n[01:07.0] Q: And what does learning by doing unlock for students?\n[01:12.3] Learning by doing, first of all, unlocks the fact that students want to do things.\n[01:19.8] People want to do things.\n[01:22.2] Young people do not want to sit all the time in a classroom and hear about theoretical, conceptual things.\n[01:32.2] They want to have a purpose in the world.\n[01:35.4] They want to find out who they're about.\n[01:38.8] And learning by doing allows young people to do those things.\n[01:43.0] [do not use: transcription error]\n[01:44.2] Q: As NFTE approaches its 40th anniversary in 2027, how do these ideas reflect the organization's enduring relevance, and what do they say about NFTE's role in shaping the future of education?\n[01:59.5] NFTE's enduring relevance over 40 years comes from the fact that the world is full of businesses.\n[02:05.8] You can't have a world without them.\n[02:07.4] You can't have an economy without them.\n[02:09.2] You can't have a community without them.\n[02:11.5] And so the fact that we've stood for the idea that entrepreneurship education should be in American schools and schools globally is what we have always stood for. [do not use: names a place; NFTE wants national, evergreen cuts]\n[02:23.8] But now we're taking that concept even further.\n[02:27.0] We truly believe that we are not only teaching the entrepreneurial mindset, which is really applicable to jobs and careers that most people will have, whether they're small business owners or not.\n[02:40.0] We also believe that, again, it's time now to unleash the creative capabilities that human beings have so we can power our world forward in a healthy way and in a way that actually drives individual prosperity and family prosperity, but also individual success and fulfillment.\n[02:59.7] The NFTE model is about unleashing what's within young people so that they can become who they truly are and show the world all of the fantastic things that they can give it.\n[03:11.5] Q: What do you consistently see in NFTE students that's often missing in traditional classroom settings?\n[03:19.7] What I see in NFTE students that's missing from traditional classroom settings is the opportunity to take agency over learning and to do that by presenting learning.\n[03:31.9] We stand up in front of so many talented students around the country and around the world who are seventh graders, eighth graders, ninth graders, tenth graders.\n[03:42.2] We're even working more with younger children now.\n[03:44.8] They stand up there.\n[03:46.5] You wouldn't know that they're in middle school.\n[03:48.6] You would think that they were adults for the sophistication of what they provide.\n[03:52.8] And they have amazing business ideas.\n[03:55.3] They propose businesses that I wouldn't want to buy from, that my family would want to buy from.\n[04:00.2] So where else is that happening in U.S. classrooms? [do not use: names a place; NFTE wants national, evergreen cuts]\n[04:04.1] I don't see it happening anywhere else but in NFTE classrooms and that's why we are working so hard to continue to expand throughout the nation and throughout the world and to bring more of what we do to even more students because they want it.\n[04:18.9] Q: If you could bottle one moment from today to show policymakers, what would it be?\n[04:24.9] If I could bottle one moment today to show policymakers, I would show them nothing more than what those three students did when they got up and they each in very different ways presented fantastic business plans.\n[04:39.7] We had a young learner who presented in Spanish.\n[04:43.0] That was fantastic.\n[04:44.4] That's an asset.\n[04:45.5] It showed people that he can work not only with entrepreneurship ideas but he can work bilingually.\n[04:52.1] By the way, he also did a fantastic job fielding questions and doing them really well.\n[04:57.3] So the fact that a student stood up there, was interrogated on the rigor of his business and stood up to that interrogation is something that I would want to see a district administrator or a school administrator see.\n[05:12.5] I would want a district administrator to see that we had a student today who came with a fully formed product and an active business, crocheted flowers.\n[05:23.3] She has an active business as a young student of 13, 14, 15 years old.\n[05:30.1] She is selling her flowers.\n[05:32.1] She has orders.\n[05:33.1] She talked about all the orders she's doing for Mother's Day and it was just amazing to watch a young person who, at that age, is doing so well.\n[05:43.4] And yeah, I'll stop there.\n[05:55.7] The Campus Without Walls project is a really interesting initiative that NFTE is very happy to be a part of.\n[06:02.5] It's starting in the Commonwealth of Massachusetts where NFTE also has many, many programs and we are bringing to the Campus Without Walls effort a fantastic course that we have called Next Level Startup which combines education and literacy in different AI tools and lines it up with the different parts of putting together a business plan so that for the first time ever a student can come out the other side of that course and they will be completely educated in a range of AI tools that will help them on a number of different aspects and they'll also come out with education that allows them to put together a great business plan and a business. [do not use: names a place; NFTE wants national, evergreen cuts]\n[06:43.1] The way the Campus Without Walls project works is really innovative.\n[06:46.7] It's about access.\n[06:48.4] It's about using the digital platforms that we all now use in education even better to create elective opportunities for students in high schools throughout the Commonwealth of Massachusetts to get a NFTE course or to get another course even if that course is not offered in their home school. [do not use: names a place; NFTE wants national, evergreen cuts]\n[07:07.6] So if you go to Brockton High School in Massachusetts and you want to be a NFTE student but NFTE is not in your school, well now you can be a NFTE student because you can take that course remotely through the Campus Without Walls initiative. [do not use: names a place; NFTE wants national, evergreen cuts]\n[07:21.9] It's fantastic.\n[07:22.9] I'm so glad to see it launched.\n[07:24.9] NFTE is glad to be an anchor partner and a founding partner of this initiative and we can't wait to see where it comes next.\n[07:33.1] Q: And why is this kind of learning behind the normal classroom so important right now?\n[07:44.4] The type of learning that Campus Without Walls provides is so important right now because we are painfully aware of the limitations of what our classrooms are otherwise giving.\n[07:57.0] Everybody should have equal and equitable access to great educational programming.\n[08:03.7] We don't have to work in the old school ways only to bring that to more classrooms.\n[08:10.4] Campus Without Walls uses digital functionalities to greatly expand access in an equitable way bringing high quality entrepreneurship education, in our case AI and entrepreneurship education at a time when AI is changing everything, entrepreneurship is sorely needed and both of those things are more or less absent from most classrooms.\n[08:34.5] So when we talk about providing opportunities, when we talk about providing relevant education for this time and place in human history, when we talk about what 21st century schooling should actually provide, it's what the Campus Without Walls project and the NFTE involvement is doing.\n[08:54.5] Just do that last part again.\n[08:56.6] If I, if I can.\n[09:01.8] Remind me what I said.\n[09:05.0] Ask the question.\n[09:06.4] Yeah.\n[09:07.0] Q: Why is that kind of learning beyond the normal classroom so important right now?\n[09:13.8] This type of learning is so important for classrooms right now because this type of learning is missing from most classrooms right now and people really want this type of education.\n[09:24.0] I joke but it's not a joke.\n[09:25.3] I say once a week someone comes up to me and says I wish I had NFTE entrepreneurship program when I was a student.\n[09:32.2] Well there's a reason why people keep coming up and saying that because it is a good type of education that provides real benefit.\n[09:39.8] It's also engaging, it's fun, it's creative and unlike a lot of classes that students take you come out the other end with either a business plan or a business.\n[09:51.5] In the case of Campus Without Walls you come out the other end using our next level startup program with a very nice education in AI and an entrepreneurship education.\n[10:04.4] Nowhere else is doing that and people want it so we're giving it to them.\n[10:08.6] Q: More broadly about AI, how can AI be used as a tool for learning not just efficiency and where should AI not be used?\n[10:20.5] We have seen so many interesting applications of AI at NFTE and we were early adopters of AI in our NFTE programs.\n[10:29.2] The first thing we did is we made sure that students had access to AI for the business ideation process and we found that it was really helpful in getting students unstuck.\n[10:41.7] Sometimes you just need a little starting place, you need a little nudge, that's all you need.\n[10:46.0] AI can actually help you do that.\n[10:48.0] The students then take the ball and run with it themselves so you have to have a point where you switch from the AI to the human user and that's what we do in our NFTE classrooms.\n[10:59.9] The second thing we did is we designed a custom AI that teachers can use to do basic grading because AI is sophisticated enough now where it can do basic grading but where the human touch comes in and in this case the human touch of the teacher, the educator is to provide that next level of feedback and to capture the dimensions that AI can't capture.\n[11:25.1] So AI for example can tell you if the financial piece of your business plan is meeting the standard from an academic standpoint, AI can't tell you whether the pitch you just gave resonated with the audience sitting in front of you.\n[11:39.3] That's where the teacher and their feedback and their guidance and their coaching comes with the coaching that our volunteer and community mentors also provide.\n[11:47.9] So now on the basis of several years of working in this way with AI and having generally a positive experience with it, we have taken the next step and designed the next level startup course which embeds AI all throughout as elements of the course so students come out the other end knowing how to use AI for design, AI for your financial plan, AI for your marketing, AI for your customer segmentation and all the rest and for the first time ever we have students who are launching businesses within 90 days, again high school students, middle school students in the US and around the world because at this point the students coming through school are AI natives.\n[12:30.9] They don't have an issue with AI, they want to use it but they also tell us that they want that guidance that adults can provide but they also tell us that they want that guidance that AI can provide so they know how to use it responsibly.\n[12:47.4] Young people are smart, young people are not naive, young people understand what's real and what's fake, they understand what to question.\n[12:54.9] They're ahead of the adults on AI at the moment but we at NFTE are working with our teachers and the teachers who are into AI to really understand how to create that nexus between where the students are and how they understand AI, how they want to use it and then where the human dimension continues to come in.\n[13:12.7] It's never going to go away, it's never going to go away.\n[13:16.3] As long as students are pitching in front of real people, as long as students are designing business ideas that have to meet a real human need, there will be a need for the human factor in entrepreneurship education and education in general.\n[13:32.1] After all, AI doesn't buy products and services.\n[13:35.6] People do.\n[13:37.8] Q: How do you use AI in your roles as a non-profit education leader and how do you encourage your team and students to think about and use AI?\n[13:48.5] At this point, I and others at NFTE are taking a deeper examination of artificial intelligence in education.\n[13:58.1] We personally think that AI is going to change just about everything.\n[14:04.1] It already has in many ways and as commonplace as it is to regard the role of computers in our lives for people like me who came up a generation ago, these days young people are going to be born into the world and that world is going to have AI in it all over the place.\n[14:24.3] What that means is that school systems and education organizations like NFTE that are serious about the educational philosophy of what we do really have to take on board how to come up with curriculum that responds to where the world and education needs to be.\n[14:43.5] Looking ahead beyond what we've already done, custom AI for students, custom AI for teachers, a whole course dedicated to baseline AI education along with entrepreneurship, the next step is having AI really suffused in all aspects of education and we as NFTE putting out there new ideas, not just for entrepreneurship education, but the entire education field about what schooling now needs to look like because of the AI revolution.\n[15:21.7] Q: How do you define economic mobility and what is your view on whether economic mobility is within reach in our nation and globally?\n[15:32.1] Fundamentally, I think economic mobility is not much more than taking a significant step from wherever you find yourself economically to begin with.\n[15:45.9] The story of people, families, generations that make it in America, the story of families that achieve the American dream is typically a story where there is an immigrant or a grandparent who maybe didn't have a good education, maybe was born into significant poverty, but with enough of the right type of education and mostly the determination to make a better life, they can take a significant step forward. [do not use: names a place; NFTE wants national, evergreen cuts]\n[16:22.3] That might be being the first person in one's family to go to college.\n[16:27.7] That might be being the first person in one's family to start a business.\n[16:33.0] When I think about NFTE and economic mobility, I'm so struck by the fact that so many students come from families where their parents are actually operating informal businesses.\n[16:44.5] They may not have access to all parts of the formal economy because they may not be documented, for example, or they may not have the education that allows them to be accepted by a company or a firm that has a specific educational requirement.\n[17:03.9] So all over the programs we work with around the country, I meet students and I ask them, why are you interested in becoming an entrepreneur?\n[17:13.2] And they say, because my parents have a business, but when you peel back the layer, you see that it's an informal business.\n[17:20.7] Well, with a little bit more structure, that informal business can provide the seedbed for a formal business that then translates into an even firmer step into economic mobility and prosperity and success.\n[17:35.5] The last thing I'd say is very important to me in my definition of economic mobility is that you continue moving forward.\n[17:45.2] We are all living in a world where we constantly have to refresh our skills, where we can't take for granted that the things that we know and can do are going to be able to allow us to have a job, a career, operate in the same way going forward.\n[18:00.3] The world's just changing too fast around us.\n[18:02.9] So I think economic mobility and the role of education in economic mobility is paramount because it's the education system where the recognition of the changing world is supposed to take place.\n[18:15.7] It's not happening enough, and that's where NFTE comes in.\n[18:20.5] We're providing this fantastic, effective, lively, enthusiastic, fulfilling type of education that also is quite practical because what other class can you think of where you can literally create your own job?\n[18:39.9] If you want to talk about economic mobility, how about educating a young person so that they can create their own job and they never have to be dependent on anybody ever?\n[18:54.3] That is a thing we do at NFTE.\n[18:57.4] That is a thing our NFTE students do, and we have hundreds, thousands of stories of NFTE alumni, recent and in our 40-year history, who not only pulled themselves up, pulled their whole families up because they used the NFTE program to create a business and bring prosperity into their lives.\n[19:31.7] Q: And what outcomes matter other than NFTE?\n[19:36.7] I always remark that look around you, any community you walk into in the United States or around the world, what are you going to see lots of?\n[19:46.3] Businesses.\n[19:47.5] Businesses are the backbone of healthy communities.\n[19:50.1] You literally cannot have a community without strong businesses.\n[19:54.4] Therefore, entrepreneurship education is fundamental to sustaining healthy communities.\n[20:00.3] I think it's ultimately relevant to sustaining our democracy, our society, because when you have people operating businesses that serve a community, you have many things.\n[20:14.6] You have an entity that is providing something of value to the community.\n[20:20.5] It is economic activity that benefits not just the business owner, but all the people who are connected to what that business owner needs.\n[20:29.5] That helps sustain the community.\n[20:31.6] You also create relationships.\n[20:34.3] You create relationships with your customers.\n[20:37.0] You create relationships with the families who come and discover your business.\n[20:42.1] And so there's a whole human dimension that also creates the social fabric of communities.\n[20:48.4] Entrepreneurship does that too.\n[20:59.2] It's important to measure the economic impact of programs like NFTE because, well, first of all, we're entrepreneurship.\n[21:07.4] So if we aren't measuring our business metrics, then we wouldn't be very good, would we?\n[21:11.5] So we're pretty committed to that idea.\n[21:13.5] But of course, people want to know that a program is not only providing a meaningful experience to a learner, but that it's also providing an effective experience to a learner.\n[21:26.3] Learning can be measured.\n[21:27.5] We all know that.\n[21:28.8] Literacy, numeracy can and should be measured.\n[21:33.2] Knowing where you are in terms of being a literate and financially literate person is essential to operating in life.\n[21:41.2] So programs like ours that make a real effort to measure that type of learning are providing something valuable to the student, to the teacher, to the school, to the state policymakers who want to know how students are doing.\n[21:53.9] So for those reasons, it's important.\n[21:56.8] But measurement goes beyond and can go beyond the traditional way of looking at measurement.\n[22:02.1] At NFTE, we pioneered the Entrepreneurial Mindset Index, which measures things that most people believe can't be measured but actually can be measured.\n[22:11.5] They include things like the ability to manage risk, the ability to spot opportunities, the ability to problem-side, the ability to collaborate.\n[22:22.3] We have designed scientifically valid.\n[22:27.3] We have designed scientifically validated assessments that measure these capabilities.\n[22:33.0] We call them entrepreneurial mindset capabilities.\n[22:35.7] There are eight of them.\n[22:37.1] And we're the only organization in the world, as far as I know, that really attempts to ascertain what all of our students are doing in this regard.\n[22:47.6] This is next generation assessment when you think about it because, once again, we're living in a world where AI can read the document for you.\n[22:57.8] It can analyze the spreadsheet of financials for you.\n[23:01.5] But you also need to have creative capabilities.\n[23:05.2] You need to work with other people.\n[23:07.1] You need to look at the world around you and see if there is an opportunity out there that can help you or if there's something out there that you should be cautious about.\n[23:15.2] AI can't do any of that.\n[23:17.5] But the NFTE program does that.\n[23:19.1] And that's another way that we can cultivate skills and also measure through sound assessment and 21st century assessment.\n[23:44.5] I hope that people take away from this new analysis the idea that entrepreneurship is about so, so much more than just one person starting one business.\n[23:55.3] I really encourage people who read this report and who really think about what NFTE does to recognize that we are empowering individuals.\n[24:04.5] We are empowering families by creating economic lifelines for individuals to provide family prosperity.\n[24:12.5] We are also providing and cultivating people who can be real emblems in their community by setting up businesses, by staying in their community, by investing and reinvigorating their community.\n[24:27.6] Look at what is happening in the United States today.\n[24:32.2] We are finding our way on so many things.\n[24:35.7] We are divided on so many things.\n[24:38.3] But I can't think of a single person I know or who I've ever talked to who has said, my community shouldn't be stronger.\n[24:47.8] There should be fewer businesses.\n[24:50.4] There should be less opportunity.\n[24:53.5] NFTE provides opportunity.\n[24:55.8] It provides a direct practical pathway for a young person to start and sustain a business with real educational knowledge about how to do it.\n[25:04.5] And it provides a pathway for people to benefit themselves, their families, and their communities through that total effort.\n[25:11.0] That is the magic of entrepreneurship.\n[25:12.8] It is so rich.\n[25:28.0] One of the things about the nonprofit field and the education field is that it's often fragmented.\n[25:33.8] There are many organizations that work on many good things.\n[25:38.6] And most of them, most of us, do it in this little pocket.\n[25:43.8] And we do it for a while.\n[25:46.1] And because the nonprofit model is not necessarily always the strongest business model, sometimes those organizations go away.\n[25:56.7] They don't always prosper.\n[25:58.7] The whole organizational fragmentation of the education sector and the nonprofit sector is a limiting factor in our collective effectiveness.\n[26:08.0] So at NFTE a few years ago, we launched our CEO coalition of entrepreneurship education organizations, which banded together and does band together, going to Capitol Hill and the state legislatures to evangelize on behalf of the cause of entrepreneurship education. [do not use: names a place; NFTE wants national, evergreen cuts]\n[26:29.6] What we saw was that policymakers, stakeholders, people from all different states across the country are really interested in what we have to do.\n[26:39.3] And they like the fact that we are working in coalition together now to speak as one voice, that we're not competitors.\n[26:46.5] We are actually colleagues believing in a common philosophy and working in a more coordinated way now to be able to elevate entrepreneurship education faster.\n[26:57.2] Because right now we need to be doing more to elevate entrepreneurship education.\n[27:03.6] American education needs a boost right now. [do not use: names a place; NFTE wants national, evergreen cuts]\n[27:06.7] It needs some new ideas.\n[27:09.0] And right now we have close to 10 or a dozen organizations like NFTE that under our leadership are now advancing this charge.\n[27:19.3] I think we can take it a step further.\n[27:21.7] And at NFTE, we actually are taking it a step further.\n[27:25.1] We are beginning the process of merging and partnering with other organizations that do what we do to help this thing become stronger and larger.\n[27:37.4] And when you unify at that level, at the level of organizations, at the level of the best 21st century entrepreneurship curriculum that we can take, the best entrepreneurship education curriculum that we can create, then you can actually start talking about systems change.\n[27:56.5] I don't know a person out there right now who is totally satisfied with how U.S. education is going, or education in any country for that matter. [do not use: names a place; NFTE wants national, evergreen cuts]\n[28:05.5] That's why people keep knocking at our doorstep wanting more of it.\n[28:09.2] We are seeing how working in coalition and working as, essentially, ultimately, a family of entrepreneurship brands can be a powerful idea that takes this work to the next level.\n[28:30.4] Every student should learn to pitch and respond to questions impromptu because you're going to be put on the spot in your life from time to time.\n[28:39.5] And it's really good to be able to deal with situations like that.\n[28:44.8] The students who prosper and do the best in those situations, I find, are students who know who they are and know their businesses.\n[28:55.7] They know their value.\n[28:57.4] They know the value of their businesses.\n[28:59.0] They know their values.\n[29:00.7] They know themselves because they're so grounded in that way and because they know their business inside and out.\n[29:07.8] I see students take rigorous questions from adults and they knock it out of the ballpark.\n[29:13.5] That is something so useful.\n[29:15.7] Verbal presentation skills, putting ideas together, justifying things impromptu.\n[29:22.5] These are skills that are essential to have.\n[29:24.4] By the way, in a world with AI, these are things that AI can't do.\n[29:29.3] So imagine what we could do if we had a cult- imagine what we could do if we cultivated a generation of students who could do these things well, standing up in front of a room of strangers, talking about their business in the most articulate way it is, and then responding really well to whatever gets thrown at you.\n[29:48.7] That sets you up to respond really well to whatever gets thrown at you in life.\n[29:54.7] Q: One thing schools should stop doing and why?\n[30:08.0] I think that one thing schools should stop doing is stop forgetting about the reason why we're asking students to get all this education in the first place.\n[30:20.7] NFTE is powerful because it starts with the idea that there's a defined endpoint.\n[30:27.9] You're going to have a business plan or a business suit.\n[30:31.1] How many classes have you taken where you didn't really know why you were there?\n[30:36.1] You didn't know what the teacher was going to teach for a semester or a year.\n[30:41.8] And when you sat there for a semester or a year, you wondered why you were learning it.\n[30:47.6] And when you were done and you took all the tests, you didn't really know how you were going to use it.\n[30:55.1] This happens most of the time in education, and it is really not how education should be set up in my opinion.\n[31:06.3] Education is much better when education gives young people a clear idea about why they're there, the end goal, and the end purpose.\n[31:15.2] A NFTE program does that every single time, which is why students are invested in it.\n[31:21.0] The other thing I'll say that is missing from education that needs to be there is the student's motivation, desire, and viewpoint.\n[31:31.8] A NFTE program begins with the student and their idea.\n[31:36.9] That idea doesn't come from anywhere else but the student.\n[31:41.2] So it comes from an authentic place.",
+ "alts": {
+  "hook:0": [
+   {
+    "text": "Students want to do things.",
+    "line": "Learning by doing, first of all, unlocks the fact that students want to do things.",
+    "why": "Opens on the action, not the idea."
+   },
+   {
+    "text": "What does learning by doing unlock?",
+    "line": "Learning by doing, first of all, unlocks the fact that students want to do things.",
+    "why": "The interview question as the hook."
+   },
+   {
+    "text": "Students need something different.",
+    "line": "the world and students most of all need something different.",
+    "why": "Urgent; needs a short setup line after it."
+   },
+   {
+    "text": "Unleash what's within young people",
+    "line": "The NFTE model is about unleashing what's within young people so that they can become who they truly are",
+    "why": "Same idea in NFTE's own model."
+   }
+  ],
+  "bite:0": [
+   {
+    "quote": "The NFTE model is about unleashing what's within young people so that they can become who they truly are and show the world all of the fantastic things that they can give it.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "Same idea, longer. Names NFTE."
+   },
+   {
+    "quote": "Entrepreneurship is fundamentally about creation.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "Short and strong, 2 s."
+   },
+   {
+    "quote": "You would think that they were adults for the sophistication of what they provide.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "Proud of the students."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "What I see in NFTE students that's missing from traditional classroom settings is the opportunity to take agency over learning and to do that by presenting learning.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "Same point, says NFTE."
+   },
+   {
+    "quote": "Entrepreneurship is fundamentally about creation.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "Short, 2 s."
+   },
+   {
+    "quote": "And they have amazing business ideas.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "Short, warm, 2.5 s."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "We don't have to work in the old school ways only to bring that to more classrooms.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "Same contrast with the old classroom."
+   },
+   {
+    "quote": "this type of learning is missing from most classrooms right now and people really want this type of education.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "Adds urgency."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "The NFTE model is about unleashing what's within young people so that they can become who they truly are and show the world all of the fantastic things that they can give it.",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "A bigger close. About 11 s."
+   },
+   {
+    "quote": "So the fact that a student stood up there, was interrogated on the rigor of his business and stood up to that interrogation",
+    "who": "J.D. LaRock",
+    "file": "Interview_Closeup_Audio_Edit.mp4",
+    "why": "A real student moment."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "NFTE runs clean: the hook text, one name super, one top text, the end card, and three B-roll cutaways of students. No logo before the end card. Nothing on screen names a place.",
+  "devices": [
+   {
+    "row": "00:00–00:02.5",
+    "device": "Hook text, static, top third",
+    "asset": "highlight_callout (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:02.5–00:10",
+    "device": "Name super, then a student pitching",
+    "asset": "tag_label (MG library); pitches.mp4 11:31 to 15:21",
+    "source": "Script; Dallas 1DX b-roll"
+   },
+   {
+    "row": "00:10–00:18",
+    "device": "Classroom cutaway",
+    "asset": "A36A7828.MP4 0:12 to 0:36",
+    "source": "Dallas R6 b-roll"
+   },
+   {
+    "row": "00:18–00:24.5",
+    "device": "Student presenting, then top text",
+    "asset": "A36A7829.MP4 0:41 to 0:55; highlight_callout (MG library)",
+    "source": "Dallas R6 b-roll; Script"
+   },
+   {
+    "row": "00:24.5–00:28",
+    "device": "End card with tagline and URL",
+    "asset": "end_card (MG library)",
+    "source": "endcards/nfte, 9 Oct 2026"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "A36A7831.MP4",
+    "path": "Dallas JD Pitch Competition May 8 2026/R6 b-roll/A36A7831.MP4",
+    "drive": "17VCZBYxYpKImAQK3GZBbj1W1MqUh5pyT",
+    "at": 8.7,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "A speaker at a podium, people seated (visual.json, medium). Logos on the backdrop: keep them soft.",
+    "frame": null
+   },
+   {
+    "clip": "pitches.mp4",
+    "path": "Dallas JD Pitch Competition May 8 2026/1DX b-roll/pitches.mp4",
+    "drive": "1TSLwOCwP4dFs785yKY8mJT63AycpZG2Z",
+    "at": 230.4,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "An attentive audience with name tags (visual.json 3:50 to 11:31).",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "NFTE end card (white logo on purple)",
+    "kind": "end_card",
+    "file": "endcards/nfte/nfte-logo-white.svg",
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
+}

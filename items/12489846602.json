@@ -1,0 +1,477 @@
+{
+ "id": "12489846602",
+ "client": "nfte",
+ "eyebrow": "NFTE · J.D. LaRock at home · 24 Jun 2026 · Thought-leadership reel",
+ "title": "J.D. LaRock:",
+ "title_q": "“AI Raises the Baseline”",
+ "title_short": "J.D. · AI Raises the Baseline",
+ "editor": "Bleron",
+ "due": "",
+ "format": "9:16 only · 1080×1920",
+ "length": "about 40 s",
+ "edit_key": "NFTEJdBostonAiRaisesTheBaseline001",
+ "headline": "Every big technology pushed the human brain forward. AI is the next one, and it raises the baseline for everybody.",
+ "story": [
+  "The optimistic, big-picture AI reel. J.D.'s thesis: technology is the spur that advances the human brain. Then the proof, era by era: the Industrial Revolution, the atomic age, the personal computer, and now the AI age. <b>An era timeline builds on screen as he names each one.</b>",
+  "The turn is short: <q>It raises the baseline for everybody.</q> The button is a happy question: what can humans do in the age of AI? <q>We don't know yet. But it's going to be fun to find out.</q>",
+  "<b>Loop:</b> <q>What does AI do to human beings?</q> opens at 0:00 and closes on <q>fun to find out</q>. Curious and hopeful, never fearful about AI."
+ ],
+ "feel": [
+  "Optimistic",
+  "Curious",
+  "Big-picture",
+  "Clear"
+ ],
+ "do": [
+  "Open on J.D. already speaking, with the hook text on screen at frame 1.",
+  "Build the era timeline as he names each era: Industrial Revolution, atomic age, personal computer, AI age.",
+  "Hide each jump with a small punch-in (110% or less).",
+  "End on <q>fun to find out</q> and his smile, then the end card.",
+  "Hold the end card to the very last frame."
+ ],
+ "dont": [
+  "No fear or doom about AI in any graphic or music.",
+  "No logo, title card or fade at 0:00.",
+  "No city or home location on screen.",
+  "No black frames, and the cut never ends on black.",
+  "Never write NFTE as Nifty."
+ ],
+ "links": {
+  "brief": null,
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Atdhe owes it. The Production Planning rows for the NFTE shoots have no reference. Until then, match the delivered J.D. LaRock reels."
+  },
+  "footage": {
+   "title": "JD LaRock Boston Interview raw (24 Jun 2026)",
+   "url": "https://drive.google.com/drive/folders/1BiTDNFiqRfgTVagYgkXH1Eqe4luN13hY",
+   "note": "20260624_C4258.MP4, 31:49, one camera. J.D. at home in front of a bookshelf."
+  }
+ },
+ "bp_intro": "All J.D. lines are from <span class=\"mono\">20260624_C4258.MP4</span> (31:49, one camera). Times come from the word times in output.json and are good to about 0.2 s: find the exact in and out points on the waveform. One B-roll cutaway is from the Dallas pitch competition, picked from Erin's visual.json. No frames could be pulled for this page.",
+ "rows": [
+  {
+   "tc": "00:00–00:06",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": "src 20:13",
+   "frame_alt": "J.D. at home, one locked-off camera, bookshelf behind him (as in the other Boston reels; no frame pulled for this time).",
+   "visual": "J.D. on camera, <a href=\"https://drive.google.com/file/d/1f71QHZEzFUsPh9LuK0-uWDiUf1JohEb7/view\">20260624_C4258.MP4</a>, already speaking. Start on <q>technology</q> at <span class=\"mono\">20:12.9</span>. Cut the pause after <q>technology</q> (about <span class=\"mono\">20:13.9</span> to <span class=\"mono\">20:14.7</span>). Crop centred on his face.",
+   "motion": "Hook text on <b>frame 1</b>: <q>AI raises the baseline for everybody</q>. Already on screen at 0:00. It does not animate on. Top third, white bold, <q>baseline</q> in NFTE orange <span class=\"mono\">#FF5C39</span>. It goes out at 00:03. Name super at 00:03 for 2 s, lower left above the captions: <q>Dr. J.D. LaRock</q> / CEO, Network for Teaching Entrepreneurship. Captions start on frame 1.",
+   "voice": {
+    "who": "J.D. LaRock",
+    "quote": "Technology is the spur that actually advances the evolution of the human brain.",
+    "src": "20260624_C4258.MP4 20:12.9 to 20:19.5"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Light, curious, optimistic bed starts low on frame 1.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "technology"
+    }
+   ]
+  },
+  {
+   "tc": "00:06–00:12",
+   "beat": "THE INDUSTRIAL REVOLUTION",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": "src 20:23",
+   "frame_alt": "J.D. at home, one locked-off camera, bookshelf behind him (as in the other Boston reels; no frame pulled for this time).",
+   "visual": "J.D. on <q>The Industrial Revolution</q> (<span class=\"mono\">20:22.9</span>). Punch in to 105% to hide the jump. Out after <q>before.</q> (<span class=\"mono\">20:28.7</span>). Cut <q>And because that was the case...</q> (20:30.6 to 20:42.6).",
+   "motion": "Era timeline starts: era tag at 00:06 on <q>The Industrial Revolution</q>, top band, 5 s. Captions on.",
+   "voice": {
+    "who": "J.D. LaRock",
+    "quote": "The Industrial Revolution allowed humanity to do things that it couldn't do before.",
+    "src": "20260624_C4258.MP4 20:22.9 to 20:28.7"
+   },
+   "sfx": "Soft whoosh as the era tag lands. Very low.",
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "The"
+    }
+   ]
+  },
+  {
+   "tc": "00:12–00:22.5",
+   "beat": "THE ATOMIC AGE TO THE AI AGE",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": "src 20:45",
+   "frame_alt": "J.D. at home, one locked-off camera, bookshelf behind him (as in the other Boston reels; no frame pulled for this time).",
+   "visual": "Three short pieces, joined: <span class=\"mono\">20:45.3</span> to <span class=\"mono\">20:50.6</span>, then <span class=\"mono\">20:52.4</span> to <span class=\"mono\">20:55.8</span>, then <span class=\"mono\">20:57.1</span> to <span class=\"mono\">20:58.4</span> (out after <q>AI age,</q>). Back to 100% for the first, 105% for the second, 100% for the third, so each jump is hidden. Cut the pause inside <q>revolution, the atomic age</q> (about <span class=\"mono\">20:47.5</span> to <span class=\"mono\">20:48.2</span>).",
+   "motion": "Era timeline, word stack, top band, 00:12.5 to 00:22.5, one era per line as he says it: <q>The atomic age</q> · <q>The personal computer</q> · <q>The AI age</q>. Captions on.",
+   "voice": {
+    "who": "J.D. LaRock",
+    "quote": "The scientific revolution, the atomic age, did that again. The age of the personal computer did that again, the internet age. Now we have the AI age,",
+    "src": "20260624_C4258.MP4 20:45.3 to 20:50.6 + 20:52.4 to 20:55.8 + 20:57.1 to 20:58.4"
+   },
+   "sfx": "Soft tick as each era lands. Very low.",
+   "music": "Bed builds a little toward <q>the AI age</q>.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "The"
+    },
+    {
+     "face": true,
+     "from_word": "The"
+    },
+    {
+     "face": true,
+     "from_word": "Now"
+    }
+   ]
+  },
+  {
+   "tc": "00:22.5–00:25.5",
+   "beat": "THE BASELINE",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": "src 21:30",
+   "frame_alt": "J.D. at home, one locked-off camera, bookshelf behind him (as in the other Boston reels; no frame pulled for this time).",
+   "visual": "J.D., 105%. Start on <q>It</q> at <span class=\"mono\">21:29.6</span>. Cut right after <q>everybody</q> (<span class=\"mono\">21:32.2</span>); <q>in the same way</q> follows at once, so trim on the waveform and add a 2-frame audio fade if it bleeds. Then a 1.5 s cutaway of the audience at the pitch competition: <a href=\"https://drive.google.com/file/d/1TSLwOCwP4dFs785yKY8mJT63AycpZG2Z/view\">pitches.mp4</a> from the range <span class=\"mono\">03:50</span> to <span class=\"mono\">11:31</span> (visual.json: a diverse audience listening). Pick a shot with several faces.",
+   "motion": "Top text as he says it: <q>It raises the baseline for everybody</q>. Top band, 2.5 s. Captions on.",
+   "voice": {
+    "who": "J.D. LaRock",
+    "quote": "It raises the baseline for everybody.",
+    "src": "20260624_C4258.MP4 21:29.6 to 21:32.2"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed lifts here.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "It"
+    },
+    {
+     "clip": "pitches.mp4",
+     "at": 230.4,
+     "dur": 1.5,
+     "cx": 0.5,
+     "path": "Dallas JD Pitch Competition May 8 2026/1DX b-roll/pitches.mp4",
+     "drive": "1TSLwOCwP4dFs785yKY8mJT63AycpZG2Z",
+     "layout": "full",
+     "what": "A diverse audience listening (visual.json 3:50 to 11:31; pick on scrub)"
+    }
+   ]
+  },
+  {
+   "tc": "00:25.5–00:37",
+   "beat": "WE DON'T KNOW YET",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": "src 22:23",
+   "frame_alt": "J.D. at home, one locked-off camera, bookshelf behind him (as in the other Boston reels; no frame pulled for this time).",
+   "visual": "J.D. on <q>So the answer to the question</q> (<span class=\"mono\">22:22.8</span>). Stay on his face to the end: the smile in this line is the picture. Cut the pause inside <q>capabilities in the age</q> (about <span class=\"mono\">22:26.2</span> to <span class=\"mono\">22:27.6</span>). Out after <q>find out</q> (<span class=\"mono\">22:35.0</span>), before <q>as we fully</q>. Hold 0.5 s on his face.",
+   "motion": "Question text at about 00:27, top band, 3 s: <q>What are human capabilities in the age of AI?</q> Captions on.",
+   "voice": {
+    "who": "J.D. LaRock",
+    "quote": "So the answer to the question, what are human capabilities in the age of AI, in a very real sense the answer is we don't know yet. But it's going to be fun to find out.",
+    "src": "20260624_C4258.MP4 22:22.8 to 22:35.0"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed resolves on <q>fun to find out</q>.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "So"
+    }
+   ]
+  },
+  {
+   "tc": "00:37–00:40",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "End card: the NFTE logo, white on NFTE purple <span class=\"mono\">#4C12A1</span>. Nothing else. Hold it to the very last frame. No fade to black.",
+   "motion": "NFTE wordmark end card only. No logo before this card.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Picture stays on the card to the last frame.",
+   "shots": []
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Production brief",
+   "None for this shoot. This page is the plan."
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/1BiTDNFiqRfgTVagYgkXH1Eqe4luN13hY\">JD LaRock Boston Interview</a>"
+  ],
+  [
+   "Clip",
+   "<a href=\"https://drive.google.com/file/d/1f71QHZEzFUsPh9LuK0-uWDiUf1JohEb7/view\">20260624_C4258.MP4</a> · 31:49 · one camera, J.D. only. <a href=\"https://drive.google.com/file/d/14s4fsDhE-NhBMYIvPqzqsWDiJ9aNhMYr/view\">20260624_C4257.MP4</a> is a short first take (about 2 min)."
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1ULk-Wb7FSbK1gMrkLivus8EjzPlwjwojDClhQ4fD9sY/edit\">Transcripts — JD LaRock Boston Interview</a> · speaker names are wrong, every answer is J.D."
+  ],
+  [
+   "Word times",
+   "<a href=\"https://drive.google.com/file/d/12Za2hNWXije0Q_WnFRDKTUjrdINxsxZP/view\">output.json</a> (EditTranscripts, the times used here) · <a href=\"https://drive.google.com/file/d/15M4QlYsQoGX_F5HnOxm6z6GEMM0p9-4e/view\">JD LaRock Boston Interview.srt</a>"
+  ],
+  [
+   "visual.json",
+   "None for this shoot (one locked-off camera). B-roll comes from the Dallas pitch competition: Erin's <a href=\"https://drive.google.com/file/d/1cT2P3rsZot-CT-g7naFkPYNRkabzXpJ_/view\">visual.json</a> for that shoot."
+  ],
+  [
+   "B-roll (other NFTE shoot)",
+   "<a href=\"https://drive.google.com/drive/folders/1fvFqaN04Thizbc-UrN_F8z6gufSVCoI1\">Dallas JD Pitch Competition May 8 2026</a> · <a href=\"https://drive.google.com/file/d/1TSLwOCwP4dFs785yKY8mJT63AycpZG2Z/view\">pitches.mp4</a> · <a href=\"https://drive.google.com/drive/folders/1m38o8qg4CFg1bH-H2TnFddHZ3PILqPUA\">R6 b-roll</a>"
+  ],
+  [
+   "Brand graphics package",
+   "NFTE package on Drive: <span class=\"mono\">deliverables/graphics-packages/NFTE</span>. Folder link not available in this run. Type on the empty plates in DM Sans."
+  ],
+  [
+   "Brand",
+   "NFTE purple <span class=\"mono\">#4C12A1</span>, orange <span class=\"mono\">#FF5C39</span>, sky blue <span class=\"mono\">#49B6E3</span> (from nfte.com). Their font is Circular; we have no file, so graphics use DM Sans and captions use Roboto."
+  ],
+  [
+   "Music",
+   "Licensed track only, light and curious. Save the license with the project."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "<span class=\"mono\">20260624_C4258.MP4</span>: 1920×1080, 23.976 fps, H.264, 2-channel audio. One camera, locked off, same framing the whole interview (probe from the other Boston reels)."
+  ],
+  [
+   "Timeline",
+   "1080×1920 at <b>23.976 fps</b>. Same as the source. Do not convert. Conform the Dallas B-roll to it."
+  ],
+  [
+   "Crop",
+   "A 9:16 crop of 1080p is 608 px wide, so it is already upscaled 1.78×. Keep punch-ins at 110% or less. Sharpen lightly."
+  ],
+  [
+   "Audio",
+   "Channel 1 is the strong one. Channel 2 is much quieter. Map channel 1 to both sides. Music 18 to 20 dB under his voice."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak."
+  ],
+  [
+   "Pauses",
+   "Pauses inside a bite longer than 0.7 s are cut to about 0.25 s. The row times count that."
+  ],
+  [
+   "Captions",
+   "Burned in, on the whole time. White on the NFTE purple box, max 2 lines, NFTE in capitals. Keep the bottom 20% clear for app buttons."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920, 9:16 only. Picture on the last frame, no black tail. Upload to Frame.io → Ready for Review."
+  ]
+ ],
+ "checklist": [
+  "Frame 1 is J.D. talking, with <q>AI raises the baseline for everybody</q> on screen. No logo, name or fade.",
+  "Name super at 00:03, lower left: Dr. J.D. LaRock / CEO, Network for Teaching Entrepreneurship.",
+  "The era timeline shows Industrial Revolution, atomic age, personal computer and AI age, each on his word.",
+  "The question reads <q>What are human capabilities</q> / <q>in the age of AI?</q> with a capital W and a question mark.",
+  "The cut is about 40 s and ends on <q>fun to find out</q>.",
+  "The end card holds to the very last frame. No fade, no black.",
+  "Every caption matches the audio. NFTE in capitals.",
+  "Music sits under his voice the whole time."
+ ],
+ "decisions": [
+  {
+   "t": "Where the era timeline sits",
+   "b": "Atdhe's 30 Jul note put the Industrial / Atomic / PC / AI timeline under the hook line (0:00 to 0:05). The hook text owns 0:00, so this plan builds the timeline where J.D. names each era (00:06 to 00:22.5). Atdhe says if he wants it under the hook as well."
+  },
+  {
+   "t": "End card: NFTE alone, or NFTE + BUILD?",
+   "b": "The brief says NFTE wordmark only, and this plan keeps that. The Fuel a Future videos now close with the NFTE and BUILD logos. Atdhe decides for the J.D. reels."
+  },
+  {
+   "t": "Visual reference",
+   "b": "Not chosen yet. Atdhe owes it."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> NFTE wants J.D. heard as a hopeful national voice on AI and education. This is the optimistic AI angle, different from the policy angle in the NYC reels.",
+ "ask_examples": [
+  "How does the era timeline build?",
+  "Where does the cut end?",
+  "Can I use the Middle Ages line?",
+  "What goes on the end card?"
+ ],
+ "transcript": "Machine transcript of the J.D. LaRock interview at his home, 24 Jun 2026. Times are mm:ss.s in each file, from word times in output.json. Speaker labels were wrong and are removed: every answer is J.D.; lines that start with Q: are the interviewer. The machine wrote \"Nifty\"; it is written NFTE here, as he says it.\n--- 20260624_C4258.MP4 ---\n[00:00.0] [do not use: crew talk]\n[00:02.3] [do not use: crew talk]\n[00:04.2] [do not use: crew talk]\n[00:10.0] [do not use: crew talk]\n[00:45.3] One thing that has been reinforced to me after seven years of leading NFTE is that leadership really involves leading actively day after day after day without fail, without ever really having an opportunity to take your eye off the ball of what you really need to focus on.\n[01:13.0] So many people aspire to be leaders.\n[01:16.0] I have aspired to be a leader because I wanted to lead people and achieve things and accomplish things.\n[01:25.0] I was also drawn to the role itself.\n[01:30.9] What I fully realize now more than ever is how much you have to fully give yourself to that role without fail.\n[01:43.1] And I have learned in a way that I didn't understand before why so many people don't want to be leaders of organizations.\n[01:54.3] It always surprised me when I would meet people who didn't want to be the head of something.\n[01:58.6] Because I always wanted to be the head of something.\n[02:00.7] I thought that would be a good thing to do and good for me to do.\n[02:04.7] Now I understand why so many people don't want the full set of responsibilities that come with leadership.\n[02:12.9] Because they're real, they're comprehensive.\n[02:16.3] And if you commit to being a leader for real, you are making a choice to give the totality of your being to that job.\n[02:25.3] Not because of anything other than that's what being a leader actually requires.\n[02:31.9] You have to give yourself to it fully.\n[02:37.1] Q: What keeps you motivated in the work?\n[02:42.4] What keeps me motivated in the work that we do at NFTE is the fact that I can see we're making progress in achieving our mission.\n[02:52.6] We exist in the world for a very important purpose, to cultivate young people, to give them knowledge, and in particular, to give them skills and knowledge that their schools otherwise aren't giving to them.\n[03:06.7] It's very, very important.\n[03:08.3] And these are life-changing, transformative skills that will help young people be successful as entrepreneurs or just in their day-to-day lives.\n[03:18.5] If I didn't see both at a human level and at the level of numbers and masses of people that we were not making this change, then I would be worried.\n[03:32.5] But I see that we are making this change.\n[03:34.9] And every year that we do this work, I add chapters to the book of stories, lives that have been, I think, forever transformed by NFTE.\n[03:46.5] And that's very motivating.\n[03:48.1] It's very motivating to know that I wake up every day and I have a job that really makes a difference in the world.\n[03:54.7] Not everybody can say that.\n[03:56.3] Some people do a job.\n[03:58.1] They make a thing.\n[03:59.4] They do a job.\n[04:00.3] They get something that needs to get done done.\n[04:04.0] But it isn't necessarily advancing the world or advancing people's lives.\n[04:10.7] The work of education, the work of nonprofit, the work of entrepreneurship education is different from that and, therefore, much, much more fulfilling.\n[04:22.9] Q: What experience in your own life most shaped how you think about education?\n[04:30.4] The experience that most shaped my own view of education is simply the fact that, for a variety of reasons, I grew up in a circumstance where I needed to find something good to focus on.\n[04:49.1] And I happened to focus on schooling as opposed to sports or other pursuits.\n[04:57.6] And I just found that so many of the problems in my life and situations that were not pleasant in my life could be put to the side or there was something else for me to do by really investing in what education provided.\n[05:15.6] I really appreciated the fact that schooling and education, for me, was something that I could see was valued by the others around me.\n[05:25.1] I could see that it was an area in my life where I could find people who were interested in me and who cared about me.\n[05:33.8] That wasn't present in other parts of my life, so I was glad to find it within school, at least from time to time.\n[05:41.9] And I also appreciated the fact that the process of education developed a sense in me that I could solve my own problems, that I had problems, I had challenges, but I had a pathway to deal with them.\n[05:55.7] And that was the skills that I was gaining through education.\n[06:00.1] And interestingly enough, even though what I was succeeding at was exams and content knowledge and facts and figures and the ability to read and spell and do math and remember historical dates, what the education that was really valuable was more everything else around that,\n[06:22.0] mostly the fact that I had a zone in my life where I could see productive things happening.\n[06:32.4] And that proved to be very valuable.\n[06:34.9] And I think about that a lot when we do our work at NFTE, because I don't make any assumptions about the situations that our young people are in.\n[06:45.3] Just because you come from an economically deprived situation doesn't mean that you lack a rich family life or that you lack a strong community.\n[06:53.8] Actually, oftentimes, it means the opposite.\n[06:56.9] But whatever background our students come from, I think about the fact that what we do provides them a totally positive space for them to discover who they are, discover what is meaningful for them as an entrepreneurial pursuit, and that through the entrepreneurial mindset,\n[07:22.9] these students are developing some of the same things I was able to develop through the broader experience of schooling, the ability to experience success, the ability to feel myself gaining in knowledge and capability and feeling good about that,\n[07:40.1] and really just building up oneself to meet future goals.\n[07:44.2] Entrepreneurship education does that.\n[07:47.1] I'm glad that schooling was something for me where I was able to do that, even though I didn't get the specific thing of entrepreneurship education.\n[07:58.8] Q: What responsibility do leaders in education and just leaders in general have right now that they didn't have five years ago?\n[08:10.6] Leaders in education have always had this responsibility, but I think it's more acute and important than ever before right now.\n[08:19.7] And that is leaders in education, leaders of schools, leaders of nonprofits need to remember that we are all part of something called civil society.\n[08:32.3] And civil society is actually where the bulk of human experience and human leadership and direction happens.\n[08:44.4] We tend to forget that, and I think that we are forgetting it these days when we are very focused in American society on politics and political drama and divisions in that realm.\n[08:59.1] And we look to political leaders to guide us, and we forget that we're part of a democracy and a society.\n[09:06.6] And really, the leaders are just reflections of what we want and who we are.\n[09:12.8] Who we are is society, and who we are in particular in the education and nonprofit sphere.\n[09:20.5] There are other parts to it, too.\n[09:22.4] But this thing called civil society is kind of the moral guide, ultimately, for how we get out of whatever situation we find ourselves in.\n[09:36.1] So at NFTE, these days, I've been thinking a lot about how our organization as an important part of the nonprofit world, the education world, and civil society can use our voice to articulate a direction for young people and others to go in and to articulate positivity and articulate something constructive at a time when a lot of what's happening around us is negative and destructive and divisive.\n[10:15.7] When I think that education leaders and nonprofit leaders and civil society leaders, if we're really thinking about why we're here, we need to recognize that at times when things are on fire around us and things that are happening that we didn't create,\n[10:40.6] and when we see people in pain and fighting with each other and in need of guidance, that we actually are in a position to provide that guidance through our positive example and through the constructive thing that education always represents.\n[11:00.6] Well, what's a question in education that you're still wrestling with?\n[11:10.6] A question in education that I'm still wrestling with\n[11:17.7] is why so many things that are sort of obvious to be included in education are not.\n[11:24.1] And those things mostly have to do with really important knowledge and skills that we all know we need in our everyday lives and in our careers, but that education systems don't provide.\n[11:39.9] Entrepreneurship education is one of those things, because as I've said many, many, many times before, it does not make sense to me that every single community, every single economy, small or large, at the center of it are businesses.\n[12:00.6] And yet we in America and around the world have constructed education systems in a way that fails to recognize that businesses and enterprises and organizations are the building blocks of community and the building blocks of society.\n[12:20.6] If education is there to advance society, why is something so obvious missing from that equation?\n[12:29.1] I can say the exact same thing for financial literacy.\n[12:32.9] I can say the exact same thing for pro-social development and understanding what it means to be part of a community or part of a family or part of a group of people, what it means to collaborate and work together.\n[12:48.7] Quizzically, paradoxically, frustratingly, all of these things are in no way anchor points in education today.\n[13:00.3] Why this is is utterly mystifying to me.\n[13:08.3] That was good.\n[13:08.9] OK.\n[13:11.2] Next, we're shifting to focus on entrepreneurial mindset.\n[13:16.2] Q: What does an entrepreneurial mindset actually look like in real life?\n[13:23.5] Fundamentally, an entrepreneurial mindset in real life looks like a person who can solve their problems and feel confident that when something happens, they can figure out what to do.\n[13:36.6] That's it.\n[13:37.6] That is it.\n[13:39.5] Entrepreneurship is about addressing needs.\n[13:42.9] It's about solving problems.\n[13:45.3] It's about making improvements to something that exists in the world.\n[13:50.4] And we, as human beings, are confronted with these situations every day in and of ourselves, with things that we encounter in our work lives, in our family lives, all of it.\n[14:03.7] And having an entrepreneurial mindset that allows you to confront any situation, but especially the tough situations, and say, all right, I'm not exactly sure right now how I will figure this out.\n[14:18.9] But I know I can figure this out because I have the skill of breaking a problem down.\n[14:24.9] I have the skill of analyzing a situation.\n[14:28.3] I have the skill of talking to others and getting advice about the situation.\n[14:33.1] I have the skill of building a plan of action.\n[14:36.4] I have the skill of thinking about the implications of my actions.\n[14:41.1] If you take any situation and apply that rubric, that system, that system's called the entrepreneurial mindset, you are likely to come up with something.\n[14:54.2] And here's where the entrepreneurial mindset, again, in its simplicity, is so powerful.\n[15:01.5] The main problem with most people is not, the main problem with most people is just that they don't take action.\n[15:12.0] It's not that they don't have the right answer.\n[15:17.0] Very rarely is there one right answer to a situation.\n[15:20.7] There are probably many answers that can help address a situation.\n[15:25.0] And there are some wrong answers.\n[15:27.2] But even advancing a wrong answer is better than what 90% of people do, which is to look at the problem, to understand the problem, and to do nothing about the problem.\n[15:41.5] That's not the entrepreneurial mindset.\n[15:43.6] The entrepreneurial mindset says, I see the problem, I understand the problem, and I have power within me to create a solution of some kind and to take action.\n[15:58.5] That is powerful, it is simple, and it is something most people don't do.\n[16:08.4] Q: What mindset shift do young people need most today?\n[16:21.0] What I see most consistently is that young people too often look to others for validation of who they are and approval of others, peers, teachers, authorities, instead of starting with knowing themselves for who they are and learning to value that for what it is.\n[16:46.6] So often I see young people, and I myself was this way as a child, I see young people\n[16:59.7] change themselves in ways that they don't have to because they have an idea that what they see or someone's misbegotten disapproval means that they need to change themselves.\n[17:10.7] They really don't.\n[17:12.7] All too often what that results in is people suppress things about themselves that are really important and really valuable and actually are the spice of life that makes people interesting and unique and actually helps them succeed.\n[17:28.2] So it's very common for young people and adults to overvalue the perspectives of others.\n[17:36.8] I'm not saying that the perspectives of others are not valuable, they're valuable.\n[17:41.0] But other people all too often critique and judge when they really have no right to or when it's just an opinion.\n[17:51.9] Honestly, it's meaningless and oftentimes they're wrong.\n[17:56.4] So I wish that young people would listen less to the critiques of others and listen more to the voice in their own head that says, I think I am this.\n[18:07.0] And I think that that's valuable.\n[18:09.0] And I think that I should do something with that.\n[18:12.1] That is the little voice that I wish young people would remember and listen to more instead of the external voices.\n[18:23.0] [do not use: crew talk]\n[18:26.2] [do not use: crew talk]\n[18:30.9] [do not use: crew talk]\n[18:44.7] AI causes us to re-evaluate what we call human skills.\n[18:51.8] Education systems and society in general talks about skills in functional terms.\n[19:01.6] Oftentimes, they talk about skills.\n[19:06.5] Oftentimes, they say they're talking about skills, but they're really talking about facts and knowledge.\n[19:13.9] But human skills are something different or can be something different.\n[19:25.9] Human skills, there's a lot of talk these days about how AI is necessitating a refocus on human skills.\n[19:37.1] And then the discourse kind of stops on what those human skills actually are.\n[19:43.5] We sort of gesture at it.\n[19:44.8] We say, well, it's creativity, or it's maybe entrepreneurial thinking.\n[19:52.2] It's stuff that is not replicable that a machine can do.\n[19:56.9] But I think the real opportunity with AI probably lies beyond that.\n[20:01.5] Because when you think about what technology has done to humanity over centuries, what you begin to notice is that technology is the spur that actually advances the evolution of the human brain.\n[20:22.9] The Industrial Revolution allowed humanity to do things that it couldn't do before.\n[20:30.6] And because that was the case, that expanded human consciousness and human capability and the idea of what humans could do.\n[20:45.3] The scientific revolution, the atomic age, did that again.\n[20:52.4] The age of the personal computer did that again, the internet age.\n[20:57.1] Now we have the AI age, which is a technological transformation on the order of the personal computer age, the atomic age, the scientific revolution, and the Industrial Revolution.\n[21:11.3] It is.\n[21:12.6] So I think what we felicitously have the opportunity to embrace is that by taking full advantage of all the new things that AI can do for us, it's actually going to push our own consciousness to new levels.\n[21:29.6] It raises the baseline for everybody in the same way that aren't we at a higher baseline than someone who lived in the Middle Ages?\n[21:43.2] We are.\n[21:44.3] What is the difference between then and now, wave after wave after wave after wave of technology?\n[21:51.0] So this is an incredibly optimistic moment from that perspective because we can all expect in the coming years to raise our mental baseline.\n[22:00.0] And then the lucky ones of us get to do even more, which is to imagine things that we can do and new frontiers we can imagine and cross because of what the power of technology does to our own consciousness.\n[22:19.1] It expands it, and that is amazing.\n[22:22.8] So the answer to the question, what are human capabilities in the age of AI, in a very real sense the answer is we don't know yet.\n[22:33.3] But it's going to be fun to find out as we fully understand what AI can do for us and then begin to understand how that pushes our own mentality, our own consciousness, our own mental frontiers further.\n[22:51.7] [do not use: crew talk]\n[22:53.5] [do not use: crew talk]\n[22:55.7] [do not use: crew talk]\n[22:57.0] [do not use: crew talk]\n[22:57.7] [do not use: crew talk]\n[22:58.5] [do not use: crew talk]\n[22:59.7] [do not use: crew talk]\n[23:02.2] [do not use: crew talk]\n[23:14.2] [do not use: crew talk]\n[23:21.7] [do not use: crew talk]\n[23:28.5] [do not use: crew talk]\n[23:30.6] [do not use: crew talk]\n[23:31.8] [do not use: crew talk]\n[23:33.7] [do not use: crew talk]\n[23:39.3] So the first question is, tell me about a student who changed how you think about this work.\n[23:54.3] I can think of many NFTE students who validate something that I learned when I myself was a teenager.\n[24:01.3] And the example of this person changed my view of the work we do today at NFTE in entrepreneurship education.\n[24:15.5] It was at Stuyvesant High School, and it was actually my high school girlfriend.\n[24:23.9] She was incredibly smart and incredibly driven, and we were kind of competitive with each other, but in a good way.\n[24:33.0] And she was incredibly admirable for her intelligence and her academic skill, and she was widely admired by all of us.\n[24:44.4] What I didn't know but did come to know were just the larger circumstances of her life.\n[24:55.2] And I came to understand that people who don't have many other advantages can do amazing things academically and intellectually.\n[25:11.1] And I was just so impressed by that, because it showed me at an early age that there is a lot of deep talent everywhere, and it's really important that we give people the opportunity to develop it and to express it so they can do all that they set out to do in life.\n[25:43.6] From that example, I sort of opened my eyes to the fact that my school was full of students like that, and that's never left me and is a very big part of why I enjoy doing the work that I do and feel that it's important work to do,\n[26:01.8] because it's about creating opportunities for people who have a lot to offer themselves and their communities and the world.\n[26:11.5] And it does not take much to get over a whole lot of disadvantages and do something really special.\n[26:25.2] That makes me think of the Steve quote that Jane used to say, talent is universal, but opportunity is not.\n[26:33.0] Q: Did you grow up in Brooklyn, JD?\n[26:35.0] [do not use: crew talk]\n[26:35.5] [do not use: crew talk]\n[26:40.6] Q: What's a moment that made you realize this approach at NFTE is working?\n[27:03.1] One thing that happens on a regular basis that reminds me that what we do at NFTE is working is the fact that I will speak to alumni of our program who are still so passionate about their NFTE experience 10,\n[27:19.4] 15, 20 years later.\n[27:22.9] They genuinely speak of it as something that changed the direction of their life and that changed their perspective in ways that left them a different person and in a very, very positive way.\n[27:40.2] So you like to think that as an educational program, you are doing things that set people on a good trajectory for their lives.\n[27:52.0] But it's often hard to know.\n[27:54.3] At NFTE, it's not hard to know, because we meet those people.\n[27:58.8] I've even run into them on the street randomly, where someone recognized me as the current CEO of NFTE and said, I was in NFTE 15 years ago, and I recognize you, and I want to tell you how special that was.\n[28:13.1] When we have this whole exhibit in Washington, DC of 40 years worth of NFTE alumni who have transformed their lives and added to their communities.\n[28:23.5] So it is very nice to be a part of an organization where there's no question that we are adding value to the world and making a positive mark and that what we do does make a difference in people's lives because there are so many walking testimonials to the work.\n[28:43.7] And that makes me really happy.\n[28:49.8] Last question.\n[28:51.3] Q: What gives you optimism about the future?\n[28:59.0] What gives me optimism about the future is that young people are optimistic.\n[29:03.9] And I find that the younger they are, the more optimistic they are.\n[29:08.4] We had this really interesting thing happen recently where NFTE helped produce the Mott Foundation Centennial.\n[29:17.5] And the event was a whole business plan competition different from a typical NFTE competition, which has high schoolers and middle schoolers.\n[29:27.1] This one also had elementary schoolers, kindergarteners through fifth grade.\n[29:32.2] And what was so amazing to see is that the caliber, the impressiveness of what those young students did was at the level of admiration that we have for the middle schoolers and high schoolers who have their pitches and their business plans.\n[29:51.4] These seven, eight, nine-year-olds were speaking in sophisticated ways about important things in their lives, in their communities, in their families, problems they wanted to solve or interests that they wanted to pursue.\n[30:08.9] They were speaking in real business plan terms like young entrepreneurs.\n[30:14.2] And they don't even have two digits of age yet.\n[30:17.8] So that makes me incredibly optimistic because I learned something when I saw that.\n[30:23.2] I learned that this thing that we do, entrepreneurship education, is actually something that can be cultivated at the earliest stages.\n[30:33.9] And since we already know the power of entrepreneurship education when it's cultivated in the teenage years, imagine what more NFTE and entrepreneurship education can do for young people and schooling and society if we did it even earlier.\n[30:53.3] I'm optimistic because I learned that.\n[30:57.1] I'm optimistic because I saw the future of NFTE in its next iteration.\n[31:03.6] I think it's ultimately something that does need to be a universal idea in universal education.\n[31:14.8] Great.\n[31:15.8] That was fantastic.\n[31:16.9] Thank you.\n[31:17.7] All right.\n[31:19.5] Anything else?\n[31:21.8] Thank you for being vulnerable with some of those harder personal questions, too.\n[31:26.0] I appreciate that.\n[31:26.9] All right.\n[31:29.0] Nothing more than that.\n[31:30.7] I know.\n[31:32.8] We'll see.\n[31:33.5] All right.\n[31:36.3] Do you need me for anything else?\n[31:38.1] No.\n[31:38.6] All good.\n[31:39.1] That's all the questions we got right there.\n[31:41.3] That's it.\n[31:42.4] Awesome.\n[31:42.6] Thank you, Allison.\n[31:44.1] I appreciate it.\n[31:45.6] Thank you.\n[31:46.2] Thanks, Nick.\n[31:46.9] Bye.\n[31:47.4] Have a good one.\n[31:48.1] Bye.\n--- 20260624_C4257.MP4 ---\n[00:00.0] [do not use: crew talk]\n[00:01.4] [do not use: crew talk]\n[00:05.2] [do not use: crew talk]\n[00:06.0] [do not use: crew talk]\n[00:11.8] One thing I've changed my mind about in education is the extent to which the balance of effort should be spent on skill development as opposed to content knowledge.\n[00:23.5] I think it used to be the case in education that it was very very important to really know a lot of facts and figures and operations.\n[00:35.3] It's still somewhat important to know those things.\n[00:38.6] But the fact is technology and automation, but also the way in which the world and the world of work are changing really puts the emphasis these days on the importance of developing higher order skills in young people and in learners.\n[00:57.7] So, when I think about the types of things that I wish I had spent more time cultivating as a student myself, it's many of the things that we at NFTE speak about as the entrepreneurial mindset.\n[01:12.6] The ability to work in teams, the ability to solve problems, the ability to spot opportunities, the ability to think about the future.\n[01:22.6] These are not things that traditional school necessarily focuses on, even though when you stop and think about it, they're not only crucial for entrepreneurship, they're really crucial for just getting along in life day to day.\n[01:39.3] The most fundamental thing that I think about these days when it comes to education is that it's really important to develop a sense of agency and positivity and self-motivation and self-confidence.\n[02:01.2] Education systems have always tried to speak broadly to that, but I don't think they've ever really tried to organize what they do to truly cultivate it, and I think that's what's needed in education.\n[02:15.7] I think it's needed in a major way and really the balance of effort of schooling ought to transformatively shift in this direction, in my opinion.",
+ "alts": {
+  "hook:0": [
+   {
+    "text": "We don't know yet. That's the fun.",
+    "line": "the answer is we don't know yet. But it's going to be fun to find out",
+    "why": "Opens on the payoff."
+   },
+   {
+    "text": "An optimistic moment",
+    "line": "So this is an incredibly optimistic moment from that perspective",
+    "why": "Plain, hopeful opener."
+   },
+   {
+    "text": "Technology grows the human brain",
+    "line": "technology is the spur that actually advances the evolution of the human brain.",
+    "why": "Says the thesis in plain words."
+   },
+   {
+    "text": "AI makes us re-think human skills",
+    "line": "AI causes us to re-evaluate what we call human skills.",
+    "why": "A sharper question for social."
+   }
+  ],
+  "bite:0": [
+   {
+    "quote": "AI causes us to re-evaluate what we call human skills.",
+    "who": "J.D. LaRock",
+    "file": "20260624_C4258.MP4",
+    "why": "Short, about 4 s."
+   },
+   {
+    "quote": "But I think the real opportunity with AI probably lies beyond that.",
+    "who": "J.D. LaRock",
+    "file": "20260624_C4258.MP4",
+    "why": "A good tease."
+   },
+   {
+    "quote": "So this is an incredibly optimistic moment from that perspective because we can all expect in the coming years to raise our mental baseline.",
+    "who": "J.D. LaRock",
+    "file": "20260624_C4258.MP4",
+    "why": "Hopeful. Also used in Competition Video 2."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "And because that was the case, that expanded human consciousness and human capability and the idea of what humans could do.",
+    "who": "J.D. LaRock",
+    "file": "20260624_C4258.MP4",
+    "why": "The rest of his point. Adds 12 s."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "Now we have the AI age, which is a technological transformation on the order of the personal computer age, the atomic age, the scientific revolution, and the Industrial Revolution.",
+    "who": "J.D. LaRock",
+    "file": "20260624_C4258.MP4",
+    "why": "All four eras in one line, read backwards."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "by taking full advantage of all the new things that AI can do for us, it's actually going to push our own consciousness to new levels.",
+    "who": "J.D. LaRock",
+    "file": "20260624_C4258.MP4",
+    "why": "The why behind the baseline. Adds 10 s."
+   },
+   {
+    "quote": "aren't we at a higher baseline than someone who lived in the Middle Ages?",
+    "who": "J.D. LaRock",
+    "file": "20260624_C4258.MP4",
+    "why": "A fun picture, but he hesitates in it."
+   },
+   {
+    "quote": "we can all expect in the coming years to raise our mental baseline.",
+    "who": "J.D. LaRock",
+    "file": "20260624_C4258.MP4",
+    "why": "Same word, baseline."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "And then the lucky ones of us get to do even more, which is to imagine things that we can do and new frontiers we can imagine and cross",
+    "who": "J.D. LaRock",
+    "file": "20260624_C4258.MP4",
+    "why": "A bigger, dreamier close."
+   },
+   {
+    "quote": "It expands it, and that is amazing.",
+    "who": "J.D. LaRock",
+    "file": "20260624_C4258.MP4",
+    "why": "Short and warm."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "NFTE runs clean: hook text, one name super, the era timeline, one top text, one question text, one B-roll cutaway, the end card. No logo before the end card.",
+  "devices": [
+   {
+    "row": "00:00–00:06",
+    "device": "Hook text, static; name super",
+    "asset": "highlight_callout, tag_label (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:06–00:12",
+    "device": "Era timeline, first era tag",
+    "asset": "tag_label (MG library)",
+    "source": "Script (Atdhe's note on this item)"
+   },
+   {
+    "row": "00:12–00:22.5",
+    "device": "Era timeline, word stack",
+    "asset": "word_stack (MG library)",
+    "source": "Script (Atdhe's note on this item)"
+   },
+   {
+    "row": "00:22.5–00:25.5",
+    "device": "Top text, audience cutaway",
+    "asset": "highlight_callout (MG library); pitches.mp4 3:50 to 11:31",
+    "source": "Script; Dallas 1DX b-roll"
+   },
+   {
+    "row": "00:25.5–00:37",
+    "device": "Question text",
+    "asset": "highlight_callout (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:37–00:40",
+    "device": "End card",
+    "asset": "end_card (MG library)",
+    "source": "endcards/nfte, 9 Oct 2026"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "A36A7827.MP4",
+    "path": "Dallas JD Pitch Competition May 8 2026/R6 b-roll/A36A7827.MP4",
+    "drive": "1SRCftp9-s1sx217AMRTwjd_qxNvE4FPk",
+    "at": 13.1,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "A diverse audience, adults and children, listening (visual.json)",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "NFTE end card (white logo on purple)",
+    "kind": "end_card",
+    "file": "endcards/nfte/nfte-logo-white.svg",
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
+}

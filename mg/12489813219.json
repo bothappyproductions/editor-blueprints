@@ -1,0 +1,89 @@
+{
+ "item": "12489813219",
+ "client": "nfte",
+ "note": "The script asks for the hook text, one name super, one top text, the quote card and the end card, so 4 graphics and the end card.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "The mindset shift young people need"
+   },
+   "cue": "Hook text on frame 1: “The mindset shift young people need”. Already on screen at 0:00. It does not animate on.",
+   "src": "Script, row 00:00–00:06, Motion graphics & type.",
+   "rows": [
+    "00:00–00:06"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Dr. J.D. LaRock"
+   },
+   "cue": "Name super at 00:06 for 2 s, lower left above the captions: “Dr. J.D. LaRock”",
+   "src": "Script, row 00:06–00:18.5, Motion graphics & type.",
+   "rows": [
+    "00:06–00:18.5"
+   ],
+   "use": "Put it on at 00:06 for 2 s. Move it lower left, above the captions. Type the second line CEO, Network for Teaching Entrepreneurship under it."
+  },
+  {
+   "n": 3,
+   "title": "Top text",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "the spice of life"
+   },
+   "cue": "Top text when he says “the spice of life” (about 00:26), 2 s: “the spice of life”.",
+   "src": "Script, row 00:18.5–00:28.5, Motion graphics & type.",
+   "rows": [
+    "00:18.5–00:28.5"
+   ],
+   "use": "Put it on as he says the spice of life (about 00:26) and hold 2 s. Top band. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "Quote card",
+   "tpl": "quote_card",
+   "dur": 3,
+   "text": {
+    "main": "I think I am this. And I think that that's valuable.",
+    "who": "J.D. LaRock"
+   },
+   "cue": "Quote card on “I think I am this. And I think that that's valuable.” Full frame, NFTE purple, about 00:35.5 to 00:38.5, with J.D. LaRock under it.",
+   "src": "Script, row 00:28.5–00:42, Motion graphics & type.",
+   "rows": [
+    "00:28.5–00:42"
+   ],
+   "use": "Full-frame cutaway from about 00:35.5 to 00:38.5 while he says the line. His voice keeps playing under it. No captions on the card. If you hear “that's” (one “that”), say so and we fix the card."
+  },
+  {
+   "n": 5,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:42–00:45"
+   ],
+   "cue": "NFTE wordmark end card only.",
+   "src": "NFTE's white logo from the NFTE brand kit (state/nfte/brand/logos, 9 Oct 2026), endcards/index.json.",
+   "c": {
+    "bg": "#4C12A1",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/nfte/nfte-logo-white.svg",
+   "text": {},
+   "dur": 3.0,
+   "use": "Put it right after the last line at 00:42 and hold it to the very last frame. No fade to black."
+  }
+ ]
+}
