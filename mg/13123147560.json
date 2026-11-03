@@ -1,0 +1,115 @@
+{
+ "item": "13123147560",
+ "client": "watsi",
+ "note": "The script asks for the hook text, one name super, two key-word moments, one top text and the three kinetic lines, so 5 graphics and the end card. The blog post is a screen recording, not a graphic.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "We published our own mistake."
+   },
+   "cue": "Hook text on frame 1: We published our own mistake.",
+   "src": "Script, row 00:00–00:03, Motion graphics & type.",
+   "rows": [
+    "00:00–00:03"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third. Captions stay on."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Kimmy · Watsi"
+   },
+   "cue": "Name super",
+   "src": "Script, row 00:06–00:25, Motion graphics & type.",
+   "rows": [
+    "00:06–00:25"
+   ],
+   "use": "Put it on 1 s into the row for 2 s. Move it lower left, above the captions. Make it large."
+  },
+  {
+   "n": 3,
+   "title": "Key words",
+   "tpl": "word_stack",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "items": [
+     "We ask questions",
+     "we check the records"
+    ]
+   },
+   "cue": "Key words one at a time as she says them, top band: We ask questions / we check the records.",
+   "src": "Script, row 00:06–00:25, Motion graphics & type.",
+   "rows": [
+    "00:06–00:25"
+   ],
+   "use": "Each line lands on her word, near the end of the row. Top band. Captions stay on."
+  },
+  {
+   "n": 4,
+   "title": "Top text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "We audited the operational processes"
+   },
+   "cue": "Top text as she says it, 3 s, top band: We audited the operational processes.",
+   "src": "Script, row 00:44–01:04, Motion graphics & type.",
+   "rows": [
+    "00:44–01:04"
+   ],
+   "use": "Put it on when she says it, about 15 s into the row. Hold 3 s."
+  },
+  {
+   "n": 5,
+   "title": "Three phrases",
+   "tpl": "word_stack",
+   "dur": 5,
+   "pos": "top",
+   "text": {
+    "items": [
+     "Here's where something broke.",
+     "Here's what we found.",
+     "Here's what we're changing."
+    ]
+   },
+   "cue": "Three kinetic lines, one at a time as she says each one, top band: Here's where something broke. / Here's what we found. / Here's what we're changing.",
+   "src": "Script, row 01:04–01:15, Motion graphics & type.",
+   "rows": [
+    "01:04–01:15"
+   ],
+   "use": "Each line lands on her word. Each holds until the next one. Captions stay on."
+  },
+  {
+   "n": 6,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:28–01:32"
+   ],
+   "cue": "watsi.org, all lowercase, Lato, navy #2E2844. One line. Nothing else.",
+   "src": "Watsi's own end card words from the script (watsi.org, the Who Gives close, or the Watsi x AYH lines). Watsi's scripts say no logo lockup. Source: endcards/index.json, 6 Oct 2026.",
+   "c": {
+    "bg": "#D3EDFA",
+    "fg": "#2E2844"
+   },
+   "text": {
+    "lines": [
+     "watsi.org"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it right after “trust.” and hold it to the end."
+  }
+ ]
+}

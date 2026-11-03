@@ -1,0 +1,484 @@
+{
+ "id": "13351764240",
+ "client": "watsi",
+ "eyebrow": "Watsi · Who Gives donor assets · Aug 2026 · Meta ad, square version",
+ "title": "Donor Note:",
+ "title_q": "Dean (square)",
+ "title_short": "Meta ad · DR05 · Donor Note: Dean · square",
+ "editor": "Bleron",
+ "due": "",
+ "format": "1:1 square · 1080×1080 (the vertical is a separate item)",
+ "length": "about 28 s",
+ "edit_key": "WATSIAdDonorNoteDeanSQUARE001",
+ "headline": "The square version of Dean's donor ad: a busy family of four that has given for 13 years, and kids who see every person they helped.",
+ "story": [
+  "Dean has supported Watsi since 2013. A busy family of four, baseball and dance, and still: <b>his kids see the profiles of the people they supported</b>. He ends on being <b>able to help other people throughout the world</b>. One ask: join in with Dean and give today.",
+  "Same plan as the vertical ad DR05, laid out for a square: the gradient and the type fill the whole frame."
+ ],
+ "feel": [
+  "Dignified",
+  "Joyful",
+  "Direct",
+  "Clean"
+ ],
+ "do": [
+  "Hook text on frame 1, then the Who Gives card.",
+  "Fill the whole square: no vertical-shaped border.",
+  "Show one real patient profile on “the profiles”.",
+  "End the audio on “world.”",
+  "Credit is first name and year only."
+ ],
+ "dont": [
+  "No vertical panel or border inside the square (Atdhe, 22 Oct).",
+  "No dollar amount in the hook.",
+  "No music, no patient B-roll under his voice.",
+  "No photo of Dean (none cleared for paid).",
+  "No logo before the end card."
+ ],
+ "links": {
+  "brief": {
+   "title": "Editor brief: DR05 · Donor Note: Dean (pulse.12997724593)",
+   "url": "https://docs.google.com/document/d/1ZDfMyy4Vy7Ex7rDfcD_W45LwEOW2Daahv3T9D5-ibqI/edit",
+   "note": "The vertical ad's brief. This square item follows it, with the hook text changed to his own words."
+  },
+  "reference": {
+   "title": "charity: water, Scott Harrison founder ad (Meta Ad Library)",
+   "url": "https://www.facebook.com/ads/library/?id=4677437162533348",
+   "note": "Chosen by Atdhe (Production Planning row 11570763280). Take from it: one person talking straight to camera, big captions that carry the story with sound off, one story, one ask. Do not copy its music or its stock B-roll."
+  },
+  "footage": {
+   "title": "Who Gives campaign assets ▸ Donor Generated Content",
+   "url": "https://drive.google.com/drive/folders/19zQXl8Cdb6ba31-MMkSvFab8cW8rci9g",
+   "note": "Audio note_Dean_ (audio only, 58 s). No video of Dean exists."
+  }
+ },
+ "bp_intro": "Audio only: <span class=\"mono\">Audio note_Dean_</span>, the donor's own phone recording. Times are mm:ss.s in that file, from the word timings in output.json. This is the square (1:1) version of the Meta ad; the same plan as the vertical, laid out for a square frame.",
+ "rows": [
+  {
+   "tc": "00:00–00:05",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "The Who Gives gradient (sample it from the live <a href=\"https://watsi.org/who-gives\">watsi.org/who-gives</a> page, do not guess) fills the whole square. Watsi's waveform pulses under large kinetic type of his words. Start on “I've been” at <span class=\"mono\">00:02.3</span>: drop “Hi, my name is Dean and”.",
+   "motion": "Hook text on <b>frame 1</b>: <q>A Watsi supporter for 13 years</q>. Already on screen at 0:00, does not animate on. Lato Black, under the top banner. Stays up 2 s.",
+   "voice": {
+    "who": "Dean",
+    "quote": "I've been a Watsi supporter for about 13 years now, started in 2013,",
+    "src": "Audio note_Dean_ 00:02.3 to 00:07.0"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": []
+  },
+  {
+   "tc": "00:05–00:11",
+   "beat": "FAMILY OF FOUR",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "The Who Gives gradient (sample it from the live <a href=\"https://watsi.org/who-gives\">watsi.org/who-gives</a> page, do not guess) fills the whole square. Watsi's waveform pulses under large kinetic type of his words. From 00:05: Sonam's 2 s Who Gives intro card from the existing Who Gives project, then back to type and waveform. Cut the 1.2 s pause after “we're”.",
+   "motion": "The Who Gives intro card at 00:05 for 2 s: “WHO GIVES” in September Spirit, then “Hear from Dean” and “Watsi donor since 2013” in Lato. Big word moment as he says it, 1.6 s: <q>family of four</q>.",
+   "voice": {
+    "who": "Dean",
+    "quote": "we're a busy typical family of four with baseball practice, dance lessons.",
+    "src": "Audio note_Dean_ 00:16.2 to 00:21.9"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": []
+  },
+  {
+   "tc": "00:11–00:16",
+   "beat": "THE PROFILES",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "The only picture in this ad: a <b>new screen recording</b> of a real, live patient profile page on watsi.org, scrolling slowly, on “They can see the profiles”. Recorded clean, no cursor. Then back to the gradient.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Dean",
+    "quote": "Also grateful that my kids have been involved as well. They can see the profiles of all the people we've supported",
+    "src": "Audio note_Dean_ 00:31.2 to 00:36.7"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": []
+  },
+  {
+   "tc": "00:16–00:24",
+   "beat": "THROUGHOUT THE WORLD",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "The Who Gives gradient (sample it from the live <a href=\"https://watsi.org/who-gives\">watsi.org/who-gives</a> page, do not guess) fills the whole square. Watsi's waveform pulses under large kinetic type of his words. Cut the long pauses before “and we're” and “able”. The line ends on “world.”: end the audio there, then the end card.",
+   "motion": "Captions only. The last caption reads <q>throughout the world.</q> with the full stop (Atdhe, 22 Oct).",
+   "voice": {
+    "who": "Dean",
+    "quote": "humbling to realize that we're fortunate to have health and we're able to help other people throughout the world.",
+    "src": "Audio note_Dean_ 00:44.8 to 00:51.9"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": []
+  },
+  {
+   "tc": "00:24–00:28",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "The Who Gives gradient, full square. No faces, no logo lockup, no stats, no donate button graphic. A small arrow pointing down under the CTA line.",
+   "motion": "Lines one at a time, Lato, navy <span class=\"mono\">#2E2844</span>: <q>Join in with Dean and give today</q> / <q>Click the link below to give with Dean today</q> / <q>100% of your donation funds life-changing healthcare.</q> / <b>watsi.org</b> (all lowercase).",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": []
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Editing brief",
+   "<a href=\"https://docs.google.com/document/d/1ZDfMyy4Vy7Ex7rDfcD_W45LwEOW2Daahv3T9D5-ibqI/edit\">pulse.12997724593</a> (vertical brief)"
+  ],
+  [
+   "Audio",
+   "<a href=\"https://drive.google.com/file/d/1PGaF5uALNTdxxXwtYsO9VTP0nRnUQghj/view\">Audio note_Dean_</a> · 58 s"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1JJ1l0krT9-isKfTpsSEg9PeVOPpC1IQyADabx8nUr0Y/edit\">Transcripts - Who Gives campaign assets</a> · <a href=\"https://drive.google.com/file/d/1IYqCyJtBcpGths82vtGxD2EbBaNkdlDr/view\">output.json</a> (word times)"
+  ],
+  [
+   "Who Gives design files",
+   "<a href=\"https://drive.google.com/drive/folders/1P9pbrmBJ_pDA06GYEmN6koenHNF6DXpq\">Design file</a> folder (Who Gives campaign assets)"
+  ],
+  [
+   "Gradient",
+   "Sample from <a href=\"https://watsi.org/who-gives\">watsi.org/who-gives</a>. Don't guess."
+  ],
+  [
+   "Brand pack",
+   "<a href=\"https://drive.google.com/drive/folders/1my9RNjTawX8JeQO2eQDHSphWP8KTg09r\">LOTUS illustrations</a> · <a href=\"https://drive.google.com/drive/folders/1T7bIehcX3_l6F-CXUu-LHCyPE58nq9df\">September Spirit font</a> · <a href=\"https://drive.google.com/file/d/1u8R2iKmydBN2xF_h0wIE6X-NZo0mslXs/view\">Watsi brand guide</a>. Lato for all text. Navy <span class=\"mono\">#2E2844</span> is text only, never a background. Cyan <span class=\"mono\">#11BAED</span>, light cyan <span class=\"mono\">#D3EDFA</span>, yellow <span class=\"mono\">#FFCC33</span>."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "Donor's own phone audio note (audio/mp4). No picture: the picture is kinetic type and Watsi's pulsing waveform on the Who Gives gradient."
+  ],
+  [
+   "Timeline",
+   "<b>1080×1080 square</b>, 30 fps. The type and the gradient fill the whole square: no vertical 9:16 panel or border inside it."
+  ],
+  [
+   "Square graphics",
+   "The page draws graphics and caption clips at 1080×1920. Put them on the square timeline at 100% and move them up or down until the text sits where the row says (width is the same 1080). Keep every word inside the square with a margin."
+  ],
+  [
+   "CTA banner",
+   "Top banner from the approved ad design (Sonam, 1 Oct: CTA as a top banner on 1:1). Same words as the latest approved version. Letters spaced so r and n never touch (learn, earned, owned)."
+  ],
+  [
+   "Audio",
+   "Light noise-floor clean only. Never re-voice. No music, no other sound under the donor."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak."
+  ],
+  [
+   "Captions",
+   "Who Gives pop-up words: Lato Bold, white with a soft shadow, word by word, no box, no highlight, no jumpy animation. Never drop out. Every Watsi written by hand (the transcript writes WOTC). The caption clips sit about 880 px down the square when centred."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1080. One file. The vertical is a separate item."
+  ]
+ ],
+ "checklist": [
+  "Frame 1 is the hook text on the gradient. Not the Who Gives card.",
+  "No vertical-shaped border: the gradient fills the square (Atdhe, 22 Oct).",
+  "The Who Gives card says “Hear from Dean” and “Watsi donor since 2013”.",
+  "The last caption reads “throughout the world.” with the full stop.",
+  "Top banner letters spaced so r and n never touch.",
+  "No music. No leftover nat sound from old B-roll.",
+  "Watsi with a capital W; watsi.org lowercase.",
+  "One ask, said once."
+ ],
+ "decisions": [
+  {
+   "t": "The donation ask",
+   "b": "The brief's hook and ask name a dollar amount. Money stays off this page: the hook uses his own words and the ask lives in the approved banner. Nick confirms the banner words."
+  },
+  {
+   "t": "Deadline",
+   "b": "The Deadline column is empty. Nick sets it."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> Sonam asked for square ads with the CTA as a top banner. Atdhe's notes on V1 are about the border, the banner spacing and one caption.",
+ "ask_examples": [
+  "How do I get rid of the border?",
+  "What does the hook say?",
+  "Which profile do I record?",
+  "Where does the audio end?"
+ ],
+ "transcript": "Auto-transcript of Dean's audio note (Who Gives campaign assets, Donor Generated Content, 58 s). Times are mm:ss.s in the file. The auto-transcript wrote WOTC for Watsi; it is corrected below.\n--- Audio note_Dean_ ---\n[00:00.2] Hi, my name is Dean and\n[00:02.3] I've been a Watsi supporter for about 13 years now, started in 2013, which was actually a year before my daughter was born.\n[00:13.3] And she's now 12 years old.\n[00:15.2] My son's 10, we're a busy typical family of four with baseball practice, dance lessons.\n[00:24.2] And despite all that, it's been really an amazing experience supporting Watsi.\n[00:31.2] Also grateful that my kids have been involved as well.\n[00:34.1] They can see the profiles of all the people we've supported who've needed a medical procedure that's changed their lives.\n[00:42.6] And so it's been very rewarding for us as well to see and humbling to realize that we're fortunate to have health and we're able to help other people throughout the world through Watsi.\n[00:53.2] And it's been a really wonderful experience.",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "My son's 10, we're a busy typical family of four with baseball practice, dance lessons.",
+    "who": "Dean",
+    "file": "Audio note_Dean_",
+    "why": "The busy family."
+   },
+   {
+    "quote": "And despite all that, it's been really an amazing experience supporting Watsi.",
+    "who": "Dean",
+    "file": "Audio note_Dean_",
+    "why": "Amazing experience."
+   },
+   {
+    "quote": "Also grateful that my kids have been involved as well.",
+    "who": "Dean",
+    "file": "Audio note_Dean_",
+    "why": "His kids are involved."
+   },
+   {
+    "quote": "They can see the profiles of all the people we've supported who've needed a medical procedure that's changed their lives.",
+    "who": "Dean",
+    "file": "Audio note_Dean_",
+    "why": "The profiles."
+   },
+   {
+    "quote": "And so it's been very rewarding for us as well to see and humbling to realize that we're fortunate to have health and we're able to help other people throughout the world through Watsi.",
+    "who": "Dean",
+    "file": "Audio note_Dean_",
+    "why": "Rewarding and humbling."
+   },
+   {
+    "quote": "And it's been a really wonderful experience.",
+    "who": "Dean",
+    "file": "Audio note_Dean_",
+    "why": "Short closing line."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "I've been a Watsi supporter for about 13 years now, started in 2013, which was actually a year before my daughter was born.",
+    "who": "Dean",
+    "file": "Audio note_Dean_",
+    "why": "His opening, 13 years."
+   },
+   {
+    "quote": "My son's 10, we're a busy typical family of four with baseball practice, dance lessons.",
+    "who": "Dean",
+    "file": "Audio note_Dean_",
+    "why": "The busy family."
+   },
+   {
+    "quote": "And despite all that, it's been really an amazing experience supporting Watsi.",
+    "who": "Dean",
+    "file": "Audio note_Dean_",
+    "why": "Amazing experience."
+   },
+   {
+    "quote": "Also grateful that my kids have been involved as well.",
+    "who": "Dean",
+    "file": "Audio note_Dean_",
+    "why": "His kids are involved."
+   },
+   {
+    "quote": "They can see the profiles of all the people we've supported who've needed a medical procedure that's changed their lives.",
+    "who": "Dean",
+    "file": "Audio note_Dean_",
+    "why": "The profiles."
+   },
+   {
+    "quote": "And so it's been very rewarding for us as well to see and humbling to realize that we're fortunate to have health and we're able to help other people throughout the world through Watsi.",
+    "who": "Dean",
+    "file": "Audio note_Dean_",
+    "why": "Rewarding and humbling."
+   },
+   {
+    "quote": "And it's been a really wonderful experience.",
+    "who": "Dean",
+    "file": "Audio note_Dean_",
+    "why": "Short closing line."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "I've been a Watsi supporter for about 13 years now, started in 2013, which was actually a year before my daughter was born.",
+    "who": "Dean",
+    "file": "Audio note_Dean_",
+    "why": "His opening, 13 years."
+   },
+   {
+    "quote": "My son's 10, we're a busy typical family of four with baseball practice, dance lessons.",
+    "who": "Dean",
+    "file": "Audio note_Dean_",
+    "why": "The busy family."
+   },
+   {
+    "quote": "And despite all that, it's been really an amazing experience supporting Watsi.",
+    "who": "Dean",
+    "file": "Audio note_Dean_",
+    "why": "Amazing experience."
+   },
+   {
+    "quote": "And so it's been very rewarding for us as well to see and humbling to realize that we're fortunate to have health and we're able to help other people throughout the world through Watsi.",
+    "who": "Dean",
+    "file": "Audio note_Dean_",
+    "why": "Rewarding and humbling."
+   },
+   {
+    "quote": "And it's been a really wonderful experience.",
+    "who": "Dean",
+    "file": "Audio note_Dean_",
+    "why": "Short closing line."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "I've been a Watsi supporter for about 13 years now, started in 2013, which was actually a year before my daughter was born.",
+    "who": "Dean",
+    "file": "Audio note_Dean_",
+    "why": "His opening, 13 years."
+   },
+   {
+    "quote": "My son's 10, we're a busy typical family of four with baseball practice, dance lessons.",
+    "who": "Dean",
+    "file": "Audio note_Dean_",
+    "why": "The busy family."
+   },
+   {
+    "quote": "And despite all that, it's been really an amazing experience supporting Watsi.",
+    "who": "Dean",
+    "file": "Audio note_Dean_",
+    "why": "Amazing experience."
+   },
+   {
+    "quote": "Also grateful that my kids have been involved as well.",
+    "who": "Dean",
+    "file": "Audio note_Dean_",
+    "why": "His kids are involved."
+   },
+   {
+    "quote": "They can see the profiles of all the people we've supported who've needed a medical procedure that's changed their lives.",
+    "who": "Dean",
+    "file": "Audio note_Dean_",
+    "why": "The profiles."
+   },
+   {
+    "quote": "And so it's been very rewarding for us as well to see and humbling to realize that we're fortunate to have health and we're able to help other people throughout the world through Watsi.",
+    "who": "Dean",
+    "file": "Audio note_Dean_",
+    "why": "Rewarding and humbling."
+   },
+   {
+    "quote": "And it's been a really wonderful experience.",
+    "who": "Dean",
+    "file": "Audio note_Dean_",
+    "why": "Short closing line."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "A Watsi supporter for 13 years",
+    "line": "I've been a Watsi supporter for about 13 years now, started in 2013, which was actually a year before my daughter was born.",
+    "why": "His own words, as a hook."
+   },
+   {
+    "text": "A busy family of four",
+    "line": "My son's 10, we're a busy typical family of four with baseball practice, dance lessons.",
+    "why": "Relatable."
+   },
+   {
+    "text": "My kids see the profiles",
+    "line": "They can see the profiles of all the people we've supported who've needed a medical procedure that's changed their lives.",
+    "why": "Kids and giving."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "Who Gives locked style: very simple, clean, minimal motion; one element at a time; no patient B-roll under a donor voice.",
+  "devices": [
+   {
+    "row": "00:00–00:05",
+    "device": "Hook text, static",
+    "asset": "highlight_callout (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:05–00:11",
+    "device": "Who Gives intro card",
+    "asset": "Sonam's Who Gives template (existing project)",
+    "source": "Client template"
+   },
+   {
+    "row": "00:05–00:11",
+    "device": "Big word: family of four",
+    "asset": "word_stack (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:11–00:16",
+    "device": "Screen recording of a live patient profile",
+    "asset": "watsi.org patient profile (new capture)",
+    "source": "watsi.org"
+   },
+   {
+    "row": "00:24–00:28",
+    "device": "End card",
+    "asset": "end_card (MG library)",
+    "source": "endcards/index.json"
+   }
+  ],
+  "broll_pool": [],
+  "elements": [
+   {
+    "name": "Who Gives intro card (Sonam's template)",
+    "kind": "title",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1080",
+    "fps": 30
+   },
+   {
+    "name": "Watsi waveform (pulsing)",
+    "kind": "element",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": true,
+    "size": null,
+    "fps": 30
+   },
+   {
+    "name": "Who Gives end card",
+    "kind": "end_card",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
+}

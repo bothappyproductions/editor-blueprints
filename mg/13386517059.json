@@ -1,0 +1,97 @@
+{
+ "item": "13386517059",
+ "client": "watsi",
+ "note": "The script asks for the hook question, one name super, three key words and a number pop, so 4 graphics and the end card. The campaign pages, the stock shot and the run clips are footage, not graphics.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook question",
+   "tpl": "highlight_callout",
+   "dur": 5,
+   "pos": "top",
+   "text": {
+    "main": "What do you wish more people knew they could do on Watsi?"
+   },
+   "cue": "Hook text on frame 1, the FAQ question: What do you wish more people knew they could do on Watsi?",
+   "src": "Script, row 00:00–00:05, Motion graphics & type.",
+   "rows": [
+    "00:00–00:05"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:05. Top third."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 2.5,
+   "pos": "center",
+   "text": {
+    "main": "Sonam Singh"
+   },
+   "cue": "Name super",
+   "src": "Script, row 00:05–00:10, Motion graphics & type.",
+   "rows": [
+    "00:05–00:10"
+   ],
+   "use": "Put it on at the start of the row for 2.5 s, above the captions. Type the second line Director of Marketing & Insights under it. No box: drop the container or sit it on a Watsi brand shape."
+  },
+  {
+   "n": 3,
+   "title": "Key words",
+   "tpl": "word_stack",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "items": [
+     "Your birthday",
+     "A marathon",
+     "Your wedding"
+    ]
+   },
+   "cue": "Key words one at a time as she says them, top band: Your birthday / A marathon / Your wedding.",
+   "src": "Script, row 00:10–00:17, Motion graphics & type.",
+   "rows": [
+    "00:10–00:17"
+   ],
+   "use": "Each word lands on hers, after the campaigns page recording. Captions stay on."
+  },
+  {
+   "n": 4,
+   "title": "Number pop",
+   "tpl": "stat_counter",
+   "dur": 1.6,
+   "pos": "top",
+   "text": {
+    "number": "100%",
+    "label": "of it"
+   },
+   "cue": "Number pop on her words 100% of it",
+   "src": "Script, row 00:28–00:37, Motion graphics & type.",
+   "rows": [
+    "00:28–00:37"
+   ],
+   "use": "On her words “100% of it”, near the end of the row. 1.6 s, then gone."
+  },
+  {
+   "n": 5,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:51–00:54"
+   ],
+   "cue": "watsi.org, all lowercase, Lato, navy #2E2844. One line. Nothing else.",
+   "src": "Watsi's own end card words from the script (watsi.org, the Who Gives close, or the Watsi x AYH lines). Watsi's scripts say no logo lockup. Source: endcards/index.json, 6 Oct 2026.",
+   "c": {
+    "bg": "#D3EDFA",
+    "fg": "#2E2844"
+   },
+   "text": {
+    "lines": [
+     "watsi.org"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it right after “people.” and hold it to the end."
+  }
+ ]
+}

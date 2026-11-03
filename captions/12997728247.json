@@ -1,0 +1,535 @@
+{
+ "item": "12997728247",
+ "client": "watsi",
+ "style": {
+  "font": {
+   "css": "\"Lato\"",
+   "w": 700
+  },
+  "size": 78,
+  "y": 1360,
+  "max_lines": 1,
+  "reveal": "word",
+  "fg": "#FFFFFF",
+  "shadow": true
+ },
+ "note": "Lato Bold, white, soft shadow, large, word by word, one line at a time (Watsi style). Timed from the word timings in the source clip. Every Watsi is written by hand (the transcript says WOTC). Pauses over 0.7 s inside a bite are cut to about 0.25 s in the plan, so slide each word onto the cut by ear. Space the letters in “earned” so r and n never look like m.",
+ "tracks": [
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:00–00:04"
+   ],
+   "beat": "HOOK",
+   "title": "Hook",
+   "clip": "Mincho5163.MP4",
+   "start": 38.26,
+   "src": "Mincho5163.MP4 00:38.3",
+   "dur": 4.82,
+   "words": [
+    {
+     "w": "Not",
+     "t0": 0.15,
+     "t1": 0.25,
+     "e": 0
+    },
+    {
+     "w": "90%,",
+     "t0": 0.25,
+     "t1": 1.11,
+     "e": 0
+    },
+    {
+     "w": "not",
+     "t0": 1.11,
+     "t1": 1.67,
+     "e": 0
+    },
+    {
+     "w": "most",
+     "t0": 1.67,
+     "t1": 1.91,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 1.91,
+     "t1": 2.19,
+     "e": 0
+    },
+    {
+     "w": "it,",
+     "t0": 2.19,
+     "t1": 2.35,
+     "e": 0
+    },
+    {
+     "w": "every",
+     "t0": 2.51,
+     "t1": 2.93,
+     "e": 0
+    },
+    {
+     "w": "dollar,",
+     "t0": 2.93,
+     "t1": 3.37,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 3.75,
+     "t1": 3.81,
+     "e": 0
+    },
+    {
+     "w": "you",
+     "t0": 3.81,
+     "t1": 3.93,
+     "e": 0
+    },
+    {
+     "w": "hear",
+     "t0": 3.93,
+     "t1": 4.05,
+     "e": 0
+    },
+    {
+     "w": "what",
+     "t0": 4.05,
+     "t1": 4.17,
+     "e": 0
+    },
+    {
+     "w": "happens.",
+     "t0": 4.17,
+     "t1": 4.37,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 5,
+     "t0": 0.1,
+     "t1": 2.46
+    },
+    {
+     "a": 6,
+     "b": 7,
+     "t0": 2.46,
+     "t1": 3.7
+    },
+    {
+     "a": 8,
+     "b": 12,
+     "t0": 3.7,
+     "t1": 4.72
+    }
+   ],
+   "text": "Not 90%, not most of it, every dollar, and you hear what happens.",
+   "n": 1
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:04–00:10"
+   ],
+   "beat": "100%",
+   "title": "100%",
+   "clip": "Mincho5149.MP4",
+   "start": 5.5,
+   "src": "Mincho5149.MP4 00:05.5",
+   "dur": 5.82,
+   "words": [
+    {
+     "w": "100%",
+     "t0": 0.15,
+     "t1": 0.73,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 1.17,
+     "t1": 1.39,
+     "e": 0
+    },
+    {
+     "w": "your",
+     "t0": 1.39,
+     "t1": 1.49,
+     "e": 0
+    },
+    {
+     "w": "donation",
+     "t0": 1.49,
+     "t1": 1.61,
+     "e": 0
+    },
+    {
+     "w": "on",
+     "t0": 1.61,
+     "t1": 2.03,
+     "e": 0
+    },
+    {
+     "w": "Watsi",
+     "t0": 2.03,
+     "t1": 2.35,
+     "e": 0
+    },
+    {
+     "w": "goes",
+     "t0": 2.35,
+     "t1": 2.63,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 2.63,
+     "t1": 2.91,
+     "e": 0
+    },
+    {
+     "w": "patient",
+     "t0": 2.91,
+     "t1": 3.05,
+     "e": 0
+    },
+    {
+     "w": "care.",
+     "t0": 3.05,
+     "t1": 3.39,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 3.75,
+     "t1": 4.15,
+     "e": 0
+    },
+    {
+     "w": "say",
+     "t0": 4.15,
+     "t1": 4.29,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 4.29,
+     "t1": 4.43,
+     "e": 0
+    },
+    {
+     "w": "simply",
+     "t0": 4.43,
+     "t1": 4.59,
+     "e": 0
+    },
+    {
+     "w": "because",
+     "t0": 4.59,
+     "t1": 4.93,
+     "e": 0
+    },
+    {
+     "w": "it's",
+     "t0": 4.93,
+     "t1": 5.25,
+     "e": 0
+    },
+    {
+     "w": "true.",
+     "t0": 5.25,
+     "t1": 5.37,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 3,
+     "t0": 0.1,
+     "t1": 1.56
+    },
+    {
+     "a": 4,
+     "b": 9,
+     "t0": 1.56,
+     "t1": 3.7
+    },
+    {
+     "a": 10,
+     "b": 13,
+     "t0": 3.7,
+     "t1": 4.54
+    },
+    {
+     "a": 14,
+     "b": 16,
+     "t0": 4.54,
+     "t1": 5.72
+    }
+   ],
+   "text": "100% of your donation on Watsi goes to patient care. I say that simply because it's true.",
+   "n": 2
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:10–00:17"
+   ],
+   "beat": "THE RECEIPTS",
+   "title": "The Receipts",
+   "clip": "Mincho5149.MP4",
+   "start": 42.52,
+   "src": "Mincho5149.MP4 00:42.5",
+   "dur": 6.98,
+   "words": [
+    {
+     "w": "Every",
+     "t0": 0.15,
+     "t1": 0.73,
+     "e": 0
+    },
+    {
+     "w": "payment",
+     "t0": 0.73,
+     "t1": 1.01,
+     "e": 0
+    },
+    {
+     "w": "we've",
+     "t0": 1.01,
+     "t1": 1.43,
+     "e": 0
+    },
+    {
+     "w": "made",
+     "t0": 1.43,
+     "t1": 1.57,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 1.57,
+     "t1": 1.89,
+     "e": 0
+    },
+    {
+     "w": "every",
+     "t0": 1.89,
+     "t1": 2.03,
+     "e": 0
+    },
+    {
+     "w": "medical",
+     "t0": 2.03,
+     "t1": 2.21,
+     "e": 0
+    },
+    {
+     "w": "partner,",
+     "t0": 2.21,
+     "t1": 2.55,
+     "e": 0
+    },
+    {
+     "w": "no",
+     "t0": 3.01,
+     "t1": 3.61,
+     "e": 0
+    },
+    {
+     "w": "summaries,",
+     "t0": 3.61,
+     "t1": 4.09,
+     "e": 0
+    },
+    {
+     "w": "no",
+     "t0": 4.35,
+     "t1": 4.91,
+     "e": 0
+    },
+    {
+     "w": "abstractions,",
+     "t0": 4.91,
+     "t1": 5.55,
+     "e": 0
+    },
+    {
+     "w": "just",
+     "t0": 5.71,
+     "t1": 5.89,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 5.89,
+     "t1": 6.07,
+     "e": 0
+    },
+    {
+     "w": "actual",
+     "t0": 6.07,
+     "t1": 6.21,
+     "e": 0
+    },
+    {
+     "w": "numbers.",
+     "t0": 6.21,
+     "t1": 6.53,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 3,
+     "t0": 0.1,
+     "t1": 1.52
+    },
+    {
+     "a": 4,
+     "b": 6,
+     "t0": 1.52,
+     "t1": 2.16
+    },
+    {
+     "a": 7,
+     "b": 9,
+     "t0": 2.16,
+     "t1": 4.3
+    },
+    {
+     "a": 10,
+     "b": 11,
+     "t0": 4.3,
+     "t1": 5.66
+    },
+    {
+     "a": 12,
+     "b": 15,
+     "t0": 5.66,
+     "t1": 6.88
+    }
+   ],
+   "text": "Every payment we've made to every medical partner, no summaries, no abstractions, just the actual numbers.",
+   "n": 3
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:17–00:20"
+   ],
+   "beat": "BUTTON",
+   "title": "Button",
+   "clip": "Mincho5172.MP4",
+   "start": 41.69,
+   "src": "Mincho5172.MP4 00:41.7",
+   "dur": 3.4,
+   "words": [
+    {
+     "w": "We",
+     "t0": 0.15,
+     "t1": 0.21,
+     "e": 0
+    },
+    {
+     "w": "do",
+     "t0": 0.21,
+     "t1": 0.31,
+     "e": 0
+    },
+    {
+     "w": "it",
+     "t0": 0.31,
+     "t1": 0.45,
+     "e": 0
+    },
+    {
+     "w": "because",
+     "t0": 0.45,
+     "t1": 0.63,
+     "e": 0
+    },
+    {
+     "w": "we",
+     "t0": 0.63,
+     "t1": 0.97,
+     "e": 0
+    },
+    {
+     "w": "believe",
+     "t0": 0.97,
+     "t1": 1.17,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 1.17,
+     "t1": 1.47,
+     "e": 0
+    },
+    {
+     "w": "trust",
+     "t0": 1.47,
+     "t1": 1.67,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 1.67,
+     "t1": 1.97,
+     "e": 0
+    },
+    {
+     "w": "earned,",
+     "t0": 1.97,
+     "t1": 2.19,
+     "e": 0
+    },
+    {
+     "w": "not",
+     "t0": 2.51,
+     "t1": 2.69,
+     "e": 0
+    },
+    {
+     "w": "assumed.",
+     "t0": 2.69,
+     "t1": 2.95,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 4,
+     "t0": 0.1,
+     "t1": 0.92
+    },
+    {
+     "a": 5,
+     "b": 7,
+     "t0": 0.92,
+     "t1": 1.62
+    },
+    {
+     "a": 8,
+     "b": 9,
+     "t0": 1.62,
+     "t1": 2.46
+    },
+    {
+     "a": 10,
+     "b": 11,
+     "t0": 2.46,
+     "t1": 3.3
+    }
+   ],
+   "text": "We do it because we believe that trust is earned, not assumed.",
+   "n": 4
+  }
+ ]
+}

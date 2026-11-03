@@ -1,0 +1,886 @@
+{
+ "id": "13123147560",
+ "client": "watsi",
+ "eyebrow": "Watsi · NYC Williamsburg office · 22 Sep 2026 · Scripted FAQ short (teleprompter)",
+ "title": "Kimmy:",
+ "title_q": "“Transparency Means the Messy Parts Too”",
+ "title_short": "Kimmy · Transparency Means the Messy Parts Too",
+ "editor": "Bleron",
+ "due": "2026-10-13",
+ "format": "9:16 only · 1080×1920",
+ "length": "about 1:32 min",
+ "edit_key": "WATSINYCKimmyTransparencyMessyParts001",
+ "headline": "Watsi published its own mistake: transparency has to include the bad news, and that is how trust is earned.",
+ "story": [
+  "Watsi's 2026 theme is trust and transparency, and the FAQ videos must be <b>credible to a skeptical first-time visitor</b>. This one is the proof. Kimmy tells how an internal audit found that patients at one partner had started treatment before Watsi approved them, and that <b>Watsi wrote about it publicly</b>.",
+  "The order: the hook line, her own words that Watsi wrote about it, how they check, the audit story, what they changed, then <b>here's where something broke, here's what we found, here's what we're changing</b>, and the button: being transparent about the messy parts is part of earning trust. <b>Loops:</b> L1 “What mistake?” opens at 0:00 and closes in the audit story. L2 “What did they do about it?” closes on the three phrases. Hopeful and calm, never a scandal."
+ ],
+ "feel": [
+  "Honest",
+  "Calm",
+  "Trustworthy",
+  "Clear",
+  "Zero typos"
+ ],
+ "do": [
+  "Open on her face with <q>We published our own mistake.</q> already on screen at 0:00.",
+  "Show the real blog post when she says Watsi wrote about it.",
+  "Put the three phrases on screen one at a time as she says them.",
+  "Name super <q>Kimmy · Watsi</q>, large, lower left, after the hook.",
+  "Stay in the clean take C5068. Trim breaths, keep her pace."
+ ],
+ "dont": [
+  "Don't open on “So when I think about a Watsi medical partnership”. That is the warm-up.",
+  "Don't make this about “how do you know surgeries happened”. That is Mackinnon's V05.",
+  "Don't use C5064, C5065 or C5066. They are other videos.",
+  "No music under her voice. No stock.",
+  "Never name CSC or any partner hospital. Don't invent a title for Kimmy."
+ ],
+ "links": {
+  "brief": {
+   "title": "Editor brief: Kimmy, Transparency Means the Messy Parts Too (pulse.13123147560)",
+   "url": "https://docs.google.com/document/d/1AxZBNLcF7DEL_u_MgaNIEKnMLfVNMR35p9sPiti6DB8/edit",
+   "note": "The Monday brief (same text). Bites and on-screen text are set there. All times checked on the word timings of C5068."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Nick owes it (Production Planning row 12949181905 has no reference). The client's own suggestion (Sonam, 15 Sep): <a href=\"https://givewithjose.com/\">givewithjose.com</a>, “you first understand his life… then you understand why giving became part of his life.”"
+  },
+  "footage": {
+   "title": "Watsi NYC Sept 2026 ▸ Prompter Content ▸ Kimmy Prompter Content",
+   "url": "https://drive.google.com/drive/folders/1ygCu-wm7zUl84Dey-RxONXngIAoF_4Mh",
+   "note": "20260922_C5068.MP4 (2:37) is the clean take for this whole script. C5067 is the alternate take of the framing line only."
+  }
+ },
+ "bp_intro": "All bites are from <span class=\"mono\">20260922_C5068.MP4</span> (one clean take, 2:37). Times are mm:ss.s in that file, from the word timings in the shoot's transcript.json. Row times already count pauses over 0.7 s cut to about 0.25 s. No frames were pulled this run, so the picture is described from the brief's frame grab and visual.json.",
+ "rows": [
+  {
+   "tc": "00:00–00:03",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Kimmy on camera, <a href=\"https://drive.google.com/file/d/1-Jv46ATOZJItAOQ-VPizTRbBVnvhDukp/view\">20260922_C5068.MP4</a>, already talking. Cut in at <span class=\"mono\">01:47.4</span> on “transparency”. She sits in the middle of the grey sofa, black watsi tee, window with the Williamsburg skyline and a palm plant behind her. 9:16 crop centred on her face. Her face is the strongest picture here, so no B-roll.",
+   "motion": "Hook text on <b>frame 1</b>: <q>We published our own mistake.</q> Already on screen at 0:00. Does not animate on. Top third, Lato Black, white, soft shadow. It goes out at 00:03. Captions start on frame 1.",
+   "voice": {
+    "who": "Kimmy",
+    "quote": "Transparency can't just mean publishing the good news.",
+    "src": "20260922_C5068.MP4 01:47.4 to 01:50.2"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "transparency"
+    }
+   ]
+  },
+  {
+   "tc": "00:03–00:06",
+   "beat": "WE WROTE ABOUT IT",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Kimmy, <a href=\"https://drive.google.com/file/d/1-Jv46ATOZJItAOQ-VPizTRbBVnvhDukp/view\">20260922_C5068.MP4</a> from <span class=\"mono\">00:52.7</span>. On “written publicly” cut to a <b>new screen recording</b> of Watsi's own post <a href=\"https://blog.watsi.org/addressing-a-scaling-issue/\">Addressing a scaling issue</a> (blog.watsi.org, 8 Jun 2015): the title, then a slow scroll. This is the post she talks about. Record it clean, 1080 px wide, no cursor, no browser bar. It is her saying the hook in her own words.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Kimmy",
+    "quote": "And we've actually written publicly about this before.",
+    "src": "20260922_C5068.MP4 00:52.7 to 00:55.0"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "And we've"
+    }
+   ]
+  },
+  {
+   "tc": "00:06–00:25",
+   "beat": "NEITHER IS PERFECT",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Back to Kimmy, <a href=\"https://drive.google.com/file/d/1-Jv46ATOZJItAOQ-VPizTRbBVnvhDukp/view\">20260922_C5068.MP4</a> from <span class=\"mono\">00:27.4</span>. Cut pauses over 0.7 s to about 0.25 s (for example <span class=\"mono\">00:30.1</span> to <span class=\"mono\">00:30.9</span> and <span class=\"mono\">00:43.5</span> to <span class=\"mono\">00:44.4</span>). Hide each jump cut with a slow 3–5% push-in, never above 110% (the 9:16 crop of a 1920×1080 frame is already upscaled 1.78×). No B-roll was shot for this script: her face carries it.",
+   "motion": "Name super at <span class=\"mono\">00:07</span> for 2 s, lower left, above the captions, <b>large</b>: <q>Kimmy · Watsi</q>. No title (we do not have one). Key words one at a time as she says them, top band: <q>We ask questions</q> / <q>we check the records</q>.",
+   "voice": {
+    "who": "Kimmy",
+    "quote": "We're working with people and systems, and neither is perfect. If we notice something off, say a partner isn't following a reporting process the way they're supposed to, or something isn't lining up in our records, we always take the time to look into it. We ask questions, we check the records, and sometimes we bring in our own team to look at what's happening on the ground.",
+    "src": "20260922_C5068.MP4 00:27.4 to 00:48.2"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "We're working"
+    }
+   ]
+  },
+  {
+   "tc": "00:25–00:44",
+   "beat": "THE AUDIT",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Kimmy, <a href=\"https://drive.google.com/file/d/1-Jv46ATOZJItAOQ-VPizTRbBVnvhDukp/view\">20260922_C5068.MP4</a> from <span class=\"mono\">00:55.7</span>. On “an internal audit found” cut for about 4 s to the same blog post recording, scrolled to the paragraph about the audit. Back to her face on “The patients ultimately received the care they needed”. Stay on her for “broken, and trust too”. Hide each jump cut with a slow 3–5% push-in, never above 110% (the 9:16 crop of a 1920×1080 frame is already upscaled 1.78×).",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Kimmy",
+    "quote": "A few years ago, as Watsi was growing very quickly, an internal audit found that several patients at one of our medical partners had started treatment before they had been formally submitted to Watsi for approval. The patients ultimately received the care they needed and were fully funded, but the process had been broken, and trust too.",
+    "src": "20260922_C5068.MP4 00:55.7 to 01:16.8"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "A few years ago"
+    },
+    {
+     "face": true,
+     "from_word": "The patients ultimately"
+    }
+   ]
+  },
+  {
+   "tc": "00:44–01:04",
+   "beat": "WHAT WE DID",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Kimmy, <a href=\"https://drive.google.com/file/d/1-Jv46ATOZJItAOQ-VPizTRbBVnvhDukp/view\">20260922_C5068.MP4</a> from <span class=\"mono\">01:19.0</span>. Cut the long pauses (<span class=\"mono\">01:28.3</span> to <span class=\"mono\">01:30.2</span> and <span class=\"mono\">01:33.5</span> to <span class=\"mono\">01:35.1</span>) to about 0.25 s. Hide each jump cut with a slow 3–5% push-in, never above 110% (the 9:16 crop of a 1920×1080 frame is already upscaled 1.78×). Never name a partner or hospital: she names none.",
+   "motion": "Top text as she says it, 3 s, top band: <q>We audited the operational processes</q>. Captions on.",
+   "voice": {
+    "who": "Kimmy",
+    "quote": "We wrote about what happened, explained why it happened. In this case, our partners were scaling very quickly and were dealing with administrative backlogs, and then shared what we were doing to prevent it from happening again. We audited the operational processes across our medical partners and put additional support in place to help them scale with us.",
+    "src": "20260922_C5068.MP4 01:19.0 to 01:42.5"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "We wrote"
+    }
+   ]
+  },
+  {
+   "tc": "01:04–01:15",
+   "beat": "BROKE · FOUND · CHANGING",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Kimmy, <a href=\"https://drive.google.com/file/d/1-Jv46ATOZJItAOQ-VPizTRbBVnvhDukp/view\">20260922_C5068.MP4</a> from <span class=\"mono\">01:51.0</span>. Stay on her face: these three phrases are the heart of the video. Slow push-in across the row.",
+   "motion": "Three kinetic lines, one at a time as she says each one, top band: <q>Here's where something broke.</q> / <q>Here's what we found.</q> / <q>Here's what we're changing.</q> Each line holds until the next one comes in. Captions stay on.",
+   "voice": {
+    "who": "Kimmy",
+    "quote": "If you're asking people to trust you with their money and to believe that the system works, you also have to be willing to say, here's where something broke, here's what we found, and here's what we're changing.",
+    "src": "20260922_C5068.MP4 01:51.0 to 02:03.2"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "If you're asking"
+    }
+   ]
+  },
+  {
+   "tc": "01:15–01:28",
+   "beat": "BUTTON",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Kimmy, <a href=\"https://drive.google.com/file/d/1-Jv46ATOZJItAOQ-VPizTRbBVnvhDukp/view\">20260922_C5068.MP4</a> from <span class=\"mono\">02:08.9</span> to <span class=\"mono\">02:24.2</span>. The words “is actually part of earning that trust” play <b>once</b>. Hold 1 s on her after “trust.”, then cut to the end card.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Kimmy",
+    "quote": "And if something is genuinely wrong, we have paused partnerships while it gets sorted out or have even closed partnerships. The whole point of this model is trust. And for me, being transparent about the messy parts is actually part of earning that trust.",
+    "src": "20260922_C5068.MP4 02:08.9 to 02:24.2"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "And if something"
+    }
+   ]
+  },
+  {
+   "tc": "01:28–01:32",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Clean end card. Light cyan <span class=\"mono\">#D3EDFA</span> background. Navy is never a background.",
+   "motion": "<b>watsi.org</b>, all lowercase, Lato, navy <span class=\"mono\">#2E2844</span>. One line. Nothing else.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": []
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Editing brief",
+   "<a href=\"https://docs.google.com/document/d/1AxZBNLcF7DEL_u_MgaNIEKnMLfVNMR35p9sPiti6DB8/edit\">pulse.13123147560</a>"
+  ],
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/1cOLw5wfNaZiaoSJfDiIVlE-u6KqX2bRSoi9yvidYl30/edit\">Watsi Bryant Park Activation Brief</a> (the plan for the 22 Sep NYC day)"
+  ],
+  [
+   "Client script",
+   "<a href=\"https://docs.google.com/document/d/1aY4oBYWa_qCokAo59nSH7Y-r8RmRBvmj7LPiYOQCEUU/edit\">FAQ Set for Sonam, Kat and Kimmy</a> (Sonam's scripts: the source for spellings)"
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/14zBVXBosNxnO3d87nYdASakULeJSEE8W\">Watsi NYC Sept 2026</a>"
+  ],
+  [
+   "Clips",
+   "<a href=\"https://drive.google.com/file/d/1-Jv46ATOZJItAOQ-VPizTRbBVnvhDukp/view\">20260922_C5068.MP4</a> · 2:37 · the take · <a href=\"https://drive.google.com/file/d/1ZdxVBFeX7O_pQ58O5BJ3lapKgoFTQcwD/view\">20260922_C5067.MP4</a> · 0:25 · framing line only"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/11kGNAQuZUyufthRlVSyXSF0A8IGPFntdAXQII9Npl1Q/edit\">Transcripts - Prompter Content</a> · <a href=\"https://drive.google.com/file/d/18hlID2QNM4jYCELTPUlApT0uQ-DdkrpN/view\">Prompter Content.transcript.json</a> (word times used here). It writes WOTC for Watsi."
+  ],
+  [
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/1CPR9IKUr94dzuRzYiEqkZSC23G7UcGtk/view\">visual.json</a> (shoot level). C5068: Kimmy on the sofa, black watsi tee, skyline window. No B-roll for this script."
+  ],
+  [
+   "Blog post to record",
+   "<a href=\"https://blog.watsi.org/addressing-a-scaling-issue/\">Addressing a scaling issue</a> (blog.watsi.org, 8 Jun 2015): the post about the audit she describes. New screen recording."
+  ],
+  [
+   "Brand pack",
+   "<a href=\"https://drive.google.com/drive/folders/1my9RNjTawX8JeQO2eQDHSphWP8KTg09r\">LOTUS illustrations</a> · <a href=\"https://drive.google.com/drive/folders/1T7bIehcX3_l6F-CXUu-LHCyPE58nq9df\">September Spirit font</a> · <a href=\"https://drive.google.com/file/d/1u8R2iKmydBN2xF_h0wIE6X-NZo0mslXs/view\">Watsi brand guide</a>. Lato for all text. Navy <span class=\"mono\">#2E2844</span> is text only, never a background. Cyan <span class=\"mono\">#11BAED</span>, light cyan <span class=\"mono\">#D3EDFA</span>, yellow <span class=\"mono\">#FFCC33</span>."
+  ],
+  [
+   "Brand graphics package",
+   "Watsi package on Drive: <span class=\"mono\">deliverables/graphics-packages/Watsi</span> (lower third bar, title plate, underline, brackets, wipe, texture). Folder link not available in this run. Type the words on the empty plates in Lato."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "Sony FX3 prompter take. Probe not available this run. Other 22 Sep FX3 files are 1920×1080, 59.94 fps, 2-ch. Confirm on import."
+  ],
+  [
+   "Timeline",
+   "1080×1920 at <b>29.97 fps</b>. Conform the 59.94 source on purpose, no accidental slow motion."
+  ],
+  [
+   "Crop",
+   "9:16 crop of a 1080p frame = 608 px wide, already upscaled 1.78×. Push-ins 103–105%, never above 110%. Grade the footage before export: skin natural, window not blown out."
+  ],
+  [
+   "Audio",
+   "Lav recorded into the camera (multi-mono). Pick the live channel on the waveform, map it to both sides, mute the silent one. A/V sync check before export."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. No music."
+  ],
+  [
+   "Captions",
+   "Lato Bold, white, soft shadow, large. Pop word by word, one line at a time. No box, no highlight, no shading block. On screen the whole time, also in pauses (no flash gaps). Fix every WOTC / WotC to Watsi by hand. Keep the bottom 20% clear for app buttons. Every line fits inside the frame with a margin: nothing cut off at the edges."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920, about 16 Mbps. One file, 9:16 only."
+  ]
+ ],
+ "checklist": [
+  "Frame 1 is Kimmy with <q>We published our own mistake.</q> already on screen. No logo, name or fade.",
+  "Every caption reads Watsi, capital W only. No WOTC anywhere.",
+  "“is actually part of earning that trust” plays once and is captioned once.",
+  "The blog post on screen is the real one, recorded clean.",
+  "The three phrases come in one at a time, on her words.",
+  "Name super “Kimmy · Watsi”, large, lower left, after the hook. No title.",
+  "Captions never drop out between script blocks. No flash gaps.",
+  "No partner or hospital name anywhere.",
+  "Footage graded, no freeze frames, A/V in sync.",
+  "End card is watsi.org only, lowercase."
+ ],
+ "decisions": [
+  {
+   "t": "Atdhe's note: “add her saying this or something similar”",
+   "b": "Kimmy never says “mistake”. This plan puts her closest line, “And we've actually written publicly about this before.”, right after the hook text. If Atdhe meant another spot, Nick says where."
+  },
+  {
+   "t": "Length",
+   "b": "The brief asks for 60–75 s, but its own bites run about 1:32. To get under 75 s, cut “In this case, our partners were scaling very quickly and were dealing with administrative backlogs,” and the reporting-process clause in row 3. Nick decides."
+  },
+  {
+   "t": "No visual reference",
+   "b": "Production Planning row 12949181905 has none. Nick owes it."
+  },
+  {
+   "t": "Item left the board",
+   "b": "During this run the item moved off the Post Production board (this lane can no longer read it). Nick checks it is still open before Bleron cuts V3."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> Sonam asked for FAQ videos that win over a skeptical first-time visitor. Owning a mistake in public is the strongest proof of transparency Watsi has.",
+ "ask_examples": [
+  "What is the blog post she talks about?",
+  "Can I use C5067?",
+  "Which lines can I cut for length?",
+  "Where does the name super go?"
+ ],
+ "transcript": "Auto-transcript of Kimmy's prompter takes for this script (Prompter Content, Williamsburg office, 22 Sep 2026). Times are mm:ss.s in each file. The auto-transcript wrote WOTC where she says Watsi; it is corrected to Watsi below.\n--- 20260922_C5068.MP4 ---\n[00:00.0] Okay, let's do this. [do not use: crew talk before the take]\n[00:01.4] All right. [do not use: crew talk before the take]\n[00:03.6] So when I think about a Watsi medical partnership, I don't really think about a contract or a logo on a partner page.\n[00:09.6] I think about the people who are there in that community, knowing the patients, understanding the healthcare system, and staying with the work.\n[00:18.0] That ongoing relationship is a huge part of what makes Watsi work.\n[00:24.3] Money, that was perfect right there. [do not use: crew talk]\n[00:27.4] We're working with people and systems, and neither is perfect.\n[00:30.9] If we notice something off, say a partner isn't following a reporting process the way they're supposed to, or something isn't lining up in our records, we always take the time to look into it.\n[00:41.4] We ask questions, we check the records, and sometimes we bring in our own team to look at what's happening on the ground.\n[00:52.7] And we've actually written publicly about this before.\n[00:55.7] A few years ago, as Watsi was growing very quickly, an internal audit found that several patients at one of our medical partners had started treatment before they had been formally submitted to Watsi for approval.\n[01:09.0] The patients ultimately received the care they needed and were fully funded, but the process had been broken, and trust too.\n[01:19.0] We wrote about what happened, explained why it happened.\n[01:23.6] In this case, our partners were scaling very quickly and were dealing with administrative backlogs, and then shared what we were doing to prevent it from happening again.\n[01:35.1] We audited the operational processes across our medical partners and put additional support in place to help them scale with us.\n[01:45.8] And that's really important to me, because transparency can't just mean publishing the good news.\n[01:51.0] If you're asking people to trust you with their money and to believe that the system works, you also have to be willing to say, here's where something broke, here's what we found, and here's what we're changing.\n[02:08.9] And if something is genuinely wrong, we have paused partnerships while it gets sorted out or have even closed partnerships.\n[02:16.4] The whole point of this model is trust.\n[02:18.9] And for me, being transparent about the messy parts is actually part of earning that trust.\n(do not use anything after this point: crew talk after the take)\n[02:29.6] That's it?\n[02:31.1] Awesome, great job.\n[02:32.4] You crushed it right there.\n[02:34.7] All right.\n--- 20260922_C5067.MP4 ---\n[00:03.5] So, when I think about a Watsi medical partnership, I don't really think about a contract or a logo on a partner page.\n[00:09.7] I think about the people who are there in that community, knowing the patients, understanding the healthcare system, and staying with the work.\n[00:18.1] That ongoing relationship is a huge part of what makes Watsi work.",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "So when I think about a Watsi medical partnership, I don't really think about a contract or a logo on a partner page.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Her framing line from the clean take (optional in the brief)."
+   },
+   {
+    "quote": "That ongoing relationship is a huge part of what makes Watsi work.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Short line about the relationship."
+   },
+   {
+    "quote": "We're working with people and systems, and neither is perfect.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Opens the problem plainly."
+   },
+   {
+    "quote": "If we notice something off, say a partner isn't following a reporting process the way they're supposed to, or something isn't lining up in our records, we always take the time to look into it.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "What they check when something looks wrong."
+   },
+   {
+    "quote": "We ask questions, we check the records, and sometimes we bring in our own team to look at what's happening on the ground.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The concrete steps."
+   },
+   {
+    "quote": "And we've actually written publicly about this before.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Her own words for the hook idea."
+   },
+   {
+    "quote": "A few years ago, as Watsi was growing very quickly, an internal audit found that several patients at one of our medical partners had started treatment before they had been formally submitted to Watsi for approval.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The audit story."
+   },
+   {
+    "quote": "The patients ultimately received the care they needed and were fully funded, but the process had been broken, and trust too.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The outcome, and that trust broke."
+   },
+   {
+    "quote": "We wrote about what happened, explained why it happened.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "What Watsi did in public."
+   },
+   {
+    "quote": "We audited the operational processes across our medical partners and put additional support in place to help them scale with us.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The fix, in one line."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "So when I think about a Watsi medical partnership, I don't really think about a contract or a logo on a partner page.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Her framing line from the clean take (optional in the brief)."
+   },
+   {
+    "quote": "That ongoing relationship is a huge part of what makes Watsi work.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Short line about the relationship."
+   },
+   {
+    "quote": "We're working with people and systems, and neither is perfect.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Opens the problem plainly."
+   },
+   {
+    "quote": "If we notice something off, say a partner isn't following a reporting process the way they're supposed to, or something isn't lining up in our records, we always take the time to look into it.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "What they check when something looks wrong."
+   },
+   {
+    "quote": "We ask questions, we check the records, and sometimes we bring in our own team to look at what's happening on the ground.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The concrete steps."
+   },
+   {
+    "quote": "A few years ago, as Watsi was growing very quickly, an internal audit found that several patients at one of our medical partners had started treatment before they had been formally submitted to Watsi for approval.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The audit story."
+   },
+   {
+    "quote": "The patients ultimately received the care they needed and were fully funded, but the process had been broken, and trust too.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The outcome, and that trust broke."
+   },
+   {
+    "quote": "We wrote about what happened, explained why it happened.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "What Watsi did in public."
+   },
+   {
+    "quote": "We audited the operational processes across our medical partners and put additional support in place to help them scale with us.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The fix, in one line."
+   },
+   {
+    "quote": "And that's really important to me, because transparency can't just mean publishing the good news.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The hook line in full."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "So when I think about a Watsi medical partnership, I don't really think about a contract or a logo on a partner page.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Her framing line from the clean take (optional in the brief)."
+   },
+   {
+    "quote": "That ongoing relationship is a huge part of what makes Watsi work.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Short line about the relationship."
+   },
+   {
+    "quote": "And we've actually written publicly about this before.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Her own words for the hook idea."
+   },
+   {
+    "quote": "A few years ago, as Watsi was growing very quickly, an internal audit found that several patients at one of our medical partners had started treatment before they had been formally submitted to Watsi for approval.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The audit story."
+   },
+   {
+    "quote": "The patients ultimately received the care they needed and were fully funded, but the process had been broken, and trust too.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The outcome, and that trust broke."
+   },
+   {
+    "quote": "We wrote about what happened, explained why it happened.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "What Watsi did in public."
+   },
+   {
+    "quote": "We audited the operational processes across our medical partners and put additional support in place to help them scale with us.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The fix, in one line."
+   },
+   {
+    "quote": "And that's really important to me, because transparency can't just mean publishing the good news.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The hook line in full."
+   },
+   {
+    "quote": "If you're asking people to trust you with their money and to believe that the system works, you also have to be willing to say, here's where something broke, here's what we found, and here's what we're changing.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Broke, found, changing."
+   },
+   {
+    "quote": "And if something is genuinely wrong, we have paused partnerships while it gets sorted out or have even closed partnerships.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Paused or closed partnerships."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "So when I think about a Watsi medical partnership, I don't really think about a contract or a logo on a partner page.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Her framing line from the clean take (optional in the brief)."
+   },
+   {
+    "quote": "That ongoing relationship is a huge part of what makes Watsi work.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Short line about the relationship."
+   },
+   {
+    "quote": "We're working with people and systems, and neither is perfect.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Opens the problem plainly."
+   },
+   {
+    "quote": "If we notice something off, say a partner isn't following a reporting process the way they're supposed to, or something isn't lining up in our records, we always take the time to look into it.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "What they check when something looks wrong."
+   },
+   {
+    "quote": "We ask questions, we check the records, and sometimes we bring in our own team to look at what's happening on the ground.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The concrete steps."
+   },
+   {
+    "quote": "And we've actually written publicly about this before.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Her own words for the hook idea."
+   },
+   {
+    "quote": "We wrote about what happened, explained why it happened.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "What Watsi did in public."
+   },
+   {
+    "quote": "We audited the operational processes across our medical partners and put additional support in place to help them scale with us.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The fix, in one line."
+   },
+   {
+    "quote": "And that's really important to me, because transparency can't just mean publishing the good news.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The hook line in full."
+   },
+   {
+    "quote": "If you're asking people to trust you with their money and to believe that the system works, you also have to be willing to say, here's where something broke, here's what we found, and here's what we're changing.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Broke, found, changing."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "So when I think about a Watsi medical partnership, I don't really think about a contract or a logo on a partner page.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Her framing line from the clean take (optional in the brief)."
+   },
+   {
+    "quote": "That ongoing relationship is a huge part of what makes Watsi work.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Short line about the relationship."
+   },
+   {
+    "quote": "We're working with people and systems, and neither is perfect.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Opens the problem plainly."
+   },
+   {
+    "quote": "If we notice something off, say a partner isn't following a reporting process the way they're supposed to, or something isn't lining up in our records, we always take the time to look into it.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "What they check when something looks wrong."
+   },
+   {
+    "quote": "We ask questions, we check the records, and sometimes we bring in our own team to look at what's happening on the ground.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The concrete steps."
+   },
+   {
+    "quote": "And we've actually written publicly about this before.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Her own words for the hook idea."
+   },
+   {
+    "quote": "A few years ago, as Watsi was growing very quickly, an internal audit found that several patients at one of our medical partners had started treatment before they had been formally submitted to Watsi for approval.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The audit story."
+   },
+   {
+    "quote": "The patients ultimately received the care they needed and were fully funded, but the process had been broken, and trust too.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The outcome, and that trust broke."
+   },
+   {
+    "quote": "And that's really important to me, because transparency can't just mean publishing the good news.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The hook line in full."
+   },
+   {
+    "quote": "If you're asking people to trust you with their money and to believe that the system works, you also have to be willing to say, here's where something broke, here's what we found, and here's what we're changing.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Broke, found, changing."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "So when I think about a Watsi medical partnership, I don't really think about a contract or a logo on a partner page.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Her framing line from the clean take (optional in the brief)."
+   },
+   {
+    "quote": "That ongoing relationship is a huge part of what makes Watsi work.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Short line about the relationship."
+   },
+   {
+    "quote": "We're working with people and systems, and neither is perfect.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Opens the problem plainly."
+   },
+   {
+    "quote": "If we notice something off, say a partner isn't following a reporting process the way they're supposed to, or something isn't lining up in our records, we always take the time to look into it.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "What they check when something looks wrong."
+   },
+   {
+    "quote": "We ask questions, we check the records, and sometimes we bring in our own team to look at what's happening on the ground.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The concrete steps."
+   },
+   {
+    "quote": "And we've actually written publicly about this before.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Her own words for the hook idea."
+   },
+   {
+    "quote": "A few years ago, as Watsi was growing very quickly, an internal audit found that several patients at one of our medical partners had started treatment before they had been formally submitted to Watsi for approval.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The audit story."
+   },
+   {
+    "quote": "The patients ultimately received the care they needed and were fully funded, but the process had been broken, and trust too.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The outcome, and that trust broke."
+   },
+   {
+    "quote": "We wrote about what happened, explained why it happened.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "What Watsi did in public."
+   },
+   {
+    "quote": "We audited the operational processes across our medical partners and put additional support in place to help them scale with us.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The fix, in one line."
+   }
+  ],
+  "bite:6": [
+   {
+    "quote": "So when I think about a Watsi medical partnership, I don't really think about a contract or a logo on a partner page.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Her framing line from the clean take (optional in the brief)."
+   },
+   {
+    "quote": "That ongoing relationship is a huge part of what makes Watsi work.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Short line about the relationship."
+   },
+   {
+    "quote": "We're working with people and systems, and neither is perfect.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Opens the problem plainly."
+   },
+   {
+    "quote": "If we notice something off, say a partner isn't following a reporting process the way they're supposed to, or something isn't lining up in our records, we always take the time to look into it.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "What they check when something looks wrong."
+   },
+   {
+    "quote": "We ask questions, we check the records, and sometimes we bring in our own team to look at what's happening on the ground.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The concrete steps."
+   },
+   {
+    "quote": "And we've actually written publicly about this before.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "Her own words for the hook idea."
+   },
+   {
+    "quote": "A few years ago, as Watsi was growing very quickly, an internal audit found that several patients at one of our medical partners had started treatment before they had been formally submitted to Watsi for approval.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The audit story."
+   },
+   {
+    "quote": "The patients ultimately received the care they needed and were fully funded, but the process had been broken, and trust too.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The outcome, and that trust broke."
+   },
+   {
+    "quote": "We wrote about what happened, explained why it happened.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "What Watsi did in public."
+   },
+   {
+    "quote": "We audited the operational processes across our medical partners and put additional support in place to help them scale with us.",
+    "who": "Kimmy",
+    "file": "20260922_C5068.MP4",
+    "why": "The fix, in one line."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "We published our own mistake.",
+    "line": "And we've actually written publicly about this before.",
+    "why": "The brief's hook. Her next line pays it off."
+   },
+   {
+    "text": "Transparency means the bad news too.",
+    "line": "And that's really important to me, because transparency can't just mean publishing the good news.",
+    "why": "Her own idea, said plainly."
+   },
+   {
+    "text": "Here's where something broke.",
+    "line": "If you're asking people to trust you with their money and to believe that the system works, you also have to be willing to say, here's where something broke, here's what we found, and here's what we're changing.",
+    "why": "Her strongest phrase as the hook."
+   },
+   {
+    "text": "The messy parts, in public.",
+    "line": "And for me, being transparent about the messy parts is actually part of earning that trust.",
+    "why": "The title of the video."
+   },
+   {
+    "text": "Neither is perfect.",
+    "line": "We're working with people and systems, and neither is perfect.",
+    "why": "Honest and short."
+   },
+   {
+    "text": "What if something goes wrong?",
+    "line": "And if something is genuinely wrong, we have paused partnerships while it gets sorted out or have even closed partnerships.",
+    "why": "A question a donor would ask."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "Watsi: simplicity, one brand element at a time, integrated, never slapped on. This cut is her face, one real screen recording, hook text, a name super, two top texts, the three phrases and the end card.",
+  "devices": [
+   {
+    "row": "00:00–00:03",
+    "device": "Hook text, static, top third",
+    "asset": "highlight_callout (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:03–00:06",
+    "device": "Screen recording of the real blog post",
+    "asset": "blog.watsi.org/addressing-a-scaling-issue (new capture)",
+    "source": "Watsi blog"
+   },
+   {
+    "row": "00:06–00:25",
+    "device": "Name super, key words",
+    "asset": "tag_label + word_stack (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:25–00:44",
+    "device": "Blog post cutaway on the audit",
+    "asset": "same screen recording",
+    "source": "Watsi blog"
+   },
+   {
+    "row": "00:44–01:04",
+    "device": "Top text",
+    "asset": "highlight_callout (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "01:04–01:15",
+    "device": "Three kinetic lines",
+    "asset": "word_stack (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "01:28–01:32",
+    "device": "End card watsi.org",
+    "asset": "end_card (MG library)",
+    "source": "endcards/index.json"
+   }
+  ],
+  "broll_pool": [],
+  "elements": [
+   {
+    "name": "Watsi end card (watsi.org on light cyan)",
+    "kind": "end_card",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
+}

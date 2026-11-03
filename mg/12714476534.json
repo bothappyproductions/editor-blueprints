@@ -1,0 +1,116 @@
+{
+ "item": "12714476534",
+ "client": "watsi",
+ "note": "The script asks for the hook question, one name super, two key-word moments and one top text, so 5 graphics and the end card. Elias's profile and photos are footage, not graphics.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook question",
+   "tpl": "highlight_callout",
+   "dur": 5,
+   "pos": "top",
+   "text": {
+    "main": "What happens after surgery?"
+   },
+   "cue": "Hook text on frame 1: What happens after surgery?",
+   "src": "Script, row 00:00–00:05, Motion graphics & type.",
+   "rows": [
+    "00:00–00:05"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:05. Keep it inside the frame: nothing cut off at the edges."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Mackinnon"
+   },
+   "cue": "Name super",
+   "src": "Script, row 00:05–00:16, Motion graphics & type.",
+   "rows": [
+    "00:05–00:16"
+   ],
+   "use": "Put it on 1 s into the row for 2 s. Move it lower left, above the captions. Large, first name only."
+  },
+  {
+   "n": 3,
+   "title": "Key words",
+   "tpl": "word_stack",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "items": [
+     "A photo",
+     "A quote",
+     "A note"
+    ]
+   },
+   "cue": "Key words one at a time as she says them, top band: A photo / A quote / A note.",
+   "src": "Script, row 00:05–00:16, Motion graphics & type.",
+   "rows": [
+    "00:05–00:16"
+   ],
+   "use": "Each word lands on hers, after the name super is gone. One text at a time."
+  },
+  {
+   "n": 4,
+   "title": "Key words",
+   "tpl": "word_stack",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "items": [
+     "Print them out",
+     "Forward them",
+     "Share them"
+    ]
+   },
+   "cue": "Key words one at a time as she says them, top band: Print them out / Forward them / Share them.",
+   "src": "Script, row 00:48–00:57, Motion graphics & type.",
+   "rows": [
+    "00:48–00:57"
+   ],
+   "use": "Each line lands on her words near the end of the row. Captions stay on."
+  },
+  {
+   "n": 5,
+   "title": "Top text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "It's actually a moment of connection"
+   },
+   "cue": "Top text as she says it, 3 s, top band: It's actually a moment of connection.",
+   "src": "Script, row 01:04–01:14, Motion graphics & type.",
+   "rows": [
+    "01:04–01:14"
+   ],
+   "use": "Put it on when she says it. Hold 3 s. Keep it inside the frame."
+  },
+  {
+   "n": 6,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:14–01:17"
+   ],
+   "cue": "watsi.org, all lowercase, Lato, navy #2E2844. One line. Nothing else.",
+   "src": "Watsi's own end card words from the script (watsi.org, the Who Gives close, or the Watsi x AYH lines). Watsi's scripts say no logo lockup. Source: endcards/index.json, 6 Oct 2026.",
+   "c": {
+    "bg": "#D3EDFA",
+    "fg": "#2E2844"
+   },
+   "text": {
+    "lines": [
+     "watsi.org"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it right after “Watsi.” and hold it to the end. No logo or corner bug anywhere before it."
+  }
+ ]
+}

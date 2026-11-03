@@ -1,0 +1,1041 @@
+{
+ "id": "12714476534",
+ "client": "watsi",
+ "eyebrow": "Watsi · Medellín · 28 Jul 2026 · FAQ",
+ "title": "V07 · FAQ:",
+ "title_q": "“What Happens After Surgery?”",
+ "title_short": "V07 · What Happens After Surgery?",
+ "editor": "Bleron",
+ "due": "2026-10-05",
+ "format": "9:16 only · 1080×1920",
+ "length": "about 1:17 min",
+ "edit_key": "WATSIFAQAfterCare001",
+ "headline": "After surgery you always hear what happened: a real update, sometimes years later, like Elias, who is in school and thriving.",
+ "story": [
+  "Mackinnon answers the FAQ in one take. Every donor gets a post-treatment update: a photo, a quote, a note from the medical team. <b>They're real.</b> Then the proof: <b>Elias</b> in Ethiopia, three surgeries, nineteen donors, and seven years later he is in school and thriving. We show his real profile and his real photos.",
+  "Then the honest beat (some updates are complicated, and Watsi shares those too), what donors do with updates, and the button: <b>a moment of connection</b>. <b>Loops:</b> L1 the question opens at 0:00 and closes at “you'll always know”. L2 “What happened to Elias?” closes on “He's thriving.” Hopeful, never sad."
+ ],
+ "feel": [
+  "Warm",
+  "Honest",
+  "Clear",
+  "Hopeful",
+  "Zero typos"
+ ],
+ "do": [
+  "Question on screen at 0:00, at least 5 s.",
+  "Show Elias's real profile on “Nineteen people funded them.”",
+  "Show Sonam's photos of Elias on “Seven years later”.",
+  "Keep every caption and graphic fully inside the frame.",
+  "Keep her order. One take: Mincho5152."
+ ],
+ "dont": [
+  "No photo of Elias beside the toilet chair.",
+  "No logo or Watsi corner bug before the end card.",
+  "No surgery, wound or condition pictures.",
+  "Don't mix in lines from Mincho5150 or 5151 unless a refresh asks for them.",
+  "No hospital name on screen."
+ ],
+ "links": {
+  "brief": {
+   "title": "Watsi Medellín — Edit Scripts from the Footage, V07",
+   "url": "https://docs.google.com/document/d/1gGIrzWhlp1uzF2PwEGM3DLqgH9LuvLu9J2Mpt2b5uII/edit",
+   "note": "Nick's edit script: take 5152 (best of three), in 0:04.9, out 1:19.5. The Monday brief carries the same script."
+  },
+  "reference": {
+   "title": "charity: water, Scott Harrison founder ad (Meta Ad Library)",
+   "url": "https://www.facebook.com/ads/library/?id=4677437162533348",
+   "note": "Chosen by Atdhe (Production Planning row 11570763280). Take from it: one person talking straight to camera, big captions that carry the story with sound off, one story, one ask. Do not copy its music or its stock B-roll."
+  },
+  "footage": {
+   "title": "Watsi Medellín raw ▸ Interviews & Mackinnon Scripts",
+   "url": "https://drive.google.com/drive/folders/1TH290hIMOFFstl2eTMEi0La20EI13xTL",
+   "note": "Mincho5152.MP4 (1:24) is the take. Mincho5151.MP4 is the full alternate take."
+  }
+ },
+ "bp_intro": "All bites are from <span class=\"mono\">Mincho5152.MP4</span> (1:24). Times are mm:ss.s in that file, from the word timings in transcript.json. Row times count pauses over 0.7 s cut to about 0.25 s. No frames were pulled this run: shots are described from visual.json.",
+ "rows": [
+  {
+   "tc": "00:00–00:05",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Mackinnon to camera, standing, grey Watsi T-shirt, big windows with the city behind her (visual.json). 9:16 crop centred on her. <a href=\"https://drive.google.com/file/d/1bGn4W3bNozy4OkyRX5iyP9PsljvyL9bi/view\">Mincho5152.MP4</a> from <span class=\"mono\">00:04.9</span>, on her second “What happens after surgery?” (the first one at 00:03 is a false start). Her face is the strongest picture here.",
+   "motion": "Hook text on <b>frame 1</b>: <q>What happens after surgery?</q> The question is the title and the thumbnail. Already on screen at 0:00, does not animate on. Top third, Lato Black, white, soft shadow. Stays at least 5 s. Captions start on frame 1.",
+   "voice": {
+    "who": "Mackinnon",
+    "quote": "What happens after surgery? The short answer is you'll always know what happens after surgery.",
+    "src": "Mincho5152.MP4 00:04.9 to 00:09.7"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Soft bed already in the cut, at least 12 dB under her voice. No lyrics.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "What happens"
+    }
+   ]
+  },
+  {
+   "tc": "00:05–00:16",
+   "beat": "THE UPDATE",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Mackinnon to camera, standing, grey Watsi T-shirt, big windows with the city behind her (visual.json). 9:16 crop centred on her. <a href=\"https://drive.google.com/file/d/1bGn4W3bNozy4OkyRX5iyP9PsljvyL9bi/view\">Mincho5152.MP4</a> from <span class=\"mono\">00:09.9</span>. Cut the 0.7 s pause after “update.”. Hide jump cuts with a 3–5% push-in. The 9:16 crop of 4K stays sharp up to about 112%.",
+   "motion": "Name super at <span class=\"mono\">00:06</span> for 2 s, lower left, above the captions, <b>large</b>: <q>Mackinnon</q>. First name only. Key words one at a time as she says them, top band: <q>A photo</q> / <q>A quote</q> / <q>A note</q>.",
+   "voice": {
+    "who": "Mackinnon",
+    "quote": "Every donor who contributes to a patient's care gets a post-treatment update. We do our best to include a photo, a quote from the patient or their family, and a note from the medical team.",
+    "src": "Mincho5152.MP4 00:09.9 to 00:20.7"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Soft bed already in the cut, at least 12 dB under her voice. No lyrics.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Every donor"
+    }
+   ]
+  },
+  {
+   "tc": "00:16–00:22",
+   "beat": "REAL",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Mackinnon to camera, standing, grey Watsi T-shirt, big windows with the city behind her (visual.json). 9:16 crop centred on her. <a href=\"https://drive.google.com/file/d/1bGn4W3bNozy4OkyRX5iyP9PsljvyL9bi/view\">Mincho5152.MP4</a> from <span class=\"mono\">00:20.9</span>. Stay on her.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Mackinnon",
+    "quote": "These updates aren't promotional. They're real. Sometimes they arrive even years later.",
+    "src": "Mincho5152.MP4 00:20.9 to 00:26.2"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Soft bed already in the cut, at least 12 dB under her voice. No lyrics.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "These updates"
+    }
+   ]
+  },
+  {
+   "tc": "00:22–00:29",
+   "beat": "ELIAS",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "From “There's a boy named Elias” cut to a <b>screen recording of Elias's real profile</b> on a phone: <a href=\"https://watsi.org/profile/835b879687fa-elias\">watsi.org/profile/835b879687fa-elias</a> (Sonam's ask, 2 Oct). Scroll slowly so the donor count is on screen on “Nineteen people funded them.” Clean recording, no browser bar, no notifications.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Mackinnon",
+    "quote": "There's a boy named Elias in Ethiopia. He came to our partner hospital as a baby, and he needed three different surgeries. Nineteen people funded them.",
+    "src": "Mincho5152.MP4 00:26.9 to 00:34.5"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Soft bed already in the cut, at least 12 dB under her voice. No lyrics.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "There's a boy"
+    }
+   ]
+  },
+  {
+   "tc": "00:29–00:38",
+   "beat": "SEVEN YEARS LATER",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "On “Seven years later, we got to see him again” cut to Sonam's photos of Elias seven years later, from <a href=\"https://drive.google.com/drive/folders/1ubQ34gIN4kDHLIofAEeQMGureCCeBu2y\">her Drive folder</a>: one photo per sentence, slow 3% push, until “He's thriving.” Never the photo of Elias beside a toilet chair. Use the sharpest photos; if one is soft and there is a sharper one, use the sharper one. Back to her face on “That's the best part of this work”.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Mackinnon",
+    "quote": "Seven years later, we got to see him again. He's in school. He's thriving. That's the best part of this work, and I wish you could meet all the patients, too.",
+    "src": "Mincho5152.MP4 00:34.8 to 00:42.7"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Soft bed already in the cut, at least 12 dB under her voice. No lyrics.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "That's the best part"
+    }
+   ]
+  },
+  {
+   "tc": "00:38–00:48",
+   "beat": "THE HONEST PART",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Mackinnon to camera, standing, grey Watsi T-shirt, big windows with the city behind her (visual.json). 9:16 crop centred on her. <a href=\"https://drive.google.com/file/d/1bGn4W3bNozy4OkyRX5iyP9PsljvyL9bi/view\">Mincho5152.MP4</a> from <span class=\"mono\">00:42.9</span>. Stay on her face: this is the honest beat. Calm, not sad.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Mackinnon",
+    "quote": "Although sometimes, because this is real life, the update is more complicated. A recovery takes longer than expected. A family is facing a new challenge, and we share those, too.",
+    "src": "Mincho5152.MP4 00:42.9 to 00:52.9"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Soft bed already in the cut, at least 12 dB under her voice. No lyrics.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Although sometimes"
+    }
+   ]
+  },
+  {
+   "tc": "00:48–00:57",
+   "beat": "WHAT DONORS DO",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Mackinnon to camera, standing, grey Watsi T-shirt, big windows with the city behind her (visual.json). 9:16 crop centred on her. <a href=\"https://drive.google.com/file/d/1bGn4W3bNozy4OkyRX5iyP9PsljvyL9bi/view\">Mincho5152.MP4</a> from <span class=\"mono\">00:53.9</span>. Cut the 1 s pause before “One thing”. Hide jump cuts with a 3–5% push-in. The 9:16 crop of 4K stays sharp up to about 112%.",
+   "motion": "Key words one at a time as she says them, top band: <q>Print them out</q> / <q>Forward them</q> / <q>Share them</q>. Captions on.",
+   "voice": {
+    "who": "Mackinnon",
+    "quote": "One thing I find so remarkable about these updates is what people tell me they do with them. They print them out. They forward them to their spouse. They share them with their kids.",
+    "src": "Mincho5152.MP4 00:53.9 to 01:02.6"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Soft bed already in the cut, at least 12 dB under her voice. No lyrics.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "One thing"
+    }
+   ]
+  },
+  {
+   "tc": "00:57–01:04",
+   "beat": "THEY REMEMBER",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Mackinnon to camera, standing, grey Watsi T-shirt, big windows with the city behind her (visual.json). 9:16 crop centred on her. <a href=\"https://drive.google.com/file/d/1bGn4W3bNozy4OkyRX5iyP9PsljvyL9bi/view\">Mincho5152.MP4</a> from <span class=\"mono\">01:02.9</span>. Stay on her.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Mackinnon",
+    "quote": "Some people have donated to dozens of patients over the years, and they tell me they still remember specific people, specific stories.",
+    "src": "Mincho5152.MP4 01:02.9 to 01:09.8"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Soft bed already in the cut, at least 12 dB under her voice. No lyrics.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Some people"
+    }
+   ]
+  },
+  {
+   "tc": "01:04–01:14",
+   "beat": "BUTTON",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Mackinnon to camera, standing, grey Watsi T-shirt, big windows with the city behind her (visual.json). 9:16 crop centred on her. <a href=\"https://drive.google.com/file/d/1bGn4W3bNozy4OkyRX5iyP9PsljvyL9bi/view\">Mincho5152.MP4</a> from <span class=\"mono\">01:09.9</span> to <span class=\"mono\">01:19.5</span>. Hold 1 s after “Watsi.”, then cut to the end card.",
+   "motion": "Top text as she says it, 3 s, top band: <q>It's actually a moment of connection</q>. Captions on.",
+   "voice": {
+    "who": "Mackinnon",
+    "quote": "This isn't just accountability. It's actually a moment of connection, and all of us becoming part of each other's stories. That's one of the most beautiful things about Watsi.",
+    "src": "Mincho5152.MP4 01:09.9 to 01:19.5"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Soft bed already in the cut, at least 12 dB under her voice. No lyrics.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "This isn't just"
+    }
+   ]
+  },
+  {
+   "tc": "01:14–01:17",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Clean end card. Light cyan <span class=\"mono\">#D3EDFA</span> background. Navy is never a background. No Watsi corner bug or logo anywhere before this card.",
+   "motion": "<b>watsi.org</b>, all lowercase, Lato, navy <span class=\"mono\">#2E2844</span>. One line. Nothing else.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed out with the card.",
+   "shots": []
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Edit script",
+   "<a href=\"https://docs.google.com/document/d/1gGIrzWhlp1uzF2PwEGM3DLqgH9LuvLu9J2Mpt2b5uII/edit\">Watsi Medellín — Edit Scripts from the Footage</a> (Nick, V07)"
+  ],
+  [
+   "Client script and FAQ map",
+   "<a href=\"https://docs.google.com/document/d/1aY4oBYWa_qCokAo59nSH7Y-r8RmRBvmj7LPiYOQCEUU/edit\">Scripted Videos_Team_Colombia + New York</a> (Watsi's script doc; Sonam's FAQ footage map)"
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/1TH290hIMOFFstl2eTMEi0La20EI13xTL\">Watsi Medellín</a>"
+  ],
+  [
+   "Clips",
+   "<a href=\"https://drive.google.com/file/d/1bGn4W3bNozy4OkyRX5iyP9PsljvyL9bi/view\">Mincho5152.MP4</a> · 1:24 · the take · <a href=\"https://drive.google.com/file/d/1neIyk4XDd8cONn9d8-nMaHE_g55mXrUJ/view\">Mincho5151.MP4</a> · 1:27 · alternate take"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/10v-mHNaOrdTTRdKsHFCn-hYyG_mBNayU4Ef34wYUurg/edit\">Transcripts - Interviews & Mackinnon Scripts</a> · <a href=\"https://drive.google.com/file/d/1WfzgxvxnuYH46DRBCRGqzEwKbVCZd83g/view\">transcript.json</a> (word times). It writes WOTC for Watsi."
+  ],
+  [
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/1bd3g-1QwqLZoQNMTscCw9GTJdLC2nsez/view\">Watsi Medellín visual.json</a> (3 coarse rows per clip)"
+  ],
+  [
+   "Elias",
+   "<a href=\"https://watsi.org/profile/835b879687fa-elias\">Elias's Watsi profile</a> (screen recording) · <a href=\"https://drive.google.com/drive/folders/1ubQ34gIN4kDHLIofAEeQMGureCCeBu2y\">Sonam's photos of Elias</a> (shared 2 Oct)"
+  ],
+  [
+   "Brand pack",
+   "<a href=\"https://drive.google.com/drive/folders/1my9RNjTawX8JeQO2eQDHSphWP8KTg09r\">LOTUS illustrations</a> · <a href=\"https://drive.google.com/drive/folders/1T7bIehcX3_l6F-CXUu-LHCyPE58nq9df\">September Spirit font</a> · <a href=\"https://drive.google.com/file/d/1u8R2iKmydBN2xF_h0wIE6X-NZo0mslXs/view\">Watsi brand guide</a>. Lato for all text. Navy <span class=\"mono\">#2E2844</span> is text only, never a background. Cyan <span class=\"mono\">#11BAED</span>, light cyan <span class=\"mono\">#D3EDFA</span>, yellow <span class=\"mono\">#FFCC33</span>."
+  ],
+  [
+   "Brand graphics package",
+   "Watsi package on Drive: <span class=\"mono\">deliverables/graphics-packages/Watsi</span> (lower third bar, title plate, underline, brackets, wipe, texture). Folder link not available in this run. Type the words on the empty plates in Lato."
+  ],
+  [
+   "Music",
+   "Uppbeat, like the other Watsi cuts. Save the licence with the project: YouTube flagged an Uppbeat track on a Watsi upload on 7 Oct."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "The other Medellín Mackinnon takes probe 3840×2160, 23.976 fps, H.264, 2-ch audio in camera. Confirm on import."
+  ],
+  [
+   "Timeline",
+   "1080×1920 at <b>23.976 fps</b>, same as the source."
+  ],
+  [
+   "Crop",
+   "A 9:16 crop of 4K is 1215×2160, so punch-ins up to about 112% stay sharp. Grade before export: skin natural, windows not blown out."
+  ],
+  [
+   "Audio",
+   "2 channels in camera. Pick the live channel on the waveform, map it to both sides, mute the other."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. Bed at least 12 dB under her voice."
+  ],
+  [
+   "Captions",
+   "Lato Bold, white, soft shadow, large. Pop word by word, one line at a time. No box, no highlight, no shading block. On screen the whole time, also in pauses (no flash gaps). Fix every WOTC / WotC to Watsi by hand. Keep the bottom 20% clear for app buttons. Every line fits inside the frame with a margin: nothing cut off at the edges."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920, about 16 Mbps. One file, 9:16 only."
+  ]
+ ],
+ "checklist": [
+  "Frame 1 is Mackinnon with <q>What happens after surgery?</q> already on screen. No logo, no fade.",
+  "No text is cut off at any edge: captions, top text, name super (Atdhe, 3 Nov).",
+  "Every caption reads Watsi, capital W only; watsi.org lowercase on the end card.",
+  "Elias's profile on screen is the real page, recorded clean.",
+  "Only Sonam's photos of Elias, never the toilet-chair photo.",
+  "No soft shot where a sharper one exists (Atdhe, 3 Nov).",
+  "Name super “Mackinnon” is large, first name only, never at 0:00.",
+  "Captions never drop out. No flash gaps.",
+  "Check by ear: “a patient's care” and “or their family”.",
+  "Footage graded, no freeze frames."
+ ],
+ "decisions": [
+  {
+   "t": "Question-first look",
+   "b": "Sonam's 17 Sep question-first treatment (question typed first, bold yellow, moving picture behind it) is still not confirmed for the Batch #5 FAQs. This plan opens on the question in white over her face. If Nick or Atdhe confirm the treatment, make it yellow #FFCC33."
+  },
+  {
+   "t": "Watsi corner bug",
+   "b": "The v3 cut carries a Watsi bug from 0:03. The house rule is no logo before the end card, so this plan has none. Nick decides if the FAQ series keeps the bug."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> Sonam asked for both inserts herself (Elias's profile and his photos). Sonam's main complaint is typos and text problems, so every caption and edge gets checked.",
+ "ask_examples": [
+  "Which photos of Elias can I use?",
+  "Where does the profile recording go?",
+  "Is there a Watsi bug in the corner?",
+  "Which take do I use?"
+ ],
+ "transcript": "Auto-transcript of Mackinnon's takes of this FAQ (Watsi Medellín, Interviews & Mackinnon Scripts, 28 Jul 2026). Times are mm:ss.s in each file. Mincho5152 is the take (best of three). Mincho5151 is the full alternate take. The auto-transcript wrote WOTC for Watsi; it is corrected below.\n--- Mincho5152.MP4 ---\n[00:01.0] Okay, let's go. [do not use: false start before the take]\n[00:01.8] So, what happens after surgery? [do not use: false start before the take]\n[00:04.9] What happens after surgery?\n[00:06.5] The short answer is you'll always know what happens after surgery.\n[00:09.9] Every donor who contributes to a patient care gets a post-treatment update.\n[00:14.9] We do our best to include a photo, a quote from the patient or their family, and a note from the medical team.\n[00:20.9] These updates aren't promotional.\n[00:23.5] They're real.\n[00:24.3] Sometimes they arrive even years later.\n[00:26.9] There's a boy named Elias in Ethiopia.\n[00:29.4] He came to our partner hospital as a baby, and he needed three different surgeries.\n[00:32.9] Nineteen people funded them.\n[00:34.8] Seven years later, we got to see him again.\n[00:37.3] He's in school.\n[00:38.3] He's thriving.\n[00:39.2] That's the best part of this work, and I wish you could meet all the patients, too.\n[00:42.9] Although sometimes, because this is real life, the update is more complicated.\n[00:47.6] A recovery takes longer than expected.\n[00:49.6] A family is facing a new challenge, and we share those, too.\n[00:53.9] One thing I find so remarkable about these updates is what people tell me they do with them.\n[00:59.1] They print them out.\n[01:00.2] They forward them to their spouse.\n[01:01.7] They share them with their kids.\n[01:02.9] Some people have donated to dozens of patients over the years, and they tell me they still remember specific people, specific stories.\n[01:09.9] This isn't just accountability.\n[01:12.2] It's actually a moment of connection, and all of us becoming part of each other's stories.\n[01:16.9] That's one of the most beautiful things about Watsi.\n--- Mincho5151.MP4 ---\n[00:04.7] Okay, and so what happens after surgery?\n[00:09.9] What happens after surgery?\n[00:12.0] The short answer is you'll always know what happens after surgery.\n[00:15.3] Every donor who contributed to a patient's care gets a post-treatment update.\n[00:19.8] We do our best to include a photo, a quote from the patient and their family, and a note from the medical team.\n[00:25.7] These updates aren't promotional.\n[00:28.1] They're real.\n[00:28.9] Sometimes they arrive even years later.\n[00:31.2] There's a boy named Elias in Ethiopia.\n[00:33.3] He came to our medical partner as a baby and needed three different surgeries.\n[00:37.2] 19 people funded them.\n[00:39.0] Seven years later, we got to see him again.\n[00:41.8] He's in school.\n[00:42.9] He's thriving, and that is absolutely the best part of this work.\n[00:46.4] I wish you could meet all the patients too, and sometimes because this is real life, the updates more complicated.\n[00:52.2] Recovery took longer than expected.\n[00:54.6] A family is facing a new challenge.\n[00:56.8] We share those too.\n[00:58.3] What I find remarkable about these updates is what I hear from donors and what they do with the updates.\n[01:03.6] They print them out.\n[01:04.3] They forward them to their spouse.\n[01:06.2] They share them with their kids.\n[01:07.5] Some have donated to dozens of patients over the years and still remember specific people and specific stories.\n[01:14.4] The update isn't just accountability.\n[01:16.5] It's a moment of connection and becoming part of each other's stories.\n[01:20.6] That's one of my favorite things about Watsi.\n[01:22.9] Okay, maybe do one more take of that one. [do not use: crew talk]",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "Every donor who contributes to a patient care gets a post-treatment update.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "What every donor gets."
+   },
+   {
+    "quote": "These updates aren't promotional.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "Short, strong."
+   },
+   {
+    "quote": "Sometimes they arrive even years later.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "Sets up Elias."
+   },
+   {
+    "quote": "There's a boy named Elias in Ethiopia.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The story starts."
+   },
+   {
+    "quote": "Nineteen people funded them.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The number."
+   },
+   {
+    "quote": "He's in school.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The joy beat."
+   },
+   {
+    "quote": "That's the best part of this work, and I wish you could meet all the patients, too.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "Her feeling."
+   },
+   {
+    "quote": "Although sometimes, because this is real life, the update is more complicated.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The honest beat."
+   },
+   {
+    "quote": "They print them out.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "What donors do."
+   },
+   {
+    "quote": "Some people have donated to dozens of patients over the years, and they tell me they still remember specific people, specific stories.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "They remember."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "The short answer is you'll always know what happens after surgery.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The plain answer."
+   },
+   {
+    "quote": "These updates aren't promotional.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "Short, strong."
+   },
+   {
+    "quote": "Sometimes they arrive even years later.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "Sets up Elias."
+   },
+   {
+    "quote": "There's a boy named Elias in Ethiopia.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The story starts."
+   },
+   {
+    "quote": "Nineteen people funded them.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The number."
+   },
+   {
+    "quote": "He's in school.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The joy beat."
+   },
+   {
+    "quote": "That's the best part of this work, and I wish you could meet all the patients, too.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "Her feeling."
+   },
+   {
+    "quote": "Although sometimes, because this is real life, the update is more complicated.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The honest beat."
+   },
+   {
+    "quote": "They print them out.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "What donors do."
+   },
+   {
+    "quote": "Some people have donated to dozens of patients over the years, and they tell me they still remember specific people, specific stories.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "They remember."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "The short answer is you'll always know what happens after surgery.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The plain answer."
+   },
+   {
+    "quote": "Every donor who contributes to a patient care gets a post-treatment update.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "What every donor gets."
+   },
+   {
+    "quote": "There's a boy named Elias in Ethiopia.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The story starts."
+   },
+   {
+    "quote": "Nineteen people funded them.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The number."
+   },
+   {
+    "quote": "He's in school.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The joy beat."
+   },
+   {
+    "quote": "That's the best part of this work, and I wish you could meet all the patients, too.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "Her feeling."
+   },
+   {
+    "quote": "Although sometimes, because this is real life, the update is more complicated.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The honest beat."
+   },
+   {
+    "quote": "They print them out.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "What donors do."
+   },
+   {
+    "quote": "Some people have donated to dozens of patients over the years, and they tell me they still remember specific people, specific stories.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "They remember."
+   },
+   {
+    "quote": "This isn't just accountability.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The button."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "The short answer is you'll always know what happens after surgery.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The plain answer."
+   },
+   {
+    "quote": "Every donor who contributes to a patient care gets a post-treatment update.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "What every donor gets."
+   },
+   {
+    "quote": "These updates aren't promotional.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "Short, strong."
+   },
+   {
+    "quote": "Sometimes they arrive even years later.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "Sets up Elias."
+   },
+   {
+    "quote": "He's in school.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The joy beat."
+   },
+   {
+    "quote": "That's the best part of this work, and I wish you could meet all the patients, too.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "Her feeling."
+   },
+   {
+    "quote": "Although sometimes, because this is real life, the update is more complicated.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The honest beat."
+   },
+   {
+    "quote": "They print them out.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "What donors do."
+   },
+   {
+    "quote": "Some people have donated to dozens of patients over the years, and they tell me they still remember specific people, specific stories.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "They remember."
+   },
+   {
+    "quote": "This isn't just accountability.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The button."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "The short answer is you'll always know what happens after surgery.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The plain answer."
+   },
+   {
+    "quote": "Every donor who contributes to a patient care gets a post-treatment update.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "What every donor gets."
+   },
+   {
+    "quote": "These updates aren't promotional.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "Short, strong."
+   },
+   {
+    "quote": "Sometimes they arrive even years later.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "Sets up Elias."
+   },
+   {
+    "quote": "There's a boy named Elias in Ethiopia.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The story starts."
+   },
+   {
+    "quote": "Nineteen people funded them.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The number."
+   },
+   {
+    "quote": "Although sometimes, because this is real life, the update is more complicated.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The honest beat."
+   },
+   {
+    "quote": "They print them out.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "What donors do."
+   },
+   {
+    "quote": "Some people have donated to dozens of patients over the years, and they tell me they still remember specific people, specific stories.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "They remember."
+   },
+   {
+    "quote": "This isn't just accountability.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The button."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "The short answer is you'll always know what happens after surgery.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The plain answer."
+   },
+   {
+    "quote": "Every donor who contributes to a patient care gets a post-treatment update.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "What every donor gets."
+   },
+   {
+    "quote": "These updates aren't promotional.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "Short, strong."
+   },
+   {
+    "quote": "Sometimes they arrive even years later.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "Sets up Elias."
+   },
+   {
+    "quote": "There's a boy named Elias in Ethiopia.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The story starts."
+   },
+   {
+    "quote": "Nineteen people funded them.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The number."
+   },
+   {
+    "quote": "He's in school.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The joy beat."
+   },
+   {
+    "quote": "That's the best part of this work, and I wish you could meet all the patients, too.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "Her feeling."
+   },
+   {
+    "quote": "They print them out.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "What donors do."
+   },
+   {
+    "quote": "Some people have donated to dozens of patients over the years, and they tell me they still remember specific people, specific stories.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "They remember."
+   }
+  ],
+  "bite:6": [
+   {
+    "quote": "The short answer is you'll always know what happens after surgery.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The plain answer."
+   },
+   {
+    "quote": "Every donor who contributes to a patient care gets a post-treatment update.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "What every donor gets."
+   },
+   {
+    "quote": "These updates aren't promotional.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "Short, strong."
+   },
+   {
+    "quote": "Sometimes they arrive even years later.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "Sets up Elias."
+   },
+   {
+    "quote": "There's a boy named Elias in Ethiopia.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The story starts."
+   },
+   {
+    "quote": "Nineteen people funded them.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The number."
+   },
+   {
+    "quote": "He's in school.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The joy beat."
+   },
+   {
+    "quote": "That's the best part of this work, and I wish you could meet all the patients, too.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "Her feeling."
+   },
+   {
+    "quote": "Although sometimes, because this is real life, the update is more complicated.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The honest beat."
+   },
+   {
+    "quote": "Some people have donated to dozens of patients over the years, and they tell me they still remember specific people, specific stories.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "They remember."
+   }
+  ],
+  "bite:7": [
+   {
+    "quote": "The short answer is you'll always know what happens after surgery.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The plain answer."
+   },
+   {
+    "quote": "Every donor who contributes to a patient care gets a post-treatment update.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "What every donor gets."
+   },
+   {
+    "quote": "These updates aren't promotional.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "Short, strong."
+   },
+   {
+    "quote": "Sometimes they arrive even years later.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "Sets up Elias."
+   },
+   {
+    "quote": "There's a boy named Elias in Ethiopia.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The story starts."
+   },
+   {
+    "quote": "Nineteen people funded them.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The number."
+   },
+   {
+    "quote": "He's in school.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The joy beat."
+   },
+   {
+    "quote": "That's the best part of this work, and I wish you could meet all the patients, too.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "Her feeling."
+   },
+   {
+    "quote": "Although sometimes, because this is real life, the update is more complicated.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The honest beat."
+   },
+   {
+    "quote": "They print them out.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "What donors do."
+   }
+  ],
+  "bite:8": [
+   {
+    "quote": "The short answer is you'll always know what happens after surgery.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The plain answer."
+   },
+   {
+    "quote": "Every donor who contributes to a patient care gets a post-treatment update.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "What every donor gets."
+   },
+   {
+    "quote": "These updates aren't promotional.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "Short, strong."
+   },
+   {
+    "quote": "Sometimes they arrive even years later.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "Sets up Elias."
+   },
+   {
+    "quote": "There's a boy named Elias in Ethiopia.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The story starts."
+   },
+   {
+    "quote": "Nineteen people funded them.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The number."
+   },
+   {
+    "quote": "He's in school.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The joy beat."
+   },
+   {
+    "quote": "That's the best part of this work, and I wish you could meet all the patients, too.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "Her feeling."
+   },
+   {
+    "quote": "Although sometimes, because this is real life, the update is more complicated.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "The honest beat."
+   },
+   {
+    "quote": "They print them out.",
+    "who": "Mackinnon",
+    "file": "Mincho5152.MP4",
+    "why": "What donors do."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "What happens after surgery?",
+    "line": "What happens after surgery?",
+    "why": "The FAQ question is the title and the thumbnail."
+   },
+   {
+    "text": "You'll always know.",
+    "line": "The short answer is you'll always know what happens after surgery.",
+    "why": "The promise in three words."
+   },
+   {
+    "text": "19 people funded Elias.",
+    "line": "Nineteen people funded them.",
+    "why": "A real number and a real name."
+   },
+   {
+    "text": "Seven years later.",
+    "line": "Seven years later, we got to see him again.",
+    "why": "Time as the hook."
+   },
+   {
+    "text": "They print them out.",
+    "line": "They print them out.",
+    "why": "Surprising donor behaviour."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "Watsi: simplicity, one brand element at a time. This cut is her face, Elias's real profile, Sonam's real photos, hook text, one name super, two key-word moments, one top text and the end card.",
+  "devices": [
+   {
+    "row": "00:00–00:05",
+    "device": "Hook question, static, top third",
+    "asset": "highlight_callout (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:05–00:16",
+    "device": "Name super and key words",
+    "asset": "tag_label + word_stack (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:22–00:29",
+    "device": "Screen recording of Elias's profile on a phone",
+    "asset": "https://watsi.org/profile/835b879687fa-elias",
+    "source": "watsi.org (new capture)"
+   },
+   {
+    "row": "00:29–00:38",
+    "device": "Elias photos, slow push",
+    "asset": "Sonam's photo folder",
+    "source": "Client (2 Oct)"
+   },
+   {
+    "row": "00:48–00:57",
+    "device": "Key words",
+    "asset": "word_stack (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "01:04–01:14",
+    "device": "Top text",
+    "asset": "highlight_callout (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "01:14–01:17",
+    "device": "End card watsi.org",
+    "asset": "end_card (MG library)",
+    "source": "endcards/index.json"
+   }
+  ],
+  "broll_pool": [],
+  "elements": [
+   {
+    "name": "Watsi end card (watsi.org on light cyan)",
+    "kind": "end_card",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
+}
