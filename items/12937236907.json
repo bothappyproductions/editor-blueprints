@@ -8,7 +8,7 @@
  "editor": "Qendrim",
  "due": "2026-11-06",
  "format": "9:16 only · 1080×1920",
- "length": "about 61 s",
+ "length": "about 72 s",
  "edit_key": "FREEDOMREADSEmilyOutsideWalls001",
  "headline": "A lifelong book lover says reading gives her belonging and a break that nothing else gives.",
  "story": [
@@ -23,18 +23,18 @@
   "Hopeful"
  ],
  "do": [
-  "Open cold on 05:17 with the hook text.",
+  "Open cold on 05:17 with the hook text on frame 1.",
   "Light first 20 seconds, turn at the belonging line.",
-  "Name card after the hook.",
-  "Warm frames: smiles, books in hands, the library corner (WCCW files only).",
-  "Target 55 s."
+  "Name card after the hook, at 00:05.",
+  "Warm B-roll only from the WCCW group clips, in the ranges named here. They are not used in the other WCCW cuts.",
+  "Cut pauses tight. Let each last word finish."
  ],
  "dont": [
   "Not about sadness or confinement.",
   "No Minnesota files: no WSP000xx without “v”, no P1055350, P1055354, P1055378.",
   "No logo, fade, lower third or self-intro at 0:00.",
-  "Never “inmates”. Say “incarcerated people”.",
-  "No last name anywhere."
+  "Never “inmates”. Say “incarcerated people”. No last name anywhere.",
+  "Do not reuse a B-roll sequence from the other Washington cuts (client note, 22 Oct)."
  ],
  "links": {
   "brief": {
@@ -53,147 +53,224 @@
    "note": "Interview P1055416.MOV (5:34, WCCW). One camera."
   }
  },
- "bp_intro": "All lines are from <span class=\"mono\">P1055416.MOV</span> (5:34, WCCW, one camera). Times are mm:ss from the Washington ILP transcript doc. The source is 16:9: crop to 9:16 and punch in carefully.",
+ "bp_intro": "All of Emily's lines are from <span class=\"mono\">P1055416.MOV</span> (5:34, WCCW, one camera, 1920×1080, 30 fps). Times are mm:ss.s in that clip, from the word times in output.json (EditTranscripts). Word end times can be early: keep about 0.3 s of air after each last word. The source is 16:9: crop to 9:16 on her and keep punch-ins small. No frames were pulled for this clip yet: check each crop on scrub.",
  "rows": [
   {
-   "tc": "00:00–00:05",
+   "tc": "00:00-00:05",
    "beat": "HOOK",
    "kind": "hook",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Emily on camera, cold. Crop 9:16 on her face.",
-   "motion": "Hook text on <b>frame 1</b>: <q>Nothing else takes me out</q>. Does not animate on. No logo, no name.",
+   "visual": "Emily on camera, cold, <a href=\"https://drive.google.com/file/d/171Mm55saQmz63fzTlhAMPQ19A1ZKpJhs/view\">P1055416.MOV</a> from <span class=\"mono\">05:17.3</span>. Crop 9:16 on her face (16:9 source, check the crop on scrub). Her face is the strongest picture here, so no B-roll. Out at <span class=\"mono\">05:22.1</span>.",
+   "motion": "Hook text on <b>frame 1</b>: <q>Nothing else takes me out</q>. Already on screen at 0:00. Does not animate on. Top third. It goes out at 00:03. No logo, no name.",
    "voice": {
     "who": "Emily",
     "quote": "It also just takes me out. Nothing else takes me out of these walls like books do.",
-    "src": "P1055416 05:17–05:22"
+    "src": "P1055416.MOV 05:17.3 to 05:22.1"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Warm bed on frame 1."
+   "music": "Warm bed on frame 1. Light, no lyrics.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "It also just takes me out"
+    }
+   ]
   },
   {
-   "tc": "00:05–00:14",
+   "tc": "00:05-00:14",
    "beat": "WHO SHE IS",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Emily on camera.",
-   "motion": "Hook text off. Name card: “Emily · Washington Corrections Center for Women”.",
+   "visual": "Emily on camera, <a href=\"https://drive.google.com/file/d/171Mm55saQmz63fzTlhAMPQ19A1ZKpJhs/view\">P1055416.MOV</a> from <span class=\"mono\">00:07.5</span>. Stay on her face.",
+   "motion": "Hook text off. Name card at 00:05, lower left, 3 s: <q>Emily</q> / Washington Corrections Center for Women. First name only.",
    "voice": {
     "who": "Emily",
     "quote": "My name is Emily. I have been reading since I was little. That was my go-to to get away from the world.",
-    "src": "P1055416 00:07–00:16"
+    "src": "P1055416.MOV 00:07.5 to 00:16.6"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "My name is Emily"
+    }
+   ]
   },
   {
-   "tc": "00:14–00:24",
+   "tc": "00:14-00:26",
    "beat": "LITTLE NERD",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Emily, punch in a little. A warm B-roll frame (books in hands) if it fits.",
-   "motion": "Captions only. The second “couldn't” is likely “could”: caption what she says on scrub.",
+   "visual": "Emily, punch in a little, <a href=\"https://drive.google.com/file/d/171Mm55saQmz63fzTlhAMPQ19A1ZKpJhs/view\">P1055416.MOV</a> from <span class=\"mono\">00:16.7</span>. On <q>reading a book</q> cut 2 s to <a href=\"https://drive.google.com/file/d/1apBnEzwhOv6tmhtVZGb8gb-VUVXGNUJa/view\">P1055379.MOV</a> from <span class=\"mono\">01:54.0</span> (books handed out in the WCCW book circle: <q>Those are completely yours</q> is heard there; B-roll TBD on scrub). Back to her face.",
+   "motion": "Captions only. The second “couldn't” may be “could”: caption what she says on scrub.",
    "voice": {
     "who": "Emily",
     "quote": "I was one of those little nerds growing up that you couldn't find me outside, you couldn't find me hiding in my room. It's usually in the corner reading a book.",
-    "src": "P1055416 00:16–00:27"
+    "src": "P1055416.MOV 00:16.7 to 00:28.0"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I was one of those little nerds"
+    },
+    {
+     "clip": "P1055379.MOV",
+     "at": 114.0,
+     "dur": 2.0,
+     "cx": 0.5,
+     "path": "Washington ILP Videos/P1055379.MOV",
+     "drive": "1apBnEzwhOv6tmhtVZGb8gb-VUVXGNUJa",
+     "layout": "full",
+     "what": "books handed out in the WCCW book circle, TBD on scrub"
+    }
+   ]
   },
   {
-   "tc": "00:24–00:31",
+   "tc": "00:26-00:35",
    "beat": "GRANDMA",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Emily on camera. Let the grandma line land.",
+   "visual": "Emily on camera, <a href=\"https://drive.google.com/file/d/171Mm55saQmz63fzTlhAMPQ19A1ZKpJhs/view\">P1055416.MOV</a> from <span class=\"mono\">00:34.9</span>. Let the grandma line land, hold half a second after <q>grandma</q>.",
    "motion": "Captions only.",
    "voice": {
     "who": "Emily",
     "quote": "I was always in the reading clubs growing up through the summer and even just now. I got it from my grandma.",
-    "src": "P1055416 00:34–00:44"
+    "src": "P1055416.MOV 00:34.9 to 00:44.0"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I was always in the reading clubs"
+    }
+   ]
   },
   {
-   "tc": "00:31–00:40",
+   "tc": "00:35-00:47",
    "beat": "BELONGING",
    "kind": "turn",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Emily on camera. The turn: slow the pace here.",
-   "motion": "Captions only.",
+   "visual": "Emily on camera, <a href=\"https://drive.google.com/file/d/171Mm55saQmz63fzTlhAMPQ19A1ZKpJhs/view\">P1055416.MOV</a> from <span class=\"mono\">04:46.1</span>. The turn: slow the pace here and stay on her face.",
+   "motion": "Key words, top third, as she says them, 2 s: <q>a sense of belonging</q>. Captions on.",
    "voice": {
     "who": "Emily",
     "quote": "Reading gives me a sense of belonging in a way that nothing else really does, because I can empathize with the characters.",
-    "src": "P1055416 04:46–04:58"
+    "src": "P1055416.MOV 04:46.1 to 04:57.9"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed lifts gently."
+   "music": "Bed lifts gently.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Reading gives me a sense of belonging"
+    }
+   ]
   },
   {
-   "tc": "00:40–00:52",
+   "tc": "00:47-01:02",
    "beat": "NOT ALONE",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Emily, then a group moment from P1055376 or P1055379 (WCCW only).",
+   "visual": "Emily on camera, <a href=\"https://drive.google.com/file/d/171Mm55saQmz63fzTlhAMPQ19A1ZKpJhs/view\">P1055416.MOV</a> from <span class=\"mono\">04:59.3</span>. On <q>you can read all about that</q> cut 2.5 s to <a href=\"https://drive.google.com/file/d/1e5zNzuYY3qQLOGPxnIfZeHLmiFF16AJr/view\">P1055376.MOV</a> from <span class=\"mono\">01:20.0</span> (the WCCW book circle in conversation; B-roll TBD on scrub). On <q>you're not alone</q> cut 2 s to <a href=\"https://drive.google.com/file/d/1apBnEzwhOv6tmhtVZGb8gb-VUVXGNUJa/view\">P1055379.MOV</a> from <span class=\"mono\">01:27.0</span> (the circle listening; B-roll TBD on scrub). WCCW clips only, and only these ranges: the other WCCW cuts use P1055376 before 01:00 and P1055379 00:30 to 00:58. Mute the B-roll sound.",
    "motion": "Captions only.",
    "voice": {
     "who": "Emily",
     "quote": "Sometimes people are too scared to open up about their own traumas that they've gone through or experiences that they've gone through. You can read all about that. It not necessarily normalizes it, but it makes you feel like you're not alone.",
-    "src": "P1055416 04:59–05:14"
+    "src": "P1055416.MOV 04:59.3 to 05:14.3"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Sometimes people are too scared"
+    },
+    {
+     "clip": "P1055376.MOV",
+     "at": 80.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "Washington ILP Videos/P1055376.MOV",
+     "drive": "1e5zNzuYY3qQLOGPxnIfZeHLmiFF16AJr",
+     "layout": "full",
+     "what": "the WCCW book circle in conversation, TBD on scrub"
+    },
+    {
+     "clip": "P1055379.MOV",
+     "at": 87.0,
+     "dur": 2.0,
+     "cx": 0.5,
+     "path": "Washington ILP Videos/P1055379.MOV",
+     "drive": "1apBnEzwhOv6tmhtVZGb8gb-VUVXGNUJa",
+     "layout": "full",
+     "what": "the WCCW circle listening, TBD on scrub"
+    },
+    {
+     "face": true,
+     "from_word": "you're not alone"
+    }
+   ]
   },
   {
-   "tc": "00:52–00:58",
+   "tc": "01:02-01:10",
    "beat": "BUTTON",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Emily on camera. Hold on her face. If time allows, let 05:17 land again before it.",
+   "visual": "Emily on camera, <a href=\"https://drive.google.com/file/d/171Mm55saQmz63fzTlhAMPQ19A1ZKpJhs/view\">P1055416.MOV</a> from <span class=\"mono\">05:22.3</span>. Hold one second on her face after <q>That's what it does.</q>",
    "motion": "Captions only.",
    "voice": {
     "who": "Emily",
     "quote": "It just gives me a break from life, sometimes from reality. That's what it does.",
-    "src": "P1055416 05:22–05:29"
+    "src": "P1055416.MOV 05:22.3 to 05:30.2"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Resolve."
+   "music": "Resolve.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "It just gives me a break"
+    }
+   ]
   },
   {
-   "tc": "00:58–01:01",
+   "tc": "01:10-01:14",
    "beat": "END CARD",
    "kind": "end",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "ILP 2026 end card.",
-   "motion": "ILP 2026 + follow CTA. No captions on the end card.",
+   "visual": "Clean end card. Warm off-white <span class=\"mono\">#F2EBE8</span> background. No captions.",
+   "motion": "Freedom Reads name, typed until James sends the logo. Then <q>Inside Literary Prize 2026</q>, then <q>Follow @freedombeginswithabook</q>. No captions.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Out."
+   "music": "Out.",
+   "shots": []
   }
  ],
  "frames": {},
@@ -211,10 +288,6 @@
    "<a href=\"https://drive.google.com/file/d/171Mm55saQmz63fzTlhAMPQ19A1ZKpJhs/view\">P1055416.MOV</a> · 5:34 · Emily · WCCW"
   ],
   [
-   "B-roll",
-   "P1055376.MOV and P1055379.MOV (group moments, check on scrub). P1055378.MOV sits between them and is MINNESOTA: banned."
-  ],
-  [
    "Shoot folder",
    "<a href=\"https://drive.google.com/drive/folders/1qkwwC72jeFGbSYSd6X1QL7LRbRGnKUjE\">Washington ILP Videos</a> · only files with a “v” in the name (WSPv000xx) are Washington"
   ],
@@ -224,11 +297,19 @@
   ],
   [
    "Word times",
-   "<a href=\"https://drive.google.com/file/d/1QKAF_vpI3XQFGyt2gaD6760m4vqWfGx5/view\">Washington ILP Videos.transcript.json</a> (times used above) · <a href=\"https://drive.google.com/file/d/1nbHGegijP6kjcZ2OLhrJpcsrpisFRsut/view\">Washington ILP Videos.srt</a> is one long timeline of all clips, not per clip"
+   "<a href=\"https://drive.google.com/file/d/1j8hQU0f064DqzpBQ0IgRoWd8hc7YVyWM/view\">output.json</a> (EditTranscripts, per clip; times used above) · <a href=\"https://drive.google.com/file/d/1nbHGegijP6kjcZ2OLhrJpcsrpisFRsut/view\">Washington ILP Videos.srt</a> is one long timeline of all clips, not per clip"
   ],
   [
-   "Brand pack",
-   "Branding and Font columns are empty. Freedom Reads fonts are Metric2 and Redaction (licensed, self-hosted on freedomreads.org). Ask Nick for the logo and end-card files."
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/1GwtGWawL5j0nc9wOyWv7nsFUjshGetGs/view\">visual.json</a>: no shot data (every segment is only transcript text). B-roll is picked by what is heard and checked on scrub."
+  ],
+  [
+   "B-roll picks",
+   "<a href=\"https://drive.google.com/file/d/1apBnEzwhOv6tmhtVZGb8gb-VUVXGNUJa/view\">P1055379.MOV</a> 01:54 (books handed out) and 01:27 (the circle) · <a href=\"https://drive.google.com/file/d/1e5zNzuYY3qQLOGPxnIfZeHLmiFF16AJr/view\">P1055376.MOV</a> 01:20 (the circle). WCCW only. Not used in the other WCCW cuts. P1055378.MOV sits between them and is MINNESOTA: banned."
+  ],
+  [
+   "Brand graphics package",
+   "Freedom Reads package in the Drive folder deliverables / graphics-packages. Type on the empty plates in Inter (Metric2 and Redaction are licensed, ask Nick for the files). Logo and end-card files: ask Nick."
   ],
   [
    "Music",
@@ -238,11 +319,11 @@
  "tech": [
   [
    "Source",
-   "P1055416.MOV is 16:9 1080p (per the brief). A 9:16 crop is already an upscale: keep punch-ins small. Probe on import."
+   "P1055416.MOV: 1920×1080, 30 fps (visual.json). A 9:16 crop is already an upscale: keep punch-ins at 110% or less."
   ],
   [
    "Timeline",
-   "1080×1920 at the source frame rate."
+   "1080×1920 at 30 fps."
   ],
   [
    "Audio",
@@ -254,7 +335,7 @@
   ],
   [
    "Captions",
-   "Low on the frame, but above the bottom 15% (app buttons). Split long lines in two. No captions on the end card. Freedom Reads caption kit: dark text <span class=\"mono\">#292424</span> on cream <span class=\"mono\">#FFE4B8</span>."
+   "Burned in, low on the frame but above the bottom 15% (app buttons). Long lines split in two. None on the end card. Freedom Reads caption kit: dark text <span class=\"mono\">#292424</span> on cream <span class=\"mono\">#FFE4B8</span>, Inter Bold."
   ],
   [
    "Export",
@@ -262,16 +343,25 @@
   ]
  ],
  "checklist": [
-  "“Freedom Reads” is two words with two r's.",
+  "Frame 1 is Emily talking, with the hook text already on screen. No logo, name or fade.",
+  "“Freedom Reads” is two words with two r's. “ILP” always capitals.",
   "First name only. No last name anywhere.",
   "No ID badge, lanyard card or DOC number readable in any frame.",
-  "“ILP” always capitals.",
   "“incarcerated people”, never “inmates”.",
-  "No Minnesota files.",
+  "No Minnesota files. B-roll only from P1055376 and P1055379 in the ranges named here.",
   "Facility name on the card spelled “Washington Corrections Center for Women”.",
   "Captions gone before the end card."
  ],
- "decisions": [],
+ "decisions": [
+  {
+   "t": "Length",
+   "b": "The brief targets 55 s, but its seven bites run about 68 s of speech. This page keeps every bite (about 72 s with the end card). If Nick wants 55 s, drop the LITTLE NERD row first."
+  },
+  {
+   "t": "Reference",
+   "b": "Production Planning has no reference row for ILP Washington. Nick owns it. Match the other Washington ILP cuts."
+  }
+ ],
  "client_note": "<b>Why this matters:</b> Freedom Reads loves one real person telling one book story. Typos in names and facilities are what send their cuts back.",
  "ask_examples": [
   "What is the hook?",
@@ -279,5 +369,572 @@
   "Which files are Minnesota?",
   "What goes on the name card?"
  ],
- "transcript": "--- P1055416.MOV (Emily, WCCW) ---\n[00:01] Interviewer: Alright, can you introduce yourself and tell me about your relationship with reading?\n[00:07] Interviewee: My name is Emily. I have been reading since I was little. That was my go-to to get away from the world.\n[00:16] Interviewee: I was one of those little nerds growing up that you couldn't find me outside, you couldn't find me hiding in my room.\n[00:24] Interviewee: It's usually in the corner reading a book. I was an exceptional reader, especially in school. I was reading 3 or 4 grades above my level.\n[00:34] Interviewee: I was always in the reading clubs growing up through the summer and even just now. I got it from my grandma.\n[00:44] Interviewee: I have all my paper books. I have my Kindle e-reader. I have a regular reader for my Kindle of just my books.\n[00:52] Interviewee: I take them with me everywhere. Everybody knows that they need something to read if we're on a trip or something.\n[00:59] Interviewee: They just give me something and they know I got it. That's just me. I love to read.\n[01:05] Interviewer: Alright, that's great. What did you think when you first heard about the Inside Literary Project?\n[01:12] Interviewer: When I first heard about this project, the literary project, I was a little, not necessarily skeptical.\n[01:21] Interviewer: I was a little, just like, what is it? What are we going to do? Does this really matter? Is this really something or is it just a small program that the campus is putting on?\n[01:33] Interviewee: Then I went to the first meeting and I was just like, oh, this is actually something that is important. I actually can have a voice in this. This is really cool.\n[01:41] Interviewee: It was pretty inspiring to go to that first meeting and actually know what action was going to take place.\n[01:49] Interviewer: Absolutely. What qualities make a book stand out to you as a judge?\n[01:55] Interviewee: Qualities that stand out to me in a book that are important, I feel like, is being able to capture the reader, especially in the first couple pages.\n[02:07] Interviewee: Whether it is pulling on emotions, whether it's sad or happy, being able to incorporate humor sometimes, like how they were talking about today and the martyr.\n[02:18] Interviewee: It can be a serious topic. It can be something that needs to be addressed, but being able to relay that in a way that most people can understand.\n[02:28] Interviewee: Whether it's through humor, whether it's through just reaching out and just having an open conversation, but more it's not too heavy.\n[02:37] Interviewee: Then being able to wrap it up is a big thing because there's some stories you don't get a good ending to.\n[02:45] Interviewee: Having an ending that you can either interpret yourself or that is just a point like this is a good ending, those are some key qualities for me.\n[02:59] Interviewer: How does being a judge make you feel about your role as a reader?\n[03:04] Interviewee: Being a judge for this, as a role for being a reader, it makes me feel, I don't know, it's important.\n[03:14] Interviewee: It makes me want to read more and more genres, not just the kind that I typically prefer.\n[03:20] Interviewee: Honestly, most of these books probably weren't something I might have just picked off the shelf, but even just through the discussions that we've had, I really enjoyed them.\n[03:31] Interviewee: It's opened my mind a lot to different things than just a set type of book that I'm going to read now.\n[03:41] Interviewer: Absolutely. Why is it important that incarcerated people are part of literary conversation?\n[03:49] Interviewee: I believe it's important for us as incarcerated people to be part of these conversations.\n[03:55] Interviewee: It gives us a voice. Being incarcerated, reading is a big part of our day.\n[04:03] Interviewee: It takes us outside of the walls that we're in here.\n[04:06] Interviewee: So being able to be a part of that and to have a say in not necessarily what is coming in, but what is being advertised or pushed or promoted,\n[04:19] Interviewee: helps us feel like we get to be a part of something that is changing our communities too, on the outside, not just in here.\n[04:32] Interviewer: Have you read all five books?\n[04:33] Interviewee: No, I have not read all five books yet. I wish.\n[04:41] Interviewer: What does reading give you that nothing else does?\n[04:46] Interviewee: Reading gives me a sense of belonging in a way that nothing else really does, because I can empathize with the characters.\n[04:59] Interviewee: Sometimes people are too scared to open up about their own traumas that they've gone through or experiences that they've gone through.\n[05:06] Interviewee: You can read all about that. It not necessarily normalizes it, but it makes you feel like you're not alone.\n[05:14] Interviewee: You're included in different aspects of life.\n[05:17] Interviewee: It also just takes me out. Nothing else takes me out of these walls like books do.\n[05:22] Interviewee: It just gives me a break from life, sometimes from reality. That's what it does.\n[05:30] Interviewee: Absolutely. Thank you.\n[05:32] Interviewee: Thanks so much, Emily."
+ "transcript": "--- P1055416.MOV — Emily\n[00:01.6] Alright, can you introduce yourself and tell me about your relationship with reading? [interviewer]\n[00:07.5] My name is Emily. I have been reading since I was little. That was my go-to to get away from the world.\n[00:16.7] I was one of those little nerds growing up that you couldn't find me outside, you couldn't find me hiding in my room.\n[00:24.7] It's usually in the corner reading a book.\n[00:28.1] I was an exceptional reader, especially in school.\n[00:32.2] I was reading 3 or 4 grades above my level.\n[00:34.9] I was always in the reading clubs growing up through the summer and even just now. I got it from my grandma.\n[00:44.1] I have all my paper books. I have my Kindle e-reader. I have a regular reader for my Kindle of just my books.\n[00:52.5] I take them with me everywhere. Everybody knows that they need something to read if we're on a trip or something.\n[00:59.5] They just give me something and they know I got it. That's just me. I love to read.\n[01:05.5] Alright, that's great. What did you think when you first heard about the Inside Literary Project? [interviewer]\n[01:13.0] When I first heard about this project, the literary project, I was a little, not necessarily skeptical.\n[01:21.3] I was a little, just like, what is it?\n[01:24.9] What are we going to do?\n[01:26.0] Does this really matter?\n[01:27.8] Is this really something or is it just a small program that the campus is putting on?\n[01:33.3] Then I went to the first meeting and I was just like, oh, this is actually something that is important.\n[01:37.9] I actually can have a voice in this.\n[01:40.1] This is really cool.\n[01:41.3] It was pretty inspiring to go to that first meeting and actually know what action was going to take place.\n[01:49.3] Absolutely. What qualities make a book stand out to you as a judge? [interviewer]\n[01:55.5] Qualities that stand out to me in a book that are important, I feel like, is being able to capture the reader, especially in\n[02:04.9] the first couple pages.\n[02:07.9] Whether it is pulling on emotions, whether it's sad or happy, being able to incorporate humor sometimes, like how they were talking about today\n[02:18.6] and the martyr.\n[02:18.7] It can be a serious topic.\n[02:21.1] It can be something that needs to be addressed, but being able to relay that in a way that most people can understand.\n[02:28.9] Whether it's through humor, whether it's through just reaching out and just having an open conversation, but more it's not too heavy.\n[02:37.6] Then being able to wrap it up is a big thing because there's some stories you don't get a good ending to.\n[02:45.6] Having an ending that you can either interpret yourself or that is just a point like this is a good ending, those are some\n[02:52.9] key qualities for me.\n[02:59.8] How does being a judge make you feel about your role as a reader? [interviewer]\n[03:04.8] Being a judge for this, as a role for being a reader, it makes me feel, I don't know, it's important.\n[03:15.0] It makes me want to read more and more genres, not just the kind that I typically prefer.\n[03:21.0] Honestly, most of these books probably weren't something I might have just picked off the shelf, but even just through the discussions that\n[03:30.1] we've had, I really enjoyed them.\n[03:32.0] It's opened my mind a lot to different things than just a set type of book that I'm going to read now.\n[03:41.0] Absolutely. Why is it important that incarcerated people are part of literary conversation? [interviewer]\n[03:49.7] I believe it's important for us as incarcerated people to be part of these conversations.\n[03:55.6] It gives us a voice. Being incarcerated, reading is a big part of our day.\n[04:03.3] It takes us outside of the walls that we're in here.\n[04:06.7] So being able to be a part of that and to have a say in not necessarily what is coming in, but what is\n[04:14.3] being advertised or pushed or promoted,\n[04:19.0] helps us feel like we get to be a part of something that is changing our communities too, on the outside, not just in\n[04:25.2] here.\n[04:32.1] Have you read all five books? [interviewer]\n[04:33.1] No, I have not read all five books yet. I wish.\n[04:41.1] What does reading give you that nothing else does? [interviewer]\n[04:46.1] Reading gives me a sense of belonging in a way that nothing else really does, because I can empathize with the characters.\n[04:59.3] Sometimes people are too scared to open up about their own traumas that they've gone through or experiences that they've gone through.\n[05:06.3] You can read all about that. It not necessarily normalizes it, but it makes you feel like you're not alone.\n[05:14.3] You're included in different aspects of life.\n[05:17.3] It also just takes me out. Nothing else takes me out of these walls like books do.\n[05:22.3] It just gives me a break from life, sometimes from reality. That's what it does.\n[05:30.3] Absolutely. Thank you. [interviewer]\n[05:32.3] Thanks so much, Emily. [interviewer]",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "I was an exceptional reader, especially in school.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Proud reader."
+   },
+   {
+    "quote": "I was reading 3 or 4 grades above my level.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "A number to picture."
+   },
+   {
+    "quote": "I have all my paper books. I have my Kindle e-reader.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Books everywhere."
+   },
+   {
+    "quote": "They just give me something and they know I got it. That's just me. I love to read.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Light and warm."
+   },
+   {
+    "quote": "Then I went to the first meeting and I was just like, oh, this is actually something that is important.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "How ILP won her over."
+   },
+   {
+    "quote": "I actually can have a voice in this. This is really cool.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "A voice."
+   },
+   {
+    "quote": "It makes me want to read more and more genres, not just the kind that I typically prefer.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Judging opened her reading."
+   },
+   {
+    "quote": "It's opened my mind a lot to different things than just a set type of book that I'm going to read now.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "An open mind."
+   },
+   {
+    "quote": "I believe it's important for us as incarcerated people to be part of these conversations.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Why it matters."
+   },
+   {
+    "quote": "It takes us outside of the walls that we're in here.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Same idea as the hook, shorter."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "I was an exceptional reader, especially in school.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Proud reader."
+   },
+   {
+    "quote": "I was reading 3 or 4 grades above my level.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "A number to picture."
+   },
+   {
+    "quote": "I have all my paper books. I have my Kindle e-reader.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Books everywhere."
+   },
+   {
+    "quote": "They just give me something and they know I got it. That's just me. I love to read.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Light and warm."
+   },
+   {
+    "quote": "Then I went to the first meeting and I was just like, oh, this is actually something that is important.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "How ILP won her over."
+   },
+   {
+    "quote": "I actually can have a voice in this. This is really cool.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "A voice."
+   },
+   {
+    "quote": "It makes me want to read more and more genres, not just the kind that I typically prefer.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Judging opened her reading."
+   },
+   {
+    "quote": "It's opened my mind a lot to different things than just a set type of book that I'm going to read now.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "An open mind."
+   },
+   {
+    "quote": "I believe it's important for us as incarcerated people to be part of these conversations.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Why it matters."
+   },
+   {
+    "quote": "It takes us outside of the walls that we're in here.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Same idea as the hook, shorter."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "I was an exceptional reader, especially in school.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Proud reader."
+   },
+   {
+    "quote": "I was reading 3 or 4 grades above my level.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "A number to picture."
+   },
+   {
+    "quote": "I have all my paper books. I have my Kindle e-reader.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Books everywhere."
+   },
+   {
+    "quote": "They just give me something and they know I got it. That's just me. I love to read.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Light and warm."
+   },
+   {
+    "quote": "Then I went to the first meeting and I was just like, oh, this is actually something that is important.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "How ILP won her over."
+   },
+   {
+    "quote": "I actually can have a voice in this. This is really cool.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "A voice."
+   },
+   {
+    "quote": "It makes me want to read more and more genres, not just the kind that I typically prefer.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Judging opened her reading."
+   },
+   {
+    "quote": "It's opened my mind a lot to different things than just a set type of book that I'm going to read now.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "An open mind."
+   },
+   {
+    "quote": "I believe it's important for us as incarcerated people to be part of these conversations.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Why it matters."
+   },
+   {
+    "quote": "It takes us outside of the walls that we're in here.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Same idea as the hook, shorter."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "I was an exceptional reader, especially in school.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Proud reader."
+   },
+   {
+    "quote": "I was reading 3 or 4 grades above my level.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "A number to picture."
+   },
+   {
+    "quote": "I have all my paper books. I have my Kindle e-reader.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Books everywhere."
+   },
+   {
+    "quote": "They just give me something and they know I got it. That's just me. I love to read.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Light and warm."
+   },
+   {
+    "quote": "Then I went to the first meeting and I was just like, oh, this is actually something that is important.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "How ILP won her over."
+   },
+   {
+    "quote": "I actually can have a voice in this. This is really cool.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "A voice."
+   },
+   {
+    "quote": "It makes me want to read more and more genres, not just the kind that I typically prefer.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Judging opened her reading."
+   },
+   {
+    "quote": "It's opened my mind a lot to different things than just a set type of book that I'm going to read now.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "An open mind."
+   },
+   {
+    "quote": "I believe it's important for us as incarcerated people to be part of these conversations.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Why it matters."
+   },
+   {
+    "quote": "It takes us outside of the walls that we're in here.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Same idea as the hook, shorter."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "I was an exceptional reader, especially in school.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Proud reader."
+   },
+   {
+    "quote": "I was reading 3 or 4 grades above my level.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "A number to picture."
+   },
+   {
+    "quote": "I have all my paper books. I have my Kindle e-reader.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Books everywhere."
+   },
+   {
+    "quote": "They just give me something and they know I got it. That's just me. I love to read.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Light and warm."
+   },
+   {
+    "quote": "Then I went to the first meeting and I was just like, oh, this is actually something that is important.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "How ILP won her over."
+   },
+   {
+    "quote": "I actually can have a voice in this. This is really cool.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "A voice."
+   },
+   {
+    "quote": "It makes me want to read more and more genres, not just the kind that I typically prefer.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Judging opened her reading."
+   },
+   {
+    "quote": "It's opened my mind a lot to different things than just a set type of book that I'm going to read now.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "An open mind."
+   },
+   {
+    "quote": "I believe it's important for us as incarcerated people to be part of these conversations.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Why it matters."
+   },
+   {
+    "quote": "It takes us outside of the walls that we're in here.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Same idea as the hook, shorter."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "I was an exceptional reader, especially in school.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Proud reader."
+   },
+   {
+    "quote": "I was reading 3 or 4 grades above my level.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "A number to picture."
+   },
+   {
+    "quote": "I have all my paper books. I have my Kindle e-reader.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Books everywhere."
+   },
+   {
+    "quote": "They just give me something and they know I got it. That's just me. I love to read.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Light and warm."
+   },
+   {
+    "quote": "Then I went to the first meeting and I was just like, oh, this is actually something that is important.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "How ILP won her over."
+   },
+   {
+    "quote": "I actually can have a voice in this. This is really cool.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "A voice."
+   },
+   {
+    "quote": "It makes me want to read more and more genres, not just the kind that I typically prefer.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Judging opened her reading."
+   },
+   {
+    "quote": "It's opened my mind a lot to different things than just a set type of book that I'm going to read now.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "An open mind."
+   },
+   {
+    "quote": "I believe it's important for us as incarcerated people to be part of these conversations.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Why it matters."
+   },
+   {
+    "quote": "It takes us outside of the walls that we're in here.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Same idea as the hook, shorter."
+   }
+  ],
+  "bite:6": [
+   {
+    "quote": "I was an exceptional reader, especially in school.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Proud reader."
+   },
+   {
+    "quote": "I was reading 3 or 4 grades above my level.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "A number to picture."
+   },
+   {
+    "quote": "I have all my paper books. I have my Kindle e-reader.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Books everywhere."
+   },
+   {
+    "quote": "They just give me something and they know I got it. That's just me. I love to read.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Light and warm."
+   },
+   {
+    "quote": "Then I went to the first meeting and I was just like, oh, this is actually something that is important.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "How ILP won her over."
+   },
+   {
+    "quote": "I actually can have a voice in this. This is really cool.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "A voice."
+   },
+   {
+    "quote": "It makes me want to read more and more genres, not just the kind that I typically prefer.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Judging opened her reading."
+   },
+   {
+    "quote": "It's opened my mind a lot to different things than just a set type of book that I'm going to read now.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "An open mind."
+   },
+   {
+    "quote": "I believe it's important for us as incarcerated people to be part of these conversations.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Why it matters."
+   },
+   {
+    "quote": "It takes us outside of the walls that we're in here.",
+    "who": "Emily",
+    "file": "P1055416.MOV",
+    "why": "Same idea as the hook, shorter."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "Nothing else takes me out",
+    "line": "It also just takes me out. Nothing else takes me out of these walls like books do.",
+    "why": "Her strongest line, five words on screen."
+   },
+   {
+    "text": "It gives us a voice",
+    "line": "It gives us a voice. Being incarcerated, reading is a big part of our day.",
+    "why": "Short and proud."
+   },
+   {
+    "text": "I love to read",
+    "line": "That's just me. I love to read.",
+    "why": "Light, warm open."
+   },
+   {
+    "text": "You're not alone",
+    "line": "It not necessarily normalizes it, but it makes you feel like you're not alone.",
+    "why": "The turn as the hook."
+   },
+   {
+    "text": "3 or 4 grades above my level",
+    "line": "I was reading 3 or 4 grades above my level.",
+    "why": "A number the viewer can picture."
+   },
+   {
+    "text": "A break from life",
+    "line": "It just gives me a break from life, sometimes from reality. That's what it does.",
+    "why": "Simple and honest."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "Freedom Reads runs simple: one real person, straight to camera, dignity first. This cut has the hook text, the name card, one key-words line, the end card and 3 short B-roll shots from the WCCW book circle. No frames are pulled yet for this shoot.",
+  "devices": [
+   {
+    "row": "00:00-00:05",
+    "device": "Hook text, static, top third",
+    "asset": "highlight_callout (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:05-00:14",
+    "device": "Name card Emily / Washington Corrections Center for Women",
+    "asset": "tag_label (MG library); lower third bar",
+    "source": "Script; Freedom Reads graphics package"
+   },
+   {
+    "row": "00:14-00:26",
+    "device": "B-roll cutaway: books handed out",
+    "asset": "P1055379.MOV 01:54.0",
+    "source": "Washington ILP Videos (WCCW)"
+   },
+   {
+    "row": "00:35-00:47",
+    "device": "Key words: a sense of belonging",
+    "asset": "highlight_callout (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:47-01:02",
+    "device": "B-roll: the WCCW book circle",
+    "asset": "P1055376.MOV 01:20.0, P1055379.MOV 01:27.0",
+    "source": "Washington ILP Videos (WCCW)"
+   },
+   {
+    "row": "01:10-01:14",
+    "device": "End card, name typed, two lines",
+    "asset": "end_card (MG library)",
+    "source": "endcards/index.json, 22 Oct 2026"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "P1055376.MOV",
+    "at": 100.0,
+    "dur": 2.5,
+    "cx": 0.5,
+    "path": "Washington ILP Videos/P1055376.MOV",
+    "drive": "1e5zNzuYY3qQLOGPxnIfZeHLmiFF16AJr",
+    "layout": "full",
+    "what": "the WCCW circle, another speaker, TBD on scrub",
+    "frame": null
+   },
+   {
+    "clip": "P1055379.MOV",
+    "at": 98.0,
+    "dur": 2.0,
+    "cx": 0.5,
+    "path": "Washington ILP Videos/P1055379.MOV",
+    "drive": "1apBnEzwhOv6tmhtVZGb8gb-VUVXGNUJa",
+    "layout": "full",
+    "what": "the WCCW circle, TBD on scrub",
+    "frame": null
+   },
+   {
+    "clip": "P1055379.MOV",
+    "at": 120.0,
+    "dur": 2.0,
+    "cx": 0.5,
+    "path": "Washington ILP Videos/P1055379.MOV",
+    "drive": "1apBnEzwhOv6tmhtVZGb8gb-VUVXGNUJa",
+    "layout": "full",
+    "what": "books in hands after the circle, TBD on scrub",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "Lower third bar",
+    "kind": "lower third",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   },
+   {
+    "name": "End card, name typed (no logo yet)",
+    "kind": "end_card",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
 }

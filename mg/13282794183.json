@@ -1,82 +1,90 @@
 {
  "item": "13282794183",
  "client": "dream-center-dallas",
- "note": "The script asks for four graphics: the hook text, Freddy's name super, the “English classes · Mondays” card and the “Bilingual volunteers needed · once a month” card. Every other row is captions only.",
+ "note": "The script asks for five graphics and the end card: the hook text, the name super, two small cards (English classes · Mondays, Bilingual volunteers needed · once a month) and the Oak Cliff tag. Every other row is captions only. Dream Center Dallas has not sent its logo yet, so the end card types the name; the logo is still owed (Nick).",
  "mg": [
   {
    "n": 1,
    "title": "Hook text",
    "tpl": "highlight_callout",
-   "dur": 10,
+   "dur": 3,
    "pos": "top",
    "text": {
     "main": "MY STUDENTS WERE IN THE LINE"
    },
-   "cue": "Hook text on frame 1: “MY STUDENTS WERE IN THE LINE”. Already on screen at 0:00. It does not animate on.",
-   "src": "Script, row 00:00-00:11, Motion graphics & type.",
+   "cue": "Hook text on frame 1: MY STUDENTS WERE IN THE LINE. Already on screen at 0:00. It does not animate on.",
+   "src": "Script, row 00:00-00:10, Motion graphics & type.",
    "rows": [
-    "00:00-00:11"
+    "00:00-00:10"
    ],
-   "use": "Hook text over his face from frame 1. Start the clip at frame 0045 (fully on) and hold it until 00:10."
+   "use": "Hook text in the top third, already on screen at 0:00. Start the clip at frame 0045 (fully on) and hold it until 00:03."
   },
   {
    "n": 2,
-   "title": "Freddy name super",
+   "title": "Name super Freddy",
    "tpl": "tag_label",
    "dur": 3,
    "pos": "center",
    "text": {
-    "main": "Pastor Freddy Portales",
-    "sub": "Dream Center Dallas"
+    "main": "Pastor Freddy Portales"
    },
-   "cue": "Name super at 00:11, lower left, 3 seconds: “Pastor Freddy Portales” / “Dream Center Dallas”.",
-   "src": "Script, row 00:11-00:16, Motion graphics & type.",
+   "cue": "Name super at 00:11, lower left, 3 s: Pastor Freddy Portales / Dream Center Dallas",
+   "src": "Script, row 00:10-00:14, Motion graphics & type.",
    "rows": [
-    "00:11-00:16"
+    "00:10-00:14"
    ],
-   "use": "Name super at 00:11 for 3 seconds. Move it lower left, above the captions. Its second line is “Dream Center Dallas”. Check it spells Portales."
+   "use": "Name super from 00:11 for 3 s. Move it lower left, below his face and above the captions. Type the second line Dream Center Dallas under it."
   },
   {
    "n": 3,
    "title": "English classes card",
-   "tpl": "tag_label",
-   "dur": 5,
-   "pos": "upper",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
    "text": {
     "main": "English classes · Mondays"
    },
-   "cue": "Card: “English classes · Mondays”.",
-   "src": "Script, row 00:11-00:16, Motion graphics & type.",
+   "cue": "Small card at 00:11: English classes · Mondays, top band",
+   "src": "Script, row 00:10-00:14, Motion graphics & type.",
    "rows": [
-    "00:11-00:16"
+    "00:10-00:14"
    ],
-   "use": "Show it for this whole row, 00:11 to 00:16, near the top of the frame, above the name super."
+   "use": "Top band from 00:11 for 3 s. Keep it off his face."
   },
   {
    "n": 4,
-   "title": "Bilingual volunteers card",
+   "title": "Oak Cliff tag",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "Oak Cliff"
+   },
+   "cue": "Location tag at 00:25, top band, 2 s: Oak Cliff",
+   "src": "Script, row 00:24-00:28, Motion graphics & type.",
+   "rows": [
+    "00:24-00:28"
+   ],
+   "use": "Small tag in the top band from 00:25 for 2 s, as he says Oak Cliff."
+  },
+  {
+   "n": 5,
+   "title": "Volunteers card",
    "tpl": "highlight_callout",
-   "dur": 7,
+   "dur": 3,
    "pos": "top",
    "text": {
     "main": "Bilingual volunteers needed · once a month"
    },
-   "cue": "Card at “bilingual volunteers”: “Bilingual volunteers needed · once a month”.",
-   "src": "Script, row 00:45-00:58, Motion graphics & type.",
+   "cue": "Small card at 00:51, top band, 3 s: Bilingual volunteers needed · once a month",
+   "src": "Script, row 00:50-00:56, Motion graphics & type.",
    "rows": [
-    "00:45-00:58"
+    "00:50-00:56"
    ],
-   "use": "Put it on at the words “bilingual volunteers”, top third. Hold it until 00:58, the end of the row."
+   "use": "Top band from 00:51 for 3 s, as he asks. Keep it off his face."
   },
   {
-   "n": 5,
-   "title": "End card",
-   "tpl": "end_card",
-   "rows": [
-    "00:58-01:01"
-   ],
-   "cue": "No logo before the end card.",
-   "src": "Dream Center Dallas has not sent its logo yet; the name is typed until Nick sends it, as the script says.",
+   "src": "Dream Center Dallas has not sent its logo yet; the name is typed until Nick sends it, as the script says. Source date: 22 Oct 2026 (endcards/index.json).",
    "c": {
     "bg": "#75B941",
     "fg": "#FFFFFF"
@@ -89,7 +97,13 @@
     ]
    },
    "dur": 3.0,
-   "use": "This is the end card. Put it at 00:58 after the last line and hold it to the end."
+   "cue": "End card: Dream Center Dallas + Volunteer once a month. + Adopt-A-Block · Oak Cliff",
+   "use": "This is the end card. Put it at 01:02 after the last shot and hold it to the end.",
+   "n": 6,
+   "tpl": "end_card",
+   "rows": [
+    "01:02-01:05"
+   ]
   }
  ]
 }

@@ -8,13 +8,14 @@
  "editor": "Qendrim",
  "due": "2026-11-09",
  "format": "9:16 only · 1080×1920",
- "length": "about 58 s",
+ "length": "about 52 s",
  "edit_key": "FRCookingLiveBostonRecap001",
  "headline": "A room in Boston cooked and gave so a family facing cancer keeps its home. The viewer should repeat: that dinner paid someone's mortgage.",
  "story": [
   "Kristen, Paisley's mom, says it on stage: they paid our mortgage. Family Reach helped when nobody else could.",
   "The problem is real: parents opt out of treatment because it is bankrupting the family. Ming Tsai calls it wrong; the system is broken.",
-  "Then the room gives: paddles go up for rent and mortgage help, and the night raises $1.25 million."
+  "Then the room gives: paddles go up for rent and mortgage help, and the night closes on the total raised. <b>The event is context, not the subject.</b>",
+  "<b>Loops:</b> L1 “Who paid whose mortgage?” opens at 0:00 and closes at 0:02 to 0:09, “We reached out to Family Reach for help and they came.” L2 “What did this room do about it?” opens at 0:00 and closes in the button, “helping us raise $1.25 million tonight.” <b>Stakes:</b> parents opting out of treatment because it is bankrupting the family."
  ],
  "feel": [
   "Fast",
@@ -53,165 +54,302 @@
    "note": "Cam 1 Iso.mp4 (stage), Cam 2 Iso.mp4 (room), Cooking Live 2026 Program.mp4 (switched feed). All 2:51:03 on one clock."
   }
  },
- "bp_intro": "Three event files, one clock: <span class=\"mono\">Cam 1 Iso.mp4</span> (stage), <span class=\"mono\">Cam 2 Iso.mp4</span> (room), <span class=\"mono\">Cooking Live 2026 Program.mp4</span> (switched feed with graphics). Times are mm:ss on that clock, from the Cam 1 transcript. The room mix is in all three files.",
+ "bp_intro": "Three event files, one clock: <span class=\"mono\">Cam 1 Iso.mp4</span> (stage), <span class=\"mono\">Cam 2 Iso.mp4</span> (room), <span class=\"mono\">Cooking Live 2026 Program.mp4</span> (switched feed with graphics). Times are h:mm:ss.s on that clock (1:17:58.4 = 77:58.4), from the Cam 1 caption file. The word-level output.json is too big to open here, so in/out times are caption-cue times: trim each bite by ear. All three files are 1920×1080, 60 fps.",
  "rows": [
   {
-   "tc": "00:00–00:04",
+   "tc": "00:00-00:02",
    "beat": "HOOK",
    "kind": "hook",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Kristen at the mic with Paisley next to her. Crop in for 9:16; use the tighter angle from Cam 2 or the Program feed if one exists at 77:58.",
-   "motion": "Hook text on <b>frame 1</b>: <q>This dinner paid a mortgage.</q> Does not animate on. No logo, no event name, no name card.",
+   "visual": "Kristen at the mic with Paisley next to her, <span class=\"mono\">Cam 1 Iso.mp4</span> from <span class=\"mono\">1:17:58.4</span>. Crop in for 9:16 on Kristen; use the tighter angle from <span class=\"mono\">Cam 2 Iso.mp4</span> or the <span class=\"mono\">Program feed</span> at the same time if one exists. B-roll TBD on scrub.",
+   "motion": "Hook text on <b>frame 1</b>: <q>This dinner paid a mortgage.</q> Already on screen at 0:00. Does not animate on. It holds until 00:03. No logo, no event name, no name card.",
    "voice": {
     "who": "Kristen Benjamin",
     "quote": "They paid our mortgage.",
-    "src": "Cam 1 77:58"
+    "src": "Cam 1 Iso.mp4 1:17:58.4 to 1:17:59.6"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Light bed on frame 1."
+   "music": "Light bed on frame 1.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "They paid our mortgage"
+    }
+   ]
   },
   {
-   "tc": "00:04–00:12",
+   "tc": "00:02-00:09",
    "beat": "THEY CAME",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Stay on Kristen, then one cutaway of the room listening (Cam 2, same timecode).",
-   "motion": "Super from 0:04, small, lower left, 2 s: “Kristen Benjamin · Paisley's mom”. No age, no diagnosis.",
+   "visual": "Stay on Kristen, <span class=\"mono\">Cam 1 Iso.mp4</span> from <span class=\"mono\">1:17:51.9</span>. One cutaway of the room listening, <span class=\"mono\">Cam 2 Iso.mp4</span> at the same time (guest tables), about 1.5 s. Pick on scrub.",
+   "motion": "Name super from 00:04, small, lower left, 2 s: <q>Kristen Benjamin</q> / Paisley's mom. No age, no diagnosis.",
    "voice": {
     "who": "Kristen Benjamin",
     "quote": "We reached out to Family Reach for help and they came. They helped us when nobody else was able to.",
-    "src": "Cam 1 77:51–77:55"
+    "src": "Cam 1 Iso.mp4 1:17:51.9 to 1:17:58.3"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "We reached out"
+    },
+    {
+     "clip": "Cam 2 Iso.mp4",
+     "at": 4675.0,
+     "dur": 1.5,
+     "cx": 0.5,
+     "path": "Cooking Live Boston Footage/Event B Roll/Cam 2 Iso.mp4",
+     "drive": null,
+     "layout": "full",
+     "what": "the room listening at the tables, TBD on scrub"
+    }
+   ]
   },
   {
-   "tc": "00:12–00:20",
+   "tc": "00:09-00:17",
    "beat": "THE STAKES",
    "kind": "turn",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "The podium speaker, Cam 1 at 22:04. Cutaway: guests at tables, Cam 2 at 22:04.",
-   "motion": "Super: “Carla Tardif · CEO, Family Reach”, only after you confirm it's her on scrub.",
+   "visual": "The podium speaker, <span class=\"mono\">Cam 1 Iso.mp4</span> from <span class=\"mono\">0:22:04.6</span>. Cutaway: guests at tables, <span class=\"mono\">Cam 2 Iso.mp4</span> at the same time, about 1.5 s. B-roll TBD on scrub.",
+   "motion": "Name super: <q>Carla Tardif</q> / CEO, Family Reach, only after you confirm it is her on scrub.",
    "voice": {
     "who": "Carla Tardif (check on scrub)",
     "quote": "We see families where parents are opting out of treatment because they tell us they're bankrupting their family, so they don't make it.",
-    "src": "Cam 1 22:04–22:11"
+    "src": "Cam 1 Iso.mp4 0:22:04.6 to 0:22:12.6"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed drops low."
+   "music": "Bed drops low.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "We see families"
+    },
+    {
+     "clip": "Cam 2 Iso.mp4",
+     "at": 1328.0,
+     "dur": 1.5,
+     "cx": 0.5,
+     "path": "Cooking Live Boston Footage/Event B Roll/Cam 2 Iso.mp4",
+     "drive": null,
+     "layout": "full",
+     "what": "guests at their tables, TBD on scrub"
+    }
+   ]
   },
   {
-   "tc": "00:20–00:26",
+   "tc": "00:17-00:23",
    "beat": "THAT'S WRONG",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Ming Tsai on stage, Cam 1 at 15:52.",
-   "motion": "Super: “Ming Tsai · Host”.",
+   "visual": "Ming Tsai on stage, <span class=\"mono\">Cam 1 Iso.mp4</span> from <span class=\"mono\">0:15:52.9</span>. His face is the picture here: crop in on him.",
+   "motion": "Name super: <q>Ming Tsai</q> / Host.",
    "voice": {
     "who": "Ming Tsai",
     "quote": "Shouldn't have a harder time with cancer because you have less money. That's just wrong. The system is broken.",
-    "src": "Cam 1 15:52–15:57"
+    "src": "Cam 1 Iso.mp4 0:15:52.9 to 0:15:58.8"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Shouldn't have a harder time"
+    }
+   ]
   },
   {
-   "tc": "00:26–00:33",
+   "tc": "00:23-00:29",
    "beat": "THE ROOM GIVES",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Paddles going up, Cam 2 between 109:37 and 118:10: 4 to 6 quick shots picked on scrub.",
+   "visual": "Paddles going up, <span class=\"mono\">Cam 2 Iso.mp4</span>, 4 quick shots of about 1.2 s. The auctioneer calls paddles at <span class=\"mono\">1:51:32</span>, <span class=\"mono\">1:52:20</span>, <span class=\"mono\">1:53:43</span> and <span class=\"mono\">1:54:06</span>, so look there first. B-roll TBD on scrub. Check every frame: no old Family Reach logo on the screens or banners.",
    "motion": "Captions only.",
    "voice": {
     "who": "Auctioneer",
     "quote": "Everyone has a paddle. And we don't care whose paddle you put up. Just put a paddle up.",
-    "src": "Cam 1 109:37–109:41"
+    "src": "Cam 1 Iso.mp4 1:49:37.2 to 1:49:43.5"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed up, faster."
+   "music": "Bed up, faster.",
+   "shots": [
+    {
+     "clip": "Cam 2 Iso.mp4",
+     "at": 6692.0,
+     "dur": 1.2,
+     "cx": 0.5,
+     "path": "Cooking Live Boston Footage/Event B Roll/Cam 2 Iso.mp4",
+     "drive": null,
+     "layout": "full",
+     "what": "a paddle goes up, TBD on scrub"
+    },
+    {
+     "clip": "Cam 2 Iso.mp4",
+     "at": 6740.0,
+     "dur": 1.2,
+     "cx": 0.5,
+     "path": "Cooking Live Boston Footage/Event B Roll/Cam 2 Iso.mp4",
+     "drive": null,
+     "layout": "full",
+     "what": "a paddle goes up, TBD on scrub"
+    },
+    {
+     "clip": "Cam 2 Iso.mp4",
+     "at": 6823.0,
+     "dur": 1.2,
+     "cx": 0.5,
+     "path": "Cooking Live Boston Footage/Event B Roll/Cam 2 Iso.mp4",
+     "drive": null,
+     "layout": "full",
+     "what": "a paddle goes up, TBD on scrub"
+    },
+    {
+     "clip": "Cam 2 Iso.mp4",
+     "at": 6846.0,
+     "dur": 1.2,
+     "cx": 0.5,
+     "path": "Cooking Live Boston Footage/Event B Roll/Cam 2 Iso.mp4",
+     "drive": null,
+     "layout": "full",
+     "what": "a table raises paddles, TBD on scrub"
+    }
+   ]
   },
   {
-   "tc": "00:33–00:40",
+   "tc": "00:29-00:35",
    "beat": "WHAT IT PAYS",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "More paddles, then plates coming out of the kitchen: Cam 1 26:41–37:02 and 126:50–130:00 (pick on scrub).",
+   "visual": "More paddles (<span class=\"mono\">Cam 2 Iso.mp4</span> from <span class=\"mono\">1:54:21</span>), then plates coming out of the kitchen: <span class=\"mono\">Cam 1 Iso.mp4</span> between <span class=\"mono\">0:26:41</span> and <span class=\"mono\">0:37:02</span>, or <span class=\"mono\">2:06:50</span> to <span class=\"mono\">2:10:00</span>. B-roll TBD on scrub. No dish names on screen.",
    "motion": "Captions only.",
    "voice": {
     "who": "Auctioneer",
     "quote": "So $5,000 helps us cover housing. Rent, mortgage, step in, and keep patients in their homes.",
-    "src": "Cam 1 113:54–113:56"
+    "src": "Cam 1 Iso.mp4 1:53:54.2 to 1:54:00.3"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "clip": "Cam 2 Iso.mp4",
+     "at": 6861.0,
+     "dur": 1.2,
+     "cx": 0.5,
+     "path": "Cooking Live Boston Footage/Event B Roll/Cam 2 Iso.mp4",
+     "drive": null,
+     "layout": "full",
+     "what": "a paddle goes up, TBD on scrub"
+    },
+    {
+     "clip": "Cam 1 Iso.mp4",
+     "at": 1620.0,
+     "dur": 1.5,
+     "cx": 0.5,
+     "path": "Cooking Live Boston Footage/Event B Roll/Cam 1 Iso.mp4",
+     "drive": null,
+     "layout": "full",
+     "what": "plates and food at the chef table, TBD on scrub"
+    }
+   ]
   },
   {
-   "tc": "00:40–00:46",
+   "tc": "00:35-00:37",
    "beat": "THEY SHOWED UP",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Kristen and Paisley, Cam 1 at 78:07.",
+   "visual": "Kristen and Paisley, <span class=\"mono\">Cam 1 Iso.mp4</span> from <span class=\"mono\">1:18:07.6</span>. Crop in on them.",
    "motion": "Captions only.",
    "voice": {
     "who": "Kristen Benjamin",
     "quote": "They showed up and they were there.",
-    "src": "Cam 1 78:07"
+    "src": "Cam 1 Iso.mp4 1:18:07.6 to 1:18:09.5"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "They showed up"
+    }
+   ]
   },
   {
-   "tc": "00:46–00:55",
+   "tc": "00:37-00:47",
    "beat": "BUTTON",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "The stage with all the chefs, Cam 1 159:11–159:33. Then the Program feed card “Your support raised $1,249,778 for people facing cancer” (near the end of the Program file, find on scrub). Cut on “tonight”.",
-   "motion": "One number card: <q>$1.25 million raised</q>.",
+   "visual": "The stage with all the chefs, <span class=\"mono\">Cam 1 Iso.mp4</span> <span class=\"mono\">2:39:11</span> to <span class=\"mono\">2:39:33</span>. Cut on <q>tonight</q>. Then 2 s of the client's own closing card on the <span class=\"mono\">Cooking Live 2026 Program.mp4</span> near the end of the file (<q>Your support raised $1,249,778 for people facing cancer</q>, visual.json segment #0003; exact time TBD on scrub). Check that card shows the new logo only.",
+   "motion": "One number card: <q>$1.25 million raised</q>. Use the number the speaker says.",
    "voice": {
-    "who": "Closing speaker",
+    "who": "Closing speaker (check on scrub)",
     "quote": "Thank you Bank of America, Boston Harbor Hotel and all of you incredible guests for making, helping us raise $1.25 million tonight.",
-    "src": "Cam 1 159:20–159:26"
+    "src": "Cam 1 Iso.mp4 2:39:20.3 to 2:39:31.5"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Resolve on “tonight”."
+   "music": "Resolve on “tonight”.",
+   "shots": [
+    {
+     "clip": "Cam 1 Iso.mp4",
+     "at": 9551.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "Cooking Live Boston Footage/Event B Roll/Cam 1 Iso.mp4",
+     "drive": null,
+     "layout": "full",
+     "what": "the stage with all the chefs"
+    },
+    {
+     "clip": "Cooking Live 2026 Program.mp4",
+     "at": 10200.0,
+     "dur": 2.0,
+     "cx": 0.5,
+     "path": "Cooking Live Boston Footage/Event B Roll/Cooking Live 2026 Program.mp4",
+     "drive": null,
+     "layout": "full",
+     "what": "the client closing card on the Program feed, exact time TBD on scrub"
+    }
+   ]
   },
   {
-   "tc": "00:55–00:58",
+   "tc": "00:47-00:52",
    "beat": "END CARD",
    "kind": "end",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "New Family Reach logo.",
-   "motion": "<q>Because cancer is hard enough.</q> + familyreach.org/give. New brand only.",
+   "visual": "Family Reach's own closing card, new brand (endcards/family-reach). Use it as it is.",
+   "motion": "New Family Reach logo + <q>Because cancer is hard enough.</q> + familyreach.org/give. New brand only. No captions on the end card.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Out."
+   "music": "Out.",
+   "shots": []
   }
  ],
  "frames": {},
@@ -229,30 +367,34 @@
    "<a href=\"https://drive.google.com/drive/folders/1iNc1J52Wo4OtVbQbW06NDxsRv-ZBGznN\">Cooking Live Boston Footage</a> › Event B Roll: Cam 1 Iso.mp4 · Cam 2 Iso.mp4 · Cooking Live 2026 Program.mp4. Same clock in all three."
   ],
   [
-   "Transcript",
-   "Event B Roll › EditingResources › EditTranscripts › “Transcripts - Cooking Live Boston Footage” + the .srt. Keyed to Cam 1. Speakers are not labeled: check each on scrub."
-  ],
-  [
-   "visual.json",
-   "Yes but thin: 3 wide segments per file. Pick faces, paddles and plates on scrub."
-  ],
-  [
    "Not in yet",
    "Staff iPhone clips and press-conference clips (Ansley, 22 Oct). If they land before export, use them as B-roll over the same audio."
   ],
   [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1qUozlWf0zCeyVlt0d6aQpNj8aZRse0NK-EgapT8mrBs/edit\">Transcripts - Cooking Live Boston Footage</a> · <a href=\"https://drive.google.com/file/d/1bml03zoGFsjqdGQdxIwN_uK5tXySiKG6/view\">Cooking Live Boston Footage.srt</a> (times used here) · <a href=\"https://drive.google.com/file/d/183Bm_ErESJXxPrZSbweAqDYJiP0YuyrV/view\">premiere-20-single.srt</a> (short cues, used for caption timing) · <a href=\"https://drive.google.com/file/d/1Pdbq1CAKv59858EvyDQDGJ10GYLK7Quy/view\">output.json</a> (word times, 18 MB). Keyed to Cam 1. Speakers are not labeled: check each on scrub."
+  ],
+  [
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/1c4H3kF0J9adV2xR8DnQxxDTA9uCkDmhT/view\">visual.json</a>: thin, 3 wide segments per file. Pick faces, paddles and plates on scrub."
+  ],
+  [
    "End card",
-   "New Family Reach logo + “Because cancer is hard enough.” + familyreach.org/give. New brand only."
+   "Family Reach's own new-brand closing card, <span class=\"mono\">endcards/family-reach/family-reach-closing-card.mp4</span> (from Ansley, 15 Sep). Use it as it is."
+  ],
+  [
+   "Brand graphics package",
+   "Family Reach package in the Drive folder deliverables / graphics-packages (no logo in it: the logo file was too small). Type on the empty plates in Poppins."
   ]
  ],
  "tech": [
   [
    "Source",
-   "Three event files, 2:51:03 each, same clock. Room mix in all three. Probe frame size and rate on import."
+   "Three event files, 2:51:03 each, same clock. 1920×1080, 60 fps (visual.json). Room mix in all three."
   ],
   [
    "Timeline",
-   "1080×1920. Crop the wide stage and room shots to 9:16 on the speaker."
+   "1080×1920 at 30 fps (or 60 if you keep the source rate; pick one and conform). The stage and room shots are wide 16:9: a 9:16 crop is a big upscale, so keep crops honest and soft spots short."
   ],
   [
    "Audio",
@@ -264,7 +406,7 @@
   ],
   [
    "Captions",
-   "Phone-style, big, centered-low, on every spoken line. “Family Reach” two words."
+   "Phone-style, big, centered-low, on every spoken line: white Poppins SemiBold with a soft shadow. “Family Reach” two words. No captions on the end card."
   ],
   [
    "Export",
@@ -273,17 +415,22 @@
  ],
  "checklist": [
   "Frame 1 is Kristen with “This dinner paid a mortgage.” No logo or event name.",
-  "No old Family Reach logo anywhere, including screens and banners in the B-roll.",
-  "76:49–76:51 is not in the cut.",
-  "104:49–108:33 is not in the cut.",
+  "No old Family Reach logo anywhere, including screens and banners in the B-roll and the Program card.",
+  "1:16:49 to 1:16:53 (her husband) is not in the cut.",
+  "1:44:49 to 1:48:33 (the Family Reach video on the screen) is not in the cut.",
   "Every name super is confirmed on scrub. No age or diagnosis on screen.",
-  "The number card says $1.25 million, as the speaker says it.",
-  "End card: new logo, “Because cancer is hard enough.”, familyreach.org/give."
+  "No donor names or paddle numbers in captions or on screen.",
+  "The total is said by the speaker; any card shows it exactly as she says it.",
+  "End card: Family Reach's own new-brand closing card, unchanged."
  ],
  "decisions": [
   {
    "t": "Speakers not labeled",
-   "b": "The transcript does not say who is talking. Confirm Carla, Ming and Kristen on scrub before any super goes on."
+   "b": "The transcript does not say who is talking. Confirm Carla, Ming and the closing speaker on scrub before any super goes on."
+  },
+  {
+   "t": "Money card on the button",
+   "b": "The plan asks for a “$1.25 million raised” card. Our graphics library never draws money, so it is not in the Motion graphics tab. The speaker says the number and the Program feed has Family Reach's own total card. Nick: keep their card, or have the editor type the plate?"
   }
  ],
  "client_note": "<b>Why this matters:</b> it is for Family Reach's new TikTok and IG. Ansley asked for an organic, behind-the-scenes feel. The one idea to land: the dinner paid someone's mortgage.",
@@ -292,5 +439,389 @@
   "Which lines are off limits?",
   "Where are the paddle shots?",
   "Which logo goes on the end card?"
- ]
+ ],
+ "transcript": "--- Cam 1 Iso.mp4 (same clock in Cam 2 Iso.mp4 and Cooking Live 2026 Program.mp4)\n(Ming Tsai)\n[0:14:20.4] I was a little perturbed\n[0:14:22.2] that she didn't watch my show all the time.\n[0:14:24.4] I didn't know who he was.\n[0:14:25.5] Yeah, a little perturbed, I admit, I admit.\n[0:14:27.0] I have an ego, I was a little perturbed,\n[0:14:28.1] but that's okay, I got over it.\n[0:14:29.2] And I was a team of one, so I was the social worker,\n[0:14:31.4] I was the development person,\n[0:14:32.6] and a family that we've helped, Darlene,\n[0:14:35.5] who was 24 years old, double amputee, osteosarcoma.\n[0:14:40.3] Her father called me and said, Darlene is terminal,\n[0:14:42.9] and we have to take her off treatment.\n[0:14:44.3] So I got in the car, drove to the hospital to see Darlene,\n[0:14:48.4] and I said, we have to celebrate your life,\n[0:14:49.8] what do you wanna do?\n[0:14:50.8] And she said, I just wanna meet Ming-Chi and eat his food.\n[0:14:58.5] That was the beginning of it all.\n[0:14:60.0] Darlene, thank you.\n[0:15:01.0] Darlene, thank you.\n[0:15:01.9] When Carla asked, will you host\n[0:15:03.9] Darlene and family?\n[0:15:04.9] I'm like, absolutely.\n[0:15:05.9] I don't care how big the family\n[0:15:06.9] is, have everyone come in.\n[0:15:08.5] We will celebrate her like\n[0:15:09.9] nobody's business.\n[0:15:10.9] She had a professional makeup\n[0:15:12.0] artist get Darlene all\n[0:15:13.8] beautiful.\n[0:15:14.5] She's in a wheelchair but had a\n[0:15:15.7] beautiful dress on.\n[0:15:16.5] They came in, we wined and dined\n[0:15:18.0] and no mention of cancer.\n[0:15:21.6] It was just celebrating her\n[0:15:22.8] life.\n[0:15:22.9] Nestor, the father, pulls me\n[0:15:24.5] aside and says, you need to know\n[0:15:26.6] something, chef.\n[0:15:26.9] Not only would we not be here at\n[0:15:29.0] Blue Ginger without family\n[0:15:30.0] reach, we most likely wouldn't\n[0:15:32.0] have our home.\n[0:15:32.9] It would have been repossessed\n[0:15:34.9] or would have been taken away\n[0:15:35.9] from us.\n[0:15:36.3] Because cancer can not only take\n[0:15:37.9] a life away, it can ruin entire\n[0:15:40.4] family's life.\n[0:15:41.0] And that hit me like a ton of\n[0:15:42.9] bricks.\n[0:15:42.9] I pulled Carla aside and I'm\n[0:15:45.0] like, listen, I think I can get\n[0:15:46.5] you a national platform to help\n[0:15:48.6] all of these families because it\n[0:15:50.0] is the right of every American.\n[0:15:52.9] Shouldn't have a harder time\n[0:15:55.0] with cancer because you have\n[0:15:56.6] less money.\n[0:15:56.9] That's just wrong.\n[0:15:57.9] The system is broken.\n[0:15:58.9] Family reach was like, we are\n[0:16:00.9] doing this.\n[0:16:01.9] We can help these people of\n[0:16:03.6] need.\n[0:16:03.9] And that's when we created\n[0:16:05.4] Cooking Life.\n[0:16:05.9] Yeah.\n[0:16:06.9] I'm like, let's bring people\n[0:16:08.5] together.\n(podium speaker (Carla Tardif, check on scrub))\n[0:20:29.9] And I can tell you we have a\n[0:20:30.5] heck of a lot to celebrate\n[0:20:32.5] tonight.\n[0:20:33.3] I want to give you a little peek\n[0:20:36.9] at why you're here.\n[0:20:38.3] Here's the weird thing.\n[0:20:40.3] You've all been affected by\n[0:20:42.1] cancer.\n[0:20:42.4] Yourself, personally, a family\n[0:20:45.9] member, a loved one, a neighbor,\n[0:20:47.5] a coworker.\n[0:20:49.2] It's very hard.\n[0:20:50.3] Like I said, I've been doing\n[0:20:50.8] this for 19 years.\n[0:20:51.4] I've never met somebody that\n[0:20:53.3] didn't have a cancer story to\n[0:20:55.4] tell me.\n[0:20:56.3] But nobody talks about their\n[0:20:58.1] finances.\n[0:20:58.7] Nobody talks about what cancer\n[0:21:01.0] does to a family.\n[0:21:04.9] Here's the problem.\n[0:21:05.5] When cancer strikes a family,\n[0:21:07.7] one parent, if it's a parent\n[0:21:09.6] that has cancer or the child,\n[0:21:11.7] stops working or work is\n[0:21:14.2] interrupted.\n[0:21:14.3] So your income is dramatically\n[0:21:17.2] stopped or cut.\n[0:21:18.3] But all of the expenses keep\n[0:21:20.6] coming in.\n[0:21:22.3] I don't know if anyone read the\n[0:21:23.3] New York Times today, but\n[0:21:24.1] they're talking about the cost\n[0:21:24.9] of utilities and what is coming\n[0:21:27.9] this winter.\n[0:21:28.6] And they're saying families of\n[0:21:29.5] four are now retreating to one\n[0:21:32.3] room so that they can heat one\n[0:21:34.2] room.\n[0:21:34.3] When cancer strikes and you\n[0:21:36.5] cannot turn on your heat, it can\n[0:21:38.5] actually mean life or death\n[0:21:41.3] because you do not have the\n[0:21:42.5] immune system to fight a cold.\n[0:21:47.1] One out of five cancer patients\n[0:21:49.1] in this country cannot meet\n[0:21:51.4] their basic needs.\n[0:21:53.0] So the stories you're going to\n[0:21:54.4] hear tonight, they are not\n[0:21:55.2] one-offs.\n[0:21:56.0] They are actually a majority of\n[0:21:59.0] cancer patients in this room\n[0:22:03.1] that you will talk to tonight.\n[0:22:04.6] We see families where parents\n[0:22:06.7] are opting out of treatment\n[0:22:07.9] because they tell us they're\n[0:22:09.0] bankrupting their family, so\n[0:22:11.6] they don't make it.\n[0:22:12.9] We have a mother, a single\n[0:22:14.0] mother with two children.\n[0:22:15.9] Her youngest has leukemia.\n[0:22:17.9] She's with her daughter during\n[0:22:19.9] treatment during the day, and\n[0:22:21.0] at night she comes home, sends\n[0:22:23.4] her kids to the neighbors to\n[0:22:24.6] sleep, and she goes, works\n[0:22:26.9] third shift at a hotel cleaning\n[0:22:28.9] hotel rooms.\n[0:22:30.7] She's an attorney, but she\n[0:22:32.7] cannot work her day job.\n[0:22:33.9] This is what we see every\n[0:22:35.7] single day.\n[0:22:35.9] I want you all to imagine what\n[0:22:38.0] if paying for food and gas and\n[0:22:42.5] housing wasn't the difference\n[0:22:46.1] between your chance of beating\n[0:22:47.5] cancer or not.\n[0:22:48.1] That is not how it is right now,\n[0:22:50.2] but I do see a world where that\n[0:22:52.1] is what it could be.\n[0:22:53.0] And we have the solution.\n[0:22:55.1] Family Reach built the Financial\n[0:22:57.9] Resource Center.\n[0:22:58.8] It lives on our website, and\n[0:23:00.2] families can go on there and\n[0:23:02.1] learn how to talk about cancer\n[0:23:03.5] and find out who to ask for\n[0:23:05.8] help.\n[0:23:06.0] It wipes out the fear and the\n[0:23:08.5] shame.\n[0:23:09.0] Did you know if you tell a\n[0:23:11.8] health care provider or social\n[0:23:13.7] worker that you don't have food\n[0:23:16.1] or that you can't afford your\n[0:23:17.2] housing, there's actually a\n[0:23:20.0] chance that your children could\n[0:23:21.8] be removed from the home.\n[0:23:23.0] So of course they're not\n[0:23:24.9] talking about it in the health\n[0:23:25.7] care setting.\n[0:23:26.9] They can come to Family Reach.\n[0:23:28.0] We are a safe space.\n[0:23:29.6] We will give them an\n[0:23:30.5] intervention that they need so\n[0:23:32.0] that they can prioritize cancer\n[0:23:34.5] care.\n[0:23:35.0] The Financial Resource Center\n[0:23:37.0] has a section where you can\n[0:23:39.2] enter your zip code and find a\n(Kristen Benjamin)\n[1:16:14.2] Please give it up for Kristen Benjamin.\n[1:16:22.0] Hi everyone, my name is Kristen Benjamin.\n[1:16:24.4] This is my daughter Paisley Benjamin.\n[1:16:26.9] She is a cancer survivor.\n[1:16:29.4] She is in remission and we are so grateful for it.\n[1:16:32.8] Yeah!\n[1:16:38.9] She was diagnosed with leukemia back in 2018\n[1:16:41.4] when she was three years old.\n[1:16:43.1] Following that diagnosis, we had rough waters.\n[1:16:47.1] She went sepsis her first week of treatment\n[1:16:49.6] and she lost her dad, my husband, [do not use: her husband, needs Ansley in writing]\n[1:16:51.8] the first week of treatment. [do not use: her husband, needs Ansley in writing]\n[1:16:53.3] Since then, she has overcome cancer.\n[1:16:56.5] She has become a lacrosse star and thriving in life.\n[1:17:00.5] Woo!\n[1:17:05.0] Thank you.\n[1:17:07.0] Thank you guys all for coming and supporting kids like me.\n[1:17:10.8] We are so fortunate for you all being here.\n[1:17:14.8] During her treatment, we faced so many challenges.\n[1:17:18.6] Financial challenges, we went from a dual family income [do not use: her husband, needs Ansley in writing]\n[1:17:21.8] to a zero family income with losing my husband [do not use: her husband, needs Ansley in writing]\n[1:17:25.4] and me having to stay by her side 24-7. [do not use: her husband, needs Ansley in writing]\n[1:17:28.1] I thought nothing of leaving my job to stay by her bedside\n[1:17:31.1] for the first 44 days she was in the hospital.\n[1:17:33.7] Following her 44 days, she was inpatient every other week\n[1:17:36.7] for a good year.\n[1:17:38.3] After that, she remained in treatment for two and a half\n[1:17:41.1] years with standard leukemia treatment\n[1:17:43.0] as a high-risk patient.\n[1:17:45.1] We had fundraisers, we had GoFundMes, we had you name it.\n[1:17:48.7] My family and friends stepped up for us,\n[1:17:50.4] but nothing was enough.\n[1:17:51.9] We reached out to Family Reach for help and they came.\n[1:17:55.9] They helped us when nobody else was able to.\n[1:17:58.4] They paid our mortgage.\n[1:17:59.6] They provided gas cards for us to get\n[1:18:01.6] to the hospital for treatments.\n[1:18:03.0] As a single mom of two children at that time,\n[1:18:05.7] I had nobody else to turn to.\n[1:18:07.6] They showed up and they were there.\n[1:18:09.5] I am forever grateful for Family Reach\n[1:18:11.5] for everything that they've done for us\n[1:18:13.1] and appreciate you all being here so much\n[1:18:15.9] to support Family Reach and children\n[1:18:17.8] like my daughter, Paisley, and families like us.\n[1:18:20.4] Thank you so much for being here\n[1:18:21.7] and happy 30 years, Family Reach.\n(auctioneer and host)\n[1:48:50.2] I can't imagine going through cancer\n[1:48:51.9] without your financials in a line.\n[1:48:56.7] It's, as I just said, cancer is hard enough.\n[1:49:01.8] This part, for us, is a great part\n[1:49:05.0] because here we get to hopefully help these families that you've\n[1:49:08.6] heard from and the thousands of other families out there.\n[1:49:11.9] We have a great announcement.\n[1:49:13.1] A fellow board member, Steve and Aaron Collis,\n[1:49:16.5] has actually already given $100,000\n[1:49:21.5] to do a match, which is the number we start at.\n[1:49:29.5] They are new board members that have\n[1:49:31.0] been such an instrumental part for Family Reach.\n[1:49:34.4] So this is a very simple thing, guys.\n[1:49:37.2] Everyone has a paddle.\n[1:49:39.3] And we don't care whose paddle you put up.\n[1:49:41.9] Just put a paddle up.\n[1:49:43.6] Oh, no, it doesn't matter to me.\n[1:49:44.9] It can be prime.\n[1:49:45.7] It could be even.\n[1:49:46.5] Doesn't matter.\n[1:49:47.3] You got to do what you got to do.\n[1:49:48.6] Just grab a paddle.\n(auctioneer)\n[1:53:48.8] Of course it is.\n[1:53:50.2] Okay.\n[1:53:51.1] $5,000.\n[1:53:52.7] We're almost done, guys.\n[1:53:54.2] So $5,000 helps us cover housing.\n[1:53:56.5] Rent, mortgage, step in, and keep patients in their homes.\n[1:54:00.3] So $5,000 is for housing.\n[1:54:03.2] Who's got five, please?\n(closing speaker)\n[2:38:00.3] We have an ice sculpture that is coming out\n[2:38:05.0] and you all need to know whether you know it or not,\n[2:38:08.5] you just got Ming'd.\n[2:38:10.6] I guarantee you ate too much.\n[2:38:12.7] I've already talked to some of you who have drank too much.\n[2:38:15.9] You gave generously and that's what it means\n[2:38:18.3] to be Ming Tsai.\n[2:38:19.8] So we have got this Ming Tsai ice, get Ming'd ice sculpture.\n[2:38:26.8] And with this comes some birthday cake martinis\n[2:38:33.3] that are gonna be handed out.\n[2:38:35.4] So we get to end the night the way we started the night\n[2:38:38.1] with a toast.\n[2:38:41.0] Ming wanted us to do, oh, we can do shots, I see a funnel.\n[2:38:47.5] Right Ming?\n[2:38:48.3] That makes sense.\n[2:38:49.6] No, that makes total sense.\n[2:38:51.6] So we are going to be doing birthday cake funnel shots.\n[2:39:02.0] Way too big, they're saying.\n[2:39:04.5] You're gonna try, that's exactly right.\n[2:39:06.4] You are gonna try.\n[2:39:09.5] So while they are setting that up,\n[2:39:11.1] I also wanna thank all the chefs, Kenny, Jamie,\n[2:39:15.5] Olga, Morimoto, David, Joanne, Chang.\n[2:39:20.3] Thank you Bank of America,\n[2:39:22.9] Boston Harbor Hotel and all of you incredible guests\n[2:39:26.1] for making, helping us raise $1.25 million tonight.\n[2:39:33.4] Thank you.",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "She is in remission and we are so grateful for it.",
+    "who": "Kristen Benjamin",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "She has become a lacrosse star and thriving in life.",
+    "who": "Kristen Benjamin",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "We are so fortunate for you all being here.",
+    "who": "Kristen Benjamin",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "My family and friends stepped up for us, but nothing was enough.",
+    "who": "Kristen Benjamin",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "They provided gas cards for us to get to the hospital for treatments.",
+    "who": "Kristen Benjamin",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "I am forever grateful for Family Reach for everything that they've done for us",
+    "who": "Kristen Benjamin",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "Thank you so much for being here and happy 30 years, Family Reach.",
+    "who": "Kristen Benjamin",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "She is in remission and we are so grateful for it.",
+    "who": "Kristen Benjamin",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "She has become a lacrosse star and thriving in life.",
+    "who": "Kristen Benjamin",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "We are so fortunate for you all being here.",
+    "who": "Kristen Benjamin",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "My family and friends stepped up for us, but nothing was enough.",
+    "who": "Kristen Benjamin",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "They provided gas cards for us to get to the hospital for treatments.",
+    "who": "Kristen Benjamin",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "I am forever grateful for Family Reach for everything that they've done for us",
+    "who": "Kristen Benjamin",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "Thank you so much for being here and happy 30 years, Family Reach.",
+    "who": "Kristen Benjamin",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "But nobody talks about their finances. Nobody talks about what cancer does to a family.",
+    "who": "Carla Tardif (check on scrub)",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "When cancer strikes a family, one parent, if it's a parent that has cancer or the child, stops working or work is interrupted.",
+    "who": "Carla Tardif (check on scrub)",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "One out of five cancer patients in this country cannot meet their basic needs.",
+    "who": "Carla Tardif (check on scrub)",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "This is what we see every single day.",
+    "who": "Carla Tardif (check on scrub)",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "I want you all to imagine what if paying for food and gas and housing wasn't the difference between your chance of beating cancer or not.",
+    "who": "Carla Tardif (check on scrub)",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "It wipes out the fear and the shame.",
+    "who": "Carla Tardif (check on scrub)",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "They can come to Family Reach. We are a safe space.",
+    "who": "Carla Tardif (check on scrub)",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "And that hit me like a ton of bricks.",
+    "who": "Ming Tsai",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "I think I can get you a national platform to help all of these families because it is the right of every American.",
+    "who": "Ming Tsai",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "I'm like, let's bring people together.",
+    "who": "Ming Tsai",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "So this is a very simple thing, guys.",
+    "who": "Auctioneer",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "Doesn't matter. You got to do what you got to do. Just grab a paddle.",
+    "who": "Auctioneer",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "So this is a very simple thing, guys.",
+    "who": "Auctioneer",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "Doesn't matter. You got to do what you got to do. Just grab a paddle.",
+    "who": "Auctioneer",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   }
+  ],
+  "bite:6": [
+   {
+    "quote": "She is in remission and we are so grateful for it.",
+    "who": "Kristen Benjamin",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "She has become a lacrosse star and thriving in life.",
+    "who": "Kristen Benjamin",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "We are so fortunate for you all being here.",
+    "who": "Kristen Benjamin",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "My family and friends stepped up for us, but nothing was enough.",
+    "who": "Kristen Benjamin",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "They provided gas cards for us to get to the hospital for treatments.",
+    "who": "Kristen Benjamin",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "I am forever grateful for Family Reach for everything that they've done for us",
+    "who": "Kristen Benjamin",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "Thank you so much for being here and happy 30 years, Family Reach.",
+    "who": "Kristen Benjamin",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   }
+  ],
+  "bite:7": [
+   {
+    "quote": "You gave generously and that's what it means to be Ming Tsai.",
+    "who": "Closing speaker (check on scrub)",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   },
+   {
+    "quote": "I also wanna thank all the chefs, Kenny, Jamie, Olga, Morimoto, David, Joanne, Chang.",
+    "who": "Closing speaker (check on scrub)",
+    "file": "Cam 1 Iso.mp4",
+    "why": "Same speaker, same night."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "This dinner paid a mortgage.",
+    "line": "They paid our mortgage.",
+    "why": "The idea of the video in five words."
+   },
+   {
+    "text": "They showed up.",
+    "line": "They showed up and they were there.",
+    "why": "Warm and short."
+   },
+   {
+    "text": "The system is broken.",
+    "line": "That's just wrong. The system is broken.",
+    "why": "Ming's line, strong as a first frame."
+   },
+   {
+    "text": "Nobody talks about their finances.",
+    "line": "But nobody talks about their finances. Nobody talks about what cancer does to a family.",
+    "why": "The hidden side of cancer."
+   },
+   {
+    "text": "One out of five cancer patients",
+    "line": "One out of five cancer patients in this country cannot meet their basic needs.",
+    "why": "A number the viewer can hold."
+   },
+   {
+    "text": "Cancer is hard enough.",
+    "line": "It's, as I just said, cancer is hard enough.",
+    "why": "Their own tagline, said on stage."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "Family Reach: new brand only, their words never changed, organic and phone-like for TikTok (Ansley, 22 Oct). This cut has the hook text, three name supers, about 7 B-roll shots of the room, paddles and plates, the client's own Program card and the client's closing card. No frames pulled yet: every shot is picked on scrub.",
+  "devices": [
+   {
+    "row": "00:00-00:02",
+    "device": "Hook text, static",
+    "asset": "highlight_callout (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:02-00:09",
+    "device": "Name super Kristen Benjamin; room cutaway",
+    "asset": "tag_label (MG library); Cam 2 1:17:55",
+    "source": "Script; event footage"
+   },
+   {
+    "row": "00:09-00:17",
+    "device": "Name super Carla Tardif (after check); guests cutaway",
+    "asset": "tag_label (MG library); Cam 2 0:22:08",
+    "source": "Script; event footage"
+   },
+   {
+    "row": "00:17-00:23",
+    "device": "Name super Ming Tsai",
+    "asset": "tag_label (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:23-00:29",
+    "device": "Paddle pod, 4 quick shots",
+    "asset": "Cam 2 1:51:32, 1:52:20, 1:53:43, 1:54:06 (TBD on scrub)",
+    "source": "Event footage"
+   },
+   {
+    "row": "00:29-00:35",
+    "device": "Paddle, then plates",
+    "asset": "Cam 2 1:54:21; Cam 1 0:27:00 (TBD on scrub)",
+    "source": "Event footage"
+   },
+   {
+    "row": "00:37-00:47",
+    "device": "Stage wide, then the client's own total card",
+    "asset": "Cam 1 2:39:11; Program feed segment #0003",
+    "source": "Event footage"
+   },
+   {
+    "row": "00:47-00:52",
+    "device": "Client closing card, new brand",
+    "asset": "endcards/family-reach/family-reach-closing-card.mp4",
+    "source": "endcards/index.json, 15 Sep 2026"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "Cam 2 Iso.mp4",
+    "at": 6761.0,
+    "dur": 1.5,
+    "cx": 0.5,
+    "path": "Cooking Live Boston Footage/Event B Roll/Cam 2 Iso.mp4",
+    "drive": null,
+    "layout": "full",
+    "what": "the room after the match is reached, TBD on scrub",
+    "frame": null
+   },
+   {
+    "clip": "Cam 1 Iso.mp4",
+    "at": 7800.0,
+    "dur": 2.0,
+    "cx": 0.5,
+    "path": "Cooking Live Boston Footage/Event B Roll/Cam 1 Iso.mp4",
+    "drive": null,
+    "layout": "full",
+    "what": "chefs plating at the long table, TBD on scrub",
+    "frame": null
+   },
+   {
+    "clip": "Cam 2 Iso.mp4",
+    "at": 9485.0,
+    "dur": 2.0,
+    "cx": 0.5,
+    "path": "Cooking Live Boston Footage/Event B Roll/Cam 2 Iso.mp4",
+    "drive": null,
+    "layout": "full",
+    "what": "the room at the end of the night, TBD on scrub",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "Family Reach closing card (new brand)",
+    "kind": "end_card",
+    "file": "endcards/family-reach/family-reach-closing-card.mp4",
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   },
+   {
+    "name": "Lower third bar",
+    "kind": "lower third",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
 }

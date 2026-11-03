@@ -1,0 +1,77 @@
+{
+ "item": "12937236907",
+ "client": "freedom-reads",
+ "note": "The script asks for three graphics: the hook text, Emily's name card and the key words, then the client's end card. The other rows are captions only. The Freedom Reads logo file is still owed, so the end card types the name.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Nothing else takes me out"
+   },
+   "cue": "Hook text on frame 1: Nothing else takes me out. Already on screen at 0:00. Does not animate on.",
+   "src": "Script, row 00:00-00:05, Motion graphics & type.",
+   "rows": [
+    "00:00-00:05"
+   ],
+   "use": "Hook text in the top third, already on screen at 0:00. Start the clip at frame 0045 (fully on) and hold it until 00:03."
+  },
+  {
+   "n": 2,
+   "title": "Name card Emily",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Emily"
+   },
+   "cue": "Name card at 00:05, lower left, 3 s: Emily / Washington Corrections Center for Women",
+   "src": "Script, row 00:05-00:14, Motion graphics & type.",
+   "rows": [
+    "00:05-00:14"
+   ],
+   "use": "Name card from 00:05 for 3 s. Move it lower left, above the captions. Type the second line Washington Corrections Center for Women under it, spelled exactly."
+  },
+  {
+   "n": 3,
+   "title": "Key words",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "a sense of belonging"
+   },
+   "cue": "Key words, top third, as she says them, 2 s: a sense of belonging",
+   "src": "Script, row 00:35-00:47, Motion graphics & type.",
+   "rows": [
+    "00:35-00:47"
+   ],
+   "use": "Top third as she says it, 2 s. Keep captions on."
+  },
+  {
+   "src": "No Freedom Reads logo file found (only in older delivered cuts); the name is typed until James Davis sends it. (endcards/index.json, 2026-10-22)",
+   "c": {
+    "bg": "#F2EBE8",
+    "fg": "#292424"
+   },
+   "text": {
+    "name": "Freedom Reads",
+    "lines": [
+     "Inside Literary Prize 2026",
+     "Follow @freedombeginswithabook"
+    ]
+   },
+   "dur": 4.0,
+   "cue": "Freedom Reads name, typed until James sends the logo. Then Inside Literary Prize 2026, then Follow @freedombeginswithabook",
+   "use": "This is the end card. Put it at 01:10 after her last line and the 1 s hold. Hold it to the end. No captions on it.",
+   "n": 4,
+   "tpl": "end_card",
+   "rows": [
+    "01:10-01:14"
+   ]
+  }
+ ]
+}

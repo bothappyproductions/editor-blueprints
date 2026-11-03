@@ -1,0 +1,83 @@
+{
+ "item": "13361159279",
+ "client": "family-reach",
+ "note": "The script asks for four graphics and the end card: the hook text and three name supers (Kristen, Carla, Ming). Row 00:37-00:47 also asks for a number card with the money total ($1.25 million raised): the library never draws money, so it is not made here; the speaker says the number and the Program feed has Family Reach's own total card (Nick decides, see the open decisions). Every other row is captions only.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "This dinner paid a mortgage."
+   },
+   "cue": "Hook text on frame 1: This dinner paid a mortgage. Already on screen at 0:00. Does not animate on. It holds until 00:03.",
+   "src": "Script, row 00:00-00:02, Motion graphics & type.",
+   "rows": [
+    "00:00-00:02"
+   ],
+   "use": "Hook text in the top third, already on screen at 0:00. Start the clip at frame 0045 (fully on) and hold it until 00:03, into the next row. Word for word, never changed."
+  },
+  {
+   "n": 2,
+   "title": "Name super Kristen",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Kristen Benjamin"
+   },
+   "cue": "Name super from 00:04, small, lower left, 2 s: Kristen Benjamin / Paisley's mom",
+   "src": "Script, row 00:02-00:09, Motion graphics & type.",
+   "rows": [
+    "00:02-00:09"
+   ],
+   "use": "Name super from 00:04 for 2 s. Move it lower left, above the captions. Type the second line Paisley's mom under it."
+  },
+  {
+   "n": 3,
+   "title": "Name super Carla",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Carla Tardif"
+   },
+   "cue": "Name super: Carla Tardif / CEO, Family Reach, only after you confirm it is her on scrub",
+   "src": "Script, row 00:09-00:17, Motion graphics & type.",
+   "rows": [
+    "00:09-00:17"
+   ],
+   "use": "Only after you confirm on scrub that the podium speaker is Carla. 2 s, lower left, above the captions. Type the second line CEO, Family Reach under it."
+  },
+  {
+   "n": 4,
+   "title": "Name super Ming",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Ming Tsai"
+   },
+   "cue": "Name super: Ming Tsai / Host",
+   "src": "Script, row 00:17-00:23, Motion graphics & type.",
+   "rows": [
+    "00:17-00:23"
+   ],
+   "use": "2 s, lower left, above the captions, after he starts talking. Type the second line Host under it."
+  },
+  {
+   "file": "endcards/family-reach/family-reach-closing-card.mp4",
+   "dur": 5,
+   "src": "Family Reach's own closing card, new brand (Video closeout (15).mp4 from Ansley, Drive, 15 Sep 2026; endcards/index.json).",
+   "cue": "New Family Reach logo + Because cancer is hard enough. + familyreach.org/give. New brand only.",
+   "use": "This is the end card. Put it at 00:47 right after the total card and hold it to the end. Use it exactly as Family Reach made it; never add to it.",
+   "n": 5,
+   "tpl": "end_card",
+   "rows": [
+    "00:47-00:52"
+   ]
+  }
+ ]
+}
