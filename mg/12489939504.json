@@ -1,0 +1,20 @@
+{
+ "item": "12489939504",
+ "client": "lions",
+ "note": "The script asks for no graphics: captions only, as Lions asked on 22 Oct for these 365 friends videos. Only the Lions end card.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Lions end card",
+   "tpl": "end_card",
+   "rows": [
+    "00:30–00:35"
+   ],
+   "cue": "End card only. Do not change the Lions graphics in any way: no crop, no new colours, nothing on top.",
+   "src": "Lions' latest end card video (Lions CTA.mp4, sent as the latest Lions end card on Slack, 20 Aug 2026): the Lions emblem on the brand gradient with Find your local club at lionsclubs.org (endcards/index.json).",
+   "file": "endcards/lions/lions-cta-end-card.mp4",
+   "dur": 5.1,
+   "use": "After the last line, at 00:30. Use it exactly as Lions made it and hold it to the last frame. No fade to black."
+  }
+ ]
+}

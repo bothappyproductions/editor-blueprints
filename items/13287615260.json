@@ -1,0 +1,713 @@
+{
+ "id": "13287615260",
+ "client": "lions",
+ "eyebrow": "Lions International · Painesville Children's Safety Town, Ohio · 10 Jun 2026 · Are You Happy (AYH) single",
+ "title": "Ernie Richmann III:",
+ "title_q": "“Three of His Students Died”",
+ "title_short": "Ernie Richmann III · Why Safety Town Matters",
+ "editor": "Qendrim",
+ "due": "2026-11-03",
+ "format": "9:16 only · 1080×1920",
+ "length": "about 53 s",
+ "edit_key": "LCIPainesvilleWhyThisProgramMatters001",
+ "headline": "He taught in Painesville schools for 35 years and had three students killed by trains; he made the little train the children now practise on at Safety Town.",
+ "story": [
+  "Ernie Richmann III is a 40-year Lion and taught in Painesville City Schools for 35 years. Three of his students were hit and killed by trains. Another student in the school system was hit by a car. This program is important to him.",
+  "<b>The turn:</b> the viewer expects a grief story. Instead, the man who lost students to trains is the man who made the little train the children practise on. Put the train on screen while he says it. Then Gena says what the program is, and his son Ernie IV closes it: the kids won't forget this.",
+  "<b>Loops:</b> L1 “Who is this man, and whose students were they?” opens at 0:00 and closes at about 0:10 (35 years in Painesville schools). L2 “What does this have to do with a bright little pretend town?” opens at 0:00 and closes in the button. <b>Stakes:</b> children here were killed on the tracks; one free week in a pretend town, run by volunteers, teaches the next ones."
+ ],
+ "feel": [
+  "Honest",
+  "Quiet",
+  "Then hopeful",
+  "Restrained"
+ ],
+ "do": [
+  "Open on Ernie's face with <q>THREE OF HIS STUDENTS DIED</q> already on screen on frame 1. It does not animate on.",
+  "Hold about 1 s of quiet after the first line before anything moves.",
+  "Name super at 00:06, lower left, 2 s: Ernie Richmann III / taught in Painesville 35 years. Spelling <b>Richmann</b>.",
+  "Put the little train (5V0A8847.MP4) on screen on “The little train, I made that.”",
+  "The last picture before the end card is children, not an adult."
+ ],
+ "dont": [
+  "Do not say or show a child's name, age or date. We do not have them.",
+  "Do not say the child hit by the car died, and do not say Safety Town was founded because of these deaths. He says neither.",
+  "No how-he-joined, who-recruited-him or friends-he-made lines. Never “Richmond” on screen.",
+  "No whooshes, zoom punches or sad piano under the deaths.",
+  "No Lions logo or AYH lockup before the end card, including the Welcome sign and the banner shots in the B-roll."
+ ],
+ "links": {
+  "brief": {
+   "title": "Editor brief: Ernie Richmann III, “Three Of His Students Died” (pulse.13287615260)",
+   "url": "https://docs.google.com/document/d/1ZCaUlnKmWOLv1uzoLb5sQhen6A9BWyf1cKjyQCqXLk8/edit",
+   "note": "Claire's editor brief. Bites checked against the shoot's caption file (SRT) this run."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Atdhe or Nick owes it. Production Planning row 11953135454 has no reference (the shoot was before the reference rule). Until one is set: plain and documentary, the bites carry it, no style on top."
+  },
+  "footage": {
+   "title": "RAW FOOTAGE — Painesville Safety Town (2026-06-10)",
+   "url": "https://drive.google.com/drive/folders/1MNYIeOGCNcL1T3QadXVlCpjS_0itEa1R",
+   "note": "Painesville Lions Club ▸ Audio (DJI lav WAVs), Video ▸ C70 Interviews (Canon MXF) and R6ii Broll (5V0A88xx MP4). No visual.json for this shoot."
+  }
+ },
+ "bp_intro": "Voice is the lav audio: <span class=\"mono\">DJI_02_20260609_235016.WAV</span> (Ernie III), <span class=\"mono\">DJI_18_20260609_203948.WAV</span> (Gena), <span class=\"mono\">DJI_22_20260609_212905.WAV</span> (Ernie IV). Times are mm:ss.s in each WAV, from the shoot's caption file: line times are real, word times inside a line are estimated, so cut by ear. Ernie's picture is <span class=\"mono\">A128C720_2606105P_CANON.MXF</span>: sync it to the WAV by waveform. B-roll picks were chosen from the R6ii clips' Doc Assets stills (one still per clip); no frames are pulled yet.",
+ "rows": [
+  {
+   "tc": "00:00–00:05",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "l",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Ernie III to camera, <a href=\"https://drive.google.com/file/d/1lADPRT7HAd16hUUfVxTWrRmYfKu6f9V4/view\">A128C720_2606105P_CANON.MXF</a> (C70, 4K 16:9), synced to the WAV by waveform. The Doc Assets still of this clip shows him left of centre in a coral Painesville Safety Town T-shirt with a lav mic, a school cafeteria behind him: crop left, about 38% from the left. Stay on his face. Do not cut away on this line. Hold about 1 s of quiet after “trains.”",
+   "motion": "Hook text on <b>frame 1</b>: <q>THREE OF HIS STUDENTS DIED</q> Already on screen at 0:00. Does not animate on. Top third, white, bold. It goes out at 00:03. Captions on.",
+   "voice": {
+    "who": "Ernie Richmann III",
+    "quote": "I had three students that got hit and killed by trains.",
+    "src": "DJI_02_20260609_235016.WAV 08:53.1 to 08:57.3"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music under this line. Quiet.</span>",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I"
+    }
+   ]
+  },
+  {
+   "tc": "00:05–00:13",
+   "beat": "35 YEARS",
+   "kind": "",
+   "frame": null,
+   "crop": "l",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Ernie III's face. This answers “who is he?” at once. Cut pauses over 0.7 s to about 0.25 s. If a B-roll shot shows Ernie himself in the town, use it on “Painesville City Schools”; no frame of him in the B-roll is confirmed yet, so B-roll TBD on scrub. Never a volunteer who could be mistaken for him: if unsure, stay on his face.",
+   "motion": "Name super at 00:06 for 2 s, lower left above the captions: <q>Ernie Richmann III</q> / taught in Painesville 35 years. Captions on.",
+   "voice": {
+    "who": "Ernie Richmann III",
+    "quote": "Do what I can do. I taught in Painesville City Schools for 35 years.",
+    "src": "DJI_02_20260609_235016.WAV 08:44.3 to 08:53.1"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music still out, or a very low pad. No sad piano.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Do"
+    }
+   ]
+  },
+  {
+   "tc": "00:13–00:21",
+   "beat": "ANOTHER STUDENT",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "The empty pretend town under the line, no children: <a href=\"https://drive.google.com/file/d/1xLp4sHXnibxwoadf_9fOijTd8GIxeTCz/view\">5V0A8801.MP4</a> (a volunteer sets an orange cone on a painted crosswalk, low angle, no children), then <a href=\"https://drive.google.com/file/d/1Z1ntWfmJIgKNyqcfivYseprJFkV6OGTB/view\">5V0A8803.MP4</a> (the painted roads with cones and a traffic signal; volunteers carry a signal, no children). About 3–4 s each. Both seen on the clips' Doc Assets stills; find the moment on scrub.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Ernie Richmann III",
+    "quote": "I didn't have this student, but there was another student in this school system that was hit by a car in the middle of the street.",
+    "src": "DJI_02_20260609_235016.WAV 09:00.0 to 09:08.0"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Still quiet.",
+   "shots": [
+    {
+     "clip": "5V0A8801.MP4",
+     "at": null,
+     "dur": 3.5,
+     "cx": 0.37,
+     "path": "Painesville Lions Club/Video/R6ii Broll/5V0A8801.MP4",
+     "drive": "1xLp4sHXnibxwoadf_9fOijTd8GIxeTCz",
+     "layout": "full",
+     "what": "a volunteer sets an orange cone on a painted crosswalk, low angle, no children. Seen on the clip's Doc Assets still; its time in the clip is not known, so find it on scrub (clip is 11.6 s)."
+    },
+    {
+     "clip": "5V0A8803.MP4",
+     "at": null,
+     "dur": 3.5,
+     "cx": 0.5,
+     "path": "Painesville Lions Club/Video/R6ii Broll/5V0A8803.MP4",
+     "drive": "1Z1ntWfmJIgKNyqcfivYseprJFkV6OGTB",
+     "layout": "full",
+     "what": "the painted roads with cones and a traffic signal; volunteers carry a signal, no children. Seen on the clip's Doc Assets still; its time in the clip is not known, so find it on scrub (clip is 6.8 s)."
+    }
+   ]
+  },
+  {
+   "tc": "00:21–00:24",
+   "beat": "THIS PROGRAM IS IMPORTANT",
+   "kind": "",
+   "frame": null,
+   "crop": "l",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Ernie III's face for the line. Hard cut on “important” to <a href=\"https://drive.google.com/file/d/1Jz9bfgYn0cFdGaiM02aV64O_3g2rKHxf/view\">5V0A8841.MP4</a>: a child in a helmet rides a red trike toward camera down the painted road; volunteers along it. Its audio has “Look at the bikes” at 0:07, so the riding is near there; check on scrub.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Ernie Richmann III",
+    "quote": "This program is important.",
+    "src": "DJI_02_20260609_235016.WAV 09:10.5 to 09:11.5"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music enters on the hard cut. Light and warm, with some life (Atdhe on his other Ernie cut: not too slow, not somber).",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "This"
+    },
+    {
+     "clip": "5V0A8841.MP4",
+     "at": null,
+     "dur": 2.5,
+     "cx": 0.45,
+     "path": "Painesville Lions Club/Video/R6ii Broll/5V0A8841.MP4",
+     "drive": "1Jz9bfgYn0cFdGaiM02aV64O_3g2rKHxf",
+     "layout": "full",
+     "what": "a child in a helmet rides a red trike toward camera down the painted road; volunteers along it. Seen on the clip's Doc Assets still; its time in the clip is not known, so find it on scrub (clip is 16.2 s)."
+    }
+   ]
+  },
+  {
+   "tc": "00:24–00:31",
+   "beat": "THE LITTLE TRAIN",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "The turn: the man who lost students to trains made the little train. On “The little train” cut to <a href=\"https://drive.google.com/file/d/17KoSbWlyCxdd6lfftvBvQBqQRvqfGzxd/view\">5V0A8847.MP4</a>: the little train (engine number 23, blue cart) at the railroad crossing; a volunteer guides it; a child on a trike waits. Before it, on “other members that helped”, <a href=\"https://drive.google.com/file/d/19-Ior1uXQKQSjTPF33AGuYUpVueWjZ0G/view\">5V0A8843.MP4</a>: the railroad crossing: white-and-red gate arms, the RR sign, children on trikes wait as the train cart passes. Crop to keep the train in frame. Both seen on the clips' Doc Assets stills; find the moments on scrub.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Ernie Richmann III",
+    "quote": "There was a lot of other members that helped with that. The little train, I made that.",
+    "src": "DJI_02_20260609_235016.WAV 04:39.6 to 04:45.7"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed warms.",
+   "shots": [
+    {
+     "clip": "5V0A8843.MP4",
+     "at": null,
+     "dur": 2.5,
+     "cx": 0.68,
+     "path": "Painesville Lions Club/Video/R6ii Broll/5V0A8843.MP4",
+     "drive": "19-Ior1uXQKQSjTPF33AGuYUpVueWjZ0G",
+     "layout": "full",
+     "what": "the railroad crossing: white-and-red gate arms, the RR sign, children on trikes wait as the train cart passes. Seen on the clip's Doc Assets still; its time in the clip is not known, so find it on scrub (clip is 24.0 s)."
+    },
+    {
+     "clip": "5V0A8847.MP4",
+     "at": null,
+     "dur": 3.5,
+     "cx": 0.48,
+     "path": "Painesville Lions Club/Video/R6ii Broll/5V0A8847.MP4",
+     "drive": "17KoSbWlyCxdd6lfftvBvQBqQRvqfGzxd",
+     "layout": "full",
+     "what": "the little train (engine number 23, blue cart) at the railroad crossing; a volunteer guides it; a child on a trike waits. Seen on the clip's Doc Assets still; its time in the clip is not known, so find it on scrub (clip is 36.0 s)."
+    }
+   ]
+  },
+  {
+   "tc": "00:31–00:36",
+   "beat": "A FREE PROGRAM",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Wides of the town working: <a href=\"https://drive.google.com/file/d/1kSqGKlOfztD5QJZBYb4EiDY0vguxY5Kq/view\">5V0A8813.MP4</a> (volunteers in red shirts among rows of red trikes and cones, wide), <a href=\"https://drive.google.com/file/d/1RoXNZUJN300fLAYiAPuwB5yEFr3Zx1k9/view\">5V0A8822.MP4</a> (children in blue shirts gather by a City of Painesville fire truck, wide), <a href=\"https://drive.google.com/file/d/17Y6RB3Sx-1xKK2fab5JLk24Lgk4J1UHu/view\">5V0A8827.MP4</a> (a firefighter helps a girl spray a fire hose). About 1.5–2 s each. Avoid the Welcome to Safety Town sign (5V0A8808) and the banner group photo (5V0A8819): both show the Lions emblem, and the logo belongs on the end card only.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Gena Richmann",
+    "quote": "All these children here are enjoying a free program that our Painesville Lions Club has put together.",
+    "src": "DJI_18_20260609_203948.WAV 00:51.2 to 00:55.5"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady, brighter.",
+   "shots": [
+    {
+     "clip": "5V0A8813.MP4",
+     "at": null,
+     "dur": 1.8,
+     "cx": 0.5,
+     "path": "Painesville Lions Club/Video/R6ii Broll/5V0A8813.MP4",
+     "drive": "1kSqGKlOfztD5QJZBYb4EiDY0vguxY5Kq",
+     "layout": "full",
+     "what": "volunteers in red shirts among rows of red trikes and cones, wide. Seen on the clip's Doc Assets still; its time in the clip is not known, so find it on scrub (clip is 34.2 s)."
+    },
+    {
+     "clip": "5V0A8822.MP4",
+     "at": null,
+     "dur": 1.7,
+     "cx": 0.65,
+     "path": "Painesville Lions Club/Video/R6ii Broll/5V0A8822.MP4",
+     "drive": "1RoXNZUJN300fLAYiAPuwB5yEFr3Zx1k9",
+     "layout": "full",
+     "what": "children in blue shirts gather by a City of Painesville fire truck, wide. Seen on the clip's Doc Assets still; its time in the clip is not known, so find it on scrub (clip is 7.9 s)."
+    },
+    {
+     "clip": "5V0A8827.MP4",
+     "at": null,
+     "dur": 1.8,
+     "cx": 0.4,
+     "path": "Painesville Lions Club/Video/R6ii Broll/5V0A8827.MP4",
+     "drive": "17Y6RB3Sx-1xKK2fab5JLk24Lgk4J1UHu",
+     "layout": "full",
+     "what": "a firefighter helps a girl spray a fire hose. Seen on the clip's Doc Assets still; its time in the clip is not known, so find it on scrub (clip is 24.1 s)."
+    }
+   ]
+  },
+  {
+   "tc": "00:36–00:48",
+   "beat": "BUTTON",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Children, close: <a href=\"https://drive.google.com/file/d/1NA94nsUlzLwIFf7tx3HEG0YbbM22tOjW/view\">5V0A8842.MP4</a> (a boy in a red helmet and glasses rides a red trike toward camera, close), then <a href=\"https://drive.google.com/file/d/1Zh1Y62UBOTZFPU4-myzMVI8K3XUrH3hl/view\">5V0A8845.MP4</a> (children walk across the painted crosswalk; trikes and crossing signs behind). The last picture before the end card is children, not an adult.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Ernie Richmann IV",
+    "quote": "All the kids here that will experience this, many of them won't forget this, and hopefully they'll carry on some of the lessons they learn, you know, as they grow up.",
+    "src": "DJI_22_20260609_212905.WAV 01:22.1 to 01:34.3"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed lifts gently, then resolves into the end card.",
+   "shots": [
+    {
+     "clip": "5V0A8842.MP4",
+     "at": null,
+     "dur": 4.0,
+     "cx": 0.46,
+     "path": "Painesville Lions Club/Video/R6ii Broll/5V0A8842.MP4",
+     "drive": "1NA94nsUlzLwIFf7tx3HEG0YbbM22tOjW",
+     "layout": "full",
+     "what": "a boy in a red helmet and glasses rides a red trike toward camera, close. Seen on the clip's Doc Assets still; its time in the clip is not known, so find it on scrub (clip is 15.8 s)."
+    },
+    {
+     "clip": "5V0A8845.MP4",
+     "at": null,
+     "dur": 4.0,
+     "cx": 0.6,
+     "path": "Painesville Lions Club/Video/R6ii Broll/5V0A8845.MP4",
+     "drive": "1Zh1Y62UBOTZFPU4-myzMVI8K3XUrH3hl",
+     "layout": "full",
+     "what": "children walk across the painted crosswalk; trikes and crossing signs behind. Seen on the clip's Doc Assets still; its time in the clip is not known, so find it on scrub (clip is 14.0 s)."
+    }
+   ]
+  },
+  {
+   "tc": "00:48–00:53",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "The Lions end card file, exactly as Lions made it: <span class=\"mono\">lions-cta-end-card.mp4</span> (5.1 s). Hold it to the last frame. Branding lives here only.",
+   "motion": "End card only. Nothing added to it.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music resolves on the end card. No fade to black.",
+   "shots": []
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Editor brief",
+   "<a href=\"https://docs.google.com/document/d/1ZCaUlnKmWOLv1uzoLb5sQhen6A9BWyf1cKjyQCqXLk8/edit\">pulse.13287615260 (Google Doc)</a>"
+  ],
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/1hNInPPeVeTg7_30oAy8h-PnW0rAobKUe9F7oaYEsBvE/edit\">Painesville Brief</a> (Production Planning row 11953135454)"
+  ],
+  [
+   "Reference",
+   "Not chosen yet. Atdhe or Nick owes it."
+  ],
+  [
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/1noyPQulAMe9ZnYSp1sZjMus-dBlDBhSl\">Painesville 2026-06-10 — Lions Safety Town</a> · <a href=\"https://drive.google.com/drive/folders/1MNYIeOGCNcL1T3QadXVlCpjS_0itEa1R\">RAW FOOTAGE</a> · <a href=\"https://drive.google.com/drive/folders/199CCb6WRzEtr8csCipz8zarGmUDWuEtE\">Audio</a> · <a href=\"https://drive.google.com/drive/folders/19ubvyoDsFfiQyEKQl4_zBX8XsNgXKNc8\">C70 Interviews</a> · <a href=\"https://drive.google.com/drive/folders/1kUO-kkgj6hZ_FUeI-bTx5uEFSklrJthY\">R6ii Broll</a>"
+  ],
+  [
+   "Clips",
+   "<a href=\"https://drive.google.com/file/d/1lADPRT7HAd16hUUfVxTWrRmYfKu6f9V4/view\">A128C720_2606105P_CANON.MXF</a> (picture) · <a href=\"https://drive.google.com/file/d/1rKf36qM-qTCU8ijJTrWHktD4AjTYiRE9/view\">DJI_02_20260609_235016.WAV</a> · <a href=\"https://drive.google.com/file/d/1n_6kKosResxg_xLvdeuUcw2aMvqTKKXi/view\">DJI_18_20260609_203948.WAV</a> · <a href=\"https://drive.google.com/file/d/1NplLy1UxnYx8tR3gbHQiT_fcT86du9fK/view\">DJI_22_20260609_212905.WAV</a>"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1K2qLbndao38F7AqFC7RFUzB0XgTFe6hyK9jkbTxAwb0/edit\">Transcripts - Painesville 2026-06-10 — Lions Safety Town</a> · <a href=\"https://drive.google.com/file/d/1TAdMO2MJKvKgQEsz-3YRonYHDumTsb-U/view\">caption file (.srt)</a> · <a href=\"https://drive.google.com/file/d/1VhPRb86vbKNZ_fzTddQhVxdvGHZGCz6I/view\">keybites .xml</a>. The SRT runs all WAVs end to end; per-file times in this plan are already converted."
+  ],
+  [
+   "B-roll picks",
+   "<a href=\"https://drive.google.com/file/d/1xLp4sHXnibxwoadf_9fOijTd8GIxeTCz/view\">5V0A8801.MP4</a> · <a href=\"https://drive.google.com/file/d/1Z1ntWfmJIgKNyqcfivYseprJFkV6OGTB/view\">5V0A8803.MP4</a> · <a href=\"https://drive.google.com/file/d/1Jz9bfgYn0cFdGaiM02aV64O_3g2rKHxf/view\">5V0A8841.MP4</a> · <a href=\"https://drive.google.com/file/d/19-Ior1uXQKQSjTPF33AGuYUpVueWjZ0G/view\">5V0A8843.MP4</a> · <a href=\"https://drive.google.com/file/d/17KoSbWlyCxdd6lfftvBvQBqQRvqfGzxd/view\">5V0A8847.MP4</a> · <a href=\"https://drive.google.com/file/d/1kSqGKlOfztD5QJZBYb4EiDY0vguxY5Kq/view\">5V0A8813.MP4</a> · <a href=\"https://drive.google.com/file/d/1RoXNZUJN300fLAYiAPuwB5yEFr3Zx1k9/view\">5V0A8822.MP4</a> · <a href=\"https://drive.google.com/file/d/17Y6RB3Sx-1xKK2fab5JLk24Lgk4J1UHu/view\">5V0A8827.MP4</a> · <a href=\"https://drive.google.com/file/d/1NA94nsUlzLwIFf7tx3HEG0YbbM22tOjW/view\">5V0A8842.MP4</a> · <a href=\"https://drive.google.com/file/d/1Zh1Y62UBOTZFPU4-myzMVI8K3XUrH3hl/view\">5V0A8845.MP4</a>"
+  ],
+  [
+   "visual.json",
+   "<span class=\"none\">None for this shoot.</span>"
+  ],
+  [
+   "Brand graphics package",
+   "Lions package: Drive <span class=\"mono\">deliverables/graphics-packages/Lions</span> (official lockup only). Folder link not available in this run. Type the name super in the Lions caption font."
+  ],
+  [
+   "Brand",
+   "Official Lions lockup on the end card only. Branding and Font columns on Monday are empty."
+  ],
+  [
+   "Music",
+   "A licensed, YouTube-safe track with some life, quiet at the start. Save the license with the project."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "Interview picture: Canon C70 MXF, 16:9 4K (the Doc Assets still is 3840×2160), flat log look. Voice: DJI lav WAVs, mono. B-roll: Canon R6 II MP4s, 16:9 4K. This shoot predates the 50/24 fps split: probe every clip before you build the timeline and say so if rates differ."
+  ],
+  [
+   "Timeline",
+   "1080×1920, 9:16. Pick the rate after the probe; do not let the NLE guess."
+  ],
+  [
+   "Crop",
+   "16:9 4K to 9:16 is a 1215×2160 window downscaled to 1080×1920, so a moderate push-in is fine. Ernie sits left of centre (about 38%). The cx numbers on B-roll come from small stills: check each crop by eye."
+  ],
+  [
+   "Audio",
+   "The lav WAVs are the bed; sync the C70 picture to them by waveform. Keep light room tone. No music under the first line."
+  ],
+  [
+   "Grade",
+   "The C70 and R6 footage looks flat in the stills: grade to natural skin before export."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. Music always under the voice."
+  ],
+  [
+   "Captions",
+   "White text on a <b>semi-transparent background box</b> (the locked Lions and Painesville caption style). No drop shadow. Max 2 lines. Burned in. Keep the bottom 20% clear for app buttons. Every word matches the audio."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920, 9:16 only. Hold the end card to the last frame: no fade to black."
+  ]
+ ],
+ "checklist": [
+  "Frame 1 is Ernie's face with <q>THREE OF HIS STUDENTS DIED</q> already on screen. No logo, name or locator.",
+  "Name super no earlier than 00:03 (planned 00:06), lower left, 2 s, spelled <b>Richmann</b>.",
+  "No child's name, age or date. Nothing says the car accident student died. Nothing says Safety Town was founded because of the deaths.",
+  "The little train is on screen on “The little train, I made that.”",
+  "No recruitment or friends-he-made line anywhere.",
+  "No music under the first line; no sad piano; the music lifts on the children.",
+  "No Lions emblem in the B-roll before the end card (skip the Welcome sign and the banner group shot).",
+  "The last picture before the end card is children.",
+  "Captions on the semi-transparent box, word for word, checked by ear.",
+  "Graded, 9:16 only, 1080×1920. The Lions end card held to the last frame."
+ ],
+ "decisions": [
+  {
+   "t": "Ernie's facts check",
+   "b": "The brief says this cut goes to Jacqui only after Ernie Richmann III confirms the facts himself on a call. Jacqui asked for this “why Safety Town” angle on the 20 Oct call, so the angle is hers. Atdhe: has Ernie confirmed, and does V2 go to Jacqui?"
+  },
+  {
+   "t": "Hook text wording",
+   "b": "<q>THREE OF HIS STUDENTS DIED</q> puts deaths on screen at 0:00. The brief chose it for the train-safety angle. Atdhe confirms the words before it goes to Jacqui. Softer options from his own words are in ↻ New hook ideas."
+  },
+  {
+   "t": "Visual reference",
+   "b": "Not chosen. Atdhe or Nick picks one; until then the cut stays plain and documentary."
+  },
+  {
+   "t": "AYH lockup on the end card",
+   "b": "The brief puts the Lions logo and the AYH lockup on the end card. The Lions end card file is used as it is and there is no AYH end card file in the repo. Atdhe: Lions only, or add an AYH card?"
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> Jacqui asked for a Painesville cut about why Safety Town exists. This is it, and it touches deaths, so the facts and the restraint matter more than any style.",
+ "ask_examples": [
+  "Which clip has the little train?",
+  "Can I say the student hit by the car died?",
+  "How do I spell his name?",
+  "When does the music come in?"
+ ],
+ "transcript": "Painesville Children's Safety Town, 10 June 2026. Lav audio WAVs; times are mm:ss.s in each WAV from the shoot's caption file (SRT line times). The transcript spells the family Richmond/Richman/Jenna: the names are Ernie Richmann III, Ernie Richmann IV and Gena Richmann. Some off-topic lines are left out.\n--- DJI_02_20260609_235016.WAV — Ernie Richmann III\n[00:18.3] [Interviewer] So, we'll start just with you stating your name and your role within the Lions Club.\n[00:25.6] [name only: spelled Richmann, not a bite] Okay. Well, I'm Ernie Richmond. I'm a 40-year member, and I'm currently a membership chair and secretary,\n[00:34.2] and then I have a couple positions in the district. I'm a zone chair, I'm diabetes chair for the district,\n[00:43.2] and I'm diabetes chair for the state of Ohio for all the Lions Clubs.\n[00:51.6] I've served as president, treasurer, everything.\n[00:59.9] [Interviewer] Well, first question is this. Are you happy?\n[01:03.7] I'm a very happy person. I have a very supportive family, and I think it's great what Lions Clubs are doing.\n[01:16.5] [Interviewer] Tell me about how you first found out about Lions Club.\n[01:21.9] [do not use: how he joined] Okay. Well, a gentleman that I highly respected just asked me.\n[01:27.1] [do not use: how he joined] I didn't really know what I was getting into and kind of found out about things as I was in it a few years.\n[01:34.9] [do not use: how he joined] He lived to be 103, and he was even going to meetings when he was 100.\n[01:41.9] [do not use: how he joined] His wife lived to be 99, and I stopped letting him drive me to the Lions Club meeting when I found out he was\n[01:50.8] [do not use: how he joined] going blind.\n[01:54.9] [do not use: how he joined] Yeah, I had no idea really about it. I didn't really know anything about Lions. I just signed up anyway.\n[02:02.9] [Interviewer] What was that like, those early years like for you, being a new member, meeting new people, growing in relationship,\n[02:11.9] [Interviewer] and getting a better idea of what the organization does? What was that like for you?\n[02:15.9] I went to all the meetings, and I went to all the service projects and things,\n[02:21.9] but it's quite different today because our club is way more active currently than it was in those early days.\n[02:30.9] We had a rose sale every year. We rang the bells for Salvation Army at Christmas time.\n[02:39.3] We did a few other things. We had some other fundraisers, maybe a raffle ticket or something,\n[02:45.3] but we're doing something every single month, and I'm really glad about all of that.\n[02:57.5] [Interviewer] Tell me about how it was for you to grow in relationship, grow in commitment, to the point that now,\n[03:05.5] [Interviewer] and you probably know this about yourself, but you've connected quite a few members here to the club.\n[03:11.5] [Interviewer] You're that connecting point that a lot of people mentioned.\n[03:14.5] [do not use: how he joined] I have sponsored quite a few people. Some of them are no longer with the club, but many are.\n[03:21.5] [do not use: how he joined] My wife finally joined. Ernie joined. Jenna, his wife, joined. His mother-in-law joined.\n[03:30.1] [do not use: how he joined] My neighbor across the street joined, and a number of other people, too.\n[03:36.5] [do not use: how he joined] Oh, Rick Webb, who you interviewed. I sponsored Rick.\n[03:40.5] [do not use: how he joined] We were running buddies. We were both in the running club, and I don't run anymore.\n[03:48.5] I'm still pretty active physically. In fact, last weekend, I walked 50 miles in an ultra marathon in Canal Fulton.\n[04:00.5] I've still got good energy. It was more than 17 hours. I just walked the whole thing.\n[04:10.5] I had runners. I'm fairly fit. I have type 1 diabetes, and that's kind of how I got to be diabetes, too.\n[04:23.5] That wasn't required for that position, but I give diabetes presentations.\n[04:31.1] I helped a lot with all these safety town buildings because I'm also pretty handy.\n[04:39.6] There was a lot of other members that helped with that. The little train, I made that.\n[04:51.4] [Interviewer] How do you see the Lions Club becoming more than just a club of members and more like a family?\n[04:58.0] [Interviewer] How was that for you? Was there any key moment where you felt like, these are my people, this is where I belong?\n[05:05.0] One thing, we've had some work days out of Camp Homi, Dakota.\n[05:10.5] That's a camp for diabetic children not too far from here in Newbury, Ohio.\n[05:15.5] We've had, not just from our club, but a lot of local clubs have gone on those work days.\n[05:49.8] I'm there from time to time. They'll have two more tour days coming up soon.\n[05:59.8] We haven't determined the dates yet. That was one thing I did really grab onto.\n[06:08.1] One kid at the camp said that this was the only time they really felt normal.\n[06:15.1] That was enough for me. I kind of key in on that.\n[06:22.1] [Interviewer] For clubs like the Lions Club and really any other kind of commitment people want to make, it's difficult.\n[06:33.8] [Interviewer] Specifically, it seems to be most difficult for the age groups of 30s, 40s, 50s.\n[06:40.8] [Interviewer] When you're kind of peak career, probably kids in home that you're trying to manage.\n[06:46.8] [Interviewer] Life is busy. But even for anyone not specifically in those age ranges and those stages of life, life is busy.\n[06:54.8] [Interviewer] What's your encouragement for other people? How did you find the time to be so involved in the Lions Club?\n[07:04.4] I was teaching. I really didn't know how much time it would take. I just joined anyway.\n[07:12.1] When I talk to somebody about the Lions Club, I tell them we don't require a new member to attend every single meeting.\n[07:23.1] Not everybody is into meetings. Help when you can. The more people we have, the more people will be available to serve.\n[07:34.1] You don't have to be at every single function. Just help when you can.\n[07:43.3] If you're more concerned about your career, you have young children, all of that.\n[07:50.8] Even some of the older people, they have a lot of activities with their grandchildren.\n[07:58.8] Now they have more time to travel. Help out when you can. I don't have any problem with that.\n[08:04.8] I think in the old days, it was more of a requirement to attend everything.\n[08:12.0] This is not true with our club. We don't do it that way.\n[08:16.8] Did that answer the question?\n[08:19.2] [Interviewer] Yeah, that was good. Tell me about you personally. What is great about being a Lion?\n[08:29.5] I just think there's a whole lot more besides my own little world.\n[08:34.4] There's a lot of needs in our country and globally. Maybe I could just help just a little bit.\n[08:44.3] Do what I can do. I taught in Painesville City Schools for 35 years.\n[08:53.1] I had three students that got hit and killed by trains. We have train safety here.\n[09:00.0] I didn't have this student, but there was another student in this school system that was hit by a car in the middle of\n[09:07.8] the street.\n[09:10.5] This program is important.\n[09:15.9] [Interviewer] What excites you about the future of Lion's Club?\n[09:19.2] We are getting more and more younger people.\n[09:23.0] That Cubs program that we have is involving younger people with children.\n[09:31.0] We're a very diverse club. We don't care what somebody's skin color is or their religion or even their politics.\n[09:47.0] What binds us together is we just want to serve the community.\n[09:52.0] If somebody wants to do that, you're good for this club.\n[10:29.4] I don't think so.\n[10:32.1] I think our strength is we're welcoming to most folks, any age, men and women, just people that want to serve.\n[10:45.6] We're flexible. I think I said all of that.\n--- DJI_18_20260609_203948.WAV — Gena Richmann (the transcript writes Jenna Richman)\n[00:30.7] I'm Jenna Richman.\n[00:31.8] I am the CUB program coordinator and also\n[00:35.2] one of the directors of Safety Town.\n[00:40.6] I am happy because Safety Town Week makes me very happy.\n[00:44.7] It's just a combination of the city of Painesville\n[00:47.6] coming together, a program that's free.\n[00:51.2] All these children here are enjoying a free program\n[00:53.5] that our Painesville Lions Club has put together\n[00:56.3] through fundraising, donations, group, tire group effort.\n[01:00.4] So yeah, Safety Town Week always makes me happy.\n[01:07.2] Walk me through the moment you decide to join Lions,\n[01:09.6] how like who pulled you in, what's the story there?\n[01:13.8] So I married Ernie and his father is a Lion.\n[01:19.3] And for many years he asked me to join\n[01:21.6] and I always kind of didn't have time\n[01:23.4] and I was starting a new job.\n[01:24.8] And so I would kind of just push it to the side,\n[01:27.6] maybe someday, maybe someday.\n[01:29.5] And then again, he asked me and I finally just said, sure,\n[01:31.7] why not?\n[01:33.3] What else do I have to do?\n[01:34.6] So I said, sure, I'll join, I'll come to a meeting.\n[01:36.7] And then I told my sister that I was going to join\n[01:39.9] and she said, well, maybe I'll join too.\n[01:41.6] So she came along.\n[01:42.5] So then she joined and we joined together.\n[01:46.1] And I want to say it was very shortly after that\n[01:50.2] that my son arrived.\n[01:52.6] He was brought to us via foster care\n[01:56.3] and then eventually adopted.\n[01:57.5] So he's been coming to Lions meetings\n[02:01.5] essentially his whole life.\n[02:02.9] And then we formed the Cubs program.\n[02:28.3] Okay, so I feel like I'm family with so many of the Lions,\n[02:33.9] but what I think I've really grown close with Scott,\n[02:37.2] our president, he's like a mentor to me.\n[02:40.9] I aspire to be a leader like he is.\n[02:43.1] He's always so open-minded.\n[02:45.3] He's so willing to listen to everybody's ideas.\n[02:48.5] And actually when I got my Melvin Jones award,\n[02:51.5] he was the one who awarded it to me.\n[02:53.0] And that just, it really meant a lot to me\n[02:54.9] because he's somebody that I look up to.\n[02:56.4] And so he's somebody that I feel like has grown like family.\n[03:31.6] So I do have a very busy career.\n[03:33.7] I'm actually the education program manager\n[03:36.6] for the cancer center at Case Western Reserve University.\n[03:39.5] So I have a very big job with a lot of responsibilities,\n[03:43.1] but to me, it's important to give back to my community.\n[03:45.6] And I saw Lions as a way to do that.\n[03:48.7] And then by having the cub program,\n[03:52.8] it just made it easier because now my whole family\n[03:55.2] can come with me.\n[03:55.9] So I don't feel like I'm leaving anybody behind,\n[04:00.5] I'm a working mom and so I enjoy time with my son.\n[04:03.7] And so now he can just join me.\n[04:04.9] He comes to everything and we bond over that\n[04:06.7] and we spend a lot of time together.\n[04:08.1] So to me, that's one of the most important things.\n[04:11.2] And I truly feel like that is what has helped our club grow.\n[04:15.1] We've said, hey, working parents or stay at home moms,\n[04:18.7] like you can bring your child with you,\n[04:20.0] you can bond together, you can work together.\n[04:22.3] You can be out in the trenches with your child\n[04:24.3] doing this wonderful community service\n[04:25.9] and you don't have to leave anybody at home.\n[04:28.5] Like literally my whole family is in Lions.\n[04:31.2] My mom, my husband, my son, my son's best friend,\n[04:35.5] my best friend, my sister, my niece,\n[04:38.0] my nephew will probably be a Lion someday.\n[04:40.5] Both my in-laws, like everybody.\n[04:42.6] So it's just, it's a family, you know, it's a family group.\n[05:21.3] I've been a member for 10 years,\n[05:22.9] but I would just say in the past few years,\n[05:26.2] since the cub program was created,\n[05:28.4] have I really felt like these are my people.\n[05:30.5] And again, I will mention Scott because I feel like\n[05:33.5] no matter what idea I go to him with,\n[05:36.3] he's always open and accepting of ideas.\n[05:38.9] One of the ideas I had this past year was\n[05:41.7] I really wanted to,\n[05:44.6] we often serve at the St. James Soup Kitchen\n[05:47.7] in downtown Painesville and our Lions cook the meal\n[05:50.3] and then serve the meal.\n[05:51.8] But I had the idea that I wanted the cubs to do this.\n[05:55.3] I wanted them to cook the meal,\n[05:57.5] I wanted them to serve the meal from beginning to end,\n[05:59.5] take on the whole project.\n[06:00.7] And that's no small thing because they're little kids\n[06:04.1] in the kitchen, learning to cook, using knives.\n[06:06.7] And Scott's like, sure, let's do it.\n[06:08.4] Let's make it happen.\n[06:09.2] He totally encourages my ideas.\n[06:11.6] He encourages the kids' ideas.\n[06:13.6] And I just feel like once we started doing that,\n[06:16.4] I felt like, yeah, these are my people.\n[06:39.8] Our club is extremely open-minded.\n[06:42.0] We are open to anybody.\n[06:43.4] We've had speakers from the local LGBT organization.\n[06:47.1] We've had speakers from the local NAACP.\n[06:50.1] We bring in different kinds of groups\n[06:51.9] to speak to different populations.\n[06:53.5] And we're open to anybody.\n[06:55.9] We're accepting of anybody who wants to join.\n[06:58.6] And I know sometimes there's a little trepidation\n[07:01.7] joining a new organization.\n[07:02.9] If you don't know anybody,\n[07:03.9] if you're not familiar with the people,\n[07:05.3] but I think our group is really open and embracing\n[07:08.2] and we welcome everybody.\n[07:10.2] We welcome your kids.\n[07:11.1] We welcome your spouse.\n[07:12.0] We welcome you.\n[07:12.9] I mean, my mom joined because we had joined.\n[07:15.2] So yeah, we're very open, accepting.\n[07:17.6] And I think we offer service for everybody.\n--- DJI_22_20260609_212905.WAV — Ernie Richmann IV (raw speech-to-text, no punctuation, check by ear)\n[00:45.5] yeah we've got to make sure that I say that I am the marketing chair or\n[00:52.1] marketing director of the Painesville Lions Club also the second vice\n[00:55.9] president and overall spirited member of the club yes what makes me happy\n[01:09.7] today this everything about everything about today is it makes me happy\n[01:16.5] everything we've been able to to do to pull the safety town together all the\n[01:22.8] kids here that will experience this many of them won't forget this and\n[01:28.1] hopefully they'll carry on some of the lessons they learn you know as they grow\n[01:34.0] up and it makes me extremely happy to have all kinds of city partners here you\n[01:42.6] know between the police department the fire department parks and recreation the\n[01:47.1] health department the YMCA the the library morally library the school and\n[01:54.1] and and we've been very fortunate to have a city that's really come together\n[02:00.9] to make this happen and we couldn't do it without anyone involved and we have a\n[02:06.5] good group of Painesville Lions that are also willing to be here during the day\n[02:12.1] during the work week to make this happen for the kids so that makes me\n[02:17.0] super happy\n[02:26.1] well my dad's been a Painesville Lion for over 40 years I don't I'm 41 42\n[02:35.5] years something like that right we we don't have to know the the exact the\n[02:40.9] exact amount of years but I yeah but but you know he my dad is someone who\n[02:50.5] will help anyone if he can't even if he even if he doesn't have the time he'll\n[02:56.4] make the time to help people outside the club and within the club and so growing\n[03:03.1] up I I've had that I've had him as as a guidance and I remember attending some\n[03:10.2] club meetings with him when we used to dress in ties and everything for the\n[03:15.3] meetings back in the day we're very much more casual today but you know I\n[03:23.6] several years ago over ten years ago he was working on me to say hey you know\n[03:28.8] you should become a lion as well I was back in this area living in this area\n[03:35.3] and we my wife and I moved back to Painesville about a little over ten\n[03:41.4] years ago and at that point my wife is the one and she's she's always been\n[03:47.4] somebody who has volunteered in so many ways and she she looked at me and she\n[03:52.9] said you know let's just join the Lions Club and so we did and you know I\n[03:58.5] remember for the first years I was figuring things out you know it's it\n[04:02.7] took me a while but it occurred to me at some point several years back that I\n[04:07.4] could use my my skills and like in my work field and just things that I\n[04:14.4] normally love to do to benefit the the Lions Club and so you know design\n[04:21.3] marketing some some sort of a marketing background and and just a positive\n[04:27.6] attitude I'm energetic I love to I love to do things if I'm going to be a\n[04:33.1] lion I'm I'm going to I'm going to be doing community service anytime that I\n[04:39.4] can you know I don't want to waste a single minute so I love being involved\n[04:44.6] with a network of people everybody's got different preferences different things\n[04:52.2] that really really get to them really that they love and and we all kind of\n[04:57.7] come together and and make it make it happen so this this is what this is\n[05:02.2] right here yeah yes pretty much yeah yeah it took me about six to seven\n[05:32.8] years before I felt like I knew what I wanted how I wanted to shape the club\n[05:42.3] with the skills that I have you know or could maybe not shape the club but\n[05:47.7] contribute to the club so yeah\n[06:08.9] the more you you're working with people together the more you're learning you\n[06:15.1] know who everyone is and and you have those little connections you know so and\n[06:25.9] I think that's what it's all about is just making little connections well it's\n[06:35.1] easy easy for me this light went off yeah it's it's easy it's easy for me to\n[06:41.9] say it was easy for me to connect to all my family members it was a kind of a\n[06:48.6] landslide because you know my dad has been a lion for such a long time then\n[06:53.7] you know my wife and I joined we had a baby a child a young child and the club\n[07:02.5] really welcomes my son into it and at the time he was just sitting at a high\n[07:09.5] chair and coloring with crayons and at one point you know my mother-in-law came\n[07:17.7] in my sister-in-law my sister-in-law joined with my wife and I at the same\n[07:24.2] time and now her daughter my niece is in here and I'm I'm sure I'm forgetting\n[07:30.7] someone but my wife me my son my mother-in-law my sister-in-law my niece\n[07:36.1] and you know one day my son probably will be a lot in a lion but for now he's\n[07:42.6] a cub and and the cub program was was another way of really driving us to do\n[07:54.1] more now we have families now we have children and we are role models for our\n[08:01.8] children and other children see that and and I think that's so important well we\n[08:14.4] I mean we found out about it early on actually my dad read about it through\n[08:18.9] one of the the LCI emails or something forward it right immediately forwarded\n[08:25.7] it to me and he's like you know I saw it and and I'm like it's we need to do this\n[08:32.9] we already have three young children they're they're itching for things to do\n[08:38.0] and so you know it was this it was a simple make a make a call set it up and\n[08:44.6] all of a sudden we've got a cup program and it starts with three and they have\n[08:49.9] friends that are when we have friends and all the sudden we've got more\n[08:55.2] families come in and it's a no pressure thing some of the families may not have\n[09:00.6] time to be Lions but they can participate in lines activities they're\n[09:07.4] busy with sports they're busy with family obligations so you know the cup\n[09:13.9] program is you know do what you can and and we and we do things when we can as a\n[09:19.5] group but it's it's nice to have the that kind of family and children\n[09:27.1] bonds shaping helping shape some of the stuff that we do and the kids are have\n[09:32.7] an outlet to to voice you know their ideas and and the cup program\n[09:38.7] listens and the and the Painesville Lions listen to so it's it's really\n[09:44.6] cool these these kids get have some confidence you know built in them\n[10:06.7] we do we're so busy but we make it happen you know we're take you know my\n[10:14.8] wife takes vacation days like for for this safety town we're always we are\n[10:22.8] always every day either talking about something whether it's an idea or a way\n[10:28.9] to do something better or something we need to do we're always talking about\n[10:35.9] some Painesville Lions related ish like event and and so it's it's something\n[10:46.1] that the family does together and we're all part of it so we all have that in\n[10:51.3] common and it's something easy to talk about but most of my mom and dad live\n[10:57.9] are our next-door neighbors my mother-in-law lives with us so we're\n[11:03.6] together all the time anyway so why not be together as Lions yeah what is the\n[11:17.6] best thing about being a lion the best thing thing about being a lion is is\n[11:23.8] being part of the fabric of my community honestly that's after I lived in New\n[11:32.6] York City for some years and and there I really as an adult was made aware of\n[11:41.0] what a community can be I lived in the biggest city in the United States and it\n[11:47.3] felt like a small town on my block and I kind of took that that's always been\n[11:54.5] resonating within me and now that I'm a father you know that's that's what I\n[12:04.7] want to do that's what my I want to see my son I want to see him do want this as\n[12:11.4] well and to be part of the community to make connections to partner with other\n[12:18.5] organizations other organizations have people just like us that just want to\n[12:23.7] make our community better you know in our world better a little a little piece\n[12:30.1] of our world better you know and and the the hearts are big and so that's this\n[12:35.8] being in you know the Lions Club has has allowed me to be to have that\n[12:41.8] experience yeah the future isn't written yet the future of the of the\n[12:52.3] Lions Club on a global level the future of the Lions Club in Painesville isn't\n[12:59.8] written and our members come in new as new members come in they're the ones\n[13:05.4] that are going to shape the future we're going to work together and we're\n[13:10.1] gonna we're gonna listen and we're gonna feed ideas off of each other and and you\n[13:15.7] know things the future is the the present is always changing there are\n[13:21.5] different needs that need to be addressed always and so so you know I\n[13:27.2] guess it's exciting that a little bit of unknown or that freedom to to make\n[13:34.5] things happen and to try new things and to grow in to them you know I've done\n[13:40.3] I've learned that I can do so much just by having having you know this around me\n[13:51.1] being surrounded by a community service organization and and having the drive to\n[13:58.0] just help people in any way that we can and I'm growing as a person because of",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "We have train safety here.",
+    "who": "Ernie Richmann III",
+    "file": "DJI_02_20260609_235016.WAV",
+    "why": "Said right after the three students line."
+   },
+   {
+    "quote": "There's a lot of needs in our country and globally. Maybe I could just help just a little bit.",
+    "who": "Ernie Richmann III",
+    "file": "DJI_02_20260609_235016.WAV",
+    "why": "Leads into “Do what I can do”."
+   },
+   {
+    "quote": "I just think there's a whole lot more besides my own little world.",
+    "who": "Ernie Richmann III",
+    "file": "DJI_02_20260609_235016.WAV",
+    "why": "Why he serves, in his words."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "I just think there's a whole lot more besides my own little world.",
+    "who": "Ernie Richmann III",
+    "file": "DJI_02_20260609_235016.WAV",
+    "why": "Why he serves, in his words."
+   },
+   {
+    "quote": "There's a lot of needs in our country and globally. Maybe I could just help just a little bit.",
+    "who": "Ernie Richmann III",
+    "file": "DJI_02_20260609_235016.WAV",
+    "why": "Leads into “Do what I can do”."
+   },
+   {
+    "quote": "I'm a very happy person. I have a very supportive family, and I think it's great what Lions Clubs are doing.",
+    "who": "Ernie Richmann III",
+    "file": "DJI_02_20260609_235016.WAV",
+    "why": "His Are you happy answer."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "We have train safety here.",
+    "who": "Ernie Richmann III",
+    "file": "DJI_02_20260609_235016.WAV",
+    "why": "Said right after the three students line."
+   },
+   {
+    "quote": "I helped a lot with all these safety town buildings because I'm also pretty handy.",
+    "who": "Ernie Richmann III",
+    "file": "DJI_02_20260609_235016.WAV",
+    "why": "He built the town too."
+   },
+   {
+    "quote": "There's a lot of needs in our country and globally. Maybe I could just help just a little bit.",
+    "who": "Ernie Richmann III",
+    "file": "DJI_02_20260609_235016.WAV",
+    "why": "Leads into “Do what I can do”."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "We have train safety here.",
+    "who": "Ernie Richmann III",
+    "file": "DJI_02_20260609_235016.WAV",
+    "why": "Said right after the three students line."
+   },
+   {
+    "quote": "What binds us together is we just want to serve the community.",
+    "who": "Ernie Richmann III",
+    "file": "DJI_02_20260609_235016.WAV",
+    "why": "What the club is about."
+   },
+   {
+    "quote": "Help when you can. The more people we have, the more people will be available to serve.",
+    "who": "Ernie Richmann III",
+    "file": "DJI_02_20260609_235016.WAV",
+    "why": "His advice, hopeful."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "I helped a lot with all these safety town buildings because I'm also pretty handy.",
+    "who": "Ernie Richmann III",
+    "file": "DJI_02_20260609_235016.WAV",
+    "why": "He built the town too."
+   },
+   {
+    "quote": "We have train safety here.",
+    "who": "Ernie Richmann III",
+    "file": "DJI_02_20260609_235016.WAV",
+    "why": "Said right after the three students line."
+   },
+   {
+    "quote": "I just think there's a whole lot more besides my own little world.",
+    "who": "Ernie Richmann III",
+    "file": "DJI_02_20260609_235016.WAV",
+    "why": "Why he serves, in his words."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "I am happy because Safety Town Week makes me very happy.",
+    "who": "Gena Richmann",
+    "file": "DJI_18_20260609_203948.WAV",
+    "why": "Her Are you happy answer, about Safety Town."
+   },
+   {
+    "quote": "It's just a combination of the city of Painesville coming together, a program that's free.",
+    "who": "Gena Richmann",
+    "file": "DJI_18_20260609_203948.WAV",
+    "why": "The town comes together."
+   },
+   {
+    "quote": "So yeah, Safety Town Week always makes me happy.",
+    "who": "Gena Richmann",
+    "file": "DJI_18_20260609_203948.WAV",
+    "why": "Short, warm."
+   }
+  ],
+  "bite:6": [
+   {
+    "quote": "everything we've been able to to do to pull the safety town together",
+    "who": "Ernie Richmann IV",
+    "file": "DJI_22_20260609_212905.WAV",
+    "why": "The town as a group effort."
+   },
+   {
+    "quote": "we've been very fortunate to have a city that's really come together to make this happen",
+    "who": "Ernie Richmann IV",
+    "file": "DJI_22_20260609_212905.WAV",
+    "why": "The city behind it."
+   },
+   {
+    "quote": "we couldn't do it without anyone involved",
+    "who": "Ernie Richmann IV",
+    "file": "DJI_22_20260609_212905.WAV",
+    "why": "Thanks to everyone, short."
+   },
+   {
+    "quote": "I think that's what it's all about is just making little connections",
+    "who": "Ernie Richmann IV",
+    "file": "DJI_22_20260609_212905.WAV",
+    "why": "Warm, short."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "He made the little train",
+    "line": "The little train, I made that.",
+    "why": "The turn as the hook: lighter, still true."
+   },
+   {
+    "text": "This program is important",
+    "line": "This program is important.",
+    "why": "His own four words."
+   },
+   {
+    "text": "35 years in these schools",
+    "line": "Do what I can do. I taught in Painesville City Schools for 35 years.",
+    "why": "Who he is, first."
+   },
+   {
+    "text": "More than my own little world",
+    "line": "I just think there's a whole lot more besides my own little world.",
+    "why": "Why he serves."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "Lions: much simpler graphics, or none (Jacqui, 8 Oct). This cut has the static hook text, one name super and the Lions end card. B-roll does the work: the empty pretend roads, the bike course, the little train, the town at work, children close.",
+  "devices": [
+   {
+    "row": "00:00–00:05",
+    "device": "Static hook text on his face",
+    "asset": "Hook text “THREE OF HIS STUDENTS DIED”",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "00:05–00:13",
+    "device": "Name super",
+    "asset": "Ernie Richmann III / taught in Painesville 35 years",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "00:13–00:21",
+    "device": "2 B-roll shots, empty town",
+    "asset": "5V0A8801.MP4, 5V0A8803.MP4",
+    "source": "R6ii Broll (Drive)"
+   },
+   {
+    "row": "00:21–00:24",
+    "device": "Hard cut to the bike course",
+    "asset": "5V0A8841.MP4",
+    "source": "R6ii Broll (Drive)"
+   },
+   {
+    "row": "00:24–00:31",
+    "device": "The little train and the crossing",
+    "asset": "5V0A8843.MP4, 5V0A8847.MP4",
+    "source": "R6ii Broll (Drive)"
+   },
+   {
+    "row": "00:31–00:36",
+    "device": "3 wides of the town working",
+    "asset": "5V0A8813.MP4, 5V0A8822.MP4, 5V0A8827.MP4",
+    "source": "R6ii Broll (Drive)"
+   },
+   {
+    "row": "00:36–00:48",
+    "device": "Children close, end on children",
+    "asset": "5V0A8842.MP4, 5V0A8845.MP4",
+    "source": "R6ii Broll (Drive)"
+   },
+   {
+    "row": "00:48–00:53",
+    "device": "End card",
+    "asset": "lions-cta-end-card.mp4",
+    "source": "endcards/lions"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "5V0A8809.MP4",
+    "path": "Painesville Lions Club/Video/R6ii Broll/5V0A8809.MP4",
+    "drive": "17aYicBX5ixf8lz0u_-4wjHQoKIbfF1Wa",
+    "at": null,
+    "dur": 6.5,
+    "cx": 0.45,
+    "what": "Red trikes lined up on the painted road, no people (Doc Assets still).",
+    "frame": null
+   },
+   {
+    "clip": "5V0A8800.MP4",
+    "path": "Painesville Lions Club/Video/R6ii Broll/5V0A8800.MP4",
+    "drive": "1TPIrtjtFQAl_6ELrJ8g32tsOePR69gx8",
+    "at": null,
+    "dur": 13.1,
+    "cx": 0.55,
+    "what": "Two volunteers set up a traffic signal on the painted road (Doc Assets still).",
+    "frame": null
+   },
+   {
+    "clip": "5V0A8810.MP4",
+    "path": "Painesville Lions Club/Video/R6ii Broll/5V0A8810.MP4",
+    "drive": "10HjdB6XGxXthzl90tXkSYdICZHx9nX_Q",
+    "at": null,
+    "dur": 7.6,
+    "cx": 0.5,
+    "what": "Three women volunteers hug and laugh by a door (Doc Assets still).",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "Lions end card",
+    "kind": "end_card",
+    "file": "endcards/lions/lions-cta-end-card.mp4",
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080×1920",
+    "fps": null
+   }
+  ],
+  "new_elements": []
+ }
+}

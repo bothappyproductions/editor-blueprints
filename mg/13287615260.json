@@ -1,0 +1,53 @@
+{
+ "item": "13287615260",
+ "client": "lions",
+ "note": "The script asks for the static hook text and one name super, then the Lions end card. Jacqui wants much simpler graphics, so nothing else.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "upper": true,
+   "text": {
+    "main": "THREE OF HIS STUDENTS DIED"
+   },
+   "cue": "Hook text on frame 1: “THREE OF HIS STUDENTS DIED” Already on screen at 0:00. Does not animate on.",
+   "src": "Script, row 00:00–00:05, Motion graphics & type.",
+   "rows": [
+    "00:00–00:05"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third, white, bold. Nothing else moves under it."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Ernie Richmann III"
+   },
+   "cue": "Name super at 00:06 for 2 s, lower left above the captions: “Ernie Richmann III” / taught in Painesville 35 years.",
+   "src": "Script, row 00:05–00:13, Motion graphics & type.",
+   "rows": [
+    "00:05–00:13"
+   ],
+   "use": "Put it on at 00:06 for 2 s. Move it lower left, above the captions. Type the second line <taught in Painesville 35 years> under the name. Spelling Richmann."
+  },
+  {
+   "n": 3,
+   "title": "Lions end card",
+   "tpl": "end_card",
+   "rows": [
+    "00:48–00:53"
+   ],
+   "cue": "End card only. Nothing added to it.",
+   "src": "Lions' latest end card video (Lions CTA.mp4, sent as the latest Lions end card on Slack, 20 Aug 2026): the Lions emblem on the brand gradient with Find your local club at lionsclubs.org (endcards/index.json).",
+   "file": "endcards/lions/lions-cta-end-card.mp4",
+   "dur": 5.1,
+   "use": "After the last line, at 00:48. Use it exactly as Lions made it and hold it to the last frame. No fade to black."
+  }
+ ]
+}

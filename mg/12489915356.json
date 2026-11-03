@@ -1,0 +1,52 @@
+{
+ "item": "12489915356",
+ "client": "lions",
+ "note": "The script asks for the hook text and one location pin, then the Lions end card. Jacqui wants much simpler graphics, so nothing else.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook question",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Why did you become a Lion?"
+   },
+   "cue": "Top text on frame 1: “Why did you become a Lion?” Already on screen at 0:00. Does not animate on.",
+   "src": "Script, row 00:00–00:04, Motion graphics & type.",
+   "rows": [
+    "00:00–00:04"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third, white, plain."
+  },
+  {
+   "n": 2,
+   "title": "Mexico pin",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "Mexico"
+   },
+   "cue": "Location pin “📍 Mexico” at 00:04–00:06, small, upper left.",
+   "src": "Script, row 00:04–00:09, Motion graphics & type.",
+   "rows": [
+    "00:04–00:09"
+   ],
+   "use": "Put it on at 00:04 and take it off at 00:06. Small, upper left. Add the 📍 pin icon before the word if the tag has none."
+  },
+  {
+   "n": 3,
+   "title": "Lions end card",
+   "tpl": "end_card",
+   "rows": [
+    "00:37–00:42"
+   ],
+   "cue": "End card only. Nothing added to it.",
+   "src": "Lions' latest end card video (Lions CTA.mp4, sent as the latest Lions end card on Slack, 20 Aug 2026): the Lions emblem on the brand gradient with Find your local club at lionsclubs.org (endcards/index.json).",
+   "file": "endcards/lions/lions-cta-end-card.mp4",
+   "dur": 5.1,
+   "use": "After the last line, at 00:37. Use it exactly as Lions made it and hold it to the last frame. No fade to black."
+  }
+ ]
+}
