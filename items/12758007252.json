@@ -1,0 +1,349 @@
+{
+ "id": "12758007252",
+ "client": "segway",
+ "eyebrow": "Segway · Berlin Batch 2 (SOM shoot, Jul–Aug 2026) · TikTok, Segway Germany",
+ "title": "Script 12:",
+ "title_q": "“Walk, or Segway?”",
+ "title_short": "Berlin Batch 2 · Script 12 · Walk, or Segway?",
+ "editor": "Qendrim",
+ "due": "2026-11-04",
+ "format": "9:16 only · 1080×1920",
+ "length": "about 40 s (keep the current cut's length)",
+ "edit_key": "SEGWAYWalkOrSegway001",
+ "headline": "Two friends race across Berlin, one on foot and one on a Segway F3. Mavis asked for three fixes and to keep the rest as it is: one face blurred, the one-handed riding shot out, and only the bottom shot of the split at 0:16.",
+ "story": [
+  "Script 12 of the Berlin Batch 2 TikToks for Segway Germany. The bet: is Berlin faster on foot or on a Segway? The script was written for three people and a car; SOM shot two people and no car, so the cut is walker against rider. German is the master audio and the captions are German.",
+  "<b>Where it stands:</b> Mavis on 27 Oct: <q>I suggest blurring the face of the person in the middle - other than that, you can just keep it as is.</q> On V2 (3 Nov) she asked to remove the shot of the scooter ridden with one hand (0:12) and, at 0:16, to delete the shot above and keep only the one below. Those three fixes are the whole job. Nothing else changes."
+ ],
+ "feel": [
+  "Real",
+  "Light",
+  "Simple",
+  "Modern"
+ ],
+ "do": [
+  "Open cold on 12.1 at 01:20 with the hook text on screen at 0:00.",
+  "Apply Mavis's three fixes: blur the face in the middle, remove the one-handed shot (0:12 of V2), keep only the bottom shot of the split at 0:16.",
+  "Keep everything else as in the current cut.",
+  "German captions, burned in, checked word by word against the audio.",
+  "If the model is named on screen or in the voice, it is the F3 D (the German model)."
+ ],
+ "dont": [
+  "No speed number, speedometer or speed claim anywhere (20 km/h limit in Germany).",
+  "No riding with one hand on screen.",
+  "No driver, no third panel, no parking joke: only two people were shot.",
+  "No novelty or comedy music or stings.",
+  "No logo before the end card. No drone shots."
+ ],
+ "links": {
+  "brief": {
+   "title": "Editor brief (pulse.12758007252)",
+   "url": "https://docs.google.com/document/d/1lRCUBVOrnlYvZv27ad4nOXtmtwEBD38C4mwNa-XX_xw/edit",
+   "note": "Atdhe's brief: shot map, bites, rules. Its underpass hold is about Script 15, not this cut: Mavis closed Script 12 on 27 Oct."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Atdhe owes it. The Batch 2 AV script has no reference video for Script 12."
+  },
+  "footage": {
+   "title": "Raw Footage Drive — Script 12",
+   "url": "https://drive.google.com/drive/folders/1VVjrIDQ2g-p_QhkFdHpyk8RiL-jAINQr",
+   "note": "Eight clips, 12.1 to 12.5, shot by SOM in Berlin with in-camera audio. Nothing else in the shoot belongs to this cut."
+  }
+ },
+ "bp_intro": "Clips are the eight files in the Script 12 folder. There is no machine transcript for them: the German lines come from the Batch 2 AV script and the editor brief, and only two start times are known (12.1 from 01:20 and the 12.2 voice-over from 00:11, logged by SOM in the file names). Timeline times follow the current cut; Mavis's notes point at V2 at 0:12 and 0:16. No frames yet.",
+ "rows": [
+  {
+   "tc": "00:00-00:07",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": "12.1 1:20",
+   "frame_alt": "Frame not pulled yet. SOM's file name: on-camera dialogue at the start point, usable from 1:20. Two people, no car.",
+   "visual": "Open cold on <a href=\"https://drive.google.com/file/d/1yhVlKWZA_eOtnziRJvc8w7ciHQGaA3Qp/view\">12.1 from 1:20 ON CAM dialogue.MOV</a> at <span class=\"mono\">01:20</span> (SOM logged the usable start in the file name). The bet and the <q>Los</q> in one breath: that is the hook. No push-in before it, no logo.",
+   "motion": "Hook text on <b>frame 1</b>: <q>Schneller zu Fuß oder mit dem Segway?</q> Already on screen at 0:00. It does not animate on. Top third. It goes out at 00:03. No logo, no name, no fade.",
+   "voice": {
+    "who": "On camera (12.1)",
+    "quote": "Okay, also eine Sache hab ich mich schon immer gefragt: Ist Berlin schneller zu Fuß oder mit dem Segway? Das testen wir jetzt endlich. Bereit? Los.",
+    "src": "12.1 from 1:20 ON CAM dialogue.MOV 01:20, line runs to the Los (AV script line, no transcript: check every word by ear, end time on scrub)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Restrained, modern bed from frame 1. No novelty or comedy sound.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Okay, also"
+    }
+   ]
+  },
+  {
+   "tc": "00:07-00:12",
+   "beat": "THE START",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": "12.2 start",
+   "frame_alt": "Frame not pulled yet. SOM's file names: the girl walking and the boy riding, filmed for a split screen.",
+   "visual": "Two-up split, as in the current cut: <a href=\"https://drive.google.com/file/d/116XZfjW2zkEiJbb3i--ZoAaWf4blZyeS/view\">12.2 split screen girl walking.MOV</a> (the walker) and <a href=\"https://drive.google.com/file/d/1kPo7jyfWqZd8sbHH1G4kIssECCwYgCCT/view\">12.2 splitscreen boy driving.MOV</a> (the rider). Voice-over from <a href=\"https://drive.google.com/file/d/1SMHYR40sf50HrIC0qTUfnJ6Kh2rIcK3K/view\">12.2 VOICEOVER from 0:11.MOV</a> at <span class=\"mono\">00:11</span>. Two people only: no third panel, no driver. The rider has both hands on the handlebars.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Voice-over (12.2)",
+    "quote": "Ich bin schneller. Nein, ICH bin schneller.",
+    "src": "12.2 VOICEOVER from 0:11.MOV 00:11, end on scrub (line from the editor brief, no transcript: check by ear)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed continues. No sting on the start.",
+   "shots": []
+  },
+  {
+   "tc": "00:12-00:22",
+   "beat": "THE OVERTAKE",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": "12.3",
+   "frame_alt": "Frame not pulled yet. SOM's file names: the walker sweating while the scooter rides by, and the ride filmed from behind.",
+   "visual": "The overtake is the beat the skit exists for. Cut it from <a href=\"https://drive.google.com/file/d/19OIBf8Y-QxUs9-c9LH3PxugAjaGU-vwJ/view\">12.3 walker sweating, scooter driving by.MOV</a> and <a href=\"https://drive.google.com/file/d/1PCgJ1WweoPlV0jnPMrzvIYTJXSN11H7i/view\">12.3 filmed from back .MOV</a> as in the current cut, with Mavis's three notes applied: <b>1.</b> Remove the shot at 0:12 of V2 where the scooter is ridden with one hand (<q>you can't ride one with just one hand</q>). <b>2.</b> At 0:16 of V2 the split shows two shots, one above the other: delete the top one and keep only the bottom one, full frame. <b>3.</b> Blur the face of the person in the middle of the frame, for the whole shot. Every riding shot left in the cut has two hands on the handlebars.",
+   "motion": "Captions only.",
+   "voice": "SOM re-performed this beat on camera in their own German (the AV script line was rejected on set). The words are not written down anywhere: caption exactly what is said. B-roll TBD on scrub for the exact in points.",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed carries the race. No speed sound effects.",
+   "shots": []
+  },
+  {
+   "tc": "00:22-00:30",
+   "beat": "THE ARRIVAL",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": "12.4",
+   "frame_alt": "Frame not pulled yet. SOM's file name: the rider on camera, waiting four minutes.",
+   "visual": "<a href=\"https://drive.google.com/file/d/1sE5wF1fJdWFMWmmzitHKAmtJ6pM8k2Tv/view\">12.4 ON CAM waiting for 4 min.MOV</a>: the rider is seated and waiting when the walker arrives. Keep it as in the current cut.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Rider (12.4)",
+    "quote": "Einer von uns sitzt hier seit vier Minuten.",
+    "src": "12.4 ON CAM waiting for 4 min.MOV, time not logged: find the line on scrub (AV script line; the parking line after it is not used, no driver was shot)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed steady.",
+   "shots": []
+  },
+  {
+   "tc": "00:30-00:36",
+   "beat": "THE BUTTON",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": "12.5",
+   "frame_alt": "Frame not pulled yet. SOM's file name: the ending, on camera.",
+   "visual": "<a href=\"https://drive.google.com/file/d/15WcUMQ8KXtfEJMN4OGtzqjd86xBbGfQL/view\">12.5 ending ON CAM.MOV</a>: the rider toasts the camera. Use the shot audio as it is and caption what is said.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Rider (12.5)",
+    "quote": "Ich lieb euch beide. Aber ich lauf nie wieder.",
+    "src": "12.5 ending ON CAM.MOV, time not logged: find the line on scrub (AV script line; the shot audio may differ, caption what is said)"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed resolves.",
+   "shots": []
+  },
+  {
+   "tc": "00:36-00:39",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "End card at the very end only. If the current cut already ends on the Segway logo, keep it. If not: the Segway name in white on near-black <span class=\"mono\">#0F0F0F</span>. Nothing else on it.",
+   "motion": "No logo before the end card.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music out.",
+   "shots": []
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "AV script",
+   "<a href=\"https://docs.google.com/document/d/1dT9OSsqQwbk-ITlv3G8M45owprz98GFqClnNGDGJFNA/edit\">Segway Script July (Batch 2 AV scripts, Script 12)</a>"
+  ],
+  [
+   "Editor brief",
+   "<a href=\"https://docs.google.com/document/d/1lRCUBVOrnlYvZv27ad4nOXtmtwEBD38C4mwNa-XX_xw/edit\">pulse.12758007252</a>"
+  ],
+  [
+   "Footage folder",
+   "<a href=\"https://drive.google.com/drive/folders/1VVjrIDQ2g-p_QhkFdHpyk8RiL-jAINQr\">Script 12</a>"
+  ],
+  [
+   "Clips",
+   "<a href=\"https://drive.google.com/file/d/1yhVlKWZA_eOtnziRJvc8w7ciHQGaA3Qp/view\">12.1 from 1:20 ON CAM dialogue.MOV</a> · <a href=\"https://drive.google.com/file/d/1kPo7jyfWqZd8sbHH1G4kIssECCwYgCCT/view\">12.2 splitscreen boy driving.MOV</a> · <a href=\"https://drive.google.com/file/d/116XZfjW2zkEiJbb3i--ZoAaWf4blZyeS/view\">12.2 split screen girl walking.MOV</a> · <a href=\"https://drive.google.com/file/d/1SMHYR40sf50HrIC0qTUfnJ6Kh2rIcK3K/view\">12.2 VOICEOVER from 0:11.MOV</a> · <a href=\"https://drive.google.com/file/d/19OIBf8Y-QxUs9-c9LH3PxugAjaGU-vwJ/view\">12.3 walker sweating, scooter driving by.MOV</a> · <a href=\"https://drive.google.com/file/d/1PCgJ1WweoPlV0jnPMrzvIYTJXSN11H7i/view\">12.3 filmed from back .MOV</a> · <a href=\"https://drive.google.com/file/d/1sE5wF1fJdWFMWmmzitHKAmtJ6pM8k2Tv/view\">12.4 ON CAM waiting for 4 min.MOV</a> · <a href=\"https://drive.google.com/file/d/15WcUMQ8KXtfEJMN4OGtzqjd86xBbGfQL/view\">12.5 ending ON CAM.MOV</a>"
+  ],
+  [
+   "Current cut",
+   "<a href=\"https://f.io/6H4LusVE\">V3 on Frame.io</a> · <a href=\"https://drive.google.com/file/d/11vp5J1yzXT259FpO1pYB_jLitTl3O21u/view\">Traditional_SEGWAYWalkOrSegway001-3.mp4</a> (Drive) · Mavis's notes are on <a href=\"https://f.io/6E6pbPhd\">V2</a>"
+  ],
+  [
+   "Brand graphics package",
+   "Segway has no graphics package or logo file with us. MG library colours come from the Segway Germany site; font Inter until Segway sends its own."
+  ],
+  [
+   "Music",
+   "Restrained and modern, licensed. No novelty or comedy stings."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "SOM camera files (.MOV), audio recorded in camera, no lav. Resolution and frame rate are not probed yet: check on import."
+  ],
+  [
+   "Timeline",
+   "1080×1920. Keep the frame rate of the current cut."
+  ],
+  [
+   "Blur",
+   "Track the face of the person in the middle for the whole shot. The blur must hold on every frame."
+  ],
+  [
+   "Audio",
+   "In-camera audio on every clip. German is the master."
+  ],
+  [
+   "Loudness",
+   "-14 LUFS integrated, -1 dBTP peak. Music under the voice."
+  ],
+  [
+   "Captions",
+   "German, burned in, white clean neutral sans (Inter until Segway's font arrives), low in the frame. Every number matches the voice (vier Minuten)."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920, 9:16. Upload to Frame.io with the file name under the title, then Ready for Review."
+  ]
+ ],
+ "checklist": [
+  "Frame 1 is 12.1 at 01:20 with the hook text already on screen. No logo, name or fade.",
+  "The one-handed riding shot from 0:12 of V2 is gone.",
+  "At 0:16 only the bottom shot of the split is left, full frame.",
+  "The face of the person in the middle is blurred on every frame of the shot.",
+  "Every riding shot has two hands on the handlebars.",
+  "No speed number, speedometer or speed claim.",
+  "German captions match the audio word for word.",
+  "No driver, no third panel, no parking line.",
+  "The file is 9:16, 1080×1920."
+ ],
+ "decisions": [
+  {
+   "t": "Mavis's note at 0:16",
+   "b": "Mavis wrote at 0:16 of V2: “Delete the above and keep only the one below.” This plan reads it as the split screen: drop the top shot, keep the bottom one. If she meant her own comment above it, only the one-handed shot at 0:12 comes out. Atdhe: confirm with Mavis if unsure."
+  },
+  {
+   "t": "German lines and captions",
+   "b": "There is no transcript of the Script 12 clips, so the lines here are the script's and caption timing cannot be built. Someone who speaks German checks the captions against the audio, or the clips get transcribed on the Mac."
+  },
+  {
+   "t": "End card",
+   "b": "Segway has not given us a logo file or end card. If the current cut has none, the plan types the Segway name. Atdhe: ask Mavis for the logo or confirm no end card."
+  },
+  {
+   "t": "Reference",
+   "b": "No visual reference for Script 12. Atdhe owns it."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> the Segway Germany team checks legality and German closely. Mavis has closed this script with three small fixes, so the job is exact fixes, not a re-edit.",
+ "ask_examples": [
+  "Which shot is the one-handed one?",
+  "What does Mavis mean at 0:16?",
+  "Whose face gets blurred?",
+  "Can I show the speed?"
+ ],
+ "transcript": "--- 12.1 from 1:20 ON CAM dialogue.MOV (no machine transcript; AV script line, check by ear) ---\n[01:20] Okay, also eine Sache hab ich mich schon immer gefragt: Ist Berlin schneller zu Fuß oder mit dem Segway? Das testen wir jetzt endlich. Bereit? Los.\n--- 12.2 VOICEOVER from 0:11.MOV (no machine transcript; line from the editor brief, check by ear) ---\n[00:11] Ich bin schneller. Nein, ICH bin schneller.\n--- 12.3 filmed from back .MOV (SOM re-performed this beat on camera in their own German; nothing is written down) ---\n(no lines on file: transcribe on scrub)\n--- 12.4 ON CAM waiting for 4 min.MOV (no machine transcript; AV script line, time not logged) ---\nEiner von uns sitzt hier seit vier Minuten. [do not use: Einer von uns parkt immer noch. No driver was shot.]\n--- 12.5 ending ON CAM.MOV (no machine transcript; AV script line, time not logged; the shot audio may differ) ---\nIch lieb euch beide. Aber ich lauf nie wieder.\n(do not use anything after this point)",
+ "alts": {
+  "bite:0": [],
+  "bite:1": [],
+  "bite:3": [],
+  "bite:4": [],
+  "hook:0": [
+   {
+    "text": "Schneller zu Fuß oder mit dem Segway?",
+    "line": "Ist Berlin schneller zu Fuß oder mit dem Segway?",
+    "why": "The bet itself, six words."
+   },
+   {
+    "text": "Zu Fuß oder Segway?",
+    "line": "Ist Berlin schneller zu Fuß oder mit dem Segway?",
+    "why": "Shorter, four words."
+   },
+   {
+    "text": "Ich bin schneller.",
+    "line": "Ich bin schneller. Nein, ICH bin schneller.",
+    "why": "Opens on the rivalry."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "Segway wants it simple and believable. The client asked to keep this cut as it is apart from three fixes, so nothing new is added: the hook text on frame 1, German captions, and the end card at the very end only. No speed numbers anywhere.",
+  "devices": [
+   {
+    "row": "00:00-00:07",
+    "device": "Hook text, static, top third",
+    "asset": "highlight_callout (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:07-00:12",
+    "device": "Two-up split screen, walker and rider",
+    "asset": "12.2 girl walking + 12.2 boy driving",
+    "source": "Script 12 folder (SOM)"
+   },
+   {
+    "row": "00:12-00:22",
+    "device": "Face blur on the person in the middle; one-handed shot removed; bottom shot only at 0:16",
+    "asset": "12.3 clips",
+    "source": "Script 12 folder (SOM); Mavis's notes"
+   },
+   {
+    "row": "00:36-00:39",
+    "device": "End card, name typed if the cut has no logo",
+    "asset": "end_card (MG library)",
+    "source": "Name typed; no Segway logo in the repo yet"
+   }
+  ],
+  "broll_pool": [],
+  "elements": [
+   {
+    "name": "Hook text (top third)",
+    "kind": "text",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   },
+   {
+    "name": "End card, name typed",
+    "kind": "end_card",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": [
+   {
+    "name": "Segway graphics package",
+    "kind": "package",
+    "note": "Segway has no graphics package, design system or logo file with us. Colours here are from the Segway Germany site; the font is Inter until Segway sends its own."
+   }
+  ]
+ }
+}

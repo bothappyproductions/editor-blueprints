@@ -1,0 +1,42 @@
+{
+ "item": "12758007252",
+ "client": "segway",
+ "note": "The script asks for one graphic, the hook text on frame 1, and the end card. Every other row is captions only: the client asked to keep the cut as it is apart from three fixes. Segway has not sent a logo file, so the end card types the name.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Schneller zu Fuß oder mit dem Segway?"
+   },
+   "cue": "Hook text on frame 1: Schneller zu Fuß oder mit dem Segway? Already on screen at 0:00. It does not animate on.",
+   "src": "Script, row 00:00-00:07, Motion graphics & type.",
+   "rows": [
+    "00:00-00:07"
+   ],
+   "use": "Hook text in the top third, already on screen at 0:00. Start the clip at frame 0045 (fully on) and hold it until 00:03. If the current cut already has these words on frame 1, keep the cut's version."
+  },
+  {
+   "n": 2,
+   "title": "End card",
+   "tpl": "end_card",
+   "dur": 3,
+   "rows": [
+    "00:36-00:39"
+   ],
+   "cue": "End card at the very end only: the Segway name in white on near-black #0F0F0F.",
+   "src": "No Segway logo or end card file in the repo; Segway has not sent one. The name is typed until it arrives. Colours from the Segway Germany site (de-de.segway.com), read 3 Nov 2026.",
+   "c": {
+    "bg": "#0F0F0F",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "Segway"
+   },
+   "use": "At the very end, from 00:36 for 3 seconds. Use it only if the current cut does not already end on the Segway logo."
+  }
+ ]
+}

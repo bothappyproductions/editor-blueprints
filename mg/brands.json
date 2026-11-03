@@ -859,5 +859,97 @@
     "#EAF1FF"
    ]
   ]
+ },
+ "navy-seal-foundation": {
+  "google": "Oswald:wght@500;600;700|Open+Sans:wght@600;700",
+  "head": {
+   "css": "\"Oswald\"",
+   "w": 600
+  },
+  "body": {
+   "css": "\"Open Sans\"",
+   "w": 700
+  },
+  "pal": {
+   "bg": "#003C69",
+   "fg": "#FFFFFF",
+   "ac": "#F0AB00",
+   "ac2": "#0B2D49",
+   "onAc": "#0B2D49"
+  },
+  "font_note": "Oswald and Open Sans, the fonts on navysealfoundation.org (client file). Colours from the site theme and NSF-Logo.svg (client file, mined 7 Jul 2026).",
+  "rules": [
+   "Always “the Navy SEAL Foundation”. SEAL in capitals, singular.",
+   "No logo before the end card. No one in uniform.",
+   "Gold for accents only, never body text on white."
+  ],
+  "colors": [
+   [
+    "NSF blue",
+    "#003C69"
+   ],
+   [
+    "NSF gold",
+    "#F0AB00"
+   ],
+   [
+    "Dark navy",
+    "#0B2D49"
+   ],
+   [
+    "Link blue",
+    "#0075B0"
+   ],
+   [
+    "Paper",
+    "#F5F4F0"
+   ],
+   [
+    "Text",
+    "#24282D"
+   ]
+  ]
+ },
+ "segway": {
+  "google": "Inter:wght@500;600;700;800",
+  "head": {
+   "css": "\"Inter\"",
+   "w": 800
+  },
+  "body": {
+   "css": "\"Inter\"",
+   "w": 600
+  },
+  "pal": {
+   "bg": "#0F0F0F",
+   "fg": "#FFFFFF",
+   "ac": "#F30000",
+   "ac2": "#86868B",
+   "onAc": "#FFFFFF"
+  },
+  "font_note": "Segway's brand font is not on file (asked from Mavis Chen) and the site font MiSans is not on Google Fonts, so these use Inter, a clean neutral sans. Colours from the Segway Germany site stylesheet (de-de.segway.com), read 3 Nov 2026.",
+  "rules": [
+   "No speed numbers anywhere.",
+   "German on screen, checked word by word.",
+   "Segway, Ninebot, Segway-Ninebot spelled exactly."
+  ],
+  "colors": [
+   [
+    "Segway red",
+    "#F30000"
+   ],
+   [
+    "Near black",
+    "#0F0F0F"
+   ],
+   [
+    "Dark red",
+    "#C40001"
+   ],
+   [
+    "Grey",
+    "#86868B"
+   ]
+  ]
  }
 }

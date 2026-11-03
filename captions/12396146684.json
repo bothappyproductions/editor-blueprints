@@ -1,0 +1,1529 @@
+{
+ "item": "12396146684",
+ "client": "navy-seal-foundation",
+ "style": {
+  "font": {
+   "css": "\"Open Sans\"",
+   "w": 700
+  },
+  "size": 62,
+  "y": 1360,
+  "max_lines": 1,
+  "reveal": "phrase",
+  "fg": "#FFFFFF",
+  "shadow": false,
+  "box": {
+   "bg": "#003C69",
+   "r": 10
+  }
+ },
+ "note": "White Open Sans Bold on the NSF blue box #003C69, low in the frame, one line at a time (the caption pairing in the NSF client file). Timed from the word times in the shoot's output.json. SEAL in capitals and singular; always “the Navy SEAL Foundation”. Word times can drift: check by ear. The hook has one short track per face (one word each). The sung anthem (00:17-00:21) has no captions. Tracks with joined ranges follow the cuts in the plan; trim the track where you trim the cut.",
+ "tracks": [
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:00-00:04"
+   ],
+   "beat": "HOOK",
+   "title": "Hook",
+   "clip": "2026-06-25_NSF_SanctuaryGolfClassic_Interview17",
+   "start": 25.15,
+   "src": "2026-06-25_NSF_SanctuaryGolfClassic_Interview17 00:25.1",
+   "dur": 1.08,
+   "words": [
+    {
+     "w": "Phenomenal",
+     "t0": 0.15,
+     "t1": 0.63,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 0,
+     "t0": 0.1,
+     "t1": 0.98
+    }
+   ],
+   "text": "Phenomenal",
+   "n": 1
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:00-00:04"
+   ],
+   "beat": "HOOK",
+   "title": "Hook",
+   "clip": "2026-06-25_NSF_SanctuaryGolfClassic_Interview12",
+   "start": 41.87,
+   "src": "2026-06-25_NSF_SanctuaryGolfClassic_Interview12 00:41.9",
+   "dur": 1.56,
+   "words": [
+    {
+     "w": "Integrity.",
+     "t0": 0.15,
+     "t1": 1.11,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 0,
+     "t0": 0.1,
+     "t1": 1.46
+    }
+   ],
+   "text": "Integrity.",
+   "n": 2
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:00-00:04"
+   ],
+   "beat": "HOOK",
+   "title": "Hook",
+   "clip": "2026-06-25_NSF_SanctuaryGolfClassic_Interview13",
+   "start": 53.83,
+   "src": "2026-06-25_NSF_SanctuaryGolfClassic_Interview13 00:53.8",
+   "dur": 0.62,
+   "words": [
+    {
+     "w": "Special.",
+     "t0": 0.15,
+     "t1": 0.17,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 0,
+     "t0": 0.1,
+     "t1": 0.52
+    }
+   ],
+   "text": "Special.",
+   "n": 3
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:00-00:04"
+   ],
+   "beat": "HOOK",
+   "title": "Hook",
+   "clip": "2026-06-25_NSF_SanctuaryGolfClassic_Interview14",
+   "start": 49.45,
+   "src": "2026-06-25_NSF_SanctuaryGolfClassic_Interview14 00:49.5",
+   "dur": 0.94,
+   "words": [
+    {
+     "w": "Incredible.",
+     "t0": 0.15,
+     "t1": 0.49,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 0,
+     "t0": 0.1,
+     "t1": 0.84
+    }
+   ],
+   "text": "Incredible.",
+   "n": 4
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:00-00:04"
+   ],
+   "beat": "HOOK",
+   "title": "Hook",
+   "clip": "2026-06-25_NSF_SanctuaryGolfClassic_Interview9",
+   "start": 29.97,
+   "src": "2026-06-25_NSF_SanctuaryGolfClassic_Interview9 00:30.0",
+   "dur": 1.0,
+   "words": [
+    {
+     "w": "Patriotic",
+     "t0": 0.15,
+     "t1": 0.55,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 0,
+     "t0": 0.1,
+     "t1": 0.9
+    }
+   ],
+   "text": "Patriotic",
+   "n": 5
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:04-00:07"
+   ],
+   "beat": "THE QUESTION",
+   "title": "The Question",
+   "clip": "2026-06-25_NSF_SanctuaryGolfClassic_Interview16",
+   "start": 25.5,
+   "src": "2026-06-25_NSF_SanctuaryGolfClassic_Interview16 00:25.5",
+   "dur": 3.38,
+   "words": [
+    {
+     "w": "Can",
+     "t0": 0.15,
+     "t1": 0.17,
+     "e": 0
+    },
+    {
+     "w": "you",
+     "t0": 0.17,
+     "t1": 0.23,
+     "e": 0
+    },
+    {
+     "w": "describe",
+     "t0": 0.23,
+     "t1": 0.41,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 0.41,
+     "t1": 0.71,
+     "e": 0
+    },
+    {
+     "w": "Navy",
+     "t0": 0.71,
+     "t1": 0.85,
+     "e": 0
+    },
+    {
+     "w": "SEAL",
+     "t0": 0.85,
+     "t1": 1.25,
+     "e": 0
+    },
+    {
+     "w": "Foundation",
+     "t0": 1.25,
+     "t1": 1.41,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 1.41,
+     "t1": 1.97,
+     "e": 0
+    },
+    {
+     "w": "one",
+     "t0": 1.97,
+     "t1": 2.15,
+     "e": 0
+    },
+    {
+     "w": "word",
+     "t0": 2.15,
+     "t1": 2.37,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 2.37,
+     "t1": 2.73,
+     "e": 0
+    },
+    {
+     "w": "why?",
+     "t0": 2.73,
+     "t1": 2.93,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 2,
+     "t0": 0.1,
+     "t1": 0.4
+    },
+    {
+     "a": 3,
+     "b": 6,
+     "t0": 0.4,
+     "t1": 1.36
+    },
+    {
+     "a": 7,
+     "b": 11,
+     "t0": 1.36,
+     "t1": 3.28
+    }
+   ],
+   "text": "Can you describe the Navy SEAL Foundation in one word and why?",
+   "n": 6
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:07-00:10"
+   ],
+   "beat": "FAMILY",
+   "title": "Family",
+   "clip": "2026-06-25_NSF_SanctuaryGolfClassic_Interview1",
+   "start": 49.9,
+   "src": "2026-06-25_NSF_SanctuaryGolfClassic_Interview1 00:49.9",
+   "dur": 3.48,
+   "words": [
+    {
+     "w": "for",
+     "t0": 0.15,
+     "t1": 0.27,
+     "e": 0
+    },
+    {
+     "w": "me",
+     "t0": 0.27,
+     "t1": 0.41,
+     "e": 0
+    },
+    {
+     "w": "it's",
+     "t0": 0.41,
+     "t1": 0.67,
+     "e": 0
+    },
+    {
+     "w": "family.",
+     "t0": 0.67,
+     "t1": 0.79,
+     "e": 0
+    },
+    {
+     "w": "This",
+     "t0": 1.21,
+     "t1": 2.13,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 2.13,
+     "t1": 2.25,
+     "e": 0
+    },
+    {
+     "w": "my",
+     "t0": 2.25,
+     "t1": 2.41,
+     "e": 0
+    },
+    {
+     "w": "extended",
+     "t0": 2.41,
+     "t1": 2.63,
+     "e": 0
+    },
+    {
+     "w": "family.",
+     "t0": 2.63,
+     "t1": 3.03,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 3,
+     "t0": 0.1,
+     "t1": 1.16
+    },
+    {
+     "a": 4,
+     "b": 8,
+     "t0": 1.16,
+     "t1": 3.38
+    }
+   ],
+   "text": "for me it's family. This is my extended family.",
+   "n": 7
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:10-00:17"
+   ],
+   "beat": "IMPACT",
+   "title": "Impact",
+   "clip": "2026-06-25_NSF_SanctuaryGolfClassic_Interview15",
+   "start": 17.65,
+   "src": "2026-06-25_NSF_SanctuaryGolfClassic_Interview15 00:17.6",
+   "dur": 7.44,
+   "words": [
+    {
+     "w": "Impactful",
+     "t0": 0.15,
+     "t1": 0.57,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 0.57,
+     "t1": 1.61,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 1.61,
+     "t1": 2.03,
+     "e": 0
+    },
+    {
+     "w": "would",
+     "t0": 2.03,
+     "t1": 2.23,
+     "e": 0
+    },
+    {
+     "w": "say",
+     "t0": 2.23,
+     "t1": 2.43,
+     "e": 0
+    },
+    {
+     "w": "it",
+     "t0": 2.43,
+     "t1": 2.79,
+     "e": 0
+    },
+    {
+     "w": "impacts",
+     "t0": 2.79,
+     "t1": 3.03,
+     "e": 0
+    },
+    {
+     "w": "families,",
+     "t0": 3.03,
+     "t1": 3.35,
+     "e": 0
+    },
+    {
+     "w": "it",
+     "t0": 3.73,
+     "t1": 3.83,
+     "e": 0
+    },
+    {
+     "w": "impacts",
+     "t0": 3.83,
+     "t1": 4.03,
+     "e": 0
+    },
+    {
+     "w": "volunteers,",
+     "t0": 4.03,
+     "t1": 4.33,
+     "e": 0
+    },
+    {
+     "w": "it",
+     "t0": 4.85,
+     "t1": 5.31,
+     "e": 0
+    },
+    {
+     "w": "really",
+     "t0": 5.31,
+     "t1": 5.53,
+     "e": 0
+    },
+    {
+     "w": "just",
+     "t0": 5.53,
+     "t1": 5.69,
+     "e": 0
+    },
+    {
+     "w": "impacts",
+     "t0": 5.69,
+     "t1": 5.87,
+     "e": 0
+    },
+    {
+     "w": "anybody",
+     "t0": 6.07,
+     "t1": 6.21,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 6.21,
+     "t1": 6.65,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 6.65,
+     "t1": 6.79,
+     "e": 0
+    },
+    {
+     "w": "involved.",
+     "t0": 6.79,
+     "t1": 6.99,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 3,
+     "t0": 0.1,
+     "t1": 2.18
+    },
+    {
+     "a": 4,
+     "b": 7,
+     "t0": 2.18,
+     "t1": 3.68
+    },
+    {
+     "a": 8,
+     "b": 10,
+     "t0": 3.68,
+     "t1": 4.8
+    },
+    {
+     "a": 11,
+     "b": 15,
+     "t0": 4.8,
+     "t1": 6.16
+    },
+    {
+     "a": 16,
+     "b": 18,
+     "t0": 6.16,
+     "t1": 7.34
+    }
+   ],
+   "text": "Impactful and I would say it impacts families, it impacts volunteers, it really just impacts anybody that is involved.",
+   "n": 8
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:21-00:28"
+   ],
+   "beat": "ON THE COURSE",
+   "title": "On The Course",
+   "clip": "2026-06-25_NSF_SanctuaryGolfClassic_Interview13",
+   "start": 59.21,
+   "src": "2026-06-25_NSF_SanctuaryGolfClassic_Interview13 00:59.2 (00:59.2–01:00.7 + 01:03.4–01:08.5 joined)",
+   "dur": 6.86,
+   "words": [
+    {
+     "w": "I",
+     "t0": 0.15,
+     "t1": 0.39,
+     "e": 0
+    },
+    {
+     "w": "think",
+     "t0": 0.39,
+     "t1": 0.53,
+     "e": 0
+    },
+    {
+     "w": "it's",
+     "t0": 0.53,
+     "t1": 0.69,
+     "e": 0
+    },
+    {
+     "w": "special",
+     "t0": 0.69,
+     "t1": 0.79,
+     "e": 0
+    },
+    {
+     "w": "because",
+     "t0": 0.79,
+     "t1": 1.13,
+     "e": 0
+    },
+    {
+     "w": "we're",
+     "t0": 1.13,
+     "t1": 2.34,
+     "e": 0
+    },
+    {
+     "w": "helping",
+     "t0": 1.61,
+     "t1": 1.75,
+     "e": 0
+    },
+    {
+     "w": "those",
+     "t0": 1.75,
+     "t1": 2.45,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 2.45,
+     "t1": 2.81,
+     "e": 0
+    },
+    {
+     "w": "do",
+     "t0": 2.81,
+     "t1": 3.03,
+     "e": 0
+    },
+    {
+     "w": "things",
+     "t0": 3.03,
+     "t1": 3.23,
+     "e": 0
+    },
+    {
+     "w": "for",
+     "t0": 3.23,
+     "t1": 3.49,
+     "e": 0
+    },
+    {
+     "w": "us",
+     "t0": 3.49,
+     "t1": 3.65,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 3.65,
+     "t1": 3.99,
+     "e": 0
+    },
+    {
+     "w": "we",
+     "t0": 3.99,
+     "t1": 4.21,
+     "e": 0
+    },
+    {
+     "w": "maybe",
+     "t0": 4.21,
+     "t1": 4.47,
+     "e": 0
+    },
+    {
+     "w": "can't",
+     "t0": 4.47,
+     "t1": 4.91,
+     "e": 0
+    },
+    {
+     "w": "do,",
+     "t0": 4.91,
+     "t1": 5.05,
+     "e": 0
+    },
+    {
+     "w": "so",
+     "t0": 5.31,
+     "t1": 5.57,
+     "e": 0
+    },
+    {
+     "w": "that's",
+     "t0": 5.57,
+     "t1": 6.03,
+     "e": 0
+    },
+    {
+     "w": "why",
+     "t0": 6.03,
+     "t1": 6.09,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 6.09,
+     "t1": 6.19,
+     "e": 0
+    },
+    {
+     "w": "like",
+     "t0": 6.19,
+     "t1": 6.29,
+     "e": 0
+    },
+    {
+     "w": "it.",
+     "t0": 6.29,
+     "t1": 6.41,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 3,
+     "t0": 0.1,
+     "t1": 0.74
+    },
+    {
+     "a": 4,
+     "b": 6,
+     "t0": 0.74,
+     "t1": 1.7
+    },
+    {
+     "a": 7,
+     "b": 10,
+     "t0": 1.7,
+     "t1": 3.18
+    },
+    {
+     "a": 11,
+     "b": 15,
+     "t0": 3.18,
+     "t1": 4.42
+    },
+    {
+     "a": 16,
+     "b": 20,
+     "t0": 4.42,
+     "t1": 6.04
+    },
+    {
+     "a": 21,
+     "b": 23,
+     "t0": 6.04,
+     "t1": 6.76
+    }
+   ],
+   "text": "I think it's special because we're helping those that do things for us that we maybe can't do, so that's why I like it.",
+   "n": 9
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:28-00:31"
+   ],
+   "beat": "SECOND QUESTION",
+   "title": "Second Question",
+   "clip": "2026-06-25_NSF_SanctuaryGolfClassic_Interview1",
+   "start": 61.12,
+   "src": "2026-06-25_NSF_SanctuaryGolfClassic_Interview1 01:01.1",
+   "dur": 3.3,
+   "words": [
+    {
+     "w": "What",
+     "t0": 0.15,
+     "t1": 1.73,
+     "e": 0
+    },
+    {
+     "w": "kind",
+     "t0": 1.73,
+     "t1": 1.91,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 1.91,
+     "t1": 2.07,
+     "e": 0
+    },
+    {
+     "w": "support",
+     "t0": 2.07,
+     "t1": 2.23,
+     "e": 0
+    },
+    {
+     "w": "do",
+     "t0": 2.23,
+     "t1": 2.57,
+     "e": 0
+    },
+    {
+     "w": "they",
+     "t0": 2.57,
+     "t1": 2.69,
+     "e": 0
+    },
+    {
+     "w": "provide?",
+     "t0": 2.69,
+     "t1": 2.85,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 4,
+     "t0": 0.1,
+     "t1": 2.52
+    },
+    {
+     "a": 5,
+     "b": 6,
+     "t0": 2.52,
+     "t1": 3.2
+    }
+   ],
+   "text": "What kind of support do they provide?",
+   "n": 10
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:31-00:42"
+   ],
+   "beat": "THE SUPPORT",
+   "title": "The Support",
+   "clip": "2026-06-25_NSF_SanctuaryGolfClassic_Interview1",
+   "start": 66.32,
+   "src": "2026-06-25_NSF_SanctuaryGolfClassic_Interview1 01:06.3",
+   "dur": 11.3,
+   "words": [
+    {
+     "w": "caring",
+     "t0": 0.15,
+     "t1": 0.71,
+     "e": 0
+    },
+    {
+     "w": "for",
+     "t0": 0.71,
+     "t1": 1.07,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 1.07,
+     "t1": 2.15,
+     "e": 0
+    },
+    {
+     "w": "families",
+     "t0": 2.15,
+     "t1": 2.33,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 2.33,
+     "t1": 2.65,
+     "e": 0
+    },
+    {
+     "w": "our",
+     "t0": 2.65,
+     "t1": 2.77,
+     "e": 0
+    },
+    {
+     "w": "fallen",
+     "t0": 2.77,
+     "t1": 2.93,
+     "e": 0
+    },
+    {
+     "w": "teammates,",
+     "t0": 2.95,
+     "t1": 3.25,
+     "e": 0
+    },
+    {
+     "w": "scholarship",
+     "t0": 3.93,
+     "t1": 4.75,
+     "e": 0
+    },
+    {
+     "w": "programs,",
+     "t0": 4.75,
+     "t1": 5.35,
+     "e": 0
+    },
+    {
+     "w": "summer",
+     "t0": 6.05,
+     "t1": 6.47,
+     "e": 0
+    },
+    {
+     "w": "camps",
+     "t0": 6.47,
+     "t1": 6.77,
+     "e": 0
+    },
+    {
+     "w": "for",
+     "t0": 6.95,
+     "t1": 7.09,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 7.09,
+     "t1": 7.25,
+     "e": 0
+    },
+    {
+     "w": "kids,",
+     "t0": 7.25,
+     "t1": 7.39,
+     "e": 0
+    },
+    {
+     "w": "emergency",
+     "t0": 7.83,
+     "t1": 8.99,
+     "e": 0
+    },
+    {
+     "w": "assistance",
+     "t0": 8.99,
+     "t1": 9.61,
+     "e": 0
+    },
+    {
+     "w": "for",
+     "t0": 9.61,
+     "t1": 10.07,
+     "e": 0
+    },
+    {
+     "w": "families",
+     "t0": 10.07,
+     "t1": 10.27,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 10.27,
+     "t1": 10.67,
+     "e": 0
+    },
+    {
+     "w": "need,",
+     "t0": 10.67,
+     "t1": 10.85,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 3,
+     "t0": 0.1,
+     "t1": 2.28
+    },
+    {
+     "a": 4,
+     "b": 7,
+     "t0": 2.28,
+     "t1": 3.88
+    },
+    {
+     "a": 8,
+     "b": 9,
+     "t0": 3.88,
+     "t1": 6.0
+    },
+    {
+     "a": 10,
+     "b": 11,
+     "t0": 6.0,
+     "t1": 6.9
+    },
+    {
+     "a": 12,
+     "b": 14,
+     "t0": 6.9,
+     "t1": 7.78
+    },
+    {
+     "a": 15,
+     "b": 16,
+     "t0": 7.78,
+     "t1": 9.56
+    },
+    {
+     "a": 17,
+     "b": 20,
+     "t0": 9.56,
+     "t1": 11.2
+    }
+   ],
+   "text": "caring for the families of our fallen teammates, scholarship programs, summer camps for the kids, emergency assistance for families in need,",
+   "n": 11
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:42-00:55"
+   ],
+   "beat": "THE TOAST",
+   "title": "The Toast",
+   "clip": "IMG_5288.MOV",
+   "start": 28.47,
+   "src": "IMG_5288.MOV 00:28.5",
+   "dur": 13.03,
+   "words": [
+    {
+     "w": "So",
+     "t0": 0.15,
+     "t1": 0.47,
+     "e": 0
+    },
+    {
+     "w": "today,",
+     "t0": 0.47,
+     "t1": 0.67,
+     "e": 0
+    },
+    {
+     "w": "let",
+     "t0": 0.95,
+     "t1": 1.05,
+     "e": 0
+    },
+    {
+     "w": "us",
+     "t0": 1.05,
+     "t1": 1.19,
+     "e": 0
+    },
+    {
+     "w": "not",
+     "t0": 1.19,
+     "t1": 1.31,
+     "e": 0
+    },
+    {
+     "w": "mourn",
+     "t0": 1.31,
+     "t1": 1.79,
+     "e": 0
+    },
+    {
+     "w": "their",
+     "t0": 1.79,
+     "t1": 1.95,
+     "e": 0
+    },
+    {
+     "w": "death,",
+     "t0": 1.95,
+     "t1": 2.13,
+     "e": 0
+    },
+    {
+     "w": "but",
+     "t0": 2.15,
+     "t1": 2.43,
+     "e": 0
+    },
+    {
+     "w": "celebrate",
+     "t0": 2.43,
+     "t1": 2.63,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 2.63,
+     "t1": 3.19,
+     "e": 0
+    },
+    {
+     "w": "such",
+     "t0": 3.19,
+     "t1": 3.35,
+     "e": 0
+    },
+    {
+     "w": "extraordinary",
+     "t0": 3.35,
+     "t1": 3.69,
+     "e": 0
+    },
+    {
+     "w": "teammates",
+     "t0": 3.69,
+     "t1": 4.43,
+     "e": 0
+    },
+    {
+     "w": "ever",
+     "t0": 4.43,
+     "t1": 5.47,
+     "e": 0
+    },
+    {
+     "w": "lived",
+     "t0": 5.47,
+     "t1": 5.79,
+     "e": 0
+    },
+    {
+     "w": "among",
+     "t0": 5.79,
+     "t1": 6.09,
+     "e": 0
+    },
+    {
+     "w": "us.",
+     "t0": 6.09,
+     "t1": 6.33,
+     "e": 0
+    },
+    {
+     "w": "To",
+     "t0": 8.23,
+     "t1": 8.25,
+     "e": 0
+    },
+    {
+     "w": "our",
+     "t0": 8.25,
+     "t1": 8.37,
+     "e": 0
+    },
+    {
+     "w": "fallen",
+     "t0": 8.37,
+     "t1": 8.51,
+     "e": 0
+    },
+    {
+     "w": "teammates,",
+     "t0": 8.51,
+     "t1": 8.89,
+     "e": 0
+    },
+    {
+     "w": "may",
+     "t0": 9.41,
+     "t1": 10.01,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 10.7,
+     "t1": 10.84,
+     "e": 0
+    },
+    {
+     "w": "Lord",
+     "t0": 10.84,
+     "t1": 11.12,
+     "e": 0
+    },
+    {
+     "w": "bless",
+     "t0": 11.12,
+     "t1": 11.76,
+     "e": 0
+    },
+    {
+     "w": "you",
+     "t0": 11.76,
+     "t1": 12.08,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 12.08,
+     "t1": 12.22,
+     "e": 0
+    },
+    {
+     "w": "keep",
+     "t0": 12.22,
+     "t1": 12.36,
+     "e": 0
+    },
+    {
+     "w": "you.",
+     "t0": 12.36,
+     "t1": 12.58,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 4,
+     "t0": 0.1,
+     "t1": 1.26
+    },
+    {
+     "a": 5,
+     "b": 7,
+     "t0": 1.26,
+     "t1": 2.1
+    },
+    {
+     "a": 8,
+     "b": 11,
+     "t0": 2.1,
+     "t1": 3.3
+    },
+    {
+     "a": 12,
+     "b": 13,
+     "t0": 3.3,
+     "t1": 4.38
+    },
+    {
+     "a": 14,
+     "b": 17,
+     "t0": 4.38,
+     "t1": 8.18
+    },
+    {
+     "a": 18,
+     "b": 21,
+     "t0": 8.18,
+     "t1": 9.36
+    },
+    {
+     "a": 22,
+     "b": 26,
+     "t0": 9.36,
+     "t1": 12.03
+    },
+    {
+     "a": 27,
+     "b": 29,
+     "t0": 12.03,
+     "t1": 12.93
+    }
+   ],
+   "text": "So today, let us not mourn their death, but celebrate that such extraordinary teammates ever lived among us. To our fallen teammates, may the Lord bless you and keep you.",
+   "n": 12
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:55-01:06"
+   ],
+   "beat": "NEVER GIVE UP",
+   "title": "Never Give Up",
+   "clip": "2026-06-25_NSF_SanctuaryGolfClassic_Interview17",
+   "start": 127.33,
+   "src": "2026-06-25_NSF_SanctuaryGolfClassic_Interview17 02:07.3 (02:07.3–02:10.9 + 02:13.8–02:18.5 + 02:25.7–02:28.6 joined)",
+   "dur": 11.43,
+   "words": [
+    {
+     "w": "So",
+     "t0": 0.15,
+     "t1": 0.45,
+     "e": 0
+    },
+    {
+     "w": "just",
+     "t0": 0.45,
+     "t1": 0.87,
+     "e": 0
+    },
+    {
+     "w": "keep",
+     "t0": 0.87,
+     "t1": 1.39,
+     "e": 0
+    },
+    {
+     "w": "going,",
+     "t0": 1.39,
+     "t1": 1.61,
+     "e": 0
+    },
+    {
+     "w": "don't",
+     "t0": 1.61,
+     "t1": 1.99,
+     "e": 0
+    },
+    {
+     "w": "give",
+     "t0": 1.99,
+     "t1": 2.07,
+     "e": 0
+    },
+    {
+     "w": "up",
+     "t0": 2.07,
+     "t1": 2.21,
+     "e": 0
+    },
+    {
+     "w": "when",
+     "t0": 2.21,
+     "t1": 2.53,
+     "e": 0
+    },
+    {
+     "w": "you",
+     "t0": 2.53,
+     "t1": 3.13,
+     "e": 0
+    },
+    {
+     "w": "feel",
+     "t0": 3.13,
+     "t1": 3.27,
+     "e": 0
+    },
+    {
+     "w": "frustrated.",
+     "t0": 3.27,
+     "t1": 3.51,
+     "e": 0
+    },
+    {
+     "w": "You",
+     "t0": 3.7,
+     "t1": 4.02,
+     "e": 0
+    },
+    {
+     "w": "know,",
+     "t0": 4.02,
+     "t1": 4.3,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 4.42,
+     "t1": 4.52,
+     "e": 0
+    },
+    {
+     "w": "think",
+     "t0": 4.52,
+     "t1": 4.68,
+     "e": 0
+    },
+    {
+     "w": "as",
+     "t0": 4.68,
+     "t1": 5.62,
+     "e": 0
+    },
+    {
+     "w": "my",
+     "t0": 5.62,
+     "t1": 5.9,
+     "e": 0
+    },
+    {
+     "w": "brother",
+     "t0": 5.9,
+     "t1": 6.08,
+     "e": 0
+    },
+    {
+     "w": "would",
+     "t0": 6.08,
+     "t1": 6.44,
+     "e": 0
+    },
+    {
+     "w": "always",
+     "t0": 6.44,
+     "t1": 6.64,
+     "e": 0
+    },
+    {
+     "w": "tell",
+     "t0": 6.64,
+     "t1": 6.94,
+     "e": 0
+    },
+    {
+     "w": "me",
+     "t0": 6.94,
+     "t1": 7.18,
+     "e": 0
+    },
+    {
+     "w": "like",
+     "t0": 7.18,
+     "t1": 7.52,
+     "e": 0
+    },
+    {
+     "w": "never",
+     "t0": 7.52,
+     "t1": 7.8,
+     "e": 0
+    },
+    {
+     "w": "give",
+     "t0": 7.8,
+     "t1": 8.02,
+     "e": 0
+    },
+    {
+     "w": "up.",
+     "t0": 8.02,
+     "t1": 8.16,
+     "e": 0
+    },
+    {
+     "w": "If",
+     "t0": 8.38,
+     "t1": 8.92,
+     "e": 0
+    },
+    {
+     "w": "you",
+     "t0": 8.92,
+     "t1": 9.06,
+     "e": 0
+    },
+    {
+     "w": "give",
+     "t0": 9.06,
+     "t1": 9.2,
+     "e": 0
+    },
+    {
+     "w": "up,",
+     "t0": 9.2,
+     "t1": 9.38,
+     "e": 0
+    },
+    {
+     "w": "you'll",
+     "t0": 9.5,
+     "t1": 9.6,
+     "e": 0
+    },
+    {
+     "w": "never",
+     "t0": 9.6,
+     "t1": 9.72,
+     "e": 0
+    },
+    {
+     "w": "know",
+     "t0": 9.72,
+     "t1": 9.92,
+     "e": 0
+    },
+    {
+     "w": "how",
+     "t0": 9.92,
+     "t1": 10.12,
+     "e": 0
+    },
+    {
+     "w": "amazing",
+     "t0": 10.12,
+     "t1": 10.34,
+     "e": 0
+    },
+    {
+     "w": "you",
+     "t0": 10.34,
+     "t1": 10.72,
+     "e": 0
+    },
+    {
+     "w": "can",
+     "t0": 10.72,
+     "t1": 10.84,
+     "e": 0
+    },
+    {
+     "w": "be.",
+     "t0": 10.84,
+     "t1": 10.98,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 3,
+     "t0": 0.1,
+     "t1": 1.56
+    },
+    {
+     "a": 4,
+     "b": 8,
+     "t0": 1.56,
+     "t1": 3.08
+    },
+    {
+     "a": 9,
+     "b": 10,
+     "t0": 3.08,
+     "t1": 3.65
+    },
+    {
+     "a": 11,
+     "b": 15,
+     "t0": 3.65,
+     "t1": 5.57
+    },
+    {
+     "a": 16,
+     "b": 19,
+     "t0": 5.57,
+     "t1": 6.59
+    },
+    {
+     "a": 20,
+     "b": 25,
+     "t0": 6.59,
+     "t1": 8.33
+    },
+    {
+     "a": 26,
+     "b": 29,
+     "t0": 8.33,
+     "t1": 9.45
+    },
+    {
+     "a": 30,
+     "b": 33,
+     "t0": 9.45,
+     "t1": 10.07
+    },
+    {
+     "a": 34,
+     "b": 37,
+     "t0": 10.07,
+     "t1": 11.33
+    }
+   ],
+   "text": "So just keep going, don't give up when you feel frustrated. You know, I think as my brother would always tell me like never give up. If you give up, you'll never know how amazing you can be.",
+   "n": 13
+  }
+ ]
+}

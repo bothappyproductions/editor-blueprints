@@ -1,0 +1,178 @@
+{
+ "item": "12396146684",
+ "client": "navy-seal-foundation",
+ "note": "The script asks for nine graphics: the hook text, three question texts, two name supers, the event tag, the Push-ups for Putts tag and the word stack, then the end card. The anthem and the Toast to the Fallen rows have no text. NSF has no logo file in the repo yet, so the end card types the name.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "What question are they answering?"
+   },
+   "cue": "Hook text on frame 1: What question are they answering? Already on screen at 0:00. It does not animate on.",
+   "src": "Script, row 00:00-00:04, Motion graphics & type.",
+   "rows": [
+    "00:00-00:04"
+   ],
+   "use": "Hook text in the top third, already on screen at 0:00. Start the clip at frame 0045 (fully on) and hold it until 00:04."
+  },
+  {
+   "n": 2,
+   "title": "The question revealed",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Can you describe the Navy SEAL Foundation in one word and why?"
+   },
+   "cue": "Question text at 00:04, top third, 3 s: Can you describe the Navy SEAL Foundation in one word and why?",
+   "src": "Script, row 00:04-00:07, Motion graphics & type.",
+   "rows": [
+    "00:04-00:07"
+   ],
+   "use": "Top third from 00:04 for 3 seconds, with the interviewer's voice over the golf carts. Keep captions on."
+  },
+  {
+   "n": 3,
+   "title": "Name super Chris Brown",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Christopher Brown"
+   },
+   "cue": "Name super at 00:07, lower left, 2 s: Christopher Brown / Capt. (Ret.), USN.",
+   "src": "Script, row 00:07-00:10, Motion graphics & type.",
+   "rows": [
+    "00:07-00:10"
+   ],
+   "use": "Name super from 00:07 for 2 seconds. Type the second line Capt. (Ret.), USN under it. Move it lower left, above the captions."
+  },
+  {
+   "n": 4,
+   "title": "Event tag",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "upper",
+   "text": {
+    "main": "Sanctuary Golf Classic"
+   },
+   "cue": "Event tag at 00:11, upper left, 3 s: Sanctuary Golf Classic.",
+   "src": "Script, row 00:10-00:17, Motion graphics & type.",
+   "rows": [
+    "00:10-00:17"
+   ],
+   "use": "Upper left from 00:11 for 3 seconds, over the registration shots."
+  },
+  {
+   "n": 5,
+   "title": "Push-ups for Putts tag",
+   "tpl": "tag_label",
+   "dur": 2.5,
+   "pos": "upper",
+   "text": {
+    "main": "Push-ups for Putts"
+   },
+   "cue": "Topic tag at 00:24, upper left, 2.5 s, on the push-up shot: Push-ups for Putts.",
+   "src": "Script, row 00:21-00:28, Motion graphics & type.",
+   "rows": [
+    "00:21-00:28"
+   ],
+   "use": "Upper left from 00:24 for 2.5 seconds, only while the push-up shot is on screen."
+  },
+  {
+   "n": 6,
+   "title": "Second question",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "What kind of support do they provide?"
+   },
+   "cue": "Question text at 00:28, top third, 2.5 s: What kind of support do they provide?",
+   "src": "Script, row 00:28-00:31, Motion graphics & type.",
+   "rows": [
+    "00:28-00:31"
+   ],
+   "use": "Top third from 00:28 for 2.5 seconds, with the interviewer's voice. Keep captions on."
+  },
+  {
+   "n": 7,
+   "title": "The support he names",
+   "tpl": "word_stack",
+   "dur": 10,
+   "pos": "top",
+   "text": {
+    "items": [
+     "caring for the families",
+     "scholarship programs",
+     "summer camps",
+     "emergency assistance"
+    ]
+   },
+   "cue": "Key words as they are said, top third, word stack: caring for the families, scholarship programs, summer camps, emergency assistance.",
+   "src": "Script, row 00:31-00:42, Motion graphics & type.",
+   "rows": [
+    "00:31-00:42"
+   ],
+   "use": "Top third over Chris. Bring each phrase in on its word: about 00:31, 00:35, 00:37 and 00:39 on the timeline. Keep captions on."
+  },
+  {
+   "n": 8,
+   "title": "Golf tip question",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "What is your best golf tip?"
+   },
+   "cue": "Question text at 00:55, top third, 2.5 s: What is your best golf tip?",
+   "src": "Script, row 00:55-01:06, Motion graphics & type.",
+   "rows": [
+    "00:55-01:06"
+   ],
+   "use": "Top third from 00:55 for 2.5 seconds, as Tiffany starts. Keep captions on."
+  },
+  {
+   "n": 9,
+   "title": "Name super Tiffany",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Tiffany Bitz"
+   },
+   "cue": "Name super at 00:56, lower left, 2 s: Tiffany Bitz / Sister of Navy SEAL Danny Dietz.",
+   "src": "Script, row 00:55-01:06, Motion graphics & type.",
+   "rows": [
+    "00:55-01:06"
+   ],
+   "use": "Name super from 00:56 for 2 seconds. Type the second line Sister of Navy SEAL Danny Dietz under it. Move it lower left, above the captions."
+  },
+  {
+   "n": 10,
+   "title": "End card",
+   "tpl": "end_card",
+   "dur": 3,
+   "rows": [
+    "01:06-01:09"
+   ],
+   "cue": "End card: the Navy SEAL Foundation name in white on NSF blue #003C69, then one line: navysealfoundation.org.",
+   "src": "No NSF logo file in the repo yet (endcards/ has no NSF entry), so the name is typed until the logo is added. Colours from the NSF client file (navysealfoundation.org, mined 7 Jul 2026).",
+   "c": {
+    "bg": "#003C69",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "Navy SEAL Foundation",
+    "lines": [
+     "navysealfoundation.org"
+    ]
+   },
+   "use": "After Tiffany's last line at 01:06. Hold it to the last frame. No fade to black. The name stands in for the logo until the logo is in the repo."
+  }
+ ]
+}

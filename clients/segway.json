@@ -1,0 +1,81 @@
+{
+ "slug": "segway",
+ "name": "Segway",
+ "short": "Segway",
+ "head": "Segway: what they want, what they hate, how they feel about us",
+ "about": "Segway (Segway-Ninebot) makes e-scooters. We make TikTok videos for Segway Germany, filmed in Berlin; German is the master language. Contact: Mavis Chen (Segway-Ninebot marketing), who passes on notes from the Segway Germany team. Our lead: Atdhe.",
+ "health": {
+  "rel": {
+   "chip": "Engaged, exact",
+   "kind": "warn",
+   "note": "Mavis answers with short, exact notes. On Script 12 (27 Oct): “other than that, you can just keep it as is.” The Germany team checks German wording, model names and riding rules closely."
+  },
+  "nps": {
+   "value": "No score",
+   "note": "No NPS was given to this build."
+  },
+  "ver": {
+   "value": "Not measured",
+   "client_pct": 0,
+   "agency_pct": 0,
+   "note": "Version stats were not given to this build."
+  },
+  "read": {
+   "chip": "Compliance first",
+   "kind": "warn",
+   "note": "A legal question (where a scooter may ride, one-handed riding) holds a cut until it is answered."
+  }
+ },
+ "quotes": [
+  {
+   "q": "I suggest blurring the face of the person in the middle - other than that, you can just keep it as is.",
+   "cite": "Mavis Chen · Slack #only-segway · 27 Oct 2026"
+  },
+  {
+   "q": "Let’s remove the shot with the scooter, since you can’t ride one with just one hand.",
+   "cite": "Mavis Chen · Frame.io · 3 Nov 2026"
+  },
+  {
+   "q": "I've reviewed the release date and the copy; please remove #ridebetter from the text. Everything else looks good—please schedule it as soon as possible.",
+   "cite": "Mavis Chen · Slack #only-segway · 10 Sep 2026"
+  }
+ ],
+ "loves": [
+  "Real riding in real Berlin streets, shown not claimed.",
+  "Simple, believable clips.",
+  "Correct German on screen and in captions.",
+  "Correct model names (the German D models).",
+  "Restrained, modern music."
+ ],
+ "hates": [
+  "Staged skits and acting as the lead (Batch 1 was “too staged”).",
+  "Novelty or comedy music (“childish”, “unnatural”).",
+  "Any speed number, speedometer or top-speed claim.",
+  "Riding where a bike may not ride, or riding with one hand.",
+  "Drone shots, night shoots, transit property, office interiors."
+ ],
+ "how_to_cut": [
+  "Hook at 0:00, six words or fewer. No logo or name super before the hook.",
+  "German audio and German burned-in captions, checked word by word.",
+  "Never show or say a speed. Sell the start, not the number.",
+  "Model names exactly as Segway Germany sells them (the D models).",
+  "Every number matches between voice and text.",
+  "No #ridebetter in post captions.",
+  "Logo or end card only at the very end."
+ ],
+ "perf": {
+  "note": "Segway Germany's channel for this work is TikTok. Numbers were not pulled in this build.",
+  "rows": []
+ },
+ "brand": {
+  "swatches": [],
+  "note": "No brand colours or logo file in the client file. The brand font is not on file (asked from Mavis Chen): a clean neutral sans until it arrives. The graphics on the blueprint use the Segway Germany site colours (red #F30000, near-black #0F0F0F) and Inter."
+ },
+ "channels": [
+  [
+   "Segway Germany",
+   "https://de-de.segway.com/"
+  ]
+ ],
+ "pack": "## Who they are\nSegway (Segway-Ninebot) makes e-scooters. We make TikTok videos for Segway Germany, filmed in Berlin. German is the master language: German audio and German burned-in captions. Batch 2 was shot by the Berlin production partner SOM (Jul to Aug 2026).\n\n## People\n- Mavis Chen (Segway-Ninebot marketing): our contact. She passes on notes from the Segway Germany team, mostly as short Frame.io and Slack notes. Treat every short note as binding.\n- Our lead: Atdhe.\n\n## North star: authentic proof\nShow the scooter earning its keep in real Berlin conditions, shown not claimed. Atdhe (19 Jun 2026): \"more authenticity, more real, more genuine… THAT is what Gen-Z wants.\" Segway's marketing team called Batch 1 \"too staged\" and its music \"childish\" and \"unnatural\".\n\n## Hard rules\n- No staged skit or acting as the lead. Simple and believable beats production value.\n- No speed: no speedometer, no speed readout, no top-speed claim anywhere. German law caps e-scooters at 20 km/h. Sell the punch off the line, never the number.\n- Hook first on short-form: open cold on the hook bite or a hook text of six words or fewer. No logo sting, no speaker lower third, no slow push-in before the hook. Logo or end card only at the very end.\n- Music restrained and modern. No novelty or comedy stings.\n- No drone, no night shoots, no office interiors, no transit property. Berlin only.\n- Brand font not on file (asked from Mavis): a clean neutral sans until it arrives, no novelty type.\n- Compliance beats craft: when the Germany team raises a legality question, the cut waits for their answer.\n\n## Standing notes from the client\n- Model names follow the German catalogue: Germany has D models (for example GT3 D, not GT3 Pro; F3 D). Say and write the D. Check against segway.com before sending.\n- Every number must match between voice and on-screen text.\n- Post captions carry no #ridebetter hashtag.\n- The Germany side checks German copy closely. Past fixes: \"FAHREN, WIE MIT DEM RAD\" (not \"SIE\"), \"FAHRER\" (not \"FAHRRAD\"), \"BREITES DECK, GROSSE RAEDER\", \"SIND FUER MEINEN SCOOTER\".\n- Script 4: the end super must read \"commute\", not \"Kommut\".\n\n## Script 12, Walk or Segway (this cut)\n- The script was written for three people and a car; SOM shot two people and no car. Never build a driver, a third panel or a parking joke.\n- The train-station (underpass) question from the Germany team is about Script 15, not Script 12.\n- Mavis, 27 Oct 2026: \"I suggest blurring the face of the person in the middle - other than that, you can just keep it as is.\"\n- Mavis on V2, 3 Nov 2026: at 0:12 \"Let's remove the shot with the scooter, since you can't ride one with just one hand.\" At 0:16 \"Delete the above and keep only the one below.\"\n\n## Spellings\nSegway, Ninebot, Segway-Ninebot (never \"segue\"). Models: E3, F3, Max G3, GT3 Pro, ZT3 Pro, and the German D models.\n\n## Brand\n- No colours or logo file in the client file. The Segway Germany site (de-de.segway.com) uses red #F30000, near-black #0F0F0F, dark red #C40001 and grey #86868B, and the font MiSans.\n"
+}
