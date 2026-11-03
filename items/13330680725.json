@@ -8,13 +8,13 @@
  "editor": "Ardit",
  "due": "2026-11-17",
  "format": "9:16 only · 1080×1920",
- "length": "about 30 s",
  "edit_key": "S4SGSDDayOfMatchPushShoeCostume001",
- "headline": "The same day-of match push, cut on the shoe-costume B-roll instead of 4EveryKid footage.",
+ "length": "about 34 s",
+ "headline": "Giving ShoesDay is happening right now and every gift is matched: the same cards as the 4EveryKid version, told with the shoe costume for fun.",
  "story": [
-  "Same text, same order as V1 (13330664171).",
-  "Picture is the shoe-costume footage: lean into the fun.",
-  "Push to the goal before the day ends."
+  "Same text, same card timing as the 4EveryKid version (13330664171), so Soles4Souls can compare them side by side. Only the picture changes: the shoe costume, funniest moments first.",
+  "<b>Loops:</b> L1 “Today is the day for what?” opens at 0:00 and closes at about 0:06 with TODAY IS GIVING SHOESDAY. L2 “Can we reach 2,500 kids before the day ends?” stays open to the CTA. <b>Stakes:</b> gifts are doubled today only, and the goal has to be hit before midnight.",
+  "Energy builds card by card and the cuts get faster. Not a general awareness video."
  ],
  "feel": [
   "Fun",
@@ -23,15 +23,16 @@
   "Holiday"
  ],
  "do": [
-  "Same text overlay as V1, word for word.",
-  "Shoe-costume B-roll only.",
-  "Develop the TODAY IS THE DAY hook with the funniest costume moments.",
-  "Holiday vibes, no Christmas.",
-  "Keep it 30 to 45 s."
+  "Text on screen from frame 1: TODAY IS THE DAY over a 2-second montage of the funniest costume moments.",
+  "Same cards, same words, same timing as the 4EveryKid version.",
+  "Shoe-costume B-roll only. One or two kid reactions from the happy kids folder are fine for the button.",
+  "Put the two match cards on their own track.",
+  "Holiday vibes, no Christmas."
  ],
  "dont": [
-  "No Christmas imagery. Holiday vibes only.",
-  "No logo at 0:00. The S4S logo is already on the end slide.",
+  "No logo, wordmark or name card at 0:00. The wordmark is already on the end slide.",
+  "No extra logo on the end slide.",
+  "No Christmas imagery: no Santa, no Christmas trees, no “Merry Christmas”.",
   "No stock footage. Client footage only.",
   "No second aspect ratio. 9:16 only."
  ],
@@ -39,139 +40,147 @@
   "brief": {
    "title": "S4S - Giving ShoesDay + End of Year 2026 - client editing doc (Sydney, 19 Oct)",
    "url": "https://docs.google.com/document/d/13hfJB14GQ5wNKDQ2Oqlg69JKrCkWiLveIcILajjIofE/edit",
-   "note": "Sydney's own doc, sent in #only_soles4souls on 19 Oct. On-screen text and flow are hers."
+   "note": "Sydney's own doc: the on-screen words are hers. Nick's editor brief on the Monday item (29 Oct) sets the timing; this page follows it."
   },
   "reference": {
    "missing": true,
-   "title": "None for this piece",
-   "note": "No trend reference in Sydney's doc for this video."
+   "title": "Not chosen yet",
+   "note": "Nick owes it. Sydney's doc has no trend reference for this video."
   },
   "footage": {
-   "title": "Canto: shoe costume footage",
-   "url": "https://soles4souls.canto.com/b/O2NNR",
-   "note": "Same text as V1, on shoe-costume B-roll."
+   "title": "Shoe costume (Canto O2NNR), Drive copy",
+   "url": "https://drive.google.com/drive/folders/1W67tJ8R7kbcxKzkk0R-KEGG-xqYWsG-z",
+   "note": "Pulled from Canto into Drive on 3 Nov: 17 clips and 2 stills. Kid reactions for the button: the happy kids folder (Canto VPMCH)."
   }
  },
- "bp_intro": "Text-led, same text as V1. Picture: shoe-costume footage on Canto. Durations are targets for a 30 to 45 s cut.",
+ "bp_intro": "Text-led, no voice. The words are Sydney's, the card timing is Nick's. Picture: the shoe-costume clips (Drive copy of Canto O2NNR). They have no shot list yet, so every row says what to look for and the editor picks on scrub.",
  "rows": [
   {
-   "tc": "00:00–00:03",
+   "tc": "00:00–00:02",
    "beat": "HOOK",
    "kind": "hook",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Fast 2-second montage of the happiest clips, then hard-cut to the bold text in the first second (the client asked us to develop this hook).",
-   "motion": "Text: <q>TODAY IS THE DAY</q>",
+   "visual": "Fast montage of the funniest, most joyful shoe-costume moments, 8 to 10 frames each, under the text from frame 1. From the <a href=\"https://drive.google.com/drive/folders/1W67tJ8R7kbcxKzkk0R-KEGG-xqYWsG-z\">Shoe costume folder (Canto O2NNR)</a>. B-roll TBD on scrub: no shot list exists for these clips yet.",
+   "motion": "Hook text on <b>frame 1</b>: <q>TODAY IS THE DAY</q> Already on screen at 0:00. Does not animate on. Big, bold, centered. Caps as written. Hold it to 00:02.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Upbeat holiday-adjacent, high energy."
+   "music": "Upbeat, holiday-adjacent instrumental, high energy, from frame 1. Licensed tracks only.",
+   "shots": []
   },
   {
-   "tc": "00:03–00:07",
+   "tc": "00:02–00:06",
    "beat": "THE DAY",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Shoe-costume B-roll (Canto O2NNR). Funniest moments first.",
-   "motion": "Text: <q>The most wonderful day of giving is here.</q>",
+   "visual": "Shoe costume: a big entrance or a wave. From the <a href=\"https://drive.google.com/drive/folders/1W67tJ8R7kbcxKzkk0R-KEGG-xqYWsG-z\">Shoe costume folder (Canto O2NNR)</a>. B-roll TBD on scrub: no shot list exists for these clips yet.",
+   "motion": "Card at 00:02, centered, big: <q>The most wonderful day of giving is here.</q> It can animate on.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Builds. Cuts get faster.",
+   "shots": []
   },
   {
-   "tc": "00:07–00:11",
-   "beat": "GSD",
+   "tc": "00:06–00:10",
+   "beat": "GIVING SHOESDAY",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Shoe-costume B-roll (Canto O2NNR). Funniest moments first.",
-   "motion": "Text: <q>TODAY IS GIVING SHOESDAY</q>",
+   "visual": "A shoe-costume moment that reads “today”: dancing, celebrating. From the <a href=\"https://drive.google.com/drive/folders/1W67tJ8R7kbcxKzkk0R-KEGG-xqYWsG-z\">Shoe costume folder (Canto O2NNR)</a>. B-roll TBD on scrub: no shot list exists for these clips yet.",
+   "motion": "Card at 00:06, centered, big: <q>TODAY IS GIVING SHOESDAY</q> It can animate on. Caps as written. Loop 1 closes here.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Builds. Cuts get faster.",
+   "shots": []
   },
   {
-   "tc": "00:11–00:15",
+   "tc": "00:10–00:14",
    "beat": "MATCH",
    "kind": "turn",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Shoe-costume B-roll (Canto O2NNR). Funniest moments first.",
-   "motion": "Text: <q>All gifts are matched</q>",
+   "visual": "Shoe costume close-up, or the costume with a person. From the <a href=\"https://drive.google.com/drive/folders/1W67tJ8R7kbcxKzkk0R-KEGG-xqYWsG-z\">Shoe costume folder (Canto O2NNR)</a>. B-roll TBD on scrub: no shot list exists for these clips yet.",
+   "motion": "Card at 00:10, centered, big: <q>All gifts are matched</q> It can animate on. On its own track (match track), so it can come out in one move.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Builds. Cuts get faster.",
+   "shots": []
   },
   {
-   "tc": "00:15–00:19",
+   "tc": "00:14–00:19",
    "beat": "DOUBLE",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Shoe-costume B-roll (Canto O2NNR). Funniest moments first.",
-   "motion": "Text: <q>which means your donation has DOUBLE the impact!</q>",
+   "visual": "Shoe costume with people: high-fives. From the <a href=\"https://drive.google.com/drive/folders/1W67tJ8R7kbcxKzkk0R-KEGG-xqYWsG-z\">Shoe costume folder (Canto O2NNR)</a>. B-roll TBD on scrub: no shot list exists for these clips yet.",
+   "motion": "Card at 00:14, centered, big: <q>which means your donation has DOUBLE the impact!</q> It can animate on. On the match track with the card before it.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Builds. Cuts get faster.",
+   "shots": []
   },
   {
-   "tc": "00:19–00:23",
+   "tc": "00:19–00:24",
    "beat": "THE GOAL",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Shoe-costume B-roll (Canto O2NNR). Funniest moments first.",
-   "motion": "Text: <q>Together, we can give 2,500 kids new shoes.</q>",
+   "visual": "Best group and joyful shots, quick cuts. From the <a href=\"https://drive.google.com/drive/folders/1W67tJ8R7kbcxKzkk0R-KEGG-xqYWsG-z\">Shoe costume folder (Canto O2NNR)</a>. B-roll TBD on scrub: no shot list exists for these clips yet.",
+   "motion": "Card at 00:19, centered, big: <q>Together, we can give 2,500 kids new shoes.</q> It can animate on.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Builds. Cuts get faster.",
+   "shots": []
   },
   {
-   "tc": "00:23–00:27",
-   "beat": "URGENCY",
+   "tc": "00:24–00:29",
+   "beat": "BEFORE THE DAY ENDS",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Shoe-costume B-roll (Canto O2NNR). Funniest moments first.",
-   "motion": "Text: <q>Help us hit our goal before the day ends.</q>",
+   "visual": "The biggest reaction. If the costume clips do not have one, use one or two kid reactions from the <a href=\"https://drive.google.com/drive/folders/1qFfK1eIdPRgZ_SXxAmw9RY1sbo9Qw6Mg\">happy kids folder (Canto VPMCH)</a>. From the <a href=\"https://drive.google.com/drive/folders/1W67tJ8R7kbcxKzkk0R-KEGG-xqYWsG-z\">Shoe costume folder (Canto O2NNR)</a>. B-roll TBD on scrub: no shot list exists for these clips yet.",
+   "motion": "Card at 00:24, centered, big: <q>Help us hit our goal before the day ends.</q> It can animate on. Land it on the biggest reaction.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Builds through the cuts.",
+   "shots": []
   },
   {
-   "tc": "00:27–00:30",
+   "tc": "00:29–00:34",
    "beat": "END SLIDE",
    "kind": "end",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Sydney's holiday end slide (V1 light blue or V2 dark blue).",
-   "motion": "CTA in the open middle: <q>Donate today: link in bio or s4s.org</q>",
+   "visual": "Sydney's holiday end slide: <a href=\"https://drive.google.com/file/d/1U0l7tq-tdLvtAnmDVoWyctP6j4kASb0z/view\">Holiday_bkg_social_V1_2.jpg</a> (light blue, string lights). The SOLES4SOULS wordmark is already built into the top of the slide: add no other logo. The other option is <a href=\"https://drive.google.com/file/d/1lqHLgTbF1dpE3V3jUDR_h-gyFj_Yorn7/view\">Holiday_bkg_social_V2_2.jpg</a> (dark blue, berries and snow). Hold it 5 s.",
+   "motion": "CTA text in the open middle of the slide, black, big: <q>Donate today: link in bio or s4s.org</q> No logo added.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Resolve."
+   "music": "Resolve and out.",
+   "shots": []
   }
  ],
  "frames": {},
  "files": [
   [
    "Editing brief",
-   "<a href=\"https://docs.google.com/document/d/13hfJB14GQ5wNKDQ2Oqlg69JKrCkWiLveIcILajjIofE/edit\">S4S - Giving ShoesDay + End of Year 2026 - client editing doc (Sydney, 19 Oct)</a>. This page is built from it."
+   "<a href=\"https://docs.google.com/document/d/13hfJB14GQ5wNKDQ2Oqlg69JKrCkWiLveIcILajjIofE/edit\">Sydney's GSD + EOY editing doc (19 Oct)</a>. Nick's editor brief on the Monday item (29 Oct) is the plan for timing."
   ],
   [
    "Campaign brief",
@@ -179,64 +188,176 @@
   ],
   [
    "Footage",
-   "<a href=\"https://soles4souls.canto.com/b/O2NNR\">Shoe costume footage (Canto)</a>"
+   "<a href=\"https://drive.google.com/drive/folders/1W67tJ8R7kbcxKzkk0R-KEGG-xqYWsG-z\">Shoe costume (Drive copy of Canto O2NNR)</a>: <a href=\"https://drive.google.com/file/d/13FaKX9HpWvYhBw3o3qo_a9kxGoqAUkqu/view\">IMG_2567.MOV</a>, <a href=\"https://drive.google.com/file/d/1fPoqQZUMYvUWgd5cBzQfSG2r1j4sqVf3/view\">IMG_2568.MOV</a>, <a href=\"https://drive.google.com/file/d/1WNcKyfB8RRsRpy7Es9v_6TUDq7ULkPu9/view\">IMG_2574.MOV</a>, <a href=\"https://drive.google.com/file/d/11ILY9ZbZ1qMnNkVT35iKiMnC4afIXdFS/view\">IMG_2575.MOV</a>, <a href=\"https://drive.google.com/file/d/1mM_rqjOs5wRt8-AsVXBLSp15ulQMA2j_/view\">IMG_2576.MOV</a>, <a href=\"https://drive.google.com/file/d/1loWBxhO1qcNHpQThh-T25PYdaiYl6CKe/view\">IMG_2579.MOV</a>, <a href=\"https://drive.google.com/file/d/1hyE6yicNHvlyMH3AXvOXgX_hfR2xDQGe/view\">IMG_2580 2.MOV</a>, <a href=\"https://drive.google.com/file/d/1KiUDzgon5MSb140lvU5pLW3Kql9eQ-yj/view\">IMG_2584 2.mov</a>, <a href=\"https://drive.google.com/file/d/1U5m_4iZ2J9nz2FVQcaXmt_OebJuxokIn/view\">IMG_9424.MP4</a>, <a href=\"https://drive.google.com/file/d/102ejBysRX6nMZEm4JsHaT9b5pdycglsQ/view\">IMG_9425.MP4</a>, <a href=\"https://drive.google.com/file/d/18BGwvjXPJylmKrUy8ZA-Qr6WHjieZGOk/view\">IMG_9426.MP4</a>, <a href=\"https://drive.google.com/file/d/1zrLj5oojUa70SM7aZUxJHezjWFinjr3c/view\">IMG_9427.MP4</a>, <a href=\"https://drive.google.com/file/d/1XKaocz1JSE6hJb8bjTmeXcEaUvv_eULU/view\">IMG_9428.MP4</a>, <a href=\"https://drive.google.com/file/d/1E78ITie0unc9Oj-Tha7t0xJa8Hpu0PIh/view\">IMG_9429.MP4</a>, <a href=\"https://drive.google.com/file/d/13UWpvBxTqpp6eknA5_2C633QKffqdRlF/view\">IMG_9430.MP4</a>, <a href=\"https://drive.google.com/file/d/13BeHk5i0lfqy6AsHVCjTEfpgG-8a6Jh-/view\">IMG_9431.MP4</a>, <a href=\"https://drive.google.com/file/d/1bjsKlOUGQN2bh6NNAuf8twQWmklEgfVm/view\">IMG_9435.MP4</a>. Stills: IMG_2566.jpg, IMG_2569.HEIC. The file 04_Traditional_FootLoseShoes-1.mp4 in the same folder looks like an earlier edit by its name, not raw footage: use the raw clips first."
   ],
   [
-   "End card",
-   "Sydney's holiday end slide: <a href=\"https://drive.google.com/file/d/1U0l7tq-tdLvtAnmDVoWyctP6j4kASb0z/view\">V1 light blue</a> or <a href=\"https://drive.google.com/file/d/1lqHLgTbF1dpE3V3jUDR_h-gyFj_Yorn7/view\">V2 dark blue</a>. 9:16, S4S logo already in the top of the slide. CTA text in the open middle area; no extra logo."
+   "Kid reactions",
+   "<a href=\"https://drive.google.com/drive/folders/1qFfK1eIdPRgZ_SXxAmw9RY1sbo9Qw6Mg\">Happy kids B-roll (Drive copy of Canto VPMCH)</a> · <a href=\"https://soles4souls.canto.com/b/O2NNR\">Canto O2NNR</a> · <a href=\"https://soles4souls.canto.com/b/VPMCH\">Canto VPMCH</a>"
   ],
   [
-   "Facts",
-   "Giving ShoesDay is 1 Dec. Goal: 2,500 kids, $50,000. End of Year runs 2 to 31 Dec. Goal: 5,000 kids, $100,000. $20 = one new pair of athletic shoes (two with a match). GSD match: dollar for dollar up to $25,000, pending confirmation."
+   "Campaign facts",
+   "Giving ShoesDay is Tuesday 1 December. Goal: 2,500 kids with new shoes. The Giving ShoesDay match is not confirmed yet."
+  ],
+  [
+   "End slide",
+   "Sydney's holiday end slide: <a href=\"https://drive.google.com/file/d/1U0l7tq-tdLvtAnmDVoWyctP6j4kASb0z/view\">V1 light blue</a> or <a href=\"https://drive.google.com/file/d/1lqHLgTbF1dpE3V3jUDR_h-gyFj_Yorn7/view\">V2 dark blue</a>. 1081×1921 JPG, 9:16. The SOLES4SOULS wordmark is already at the top. Put the CTA text in the open middle. No extra logo."
+  ],
+  [
+   "Brand graphics package",
+   "<a href=\"https://drive.google.com/drive/folders/1HaEuSzPDVfNxrNACiSyO0nl4Er-d9mFF\">S4S graphics package</a> (Drive). Same folder as the end slides. Type the words on the empty plates in Roboto. The logo files there are for end cards only; this campaign's end card is the holiday slide."
+  ],
+  [
+   "Brand",
+   "S4S teal <span class=\"mono\">#62CCBF</span>, black, white, off-white <span class=\"mono\">#F8FAF9</span>. Titles in Buenos Aires (Roboto Black if you do not have it), body in Roboto. Black text on teal. Never white on teal."
   ]
  ],
  "tech": [
   [
    "Source",
-   "Client footage from Canto and Christe's 4EveryKid upload. Mixed sizes and frame rates: conform on import."
+   "Phone clips (MOV and MP4) from the Canto shoe-costume folder. Sizes and frame rates are mixed: check each on import."
   ],
   [
    "Timeline",
-   "1080×1920. Frame rate = the majority of the clips."
+   "1080×1920 at 23.976 fps (24p, Nick's brief). Conform 30 and 60 fps clips on purpose. Use the high frame rate only for slow motion you choose."
   ],
   [
    "Crop",
-   "Horizontal clips: center-crop to 9:16, faces in frame. No stretching."
+   "Horizontal clips: center-crop to 9:16 with the faces in frame. A 9:16 crop of 4K is 1215 px wide: punch-ins up to 120% stay sharp. No stretching."
+  ],
+  [
+   "Audio",
+   "No voice. Music plus natural sound (kids laughing, cheering) under it where it helps."
+  ],
+  [
+   "Match track",
+   "The two match cards (00:10 and 00:14) sit on their own track so they come out in one move."
   ],
   [
    "Text",
-   "All on-screen text exactly as written in Sydney's doc. Big, readable on a phone. S4S fonts (Buenos Aires titles, Roboto body)."
+   "Every on-screen line word for word from the script. Big, readable on a phone. Short cards, centered, out of the bottom 20% and away from the right edge (Instagram buttons). Hold each card long enough to read twice. Roboto Black for titles."
   ],
   [
    "Loudness",
-   "−14 LUFS integrated, −1 dBTP peak."
+   "−14 LUFS integrated, −1 dBTP peak. Music from licensed sources only. No swearing on screen or on the track."
   ],
   [
    "Export",
-   "H.264 MP4, 1080×1920. One file, 9:16 only."
+   "H.264 MP4, 1080×1920. One file, 9:16 only. Upload to Frame.io with the Edit Key in the file name."
   ]
  ],
  "checklist": [
-  "Every on-screen line is word for word from Sydney's doc.",
-  "Giving ShoesDay is one word “ShoesDay”, capital S and D.",
-  "Soles4Souls and 4EveryKid spelled exactly.",
-  "Text is big enough to read on a phone. Text size is this client's most common note.",
-  "US English.",
-  "Ends on Sydney's holiday end slide with the CTA in the open middle.",
-  "Text matches V1 exactly.",
-  "Match lines are separate layers until the match is confirmed."
+  "TODAY IS THE DAY is on screen at frame 1 and does not animate on. No logo at 0:00.",
+  "Every card matches the script word for word: Soles4Souls, Giving ShoesDay, 4EveryKid spelled right. US English.",
+  "TODAY IS THE DAY and TODAY IS GIVING SHOESDAY are in caps, as written.",
+  "The two match cards sit on their own track.",
+  "Text is big enough to read on a phone, out of the bottom 20% and away from the right edge.",
+  "Picture is the shoe costume; at most two kid reaction shots from the happy kids folder.",
+  "No Christmas imagery.",
+  "Ends on Sydney's holiday slide with Donate today: link in bio or s4s.org in the open middle. No extra logo.",
+  "Music is licensed, levels even, no clipping."
  ],
  "decisions": [
   {
    "t": "Match not confirmed",
-   "b": "The GSD match (dollar for dollar up to $25,000) is pending. Sydney's doc says MATCH LINE lines are held until it's confirmed: build “All gifts are matched” and the DOUBLE line as layers you can pull."
+   "b": "Sydney's doc holds the match lines until the Giving ShoesDay match is confirmed. Build V1 with both match cards on their own track. Nick is confirming with Sydney."
   }
  ],
  "client_note": "<b>Why this matters:</b> Giving ShoesDay (1 Dec) is Soles4Souls' biggest day of the year. Sydney wrote every line herself: keep it joy themed and positive.",
  "ask_examples": [
-  "Where is the footage?",
+  "Which clips go under each card?",
   "Which end slide do I use?",
   "Can I change the text?",
   "Is the match confirmed?"
- ]
+ ],
+ "transcript": "",
+ "alts": {
+  "hook:0": []
+ },
+ "visual_pack": {
+  "amount": "S4S runs fuller: big text cards on every beat, B-roll under every card, fast cuts. No logo before the end slide; the slide already carries the wordmark.",
+  "devices": [
+   {
+    "row": "00:00–00:02",
+    "device": "Hook text, static, over a fast montage",
+    "asset": "MG library card 1",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "00:02–00:06",
+    "device": "Text card over B-roll",
+    "asset": "MG library card 2",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "00:06–00:10",
+    "device": "Text card over B-roll",
+    "asset": "MG library card 3",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "00:10–00:14",
+    "device": "Text card over B-roll (match track)",
+    "asset": "MG library card 4",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "00:14–00:19",
+    "device": "Text card over B-roll (match track)",
+    "asset": "MG library card 5",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "00:19–00:24",
+    "device": "Text card over B-roll",
+    "asset": "MG library card 6",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "00:24–00:29",
+    "device": "Text card over B-roll",
+    "asset": "MG library card 7",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "00:29–00:34",
+    "device": "End slide + CTA text",
+    "asset": "Holiday_bkg_social_V1_2.jpg + CTA line",
+    "source": "Drive, S4S graphics folder"
+   }
+  ],
+  "broll_pool": [],
+  "elements": [
+   {
+    "name": "Holiday end slide V1 (light blue)",
+    "kind": "end_card",
+    "file": "Holiday_bkg_social_V1_2.jpg",
+    "url": "https://drive.google.com/file/d/1U0l7tq-tdLvtAnmDVoWyctP6j4kASb0z/view",
+    "local": null,
+    "alpha": false,
+    "size": "1081x1921",
+    "fps": null
+   },
+   {
+    "name": "Holiday end slide V2 (dark blue)",
+    "kind": "end_card",
+    "file": "Holiday_bkg_social_V2_2.jpg",
+    "url": "https://drive.google.com/file/d/1lqHLgTbF1dpE3V3jUDR_h-gyFj_Yorn7/view",
+    "local": null,
+    "alpha": false,
+    "size": "1081x1921",
+    "fps": null
+   },
+   {
+    "name": "S4S graphics package",
+    "kind": "package",
+    "file": null,
+    "url": "https://drive.google.com/drive/folders/1HaEuSzPDVfNxrNACiSyO0nl4Er-d9mFF",
+    "local": null,
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
 }

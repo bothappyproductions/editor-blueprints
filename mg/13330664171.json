@@ -1,0 +1,140 @@
+{
+ "item": "13330664171",
+ "client": "s4s",
+ "note": "The script asks for seven text cards: the hook TODAY IS THE DAY and six cards, one per row, plus the CTA line on the end slide. The two match cards go on their own track.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook: Today is the day",
+   "tpl": "highlight_callout",
+   "dur": 2.0,
+   "pos": "center",
+   "text": {
+    "main": "TODAY IS THE DAY"
+   },
+   "cue": "Hook text on frame 1: TODAY IS THE DAY",
+   "src": "Script, row 00:00–00:02, Motion graphics & type.",
+   "rows": [
+    "00:00–00:02"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:02. Centered, over the montage."
+  },
+  {
+   "n": 2,
+   "title": "Most wonderful day",
+   "tpl": "highlight_callout",
+   "dur": 4.0,
+   "pos": "center",
+   "text": {
+    "main": "The most wonderful day of giving is here."
+   },
+   "cue": "Card at 00:02, centered, big: The most wonderful day of giving is here.",
+   "src": "Script, row 00:02–00:06, Motion graphics & type.",
+   "rows": [
+    "00:02–00:06"
+   ],
+   "use": "Card from 00:02 to 00:06, centered, big. Keep it out of the bottom 20%."
+  },
+  {
+   "n": 3,
+   "title": "Today is Giving ShoesDay",
+   "tpl": "highlight_callout",
+   "dur": 4.0,
+   "pos": "center",
+   "text": {
+    "main": "TODAY IS GIVING SHOESDAY"
+   },
+   "cue": "Card at 00:06, centered, big: TODAY IS GIVING SHOESDAY",
+   "src": "Script, row 00:06–00:10, Motion graphics & type.",
+   "rows": [
+    "00:06–00:10"
+   ],
+   "use": "Card from 00:06 to 00:10, centered, big. Keep it out of the bottom 20%."
+  },
+  {
+   "n": 4,
+   "title": "Match card 1",
+   "tpl": "highlight_callout",
+   "dur": 4.0,
+   "pos": "center",
+   "text": {
+    "main": "All gifts are matched"
+   },
+   "cue": "Card at 00:10, centered, big: All gifts are matched",
+   "src": "Script, row 00:10–00:14, Motion graphics & type.",
+   "rows": [
+    "00:10–00:14"
+   ],
+   "use": "Card from 00:10 to 00:14, centered, big. Keep it out of the bottom 20%. Put it on its own match track."
+  },
+  {
+   "n": 5,
+   "title": "Match card 2: double",
+   "tpl": "highlight_callout",
+   "dur": 5.0,
+   "pos": "center",
+   "text": {
+    "main": "which means your donation has DOUBLE the impact!"
+   },
+   "cue": "Card at 00:14, centered, big: which means your donation has DOUBLE the impact!",
+   "src": "Script, row 00:14–00:19, Motion graphics & type.",
+   "rows": [
+    "00:14–00:19"
+   ],
+   "use": "Card from 00:14 to 00:19, centered, big. Keep it out of the bottom 20%. Put it on its own match track."
+  },
+  {
+   "n": 6,
+   "title": "The goal",
+   "tpl": "highlight_callout",
+   "dur": 5.0,
+   "pos": "center",
+   "text": {
+    "main": "Together, we can give 2,500 kids new shoes."
+   },
+   "cue": "Card at 00:19, centered, big: Together, we can give 2,500 kids new shoes.",
+   "src": "Script, row 00:19–00:24, Motion graphics & type.",
+   "rows": [
+    "00:19–00:24"
+   ],
+   "use": "Card from 00:19 to 00:24, centered, big. Keep it out of the bottom 20%."
+  },
+  {
+   "n": 7,
+   "title": "Before the day ends",
+   "tpl": "highlight_callout",
+   "dur": 5.0,
+   "pos": "center",
+   "text": {
+    "main": "Help us hit our goal before the day ends."
+   },
+   "cue": "Card at 00:24, centered, big: Help us hit our goal before the day ends.",
+   "src": "Script, row 00:24–00:29, Motion graphics & type.",
+   "rows": [
+    "00:24–00:29"
+   ],
+   "use": "Card from 00:24 to 00:29, centered, big. Keep it out of the bottom 20%. Land it on the biggest reaction."
+  },
+  {
+   "n": 8,
+   "title": "End slide CTA",
+   "tpl": "end_card_overlay",
+   "rows": [
+    "00:29–00:34"
+   ],
+   "cue": "CTA text in the open middle of the slide, black, big: Donate today: link in bio or s4s.org",
+   "src": "Sydney's holiday end slide (Holiday_bkg_social_V1_2.jpg and V2_2.jpg on Drive, 22 Oct 2026) with the CTA line from her 19 Oct editing doc. The slide is not in endcards/ yet, so this graphic is the CTA text only.",
+   "c": {
+    "bg": "#62CCBF",
+    "fg": "#000000"
+   },
+   "text": {
+    "lines": [
+     "Donate today: link in bio or s4s.org"
+    ]
+   },
+   "dur": 5.0,
+   "use": "Put Sydney's holiday slide at 00:29 and lay this CTA text over its open middle. Hold to the end. Black text on the light blue V1 slide; on the dark blue V2 slide type the same line in white. Add no logo: the wordmark is already on the slide."
+  }
+ ]
+}

@@ -1,20 +1,20 @@
 {
  "id": "13330680014",
  "client": "s4s",
- "eyebrow": "Soles4Souls · End of Year 2026 · 20th anniversary · Staff “what's your why”",
- "title": "20 Years of Opportunity:",
- "title_q": "",
- "title_short": "End of Year · 20 Years of Opportunity",
  "editor": "Ardit",
  "due": "2026-11-18",
  "format": "9:16 only · 1080×1920",
- "length": "about 25 s",
  "edit_key": "S4SEOYTwentyYearsOfOpportunity001",
- "headline": "Staff say why they do this, overlaid with the 20-year story and the end-of-year ask.",
+ "title_short": "End of Year · 20 Years of Opportunity",
+ "eyebrow": "Soles4Souls · End of Year 2026 · 20th anniversary · Nashville staff retreat footage, 14 Oct",
+ "title": "End of Year:",
+ "title_q": "“20 Years of Opportunity”",
+ "length": "about 34 s",
+ "headline": "For 20 years Soles4Souls has been creating opportunity, and this December you can keep it going: staff faces first, then Teresa and kids in new shoes.",
  "story": [
-  "Check-in interview B-roll from the staff trip: staff answering “what's your why”.",
-  "The cards tie end-of-year giving to 20 years of creating opportunity.",
-  "$20 buys a new pair. Help 5,000 kids this December."
+  "Staff faces carry the first half: quick, silent smiles between their answers, under Sydney's first two cards. Then Teresa Miller, VP of Development, says what one gift means, and kids with new shoes carry the second half. Teresa closes on “so much good in the world”.",
+  "<b>Loops:</b> L1 “Opportunity for who?” opens at 0:00 and closes at about 0:12 when the kids appear under Teresa's “opportunity for a student”. L2 “What can I do?” closes on the end slide. <b>Stakes:</b> 5,000 kids need new shoes by 31 December.",
+  "This is not a thank-you montage: that video already exists from this shoot. No staff “thank you” lines."
  ],
  "feel": [
   "Sincere",
@@ -23,172 +23,569 @@
   "Hopeful"
  ],
  "do": [
-  "Use the staff trip footage. Adjust the order to what the videographer got.",
-  "Quick cuts of staff faces under the cards.",
-  "Kids with new shoes for the mission cards (Canto).",
-  "Soft, sincere music.",
-  "Keep it 25 to 35 s."
+  "Card 1 on screen at frame 1. It does not animate on.",
+  "Staff faces between their answers, sound off, about 1 s each.",
+  "Teresa's two lines word for word, with captions (black text on the teal box).",
+  "Name super at 00:09, lower left, 2 s: Teresa Miller / VP of Development.",
+  "Clean Teresa's audio first: noise print, noise reduction, level pass."
  ],
  "dont": [
+  "No staff “thank you” line and no line already in the other Nashville cuts (marked in the transcript).",
+  "No logo before the end slide, and none on it: the wordmark is already on the slide.",
   "No Christmas imagery. Holiday vibes only.",
-  "No logo at 0:00. The S4S logo is already on the end slide.",
-  "No stock footage. Client footage only.",
+  "No stock footage.",
   "No second aspect ratio. 9:16 only."
  ],
  "links": {
   "brief": {
    "title": "S4S - Giving ShoesDay + End of Year 2026 - client editing doc (Sydney, 19 Oct)",
    "url": "https://docs.google.com/document/d/13hfJB14GQ5wNKDQ2Oqlg69JKrCkWiLveIcILajjIofE/edit",
-   "note": "Sydney's own doc, sent in #only_soles4souls on 19 Oct. On-screen text and flow are hers."
+   "note": "Sydney's cards and her ask to adjust the script to what the videographer got. Nick's editor brief on the Monday item (29 Oct) picked Teresa's two lines; this page follows it."
   },
   "reference": {
    "missing": true,
-   "title": "None for this piece",
-   "note": "No trend reference in Sydney's doc for this video."
+   "title": "Not chosen yet",
+   "note": "Nick owes it. Sydney's doc has no trend reference for this video."
   },
   "footage": {
-   "title": "Nashville 4EveryKid Oct. 2026 raw (staff trip)",
-   "url": "https://drive.google.com/drive/folders/1pp7akiHNLG3xBoGCHwOozU-s2RVWppqr",
-   "note": "Staff interviews are MVI_4305 to MVI_4311, MVI_4329 and MVI_4379. Plus Canto happy kids for mission shots."
+   "title": "Nashville 4EveryKid Oct. 2026 (staff retreat day)",
+   "url": "https://drive.google.com/drive/folders/1uZ_ur-2wXBktGvHqvTvRG73Mzy_cyh9Z",
+   "note": "All clips are in B-Roll (MVI_4285 to MVI_4383, flat). Staff interviews: MVI_4305 to MVI_4311, MVI_4329 (Teresa), MVI_4379. Opening remarks: MVI_4297."
   }
  },
- "bp_intro": "Picture: staff check-in interviews from the Nashville staff trip, and Canto kids for the mission cards. Text cards are Sydney's. Durations are targets for a 25 to 35 s cut.",
+ "bp_intro": "Bites come from <span class=\"mono\">MVI_4329.MP4</span> (Teresa). Times are mm:ss.s from the first frame of each MVI file, from the word times in output.json (EditTranscripts). B-roll was picked from visual.json (Erin's shot index); only one frame could be reused for this page, so check every pick on scrub. The machine transcript writes the client's name wrong (“Souls4Souls”, “Souls for Souls”); this page spells it Soles4Souls, and Conexión Américas for the partner.",
  "rows": [
   {
-   "tc": "00:00–00:05",
+   "tc": "00:00–00:04",
    "beat": "HOOK",
    "kind": "hook",
-   "frame": null,
-   "crop": "none",
-   "frame_tag": null,
-   "frame_alt": null,
-   "visual": "Check-in interview B-roll: staff answering “what's your why”.",
-   "motion": "Text: <q>For 20 years, we've been creating opportunity.</q>",
-   "voice": "<span class=\"none\">No voice.</span>",
+   "frame": "f_4305_3",
+   "crop": "c",
+   "frame_tag": "MVI_4305 at 0:03",
+   "frame_alt": "Laura Merrick on camera, long hair, white Soles4Souls shirt, staff moving behind her",
+   "visual": "Quick cuts of staff faces between their answers, sound off, about 1 s each: <a href=\"https://drive.google.com/file/d/1ahl63ysOOifbDBcwk38_tYZ6bevW3I1e/view\">MVI_4305.MP4</a> <span class=\"mono\">00:02.5</span> (Laura, before her first answer), <a href=\"https://drive.google.com/file/d/1y6_rgRasAgF-TRpAmb6hLCahLvvBhKvc/view\">MVI_4306.MP4</a> <span class=\"mono\">00:12.0</span> (Skyler), <a href=\"https://drive.google.com/file/d/1gg6p3TuP_1b_tnKUKIZ1lIp4SrxnV0sJ/view\">MVI_4310.MP4</a> <span class=\"mono\">00:01.0</span> (Nicole), <a href=\"https://drive.google.com/file/d/1OMpK2e17lnOQ45RWrvGcX5kh_cAvkEBK/view\">MVI_4379.MP4</a> <span class=\"mono\">00:07.0</span> (Lisa). Pick the frames where they smile or look into the lens. The interviews are 16:9: crop to the face. No names, no logo.",
+   "motion": "Hook card on <b>frame 1</b>: <q>For 20 years, we've been creating opportunity.</q> Already on screen at 0:00. Does not animate on. Centered, big. Hold it to 00:04.",
+   "voice": {
+    "who": "Opening speaker (not named on camera)",
+    "quote": "we are here to celebrate our 20th anniversary at Soles4Souls.",
+    "src": "MVI_4297.MP4 00:15.0–00:18.0 (optional: under the card only if the audio is clean; no name card)"
+   },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Soft, sincere."
+   "music": "Soft, sincere instrumental from frame 1. Licensed tracks only.",
+   "shots": [
+    {
+     "clip": "MVI_4305.MP4",
+     "at": 2.5,
+     "dur": 1.0,
+     "cx": 0.5,
+     "path": "Soles4Souls/Raw Footage/Nashville 4EveryKid Oct. 2026/B-Roll/MVI_4305.MP4",
+     "drive": "1ahl63ysOOifbDBcwk38_tYZ6bevW3I1e",
+     "layout": "full",
+     "what": "Laura between answers"
+    },
+    {
+     "clip": "MVI_4306.MP4",
+     "at": 12.0,
+     "dur": 1.0,
+     "cx": 0.5,
+     "path": "Soles4Souls/Raw Footage/Nashville 4EveryKid Oct. 2026/B-Roll/MVI_4306.MP4",
+     "drive": "1y6_rgRasAgF-TRpAmb6hLCahLvvBhKvc",
+     "layout": "full",
+     "what": "Skyler between answers"
+    },
+    {
+     "clip": "MVI_4310.MP4",
+     "at": 1.0,
+     "dur": 1.0,
+     "cx": 0.5,
+     "path": "Soles4Souls/Raw Footage/Nashville 4EveryKid Oct. 2026/B-Roll/MVI_4310.MP4",
+     "drive": "1gg6p3TuP_1b_tnKUKIZ1lIp4SrxnV0sJ",
+     "layout": "full",
+     "what": "Nicole before her first answer"
+    },
+    {
+     "clip": "MVI_4379.MP4",
+     "at": 7.0,
+     "dur": 1.0,
+     "cx": 0.5,
+     "path": "Soles4Souls/Raw Footage/Nashville 4EveryKid Oct. 2026/B-Roll/MVI_4379.MP4",
+     "drive": "1OMpK2e17lnOQ45RWrvGcX5kh_cAvkEBK",
+     "layout": "full",
+     "what": "Lisa between takes"
+    }
+   ]
   },
   {
-   "tc": "00:05–00:10",
+   "tc": "00:04–00:09",
    "beat": "THIS DECEMBER",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "More staff clips, quick cuts.",
-   "motion": "Text: <q>This December, you can help us continue that impact.</q>",
+   "visual": "More staff faces, quick cuts, sound off: <a href=\"https://drive.google.com/file/d/1uUHIDVL50ck5aPH1rmm0YTHu9Hax-A3-/view\">MVI_4307.MP4</a> <span class=\"mono\">00:10.0</span> (Jamie), <a href=\"https://drive.google.com/file/d/1VTjL7yA783voDFnz-r8Kws6inCIq6OK9/view\">MVI_4309.MP4</a> <span class=\"mono\">00:14.5</span> (Anna), <a href=\"https://drive.google.com/file/d/1JIfpshfM5MySJcASxWk-aWm4FZcuWX6z/view\">MVI_4311.MP4</a> <span class=\"mono\">00:15.0</span> (Alex). All three are pauses between their answers. About 1.5 s each.",
+   "motion": "Card at 00:04, centered, big: <q>This December, you can help us continue that impact.</q> It can animate on. Hold it to 00:09.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "clip": "MVI_4307.MP4",
+     "at": 10.0,
+     "dur": 1.5,
+     "cx": 0.5,
+     "path": "Soles4Souls/Raw Footage/Nashville 4EveryKid Oct. 2026/B-Roll/MVI_4307.MP4",
+     "drive": "1uUHIDVL50ck5aPH1rmm0YTHu9Hax-A3-",
+     "layout": "full",
+     "what": "Jamie between answers"
+    },
+    {
+     "clip": "MVI_4309.MP4",
+     "at": 14.5,
+     "dur": 1.5,
+     "cx": 0.5,
+     "path": "Soles4Souls/Raw Footage/Nashville 4EveryKid Oct. 2026/B-Roll/MVI_4309.MP4",
+     "drive": "1VTjL7yA783voDFnz-r8Kws6inCIq6OK9",
+     "layout": "full",
+     "what": "Anna between answers"
+    },
+    {
+     "clip": "MVI_4311.MP4",
+     "at": 15.0,
+     "dur": 2.0,
+     "cx": 0.5,
+     "path": "Soles4Souls/Raw Footage/Nashville 4EveryKid Oct. 2026/B-Roll/MVI_4311.MP4",
+     "drive": "1JIfpshfM5MySJcASxWk-aWm4FZcuWX6z",
+     "layout": "full",
+     "what": "Alex between answers"
+    }
+   ]
   },
   {
-   "tc": "00:10–00:15",
-   "beat": "SMALL ACT",
+   "tc": "00:09–00:17",
+   "beat": "OPPORTUNITY FOR A STUDENT",
    "kind": "turn",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Mission B-roll: shoes, kids (Canto); otherwise staff candid moments.",
-   "motion": "Text: <q>A small act of generosity can change a child's future.</q>",
-   "voice": "<span class=\"none\">No voice.</span>",
+   "visual": "Teresa on camera, <a href=\"https://drive.google.com/file/d/1g2ajU3PZsI3W6dj8QRJyuYTlANmsxZAp/view\">MVI_4329.MP4</a> from <span class=\"mono\">00:24.8</span>. Stay on her face to about 00:12. Then, under her voice, the kids: <a href=\"https://drive.google.com/file/d/1ULGA5vjXXxW0TBmJAIworsyY2Uj4pFXU/view\">MVI_4317.MP4</a> <span class=\"mono\">00:21.5</span> to <span class=\"mono\">00:24.0</span>, a man helps a child put on a shoe while a woman and another child watch. Then <a href=\"https://drive.google.com/file/d/1Q0oFWssowYqnvwyNr9myHk9M-weKKShb/view\">MVI_4352.MP4</a> <span class=\"mono\">00:07.0</span> to <span class=\"mono\">00:09.5</span>, a woman in a white hat kneels to help with shoes. Both notes are from visual.json and both are wide 4K shots: punch in to the hands and the child, up to 120%.",
+   "motion": "Name super at 00:09–00:11, lower left, above the captions: <q>Teresa Miller</q> / VP of Development. Card at 00:12–00:17 over the kids, centered, upper half: <q>$20 = one new pair of athletic shoes for a child experiencing homelessness.</q> Captions on.",
+   "voice": {
+    "who": "Teresa Miller",
+    "quote": "Every $20 donation made to Soles4Souls is hope and dignity and opportunity for a student.",
+    "src": "MVI_4329.MP4 00:24.8 to 00:32.4"
+   },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed sits lower under Teresa. No hard duck.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Every"
+    },
+    {
+     "clip": "MVI_4317.MP4",
+     "at": 21.5,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "Soles4Souls/Raw Footage/Nashville 4EveryKid Oct. 2026/B-Roll/MVI_4317.MP4",
+     "drive": "1ULGA5vjXXxW0TBmJAIworsyY2Uj4pFXU",
+     "layout": "full",
+     "what": "a man helps a child put on a shoe"
+    },
+    {
+     "clip": "MVI_4352.MP4",
+     "at": 7.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "Soles4Souls/Raw Footage/Nashville 4EveryKid Oct. 2026/B-Roll/MVI_4352.MP4",
+     "drive": "1Q0oFWssowYqnvwyNr9myHk9M-weKKShb",
+     "layout": "full",
+     "what": "a woman in a white hat kneels to help with shoes"
+    }
+   ]
   },
   {
-   "tc": "00:15–00:20",
-   "beat": "$20",
+   "tc": "00:17–00:22",
+   "beat": "A SMALL ACT",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Kids with new shoes (Canto).",
-   "motion": "Text: <q>$20 = one new pair of athletic shoes for a child experiencing homelessness.</q>",
+   "visual": "Kids with their new shoes: <a href=\"https://drive.google.com/file/d/1byVzV3dKf1KyT8rk4FbM4lmDLfEmz7-B/view\">MVI_4366.MP4</a> <span class=\"mono\">00:12.0</span> to <span class=\"mono\">00:14.5</span>, a girl in a striped shirt and an older woman look into a bag together. Then <a href=\"https://drive.google.com/file/d/1WVdCt2ORfFeIgP5W3ej2B6FYAiHIAZcP/view\">MVI_4350.MP4</a> <span class=\"mono\">00:03.0</span> to <span class=\"mono\">00:05.5</span>, two girls with their bags at the “Who do you want to be when you grow up?” wall. Notes from visual.json: check on scrub, and swap in a kid walking in new shoes if you find one.",
+   "motion": "Card at 00:17, centered, big: <q>A small act of generosity can change a child's future.</q> It can animate on. Hold it to 00:22.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "clip": "MVI_4366.MP4",
+     "at": 12.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "Soles4Souls/Raw Footage/Nashville 4EveryKid Oct. 2026/B-Roll/MVI_4366.MP4",
+     "drive": "1byVzV3dKf1KyT8rk4FbM4lmDLfEmz7-B",
+     "layout": "full",
+     "what": "a girl and an older woman look into a bag"
+    },
+    {
+     "clip": "MVI_4350.MP4",
+     "at": 3.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "Soles4Souls/Raw Footage/Nashville 4EveryKid Oct. 2026/B-Roll/MVI_4350.MP4",
+     "drive": "1WVdCt2ORfFeIgP5W3ej2B6FYAiHIAZcP",
+     "layout": "full",
+     "what": "two girls with their bags at the photo wall"
+    }
+   ]
   },
   {
-   "tc": "00:20–00:25",
+   "tc": "00:22–00:28",
+   "beat": "SO MUCH GOOD",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Teresa on camera, <a href=\"https://drive.google.com/file/d/1g2ajU3PZsI3W6dj8QRJyuYTlANmsxZAp/view\">MVI_4329.MP4</a> from <span class=\"mono\">01:29.6</span> (“every day”). Her face for the line. Then the warmest kid moment for the last 3 s: <a href=\"https://drive.google.com/file/d/1CZQnYY8IrcIOaoORB63x4XO9ZZ3rC8dR/view\">MVI_4371.MP4</a> <span class=\"mono\">00:05.5</span> to <span class=\"mono\">00:08.5</span>, a girl walks the red carpet toward staff who clap and cheer (visual.json). Check on scrub.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Teresa Miller",
+    "quote": "Every day I have the opportunity to see that there's so much good in the world.",
+    "src": "MVI_4329.MP4 01:29.6 to 01:32.5"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Small lift on “so much good”, then resolve into the end slide.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "every"
+    },
+    {
+     "clip": "MVI_4371.MP4",
+     "at": 5.5,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "Soles4Souls/Raw Footage/Nashville 4EveryKid Oct. 2026/B-Roll/MVI_4371.MP4",
+     "drive": "1CZQnYY8IrcIOaoORB63x4XO9ZZ3rC8dR",
+     "layout": "full",
+     "what": "a girl walks the red carpet toward staff who clap"
+    }
+   ]
+  },
+  {
+   "tc": "00:28–00:34",
    "beat": "END SLIDE",
    "kind": "end",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Sydney's holiday end slide (V1 light blue or V2 dark blue).",
-   "motion": "CTA in the open middle: <q>Give the gift of shoes this December and help us provide 5,000 kids with new shoes. Donate now: link in bio</q>",
+   "visual": "Sydney's holiday end slide: <a href=\"https://drive.google.com/file/d/1U0l7tq-tdLvtAnmDVoWyctP6j4kASb0z/view\">Holiday_bkg_social_V1_2.jpg</a> (light blue, string lights). The SOLES4SOULS wordmark is already built into the top of the slide: add no other logo. The other option is <a href=\"https://drive.google.com/file/d/1lqHLgTbF1dpE3V3jUDR_h-gyFj_Yorn7/view\">Holiday_bkg_social_V2_2.jpg</a> (dark blue, berries and snow). Hold it 6 s: the line is long.",
+   "motion": "CTA text in the open middle of the slide, black, big: <q>Give the gift of shoes this December and help us provide 5,000 kids with new shoes.</q> then <q>Donate now: link in bio</q> No logo added.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Resolve."
+   "music": "Resolve and out.",
+   "shots": []
   }
  ],
- "frames": {},
+ "frames": {
+  "f_4305_3": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD//gARTGF2YzU4LjEzNC4xMDAA/9sAQwAJBgcIBwYJCAcICgoJCw0WDw0MDA0bFBUQFiAdIiIgHR8fJCg0LCQmMScfHy09LTE1Nzo6OiMrP0Q/OEM0OTo3/9sAQwEKCgoNDA0aDw8aNyUfJTc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3/8AAEQgAkgEEAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A7iDRLTb/AKlPyqzH4fsyQWgTH0qGDWbEKMzL9Kvw6zp7Lxcp+JpmlwXw1pDZ3wL+VU5/C2lByFiXb9K0f7UsWHFyn51G+oWZP/Hwn50WFcxX8M6fz+6X8qrv4bsB1iX8q2pL6zP/AC3X86ga8tSf9cv50rDuY58N2BPEI/KpYvDVhnmEflWkLq1/57L+dTLd2q9Zl/Oiw7lCPwxpxbPkj8qsL4Z07J/cLx7Vfiu7dv8AlugH1q5Fc2iDPnofxosK5mQeErGRslBH7gc1y/j6zhht0t87o0kAya79L2Ob7sqonrnk1xXjOGOTBLho/MHU5poRz+n2enMwBlH51uJo+mvHkOPqDVnSrWxfHmRQYx1wK24bS1VWFuibf9kVIzjrrS7JQdjkn2FedahdzQ380UZcqrHHFe4XNtEI3JQdPSvK9RisIbueSeQFmf5UHak2kVFXMKPVJkABVyan/tqbAARs1oSiwVAZFeONujY6mq7WqId0Tb488H0+tLmRdmLBrUykHZIfwroNH8Y3llIrCKZx3AOP6VjwRjPrWlaxrkdqYWOiufiQ8kJRtMmGR1L/AP1qxIPEJurmS4niZIE7P3PpTp0ULXO6xdeU6xEYUcj/ABpNsfKjo7/X9NuGSV7XaqrghPWtS3sdNurdJ4SNrDPWvMxdHcSTn0r0L4fBbnTbwvhsEcenFOLd9SJJCXOn6eMgSLjuM1zXiG0s0RPs20uWxkGu3i0yzZHMiIWJNc74gsbSIxrGqiQt0FaEF/wJbMtvKxldCW/hrrRpglcO0zHPrXJ6Hdxaba5lkABP3e9dPp2u6ddKuLlVf+6xwaHuI0I9JRUz9pcY5wKnk0uJ0z5sjE+pqlNrVpDIke4SZPO09K0RqdmQAJ0zjpnmizC6M6XSwo+Un86zp9MUTH73I5zW5JqVlyBOpPoKx7nXbMXLxPlQP+Wh6U7ME13MqfSUMh60VZn1fTA/zXSDj1oosyeZdzqorC0KjNtGf+A1INLsyOLaPHptohuBirCXC96mxRANNsRwbWL/AL5oOmWB6W0f5VZM6mo3mVeQaAK7aZZf8+0f5VE2n2a8/Z4/yqdrwZwTx60olRuQc0DKhsLV+BbIB9KkTSLI9bdatCVRjFSJItICFNHsP+fZanTRtP6fZkqZJVHeub8deI20WzhSJ2jeckCQLnGKBHRf2Np3/PqtcZ4tiiSZbdFwgkGFqLwd43nnd4tQLzRBcrKBkrj1qHXNWtb6/VoJVYGQYA600BvaNplrIuXhU1qrbRW5ZIUCr1wKi0VlEINT3U6QRTTyHEaIWb6CkM4rx5rxso/7PtstPIBuA689Fqhovh63sIluLxDPfMMu7chD6D6VzFpdya54rW5kJKhmuHz2A+6P5VrS+Irt9Q8oTxsmcFCmMD2Nc8ndnVSjZHSXcNpc25ingRkIwRivP9Xs5NBv8xnzLOfoD147fUV1uqai+norbPMdhkLkCsTxHcLqWhTSPD5Ukfzrhs4IpJms0mjPQg4aNsowyDV+1Y5rC0aYyW20/wAPI/Gtu0PTNbI5izcN8tcx4haP92WPz4wAPSt3U7jyYWYAs2OFHeuOvRezyGSaJx6fIarluTKVtisJAWwK7zwpr9toNs9lPGWmnKlm7IPeuCjhkZwEBY+m012Ok6H9o05prqKaKfP3pAQDT0WrJjeWiPQrSCzuoiwCOc4Oxs1z3iOzhhuIBGhGWrH0dNVhuDFZ3aw7T83y7gR9K2rkK0iSm8aZkIIDDvS51eyK9nKzuc7rsv2d4yoP3e44FZseojcCFAbPJFdZ4ivf7WmLzwxJ8gXai4HFcXeWL20hfHye1JNXswcHyJo998CXSal4bt7qSKMPyhIUc4rlvEHxLg0/UJoNP06GXyztMshxux7CpfhlrNnD4Ylgubny9hbCyMBnPpXl2vWUst9cyW+TCHLA+1apxvqcii5LQ9M8NfE62vb5YNVtIbcyNtWaPoPTOe3vXf3CW9wGjeCKRCAcnBB9K+VkdgwznrXu3hbxRp9to0K3d1F5mwDDPk/jTdlqRJNGpdWVvNcSH7Ja4U7RlR0FFU7Xxlo+2TfdWwPmN1xRT50Z8pJpN8l5aJPGSVb1HNXZLqKBd00ioPVjisy3uodipEix5HCjpXL+OrDVL14JLZHe3UfPt/hrFuyuejFKTsdrNqtpE0StPGDKcISRyabb3oubiWHHzR9T2rmrfQ7XU9BgFy7JNCMwkNgg11wktrKwSaUJ5m0B2/vGi4SSTsLsz1rC1jWzplwoWAvHn52X+GtpbiNlDBhg9OetU20uK+uZBc8xY+cCpk30HBLXmLVleRXdvHPEwZHHDDoaurg9Kz49Kht4Ra6fKYYT0B52/Slu7eSGFIkuR5gIOc9RVXZLSNRDk4AzXP8AjfwvJ4jtYI1cq0RJGGrVluDEqiN/mI+9inWuoO2d7hlHcDBptaEp62PPtM0K70hri12FI0hO53/jJ6gVRt7OG0u0Kx5d245zivVpmS5hYOqkH1FZsWgWS7pHiDEjg56fSo5HfQ3VRWd0cnc+M7ix1WHTdPtUnIA388/hWz47vzB4Pu35WSZVQDv81aF54d0vFvc2tusc8TZ3jq3qDXHfEvUPOWGyjI8tGy+O5HanLRGaSexhfDlYjc6i8oywCJ+FdU8OmQ3Ak2ICTySOBXEeA5kGpXtsTiSRA6/gf/r11V95sULgRRsh/vE5Nc0r8x2UrWJtWtbHWGEfmKeMKfQ+lY+r6WtjoV2rP/yzOATx0qSwUjJWAqSfvKc1neLryRrI2xfl8nr1Ao1vYuaSTOZ0JyHiU9HXbXo3gzQxqdzJJdhltYfvdtx7DNebaRkQpKv3o23D86950zUhf6HDMY0QyR/ME4zXRHc4ZXsXI10myBS3ht1wOoAJ/OoJL7TZhiRoiPcCsaT7PtJ2qPQbiSfypLm3s/IVxD8xIyATxWmhz803sblq2lw/NCltnsQoFXjLBcoUkiRlxggjNcdG1ryAjD/datmwiEQZ0lLb8YLdqNCouV9Spq/h20ggnutNRo5dpLIpyD9K5T7BfG2W5aMtE38QXkD3r0dSwH7xlKkY61WG2FTEq/Ie2OMVPKr3Nud8vKcfoeixa5cTq7lTFGpVh0yc1fh8DNIrC6mQDPGBnIra0CyOkS3silSlyQVUD7oHatU3Ibgggdqckm7kQlOF7MxbPwtZWihXCSjGBuQcVX07wdZQNO95KbgO2VTGAo9K2Z72KD/XPjPTNUzq0bPsijdwepAp8qE6mt+pg634C0i8Um1i+zv/AAsprn9D8ONpt5qQ1GJJAkX7skcfhXZ3jiS4UiSQbh/C3SktIYb0tFOZGwNpJPJFDWhnJc2hwfhaxgutPlleFHJncAle1FdnYeHrfS4nt7VyYi5cZPTNFTZk8jMfw14nstWc24h+zhRkPIRmuq+14AjiZfL7/wC1XkkayQXomFpLEjQhTx3rtfD+qWkFoFvHxJ/dNVK19DePw3GeM9Zu/D01rJbxxvby569jWXYeOX1FWiurYh1HVeR7Vc8Y3OnatpKwjfGEk3b8dK5zSLC3tLhhC5n+XLDpUyaSsNXbudRa6m95e20EK5bgAnoDXUSf2nb3YWEoYnA3ZrjNFllsroSxxDG7IZu1dImsXMhyGTPY4qUrlNtbG1PcS21vJNMFYKudo4zXluveJL++kEtqj20ak42NnP1rtdRlub+xe3lw2RkYOOa5/SNLuILAw3UUbMHJHOeKu6sFN2lqjZ0DVDqWnQSK7lk4fPdgOa1o52eEsQRjqaw/Bdi8WnXmBtcXDFQfStxI38oiTG40GWvPc17RwIwzHAxxmsm6113YCPMcasQSf4qxLvT7m6uCoudkfUszHC1FYXfh5w8T6tHcSocF2OBn2rNuTdjePJHVm5ea1cpZu8SB4tpyw6qa8z1+5eWQLK2WXPPuepovdUubXxJc29ndO1rK+0pnKkVjarcs9xMxPO7H41Mk00OMk7soWFxJDrcE0DlWEmAQfwxXpqai7QqJ4g+BXl1jGW1G2I/56V6ZCA8Y47VFToXSe7Fl1JUQiKDBPYV554quJ5dWG9iCE4A7V37xgZ45rh/FcH/EyBH92in8Q6t3G43QpAihWHBODXpPgrUTCsunyN8indGT6HtXlumuFLKTjIzXWeH71vtUajlj8uPrV7MyteJ6G92iSExxYU5AIHf/AOvUMNxmTZLGDHIedvHNLER9mGd2QxAHQ4qCVfLbZk4IBXNbrY4teazZO9vFvKxxtwc4LYq2GZU2BeMZC+lY99Ix2MrMG/j9jWhAT9mhZjk9MmhmkJ3k0S2knzliTweMnNXLucwRGRziIjk1gjU4LdpFMblg54FLc6qb+ze3MWOhUA5OKhySOmNOT6HQwzGRUKnKlePpT5CWQ/MKo6WrG3jJHBXp6Vc25Bz29KpGezMq9nLp93LKeMjOKfA0v2dRtwSfzqrez+Tv9ScCqcU0pkTzHPHTFUYyklIs6gzCQAMQAvOKpTeIzpNxAZEDRynYxPX8Ku3kU0j79n7vZ19TWfc2qXYiaWFRsHy5FDBfEbMmos7boYWKEdQKK5bUNL8XzT7rB1itgoEan0orRQ0IdR33MxV1WSxhfzVLOOFx1NTizeO3illUg52sD2NXLeORViUcKhyM9qfqMm6PG4/M+cVhFWehvLUsRadG9sWdQVI6E1FbWccdy0irgkY4q2craRhmwdtJEh3L83BpPcaJljUZIUdKrwEruX0Y1fVMBh3qhAN08y/iKEM1bL95ExPXvUyoMY45qvpzZUr3qd0ORg4oANO1Kxhv30lG2XbjeATw30rXaOONQrqrN3ya4PxZ4fmlU6xZ3LJc26hgOnSsO0+IuoRxBbi2imcDBYsRmrS7E3PTrgBbS4dIyp8psY+lfP8AaxTT6hEkETyyvMAEQZLHPTFdhP8AEHWLpWhhWGBXGDtGTj6mul+Cmlxr9u1e4iR5TL5ELsMle7EfmBQ0Ldlq3+Heb59V1WXygqho7aPkkgdWPb6V5ncxGe8ncD92JGx+de8+Mr1rPQrhlz5kg8tAPU//AFq8XlQW9qkbEBmJZj/n8qxqPU3prQy9Ht2k1S3VEJIkOcfSvSYrQhRt9BXK+CiIfE1q7KCH3cH3FepS6dBLloD5TYyRjipcW9TSM1HRnNpY7m+foK5vx3o32NLSdsb5icj27Un9rahpHiYyalc+YsE/ltD0DIe4HTpzWn8SLpbmexSMhk27lI7g01Dl1ZLqKWiPNxGyHcoOVPIra8MySS63ZiJd7F8YPeohAplZOpz1Fd78OfDMcd299NhnCHywOxprViasrnaXWnxNYLJATvKBmQH73uPpWIGXdvKrKo788f4V1MY8s4P8I21i3tkiTsxTIJ4KnBFbJ2OWpT5tVuUvtMbuECg7zg7sGrar5cRikw2BwccGmR21qriTMgkXkbzkVZMazkGJ1Df3TQxwUl8Ryuoafcxq8+0MhYtleq/hVGOC7miaWEFFQZLtx+Vbmq65aaVrNvp9z9+4xkggheeM1a1SEfZpI1wA4yvPWs3T6nSqzWhRv75rbQbYmd1dlHKnBNZGnX95Jdrm5mI/ulzzSeJpVWG0RugGMfSn+HUQkuoz7mmhL4W2blx5kkILDbzz3qKHBlCuQFyCDjtVye1F5B5buVXP8JobTlIQK+AOMEZrRHLNSb0L1q8MqhSwUqeh71FqCxl1VMYUcYqsZDvKgcA4HHSqlzrdnZ6lBYXjeXLMMxsw4PtSLvpqdcJbhIolSFcBB/FRVOeZwyjeR8oorW5zcjObS2TbyelZGq+XG4Cso2jJya3UAx3rNvtOillEkkasR6isb2OqxLa3VvqFnG8LgkLgirccYwMdqitLeKJMqgBPpVpQR2zU3GLhVyzHjHNZNrLGt4QXB3Hg1qvyPumqAhj8wnYPwoGaSIkcodWHzelWgrNVO2Rcj5avoeKAIdShaTSrpOpMTfyrwVjtnx9RXvWrymLSLxwcFYmx+VeLaLpy6nfOsj7RGhc45zyOKuL0IkVYDtlU46EZr3jwParZeFLFE4MitLn3Yk14jfQxwX8qQ52K+ADXvujx7dCsFHG23QfTgVc9giVPHV9Fb6EZJVVmYYQHs3rXjjyvdT7m4Xr+FeifEVWl02EMSI45CXHqMV59EVUAPje/zN7HsK5Z7nRDY1PCqhtcsv8AfGa9fESH923Bx8p715N4XYQ6tA23dtOBzXqxlMjiJ42jk2blbIIOPpVw1RFWSTRh614M07Ur1Ly9aQFFwwVsbx71wvjJ0/thYYhiKBFVVHb0Fen3U+yF2kP3ASc14zqF21zqk8rHO56U30HTXUjiG6756HmvWfA7LFaPKeigDHvXkTt5Z8wdVyPrzmvSvAc5n0gc/Ksh3Y7ntSj8RUtjsd+5hjvyaZLGGl3cmli4BP8AkVFc3LwMqgAhh1NbGI/y1P30WonjTdiFFDd29KiaZ3Hr7VNCWYcKRQB4z8RN0Xi+4LArhU2t0zx1/OrGg3lzfTi4nuJZGiwRubIHatT4wafG0llexOhn5jeMH5sdQcVneE5beygYXLhN5CLkdTit3L91sT9osaiXvdRSEn5Qc7vaupsYIbWBEjJbjrism2jRpml2rnPatqCdQMBMGuZGstNDQt/mHPFWkXkAdfSqccylQFGPpU8ckm4ZyfwqkQeJ69rWox63fJBfTpGJmAVXOAM1W0W5lv8AxDYNeyPNm4QZdsnGab4qj8nxDqKqAAJm6H1o8IPbp4k09rx9kImUlvQ9v1qmjFvc9+1JJPtPyAqNo4FFWr12km3L0KjpRVAmc3HxTZyduTU8IOOgqrqGAgHesTYWJsrUyE1VszhcVazSAcdxBzUChQx45qwTxVfB3UhlmA/NVxGAqlFVgEGmBD4gbOhX3/XFv5V5d4Kkhju7x5mAPkfKPXn/AOtXpmtI0uj3aKeTE2Pyrybw3JENRkimGPNjaNWAzsPrVLYh7lWWX7Rcuy/xyHH519FWcfk2UEZ6CJFP1AFeEjRjaeILCyiYyrNLHtJGM5YV75KuMqRxVSd0ho57xJpzapGYBKyZH3QBhj71wlh4Lv3e5+1SRRzADy1Z8Aj1zXpNzN5Um4jkDGafFOiOqnv3rNpN6lXklocfbeG7fT7COQ3qTXIbLKCQPcCus047rmIB97JbkE5zjJrQYjGSOPeog2xwwAA6cVSilsRLmmlcivrUXalHOIyPmGcZrjNS8GW9vbXE1tKzSHLAY/HFd5P8q8d6zrgll2A9etJxRopM8YuIZUDRyIQRXo3gWNYNDtgD8z5Z/rWgdItUAaeJW3HIDCp7QQJMyRqEVPl2p0qYxsU5XNqM4SuT+I+s6hodnY3GnOirJK0cm5N3bI/ka6mABsHPA7da5/4mWsNx4Ou2dsNCyzR5I6g4/kTWiM2eayePNeIIFzGvuIhWfdeLdduhsk1S4weyNt/lWHkyMcdKcgAOBVWJuadhPI80zySM7MoG5zk9amv5zaxW+4YUuW5qtp2CWz0JGaZ4tu47i9jjgIMMMYVceveqk/dSJWkrm9ca1c29kstlLtbHpkVRg8fatGMPHbye5QiuYF1MI/LDnb6VDzjnrWKVjSpU5mdr/wALG1VfuW9qD67SahuvHmv3SFWuUhUj/lkmP1rkM4q1Z28l0JAg+5GXPoAKozuyOSR55ZJJHLu5LMSckmi2bbOh9HB/WrGgqr6vZo4yrzIrA9wTV3xFp8dl4kuLWHKR+YNpfgDP9KuRO57kkpeGJsn/AFa/yoqrbti2hCsrARgbvXiincVixFGNgIrKvstKR6V2FlDALcHCk49Kw9VgTzjsAFYG5kQErVoNmoSu044pVYDvSAmyaAOaajA1KuCaBiqp7U4bh3pwXijHQCgBJgJIJEkUujKQ204NcpFoNhZSM1tHN8x6O4Nde0YEZGTzVCK2DmQkE7RkU2IrabZQpqdrqU829rXlYd2CpweffrXU/wBuB13GB+f9sVzbgBeB271ejw9uuPSs5ycVobUoKT1J7/V43Q/uXHryKq6M881rFLOdxdty49MnFUb9/LgmYjhVzXR6JaJaafC0sjOdgIB+lEJOW5VWCitC6zEqPamHkc8CliDTZI6E/lVlbYbcMQa2MCk0ruAnYd6kihUAySD5R+tWFtFU8E0ksbSgggrCv60AZdzKXfzGGQOFFcpbNNBd3P711YzMWwcc12mxZpdyriNPuj3rk7hC1/dgA5841jV0RtSSuXIri4cEGaTH+8a8h8XTSTeILwNIxCylV3MTivXlQxQZfivJ7ezGueJ7rcuYi8sjY7AZxSoNtseIVoqxkrhV460q8DJpm07yvoacx5wOldSOU1NJVdyLIPlZueKx9TK/bpPLGF3EAV2MGn2unWcV3LdBwEEjJ6HHSuKupFlnkkAwGYkD0ok07WJIKuWmm3V7b3E8EZMUCbnc8Ae31pdG06XVtRitIONxyzH+Fe5r0PWZNO0XRJNKhTAeIgY6sfU1IjywZPJrW0iOWWG7W3Pz+SePUd6ycYOD2q1BPJFHIISVZxtJHpQBLoqFtXtEzj98gz6c17T4k0bT722W5uUR3XDFgRmvGdFxBqVtLKxVBKN/f5Sef0r0y5+yRyeXaSO8P8JLZptjijoIrlFhjCDau0bR6CiqKSAov0oqhHXWsiiDlqytSm3OdvSiCdBFzVO5k3Nx0rE2ISC3WgLTdx7Uo3E9TSAkHHSpUY1EFPrTxxwOtAE4kA4HWpYzjnvVeJGLVYVMUAOdzjrRp6b2nUj+Gq9wrc4NGnStG0hYjLDFAFVzglSKtWUmFK+lUmyZGyB1pyHy5AexrKpsbUXaRevrZbmF1wPmXBragheWygkjbKFBj1GByKyIZB61r+H7gLLPZswGT5kYJ9eoH40qT1saVl7txUt5VPy5FWYxOh+ZsitJo1AyxFQOXA/cR7j6mug5BgBCFpG2j1NVZZnuPkQt5a9z3p7288rAyhiv90VPHbv/ABAAUwIAgSPIGABk1zKoGleVxy7E10esSi1sZNpy7YRfqa56U7Vx6CsKz6HTQXUqatOsVrKxOFVCSfwrjvhrYpKl/dPwZG8oE+nf+laPja+EGjTBW+aTCD8f/rZpvw/i/wCKack/elbBoorRsnEPVI4HUYPsl/dRH/lnKwH51ViXLDPNWdWyL+cEkkSNkn61BEwDA11LY5up0XiFo4vD1ttUB5NoyO+K4xjkk10niaYNp1ggIOF5HpXPWkLXNzHBGDudgoqBPc9F8AaYLXTjeOv7246H0WtLXNJj1IjzeNvRh1FXLFEtraKBRwihatOVZOKQ0eR+JdNTTL5Yo33Bl3c9qh0aNZb+KN8bXODW18QSP7QgHfy/61iaL/yErb/fp9CXudUfDlsX3ZYc9jW7b2wEaIpGFAA9aRWxT1kAPSpRZqRo4QDiioI7sBRRV3INaH7lMlooqDQip46UUVIx9PT/AFn4UUUAWY6nHSiimBBddKoqTnrRRQAlI/aiipn8LLp/Gi3bdBU//MRgPfyz/SiisIbnXU+E1wTxyelXLFmz94/nRRXUjhZpjpTZfun6UUVZBz+uHKxf9dR/Ksa67/SiiuSrudtH4ThfHn/ILi/6+R/6Ca1fAP8AyK8X/XRv50UVtS+BGFb42ee6z/yEbr/rq386rW/Wiit0Y9RNTJKxgkmpvCQB1u2yPWiioYnuemqT61YT7lFFIZ518QP+QrD/ANch/OsfRf8AkJW3++KKKZL3PRR1pT1ooqUUOT7tFFFWSf/Z"
+ },
  "files": [
   [
    "Editing brief",
-   "<a href=\"https://docs.google.com/document/d/13hfJB14GQ5wNKDQ2Oqlg69JKrCkWiLveIcILajjIofE/edit\">S4S - Giving ShoesDay + End of Year 2026 - client editing doc (Sydney, 19 Oct)</a>. This page is built from it."
+   "<a href=\"https://docs.google.com/document/d/13hfJB14GQ5wNKDQ2Oqlg69JKrCkWiLveIcILajjIofE/edit\">Sydney's GSD + EOY editing doc (19 Oct)</a>. Nick's editor brief on the Monday item (29 Oct) is the plan."
   ],
   [
    "Campaign brief",
    "<a href=\"https://soles4souls-my.sharepoint.com/:w:/g/personal/alessandrar_soles4souls_org/IQCta6x6tnKSTrW4q7pDlmZFAaOChZDgPxogeNx6evhidKk?e=kTNuOK\">FY27 Holiday Campaign Brief</a> (client SharePoint)"
   ],
   [
-   "Footage",
-   "<a href=\"https://drive.google.com/drive/folders/1pp7akiHNLG3xBoGCHwOozU-s2RVWppqr\">Nashville 4EveryKid Oct. 2026 raw</a> (staff check-in interviews MVI_4305–4311, 4329, 4379) · <a href=\"https://soles4souls.canto.com/b/VPMCH\">Happy kids B-roll (Canto)</a>"
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/11Kw0y8bTeFrojSz56W0O0El-PZ-qXzohITcDNQrYync/edit\">S4S 4EveryKid Nashville - Videographer Field Brief (14 Oct)</a>"
   ],
   [
-   "End card",
-   "Sydney's holiday end slide: <a href=\"https://drive.google.com/file/d/1U0l7tq-tdLvtAnmDVoWyctP6j4kASb0z/view\">V1 light blue</a> or <a href=\"https://drive.google.com/file/d/1lqHLgTbF1dpE3V3jUDR_h-gyFj_Yorn7/view\">V2 dark blue</a>. 9:16, S4S logo already in the top of the slide. CTA text in the open middle area; no extra logo."
+   "Shoot folder",
+   "<a href=\"https://drive.google.com/drive/folders/1uZ_ur-2wXBktGvHqvTvRG73Mzy_cyh9Z\">Nashville 4EveryKid Oct. 2026</a> › <a href=\"https://drive.google.com/drive/folders/1pp7akiHNLG3xBoGCHwOozU-s2RVWppqr\">B-Roll</a> (99 clips, flat)"
   ],
   [
-   "Facts",
-   "Giving ShoesDay is 1 Dec. Goal: 2,500 kids, $50,000. End of Year runs 2 to 31 Dec. Goal: 5,000 kids, $100,000. $20 = one new pair of athletic shoes (two with a match). GSD match: dollar for dollar up to $25,000, pending confirmation."
+   "Teresa",
+   "<a href=\"https://drive.google.com/file/d/1g2ajU3PZsI3W6dj8QRJyuYTlANmsxZAp/view\">MVI_4329.MP4</a> · Teresa Miller, VP of Development, 1:36 · <a href=\"https://docs.google.com/document/d/1hcDLMi9GcWMmRYnKcA0tKJfNNrG8YoJNliIe6KXWyck/edit\">Interview 45 transcript</a>"
+  ],
+  [
+   "Staff faces",
+   "<a href=\"https://drive.google.com/file/d/1ahl63ysOOifbDBcwk38_tYZ6bevW3I1e/view\">MVI_4305.MP4</a> Laura · <a href=\"https://drive.google.com/file/d/1y6_rgRasAgF-TRpAmb6hLCahLvvBhKvc/view\">MVI_4306.MP4</a> Skyler · <a href=\"https://drive.google.com/file/d/1gg6p3TuP_1b_tnKUKIZ1lIp4SrxnV0sJ/view\">MVI_4310.MP4</a> Nicole · <a href=\"https://drive.google.com/file/d/1OMpK2e17lnOQ45RWrvGcX5kh_cAvkEBK/view\">MVI_4379.MP4</a> Lisa · <a href=\"https://drive.google.com/file/d/1uUHIDVL50ck5aPH1rmm0YTHu9Hax-A3-/view\">MVI_4307.MP4</a> Jamie · <a href=\"https://drive.google.com/file/d/1VTjL7yA783voDFnz-r8Kws6inCIq6OK9/view\">MVI_4309.MP4</a> Anna · <a href=\"https://drive.google.com/file/d/1JIfpshfM5MySJcASxWk-aWm4FZcuWX6z/view\">MVI_4311.MP4</a> Alex · opening remarks <a href=\"https://drive.google.com/file/d/1qNNldB_d4LWwrColKqZqtJjBgamqTxOn/view\">MVI_4297.MP4</a>"
+  ],
+  [
+   "B-roll picks",
+   "<a href=\"https://drive.google.com/file/d/1ULGA5vjXXxW0TBmJAIworsyY2Uj4pFXU/view\">MVI_4317.MP4</a> · <a href=\"https://drive.google.com/file/d/1Q0oFWssowYqnvwyNr9myHk9M-weKKShb/view\">MVI_4352.MP4</a> · <a href=\"https://drive.google.com/file/d/1byVzV3dKf1KyT8rk4FbM4lmDLfEmz7-B/view\">MVI_4366.MP4</a> · <a href=\"https://drive.google.com/file/d/1WVdCt2ORfFeIgP5W3ej2B6FYAiHIAZcP/view\">MVI_4350.MP4</a> · <a href=\"https://drive.google.com/file/d/1CZQnYY8IrcIOaoORB63x4XO9ZZ3rC8dR/view\">MVI_4371.MP4</a>. Times are in the rows."
+  ],
+  [
+   "Transcripts",
+   "<a href=\"https://docs.google.com/document/d/1aYF6nf7kIe0JXgI3KzDq8qsAwZ3qcQ5Qw1HN3ryVQ1k/edit\">Transcripts - Nashville 4EveryKid Oct. 2026</a> · <a href=\"https://drive.google.com/file/d/1Z-1x4huXNTkqUWlk-iNbkC695-Xnbo69/view\">Nashville 4EveryKid Oct. 2026.srt</a> · <a href=\"https://drive.google.com/file/d/16wEfUjAs8TcVuQBI2-UtRlY1c1_n5Meu/view\">output.json</a> (word times)"
+  ],
+  [
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/1Pb0DANYvIWMbbbpfXAgD8fl6BO0qZDJd/view\">visual.json</a> (Erin's shot index for this shoot). It is coarse: check each pick on scrub."
+  ],
+  [
+   "Kids backup",
+   "<a href=\"https://drive.google.com/drive/folders/1qFfK1eIdPRgZ_SXxAmw9RY1sbo9Qw6Mg\">Happy kids B-roll (Drive copy of Canto VPMCH)</a>"
+  ],
+  [
+   "Campaign facts",
+   "End of Year runs 2 to 31 December. Goal: 5,000 kids with new shoes."
+  ],
+  [
+   "End slide",
+   "Sydney's holiday end slide: <a href=\"https://drive.google.com/file/d/1U0l7tq-tdLvtAnmDVoWyctP6j4kASb0z/view\">V1 light blue</a> or <a href=\"https://drive.google.com/file/d/1lqHLgTbF1dpE3V3jUDR_h-gyFj_Yorn7/view\">V2 dark blue</a>. 1081×1921 JPG, 9:16. The SOLES4SOULS wordmark is already at the top. Put the CTA text in the open middle. No extra logo."
+  ],
+  [
+   "Brand graphics package",
+   "<a href=\"https://drive.google.com/drive/folders/1HaEuSzPDVfNxrNACiSyO0nl4Er-d9mFF\">S4S graphics package</a> (Drive). Same folder as the end slides. Type the words on the empty plates in Roboto. The logo files there are for end cards only; this campaign's end card is the holiday slide."
+  ],
+  [
+   "Brand",
+   "S4S teal <span class=\"mono\">#62CCBF</span>, black, white, off-white <span class=\"mono\">#F8FAF9</span>. Titles in Buenos Aires (Roboto Black if you do not have it), body in Roboto. Black text on teal. Never white on teal."
   ]
  ],
  "tech": [
   [
    "Source",
-   "Client footage from Canto and Christe's 4EveryKid upload. Mixed sizes and frame rates: conform on import."
+   "Interviews: Canon MP4, 3840×2160, 23.976 fps. B-roll and MVI_4297: 3840×2160, 59.94 fps (visual.json)."
   ],
   [
    "Timeline",
-   "1080×1920. Frame rate = the majority of the clips."
+   "1080×1920 at 23.976 fps (24p, Nick's brief), the interview rate. Conform the 59.94 fps B-roll; use it slow only where you choose."
   ],
   [
    "Crop",
-   "Horizontal clips: center-crop to 9:16, faces in frame. No stretching."
+   "16:9 4K to 9:16: the crop is 1215 px wide, so punch-ins up to 120% stay sharp. Faces centered. No stretching."
+  ],
+  [
+   "Audio",
+   "Both channels on MVI_4329 carry the same mic (dual mono, measured on an earlier blueprint for this shoot). Large hall: noise print, noise reduction and a level pass before V1. Staff faces in rows 1 and 2 are muted."
+  ],
+  [
+   "Captions",
+   "Teresa's lines only. Burned in, S4S style: black text on the teal box <span class=\"mono\">#62CCBF</span>, Roboto bold, max 2 lines, US English. Spell it Soles4Souls, even though the machine transcript does not."
   ],
   [
    "Text",
-   "All on-screen text exactly as written in Sydney's doc. Big, readable on a phone. S4S fonts (Buenos Aires titles, Roboto body)."
+   "Every on-screen line word for word from the script. Big, readable on a phone. Short cards, centered, out of the bottom 20% and away from the right edge (Instagram buttons). Hold each card long enough to read twice. Roboto Black for titles."
   ],
   [
    "Loudness",
-   "−14 LUFS integrated, −1 dBTP peak."
+   "−14 LUFS integrated, −1 dBTP peak. Music from licensed sources only. No swearing on screen or on the track."
   ],
   [
    "Export",
-   "H.264 MP4, 1080×1920. One file, 9:16 only."
+   "H.264 MP4, 1080×1920. One file, 9:16 only. Upload to Frame.io with the Edit Key in the file name."
   ]
  ],
  "checklist": [
-  "Every on-screen line is word for word from Sydney's doc.",
-  "Giving ShoesDay is one word “ShoesDay”, capital S and D.",
-  "Soles4Souls and 4EveryKid spelled exactly.",
-  "Text is big enough to read on a phone. Text size is this client's most common note.",
-  "US English.",
-  "Ends on Sydney's holiday end slide with the CTA in the open middle.",
-  "Staff faces are clear and happy. No one caught mid-word on a hold."
+  "Card 1 is on screen at frame 1 and does not animate on. No logo, no name at 0:00.",
+  "Staff faces in rows 1 and 2 are pauses between answers, not talking mouths.",
+  "Teresa's two lines are word for word. Captions say Soles4Souls.",
+  "Name super at 00:09: Teresa Miller / VP of Development, lower left, 2 s.",
+  "Every card matches the script word for word. US English.",
+  "No staff thank-you line and no line from the other Nashville cuts.",
+  "Text is big enough to read on a phone, out of the bottom 20%.",
+  "Ends on Sydney's holiday slide with both CTA lines in the open middle. No extra logo.",
+  "Teresa's audio is cleaned and levelled. Music licensed, no clipping."
  ],
  "decisions": [],
- "client_note": "<b>Why this matters:</b> Giving ShoesDay (1 Dec) is Soles4Souls' biggest day of the year. Sydney wrote every line herself: keep it joy themed and positive.",
+ "client_note": "<b>Why this matters:</b> End of Year ties giving to Soles4Souls' 20th anniversary. Sydney asked us to build it from what the videographer got at the staff shoe event.",
  "ask_examples": [
-  "Where is the footage?",
+  "Which staff clips go under the first two cards?",
+  "Where is Teresa's line in the clip?",
   "Which end slide do I use?",
-  "Can I change the text?",
-  "Is the match confirmed?"
- ]
+  "Can I use the opening remarks?"
+ ],
+ "transcript": "--- MVI_4329.MP4 (Teresa Miller, VP of Development) ---\n[00:01.7] Teresa Miller, and I'm the Vice President of Development here at Soles4Souls.\n[00:09.1] [do not use: in the “Nashville · A Staff Retreat. 250 Kids.” cut] Today we are serving the kids and families that are served by Conexión Américas,\n[00:15.1] [do not use: in the “Nashville · A Staff Retreat. 250 Kids.” cut] and we are providing these kiddos with brand new socks and shoes.\n[00:24.8] Every $20 donation made to Soles4Souls is hope and dignity and opportunity for a student.\n[00:32.6] [do not use: in the “Nashville · A Staff Retreat. 250 Kids.” cut] Something as simple as a pair of shoes makes such a big difference in a child's life.\n[00:36.6] [do not use: in the “Nashville · A Staff Retreat. 250 Kids.” cut] Not only does it open the door for education, showing up to school and being prepared to learn,\n[00:42.6] but also for sports and activities and other events.\n[00:52.3] If I could say one thing to people who support Soles4Souls,\n[00:55.1] [do not use: in the “Nashville · We Couldn't Do This Without You” cut] I would say that your donation is making a really important difference in the life of a student.\n[01:02.1] [do not use: in the “Nashville · We Couldn't Do This Without You” cut] Not only is it helping to build confidence, but it's showing them that they are seen, cared for, and loved,\n[01:08.1] and it's giving them just an important tool that will help them thrive in life.\n[01:13.5] [interviewer] And what is your favorite thing about working for Soles4Souls?\n[01:16.2] My favorite thing about working for Soles4Souls is that our mission is just making such an incredible difference in the lives of so many,\n[01:24.1] and I get the great fortune of working with so many wonderful people and donors and supporters,\n[01:29.1] and every day I have the opportunity to see that there's so much good in the world.\n[01:34.0] [do not use: crew talk] Okay, yep.\n\n--- MVI_4297.MP4 (opening remarks, speaker not named on camera) ---\n[00:00.0] [do not use: crew talk] Yeah, buddy, you wanna kick us off?\n[00:03.7] [do not use: crew talk] Come on.\n[00:06.5] I'll say more over there this morning, but\n[00:11.0] I just think it's really important to note that we are here to celebrate\n[00:16.1] our 20th anniversary at Soles4Souls.\n[00:19.8] [do not use: names, unclear] Something like Mike Brown and Jay and Tiffany and Kelly.\n\n--- MVI_4305.MP4 (Laura Merrick) ---\n[00:07.4] [do not use: in the “Laura Merrick · People Out There Who Care” cut] Hi, I'm Laura Merrick and I'm on the development team at Soles4Souls.\n[00:20.5] [do not use: in the “Laura Merrick · People Out There Who Care” cut] So today we are at the Nashville Fairgrounds where we are distributing shoes to kids from\n[00:28.3] [do not use: in the “Laura Merrick · People Out There Who Care” cut] Conexión, which is a local nonprofit where we're able to give shoes to kids in need whose\n[00:35.1] [do not use: in the “Laura Merrick · People Out There Who Care” cut] families maybe are experiencing hard times and they're in need of a new pair of shoes\n[00:40.3] [do not use: in the “Laura Merrick · People Out There Who Care” cut] so that they can go to school and just be able to kind of use the money they would have\n[00:46.1] [do not use: in the “Laura Merrick · People Out There Who Care” cut] put towards shoes towards something else that is a need for their family.\n[00:59.5] [do not use: in the “Nashville · We Couldn't Do This Without You” cut] I could say one thing to people who support Soles4Souls, it would just be thank you\n[01:04.1] [do not use: end of a thank-you line] so much.\n[01:05.3] [do not use: in the “Laura Merrick · People Out There Who Care” cut] We would not be able to do distributions like this without the support of individuals, organizations,\n[01:11.0] [do not use: in the “Laura Merrick · People Out There Who Care” cut] and companies in the community.\n[01:13.5] [do not use: in the “Laura Merrick · People Out There Who Care” cut] You're really helping to provide for these families and really show them that there's\n[01:27.0] [do not use: in the “Laura Merrick · People Out There Who Care” cut] people out there who care about them.\n\n--- MVI_4306.MP4 (Skyler Jackson) ---\n[00:00.6] [interviewer] What's your name and what do you do at Soles4Souls?\n[00:03.5] [do not use: off-take] Should I say, like, my name is Skyler?\n[00:06.5] My name is Skyler Jackson. I am the director of digital marketing here at Soles4Souls.\n[00:10.5] [interviewer] Say that again?\n[00:20.7] [do not use: false start] It feels great being the one to put kids on...\n[00:23.7] [do not use: off-take] Sorry, say that again.\n[00:25.6] [interviewer] How does it feel to be the one in my community today?\n[00:32.6] It feels great to be able to put shoes on kids' feet today.\n[00:36.3] It's, you know, really exciting to see the reactions to getting a new pair of shoes.\n[00:45.9] My favorite thing about working for Soles4Souls is being able to do events like this\n[00:49.6] and just seeing the community impact that we have.\n[00:59.1] [do not use: in the “Nashville · We Couldn't Do This Without You” cut] I would say thank you to the people that support Soles4Souls.\n[01:01.5] [do not use: in the “Nashville · We Couldn't Do This Without You” cut] It really helps us be able to do our mission each and every day.\n[01:05.4] [do not use: thank-you line, already in the staff thank-you montage] So, thank you for supporting us.\n[01:09.5] [do not use: off-take] Awesome! Yeah, of course.\n\n--- MVI_4307.MP4 (Jamie Ellis) ---\n[00:00.0] Okay. My name is Jamie Ellis and I'm the Vice President of Strategic Communications with\n[00:07.2] Soles4Souls. So today we get to serve a really amazing community here in Nashville with Conexión\n[00:22.3] [do not use: in the “Nashville · A Staff Retreat. 250 Kids.” cut] Américas. We get to do this as part of our staff retreat so our entire team is here from all over\n[00:26.6] [do not use: in the “Nashville · A Staff Retreat. 250 Kids.” cut] the world getting to serve this community in Nashville and we're so excited to be here.\n[00:38.4] [do not use: in the “Nashville · A Staff Retreat. 250 Kids.” cut] Being able to put shoes on the feet of kids in need is just such a special moment. I've been\n[00:43.7] [do not use: in the “Nashville · A Staff Retreat. 250 Kids.” cut] with Soles4Souls almost eight years and it never gets old. It's one of my favorite things that we\n[00:47.7] [do not use: in the “Nashville · A Staff Retreat. 250 Kids.” cut] get to do. We actually get to see the mission and action and it's just such a special thing to be\n[00:51.9] [do not use: contains an aside] able to share with our entire staff too. It's almost like I know what I'm doing. When you\n[01:07.6] support Soles4Souls you get to actually know that what you're doing it matters to a child in need,\n[01:14.1] to a woman in a low-income country who's starting a business to support her family.\n[01:18.0] All of that is tangible and it's real and so when people support Soles4Souls whether it's\n[01:22.9] [do not use: in the “Nashville · We Couldn't Do This Without You” cut] through donating dollars or donating your shoes just know that all that has real impact on the\n[01:27.3] [do not use: thank-you line, already in the staff thank-you montage] people that we serve. Crush that. Thank you so much.\n\n--- MVI_4309.MP4 (Anna Rivera) ---\n[00:00.8] [do not use: in the “Anna Rivera · Full Circle” cut] I'm Anna Rivera. I'm an outreach specialist with Soles4Souls. I oversee our relief programming and\n[00:07.3] that would be 4EveryKid and 4Relief. That's why we're here today is part of our 4EveryKid programming.\n[00:19.2] [do not use: in the “Anna Rivera · Full Circle” cut] It's a wonderful feeling to get together with the community, be able to work with them face-to-face,\n[00:23.6] [do not use: in the “Anna Rivera · Full Circle” cut] have that true connection and get our team together and really build what we don't get to do in person every day and have\n[00:29.9] [do not use: in the “Anna Rivera · Full Circle” cut] that come full circle.\n[00:38.7] [do not use: in the “Anna Rivera · Full Circle” cut] I think it shows what effort and intention and passion and how that can go a long way.\n[00:44.4] [do not use: in the “Anna Rivera · Full Circle” cut] This is a lot of people that come together to make each facet of this organization happen and\n[00:50.2] [do not use: in the “Anna Rivera · Full Circle” cut] that comes from love and a mission that we all truly believe in and I think our 20th anniversary\n[00:55.9] [do not use: in the “Anna Rivera · Full Circle” cut] marks the progress that we've made through this journey.\n[01:04.2] [do not use: thank-you line, already in the staff thank-you montage] Thank you so much for making this possible.\n[01:06.8] Honestly, the\n[01:08.5] [do not use: in the “Anna Rivera · Full Circle” cut] each of us come together as a piece of this giant picture and it can't be made possible without the foundation\n[01:14.6] [do not use: in the “Anna Rivera · Full Circle” cut] that our donors, our community partners put into this and we truly appreciate it.\n\n--- MVI_4310.MP4 (Nicole Gabehart) ---\n[00:04.0] I'm Nicole Gabehart and I am the travel manager at Soles4Souls.\n[00:13.7] It feels great.\n[00:14.7] [do not use: in the “Nashville · A Staff Retreat. 250 Kids.” cut] We're really excited to be in Nashville and to be able to serve around 250 kids today.\n[00:20.3] [do not use: in the “Nashville · A Staff Retreat. 250 Kids.” cut] I feel really excited about it and just excited to meet the families and see the smiles on\n[00:26.2] [do not use: in the “Nashville · A Staff Retreat. 250 Kids.” cut] their faces as they check out their shoes in the mirrors that we've got over here.\n[00:36.1] My favorite thing about working at Soles4Souls is probably our culture and the people.\n[00:42.0] Whether it's our partners or my co-workers and colleagues or any of our partners stateside\n[00:49.3] and internationally.\n[00:50.8] I think we just work with some incredible people and I think that's one of my favorite\n[00:54.6] things about what we do.\n[01:01.3] [do not use: in the “Nashville · We Couldn't Do This Without You” cut] Thank you because none of this, everything that you see that we do on a daily basis,\n[01:07.9] [do not use: in the “Nashville · We Couldn't Do This Without You” cut] couldn't happen without you guys so just thank you.\n\n--- MVI_4311.MP4 (Alex) ---\n[00:00.8] [do not use: in the “Alex · Happiest I've Ever Been in Any Job” cut] My name is Alex and I'm the VP of International for Business Development so I mean I take care of Europe, Asia and the\n[00:09.2] [do not use: in the “Alex · Happiest I've Ever Been in Any Job” cut] UK.\n[00:27.7] [do not use: in the “Alex · Happiest I've Ever Been in Any Job” cut] Oh so we're here to provide shoes to kids that belongs to family that are under\n[00:35.3] [do not use: in the “Alex · Happiest I've Ever Been in Any Job” cut] privileged and so in a nutshell we're here to provide shoes and put a smile on\n[00:40.1] those faces. One thing to say to people who support Soles4Souls is that we are\n[00:57.0] [do not use: in the “Nashville · We Couldn't Do This Without You” cut] very grateful for your help. We are working at Soles4Souls but we couldn't do\n[01:02.6] [do not use: in the “Nashville · We Couldn't Do This Without You” cut] what we're doing without you so thank you so much for your constant support\n[01:06.9] [do not use: in the “Alex · Happiest I've Ever Been in Any Job” cut] it's highly appreciated. My favorite part of working at Soles4Souls is that I\n[01:17.2] [do not use: in the “Alex · Happiest I've Ever Been in Any Job” cut] really managed to put my business skills being aligned with my values. I get to\n[01:24.6] [do not use: in the “Alex · Happiest I've Ever Been in Any Job” cut] use all the experience that I had in my previous career and serving people in\n[01:29.4] [do not use: in the “Alex · Happiest I've Ever Been in Any Job” cut] need and for me this is like the happiest I've ever been in any job.\n\n--- MVI_4379.MP4 (Lisa O'Keefe) ---\n[00:00.0] [do not use: off-take chatter] Tabbing my makeup? I know. I'm glad I'm old.\n[00:11.0] [do not use: off-take chatter] Right in the camera? Okay.\n[00:17.7] Oh, my name is Lisa O'Keefe and I'm the Vice President of Community Partnerships.\n[00:26.3] [do not use: swearing, cut it] If I could say one, oh my god, no, no, damn it. Do I say something to them because they've\n[00:30.5] [do not use: off-take] already supported or they're not or they're going to? I would probably just say that like\n[00:34.8] [do not use: thank-you line, already in the staff thank-you montage] thank you for all your support. Okay, one of those. So they've read again.\n[00:39.1] [do not use: off-take chatter at the start] Good thing you can cut video, right? Okay. I would thank supporters for all their help,\n[00:43.9] [do not use: in the “Nashville · We Couldn't Do This Without You” cut] support, and time. Time and energy is what we need. My favorite thing about working for\n[00:51.3] [do not use: thank-you line, already in the staff thank-you montage] Soles4Souls is the people and the impact that we make in our communities. Thank you.\n[00:58.8] [do not use: crew talk] Now tell us how you really feel.\n",
+ "alts": {
+  "bite:0": [],
+  "bite:2": [
+   {
+    "quote": "My favorite thing about working for Soles4Souls is that our mission is just making such an incredible difference in the lives of so many,",
+    "who": "Teresa Miller",
+    "file": "MVI_4329.MP4",
+    "why": "Her own why; unused in the other Nashville cuts."
+   },
+   {
+    "quote": "and I get the great fortune of working with so many wonderful people and donors and supporters,",
+    "who": "Teresa Miller",
+    "file": "MVI_4329.MP4",
+    "why": "Warm and short; unused elsewhere."
+   },
+   {
+    "quote": "and it's giving them just an important tool that will help them thrive in life.",
+    "who": "Teresa Miller",
+    "file": "MVI_4329.MP4",
+    "why": "What shoes give a student; not in the thank-you cut."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "My favorite thing about working for Soles4Souls is that our mission is just making such an incredible difference in the lives of so many,",
+    "who": "Teresa Miller",
+    "file": "MVI_4329.MP4",
+    "why": "Her own why; unused in the other Nashville cuts."
+   },
+   {
+    "quote": "and I get the great fortune of working with so many wonderful people and donors and supporters,",
+    "who": "Teresa Miller",
+    "file": "MVI_4329.MP4",
+    "why": "Warm and short; unused elsewhere."
+   },
+   {
+    "quote": "and it's giving them just an important tool that will help them thrive in life.",
+    "who": "Teresa Miller",
+    "file": "MVI_4329.MP4",
+    "why": "What shoes give a student; not in the thank-you cut."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "So much good in the world",
+    "line": "and every day I have the opportunity to see that there's so much good in the world.",
+    "why": "Teresa's closing line as the promise up front."
+   },
+   {
+    "text": "20 years of opportunity",
+    "line": "I just think it's really important to note that we are here to celebrate our 20th anniversary at Soles4Souls.",
+    "why": "The anniversary said out loud at the staff event."
+   },
+   {
+    "text": "An incredible difference",
+    "line": "My favorite thing about working for Soles4Souls is that our mission is just making such an incredible difference in the lives of so many,",
+    "why": "Teresa's why in her own words."
+   },
+   {
+    "text": "Shoes on kids' feet",
+    "line": "It feels great to be able to put shoes on kids' feet today.",
+    "why": "Skyler's simple, joyful line; unused elsewhere."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "S4S runs fuller: big text cards, B-roll under Teresa's lines, captions black on teal. No logo before or on the end slide; the slide carries the wordmark.",
+  "devices": [
+   {
+    "row": "00:00–00:04",
+    "device": "Hook card, static, over silent staff faces",
+    "asset": "MG 1; MVI_4305, 4306, 4310, 4379",
+    "source": "MG library; Drive B-Roll"
+   },
+   {
+    "row": "00:04–00:09",
+    "device": "Text card over silent staff faces",
+    "asset": "MG 2; MVI_4307, 4309, 4311",
+    "source": "MG library; Drive B-Roll"
+   },
+   {
+    "row": "00:09–00:17",
+    "device": "Name super, captions, 2 B-roll shots, editor-typed card",
+    "asset": "MG 3; MVI_4317 0:21.5; MVI_4352 0:07.0",
+    "source": "MG library; Drive B-Roll"
+   },
+   {
+    "row": "00:17–00:22",
+    "device": "Text card over 2 B-roll shots",
+    "asset": "MG 4; MVI_4366 0:12.0; MVI_4350 0:03.0",
+    "source": "MG library; Drive B-Roll"
+   },
+   {
+    "row": "00:22–00:28",
+    "device": "Captions, face then 1 B-roll shot",
+    "asset": "MVI_4371 0:05.5",
+    "source": "Drive B-Roll"
+   },
+   {
+    "row": "00:28–00:34",
+    "device": "End slide + CTA text",
+    "asset": "Holiday_bkg_social_V1_2.jpg + MG 5",
+    "source": "Drive, S4S graphics folder"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "MVI_4375.MP4",
+    "at": 12.0,
+    "dur": 2.5,
+    "cx": 0.5,
+    "path": "Soles4Souls/Raw Footage/Nashville 4EveryKid Oct. 2026/B-Roll/MVI_4375.MP4",
+    "drive": "1XYN1izt-FnrYcBgA0-ZJtesMBtY2pLIQ",
+    "what": "a woman in a white hat kneels by a seated boy, a box between them",
+    "frame": null
+   },
+   {
+    "clip": "MVI_4362.MP4",
+    "at": 4.0,
+    "dur": 2.0,
+    "cx": 0.5,
+    "path": "Soles4Souls/Raw Footage/Nashville 4EveryKid Oct. 2026/B-Roll/MVI_4362.MP4",
+    "drive": "14VzUnx7vuo7Of5KuQ-zPSBeg4ertveJH",
+    "what": "a family of four smiles at the camera with their bags",
+    "frame": null
+   },
+   {
+    "clip": "MVI_4363.MP4",
+    "at": 3.5,
+    "dur": 3.0,
+    "cx": 0.5,
+    "path": "Soles4Souls/Raw Footage/Nashville 4EveryKid Oct. 2026/B-Roll/MVI_4363.MP4",
+    "drive": "1fsPXzE9gtoLwkp8DGphNBjr04G3eH3Km",
+    "what": "a boy waves on the red carpet, staff high-five him",
+    "frame": null
+   },
+   {
+    "clip": "MVI_4366.MP4",
+    "at": 33.0,
+    "dur": 2.0,
+    "cx": 0.5,
+    "path": "Soles4Souls/Raw Footage/Nashville 4EveryKid Oct. 2026/B-Roll/MVI_4366.MP4",
+    "drive": "1byVzV3dKf1KyT8rk4FbM4lmDLfEmz7-B",
+    "what": "a woman holds up a pair of shoes",
+    "frame": null
+   }
+  ],
+  "broll_pool_note": "These alternates are planned for the Giving ShoesDay match push (13330664171). Use them here only if that cut drops them.",
+  "elements": [
+   {
+    "name": "Holiday end slide V1 (light blue)",
+    "kind": "end_card",
+    "file": "Holiday_bkg_social_V1_2.jpg",
+    "url": "https://drive.google.com/file/d/1U0l7tq-tdLvtAnmDVoWyctP6j4kASb0z/view",
+    "local": null,
+    "alpha": false,
+    "size": "1081x1921",
+    "fps": null
+   },
+   {
+    "name": "Holiday end slide V2 (dark blue)",
+    "kind": "end_card",
+    "file": "Holiday_bkg_social_V2_2.jpg",
+    "url": "https://drive.google.com/file/d/1lqHLgTbF1dpE3V3jUDR_h-gyFj_Yorn7/view",
+    "local": null,
+    "alpha": false,
+    "size": "1081x1921",
+    "fps": null
+   },
+   {
+    "name": "S4S graphics package (lower third bar for the name super)",
+    "kind": "package",
+    "file": null,
+    "url": "https://drive.google.com/drive/folders/1HaEuSzPDVfNxrNACiSyO0nl4Er-d9mFF",
+    "local": null,
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
 }

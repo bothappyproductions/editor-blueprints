@@ -1,0 +1,298 @@
+{
+ "item": "13330680014",
+ "client": "s4s",
+ "style": {
+  "font": {
+   "css": "\"Roboto\"",
+   "w": 700
+  },
+  "size": 64,
+  "y": 1350,
+  "max_lines": 2,
+  "reveal": "phrase",
+  "fg": "#000000",
+  "box": {
+   "bg": "#62CCBF",
+   "r": 10
+  }
+ },
+ "tracks": [
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:09–00:17"
+   ],
+   "beat": "OPPORTUNITY FOR A STUDENT",
+   "title": "Teresa: opportunity for a student",
+   "clip": "MVI_4329.MP4",
+   "start": 24.63,
+   "src": "MVI_4329.MP4 00:24.6",
+   "dur": 8.22,
+   "words": [
+    {
+     "w": "Every",
+     "t0": 0.15,
+     "t1": 0.73,
+     "e": 0
+    },
+    {
+     "w": "$20",
+     "t0": 0.73,
+     "t1": 1.31,
+     "e": 0
+    },
+    {
+     "w": "donation",
+     "t0": 1.31,
+     "t1": 1.89,
+     "e": 0
+    },
+    {
+     "w": "made",
+     "t0": 1.89,
+     "t1": 2.35,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 2.35,
+     "t1": 2.55,
+     "e": 0
+    },
+    {
+     "w": "Soles4Souls",
+     "t0": 2.55,
+     "t1": 2.85,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 3.47,
+     "t1": 3.75,
+     "e": 0
+    },
+    {
+     "w": "hope",
+     "t0": 3.75,
+     "t1": 4.91,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 4.91,
+     "t1": 5.43,
+     "e": 0
+    },
+    {
+     "w": "dignity",
+     "t0": 5.43,
+     "t1": 5.95,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 5.95,
+     "t1": 6.51,
+     "e": 0
+    },
+    {
+     "w": "opportunity",
+     "t0": 6.51,
+     "t1": 6.75,
+     "e": 0
+    },
+    {
+     "w": "for",
+     "t0": 6.75,
+     "t1": 7.45,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 7.45,
+     "t1": 7.59,
+     "e": 0
+    },
+    {
+     "w": "student.",
+     "t0": 7.59,
+     "t1": 7.77,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 3,
+     "t0": 0.1,
+     "t1": 2.3
+    },
+    {
+     "a": 4,
+     "b": 7,
+     "t0": 2.3,
+     "t1": 4.86
+    },
+    {
+     "a": 8,
+     "b": 9,
+     "t0": 4.86,
+     "t1": 5.9
+    },
+    {
+     "a": 10,
+     "b": 11,
+     "t0": 5.9,
+     "t1": 6.7
+    },
+    {
+     "a": 12,
+     "b": 14,
+     "t0": 6.7,
+     "t1": 8.12
+    }
+   ],
+   "text": "Every $20 donation made to Soles4Souls is hope and dignity and opportunity for a student.",
+   "n": 1
+  },
+  {
+   "tpl": "caption_track",
+   "rows": [
+    "00:22–00:28"
+   ],
+   "beat": "SO MUCH GOOD",
+   "title": "Teresa: so much good",
+   "clip": "MVI_4329.MP4",
+   "start": 89.44,
+   "src": "MVI_4329.MP4 01:29.4",
+   "dur": 3.54,
+   "words": [
+    {
+     "w": "Every",
+     "t0": 0.15,
+     "t1": 0.37,
+     "e": 0
+    },
+    {
+     "w": "day",
+     "t0": 0.37,
+     "t1": 0.63,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 0.63,
+     "t1": 0.85,
+     "e": 0
+    },
+    {
+     "w": "have",
+     "t0": 0.85,
+     "t1": 0.97,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 0.97,
+     "t1": 1.11,
+     "e": 0
+    },
+    {
+     "w": "opportunity",
+     "t0": 1.11,
+     "t1": 1.31,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 1.31,
+     "t1": 1.77,
+     "e": 0
+    },
+    {
+     "w": "see",
+     "t0": 1.77,
+     "t1": 1.87,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 1.87,
+     "t1": 2.03,
+     "e": 0
+    },
+    {
+     "w": "there's",
+     "t0": 2.03,
+     "t1": 2.29,
+     "e": 0
+    },
+    {
+     "w": "so",
+     "t0": 2.29,
+     "t1": 2.37,
+     "e": 0
+    },
+    {
+     "w": "much",
+     "t0": 2.37,
+     "t1": 2.51,
+     "e": 0
+    },
+    {
+     "w": "good",
+     "t0": 2.51,
+     "t1": 2.71,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 2.71,
+     "t1": 2.85,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 2.85,
+     "t1": 2.95,
+     "e": 0
+    },
+    {
+     "w": "world.",
+     "t0": 2.95,
+     "t1": 3.09,
+     "e": 0
+    }
+   ],
+   "lines": [
+    {
+     "a": 0,
+     "b": 3,
+     "t0": 0.1,
+     "t1": 0.92
+    },
+    {
+     "a": 4,
+     "b": 7,
+     "t0": 0.92,
+     "t1": 1.82
+    },
+    {
+     "a": 8,
+     "b": 11,
+     "t0": 1.82,
+     "t1": 2.46
+    },
+    {
+     "a": 12,
+     "b": 15,
+     "t0": 2.46,
+     "t1": 3.44
+    }
+   ],
+   "text": "Every day I have the opportunity to see that there's so much good in the world.",
+   "n": 2
+  }
+ ],
+ "note": "S4S style: black text on the teal #62CCBF box, never white on teal, max 2 lines. Timed from the words in the source clip (output.json word times). Clip 1 is Teresa's first line (14 of 15 words matched: the machine transcript spells Soles4Souls wrong, so that word is timed between its neighbours). Clip 2 is her closing line. The optional opening line on the hook row (MVI_4297) gets no clip until the editor keeps it."
+}

@@ -1,0 +1,93 @@
+{
+ "item": "13330680014",
+ "client": "s4s",
+ "note": "The script asks for five graphics: the hook card, two text cards, Teresa's name super and the CTA lines on the end slide. The card at 00:12–00:17 in row 00:09–00:17 is not made here because it starts with a money amount and money never goes into a graphic: type it from the script in Roboto, black on the teal box. Row 00:22–00:28 is captions only.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook card: 20 years",
+   "tpl": "highlight_callout",
+   "dur": 4.0,
+   "pos": "center",
+   "text": {
+    "main": "For 20 years, we've been creating opportunity."
+   },
+   "cue": "Hook card on frame 1: For 20 years, we've been creating opportunity.",
+   "src": "Script, row 00:00–00:04, Motion graphics & type.",
+   "rows": [
+    "00:00–00:04"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:04. Centered, over the staff faces."
+  },
+  {
+   "n": 2,
+   "title": "This December card",
+   "tpl": "highlight_callout",
+   "dur": 5.0,
+   "pos": "center",
+   "text": {
+    "main": "This December, you can help us continue that impact."
+   },
+   "cue": "Card at 00:04, centered, big: This December, you can help us continue that impact.",
+   "src": "Script, row 00:04–00:09, Motion graphics & type.",
+   "rows": [
+    "00:04–00:09"
+   ],
+   "use": "Card from 00:04 to 00:09, centered, big. Keep it out of the bottom 20%."
+  },
+  {
+   "n": 3,
+   "title": "Teresa name super",
+   "tpl": "tag_label",
+   "dur": 2.0,
+   "pos": "center",
+   "text": {
+    "main": "Teresa Miller"
+   },
+   "cue": "Name super at 00:09–00:11, lower left, above the captions: Teresa Miller / VP of Development",
+   "src": "Script, row 00:09–00:17, Motion graphics & type.",
+   "rows": [
+    "00:09–00:17"
+   ],
+   "use": "Name super from 00:09 to 00:11. Move it lower left, above the captions. Type the second line VP of Development under it."
+  },
+  {
+   "n": 4,
+   "title": "Small act card",
+   "tpl": "highlight_callout",
+   "dur": 5.0,
+   "pos": "center",
+   "text": {
+    "main": "A small act of generosity can change a child's future."
+   },
+   "cue": "Card at 00:17, centered, big: A small act of generosity can change a child's future.",
+   "src": "Script, row 00:17–00:22, Motion graphics & type.",
+   "rows": [
+    "00:17–00:22"
+   ],
+   "use": "Card from 00:17 to 00:22, centered, big, over the kids. Keep it out of the bottom 20%."
+  },
+  {
+   "n": 5,
+   "title": "End slide CTA",
+   "tpl": "end_card_overlay",
+   "rows": [
+    "00:28–00:34"
+   ],
+   "cue": "CTA text in the open middle of the slide, black, big: Give the gift of shoes this December and help us provide 5,000 kids with new shoes. then Donate now: link in bio",
+   "src": "Sydney's holiday end slide (Holiday_bkg_social_V1_2.jpg and V2_2.jpg on Drive, 22 Oct 2026) with the CTA lines from her 19 Oct editing doc. The slide is not in endcards/ yet, so this graphic is the CTA text only.",
+   "c": {
+    "bg": "#62CCBF",
+    "fg": "#000000"
+   },
+   "text": {
+    "lines": [
+     "Give the gift of shoes this December and help us provide 5,000 kids with new shoes.",
+     "Donate now: link in bio"
+    ]
+   },
+   "dur": 6.0,
+   "use": "Put Sydney's holiday slide at 00:28 and lay these two lines over its open middle. Hold to the end. Black text on the light blue V1 slide; on the dark blue V2 slide type the same lines in white. Add no logo: the wordmark is already on the slide."
+  }
+ ]
+}
