@@ -1,0 +1,113 @@
+{
+ "item": "13083753003",
+ "client": "mha",
+ "note": "The script asks for five graphics: the hook text, Madison's name super, the doing well / not well word stack, the hey, are you doing OK? top text and the small WRAP text, then MHA's end card. MHA has no logo file, so the end card types the words.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "What does ‘not okay’ look like?"
+   },
+   "cue": "Hook text on frame 1, big and bold, top third: What does ‘not okay’ look like? Already on screen at 0:00. Does not animate on. Off at 00:03.",
+   "src": "Script, row 00:00–00:03, Motion graphics & type.",
+   "rows": [
+    "00:00–00:03"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03, over the whiteboard. Top third."
+  },
+  {
+   "n": 2,
+   "title": "Madison name super",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Madison Herman"
+   },
+   "cue": "Name super at 00:04, 3 s, lower left above the captions: Madison Herman · Peer Support Specialist & WRAP Facilitator, MHA Nebraska. Once only.",
+   "src": "Script, row 00:03–00:13, Motion graphics & type.",
+   "rows": [
+    "00:03–00:13"
+   ],
+   "use": "Put it on at 00:04 when Madison first appears and hold it 3 seconds. Move it lower left, above the captions. Type the second line Peer Support Specialist & WRAP Facilitator, MHA Nebraska under it."
+  },
+  {
+   "n": 3,
+   "title": "Doing well, not well",
+   "tpl": "word_stack",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "items": [
+     "doing well",
+     "not well"
+    ]
+   },
+   "cue": "Key words as she says them, top third, word stack: doing well then not well",
+   "src": "Script, row 00:13–00:23, Motion graphics & type.",
+   "rows": [
+    "00:13–00:23"
+   ],
+   "use": "Start it on “doing well” (about 00:20) so each phrase lands as she says it. Top third, over her face. Captions stay on."
+  },
+  {
+   "n": 4,
+   "title": "Are you doing OK",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "main": "hey, are you doing OK?"
+   },
+   "cue": "Top text as she says it (about 00:33), 2 s, top third: hey, are you doing OK?",
+   "src": "Script, row 00:23–00:36, Motion graphics & type.",
+   "rows": [
+    "00:23–00:36"
+   ],
+   "use": "Put it on as she says “hey, are you doing OK?” (about 00:33) and hold 2 seconds. Top third, over her face. Captions stay on."
+  },
+  {
+   "n": 5,
+   "title": "WRAP name",
+   "tpl": "highlight_callout",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "WRAP · Wellness Recovery Action Plan"
+   },
+   "cue": "Small text, top third, while she says it: WRAP · Wellness Recovery Action Plan",
+   "src": "Script, row 00:50–00:57, Motion graphics & type.",
+   "rows": [
+    "00:50–00:57"
+   ],
+   "use": "Put it on as she says “bringing WRAP to your organization” (about 00:51) and hold about 4 seconds over the flip-chart shot. Top third. Captions stay on."
+  },
+  {
+   "n": 6,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:00–01:04"
+   ],
+   "cue": "End card, 4 s, MHA colors: Bring WRAP to your team. + mha-ne.org. MHA Nebraska typed as text.",
+   "src": "MHA Nebraska has not sent a logo file (never rebuild one), so the end card is the script's words in MHA's colours (endcards/index.json, 22 Oct 2026).",
+   "c": {
+    "bg": "#E8EFD4",
+    "fg": "#4A5325"
+   },
+   "text": {
+    "name": "MHA Nebraska",
+    "lines": [
+     "Bring WRAP to your team.",
+     "mha-ne.org"
+    ]
+   },
+   "dur": 4.0,
+   "use": "This is the end card. Put it at 01:00 after “conditions.” and hold it 4 seconds to the end."
+  }
+ ]
+}

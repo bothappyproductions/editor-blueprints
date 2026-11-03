@@ -1,0 +1,93 @@
+{
+ "item": "13083750636",
+ "client": "mha",
+ "note": "The script asks for four graphics: the hook text, Amber's name super, the 15 minutes number pop and the 988 text card, then MHA's end card. The warm-line number on the end card is still owed (Nick confirms it with MHA), and MHA has no logo file, so the end card types the words.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Someone will pick up."
+   },
+   "cue": "Hook text on frame 1, big and bold, top third: Someone will pick up. Already on screen at 0:00. Does not animate on. Off at 00:03.",
+   "src": "Script, row 00:00–00:05, Motion graphics & type.",
+   "rows": [
+    "00:00–00:05"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03, over the ringing phone. Top third."
+  },
+  {
+   "n": 2,
+   "title": "Amber name super",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Amber Pendley"
+   },
+   "cue": "Name super at 00:05, 3 s, lower left above the captions: Amber Pendley · Director of Operations, MHA Nebraska. Once only.",
+   "src": "Script, row 00:05–00:15, Motion graphics & type.",
+   "rows": [
+    "00:05–00:15"
+   ],
+   "use": "Put it on at 00:05 when Amber first appears and hold it 3 seconds. Move it lower left, above the captions. Type the second line Director of Operations, MHA Nebraska under it."
+  },
+  {
+   "n": 3,
+   "title": "15 minutes",
+   "tpl": "stat_counter",
+   "dur": 2,
+   "pos": "top",
+   "text": {
+    "number": "15",
+    "label": "minutes"
+   },
+   "cue": "Number pop on “up to 15 minutes” (about 00:09), top third, 2 s: 15 minutes",
+   "src": "Script, row 00:05–00:15, Motion graphics & type.",
+   "rows": [
+    "00:05–00:15"
+   ],
+   "use": "Put it on as Amber says “up to 15 minutes” (about 00:09), over Madison's call. Top third, 2 seconds. Keep captions on."
+  },
+  {
+   "n": 4,
+   "title": "988 text card",
+   "tpl": "statement_card",
+   "dur": 2.5,
+   "text": {
+    "main": "In crisis? Call or text 988."
+   },
+   "cue": "Text card, once: In crisis? Call or text 988. Cut to it on “the 988 number” and hold it to the end of the row.",
+   "src": "Script, row 00:27–00:32, Motion graphics & type.",
+   "rows": [
+    "00:27–00:32"
+   ],
+   "use": "Full-screen card, used once. Cut to it on “the 988 number” (about 00:29.5) and hold it until the cut at 00:32. Captions stay on. 988 appears here only."
+  },
+  {
+   "n": 5,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:38–00:43"
+   ],
+   "cue": "End card, 5 s, MHA colors: If you're struggling, call this number. Under it the Keya House warm-line number, once Nick confirms it with MHA. Never 988 here.",
+   "src": "MHA Nebraska has not sent a logo file (never rebuild one), so the end card is the script's words in MHA's colours (endcards/index.json, 22 Oct 2026).",
+   "c": {
+    "bg": "#E8EFD4",
+    "fg": "#4A5325"
+   },
+   "text": {
+    "name": "MHA Nebraska",
+    "lines": [
+     "If you're struggling, call this number."
+    ]
+   },
+   "dur": 5.0,
+   "use": "This is the end card. Put it at 00:38 after “It was nice talking to you.” and hold it 5 seconds. Type the Keya House warm-line number under the line once Nick confirms it with MHA. Never 988 here, never a number from Google."
+  }
+ ]
+}

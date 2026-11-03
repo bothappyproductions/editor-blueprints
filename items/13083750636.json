@@ -8,13 +8,14 @@
  "editor": "Bleron",
  "due": "2026-10-28",
  "format": "9:16 only · 1080×1920",
- "length": "about 47 s",
+ "length": "about 43 s",
  "edit_key": "MHAWarmLineSomewhereYouCanCall001",
  "headline": "The warm line is a real person with lived experience who picks up and talks with you. Not a call center, not a crisis line.",
  "story": [
   "A phone rings at Keya House and Madison picks up.",
   "Amber explains: call and talk with a peer for up to 15 minutes about anything, and it doesn't always have to be a struggle. It is not a crisis line; for crisis there is 988.",
-  "A warm line is just a safe space to talk with a peer. If you're struggling, call this number."
+  "A warm line is just a safe space to talk with a peer. The video ends on the ask MHA wants: if you're struggling, call this number.",
+  "<b>Loops:</b> L1 “Who picks up?” opens on the ringing phone at 0:00 and closes on “Keya House, this is Madison.” L2 “What is a warm line?” opens at 0:05 and closes on “a safe space to call and conversate with a peer” at 0:36. <b>Stakes:</b> someone who is struggling knows there is a real person to call."
  ],
  "feel": [
   "Warm",
@@ -23,16 +24,16 @@
   "Calm"
  ],
  "do": [
-  "Open on the ringing phone with “Someone will pick up.”",
-  "Cut to Madison's real calls over Amber's lines.",
-  "Keep the 988 line and put it on screen.",
-  "End card: “If you're struggling, call this number.” + the number + logo, 5 s.",
-  "Keep it 40 to 47 s."
+  "Open on the ringing phone with “Someone will pick up.” on frame 1.",
+  "Cut to Madison's real calls over Amber's lines. Mute Madison's own sound under Amber.",
+  "Captions on every spoken line, in one place for the whole video.",
+  "Keep the 988 line and put it on the text card. 988 is on that card only.",
+  "End card: “If you're struggling, call this number.” + the Keya House warm-line number MHA confirms + MHA Nebraska, 5 s."
  ],
  "dont": [
   "Not therapy, diagnosis, treatment or crisis. Not a hotline, hospital or office.",
-  "Don't type a phone number from Google. Use the number MHA gives us.",
-  "Never “patient”, “therapy”, “treatment”, “clinic”, “facility”.",
+  "No 988 on the end card. Never type a phone number from Google: use the number MHA confirms.",
+  "Never “patient”, “therapy”, “treatment”, “clinic”, “facility” on screen.",
   "No guest face without a signed release. No street number on screen.",
   "No desk, keyboard or paper filler B-roll."
  ],
@@ -40,217 +41,614 @@
   "brief": {
    "title": "Editor brief: Keya House Warm Line, “Somewhere You Can Call” (pulse.13083750636)",
    "url": "https://docs.google.com/document/d/1Xy2V4CawN1-lG61ummknbq27BDwxDMf7NBDfNQ8HOBY/edit",
-   "note": "Bites, AV map and rules are set there."
+   "note": "Bites, AV map and rules are set there. This page is the current plan, with the Frame.io notes already in it."
   },
   "reference": {
    "missing": true,
    "title": "Not chosen yet",
-   "note": "Production Planning 12324447439 reads Requested, owner Nick."
+   "note": "Nick owes it. The Production Planning row for the MHA September shoot has no reference link."
   },
   "footage": {
    "title": "MHA September 2026 raw",
    "url": "https://drive.google.com/drive/folders/1-B8N77LRfWIqQIyZaqP4ULirziTGsyye",
-   "note": "Day 1 › Keya House: Amber Interview (C4695), Madison Warm Line Call (C4689, C4691, C4692, C4693), Keya House and Staff B Roll (C4667)."
+   "note": "Day 1 › Keya House: Amber Interview (C4695), Madison Warm Line Call at Keya (C4689, C4691, C4692, C4693)."
   }
  },
- "bp_intro": "Times are from the per-clip Day 1 transcript, counted from the start of each clip. Amber's warm-line answer is <span class=\"mono\">C4695</span> 07:17–08:01. Interviews are 24 fps, B-roll 50 fps: interpret the 50 fps clips on a 24 fps timeline on purpose.",
+ "bp_intro": "Voice: Amber, <a href=\"https://drive.google.com/file/d/1WlXh3iZNwvEschgOEGTrgqh1kaEoszSV/view\">20260909_C4695.MP4</a> (warm-line answer 07:17 to 08:01), and Madison on real calls, <a href=\"https://drive.google.com/file/d/1vYhl92cFKpB0Hg33QZ9xp7wdosknfN4x/view\">20260909_C4689.MP4</a> and <a href=\"https://drive.google.com/file/d/1wRmIKK7NxZPnPhZV46b7ahWmyhs4rsyd/view\">20260909_C4692.MP4</a>. Times are mm:ss.s in each file, from the shoot's phrase times (Transcripts - Day 1 and the Keya House caption file); words inside a phrase are spread evenly, so trim each cut by ear. B-roll is Madison's call footage, picked from visual.json. No frames could be pulled for this page: each row says what to look for on scrub.",
  "rows": [
   {
-   "tc": "00:00–00:04",
+   "tc": "00:00–00:05",
    "beat": "HOOK",
    "kind": "hook",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "C4689 00:00: the Panasonic cordless phone on the wooden table, an incoming call on its screen. Madison picks up at 00:02.",
-   "motion": "Hook text on <b>frame 1</b>, big and bold: <q>Someone will pick up.</q> No logo, no name plate.",
+   "visual": "<a href=\"https://drive.google.com/file/d/1vYhl92cFKpB0Hg33QZ9xp7wdosknfN4x/view\">20260909_C4689.MP4</a> from about <span class=\"mono\">00:01.5</span>: the black cordless phone on the wooden table, the incoming call on its screen (visual.json 00:00 to 00:04.3). At about <span class=\"mono\">00:04.3</span> the same clip shows Madison picking up (visual.json: her back to the camera, dim room). Her line follows: the transcript line runs 00:02.0 to 00:15.1 and starts with “visit. Oh wow.”, so find “Keya House, this is Madison.” on scrub (about 00:05) and cut the words before it. This is the only ringing-phone shot of the shoot; Hailey's cut uses C4689 00:00 to 00:04 too, and this video keeps it as its hook.",
+   "motion": "Hook text on <b>frame 1</b>, big and bold, top third: <q>Someone will pick up.</q> Already on screen at 0:00. Does not animate on. Off at 00:03. No logo, no name plate.",
    "voice": {
     "who": "Madison",
     "quote": "Keya House, this is Madison.",
-    "src": "C4689 00:02"
+    "src": "20260909_C4689.MP4 about 00:05 (inside the transcript line 00:02.0 to 00:15.1, after “visit. Oh wow.”: find it on scrub)"
    },
-   "sfx": "The phone ring.",
-   "music": "Soft, warm bed."
+   "sfx": "The phone ring, from C4689's own sound. No added ring.",
+   "music": "Soft, warm bed starts low on frame 1.",
+   "shots": [
+    {
+     "clip": "20260909_C4689.MP4",
+     "at": 1.5,
+     "dur": 2.8,
+     "cx": 0.5,
+     "path": "Day 1/Keya House/Madison Warm Line Call at Keya/20260909_C4689.MP4",
+     "drive": "1vYhl92cFKpB0Hg33QZ9xp7wdosknfN4x",
+     "layout": "full",
+     "what": "Cordless phone on the wooden table, incoming call on its screen"
+    },
+    {
+     "clip": "20260909_C4689.MP4",
+     "at": 4.3,
+     "dur": 1.7,
+     "cx": 0.5,
+     "path": "Day 1/Keya House/Madison Warm Line Call at Keya/20260909_C4689.MP4",
+     "drive": "1vYhl92cFKpB0Hg33QZ9xp7wdosknfN4x",
+     "layout": "full",
+     "what": "Madison picks up the call (her back to the camera)"
+    }
+   ]
   },
   {
-   "tc": "00:04–00:14",
+   "tc": "00:05–00:15",
    "beat": "CALL US",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Amber on camera (green MHA shirt, seated) for 3 s, then C4691 00:00: Madison on the phone, glasses, patterned curtains, green wall.",
-   "motion": "Super once, lower corner, 3 s: “Amber Pendley · Director of Operations, MHA Nebraska”. Caption “Keya” (transcript: Kea).",
+   "visual": "Amber on camera, <a href=\"https://drive.google.com/file/d/1WlXh3iZNwvEschgOEGTrgqh1kaEoszSV/view\">20260909_C4695.MP4</a> from <span class=\"mono\">07:17.5</span> (green MHA shirt, wood-panel wall), for “Go ahead and give Keya House a call and you will connect with a peer”. On “and you can talk to us” (<span class=\"mono\">07:20.9</span>) cut to <a href=\"https://drive.google.com/file/d/1WOhxscO4VGMOiKyD-MIe2gdb3NMmgG4O/view\">20260909_C4691.MP4</a> <span class=\"mono\">00:02</span> to <span class=\"mono\">00:09</span>: Madison on a warm-line call, glasses, beige sweater, patterned curtain (visual.json). Mute C4691's sound under Amber. <b>Check on scrub:</b> visual.json marks C4695 from 06:28 to the end as a dim room with no face. If Amber is not in frame at 07:17, stay on Madison's call footage for all of Amber's lines.",
+   "motion": "Name super at 00:05, 3 s, lower left above the captions: <q>Amber Pendley</q> · Director of Operations, MHA Nebraska. Once only. Number pop on “up to 15 minutes” (about 00:09), top third, 2 s: <b>15</b> minutes. Caption “Keya” (transcript: Kea).",
    "voice": {
-    "who": "Amber",
+    "who": "Amber Pendley",
     "quote": "Go ahead and give Keya House a call and you will connect with a peer and you can talk to us for up to 15 minutes about anything that you are or may be struggling with or maybe you just want someone to talk to.",
-    "src": "C4695 07:17"
+    "src": "20260909_C4695.MP4 07:17.5 to 07:27.6"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Go"
+    },
+    {
+     "clip": "20260909_C4691.MP4",
+     "at": 2.0,
+     "dur": 7.0,
+     "cx": 0.5,
+     "path": "Day 1/Keya House/Madison Warm Line Call at Keya/20260909_C4691.MP4",
+     "drive": "1WOhxscO4VGMOiKyD-MIe2gdb3NMmgG4O",
+     "layout": "full",
+     "what": "Madison on a warm-line call, beige sweater, patterned curtain"
+    }
+   ]
   },
   {
-   "tc": "00:14–00:17",
+   "tc": "00:15–00:17",
    "beat": "NOT ALWAYS A STRUGGLE",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "C4691 00:56–01:01: Madison laughing on the call.",
+   "visual": "<a href=\"https://drive.google.com/file/d/1WOhxscO4VGMOiKyD-MIe2gdb3NMmgG4O/view\">20260909_C4691.MP4</a> <span class=\"mono\">00:57</span> to <span class=\"mono\">00:59</span>: Madison on the call, smiling (brief; visual.json: seated with the phone, green wall). Mute her sound under Amber.",
    "motion": "Captions only.",
    "voice": {
-    "who": "Amber",
+    "who": "Amber Pendley",
     "quote": "It doesn't always have to be a struggle.",
-    "src": "C4695 07:28"
+    "src": "20260909_C4695.MP4 07:28.1 to 07:29.3"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "clip": "20260909_C4691.MP4",
+     "at": 57.0,
+     "dur": 2.0,
+     "cx": 0.5,
+     "path": "Day 1/Keya House/Madison Warm Line Call at Keya/20260909_C4691.MP4",
+     "drive": "1WOhxscO4VGMOiKyD-MIe2gdb3NMmgG4O",
+     "layout": "full",
+     "what": "Madison smiles on the call"
+    }
+   ]
   },
   {
-   "tc": "00:17–00:29",
+   "tc": "00:17–00:27",
    "beat": "NOT A CRISIS LINE",
    "kind": "turn",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Amber on camera 4 s, then C4667 00:00 phone close-up, then C4693 00:07 Madison on the flip phone in the MHA sweatshirt.",
+   "visual": "Amber on camera for “One thing that I wanna reiterate is we are not a crisis line.” (<span class=\"mono\">07:30.0</span>): her face carries it. Cut the next sentence (07:33.3 to 07:37.4, “So there are a lot of different call centers…”). On “We do Intentional Peer Support” (<span class=\"mono\">07:37.5</span>) cut to <a href=\"https://drive.google.com/file/d/1fc1STFXX2Fzvc1nb1DQ0uhaRF8wIgzTs/view\">20260909_C4693.MP4</a> <span class=\"mono\">00:05</span> to <span class=\"mono\">00:09</span>: Madison on the flip phone in a sweatshirt (visual.json), then <a href=\"https://drive.google.com/file/d/1vYhl92cFKpB0Hg33QZ9xp7wdosknfN4x/view\">20260909_C4689.MP4</a> <span class=\"mono\">00:13</span> to <span class=\"mono\">00:16.5</span>: Madison on the phone by the window, green wall, blue and white curtains (visual.json). Mute their sound. The house phones (C4667) are not used here: the Keya House cut has them.",
    "motion": "Captions only.",
    "voice": {
-    "who": "Amber",
-    "quote": "One thing that I wanna reiterate is we are not a crisis line. … We do intentional peer support where we just wanna support you in your wellness journey but we do not handle crisis over the phone.",
-    "src": "C4695 07:30, 07:37"
+    "who": "Amber Pendley",
+    "quote": "One thing that I wanna reiterate is we are not a crisis line. … We do Intentional Peer Support where we just wanna support you in your wellness journey but we do not handle crisis over the phone.",
+    "src": "20260909_C4695.MP4 07:30.0 to 07:32.7 + 07:37.5 to 07:44.7"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "One"
+    },
+    {
+     "clip": "20260909_C4693.MP4",
+     "at": 5.0,
+     "dur": 4.0,
+     "cx": 0.5,
+     "path": "Day 1/Keya House/Madison Warm Line Call at Keya/20260909_C4693.MP4",
+     "drive": "1fc1STFXX2Fzvc1nb1DQ0uhaRF8wIgzTs",
+     "layout": "full",
+     "what": "Madison on the flip phone, sweatshirt"
+    },
+    {
+     "clip": "20260909_C4689.MP4",
+     "at": 13.0,
+     "dur": 3.5,
+     "cx": 0.5,
+     "path": "Day 1/Keya House/Madison Warm Line Call at Keya/20260909_C4689.MP4",
+     "drive": "1vYhl92cFKpB0Hg33QZ9xp7wdosknfN4x",
+     "layout": "full",
+     "what": "Madison on the phone by the window, green wall"
+    }
+   ]
   },
   {
-   "tc": "00:29–00:35",
+   "tc": "00:27–00:32",
    "beat": "988",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Amber on camera.",
-   "motion": "Text card: <q>In crisis? Call or text 988.</q>",
+   "visual": "Amber on camera from <span class=\"mono\">07:45.0</span>. Cut to the 988 text card on “the 988 number” (about <span class=\"mono\">07:47.8</span>) and hold it to the end of the row. If Amber is not in frame (see row 00:05), use <a href=\"https://drive.google.com/file/d/1wRmIKK7NxZPnPhZV46b7ahWmyhs4rsyd/view\">20260909_C4692.MP4</a> <span class=\"mono\">00:00</span> to <span class=\"mono\">00:05</span>: Madison on the phone, pink shirt, before the card.",
+   "motion": "Text card, once: <q>In crisis? Call or text 988.</q> Cut to it on “the 988 number” and hold it to the end of the row. Captions stay on.",
    "voice": {
-    "who": "Amber",
+    "who": "Amber Pendley",
     "quote": "So there are other alternatives for crisis like the 988 number if you do find yourself in a crisis",
-    "src": "C4695 07:45"
+    "src": "20260909_C4695.MP4 07:45.0 to 07:50.3"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "So"
+    }
+   ]
   },
   {
-   "tc": "00:35–00:42",
+   "tc": "00:32–00:38",
    "beat": "BUTTON",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "C4692 00:11: Madison ends the call, smiling by the window.",
+   "visual": "Amber's line over <a href=\"https://drive.google.com/file/d/1wRmIKK7NxZPnPhZV46b7ahWmyhs4rsyd/view\">20260909_C4692.MP4</a> <span class=\"mono\">00:06</span> to <span class=\"mono\">00:11</span>: Madison at the table on the call, pink shirt (visual.json); her sound low. Then Madison's own sound up for “It was nice talking to you.” (about <span class=\"mono\">00:12.6</span> to <span class=\"mono\">00:14.9</span>, after “Well have fun.”), smiling by the window. Hold 0.5 s after “you.”",
    "motion": "Captions only.",
    "voice": {
-    "who": "Amber / Madison",
+    "who": "Amber Pendley / Madison",
     "quote": "a warm line is just a safe space to call and conversate with a peer. / It was nice talking to you.",
-    "src": "C4695 07:55 · C4692 00:11"
+    "src": "20260909_C4695.MP4 07:58.1 to 08:01.3 · 20260909_C4692.MP4 00:12.6 to 00:14.9"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Resolve."
+   "music": "Resolve.",
+   "shots": [
+    {
+     "clip": "20260909_C4692.MP4",
+     "at": 6.0,
+     "dur": 4.0,
+     "cx": 0.5,
+     "path": "Day 1/Keya House/Madison Warm Line Call at Keya/20260909_C4692.MP4",
+     "drive": "1wRmIKK7NxZPnPhZV46b7ahWmyhs4rsyd",
+     "layout": "full",
+     "what": "Madison at the table on the call, pink shirt"
+    },
+    {
+     "clip": "20260909_C4692.MP4",
+     "at": 12.4,
+     "dur": 2.9,
+     "cx": 0.5,
+     "path": "Day 1/Keya House/Madison Warm Line Call at Keya/20260909_C4692.MP4",
+     "drive": "1wRmIKK7NxZPnPhZV46b7ahWmyhs4rsyd",
+     "layout": "full",
+     "what": "Madison ends the call: It was nice talking to you"
+    }
+   ]
   },
   {
-   "tc": "00:42–00:47",
+   "tc": "00:38–00:43",
    "beat": "END CARD",
    "kind": "end",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "End card.",
-   "motion": "<q>If you're struggling, call this number.</q> + the Keya House warm-line number + MHA Nebraska logo. Hold 5 s.",
+   "visual": "End card, full frame, after “It was nice talking to you.” Hold 5 s.",
+   "motion": "End card, 5 s, MHA colors (dark olive <span class=\"mono\">#4A5325</span> on pale sage <span class=\"mono\">#E8EFD4</span>): <q>If you're struggling, call this number.</q> Under it the Keya House warm-line number, once Nick confirms it with MHA. Never 988 here. MHA Nebraska typed as text: no logo file yet, never rebuild one.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Music only."
+   "music": "Music only, out at the end.",
+   "shots": []
   }
  ],
  "frames": {},
  "files": [
   [
    "Editing brief",
-   "<a href=\"https://docs.google.com/document/d/1Xy2V4CawN1-lG61ummknbq27BDwxDMf7NBDfNQ8HOBY/edit\">pulse.13083750636</a> (Google Doc). This page is built from it."
+   "<a href=\"https://docs.google.com/document/d/1Xy2V4CawN1-lG61ummknbq27BDwxDMf7NBDfNQ8HOBY/edit\">pulse.13083750636</a> (Google Doc)."
+  ],
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/1HjXrf_i7y5gj1c8NrpU9wkAdVBrN8U6DcBOuMCmGOcI/edit\">MHA × Happy Productions — September Production Brief (Sept 9–10, 2026)</a>"
+  ],
+  [
+   "Reference",
+   "Not chosen yet. Nick owes it."
   ],
   [
    "Shoot folder",
-   "<a href=\"https://drive.google.com/drive/folders/1-B8N77LRfWIqQIyZaqP4ULirziTGsyye\">MHA September 2026 raw</a>"
+   "<a href=\"https://drive.google.com/drive/folders/1-B8N77LRfWIqQIyZaqP4ULirziTGsyye\">MHA September 2026</a> › Day 1 › Keya House"
   ],
   [
    "Clips",
-   "Day 1/Keya House/Amber Interview/20260909_C4695.MP4 (8:38) · Day 1/Keya House/Madison Warm Line Call at Keya/20260909_C4689, C4691, C4692, C4693 · Day 1/Keya House/Keya House and Staff B Roll/20260909_C4667.MP4 · optional Day 1/Keya House/Morgan and Adrian Keya Peer Support Interviews/20260909_C4697.MP4"
+   "<a href=\"https://drive.google.com/file/d/1WlXh3iZNwvEschgOEGTrgqh1kaEoszSV/view\">20260909_C4695.MP4</a> (Amber, 8:38) · <a href=\"https://drive.google.com/file/d/1vYhl92cFKpB0Hg33QZ9xp7wdosknfN4x/view\">20260909_C4689.MP4</a> (phone rings, she picks up) · <a href=\"https://drive.google.com/file/d/1WOhxscO4VGMOiKyD-MIe2gdb3NMmgG4O/view\">20260909_C4691.MP4</a> (a full call) · <a href=\"https://drive.google.com/file/d/1wRmIKK7NxZPnPhZV46b7ahWmyhs4rsyd/view\">20260909_C4692.MP4</a> (she ends a call) · <a href=\"https://drive.google.com/file/d/1fc1STFXX2Fzvc1nb1DQ0uhaRF8wIgzTs/view\">20260909_C4693.MP4</a> (flip phone)"
+  ],
+  [
+   "Optional line",
+   "<a href=\"https://drive.google.com/file/d/1m6IqWlOE53-Oftkf0tc066AEYw9fiZmu/view\">20260909_C4697.MP4</a> 10:27.2: Morgan or Adrian (check by voice): “It's a national warm line, so we get people calling from all over the country.” Only if the cut has room, with a super Nick confirms."
   ],
   [
    "Transcript",
-   "Day 1 › EditingResources › transcript (“Transcripts - Day 1” + Day 1.transcript.json + Keybites + SRT Groups)."
+   "<a href=\"https://docs.google.com/document/d/13bwFdFZ3yH60elAYqnrm1GY3EZx9JiiFSDYWihC_sYA/edit\">Transcripts - Day 1</a> · <a href=\"https://drive.google.com/file/d/1db8TU9filmCPs05oYNKfSa3DWB3ntj2h/view\">Keya House.srt</a> (phrase times) · <a href=\"https://drive.google.com/file/d/1Dp35kkBBpNjhsyzVmeBViJajwmzUUqRz/view\">output.json</a> (word times, whole shoot)"
   ],
   [
    "visual.json",
-   "MHA September 2026 › EditingResources › EditTranscripts › visual.json"
+   "<a href=\"https://drive.google.com/file/d/1LPvkYhfYN8ag7eJufhcWIcOZ4QtINeVU/view\">visual.json</a> (shoot level shot index, coarse). No frames were pulled for this page: check every pick on scrub."
+  ],
+  [
+   "Brand graphics package",
+   "MHA package: Drive <span class=\"mono\">deliverables/graphics-packages/MHA</span>. No logo in it (MHA has not sent a logo file). Type the words on the plates in Schibsted Grotesk."
+  ],
+  [
+   "Brand",
+   "Gloock for headings, Schibsted Grotesk for captions and body. Olive <span class=\"mono\">#798E36</span>, dark olive <span class=\"mono\">#4A5325</span>, pale sage <span class=\"mono\">#E8EFD4</span>, gold-ochre <span class=\"mono\">#93813C</span>. Never the orange from the website template."
   ],
   [
    "Client ask",
-   "Madison Herman, pre-production call 8 Sep: the warm line is the most overlooked part of the job, takes calls from across the country, and the video must end on “if you're struggling, call this number.”"
+   "Madison Herman, pre-production call 8 Sep: the warm line is the most overlooked part of the job, it takes calls from across the country, and the video must end on “if you're struggling, call this number.”"
   ]
  ],
  "tech": [
   [
    "Source",
-   "Sony FX3. Interviews 24 fps, B-roll 50 fps. Lav into the camera: check the multi-mono lav channels on C4695."
+   "1920×1080, 59.94 fps (visual.json, every clip on this page). Not probed for this page. The other interviews from this shoot probe at 59.94 fps, 2 audio channels."
   ],
   [
    "Timeline",
-   "1080×1920 at 24 fps. Interpret the 50 fps B-roll on purpose."
+   "1080×1920 at <b>29.97 fps</b>, the same as the other MHA September cuts. Conform every clip to real time. No accidental slow motion."
+  ],
+  [
+   "Crop",
+   "A 9:16 crop of 1080p is 608 px wide, so it is already upscaled 1.78×. Keep punch-ins at 110% or less. Sharpen lightly."
+  ],
+  [
+   "Audio",
+   "Lav into the camera. Solo each channel on C4695 and keep the clean one. Madison's call clips: mute under Amber, sound up only for her own lines."
   ],
   [
    "Loudness",
-   "−14 LUFS integrated, −1 dBTP peak. Soft music; don't cut on hard beats over Amber."
+   "−14 LUFS integrated, −1 dBTP peak. Soft music, 18–20 dB under the voice. Don't cut on hard beats over Amber."
   ],
   [
    "Captions",
-   "Every spoken word. Clean bold sans until Nick sends the brand kit. One text block, one place, the whole video."
+   "Every spoken word, Amber's lines too. Schibsted Grotesk Bold, white, soft shadow, max 2 lines. One fixed position, every caption starts on the same line. The caption file of this page has every line but Madison's first one (time it by ear)."
+  ],
+  [
+   "Hook text",
+   "Schibsted Grotesk Bold, white, on an olive <span class=\"mono\">#798E36</span> box, top third. Cut on."
   ],
   [
    "Export",
    "H.264 MP4, 1080×1920. One file, 9:16 only."
+  ],
+  [
+   "Upload name",
+   "34_Traditional_MHAWarmLineSomewhereYouCanCall001-2.mp4 (raise the last number by one for each new version)"
+  ],
+  [
+   "Frame.io folder",
+   "MHA - Mental Health Association of Nebraska / MHA_batch_1_2026"
   ]
  ],
  "checklist": [
-  "Frame 1: the ringing phone with “Someone will pick up.”",
+  "Frame 1: the ringing phone with “Someone will pick up.” No logo, no name plate.",
+  "Captions on every spoken line, Amber's warm-line answers too (0:05 to 0:36), all in the same place.",
   "“Keya House” spelled right everywhere (never Kea).",
-  "988 card is in.",
-  "The phone number on the end card is the one MHA confirmed, not a Google search.",
-  "No clipped or duplicated caption words; captions start on the same line.",
+  "988 is on the in-crisis text card only, around 0:27 to 0:32.",
+  "The end card says “If you're struggling, call this number.” with the Keya House warm-line number MHA confirmed. Never 988, never a number from Google.",
+  "No clipped or duplicated caption words.",
   "No guest face without a release.",
-  "Never “patient”, “therapy”, “treatment”, “clinic” or “facility”."
+  "Never “patient”, “therapy”, “treatment”, “clinic” or “facility” on screen.",
+  "The file is 9:16 only, 40 to 47 s."
  ],
  "decisions": [
   {
    "t": "Warm-line phone number",
-   "b": "Not in the brief on purpose. Nick or Atdhe confirms the Keya House warm-line number with Madison before the cut ships."
-  },
-  {
-   "t": "Revision notes",
-   "b": "This item is in Needs Revisions at V1. Read the Frame.io notes first; this page is the plan for everything they don't change."
+   "b": "Not in the brief or the transcript on purpose. Nick or Atdhe confirms the Keya House warm-line number with Madison; until then the end card carries the line only. Never 988 on the end card."
   }
  ],
  "client_note": "<b>Why this matters:</b> Madison asked for this one herself. The warm line is the most overlooked part of the job, and the video must end on “if you're struggling, call this number.”",
  "ask_examples": [
   "What phone number goes on the end card?",
-  "Can I cut the 988 line?",
-  "Which words are off limits?",
-  "How do I handle the 50 fps clips?"
- ]
+  "Where does 988 go?",
+  "Is Amber in frame for the warm-line answer?",
+  "Which call clips can I use?"
+ ],
+ "transcript": "--- 20260909_C4695.MP4 ---\n[00:00.0] All right, we're looking good.\n[00:06.3] Before we begin, what is your name, your position, how long have you been at MHA?\n[00:11.9] I am Amber Pendley, I'm the Director of Operations.\n[00:14.4] I started as a volunteer in 2018 and I became an employee shortly after and I've been here ever since.\n[00:20.6] I might've left a time or two, but I've been back.\n[00:23.3] What is Keya House and who does it serve?\n[00:26.4] So the Keya House is a respite home and anybody can stay within the Region 5 system areas in Lincoln, Nebraska.\n[00:33.9] You just call and you do a phone registration.\n[00:36.7] We often tell people that if someone needs support just with life, maybe they just need to get away from their family for a few days or they might be struggling with grief, maybe they lost a pet, or maybe they're dealing with mental health\n[00:50.7] or addiction issues, they can come and stay with us for up to five days.\n[00:54.9] We also have a day guest option.\n[00:56.6] So if anybody wants to come just for the day, they can call and stop by and hang out with the peers as well.\n[01:01.8] We offer 24-7 peer support services while you're here.\n[01:05.2] We also have art groups and warm lines and a lot of different opportunities for support.\n[01:13.2] What I missed.\n[01:14.4] You kind of already answered this, but anything else that you can think of of what happens at Keya House on an ordinary day?\n[01:22.8] So I love Keya House because it's very chill.\n[01:26.0] Like I said, it's a respite home.\n[01:27.9] So when people show up, you can expect that respite.\n[01:31.7] So you show up and you have a peer with you, maybe a couple other guests, maybe some volunteers, and you can expect to sit around the table and eat together or read together, maybe watch a movie together.\n[01:44.1] Sometimes we have a puzzle going.\n[01:45.8] It really just depends on the mood and who's around.\n[01:48.0] So whatever you're up to doing, we're down to doing it with you.\n[01:52.0] What are changes you have seen or heard from people from when they arrived to when they leave?\n[01:58.7] We just had a guest talk to us about how he was in and out of the hospital almost every other week.\n[02:05.6] And when he started coming to Keya, he noticed that he was not at the hospital very often.\n[02:10.5] He maybe would go once or twice a year, which I know to some people doesn't sound as meaningful, but when you think about people going to the hospital, spending their time there, not with their family, maybe losing out on their employment\n[02:25.0] or time with their pets or maybe even losing their home, it's really crucial that we try to find different alternatives for them.\n[02:32.0] So to hear that he has now started coming to Keya once a month instead of going to the hospital is really valuable.\n[02:39.7] [do not use: off-topic line removed]\n[02:48.8] So yeah, I think that's what Keya was meant to be about was figuring out how to support people and maybe changing their life around and looking into wellness and how can they stay out in the community.\n[03:02.0] And when you walk into Keya, you walk through the door and you get to leave.\n[03:06.8] You're not locked into a facility.\n[03:08.6] You get to come and go.\n[03:09.6] If you have your cat at home, you can go back and feed your cat, come back later.\n[03:14.2] You get your own room.\n[03:16.0] You're in your room by yourself.\n[03:17.6] There's a key to the door.\n[03:19.3] If we notice you're in your room all night, we might come knock and pull you out and see if you want to hang out, but otherwise we really just want you to feel safe and at home.\n[03:30.4] I don't have any other questions.\n[03:31.7] So if there's anything you want to add about Keya.\n[03:38.2] I just want to make sure I don't miss anything.\n[03:42.9] I definitely could have used it in my life.\n[03:47.0] Sometimes I might.\n[03:55.8] Oh yeah, I got to show my turtle.\n[03:58.3] I always want to like pull my hair out.\n[04:09.3] Okay.\n[04:11.4] So to stay at Keya house, you have to be 19 years of age.\n[04:14.2] You have to live in Lincoln, Nebraska within the region five area to get, let me start over.\n[04:21.3] Okay.\n[04:22.1] So to be, see, I'm teaching you.\n[04:27.2] Okay.\n[04:28.7] If you want to be a guest at Keya, you give us a call.\n[04:31.5] You have to be 19 years of age and you have to live in Lincoln, Nebraska within the region five system is area.\n[04:37.2] So to give us a call, you call the phone number listed on our website and you'll do a phone registration.\n[04:43.4] You can stay up to five days.\n[04:46.0] And after your five days is over, you can come back once a month.\n[04:49.8] We also have a day guest option.\n[04:51.6] So if you would like to come by anytime between your stays, you can come by and hang out.\n[04:55.8] You just give us a call, talk to us.\n[04:57.8] And we also offer a warm wine.\n[05:00.7] So if you want to give us a call and just chat with a peer for a few minutes, we're also available for that.\n[05:10.1] I feel like there's more.\n[05:11.1] What should I talk about?\n[05:19.1] I just don't want to miss anything.\n[05:20.6] I mean, you could talk about like community and how like this is a place people can come back for holidays and Thanksgiving and Christmas.\n[05:28.3] And it doesn't have to be a one-time thing.\n[05:30.4] It can be a building support.\n[05:33.6] Okay.\n[05:34.6] One of the amazing things about Keya is we are hoping that you will find support for yourself that's outside of systems.\n[05:40.9] So hopefully you can connect with people that may have experienced similar things as you or similar feelings as you.\n[05:48.1] And you guys can look out what life outside of services look like.\n[05:51.3] So a lot of people will go to coffee shops together.\n[05:54.5] They'll come to our art creativity groups.\n[05:57.7] And we also get together every holiday season and we do like Thanksgiving meals together and holiday meals together.\n[06:05.6] So if you've been a previous guest, you're always invited to come and spend the holidays with us.\n[06:10.4] We usually invite our volunteers and our staff and our current and past guests.\n[06:17.6] [do not use: crew talk]\n[06:58.2] So what is a warm line?\n[06:59.5] A warm line is a phone call.\n[07:02.5] I don't like that.\n[07:03.3] Let me start over.\n[07:05.1] Okay.\n[07:05.2] So what is a warm line?\n[07:05.9] A warm line is somewhere you can call.\n[07:11.4] A conversation.\n[07:13.2] The conversation.\n[07:14.2] That.\n[07:15.9] So what is a warm line?\n[07:17.5] Go ahead and give Keya House a call and you will connect with a peer and you can talk to us for up to 15 minutes about anything that you are or may be struggling with or maybe you just want someone to talk to.\n[07:28.1] It doesn't always have to be a struggle.\n[07:30.0] One thing that I wanna reiterate is we are not a crisis line.\n[07:33.3] So there are a lot of different call centers and crisis lines out there.\n[07:37.5] We do Intentional Peer Support where we just wanna support you in your wellness journey but we do not handle crisis over the phone.\n[07:45.0] So there are other alternatives for crisis like the 988 number if you do find yourself in a crisis and always, if you guys do find yourself in crisis and you don't know how to navigate that system, you can give us a call but I always wanna reiterate\n[07:57.9] that a warm line is just a safe space to call and conversate with a peer.\n[08:02.9] [do not use: crew talk]\n--- 20260909_C4689.MP4 ---\n[00:02.0] visit. Oh wow. Keya House, this is Madison. No, you're okay. Have a good day.\n--- 20260909_C4691.MP4 ---\n[00:00.0] this is Madison. Hi Amy, how are you doing? What have you been up to? Has it cooled down there? Yeah it is sticky. It's not as hot but it's definitely sticky. You got any plans? Yeah it's one of those days you kind of just sit inside. I'm about to do\n[00:34.4] that when I'm off. Got your coffee? You got coffee? Yay. I think I need another cup.\n[00:56.7] Yeah and I'm gonna be there all weekend. I'm here for a little bit today and then I'll be there Saturday and Sunday. I know. Yeah did they tell you that we might have to separate them? Yeah we might have to separate them because I didn't\n[01:16.6] realize they're not supposed to be in a cage together. They're supposed to live alone. Like nevermind I was gonna say can you pigs but can you pigs need a pair? I don't know what else needs to live alone but oh like betta fish. Yeah they\n[01:38.1] have to be alone too or they'll fight each other. Yeah I'm gonna post some videos of them this week on Facebook.\n--- 20260909_C4692.MP4 ---\n[00:11.3] Well have fun. It was nice talking to you. Thanks. Bye bye.\n[00:17.0] I can never get her longer than like...\n[00:20.7] I've never talked to more than two minutes.\n--- 20260909_C4693.MP4 ---\n[00:00.0] Yeah, they do get a lot of calls. Keya House, this is Madison. Okay, let me ask once.\n--- 20260909_C4697.MP4 ---\n[00:00.1] All right we're rolling.\n[00:01.3] So if you guys want to start by introducing yourself with your name, your position, and how long you've been at MHA.\n[00:08.1] I'm Morgan Witherspoon. I've been at MHA, it'll be two years in October.\n[00:16.1] And I'm a peer support specialist at the Keya House.\n[00:20.1] I'm Adrienne, I'm a peer support specialist at the Keya House and I've been here about eight months now.\n[00:28.0] So one at a time, how did you first come across MHA?\n[00:32.0] I came across MHA a couple years ago when I was struggling in school and I just wasn't doing much work.\n[00:45.0] Then I came to MHA and read the stuff they did and it worked out really good.\n[00:50.5] I stayed here, it feels like family here now.\n[00:55.5] I came across MHA through family members. I had a few who worked here.\n[01:01.5] They suggested I work here, just thought that I'd be a good fit for it with my past, going through mental health and things like that.\n[01:11.5] And I'm also very much so a people person. I love talking to people and helping people.\n[01:18.6] So that's why I came to MHA.\n[01:21.6] So what makes peer support different from traditional support?\n[01:28.3] Peer support is probably more personal, less clinical.\n[01:34.2] You meet the people where they're at instead of talking at people, some clinics and places like to do.\n[01:45.8] I think what makes peer support different is the fact that it's more person to person and the person needing the help is the expert in their life.\n[01:57.0] It's not necessarily you're trying to fix them.\n[02:02.5] Tell me about a moment either with coworkers or participants that you still think about that has stuck with you.\n[02:09.3] It could be a funny moment, anything.\n[02:13.3] Oh, don't worry.\n[02:20.6] Oh, I know. I know. I took me a minute to hear you.\n[02:26.6] A situation that stuck with me was when I was fairly newer.\n[02:31.6] We had a guest threatening us, staff and other guests here in the house.\n[02:36.6] In that situation, I acted out of fear.\n[02:38.7] But being here at MHA a little longer, I'm able to think about how far I've come and things that I do different now.\n[02:50.3] There's been a bat here a couple of times that one of our coworkers said he's seen like three times before that and like no one believed them.\n[03:05.2] And then I seen them like two times after that.\n[03:10.3] Me and her are currently going to another dude that I've seen it.\n[03:14.2] So there's that.\n[03:16.5] It becomes a whole thing.\n[03:18.4] It becomes a whole thing.\n[03:21.4] What would you say to someone who doesn't believe that they can recover or get better?\n[03:30.0] I would tell them it's all a mindset thing.\n[03:32.0] If you can mentally tell yourself you can do something, you for sure can do it.\n[03:38.0] It's just, you know, whether you want to or not, I feel like.\n[03:45.4] I would tell them to give themselves grace.\n[03:49.4] I mean, not everybody is going to move at the same path and there's not a certain time of when to get things right.\n[03:57.5] What do people get wrong about this work?\n[04:07.0] A lot of people think it's like a psych ward or something or they think we're more clinical.\n[04:16.5] When guests come here, they'll ask if there's curfew or why we're not dressed as if we're at a hospital or something because we're not clinical.\n[04:36.1] I would say something similar to that.\n[04:38.1] A lot of people think that we're supposed to be like a therapist and fix all their problems.\n[04:44.1] They don't necessarily understand that, you know, we go through the same things and that's why we relate so much.\n[04:52.1] If someone watching this has never heard of MHA, what's one thing that they should know?\n[04:59.0] That we care for everyone.\n[05:01.0] We love everyone.\n[05:02.0] We'll meet you where you're at no matter where you're at.\n[05:06.8] Yeah.\n[05:12.8] I would tell them that MHA is a safe space for any and everyone.\n[05:19.8] I don't there's not a time I've been here where anyone has ever felt judged or anything like that.\n[05:29.0] OK, so for each of you, I'm going to have you say my name is Blank and I work at Keya.\n[05:35.9] My name is Morgan Witherspoon and I work at Keya.\n[05:41.3] My name is Adrian and I work at Keya.\n[05:43.3] And then one sentence on what hope looks like now.\n[05:48.0] So hope looks like Blank Blank I know that's a deep one.\n[06:12.9] Come on, Morgan, you have hope.\n[06:14.6] You have hope somewhere in you.\n[06:17.5] In one sentence, hope?\n[06:18.6] No, you can do like a little spiel.\n[06:24.2] Hope.\n[06:24.6] It's like what it means to me.\n[06:28.6] I would say hope.\n[06:50.0] Oh, you can say something like that.\n[06:52.0] Put me on the spot.\n[06:58.6] It could be anything.\n[07:05.1] I think hope is seeing a way out, even though you don't have everything figured out or you don't know how you're going to get there.\n[07:16.5] I feel like hope is honestly like when you're just out fishing and you know you're not getting any bites.\n[07:28.2] But wait till that sun goes down and then the fish are more hungry.\n[07:34.2] And you'll start catching some more fish.\n[07:38.6] That was good.\n[07:39.6] Dude, I was hoping that.\n[07:45.0] That's the only thing I could think of.\n[07:46.6] Good metaphor.\n[07:47.0] That's a good one.\n[07:48.0] I'm going to take that to the facility.\n[07:50.0] Bad, bad, Peer support is powerful because it's like honestly you're building a relationship that's more organic and more thoughtful and more understanding, I feel like, than like therapy or something.\n[08:14.6] I have a good connection with my therapist.\n[08:17.5] Not to knock off therapists or anything, but you know, we love our therapists, man.\n[08:23.5] They're not putting that in there.\n[08:29.5] What was the question?\n[08:30.5] Peer support is powerful because...\n[08:33.5] Hmm.\n[08:37.6] Peer support is powerful because...\n[08:43.3] Just give me a second.\n[08:47.3] What did you say again?\n[08:50.3] It's more personal and organic.\n[08:55.2] What are you just going to copy me?\n[08:57.2] Yep, I'm going to reword it.\n[08:58.2] Alright, bye.\n[09:00.2] Peer support is powerful because it's built on mutual understandings and lived experiences.\n[09:09.4] And that's all.\n[09:10.4] Anything else you guys want to add?\n[09:14.0] Awesome.\n[09:15.0] Thank you guys.\n[09:16.0] Should we ask them the Keya questions?\n[09:17.0] Oh, duh.\n[09:19.1] Sorry.\n[09:19.1] More questions.\n[09:20.0] More questions.\n[09:21.0] I feel like we got the most questions out of like everyone.\n[09:25.0] What is Keya House and who does it serve?\n[09:28.1] Keya House is a mental health respite that serves the community in the Region 5 in Nebraska.\n[09:41.4] I don't know how else to explain it.\n[09:44.8] To me, Keya House is a mental health respite and I think it serves people going through any type of distress from life events, whether that be mental health issues, substance abuse issues, anything of that nature.\n[10:01.8] In my personal experience, I've seen them help with any and everything.\n[10:06.8] If you just need a break from home, you get lonely at home, so I think it's pretty nice.\n[10:13.6] What happens at Keya House on an ordinary day?\n[10:19.2] A lot of guest interaction depending on if guests are here.\n[10:23.3] A lot of phone calls.\n[10:25.2] We got our warm line.\n[10:27.2] It's a national warm line, so we get people calling from all over the country.\n[10:34.8] And a lot of interacting with your co-workers and peers.\n[10:42.3] What happens at Keya on a day-to-day basis?\n[10:46.3] We laugh a lot, I would say.\n[10:49.3] Depends on what's really going on at the house.\n[10:52.4] You'll have guests who come down and ask you to cook with them or help out with cleaning around the house.\n[10:58.3] Or just even let's step outside and have a conversation.\n[11:01.3] I think it just varies on what's going on that day.\n[11:05.9] It's never the same. It's always something new, I'd say for sure.\n[11:10.4] What changes have you seen in people from when they arrive to when they leave?\n[11:17.0] Usually people are coming in the first place because of a stressful situation or something that's going on in their lives.\n[11:24.2] But I'd say after they leave, they're usually more calm and have a clearer head in what they need to do next after this.\n[11:40.2] I would say people are... I lost my thought.\n[11:48.5] Just find it.\n[11:51.5] This is the most worst interview I've had.\n[11:53.6] Yeah, it has to be.\n[11:54.7] I would say people leave here with a clearer mind.\n[12:00.5] They're able to talk about things with a peer support specialist here.\n[12:06.1] And really have a clear line of what they need to do when they get out of here.\n[12:15.9] Now, anything else you'd like to add?\n[12:18.6] I'd just like to add that Morgan doesn't do any of the work. I do all the work.\n[12:25.6] And I'd like to add that that's all false.\n[12:29.6] Good job, man. Thank you.",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "Yeah, they do get a lot of calls. Keya House, this is Madison.",
+    "who": "Madison",
+    "file": "20260909_C4693.MP4",
+    "why": "The second pick-up, on the flip phone. Check who says the first sentence."
+   },
+   {
+    "quote": "It was nice talking to you.",
+    "who": "Madison",
+    "file": "20260909_C4692.MP4",
+    "why": "Her warm goodbye as the opener."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "A warm line is somewhere you can call.",
+    "who": "Amber Pendley",
+    "file": "20260909_C4695.MP4",
+    "why": "Her short definition. It is the title line."
+   },
+   {
+    "quote": "So if you want to give us a call and just chat with a peer for a few minutes, we're also available for that.",
+    "who": "Amber Pendley",
+    "file": "20260909_C4695.MP4",
+    "why": "Shorter version of the same ask."
+   },
+   {
+    "quote": "We also have art groups and warm lines and a lot of different opportunities for support.",
+    "who": "Amber Pendley",
+    "file": "20260909_C4695.MP4",
+    "why": "The warm line as one of Keya's supports."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "So I love Keya House because it's very chill.",
+    "who": "Amber Pendley",
+    "file": "20260909_C4695.MP4",
+    "why": "Light and warm."
+   },
+   {
+    "quote": "So whatever you're up to doing, we're down to doing it with you.",
+    "who": "Amber Pendley",
+    "file": "20260909_C4695.MP4",
+    "why": "Peers meet you where you are."
+   },
+   {
+    "quote": "It really just depends on the mood and who's around.",
+    "who": "Amber Pendley",
+    "file": "20260909_C4695.MP4",
+    "why": "Easy, no pressure."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "One thing that I wanna reiterate is we are not a crisis line.",
+    "who": "Amber Pendley",
+    "file": "20260909_C4695.MP4",
+    "why": "The first half alone, shorter."
+   },
+   {
+    "quote": "So there are a lot of different call centers and crisis lines out there.",
+    "who": "Amber Pendley",
+    "file": "20260909_C4695.MP4",
+    "why": "The sentence the plan cuts, if you need it back."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "So there are a lot of different call centers and crisis lines out there.",
+    "who": "Amber Pendley",
+    "file": "20260909_C4695.MP4",
+    "why": "Points to other lines without a number."
+   },
+   {
+    "quote": "One thing that I wanna reiterate is we are not a crisis line.",
+    "who": "Amber Pendley",
+    "file": "20260909_C4695.MP4",
+    "why": "The clear statement."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "A warm line is somewhere you can call.",
+    "who": "Amber Pendley",
+    "file": "20260909_C4695.MP4",
+    "why": "The title line as the button."
+   },
+   {
+    "quote": "So if you want to give us a call and just chat with a peer for a few minutes, we're also available for that.",
+    "who": "Amber Pendley",
+    "file": "20260909_C4695.MP4",
+    "why": "A softer ask to call."
+   },
+   {
+    "quote": "If we notice you're in your room all night, we might come knock and pull you out and see if you want to hang out, but otherwise we really just want you to feel safe and at home.",
+    "who": "Amber Pendley",
+    "file": "20260909_C4695.MP4",
+    "why": "Safe and at home. About the house, not the line."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "Someone will pick up.",
+    "line": "Keya House, this is Madison.",
+    "why": "A real peer answers. The brief's hook."
+   },
+   {
+    "text": "Somewhere you can call.",
+    "line": "A warm line is somewhere you can call.",
+    "why": "The title as the hook."
+   },
+   {
+    "text": "Not a crisis line.",
+    "line": "One thing that I wanna reiterate is we are not a crisis line.",
+    "why": "Clears up what a warm line is."
+   },
+   {
+    "text": "Just want someone to talk to?",
+    "line": "or maybe you just want someone to talk to.",
+    "why": "Speaks to the viewer who is not in crisis."
+   },
+   {
+    "text": "It doesn't have to be a struggle.",
+    "line": "It doesn't always have to be a struggle.",
+    "why": "Low bar to call."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "MHA runs simple: one text element at a time, captions in one locked place, B-roll only when it shows what is said, no logo (no file yet). This cut has the hook text, one name super, one number pop, the 988 text card and the end card, with 7 call-footage shots.",
+  "devices": [
+   {
+    "row": "00:00–00:05",
+    "device": "Hook text, static, top third, over the ringing phone",
+    "asset": "highlight_callout (MG library); C4689 0:01.5 to 0:06",
+    "source": "Script; raw footage"
+   },
+   {
+    "row": "00:05–00:15",
+    "device": "Name super Amber, number pop 15 minutes, call footage",
+    "asset": "tag_label, stat_counter (MG library); C4691 0:02 to 0:09",
+    "source": "Script; raw footage"
+   },
+   {
+    "row": "00:15–00:17",
+    "device": "Call footage",
+    "asset": "C4691 0:57 to 0:59",
+    "source": "Raw footage"
+   },
+   {
+    "row": "00:17–00:27",
+    "device": "Face, then a 2-shot call pod",
+    "asset": "C4693 0:05 to 0:09; C4689 0:13 to 0:16.5",
+    "source": "Raw footage"
+   },
+   {
+    "row": "00:27–00:32",
+    "device": "Text card",
+    "asset": "statement_card (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:32–00:38",
+    "device": "Call footage, Madison's own goodbye",
+    "asset": "C4692 0:06 to 0:15",
+    "source": "Raw footage"
+   },
+   {
+    "row": "00:38–00:43",
+    "device": "End card, words typed (no logo file)",
+    "asset": "end_card (MG library)",
+    "source": "endcards/index.json, 22 Oct 2026"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "20260909_C4691.MP4",
+    "path": "Day 1/Keya House/Madison Warm Line Call at Keya/20260909_C4691.MP4",
+    "drive": "1WOhxscO4VGMOiKyD-MIe2gdb3NMmgG4O",
+    "at": 30.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "Madison on the call, seated, green wall, desk with a monitor (visual.json)",
+    "frame": null
+   },
+   {
+    "clip": "20260909_C4691.MP4",
+    "path": "Day 1/Keya House/Madison Warm Line Call at Keya/20260909_C4691.MP4",
+    "drive": "1WOhxscO4VGMOiKyD-MIe2gdb3NMmgG4O",
+    "at": 88.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "Madison on the call in a white sweater, dim room (visual.json)",
+    "frame": null
+   },
+   {
+    "clip": "20260909_C4692.MP4",
+    "path": "Day 1/Keya House/Madison Warm Line Call at Keya/20260909_C4692.MP4",
+    "drive": "1wRmIKK7NxZPnPhZV46b7ahWmyhs4rsyd",
+    "at": 1.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "Madison on the phone, pink shirt, window and curtains (visual.json)",
+    "frame": null
+   },
+   {
+    "clip": "20260909_C4693.MP4",
+    "path": "Day 1/Keya House/Madison Warm Line Call at Keya/20260909_C4693.MP4",
+    "drive": "1fc1STFXX2Fzvc1nb1DQ0uhaRF8wIgzTs",
+    "at": 10.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "Madison on the flip phone, sweatshirt (visual.json)",
+    "frame": null
+   },
+   {
+    "clip": "20260909_C4669.MP4",
+    "path": "Day 1/Keya House/Keya House and Staff B Roll/20260909_C4669.MP4",
+    "drive": "18sC7Grm7qNnr2TPtzh1usDWbUIRh_CX9",
+    "at": 3.0,
+    "dur": 2.5,
+    "cx": 0.5,
+    "what": "Green sign “Thank you Keya peers!” (visual.json). Used by the Jen and Barbara cuts: only if nothing else fits.",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "MHA end card (words typed, MHA colors)",
+    "kind": "end_card",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   },
+   {
+    "name": "MHA captions (Schibsted Grotesk, white, soft shadow)",
+    "kind": "captions",
+    "file": "captions/13083750636.json",
+    "url": null,
+    "local": null,
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
 }

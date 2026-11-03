@@ -8,13 +8,14 @@
  "editor": "Bleron",
  "due": "2026-10-28",
  "format": "9:16 only · 1080×1920",
- "length": "about 63 s",
+ "length": "about 64 s (60 s of story, then a 4 s end card)",
  "edit_key": "MHAWrapPromoBringWrapToWork001",
  "headline": "WRAP makes a team better at noticing each other. A 60-second promo asking other organizations to bring WRAP to their staff.",
  "story": [
-  "Madison is good at hiding when she's struggling. Her coworkers know when she's quiet and closed off, that's not her.",
-  "WRAP lets a group name what everyone looks like when they're well and not well. A coworker without her usual morning drink gets a “hey, are you doing OK?”",
-  "WRAP made Madison a better coworker. Her pitch to other organizations: bring it to your employees. Peer support doesn't come with conditions."
+  "Madison is good at hiding when she's struggling. Her coworkers know when she's quiet and closed off: that's not her.",
+  "WRAP lets a group name what everybody looks like when they're doing well and when they're not. A coworker without her usual morning drink gets a “hey, are you doing OK?”",
+  "WRAP made Madison a better coworker. Her ask to other organizations: bring it to your employees. Peer support doesn't come with conditions.",
+  "<b>Loops:</b> L1 “What does ‘not okay’ look like?” opens at 0:00 and closes on the drink story at 0:36. L2 “What does WRAP do for a team?” opens at 0:13 and closes on “a better coworker” at 0:50. <b>Stakes:</b> a team that notices each other before someone falls through the cracks."
  ],
  "feel": [
   "Warm",
@@ -23,16 +24,16 @@
   "Practical"
  ],
  "do": [
-  "Open on the whiteboard feelings list with the hook text.",
-  "Show the WRAP group when she talks about the group; show a coworker when she names one.",
-  "Cut her filler (“So”, “I think”, “you know”); captions match what's left.",
-  "End card: “Bring WRAP to your team.” + mha-ne.org + logo, 4 s.",
-  "60 seconds max."
+  "Open on the whiteboard feelings list with the hook text on frame 1.",
+  "Show the WRAP group when she talks about the group; show coworkers when she names them.",
+  "Cut her filler (“So”, “I think”, “you know”) and pauses over 0.5 s; captions match what's left.",
+  "WRAP in capitals in every caption and card, never “rap”.",
+  "End card: “Bring WRAP to your team.” + mha-ne.org, 4 s. 60 seconds of story max."
  ],
  "dont": [
   "Not Madison's personal recovery story.",
-  "Not a sign-up video for individuals. No “register here”.",
-  "No therapy, treatment or clinical words.",
+  "Not a sign-up video for individuals. No “register here”. Don't reuse the June sign-up promo's shots or structure.",
+  "No therapy, treatment, clinical or “facility” words on any card.",
   "No participant face without a signed release. No minors.",
   "No desk, keyboard or paper filler B-roll."
  ],
@@ -40,197 +41,362 @@
   "brief": {
    "title": "Editor brief: WRAP for Your Workplace, “What does ‘not okay’ look like?” (pulse.13083753003)",
    "url": "https://docs.google.com/document/d/1MmQ87kFcFXL34f9EZuLjXEH7TYddg8NXmCn22_a-WDk/edit",
-   "note": "Bites, AV map and rules are set there."
+   "note": "Bites, AV map and rules are set there. This page is the current plan, with the Frame.io note already in it."
   },
   "reference": {
    "missing": true,
    "title": "Not chosen yet",
-   "note": "Production Planning 12324447439 reads Requested, owner Nick."
+   "note": "Nick owes it. The Production Planning row for the MHA September shoot has no reference link."
   },
   "footage": {
    "title": "MHA September 2026 raw",
    "url": "https://drive.google.com/drive/folders/1-B8N77LRfWIqQIyZaqP4ULirziTGsyye",
-   "note": "Day 1 › MHA Office: Madison Staff Interview (C4587, 22:22), WRAP Group with Madalyn B Roll (C4588–C4613), MHA Staff Office B Roll (C4504–C4522)."
+   "note": "Day 1 › MHA Office: Madison Staff Interview (C4587, 22:22), WRAP Group with Madalyn B Roll (C4588 to C4613), MHA Staff Morning Group Convo at Office (C4548 to C4583)."
   }
  },
- "bp_intro": "Voice is all <span class=\"mono\">20260909_C4587.MP4</span> (Madison, 22:22, pink MHA shirt). B-roll from the WRAP group (C4588–C4613) and office (C4504–C4522). Times are from the Day 1 per-clip transcript. Interviews 24 fps, B-roll 50 fps.",
+ "bp_intro": "Voice is all <a href=\"https://drive.google.com/file/d/1vSVpSI9aRJerRF6Cvmvpatjv2ajdbfyG/view\">20260909_C4587.MP4</a> (Madison, 22:22, pink MHA shirt, glasses, MHA sign behind her). Times are mm:ss.s in that file, from the shoot's phrase times (Transcripts - Day 1 and the MHA Office caption file); words inside a phrase are spread evenly, so trim each cut by ear. B-roll from the WRAP group and the staff morning group, picked from visual.json. No frames could be pulled for this page: each row says what to look for on scrub.",
  "rows": [
   {
-   "tc": "00:00–00:04",
+   "tc": "00:00–00:03",
    "beat": "HOOK",
    "kind": "hook",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "C4601 00:00: the whiteboard with the feelings list, facilitator with curly hair in front of it.",
-   "motion": "Hook text on <b>frame 1</b>, big and bold: <q>What does ‘not okay’ look like?</q> No logo, no name plate.",
+   "visual": "<a href=\"https://drive.google.com/file/d/17r3M43NcqihBeB26Kpg-TfxCmSgYDCzg/view\">20260909_C4601.MP4</a> <span class=\"mono\">00:00</span> to <span class=\"mono\">00:03</span>: the whiteboard with the list of feelings, the facilitator with curly hair in front of it (visual.json). Madison's voice starts about 0.3 s in. Check that no word on the board reads badly.",
+   "motion": "Hook text on <b>frame 1</b>, big and bold, top third: <q>What does ‘not okay’ look like?</q> Already on screen at 0:00. Does not animate on. Off at 00:03. No logo, no name plate.",
    "voice": {
-    "who": "Madison",
-    "quote": "So I'm really good at hiding when I'm struggling.",
-    "src": "C4587 14:00"
+    "who": "Madison Herman",
+    "quote": "I'm really good at hiding when I'm struggling.",
+    "src": "20260909_C4587.MP4 14:00.7 to 14:02.4 (cut “So” before it)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Soft, warm bed."
+   "music": "Soft, warm bed starts low on frame 1.",
+   "shots": [
+    {
+     "clip": "20260909_C4601.MP4",
+     "at": 0.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "Day 1/MHA Office/WRAP Group with Madalyn B Roll/20260909_C4601.MP4",
+     "drive": "17r3M43NcqihBeB26Kpg-TfxCmSgYDCzg",
+     "layout": "full",
+     "what": "Whiteboard feelings list, the facilitator in front of it"
+    }
+   ]
   },
   {
-   "tc": "00:04–00:14",
+   "tc": "00:03–00:13",
    "beat": "NOT ME",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Madison on camera (pink MHA shirt, glasses, MHA sign). At about 0:10 cut to C4506 00:00: two women in chairs in a dim office, talking.",
-   "motion": "Super once, lower corner, 3 s: “Madison Herman · Peer Support Specialist & WRAP Facilitator, MHA Nebraska”.",
+   "visual": "Madison on camera, <a href=\"https://drive.google.com/file/d/1vSVpSI9aRJerRF6Cvmvpatjv2ajdbfyG/view\">20260909_C4587.MP4</a> from <span class=\"mono\">14:15.6</span> (pink MHA shirt, glasses, MHA sign). On “and my coworkers know that that's not me” (<span class=\"mono\">14:23.7</span>) cut to <a href=\"https://drive.google.com/file/d/1a3sDPYhyRw3Jhm6LemQpQiD0R-SGBCPw/view\">20260909_C4574.MP4</a> <span class=\"mono\">00:30</span> to <span class=\"mono\">00:32.2</span>: three MHA staff talk at a meeting table (visual.json, staff morning group). C4506 is not used here: the Deidra cut has it.",
+   "motion": "Name super at 00:04, 3 s, lower left above the captions: <q>Madison Herman</q> · Peer Support Specialist & WRAP Facilitator, MHA Nebraska. Once only.",
    "voice": {
-    "who": "Madison",
+    "who": "Madison Herman",
     "quote": "If I come to work and I'm really quiet and closed off, and I have headphones in, and I'm not trying to small talk, and my coworkers know that that's not me.",
-    "src": "C4587 14:15"
+    "src": "20260909_C4587.MP4 14:15.6 to 14:25.9"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Soft, warm bed."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "If"
+    },
+    {
+     "clip": "20260909_C4574.MP4",
+     "at": 30.0,
+     "dur": 2.2,
+     "cx": 0.5,
+     "path": "Day 1/MHA Office/MHA Staff Morning Group Convo at Office/20260909_C4574.MP4",
+     "drive": "1a3sDPYhyRw3Jhm6LemQpQiD0R-SGBCPw",
+     "layout": "full",
+     "what": "Three MHA staff talk at a meeting table"
+    }
+   ]
   },
   {
-   "tc": "00:14–00:24",
+   "tc": "00:13–00:23",
    "beat": "THE GROUP",
    "kind": "turn",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "C4593 00:00: facilitator in white shirt and green scarf, gesturing. Then C4590 00:00: bearded man and woman with glasses at the table.",
-   "motion": "Captions only.",
+   "visual": "On “It's a really good way to come together as a group” (<span class=\"mono\">16:24.8</span>) cut to <a href=\"https://drive.google.com/file/d/1G6ny_w5vuQT9Xkwic_t1ZmsTo4d4wyTj/view\">20260909_C4593.MP4</a> <span class=\"mono\">00:01</span> to <span class=\"mono\">00:05</span>: the facilitator in a white shirt and green scarf, gesturing, a woman drinking from a mug behind her (visual.json). Then <a href=\"https://drive.google.com/file/d/1U_kgpiF_OPKGyKEfZlmec0FKEtiqRcX9/view\">20260909_C4590.MP4</a> <span class=\"mono\">00:00</span> to <span class=\"mono\">00:02.5</span>: a bearded man and a woman with glasses at the table with a purple cup (visual.json). Back to Madison's face on “like when they're doing well” (<span class=\"mono\">16:32.7</span>). Group faces only with a signed release.",
+   "motion": "Key words as she says them, top third, word stack: <q>doing well</q> then <q>not well</q>. Captions on.",
    "voice": {
-    "who": "Madison",
+    "who": "Madison Herman",
     "quote": "It's a really good way to come together as a group and identify what everybody looks like when they're doing well and what everybody looks like when they're not well.",
-    "src": "C4587 16:24"
+    "src": "20260909_C4587.MP4 16:24.8 to 16:35.8"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Soft, warm bed."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "clip": "20260909_C4593.MP4",
+     "at": 1.0,
+     "dur": 4.0,
+     "cx": 0.5,
+     "path": "Day 1/MHA Office/WRAP Group with Madalyn B Roll/20260909_C4593.MP4",
+     "drive": "1G6ny_w5vuQT9Xkwic_t1ZmsTo4d4wyTj",
+     "layout": "full",
+     "what": "The facilitator gestures to the WRAP group"
+    },
+    {
+     "clip": "20260909_C4590.MP4",
+     "at": 0.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "Day 1/MHA Office/WRAP Group with Madalyn B Roll/20260909_C4590.MP4",
+     "drive": "1U_kgpiF_OPKGyKEfZlmec0FKEtiqRcX9",
+     "layout": "full",
+     "what": "WRAP group members at the table"
+    },
+    {
+     "face": true,
+     "from_word": "like"
+    }
+   ]
   },
   {
-   "tc": "00:24–00:34",
+   "tc": "00:23–00:36",
    "beat": "THE DRINK",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "C4588 00:00: young woman at a table with her worksheet. Then C4589 00:00: two women at a table, tablet and notebook.",
-   "motion": "Captions only.",
+   "visual": "On “One of my coworkers is a very big routine person” (<span class=\"mono\">16:39.9</span>) <a href=\"https://drive.google.com/file/d/1JWnM8NJyFL_XTvlCrySZU9SSjtWfRmAX/view\">20260909_C4588.MP4</a> <span class=\"mono\">00:03</span> to <span class=\"mono\">00:05.5</span>: a young woman at a table, focused on her worksheet (visual.json; release). On “gets the same drink every single morning” (<span class=\"mono\">16:44.9</span>) <a href=\"https://drive.google.com/file/d/1J0MRt66vL9tDDwWENBrhGAR-OUyydzCc/view\">20260909_C4609.MP4</a> <span class=\"mono\">00:01.5</span> to <span class=\"mono\">00:04.5</span>: the whiteboard list, visual.json reads “Drinking Coffee” on it (check on scrub). Back to Madison's face for “If I see her in the morning…” (<span class=\"mono\">16:48.2</span>) to the end of the row.",
+   "motion": "Top text as she says it (about 00:33), 2 s, top third: <q>hey, are you doing OK?</q> Captions on.",
    "voice": {
-    "who": "Madison",
-    "quote": "One of my coworkers is a very big routine person and gets the same drink every single morning from the gas station. … If I see her in the morning and she doesn't have that drink, I'm going to make a comment like, hey, are you doing OK?",
-    "src": "C4587 16:39, 16:48"
+    "who": "Madison Herman",
+    "quote": "One of my coworkers is a very big routine person and gets the same drink every single morning from the gas station. If I see her in the morning and she doesn't have that drink, I'm going to make a comment like, hey, are you doing OK?",
+    "src": "20260909_C4587.MP4 16:39.9 to 16:54.3"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Soft, warm bed."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "clip": "20260909_C4588.MP4",
+     "at": 3.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "Day 1/MHA Office/WRAP Group with Madalyn B Roll/20260909_C4588.MP4",
+     "drive": "1JWnM8NJyFL_XTvlCrySZU9SSjtWfRmAX",
+     "layout": "full",
+     "what": "A young woman at her worksheet"
+    },
+    {
+     "clip": "20260909_C4609.MP4",
+     "at": 1.5,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "Day 1/MHA Office/WRAP Group with Madalyn B Roll/20260909_C4609.MP4",
+     "drive": "1J0MRt66vL9tDDwWENBrhGAR-OUyydzCc",
+     "layout": "full",
+     "what": "Whiteboard feelings list (Drinking Coffee)"
+    },
+    {
+     "face": true,
+     "from_word": "If"
+    }
+   ]
   },
   {
-   "tc": "00:34–00:42",
+   "tc": "00:36–00:45",
    "beat": "WOULDN'T HAVE KNOWN",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "C4598 00:00: the whiteboard safety agreement. Then C4607 00:00: the facilitator writing on the whiteboard.",
-   "motion": "Captions. Caption WRAP (transcript: “rap”).",
+   "visual": "<a href=\"https://drive.google.com/file/d/1b1dC8Wu96UBhjDI2mQLFbTc08ikfi2Yh/view\">20260909_C4598.MP4</a> <span class=\"mono\">00:00</span> to <span class=\"mono\">00:04</span>: the whiteboard safety agreement (confidentiality, judgement free, trauma informed, listening without interrupting; visual.json). Then <a href=\"https://drive.google.com/file/d/11TUc4gIGOJqDuyv2xSZOkZZwasAPBZDt/view\">20260909_C4607.MP4</a> <span class=\"mono\">00:00</span> to <span class=\"mono\">00:04</span>: the facilitator writing feelings on the whiteboard (visual.json). Stay in 00:00 to 00:04 of C4607: visual.json reads an off word later on that board. Back to Madison for the end of the line.",
+   "motion": "Captions only. Caption WRAP (transcript: “rap”).",
    "voice": {
-    "who": "Madison",
+    "who": "Madison Herman",
     "quote": "If I didn't take a WRAP group with her, I wouldn't have known that because we're so used to being in our own world where we have our own routines and we don't pick up on things like that.",
-    "src": "C4587 16:56"
+    "src": "20260909_C4587.MP4 16:56.5 to 17:06.6"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Soft, warm bed."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "clip": "20260909_C4598.MP4",
+     "at": 0.0,
+     "dur": 4.0,
+     "cx": 0.5,
+     "path": "Day 1/MHA Office/WRAP Group with Madalyn B Roll/20260909_C4598.MP4",
+     "drive": "1b1dC8Wu96UBhjDI2mQLFbTc08ikfi2Yh",
+     "layout": "full",
+     "what": "Whiteboard safety agreement"
+    },
+    {
+     "clip": "20260909_C4607.MP4",
+     "at": 0.0,
+     "dur": 4.0,
+     "cx": 0.5,
+     "path": "Day 1/MHA Office/WRAP Group with Madalyn B Roll/20260909_C4607.MP4",
+     "drive": "11TUc4gIGOJqDuyv2xSZOkZZwasAPBZDt",
+     "layout": "full",
+     "what": "The facilitator writes feelings on the whiteboard"
+    },
+    {
+     "face": true,
+     "from_word": "where"
+    }
+   ]
   },
   {
-   "tc": "00:42–00:50",
+   "tc": "00:45–00:50",
    "beat": "BETTER COWORKER",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Madison on camera.",
+   "visual": "Madison on camera from <span class=\"mono\">15:59.7</span>: her own claim, her face is the strongest picture. Cut the 0.7 s breath before “I am more approachable.” Optional: if <a href=\"https://drive.google.com/file/d/1A8f2vysVwmL3NMAt1PS1lkbZjHShQULH/view\">20260909_C4565.MP4</a> <span class=\"mono\">00:08</span> to <span class=\"mono\">00:11</span> (two staff at a table with a laptop, one in a pink MHA shirt; visual.json) shows Madison, use 2 s of it on “I am more approachable”. If it is not her, stay on her face.",
    "motion": "Captions only.",
    "voice": {
-    "who": "Madison",
-    "quote": "I know for 100% fact it has made me a better coworker. I am more approachable. I'm more reliable because I feel better about myself and my routine and my performance.",
-    "src": "C4587 15:53, 16:03, 16:05"
+    "who": "Madison Herman",
+    "quote": "I know for 100% fact it has made me a better coworker. I am more approachable.",
+    "src": "20260909_C4587.MP4 15:59.7 to 16:05.4"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Soft, warm bed."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I"
+    }
+   ]
   },
   {
-   "tc": "00:50–00:55",
+   "tc": "00:50–00:57",
    "beat": "THE ASK",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "C4612 00:00: facilitator at the flip chart. Then C4604 00:00: man in green shirt speaking at the table.",
-   "motion": "Small text card: <q>WRAP · Wellness Recovery Action Plan</q>.",
+   "visual": "<a href=\"https://drive.google.com/file/d/1HRW2NlcbAta-2TkPvOEglNuU9XQ1e7Er/view\">20260909_C4612.MP4</a> <span class=\"mono\">00:00</span> to <span class=\"mono\">00:04</span>: the facilitator at the flip chart with the list of words (visual.json). Then <a href=\"https://drive.google.com/file/d/1JE_YKD8GzxI5J-oB08MhO38Kqe-X76cE/view\">20260909_C4604.MP4</a> <span class=\"mono\">00:00</span> to <span class=\"mono\">00:03</span>: a man in a green shirt speaking at the table (visual.json; release).",
+   "motion": "Small text, top third, while she says it: <q>WRAP · Wellness Recovery Action Plan</q>. Caption WRAP (transcript: “rap”).",
    "voice": {
-    "who": "Madison",
+    "who": "Madison Herman",
     "quote": "If you are thinking about bringing WRAP to your organization, I highly recommend it, not only for the participants, but for your employees.",
-    "src": "C4587 16:15"
+    "src": "20260909_C4587.MP4 16:15.7 to 16:23.5"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Soft, warm bed."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "clip": "20260909_C4612.MP4",
+     "at": 0.0,
+     "dur": 4.0,
+     "cx": 0.5,
+     "path": "Day 1/MHA Office/WRAP Group with Madalyn B Roll/20260909_C4612.MP4",
+     "drive": "1HRW2NlcbAta-2TkPvOEglNuU9XQ1e7Er",
+     "layout": "full",
+     "what": "The facilitator at the flip chart"
+    },
+    {
+     "clip": "20260909_C4604.MP4",
+     "at": 0.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "Day 1/MHA Office/WRAP Group with Madalyn B Roll/20260909_C4604.MP4",
+     "drive": "1JE_YKD8GzxI5J-oB08MhO38Kqe-X76cE",
+     "layout": "full",
+     "what": "A WRAP group member speaks at the table"
+    }
+   ]
   },
   {
-   "tc": "00:55–00:59",
+   "tc": "00:57–01:00",
    "beat": "BUTTON",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Madison on camera, smiling.",
+   "visual": "Madison on camera, smiling, from <span class=\"mono\">21:46.1</span>. Hold 0.5 s after “conditions.”",
    "motion": "Captions only.",
    "voice": {
-    "who": "Madison",
+    "who": "Madison Herman",
     "quote": "Peer support is powerful because it doesn't come with conditions.",
-    "src": "C4587 21:46"
+    "src": "20260909_C4587.MP4 21:46.1 to 21:49.6"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Resolve."
+   "music": "Resolve.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Peer"
+    }
+   ]
   },
   {
-   "tc": "00:59–01:03",
+   "tc": "01:00–01:04",
    "beat": "END CARD",
    "kind": "end",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "End card.",
-   "motion": "<q>Bring WRAP to your team.</q> + mha-ne.org + MHA Nebraska logo. Hold 4 s.",
+   "visual": "End card, full frame, after “conditions.” Hold 4 s.",
+   "motion": "End card, 4 s, MHA colors (dark olive <span class=\"mono\">#4A5325</span> on pale sage <span class=\"mono\">#E8EFD4</span>): <q>Bring WRAP to your team.</q> + mha-ne.org. MHA Nebraska typed as text: no logo file yet, never rebuild one.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Music only."
+   "music": "Music only, out at the end.",
+   "shots": []
   }
  ],
  "frames": {},
  "files": [
   [
    "Editing brief",
-   "<a href=\"https://docs.google.com/document/d/1MmQ87kFcFXL34f9EZuLjXEH7TYddg8NXmCn22_a-WDk/edit\">pulse.13083753003</a> (Google Doc). This page is built from it."
+   "<a href=\"https://docs.google.com/document/d/1MmQ87kFcFXL34f9EZuLjXEH7TYddg8NXmCn22_a-WDk/edit\">pulse.13083753003</a> (Google Doc)."
+  ],
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/1HjXrf_i7y5gj1c8NrpU9wkAdVBrN8U6DcBOuMCmGOcI/edit\">MHA × Happy Productions — September Production Brief (Sept 9–10, 2026)</a>"
+  ],
+  [
+   "Reference",
+   "Not chosen yet. Nick owes it."
   ],
   [
    "Shoot folder",
-   "<a href=\"https://drive.google.com/drive/folders/1-B8N77LRfWIqQIyZaqP4ULirziTGsyye\">MHA September 2026 raw</a> › Day 1 › MHA Office"
+   "<a href=\"https://drive.google.com/drive/folders/1-B8N77LRfWIqQIyZaqP4ULirziTGsyye\">MHA September 2026</a> › Day 1 › MHA Office"
+  ],
+  [
+   "Interview clip",
+   "<a href=\"https://drive.google.com/file/d/1vSVpSI9aRJerRF6Cvmvpatjv2ajdbfyG/view\">20260909_C4587.MP4</a> (Madison, 22:22). Her WRAP answers run 11:00 to 12:06, 13:54 to 15:21, 15:53 to 17:06, 17:15 to 18:30 and 21:46 to 22:14."
+  ],
+  [
+   "B-roll picks",
+   "<a href=\"https://drive.google.com/file/d/17r3M43NcqihBeB26Kpg-TfxCmSgYDCzg/view\">20260909_C4601.MP4</a> · <a href=\"https://drive.google.com/file/d/1a3sDPYhyRw3Jhm6LemQpQiD0R-SGBCPw/view\">20260909_C4574.MP4</a> · <a href=\"https://drive.google.com/file/d/1G6ny_w5vuQT9Xkwic_t1ZmsTo4d4wyTj/view\">20260909_C4593.MP4</a> · <a href=\"https://drive.google.com/file/d/1U_kgpiF_OPKGyKEfZlmec0FKEtiqRcX9/view\">20260909_C4590.MP4</a> · <a href=\"https://drive.google.com/file/d/1JWnM8NJyFL_XTvlCrySZU9SSjtWfRmAX/view\">20260909_C4588.MP4</a> · <a href=\"https://drive.google.com/file/d/1J0MRt66vL9tDDwWENBrhGAR-OUyydzCc/view\">20260909_C4609.MP4</a> · <a href=\"https://drive.google.com/file/d/1b1dC8Wu96UBhjDI2mQLFbTc08ikfi2Yh/view\">20260909_C4598.MP4</a> · <a href=\"https://drive.google.com/file/d/11TUc4gIGOJqDuyv2xSZOkZZwasAPBZDt/view\">20260909_C4607.MP4</a> · <a href=\"https://drive.google.com/file/d/1HRW2NlcbAta-2TkPvOEglNuU9XQ1e7Er/view\">20260909_C4612.MP4</a> · <a href=\"https://drive.google.com/file/d/1JE_YKD8GzxI5J-oB08MhO38Kqe-X76cE/view\">20260909_C4604.MP4</a> · optional <a href=\"https://drive.google.com/file/d/1A8f2vysVwmL3NMAt1PS1lkbZjHShQULH/view\">20260909_C4565.MP4</a>"
   ],
   [
    "Transcript",
-   "Day 1 › EditingResources › transcript (“Transcripts - Day 1” + Day 1.transcript.json + Keybites + SRT Groups)."
+   "<a href=\"https://docs.google.com/document/d/13bwFdFZ3yH60elAYqnrm1GY3EZx9JiiFSDYWihC_sYA/edit\">Transcripts - Day 1</a> · <a href=\"https://drive.google.com/file/d/1YcTygNIHh4SYpZt_Pg5C8D9OG50vGuTy/view\">MHA Office.srt</a> (phrase times) · <a href=\"https://drive.google.com/file/d/1Dp35kkBBpNjhsyzVmeBViJajwmzUUqRz/view\">output.json</a> (word times, whole shoot)"
   ],
   [
    "visual.json",
-   "MHA September 2026 › EditingResources › EditTranscripts › visual.json"
+   "<a href=\"https://drive.google.com/file/d/1LPvkYhfYN8ag7eJufhcWIcOZ4QtINeVU/view\">visual.json</a> (shoot level shot index, coarse). No frames were pulled for this page: check every pick on scrub."
+  ],
+  [
+   "Brand graphics package",
+   "MHA package: Drive <span class=\"mono\">deliverables/graphics-packages/MHA</span>. No logo in it (MHA has not sent a logo file). Type the words on the plates in Schibsted Grotesk."
+  ],
+  [
+   "Brand",
+   "Gloock for headings, Schibsted Grotesk for captions and body. Olive <span class=\"mono\">#798E36</span>, dark olive <span class=\"mono\">#4A5325</span>, pale sage <span class=\"mono\">#E8EFD4</span>, gold-ochre <span class=\"mono\">#93813C</span>. Never the orange from the website template."
   ],
   [
    "Not this cut",
@@ -238,55 +404,361 @@
   ],
   [
    "Client ask",
-   "Madison Herman, pre-production call 8 Sep: org-wide WRAP training is expensive to adopt, so MHA needs a bite-sized, compelling promo for YouTube and LinkedIn."
+   "Madison Herman asked for WRAP promos first: a short, clear piece that makes other organizations want WRAP for their staff, for YouTube and LinkedIn viewers who run a team."
   ]
  ],
  "tech": [
   [
    "Source",
-   "Sony FX3. Interviews 24 fps, B-roll 50 fps. Lav into the camera: check the multi-mono lav channels on C4695."
+   "1920×1080, 59.94 fps (visual.json, every clip on this page). Not probed for this page. The other interviews from this shoot probe at 59.94 fps, 2 audio channels."
   ],
   [
    "Timeline",
-   "1080×1920 at 24 fps. Interpret the 50 fps B-roll on purpose."
+   "1080×1920 at <b>29.97 fps</b>, the same as the other MHA September cuts. Conform every clip to real time. No accidental slow motion."
+  ],
+  [
+   "Crop",
+   "A 9:16 crop of 1080p is 608 px wide, so it is already upscaled 1.78×. Keep punch-ins at 110% or less. Sharpen lightly."
+  ],
+  [
+   "Audio",
+   "Lav into the camera: solo each channel on C4587 and keep the clean one. The WRAP group clips have live room sound: keep it low under Madison."
   ],
   [
    "Loudness",
-   "−14 LUFS integrated, −1 dBTP peak. Soft music; don't cut on hard beats over Amber."
+   "−14 LUFS integrated, −1 dBTP peak. Soft music, 18–20 dB under the voice."
   ],
   [
    "Captions",
-   "Every spoken word. Clean bold sans until Nick sends the brand kit. One text block, one place, the whole video."
+   "Every spoken word. Schibsted Grotesk Bold, white, soft shadow, max 2 lines. One fixed position, every caption starts on the same line. WRAP in capitals. The caption file of this page has every line."
+  ],
+  [
+   "Hook text",
+   "Schibsted Grotesk Bold, white, on an olive <span class=\"mono\">#798E36</span> box, top third. Cut on."
   ],
   [
    "Export",
    "H.264 MP4, 1080×1920. One file, 9:16 only."
+  ],
+  [
+   "Upload name",
+   "34_Traditional_MHAWrapPromoBringWrapToWork001-2.mp4 (raise the last number by one for each new version)"
+  ],
+  [
+   "Frame.io folder",
+   "MHA - Mental Health Association of Nebraska / MHA_batch_1_2026"
   ]
  ],
  "checklist": [
-  "Frame 1: the whiteboard with “What does ‘not okay’ look like?”",
-  "WRAP in capitals in every caption and card (never “rap”).",
-  "No “register” ending; the ask is to organizations.",
+  "Frame 1: the whiteboard with “What does ‘not okay’ look like?” No logo, no name plate.",
+  "WRAP in capitals in every caption and card. The ask reads “If you are thinking about bringing WRAP to your organization,” (Frame.io note).",
+  "No “register” ending: the ask is to organizations.",
   "WRAP group faces only with a signed release (Amber Pendley holds them). Prefer wides and whiteboard shots.",
+  "No word on a whiteboard that reads badly on screen.",
   "No clipped or duplicated caption words; captions start on the same line.",
   "Never “patient”, “therapy”, “treatment”, “clinic” or “facility” on a card.",
-  "60 seconds max."
+  "60 seconds of story max, then the 4 s end card."
  ],
- "decisions": [
-  {
-   "t": "Optional facilities lines",
-   "b": "17:42–17:58 (incarceration, wellness programs in facilities) only if there is room. Drop it first if the cut runs long."
-  },
-  {
-   "t": "Revision notes",
-   "b": "This item is in Needs Revisions at V1. Read the Frame.io notes first; this page is the plan for everything they don't change."
-  }
- ],
- "client_note": "<b>Why this matters:</b> Madison asked for it: org-wide WRAP training is expensive to adopt, and MHA needs a short promo that makes other organizations want it.",
+ "decisions": [],
+ "client_note": "<b>Why this matters:</b> Madison asked for the WRAP promos first. This one has to make other organizations want WRAP for their staff, in one minute.",
  "ask_examples": [
   "What's the hook?",
   "Can I reuse the June sign-up promo shots?",
   "Which group faces can I show?",
   "What goes on the end card?"
- ]
+ ],
+ "transcript": "--- 20260909_C4587.MP4 ---\n[00:00.7] All right, so first thing, Madison, can you just introduce yourself and say like your position at MHA and how long you've been working here for?\n[00:08.5] Hi, my name is Madison Herman.\n[00:10.3] I do marketing and employment support here at MHA as a peer support specialist.\n[00:16.1] I've been here for about four years.\n[00:18.3] Perfect.\n[00:19.2] All right, so first question here.\n[00:21.0] How did you first come across, oh, whoops, camera moved.\n[00:24.1] How did you first come across MHA?\n[00:27.7] I came across MHA as an intern.\n[00:31.0] I had spent a lot of my life navigating mental health struggles, but I did my best to mask them.\n[00:37.0] When I came to MHA, I started to realize more and more how I finally felt like I fit in somewhere and I was able to start to recognize that I had been hiding a lot of things and trying to make myself fit into these molds.\n[00:53.9] I did really well in school.\n[00:55.5] I was a cheerleader and at a certain point, when I was about 14 or 15, everything just started to go downhill and it just kept going downhill from there.\n[01:05.8] And when I got to MHA, I was at my version of a rock bottom where I was acting on impulses and not practicing moderation and self-sabotaging a lot of the things that I had going for me.\n[01:23.2] And so when I was able to come to MHA and hear people's stories, I started to realize that I wasn't as alone as I thought I was.\n[01:31.5] And I actually own my mental health now instead of trying to hide it.\n[01:36.7] And once I became a WRAP facilitator, I was really able to take charge of my own life and it's been pretty fulfilling for me.\n[01:45.8] Amazing, awesome.\n[01:46.8] Thank you for sharing your whole story like that.\n[01:49.2] So next question is, what makes peer support different from traditional support?\n[01:55.4] The biggest difference from traditional support to peer support for me is just not having any requirements or let me word that better.\n[02:05.9] The biggest difference between traditional support and peer support is being able to be authentically myself.\n[02:13.0] I don't have to show up in peer support as a perfectly healed or professional version of myself.\n[02:19.5] I can just be me.\n[02:21.7] And through that, I've been able to be peer supported by others and I am more open with them.\n[02:28.5] I trust what they have to say more and take their suggestions a little more serious because I do know that they've actually been through what I've been through.\n[02:42.8] Even in finding a counselor that has lived experience, I've realized that the different worldviews that I'm able to gain from connecting with people in peer support has made me view myself differently.\n[03:00.0] It's made me appreciate all different sides of recovery, the clinical and non-clinical, because in peer support, we learn that it all works together.\n[03:12.7] And I've started to kind of treat recovery like a buffet.\n[03:16.1] And so trying out things that I maybe didn't like in the past and discovering that I like them now is a part of rediscovering myself again.\n[03:26.8] Great answer.\n[03:27.7] I like that little analogy you made there.\n[03:29.1] That was really great.\n[03:30.1] So tell me about a moment here or from peer support that you still think about or that stuck with you.\n[03:37.7] So in my earlier days of doing employment, we did a lot of community outreach and community support.\n[03:49.9] And one of the people that we were supporting was trying to get back into work after losing their family member that they had been taken care of.\n[03:58.6] And we went and had lunch with them and I was shadowing an employment specialist and this person wanted to become a rockstar essentially.\n[04:13.2] And us being able to go in there and say, what is your dream job?\n[04:17.6] And it's not a joke.\n[04:18.7] We genuinely want to know.\n[04:20.8] And they took being a rockstar to how, let's look in Lincoln and see what jobs are equivalent to that.\n[04:28.9] Obviously there's not a job like that on Indeed, but we found a job at a music store and she went and worked at the music store and really enjoyed it.\n[04:38.5] And it was moments like that where other people laugh in your face or they think, oh, that's not possible.\n[04:46.6] But what we really noticed in her was that she was trying to explain a need and the need was I wanna be around music.\n[04:57.1] And so not everybody answers things that how we expect, but being able to look at that and identify, okay, how can we get as close to this as possible?\n[05:09.0] I've had people say that they wanted to own their own business.\n[05:13.0] And that's really hard to, as an employment specialist to start that.\n[05:18.8] But then when I find a food truck that has a mentoring program, that's pretty close to, and I've met people who have gone through that mentoring program and they now do own their own businesses.\n[05:35.9] And so it's not always in the moment.\n[05:39.4] Sometimes I might meet with somebody and they are unemployed for six months and later on they fall off and I don't hear from them.\n[05:48.1] But a couple years later, I'll be getting food from somewhere and I see them and they're like, oh, I'm doing amazing.\n[05:55.3] This is my business that I own.\n[05:58.5] And being able to see that person and reconnect with them and they know that, that's someone that is going to be proud of me because I never doubted them.\n[06:12.3] We're so used to people telling us what we can't do.\n[06:16.4] And when someone comes to me with a crazy idea, I'm able to look at them and say, okay, well, how can we make that happen?\n[06:23.4] It might not be exactly how you envision it, but how can we make it as close as possible to come to fruition?\n[06:31.0] And people have pointed that out to me and my coworkers that you never said any idea I had or any job that I wanted to do wasn't possible.\n[06:41.8] It was just, let's figure out how we can make it possible.\n[06:45.9] Awesome, great answer.\n[06:47.8] All right, so what would you say to someone who doesn't believe that they can recover?\n[06:53.8] I used to be one of those people that thought there were certain people that could recover and certain people that couldn't.\n[07:00.0] And I think the biggest testament is just connection and talking to more people and meeting more people.\n[07:09.4] The more people you meet, the more stories you hear and the more examples you see of people coming out of struggles, being resilient.\n[07:22.2] And knowing that resilience exists means that it can also exist in me.\n[07:28.4] It's not something that you have to be lucky to receive.\n[07:35.4] I think anybody has the ability to get well, stay well and recover as long as they would want to.\n[07:43.2] I know in my past, anything that I needed to change, I didn't wanna change it if other people were telling me over and over again what to do.\n[07:52.1] So if you are experiencing or supporting someone that does struggle and recovery can be a lot of different things, I think it's just best to remind them that you love them no matter what and reminding people that they are worthy,\n[08:12.6] whether they are in recovery or not, because that's really where it starts is to build that confidence to take that first step to recover.\n[08:23.6] So true for sure.\n[08:25.6] So what do people get wrong about this work?\n[08:30.4] I think a big misconception about peer support and just the human services world in general is that we do this for a title or to make ourselves feel better.\n[08:43.1] And I understand where that comes from.\n[08:45.7] I don't want people to think that we're ever trying to fix them or that patronizing them or anything like that.\n[08:54.9] I think the biggest thing to remember when it comes to that is that what the culture MHA is trying to create is that paid to be in your life or not, people don't have to experience things alone.\n[09:08.9] I understand that we all wish that it would be just natural and something that would happen without it having to be a job but this is where it starts.\n[09:20.2] My hope is that people that I meet and experience through MHA will eventually gain the necessary skills to branch out and make their own natural connections.\n[09:32.2] And the fact that it's also able to be a job is just a bonus to it.\n[09:36.9] So we really do care about the work that we do.\n[09:40.4] It's not just a job to us, it really is a way of life.\n[09:44.2] And that's something that the longer I work here the more I start to feel.\n[09:49.9] Awesome.\n[09:51.3] So if someone watching this has never heard of MHA, what should they know?\n[09:57.8] I think they should know that all of our services are free and voluntary.\n[10:03.6] [do not use: off-topic line removed]\n[10:09.7] We really want things to be accessible for everybody.\n[10:14.0] And also you don't have to be in crisis to utilize peer support.\n[10:19.5] I think I spent a lot, a lot, of my life waiting to be in crisis.\n[10:24.5] I had been in mental health facilities before.\n[10:28.5] And so it was almost like I didn't think that I was in a crisis until I got to that point.\n[10:34.2] But I didn't realize that I was just waiting, waiting for that to happen.\n[10:38.3] And coming in and receiving support and going to KIA would not have been a failure, it would have been a win.\n[10:46.6] And so remember that those services are available and they're free.\n[10:52.6] Definitely.\n[10:54.7] So how has WRAP impacted your life?\n[11:00.1] WRAP has really helped me become a better human because I give myself the necessary things that I need to be successful.\n[11:11.6] So it could be anything from having a good morning routine to making sure that I drink water, to making sure that I eat.\n[11:19.9] These are things that when you struggle with self-care and you struggle with mental health symptoms that can sometimes fall through the cracks.\n[11:27.5] And that was definitely my case is that I would always get everything done at work or with friends or family, but I would always leave myself last.\n[11:36.6] And WRAP reminds me to put myself first.\n[11:41.6] And that I can't be the best version of myself until I do those necessary things like meditation, getting sunlight in the morning before just sitting on my deck and spending time with my animals.\n[11:58.4] Those little things are things that I can do for myself to make sure that I have a better day.\n[12:03.1] And those were things that I honestly didn't do a lot of before WRAP.\n[12:07.5] Yeah, that's so important for sure.\n[12:09.6] So what is one thing you've learned through, you kind of talked about this already, but what is one thing you've learned through WRAP that you still use today?\n[12:18.6] So a big thing that changed for me through WRAP was support.\n[12:23.9] Even after taking peer support training, I was very strict on who supported me for what.\n[12:30.5] And so I still had those professional boundaries, but when it came to family members or friends, I just made assumptions that this person owes me this, this person should be able to support me in this.\n[12:44.3] I never asked people what they were willing to do.\n[12:47.8] And I also was never open to adding coworkers or friends on my list for these very private and personal things.\n[12:57.1] And through WRAP, I was able to realize that maybe it was on me and it wasn't on my supporters, because if my supporter has shown me over and over again that, hey, I'm not capable of helping you in that way, and I keep asking them for the same thing,\n[13:13.2] at a certain point, it becomes on me.\n[13:16.3] And I was able to look at my list of supporters and pick out really good tasks that were personal to each of them, and they were things that they offered to do, instead of me going to these people and saying, you're gonna do this, and you're gonna do this.\n[13:31.3] That is not a way to live life, and I wouldn't want other people treating me like that.\n[13:37.5] And when you exist in a state of not being well, that's how you start to treat the people in your life, that they constantly owe you something because you're not doing well, but that becomes exhausting, not only for you, but for your supporters.\n[13:52.0] Totally, yeah, great example.\n[13:54.1] So how has WRAP helped you recognize when you're struggling or need extra support?\n[14:00.6] So I'm really good at hiding when I'm struggling.\n[14:03.2] I'll still wake up and come to work some days, and so there's things that my coworkers and even my WRAP participants have pointed out to me.\n[14:15.6] If I come to work and I'm really quiet and closed off, and I have headphones in, and I'm not trying to small talk, and my coworkers know that that's not me.\n[14:27.0] When I'm at home, if I'm not super excited to walk in the door and greet my animals and excited for my night, my partner can automatically tell that there's a shift in my mood.\n[14:39.0] It could even be little things like not buckling my seatbelt because I have a lack of care about my safety, or calling into work when I know that there's something important, which is just not like me.\n[14:54.3] It's not that I, you know, there's a time to call into work, but on things that I'm excited about because I'm avoiding them.\n[15:02.6] And so those are things that through conversation and WRAP, I've heard and I've identified, oh, that happens to me too.\n[15:11.1] Oh, I also impulsively shop when I'm not doing well, and I can notice that behavior and stop it as soon as I realize that I'm about to react.\n[15:24.4] Awesome.\n[15:25.4] So how would you say, well, did these ones really apply to you?\n[15:30.3] How does WRAP benefit your organization?\n[15:32.5] [do not use: off-topic line removed]\n[15:46.8] How can WRAP be beneficial to companies and organizations in the workplace?\n[15:53.6] So I don't think WRAP has only made me a better daughter and partner and friend, but I know for 100% fact it has made me a better coworker.\n[16:03.2] I am more approachable.\n[16:05.7] I'm more reliable because I feel better about myself and my routine and my performance.\n[16:15.7] If you are thinking about bringing WRAP to your organization, I highly recommend it, not only for the participants, but for your employees.\n[16:24.8] It's a really good way to come together as a group and identify what everybody looks like when they're doing well and what everybody looks like when they're not well.\n[16:36.4] And these are things that you start to notice in each other.\n[16:39.9] One of my coworkers is a very big routine person and gets the same drink every single morning from the gas station.\n[16:48.2] If I see her in the morning and she doesn't have that drink, I'm going to make a comment like, hey, are you doing OK?\n[16:55.0] How are things going?\n[16:56.5] If I didn't take a WRAP group with her, I wouldn't have known that because we're so used to being in our own world where we have our own routines and we don't pick up on things like that.\n[17:09.3] [do not use: off-topic line removed]\n[17:15.5] So being able to bring WRAP into facilities in your county or in your state is a very vital tool to finding more participants and meeting more people's needs before they transition.\n[17:33.5] I think sometimes it's easy for us to forget how many people are incarcerated and how, how, OK, let me revert that.\n[17:42.1] I think it's easy for us to forget how many people are incarcerated and how few programs that there are for people.\n[17:50.2] And by going into these facilities and offering these wellness programs, no matter what the outcome is, we're giving people an opportunity to do something different.\n[18:03.6] And that in itself is a win.\n[18:06.6] And going into a WRAP group not only supports the people that are taking it, but it supports me as well.\n[18:15.8] And we're able to learn about different resources and talk about those resources.\n[18:21.6] And it's brought a lot of people to different aspects of our company and given us referrals that we wouldn't have otherwise had without WRAP.\n[18:31.6] Awesome.\n[18:32.6] Can you think of maybe a time where you guys did a WRAP program with a business or an organization and you saw how it benefited their workplace culture or the relationships between the people there or anything like that?\n[18:47.2] So there are different regions in Nebraska that have utilized our WRAP training.\n[18:53.5] And we have came out to their site to train them in WRAP trainings.\n[18:57.8] And they have started to host their own WRAP trainings.\n[19:01.4] And they're even doing WRAP reunions.\n[19:04.0] So people are able to get together with other facilitators in their area.\n[19:10.8] We have reunions here, but it's not always accessible for people who are in different parts of the state.\n[19:16.9] So because we were able to go out and train those people, it's like we're creating another hub for connection.\n[19:22.5] And not only is it a hub for WRAP, but it's a hub for support.\n[19:26.9] It's a hub for human services.\n[19:29.0] And so in region 5, for example, I've seen that firsthand how they had a need that needed to be met.\n[19:38.5] There were people that were wanting to do groups that were eager to learn, that were eager to attend.\n[19:45.5] And they got themselves trained in WRAP through us.\n[19:48.9] We have a really good relationship with them.\n[19:51.2] And now they are able to be self-sufficient.\n[19:54.9] They don't need us anymore because they've gotten other people trained so that they can train their own staff.\n[20:02.0] [do not use: off-topic line removed]\n[20:11.9] And so now that we're offering seminar three trainings, which we haven't done before, that is an opportunity for individuals in Nebraska to become advanced level facilitators, which in the past we had to travel to Pennsylvania\n[20:29.0] to do that.\n[20:29.8] So we really want to encourage and push that MHA is a hub and a resource for anyone that is wanting to become a WRAP facilitator or advanced level facilitator.\n[20:43.8] Awesome.\n[20:44.6] All right, cool.\n[20:45.3] That's all the questions right there.\n[20:46.9] I found the soundbites, so do you want to record them?\n[20:49.3] Sure.\n[20:50.0] All right, so here they are.\n[20:51.4] They're on here.\n[20:52.8] Oh, I lost them.\n[20:54.1] Oh, my name is blank, and I blank at MHA.\n[20:57.6] You already said that.\n[20:58.8] One sentence on what hope looks like now, and then one sentence finishing, peer support is powerful because.\n[21:06.0] OK.\n[21:10.9] All right, so the first one you could just say hope looks like and then finish the sentence.\n[21:15.7] Hope looks like not giving up and reminding yourself that you have another day and that nothing is too far gone.\n[21:28.0] There is always a chance to get better and to keep working on yourself and to remain resilient no matter what has happened.\n[21:37.3] Perfect.\n[21:38.1] And the other one is, finish the sentence, peer support is powerful because blank.\n[21:46.1] Peer support is powerful because it doesn't come with conditions.\n[21:50.8] It allows you to show up authentically as yourself and make your own decisions.\n[21:56.9] There's no pressure on making a certain choice or choosing a certain path.\n[22:02.1] In peer support, the person meets you where you're at and identifies what level or what wellness looks like to you, and they work around that instead of telling you how to live your life.\n[22:15.8] Perfect.\n[22:16.3] Anything else you want to share?\n[22:18.0] All right, sweet.\n[22:18.5] We're good.\n[22:18.9] Thank you.\n[22:19.4] Yeah, thank you.",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "I'll still wake up and come to work some days, and so there's things that my coworkers and even my WRAP participants have pointed out to me.",
+    "who": "Madison Herman",
+    "file": "20260909_C4587.MP4",
+    "why": "Hiding at work, and her coworkers noticing."
+   },
+   {
+    "quote": "And WRAP reminds me to put myself first.",
+    "who": "Madison Herman",
+    "file": "20260909_C4587.MP4",
+    "why": "Short and personal."
+   },
+   {
+    "quote": "WRAP has really helped me become a better human because I give myself the necessary things that I need to be successful.",
+    "who": "Madison Herman",
+    "file": "20260909_C4587.MP4",
+    "why": "What WRAP did for her."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "I'll still wake up and come to work some days, and so there's things that my coworkers and even my WRAP participants have pointed out to me.",
+    "who": "Madison Herman",
+    "file": "20260909_C4587.MP4",
+    "why": "The same idea, set at work."
+   },
+   {
+    "quote": "And so those are things that through conversation and WRAP, I've heard and I've identified, oh, that happens to me too.",
+    "who": "Madison Herman",
+    "file": "20260909_C4587.MP4",
+    "why": "Noticing through the group."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "And these are things that you start to notice in each other.",
+    "who": "Madison Herman",
+    "file": "20260909_C4587.MP4",
+    "why": "Short: the group notices."
+   },
+   {
+    "quote": "And going into a WRAP group not only supports the people that are taking it, but it supports me as well.",
+    "who": "Madison Herman",
+    "file": "20260909_C4587.MP4",
+    "why": "The group helps the facilitator too."
+   },
+   {
+    "quote": "So because we were able to go out and train those people, it's like we're creating another hub for connection.",
+    "who": "Madison Herman",
+    "file": "20260909_C4587.MP4",
+    "why": "WRAP spreading to other teams."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "And these are things that you start to notice in each other.",
+    "who": "Madison Herman",
+    "file": "20260909_C4587.MP4",
+    "why": "The point of the drink story, short."
+   },
+   {
+    "quote": "If I see her in the morning and she doesn't have that drink, I'm going to make a comment like, hey, are you doing OK?",
+    "who": "Madison Herman",
+    "file": "20260909_C4587.MP4",
+    "why": "Only the check-in half."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "And these are things that you start to notice in each other.",
+    "who": "Madison Herman",
+    "file": "20260909_C4587.MP4",
+    "why": "Shorter close to the story."
+   },
+   {
+    "quote": "And so those are things that through conversation and WRAP, I've heard and I've identified, oh, that happens to me too.",
+    "who": "Madison Herman",
+    "file": "20260909_C4587.MP4",
+    "why": "How WRAP helps you notice."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "I'm more reliable because I feel better about myself and my routine and my performance.",
+    "who": "Madison Herman",
+    "file": "20260909_C4587.MP4",
+    "why": "The line the plan trims for time. Use it if the cut has room."
+   },
+   {
+    "quote": "So I don't think WRAP has only made me a better daughter and partner and friend, but I know for 100% fact it has made me a better coworker.",
+    "who": "Madison Herman",
+    "file": "20260909_C4587.MP4",
+    "why": "The full sentence, longer."
+   },
+   {
+    "quote": "WRAP has really helped me become a better human because I give myself the necessary things that I need to be successful.",
+    "who": "Madison Herman",
+    "file": "20260909_C4587.MP4",
+    "why": "Personal benefit."
+   }
+  ],
+  "bite:6": [
+   {
+    "quote": "So we really want to encourage and push that MHA is a hub and a resource for anyone that is wanting to become a WRAP facilitator or advanced level facilitator.",
+    "who": "Madison Herman",
+    "file": "20260909_C4587.MP4",
+    "why": "MHA as the place to train."
+   },
+   {
+    "quote": "And they have started to host their own WRAP trainings.",
+    "who": "Madison Herman",
+    "file": "20260909_C4587.MP4",
+    "why": "Other regions run WRAP now."
+   },
+   {
+    "quote": "So because we were able to go out and train those people, it's like we're creating another hub for connection.",
+    "who": "Madison Herman",
+    "file": "20260909_C4587.MP4",
+    "why": "What a team gets."
+   }
+  ],
+  "bite:7": [
+   {
+    "quote": "It allows you to show up authentically as yourself and make your own decisions.",
+    "who": "Madison Herman",
+    "file": "20260909_C4587.MP4",
+    "why": "Her next line, warm."
+   },
+   {
+    "quote": "In peer support, the person meets you where you're at and identifies what level or what wellness looks like to you, and they work around that instead of telling you how to live your life.",
+    "who": "Madison Herman",
+    "file": "20260909_C4587.MP4",
+    "why": "Longer close."
+   },
+   {
+    "quote": "There's no pressure on making a certain choice or choosing a certain path.",
+    "who": "Madison Herman",
+    "file": "20260909_C4587.MP4",
+    "why": "No pressure."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "What does ‘not okay’ look like?",
+    "line": "I'm really good at hiding when I'm struggling.",
+    "why": "The brief's hook. The answer is in her first line."
+   },
+   {
+    "text": "Would your team notice?",
+    "line": "If I come to work and I'm really quiet and closed off, and I have headphones in, and I'm not trying to small talk, and my coworkers know that that's not me.",
+    "why": "Speaks to the team lead watching."
+   },
+   {
+    "text": "Hey, are you doing OK?",
+    "line": "If I see her in the morning and she doesn't have that drink, I'm going to make a comment like, hey, are you doing OK?",
+    "why": "The check-in as the hook."
+   },
+   {
+    "text": "A better coworker.",
+    "line": "I know for 100% fact it has made me a better coworker.",
+    "why": "The benefit up front."
+   },
+   {
+    "text": "No conditions.",
+    "line": "Peer support is powerful because it doesn't come with conditions.",
+    "why": "Her strongest short line."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "MHA runs simple: one text element at a time, captions in one locked place, B-roll only when it shows what is said, no logo (no file yet). This cut has the hook text, one name super, one word stack, two small top texts and the end card, with 9 B-roll shots.",
+  "devices": [
+   {
+    "row": "00:00–00:03",
+    "device": "Hook text, static, top third, over the whiteboard",
+    "asset": "highlight_callout (MG library); C4601 0:00 to 0:03",
+    "source": "Script; raw footage"
+   },
+   {
+    "row": "00:03–00:13",
+    "device": "Name super Madison, coworkers cutaway",
+    "asset": "tag_label (MG library); C4574 0:30 to 0:32.2",
+    "source": "Script; raw footage"
+   },
+   {
+    "row": "00:13–00:23",
+    "device": "WRAP group pod, word stack",
+    "asset": "C4593 0:01 to 0:05; C4590 0:00 to 0:02.5; word_stack (MG library)",
+    "source": "Raw footage; script"
+   },
+   {
+    "row": "00:23–00:36",
+    "device": "Pod: worksheet, whiteboard, then her face with top text",
+    "asset": "C4588 0:03 to 0:05.5; C4609 0:01.5 to 0:04.5; highlight_callout (MG library)",
+    "source": "Raw footage; script"
+   },
+   {
+    "row": "00:36–00:45",
+    "device": "Whiteboard pod",
+    "asset": "C4598 0:00 to 0:04; C4607 0:00 to 0:04",
+    "source": "Raw footage"
+   },
+   {
+    "row": "00:50–00:57",
+    "device": "Flip chart and group, small text",
+    "asset": "C4612 0:00 to 0:04; C4604 0:00 to 0:03; highlight_callout (MG library)",
+    "source": "Raw footage; script"
+   },
+   {
+    "row": "01:00–01:04",
+    "device": "End card, words typed (no logo file)",
+    "asset": "end_card (MG library)",
+    "source": "endcards/index.json, 22 Oct 2026"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "20260909_C4589.MP4",
+    "path": "Day 1/MHA Office/WRAP Group with Madalyn B Roll/20260909_C4589.MP4",
+    "drive": "1nkQd9kUUtGZRl4L0nJsEb57nyrxrVKq2",
+    "at": 2.5,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "Two people at a table with a tablet and a notebook (visual.json; release)",
+    "frame": null
+   },
+   {
+    "clip": "20260909_C4611.MP4",
+    "path": "Day 1/MHA Office/WRAP Group with Madalyn B Roll/20260909_C4611.MP4",
+    "drive": "1qd4Is2Ne1JFBTlTxsKB4O-q5tbX0mntH",
+    "at": 10.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "The facilitator points to words on the whiteboard, a member watches (visual.json)",
+    "frame": null
+   },
+   {
+    "clip": "20260909_C4565.MP4",
+    "path": "Day 1/MHA Office/MHA Staff Morning Group Convo at Office/20260909_C4565.MP4",
+    "drive": "1A8f2vysVwmL3NMAt1PS1lkbZjHShQULH",
+    "at": 9.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "Two staff at a table with a laptop, one in a pink MHA shirt (visual.json)",
+    "frame": null
+   },
+   {
+    "clip": "20260909_C4574.MP4",
+    "path": "Day 1/MHA Office/MHA Staff Morning Group Convo at Office/20260909_C4574.MP4",
+    "drive": "1a3sDPYhyRw3Jhm6LemQpQiD0R-SGBCPw",
+    "at": 50.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "Three staff at a meeting table (visual.json)",
+    "frame": null
+   },
+   {
+    "clip": "20260909_C4593.MP4",
+    "path": "Day 1/MHA Office/WRAP Group with Madalyn B Roll/20260909_C4593.MP4",
+    "drive": "1G6ny_w5vuQT9Xkwic_t1ZmsTo4d4wyTj",
+    "at": 40.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "The facilitator talks to a seated member (visual.json)",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "MHA end card (words typed, MHA colors)",
+    "kind": "end_card",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   },
+   {
+    "name": "MHA captions (Schibsted Grotesk, white, soft shadow)",
+    "kind": "captions",
+    "file": "captions/13083753003.json",
+    "url": null,
+    "local": null,
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
 }

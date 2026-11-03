@@ -1,0 +1,923 @@
+{
+ "item": "13339295522",
+ "client": "niwrc",
+ "style": {
+  "font": {
+   "css": "\"Source Sans 3\"",
+   "w": 700
+  },
+  "size": 62,
+  "y": 1380,
+  "max_lines": 2,
+  "reveal": "phrase",
+  "fg": "#FFFFFF",
+  "shadow": true,
+  "emph": {
+   "mode": "pill",
+   "bg": "#981C20"
+  }
+ },
+ "note": "Plain sans (Source Sans 3), white, soft shadow, low in the frame (NIWRC style). Timed from the word times in Interview2.transcript.json. The words strong Native women leaders sit on the NIWRC red pill, as the script asks. Clip 7 joins two ranges: the 0.76 s gap before those is cut, so cut it in the edit too. Pauses over 0.7 s inside other bites are kept in the clip: trim the clip where you trim the cut. Word times from the machine transcript can drift: check by ear.",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Hook",
+   "rows": [
+    "00:00–00:03"
+   ],
+   "clip": "26-10-09 C1 Happy - NIWRC Event 7.MP4",
+   "start": 2.76,
+   "src": "26-10-09 C1 Happy - NIWRC Event 7.MP4 00:02.8",
+   "dur": 2.48,
+   "words": [
+    {
+     "w": "I",
+     "t0": 0.15,
+     "t1": 0.17,
+     "e": 0
+    },
+    {
+     "w": "am",
+     "t0": 0.17,
+     "t1": 0.37,
+     "e": 0
+    },
+    {
+     "w": "so",
+     "t0": 0.37,
+     "t1": 1.47,
+     "e": 0
+    },
+    {
+     "w": "very",
+     "t0": 1.47,
+     "t1": 1.73,
+     "e": 0
+    },
+    {
+     "w": "happy.",
+     "t0": 1.73,
+     "t1": 2.03,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 2.38,
+     "lines": [
+      [
+       0,
+       4
+      ]
+     ]
+    }
+   ],
+   "text": "I am so very happy.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 2,
+   "title": "Source",
+   "rows": [
+    "00:03–00:07"
+   ],
+   "clip": "26-10-09 C1 Happy - NIWRC Event 7.MP4",
+   "start": 9.98,
+   "src": "26-10-09 C1 Happy - NIWRC Event 7.MP4 00:10.0",
+   "dur": 4.32,
+   "words": [
+    {
+     "w": "My",
+     "t0": 0.15,
+     "t1": 0.25,
+     "e": 0
+    },
+    {
+     "w": "happiness",
+     "t0": 0.25,
+     "t1": 0.47,
+     "e": 0
+    },
+    {
+     "w": "comes",
+     "t0": 0.47,
+     "t1": 1.03,
+     "e": 0
+    },
+    {
+     "w": "from",
+     "t0": 1.03,
+     "t1": 1.35,
+     "e": 0
+    },
+    {
+     "w": "my",
+     "t0": 1.35,
+     "t1": 1.55,
+     "e": 0
+    },
+    {
+     "w": "family",
+     "t0": 1.55,
+     "t1": 1.73,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 1.73,
+     "t1": 2.35,
+     "e": 0
+    },
+    {
+     "w": "my",
+     "t0": 2.35,
+     "t1": 2.49,
+     "e": 0
+    },
+    {
+     "w": "children",
+     "t0": 2.49,
+     "t1": 2.67,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 2.67,
+     "t1": 3.49,
+     "e": 0
+    },
+    {
+     "w": "my",
+     "t0": 3.49,
+     "t1": 3.67,
+     "e": 0
+    },
+    {
+     "w": "grandchildren.",
+     "t0": 3.67,
+     "t1": 3.87,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 2.62,
+     "lines": [
+      [
+       0,
+       3
+      ],
+      [
+       4,
+       8
+      ]
+     ]
+    },
+    {
+     "t0": 2.62,
+     "t1": 4.22,
+     "lines": [
+      [
+       9,
+       11
+      ]
+     ]
+    }
+   ],
+   "text": "My happiness comes from my family and my children and my grandchildren.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 3,
+   "title": "Grandma",
+   "rows": [
+    "00:07–00:11"
+   ],
+   "clip": "26-10-09 C1 Happy - NIWRC Event 7.MP4",
+   "start": 14.26,
+   "src": "26-10-09 C1 Happy - NIWRC Event 7.MP4 00:14.3",
+   "dur": 2.4,
+   "words": [
+    {
+     "w": "I'm",
+     "t0": 0.15,
+     "t1": 0.25,
+     "e": 0
+    },
+    {
+     "w": "grandma",
+     "t0": 0.25,
+     "t1": 0.39,
+     "e": 0
+    },
+    {
+     "w": "now,",
+     "t0": 0.39,
+     "t1": 0.79,
+     "e": 0
+    },
+    {
+     "w": "which",
+     "t0": 1.01,
+     "t1": 1.15,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 1.15,
+     "t1": 1.35,
+     "e": 0
+    },
+    {
+     "w": "crazy.",
+     "t0": 1.35,
+     "t1": 1.95,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 2.3,
+     "lines": [
+      [
+       0,
+       3
+      ],
+      [
+       4,
+       5
+      ]
+     ]
+    }
+   ],
+   "text": "I'm grandma now, which is crazy.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 4,
+   "title": "The Work",
+   "rows": [
+    "00:11–00:20"
+   ],
+   "clip": "26-10-09 C1 Happy - NIWRC Event 7.MP4",
+   "start": 17.62,
+   "src": "26-10-09 C1 Happy - NIWRC Event 7.MP4 00:17.6",
+   "dur": 9.76,
+   "words": [
+    {
+     "w": "And",
+     "t0": 0.15,
+     "t1": 0.23,
+     "e": 0
+    },
+    {
+     "w": "also",
+     "t0": 0.23,
+     "t1": 0.41,
+     "e": 0
+    },
+    {
+     "w": "just",
+     "t0": 0.41,
+     "t1": 0.89,
+     "e": 0
+    },
+    {
+     "w": "knowing",
+     "t0": 0.89,
+     "t1": 1.17,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 1.17,
+     "t1": 1.61,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 1.61,
+     "t1": 1.81,
+     "e": 0
+    },
+    {
+     "w": "do",
+     "t0": 1.81,
+     "t1": 2.09,
+     "e": 0
+    },
+    {
+     "w": "this",
+     "t0": 2.09,
+     "t1": 2.85,
+     "e": 0
+    },
+    {
+     "w": "work",
+     "t0": 2.85,
+     "t1": 3.09,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 3.09,
+     "t1": 3.39,
+     "e": 0
+    },
+    {
+     "w": "promote",
+     "t0": 3.39,
+     "t1": 3.77,
+     "e": 0
+    },
+    {
+     "w": "safety",
+     "t0": 3.77,
+     "t1": 4.13,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 4.13,
+     "t1": 4.81,
+     "e": 0
+    },
+    {
+     "w": "solidarity",
+     "t0": 4.81,
+     "t1": 5.35,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 5.35,
+     "t1": 5.95,
+     "e": 0
+    },
+    {
+     "w": "arm",
+     "t0": 5.99,
+     "t1": 6.09,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 6.09,
+     "t1": 6.23,
+     "e": 0
+    },
+    {
+     "w": "arm",
+     "t0": 6.23,
+     "t1": 6.37,
+     "e": 0
+    },
+    {
+     "w": "with",
+     "t0": 6.37,
+     "t1": 6.63,
+     "e": 0
+    },
+    {
+     "w": "so",
+     "t0": 6.63,
+     "t1": 6.79,
+     "e": 0
+    },
+    {
+     "w": "many",
+     "t0": 6.79,
+     "t1": 6.99,
+     "e": 0
+    },
+    {
+     "w": "other",
+     "t0": 6.99,
+     "t1": 7.21,
+     "e": 0
+    },
+    {
+     "w": "strong",
+     "t0": 7.21,
+     "t1": 8.31,
+     "e": 1
+    },
+    {
+     "w": "Native",
+     "t0": 8.31,
+     "t1": 8.71,
+     "e": 1
+    },
+    {
+     "w": "women",
+     "t0": 8.71,
+     "t1": 9.01,
+     "e": 1
+    },
+    {
+     "w": "leaders.",
+     "t0": 9.01,
+     "t1": 9.31,
+     "e": 1
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 3.72,
+     "lines": [
+      [
+       0,
+       3
+      ],
+      [
+       4,
+       10
+      ]
+     ]
+    },
+    {
+     "t0": 3.72,
+     "t1": 7.16,
+     "lines": [
+      [
+       11,
+       15
+      ],
+      [
+       16,
+       21
+      ]
+     ]
+    },
+    {
+     "t0": 7.16,
+     "t1": 9.66,
+     "lines": [
+      [
+       22,
+       25
+      ]
+     ]
+    }
+   ],
+   "text": "And also just knowing that I do this work to promote safety in solidarity and arm in arm with so many other strong Native women leaders.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 5,
+   "title": "Message",
+   "rows": [
+    "00:20–00:25"
+   ],
+   "clip": "26-10-09 C1 Happy - NIWRC Event 7.MP4",
+   "start": 63.48,
+   "src": "26-10-09 C1 Happy - NIWRC Event 7.MP4 01:03.5",
+   "dur": 5.62,
+   "words": [
+    {
+     "w": "it",
+     "t0": 0.15,
+     "t1": 0.23,
+     "e": 0
+    },
+    {
+     "w": "would",
+     "t0": 0.23,
+     "t1": 0.35,
+     "e": 0
+    },
+    {
+     "w": "be",
+     "t0": 0.35,
+     "t1": 0.55,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 0.55,
+     "t1": 0.93,
+     "e": 0
+    },
+    {
+     "w": "really",
+     "t0": 0.93,
+     "t1": 1.93,
+     "e": 0
+    },
+    {
+     "w": "take",
+     "t0": 1.93,
+     "t1": 2.39,
+     "e": 0
+    },
+    {
+     "w": "care",
+     "t0": 2.39,
+     "t1": 2.63,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 2.63,
+     "t1": 2.81,
+     "e": 0
+    },
+    {
+     "w": "each",
+     "t0": 2.81,
+     "t1": 2.93,
+     "e": 0
+    },
+    {
+     "w": "other,",
+     "t0": 2.93,
+     "t1": 3.17,
+     "e": 0
+    },
+    {
+     "w": "protect",
+     "t0": 3.49,
+     "t1": 4.51,
+     "e": 0
+    },
+    {
+     "w": "each",
+     "t0": 4.51,
+     "t1": 4.91,
+     "e": 0
+    },
+    {
+     "w": "other,",
+     "t0": 4.91,
+     "t1": 5.17,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 4.46,
+     "lines": [
+      [
+       0,
+       5
+      ],
+      [
+       6,
+       10
+      ]
+     ]
+    },
+    {
+     "t0": 4.46,
+     "t1": 5.52,
+     "lines": [
+      [
+       11,
+       12
+      ]
+     ]
+    }
+   ],
+   "text": "it would be to really take care of each other, protect each other,",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 6,
+   "title": "Strength",
+   "rows": [
+    "00:25–00:29"
+   ],
+   "clip": "26-10-09 C1 Happy - NIWRC Event 7.MP4",
+   "start": 69.08,
+   "src": "26-10-09 C1 Happy - NIWRC Event 7.MP4 01:09.1",
+   "dur": 5.0,
+   "words": [
+    {
+     "w": "and",
+     "t0": 0.15,
+     "t1": 0.25,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 0.25,
+     "t1": 0.65,
+     "e": 0
+    },
+    {
+     "w": "look",
+     "t0": 0.65,
+     "t1": 2.37,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 2.37,
+     "t1": 2.65,
+     "e": 0
+    },
+    {
+     "w": "each",
+     "t0": 2.65,
+     "t1": 3.81,
+     "e": 0
+    },
+    {
+     "w": "other",
+     "t0": 3.81,
+     "t1": 4.05,
+     "e": 0
+    },
+    {
+     "w": "for",
+     "t0": 4.05,
+     "t1": 4.23,
+     "e": 0
+    },
+    {
+     "w": "our",
+     "t0": 4.23,
+     "t1": 4.37,
+     "e": 0
+    },
+    {
+     "w": "strength.",
+     "t0": 4.37,
+     "t1": 4.55,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 4.9,
+     "lines": [
+      [
+       0,
+       5
+      ],
+      [
+       6,
+       8
+      ]
+     ]
+    }
+   ],
+   "text": "and to look to each other for our strength.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 7,
+   "title": "Resilience",
+   "rows": [
+    "00:29–00:40"
+   ],
+   "clip": "26-10-09 C1 Happy - NIWRC Event 7.MP4",
+   "start": 74.44,
+   "src": "26-10-09 C1 Happy - NIWRC Event 7.MP4 01:14.4 (01:14.6–01:23.4 + 01:24.2–01:25.3 joined)",
+   "dur": 10.56,
+   "words": [
+    {
+     "w": "As",
+     "t0": 0.15,
+     "t1": 0.21,
+     "e": 0
+    },
+    {
+     "w": "Native",
+     "t0": 0.21,
+     "t1": 0.39,
+     "e": 0
+    },
+    {
+     "w": "people,",
+     "t0": 0.39,
+     "t1": 0.71,
+     "e": 0
+    },
+    {
+     "w": "we",
+     "t0": 1.05,
+     "t1": 1.25,
+     "e": 0
+    },
+    {
+     "w": "have",
+     "t0": 1.25,
+     "t1": 1.57,
+     "e": 0
+    },
+    {
+     "w": "so",
+     "t0": 1.57,
+     "t1": 2.17,
+     "e": 0
+    },
+    {
+     "w": "much",
+     "t0": 2.17,
+     "t1": 2.35,
+     "e": 0
+    },
+    {
+     "w": "resilience",
+     "t0": 2.35,
+     "t1": 2.57,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 2.57,
+     "t1": 3.41,
+     "e": 0
+    },
+    {
+     "w": "it's",
+     "t0": 3.41,
+     "t1": 4.47,
+     "e": 0
+    },
+    {
+     "w": "just",
+     "t0": 4.47,
+     "t1": 4.55,
+     "e": 0
+    },
+    {
+     "w": "so",
+     "t0": 4.55,
+     "t1": 4.71,
+     "e": 0
+    },
+    {
+     "w": "important",
+     "t0": 4.79,
+     "t1": 4.89,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 4.89,
+     "t1": 5.23,
+     "e": 0
+    },
+    {
+     "w": "we",
+     "t0": 5.23,
+     "t1": 5.37,
+     "e": 0
+    },
+    {
+     "w": "really",
+     "t0": 5.37,
+     "t1": 5.53,
+     "e": 0
+    },
+    {
+     "w": "have",
+     "t0": 5.53,
+     "t1": 6.23,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 6.23,
+     "t1": 6.39,
+     "e": 0
+    },
+    {
+     "w": "opportunity",
+     "t0": 6.39,
+     "t1": 6.61,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 6.61,
+     "t1": 7.29,
+     "e": 0
+    },
+    {
+     "w": "bring",
+     "t0": 7.29,
+     "t1": 7.65,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 7.65,
+     "t1": 8.15,
+     "e": 0
+    },
+    {
+     "w": "knowledge",
+     "t0": 8.15,
+     "t1": 8.43,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 8.43,
+     "t1": 8.99,
+     "e": 0
+    },
+    {
+     "w": "those",
+     "t0": 8.99,
+     "t1": 9.07,
+     "e": 0
+    },
+    {
+     "w": "experiences",
+     "t0": 9.07,
+     "t1": 9.33,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 9.33,
+     "t1": 9.87,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 9.87,
+     "t1": 9.99,
+     "e": 0
+    },
+    {
+     "w": "world.",
+     "t0": 9.99,
+     "t1": 10.11,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 4.5,
+     "lines": [
+      [
+       0,
+       5
+      ],
+      [
+       6,
+       10
+      ]
+     ]
+    },
+    {
+     "t0": 4.5,
+     "t1": 7.6,
+     "lines": [
+      [
+       11,
+       15
+      ],
+      [
+       16,
+       20
+      ]
+     ]
+    },
+    {
+     "t0": 7.6,
+     "t1": 10.46,
+     "lines": [
+      [
+       21,
+       24
+      ],
+      [
+       25,
+       28
+      ]
+     ]
+    }
+   ],
+   "text": "As Native people, we have so much resilience and it's just so important that we really have that opportunity to bring that knowledge and those experiences to the world.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en",
+   "check": "Two ranges joined on one track: cut the gap at the same place in the edit."
+  }
+ ]
+}
