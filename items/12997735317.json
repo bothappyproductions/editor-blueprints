@@ -1,0 +1,211 @@
+{
+ "id": "12997735317",
+ "client": "watsi",
+ "eyebrow": "Watsi · Who Gives donor assets · Aug 2026 · Meta direct-response ad",
+ "title": "Donor Note:",
+ "title_q": "David",
+ "title_short": "Who Gives ad · DR06 · Donor Note: David",
+ "editor": "Bleron",
+ "due": "2026-10-07",
+ "format": "9:16 only · 1080×1920",
+ "length": "about 15 s",
+ "edit_key": "WATSIAdDonorNoteDavid001",
+ "headline": "A paid ad with one job: make a stranger click and give $5. David gives because he sees exactly where the money goes.",
+ "story": [
+  "David has given to Watsi since 2016. He loves the transparency and trusts the lean team.",
+  "He can make a direct impact in people's lives.",
+  "One ask: join in with David and give today."
+ ],
+ "feel": [
+  "Dignified",
+  "Joyful",
+  "Direct",
+  "Clean"
+ ],
+ "do": [
+  "Hook text “Why I give: the receipts.” on frame 1.",
+  "WHO GIVES card from about 0:02, never first.",
+  "A 2 s transparency-sheet capture on “transparency”.",
+  "Big moments for “transparency” and “direct impact”, one at a time.",
+  "End card with the down arrow."
+ ],
+ "dont": [
+  "No music.",
+  "No patient B-roll under a donor voice. No pain, poverty or guilt.",
+  "No AI headshot. Real photo only if Mackinnon's is on the Slack thread.",
+  "Don't re-voice the audio. Light noise clean only.",
+  "No other aspect ratio."
+ ],
+ "links": {
+  "brief": {
+   "title": "Editor brief: Who Gives donor ad, Donor Note — David (pulse.12997735317)",
+   "url": "https://docs.google.com/document/d/1xHHX7sCo83VoKfeQ-bxT9CLNRBtXOkD4afm1aS9AelY/edit",
+   "note": "Includes the 9 and 11 Sep direction updates (9:16 only, hook text first). Bites, AV map and rules are set there."
+  },
+  "reference": {
+   "title": "charity: water, Scott Harrison founder ad (Meta Ad Library)",
+   "url": "https://www.facebook.com/ads/library/?id=4677437162533348",
+   "note": "Chosen by Atdhe. Take from it: one voice, one story, one ask, big captions."
+  },
+  "footage": {
+   "title": "Who Gives campaign assets › Donor Generated Content",
+   "url": "https://drive.google.com/drive/folders/1im93fREwxdnCTyDhvGhs_H4F-SO-jBFs",
+   "note": "Audio Note_David (audio only, 18 s). Reuse the Who Gives project already built for David's donor note and re-cut."
+  }
+ },
+ "bp_intro": "Audio only: <span class=\"mono\">Audio Note_David</span> (18 s, David's own phone recording). Picture is kinetic type and a pulsing waveform on the Who Gives gradient. Times are in the audio note.",
+ "rows": [
+  {
+   "tc": "00:00–00:02",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Kinetic type on the Who Gives gradient, waveform pulsing.",
+   "motion": "Hook text on <b>frame 1</b>, Lato Black, top third, 2 s: <q>Why I give: the receipts.</q>",
+   "voice": {
+    "who": "David",
+    "quote": "I give because I love the level of transparency",
+    "src": "Audio Note_David 00:06"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>"
+  },
+  {
+   "tc": "00:02–00:04",
+   "beat": "WHO GIVES",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Locked Who Gives intro: “WHO GIVES” (September Spirit) + “Hear from David” + “Watsi donor since 2016” (Lato).",
+   "motion": "Credit after the hook, lower left, 2 s: “David · Watsi donor since 2016”.",
+   "voice": "David continues.",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>"
+  },
+  {
+   "tc": "00:04–00:07",
+   "beat": "TRANSPARENCY",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "On “transparency”: 2 s screen capture of watsi.org/transparency scrolling to a receipt row. Then type and waveform.",
+   "motion": "Big word moment: <b>transparency</b>, 1.5 s. Caption Watsi (transcript: WOTC).",
+   "voice": {
+    "who": "David",
+    "quote": "I trust the lean and effective Watsi team",
+    "src": "Audio Note_David 00:06–00:12"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>"
+  },
+  {
+   "tc": "00:07–00:12",
+   "beat": "DIRECT IMPACT",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Gradient + kinetic type.",
+   "motion": "Big word moment: <b>direct impact</b>, 1.5 s.",
+   "voice": {
+    "who": "David",
+    "quote": "I really appreciate the ability to make such a direct impact in people's lives.",
+    "src": "Audio Note_David 00:12–00:17"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>"
+  },
+  {
+   "tc": "00:12–00:15",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Who Gives gradient.",
+   "motion": "<q>Join in with David and give today</q> · big: <q>Click the link below to give with David today</q> · <q>100% of your donation funds life-changing healthcare.</q> · watsi.org (lowercase) · small arrow pointing down.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "<span class=\"none\">No music.</span>"
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Editing brief",
+   "<a href=\"https://docs.google.com/document/d/1xHHX7sCo83VoKfeQ-bxT9CLNRBtXOkD4afm1aS9AelY/edit\">pulse.12997735317</a> (Google Doc). This page is built from it."
+  ],
+  [
+   "Reference",
+   "<a href=\"https://www.facebook.com/ads/library/?id=4677437162533348\">charity: water founder ad (0:54)</a>"
+  ],
+  [
+   "Audio",
+   "Audio Note_David (audio/mp4, 18 s), Who Gives campaign assets › Donor Generated Content. Transcript: “Transcripts - Who Gives campaign assets”."
+  ],
+  [
+   "Gradient",
+   "Sample from watsi.org/who-gives. Don't guess."
+  ],
+  [
+   "Transparency sheet",
+   "New screen capture of watsi.org/transparency scrolling to a receipt row."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "Audio Note_David, the donor's phone recording, 18 s. No picture."
+  ],
+  [
+   "Timeline",
+   "1080×1920. Keep every word inside the middle safe zone."
+  ],
+  [
+   "Audio",
+   "Light noise-floor clean. Never re-voice. No music."
+  ],
+  [
+   "Captions",
+   "Every word as kinetic pop-up words, Lato on the gradient, no box, no highlight, no jumpy animation. Never drop out."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920. One file, 9:16 only."
+  ]
+ ],
+ "checklist": [
+  "Frame 1 is the hook text, not the WHO GIVES card.",
+  "No music anywhere.",
+  "Watsi with a capital W only; watsi.org lowercase.",
+  "Credit is first name + year only.",
+  "One ask, said once.",
+  "No patient B-roll, no Donate button graphic, no extra logo lockup."
+ ],
+ "decisions": [
+  {
+   "t": "Revision notes",
+   "b": "This item is in Needs Revisions at V1. Read the Frame.io notes first; this page is the plan for everything they don't change."
+  },
+  {
+   "t": "Card first or hook first",
+   "b": "If the client-locked Who Gives style requires the card first, Atdhe decides. Don't start on the card."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> this is a paid Meta ad. Watsi's tone is dignified and joyful, never guilt. Sonam asked for the “Join in with [Name] and give today” end card (25 Aug).",
+ "ask_examples": [
+  "What is on frame 1?",
+  "Can I add music?",
+  "Where does the transparency shot come from?",
+  "What is the end card text?"
+ ]
+}

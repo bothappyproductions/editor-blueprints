@@ -1,0 +1,275 @@
+{
+ "id": "12891341937",
+ "client": "nfte",
+ "eyebrow": "NFTE · Fuel a Future campaign · JD LaRock, Dallas competition · Event film for the National Challenge screen",
+ "title": "Fuel a Future:",
+ "title_q": "National Challenge Film",
+ "title_short": "Fuel a Future · National Challenge film (16:9)",
+ "editor": "Bleron",
+ "due": "2026-10-09",
+ "format": "16:9 · 1920×1080 (plays on the big screen at the National Challenge)",
+ "length": "about 2:00",
+ "edit_key": "NFTEFeelAFutureCompetition001",
+ "headline": "What the competition proves: young people build real businesses out of real problems they care about, and NFTE builds and measures the mindset behind it.",
+ "story": [
+  "A student mid-pitch. JD: young people create business ideas that answer a problem in their community.",
+  "School rarely asks students what they want. A NFTE program starts with that question: who are you? NFTE measures the mindset with its Entrepreneurial Mindset Index, and now works with partners like BUILD.",
+  "Students matter, and the capability is already inside them. No student should ever feel they don't have what it takes."
+ ],
+ "feel": [
+  "Proud",
+  "Inspiring",
+  "Clear",
+  "Big-screen"
+ ],
+ "do": [
+  "Open on a student mid-pitch with the hook text.",
+  "Lower third on JD's first on-camera sync.",
+  "Put the NFTE + BUILD line in the middle with BUILD students on screen.",
+  "Mix for a room: dialogue loud and clear.",
+  "End on the awards stage, then the end card."
+ ],
+ "dont": [
+  "No city or one-event framing on screen.",
+  "No adults talking down to kids.",
+  "Don't caption the 22:18 fragment (“problem-side”) without checking the audio.",
+  "Never write “merger”.",
+  "No second aspect ratio."
+ ],
+ "links": {
+  "brief": {
+   "title": "Editor brief: Fuel a Future, National Challenge screening video (pulse.12891341937)",
+   "url": "https://docs.google.com/document/d/1-XjRi3YXmcOvqB_GJ4LtHHeRgVtJPU5ZfD0pvAegVfY/edit",
+   "note": "Includes the 10 Sep direction update (NFTE + BUILD). Bites, AV map and rules are set there."
+  },
+  "reference": {
+   "missing": true,
+   "title": "None on purpose",
+   "note": "Footage predates the reference rule. Alison owes past campaign examples; match their pacing if they land."
+  },
+  "footage": {
+   "title": "Dallas competition raw (8 May 2026)",
+   "url": "https://drive.google.com/drive/folders/1fvFqaN04Thizbc-UrN_F8z6gufSVCoI1",
+   "note": "JD sit-down (Interview_Closeup_Audio_Edit.mp4) and event B-roll. BUILD B-roll from the client."
+  }
+ },
+ "bp_intro": "All JD lines are from <span class=\"mono\">Interview_Closeup_Audio_Edit.mp4</span> (Dallas, audio synced). Picture rows are real Dallas visual.json rows. Times are in that file.",
+ "rows": [
+  {
+   "tc": "00:00–00:08",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "A36A7830.MP4 00:35–00:47: student presenting COST STRUCTURE slides.",
+   "motion": "Hook text on <b>frame 1</b>: <q>Real problems. Real businesses.</q> No logo, no name plate.",
+   "voice": {
+    "who": "J.D. LaRock",
+    "quote": "you meet young people who create fantastic business ideas that respond to a problem in their community that they care about",
+    "src": "DAL 31:43"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed in."
+  },
+  {
+   "tc": "00:08–00:20",
+   "beat": "WHO ARE YOU?",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "A36A7828.MP4 00:12–00:35 (presenter, education slides), then JD on camera for “Who are you?”.",
+   "motion": "Lower third on JD's first sync: “J.D. LaRock · CEO, NFTE”.",
+   "voice": {
+    "who": "J.D. LaRock",
+    "quote": "so much of what students receive is completely untethered and unconnected from any idea of what the student wants. … we never ask the students what they want. But a NFTE program begins with that question. Who are you?",
+    "src": "DAL 32:06, 32:16–32:24"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice."
+  },
+  {
+   "tc": "00:20–00:35",
+   "beat": "AGENCY",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "A36A7829.MP4 00:41–00:54 (young woman presenting), A36A7827.MP4 00:13–00:39 (audience).",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "J.D. LaRock",
+    "quote": "What I see in NFTE students that's missing from traditional classroom settings is the opportunity to take agency over learning",
+    "src": "DAL 03:19"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice."
+  },
+  {
+   "tc": "00:35–01:00",
+   "beat": "THE MINDSET INDEX",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "judges.mp4 02:20–07:01 (judge scoring), 07:01–09:21 (six judges at the table).",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "J.D. LaRock",
+    "quote": "At NFTE, we pioneered the Entrepreneurial Mindset Index, which measures things that most people believe can't be measured but actually can be measured. … We call them entrepreneurial mindset capabilities. There are eight of them.",
+    "src": "DAL 22:02, 22:32"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice."
+  },
+  {
+   "tc": "01:00–01:10",
+   "beat": "BIGGER TOGETHER",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "BUILD students on screen (client BUILD B-roll, on scrub).",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "J.D. LaRock",
+    "quote": "We are beginning the process of merging and partnering with other organizations that do what we do to help this thing become stronger and larger.",
+    "src": "DAL 27:25"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice."
+  },
+  {
+   "tc": "01:10–01:25",
+   "beat": "ALREADY INSIDE THEM",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "pitches.mp4 11:31–15:21; A36A7831.MP4 00:00–00:08 (podium, AIYANA student-business logo).",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "J.D. LaRock",
+    "quote": "The NFTE program shows students that they matter … They have all of the innate capabilities to create a business essentially already inside them.",
+    "src": "DAL 35:52, 36:00"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice."
+  },
+  {
+   "tc": "01:25–01:45",
+   "beat": "BUTTON",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "awards.mp4 03:48–11:25 (group of eight on stage), then 11:25–15:14 hallway congratulations.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "J.D. LaRock",
+    "quote": "no student should ever feel like they don't have what it takes to launch a business",
+    "src": "DAL 36:10"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Lift, then resolve."
+  },
+  {
+   "tc": "01:45–01:50",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "End card.",
+   "motion": "<q>Fuel a Future Like Mine</q> + NFTE.com/fuelafuture.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Out."
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Editing brief",
+   "<a href=\"https://docs.google.com/document/d/1-XjRi3YXmcOvqB_GJ4LtHHeRgVtJPU5ZfD0pvAegVfY/edit\">pulse.12891341937</a> (Google Doc). This page is built from it."
+  ],
+  [
+   "Footage",
+   "<a href=\"https://drive.google.com/drive/folders/1fvFqaN04Thizbc-UrN_F8z6gufSVCoI1\">Dallas raw</a> · <a href=\"https://drive.google.com/drive/folders/1BiTDNFiqRfgTVagYgkXH1Eqe4luN13hY\">Boston JD</a> (optional color only)"
+  ],
+  [
+   "BUILD B-roll (client)",
+   "<a href=\"https://photos.app.goo.gl/aGUCbH6q1bmaQdny7\">2024 BUILDFest LA</a> · <a href=\"https://photos.app.goo.gl/KjPk6pMAjwmaq9Ka6\">2026 BUILDFest LA</a> · Vimeo <a href=\"https://vimeo.com/846403773\">846403773</a> · <a href=\"https://vimeo.com/1092465264\">1092465264</a> · <a href=\"https://vimeo.com/439357961\">439357961</a>. No visual.json: pick on scrub."
+  ],
+  [
+   "Transcript",
+   "“Transcripts - Dallas JD Pitch Competition May 8 2026” + transcript.json in the Dallas folder. visual.json: yes."
+  ],
+  [
+   "Client ask",
+   "Alison Swenson, 27 Aug: “one video to show at the National Challenge”. It plays on the big screen in the room."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "Dallas: Interview_Closeup_Audio_Edit.mp4 (main) and Interview_Wide_Audio_Edit.mp4 (same take, about 3 s later), audio synced in. Event B-roll 1DX (5.5K) and R6. Boston C4258, NYC C4256."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak. Dialogue wins; music under it."
+  ],
+  [
+   "Captions",
+   "White on NFTE purple <span class=\"mono\">#4C12A1</span>, accent NFTE orange <span class=\"mono\">#FF5C39</span>. Circular if you have it, else house font."
+  ],
+  [
+   "Timeline",
+   "1920×1080, 16:9."
+  ],
+  [
+   "Mix",
+   "Mix for a room: dialogue loud and clear, music under it."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1920×1080. One file."
+  ]
+ ],
+ "checklist": [
+  "NFTE in every caption (the transcript writes “Nifty”).",
+  "No city names on screen; no legible “Dallas ISD” or Texas signage.",
+  "Hook text on frame 1. No logo, name plate or fade at 0:00.",
+  "Captions white on NFTE purple #4C12A1, accent orange #FF5C39.",
+  "End card: “Fuel a Future Like Mine” + NFTE.com/fuelafuture.",
+  "Transitions show footage, never black.",
+  "Lower third: J.D. LaRock · CEO, NFTE.",
+  "BUILD students appear in the middle."
+ ],
+ "decisions": [
+  {
+   "t": "Revision notes",
+   "b": "This item is in Needs Revisions at V1. Read the Frame.io notes first; this page is the plan for everything they don't change."
+  },
+  {
+   "t": "NFTE + BUILD",
+   "b": "Since the 8 Sep bi-weekly (Alison, Fathom 13:08) the campaign is about NFTE joining forces with BUILD. Say it once in JD's words. Never caption “merger”: he says “merging and partnering”."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> it plays on the big screen at the National Challenge, to the students, educators and donors in the room. Those students are the subject.",
+ "ask_examples": [
+  "What is the hook?",
+  "Where does the BUILD line go?",
+  "Why 16:9?",
+  "What goes on the end card?"
+ ]
+}
