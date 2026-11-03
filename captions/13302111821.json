@@ -1,0 +1,575 @@
+{
+ "item": "13302111821",
+ "client": "sfcg",
+ "style": {
+  "font": {
+   "css": "\"Inter\"",
+   "w": 700
+  },
+  "size": 60,
+  "y": 1330,
+  "max_lines": 2,
+  "reveal": "phrase",
+  "fg": "#FFFFFF",
+  "box": {
+   "bg": "#1E6FD6",
+   "r": 12
+  }
+ },
+ "note": "White text on the royal-blue box #1E6FD6, max 2 lines (Search style). Only the three voice clips are captioned so far, timed from machine word times of the WAVs; clip 2 joins Hélène's two ranges (the lift). Not captioned yet: every VO line, because there is no Version 2 VO; they get timed when Search's VO arrives.",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Emmanuel",
+   "rows": [
+    "00:22–00:33"
+   ],
+   "clip": "Emmanuel EOY clip #2.wav",
+   "start": 0.0,
+   "src": "Emmanuel EOY clip #2.wav 00:00.0",
+   "dur": 11.33,
+   "words": [
+    {
+     "w": "Seeing",
+     "t0": 0.0,
+     "t1": 0.26,
+     "e": 0
+    },
+    {
+     "w": "people",
+     "t0": 0.26,
+     "t1": 0.68,
+     "e": 0
+    },
+    {
+     "w": "who",
+     "t0": 0.68,
+     "t1": 0.94,
+     "e": 0
+    },
+    {
+     "w": "once",
+     "t0": 0.94,
+     "t1": 1.18,
+     "e": 0
+    },
+    {
+     "w": "lived",
+     "t0": 1.18,
+     "t1": 1.44,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 1.44,
+     "t1": 1.7,
+     "e": 0
+    },
+    {
+     "w": "conflict",
+     "t0": 1.7,
+     "t1": 2.12,
+     "e": 0
+    },
+    {
+     "w": "use",
+     "t0": 2.12,
+     "t1": 2.44,
+     "e": 0
+    },
+    {
+     "w": "this",
+     "t0": 2.44,
+     "t1": 2.74,
+     "e": 0
+    },
+    {
+     "w": "dialogue,",
+     "t0": 2.74,
+     "t1": 3.12,
+     "e": 0
+    },
+    {
+     "w": "they",
+     "t0": 3.78,
+     "t1": 3.83,
+     "e": 0
+    },
+    {
+     "w": "decide",
+     "t0": 3.82,
+     "t1": 4.16,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 4.16,
+     "t1": 4.58,
+     "e": 0
+    },
+    {
+     "w": "trust",
+     "t0": 4.58,
+     "t1": 5.1,
+     "e": 0
+    },
+    {
+     "w": "each",
+     "t0": 5.1,
+     "t1": 5.32,
+     "e": 0
+    },
+    {
+     "w": "other,",
+     "t0": 5.32,
+     "t1": 5.52,
+     "e": 0
+    },
+    {
+     "w": "they",
+     "t0": 5.82,
+     "t1": 5.87,
+     "e": 0
+    },
+    {
+     "w": "decide",
+     "t0": 5.82,
+     "t1": 6.2,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 6.2,
+     "t1": 6.62,
+     "e": 0
+    },
+    {
+     "w": "collaborate",
+     "t0": 6.62,
+     "t1": 7.28,
+     "e": 0
+    },
+    {
+     "w": "among",
+     "t0": 7.28,
+     "t1": 7.68,
+     "e": 0
+    },
+    {
+     "w": "themselves.",
+     "t0": 7.68,
+     "t1": 8.3,
+     "e": 0
+    },
+    {
+     "w": "Reminds",
+     "t0": 8.7,
+     "t1": 9.14,
+     "e": 0
+    },
+    {
+     "w": "me",
+     "t0": 9.14,
+     "t1": 9.24,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 9.24,
+     "t1": 9.44,
+     "e": 0
+    },
+    {
+     "w": "lasting",
+     "t0": 9.44,
+     "t1": 9.7,
+     "e": 0
+    },
+    {
+     "w": "peace",
+     "t0": 9.7,
+     "t1": 10.02,
+     "e": 0
+    },
+    {
+     "w": "is",
+     "t0": 10.02,
+     "t1": 10.34,
+     "e": 0
+    },
+    {
+     "w": "possible.",
+     "t0": 10.34,
+     "t1": 10.88,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.0,
+     "t1": 3.73,
+     "lines": [
+      [
+       0,
+       4
+      ],
+      [
+       5,
+       9
+      ]
+     ]
+    },
+    {
+     "t0": 3.73,
+     "t1": 6.15,
+     "lines": [
+      [
+       10,
+       14
+      ],
+      [
+       15,
+       17
+      ]
+     ]
+    },
+    {
+     "t0": 6.15,
+     "t1": 8.65,
+     "lines": [
+      [
+       18,
+       21
+      ]
+     ]
+    },
+    {
+     "t0": 8.65,
+     "t1": 11.23,
+     "lines": [
+      [
+       22,
+       26
+      ],
+      [
+       27,
+       28
+      ]
+     ]
+    }
+   ],
+   "text": "Seeing people who once lived in conflict use this dialogue, they decide to trust each other, they decide to collaborate among themselves. Reminds me that lasting peace is possible.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 2,
+   "title": "Hélène",
+   "rows": [
+    "00:52–01:03"
+   ],
+   "clip": "Helene clip #2 EOY.wav",
+   "start": 0.0,
+   "src": "Helene clip #2 EOY.wav 00:00.0 (00:00.0–00:08.2 + 00:15.8–00:18.3 joined)",
+   "dur": 10.85,
+   "words": [
+    {
+     "w": "I",
+     "t0": 0.0,
+     "t1": 0.28,
+     "e": 0
+    },
+    {
+     "w": "am",
+     "t0": 0.28,
+     "t1": 0.88,
+     "e": 0
+    },
+    {
+     "w": "always",
+     "t0": 0.88,
+     "t1": 1.48,
+     "e": 0
+    },
+    {
+     "w": "imagining",
+     "t0": 1.48,
+     "t1": 2.36,
+     "e": 0
+    },
+    {
+     "w": "new",
+     "t0": 2.36,
+     "t1": 3.46,
+     "e": 0
+    },
+    {
+     "w": "options,",
+     "t0": 3.46,
+     "t1": 4.06,
+     "e": 0
+    },
+    {
+     "w": "new",
+     "t0": 4.38,
+     "t1": 4.56,
+     "e": 0
+    },
+    {
+     "w": "ideas",
+     "t0": 4.56,
+     "t1": 5.28,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 5.28,
+     "t1": 6.06,
+     "e": 0
+    },
+    {
+     "w": "bring",
+     "t0": 6.06,
+     "t1": 6.4,
+     "e": 0
+    },
+    {
+     "w": "people",
+     "t0": 6.4,
+     "t1": 7.16,
+     "e": 0
+    },
+    {
+     "w": "together,",
+     "t0": 7.16,
+     "t1": 7.98,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 8.12,
+     "t1": 8.7,
+     "e": 0
+    },
+    {
+     "w": "overcome",
+     "t0": 8.7,
+     "t1": 9.52,
+     "e": 0
+    },
+    {
+     "w": "their",
+     "t0": 9.52,
+     "t1": 9.86,
+     "e": 0
+    },
+    {
+     "w": "differences.",
+     "t0": 9.86,
+     "t1": 10.4,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.0,
+     "t1": 6.35,
+     "lines": [
+      [
+       0,
+       4
+      ],
+      [
+       5,
+       9
+      ]
+     ]
+    },
+    {
+     "t0": 6.35,
+     "t1": 10.75,
+     "lines": [
+      [
+       10,
+       13
+      ],
+      [
+       14,
+       15
+      ]
+     ]
+    }
+   ],
+   "text": "I am always imagining new options, new ideas to bring people together, to overcome their differences.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 3,
+   "title": "Pesh",
+   "rows": [
+    "01:24–01:32"
+   ],
+   "clip": "Pesh clip #2 EOY.wav",
+   "start": 0.0,
+   "src": "Pesh clip #2 EOY.wav 00:00.0",
+   "dur": 7.91,
+   "words": [
+    {
+     "w": "We",
+     "t0": 0.0,
+     "t1": 0.28,
+     "e": 0
+    },
+    {
+     "w": "encourage",
+     "t0": 0.28,
+     "t1": 0.9,
+     "e": 0
+    },
+    {
+     "w": "imagination.",
+     "t0": 0.9,
+     "t1": 1.72,
+     "e": 0
+    },
+    {
+     "w": "How",
+     "t0": 1.72,
+     "t1": 2.1,
+     "e": 0
+    },
+    {
+     "w": "does",
+     "t0": 2.1,
+     "t1": 2.36,
+     "e": 0
+    },
+    {
+     "w": "peace",
+     "t0": 2.36,
+     "t1": 2.58,
+     "e": 0
+    },
+    {
+     "w": "look",
+     "t0": 2.58,
+     "t1": 2.82,
+     "e": 0
+    },
+    {
+     "w": "like",
+     "t0": 2.82,
+     "t1": 3.1,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 3.1,
+     "t1": 3.32,
+     "e": 0
+    },
+    {
+     "w": "different",
+     "t0": 3.32,
+     "t1": 3.56,
+     "e": 0
+    },
+    {
+     "w": "communities?",
+     "t0": 3.56,
+     "t1": 4.2,
+     "e": 0
+    },
+    {
+     "w": "And",
+     "t0": 4.2,
+     "t1": 5.0,
+     "e": 0
+    },
+    {
+     "w": "build",
+     "t0": 5.0,
+     "t1": 5.32,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 5.32,
+     "t1": 5.52,
+     "e": 0
+    },
+    {
+     "w": "curiosity",
+     "t0": 5.52,
+     "t1": 6.14,
+     "e": 0
+    },
+    {
+     "w": "together",
+     "t0": 6.14,
+     "t1": 6.84,
+     "e": 0
+    },
+    {
+     "w": "with",
+     "t0": 6.84,
+     "t1": 7.2,
+     "e": 0
+    },
+    {
+     "w": "them.",
+     "t0": 7.2,
+     "t1": 7.46,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.0,
+     "t1": 1.67,
+     "lines": [
+      [
+       0,
+       2
+      ]
+     ]
+    },
+    {
+     "t0": 1.67,
+     "t1": 4.15,
+     "lines": [
+      [
+       3,
+       7
+      ],
+      [
+       8,
+       10
+      ]
+     ]
+    },
+    {
+     "t0": 4.15,
+     "t1": 7.81,
+     "lines": [
+      [
+       11,
+       14
+      ],
+      [
+       15,
+       17
+      ]
+     ]
+    }
+   ],
+   "text": "We encourage imagination. How does peace look like in different communities? And build that curiosity together with them.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  }
+ ]
+}

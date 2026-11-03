@@ -1,0 +1,31 @@
+{
+ "item": "13302082978",
+ "client": "sfcg",
+ "format": "16x9",
+ "note": "The script asks for no graphics: every row is captions only, and Search does not want animation in the middle of a video. Row 00:00–00:04 asks only for the VO caption on frame 0, and captions are the editor's (Captions tab), so no graphic there. The end card here is the Search logo with sfcg.org/imagine-if as a stand-in. The script's end card is Chase's horizontal Imagine If bumper (Reference column): use it, and add the file to endcards/sfcg/.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:54–01:59"
+   ],
+   "cue": "Landing page on the card: sfcg.org/imagine-if.",
+   "src": "SFCG's 2024 horizontal logo, white text (SFCG Resources/Logos on Drive), endcards/index.json, 11 Feb 2026. Chase's horizontal Imagine If bumper (Slack, 21 Oct) is not in endcards/sfcg yet.",
+   "c": {
+    "bg": "#003E74",
+    "fg": "#FFFFFF"
+   },
+   "logo_w": 860,
+   "logo": "endcards/sfcg/sfcg-logo-horizontal-2024-white.png",
+   "text": {
+    "lines": [
+     "sfcg.org/imagine-if"
+    ]
+   },
+   "dur": 5.0,
+   "use": "Stand-in only. Put Chase's horizontal Imagine If bumper right after the last line (01:54) and hold it to the end. Use this card only if you do not have the bumper file."
+  }
+ ]
+}

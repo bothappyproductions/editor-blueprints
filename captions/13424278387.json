@@ -1,0 +1,299 @@
+{
+ "item": "13424278387",
+ "client": "niwrc",
+ "style": {
+  "font": {
+   "css": "\"Source Sans 3\"",
+   "w": 700
+  },
+  "size": 62,
+  "y": 1380,
+  "max_lines": 2,
+  "reveal": "phrase",
+  "fg": "#FFFFFF",
+  "shadow": true
+ },
+ "note": "Plain sans (Source Sans 3), white, soft shadow, low in the frame (NIWRC style). Use your approved NIWRC caption template if it differs. Timed from the C1 Event 15 word times. Over her Nez Perce words (00:09.1–00:11.4) the caption is the descriptive line from the brief, one page; then her English words. Capital T in “Tribe”. Highlight “without them” in your template.",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Hook + Thanks",
+   "rows": [
+    "00:00–00:07.5"
+   ],
+   "clip": "26-10-09 C1 Happy - NIWRC Event 15.MP4",
+   "start": 8.98,
+   "src": "26-10-09 C1 Happy - NIWRC Event 15.MP4 00:09.0",
+   "dur": 8.0,
+   "words": [
+    {
+     "w": "(speaking",
+     "t0": 0.15,
+     "t1": 0.52,
+     "e": 0
+    },
+    {
+     "w": "Nimipuutímt,",
+     "t0": 0.52,
+     "t1": 1.12,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 1.12,
+     "t1": 1.32,
+     "e": 0
+    },
+    {
+     "w": "Nez",
+     "t0": 1.32,
+     "t1": 1.62,
+     "e": 0
+    },
+    {
+     "w": "Perce",
+     "t0": 1.62,
+     "t1": 1.92,
+     "e": 0
+    },
+    {
+     "w": "language)",
+     "t0": 1.92,
+     "t1": 2.37,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 2.53,
+     "t1": 2.65,
+     "e": 0
+    },
+    {
+     "w": "language",
+     "t0": 2.65,
+     "t1": 2.77,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 2.77,
+     "t1": 3.17,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 3.17,
+     "t1": 3.27,
+     "e": 0
+    },
+    {
+     "w": "Nez",
+     "t0": 3.27,
+     "t1": 3.47,
+     "e": 0
+    },
+    {
+     "w": "Perce",
+     "t0": 3.47,
+     "t1": 3.75,
+     "e": 0
+    },
+    {
+     "w": "Tribe,",
+     "t0": 3.75,
+     "t1": 3.91,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 4.27,
+     "t1": 4.41,
+     "e": 0
+    },
+    {
+     "w": "huge",
+     "t0": 4.41,
+     "t1": 4.61,
+     "e": 0
+    },
+    {
+     "w": "thanks",
+     "t0": 4.61,
+     "t1": 5.73,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 5.73,
+     "t1": 6.11,
+     "e": 0
+    },
+    {
+     "w": "gratitude",
+     "t0": 6.15,
+     "t1": 6.31,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 6.31,
+     "t1": 6.93,
+     "e": 0
+    },
+    {
+     "w": "all",
+     "t0": 6.93,
+     "t1": 7.11,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 7.11,
+     "t1": 7.25,
+     "e": 0
+    },
+    {
+     "w": "our",
+     "t0": 7.25,
+     "t1": 7.39,
+     "e": 0
+    },
+    {
+     "w": "donors.",
+     "t0": 7.39,
+     "t1": 7.55,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.0,
+     "t1": 2.48,
+     "lines": [
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       5
+      ]
+     ]
+    },
+    {
+     "t0": 2.48,
+     "t1": 5.68,
+     "lines": [
+      [
+       6,
+       11
+      ],
+      [
+       12,
+       15
+      ]
+     ]
+    },
+    {
+     "t0": 5.68,
+     "t1": 7.9,
+     "lines": [
+      [
+       16,
+       19
+      ],
+      [
+       20,
+       22
+      ]
+     ]
+    }
+   ],
+   "text": "(speaking Nimipuutímt, the Nez Perce language) the language of the Nez Perce Tribe, a huge thanks and gratitude to all of our donors.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 2,
+   "title": "Button",
+   "rows": [
+    "00:07.5–00:09"
+   ],
+   "clip": "26-10-09 C1 Happy - NIWRC Event 15.MP4",
+   "start": 20.8,
+   "src": "26-10-09 C1 Happy - NIWRC Event 15.MP4 00:20.8",
+   "dur": 2.0,
+   "words": [
+    {
+     "w": "We",
+     "t0": 0.15,
+     "t1": 0.17,
+     "e": 0
+    },
+    {
+     "w": "could",
+     "t0": 0.17,
+     "t1": 0.27,
+     "e": 0
+    },
+    {
+     "w": "not",
+     "t0": 0.27,
+     "t1": 0.47,
+     "e": 0
+    },
+    {
+     "w": "do",
+     "t0": 0.47,
+     "t1": 0.73,
+     "e": 0
+    },
+    {
+     "w": "this",
+     "t0": 0.73,
+     "t1": 0.91,
+     "e": 0
+    },
+    {
+     "w": "work",
+     "t0": 0.91,
+     "t1": 1.11,
+     "e": 0
+    },
+    {
+     "w": "without",
+     "t0": 1.11,
+     "t1": 1.33,
+     "e": 1
+    },
+    {
+     "w": "them.",
+     "t0": 1.33,
+     "t1": 1.55,
+     "e": 1
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 1.9,
+     "lines": [
+      [
+       0,
+       5
+      ],
+      [
+       6,
+       7
+      ]
+     ]
+    }
+   ],
+   "text": "We could not do this work without them.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  }
+ ]
+}

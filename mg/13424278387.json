@@ -1,0 +1,56 @@
+{
+ "item": "13424278387",
+ "client": "niwrc",
+ "note": "The script asks for the hook text and one name super, then the client's end card. Row 00:07.5–00:09 asks only for a highlight inside the caption, and captions are the editor's, so there is no graphic there. The caption over the Nez Perce words is in the Captions tab, not a graphic.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "A THANK YOU, IN NEZ PERCE"
+   },
+   "cue": "Hook text A THANK YOU, IN NEZ PERCE on screen at frame 0 (no animate-on).",
+   "src": "Script, row 00:00–00:07.5, Motion graphics & type.",
+   "rows": [
+    "00:00–00:07.5"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:02.5. Top third, big, bold. Keep captions on."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 2.5,
+   "pos": "center",
+   "text": {
+    "main": "tai simpson"
+   },
+   "cue": "Name super at 00:03, 2.5 s: tai simpson / Board President, NIWRC.",
+   "src": "Script, row 00:00–00:07.5, Motion graphics & type.",
+   "rows": [
+    "00:00–00:07.5"
+   ],
+   "use": "Put it on at 00:03 for 2.5 s. Move it lower left, above the captions. Lowercase name. Type the second line Board President, NIWRC under the name."
+  },
+  {
+   "n": 3,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:10–00:13"
+   ],
+   "cue": "Your approved NIWRC end card, white logo on red. Logo only here.",
+   "src": "NIWRC logo (white) from NIWRC's onboarding brand file, in the brand kit 10 Oct 2026 (endcards/index.json). Client rule: white logo on red.",
+   "c": {
+    "bg": "#981C20",
+    "fg": "#FFFFFF"
+   },
+   "logo": "endcards/niwrc/niwrc-logo-white.svg",
+   "dur": 3.0,
+   "use": "This is the end card. Put it right after her smile at 00:10 and hold it to the end. Music out."
+  }
+ ]
+}

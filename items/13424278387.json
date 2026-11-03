@@ -3,7 +3,7 @@
  "client": "niwrc",
  "eyebrow": "NIWRC · OKC DVAM Reception · 9 Oct 2026 · Donor thank-you set (3 of 3, with Cory and Kerri)",
  "title": "tai simpson:",
- "title_q": "",
+ "title_q": "“A Thank You, in Nez Perce”",
  "title_short": "tai simpson · Donor thank-you",
  "editor": "Qendrim",
  "due": "2026-11-09",
@@ -27,7 +27,9 @@
  "dont": [
   "Do not put the machine spellings of the Nez Perce words on screen.",
   "Do not use \"I love that we all know how to play the political game\" (00:26.2).",
-  "Do not use the slate \"So this one is going to be, thank you\" (C1 Event 14)."
+  "Do not use the slate \"So this one is going to be, thank you\" (C1 Event 14).",
+  "No logo or name card at 0:00.",
+  "No held frame on her smile."
  ],
  "links": {
   "brief": {
@@ -46,57 +48,80 @@
    "note": "Interview 5 folder (in the NIWRC OKC 9 Oct 2026 raw folder) · B-Roll folder · B1"
   }
  },
- "bp_intro": "Picture and sound: <b>26-10-09 C1 Happy - NIWRC Event 15.MP4</b> (3840×2160, 23.976 fps; C1 = live mic). Second angle: <b>26-10-09 C2 Happy - NIWRC Event 9.MP4</b>, same take, C2 runs 13.9 s behind C1 (C1 00:09.13 = C2 00:23.05). Times are from the word-level transcript. <b>The first text card is already on screen at 0:00 and does not animate on.</b>",
+ "bp_intro": "Picture and sound: <b>26-10-09 C1 Happy - NIWRC Event 15.MP4</b> (3840×2160, 23.976 fps; C1 = live mic). Second angle: <b>26-10-09 C2 Happy - NIWRC Event 9.MP4</b>, same take; the same word comes 13.9 s later in C2 (C1 00:09.1 = C2 00:23.1, C1 00:21.0 = C2 00:35.0). Times are from the word-level transcript (Interview 5.transcript.json). <b>The first text card is already on screen at 0:00 and does not animate on.</b> No frames were pulled for these clips yet: the shots are named from visual.json.",
  "rows": [
   {
    "tc": "00:00–00:07.5",
    "beat": "HOOK + THANKS",
    "kind": "hook",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "C1 Event 15, wide, outdoors, glass building behind, white sleeveless top, pink skirt, large earrings. Crop 9:16 and punch in 10–15% so she reads larger. Start on her first word.",
+   "visual": "tai on <a href=\"https://drive.google.com/file/d/1fxPvD6t0Uun0u2xqt9MjTeOmnFbsABrT/view\">C1 Event 15</a>, wide, outdoors, glass building behind, white sleeveless top, pink skirt, large earrings (visual.json). Crop 9:16 and punch in 10–15% so she reads larger. Start on her first Nez Perce word (<span class=\"mono\">00:09.1</span>). Face only: her face and her language are the picture.",
    "motion": "Hook text <b>A THANK YOU, IN NEZ PERCE</b> on screen at frame 0 (no animate-on). Out at 00:02.5. Caption for the Nez Perce words (00:00–00:02.2): <i>(speaking Nimipuutímt, the Nez Perce language)</i>. Then English captions as she speaks. Name super at 00:03, 2.5 s: <b>tai simpson</b> / Board President, NIWRC.",
    "voice": {
-    "who": "tai",
+    "who": "tai simpson",
     "quote": "(Nez Perce greeting) the language of the Nez Perce Tribe, a huge thanks and gratitude to all of our donors.",
-    "src": "26-10-09 C1 Happy - NIWRC Event 15.MP4 00:09.13–00:16.53"
+    "src": "26-10-09 C1 Happy - NIWRC Event 15.MP4 00:09.1–00:16.5"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Soft music under."
+   "music": "Soft music under.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "(Nez"
+    }
+   ]
   },
   {
    "tc": "00:07.5–00:09",
    "beat": "BUTTON",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Cut to C2 Event 9 at 00:34.9 (= C1 00:20.9), wide, greenery and building behind. The angle change hides the 4.4 s pause cut.",
-   "motion": "Highlight <b>WITHOUT THEM</b> in the caption.",
+   "visual": "Cut to <a href=\"https://drive.google.com/file/d/1kTXljyk992ty30XbZzG0iE1la4H4rmZs/view\">C2 Event 9</a> at <span class=\"mono\">00:35.0</span> (= C1 00:21.0): wide, greenery and a building behind her. The angle change hides the 4.4 s pause cut. Check on scrub that her face is in the C2 frame: visual.json finds no face on C2 from 00:32.2. If it is not, stay on C1 and hide the cut with a 10% push-in.",
+   "motion": "Highlight <b>WITHOUT THEM</b> in the caption, in your NIWRC caption template. Captions on.",
    "voice": {
-    "who": "tai",
+    "who": "tai simpson",
     "quote": "We could not do this work without them.",
-    "src": "26-10-09 C1 Happy - NIWRC Event 15.MP4 00:20.95–00:22.35 sound (C2 picture 00:35.0–00:36.4)"
+    "src": "26-10-09 C1 Happy - NIWRC Event 15.MP4 00:20.9–00:22.4 sound (C2 Event 9 picture 00:35.0–00:36.4)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "We"
+    },
+    {
+     "clip": "26-10-09 C2 Happy - NIWRC Event 9.MP4",
+     "at": 35.0,
+     "dur": 1.4,
+     "cx": null,
+     "path": "Interview 5/26-10-09 C2 Happy - NIWRC Event 9.MP4",
+     "drive": "1kTXljyk992ty30XbZzG0iE1la4H4rmZs",
+     "layout": "full",
+     "what": "Second angle of tai, same take (wide). Check her face is in frame; crop TBD on scrub."
+    }
+   ]
   },
   {
    "tc": "00:09–00:10",
    "beat": "HOLD",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Stay on C2, hold her smile.",
-   "motion": "Captions off.",
+   "visual": "Stay on the same angle and hold her smile about 1 s. Real footage, never a held frame.",
+   "motion": "No text.",
    "voice": "<span class=\"none\">(room tone)</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": []
   },
   {
    "tc": "00:10–00:13",
@@ -106,34 +131,67 @@
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "End card.",
+   "visual": "End card: NIWRC logo, white on NIWRC red <span class=\"mono\">#981C20</span>. The logo is here only.",
    "motion": "Your approved NIWRC end card, white logo on red. Logo only here.",
    "voice": "<span class=\"none\">(music only)</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Music out."
+   "music": "Music out.",
+   "shots": []
   }
  ],
  "frames": {},
  "files": [
   [
    "Editing brief",
-   "<a href=\"https://docs.google.com/document/d/1ab-r0pWk5-YcRWXcR_udiAyT0mjfq5fbbgwmYdRgHtE/edit\">tai simpson · Donor thank-you clip</a> (Google Doc). This page is built from it."
+   "<a href=\"https://docs.google.com/document/d/1ab-r0pWk5-YcRWXcR_udiAyT0mjfq5fbbgwmYdRgHtE/edit\">tai simpson · Donor thank-you clip</a> (Google Doc). This page is the current plan."
   ],
   [
    "Brief",
    "<a href=\"https://docs.google.com/document/d/12wY663GQF5PvUxMey1FzXqSg7H2F64wEb2osj0dwVBQ/edit\">Monday brief (item update) + Google Doc</a>"
   ],
   [
-   "Reference",
-   "<a href=\"https://f.io/vkQU5U4U\">Approved NIWRC traditional - Cory (Q)</a> — The Reference column is empty on Monday; the brief points to your approved Cory cut. Match it and keep this in step with your Cory and Kerri thank-you clips."
-  ],
-  [
-   "Footage",
-   "<a href=\"https://drive.google.com/drive/folders/1bBrRv_LuPf0fX1VSezL9YZcD2rpxVZGw\">Interview 5 folder</a> (in the <a href=\"https://drive.google.com/drive/folders/1jivE7s9xcOSQyoSJ-CRO4Z0AhyqGXnRg\">NIWRC OKC 9 Oct 2026 raw folder</a>) · <a href=\"https://drive.google.com/drive/folders/1dGx5Fx5jLztaq-g6KuesN2pjPZbdlUSg\">B-Roll folder</a> · <a href=\"https://drive.google.com/drive/folders/10NgSmy-lusV-taZa8z8Rl4F-soIm5wj7\">B1</a>"
-  ],
-  [
    "Production brief",
    "<a href=\"https://docs.google.com/document/d/1EOtGp60jDrQ8FyH2H-m-xPMhHDHACBcLYHuASPvai3k/edit\">NIWRC Production Brief — Oklahoma City, October 2026</a>"
+  ],
+  [
+   "Reference",
+   "<a href=\"https://f.io/vkQU5U4U\">Approved NIWRC traditional - Cory (Q)</a>. The Reference column is empty on Monday; the brief points to your approved Cory cut."
+  ],
+  [
+   "Footage folder",
+   "<a href=\"https://drive.google.com/drive/folders/1jivE7s9xcOSQyoSJ-CRO4Z0AhyqGXnRg\">NIWRC OKC 9 Oct 2026 raw</a> · <a href=\"https://drive.google.com/drive/folders/1bBrRv_LuPf0fX1VSezL9YZcD2rpxVZGw\">Interview 5</a>"
+  ],
+  [
+   "Interview clip",
+   "<a href=\"https://drive.google.com/file/d/1fxPvD6t0Uun0u2xqt9MjTeOmnFbsABrT/view\">26-10-09 C1 Happy - NIWRC Event 15.MP4</a> · 0:30 · wide, live mic · the take this cut uses"
+  ],
+  [
+   "Second angle",
+   "<a href=\"https://drive.google.com/file/d/1kTXljyk992ty30XbZzG0iE1la4H4rmZs/view\">26-10-09 C2 Happy - NIWRC Event 9.MP4</a> · 0:43 · wide · camera mic"
+  ],
+  [
+   "Name check",
+   "<a href=\"https://drive.google.com/file/d/1Ejbb0fKWnm1fxx-yTFzN19lexCpLOwiR/view\">26-10-09 C1 Happy - NIWRC Event 13.MP4</a>: she spells T-A-I at 00:34.6 and says she writes her name in lowercase at 00:56.6."
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1AD9XlB7mXD4Jx5GfJvmySzdPchJa3SpkCYXOw6fUSMQ/edit\">Transcripts - Interview 5</a> · <a href=\"https://drive.google.com/file/d/1NvWurgjswCCa6Ad1PLvGE8_bfmEAbv0y/view\">Interview 5.transcript.json</a> (word times used here)"
+  ],
+  [
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/1aSJbS1IAKZCaVOjGit2YtNZ1Ge33acMG/view\">visual.json</a> (shoot level, Erin's shot index). The shots on this page are named from it."
+  ],
+  [
+   "B-roll picks",
+   "None by plan: a face-to-camera thank-you, like the Cory and Kerri clips."
+  ],
+  [
+   "Brand graphics package",
+   "NIWRC package: Drive <span class=\"mono\">deliverables/graphics-packages/NIWRC</span>. Folder link not available in this run. Type the words on the empty plates in Source Sans 3."
+  ],
+  [
+   "Brand",
+   "Oswald and Source Sans 3. NIWRC red <span class=\"mono\">#981C20</span>, purple <span class=\"mono\">#4D3271</span>, light base <span class=\"mono\">#E7DED5</span>, near black <span class=\"mono\">#231F20</span>."
   ],
   [
    "Standing rules",
@@ -143,7 +201,7 @@
  "tech": [
   [
    "Source",
-   "Both cameras 3840×2160, 23.976 fps, wide shots. 10–15% punch-in after the 9:16 crop is safe."
+   "Both cameras 3840×2160, 23.976 fps, wide shots (visual.json). 10–15% punch-in after the 9:16 crop is safe."
   ],
   [
    "Timeline",
@@ -151,11 +209,11 @@
   ],
   [
    "Audio",
-   "C1 = live mic. Use C1 sound for the whole clip, also under the C2 picture. -14 LUFS."
+   "C1 = live mic. Use C1 sound for the whole clip, also under the C2 picture. −14 LUFS."
   ],
   [
    "Captions",
-   "Approved NIWRC template. \"Nez Perce Tribe\" with capital T. Nez Perce words: the descriptive caption only."
+   "Approved NIWRC template. \"Nez Perce Tribe\" with capital T. Over the Nez Perce words the caption reads (speaking Nimipuutímt, the Nez Perce language). The Captions tab has both lines timed from the word times."
   ],
   [
    "Export",
@@ -163,7 +221,7 @@
   ],
   [
    "Upload name",
-   "25_Traditional_NIWRCOKCTaiDonorThankYou001-1.mp4"
+   "<span class=\"mono\">25_Traditional_NIWRCOKCTaiDonorThankYou001-1.mp4</span>"
   ],
   [
    "Frame.io folder",
@@ -176,11 +234,107 @@
   "Name is lowercase on the super: tai simpson (she spells T-A-I at C1 Event 13 00:34.6 and says she writes it in lowercase at 00:56.6).",
   "Pause cut, angle change on the cut, C1 sound throughout.",
   "Political-game line is not in.",
+  "The C2 angle shows her face; if not, the pause cut stays on C1 with a push-in.",
   "Matches your Cory and Kerri thank-you clips.",
-  "End card: white logo on red."
+  "End card: white logo on red.",
+  "9:16 only, 1080×1920."
  ],
- "decisions": [],
+ "decisions": [
+  {
+   "t": "Spelling of her language on the caption",
+   "b": "The brief writes Nimipuutímt. It is also written Nimiipuutímt. tai or NIWRC confirms the spelling before export."
+  }
+ ],
  "client_note": "<b>Why this matters:</b> NIWRC sends the donor thank-you clips to donors after DVAM. Cory, Kerri and tai go out as a set, so they must look and feel the same.",
- "ask_examples": [],
- "transcript": "--- 26-10-09 C1 Happy - NIWRC Event 15.MP4 ---\n[00:09.1] Kamakus, Katsiyawyo, and Niniputim, the language of the Nez Perce tribe, a huge thanks and\n[00:15.1] gratitude to all of our donors.\n[00:20.9] We could not do this work without them.\n[00:26.2] I love that we all know how to play the political game.\n--- 26-10-09 C2 Happy - NIWRC Event 9.MP4 ---\n[00:04.1] Okay.\n[00:23.1] Kamakus Katsiawya, in Nimibutim, the language of the Nez Perce tribe, a huge thanks and\n[00:29.2] gratitude to all of our donors.\n[00:35.0] We could not do this work without them.\n[00:40.3] I love that we all know how to play the political game."
+ "ask_examples": [
+  "Which camera do I use for sound?",
+  "What does the caption say over the Nez Perce words?",
+  "How do I write her name?",
+  "Where do I cut the pause?"
+ ],
+ "transcript": "Machine transcript of tai simpson's clips (Interview 5 folder, NIWRC OKC, 9 Oct 2026). Times are mm:ss.s in each file. Event 15 (C1) and Event 9 (C2) are the same thank-you take. Event 13 is her interview. The Nez Perce words are machine guesses: never put those spellings on screen. The machine writes her name “Ty Simpson”: it is tai simpson, lowercase.\n--- 26-10-09 C1 Happy - NIWRC Event 15.MP4 ---\n[00:09.1] Kamakus, Katsiyawyo, and Niniputim, the language of the Nez Perce tribe, a huge thanks and\n[00:15.1] gratitude to all of our donors.\n[00:20.9] We could not do this work without them.\n[00:26.2] I love that we all know how to play the political game. [do not use: off topic]\n--- 26-10-09 C2 Happy - NIWRC Event 9.MP4 ---\n[00:04.1] Okay. [do not use: crew talk]\n[00:23.1] Kamakus Katsiawya, in Nimibutim, the language of the Nez Perce tribe, a huge thanks and\n[00:29.2] gratitude to all of our donors.\n[00:35.0] We could not do this work without them.\n[00:40.3] I love that we all know how to play the political game. [do not use: off topic]\n--- 26-10-09 C1 Happy - NIWRC Event 14.MP4 ---\n[00:05.8] So this one is going to be, thank you. [do not use: slate]\n--- 26-10-09 C1 Happy - NIWRC Event 13.MP4 ---\n[00:12.7] My name is Ty Simpson and I am the board president of the National Indigenous Women's Resource [do not use: intro or crew talk]\n[00:21.1] Center. [do not use: intro or crew talk]\n[00:22.1] I'm a citizen of the Ninipu tribe, commonly called the Nez Perce tribe. [do not use: intro or crew talk]\n[00:26.1] I'm from northern Idaho, by way of Atlanta now. [do not use: intro or crew talk]\n[00:34.6] Ty is T-A-I. [do not use: intro or crew talk]\n[00:36.4] Simpson is S-I-M-P-S-O-N, like the TV show. [do not use: intro or crew talk]\n[00:40.4] Come through, they'll edit. [do not use: intro or crew talk]\n[00:51.6] Good to see you all. [do not use: intro or crew talk]\n[00:55.6] Thank you. [do not use: intro or crew talk]\n[00:56.6] Yes, I stylize my name in lowercase. [do not use: intro or crew talk]\n[00:58.3] Thank you. [do not use: intro or crew talk]\n[00:58.6] Because there's no capitalization in my language. [do not use: intro or crew talk]\n[01:06.2] That's why he's here. [do not use: intro or crew talk]\n[01:10.2] Alright, so when I ask you a question, you repeat it a little bit to me. [do not use: intro or crew talk]\n[01:13.8] Okay. [do not use: intro or crew talk]\n[01:18.2] Thank you. [do not use: intro or crew talk]\n[01:26.0] I was called to serve on the NIWRC board by some of the aunties that have been in the organization\n[01:31.4] for anywhere between 10 to 12 years.\n[01:34.0] I have been running the Idaho Coalition Against Sexual and Domestic Violence since 2019,\n[01:41.0] so it was an opportunity to step into leadership that was specifically engaging native women and girls,\n[01:47.0] and that was appealing to me because I am a native woman and was once a native girl.\n[01:51.0] I'm also a descendant of women who've experienced violence in my community,\n[01:56.0] and when I showed up to my first meeting, we were in Arizona,\n[01:59.0] and I wasn't expecting to take on a leadership role, but was asked to take on leadership\n[02:05.0] because of how politically and policy driven that I've been in state coalition spaces,\n[02:11.0] and I think that translates well to an organization like NIWRC.\n[02:16.0] I'm bridging some gaps, making sure that communities who are not historically involved in policy work\n[02:23.1] and in anti-violence work have the biggest, loudest mic at the table.\n[02:29.2] So that's my job, and that's why I was called to serve.\n[02:32.0] This is one earring. [do not use: intro or crew talk]\n[02:36.6] They'll move around a lot. [do not use: intro or crew talk]\n[02:37.8] No, you're good. I didn't know if they're bad or not. [do not use: intro or crew talk]\n[02:39.7] Like you were showing, like, all pink. [do not use: intro or crew talk]\n[02:42.6] Thank you. [do not use: intro or crew talk]\n[02:43.6] You're welcome. [do not use: intro or crew talk]\n[02:45.7] No, no. We can move on. Thank you. [do not use: intro or crew talk]\n[02:48.6] Thank you. [do not use: intro or crew talk]\n[03:01.8] I think in our communities, we really try to work in such a way where the future generations\n[03:07.8] have something really strong to inherit and to work from.\n[03:10.8] This movement has been taking place since colonization, since first contact.\n[03:15.8] We really sought to start to rally in the mid-1900s, and then as we saw legislation like VAWA and VOCA\n[03:22.8] being passed in the 70s and 80s, it rallied Native women, mothers, grandmothers, aunties, and sisters\n[03:28.8] to drive policy that positively impacted wellness and safety for Native women.\n[03:34.8] And so I hope the work that we're doing at NIWRC and this generation is more around making our voices louder\n[03:41.8] in policy places and spaces, making sure that our communities are well-resourced with the right finances\n[03:48.8] and tools to be safe, and really starting to engage the broader community in understanding that\n[03:54.8] protecting Native women and girls, in fact, creates safety for our communities everywhere.\n[04:07.1] Oh my goodness, there's so many changes that we can celebrate across the country from the work of NIWRC.\n[04:14.1] I'm thinking about policy changes that we've made, how much the shift that the Office of Violence Against Women\n[04:22.1] has made in supporting Native communities in the way that we do this work.\n[04:25.1] The expansion into Alaska and Hawaii are big changes as well.\n[04:30.1] And I also think that the very intentional inclusion of Native women in Congress, both federally and at the state level,\n[04:38.1] our voices as Native women in national initiatives around safety and wellness is also indicative of the fact that\n[04:45.1] we've made some sweeping revolutionary changes in just our generation.\n[05:00.0] NIWRC is Native women-led for a number of reasons, and I think that our deep cultural alignment to nature and to land\n[05:09.6] is a good reason why we energize that sort of leadership.\n[05:13.0] A lot of our nations, we believe that water is life-giving as women are life-giving, that Earth and nature is life-giving as women are\n[05:20.6] life-giving.\n[05:21.1] So when we talk about the safety of Native women and girls, it is life-givers who can speak to those challenges,\n[05:27.4] to those obstacles, to our needs, and to our futures.\n[05:31.0] And so to ensure that NIWRC stays Native women-led is really going to be kind of this powerful mechanism\n[05:37.6] for changing safety and wellness for all of our communities.\n[05:48.7] I was, like way back. [do not use: intro or crew talk]\n[05:57.7] Oh man, Tilly Blackbear got us to a place that would have been impossible in the 70s and 80s.\n[06:04.7] Her intentional energy behind grassroots organizing to interrupt violence against Native women and girls was life-changing,\n[06:11.7] not only for her tribe, but for all of our tribes across the country.\n[06:15.7] She ensured that our voices were heard at tables and rooms that we were never invited to,\n[06:19.7] that our names and our tribes and our issues were spoken to at all legislative levels.\n[06:25.7] She made sure that our communities were funded and funded well and funded sustainably.\n[06:30.7] We are standing on the shoulders of giants when it comes to the aunties who energized this work early on.\n[06:36.8] And in this generation, we're grateful for the way that they informed this work and for their input and for their wisdom.\n[06:44.7] And I think that, you know, I think that for the future, and I think that for our communities in general,\n[06:55.1] we've really got to remember that we have been organizers in our communities just culturally and spiritually\n[07:02.2] without any external guidance, without any external pressure, and that's worth celebrating\n[07:07.2] because it wouldn't be that way in a system that's not designed to involve us.\n[07:20.7] Yes, yes. [do not use: intro or crew talk]\n[07:25.5] Oh, yeah, give it to me. [do not use: intro or crew talk]\n[07:26.7] Okay, no. [do not use: intro or crew talk]\n[07:28.5] Oh, no, I got it, I got it. [do not use: intro or crew talk]\n[07:30.5] In my culture, in my tribe, I'm known as the storyteller.\n[07:32.6] Inamunikwa sakti kwatit.\n[07:35.5] And so my responsibility as a cultural storyteller and a culture keeper is to make sure that the stories that have been passed to\n[07:41.9] me over generations\n[07:43.0] are stories that I share to the next generation.\n[07:45.5] And it's not just telling the story, but living my life in such a way where I'm telling a good story with my life.\n[07:51.5] And so I think that participating and supporting what NIWRC does is telling a good story for the future,\n[07:57.6] that it's not just about all of our loss and the violence and the land theft and the sordid history that we have with\n[08:06.4] the United States,\n[08:07.5] but it's also about celebrating our culture and our language and our music and our dance and our art and our laughter.\n[08:12.5] If you're ever in a room with native aunties and grandmas and the way that we all laugh together is also incredibly healing\n[08:19.5] and also worth celebrating in the work that we're doing.\n[08:22.5] Good job. [do not use: intro or crew talk]\n[08:24.6] I got to tell you, that was the end of that segment, so I have one question for one of you. [do not use: intro or crew talk]\n[08:29.6] This one's going to be directly answered. [do not use: intro or crew talk]",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "Oh my goodness, there's so many changes that we can celebrate across the country from the work of NIWRC.",
+    "who": "tai simpson",
+    "file": "26-10-09 C1 Happy - NIWRC Event 13.MP4",
+    "why": "Joyful: what the work has done."
+   },
+   {
+    "quote": "And in this generation, we're grateful for the way that they informed this work and for their input and for their wisdom.",
+    "who": "tai simpson",
+    "file": "26-10-09 C1 Happy - NIWRC Event 13.MP4",
+    "why": "Her gratitude line from the interview (she means the aunties, not donors)."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "gratitude to all of our donors.",
+    "who": "tai simpson",
+    "file": "26-10-09 C2 Happy - NIWRC Event 9.MP4",
+    "why": "The thanks itself, from the second camera."
+   },
+   {
+    "quote": "Oh my goodness, there's so many changes that we can celebrate across the country from the work of NIWRC.",
+    "who": "tai simpson",
+    "file": "26-10-09 C1 Happy - NIWRC Event 13.MP4",
+    "why": "A celebrating close."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "A THANK YOU, IN NEZ PERCE",
+    "line": "Kamakus, Katsiyawyo, and Niniputim, the language of the Nez Perce tribe, a huge thanks and",
+    "why": "Her own language first: the strongest open."
+   },
+   {
+    "text": "A HUGE THANKS AND GRATITUDE",
+    "line": "gratitude to all of our donors.",
+    "why": "Plain and direct."
+   },
+   {
+    "text": "FROM THE NIWRC BOARD PRESIDENT",
+    "line": "We could not do this work without them.",
+    "why": "Who is speaking, then her button line."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "NIWRC runs light: one designed element at a time, text only when it helps, no logo before the end card, no victim imagery. This thank-you stays on her face by plan (the Cory, Kerri and tai set all do): hook text, one name super, one angle change, the end card.",
+  "devices": [
+   {
+    "row": "00:00–00:07.5",
+    "device": "Hook text, static, then name super at 00:03",
+    "asset": "Hook text <q>A THANK YOU, IN NEZ PERCE</q>; name super tai simpson",
+    "source": "MG library of this page"
+   },
+   {
+    "row": "00:07.5–00:09",
+    "device": "Angle change to C2 over the pause cut",
+    "asset": "C2 Event 9 00:35.0",
+    "source": "Drive Interview 5"
+   },
+   {
+    "row": "00:10–00:13",
+    "device": "End card",
+    "asset": "NIWRC logo white on red",
+    "source": "endcards/niwrc"
+   }
+  ],
+  "broll_pool": [],
+  "elements": [
+   {
+    "name": "NIWRC end card (white logo on red)",
+    "kind": "end_card",
+    "file": "endcards/niwrc/niwrc-logo-white.svg",
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
 }

@@ -1,0 +1,359 @@
+{
+ "item": "13412186309",
+ "client": "niwrc",
+ "style": {
+  "font": {
+   "css": "\"Source Sans 3\"",
+   "w": 700
+  },
+  "size": 62,
+  "y": 1380,
+  "max_lines": 2,
+  "reveal": "phrase",
+  "fg": "#FFFFFF",
+  "shadow": true
+ },
+ "note": "Plain sans (Source Sans 3), white, soft shadow, low in the frame (NIWRC style). Use your approved NIWRC caption template if it differs. Timed from the C1 Event 19 word times; clip 2 skips the 0.7 s pause after “possible,” as the plan cuts it. The C1 transcript stops at “and really”, so clip 3 times the rest from C2 Event 11 moved onto C1 (C1 = C2 − 9.47 s): check it by ear. Capital N in “Native”. Highlight “safety” in your template.",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Hook",
+   "rows": [
+    "00:00–00:03"
+   ],
+   "clip": "26-10-09 C1 Happy - NIWRC Event 19.MP4",
+   "start": 41.15,
+   "src": "26-10-09 C1 Happy - NIWRC Event 19.MP4 00:41.1",
+   "dur": 2.9,
+   "words": [
+    {
+     "w": "I'd",
+     "t0": 0.15,
+     "t1": 0.27,
+     "e": 0
+    },
+    {
+     "w": "like",
+     "t0": 0.27,
+     "t1": 0.33,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 0.33,
+     "t1": 0.45,
+     "e": 0
+    },
+    {
+     "w": "thank",
+     "t0": 0.45,
+     "t1": 0.59,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 0.59,
+     "t1": 0.79,
+     "e": 0
+    },
+    {
+     "w": "donors",
+     "t0": 0.79,
+     "t1": 0.93,
+     "e": 0
+    },
+    {
+     "w": "for",
+     "t0": 0.93,
+     "t1": 1.45,
+     "e": 0
+    },
+    {
+     "w": "supporting",
+     "t0": 1.45,
+     "t1": 1.87,
+     "e": 0
+    },
+    {
+     "w": "our",
+     "t0": 1.87,
+     "t1": 2.29,
+     "e": 0
+    },
+    {
+     "w": "work,",
+     "t0": 2.29,
+     "t1": 2.45,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.0,
+     "t1": 2.8,
+     "lines": [
+      [
+       0,
+       5
+      ],
+      [
+       6,
+       9
+      ]
+     ]
+    }
+   ],
+   "text": "I'd like to thank the donors for supporting our work,",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 2,
+   "title": "Safety",
+   "rows": [
+    "00:03–00:06"
+   ],
+   "clip": "26-10-09 C1 Happy - NIWRC Event 19.MP4",
+   "start": 44.15,
+   "src": "26-10-09 C1 Happy - NIWRC Event 19.MP4 00:44.1 (00:44.1–00:45.1 + 00:45.6–00:48.0 joined)",
+   "dur": 3.76,
+   "words": [
+    {
+     "w": "making",
+     "t0": 0.15,
+     "t1": 0.23,
+     "e": 0
+    },
+    {
+     "w": "our",
+     "t0": 0.23,
+     "t1": 0.53,
+     "e": 0
+    },
+    {
+     "w": "work",
+     "t0": 0.53,
+     "t1": 0.69,
+     "e": 0
+    },
+    {
+     "w": "possible,",
+     "t0": 0.69,
+     "t1": 0.91,
+     "e": 0
+    },
+    {
+     "w": "allowing",
+     "t0": 1.17,
+     "t1": 1.29,
+     "e": 0
+    },
+    {
+     "w": "us",
+     "t0": 1.29,
+     "t1": 1.61,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 1.61,
+     "t1": 1.79,
+     "e": 0
+    },
+    {
+     "w": "bring",
+     "t0": 1.79,
+     "t1": 2.19,
+     "e": 0
+    },
+    {
+     "w": "safety",
+     "t0": 2.19,
+     "t1": 2.47,
+     "e": 1
+    },
+    {
+     "w": "into",
+     "t0": 2.47,
+     "t1": 2.85,
+     "e": 0
+    },
+    {
+     "w": "our",
+     "t0": 2.85,
+     "t1": 3.07,
+     "e": 0
+    },
+    {
+     "w": "communities",
+     "t0": 3.07,
+     "t1": 3.31,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 2.42,
+     "lines": [
+      [
+       0,
+       3
+      ],
+      [
+       4,
+       8
+      ]
+     ]
+    },
+    {
+     "t0": 2.42,
+     "t1": 3.66,
+     "lines": [
+      [
+       9,
+       11
+      ]
+     ]
+    }
+   ],
+   "text": "making our work possible, allowing us to bring safety into our communities",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 3,
+   "title": "Button",
+   "rows": [
+    "00:06–00:10"
+   ],
+   "clip": "26-10-09 C1 Happy - NIWRC Event 19.MP4",
+   "start": 48.47,
+   "src": "26-10-09 C1 Happy - NIWRC Event 19.MP4 00:48.5",
+   "dur": 3.67,
+   "words": [
+    {
+     "w": "and",
+     "t0": 0.15,
+     "t1": 0.17,
+     "e": 0
+    },
+    {
+     "w": "really",
+     "t0": 0.17,
+     "t1": 0.54,
+     "e": 0
+    },
+    {
+     "w": "believing",
+     "t0": 0.54,
+     "t1": 0.82,
+     "e": 0
+    },
+    {
+     "w": "that",
+     "t0": 0.82,
+     "t1": 1.2,
+     "e": 0
+    },
+    {
+     "w": "we",
+     "t0": 1.2,
+     "t1": 1.3,
+     "e": 0
+    },
+    {
+     "w": "can",
+     "t0": 1.3,
+     "t1": 1.42,
+     "e": 0
+    },
+    {
+     "w": "make",
+     "t0": 1.42,
+     "t1": 1.54,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 1.54,
+     "t1": 1.66,
+     "e": 0
+    },
+    {
+     "w": "change",
+     "t0": 1.66,
+     "t1": 1.8,
+     "e": 0
+    },
+    {
+     "w": "for",
+     "t0": 1.8,
+     "t1": 2.2,
+     "e": 0
+    },
+    {
+     "w": "Native",
+     "t0": 2.2,
+     "t1": 2.52,
+     "e": 0
+    },
+    {
+     "w": "people",
+     "t0": 2.52,
+     "t1": 2.8,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 2.8,
+     "t1": 3.06,
+     "e": 0
+    },
+    {
+     "w": "survivors.",
+     "t0": 3.06,
+     "t1": 3.22,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 1.75,
+     "lines": [
+      [
+       0,
+       2
+      ],
+      [
+       3,
+       8
+      ]
+     ]
+    },
+    {
+     "t0": 1.75,
+     "t1": 3.57,
+     "lines": [
+      [
+       9,
+       11
+      ],
+      [
+       12,
+       13
+      ]
+     ]
+    }
+   ],
+   "text": "and really believing that we can make a change for Native people and survivors.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en",
+   "check": "Words after “really” are timed from C2 Event 11 moved onto C1: check by ear."
+  }
+ ]
+}
