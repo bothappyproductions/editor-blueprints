@@ -1,0 +1,124 @@
+{
+ "item": "12731596620",
+ "client": "cass",
+ "note": "The script asks for the title card, four lower thirds, the oldest-child text card and the end card, so 6 graphics and the end card, all 16:9. The CASS logo file is not in endcards/ yet, so the end card types CASS until it is added.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Title card",
+   "tpl": "statement_card",
+   "dur": 3,
+   "text": {
+    "main": "Vista Colina Family Shelter",
+    "sub": "Central Arizona Shelter Services"
+   },
+   "cue": "Title card, full frame on CASS navy #2C2B77: large Vista Colina Family Shelter, small under it Central Arizona Shelter Services with no period after Services.",
+   "src": "Script, row 00:06–00:09, Motion graphics & type.",
+   "rows": [
+    "00:06–00:09"
+   ],
+   "use": "Full frame from 00:06 to 00:09, music only. No period after Services."
+  },
+  {
+   "n": 2,
+   "title": "Lower third Ian",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Ian Snyder · Client"
+   },
+   "cue": "Lower third at 00:10 for 3 s: Ian Snyder · Client",
+   "src": "Script, row 00:09–00:23, Motion graphics & type.",
+   "rows": [
+    "00:09–00:23"
+   ],
+   "use": "Put it on at 00:10 for 3 s, lower left above the captions. No period."
+  },
+  {
+   "n": 3,
+   "title": "Lower third Crystal",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Crystal Singleton"
+   },
+   "cue": "Lower third at 00:26 for 3 s: Crystal Singleton / Program Manager, Vista Colina Family Shelter",
+   "src": "Script, row 00:23–00:33, Motion graphics & type.",
+   "rows": [
+    "00:23–00:33"
+   ],
+   "use": "Put it on at 00:26 for 3 s, lower left above the captions. Type the second line Program Manager, Vista Colina Family Shelter under the name, and make the bar wide enough."
+  },
+  {
+   "n": 4,
+   "title": "Oldest child card",
+   "tpl": "statement_card",
+   "dur": 4,
+   "text": {
+    "main": "Here, the work starts with the oldest child."
+   },
+   "cue": "Text card, full frame on CASS navy #2C2B77: Here, the work starts with the oldest child.",
+   "src": "Script, row 00:33–00:37, Motion graphics & type.",
+   "rows": [
+    "00:33–00:37"
+   ],
+   "use": "Full frame from 00:33 to 00:37, music only. Let it breathe."
+  },
+  {
+   "n": 5,
+   "title": "Lower third Bri",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Bri"
+   },
+   "cue": "Lower third at 00:37 for 3 s: Bri / Case Manager, Vista Colina Family Shelter",
+   "src": "Script, row 00:37–00:44, Motion graphics & type.",
+   "rows": [
+    "00:37–00:44"
+   ],
+   "use": "Put it on at 00:37 for 3 s, lower left above the captions. Type the second line Case Manager, Vista Colina Family Shelter under the name, no period."
+  },
+  {
+   "n": 6,
+   "title": "Lower third Brittnie",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Brittnie Stanton"
+   },
+   "cue": "Lower third at 00:59 for 3 s: Brittnie Stanton / Chief Program Officer, CASS",
+   "src": "Script, row 00:59–01:11, Motion graphics & type.",
+   "rows": [
+    "00:59–01:11"
+   ],
+   "use": "Put it on at 00:59 for 3 s while she is on camera, lower left above the captions. Type the second line Chief Program Officer, CASS under the name."
+  },
+  {
+   "n": 7,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:19–01:25"
+   ],
+   "dur": 6,
+   "cue": "End card: CASS logo, then the line For more information on Vista Colina Family Shelter visit CASSAZ.org.",
+   "src": "No CASS end card or logo in endcards/ yet (checked 3 Nov 2026), so CASS is typed. Line from the script's end card row (CASS's own Vista Colina wording); colours from the CASS brand (navy #2C2B77, white).",
+   "c": {
+    "bg": "#2C2B77",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "CASS",
+    "lines": [
+     "For more information on Vista Colina Family Shelter visit CASSAZ.org"
+    ]
+   },
+   "use": "Dissolve in under <invaluable> at about 01:19 and hold to the end. Swap in the CASS logo once it is in the repo."
+  }
+ ]
+}

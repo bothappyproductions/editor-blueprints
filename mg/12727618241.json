@@ -1,0 +1,134 @@
+{
+ "item": "12727618241",
+ "client": "cass",
+ "note": "The script asks for the hook text, one name super, a location pin, a key-words stack, one top text line, one key line and the end card, so 6 graphics and the end card. The CASS logo file is not in endcards/ yet, so the end card types CASS until it is added.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "There's still good in the world."
+   },
+   "cue": "Hook text on frame 1: There's still good in the world. Already on screen at 0:00. Does not animate on.",
+   "src": "Script, row 00:00–00:03, Motion graphics & type.",
+   "rows": [
+    "00:00–00:03"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Nicole Williams"
+   },
+   "cue": "Name super at 00:10 for 3 s, lower left, just above the caption box",
+   "src": "Script, row 00:10–00:13, Motion graphics & type.",
+   "rows": [
+    "00:10–00:13"
+   ],
+   "use": "Put it on at 00:10 for 3 s. Move it lower left, just above the captions. Type the second line Mother of Jalen & Cody Williams under the name."
+  },
+  {
+   "n": 3,
+   "title": "Location pin",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "upper",
+   "text": {
+    "main": "Vista Colina Family Shelter"
+   },
+   "cue": "Location pin at 00:13 for 2 s, top left: Vista Colina Family Shelter",
+   "src": "Script, row 00:13–00:26, Motion graphics & type.",
+   "rows": [
+    "00:13–00:26"
+   ],
+   "use": "Put it on at 00:13 for 2 s, top left, over the table B-roll."
+  },
+  {
+   "n": 4,
+   "title": "Key words",
+   "tpl": "word_stack",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "items": [
+     "They are heard",
+     "We value them",
+     "Rooting and cheering"
+    ]
+   },
+   "cue": "Key words at 00:19, stacked in the top band as she says them: They are heard / We value them / Rooting and cheering",
+   "src": "Script, row 00:13–00:26, Motion graphics & type.",
+   "rows": [
+    "00:13–00:26"
+   ],
+   "use": "Start at 00:19 so each phrase lands as she says it. Top band. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "Top text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "without the TV, without the phone"
+   },
+   "cue": "Top text at 00:32 for 3 s, in the top band, as she says it: without the TV, without the phone",
+   "src": "Script, row 00:26–00:41, Motion graphics & type.",
+   "rows": [
+    "00:26–00:41"
+   ],
+   "use": "Put it on at 00:32 as she says it, hold 3 s, top band."
+  },
+  {
+   "n": 6,
+   "title": "Key line",
+   "tpl": "kinetic_quote",
+   "dur": 4,
+   "pos": "top",
+   "text": {
+    "main": "I hope that all the residents here feel the love from our table to theirs.",
+    "emph": [
+     "love",
+     "theirs"
+    ],
+    "who": "Nicole Williams"
+   },
+   "cue": "Key line in the top band, word by word as she says it: I hope that all the residents here feel the love from our table to theirs.",
+   "src": "Script, row 01:02–01:10, Motion graphics & type.",
+   "rows": [
+    "01:02–01:10"
+   ],
+   "use": "Start at 01:02 with her words. Top band, captions stay on under it."
+  },
+  {
+   "n": 7,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:10–01:14"
+   ],
+   "dur": 4,
+   "cue": "End card: CASS logo, then the line For more information visit cassaz.org.",
+   "src": "No CASS end card or logo in endcards/ yet (checked 3 Nov 2026), so CASS is typed. Line from the script's end card row; colours from the CASS brand (navy #2C2B77, white).",
+   "c": {
+    "bg": "#2C2B77",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "CASS",
+    "lines": [
+     "For more information visit cassaz.org"
+    ]
+   },
+   "use": "After her last line at 01:10. Hold it to the end. Swap in the CASS logo once it is in the repo."
+  }
+ ]
+}

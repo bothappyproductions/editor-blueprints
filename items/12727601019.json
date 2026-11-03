@@ -1,0 +1,940 @@
+{
+ "id": "12727601019",
+ "client": "cass",
+ "eyebrow": "CASS · Downtown (main) campus, Phoenix · 27 Jul 2026 · Traditional",
+ "title": "Sherry Wood:",
+ "title_q": "“This Place Saved My Life”",
+ "title_short": "Sherry Wood (CASS client) · This Place Saved My Life",
+ "editor": "Bleron",
+ "due": "",
+ "format": "9:16 only · 1080×1920",
+ "length": "about 70 s",
+ "edit_key": "CASSSherrySavedMyLife001",
+ "headline": "Sherry worked her whole life in management, and at 67 she had nowhere to go; CASS saved her life, and she found friends for life there.",
+ "story": [
+  "Cold open on the fall: nowhere to go, no family, nowhere to stay. Then who she is: 68, from California, in Arizona 35 years.",
+  "She breaks the stereotype at once: she always worked, in management, often two jobs. At 67 she still ended up here.",
+  "<b>Turn:</b> this place saved her life, and she is grateful every day. <b>Button:</b> the people she met here are friends for life, everyday people like you. Composed and grateful, never pity."
+ ],
+ "feel": [
+  "Grateful",
+  "Composed",
+  "Hopeful",
+  "Human"
+ ],
+ "do": [
+  "Open cold on <q>I found myself</q> with the hook text on screen at 0:00.",
+  "Name super after the hook: <q>Sherry Wood · 68 · CASS client</q>.",
+  "Start <q>It's the most</q> without <q>Just that</q>, and cut her stutter under B-roll.",
+  "Take out the four shots Atdhe marked <q>remove this b roll</q> on Frame.io (23 Oct). Use only the B-roll on this page.",
+  "End card with the line <q>For more information visit cassaz.org</q>."
+ ],
+ "dont": [
+  "Never label her Vista Colina. She is on the downtown (main) campus.",
+  "No sobriety or relapse lines (01:20 to 01:32 in the clip).",
+  "No unconfirmed place names (the transcript writes <q>Respero</q> at 01:12 and 02:13).",
+  "No <q>incognito</q>.",
+  "No dinner, drone or Vista Colina B-roll. No logo before the end card."
+ ],
+ "links": {
+  "brief": {
+   "title": "CASS Williams Family Community Dinner Production Brief",
+   "url": "https://docs.google.com/document/d/173RqbvQDPqpGYetufr6q1CL_zRCrLVXx/edit",
+   "note": "Production brief for the 26–27 Jul shoot. The editing brief for this cut is Nick's update on the Monday item; this page is built from it and Atdhe's Frame.io notes."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Nick owes it. The client file names Atlanta Rescue Mission and LA Rescue Mission as style references (the client's suggestion)."
+  },
+  "footage": {
+   "title": "CASS Shoot July 2026 raw",
+   "url": "https://drive.google.com/drive/folders/1Gn6-CcgXmATGQXax3ENW_9aMCtOXZ44O",
+   "note": "Interview: CASS Client Interviews / Sherry Client Interview / 20260727_C4470.MP4 (4:22). B-roll: Downtown Shelter B Roll / Staff B Roll @ Downtown Shelter."
+  }
+ },
+ "bp_intro": "All bites are from <span class=\"mono\">20260727_C4470.MP4</span> (4:22). Times are mm:ss.s in that clip, from the word times in the shoot's transcript.json. Pauses over 0.7 s are cut to about 0.25 s. Caption wording follows Atdhe's Frame.io fixes. B-roll was picked from visual.json; no frames could be pulled this run, so check each pick on scrub.",
+ "rows": [
+  {
+   "tc": "00:00–00:09",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Sherry on camera, <a href=\"https://drive.google.com/file/d/1sqLTebcmSzNilld1RMVFYP_nfd5mdW-z/view\">20260727_C4470.MP4</a>, cold, already talking at <span class=\"mono\">00:52.3</span>. Her face is the strongest picture for this line, so no B-roll.",
+   "motion": "Hook text on <b>frame 1</b>: <q>I had nowhere to stay.</q> Already on screen at 0:00. Does not animate on. Top third. It goes out at 00:03. Captions start on frame 1.",
+   "voice": {
+    "who": "Sherry Wood",
+    "quote": "I found myself, nowhere to go, no family out here. Divorced, again, and I had nowhere to stay.",
+    "src": "20260727_C4470.MP4 00:52.3 to 01:01.2"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Soft, hopeful bed starts low on frame 1. No lyrics. Cleared for YouTube and Facebook.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I found myself"
+    }
+   ]
+  },
+  {
+   "tc": "00:09–00:17",
+   "beat": "WHO SHE IS",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Her face, <a href=\"https://drive.google.com/file/d/1sqLTebcmSzNilld1RMVFYP_nfd5mdW-z/view\">20260727_C4470.MP4</a>. Cut out <q>incognito</q> (<span class=\"mono\">00:08.1</span>): join <q>68 years old,</q> to <q>and I'm from California</q>. Atdhe heard a strange sound on <q>years</q> at this join: use a 2-frame audio crossfade with room tone, and cover the join with <a href=\"https://drive.google.com/file/d/1uF1jlhyIKUcQ1XSlc7RmgBRN7ytHLaTt/view\">20260727_C4419.MP4</a> from <span class=\"mono\">00:02.0</span> for 2 s (the <q>Meet Our Shelter Support Staff</q> board) if it still jumps.",
+   "motion": "Name super at 00:09 for 3 s, lower left above the captions: <q>Sherry Wood · 68 · CASS client</q>. Captions on.",
+   "voice": {
+    "who": "Sherry Wood",
+    "quote": "My name is Sherry Wood. I'm 68 years old, and I'm from California originally, but I've been out here for about 35 years.",
+    "src": "20260727_C4470.MP4 00:03.7 to 00:07.1 + 00:09.5 to 00:14.1"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "My name is"
+    },
+    {
+     "clip": "20260727_C4419.MP4",
+     "at": 2.0,
+     "dur": 2.0,
+     "cx": 0.5,
+     "path": "Downtown Shelter B Roll/Staff B Roll @ Downtown Shelter/20260727_C4419.MP4",
+     "drive": "1uF1jlhyIKUcQ1XSlc7RmgBRN7ytHLaTt",
+     "layout": "full",
+     "what": "Meet Our Shelter Support Staff board"
+    },
+    {
+     "face": true,
+     "from_word": "and I'm from"
+    }
+   ]
+  },
+  {
+   "tc": "00:17–00:25",
+   "beat": "ALWAYS WORKED",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Her face, <a href=\"https://drive.google.com/file/d/1sqLTebcmSzNilld1RMVFYP_nfd5mdW-z/view\">20260727_C4470.MP4</a> from <span class=\"mono\">00:25.4</span>. Start on <q>I've always worked</q> (cut <q>You know,</q>). Stay on her: this line breaks the stereotype, and her face proves it. No B-roll of other women at desks here (they could be mistaken for her).",
+   "motion": "Top text at 00:17 for 3 s, top band: <q>I've always worked.</q> Captions on.",
+   "voice": {
+    "who": "Sherry Wood",
+    "quote": "I've always worked. I've always been in management positions, so I was usually working at least one job, oftentimes two.",
+    "src": "20260727_C4470.MP4 00:25.4 to 00:34.5"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I've always worked"
+    }
+   ]
+  },
+  {
+   "tc": "00:25–00:31",
+   "beat": "AT 68",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Her face, <a href=\"https://drive.google.com/file/d/1sqLTebcmSzNilld1RMVFYP_nfd5mdW-z/view\">20260727_C4470.MP4</a> from <span class=\"mono\">00:45.8</span>. Stop on <q>when I got here,</q> (the next words are the hook, already used).",
+   "motion": "Number pop at 00:27 for 2.5 s, top band, as she says it: <q>68</q> years old. Captions on.",
+   "voice": {
+    "who": "Sherry Wood",
+    "quote": "I don't even remember how I got to this point in my life, but at 68 years old, I was 67 when I got here.",
+    "src": "20260727_C4470.MP4 00:45.8 to 00:52.2"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I don't even remember"
+    }
+   ]
+  },
+  {
+   "tc": "00:31–00:37",
+   "beat": "THE TURN",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "On <q>This place has been amazing</q>: the outside of the pink building on her campus (Atdhe asked for it). B-roll TBD on scrub: no outside shot of the downtown campus is in the July shoot folders. Until one is found, stay on her face. Back on her face for <q>It's kept me off the streets.</q> She is on the downtown (main) campus: never Vista Colina or drone shots here.",
+   "motion": "Top text at 00:33 for 2.5 s, top band, as she says it: <q>It's saved my life.</q> Captions on.",
+   "voice": {
+    "who": "Sherry Wood",
+    "quote": "This place has been amazing. It's saved my life. It's kept me off the streets.",
+    "src": "20260727_C4470.MP4 01:14.8 to 01:20.2"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Small lift.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "This place"
+    }
+   ]
+  },
+  {
+   "tc": "00:37–00:45",
+   "beat": "GRATEFUL",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Her face, <a href=\"https://drive.google.com/file/d/1sqLTebcmSzNilld1RMVFYP_nfd5mdW-z/view\">20260727_C4470.MP4</a> from <span class=\"mono\">01:32.7</span>. Leave out everything between <span class=\"mono\">01:20.2</span> and <span class=\"mono\">01:32.0</span> (her health story: not without her sign-off). Atdhe hears <q>when I had no one</q> here; the transcript has <q>But I had no one</q>. Start on <q>I had</q> and caption what she says.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Sherry Wood",
+    "quote": "I had no one, nowhere to go, nowhere to turn. And this place saved my life. I'm so grateful for it. Every day, I thank God.",
+    "src": "20260727_C4470.MP4 01:32.7 to 01:40.5"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I had no one"
+    }
+   ]
+  },
+  {
+   "tc": "00:45–00:53",
+   "beat": "MOST AMAZING PLACE",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Start on <q>It's the most</q>: cut out <q>Just that</q> (Atdhe). On <q>the most amazing place I've ever been</q> cut to <a href=\"https://drive.google.com/file/d/103LuyvJRAYBftRAzCtmgq03nmc8GvqpV/view\">20260727_C4418.MP4</a> from <span class=\"mono\">00:03.0</span> for 2.5 s (the <q>SHELTER SUPPORT STAFF</q> board with staff photos). Her face for <q>Like I said</q>. Atdhe noted her voice gets quiet on one part of this cut: lift it with clip gain, not a hard compressor.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Sherry Wood",
+    "quote": "It's the most amazing place I've ever been. Like I said, I had nowhere to go, no one to turn to, and at my age, it's pretty frightening.",
+    "src": "20260727_C4470.MP4 02:04.9 to 02:12.7"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "clip": "20260727_C4418.MP4",
+     "at": 3.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "Downtown Shelter B Roll/Staff B Roll @ Downtown Shelter/20260727_C4418.MP4",
+     "drive": "103LuyvJRAYBftRAzCtmgq03nmc8GvqpV",
+     "layout": "full",
+     "what": "Shelter Support Staff board with staff photos"
+    },
+    {
+     "face": true,
+     "from_word": "Like I said"
+    }
+   ]
+  },
+  {
+   "tc": "00:53–01:06",
+   "beat": "FRIENDS FOR LIFE",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Start on <q>I was amazed</q>. Cut out her stutter and cover it with <a href=\"https://drive.google.com/file/d/1C0oq2gfe8Tbgyo3vnvXomkuj2AAUHdAm/view\">20260727_C4426.MP4</a> from <span class=\"mono\">00:04.0</span> for 3 s (a staff member at a desk, smiling, in conversation). Her face for <q>And they'll be friends for life.</q> Atdhe hears <q>Because they're just everyday people</q>; the transcript has <q>You know, they're</q>. Start on <q>they're</q> unless <q>Because</q> is clearly there. On <q>like staff members</q> cut to <a href=\"https://drive.google.com/file/d/1Ke5J-9GK8a8oD1-iJ3USr3xj1g4KRO7A/view\">20260727_C4434.MP4</a> from <span class=\"mono\">00:20.0</span> for 2.5 s (a staff member at a desk with a laptop, talking with someone).",
+   "motion": "Top text at 00:59 for 2.5 s, top band, as she says it: <q>And they'll be friends for life.</q> Captions on.",
+   "voice": {
+    "who": "Sherry Wood",
+    "quote": "I was amazed to find that some of the most amazing people I've ever met, I've met here. And they'll be friends for life. They're just everyday people like you, like myself, like staff members.",
+    "src": "20260727_C4470.MP4 02:31.3 to 02:38.8 + 02:39.8 to 02:44.9"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Small lift, then resolve.",
+   "shots": [
+    {
+     "clip": "20260727_C4426.MP4",
+     "at": 4.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "Downtown Shelter B Roll/Staff B Roll @ Downtown Shelter/20260727_C4426.MP4",
+     "drive": "1C0oq2gfe8Tbgyo3vnvXomkuj2AAUHdAm",
+     "layout": "full",
+     "what": "staff member at a desk, smiling, in conversation"
+    },
+    {
+     "face": true,
+     "from_word": "And they'll be"
+    },
+    {
+     "clip": "20260727_C4434.MP4",
+     "at": 20.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "Downtown Shelter B Roll/Staff B Roll @ Downtown Shelter/20260727_C4434.MP4",
+     "drive": "1Ke5J-9GK8a8oD1-iJ3USr3xj1g4KRO7A",
+     "layout": "full",
+     "what": "staff member at a desk with a laptop"
+    }
+   ]
+  },
+  {
+   "tc": "01:06–01:10",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "CASS end card on the navy <span class=\"mono\">#2C2B77</span> background. The logo is here only.",
+   "motion": "End card: CASS logo, then the line <q>For more information visit cassaz.org</q>. Big enough to read.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music out, 1 s fade.",
+   "shots": []
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/173RqbvQDPqpGYetufr6q1CL_zRCrLVXx/edit\">CASS Williams Family Community Dinner Production Brief</a>"
+  ],
+  [
+   "Editing brief",
+   "Nick's editor brief on the Monday item (5 Aug), plus Atdhe's Frame.io notes (11 Aug to 23 Oct). This page carries them."
+  ],
+  [
+   "Current cut",
+   "<a href=\"https://f.io/eAcQTIkG\">Frame.io: CASSSherrySavedMyLife001</a> · <a href=\"https://drive.google.com/file/d/1wDQsekapxkfKBMT-caOC2Gfr5KnfwlQZ/view\">Traditional_CASSSherrySavedMyLife001-6.mp4</a>"
+  ],
+  [
+   "Footage folder",
+   "<a href=\"https://drive.google.com/drive/folders/1Gn6-CcgXmATGQXax3ENW_9aMCtOXZ44O\">CASS Shoot July 2026 raw</a> · <a href=\"https://drive.google.com/drive/folders/1PoTaPGKdY9J6hoOLSQ59WKpy4rf-Qqgq\">Sherry Client Interview</a> · <a href=\"https://drive.google.com/drive/folders/1-VbE87gu0vvoE7ThIbqg-f2mOCVAEwpU\">Downtown Shelter B Roll</a>"
+  ],
+  [
+   "Interview clip",
+   "<a href=\"https://drive.google.com/file/d/1sqLTebcmSzNilld1RMVFYP_nfd5mdW-z/view\">20260727_C4470.MP4</a> · 4:22 · 16:9"
+  ],
+  [
+   "B-roll picks",
+   "<a href=\"https://drive.google.com/file/d/1uF1jlhyIKUcQ1XSlc7RmgBRN7ytHLaTt/view\">20260727_C4419.MP4</a> 0:02 · <a href=\"https://drive.google.com/file/d/103LuyvJRAYBftRAzCtmgq03nmc8GvqpV/view\">20260727_C4418.MP4</a> 0:03 · <a href=\"https://drive.google.com/file/d/1C0oq2gfe8Tbgyo3vnvXomkuj2AAUHdAm/view\">20260727_C4426.MP4</a> 0:04 · <a href=\"https://drive.google.com/file/d/1Ke5J-9GK8a8oD1-iJ3USr3xj1g4KRO7A/view\">20260727_C4434.MP4</a> 0:20"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/15hBcPObZV07752PA-gcFyWuygufetz7R0ueQWyDVTRc/edit\">Sherry Wood — Transcript</a> · <a href=\"https://drive.google.com/file/d/1rSSMjtXJQZLLZG5dEABhoZsVG86WFxcm/view\">CASS Client Interviews.transcript.json</a> (word times)"
+  ],
+  [
+   "Caption file",
+   "<a href=\"https://drive.google.com/file/d/1gTW1wKz0AqEMb948vndtjvc_HiTQ1zew/view\">CASS Shoot July 2026.srt</a>"
+  ],
+  [
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/1F2c4uUZYW9bDxq3SNuPL-fxY-j-B6gn9/view\">visual.json</a> (shoot shot index, coarse)."
+  ],
+  [
+   "Brand",
+   "Work Sans. CASS Navy <span class=\"mono\">#2C2B77</span>, CASS Green <span class=\"mono\">#26B485</span>, CASS Blue <span class=\"mono\">#006C9F</span>, CASS Purple <span class=\"mono\">#7E3F98</span>, Light Neutral <span class=\"mono\">#EEEEF1</span>."
+  ],
+  [
+   "Music",
+   "Soft, hopeful, no lyrics. Cleared against YouTube and Facebook claims."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "<span class=\"mono\">20260727_C4470.MP4</span>: 1920×1080, 23.976 fps in visual.json (check the camera file on import). Lav into the camera."
+  ],
+  [
+   "Timeline",
+   "1080×1920 at <b>23.976 fps</b>."
+  ],
+  [
+   "Crop",
+   "16:9 to 9:16, centred on Sherry. Check every B-roll crop by eye: no frames were pulled this run."
+  ],
+  [
+   "Audio",
+   "Atdhe flagged four spots: a strange sound on <q>years</q> (the join after <q>68 years old,</q>), a quiet part, an echo, and an audio overlap. Use 2-frame crossfades and room tone at every join, lift quiet words with clip gain, and make sure no second track plays under her voice."
+  ],
+  [
+   "Loudness",
+   "-14 LUFS integrated, -1 dBTP peak. Music under the voice."
+  ],
+  [
+   "Pauses",
+   "Pauses over 0.7 s inside a bite are cut to about 0.25 s."
+  ],
+  [
+   "Captions",
+   "Burned in, Work Sans, white <span class=\"mono\">#FFFFFF</span> on the CASS navy <span class=\"mono\">#2C2B77</span> box, max 2 lines. CASS in capitals."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920, 9:16. Upload to Frame.io, then Ready for Review."
+  ]
+ ],
+ "checklist": [
+  "Frame 1 is Sherry talking, with <q>I had nowhere to stay.</q> already on screen. No logo, name or fade.",
+  "Name super from 00:09: Sherry Wood · 68 · CASS client.",
+  "Captions read: <q>I found myself, nowhere to go</q>, <q>Divorced, again, and</q>, <q>My name is</q>, <q>in management positions.</q>, <q>oftentimes two.</q>, <q>but at 68 years old,</q>, <q>And this place saved my life.</q>, <q>Every day, I thank God,</q>, <q>It's the most</q>, <q>I've ever met, I've met here.</q>",
+  "No <q>Just that</q>, no stutter, no <q>incognito</q>, no health story.",
+  "The four shots Atdhe marked on Frame.io (23 Oct) are gone.",
+  "No Vista Colina, drone or dinner B-roll.",
+  "Every join is smooth: no strange sound on <q>years</q>, no echo, no second track.",
+  "End card: CASS logo with <q>For more information visit cassaz.org</q>.",
+  "The file is 9:16 only."
+ ],
+ "decisions": [
+  {
+   "t": "Outside shot of the pink building",
+   "b": "Atdhe asked for it on <q>This place has been amazing</q>. No outside shot of the downtown campus is in the July shoot folders. Nick: get one from Zsirai, or the row stays on her face."
+  },
+  {
+   "t": "Her release",
+   "b": "Nick's brief says to confirm her release covers social use before delivery. Nick confirms."
+  },
+  {
+   "t": "Reference",
+   "b": "No visual reference on the item or the Production Planning row. Nick owns it."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> Sherry is CASS's founding story in one person: a woman who always worked and still had nowhere to go at 67. CASS wants her composed and grateful, never pitied.",
+ "ask_examples": [
+  "Where is the outside shot of the pink building?",
+  "Which B-roll did Atdhe ask me to remove?",
+  "Can I use the line about being sober?",
+  "What goes on the name super?"
+ ],
+ "transcript": "Machine transcript of Sherry's interview (word times from the shoot's transcript.json). Times are mm:ss.s in the clip. The interviewer's questions are in the same file. Two place names in it are not confirmed and stay out of the cut.\n--- 20260727_C4470.MP4 ---\n[00:00.0] question is just tell me your name, your age, where are you from? [do not use: interviewer]\n[00:03.7] My name is Sherry Wood.\n[00:05.4] I'm 68 years old,\n[00:08.1] incognito, [do not use: aside about her age]\n[00:09.5] and I'm from California originally, but I've been out here for about 35 years.\n[00:14.2] I came out here to raise my son, put him in better schools, and here I am.\n[00:18.5] I would consider you a native now. [do not use: interviewer]\n[00:20.5] What was your life like before you came to CASS? [do not use: interviewer]\n[00:23.7] You know, I've always worked.\n[00:26.4] I've always been in management positions, so I was usually working at least one job, oftentimes two.\n[00:34.8] So busy, busy, busy, busy.\n[00:36.8] And what is one way CASS has changed your life? [do not use: interviewer]\n[00:40.4] You mean saved my life?\n[00:42.5] Because that's when it's done.\n[00:44.1] I don't even remember how I got to this point in my life, but at 68 years old, I was 67 when I got here,\n[00:52.3] I found myself nowhere to go, no family out here, divorced again, and I had nowhere to stay.\n[01:01.4] And I happened to get to CASS through an hip surgery when I got out of the hospital, told my doctor, hey, I don't know where I'm going. [do not use: hip surgery story, not needed]\n[01:12.2] And so they actually took me over to Respero. [do not use: place name not confirmed]\n[01:14.8] This place has been amazing.\n[01:16.9] It's saved my life.\n[01:18.7] It's kept me off the streets.\n[01:20.8] Yeah, I was sober for a long time, but I was like teetering, just, I was just going through a lot. [do not use: health information, needs her sign-off]\n[01:26.2] And so I like to think that it saved me from, you know, maybe even a relapse. [do not use: health information, needs her sign-off]\n[01:31.4] I don't know. [do not use: health information, needs her sign-off]\n[01:32.0] But I had no one, nowhere to go, nowhere to turn.\n[01:35.5] And this place saved my life.\n[01:37.9] I'm so grateful for it.\n[01:39.3] Every day I thank God.\n[01:40.8] And what would you want someone who supports CASS to know about your journey? [do not use: interviewer]\n[01:45.8] I'm sorry? [do not use: interviewer]\n[01:46.9] What would you want someone who supports CASS to know about your journey? [do not use: interviewer]\n[02:03.9] Just that it's the most amazing place I've ever been.\n[02:07.2] Like I said, I had nowhere to go, no one to turn to.\n[02:11.2] And at my age, it's pretty frightening.\n[02:13.4] And I ended up, I went to Respero first, went out for hip surgery. [do not use: place name not confirmed]\n[02:18.8] And when I came back after a couple months, I made it over here to the main campus.\n[02:24.5] And I was like really kind of spooked at first.\n[02:28.3] It's a lot of people here from all walks of life,\n[02:31.2] but I was amazed to find that some of the most amazing people I've ever met, I've met here.\n[02:37.3] And they'll be friends for life.\n[02:39.2] You know, they're just everyday people like you, like myself, like staff members.\n[02:45.3] You know, they just, all it takes unfortunately is a couple of unfortunate events that can happen to anybody and you can be in a position where you have nowhere to go.\n[02:55.2] This place saved my life.\n[02:56.9] And if you had to look yourself in the mirror and give yourself encouragement, what would you say to yourself? [do not use: interviewer]\n[03:04.2] You know, it's about putting one foot in front of the other.\n[03:07.1] You can't give up.\n[03:08.0] This life doesn't allow for that.\n[03:11.1] I mean, people that give up, they end up in bad places.\n[03:15.6] Places like this exist for people like me that are no different than you or anyone else.\n[03:21.5] You know, like I said, one or two unfortunate events and you can find yourself without a place to stay.\n[03:27.0] No home, no friends that can really help, no family.\n[03:31.9] And it's a frightening place to be, but I came here and I met some of the most amazing people I've ever known in my life.\n[03:40.5] People that I'll probably have in my life forever.\n[03:42.6] Staff, other clients, and I'm just grateful.\n[03:45.9] Every day I praise God for leading me here because I have learned so much.\n[03:50.3] Like a lot of people, I had opinions before I ever stayed here.\n[03:54.4] I'd see out front the way it looks and these people just are lazy, don't want to work.\n[04:00.3] No, they're people just like I am that just had some unfortunate things happen.\n[04:05.6] And you know, next thing you know you find yourself in a really dark place.\n[04:11.3] This place is light in the middle of darkness.\n[04:13.8] I'm grateful.\n[04:15.1] Awesome. [do not use: crew talk]\n[04:15.7] Thank you so much. [do not use: crew talk]\n[04:16.8] You're welcome. [do not use: crew talk]\n[04:17.6] It's my pleasure. [do not use: crew talk]\n[04:18.5] I'm happy to do it.\n",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "I found myself nowhere to go, no family out here, divorced again, and I had nowhere to stay.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "The fall, in one line."
+   },
+   {
+    "quote": "You know, I've always worked.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Breaks the stereotype."
+   },
+   {
+    "quote": "I've always been in management positions, so I was usually working at least one job, oftentimes two.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Management, often two jobs."
+   },
+   {
+    "quote": "I don't even remember how I got to this point in my life, but at 68 years old, I was 67 when I got here,",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Her age and the shock."
+   },
+   {
+    "quote": "This place has been amazing.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Short and warm."
+   },
+   {
+    "quote": "It's saved my life.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "The turn in four words."
+   },
+   {
+    "quote": "It's kept me off the streets.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "What CASS did."
+   },
+   {
+    "quote": "But I had no one, nowhere to go, nowhere to turn.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Nowhere to turn."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "I found myself nowhere to go, no family out here, divorced again, and I had nowhere to stay.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "The fall, in one line."
+   },
+   {
+    "quote": "You know, I've always worked.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Breaks the stereotype."
+   },
+   {
+    "quote": "I've always been in management positions, so I was usually working at least one job, oftentimes two.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Management, often two jobs."
+   },
+   {
+    "quote": "I don't even remember how I got to this point in my life, but at 68 years old, I was 67 when I got here,",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Her age and the shock."
+   },
+   {
+    "quote": "This place has been amazing.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Short and warm."
+   },
+   {
+    "quote": "It's saved my life.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "The turn in four words."
+   },
+   {
+    "quote": "It's kept me off the streets.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "What CASS did."
+   },
+   {
+    "quote": "But I had no one, nowhere to go, nowhere to turn.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Nowhere to turn."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "I found myself nowhere to go, no family out here, divorced again, and I had nowhere to stay.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "The fall, in one line."
+   },
+   {
+    "quote": "You know, I've always worked.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Breaks the stereotype."
+   },
+   {
+    "quote": "I don't even remember how I got to this point in my life, but at 68 years old, I was 67 when I got here,",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Her age and the shock."
+   },
+   {
+    "quote": "This place has been amazing.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Short and warm."
+   },
+   {
+    "quote": "It's saved my life.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "The turn in four words."
+   },
+   {
+    "quote": "It's kept me off the streets.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "What CASS did."
+   },
+   {
+    "quote": "But I had no one, nowhere to go, nowhere to turn.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Nowhere to turn."
+   },
+   {
+    "quote": "And this place saved my life.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "The turn, again."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "I found myself nowhere to go, no family out here, divorced again, and I had nowhere to stay.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "The fall, in one line."
+   },
+   {
+    "quote": "You know, I've always worked.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Breaks the stereotype."
+   },
+   {
+    "quote": "I've always been in management positions, so I was usually working at least one job, oftentimes two.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Management, often two jobs."
+   },
+   {
+    "quote": "This place has been amazing.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Short and warm."
+   },
+   {
+    "quote": "It's saved my life.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "The turn in four words."
+   },
+   {
+    "quote": "It's kept me off the streets.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "What CASS did."
+   },
+   {
+    "quote": "But I had no one, nowhere to go, nowhere to turn.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Nowhere to turn."
+   },
+   {
+    "quote": "And this place saved my life.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "The turn, again."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "I found myself nowhere to go, no family out here, divorced again, and I had nowhere to stay.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "The fall, in one line."
+   },
+   {
+    "quote": "You know, I've always worked.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Breaks the stereotype."
+   },
+   {
+    "quote": "I've always been in management positions, so I was usually working at least one job, oftentimes two.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Management, often two jobs."
+   },
+   {
+    "quote": "I don't even remember how I got to this point in my life, but at 68 years old, I was 67 when I got here,",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Her age and the shock."
+   },
+   {
+    "quote": "But I had no one, nowhere to go, nowhere to turn.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Nowhere to turn."
+   },
+   {
+    "quote": "And this place saved my life.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "The turn, again."
+   },
+   {
+    "quote": "I'm so grateful for it.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Gratitude."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "I found myself nowhere to go, no family out here, divorced again, and I had nowhere to stay.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "The fall, in one line."
+   },
+   {
+    "quote": "You know, I've always worked.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Breaks the stereotype."
+   },
+   {
+    "quote": "I've always been in management positions, so I was usually working at least one job, oftentimes two.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Management, often two jobs."
+   },
+   {
+    "quote": "I don't even remember how I got to this point in my life, but at 68 years old, I was 67 when I got here,",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Her age and the shock."
+   },
+   {
+    "quote": "This place has been amazing.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Short and warm."
+   },
+   {
+    "quote": "It's saved my life.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "The turn in four words."
+   },
+   {
+    "quote": "It's kept me off the streets.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "What CASS did."
+   },
+   {
+    "quote": "But I had no one, nowhere to go, nowhere to turn.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Nowhere to turn."
+   }
+  ],
+  "bite:6": [
+   {
+    "quote": "I found myself nowhere to go, no family out here, divorced again, and I had nowhere to stay.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "The fall, in one line."
+   },
+   {
+    "quote": "You know, I've always worked.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Breaks the stereotype."
+   },
+   {
+    "quote": "I've always been in management positions, so I was usually working at least one job, oftentimes two.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Management, often two jobs."
+   },
+   {
+    "quote": "I don't even remember how I got to this point in my life, but at 68 years old, I was 67 when I got here,",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Her age and the shock."
+   },
+   {
+    "quote": "This place has been amazing.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Short and warm."
+   },
+   {
+    "quote": "It's saved my life.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "The turn in four words."
+   },
+   {
+    "quote": "It's kept me off the streets.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "What CASS did."
+   },
+   {
+    "quote": "But I had no one, nowhere to go, nowhere to turn.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Nowhere to turn."
+   }
+  ],
+  "bite:7": [
+   {
+    "quote": "I found myself nowhere to go, no family out here, divorced again, and I had nowhere to stay.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "The fall, in one line."
+   },
+   {
+    "quote": "You know, I've always worked.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Breaks the stereotype."
+   },
+   {
+    "quote": "I've always been in management positions, so I was usually working at least one job, oftentimes two.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Management, often two jobs."
+   },
+   {
+    "quote": "I don't even remember how I got to this point in my life, but at 68 years old, I was 67 when I got here,",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Her age and the shock."
+   },
+   {
+    "quote": "This place has been amazing.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Short and warm."
+   },
+   {
+    "quote": "It's saved my life.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "The turn in four words."
+   },
+   {
+    "quote": "It's kept me off the streets.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "What CASS did."
+   },
+   {
+    "quote": "But I had no one, nowhere to go, nowhere to turn.",
+    "who": "Sherry Wood",
+    "file": "20260727_C4470.MP4",
+    "why": "Nowhere to turn."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "I had nowhere to stay.",
+    "line": "I found myself nowhere to go, no family out here, divorced again, and I had nowhere to stay.",
+    "why": "The fall, plain."
+   },
+   {
+    "text": "This place is light in the middle of darkness.",
+    "line": "This place is light in the middle of darkness.",
+    "why": "Hope as the first frame."
+   },
+   {
+    "text": "It's saved my life.",
+    "line": "It's saved my life.",
+    "why": "The turn as the hook."
+   },
+   {
+    "text": "I've always worked.",
+    "line": "You know, I've always worked.",
+    "why": "Breaks the stereotype at once."
+   },
+   {
+    "text": "No different than you or anyone else.",
+    "line": "Places like this exist for people like me that are no different than you or anyone else.",
+    "why": "Speaks to the viewer."
+   },
+   {
+    "text": "You can't give up.",
+    "line": "You can't give up.",
+    "why": "Short and strong."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "CASS runs a fuller package, but Sherry's face carries this story: hook text, a name super, one number pop, three short top text lines, downtown campus B-roll only, logo only on the end card.",
+  "devices": [
+   {
+    "row": "00:00–00:09",
+    "device": "Hook text, static, top third",
+    "asset": "highlight_callout (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:09–00:17",
+    "device": "Name super; B-roll over the join",
+    "asset": "tag_label; C4419",
+    "source": "Script; Staff B Roll @ Downtown Shelter"
+   },
+   {
+    "row": "00:17–00:25",
+    "device": "Top text",
+    "asset": "highlight_callout",
+    "source": "Script"
+   },
+   {
+    "row": "00:25–00:31",
+    "device": "Number pop 68",
+    "asset": "stat_counter",
+    "source": "Script"
+   },
+   {
+    "row": "00:31–00:37",
+    "device": "Top text; outside of the pink building (TBD)",
+    "asset": "highlight_callout",
+    "source": "Script; footage TBD"
+   },
+   {
+    "row": "00:45–00:53",
+    "device": "B-roll cutaway",
+    "asset": "C4418",
+    "source": "Staff B Roll @ Downtown Shelter"
+   },
+   {
+    "row": "00:53–01:06",
+    "device": "Top text; 2 B-roll shots",
+    "asset": "highlight_callout; C4426, C4434",
+    "source": "Script; Staff B Roll @ Downtown Shelter"
+   },
+   {
+    "row": "01:06–01:10",
+    "device": "End card",
+    "asset": "end_card (CASS name until the logo file is in the repo)",
+    "source": "Script"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "20260727_C4420.MP4",
+    "path": "Downtown Shelter B Roll/Staff B Roll @ Downtown Shelter/20260727_C4420.MP4",
+    "drive": "1_qHIwcJTmbZ6kqpwBGL4mlN7a5ijX2XR",
+    "at": 5.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "Staff at a desk with a laptop, two women talk (visual.json).",
+    "frame": null
+   },
+   {
+    "clip": "20260727_C4428.MP4",
+    "path": "Downtown Shelter B Roll/Staff B Roll @ Downtown Shelter/20260727_C4428.MP4",
+    "drive": "1XEvz6rYZr49593BNnuup3bUBNoISz5vb",
+    "at": 15.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "Two women at a desk, one with a notebook (visual.json).",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "CASS end card (name until the logo file is added)",
+    "kind": "end_card",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
+}

@@ -1,0 +1,126 @@
+{
+ "item": "12727601019",
+ "client": "cass",
+ "note": "The script asks for the hook text, one name super, a number pop, three top text lines and the end card, so 6 graphics and the end card. The CASS logo file is not in endcards/ yet, so the end card types CASS until it is added.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "I had nowhere to stay."
+   },
+   "cue": "Hook text on frame 1: I had nowhere to stay. Already on screen at 0:00. Does not animate on.",
+   "src": "Script, row 00:00–00:09, Motion graphics & type.",
+   "rows": [
+    "00:00–00:09"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Sherry Wood · 68 · CASS client"
+   },
+   "cue": "Name super at 00:09 for 3 s, lower left above the captions: Sherry Wood · 68 · CASS client",
+   "src": "Script, row 00:09–00:17, Motion graphics & type.",
+   "rows": [
+    "00:09–00:17"
+   ],
+   "use": "Put it on at 00:09 for 3 s. Move it lower left, above the captions."
+  },
+  {
+   "n": 3,
+   "title": "Top text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "I've always worked."
+   },
+   "cue": "Top text at 00:17 for 3 s, top band: I've always worked.",
+   "src": "Script, row 00:17–00:25, Motion graphics & type.",
+   "rows": [
+    "00:17–00:25"
+   ],
+   "use": "Put it on at 00:17 as she says it. Hold 3 s in the top band."
+  },
+  {
+   "n": 4,
+   "title": "Number pop",
+   "tpl": "stat_counter",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "number": "68",
+    "label": "years old"
+   },
+   "cue": "Number pop at 00:27 for 2.5 s, top band, as she says it: 68 years old",
+   "src": "Script, row 00:25–00:31, Motion graphics & type.",
+   "rows": [
+    "00:25–00:31"
+   ],
+   "use": "Start at 00:27 so the number lands on <68 years old>. Top band."
+  },
+  {
+   "n": 5,
+   "title": "Top text",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "It's saved my life."
+   },
+   "cue": "Top text at 00:33 for 2.5 s, top band, as she says it: It's saved my life.",
+   "src": "Script, row 00:31–00:37, Motion graphics & type.",
+   "rows": [
+    "00:31–00:37"
+   ],
+   "use": "Put it on at 00:33 as she says it. Top band."
+  },
+  {
+   "n": 6,
+   "title": "Top text",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "And they'll be friends for life."
+   },
+   "cue": "Top text at 00:59 for 2.5 s, top band, as she says it: And they'll be friends for life.",
+   "src": "Script, row 00:53–01:06, Motion graphics & type.",
+   "rows": [
+    "00:53–01:06"
+   ],
+   "use": "Put it on at 00:59 as she says it. Top band."
+  },
+  {
+   "n": 7,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:06–01:10"
+   ],
+   "dur": 4,
+   "cue": "End card: CASS logo, then the line For more information visit cassaz.org.",
+   "src": "No CASS end card or logo in endcards/ yet (checked 3 Nov 2026), so CASS is typed. Line from the script's end card row (the client asked for it on Frame.io); colours from the CASS brand (navy #2C2B77, white).",
+   "c": {
+    "bg": "#2C2B77",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "CASS",
+    "lines": [
+     "For more information visit cassaz.org"
+    ]
+   },
+   "use": "After her last line at 01:06. Hold it to the end. Swap in the CASS logo once it is in the repo."
+  }
+ ]
+}

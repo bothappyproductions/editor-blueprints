@@ -1,0 +1,1101 @@
+{
+ "id": "12731596620",
+ "client": "cass",
+ "eyebrow": "CASS · Vista Colina Family Shelter, Phoenix · July 2026 shoot · Evergreen film for YouTube",
+ "title": "Vista Colina Family Shelter:",
+ "title_q": "“A Landing Pad, Then a Launching Pad”",
+ "title_short": "Vista Colina Family Shelter · Evergreen (YouTube, 16:9)",
+ "editor": "Bleron",
+ "due": "",
+ "format": "16:9 only · 1920×1080",
+ "length": "about 85 s",
+ "edit_key": "CASSVistaColinaEvergreen001",
+ "headline": "Homelessness can happen to anyone; at Vista Colina, families find a landing pad that the CASS team turns into a launching pad.",
+ "story": [
+  "<b>A claim, then the man who proves it.</b> Brittnie says homelessness can happen to anyone; Ian shows how it happened to his family. Crystal widens it from one family to every family.",
+  "The card says what makes Vista Colina different. Bri carries the children. Ian comes back with what he walks out with: six months and the next chapter.",
+  "Brittnie names the model, landing pad to launching pad, and hands it back to the viewer: your neighbors. Documentary, dignified, built from the campus and its people. It must hold up for years on YouTube."
+ ],
+ "feel": [
+  "Documentary",
+  "Dignified",
+  "Hopeful",
+  "Steady"
+ ],
+ "do": [
+  "Follow the approved script's order and timing.",
+  "Lower thirds exactly: Ian Snyder · Client; Crystal Singleton; Bri; Brittnie Stanton. No periods. Bars wide enough for the titles.",
+  "Use Brittnie's lines starting on <q>The individuals</q> and <q>The dignity</q> (cut <q>that</q>).",
+  "Smooth every audio join (Atdhe heard a rough transition).",
+  "End card line: <q>For more information on Vista Colina Family Shelter visit CASSAZ.org</q>."
+ ],
+ "dont": [
+  "No Williams dinner footage (client rule, and it dates the film).",
+  "No child's face, no resident's face without a release, no papers or screens readable.",
+  "Never describe Ian as a single father. Never use his emotional moment at 0:54.",
+  "No logo before the end card.",
+  "No 9:16 export in this file. 16:9 only."
+ ],
+ "links": {
+  "brief": {
+   "title": "CASS-VistaColina-Evergreen-Script-v5-90sec.md",
+   "url": "https://drive.google.com/file/d/1xm3PgdQXU1TNM7XwIOr4Fs3n5yQsBd51/view",
+   "note": "Nick's two-column script, the newest version on Drive (v5, 1:27). Zsirai approved the script on 12 Aug. This page follows it, with Atdhe's Frame.io notes applied."
+  },
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Nick owes it. The client file names Atlanta Rescue Mission and LA Rescue Mission as style references (the client's suggestion)."
+  },
+  "footage": {
+   "title": "CASS Shoot July 2026 raw",
+   "url": "https://drive.google.com/drive/folders/1Gn6-CcgXmATGQXax3ENW_9aMCtOXZ44O",
+   "note": "Interviews: CASS Staff Interviews (Brittnie C4447, Crystal C4262, Brianna C4261) and CASS Client Interviews (Ian C4391). B-roll: CASS Family Shelter Drone Shots, Family Shelter Outdoor B Roll."
+  }
+ },
+ "bp_intro": "Bites come from four interview clips: <span class=\"mono\">20260727_C4447.MP4</span> (Brittnie), <span class=\"mono\">20260726_C4391.MP4</span> (Ian), <span class=\"mono\">20260726_C4262.MP4</span> (Crystal), <span class=\"mono\">20260726_C4261.MP4</span> (Bri). Times are mm:ss.s in each clip, from the word times in the shoot's transcript.json. The row times follow the approved script with pauses over 0.7 s cut. B-roll was picked from visual.json; no frames could be pulled this run, so check each pick on scrub.",
+ "rows": [
+  {
+   "tc": "00:00–00:06",
+   "beat": "THE CLAIM",
+   "kind": "hook",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Drone, low, rising over the Vista Colina campus: <a href=\"https://drive.google.com/file/d/1clDTJD-kfCQgHViHWkrbQ9vrlldJVSyA/view\">DJI_0105.MP4</a> from about <span class=\"mono\">01:40</span> (rooftops with solar panels over the family units). Pick the rising move on scrub. Brittnie is voice only.",
+   "motion": "Captions only. The approved script keeps the opening drone clean: no logo, no lower third.",
+   "voice": {
+    "who": "Brittnie Stanton",
+    "quote": "Homelessness doesn't discriminate. It can actually truly happen to anyone.",
+    "src": "20260727_C4447.MP4 18:15.6 to 18:22.0"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Sparse piano in on frame 1. Cleared for YouTube (CASS has had claims there).",
+   "shots": [
+    {
+     "clip": "DJI_0105.MP4",
+     "at": 100.0,
+     "dur": 6.0,
+     "cx": 0.5,
+     "path": "CASS Family Shelter Drone Shots/DJI_0105.MP4",
+     "drive": "1clDTJD-kfCQgHViHWkrbQ9vrlldJVSyA",
+     "layout": "full",
+     "what": "drone rises over rooftops and the family units"
+    }
+   ]
+  },
+  {
+   "tc": "00:06–00:09",
+   "beat": "TITLE",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Full-frame title card on CASS navy <span class=\"mono\">#2C2B77</span>. Work Sans.",
+   "motion": "Title card, full frame on CASS navy #2C2B77: large <q>Vista Colina Family Shelter</q>, small under it <q>Central Arizona Shelter Services</q> with no period after Services.",
+   "voice": "<span class=\"none\">Music only.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Piano continues.",
+   "shots": []
+  },
+  {
+   "tc": "00:09–00:23",
+   "beat": "THE PROOF",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Ian on camera, <a href=\"https://drive.google.com/file/d/1qDbZUB2o7SgP0cGVCRRvN0Bg2w91wpMl/view\">20260726_C4391.MP4</a>, already talking at <span class=\"mono\">00:22.9</span>. No establishing shot. Around <q>tough times</q> cut to <a href=\"https://drive.google.com/file/d/1u_y10WfDUT7Aj2eUaGOGtzKg7id_gkb5/view\">DJI_0107.MP4</a> from <span class=\"mono\">00:05.0</span> for 2.5 s (a row of white-roofed units and the lot), then <a href=\"https://drive.google.com/file/d/1clDTJD-kfCQgHViHWkrbQ9vrlldJVSyA/view\">DJI_0105.MP4</a> from <span class=\"mono\">04:50</span> for 2.5 s (a black SUV and a white pickup parked by the tent). Back to Ian for <q>living in the car.</q> He gets emotional at <span class=\"mono\">00:54</span>: never use it, never cut to it.",
+   "motion": "Lower third at 00:10 for 3 s: <q>Ian Snyder · Client</q>. Client, not Resident, and no period. Make the bar wide enough that the title does not spill off. Captions on.",
+   "voice": {
+    "who": "Ian Snyder",
+    "quote": "My wife got sick. She was in the hospital for about three to half, four months, and then a month of rehab. I got laid off for my job. And we just caught on tough times, and ended up being homeless, living in the car.",
+    "src": "20260726_C4391.MP4 00:22.9 to 00:39.7"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music drops out under <q>living in the car.</q>",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "My wife"
+    },
+    {
+     "clip": "DJI_0107.MP4",
+     "at": 5.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "CASS Family Shelter Drone Shots/DJI_0107.MP4",
+     "drive": "1u_y10WfDUT7Aj2eUaGOGtzKg7id_gkb5",
+     "layout": "full",
+     "what": "white-roofed units and the lot"
+    },
+    {
+     "clip": "DJI_0105.MP4",
+     "at": 290.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "CASS Family Shelter Drone Shots/DJI_0105.MP4",
+     "drive": "1clDTJD-kfCQgHViHWkrbQ9vrlldJVSyA",
+     "layout": "full",
+     "what": "cars parked by the tent"
+    },
+    {
+     "face": true,
+     "from_word": "living in the car"
+    }
+   ]
+  },
+  {
+   "tc": "00:23–00:33",
+   "beat": "IT ISN'T ONE FAMILY",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "The script wants belongings by a door and hands carrying bags first: B-roll TBD on scrub (no such shot is in the July folders). Until one is found, use <a href=\"https://drive.google.com/file/d/1rc6PumsDlEySO1l3CY07bWtWnSk8bqqJ/view\">DJI_0106.MP4</a> from <span class=\"mono\">03:20</span> for 2.5 s (the lot with a mountain behind). Land on Crystal on camera, <a href=\"https://drive.google.com/file/d/1jT4A5BM4BEjtM6IS-b0BKBHTDti1Ylri/view\">20260726_C4262.MP4</a>, at <q>mothers, fathers, children</q>. Leave 0.3 s after <q>basis</q> (Atdhe: it was cut off).",
+   "motion": "Lower third at 00:26 for 3 s: <q>Crystal Singleton</q> / Program Manager, Vista Colina Family Shelter. Make the bar wide enough for the title. Captions on.",
+   "voice": {
+    "who": "Crystal Singleton",
+    "quote": "I really didn't think children were involved. But every day that I'm here, I see mothers, fathers, children, and I see the barriers and the struggles that they're facing on a day-to-day basis.",
+    "src": "20260726_C4262.MP4 00:44.2 to 00:55.4"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Piano back in, low.",
+   "shots": [
+    {
+     "clip": "DJI_0106.MP4",
+     "at": 200.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "CASS Family Shelter Drone Shots/DJI_0106.MP4",
+     "drive": "1rc6PumsDlEySO1l3CY07bWtWnSk8bqqJ",
+     "layout": "full",
+     "what": "the lot with a mountain behind"
+    },
+    {
+     "face": true,
+     "from_word": "mothers, fathers"
+    }
+   ]
+  },
+  {
+   "tc": "00:33–00:37",
+   "beat": "WHAT MAKES THIS PLACE DIFFERENT",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Full-frame text card on CASS navy <span class=\"mono\">#2C2B77</span>. Let it breathe.",
+   "motion": "Text card, full frame on CASS navy #2C2B77: <q>Here, the work starts with the oldest child.</q>",
+   "voice": "<span class=\"none\">Music only.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music only.",
+   "shots": []
+  },
+  {
+   "tc": "00:37–00:44",
+   "beat": "THE CHILDREN",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Bri on camera, <a href=\"https://drive.google.com/file/d/1FXcK-0S7_kmkFkOPpnSsqSNHNFgX6m3P/view\">20260726_C4261.MP4</a>, from <span class=\"mono\">00:23.6</span>.",
+   "motion": "Lower third at 00:37 for 3 s: <q>Bri</q> / Case Manager, Vista Colina Family Shelter, with no period at the end. Captions on.",
+   "voice": {
+    "who": "Bri",
+    "quote": "Kids in homelessness, they grow up faster than normal average kids do because of the trauma that they experience.",
+    "src": "20260726_C4261.MP4 00:23.6 to 00:30.7"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Kids in homelessness"
+    }
+   ]
+  },
+  {
+   "tc": "00:44–00:52",
+   "beat": "THE TURN",
+   "kind": "turn",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Bri voice over childhood texture, no child's face: <a href=\"https://drive.google.com/file/d/10UGbu5ZkNGanInqYy9afXrckOybJNOKJ/view\">20260726_C4270.MP4</a> from <span class=\"mono\">00:03.0</span> for 2.5 s (a slide and a ball), <a href=\"https://drive.google.com/file/d/1BNB1THTPVd2XWY_aUFvM7LgWPlPzYbAt/view\">20260726_C4268.MP4</a> from <span class=\"mono\">00:08.0</span> for 2.5 s (red and orange slides, a purple ladder), <a href=\"https://drive.google.com/file/d/1gtYJKpz2jia-TbZ17Qu9zBDuwH4mNNnj/view\">20260726_C4275.MP4</a> from <span class=\"mono\">00:02.5</span> for 2.5 s (the orange and purple play structure). No dinner footage (client rule).",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Bri",
+    "quote": "And I think that's when their true happiness kind of comes out is when things start to look a little bit better for their families.",
+    "src": "20260726_C4261.MP4 00:39.1 to 00:46.6"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music lifts here.",
+   "shots": [
+    {
+     "clip": "20260726_C4270.MP4",
+     "at": 3.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "Family Shelter Outdoor B Roll/20260726_C4270.MP4",
+     "drive": "10UGbu5ZkNGanInqYy9afXrckOybJNOKJ",
+     "layout": "full",
+     "what": "a slide and a ball"
+    },
+    {
+     "clip": "20260726_C4268.MP4",
+     "at": 8.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "Family Shelter Outdoor B Roll/20260726_C4268.MP4",
+     "drive": "1BNB1THTPVd2XWY_aUFvM7LgWPlPzYbAt",
+     "layout": "full",
+     "what": "red and orange slides, purple ladder"
+    },
+    {
+     "clip": "20260726_C4275.MP4",
+     "at": 2.5,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "Family Shelter Outdoor B Roll/20260726_C4275.MP4",
+     "drive": "1gtYJKpz2jia-TbZ17Qu9zBDuwH4mNNnj",
+     "layout": "full",
+     "what": "orange and purple play structure"
+    }
+   ]
+  },
+  {
+   "tc": "00:52–00:59",
+   "beat": "WHAT HE WALKS OUT WITH",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Back to Ian briefly, <a href=\"https://drive.google.com/file/d/1qDbZUB2o7SgP0cGVCRRvN0Bg2w91wpMl/view\">20260726_C4391.MP4</a> from <span class=\"mono\">02:04.8</span>. He does say <q>It</q> before <q>gives me</q> (02:04.8): keep it. Then a family walking out through the gate from behind: B-roll TBD on scrub (not in the July folders). Until then use <a href=\"https://drive.google.com/file/d/1mqD7BXFc5prpGjX7YJt_g-eodIJLXcSO/view\">DJI_0108.MP4</a> from <span class=\"mono\">00:38.0</span> for 3 s (from above, a person walks along the lot) as the drone starts to pull up.",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Ian Snyder",
+    "quote": "It gives me six months to save up money, get ready for the next chapter of our lives, and go forward.",
+    "src": "20260726_C4391.MP4 02:04.8 to 02:12.1"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Lift continues.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "It gives me"
+    },
+    {
+     "clip": "DJI_0108.MP4",
+     "at": 38.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "CASS Family Shelter Drone Shots/DJI_0108.MP4",
+     "drive": "1mqD7BXFc5prpGjX7YJt_g-eodIJLXcSO",
+     "layout": "full",
+     "what": "from above, a person walks along the lot"
+    }
+   ]
+  },
+  {
+   "tc": "00:59–01:11",
+   "beat": "THE MODEL",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Brittnie on camera for the first 3 s, <a href=\"https://drive.google.com/file/d/1QEAGk_WHhH4JqdD9OlFGtQcPzdbAFfz9/view\">20260727_C4447.MP4</a> from <span class=\"mono\">13:33.8</span>, then the drone continues up and away: <a href=\"https://drive.google.com/file/d/1rc6PumsDlEySO1l3CY07bWtWnSk8bqqJ/view\">DJI_0106.MP4</a> from about <span class=\"mono\">01:10</span> (the street and rooftops, the city beyond).",
+   "motion": "Lower third at 00:59 for 3 s: <q>Brittnie Stanton</q> / Chief Program Officer, CASS. Captions on.",
+   "voice": {
+    "who": "Brittnie Stanton",
+    "quote": "It is meant to be a landing pad for someone to have some safety and security. And without a case management team or the behavioral health team I mentioned before, it can't turn into a launching pad.",
+    "src": "20260727_C4447.MP4 13:33.8 to 13:45.7"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "It is meant"
+    },
+    {
+     "clip": "DJI_0106.MP4",
+     "at": 70.0,
+     "dur": 8.5,
+     "cx": 0.5,
+     "path": "CASS Family Shelter Drone Shots/DJI_0106.MP4",
+     "drive": "1rc6PumsDlEySO1l3CY07bWtWnSk8bqqJ",
+     "layout": "full",
+     "what": "drone up and away over the street and rooftops"
+    }
+   ]
+  },
+  {
+   "tc": "01:11–01:16",
+   "beat": "BACK TO YOU",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Hold the widest drone frame: <a href=\"https://drive.google.com/file/d/1rc6PumsDlEySO1l3CY07bWtWnSk8bqqJ/view\">DJI_0106.MP4</a> from about <span class=\"mono\">03:25</span> (the lot, a mountain behind). Start the line on <q>The individuals</q> (cut <q>that</q>, Atdhe).",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Brittnie Stanton",
+    "quote": "The individuals that we serve are your neighbors.",
+    "src": "20260727_C4447.MP4 21:15.0 to 21:19.5"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "clip": "DJI_0106.MP4",
+     "at": 205.0,
+     "dur": 5.0,
+     "cx": 0.5,
+     "path": "CASS Family Shelter Drone Shots/DJI_0106.MP4",
+     "drive": "1rc6PumsDlEySO1l3CY07bWtWnSk8bqqJ",
+     "layout": "full",
+     "what": "widest frame, the lot and a mountain behind"
+    }
+   ]
+  },
+  {
+   "tc": "01:16–01:19",
+   "beat": "DIGNITY",
+   "kind": "",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Last drone frame. Use the clean re-take at <span class=\"mono\">22:57.7</span> and start on <q>The dignity</q> (cut <q>That</q>, Atdhe). Never the first try at 21:27, it trails off. Start the dissolve to the end card under <q>invaluable.</q>",
+   "motion": "Captions only.",
+   "voice": {
+    "who": "Brittnie Stanton",
+    "quote": "The dignity we can restore to them is invaluable.",
+    "src": "20260727_C4447.MP4 22:57.7 to 22:59.6"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music starts to resolve.",
+   "shots": [
+    {
+     "clip": "DJI_0106.MP4",
+     "at": 210.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "CASS Family Shelter Drone Shots/DJI_0106.MP4",
+     "drive": "1rc6PumsDlEySO1l3CY07bWtWnSk8bqqJ",
+     "layout": "full",
+     "what": "last drone frame"
+    }
+   ]
+  },
+  {
+   "tc": "01:19–01:25",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Dissolve to the CASS end card on navy <span class=\"mono\">#2C2B77</span>. The logo is here only.",
+   "motion": "End card: CASS logo, then the line <q>For more information on Vista Colina Family Shelter visit CASSAZ.org</q> (Vista Colina casing).",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music resolves.",
+   "shots": []
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Script",
+   "<a href=\"https://drive.google.com/file/d/1xm3PgdQXU1TNM7XwIOr4Fs3n5yQsBd51/view\">CASS-VistaColina-Evergreen-Script-v5-90sec.md</a> (approved by Zsirai, 12 Aug)"
+  ],
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/173RqbvQDPqpGYetufr6q1CL_zRCrLVXx/edit\">CASS Williams Family Community Dinner Production Brief</a> (the 26 Jul Vista Colina shoot day)"
+  ],
+  [
+   "Current cut",
+   "<a href=\"https://f.io/7O3j-12I\">Frame.io: CASSVistaColinaEvergreen001</a> · <a href=\"https://drive.google.com/file/d/16ptAKE4OAZwxbAxsxfwa9xxjwN-ffKjR/view\">Traditional_CASSVistaColinaEvergreen001-4.mp4</a>"
+  ],
+  [
+   "Footage folder",
+   "<a href=\"https://drive.google.com/drive/folders/1Gn6-CcgXmATGQXax3ENW_9aMCtOXZ44O\">CASS Shoot July 2026 raw</a> · <a href=\"https://drive.google.com/drive/folders/1aCEgpyWMJDrF4DCxcbdI2UlCvRgNZq-E\">CASS Family Shelter Drone Shots</a> · <a href=\"https://drive.google.com/drive/folders/1kvY5dMLqMhCLg2v-2CkADARo40-9HRuB\">Family Shelter Outdoor B Roll</a>"
+  ],
+  [
+   "Interview clips",
+   "<a href=\"https://drive.google.com/file/d/1QEAGk_WHhH4JqdD9OlFGtQcPzdbAFfz9/view\">20260727_C4447.MP4</a> (Brittnie, 23:08) · <a href=\"https://drive.google.com/file/d/1qDbZUB2o7SgP0cGVCRRvN0Bg2w91wpMl/view\">20260726_C4391.MP4</a> (Ian, 4:21) · <a href=\"https://drive.google.com/file/d/1jT4A5BM4BEjtM6IS-b0BKBHTDti1Ylri/view\">20260726_C4262.MP4</a> (Crystal, 4:55) · <a href=\"https://drive.google.com/file/d/1FXcK-0S7_kmkFkOPpnSsqSNHNFgX6m3P/view\">20260726_C4261.MP4</a> (Bri, 3:13)"
+  ],
+  [
+   "B-roll picks",
+   "<a href=\"https://drive.google.com/file/d/1clDTJD-kfCQgHViHWkrbQ9vrlldJVSyA/view\">DJI_0105.MP4</a> · <a href=\"https://drive.google.com/file/d/1rc6PumsDlEySO1l3CY07bWtWnSk8bqqJ/view\">DJI_0106.MP4</a> · <a href=\"https://drive.google.com/file/d/1u_y10WfDUT7Aj2eUaGOGtzKg7id_gkb5/view\">DJI_0107.MP4</a> · <a href=\"https://drive.google.com/file/d/1mqD7BXFc5prpGjX7YJt_g-eodIJLXcSO/view\">DJI_0108.MP4</a> · <a href=\"https://drive.google.com/file/d/10UGbu5ZkNGanInqYy9afXrckOybJNOKJ/view\">20260726_C4270.MP4</a> · <a href=\"https://drive.google.com/file/d/1BNB1THTPVd2XWY_aUFvM7LgWPlPzYbAt/view\">20260726_C4268.MP4</a> · <a href=\"https://drive.google.com/file/d/1gtYJKpz2jia-TbZ17Qu9zBDuwH4mNNnj/view\">20260726_C4275.MP4</a>"
+  ],
+  [
+   "Transcripts",
+   "<a href=\"https://docs.google.com/document/d/1rAYpEb_6hmFqU7WJNYpQzQ0XVu3fWVcrjekgSLskyf4/edit\">Brittnie Stanton — Transcript</a> · <a href=\"https://docs.google.com/document/d/1JJfptwiF9O-cG0fi-TtZiJGYiPuJjxv3BKUwQMoCWss/edit\">Ian Snyder — Transcript</a> · <a href=\"https://docs.google.com/document/d/1Y3DdVa6r6UUr0Lf6jBUi208_npWZL7y6zbABy9tajeY/edit\">Crystal Singleton — Transcript</a> · <a href=\"https://docs.google.com/document/d/1LW3gWSE3lAw5VLb--Kwh2KYKOLiag4dBBq1sylO2QCE/edit\">Brianna — Transcript</a>"
+  ],
+  [
+   "Caption file",
+   "<a href=\"https://drive.google.com/file/d/1gTW1wKz0AqEMb948vndtjvc_HiTQ1zew/view\">CASS Shoot July 2026.srt</a>"
+  ],
+  [
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/1F2c4uUZYW9bDxq3SNuPL-fxY-j-B6gn9/view\">visual.json</a> (shoot shot index, coarse)."
+  ],
+  [
+   "Brand",
+   "Work Sans throughout. CASS Navy <span class=\"mono\">#2C2B77</span>, CASS Green <span class=\"mono\">#26B485</span>, CASS Blue <span class=\"mono\">#006C9F</span>, CASS Purple <span class=\"mono\">#7E3F98</span>, Light Neutral <span class=\"mono\">#EEEEF1</span>."
+  ],
+  [
+   "Music",
+   "Sparse piano, hopeful. Must be cleared for YouTube: CASS has had repeat claims on royalty-free tracks."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "Interviews 1920×1080, 23.976 fps in visual.json (check the camera files on import). Drone DJI_0105 to DJI_0108: 2720×1530, 23.976 fps."
+  ],
+  [
+   "Timeline",
+   "1920×1080 at <b>23.976 fps</b>. 16:9 only."
+  ],
+  [
+   "Crop",
+   "No crop: 16:9 to 16:9. Drone can be scaled in up to about 140 percent."
+  ],
+  [
+   "Audio",
+   "Camera audio on every interview. Atdhe flagged a rough transition and two clipped word ends (<q>basis</q>, and one on Bri's or Crystal's line): 2-frame crossfades at every join and 0.3 s of air after the last word of each bite."
+  ],
+  [
+   "Loudness",
+   "-14 LUFS integrated, -1 dBTP peak (YouTube). Music under every voice."
+  ],
+  [
+   "Captions",
+   "Work Sans, white <span class=\"mono\">#FFFFFF</span> on the CASS navy <span class=\"mono\">#2C2B77</span> box, max 2 lines, low in the frame. CASS in capitals."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1920×1080, 16:9. Upload to Frame.io, then Ready for Review."
+  ]
+ ],
+ "checklist": [
+  "The film opens on the drone with Brittnie's voice. No logo, name or fade at 0:00.",
+  "Title card: <q>Vista Colina Family Shelter</q> / <q>Central Arizona Shelter Services</q>, no period.",
+  "Lower thirds: Ian Snyder · Client; Crystal Singleton / Program Manager, Vista Colina Family Shelter; Bri / Case Manager, Vista Colina Family Shelter; Brittnie Stanton / Chief Program Officer, CASS. No periods, no text spilling off.",
+  "Captions read: <q>four months, and then a month</q>, <q>tough times, and</q>, <q>Kids in homelessness, they grow</q>, <q>is when things start</q>, <q>chapter of our lives, and go forward.</q>, <q>money, get ready</q>, and every question ends with <q>?</q>",
+  "Ian's line keeps <q>It gives me</q>.",
+  "Brittnie's lines start on <q>The individuals</q> and <q>The dignity</q>.",
+  "No word is cut off (<q>basis</q>), and every audio join is smooth.",
+  "No dinner footage. No child's face.",
+  "End card: CASS logo with <q>For more information on Vista Colina Family Shelter visit CASSAZ.org</q>.",
+  "The file is 16:9, 1920×1080."
+ ],
+ "decisions": [
+  {
+   "t": "Swap a speaker for a mom from the dinner?",
+   "b": "Atdhe's 17 Sep Frame.io note says <q>Switch her with a mom from the dinner</q>. The same day Zsirai said she does not want the Williams Brothers dinner, and the client file keeps dinner material out of this film. This plan keeps the script's speakers. Nick decides."
+  },
+  {
+   "t": "B-roll from Zsirai",
+   "b": "Atdhe's 17 Sep note: B-roll in one part will be swapped for shots Zsirai sends, wait for them. Nothing new for Vista Colina is in the CASS Drive folders yet. Nick: chase Zsirai or release the edit with the shots on this page."
+  },
+  {
+   "t": "Bri's surname",
+   "b": "Atdhe asked for her last name on 21 Aug. It is not on file (she spells her first name B-R-I-A-N-N-A on camera; the client file says to write Bri). The lower third says Bri until Zsirai gives it."
+  },
+  {
+   "t": "Shots that are not in the folders",
+   "b": "The script asks for belongings by a door, hands carrying bags, and a family walking out through the gate. None of these are in the July shoot folders. This plan uses drone shots in their place."
+  },
+  {
+   "t": "Text on the opening drone",
+   "b": "The house rule is hook text on frame 1; the approved script says no text over the opening drone. This plan follows the script (captions only). Nick: say if you want <q>Homelessness doesn't discriminate.</q> on screen at 0:00."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> this is the first aerial film CASS has of Vista Colina, and the template for The Haven's film. It lives on YouTube for years, so no dinner, no dates, no faces without releases.",
+ "ask_examples": [
+  "What is Ian's title on the lower third?",
+  "Where do the dinner kids go?",
+  "Which take of the dignity line do I use?",
+  "Why is there no hook text at 0:00?"
+ ],
+ "transcript": "Machine transcripts (word times from the shoot's transcript.json). Times are mm:ss.s in each clip. Ian's 0:22 to 0:39 lines are from the Ian Snyder transcript doc, the version the approved script and Atdhe's caption notes use. Crew talk is left out. Interviewer questions are in the same files.\n--- 20260727_C4447.MP4 ---\n[00:01.0] So first question I have for you, can you please just introduce yourself and say like your job title here at CASS?\n[00:08.1] I'm Brittnie Stanton, I'm the Chief Programs Officer here at CASS.\n[00:11.3] Perfect, thank you Brittnie.\n[00:12.7] So first question I have for you is tell us about your role as Chief Programs Officer and what does your day-to-day look like normally?\n[00:22.0] So the day-to-day for me is probably what most people would consider something kind of boring.\n[00:27.9] I am in a lot of meetings, but those meetings are how you get things done in this work.\n[00:32.3] So whether it is with our program leadership, whether it is with funders, the media, external partners, I sit with folks to find out where our services need to fill gaps.\n[00:47.0] So are the programs that we're running working effectively?\n[00:52.6] Are they accomplishing what we're setting out to accomplish?\n[00:55.8] What changes need to be made?\n[01:00.2] Awesome, great explanation.\n[01:02.4] So next question I have for you here is what inspired you to work in homelessness services and what keeps you passionate about this work?\n[01:11.8] So I have always been a carer.\n[01:15.0] So what happens to people really matters to me.\n[01:18.4] And so I have sort of started my career working in mental health services, which then transitioned into housing programs.\n[01:28.4] And then really I realized that the main need was that stability in housing.\n[01:33.6] And so I wanted to work with folks who didn't have that yet and kind of really get in on the ground floor.\n[01:40.6] And so the thing that keeps me motivated to continue to do this day in day is just seeing those small progresses happen for clients.\n[01:48.7] Amazing.\n[01:50.1] And looking back on your time here at CASS, is there a moment or experience that reminds you why this work matters?\n[01:59.6] So something that kind of reminds me why this work matters is just, again, seeing the growth with clients, seeing a smile return to someone's face.\n[02:09.7] It's not uncommon for someone to come to us in the worst day of their life, right?\n[02:15.5] That something happened that brought them here and they feel sort of let down by the system or have just experienced a hardship that I can't even imagine or pretend to understand.\n[02:30.3] And so seeing someone have some light return to their eyes because someone listened or someone was able to provide them assistance is really kind of what keeps me going.\n[02:39.8] Awesome.\n[12:31.1] Okay, got you.\n[12:33.1] So, yeah, I mean many people know CASS as a shelter, but there's so much more happening behind the scenes and you really illustrated that with your answer right there.\n[12:41.4] And then say like why this third part of the question because she kind of answered the first part.\n[12:46.7] Yeah, totally.\n[12:47.9] So.\n[12:48.7] Why is it so important for our team to work together like as one?\n[12:52.9] Got you.\n[12:53.7] Even though we're collaborating, but why is that important that we move at like one?\n[12:57.7] Okay, I'll say it all kind of like at once together.\n[13:01.9] So, yeah, I mean like you said, many people know CASS as a shelter, but there's really so much more happening behind the scenes and you really illustrated that with your answer.\n[13:10.5] So, that makes me wonder why is it so important that the teams here work together as one coordinated system of care?\n[13:19.4] So, each team has sort of their specializations and if we are only addressing somebody's immediate crisis, we aren't helping someone move forward and no one wants to be in shelter long term.\n[13:32.2] And that's not what it's meant for.\n[13:33.8] It is meant to be a landing pad for someone to have some safety and security.\n[13:39.8] And without a case management team or the behavioral health team I mentioned before, it can't turn into a launching pad.\n[13:46.0] And the launching pad is really what we want people to know is still available within shelter, that we are helping someone move to the next best place and continue on in their journey.\n[13:57.9] Awesome.\n[13:59.6] So, every organization is constantly learning and improving.\n[17:25.4] All right, so next one, let's help our community better understand homelessness.\n[17:30.5] So, what are some of the biggest misconceptions people have about homelessness, and what do you wish people in the community here understood about the clients that you all serve?\n[17:40.7] So, I think one of the main misconceptions people have is that it is just individuals who don't want to be in housing, that somebody is choosing to be homeless and ignoring the sort of systemic and socioeconomic factors that come into place to result in someone being unhoused.\n[18:01.6] And so, really recognizing that it is not a personal failing, it is a combination of systems that just aren't working for that person.\n[18:11.9] And I think that I would really like people to realize that homelessness doesn't discriminate, it can actually truly happen to anyone.\n[18:22.5] We have clients with all sorts of backgrounds who have had stable jobs for the majority of their life, weren't living really what somebody would consider unstably housed for a period of time, but medical bills stack up, a loss of a partner who maybe was the main earner in the household, and just the perfect sort of tidal wave of circumstances can happen, and really anyone could potentially end up here.\n[19:59.3] So, the thing that gives me hope, again, is really seeing the progress for our clients.\n[20:04.1] And so, whenever we hear a success story, or a client returns and says, ''Hey, I used to stay here, and I wanna work for you,'' any small sort of peek into someone's future that you're able to get sort of gives hope.\n[20:20.4] And that's where I'm really excited about the growth of some of our programs, and where we might be able to follow along on someone's journey a little bit longer.\n[20:27.3] Totally.\n[20:38.7] So, if viewers remember just one message from this conversation that we've had, what do you hope that it is?\n[21:12.5] I think I hope people remember that the individuals that we serve are your neighbors.\n[21:20.0] They can be someone that your children go to school with, can be your coworker, can be somebody you see on the bus or at Fry's.\n[21:27.1] And just remember that there's a human behind the need, and that the connection and the dignity that we can restore to their lives is kind of, I can't think of the way I wanted to say it. [do not use: she stumbles: use the 22:57 re-take]\n[21:44.3] Is invaluable. [do not use: she stumbles: use the 22:57 re-take]\n[21:45.2] There we go. [do not use: she stumbles: use the 22:57 re-take]\n[22:57.6] That the dignity we can restore to them is invaluable.\n\n--- 20260726_C4391.MP4 ---\n[00:00.0] First question I got for you though, can you just tell me your name and a little bit about who you are?\n[00:04.9] Yeah, my name is Ian Snyder.\n[00:07.2] I'm here at Vista Colina with my wife and two daughters.\n[00:12.0] Got it, thank you, Ian.\n[00:13.4] So, first question I have for you beyond that is what brought your family to Vista Colina?\n[00:22.9] My wife got sick.\n[00:24.8] She was in the hospital for about three to half, four months.\n[00:28.5] And then a month of rehab.\n[00:30.8] I got laid off for my job.\n[00:33.6] And we just caught on tough times\n[00:36.4] and ended up being homeless, living in the car.\n[00:41.0] And registered with 211, went through the whole process, went through the Windermere with CBI and now we're here with, at Vista Colina with CASS, I'm sorry. [do not use: he gets emotional and apologises]\n[00:55.1] I got you, thank you for sharing, man. [do not use: he gets emotional and apologises]\n[00:57.6] So, what has fatherhood asked of you during this chapter of your life?\n[01:04.3] Quite a lot.\n[01:05.2] Honestly, fatherhood has became motherhood in cooking and cleaning and doing laundry, because my wife was sick, if that makes sense.\n[01:17.5] So it's been challenging this year, especially, and then being homeless on top of that.\n[01:22.9] Sometimes people take their partner for granted.\n[01:26.2] I definitely did, so to speak.\n[01:30.4] So this year has been really challenging as a father.\n[01:32.6] It's been a really good test, but I'm up to the challenge and here we are, just moving forward.\n[01:39.2] And what support at Vista Colina has made the biggest difference for your family, would you say?\n[01:46.0] Them just being, making it feel safe for our family, number one, and if we have issues, they address it pretty well.\n[01:58.5] So, I mean, in their services help, definitely.\n[02:03.2] And I'm so thankful for being here.\n[02:04.8] It gives me six months to save up money, get ready for the next chapter of our lives, and go forward.\n[02:13.2] Yeah, that's awesome, for sure.\n[02:15.1] So what does stability mean to you as a father?\n[02:18.8] Stability?\n[02:19.7] Well, number one is not being in this situation.\n[02:23.2] This, being homeless sucks.\n[02:27.1] Just always being there for my family, I have a roof over my head, and it's tough in this economy, especially just being a father, single father. [do not use: he corrects 'single father': do not describe him that way]\n[02:38.2] Well, I'm a single father, but my partner's down, she can't work, so just single income is what I meant to say. [do not use: he corrects 'single father': do not describe him that way]\n[02:44.2] So it makes it strenuous. [do not use: he corrects 'single father': do not describe him that way]\n[02:46.1] So just being a father and being there for my daughters, my family, and supporting them in every way I can, emotionally, financially, et cetera.\n[02:53.9] Definitely.\n[02:55.1] And what gives you hope right now, and what do you want people to understand about families that are facing homelessness?\n[03:05.2] My hope is, I'm just hopeful in general that we have a future, I hope we'll be here.\n[03:10.8] For families that are in this situation, is reach out, I mean, ask for help, do the call 211, do whatever you gotta do, and you get in the system.\n[03:21.7] The system works, you just have to take the steps, and want to apply yourself, and if you do, people will help you.\n[03:30.8] Totally.\n[03:31.6] How does it feel to have an event like this, that you and your family can attend, and have a nice dinner like this?\n[03:36.6] It's nice, especially right outside my door.\n[03:38.3] I mean, it's awesome for the people that put it on, and cash for having it, people that put it together, obviously, hosting it, doing it, I mean, it's nice to have.\n[03:46.8] I like it.\n[03:47.8] Awesome.\n[03:48.7] And the last question I can think of is, what does it mean to you to see two guys that are in the NBA now, and their family coming back, and supporting the community they're from like this?\n[03:57.9] That's awesome.\n[03:58.8] I mean, really, we need more people like that in our communities, to give back to their communities.\n[04:05.0] It's awesome to see.\n[04:06.2] I mean, it shows you that human kindness isn't dead.\n[04:12.0] Exactly.\n[04:13.9] Totally.\n[04:14.4] That's all the specific questions I got for you, but is there anything else you want to share?\n[04:17.2] No, not really.\n[04:18.1] That's it.\n[04:19.2] Awesome.\n[04:19.9] Perfect, great answers, man.\n[04:20.9] I appreciate.\n\n--- 20260726_C4262.MP4 ---\n[00:02.3] OK, can you just start by saying your name and your role here at CASS?\n[00:07.2] Hi, my name is Crystal Singleton, and I'm the program manager at Vista Colina Family Shelter.\n[00:13.7] And as a shelter manager, you see everything from the first night, the cries, and the victories, from staff to clients.\n[00:23.1] Every person who walks through our doors has a different journey.\n[00:27.7] Looking back over your time here at CASS, even though it may have been short, like six months, how has leading a shelter changed the way you see homelessness?\n[00:37.6] Well, I think in the past, when I initially thought of homelessness, I initially thought adults.\n[00:44.2] I really didn't think children were involved.\n[00:47.2] But every day that I'm here, I see mothers, fathers, children, and I see the barriers and the struggles that they're facing on a day-to-day basis.\n[00:56.4] And I think homelessness for families is more than just being homeless.\n[01:01.9] I mean, parents are trying to figure out how to keep their children safe, how to hydrate them, how to obtain employment, identify housing.\n[01:11.5] So there are so many barriers that I never really thought about prior to coming here.\n[01:18.3] Many people think shelter is simply a place to sleep.\n[01:22.8] When someone arrives at CASS for the first time, what do you hope they experience beyond simply just having a bed?\n[01:31.0] Well, I hope the first thing, that they are welcome.\n[01:34.3] I hope they feel welcome.\n[01:36.3] I hope that during their journey, that they feel the support that our staff provides, that they feel heard, that they feel supported, and that they also feel like we're really trying to help them to get to a better space and to be in a better place when they leave.\n[02:06.8] It's difficult to think about employment, housing, or even the future when basic needs aren't met.\n[02:13.9] Once someone knows they'll feel safe and consistent meals are had, what changes do you begin to see?\n[02:21.4] Well, I think, first of all, you begin to see a sense of hope.\n[02:26.9] Hope that things will get better.\n[02:30.8] Hope that they have people here on their side.\n[02:34.5] Hope that they will get those resources to obtain employment and to secure housing.\n[02:45.6] Our pantry is more than shelves stocked with food.\n[02:49.8] It is often the times families begin to regain stability.\n[02:53.8] When our pantry starts running low, what changes do you see?\n[02:57.8] How does it affect both staff and the people that depend on those resources?\n[03:03.2] Well, I think when our pantry runs low, we start to see a sense of fear.\n[03:10.1] Parents will feel like they're not able to support for their families.\n[03:15.8] We see a sense of panic because they just don't know where their next meal is coming from.\n[03:22.9] And so that's why it is so huge that we have our pantry and that we have that food available for our families once they come in or during their stay when food stamps maybe are discontinued or maybe they lose a job and they just don't have enough to meet their needs and the food becomes an issue for them.\n[03:45.2] If someone wanted to make a difference to us in our pantry, what would you want them to understand about the impact of those basic needs?\n\n--- 20260726_C4261.MP4 ---\n[00:00.0] If you could see homelessness through a child's eyes just for one day, what do you think people would understand better?\n[00:08.0] I think people would understand the fear, the scaredness, the feeling of why am I in this situation?\n[00:18.4] Why is my family in this situation?\n[00:20.1] What can I do to fix it?\n[00:23.6] Kids in homelessness, they grow up faster than normal average kids do because of the trauma that they experience.\n[00:32.5] And I think they just want to try to fix and find a way to make things better for their family.\n[00:39.1] And I think that's when their true happiness kind of comes out is when things start to look a little bit better for their families.\n[00:52.9] Food is often the first step towards stability, but it isn't the last.\n[00:58.7] What surprises people most when they learn about food security supports long-term housing stability?\n[01:11.0] Food is often the first step towards stability, but it isn't the last.\n[01:15.5] What surprises people the most when they learn how food security supports long-term housing stability?\n[02:03.4] Let's end with talking about hope.\n[02:06.2] When a family leaves Vista Colina for permanent housing, what moments make you feel like, wow, this is worth it?\n[02:14.7] Um, when I see the kids and they're like, Miss Bri, this is the last time I'm ever going to see you.\n[02:24.5] And I'm like, good.\n[02:25.6] And they're like, what?\n[02:26.8] But I'm like, it's a good thing of, you know, I do see kids come back every once in a while, and I don't want to.\n[02:34.3] I want to see how you've grown outside of here, but not inside of here.\n[02:38.3] But I think that it's getting to see the excitement on their faces of, I'm finally going to go to something that is my own.\n[02:46.6] And if you could describe your job in one word, what would you say?\n[02:50.3] Rewarding.\n",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "And I think that I would really like people to realize that homelessness doesn't discriminate, it can actually truly happen to anyone.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Her main claim."
+   },
+   {
+    "quote": "And so, really recognizing that it is not a personal failing, it is a combination of systems that just aren't working for that person.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Not a personal failing."
+   },
+   {
+    "quote": "It is meant to be a landing pad for someone to have some safety and security.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Landing pad."
+   },
+   {
+    "quote": "And without a case management team or the behavioral health team I mentioned before, it can't turn into a launching pad.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Launching pad."
+   },
+   {
+    "quote": "And the launching pad is really what we want people to know is still available within shelter, that we are helping someone move to the next best place and continue on in their journey.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "The next best place."
+   },
+   {
+    "quote": "I think I hope people remember that the individuals that we serve are your neighbors.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Your neighbors."
+   },
+   {
+    "quote": "They can be someone that your children go to school with, can be your coworker, can be somebody you see on the bus or at Fry's.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Your neighbors, made local."
+   },
+   {
+    "quote": "So, the thing that gives me hope, again, is really seeing the progress for our clients.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "What gives her hope."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "I'm here at Vista Colina with my wife and two daughters.",
+    "who": "Ian Snyder",
+    "file": "20260726_C4391.MP4",
+    "why": "Who he is."
+   },
+   {
+    "quote": "Honestly, fatherhood has became motherhood in cooking and cleaning and doing laundry, because my wife was sick, if that makes sense.",
+    "who": "Ian Snyder",
+    "file": "20260726_C4391.MP4",
+    "why": "Fatherhood, his own words."
+   },
+   {
+    "quote": "It's been a really good test, but I'm up to the challenge and here we are, just moving forward.",
+    "who": "Ian Snyder",
+    "file": "20260726_C4391.MP4",
+    "why": "Moving forward."
+   },
+   {
+    "quote": "Them just being, making it feel safe for our family, number one, and if we have issues, they address it pretty well.",
+    "who": "Ian Snyder",
+    "file": "20260726_C4391.MP4",
+    "why": "What CASS gave: safety."
+   },
+   {
+    "quote": "And I'm so thankful for being here.",
+    "who": "Ian Snyder",
+    "file": "20260726_C4391.MP4",
+    "why": "Thankful."
+   },
+   {
+    "quote": "It gives me six months to save up money, get ready for the next chapter of our lives, and go forward.",
+    "who": "Ian Snyder",
+    "file": "20260726_C4391.MP4",
+    "why": "Six months and the next chapter."
+   },
+   {
+    "quote": "My hope is, I'm just hopeful in general that we have a future, I hope we'll be here.",
+    "who": "Ian Snyder",
+    "file": "20260726_C4391.MP4",
+    "why": "His hope."
+   },
+   {
+    "quote": "The system works, you just have to take the steps, and want to apply yourself, and if you do, people will help you.",
+    "who": "Ian Snyder",
+    "file": "20260726_C4391.MP4",
+    "why": "The system works."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "Well, I think in the past, when I initially thought of homelessness, I initially thought adults.",
+    "who": "Crystal Singleton",
+    "file": "20260726_C4262.MP4",
+    "why": "What she used to think."
+   },
+   {
+    "quote": "And I think homelessness for families is more than just being homeless.",
+    "who": "Crystal Singleton",
+    "file": "20260726_C4262.MP4",
+    "why": "More than being homeless."
+   },
+   {
+    "quote": "So there are so many barriers that I never really thought about prior to coming here.",
+    "who": "Crystal Singleton",
+    "file": "20260726_C4262.MP4",
+    "why": "Barriers she never saw."
+   },
+   {
+    "quote": "I hope they feel welcome.",
+    "who": "Crystal Singleton",
+    "file": "20260726_C4262.MP4",
+    "why": "Welcome."
+   },
+   {
+    "quote": "Well, I think, first of all, you begin to see a sense of hope.",
+    "who": "Crystal Singleton",
+    "file": "20260726_C4262.MP4",
+    "why": "A sense of hope."
+   },
+   {
+    "quote": "Hope that things will get better.",
+    "who": "Crystal Singleton",
+    "file": "20260726_C4262.MP4",
+    "why": "Things will get better."
+   },
+   {
+    "quote": "Hope that they have people here on their side.",
+    "who": "Crystal Singleton",
+    "file": "20260726_C4262.MP4",
+    "why": "People on their side."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "I think people would understand the fear, the scaredness, the feeling of why am I in this situation?",
+    "who": "Bri",
+    "file": "20260726_C4261.MP4",
+    "why": "A child's fear."
+   },
+   {
+    "quote": "And I think they just want to try to fix and find a way to make things better for their family.",
+    "who": "Bri",
+    "file": "20260726_C4261.MP4",
+    "why": "Kids try to fix it."
+   },
+   {
+    "quote": "And I think that's when their true happiness kind of comes out is when things start to look a little bit better for their families.",
+    "who": "Bri",
+    "file": "20260726_C4261.MP4",
+    "why": "True happiness."
+   },
+   {
+    "quote": "I want to see how you've grown outside of here, but not inside of here.",
+    "who": "Bri",
+    "file": "20260726_C4261.MP4",
+    "why": "Grow outside of here."
+   },
+   {
+    "quote": "But I think that it's getting to see the excitement on their faces of, I'm finally going to go to something that is my own.",
+    "who": "Bri",
+    "file": "20260726_C4261.MP4",
+    "why": "Something that is my own."
+   },
+   {
+    "quote": "Rewarding.",
+    "who": "Bri",
+    "file": "20260726_C4261.MP4",
+    "why": "One word: rewarding."
+   }
+  ],
+  "bite:6": [
+   {
+    "quote": "I think people would understand the fear, the scaredness, the feeling of why am I in this situation?",
+    "who": "Bri",
+    "file": "20260726_C4261.MP4",
+    "why": "A child's fear."
+   },
+   {
+    "quote": "Kids in homelessness, they grow up faster than normal average kids do because of the trauma that they experience.",
+    "who": "Bri",
+    "file": "20260726_C4261.MP4",
+    "why": "Kids grow up faster."
+   },
+   {
+    "quote": "And I think they just want to try to fix and find a way to make things better for their family.",
+    "who": "Bri",
+    "file": "20260726_C4261.MP4",
+    "why": "Kids try to fix it."
+   },
+   {
+    "quote": "I want to see how you've grown outside of here, but not inside of here.",
+    "who": "Bri",
+    "file": "20260726_C4261.MP4",
+    "why": "Grow outside of here."
+   },
+   {
+    "quote": "But I think that it's getting to see the excitement on their faces of, I'm finally going to go to something that is my own.",
+    "who": "Bri",
+    "file": "20260726_C4261.MP4",
+    "why": "Something that is my own."
+   },
+   {
+    "quote": "Rewarding.",
+    "who": "Bri",
+    "file": "20260726_C4261.MP4",
+    "why": "One word: rewarding."
+   }
+  ],
+  "bite:7": [
+   {
+    "quote": "I'm here at Vista Colina with my wife and two daughters.",
+    "who": "Ian Snyder",
+    "file": "20260726_C4391.MP4",
+    "why": "Who he is."
+   },
+   {
+    "quote": "Honestly, fatherhood has became motherhood in cooking and cleaning and doing laundry, because my wife was sick, if that makes sense.",
+    "who": "Ian Snyder",
+    "file": "20260726_C4391.MP4",
+    "why": "Fatherhood, his own words."
+   },
+   {
+    "quote": "It's been a really good test, but I'm up to the challenge and here we are, just moving forward.",
+    "who": "Ian Snyder",
+    "file": "20260726_C4391.MP4",
+    "why": "Moving forward."
+   },
+   {
+    "quote": "Them just being, making it feel safe for our family, number one, and if we have issues, they address it pretty well.",
+    "who": "Ian Snyder",
+    "file": "20260726_C4391.MP4",
+    "why": "What CASS gave: safety."
+   },
+   {
+    "quote": "And I'm so thankful for being here.",
+    "who": "Ian Snyder",
+    "file": "20260726_C4391.MP4",
+    "why": "Thankful."
+   },
+   {
+    "quote": "My hope is, I'm just hopeful in general that we have a future, I hope we'll be here.",
+    "who": "Ian Snyder",
+    "file": "20260726_C4391.MP4",
+    "why": "His hope."
+   },
+   {
+    "quote": "The system works, you just have to take the steps, and want to apply yourself, and if you do, people will help you.",
+    "who": "Ian Snyder",
+    "file": "20260726_C4391.MP4",
+    "why": "The system works."
+   },
+   {
+    "quote": "I mean, it shows you that human kindness isn't dead.",
+    "who": "Ian Snyder",
+    "file": "20260726_C4391.MP4",
+    "why": "Human kindness isn't dead."
+   }
+  ],
+  "bite:8": [
+   {
+    "quote": "And I think that I would really like people to realize that homelessness doesn't discriminate, it can actually truly happen to anyone.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Her main claim."
+   },
+   {
+    "quote": "And so, really recognizing that it is not a personal failing, it is a combination of systems that just aren't working for that person.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Not a personal failing."
+   },
+   {
+    "quote": "And the launching pad is really what we want people to know is still available within shelter, that we are helping someone move to the next best place and continue on in their journey.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "The next best place."
+   },
+   {
+    "quote": "I think I hope people remember that the individuals that we serve are your neighbors.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Your neighbors."
+   },
+   {
+    "quote": "They can be someone that your children go to school with, can be your coworker, can be somebody you see on the bus or at Fry's.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Your neighbors, made local."
+   },
+   {
+    "quote": "So, the thing that gives me hope, again, is really seeing the progress for our clients.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "What gives her hope."
+   },
+   {
+    "quote": "That the dignity we can restore to them is invaluable.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "The dignity line (clean re-take)."
+   },
+   {
+    "quote": "It's not uncommon for someone to come to us in the worst day of their life, right?",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Why the work matters."
+   }
+  ],
+  "bite:9": [
+   {
+    "quote": "And I think that I would really like people to realize that homelessness doesn't discriminate, it can actually truly happen to anyone.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Her main claim."
+   },
+   {
+    "quote": "And so, really recognizing that it is not a personal failing, it is a combination of systems that just aren't working for that person.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Not a personal failing."
+   },
+   {
+    "quote": "It is meant to be a landing pad for someone to have some safety and security.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Landing pad."
+   },
+   {
+    "quote": "And without a case management team or the behavioral health team I mentioned before, it can't turn into a launching pad.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Launching pad."
+   },
+   {
+    "quote": "And the launching pad is really what we want people to know is still available within shelter, that we are helping someone move to the next best place and continue on in their journey.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "The next best place."
+   },
+   {
+    "quote": "I think I hope people remember that the individuals that we serve are your neighbors.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Your neighbors."
+   },
+   {
+    "quote": "They can be someone that your children go to school with, can be your coworker, can be somebody you see on the bus or at Fry's.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Your neighbors, made local."
+   },
+   {
+    "quote": "So, the thing that gives me hope, again, is really seeing the progress for our clients.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "What gives her hope."
+   }
+  ],
+  "bite:10": [
+   {
+    "quote": "And I think that I would really like people to realize that homelessness doesn't discriminate, it can actually truly happen to anyone.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Her main claim."
+   },
+   {
+    "quote": "And so, really recognizing that it is not a personal failing, it is a combination of systems that just aren't working for that person.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Not a personal failing."
+   },
+   {
+    "quote": "It is meant to be a landing pad for someone to have some safety and security.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Landing pad."
+   },
+   {
+    "quote": "And without a case management team or the behavioral health team I mentioned before, it can't turn into a launching pad.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Launching pad."
+   },
+   {
+    "quote": "And the launching pad is really what we want people to know is still available within shelter, that we are helping someone move to the next best place and continue on in their journey.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "The next best place."
+   },
+   {
+    "quote": "I think I hope people remember that the individuals that we serve are your neighbors.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Your neighbors."
+   },
+   {
+    "quote": "They can be someone that your children go to school with, can be your coworker, can be somebody you see on the bus or at Fry's.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Your neighbors, made local."
+   },
+   {
+    "quote": "So, the thing that gives me hope, again, is really seeing the progress for our clients.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "What gives her hope."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "Homelessness doesn't discriminate.",
+    "line": "And I think that I would really like people to realize that homelessness doesn't discriminate, it can actually truly happen to anyone.",
+    "why": "The approved opening line."
+   },
+   {
+    "text": "Your neighbors.",
+    "line": "I think I hope people remember that the individuals that we serve are your neighbors.",
+    "why": "Speaks to the viewer."
+   },
+   {
+    "text": "A landing pad, then a launching pad.",
+    "line": "And without a case management team or the behavioral health team I mentioned before, it can't turn into a launching pad.",
+    "why": "The model in one image."
+   },
+   {
+    "text": "I really didn't think children were involved.",
+    "line": "I really didn't think children were involved.",
+    "why": "Surprise, from the program manager."
+   },
+   {
+    "text": "Kids grow up faster.",
+    "line": "Kids in homelessness, they grow up faster than normal average kids do because of the trauma that they experience.",
+    "why": "The children's side."
+   },
+   {
+    "text": "The next chapter of our lives.",
+    "line": "It gives me six months to save up money, get ready for the next chapter of our lives, and go forward.",
+    "why": "Forward motion as the hook."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "Documentary restraint for YouTube: a title card, one text card, four lower thirds, drone and outdoor B-roll, logo only on the end card. Captions on.",
+  "devices": [
+   {
+    "row": "00:00–00:06",
+    "device": "Drone rise, voice over",
+    "asset": "DJI_0105",
+    "source": "CASS Family Shelter Drone Shots"
+   },
+   {
+    "row": "00:06–00:09",
+    "device": "Title card on navy",
+    "asset": "statement_card (MG library, 16:9)",
+    "source": "Script"
+   },
+   {
+    "row": "00:09–00:23",
+    "device": "Lower third, 2 drone cutaways",
+    "asset": "tag_label; DJI_0107, DJI_0105",
+    "source": "Script; Drone Shots"
+   },
+   {
+    "row": "00:23–00:33",
+    "device": "Lower third, 1 drone shot (belongings shot TBD)",
+    "asset": "tag_label; DJI_0106",
+    "source": "Script; Drone Shots"
+   },
+   {
+    "row": "00:33–00:37",
+    "device": "Text card on navy",
+    "asset": "statement_card (16:9)",
+    "source": "Script"
+   },
+   {
+    "row": "00:37–00:44",
+    "device": "Lower third",
+    "asset": "tag_label",
+    "source": "Script"
+   },
+   {
+    "row": "00:44–00:52",
+    "device": "Playground pod, 3 shots, no faces",
+    "asset": "C4270, C4268, C4275",
+    "source": "Family Shelter Outdoor B Roll"
+   },
+   {
+    "row": "00:52–00:59",
+    "device": "Drone pull-up (family through the gate TBD)",
+    "asset": "DJI_0108",
+    "source": "Drone Shots"
+   },
+   {
+    "row": "00:59–01:11",
+    "device": "Lower third, drone up and away",
+    "asset": "tag_label; DJI_0106",
+    "source": "Script; Drone Shots"
+   },
+   {
+    "row": "01:19–01:25",
+    "device": "End card, 16:9",
+    "asset": "end_card (CASS name until the logo file is in the repo)",
+    "source": "Script"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "20260726_C4264.MP4",
+    "path": "Family Shelter Outdoor B Roll/20260726_C4264.MP4",
+    "drive": "1aZrAvIwqCMyraGWWPTX90r0yPQWjsr7C",
+    "at": 3.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "A colourful wooden gazebo in the garden (visual.json).",
+    "frame": null
+   },
+   {
+    "clip": "20260726_C4274.MP4",
+    "path": "Family Shelter Outdoor B Roll/20260726_C4274.MP4",
+    "drive": "1pLsD-YebScwMr3qub0HYWYp7Ndw8lLTt",
+    "at": 3.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "Playground with a slide under a canopy (visual.json).",
+    "frame": null
+   },
+   {
+    "clip": "DJI_0107.MP4",
+    "path": "CASS Family Shelter Drone Shots/DJI_0107.MP4",
+    "drive": "1u_y10WfDUT7Aj2eUaGOGtzKg7id_gkb5",
+    "at": 30.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "Aerial: a blue door marked Office on a stone building (visual.json).",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "CASS end card, 16:9 (name until the logo file is added)",
+    "kind": "end_card",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1920x1080",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
+}

@@ -1,0 +1,129 @@
+{
+ "item": "13252339711",
+ "client": "cass",
+ "note": "The script asks for the hook text, two question texts, one name super, a key-words stack, one top text line and the end card, so 6 graphics and the end card. The CASS logo file is not in endcards/ yet, so the end card types CASS until it is added.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Homelessness doesn't discriminate."
+   },
+   "cue": "Hook text on frame 1: Homelessness doesn't discriminate. Already on screen at 0:00. Does not animate on.",
+   "src": "Script, row 00:00–00:06, Motion graphics & type.",
+   "rows": [
+    "00:00–00:06"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:03. Top third."
+  },
+  {
+   "n": 2,
+   "title": "Question text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "What do you wish people in the community here understood?"
+   },
+   "cue": "Question text at 00:06 for 3 s, top band: What do you wish people in the community here understood?",
+   "src": "Script, row 00:06–00:16, Motion graphics & type.",
+   "rows": [
+    "00:06–00:16"
+   ],
+   "use": "Put it on at 00:06 for 3 s in the top band, before her answer lands."
+  },
+  {
+   "n": 3,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 3,
+   "pos": "center",
+   "text": {
+    "main": "Brittnie Stanton"
+   },
+   "cue": "Name super at 00:09 for 3 s, lower left above the captions: Brittnie Stanton / Chief Program Officer, CASS.",
+   "src": "Script, row 00:06–00:16, Motion graphics & type.",
+   "rows": [
+    "00:06–00:16"
+   ],
+   "use": "Put it on at 00:09 for 3 s. Move it lower left, above the captions. Type the second line Chief Program Officer, CASS under the name."
+  },
+  {
+   "n": 4,
+   "title": "Key words",
+   "tpl": "word_stack",
+   "dur": 6,
+   "pos": "top",
+   "text": {
+    "items": [
+     "Medical bills",
+     "Loss of a partner",
+     "A tidal wave"
+    ]
+   },
+   "cue": "Key words at 00:21, stacked in the top band as she says them: Medical bills / Loss of a partner / A tidal wave",
+   "src": "Script, row 00:16–00:34, Motion graphics & type.",
+   "rows": [
+    "00:16–00:34"
+   ],
+   "use": "Start at 00:21 so each phrase lands as she says it. Top band. Keep captions on."
+  },
+  {
+   "n": 5,
+   "title": "Question text",
+   "tpl": "highlight_callout",
+   "dur": 3,
+   "pos": "top",
+   "text": {
+    "main": "Is there a moment or experience that reminds you why this work matters?"
+   },
+   "cue": "Question text at 00:34 for 3 s, top band: Is there a moment or experience that reminds you why this work matters?",
+   "src": "Script, row 00:34–00:40, Motion graphics & type.",
+   "rows": [
+    "00:34–00:40"
+   ],
+   "use": "Put it on at 00:34 for 3 s in the top band, before her answer lands."
+  },
+  {
+   "n": 6,
+   "title": "Top text",
+   "tpl": "highlight_callout",
+   "dur": 2.5,
+   "pos": "top",
+   "text": {
+    "main": "light return to their eyes"
+   },
+   "cue": "Top text at 00:41 for 2.5 s, top band, as she says it: light return to their eyes",
+   "src": "Script, row 00:40–00:48, Motion graphics & type.",
+   "rows": [
+    "00:40–00:48"
+   ],
+   "use": "Put it on at 00:41 as she says it. Top band."
+  },
+  {
+   "n": 7,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:48–00:52"
+   ],
+   "dur": 4,
+   "cue": "End card: CASS logo, then the line For more information visit cassaz.org.",
+   "src": "No CASS end card or logo in endcards/ yet (checked 3 Nov 2026), so CASS is typed. Line from the script's end card row; colours from the CASS brand (navy #2C2B77, white).",
+   "c": {
+    "bg": "#2C2B77",
+    "fg": "#FFFFFF"
+   },
+   "text": {
+    "name": "CASS",
+    "lines": [
+     "For more information visit cassaz.org"
+    ]
+   },
+   "use": "After her last line at 00:48. Hold it to the end. Swap in the CASS logo once it is in the repo."
+  }
+ ]
+}

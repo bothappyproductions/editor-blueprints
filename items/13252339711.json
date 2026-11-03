@@ -1,0 +1,719 @@
+{
+ "id": "13252339711",
+ "client": "cass",
+ "eyebrow": "CASS · Downtown (main) campus, Phoenix · 27 Jul 2026 · Traditional, part 1 of 2",
+ "title": "Brittnie Stanton:",
+ "title_q": "“It Can Happen to Anyone”",
+ "title_short": "Brittnie Stanton (CPO) · Part 1 · It Can Happen to Anyone",
+ "editor": "Bleron",
+ "due": "",
+ "format": "9:16 only · 1080×1920",
+ "length": "about 52 s",
+ "edit_key": "CASSBrittnieNeighbors001PT1",
+ "headline": "CASS's Chief Program Officer says homelessness does not discriminate: stable jobs, then medical bills or a lost partner, and anyone could end up in shelter; what keeps her going is the light coming back to people's eyes.",
+ "story": [
+  "Brittnie opens with the claim: homelessness doesn't discriminate. Then the why: not a personal failing, but systems that are not working for that person.",
+  "The proof is a list anyone knows: stable jobs, then medical bills, the loss of a partner, a tidal wave of circumstances.",
+  "<b>Turn:</b> people often come to CASS on the worst day of their life. <b>Button:</b> seeing the light return to their eyes is what keeps her going."
+ ],
+ "feel": [
+  "Clear",
+  "Warm",
+  "Hopeful",
+  "Human"
+ ],
+ "do": [
+  "Open on <q>homelessness doesn't discriminate</q> with the hook text on screen at 0:00.",
+  "Put each question on screen before her answer (client rule).",
+  "Caption <q>It's not uncommon for someone to come to us in the worst day of their life.</q> exactly (Atdhe).",
+  "Caption <q>tidal wave</q>, not <q>title wave</q>.",
+  "End on her face: <q>what keeps me going.</q>"
+ ],
+ "dont": [
+  "No dinner footage (client rule). Downtown campus and card hand-out B-roll only.",
+  "No resident's face clear, no private papers readable.",
+  "Use only the lines on this page; the transcript marks what is off limits.",
+  "No logo before the end card.",
+  "Do not use her example at 11:23 to 12:01 (a resident's clinical details)."
+ ],
+ "links": {
+  "brief": null,
+  "reference": {
+   "missing": true,
+   "title": "Not chosen yet",
+   "note": "Nick owes it. Match the full Brittnie traditional (CASSBrittnieNeighbors001) that these parts come from. The client file names Atlanta Rescue Mission and LA Rescue Mission as style references (the client's suggestion)."
+  },
+  "footage": {
+   "title": "CASS Shoot July 2026 raw",
+   "url": "https://drive.google.com/drive/folders/1Gn6-CcgXmATGQXax3ENW_9aMCtOXZ44O",
+   "note": "Interview: CASS Staff Interviews / Brittnie Staff Interview / 20260727_C4447.MP4 (23:08, one camera). B-roll: Downtown Shelter B Roll (Staff B Roll, Cards for Clients)."
+  }
+ },
+ "bp_intro": "All bites are from <span class=\"mono\">20260727_C4447.MP4</span> (23:08). Times are mm:ss.s in that clip, from the word times in the shoot's transcript.json. Pauses over 0.7 s are cut to about 0.25 s. No editing brief exists for the two parts; this plan uses the bites Nick chose for Brittnie's Your Neighbors carousel and the line Atdhe flagged in part 1. B-roll was picked from visual.json; no frames could be pulled this run.",
+ "rows": [
+  {
+   "tc": "00:00–00:06",
+   "beat": "HOOK",
+   "kind": "hook",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Brittnie on camera, <a href=\"https://drive.google.com/file/d/1QEAGk_WHhH4JqdD9OlFGtQcPzdbAFfz9/view\">20260727_C4447.MP4</a>, already talking at <span class=\"mono\">18:15.6</span>. Start on <q>homelessness</q>. Her face is the strongest picture for this line, so no B-roll.",
+   "motion": "Hook text on <b>frame 1</b>: <q>Homelessness doesn't discriminate.</q> Already on screen at 0:00. Does not animate on. Top third. It goes out at 00:03. Captions start on frame 1.",
+   "voice": {
+    "who": "Brittnie Stanton",
+    "quote": "Homelessness doesn't discriminate, it can actually truly happen to anyone.",
+    "src": "20260727_C4447.MP4 18:15.6 to 18:22.0"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Light, hopeful bed starts low on frame 1. No lyrics.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "homelessness"
+    }
+   ]
+  },
+  {
+   "tc": "00:06–00:16",
+   "beat": "NOT A PERSONAL FAILING",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Her face, <a href=\"https://drive.google.com/file/d/1QEAGk_WHhH4JqdD9OlFGtQcPzdbAFfz9/view\">20260727_C4447.MP4</a> from <span class=\"mono\">18:01.6</span>. On <q>a combination of systems</q> cut to <a href=\"https://drive.google.com/file/d/1XEvz6rYZr49593BNnuup3bUBNoISz5vb/view\">20260727_C4428.MP4</a> from <span class=\"mono\">00:05.0</span> for 3 s (two staff members talk at a desk). Back to her face. The interviewer's question audio is at <span class=\"mono\">17:30.5–17:39.5</span> if Nick wants it.",
+   "motion": "Question text at 00:06 for 3 s, top band: <q>What do you wish people in the community here understood?</q> Name super at 00:09 for 3 s, lower left above the captions: <q>Brittnie Stanton</q> / Chief Program Officer, CASS. Captions on.",
+   "voice": {
+    "who": "Brittnie Stanton",
+    "quote": "And so, really recognizing that it is not a personal failing, it is a combination of systems that just aren't working for that person.",
+    "src": "20260727_C4447.MP4 18:01.6 to 18:11.1"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "And so, really"
+    },
+    {
+     "clip": "20260727_C4428.MP4",
+     "at": 5.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "Downtown Shelter B Roll/Staff B Roll @ Downtown Shelter/20260727_C4428.MP4",
+     "drive": "1XEvz6rYZr49593BNnuup3bUBNoISz5vb",
+     "layout": "full",
+     "what": "two staff members talk at a desk"
+    },
+    {
+     "face": true,
+     "from_word": "aren't working"
+    }
+   ]
+  },
+  {
+   "tc": "00:16–00:34",
+   "beat": "IT CAN HAPPEN TO ANYONE",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Her face for <q>We have clients with all sorts of backgrounds</q>. The cut from <span class=\"mono\">18:27.7</span> to <span class=\"mono\">18:34.2</span> sits under <a href=\"https://drive.google.com/file/d/1_qHIwcJTmbZ6kqpwBGL4mlN7a5ijX2XR/view\">20260727_C4420.MP4</a> from <span class=\"mono\">00:04.0</span> for 2.5 s (a staff member at a desk with a laptop). Her face for the rest, so the list lands on her.",
+   "motion": "Key words at 00:21, stacked in the top band as she says them: <q>Medical bills</q> / <q>Loss of a partner</q> / <q>A tidal wave</q>. Captions on.",
+   "voice": {
+    "who": "Brittnie Stanton",
+    "quote": "We have clients with all sorts of backgrounds who have had stable jobs for the majority of their life, but medical bills stack up, a loss of a partner who maybe was the main earner in the household, and just the perfect sort of tidal wave of circumstances can happen, and really anyone could potentially end up here.",
+    "src": "20260727_C4447.MP4 18:22.5 to 18:27.7 + 18:34.2 to 18:48.3"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "We have clients"
+    },
+    {
+     "clip": "20260727_C4420.MP4",
+     "at": 4.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "Downtown Shelter B Roll/Staff B Roll @ Downtown Shelter/20260727_C4420.MP4",
+     "drive": "1_qHIwcJTmbZ6kqpwBGL4mlN7a5ijX2XR",
+     "layout": "full",
+     "what": "staff member at a desk with a laptop"
+    },
+    {
+     "face": true,
+     "from_word": "but medical bills"
+    }
+   ]
+  },
+  {
+   "tc": "00:34–00:40",
+   "beat": "THE WORST DAY",
+   "kind": "",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "Her face, <a href=\"https://drive.google.com/file/d/1QEAGk_WHhH4JqdD9OlFGtQcPzdbAFfz9/view\">20260727_C4447.MP4</a> from <span class=\"mono\">02:09.7</span>. End on <q>life.</q> (cut <q>right?</q>). The interviewer's question audio is at <span class=\"mono\">01:50.1–01:57.2</span> if Nick wants it.",
+   "motion": "Question text at 00:34 for 3 s, top band: <q>Is there a moment or experience that reminds you why this work matters?</q> Captions on.",
+   "voice": {
+    "who": "Brittnie Stanton",
+    "quote": "It's not uncommon for someone to come to us in the worst day of their life.",
+    "src": "20260727_C4447.MP4 02:09.7 to 02:14.6"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Bed under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "It's not uncommon"
+    }
+   ]
+  },
+  {
+   "tc": "00:40–00:48",
+   "beat": "LIGHT RETURNS",
+   "kind": "turn",
+   "frame": null,
+   "crop": "c",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "On <q>because someone listened</q> cut to <a href=\"https://drive.google.com/file/d/1C0oq2gfe8Tbgyo3vnvXomkuj2AAUHdAm/view\">20260727_C4426.MP4</a> from <span class=\"mono\">00:04.0</span> for 2.5 s (a staff member smiles in conversation). On <q>provide them assistance</q> cut to <a href=\"https://drive.google.com/file/d/1EOLl6gTKEYqSHTi5YoiPNWvf9qE-M-Y_/view\">20260727_C4454.MP4</a> from <span class=\"mono\">00:04.0</span> for 2 s (CASS cards, close up). Her face for <q>what keeps me going.</q> Hold 1 s.",
+   "motion": "Top text at 00:41 for 2.5 s, top band, as she says it: <q>light return to their eyes</q>. Captions on.",
+   "voice": {
+    "who": "Brittnie Stanton",
+    "quote": "And so seeing someone have some light return to their eyes because someone listened or someone was able to provide them assistance is really kind of what keeps me going.",
+    "src": "20260727_C4447.MP4 02:30.3 to 02:38.5"
+   },
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Small lift, then resolve.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "And so seeing"
+    },
+    {
+     "clip": "20260727_C4426.MP4",
+     "at": 4.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "Downtown Shelter B Roll/Staff B Roll @ Downtown Shelter/20260727_C4426.MP4",
+     "drive": "1C0oq2gfe8Tbgyo3vnvXomkuj2AAUHdAm",
+     "layout": "full",
+     "what": "staff member smiles in conversation"
+    },
+    {
+     "clip": "20260727_C4454.MP4",
+     "at": 4.0,
+     "dur": 2.0,
+     "cx": 0.5,
+     "path": "Downtown Shelter B Roll/Cards for Clients/20260727_C4454.MP4",
+     "drive": "1EOLl6gTKEYqSHTi5YoiPNWvf9qE-M-Y_",
+     "layout": "full",
+     "what": "CASS cards, close up"
+    },
+    {
+     "face": true,
+     "from_word": "what keeps me going"
+    }
+   ]
+  },
+  {
+   "tc": "00:48–00:52",
+   "beat": "END CARD",
+   "kind": "end",
+   "frame": null,
+   "crop": "none",
+   "frame_tag": null,
+   "frame_alt": null,
+   "visual": "CASS end card on the navy <span class=\"mono\">#2C2B77</span> background. The logo is here only.",
+   "motion": "End card: CASS logo, then the line <q>For more information visit cassaz.org</q>. Big enough to read.",
+   "voice": "<span class=\"none\">No voice.</span>",
+   "sfx": "<span class=\"none\">None.</span>",
+   "music": "Music out, 1 s fade.",
+   "shots": []
+  }
+ ],
+ "frames": {},
+ "files": [
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/173RqbvQDPqpGYetufr6q1CL_zRCrLVXx/edit\">CASS Williams Family Community Dinner Production Brief</a> (both shoot days)"
+  ],
+  [
+   "Editing brief",
+   "None for the two parts. Bites follow Nick's carousel brief on Monday item 12731711172 (Brittnie Stanton, Your Neighbors)."
+  ],
+  [
+   "Current cut",
+   "<a href=\"https://f.io/jBUtANtD\">Frame.io: part 1</a> · <a href=\"https://drive.google.com/file/d/1gpGP6A8ewHNlXrYXO1PJdrBPN6tlmHe6/view\">Traditional_CASSBrittnieNeighbors001PT1-1.mp4</a>"
+  ],
+  [
+   "Full traditional",
+   "<a href=\"https://drive.google.com/file/d/19Sy8wLKHWEZguMz1IOPpbOro6vfkV0RL/view\">Traditional_CASSBrittnieNeighbors001-5.mp4</a> (the long cut these parts come from)."
+  ],
+  [
+   "Footage folder",
+   "<a href=\"https://drive.google.com/drive/folders/1Gn6-CcgXmATGQXax3ENW_9aMCtOXZ44O\">CASS Shoot July 2026 raw</a> · <a href=\"https://drive.google.com/drive/folders/11ezuyUrUgCJv_h7WgclAzCu6krmwdwBT\">Brittnie Staff Interview</a> · <a href=\"https://drive.google.com/drive/folders/1-VbE87gu0vvoE7ThIbqg-f2mOCVAEwpU\">Downtown Shelter B Roll</a>"
+  ],
+  [
+   "Interview clip",
+   "<a href=\"https://drive.google.com/file/d/1QEAGk_WHhH4JqdD9OlFGtQcPzdbAFfz9/view\">20260727_C4447.MP4</a> · 23:08 · 16:9"
+  ],
+  [
+   "B-roll picks",
+   "<a href=\"https://drive.google.com/file/d/1XEvz6rYZr49593BNnuup3bUBNoISz5vb/view\">20260727_C4428.MP4</a> 00:05.0 · <a href=\"https://drive.google.com/file/d/1_qHIwcJTmbZ6kqpwBGL4mlN7a5ijX2XR/view\">20260727_C4420.MP4</a> 00:04.0 · <a href=\"https://drive.google.com/file/d/1C0oq2gfe8Tbgyo3vnvXomkuj2AAUHdAm/view\">20260727_C4426.MP4</a> 00:04.0 · <a href=\"https://drive.google.com/file/d/1EOLl6gTKEYqSHTi5YoiPNWvf9qE-M-Y_/view\">20260727_C4454.MP4</a> 00:04.0"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1rAYpEb_6hmFqU7WJNYpQzQ0XVu3fWVcrjekgSLskyf4/edit\">Brittnie Stanton — Transcript</a> · <a href=\"https://drive.google.com/file/d/1Nk-80Wo77cJWCbVh7go8pmkvFFk2mSSQ/view\">CASS Staff Interviews.transcript.json</a> (word times)"
+  ],
+  [
+   "Caption file",
+   "<a href=\"https://drive.google.com/file/d/15-w3f7RE5CsAt1cucIqp_EuUgIyco72D/view\">Brittnie Staff Interview.srt</a>"
+  ],
+  [
+   "visual.json",
+   "<a href=\"https://drive.google.com/file/d/1F2c4uUZYW9bDxq3SNuPL-fxY-j-B6gn9/view\">visual.json</a> (shoot shot index, coarse)."
+  ],
+  [
+   "Brand",
+   "Work Sans. CASS Navy <span class=\"mono\">#2C2B77</span>, CASS Green <span class=\"mono\">#26B485</span>, CASS Blue <span class=\"mono\">#006C9F</span>, CASS Purple <span class=\"mono\">#7E3F98</span>, Light Neutral <span class=\"mono\">#EEEEF1</span>."
+  ],
+  [
+   "Music",
+   "Light, hopeful, no lyrics. Cleared against YouTube and Facebook claims."
+  ]
+ ],
+ "tech": [
+  [
+   "Source",
+   "<span class=\"mono\">20260727_C4447.MP4</span>: 1920×1080, 23.976 fps in visual.json (check the camera file on import). One camera. Lav into the camera."
+  ],
+  [
+   "Timeline",
+   "1080×1920 at <b>23.976 fps</b>."
+  ],
+  [
+   "Crop",
+   "16:9 to 9:16, centred on Brittnie. One camera only, so hide jumps with the B-roll on this page. Check every crop by eye: no frames were pulled this run."
+  ],
+  [
+   "Audio",
+   "Camera audio. Check both channels on the first bite and use the cleaner one. 2-frame crossfades at every join."
+  ],
+  [
+   "Loudness",
+   "-14 LUFS integrated, -1 dBTP peak. Music under the voice."
+  ],
+  [
+   "Pauses",
+   "Pauses over 0.7 s inside a bite are cut to about 0.25 s."
+  ],
+  [
+   "Captions",
+   "Burned in, Work Sans, white <span class=\"mono\">#FFFFFF</span> on the CASS navy <span class=\"mono\">#2C2B77</span> box, max 2 lines. CASS in capitals."
+  ],
+  [
+   "Export",
+   "H.264 MP4, 1080×1920, 9:16. Upload to Frame.io, then Ready for Review."
+  ]
+ ],
+ "checklist": [
+  "Frame 1 is Brittnie talking with <q>Homelessness doesn't discriminate.</q> already on screen. No logo, name or fade.",
+  "Both questions are on screen before her answers.",
+  "Name super from 00:09: Brittnie Stanton / Chief Program Officer, CASS.",
+  "The worst-day caption ends on <q>life.</q>, spelled exactly as Atdhe wrote it.",
+  "Captions say CASS in capitals and <q>tidal wave</q>.",
+  "No dinner B-roll anywhere.",
+  "No resident's face clear in any B-roll.",
+  "End card: CASS logo with <q>For more information visit cassaz.org</q>.",
+  "The file is 9:16 only."
+ ],
+ "decisions": [
+  {
+   "t": "No editing brief for the two parts",
+   "b": "Monday has no brief for part 1 or part 2, and the full Brittnie cut has no Monday item. This plan uses Nick's carousel bites (Your Neighbors) and the line Atdhe flagged in part 1. Nick: confirm the split, or send the brief."
+  },
+  {
+   "t": "B-roll rule for Brittnie",
+   "b": "The 13 Oct Frame.io note on part 2 says no downtown-shelter footage in her cut. The client file (Zsirai, 17 Sep) says downtown B-roll is fine for Brittnie and the card hand-out B-roll is only for her. This plan uses downtown and card B-roll, never dinner. Nick confirms."
+  },
+  {
+   "t": "Her title",
+   "b": "On camera she says <q>Chief Programs Officer</q>. Atdhe's 21 Aug note on the Vista Colina film writes the super as <q>Chief Program Officer, CASS</q>. This plan uses Atdhe's. Nick confirms with Zsirai."
+  },
+  {
+   "t": "Question as text or as voice",
+   "b": "Zsirai wants the interviewer's question before each answer. Here it is on screen as top text. If Nick wants the interviewer's voice instead, the question audio is in the same clip (times on the rows)."
+  }
+ ],
+ "client_note": "<b>Why this matters:</b> Zsirai wants staff videos where the question comes before the answer and the B-roll comes from the shelter the speaker works at. Brittnie's lines are facts a donor does not know yet.",
+ "ask_examples": [
+  "Where does the question go?",
+  "Which B-roll can I use for Brittnie?",
+  "What is her title on the super?",
+  "Can I use the dinner footage?"
+ ],
+ "transcript": "Machine transcript of Brittnie's interview (word times from the shoot's transcript.json). Times are mm:ss.s in the clip. Crew talk and re-ask chatter are left out. The interviewer's questions are in the same file. tidal wave is written as she says it.\n--- 20260727_C4447.MP4 ---\n[00:01.0] So first question I have for you, can you please just introduce yourself and say like your job title here at CASS?\n[00:08.1] I'm Brittnie Stanton, I'm the Chief Programs Officer here at CASS.\n[00:11.3] Perfect, thank you Brittnie.\n[00:12.7] So first question I have for you is tell us about your role as Chief Programs Officer and what does your day-to-day look like normally?\n[00:22.0] So the day-to-day for me is probably what most people would consider something kind of boring.\n[00:27.9] I am in a lot of meetings, but those meetings are how you get things done in this work.\n[00:32.3] So whether it is with our program leadership, whether it is with funders, the media, external partners, I sit with folks to find out where our services need to fill gaps.\n[00:47.0] So are the programs that we're running working effectively?\n[00:52.6] Are they accomplishing what we're setting out to accomplish?\n[00:55.8] What changes need to be made?\n[01:00.2] Awesome, great explanation.\n[01:02.4] So next question I have for you here is what inspired you to work in homelessness services and what keeps you passionate about this work?\n[01:11.8] So I have always been a carer.\n[01:15.0] So what happens to people really matters to me.\n[01:18.4] And so I have sort of started my career working in mental health services, which then transitioned into housing programs.\n[01:28.4] And then really I realized that the main need was that stability in housing.\n[01:33.6] And so I wanted to work with folks who didn't have that yet and kind of really get in on the ground floor.\n[01:40.6] And so the thing that keeps me motivated to continue to do this day in day is just seeing those small progresses happen for clients.\n[01:48.7] Amazing.\n[01:50.1] And looking back on your time here at CASS, is there a moment or experience that reminds you why this work matters?\n[01:59.6] So something that kind of reminds me why this work matters is just, again, seeing the growth with clients, seeing a smile return to someone's face.\n[02:09.7] It's not uncommon for someone to come to us in the worst day of their life, right?\n[02:15.5] That something happened that brought them here and they feel sort of let down by the system or have just experienced a hardship that I can't even imagine or pretend to understand.\n[02:30.3] And so seeing someone have some light return to their eyes because someone listened or someone was able to provide them assistance is really kind of what keeps me going.\n[02:39.8] Awesome.\n[02:41.0] So next set of questions are help us understand what happens when someone first comes to CASS.\n[02:47.7] So imagine someone arrives at CASS for the very first time.\n[02:52.8] Can you walk us through what that experience looks like?\n[02:55.6] So the experience in a CASS shelter kind of depends on which location you arrive at, but at our single adult shelter, your first experience is going through the Brian Garcia Welcome Center, where you are initially screened for need and provided with a campus ID and you speak to staff there who evaluate kind of what it is that you are looking for.\n[03:16.9] You may say, I need a shelter bed and they help you identify five other things that they can work on with you while you're here.\n[03:23.7] If shelter is something you're looking for, then you would come in and meet with our intake staff who will orient you to our program, explain sort of who we are and what you can expect, make sure that your sort of more immediate needs are met, that you know where to get food, that you know where your bed is located, that if you have any urgent medical concerns or behavioral health needs that need to be addressed, we kind of talk through that with you, that if you need an accommodation in order to access our services more appropriately, we can talk through that with you.\n[03:59.3] And then we just really kind of give you a second to kind of feel a little bit more stable and a little bit more safe, and then we start working with you on your greater goals.\n[04:10.2] And what are the first needs your team focuses on meeting and why are those first moments so critical?\n[04:16.9] So the main thing that we are looking for when somebody comes in to shelter is to kind of restore as much dignity as we can and to provide some level of stability.\n[04:26.2] And so we really assess for those more immediate needs.\n[04:30.1] Again, if you are hungry, where can we get you food or can we redirect you to meal times?\n[04:36.8] Are you in need of a shower?\n[04:39.1] Here's how you do that, here's a towel, get cleaned up.\n[04:42.9] If you have some medical concerns that are again immediate, let's connect you to that.\n[04:48.1] If it's more of a longer term thing, we will explain our partnerships with medical providers that we can get you connected to.\n[04:54.9] Awesome.\n[04:55.8] And can you share a story that illustrates how someone's journey began when they walked through the doors here?\n[06:50.2] So can you share a story that illustrates how someone's journey began when they walked through the doors here?\n[06:56.9] So oftentimes we see clients who are coming in and are experiencing one of the worst days of their life.\n[07:05.9] So one story that really stands out to me is someone had just been evicted and it was from a housing program that they had actually been connected to during another episode of homelessness that they experienced.\n[07:19.6] And so this individual really felt like there wasn't any hope.\n[07:25.6] And through their first meeting with our case management team, really talked about where things went wrong.\n[07:31.6] And you could just see that there was a kind of light or a hope sort of restored for that client when they realized, hey, I just didn't know how to advocate for myself in this housing program.\n[07:46.3] And I now know more and can do more and can ask for the assistance that I need.\n[07:53.4] And they seemed really reassured that this wasn't just going to be a cycle that they were stuck in.\n[08:44.6] All right, so the question is, if you were explaining CASS to someone who has never been here before, how would you describe the way that the system here is designed to help people move from crisis to stability?\n[08:57.2] So CASS has multiple teams that work together to really meet a client where they're at.\n[09:03.0] So when someone comes to us and they are experiencing a crisis, our main and first goal is to sort of help them find some safety and stability within our program.\n[09:14.2] So that's really where the shelter support staff come into play and they make sure that the basic needs are met.\n[09:19.7] So if you need medical care, or if you need assistance accessing your bed or services, we try to put the things in place to make sure that that happens.\n[09:30.7] If you need a meal, we either connecting you to our partners who provide it, or we are going into our kitchen and getting it for you.\n[09:38.0] We are providing that stability and safety that maybe has been lacking for that person.\n[09:42.8] We are addressing that Maslow's hierarchy of needs and really addressing the safe bed and place to stay, and then moving into like food and security.\n[09:52.0] And then our case management team really comes in and does more of the movement towards security and further stabilization.\n[10:00.6] And so that is where we start to identify barriers to long-term housing goals, and kind of providing the assistance to navigate those systems and tear down those barriers that maybe feel insurmountable if you're trying to do it on your own.\n[10:17.0] And then we also connect you to partners that exist out in the community who can help with being more stable and secure once you do find your next placement.\n[10:44.8] So, I already kind of said it, but what makes the collaboration between all the departments here supporting one individual so successful?\n[10:54.6] So, collaboration in this work is key.\n[10:56.9] Whether it's internal or with external partners, you can't do it alone.\n[11:01.8] And so internally, shelter, again, makes sure that someone has a safe place to be and is accessible and knows when and where they can receive additional services.\n[11:12.9] Case management makes the assessment and connection to outside providers or internal departments that can help tear down those barriers to someone's long-term stability.\n[11:23.2] One example I like to highlight is when sort of three of our internal departments worked together. [do not use: a resident's clinical details]\n[11:29.7] We had a client who was experiencing some mental health symptoms that was making it hard for her to reside in the congregate space. [do not use: a resident's clinical details]\n[11:37.6] And so, our shelter team identified the need. [do not use: a resident's clinical details]\n[11:41.8] Our case management team was able to determine that she had a pending housing placement. [do not use: a resident's clinical details]\n[11:46.9] And our behavioral health team was able to work with her on coping skills and stabilization so that that way those kind of difficult behaviors didn't result in her being exited from shelter and she was able to get connected to a long-term housing placement. [do not use: a resident's clinical details]\n[12:01.1] And so, it just really highlights the teamwork is really what makes it work. [do not use: a resident's clinical details]\n[13:01.9] So, yeah, I mean like you said, many people know CASS as a shelter, but there's really so much more happening behind the scenes and you really illustrated that with your answer.\n[13:10.5] So, that makes me wonder why is it so important that the teams here work together as one coordinated system of care?\n[13:19.4] So, each team has sort of their specializations and if we are only addressing somebody's immediate crisis, we aren't helping someone move forward and no one wants to be in shelter long term.\n[13:32.2] And that's not what it's meant for.\n[13:33.8] It is meant to be a landing pad for someone to have some safety and security.\n[13:39.8] And without a case management team or the behavioral health team I mentioned before, it can't turn into a launching pad.\n[13:46.0] And the launching pad is really what we want people to know is still available within shelter, that we are helping someone move to the next best place and continue on in their journey.\n[13:57.9] Awesome.\n[13:59.6] So, every organization is constantly learning and improving.\n[14:03.6] So, as you've watched CASS grow, what would you say you're most proud of?\n[14:08.5] I'm really proud of how we have taken into consideration client feedback.\n[14:14.2] So, in recent years, we have sort of improved our client feedback sessions, which we refer to as town halls, where we provide updates to clients about changes in procedure or policy or the way we're implementing a program and we allow them to provide us feedback on how it's going, whether they've liked the changes we've made or whether we still have a ways to go.\n[14:37.8] We have also implemented anonymous surveys that clients can fill out and we utilize that information to really guide where we take our programming.\n[14:48.6] Awesome.\n[14:49.8] And what have the clients taught you that has influenced the way you design or improve the programs here?\n[14:56.4] So, a lot of what we get feedback on from clients is about the environment.\n[15:00.8] And so, sometimes we are so focused on the end goal of getting someone out of shelter, we can kind of lose sight of what the experience while somebody is with us looks like.\n[15:11.4] And so, they've reminded us that there is a sense of dignity in the space that they are residing in.\n[15:17.8] So, ensuring that things remain not just passably clean, but the way we would maintain our own homes, that it's really important that the infrastructure continues to work.\n[15:30.2] If it's hot, it makes it harder to sleep, which makes it harder to wanna go to work in the morning and just kind of creates unintentional barriers that we really have more control over and can do better on.\n[15:43.1] Yeah, totally.\n[15:45.1] And looking ahead, where do you see the greatest opportunity for CASS to continue growing and strengthening the services that you provide?\n[15:52.3] So, I'm really excited about the behavioral health program that we are sort of kicking off this year.\n[15:57.3] And I think that that's a huge area we can continue to grow in.\n[16:01.4] There are a lot of clients that we see who have sort of fallen between the cracks with the mental health system, either because they don't fully qualify for the more readily available services, or because the systems that exist outside of here have a hard time knowing how to navigate the homeless services system and don't know how to reach a client who is in shelter.\n[16:25.5] And so, being able to kind of bridge that gap and get people access to the services they need is really exciting prospect.\n[16:32.8] Plus, it potentially opens us up to being able to do some aftercare to where we are able to work with clients who have exited shelter and help them stabilize more formally in their permanent placement.\n[17:25.4] All right, so next one, let's help our community better understand homelessness.\n[17:30.5] So, what are some of the biggest misconceptions people have about homelessness, and what do you wish people in the community here understood about the clients that you all serve?\n[17:40.7] So, I think one of the main misconceptions people have is that it is just individuals who don't want to be in housing, that somebody is choosing to be homeless and ignoring the sort of systemic and socioeconomic factors that come into place to result in someone being unhoused.\n[18:01.6] And so, really recognizing that it is not a personal failing, it is a combination of systems that just aren't working for that person.\n[18:11.9] And I think that I would really like people to realize that homelessness doesn't discriminate, it can actually truly happen to anyone.\n[18:22.5] We have clients with all sorts of backgrounds who have had stable jobs for the majority of their life, weren't living really what somebody would consider unstably housed for a period of time, but medical bills stack up, a loss of a partner who maybe was the main earner in the household, and just the perfect sort of tidal wave of circumstances can happen, and really anyone could potentially end up here.\n[18:49.6] Yeah, that's so true, for sure.\n[19:49.4] And last set of questions here will wrap up by reflecting on the future.\n[19:54.1] So, what gives you hope when you think about the future of CASS?\n[19:59.3] So, the thing that gives me hope, again, is really seeing the progress for our clients.\n[20:04.1] And so, whenever we hear a success story, or a client returns and says, ''Hey, I used to stay here, and I wanna work for you,'' any small sort of peek into someone's future that you're able to get sort of gives hope.\n[20:20.4] And that's where I'm really excited about the growth of some of our programs, and where we might be able to follow along on someone's journey a little bit longer.\n[20:27.3] Totally.\n[20:38.7] So, if viewers remember just one message from this conversation that we've had, what do you hope that it is?\n[21:12.5] I think I hope people remember that the individuals that we serve are your neighbors.\n[21:20.0] They can be someone that your children go to school with, can be your coworker, can be somebody you see on the bus or at Fry's.\n[21:27.1] And just remember that there's a human behind the need, and that the connection and the dignity that we can restore to their lives is kind of, I can't think of the way I wanted to say it. [do not use: she stumbles: use the 22:57 re-take]\n[21:44.3] Is invaluable. [do not use: she stumbles: use the 22:57 re-take]\n[21:45.2] There we go. [do not use: she stumbles: use the 22:57 re-take]\n[22:57.6] That the dignity we can restore to them is invaluable.\n",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "And I think that I would really like people to realize that homelessness doesn't discriminate, it can actually truly happen to anyone.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Her main claim."
+   },
+   {
+    "quote": "And so, really recognizing that it is not a personal failing, it is a combination of systems that just aren't working for that person.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Not a personal failing."
+   },
+   {
+    "quote": "We have clients with all sorts of backgrounds who have had stable jobs for the majority of their life, weren't living really what somebody would consider unstably housed for a period of time, but medical bills stack up, a loss of a partner who maybe was the main earner in the household, and just the perfect sort of tidal wave of circumstances can happen, and really anyone could potentially end up here.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Stable jobs, then a tidal wave."
+   },
+   {
+    "quote": "It's not uncommon for someone to come to us in the worst day of their life, right?",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Why the work matters."
+   },
+   {
+    "quote": "And so seeing someone have some light return to their eyes because someone listened or someone was able to provide them assistance is really kind of what keeps me going.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Light returns to their eyes."
+   },
+   {
+    "quote": "So something that kind of reminds me why this work matters is just, again, seeing the growth with clients, seeing a smile return to someone's face.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "A smile returns."
+   },
+   {
+    "quote": "And so the thing that keeps me motivated to continue to do this day in day is just seeing those small progresses happen for clients.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Small progress keeps her going."
+   },
+   {
+    "quote": "So the main thing that we are looking for when somebody comes in to shelter is to kind of restore as much dignity as we can and to provide some level of stability.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Dignity and stability first."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "And I think that I would really like people to realize that homelessness doesn't discriminate, it can actually truly happen to anyone.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Her main claim."
+   },
+   {
+    "quote": "We have clients with all sorts of backgrounds who have had stable jobs for the majority of their life, weren't living really what somebody would consider unstably housed for a period of time, but medical bills stack up, a loss of a partner who maybe was the main earner in the household, and just the perfect sort of tidal wave of circumstances can happen, and really anyone could potentially end up here.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Stable jobs, then a tidal wave."
+   },
+   {
+    "quote": "It's not uncommon for someone to come to us in the worst day of their life, right?",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Why the work matters."
+   },
+   {
+    "quote": "And so seeing someone have some light return to their eyes because someone listened or someone was able to provide them assistance is really kind of what keeps me going.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Light returns to their eyes."
+   },
+   {
+    "quote": "So something that kind of reminds me why this work matters is just, again, seeing the growth with clients, seeing a smile return to someone's face.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "A smile returns."
+   },
+   {
+    "quote": "And so the thing that keeps me motivated to continue to do this day in day is just seeing those small progresses happen for clients.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Small progress keeps her going."
+   },
+   {
+    "quote": "So the main thing that we are looking for when somebody comes in to shelter is to kind of restore as much dignity as we can and to provide some level of stability.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Dignity and stability first."
+   },
+   {
+    "quote": "It is meant to be a landing pad for someone to have some safety and security.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Landing pad."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "And I think that I would really like people to realize that homelessness doesn't discriminate, it can actually truly happen to anyone.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Her main claim."
+   },
+   {
+    "quote": "And so, really recognizing that it is not a personal failing, it is a combination of systems that just aren't working for that person.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Not a personal failing."
+   },
+   {
+    "quote": "We have clients with all sorts of backgrounds who have had stable jobs for the majority of their life, weren't living really what somebody would consider unstably housed for a period of time, but medical bills stack up, a loss of a partner who maybe was the main earner in the household, and just the perfect sort of tidal wave of circumstances can happen, and really anyone could potentially end up here.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Stable jobs, then a tidal wave."
+   },
+   {
+    "quote": "It's not uncommon for someone to come to us in the worst day of their life, right?",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Why the work matters."
+   },
+   {
+    "quote": "And so seeing someone have some light return to their eyes because someone listened or someone was able to provide them assistance is really kind of what keeps me going.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Light returns to their eyes."
+   },
+   {
+    "quote": "So something that kind of reminds me why this work matters is just, again, seeing the growth with clients, seeing a smile return to someone's face.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "A smile returns."
+   },
+   {
+    "quote": "And so the thing that keeps me motivated to continue to do this day in day is just seeing those small progresses happen for clients.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Small progress keeps her going."
+   },
+   {
+    "quote": "So the main thing that we are looking for when somebody comes in to shelter is to kind of restore as much dignity as we can and to provide some level of stability.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Dignity and stability first."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "And I think that I would really like people to realize that homelessness doesn't discriminate, it can actually truly happen to anyone.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Her main claim."
+   },
+   {
+    "quote": "And so, really recognizing that it is not a personal failing, it is a combination of systems that just aren't working for that person.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Not a personal failing."
+   },
+   {
+    "quote": "We have clients with all sorts of backgrounds who have had stable jobs for the majority of their life, weren't living really what somebody would consider unstably housed for a period of time, but medical bills stack up, a loss of a partner who maybe was the main earner in the household, and just the perfect sort of tidal wave of circumstances can happen, and really anyone could potentially end up here.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Stable jobs, then a tidal wave."
+   },
+   {
+    "quote": "It's not uncommon for someone to come to us in the worst day of their life, right?",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Why the work matters."
+   },
+   {
+    "quote": "And so seeing someone have some light return to their eyes because someone listened or someone was able to provide them assistance is really kind of what keeps me going.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Light returns to their eyes."
+   },
+   {
+    "quote": "So something that kind of reminds me why this work matters is just, again, seeing the growth with clients, seeing a smile return to someone's face.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "A smile returns."
+   },
+   {
+    "quote": "And so the thing that keeps me motivated to continue to do this day in day is just seeing those small progresses happen for clients.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Small progress keeps her going."
+   },
+   {
+    "quote": "So the main thing that we are looking for when somebody comes in to shelter is to kind of restore as much dignity as we can and to provide some level of stability.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Dignity and stability first."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "And I think that I would really like people to realize that homelessness doesn't discriminate, it can actually truly happen to anyone.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Her main claim."
+   },
+   {
+    "quote": "And so, really recognizing that it is not a personal failing, it is a combination of systems that just aren't working for that person.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Not a personal failing."
+   },
+   {
+    "quote": "We have clients with all sorts of backgrounds who have had stable jobs for the majority of their life, weren't living really what somebody would consider unstably housed for a period of time, but medical bills stack up, a loss of a partner who maybe was the main earner in the household, and just the perfect sort of tidal wave of circumstances can happen, and really anyone could potentially end up here.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Stable jobs, then a tidal wave."
+   },
+   {
+    "quote": "It's not uncommon for someone to come to us in the worst day of their life, right?",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Why the work matters."
+   },
+   {
+    "quote": "So something that kind of reminds me why this work matters is just, again, seeing the growth with clients, seeing a smile return to someone's face.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "A smile returns."
+   },
+   {
+    "quote": "And so the thing that keeps me motivated to continue to do this day in day is just seeing those small progresses happen for clients.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Small progress keeps her going."
+   },
+   {
+    "quote": "So the main thing that we are looking for when somebody comes in to shelter is to kind of restore as much dignity as we can and to provide some level of stability.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Dignity and stability first."
+   },
+   {
+    "quote": "It is meant to be a landing pad for someone to have some safety and security.",
+    "who": "Brittnie Stanton",
+    "file": "20260727_C4447.MP4",
+    "why": "Landing pad."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "Homelessness doesn't discriminate.",
+    "line": "And I think that I would really like people to realize that homelessness doesn't discriminate, it can actually truly happen to anyone.",
+    "why": "Her main claim."
+   },
+   {
+    "text": "It can happen to anyone.",
+    "line": "And I think that I would really like people to realize that homelessness doesn't discriminate, it can actually truly happen to anyone.",
+    "why": "Same line, shorter text."
+   },
+   {
+    "text": "It is not a personal failing.",
+    "line": "And so, really recognizing that it is not a personal failing, it is a combination of systems that just aren't working for that person.",
+    "why": "Breaks the myth first."
+   },
+   {
+    "text": "The worst day of their life.",
+    "line": "It's not uncommon for someone to come to us in the worst day of their life, right?",
+    "why": "Why she does this work."
+   },
+   {
+    "text": "A smile returns.",
+    "line": "So something that kind of reminds me why this work matters is just, again, seeing the growth with clients, seeing a smile return to someone's face.",
+    "why": "Hope as the first frame."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "CASS runs a fuller package (client file). Here: hook text, two on-screen questions, a name super, key words, one key line, downtown campus B-roll and the card hand-out B-roll (Brittnie's cuts only), logo only on the end card.",
+  "devices": [
+   {
+    "row": "00:00–00:06",
+    "device": "Hook text, static",
+    "asset": "highlight_callout",
+    "source": "Script"
+   },
+   {
+    "row": "00:06–00:16",
+    "device": "Question text, name super, 1 B-roll shot",
+    "asset": "highlight_callout, tag_label; C4428",
+    "source": "Script; Staff B Roll @ Downtown Shelter"
+   },
+   {
+    "row": "00:16–00:34",
+    "device": "Key words stack, B-roll over the join",
+    "asset": "word_stack; C4420",
+    "source": "Script; Staff B Roll @ Downtown Shelter"
+   },
+   {
+    "row": "00:34–00:40",
+    "device": "Question text",
+    "asset": "highlight_callout",
+    "source": "Script"
+   },
+   {
+    "row": "00:40–00:48",
+    "device": "Top text, 2 B-roll shots",
+    "asset": "highlight_callout; C4426, C4454",
+    "source": "Script; Staff B Roll; Cards for Clients"
+   },
+   {
+    "row": "00:48–00:52",
+    "device": "End card",
+    "asset": "end_card (CASS name until the logo file is in the repo)",
+    "source": "Script"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "20260727_C4434.MP4",
+    "path": "Downtown Shelter B Roll/Staff B Roll @ Downtown Shelter/20260727_C4434.MP4",
+    "drive": "1Ke5J-9GK8a8oD1-iJ3USr3xj1g4KRO7A",
+    "at": 20.0,
+    "dur": 3.0,
+    "cx": 0.5,
+    "what": "Staff member at a desk with a laptop, in conversation (visual.json).",
+    "frame": null
+   },
+   {
+    "clip": "20260727_C4418.MP4",
+    "path": "Downtown Shelter B Roll/Staff B Roll @ Downtown Shelter/20260727_C4418.MP4",
+    "drive": "103LuyvJRAYBftRAzCtmgq03nmc8GvqpV",
+    "at": 3.0,
+    "dur": 2.5,
+    "cx": 0.5,
+    "what": "SHELTER SUPPORT STAFF board with staff photos (visual.json).",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "CASS end card (name until the logo file is added)",
+    "kind": "end_card",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
+}
