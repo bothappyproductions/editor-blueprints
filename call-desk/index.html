@@ -178,8 +178,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
 .chip{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:6px 11px;cursor:pointer}
 .chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .copymail{font:inherit;font-size:13px;font-weight:600;border:1px solid var(--accent);background:var(--bg);color:var(--ink);border-radius:999px;padding:7px 12px;cursor:pointer;align-self:flex-start}
-.ans [hidden],.step [hidden]{display:none}
-.ifans{display:flex;flex-direction:column;gap:8px}
+.ans [hidden]{display:none}
 .mailbox{border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:13px;white-space:pre-wrap;user-select:text}
 .sheet-foot textarea{font:inherit;font-size:13px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:7px 9px;width:100%;min-height:44px;resize:vertical}
 .saved{font-size:12px;color:var(--muted)}
@@ -320,10 +319,10 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
   </header>
 
   <section class="pitch" aria-label="How to pitch">
-    <div><b>How to talk</b><p>A conversation, not a pitch. Ask how they reach people now and who it's missing. Open with what we guarantee for the people they serve, then share what we see, how we'd handle it and what we did for CREPH. Never "groups like yours", no numbers unless they ask, and never ask "are you thinking about video?"</p></div>
+    <div><b>Open the call script</b><p>Every card has a Call script written for that lead: why you're calling, what we'd make for them, their likely pushback. Log the outcome at the bottom when you hang up.</p></div>
     <div><b>What we deliver</b><p>Short videos (explainers, PSAs, stories), translated flyers, social posts and a one-page delivery log they can attach to their grant or permit report.</p></div>
-    <div><b>Proof</b><p><a href="https://www.happyproductions.me/cases/creph-medicaid-coverage-documentary" target="_blank" rel="noopener">Our Medicaid film for CREPH</a> (Sept 2025). Tell it as it happened: lawmakers needed to get what the Medicaid cuts meant here, so we filmed a family doctor, a nurse and a disability provider in their own words. It was made for lawmakers, so never say it reached families. Send the matching <a href="https://www.happyproductions.me/for/health-coverage-outreach" target="_blank" rel="noopener">sector page</a>.</p></div>
-    <div><b>Rules</b><p>Open a card's Call script and log the outcome when you hang up. No prices on a cold call. "Emailed" and "In the email queue" rows: call them, don't email them again.</p></div>
+    <div><b>Proof</b><p><a href="https://www.happyproductions.me/cases/creph-medicaid-coverage-documentary" target="_blank" rel="noopener">Coverage at Risk</a>, made for the State of Connecticut Commission on Racial Equity in Public Health. Send the matching <a href="https://www.happyproductions.me/for/health-coverage-outreach" target="_blank" rel="noopener">sector page</a>.</p></div>
+    <div><b>Rules</b><p>No prices in cold outreach; quote on the call. "Emailed" rows already got an email from Atdhe, and "In the email queue" rows get one soon: call them, don't email them again.</p></div>
   </section>
 
   <div class="tally" id="tally" role="group" aria-label="Filter by status"></div>
@@ -614,10 +613,10 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     return {
       callName: /^[A-Z][a-z]+$/.test(cn) ? cn : "", altName: "", askFor: "whoever runs your outreach and education materials",
       why: `I was looking at your work on ${prog}... and that work means getting clear information out to the people you serve.`,
-      pain: "Most teams with a duty like that have the deadline and the budget line... but nobody on staff whose job is to make the videos and flyers. So the message ends up as a PDF nobody reads.",
+      pain: "Most groups with a duty like that have the deadline and the budget line... but nobody on staff whose job is to make the videos and flyers. So the message ends up as a PDF nobody reads.",
       offer: "short videos people actually watch, plus matching flyers and social posts, in the languages your community speaks",
       question: "How are you getting that information out right now... does video play any part?",
-      planFor: "your outreach", foundVia: `We came across your work on ${prog} while we were looking at who has to get information out in your area... so we reached out.`,
+      planFor: "your outreach", foundVia: `We came across your work on ${prog} while we were looking at groups that have to get information out to the public... so we reached out.`,
       source: r.sourceUrl ? {label: "The page we found you on", url: r.sourceUrl} : null, whyExplain: "", whyFlag: "",
       discovery: ["Who has to get this information, and in what languages?", "Where do people see your messages today... social, events, waiting rooms?", "Is there a report or deadline coming up where you have to show this outreach?"],
       deadline: "", objection: null, caution: ""
@@ -790,7 +789,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     btn.setAttribute("aria-expanded", String(!box.hidden));
   }
   let cur = {}, emailAns = {};
-  const ANS_LABEL = {where: "Where they are", who: "Who makes it", now: "Doing now"};
+  const ANS_LABEL = {where: "Where they are", who: "Who makes it"};
   sheetBody.addEventListener("click", (ev) => {
     const mb = ev.target.closest(".copymail");
     if(mb){ ev.preventDefault(); copyEmail(mb); return; }
@@ -798,11 +797,11 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     const grp = c.dataset.grp, ta = $("sheet-notes");
     c.parentElement.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", String(x === c)));
     emailAns[grp] = c.dataset.val;
-    if(grp === "who" || grp === "now") c.closest(".ans, .lines").querySelectorAll("[data-for]").forEach(el => { el.hidden = el.dataset.for !== c.dataset.val; });
+    if(grp === "who") c.closest(".ans").querySelectorAll("[data-for]").forEach(el => { el.hidden = el.dataset.for !== c.dataset.val; });
     const line = `${ANS_LABEL[grp]}: ${c.textContent}`, re = new RegExp("^" + ANS_LABEL[grp] + ": .*$", "m");
     ta.value = re.test(ta.value) ? ta.value.replace(re, line) : [ta.value.trim(), line].filter(Boolean).join("\n");
     ta.dispatchEvent(new Event("change"));
-    const box = sheetBody.querySelector(".copymail:not([data-mode]) + .mailbox");
+    const box = c.closest(".ans").querySelector(".copymail:not([data-mode]) + .mailbox");
     if(box && !box.hidden){ const m = buildEmail(); box.textContent = `To: ${m.to ? m.to + " (or the one they just gave you)" : "the email they just gave you"}\nSubject: ${m.subject}\n\n${m.text}`; }
   });
   sheetBody.addEventListener("click", (ev) => {
@@ -831,86 +830,10 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     else if(/stormwater/.test(c)) what = "your stormwater education for residents";
     else if(/funder/.test(c)){ what = "helping your grantees get their message out"; who = "And who makes your grantees' materials... do they make their own, get a toolkit from you or the state, or hire someone?"; }
     if(S.msgFor) what = S.msgFor;
-    return {what, where: `Where are you at with ${what}... already going, still planning, or not started yet?`, who};
+    return {where: `Where are you at with ${what}... already going, still planning, or not started yet?`, who};
   }
   const chips = (grp, opts) => `<div class="chips" role="group">${opts.map(([v, t]) => `<button type="button" class="chip" data-grp="${grp}" data-val="${v}" aria-pressed="false">${esc(t)}</button>`).join("")}</div>`;
   const ifWho = (v, html) => `<p class="say" data-for="${v}" hidden>${html}</p>`;
-
-  // Oct 30 (Atdhe): "Why I'm calling" ends by asking how they're getting the required message out today, with a few
-  // guesses they can pick from (flyers, events...). We want their current setup on the table, so the pitch can land
-  // video as the piece that reaches the people their current channels miss.
-  function channelGuesses(r){
-    const c = String(r.category || "").toLowerCase();
-    if(/water|utilit/.test(c)) return ["mailers", "bill inserts", "your website"];
-    if(/stormwater|council|engineering/.test(c)) return ["brochures", "the town website", "events"];
-    if(/medicare/.test(c)) return ["flyers", "talks at senior centers", "events"];
-    if(/health plan/.test(c)) return ["mailers", "texts", "your website"];
-    return ["flyers", "events", "social posts"];
-  }
-  function nowAsk(r, S){
-    // Most lead scripts already have a "How are you/your X getting that out?" line built from what we found on them.
-    // Keep it (it shows we did our homework) and hang the guesses off it. Otherwise ask it plainly.
-    const own = String(S.ask || "").trim();
-    const base = /^How (are|is|do|does)\b/i.test(own) ? own.replace(/[?.\s]+$/, "") : `So how are you going about ${emailAsk(r, S).what}`;
-    return `${base}... is it ${channelGuesses(r).join("... ")}... or what did you have planned?`;
-  }
-  const ifNow = (v, html) => `<div class="ifans" data-for="${v}" hidden>${html}</div>`;
-  // Oct 30 (Esat, after Nick's calls): once they answer, don't pitch video yet. Find who it's missing, then share what
-  // we see. How we'd solve it comes in step 3. Nick's "are you guys thinking about video?" got a flat no: their need is
-  // reaching people, and video is only how we get there.
-  function nowBlock(r, S){
-    const gap = say("And how's that going... who isn't it reaching yet?") + cue("Listen. Let them talk. Then share what you see:");
-    return say(mk(nowAsk(r, S))) +
-      cue("Pause. Let them answer, then tap what they're doing now:") +
-      chips("now", [["print", "Flyers or mailers"], ["events", "Events"], ["online", "Social or website"], ["video", "Already doing video"], ["other", "Something else"], ["none", "Nothing yet"]]) +
-      ifNow("print", gap + say("Yeah, that's what we see a lot... print reaches the people who already walk in. The ones who miss it are usually on their phones.")) +
-      ifNow("events", gap + say("Yeah, that's what we see a lot... events are great for whoever shows up. The people who need it most are usually the ones who can't make it.")) +
-      ifNow("online", gap + say("Yeah, that's what we see a lot... posts get scrolled past, and the English-only ones skip a lot of people.")) +
-      ifNow("video", say("Oh nice... who makes them for you?") + cue("Listen. Then:") + say(`Where we see ${esc(peersFor(r, S))} get stuck is making enough of them, in enough languages, without burning out the team.`)) +
-      ifNow("other", gap + say("Got it, that's helpful... the people who never see it are usually the ones who need it most.")) +
-      ifNow("none", say("That's actually a good spot to be in... you get to plan it before it's due.") + say("Who do you most need to reach?")) +
-      cue(`Then go to step 3. Never ask "are you thinking about video?" It gets a quick no. Ask about the people they need to reach.`);
-  }
-  // Oct 30: the CREPH story, told the way it happened (checked against the film, the 7/30/2025 and 9/22/2025 client
-  // calls). The film premiered at a Sept 2025 forum for lawmakers, so never say it reached families or kept anyone covered,
-  // and don't call it "recent". Health leads hear it as a close match; everyone else as "different topic, same problem".
-  // Oct 31 (Atdhe): "we guarantee", never "we help", and never "groups". Every lead names the people that org serves.
-  // Each lead's Script JSON carries promise (finishes "we guarantee..."), audience and peers, written per lead from its
-  // own fields. The guarantee is that the message REACHES those people, never their behavior, and carries no numbers.
-  // These fallbacks only cover leads added later without the fields.
-  function audienceFor(r, S){
-    if(S.audience) return S.audience;
-    const c = String(r.category || "").toLowerCase();
-    if(/prevention/.test(c)) return "parents and teens in your towns";
-    if(/water|utilit/.test(c)) return "your customers";
-    if(/stormwater|council|engineering/.test(c)) return "residents in your towns";
-    if(/medicare/.test(c)) return "older adults in your area";
-    if(/health plan/.test(c)) return "your members";
-    if(/funder/.test(c)) return "the people your grantees serve";
-    if(/paid leave/.test(c)) return "workers in your area";
-    return "the families you serve";
-  }
-  function promiseFor(r, S){ return S.promise || `your message reaches ${audienceFor(r, S)}.`; }
-  function peersFor(r, S){
-    if(S.peers) return S.peers;
-    const c = String(r.category || "").toLowerCase();
-    if(/prevention/.test(c)) return "prevention coalitions";
-    if(/water|utilit/.test(c)) return "water utilities";
-    if(/stormwater/.test(c)) return "towns";
-    if(/council/.test(c)) return "councils of governments";
-    if(/engineering/.test(c)) return "engineering firms";
-    if(/medicare/.test(c)) return "agencies on aging";
-    if(/health plan/.test(c)) return "health plans";
-    if(/funder/.test(c)) return "funders";
-    if(/navigator/.test(c)) return "navigator programs";
-    if(/health center|community action/.test(c)) return "health centers";
-    return "teams like yours";
-  }
-  function crephNear(r){ return /medicaid|navigator|health|medicare|community action|funder|agenc|paid leave/i.test(String(r.category || "")); }
-  function crephStory(r){
-    return (crephNear(r) ? "We did something like this last year" : "Different topic, but we did something like this last year") +
-      " for Connecticut's Commission on Racial Equity in Public Health. They needed lawmakers to get what the Medicaid cuts would mean here... so we filmed a family doctor, a nurse and a disability provider explaining it in their own words. After it premiered, a lot of people reached out to them about that video.";
-  }
   function emailObjection(r, S, d1, d2){
     const q = emailAsk(r, S);
     return {they: "Just send me an email.", src: "Most common", you:
@@ -938,11 +861,6 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
       planning: "since you're still planning, now is a good time to add video.",
       notstarted: "since it hasn't started yet, a short plan now makes the deadline easier."}[a.where] || "";
     const where = when ? (who ? "And " + when : when[0].toUpperCase() + when.slice(1)) : "";
-    const now = {print: "You mentioned flyers and mailers carry most of this today. A short video reaches the people who never pick one up.",
-      events: "You mentioned events carry most of this today. A short video keeps the message working for everyone who couldn't make it.",
-      online: "You mentioned you post this on social and your website. Short video is what people actually stop and watch there.",
-      video: "You mentioned you already do some video. We can add more of it, in more languages, without adding work for your team.",
-      none: a.where ? "" : "You mentioned the plan is still taking shape, so this is a good time to map it out."}[a.now] || "";
     // Direct link to the lead's sector page (no redirect or tracking wrapper), shown spelled out so the reader sees exactly where it goes.
     const link = okUrl(r.sectorPage) ? r.sectorPage : "https://www.happyproductions.me";
     const shown = link.replace(/^https?:\/\//i, "").replace(/\/$/, "");
@@ -951,23 +869,17 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     const subject = mode === "vm" ? `Following up on my voicemail: ${S.planFor}` : `Following up: ${S.planFor}`;
     // Written English for spoken lines: "..." pauses become commas, first letter capitalized.
     const written = (s) => { s = String(s || "").replace(/\s*\.\.\.\s*/g, ", ").replace(/,\s*([.?!])/g, "$1").trim(); return s ? s[0].toUpperCase() + s.slice(1) : ""; };
-    // Oct 30 (Esat): no guarantee in the email either. Who we are in one line, the goal we see for them, how we'd get
-    // there, then the CREPH story as it happened.
-    const proofLine = (crephNear(r) ? "Last year we did something similar for Connecticut's Commission on Racial Equity in Public Health:" : "One example from last year, for Connecticut's Commission on Racial Equity in Public Health:") +
-      " a short film where a family doctor, a nurse and a disability provider explained the Medicaid cuts in their own words. A lot of people reached out to the Commission about it afterward.";
-    const lower1 = (w) => w ? w[0].toLowerCase() + w.slice(1) : "";
-    const goalW = String(S.result || "").split(/,\s+and\s+our job is\s+/i)[1] || "";
-    const promiseRaw = promiseFor(r, S);
-    const promiseW = /^[A-Z]/.test(promiseRaw) ? written(promiseRaw) : lower1(written(promiseRaw));
-    const aboutUs = goalW
-      ? [`We're Happy Productions, ${r.state === "CT" ? "a video studio in Ansonia, CT" : "a video studio serving " + (S.area || "your area")}, and we guarantee ${promiseW}`,
-         "For you, the goal would be " + lower1(written(goalW)),
-         S.resultHow ? "Here's how we'd get there: " + lower1(written(S.resultHow)) : "",
-         proofLine].filter(Boolean).join(" ")
-      : `We're Happy Productions, a video studio in Ansonia, CT, and we guarantee ${promiseW} ` + proofLine;
+    const facesLine = `We film ${faces(r)}, the faces people already trust, and build on the materials you already use, so nothing starts from scratch.`;
+    const proofLine = "Recently we made \"Coverage at Risk,\" a short documentary for the State of Connecticut's Commission on Racial Equity in Public Health.";
+    const aboutUs = S.result
+      ? [`We're Happy Productions, ${r.state === "CT" ? "a video studio in Ansonia, CT" : "a video studio serving " + (S.area || "your area")}.`,
+         written(String(S.result).split(/,\s+and\s+/).slice(1).join(", and ")),
+         S.resultHow ? "Here's what that looks like: " + (w => w[0].toLowerCase() + w.slice(1))(written(S.resultHow)) : "",
+         facesLine, written(S.guarantee), proofLine].filter(Boolean).join(" ")
+      : "We're Happy Productions, a video studio in Ansonia, CT. We help organizations turn information they have to get out into short, easy-to-understand videos people actually watch, in the languages they speak. " + facesLine + " " + proofLine;
     const paras = [`Hi ${name},`, mode === "vm" ? "I just tried you by phone and left a short voicemail. Here's the quick note I mentioned." : "Thanks for picking up today. Here's the quick note I promised.",
       aboutUs,
-      [now, who, where].filter(Boolean).join(" "),
+      [who, where].filter(Boolean).join(" "),
       `Our strategist can map out what this could look like for ${S.planFor} in a 25-minute call, and you keep the plan either way. Would ${d1} or ${d2} work?`,
       "LINK", `${repName}\nHappy Productions`].filter(Boolean);
     const text = paras.map(p => p === "LINK" ? `${linkLead} ${link}` : p).join("\n\n");
@@ -986,14 +898,41 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     btn.textContent = ok ? "Copied. Paste it into your email." : "Select the text below and copy it.";
   }
 
+  // Nov 3 call with CT Community Foundation (Andrew Oravecz): people act on faces they already know, not flyers, actors
+  // or AI. The frontline staff who know the rules best rarely get a post past their own approvals; filming them is the offer.
+  // Data and tracking help, but they are the add-on, not the headline ("isn't that the state's job?").
+  function faces(r){
+    const c = String(r.category || "").toLowerCase();
+    if(/prevention/.test(c)) return "your own youth, parents and coalition members";
+    if(/water|utilit|stormwater|ms4|councils of gov/.test(c) || /stormwater/.test(r.sectorPage || "")) return "your own crews and staff";
+    if(/funder/.test(c)) return "your grantees' own navigators and outreach staff";
+    if(/paid leave/.test(c)) return "your own staff";
+    return "your own navigators and community health workers";
+  }
+  const coverageLead = (r) => /health-coverage-outreach|\/for\/funders/.test(r.sectorPage || "");
   function bank(S, d1, d2, r){
     return [
-      // Oct 30 (Esat): the guarantee is out of the pitch. It only comes out here, if they ask how we know it works.
-      {they: "How do we know people will actually watch it? / Do you have results?", src: "If they ask", you:
-        say(`Fair question... we don't just hand you a file. We put it on the apps they already use, aimed right at ${esc(audienceFor(r, S))}, and you see the numbers every week.`) +
-        say("The strategist can walk you through what that would look like for you."),
-        cue: S.guarantee ? `Only if they push for a promise, you can add: "${String(S.guarantee).trim()}" Never lead with it. A promise nobody asked for puts people on guard.` : ""},
+      ...(S.guarantee ? [{they: "How can you guarantee that?", src: "New pitch", you: say(mk(S.guaranteeAnswer ||
+        "Because we don't just make the video... we run it. We put it on the apps people already use, aimed at the neighborhoods you serve, and you get the numbers every week. If we're short at 30 days, we keep it running at no cost."))}] : []),
       emailObjection(r, S, d1, d2),
+      // From the Nov 3 CT Community Foundation call.
+      ...(coverageLead(r) ? [
+        {they: "The state already has flyers and a website for this.", src: "Real call", you:
+          say(`Good... we don't remake those. We build on them... same approved message, just as short videos with ${esc(faces(r))} on camera.`) +
+          say("Flyers tell people what changed. A face they know is what gets them to actually check their renewal date.")},
+        {they: "Isn't that the state's job? Why would we pay for it?", src: "Real call", you:
+          say("The state sets the message... but people trust the faces they know from their own clinic, library or church. That part only you have.") +
+          say("And it's not one push... renewals roll month by month through 2027, so the same videos keep working all year.")},
+        {they: "We've got time. It doesn't start until January.", src: "Real call", you:
+          say("It actually rolls out by renewal date, month by month through 2027. The first thing people need is how to check their renewal date... that's usually the first video we'd make.")}
+      ] : []),
+      {they: "We're part of a city coalition / a communications committee for this.", src: "Real call", you:
+        say("That's great... who's leading the communications side?") +
+        say("Could I send them a sample of what this looks like, so the whole group can see it?"),
+        cue: "Write down the committee name and who leads it. One committee can be 15 to 20 organizations."},
+      {they: "How would we know if it worked?", src: "Real call", you:
+        say("Every partner gets its own QR code and link on every flyer and video... so you see scans and clicks by organization.") +
+        say("And we run the videos to the zip codes you serve and send you the numbers every week.")},
       // From Rubik's Oct 27 calls: forwarded-email, contact-form and "call back later" brush-offs.
       {they: "Email me and I'll forward it to my team. / Email our info@ address.", src: "Real call", you:
         say("Happy to... who should I copy on it, so it doesn't get lost?") +
@@ -1022,6 +961,12 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     ];
   }
 
+  function defaultIntro(r){
+    const c = String(r.category || "").toLowerCase();
+    if(/stormwater/.test(c)) return "We're a Connecticut video studio, and we help towns turn their stormwater education into short, easy-to-understand videos residents actually watch.";
+    if(/water|utilit/.test(c)) return "We're a Connecticut video studio, and we help water utilities turn required customer notices into short, easy-to-understand videos customers actually watch.";
+    return "We're a Connecticut video studio, and we help organizations turn important information into short, easy-to-understand videos people actually watch.";
+  }
   function buildScript(r, S){
     const nm = S.callName || "";
     const sp = nm ? " " + mk(nm) : "";
@@ -1056,7 +1001,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     const gate = play("Someone else picks up (front desk)",
       say(first ? `Hi, maybe you can help me... is ${mk(first)} in today?` : `Hi, maybe you can help me... who handles ${mk(S.askFor)} there?`) +
       cue(`"What's this about?"`) +
-      say(`Sure... ${reason} I'm with Happy Productions... we guarantee ${mk(promiseFor(r, S))} ${first ? `Is ${mk(first)} the right person, or is it someone else now?` : "Who would that be?"}`) +
+      say(`Sure... ${reason} I'm with Happy Productions... we make short videos that help get that message out. ${first ? `Is ${mk(first)} the right person, or is it someone else now?` : "Who would that be?"}`) +
       cue(`Not in, or they won't put you through? Don't hang up empty-handed. Ask these, in order:`) +
       say(`No problem... could you put me through to ${first ? mk(first) + "'s" : "their"} voicemail?`) +
       say(`And when's the best time to catch ${them} at the desk?`) +
@@ -1071,7 +1016,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     h += step(1, "Opener",
       say(nm ? `Hi, is this ${mk(nm)}?` : `Hi... I'm trying to reach ${mk(S.askFor)}. Would that be you?`) +
       gate + vmail +
-      say(`Hi${sp}, it's ${rep} with Happy Productions... we guarantee ${mk(promiseFor(r, S))} I know I'm catching you out of the blue... but would it be ridiculous to ask for 30 seconds? Then you can tell me if it's relevant.`) +
+      say(`Hi${sp}, it's ${rep} with Happy Productions... we make short videos for groups like yours. I know I'm catching you out of the blue... but would it be ridiculous to ask for 30 seconds? Then you can tell me if it's relevant.`) +
       cue(`Say "Happy Productions" slowly and clearly. Never "Are you happy".`) +
       say("Appreciate that.") +
       (touched ? cue(`Atdhe emailed them ${touched}. If it helps, add: "This is a quick follow-up to Atdhe's email."`) : ""));
@@ -1086,26 +1031,22 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
         say(proof ? claimSpan(S.clock) : mk(S.clock)) +
         (proof ? explainBox("x-why", "If they ask how you know, say", proof, S.source || S.clockSource, S.whyFlag).replace(/<\/div>$/, dl + "</div>") : "") +
         say(mk(S.cost)) +
-        nowBlock(r, S));
+        say(mk(S.ask)) +
+        cue("Pause. Let them talk."));
     } else {
       h += step(2, "Why I'm calling",
         say(`So the reason I'm calling... ${S.whyExplain ? claimSpan(S.why) : mk(S.why)}`) +
         (S.whyExplain ? explainBox("x-why", "If they ask what you mean, say", S.whyExplain, S.source, S.whyFlag) : "") +
         say(mk(S.painGuess || S.pain)) +
-        nowBlock(r, S));
+        say(`May not be the case for y'all... but I'm curious... ${mk(S.question)}`) +
+        cue("Pause. Listen."));
     }
-    // Oct 30 (Esat, replacing Oct 28's result, how, guarantee): a promise on a cold call reads as a sales pitch and puts
-    // people on guard. Step 3 is a conversation: the goal we see for them, how we'd get there, what we did for CREPH,
-    // then the meeting. The guarantee only comes out if they ask how we know it works (see Objections).
-    const goal = String(S.result || "").split(/,\s+and\s+our job is\s+/i)[1] || "";
-    const how = String(S.resultHow || "").trim();
-    h += step(3, "Share what you see, then the meeting",
-      cue("Talk, don't pitch. Easy voice, like you're telling a friend what you've seen. No numbers and no 'or it's free' here.") +
-      (goal ? say(`So from what I'm seeing... the goal for you is ${mk(goal)}`) + say("Is that about right?") +
-              cue("Let them correct you. Use their words from here on. Then:") : say(`So the way we work... we guarantee ${mk(promiseFor(r, S))}`)) +
-      (how ? say(`And how we'd get there... ${mk(how[0].toLowerCase() + how.slice(1))}`) : "") +
-      say(crephStory(r)) +
-      cue("Pause. Let them react. If they ask how you know it works, it's in Objections.") +
+    // Oct 28 (Atdhe): the pitch leads with the result the buyer wants, then how, then a guarantee. Leads without a
+    // results pitch yet keep the old "we help X turn Y into videos" intro.
+    h += step(3, "Pitch and close",
+      (S.result ? say(mk(S.result)) + (S.resultHow ? say(mk(S.resultHow)) : "") : say(mk(S.intro || defaultIntro(r)))) +
+      say(`And it's ${esc(faces(r))} on camera... the people your community already knows and trusts. Not actors, and not AI.`) +
+      (S.result && S.guarantee ? say(mk(S.guarantee)) : "") +
       say(`Well, super simple${sp}... I don't wanna overstay my welcome, but would you be completely opposed to 25 or 30 minutes with our strategist?`) +
       say(`They'll map out what this could look like for ${mk(S.planFor)}... and you keep that plan no matter what you decide.`) +
       say(`Would it be ridiculous to meet... say ${esc(d1)} or ${esc(d2)}?`) + cue("If they name their own day or time, say yes to it. Don't counter.") +
@@ -1113,6 +1054,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
       say("Great... I'm sending the invite now. Mind checking your email real quick to confirm you got it?"));
     const more = [
       {t: "They want to hear more", body:
+        say(`We made "Coverage at Risk," a short documentary for the State of Connecticut's Commission on Racial Equity in Public Health.`) +
         say(`For you, we'd take the message you already have to get out... and turn it into ${mk(S.offer)}.`) +
         say("You point us at the message... we handle the rest. And you get a one-page log of what we made and where it ran, for your report.") +
         (S.deadline ? say(mk(S.deadline)) : "")},
