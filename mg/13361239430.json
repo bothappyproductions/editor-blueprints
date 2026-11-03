@@ -1,0 +1,181 @@
+{
+ "item": "13361239430",
+ "client": "lions",
+ "note": "The script asks for 19 graphics: the hook text and 18 country supers. The library makes the first 10 in timeline order (10 at most), then the Lions end card. The other country supers are the same tag with a new word: type them on the Lions topic tag plate in the graphics package, rows 00:20–00:21 Netherlands, 00:21–00:23 USA, 00:23–00:24 USA, 00:24–00:27 Puerto Rico, 00:27–00:29 Zimbabwe, 00:29–00:30 Philippines, 00:30–00:31 Hong Kong, 00:31–00:36 Uganda, 00:36–00:41 Thailand.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "Hook text",
+   "tpl": "highlight_callout",
+   "dur": 2,
+   "pos": "top",
+   "upper": true,
+   "text": {
+    "main": "WHERE ARE YOU FROM?"
+   },
+   "cue": "Hook text on frame 1, big: WHERE ARE YOU FROM?",
+   "src": "Script, row 00:00–00:02, Motion graphics & type.",
+   "rows": [
+    "00:00–00:02"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:02. Top third, big, white on the Lions blue."
+  },
+  {
+   "n": 2,
+   "title": "Country super",
+   "tpl": "tag_label",
+   "dur": 1.6,
+   "pos": "center",
+   "text": {
+    "main": "Mexico"
+   },
+   "cue": "Country super at 00:03, lower corner, 1.5 s: Mexico",
+   "src": "Script, row 00:02–00:05, Motion graphics & type.",
+   "rows": [
+    "00:02–00:05"
+   ],
+   "use": "Put it on at 00:03 for 1.5 s. Move it to a lower corner, above the captions box. The dot is the pin. Country only."
+  },
+  {
+   "n": 3,
+   "title": "Country super",
+   "tpl": "tag_label",
+   "dur": 1.6,
+   "pos": "center",
+   "text": {
+    "main": "Hong Kong"
+   },
+   "cue": "Country super, lower corner, 1 to 2 s: Hong Kong",
+   "src": "Script, row 00:05–00:06, Motion graphics & type.",
+   "rows": [
+    "00:05–00:06"
+   ],
+   "use": "Put it on as the line starts, 1 to 2 s. Move it to a lower corner, above the captions box. The dot is the pin. Country only."
+  },
+  {
+   "n": 4,
+   "title": "Country super",
+   "tpl": "tag_label",
+   "dur": 1.6,
+   "pos": "center",
+   "text": {
+    "main": "Canada"
+   },
+   "cue": "Country super, lower corner, 1 to 2 s: Canada",
+   "src": "Script, row 00:06–00:09, Motion graphics & type.",
+   "rows": [
+    "00:06–00:09"
+   ],
+   "use": "Put it on as the line starts, 1 to 2 s. Move it to a lower corner, above the captions box. The dot is the pin. Country only."
+  },
+  {
+   "n": 5,
+   "title": "Country super",
+   "tpl": "tag_label",
+   "dur": 1.6,
+   "pos": "center",
+   "text": {
+    "main": "Germany"
+   },
+   "cue": "Country super, lower corner, 1 to 2 s: Germany",
+   "src": "Script, row 00:09–00:11, Motion graphics & type.",
+   "rows": [
+    "00:09–00:11"
+   ],
+   "use": "Put it on as the line starts, 1 to 2 s. Move it to a lower corner, above the captions box. The dot is the pin. Country only."
+  },
+  {
+   "n": 6,
+   "title": "Country super",
+   "tpl": "tag_label",
+   "dur": 1.6,
+   "pos": "center",
+   "text": {
+    "main": "Hawaii USA"
+   },
+   "cue": "Country super, lower corner, 1 to 2 s: Hawaii USA",
+   "src": "Script, row 00:11–00:13, Motion graphics & type.",
+   "rows": [
+    "00:11–00:13"
+   ],
+   "use": "Put it on as the line starts, 1 to 2 s. Move it to a lower corner, above the captions box. The dot is the pin. Country only."
+  },
+  {
+   "n": 7,
+   "title": "Country super",
+   "tpl": "tag_label",
+   "dur": 1.6,
+   "pos": "center",
+   "text": {
+    "main": "Indonesia"
+   },
+   "cue": "Country super, lower corner, 1 to 2 s: Indonesia",
+   "src": "Script, row 00:13–00:14, Motion graphics & type.",
+   "rows": [
+    "00:13–00:14"
+   ],
+   "use": "Put it on as the line starts, 1 to 2 s. Move it to a lower corner, above the captions box. The dot is the pin. Country only."
+  },
+  {
+   "n": 8,
+   "title": "Country super",
+   "tpl": "tag_label",
+   "dur": 1.6,
+   "pos": "center",
+   "text": {
+    "main": "Italy"
+   },
+   "cue": "Country super, lower corner, 1 to 2 s: Italy",
+   "src": "Script, row 00:14–00:15, Motion graphics & type.",
+   "rows": [
+    "00:14–00:15"
+   ],
+   "use": "Put it on as the line starts, 1 to 2 s. Move it to a lower corner, above the captions box. The dot is the pin. Country only."
+  },
+  {
+   "n": 9,
+   "title": "Country super",
+   "tpl": "tag_label",
+   "dur": 1.6,
+   "pos": "center",
+   "text": {
+    "main": "North Macedonia / Australia"
+   },
+   "cue": "Country super, lower corner, 1 to 2 s: North Macedonia / Australia",
+   "src": "Script, row 00:15–00:18, Motion graphics & type.",
+   "rows": [
+    "00:15–00:18"
+   ],
+   "use": "Put it on as the line starts, 1 to 2 s. Move it to a lower corner, above the captions box. The dot is the pin. Country only."
+  },
+  {
+   "n": 10,
+   "title": "Country super",
+   "tpl": "tag_label",
+   "dur": 1.6,
+   "pos": "center",
+   "text": {
+    "main": "Uganda"
+   },
+   "cue": "Country super, lower corner, 1 to 2 s: Uganda",
+   "src": "Script, row 00:18–00:20, Motion graphics & type.",
+   "rows": [
+    "00:18–00:20"
+   ],
+   "use": "Put it on as the line starts, 1 to 2 s. Move it to a lower corner, above the captions box. The dot is the pin. Country only."
+  },
+  {
+   "n": 11,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:48–00:53"
+   ],
+   "cue": "Lions lockup only. No editor-added logos.",
+   "file": "endcards/lions/lions-cta-end-card.mp4",
+   "dur": 5.1,
+   "src": "Lions' latest end card video (Lions CTA.mp4, sent as the latest Lions end card on Slack, 20 Aug 2026), from endcards/index.json.",
+   "use": "This is the end card. Cut to it on “feeling” at 00:48 and play it to the end as it is. Music out under it."
+  }
+ ]
+}

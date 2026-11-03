@@ -8,13 +8,12 @@
  "editor": "Bleron",
  "due": "2026-10-07",
  "format": "9:16 only · 1080×1920",
- "length": "about 15 s",
+ "length": "about 14 s",
  "edit_key": "WATSIAdDonorNoteDavid001",
- "headline": "A paid ad with one job: make a stranger click and give $5. David gives because he sees exactly where the money goes.",
+ "headline": "A Meta ad with one job: make a stranger join David and give. David gives because Watsi is transparent, the team is lean and effective, and his gift makes a direct impact.",
  "story": [
-  "David has given to Watsi since 2016. He loves the transparency and trusts the lean team.",
-  "He can make a direct impact in people's lives.",
-  "One ask: join in with David and give today."
+  "David has given to Watsi since 2016. In 10 seconds of his own voice: <b>transparency</b>, a <b>lean and effective team</b>, and a <b>direct impact in people's lives</b>.",
+  "One ask on the end card: join in with David and give today."
  ],
  "feel": [
   "Dignified",
@@ -24,8 +23,8 @@
  ],
  "do": [
   "Hook text “Why I give: the receipts.” on frame 1.",
-  "WHO GIVES card from about 0:02, never first.",
-  "A 2 s transparency-sheet capture on “transparency”.",
+  "Who Gives card from 00:04 (after the hook and the receipt), never first. It says David.",
+  "A 2 s transparency-sheet screen recording on “transparency”.",
   "Big moments for “transparency” and “direct impact”, one at a time.",
   "End card with the down arrow."
  ],
@@ -33,14 +32,14 @@
   "No music.",
   "No patient B-roll under a donor voice. No pain, poverty or guilt.",
   "No AI headshot. Real photo only if Mackinnon's is on the Slack thread.",
-  "Don't re-voice the audio. Light noise clean only.",
+  "No surname, company or city on screen. Don't re-voice the audio: light noise clean only.",
   "No other aspect ratio."
  ],
  "links": {
   "brief": {
    "title": "Editor brief: Who Gives donor ad, Donor Note — David (pulse.12997735317)",
    "url": "https://docs.google.com/document/d/1xHHX7sCo83VoKfeQ-bxT9CLNRBtXOkD4afm1aS9AelY/edit",
-   "note": "Includes the 9 and 11 Sep direction updates (9:16 only, hook text first). Bites, AV map and rules are set there."
+   "note": "Bites, AV map and rules are set there. 9:16 only; the hook text comes first."
   },
   "reference": {
    "title": "charity: water, Scott Harrison founder ad (Meta Ad Library)",
@@ -48,94 +47,95 @@
    "note": "Chosen by Atdhe. Take from it: one voice, one story, one ask, big captions."
   },
   "footage": {
-   "title": "Who Gives campaign assets › Donor Generated Content",
-   "url": "https://drive.google.com/drive/folders/1im93fREwxdnCTyDhvGhs_H4F-SO-jBFs",
-   "note": "Audio Note_David (audio only, 18 s). Reuse the Who Gives project already built for David's donor note and re-cut."
+   "title": "Who Gives campaign assets ▸ Donor Generated Content",
+   "url": "https://drive.google.com/drive/folders/1A6DvfGPUjAytWJy0rMEaVS0UEZQEiSue",
+   "note": "Audio Note_David is in Donor Generated Content (audio only, 18 s). Reuse the Who Gives project already built for David's donor note and re-cut."
   }
  },
- "bp_intro": "Audio only: <span class=\"mono\">Audio Note_David</span> (18 s, David's own phone recording). Picture is kinetic type and a pulsing waveform on the Who Gives gradient. Times are in the audio note.",
+ "bp_intro": "Audio only: <span class=\"mono\">Audio Note_David</span> (18 s, David's own phone recording). Picture is kinetic type and Watsi's pulsing waveform on the Who Gives gradient. Source times are mm:ss.s in the audio note, from the word timings in output.json. The ad starts at 00:05.7 in the note, so the output time is the source time minus 5.7 s.",
  "rows": [
   {
-   "tc": "00:00–00:02",
+   "tc": "00:00–00:03",
    "beat": "HOOK",
    "kind": "hook",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Kinetic type on the Who Gives gradient, waveform pulsing.",
-   "motion": "Hook text on <b>frame 1</b>, Lato Black, top third, 2 s: <q>Why I give: the receipts.</q>",
+   "visual": "The Who Gives gradient fills the frame (sample it from the live <span class=\"mono\">watsi.org/who-gives</span> page, do not guess). Watsi's waveform pulses under large kinetic type of his words. Start on his voice at <span class=\"mono\">00:05.7</span> (<q>I give because</q>). Before that he says his surname, city and company: never use it. On <q>transparency</q> (<span class=\"mono\">00:02.2</span>): cut to the 2 s <b>new screen recording</b> of the transparency sheet (<span class=\"mono\">watsi.org/transparency</span>) scrolling to one receipt row.",
+   "motion": "Hook text on <b>frame 1</b>: <q>Why I give: the receipts.</q> Already on screen at 0:00, does not animate on. Lato Black, top third. Stays up 2 s. Then the big word <q>transparency</q> as he says it, 1.5 s.",
    "voice": {
     "who": "David",
-    "quote": "I give because I love the level of transparency",
-    "src": "Audio Note_David 00:06"
+    "quote": "I give because I love the level of transparency,",
+    "src": "Audio Note_David 00:05.7 to 00:08.0"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "<span class=\"none\">No music.</span>"
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": [
+    {
+     "clip": "Screen recording (new): watsi.org/transparency",
+     "at": 0.0,
+     "dur": 2.0,
+     "cx": 0.5,
+     "path": null,
+     "drive": null,
+     "layout": "full",
+     "what": "transparency sheet scrolling to one receipt row"
+    }
+   ]
   },
   {
-   "tc": "00:02–00:04",
+   "tc": "00:03–00:06",
    "beat": "WHO GIVES",
    "kind": "",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Locked Who Gives intro: “WHO GIVES” (September Spirit) + “Hear from David” + “Watsi donor since 2016” (Lato).",
-   "motion": "Credit after the hook, lower left, 2 s: “David · Watsi donor since 2016”.",
-   "voice": "David continues.",
+   "visual": "The Who Gives gradient fills the frame (sample it from the live <span class=\"mono\">watsi.org/who-gives</span> page, do not guess). Watsi's waveform pulses under large kinetic type of his words. From 00:04, after the screen recording: the 2 s Who Gives intro from Sonam's template in the existing Who Gives project. It is his name line, so there is no second lower third.",
+   "motion": "Who Gives intro card at 00:04 for 2 s: “WHO GIVES” in September Spirit, then “Hear from David” and “Watsi donor since 2016” in Lato. It must say <b>David</b>, never Dean. First name and year only. Caption Watsi (transcript: WOTC).",
+   "voice": {
+    "who": "David",
+    "quote": "I trust the lean and effective Watsi team",
+    "src": "Audio Note_David 00:08.7 to 00:11.9"
+   },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "<span class=\"none\">No music.</span>"
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": []
   },
   {
-   "tc": "00:04–00:07",
-   "beat": "TRANSPARENCY",
+   "tc": "00:06–00:10",
+   "beat": "DIRECT IMPACT",
    "kind": "turn",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "On “transparency”: 2 s screen capture of watsi.org/transparency scrolling to a receipt row. Then type and waveform.",
-   "motion": "Big word moment: <b>transparency</b>, 1.5 s. Caption Watsi (transcript: WOTC).",
+   "visual": "The Who Gives gradient fills the frame (sample it from the live <span class=\"mono\">watsi.org/who-gives</span> page, do not guess). Watsi's waveform pulses under large kinetic type of his words. Kinetic type of his words to the last word. The line ends on <q>people's lives.</q>: keep both words in the audio and in the caption.",
+   "motion": "Big word moment as he says it, 1.5 s: <q>direct impact</q>. Captions on to the last word.",
    "voice": {
     "who": "David",
-    "quote": "I trust the lean and effective Watsi team",
-    "src": "Audio Note_David 00:06–00:12"
+    "quote": "and I really appreciate the ability to make such a direct impact in people's lives.",
+    "src": "Audio Note_David 00:12.1 to 00:15.9"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "<span class=\"none\">No music.</span>"
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": []
   },
   {
-   "tc": "00:07–00:12",
-   "beat": "DIRECT IMPACT",
-   "kind": "",
-   "frame": null,
-   "crop": "none",
-   "frame_tag": null,
-   "frame_alt": null,
-   "visual": "Gradient + kinetic type.",
-   "motion": "Big word moment: <b>direct impact</b>, 1.5 s.",
-   "voice": {
-    "who": "David",
-    "quote": "I really appreciate the ability to make such a direct impact in people's lives.",
-    "src": "Audio Note_David 00:12–00:17"
-   },
-   "sfx": "<span class=\"none\">None.</span>",
-   "music": "<span class=\"none\">No music.</span>"
-  },
-  {
-   "tc": "00:12–00:15",
+   "tc": "00:10–00:14",
    "beat": "END CARD",
    "kind": "end",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Who Gives gradient.",
-   "motion": "<q>Join in with David and give today</q> · big: <q>Click the link below to give with David today</q> · <q>100% of your donation funds life-changing healthcare.</q> · watsi.org (lowercase) · small arrow pointing down.",
+   "visual": "The Who Gives gradient. No faces, no logo lockup, no stats, no donate button graphic. A small arrow pointing down under the CTA line.",
+   "motion": "Lines one at a time, Lato, navy <span class=\"mono\">#2E2844</span>: <q>Join in with David and give today</q> / big: <q>Click the link below to give with David today</q> / <q>100% of your donation funds life-changing healthcare.</q> / <b>watsi.org</b> (all lowercase) / small arrow pointing down.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "<span class=\"none\">No music.</span>"
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": []
   }
  ],
  "frames": {},
@@ -150,33 +150,49 @@
   ],
   [
    "Audio",
-   "Audio Note_David (audio/mp4, 18 s), Who Gives campaign assets › Donor Generated Content. Transcript: “Transcripts - Who Gives campaign assets”."
+   "<a href=\"https://drive.google.com/file/d/1YkilNmtIhUo9fbY4-Msscdtl6EhLogDp/view\">Audio Note_David</a> · 18 s · <a href=\"https://drive.google.com/drive/folders/19zQXl8Cdb6ba31-MMkSvFab8cW8rci9g\">Donor Generated Content</a>"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1JJ1l0krT9-isKfTpsSEg9PeVOPpC1IQyADabx8nUr0Y/edit\">Transcripts - Who Gives campaign assets</a> · <a href=\"https://drive.google.com/file/d/1IYqCyJtBcpGths82vtGxD2EbBaNkdlDr/view\">output.json</a> (word times)"
+  ],
+  [
+   "Who Gives design files",
+   "<a href=\"https://drive.google.com/drive/folders/1P9pbrmBJ_pDA06GYEmN6koenHNF6DXpq\">Design file</a> folder (Who Gives campaign assets)"
+  ],
+  [
+   "Brand pack",
+   "<a href=\"https://drive.google.com/drive/folders/1my9RNjTawX8JeQO2eQDHSphWP8KTg09r\">LOTUS illustrations</a> · <a href=\"https://drive.google.com/drive/folders/1T7bIehcX3_l6F-CXUu-LHCyPE58nq9df\">September Spirit font</a> (from this item's Branding and Font columns). Lato for all text. Navy <span class=\"mono\">#2E2844</span> is text only, never a background."
   ],
   [
    "Gradient",
-   "Sample from watsi.org/who-gives. Don't guess."
+   "Sample it from the live <span class=\"mono\">watsi.org/who-gives</span> page. Don't guess."
   ],
   [
    "Transparency sheet",
-   "New screen capture of watsi.org/transparency scrolling to a receipt row."
+   "New screen recording of <span class=\"mono\">watsi.org/transparency</span> scrolling to one receipt row."
   ]
  ],
  "tech": [
   [
    "Source",
-   "Audio Note_David, the donor's phone recording, 18 s. No picture."
+   "Audio Note_David, the donor's own phone recording, 17.7 s. No picture: the picture is kinetic type and Watsi's pulsing waveform on the Who Gives gradient."
   ],
   [
    "Timeline",
-   "1080×1920. Keep every word inside the middle safe zone."
+   "1080×1920, 30 fps. Keep every word inside the middle safe zone."
   ],
   [
    "Audio",
-   "Light noise-floor clean. Never re-voice. No music."
+   "Light noise-floor clean only. Never re-voice. No music, no other sound under the donor."
+  ],
+  [
+   "Loudness",
+   "−14 LUFS integrated, −1 dBTP peak."
   ],
   [
    "Captions",
-   "Every word as kinetic pop-up words, Lato on the gradient, no box, no highlight, no jumpy animation. Never drop out."
+   "Who Gives pop-up words: Lato Bold, word by word, no box, no highlight, no jumpy animation, readable on the gradient. Never drop out. Every Watsi written by hand (the transcript says WOTC). The caption clips are in the Captions section of this page."
   ],
   [
    "Export",
@@ -184,28 +200,166 @@
   ]
  ],
  "checklist": [
-  "Frame 1 is the hook text, not the WHO GIVES card.",
+  "Frame 1 is the hook text, not the Who Gives card.",
+  "The Who Gives card says “Hear from David” and “Watsi donor since 2016”. Never Dean.",
+  "The last caption ends “people's lives.” and both words are heard.",
+  "No surname, company or city anywhere.",
   "No music anywhere.",
   "Watsi with a capital W only; watsi.org lowercase.",
-  "Credit is first name + year only.",
-  "One ask, said once.",
-  "No patient B-roll, no Donate button graphic, no extra logo lockup."
+  "One brand element at a time: hook, receipt, card, big words, end card.",
+  "End card lines in order, with the small arrow pointing down. No logo lockup, no donate button graphic."
  ],
  "decisions": [
   {
-   "t": "Revision notes",
-   "b": "This item is in Needs Revisions at V1. Read the Frame.io notes first; this page is the plan for everything they don't change."
+   "t": "The donation ask",
+   "b": "The brief's ask names a dollar amount. Money stays off this page, so the ask is the end card's “give today” lines. Nick confirms the end card words with Sonam."
   },
   {
    "t": "Card first or hook first",
-   "b": "If the client-locked Who Gives style requires the card first, Atdhe decides. Don't start on the card."
+   "b": "The hook text is first, the Who Gives card comes at 00:04. If Sonam's locked Who Gives style needs the card first, Atdhe decides."
   }
  ],
- "client_note": "<b>Why this matters:</b> this is a paid Meta ad. Watsi's tone is dignified and joyful, never guilt. Sonam asked for the “Join in with [Name] and give today” end card (25 Aug).",
+ "client_note": "<b>Why this matters:</b> this is a Meta ad for new donors. Watsi's tone is dignified and joyful, never guilt. Sonam asked for the “Join in with [Name] and give today” end card (25 Aug).",
  "ask_examples": [
   "What is on frame 1?",
-  "Can I add music?",
+  "What does the Who Gives card say?",
   "Where does the transparency shot come from?",
   "What is the end card text?"
- ]
+ ],
+ "transcript": "Auto-transcript of David's audio note (Who Gives campaign assets, Donor Generated Content), 18 s. Times are mm:ss.s in the file, from the word timings in output.json. Watsi is written by hand (the transcript says WOTC).\n\n--- Audio Note_David ---\n[00:00.7] Hi, I'm David Burkle from Toronto, Canada. [do not use: surname, city and company; the name line is first name and year only]\n[00:03.5] I'm the CEO of Banyan Software and [do not use: surname, city and company; the name line is first name and year only]\n[00:05.7] I give because I love the level of transparency,\n[00:08.7] I trust the lean and effective Watsi team\n[00:12.1] and I really appreciate the ability to make such a direct impact in people's lives.",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "I trust the lean and effective Watsi team",
+    "who": "David",
+    "file": "Audio Note_David",
+    "why": "Trust in the team."
+   },
+   {
+    "quote": "and I really appreciate the ability to make such a direct impact in people's lives.",
+    "who": "David",
+    "file": "Audio Note_David",
+    "why": "Direct impact."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "I give because I love the level of transparency,",
+    "who": "David",
+    "file": "Audio Note_David",
+    "why": "Why he gives."
+   },
+   {
+    "quote": "and I really appreciate the ability to make such a direct impact in people's lives.",
+    "who": "David",
+    "file": "Audio Note_David",
+    "why": "Direct impact."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "I give because I love the level of transparency,",
+    "who": "David",
+    "file": "Audio Note_David",
+    "why": "Why he gives."
+   },
+   {
+    "quote": "I trust the lean and effective Watsi team",
+    "who": "David",
+    "file": "Audio Note_David",
+    "why": "Trust in the team."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "Why I give: the receipts.",
+    "line": "I give because I love the level of transparency,",
+    "why": "The brief's hook. He says transparency in the first line."
+   },
+   {
+    "text": "Why I give: transparency.",
+    "line": "I give because I love the level of transparency,",
+    "why": "His own word."
+   },
+   {
+    "text": "A direct impact.",
+    "line": "and I really appreciate the ability to make such a direct impact in people's lives.",
+    "why": "His last words as the hook."
+   },
+   {
+    "text": "I trust the team.",
+    "line": "I trust the lean and effective Watsi team",
+    "why": "Trust, said plainly."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "Who Gives locked style: very simple, clean, minimal motion; one element at a time; no patient B-roll under a donor voice; no music.",
+  "devices": [
+   {
+    "row": "00:00–00:03",
+    "device": "Hook text, static",
+    "asset": "highlight_callout (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:00–00:03",
+    "device": "Big word: transparency, over the screen recording of the transparency sheet",
+    "asset": "word_stack (MG library); watsi.org/transparency (new capture)",
+    "source": "Script; watsi.org"
+   },
+   {
+    "row": "00:03–00:06",
+    "device": "Who Gives intro card (his name line)",
+    "asset": "Sonam's Who Gives template (existing project)",
+    "source": "Client template"
+   },
+   {
+    "row": "00:06–00:10",
+    "device": "Big words: direct impact",
+    "asset": "word_stack (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:10–00:14",
+    "device": "End card",
+    "asset": "end_card (MG library)",
+    "source": "endcards/index.json (Watsi lines, 6 Oct 2026)"
+   }
+  ],
+  "broll_pool": [],
+  "elements": [
+   {
+    "name": "Who Gives intro card (Sonam's template)",
+    "kind": "title",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   },
+   {
+    "name": "Watsi waveform (pulsing)",
+    "kind": "element",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": true,
+    "size": null,
+    "fps": 30
+   },
+   {
+    "name": "Who Gives end card",
+    "kind": "end_card",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
 }

@@ -1,0 +1,28 @@
+{
+ "item": "12714501098",
+ "client": "watsi",
+ "note": "The script asks for no graphics: captions from the first word, no name super, no title, no logo. So only the watsi.org end card.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "00:51–00:54"
+   ],
+   "cue": "watsi.org, all lowercase, Lato, navy #2E2844. Nothing else.",
+   "src": "Watsi's own end card words from the script (endcards/index.json, Watsi lines, 6 Oct 2026). Watsi's scripts say no logo lockup.",
+   "c": {
+    "bg": "#D3EDFA",
+    "fg": "#2E2844"
+   },
+   "text": {
+    "lines": [
+     "watsi.org"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it right after “Ciao.” at about 00:51 and hold it to the end. No music."
+  }
+ ]
+}

@@ -1,20 +1,20 @@
 {
  "id": "13361239430",
  "client": "lions",
- "eyebrow": "Lions International · Hong Kong Convention · Jul 2026 · Lions of the World (Traditional) · Global montage",
+ "eyebrow": "Lions International · Hong Kong Convention · Jul 2026 · Lions of the World · Global montage",
  "title": "Lions of the World:",
  "title_q": "“I'm From Here”",
  "title_short": "Hong Kong global montage · I'm from here",
  "editor": "Bleron",
  "due": "2026-11-16",
  "format": "9:16 only · 1080×1920",
- "length": "about 55 s",
+ "length": "about 53 s (48 s of Lions, then the 5 s end card)",
  "edit_key": "LIONSHongKongGlobalMontage001",
  "headline": "Lions from every corner of the world are one family. The fun is how many places they come from, said fast, one after another.",
  "story": [
   "Maria and Elidia from Mexico open it. Then Hong Kong, Ontario, Germany, Hawaii, Indonesia, Italy and more, one or two seconds each.",
   "One slower beat: a Lion from Bitola who found Lions from home in Melbourne. A Leo laughs that she's actually from Hong Kong.",
-  "The ending is friendship: new friends from all over the world, best friends now, and Lions who feel like family."
+  "<b>Loops:</b> L1 “Where are these Lions from?” opens at 0:00 and keeps closing with every country. L2 “Why did they all fly to the same hall?” closes in the button: new friends from all over the world, best friends now, and Lions who feel like family."
  ],
  "feel": [
   "Fun",
@@ -26,7 +26,7 @@
   "Hook text WHERE ARE YOU FROM? on frame 1 over Maria.",
   "Run the “I'm from” lines fast, 1 to 2 s each, in the order below.",
   "Change costume, age and setting every cut.",
-  "One small country super per speaker. Country only.",
+  "One small country super per speaker, from 0:03: a pin and the country only.",
   "Cut to the end card on “feeling”."
  ],
  "dont": [
@@ -40,7 +40,7 @@
   "brief": {
    "title": "Editor brief: Hong Kong global montage, “I'm from here” (pulse.13361239430)",
    "url": "https://docs.google.com/document/d/1ddG8sP7ogaUPVmA91ZODx0ivx7sUuH9w6-DHr_J3bHk/edit",
-   "note": "Rebuilt 27 Oct from Jacqui's 20 Oct ask (fathom.video/calls/869171947 at 16:00 and 18:53)."
+   "note": "Built from Jacqui's 20 Oct ask on the Lions bi-weekly (Fathom call at 16:00 and 18:53)."
   },
   "reference": {
    "missing": true,
@@ -53,79 +53,103 @@
    "note": "Lions International / Raw Footage / Hong Kong Convention. Vertical 1080×1920 phone clips, audio in camera. One subject folder per country."
   }
  },
- "bp_intro": "Every file is a vertical 1080×1920 phone clip, audio in camera, in Lions International / Raw Footage / Hong Kong Convention. Times are the brief's, from the per-clip SRTs (seconds.hundredths). Middle lines run 1 to 2 s each; durations below are targets.",
+ "bp_intro": "Every file is a vertical 1080×1920 phone clip (about 30 fps), audio in camera, in Lions International / Raw Footage / Hong Kong Convention, one folder per country. Source times are mm:ss.s in each file, from the word timings in the Hong Kong Convention transcript.json. Lines that run long are cut to the place (1 to 2 s), as the brief asks. Frames: one real frame (IMG_7822); the rest are described from visual.json.",
  "rows": [
   {
-   "tc": "00:00–00:03",
+   "tc": "00:00–00:02",
    "beat": "HOOK",
    "kind": "hook",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "IMG_8017 01:58.09–02:37.52, wide, handheld: two women in traditional Mexican dress, one in a sombrero, colourful floor.",
-   "motion": "Hook text on <b>frame 1</b>, big: <q>WHERE ARE YOU FROM?</q> No logo, no lower third, no title card.",
+   "visual": "<a href=\"https://drive.google.com/file/d/1QX49aHiA0i_151HpPtVhaGTx5_RGRQAZ/view\">More Mexico Lion / IMG_8017.MOV</a>, wide, handheld: two women in traditional Mexican dress, one in a sombrero, the other in blue and red, on a colourful floor (visual.json). In <span class=\"mono\">02:24.3</span>, out <span class=\"mono\">02:26.5</span>. The montage is the faces: a new Lion, a new costume and a new place every cut, so no B-roll.",
+   "motion": "Hook text on <b>frame 1</b>, big: <q>WHERE ARE YOU FROM?</q> Already on screen at 0:00, does not animate on. No logo, no lower third, no title card.",
    "voice": {
     "who": "Maria",
     "quote": "Hello, I am Maria from Mexico. Hola, soy María de México.",
-    "src": "More Mexico Lion/IMG_8017.MOV 02:24.34–02:26.46"
+    "src": "More Mexico Lion/IMG_8017.MOV 02:24.3 to 02:26.5"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Licensed bed on frame 1."
+   "music": "Licensed bed on frame 1, YouTube safe, 18 to 20 dB under the voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Hello,"
+    }
+   ]
   },
   {
-   "tc": "00:03–00:06",
+   "tc": "00:02–00:05",
    "beat": "MEXICO",
    "kind": "",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Same shot.",
-   "motion": "Hook text off. Super: <b>Mexico</b>.",
+   "visual": "<a href=\"https://drive.google.com/file/d/1QX49aHiA0i_151HpPtVhaGTx5_RGRQAZ/view\">More Mexico Lion / IMG_8017.MOV</a>, same wide shot as the hook. In <span class=\"mono\">02:27.3</span>, out <span class=\"mono\">02:30.2</span>. The montage is the faces: a new Lion, a new costume and a new place every cut, so no B-roll.",
+   "motion": "Hook text off at 00:02. Country super at 00:03, lower corner, 1.5 s: <b>Mexico</b>.",
    "voice": {
     "who": "Elidia",
     "quote": "Hello, I am Elidia from Mexico. Hola, soy Elidia de México.",
-    "src": "More Mexico Lion/IMG_8017.MOV 02:27.34–02:30.22"
+    "src": "More Mexico Lion/IMG_8017.MOV 02:27.3 to 02:30.2"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Hello,"
+    }
+   ]
   },
   {
-   "tc": "00:06–00:08",
+   "tc": "00:05–00:06",
    "beat": "HONG KONG",
    "kind": "turn",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "IMG_8006 00:02.59–00:07.73 wide: two women in green shirt and yellow jacket waving and smiling.",
-   "motion": "Super: <b>Hong Kong</b>.",
+   "visual": "<a href=\"https://drive.google.com/file/d/1BOuuHe0aAh8uM7YTv7s2JY-laYAw4UFv/view\">More Hong Kong Lions / IMG_8006.MOV</a>, wide: two women in a green shirt and a yellow jacket wave and smile (visual.json). In <span class=\"mono\">00:03.0</span>, out <span class=\"mono\">00:04.2</span>. Use the clean second take. The montage is the faces: a new Lion, a new costume and a new place every cut, so no B-roll.",
+   "motion": "Country super, lower corner, 1 to 2 s: <b>Hong Kong</b>.",
    "voice": {
-    "who": "Hong Kong Lions",
+    "who": "Hong Kong",
     "quote": "Hi, we are from Hong Kong.",
-    "src": "More Hong Kong Lions/IMG_8006.MOV 00:03.00–00:04.18 (clean second take)"
+    "src": "More Hong Kong Lions/IMG_8006.MOV 00:03.0 to 00:04.2"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Pace picks up."
+   "music": "Pace picks up.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Hi,"
+    }
+   ]
   },
   {
-   "tc": "00:08–00:09",
+   "tc": "00:06–00:09",
    "beat": "CANADA",
    "kind": "",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "IMG_7816 medium. Cut in after his name.",
+   "visual": "<a href=\"https://drive.google.com/file/d/1ByNbja7n69MjOaR65C648lPa-sXv8fwu/view\">Canadian Lions / IMG_7816.MOV</a>, medium: a man in a blue shirt with a red necklace and a hat, people behind him (visual.json). In <span class=\"mono\">00:07.2</span>, out <span class=\"mono\">00:10.2</span>. Cut in after his name. The montage is the faces: a new Lion, a new costume and a new place every cut, so no B-roll.",
    "motion": "Country super, lower corner, 1 to 2 s: <b>Canada</b>.",
    "voice": {
     "who": "Canada",
     "quote": "I'm from District A15 and that's in Ontario.",
-    "src": "Canadian Lions/IMG_7816.MOV 00:04.92–00:10.20"
+    "src": "Canadian Lions/IMG_7816.MOV 00:07.2 to 00:10.2"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I'm"
+    }
+   ]
   },
   {
    "tc": "00:09–00:11",
@@ -135,51 +159,69 @@
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "IMG_7908 medium. Cut before the club name.",
+   "visual": "<a href=\"https://drive.google.com/file/d/1_Mul2f1pxb_1RXwM2IVrGIDOBy0qC3yU/view\">German Lion / IMG_7908.MOV</a>, medium: a woman in a blue polo with a lapel pin in the convention hall (visual.json). In <span class=\"mono\">00:39.9</span>, out <span class=\"mono\">00:42.3</span>. Cut before the club name. The montage is the faces: a new Lion, a new costume and a new place every cut, so no B-roll.",
    "motion": "Country super, lower corner, 1 to 2 s: <b>Germany</b>.",
    "voice": {
     "who": "Germany",
     "quote": "I'm from multiple district 111, Germany",
-    "src": "German Lion/IMG_7908.MOV 00:39.93–00:46.59"
+    "src": "German Lion/IMG_7908.MOV 00:39.9 to 00:42.3"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I'm"
+    }
+   ]
   },
   {
-   "tc": "00:11–00:12",
+   "tc": "00:11–00:13",
    "beat": "HAWAII USA",
    "kind": "",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "IMG_7847 close.",
+   "visual": "<a href=\"https://drive.google.com/file/d/13_Nv-SrmoJntsfrlcVUkhFQI6-GnWJRp/view\">Hawaii Lion / IMG_7847.MOV</a>, close: a man in a yellow vest covered in badges, blue shirt (visual.json). In <span class=\"mono\">00:09.0</span>, out <span class=\"mono\">00:10.3</span>. Cut in on “from Honolulu”: the words before it name his club, and no club names go on screen. The montage is the faces: a new Lion, a new costume and a new place every cut, so no B-roll.",
    "motion": "Country super, lower corner, 1 to 2 s: <b>Hawaii USA</b>.",
    "voice": {
     "who": "Hawaii USA",
-    "quote": "I'm a Lion, Kino'ole Lion member from Honolulu, Hawaii.",
-    "src": "Hawaii Lion/IMG_7847.MOV 00:05.80–00:10.28"
+    "quote": "from Honolulu, Hawaii.",
+    "src": "Hawaii Lion/IMG_7847.MOV 00:09.0 to 00:10.3"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "from"
+    }
+   ]
   },
   {
-   "tc": "00:12–00:14",
+   "tc": "00:13–00:14",
    "beat": "INDONESIA",
    "kind": "",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "IMG_7935 wide.",
+   "visual": "<a href=\"https://drive.google.com/file/d/1QIn0UKn61kOkbosvq3vYIH3H3iGN-eEs/view\">Indonesia Lion / IMG_7935.MOV</a>, wide (visual.json: a crowd in yellow in the hall; check the speaker on scrub). In <span class=\"mono\">00:40.8</span>, out <span class=\"mono\">00:42.2</span>. The montage is the faces: a new Lion, a new costume and a new place every cut, so no B-roll.",
    "motion": "Country super, lower corner, 1 to 2 s: <b>Indonesia</b>.",
    "voice": {
     "who": "Indonesia",
     "quote": "I'm from Indonesia.",
-    "src": "Indonesia Lion/IMG_7935.MOV 00:40.76–00:42.16"
+    "src": "Indonesia Lion/IMG_7935.MOV 00:40.8 to 00:42.2"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I'm"
+    }
+   ]
   },
   {
    "tc": "00:14–00:15",
@@ -189,159 +231,213 @@
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "IMG_7834 medium. Mid sentence: cut tight.",
+   "visual": "<a href=\"https://drive.google.com/file/d/1cm5qpmjbIAJM2SeRTQOdZhyhLLI-d4d6/view\">Italy Lions / IMG_7834.MOV</a>, medium: a man in a white shirt, navy tie and clear glasses, smiling (visual.json). In <span class=\"mono\">00:05.0</span>, out <span class=\"mono\">00:06.2</span>. Mid sentence: cut tight. The montage is the faces: a new Lion, a new costume and a new place every cut, so no B-roll.",
    "motion": "Country super, lower corner, 1 to 2 s: <b>Italy</b>.",
    "voice": {
     "who": "Italy",
     "quote": "I come from Italy",
-    "src": "Italy Lions/IMG_7834.MOV 00:00.21–00:09.01"
+    "src": "Italy Lions/IMG_7834.MOV 00:05.0 to 00:06.2"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I"
+    }
+   ]
   },
   {
-   "tc": "00:15–00:19",
+   "tc": "00:15–00:18",
    "beat": "NORTH MACEDONIA / AUSTRALIA",
    "kind": "",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "IMG_7839 medium. The one slower beat: she left home and found Lions from home on the other side of the world.",
+   "visual": "<a href=\"https://drive.google.com/file/d/1hZB8weojE2V3aLiRe4QJgwp_errWWg73/view\">Manastir Lion / IMG_7839.MOV</a>, medium: a woman with long dark hair and glasses, light blue shirt, seated in the convention centre (visual.json). In <span class=\"mono\">00:59.8</span>, out <span class=\"mono\">01:02.0</span>. The one slower beat: she left home and found Lions from home on the other side of the world. Hold 0.5 s after “six years”. The montage is the faces: a new Lion, a new costume and a new place every cut, so no B-roll.",
    "motion": "Country super, lower corner, 1 to 2 s: <b>North Macedonia / Australia</b>.",
    "voice": {
     "who": "North Macedonia / Australia",
     "quote": "I'm from Bitola, but I'm living in Melbourne for the past six years.",
-    "src": "Manastir Lion/IMG_7839.MOV 00:59.84–01:02.04"
+    "src": "Manastir Lion/IMG_7839.MOV 00:59.8 to 01:02.0"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I'm"
+    }
+   ]
   },
   {
-   "tc": "00:19–00:20",
+   "tc": "00:18–00:20",
    "beat": "UGANDA",
    "kind": "",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "IMG_7896 wide. Cut in after her name.",
+   "visual": "<a href=\"https://drive.google.com/file/d/1FLY7VYlVvGOKCDdYcKIgkGHqmH6beVuU/view\">More Uganda Lion / IMG_7896.MOV</a>, wide: a woman in a light blue Lions shirt, beige hat and colourful skirt (visual.json). In <span class=\"mono\">00:19.0</span>, out <span class=\"mono\">00:20.8</span>. Cut in on “District”: the words before it are her name and club, and no names go on screen. The montage is the faces: a new Lion, a new costume and a new place every cut, so no B-roll.",
    "motion": "Country super, lower corner, 1 to 2 s: <b>Uganda</b>.",
    "voice": {
     "who": "Uganda",
-    "quote": "from the Lions Club of Kumi Central, District 411B, Uganda.",
-    "src": "More Uganda Lion/IMG_7896.MOV 00:12.69–00:20.75"
+    "quote": "District 411B, Uganda.",
+    "src": "More Uganda Lion/IMG_7896.MOV 00:19.0 to 00:20.8"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "District"
+    }
+   ]
   },
   {
-   "tc": "00:20–00:22",
+   "tc": "00:20–00:21",
    "beat": "NETHERLANDS",
    "kind": "",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "IMG_7877 medium. Cut in after her name, out before her title.",
+   "visual": "<a href=\"https://drive.google.com/file/d/1Gk1L7GF6yQpclRxLG7ksIj0DY0yPt1Fx/view\">Netherlands Lion / IMG_7877.MOV</a>, medium: a woman in a brown suit with a name tag in a lobby, smiling (visual.json). In <span class=\"mono\">00:14.2</span>, out <span class=\"mono\">00:15.1</span>. Cut in after her name, out before her title. The montage is the faces: a new Lion, a new costume and a new place every cut, so no B-roll.",
    "motion": "Country super, lower corner, 1 to 2 s: <b>Netherlands</b>.",
    "voice": {
     "who": "Netherlands",
     "quote": "from the Netherlands",
-    "src": "Netherlands Lion/IMG_7877.MOV 00:12.49–00:20.23"
+    "src": "Netherlands Lion/IMG_7877.MOV 00:14.2 to 00:15.1"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "from"
+    }
+   ]
   },
   {
-   "tc": "00:22–00:23",
+   "tc": "00:21–00:23",
    "beat": "USA",
    "kind": "",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "IMG_7853 medium.",
+   "visual": "<a href=\"https://drive.google.com/file/d/1nh26dS-rLAFpyDSeJiT_iFlm_dMWMSDh/view\">New York Lion / IMG_7853.MOV</a>, medium: a man in a green uniform next to a woman in a floral shirt, both smiling (visual.json). In <span class=\"mono\">00:04.7</span>, out <span class=\"mono\">00:06.4</span>. Out after “Queens”, before the district number (1 to 2 s, as the brief asks). The montage is the faces: a new Lion, a new costume and a new place every cut, so no B-roll.",
    "motion": "Country super, lower corner, 1 to 2 s: <b>USA</b>.",
    "voice": {
     "who": "USA",
-    "quote": "I'm from New York City, Brooklyn, Queens, District 20 K1.",
-    "src": "New York Lion/IMG_7853.MOV 00:04.67–00:07.69"
+    "quote": "I'm from New York City, Brooklyn, Queens,",
+    "src": "New York Lion/IMG_7853.MOV 00:04.7 to 00:06.4"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I'm"
+    }
+   ]
   },
   {
-   "tc": "00:23–00:25",
+   "tc": "00:23–00:24",
    "beat": "USA",
    "kind": "",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "IMG_7853, second speaker.",
+   "visual": "<a href=\"https://drive.google.com/file/d/1nh26dS-rLAFpyDSeJiT_iFlm_dMWMSDh/view\">New York Lion / IMG_7853.MOV</a>, same two-shot, the second speaker. In <span class=\"mono\">00:10.0</span>, out <span class=\"mono\">00:11.0</span>. Out after “Kansas”, before the district number (1 to 2 s, as the brief asks). The montage is the faces: a new Lion, a new costume and a new place every cut, so no B-roll.",
    "motion": "Country super, lower corner, 1 to 2 s: <b>USA</b>.",
    "voice": {
     "who": "USA",
-    "quote": "I'm from Wichita, Kansas, District M17 N.",
-    "src": "New York Lion/IMG_7853.MOV 00:09.99–00:15.05"
+    "quote": "I'm from Wichita, Kansas,",
+    "src": "New York Lion/IMG_7853.MOV 00:10.0 to 00:11.0"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I'm"
+    }
+   ]
   },
   {
-   "tc": "00:25–00:27",
+   "tc": "00:24–00:27",
    "beat": "PUERTO RICO",
    "kind": "",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "IMG_7867 medium. Cut in after his name.",
+   "visual": "<a href=\"https://drive.google.com/file/d/16PkynlTM3GSX3mn1DCl7ENE_nL_cwkwY/view\">Puerto Rico Lion / IMG_7867.MOV</a>, medium: a man in a Lions International shirt in a lobby (visual.json). In <span class=\"mono\">00:02.9</span>, out <span class=\"mono\">00:05.8</span>. Cut in after his name. Check “51st Street” by ear before captioning. The montage is the faces: a new Lion, a new costume and a new place every cut, so no B-roll.",
    "motion": "Country super, lower corner, 1 to 2 s: <b>Puerto Rico</b>.",
    "voice": {
     "who": "Puerto Rico",
     "quote": "I'm a Lion from 51st Street in Puerto Rico.",
-    "src": "Puerto Rico Lion/IMG_7867.MOV 00:00.14–00:05.76"
+    "src": "Puerto Rico Lion/IMG_7867.MOV 00:02.9 to 00:05.8"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I'm"
+    }
+   ]
   },
   {
-   "tc": "00:27–00:28",
+   "tc": "00:27–00:29",
    "beat": "ZIMBABWE",
    "kind": "",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "IMG_7979 medium: man in dark blue uniform with a woman in a black and gold dress, mural behind.",
+   "visual": "<a href=\"https://drive.google.com/file/d/1GCYPmzRjOzRY1k9oZom1cHt66dnUDdk6/view\">Zimbabwe Lion / IMG_7979.MOV</a>, medium: a man in a dark blue uniform with a woman in a black and gold dress, a mural behind (visual.json). In <span class=\"mono\">00:04.6</span>, out <span class=\"mono\">00:06.3</span>. Check the two names by ear before captioning. The montage is the faces: a new Lion, a new costume and a new place every cut, so no B-roll.",
    "motion": "Country super, lower corner, 1 to 2 s: <b>Zimbabwe</b>.",
    "voice": {
     "who": "Zimbabwe",
     "quote": "I am Leola and Lona from Zimbabwe.",
-    "src": "Zimbabwe Lion/IMG_7979.MOV 00:04.57–00:06.29"
+    "src": "Zimbabwe Lion/IMG_7979.MOV 00:04.6 to 00:06.3"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I"
+    }
+   ]
   },
   {
-   "tc": "00:28–00:30",
+   "tc": "00:29–00:30",
    "beat": "PHILIPPINES",
    "kind": "",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "IMG_7796 wide.",
+   "visual": "<a href=\"https://drive.google.com/file/d/1lj32P0D4LBSwXGJGvqwcXhhWrQuSj8KI/view\">Phillipines Lions / IMG_7796.MOV</a>, wide: a man with a beard and earbuds in a store (visual.json). In <span class=\"mono\">00:09.4</span>, out <span class=\"mono\">00:10.1</span>. The montage is the faces: a new Lion, a new costume and a new place every cut, so no B-roll.",
    "motion": "Country super, lower corner, 1 to 2 s: <b>Philippines</b>.",
    "voice": {
     "who": "Philippines",
     "quote": "From the Philippines.",
-    "src": "Phillipines Lions/IMG_7796.MOV 00:09.39–00:10.09"
+    "src": "Phillipines Lions/IMG_7796.MOV 00:09.4 to 00:10.1"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "From"
+    }
+   ]
   },
   {
    "tc": "00:30–00:31",
@@ -351,33 +447,45 @@
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "IMG_7993 2 wide. The laugh beat that brings us back to the host city.",
+   "visual": "<a href=\"https://drive.google.com/file/d/1Gd8J1UP-AGU2Rfc9LmymXM-usux0EUs_/view\">Melbourne Lion / IMG_7993 2.MOV</a>, wide: a Leo in a pink shirt behind a blue carpet and a purple rope (visual.json). In <span class=\"mono\">00:12.9</span>, out <span class=\"mono\">00:13.9</span>. The laugh beat that brings us back to the host city. She is a Leo (one member). The montage is the faces: a new Lion, a new costume and a new place every cut, so no B-roll.",
    "motion": "Country super, lower corner, 1 to 2 s: <b>Hong Kong</b>.",
    "voice": {
     "who": "Hong Kong",
     "quote": "I'm actually from Hong Kong.",
-    "src": "Melbourne Lion/IMG_7993 2.MOV 00:12.92–00:13.90"
+    "src": "Melbourne Lion/IMG_7993 2.MOV 00:12.9 to 00:13.9"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I'm"
+    }
+   ]
   },
   {
    "tc": "00:31–00:36",
    "beat": "NEW FRIENDS",
-   "kind": "",
-   "frame": null,
+   "kind": "turn",
+   "frame": "f_IMG7822_38",
    "crop": "none",
-   "frame_tag": null,
-   "frame_alt": null,
-   "visual": "IMG_7822 00:34.15–00:45.60 wide: man in a blue and black patterned shirt outside HALL 3.",
-   "motion": "Super: <b>Uganda</b>.",
+   "frame_tag": "IMG_7822 0:38",
+   "frame_alt": "A man in a blue shirt with a patterned stripe and a Lions pin talks to camera in the convention hall. The Hong Kong convention sign is high on the right.",
+   "visual": "<a href=\"https://drive.google.com/file/d/18kF1IykzNg12rTbmSrUZvJn8yfup_pyT/view\">Uganda Lions / IMG_7822.MOV</a>, a man in a blue shirt with a patterned stripe and a Lions pin, the convention hall behind him (frame). In <span class=\"mono\">00:39.1</span>, out <span class=\"mono\">00:43.7</span>. The montage is the faces: a new Lion, a new costume and a new place every cut, so no B-roll.",
+   "motion": "Country super, lower corner, 1 to 2 s: <b>Uganda</b>.",
    "voice": {
-    "who": "Uganda Lion",
+    "who": "Uganda",
     "quote": "you will create new friends from all over the world",
-    "src": "Uganda Lions/IMG_7822.MOV 00:38.76–00:43.72"
+    "src": "Uganda Lions/IMG_7822.MOV 00:39.1 to 00:43.7"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Settle a little."
+   "music": "Settle a little.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "you"
+    }
+   ]
   },
   {
    "tc": "00:36–00:41",
@@ -387,50 +495,65 @@
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "IMG_7985 02:19.82–03:06.49 medium: woman in a purple blazer covered in pins.",
-   "motion": "Super: <b>Thailand</b>.",
+   "visual": "<a href=\"https://drive.google.com/file/d/18RA2juZFzoYgI1KxX83Rd-MotNjJl2oa/view\">Thailand Lion / IMG_7985.MOV</a>, medium: a woman in a purple blazer covered in pins in front of a booth (visual.json). In <span class=\"mono\">02:28.3</span>, out <span class=\"mono\">02:33.4</span>. The montage is the faces: a new Lion, a new costume and a new place every cut, so no B-roll.",
+   "motion": "Country super, lower corner, 1 to 2 s: <b>Thailand</b>.",
    "voice": {
-    "who": "Thailand Lion",
-    "quote": "we know each other from the lion some of them, and we become the best friend right now",
-    "src": "Thailand Lion/IMG_7985.MOV 02:27.82–02:33.40"
+    "who": "Thailand",
+    "quote": "we know each other from the Lion some of them, and we become the best friend right now",
+    "src": "Thailand Lion/IMG_7985.MOV 02:28.3 to 02:33.4"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "we"
+    }
+   ]
   },
   {
-   "tc": "00:41–00:52",
+   "tc": "00:41–00:48",
    "beat": "BUTTON",
    "kind": "",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "IMG_7908 00:55.20–02:45.55 wide: woman in a blue polo in the convention hall. Cut to the end card on “feeling”.",
+   "visual": "<a href=\"https://drive.google.com/file/d/1_Mul2f1pxb_1RXwM2IVrGIDOBy0qC3yU/view\">German Lion / IMG_7908.MOV</a>, wide: the same woman in the blue polo in the convention hall (visual.json). In <span class=\"mono\">01:52.5</span>, out <span class=\"mono\">01:59.3</span>. Cut to the end card on “feeling”. Nothing after it. The montage is the faces: a new Lion, a new costume and a new place every cut, so no B-roll.",
    "motion": "Captions only.",
    "voice": {
-    "who": "German Lion",
+    "who": "Germany",
     "quote": "a lot of Lions from all over the world feel like family, and it is just an amazing feeling",
-    "src": "German Lion/IMG_7908.MOV 01:48.95–02:00.53"
+    "src": "German Lion/IMG_7908.MOV 01:52.5 to 01:59.3"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Resolve on “feeling”."
+   "music": "Resolve on “feeling”.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "a"
+    }
+   ]
   },
   {
-   "tc": "00:52–00:55",
+   "tc": "00:48–00:53",
    "beat": "END CARD",
    "kind": "end",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Official Lions lockup end card.",
+   "visual": "The official Lions end card video (Lions CTA, 5.1 s): the Lions emblem on the brand gradient with Find your local club at lionsclubs.org. Play it as it is.",
    "motion": "Lions lockup only. No editor-added logos.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Out."
+   "music": "Out under the end card.",
+   "shots": []
   }
  ],
- "frames": {},
+ "frames": {
+  "f_IMG7822_38": "data:image/jpeg;base64,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"
+ },
  "files": [
   [
    "Editing brief",
@@ -438,7 +561,7 @@
   ],
   [
    "Client ask",
-   "Jacqui, Lions bi-weekly 20 Oct (fathom.video/calls/869171947 at 16:00 and 18:53): a quick-cut compilation of all the Lions we met and where they are from, like the Orlando piece."
+   "Jacqui, Lions bi-weekly 20 Oct (<a href=\"https://fathom.video/calls/869171947\">Fathom call</a> at 16:00 and 18:53): a quick-cut compilation of all the Lions we met and where they are from, like the Orlando piece, with a mix of strong visuals and distinctive attire."
   ],
   [
    "Reference",
@@ -446,15 +569,23 @@
   ],
   [
    "Shoot folder",
-   "Lions International / Raw Footage / Hong Kong Convention: one folder per country (More Mexico Lion, More Hong Kong Lions, Canadian Lions, German Lion, Hawaii Lion, Indonesia Lion, Italy Lions, Manastir Lion, More Uganda Lion, Netherlands Lion, New York Lion, Puerto Rico Lion, Zimbabwe Lion, Phillipines Lions, Melbourne Lion, Thailand Lion, Uganda Lions)."
+   "<a href=\"https://drive.google.com/drive/folders/1_d2cIVp0iKMXSQhOGKMTHNWSslXBfFg0\">Hong Kong Convention</a> (one folder per country)."
+  ],
+  [
+   "Clips",
+   "<a href=\"https://drive.google.com/file/d/1QX49aHiA0i_151HpPtVhaGTx5_RGRQAZ/view\">IMG_8017.MOV</a> (More Mexico Lion) · <a href=\"https://drive.google.com/file/d/1BOuuHe0aAh8uM7YTv7s2JY-laYAw4UFv/view\">IMG_8006.MOV</a> (More Hong Kong Lions) · <a href=\"https://drive.google.com/file/d/1ByNbja7n69MjOaR65C648lPa-sXv8fwu/view\">IMG_7816.MOV</a> (Canadian Lions) · <a href=\"https://drive.google.com/file/d/1_Mul2f1pxb_1RXwM2IVrGIDOBy0qC3yU/view\">IMG_7908.MOV</a> (German Lion) · <a href=\"https://drive.google.com/file/d/13_Nv-SrmoJntsfrlcVUkhFQI6-GnWJRp/view\">IMG_7847.MOV</a> (Hawaii Lion) · <a href=\"https://drive.google.com/file/d/1QIn0UKn61kOkbosvq3vYIH3H3iGN-eEs/view\">IMG_7935.MOV</a> (Indonesia Lion) · <a href=\"https://drive.google.com/file/d/1cm5qpmjbIAJM2SeRTQOdZhyhLLI-d4d6/view\">IMG_7834.MOV</a> (Italy Lions) · <a href=\"https://drive.google.com/file/d/1hZB8weojE2V3aLiRe4QJgwp_errWWg73/view\">IMG_7839.MOV</a> (Manastir Lion) · <a href=\"https://drive.google.com/file/d/1FLY7VYlVvGOKCDdYcKIgkGHqmH6beVuU/view\">IMG_7896.MOV</a> (More Uganda Lion) · <a href=\"https://drive.google.com/file/d/1Gk1L7GF6yQpclRxLG7ksIj0DY0yPt1Fx/view\">IMG_7877.MOV</a> (Netherlands Lion) · <a href=\"https://drive.google.com/file/d/1nh26dS-rLAFpyDSeJiT_iFlm_dMWMSDh/view\">IMG_7853.MOV</a> (New York Lion) · <a href=\"https://drive.google.com/file/d/16PkynlTM3GSX3mn1DCl7ENE_nL_cwkwY/view\">IMG_7867.MOV</a> (Puerto Rico Lion) · <a href=\"https://drive.google.com/file/d/1GCYPmzRjOzRY1k9oZom1cHt66dnUDdk6/view\">IMG_7979.MOV</a> (Zimbabwe Lion) · <a href=\"https://drive.google.com/file/d/1lj32P0D4LBSwXGJGvqwcXhhWrQuSj8KI/view\">IMG_7796.MOV</a> (Phillipines Lions) · <a href=\"https://drive.google.com/file/d/1Gd8J1UP-AGU2Rfc9LmymXM-usux0EUs_/view\">IMG_7993 2.MOV</a> (Melbourne Lion) · <a href=\"https://drive.google.com/file/d/18kF1IykzNg12rTbmSrUZvJn8yfup_pyT/view\">IMG_7822.MOV</a> (Uganda Lions) · <a href=\"https://drive.google.com/file/d/18RA2juZFzoYgI1KxX83Rd-MotNjJl2oa/view\">IMG_7985.MOV</a> (Thailand Lion)"
   ],
   [
    "Transcript",
-   "EditingResources › EditTranscripts › “Transcripts - Hong Kong Convention” + one .srt per clip."
+   "<a href=\"https://docs.google.com/document/d/1gnqNveU_YxVa5HzfmLRfwiFV80W7EyuyGWjs-F1gjLc/edit\">Transcripts - Hong Kong Convention</a> · <a href=\"https://drive.google.com/file/d/1xY5Czq-f7lOyyz_bZ77xGPSvf3k1qrvn/view\">transcript.json</a> (word times) · <a href=\"https://drive.google.com/file/d/11i_HKrc66Ne1_daCyViDSLxaHpNcF60C/view\">output.json</a> (27 Oct)"
   ],
   [
    "visual.json",
-   "Yes: EditingResources › EditTranscripts › visual.json (24 Oct)."
+   "<a href=\"https://drive.google.com/file/d/1ODLZMiwELMuflUrsaL4eSBeZUnWIO-9y/view\">visual.json</a> (shoot level, 27 Oct). The shot notes on each row come from it."
+  ],
+  [
+   "End card",
+   "Lions CTA end card video (endcards/lions/lions-cta-end-card.mp4, 5.1 s), the latest Lions end card (Slack, 20 Aug 2026). It is in the Motion graphics section."
   ],
   [
    "Music",
@@ -464,11 +595,11 @@
  "tech": [
   [
    "Source",
-   "iPhone, vertical 1080×1920 (the Doc Assets stills are 1080×1920). Frame rate was not probed: read it from the clip in the NLE."
+   "iPhone, vertical 1080×1920, about 30 fps (29.98 to 30.0; IMG_7935 is 28.2), audio in camera (visual.json)."
   ],
   [
    "Timeline",
-   "1080×1920 at the clip's own frame rate. No frame-rate conversion."
+   "1080×1920 at 29.97 fps. Conform the odd clip; no other frame-rate change."
   ],
   [
    "Crop",
@@ -476,15 +607,19 @@
   ],
   [
    "Audio",
-   "Not measured, check the meters. Phone mic. If Atdhe's voice is louder than the subject (he holds the phone), ride his lines down 4–6 dB."
+   "Phone mic, recorded into the camera. If Atdhe's voice is louder than the subject (he holds the phone), ride his lines down 4 to 6 dB. Keep a little room sound under every voice; don't fully clean it (Jacqui, 20 Oct)."
   ],
   [
    "Loudness",
-   "−14 LUFS integrated, −1 dBTP peak. Music 18–20 dB under the voice. Lions flagged loud music before."
+   "−14 LUFS integrated, −1 dBTP peak. Music 18 to 20 dB under the voice. Lions flagged loud music before."
+  ],
+  [
+   "Color",
+   "Natural skin: pull the saturation down, the hall light makes skin orange (Jacqui, 20 Oct)."
   ],
   [
    "Captions",
-   "White text on a <b>semi-transparent background box</b> (the locked Lions caption style). No drop shadow. Max 2 lines. Keep the bottom 20% clear for app buttons. Every word matches the audio."
+   "White text on a <b>semi-transparent background box</b> (the locked Lions caption style). No drop shadow. Max 2 lines. Keep the bottom 20% clear for app buttons. Every word matches the audio; Lion and Lions with a capital L. The caption clips are in the Captions section of this page."
   ],
   [
    "Export",
@@ -493,20 +628,364 @@
  ],
  "checklist": [
   "Frame 1 is Maria with WHERE ARE YOU FROM?. No logo, name plate or title.",
-  "Country supers only, spelled exactly: Mexico, Hong Kong, Canada, Germany, Hawaii USA, Indonesia, Italy, North Macedonia / Australia, Uganda, Netherlands, USA, Puerto Rico, Zimbabwe, Philippines, Thailand.",
-  "No names, club names or titles on screen.",
-  "No Taiwan flag and no candidate signage in any frame.",
+  "Country supers only, from 0:03, spelled exactly: Mexico, Hong Kong, Canada, Germany, Hawaii USA, Indonesia, Italy, North Macedonia / Australia, Uganda, Netherlands, USA, Puerto Rico, Zimbabwe, Philippines, Hong Kong, Uganda, Thailand.",
+  "No names, club names or titles on supers. Hawaii and Uganda start on the place, not the club.",
+  "No Taiwan flag and no candidate signage in any frame. No Paris Lion “I'm from Taiwan” line.",
   "Natural skin: saturation down (the hall light makes skin orange).",
   "A little room sound under every voice. Don't fully clean it.",
-  "“Leo” is one member, “Leos” the youth group.",
-  "Lions lockup on the end card only."
+  "“Leo” is one member, “Leos” the youth group. Lion and Lions with a capital L.",
+  "Lions end card video on the end only. No editor-added logos."
  ],
- "decisions": [],
+ "decisions": [
+  {
+   "t": "Run time",
+   "b": "The Monday item asks for about 30 to 45 s. With every brief line cut to 1 to 2 s, the Lions run 48 s and the end card adds 5 s. Nick decides if two or three countries come out (the two USA lines and Zimbabwe are the easiest)."
+  },
+  {
+   "t": "Two names to check by ear",
+   "b": "The transcript hears “Leola and Lona” (Zimbabwe) and “51st Street” (Puerto Rico). Both are in the captions as heard. Nick or Bleron confirms by ear before delivery."
+  }
+ ],
  "client_note": "<b>Why this matters:</b> Jacqui asked for it on the 20 Oct call, modeled on the Orlando piece, to show how global the membership is. Hong Kong stays friendship-first (Atdhe, 16 Sept).",
  "ask_examples": [
   "What is the order of countries?",
   "What goes on each super?",
-  "Which files are off limits?",
+  "Which lines did you trim, and why?",
   "Which reference do I match?"
- ]
+ ],
+ "transcript": "Auto-transcript of the Hong Kong Convention phone clips used in this montage (July 2026). One block per clip, times are mm:ss.s in each file, from the word timings in the Hong Kong Convention transcript.json. Lion and Lions are capitalised by hand. Speaker labels are not reliable: Atdhe asks the questions holding the phone.\n\n--- IMG_8017.MOV ---\n[00:17.3] So tell me about why did you become a Lion, digame por que eres un león. [do not use: interviewer prompts]\n[00:55.4] Why did you become a Lion, digame por que eres un león. [do not use: interviewer prompts]\n[00:57.4] Why did you become a Lion, digame por que eres un león. [do not use: interviewer prompts]\n[01:17.4] My husband and I, prevenimos la ceguera, operamos cataratas a gente pobre. [do not use: interviewer prompts]\n[01:31.3] Ayudar, ayudar, ayudar.\n[01:35.0] Ayudar te hace ser mejor, más vida.\n[01:43.3] Tell me why Lions Club is like a family, por que Lions Club es como una familia,\n[01:49.3] Why do you have a community outside?\n[01:51.7] ¿Por qué tienes comunidad afuera?\n[01:53.3] Because we all feel that we are a single family, porque todos sentimos que somos una sola familia,\n[01:58.3] We all have a single message, todos tenemos un solo mensaje, We serve, nosotros servimos.\n[02:05.3] I want to say something, I want to say something, We are human to serve humanity and have a better world every day, somos humanos para servir a la humanidad y tener un mundo mejor cada día.\n[02:20.6] Hello, I am your name and your country. [do not use: interviewer prompt]\n[02:23.1] Hola, soy su nombre y su país. [do not use: interviewer prompt]\n[02:24.3] Hello, I am Maria from Mexico.\n[02:25.4] Hola, soy María de México.\n[02:27.3] Hello, I am Elidia from Mexico.\n[02:28.9] Hola, soy Elidia de México.\n[02:31.3] Hello, I am Tony from Mexico.\n[02:32.4] Hola, soy Tony de México Chihuahua.\n[02:33.3] Hello, I am from Mexico.\n[02:34.5] Hola, soy de México.\n\n--- IMG_8006.MOV ---\n[00:00.0] Hi, we are from Hong Kong. [do not use: first take and crew talk]\n[00:01.2] Hold on, wait, say it again. [do not use: first take and crew talk]\n[00:03.0] Hi, we are from Hong Kong.\n[00:05.2] Landscape of Hong Kong, HK Element.\n[00:08.4] Element.\n[00:09.2] Very good to meet you.\n\n--- IMG_7816.MOV ---\n[00:00.0] So, just introduce yourself.\n[00:01.3] Hi, my name is name, last name and the club and country you're from.\n[00:04.9] Okay.\n[00:05.2] My name is Bill Robinson.\n[00:07.2] I'm from District A15 and that's in Ontario.\n[00:10.9] I come from a small town, Stratford, Ontario and I'm currently the Council Chair for the multiple District A.\n\n--- IMG_7908.MOV ---\n[00:00.2] So we'll start very easy. [do not use: interviewer set-up]\n[00:02.4] You could just say hi, my name is, name, last name, and your position and which club you're in. [do not use: interviewer set-up]\n[00:08.3] Okay. [do not use: interviewer set-up]\n[00:09.3] Oh, right now I don't have a position because I can't talk about the name. [do not use: interviewer set-up]\n[00:12.3] I'm a Lion for this club. [do not use: interviewer set-up]\n[00:15.2] Okay, okay. [do not use: interviewer set-up]\n[00:16.1] Whenever you're ready. [do not use: interviewer set-up]\n[00:19.9] Hello, my name is Deborah Herrlein.\n[00:22.2] I am from multiple district 111, Germany, and I'm a proud member of the Lions Club Unitas Mundi, which is an international online club.\n[00:31.9] Okay, so we'll do it one more time.\n[00:37.6] Hi, my name is Deborah Herrlein.\n[00:39.9] I'm from multiple district 111, Germany, and I'm a proud member of the International Lions Club Unitas Mundi.\n[00:46.6] Okay, so tell me about the moment that you decided to become a Lion.\n[00:51.8] The moment?\n[00:53.0] Oh, wow, wow, wow, wow.\n[00:54.6] It's a long story.\n[00:58.6] Whenever you're ready.\n[01:01.2] I actually was an exchange student in the United States, and I saw every time on my way to school, passing the Lions Clubhouse, and I was so eager and intrigued, like, what is this Lions in Bling?\n[01:14.0] And then friends of mine asked me if I wanted to join the Leo Club, and I was, I heard about it.\n[01:20.0] In that moment, I was so fascinated.\n[01:22.8] My first activity was handing out malt wine at a Christmas market.\n[01:26.7] It was so much fun.\n[01:27.7] Everybody was so happy, and that's when I decided to become a Leo and then a Lion.\n[01:32.0] Is there anyone in your club that's like family to you?\n[01:37.0] Oh, yes.\n[01:38.9] Yes.\n[01:41.2] Actually, several people in my club have been also to my wedding.\n[01:46.2] Our past international director has been to my wedding.\n[01:49.0] I can really happily say that a lot of Lions from all over the world feel like family, and it is just an amazing feeling, and yeah.\n[02:02.0] What is it about Lions that makes us feel like all one big family?\n[02:08.8] I think it's a way of understanding and sharing the same values.\n[02:13.1] I know as family you're brought up so that you know what values you cherish and you are living in, but as Lions you're coming from so different areas of this world, but you're all sharing the same value and the same understanding, and also have a certain level of acceptance and respect for each other, which is so important in this world.\n[02:36.0] Are you happy?\n[02:38.0] I'm super happy.\n[02:39.8] I think I couldn't be happier right now, and being here in Hong Kong, my heart is overwhelmed with happiness.\n[02:48.0] If you could give one message to the entire world, what would that message be?\n[02:53.7] Be more open-minded, be more respectful for others.\n[02:57.0] Everybody is different, but we should give each other the understanding that we are so different, we have so different characters,\n[03:07.8] but this is the uniqueness of this world, and just be happy also and respect others, like my friend from Kenya.\n[03:22.5] So who's that?\n[03:23.4] Oh, that was Nathaniel I met in Ghana at the African Forum, and he's a friend from Kenya.\n[03:29.4] So yeah, you see Lions, we all come together, and this gives me the biggest joy, like seriously.\n[03:36.4] It's so cool, man.\n\n--- IMG_7847.MOV ---\n[00:00.0] Hi, my name is Guy Hashimoto.\n[00:01.7] Oh, I'm sorry, one more time?\n[00:02.9] No, I'll hold it.\n[00:04.2] Hi, my name is Guy Hashimoto.\n[00:05.8] I'm a Lion, Kino'ole Lion member from Honolulu, Hawaii.\n[00:11.3] Been a member since, for 12 years, 12 plus years, and happy to be a Lion.\n[00:18.2] Awesome, thank you.\n\n--- IMG_7935.MOV ---\n[00:40.2] Where are you from?\n[00:40.8] I'm from Indonesia.\n[00:42.8] Are you happy?\n[00:44.8] Of course I'm happy.\n[00:46.8] What makes you happy?\n[00:48.8] Giving back to the society and also being on the part of community service.\n[00:54.8] That's what makes me happy.\n[00:56.8] If you could give one message to all the Lions around the world, what would that message be?\n[01:00.8] Be grateful, be happy, service in everything.\n[01:09.5] Thank you very much.\n[01:12.0] Anytime.\n\n--- IMG_7834.MOV ---\n[00:00.2] I'm happy to be a Lions fan for more than 10 years, I come from Italy, my club is the Lions Club Urbassano, we are a family,\n[00:10.0] we are 40 members, we are friends, we get along well, we do service and we are good together.\n[00:16.1] I recommend coming to the convention because there is the whole world and many experiences to feel but also to bring to others.\n\n--- IMG_7839.MOV ---\n[00:00.8] So, tell me about the moment you decided to become a Lion. [do not use: interviewer set-up]\n[00:09.1] And then, yeah, maybe just hide it a little bit lower. [do not use: interviewer set-up]\n[00:11.7] Okay, perfect. [do not use: interviewer set-up]\n[00:12.4] Good. [do not use: interviewer set-up]\n[00:14.1] I decided to become a Leo 14 years ago when my best friend asked me to join and help him in establishing a Leo club in my hometown, Bitola, in North Macedonia.\n[00:25.2] So, 14 years ago, I joined our amazing organization and I'm so happy to be here as a Leo Lion today from Melbourne Lions Club of Brighton, Victoria.\n[00:36.1] Wait, you know you're from Bitola? [do not use: off-topic chat]\n[00:37.8] Yeah. [do not use: off-topic chat]\n[00:38.3] I'm from Debak. [do not use: off-topic chat]\n[00:40.8] Oh, my goodness. [do not use: off-topic chat]\n[00:42.3] Isn't that crazy? [do not use: off-topic chat]\n[00:44.8] Oh, what a small world. [do not use: off-topic chat]\n[00:46.2] I know, right? [do not use: off-topic chat]\n[00:47.8] Oh, this is great. [do not use: off-topic chat]\n[00:50.0] Isn't that crazy? [do not use: off-topic chat]\n[00:51.1] Wait, wait, wait. [do not use: off-topic chat]\n[00:51.6] What's your name? [do not use: off-topic chat]\n[00:53.0] Adve. [do not use: off-topic chat]\n[00:53.8] Oh, my goodness. [do not use: off-topic chat]\n[00:55.7] But you are from America? [do not use: off-topic chat]\n[00:57.2] Yes. [do not use: off-topic chat]\n[00:57.8] And so, you're from Bitola? [do not use: off-topic chat]\n[00:59.8] I'm from Bitola, but I'm living in Melbourne for the past six years. [do not use: off-topic chat]\n[01:02.8] Wow. [do not use: off-topic chat]\n[01:03.3] What's your name? [do not use: off-topic chat]\n[01:04.0] Nastasia. [do not use: off-topic chat]\n[01:04.8] Nastasia. [do not use: off-topic chat]\n[01:05.9] Oh, we should connect. [do not use: off-topic chat]\n[01:06.4] Glad to be meeting you. [do not use: off-topic chat]\n[01:07.6] I'm a Leo advisor. [do not use: off-topic chat]\n[01:08.8] Wow. [do not use: off-topic chat]\n[01:09.3] I have a club. [do not use: off-topic chat]\n[01:10.1] Yeah, we have a club. [do not use: off-topic chat]\n[01:11.0] Leo club. [do not use: off-topic chat]\n[01:11.8] So, we actually just did the Skopje club. [do not use: off-topic chat]\n[01:15.6] We were just in Skopje, but that's great. [do not use: off-topic chat]\n[01:17.8] So, you know Andrea? [do not use: off-topic chat]\n[01:18.2] Yes, I've been in contact with him. [do not use: off-topic chat]\n[01:20.7] I just messaged him. [do not use: off-topic chat]\n[01:22.6] Wow. [do not use: off-topic chat]\n[01:22.8] Oh, what a small world. [do not use: off-topic chat]\n[01:24.0] I know, right? [do not use: off-topic chat]\n[01:24.8] This is incredible. [do not use: off-topic chat]\n[01:26.5] Do you have any social media? [do not use: off-topic chat]\n[01:29.2] Yes, we'll do the interview and then... [do not use: off-topic chat]\n[01:31.8] Wow, that's crazy. [do not use: off-topic chat]\n[01:33.1] What are the odds, right? [do not use: off-topic chat]\n[01:34.0] What are the odds? [do not use: off-topic chat]\n[01:34.8] My cousin actually just got married in Bitola, but anyway. [do not use: off-topic chat]\n[01:38.8] Okay, so the other question is, are you happy? [do not use: off-topic chat]\n[01:42.8] Are you what?\n[01:43.8] Are you happy?\n[01:44.8] I'm really happy to be here with all of you today.\n[01:48.0] And I'm really excited to meet amazing people and connect with everyone.\n[01:53.8] And is there anyone in your club that's like family to you?\n[01:57.7] And maybe you can tell me the story.\n[01:58.8] Yes, so my mentor, when I met him two and a half years ago, we connected straight with each other.\n[02:06.8] And since that day, every day we are in touch, he helped me so much to develop skills.\n[02:12.8] And I cannot imagine my life without him anymore.\n[02:15.8] And if you could give one message to the whole world, what would it be?\n[02:23.5] To be kind to each other, to make more friends and help people in need.\n[02:29.6] Okay.\n\n--- IMG_7896.MOV ---\n[00:02.1] So we'll start very easy.\n[00:04.9] Can you give me, can you say hi my name is and your name and your last name and what club you are from?\n[00:12.7] Hi, Lion Barbara Alugat from the Lions Club of Kumi Central, District 411B, Uganda.\n[00:21.4] I am here for the international convention.\n[00:26.6] I have already visited the exhibitions.\n[00:29.4] I have registered.\n[00:31.0] I'm looking forward to great workshops tomorrow for leadership development and service activities that will impact our communities.\n[00:39.0] It's one way of connecting with Lions globally and to make sure that our impact goes global.\n[00:46.7] We are local and global.\n[00:48.8] Are you happy?\n[00:50.7] I am happy to be in Hong Kong.\n[00:53.9] I have already checked out very many sites because it came in early and that has given me to have a feel of the city where we're having the convention and the people are lovely and all the food is okay.\n[01:07.5] In general in your life are you happy?\n[01:10.2] In my life I am happy because touching the lives of the less fortunate and coming here to reaffirm our commitment as Lions International is a big way to go.\n[01:21.8] Service, leadership and impact.\n[01:24.2] If you could give one message to the whole world what would that message be?\n[01:29.5] Please join the Lions Club near you because where there is a need there is a Lion. [do not use: donation ask]\n[01:36.1] More hands to serve. [do not use: donation ask]\n[01:37.8] Mission 1.5 is our ultimate goal. [do not use: donation ask]\n[01:41.3] Please donate to our humanitarian arm by giving to LCIF and then all these projects across the world will put smiles of people who are less fortunate than us. [do not use: donation ask]\n[01:54.0] Tell me about the moment you decided to become a Lion.\n[01:59.1] I decided to become a Lion.\n[02:01.8] I'm a law enforcement officer so the Lions in Bosia Greta in Uganda invited me to be a guest of honor.\n[02:10.7] I went for an activity with them.\n[02:13.3] I saw children in the slam smile and I said I'll not just be a guest.\n[02:19.3] I took a decision.\n[02:20.7] Here I am and the rest is history.\n[02:25.0] Please join us.\n\n--- IMG_7877.MOV ---\n[00:00.1] So we'll start very easy. [do not use: interviewer set-up]\n[00:01.8] You can just say hi, my name is, your name and last name and what club and country you're from. [do not use: interviewer set-up]\n[00:07.0] I could hold that for you if you'd like. [do not use: interviewer set-up]\n[00:08.0] Okay, it's heavier. [do not use: interviewer set-up]\n[00:12.5] Hi, I'm Elissa Betradera from the Netherlands.\n[00:15.6] I'm past International Director and Lions International Foundation Trustee.\n[00:21.5] Wonderful to meet you.\n[00:22.6] Thank you.\n[00:23.5] Are you happy?\n[00:24.5] I am very happy to be here.\n[00:27.0] First time in Hong Kong.\n[00:29.7] And if you could give, today is my first time in the Lions Club convention.\n[00:36.9] What advice do you have for a first time visitor to a convention?\n[00:42.5] Okay, this is not my first time at a convention, but my first time in Hong Kong.\n[00:47.5] And I would advise to people to go to exhibit hall, to listen to the people who are present there and to look in the shop and look at all the booths we have.\n[00:59.6] LCIF, GAT, everything you can learn of Lions, you can learn there.\n[01:06.5] And if you just fill out your form.\n[01:13.5] What originally inspired you to become a Lion?\n[01:19.5] What inspired me is a long time ago from 1998, but actually to give something back to the community that inspires me and still inspires me.\n[01:29.6] And I am part of a Kili for Kids team.\n[01:33.2] We climb mountains, we raise funds and we build schools in the countries we climb the mountain.\n[01:41.5] Is there anyone in your club that is like family to you?\n[01:46.4] And tell me how, maybe a story about that person, how they're like family.\n[01:52.5] Actually, our clubs are our family.\n[01:57.2] These are our friends who walk with us all the time when we are in the club.\n[02:04.5] And actually we're doing service together.\n[02:07.5] And in my club, we're doing service for children, children who are not so privileged.\n[02:15.6] So we make sure they get healthy food.\n[02:18.8] We make sure they get special things like presents or with Christmas or with all other occasions.\n[02:28.6] So we do a lot of service together and we enjoy it very much.\n[02:32.6] If you could give a message to all Lions around the world, what would that message be?\n[02:38.6] What my message would be is ask another one to become a Lion because it's so rewarding to giving back together.\n[02:48.6] Because one can do so little, but together we can do so much.\n\n--- IMG_7853.MOV ---\n[00:00.8] and it's a little closer together, perfect.\n[00:03.5] So where are you from?\n[00:04.7] I'm from New York City, Brooklyn, Queens, District 20 K1.\n[00:08.1] Okay, New York in the house, where are you from?\n[00:10.0] I'm from Wichita, Kansas, District M17 N.\n[00:16.7] Okay, and how do you two know each other?\n[00:18.9] So we actually met today here in Hong Kong in our hotel.\n[00:23.4] I just landed from New York City and we meet great people from around the world.\n[00:30.4] I was standing in the lobby when I saw their whole entire group come in to the hotel and I was like, they're Lions, let me go introduce myself.\n[00:39.3] And that's the beauty of Lionism, that we all come together and we meet great people all the time.\n[00:46.5] So tell me about why that is.\n[00:50.6] What is it about Lions Club that creates friendship and community?\n[00:56.4] First of all, we are all like-minded people.\n[01:00.2] We're working together for the same cause.\n[01:05.2] In my area or state, we do a Kansas Lions band and we've created a cyber club in order to help the band out.\n[01:15.4] So we basically advertise and the band brought us together.\n[01:19.5] So we're just trying to spread music and love around the world.\n[01:24.8] And we all have music inside of us.\n[01:27.8] And tell me about the moment you became a Lion.\n[01:30.8] What inspired you to become a Lion?\n[01:32.5] Well, I became a Lion 31 years ago.\n[01:36.8] I am actually the third generation Lion.\n[01:39.2] I was instilled by my parents to become Lions.\n[01:42.3] My son is a Lion.\n[01:44.3] He's gonna be the president of our club.\n[01:46.0] But you know what?\n[01:46.9] The service that we do in the community, people working together.\n[01:51.0] And we always say, we have a date in our mind when we become a Lion,\n[01:55.5] but the day we become a Lion is when we start doing service to the community.\n[02:00.4] I became a Lion back in 2012, but I've been around Lions my whole entire life.\n[02:06.2] My parents were both Lions.\n[02:08.5] The last international convention I actually went to was in my mom's tummy in 1993 in Minneapolis, Minnesota.\n[02:19.2] Are you happy?\n[02:20.4] I am ecstatic.\n[02:22.1] I am so happy.\n[02:23.7] My family's a Lion.\n[02:25.6] We work together because a family that works together stays together.\n[02:31.8] If you could give one message to the entire world, what would it be?\n[02:35.9] To keep on working for humanity.\n[02:38.0] Let's stay together and let's make sure that we make a difference.\n[02:41.4] And our motto says it all, we serve.\n[02:44.5] Are you happy?\n[02:45.6] I am totally happy.\n[02:46.8] I'm glad to be a Lion and glad to be here.\n[02:50.5] If you could give one message to the entire world, what would that message be?\n[02:55.2] Just continue spreading joy, happiness, and helping out others when needed.\n\n--- IMG_7867.MOV ---\n[00:00.1] Hi, I'm Eduardo Miguel Morales and I'm a Lion from 51st Street in Puerto Rico.\n\n--- IMG_7979.MOV ---\n[00:00.7] Thank you so much, it was very good to meet you.\n[00:02.6] It was good to meet you too.\n[00:04.6] I am Leola and Lona from Zimbabwe.\n[00:06.6] So I don't have any friends in Zimbabwe.\n[00:08.7] Wait, you had one now.\n[00:10.6] Oh my goodness, thank you so much.\n[00:12.6] You had one already.\n[00:14.6] Very good.\n[00:16.6] Okay, so I want you to just introduce yourself.\n\n--- IMG_7796.MOV ---\n[00:08.3] Where are you from?\n[00:09.4] From the Philippines.\n[00:11.4] And you are?\n[00:14.1] My name is Ate.\n[00:16.1] Ate from?\n[00:18.2] The United States.\n[00:20.2] Next is you Ate.\n[00:22.2] And I became a Lion almost a year ago.\n[00:30.1] Oh, welcome to the Lions.\n[00:34.0] And this is my first adventure.\n[00:38.1] This is yours.\n[00:38.2] My first adventure.\n[00:40.0] Is this your first adventure?\n[00:42.0] No.\n[00:44.0] Is that one of yours?\n[00:46.2] Yes.\n\n--- IMG_7993 2.MOV ---\n[00:00.0] How long do you want me to talk? [do not use: interviewer set-up]\n[00:02.9] I'll prompt you more. [do not use: interviewer set-up]\n[00:04.9] You won't edit it anyways. [do not use: interviewer set-up]\n[00:06.9] The first question is, are you happy? [do not use: interviewer set-up]\n[00:08.9] Am I happy?\n[00:10.3] I am very happy.\n[00:11.1] Happy to be here.\n[00:12.9] I'm actually from Hong Kong.\n[00:14.9] So really happy to be back in Hong Kong.\n[00:16.9] But also with Lions and with Leo as well.\n[00:18.9] Very nice.\n[00:20.3] When was the last time you were in Hong Kong?\n[00:21.9] I think it was about a year and a half ago.\n[00:24.9] That was when I finished high school.\n[00:26.9] So I came back to visit a bit of family.\n[00:29.9] Are they in the city or Macau?\n[00:31.9] In the city.\n[00:34.9] I love Hong Kong.\n[00:36.9] How's the food?\n[00:38.9] Food is much better and feels more Western than mainland China.\n[00:43.9] It's a really good balance between the Asian side and the Western.\n[00:47.4] You get a bit of fusion as well.\n[00:49.9] Tell me about your Lions club journey.\n[00:51.9] How did you become a Leo Lion?\n[00:55.9] I'm actually a third generation.\n[00:57.9] So my grandma is a Lion and then my mom.\n[00:59.9] And then I got dragged into the Lions events when I was younger.\n[01:03.0] I think I started when I was about 9 or 10.\n[01:05.0] I was actually a Cub back then.\n[01:06.9] And then I ended up chartering my own Alpha Leo's club.\n[01:10.9] So I did that for a couple of years.\n[01:12.9] And then now since I'm over 18, I have to graduate from Alpha Leo's.\n[01:16.9] And then I chartered my own Omega Leo's club as well after.\n[01:19.9] Is that grandma and mom over there?\n[01:21.9] Yeah, right here.\n[01:22.6] Say hi.\n[01:23.9] Three generations.\n[01:26.9] This is grandma and mom.\n[01:29.9] Oh, can we do that trend where it's like you wave them in? [do not use: trend set-up, not an answer]\n[01:33.9] Yeah, sure. [do not use: trend set-up, not an answer]\n[01:35.9] That's a drama. [do not use: trend set-up, not an answer]\n[01:37.9] Okay, so you're going to wave in mom and she's going to wave in grandma. [do not use: trend set-up, not an answer]\n[01:40.9] Mom, so I wave you and then you wave grandma. [do not use: trend set-up, not an answer]\n[01:43.1] Grandma comes in last. [do not use: trend set-up, not an answer]\n[01:44.9] So you come in first. [do not use: trend set-up, not an answer]\n[01:49.4] Do I do it again? [do not use: trend set-up, not an answer]\n[02:00.1] Amazing. [do not use: trend set-up, not an answer]\n[02:00.9] So tell me about your family's Lions club story. [do not use: trend set-up, not an answer]\n[02:04.9] Well, it all started with my mom.\n[02:07.9] She was in the Lions for many...\n[02:12.0] Melbourne Chinese.\n[02:15.9] Yes, and I followed her.\n[02:17.9] So I joined Lions 10 years ago.\n[02:21.9] And I brought my...\n[02:23.9] And I got dragged in as well.\n[02:25.9] Yeah, she joined as a Cub.\n[02:27.9] And then she became a Leo and now a Leo Omega.\n[02:33.9] So what is it about Lions club that makes it such a strong community\n[02:38.9] and something you want to invite your whole family to?\n[02:41.9] Well, I think it's a good sense of belonging.\n[02:44.9] And it's all about bonding and staying with the community.\n[02:51.9] Doing a lot of things that are very purposeful, very meaningful.\n[02:57.9] And also a lot of activities we participate as a family.\n[03:02.3] So with the kids.\n[03:03.6] And the kids make friendships with other Cubs.\n[03:06.9] And I make friendships with a lot of Lions.\n[03:08.9] So it's more like a second home to us.\n[03:11.1] Yeah.\n[03:12.3] Amazing.\n[03:12.9] So if you could give one message to all Lions around the world, what would that message be?\n[03:21.2] Bring your family in, honestly.\n[03:23.2] Make it a whole family thing.\n[03:25.3] I think when you're in it together, it makes it even more meaningful.\n[03:29.2] And the fact that I get to spend time with my grandma through service as well, we kind of get this connection between our family and also with the broader community.\n[03:39.4] Yeah, absolutely.\n[03:40.2] She's spot on.\n[03:43.2] Okay.\n\n--- IMG_7822.MOV ---\n[00:00.0] so this is my first convention okay I've ever been to do you have any tips for a first-time member first-time visitor of an international convention [do not use: interviewer question]\n[00:11.3] yes I have a tip [do not use: interviewer question]\n[00:13.1] this is my first international Alliance convention\n[00:16.3] the most important thing is to make sure you are clear identified in land the jacket and servicewear\n[00:24.0] talk to any land they are willing to receive you\n[00:27.4] they will give you any information that you need\n[00:30.1] be observant in the exhibition halls everywhere for the signages of different lands\n[00:36.3] identify your own lands from your own district\n[00:39.1] you will create new friends from all over the world\n\n--- IMG_7985.MOV ---\n[00:00.4] And you're yes, so yeah. [do not use: set-up and interviewer question]\n[00:06.6] Yeah, absolutely. [do not use: set-up and interviewer question]\n[00:07.3] Let me just hide that a little bit better Perfect so so this is you guys behind here. [do not use: set-up and interviewer question]\n[00:23.2] That's you and oh my goodness So tell me about Tell me about the moment you first decided to become a Lion [do not use: set-up and interviewer question]\n[00:53.6] Okay First my friends they were in the Lion's way for me So I saw them like doing the activities and helping kids and all like\n[01:05.8] The activity they do for the society, so I would like to join them so I asked them how can I join?\n[01:13.2] To the activity you guys are doing so they said okay.\n[01:17.7] Let's join the Lion Is there anybody in your club?\n[01:21.3] That's like family to you?\n[01:23.7] No, actually a high school friend He is my high school friend\n[01:29.9] And we know each other in the community and And Well my dad is in the Lion\n[01:38.2] He is 90 years old right now Yes, he's like kind of like the father\n[01:45.0] And I saw him do the activity also when I was young, but he resigned already because he's old\n[01:51.6] And do you have a story of friendship at the club something that made you say wow this is my family\n[02:01.7] Yes Yes, so a lot of people say their club is all their friends are in the club\n[02:08.2] they they their Lion's friends went to their wedding or They have a story\n[02:15.1] Yeah, so do you have a story of how?\n[02:18.2] The Lion's club is your best friends, and do you have any story like that?\n[02:24.3] Actually yes, we just\n[02:27.8] So we know each other from the Lion some of them, and we become the best friend right now\n[02:33.7] And we we do like the dinner every month together and\n[02:40.6] The kids know each other and we take them the kids to the to the activities we do\n[02:47.4] It's like the family\n[02:49.9] Last question if you could give one message to all Lions around the world.\n[02:55.8] What would that message be?\n[02:59.2] We serve, we serve always serve with the kindness of our hands",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "Because we all feel that we are a single family, porque todos sentimos que somos una sola familia,",
+    "who": "Maria",
+    "file": "IMG_8017.MOV",
+    "why": "Family, in English and Spanish."
+   },
+   {
+    "quote": "I want to say something, I want to say something, We are human to serve humanity and have a better world every day, somos humanos para servir a la humanidad y tener un mundo mejor cada día.",
+    "who": "Maria",
+    "file": "IMG_8017.MOV",
+    "why": "Her message, in both languages."
+   }
+  ],
+  "bite:1": [],
+  "bite:2": [
+   {
+    "quote": "Very good to meet you.",
+    "who": "Hong Kong Lions",
+    "file": "IMG_8006.MOV",
+    "why": "A warm extra second."
+   }
+  ],
+  "bite:3": [],
+  "bite:4": [
+   {
+    "quote": "I think it's a way of understanding and sharing the same values.",
+    "who": "Germany",
+    "file": "IMG_7908.MOV",
+    "why": "Why Lions feel like one family."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "I'm a Lion, Kino'ole Lion member from Honolulu, Hawaii.",
+    "who": "Hawaii USA",
+    "file": "IMG_7847.MOV",
+    "why": "His full line (names his club)."
+   },
+   {
+    "quote": "Been a member since, for 12 years, 12 plus years, and happy to be a Lion.",
+    "who": "Hawaii USA",
+    "file": "IMG_7847.MOV",
+    "why": "Short and happy."
+   }
+  ],
+  "bite:6": [
+   {
+    "quote": "Be grateful, be happy, service in everything.",
+    "who": "Indonesia",
+    "file": "IMG_7935.MOV",
+    "why": "His message, short."
+   }
+  ],
+  "bite:7": [
+   {
+    "quote": "I recommend coming to the convention because there is the whole world and many experiences to feel but also to bring to others.",
+    "who": "Italy",
+    "file": "IMG_7834.MOV",
+    "why": "The whole world in one place."
+   }
+  ],
+  "bite:8": [
+   {
+    "quote": "To be kind to each other, to make more friends and help people in need.",
+    "who": "North Macedonia / Australia",
+    "file": "IMG_7839.MOV",
+    "why": "Her message to the world."
+   },
+   {
+    "quote": "I'm really happy to be here with all of you today.",
+    "who": "North Macedonia / Australia",
+    "file": "IMG_7839.MOV",
+    "why": "Happy to be here."
+   }
+  ],
+  "bite:9": [
+   {
+    "quote": "Hi, Lion Barbara Alugat from the Lions Club of Kumi Central, District 411B, Uganda.",
+    "who": "Uganda",
+    "file": "IMG_7896.MOV",
+    "why": "Her full line (says her name and club)."
+   }
+  ],
+  "bite:10": [
+   {
+    "quote": "Because one can do so little, but together we can do so much.",
+    "who": "Netherlands",
+    "file": "IMG_7877.MOV",
+    "why": "Together we can do so much."
+   }
+  ],
+  "bite:11": [
+   {
+    "quote": "I'm from New York City, Brooklyn, Queens, District 20 K1.",
+    "who": "USA",
+    "file": "IMG_7853.MOV",
+    "why": "The full line with the district."
+   }
+  ],
+  "bite:12": [
+   {
+    "quote": "I'm from Wichita, Kansas, District M17 N.",
+    "who": "USA",
+    "file": "IMG_7853.MOV",
+    "why": "The full line with the district."
+   }
+  ],
+  "bite:13": [],
+  "bite:14": [],
+  "bite:15": [
+   {
+    "quote": "And I became a Lion almost a year ago.",
+    "who": "Philippines",
+    "file": "IMG_7796.MOV",
+    "why": "A new Lion."
+   }
+  ],
+  "bite:16": [
+   {
+    "quote": "I love Hong Kong.",
+    "who": "Hong Kong",
+    "file": "IMG_7993 2.MOV",
+    "why": "Short and warm."
+   },
+   {
+    "quote": "So really happy to be back in Hong Kong.",
+    "who": "Hong Kong",
+    "file": "IMG_7993 2.MOV",
+    "why": "Back home."
+   }
+  ],
+  "bite:17": [],
+  "bite:18": [
+   {
+    "quote": "It's like the family",
+    "who": "Thailand",
+    "file": "IMG_7985.MOV",
+    "why": "Family, in four words."
+   },
+   {
+    "quote": "We serve, we serve always serve with the kindness of our hands",
+    "who": "Thailand",
+    "file": "IMG_7985.MOV",
+    "why": "Her message to all Lions."
+   }
+  ],
+  "bite:19": [
+   {
+    "quote": "So yeah, you see Lions, we all come together, and this gives me the biggest joy, like seriously.",
+    "who": "Germany",
+    "file": "IMG_7908.MOV",
+    "why": "Lions come together, her biggest joy."
+   },
+   {
+    "quote": "I think it's a way of understanding and sharing the same values.",
+    "who": "Germany",
+    "file": "IMG_7908.MOV",
+    "why": "Why it feels like family."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "WHERE ARE YOU FROM?",
+    "line": "Hello, I am Maria from Mexico.",
+    "why": "The brief's hook over the Mexico pair."
+   },
+   {
+    "text": "ONE BIG FAMILY",
+    "line": "I can really happily say that a lot of Lions from all over the world feel like family, and it is just an amazing feeling, and yeah.",
+    "why": "The payoff as the hook."
+   },
+   {
+    "text": "FRIENDS FROM ALL OVER THE WORLD",
+    "line": "you will create new friends from all over the world",
+    "why": "The friendship promise."
+   },
+   {
+    "text": "I'M ACTUALLY FROM HONG KONG",
+    "line": "I'm actually from Hong Kong.",
+    "why": "A laugh on frame 1."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "Lions: graphics much simpler, or none (Jacqui). Here: the hook text, one small pin-and-country super per speaker, captions in the locked box style, and the Lions end card video. No logo before the end card.",
+  "devices": [
+   {
+    "row": "00:00–00:02",
+    "device": "Hook text, static, big",
+    "asset": "highlight_callout (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:02–00:05",
+    "device": "Country super: Mexico",
+    "asset": "tag_label (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:05–00:06",
+    "device": "Country super: Hong Kong",
+    "asset": "tag_label (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:06–00:09",
+    "device": "Country super: Canada",
+    "asset": "tag_label (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:09–00:11",
+    "device": "Country super: Germany",
+    "asset": "tag_label (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:11–00:13",
+    "device": "Country super: Hawaii USA",
+    "asset": "tag_label (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:13–00:14",
+    "device": "Country super: Indonesia",
+    "asset": "tag_label (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:14–00:15",
+    "device": "Country super: Italy",
+    "asset": "tag_label (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:15–00:18",
+    "device": "Country super: North Macedonia / Australia",
+    "asset": "tag_label (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:18–00:20",
+    "device": "Country super: Uganda",
+    "asset": "tag_label (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:20–00:21",
+    "device": "Country super: Netherlands",
+    "asset": "Lions topic tag plate (graphics package), type the country",
+    "source": "Script"
+   },
+   {
+    "row": "00:21–00:23",
+    "device": "Country super: USA",
+    "asset": "Lions topic tag plate (graphics package), type the country",
+    "source": "Script"
+   },
+   {
+    "row": "00:23–00:24",
+    "device": "Country super: USA",
+    "asset": "Lions topic tag plate (graphics package), type the country",
+    "source": "Script"
+   },
+   {
+    "row": "00:24–00:27",
+    "device": "Country super: Puerto Rico",
+    "asset": "Lions topic tag plate (graphics package), type the country",
+    "source": "Script"
+   },
+   {
+    "row": "00:27–00:29",
+    "device": "Country super: Zimbabwe",
+    "asset": "Lions topic tag plate (graphics package), type the country",
+    "source": "Script"
+   },
+   {
+    "row": "00:29–00:30",
+    "device": "Country super: Philippines",
+    "asset": "Lions topic tag plate (graphics package), type the country",
+    "source": "Script"
+   },
+   {
+    "row": "00:30–00:31",
+    "device": "Country super: Hong Kong",
+    "asset": "Lions topic tag plate (graphics package), type the country",
+    "source": "Script"
+   },
+   {
+    "row": "00:31–00:36",
+    "device": "Country super: Uganda",
+    "asset": "Lions topic tag plate (graphics package), type the country",
+    "source": "Script"
+   },
+   {
+    "row": "00:36–00:41",
+    "device": "Country super: Thailand",
+    "asset": "Lions topic tag plate (graphics package), type the country",
+    "source": "Script"
+   },
+   {
+    "row": "00:48–00:53",
+    "device": "End card",
+    "asset": "endcards/lions/lions-cta-end-card.mp4",
+    "source": "endcards/index.json (Lions CTA, 20 Aug 2026)"
+   }
+  ],
+  "broll_pool": [],
+  "elements": [
+   {
+    "name": "Lions topic tag plate (country super)",
+    "kind": "tag",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   },
+   {
+    "name": "Lions CTA end card",
+    "kind": "end_card",
+    "file": "endcards/lions/lions-cta-end-card.mp4",
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
 }

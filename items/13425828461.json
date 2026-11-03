@@ -53,111 +53,147 @@
    "note": "Kimmy's prompter takes. Use the raw for the reframe if the master's resolution is too soft."
   }
  },
- "bp_intro": "Timings below are the approved master's, from its blueprint. Every row is the same cut reframed to 9:16. Story-safe area: nothing that matters in the top 250 px or the bottom 400 px.",
+ "bp_intro": "Timings are the approved master's: every row is the same cut reframed to 9:16. Source times are mm:ss.s in Kimmy's clips (<span class=\"mono\">C5065</span>, <span class=\"mono\">C5066</span>, <span class=\"mono\">C5067</span>), from the word timings in the Prompter Content transcript.json. Story-safe area: nothing that matters in the top 250 px or the bottom 400 px.",
  "rows": [
   {
    "tc": "00:00–00:03",
    "beat": "QUESTION",
    "kind": "hook",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Reframe the approved 16:9 master at this point to 9:16 on Kimmy. Same cut, same timing. Punch in where you have to; never crop her face at the chin or forehead.",
-   "motion": "Keep the on-screen question: <q>How does a Watsi partnership work?</q> Sonam named it as the thing she likes. If the wide layout does not fit, stack it or move it up. Do not drop it.",
+   "visual": "Reframe the approved 16:9 master at this point to 9:16 on Kimmy: she sits on a couch in a black Watsi shirt, a yellow pillow and a window with the city behind her (visual.json). Same cut, same timing. Crop centred on her face; punch in where you have to, never crop her face at the chin or forehead. The master opens on her before she speaks (<a href=\"https://drive.google.com/file/d/1MiIcUgTBOmzdROSWgW-fDQ8D8cUPSVuy/view\">20260922_C5065.MP4</a> 00:00 to 00:03).",
+   "motion": "Keep the on-screen question from <b>frame 1</b>: <q>How does a Watsi partnership work?</q> Same treatment as the master: Sonam named it as the thing she likes. If the wide layout does not fit, stack it on two lines or move it up, but keep it below the top 250 px. Do not drop it. It stays up to 00:05.",
    "voice": "<span class=\"none\">No voice. Room tone only.</span>",
    "sfx": "Room tone. No whoosh, no typing sound.",
-   "music": "<span class=\"none\">No music.</span>"
+   "music": "Same as the approved master. Do not add or remove anything.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": null
+    }
+   ]
   },
   {
    "tc": "00:03–00:13",
    "beat": "ANSWER",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Reframe the approved 16:9 master at this point to 9:16 on Kimmy. Same cut, same timing. Punch in where you have to; never crop her face at the chin or forehead.",
-   "motion": "Question text stays up to <span class=\"mono\">00:05</span>, then out. Captions start.",
+   "visual": "Reframe the approved 16:9 master at this point to 9:16 on Kimmy: she sits on a couch in a black Watsi shirt, a yellow pillow and a window with the city behind her (visual.json). Same cut, same timing. Crop centred on her face; punch in where you have to, never crop her face at the chin or forehead. Source: <a href=\"https://drive.google.com/file/d/1MiIcUgTBOmzdROSWgW-fDQ8D8cUPSVuy/view\">20260922_C5065.MP4</a>.",
+   "motion": "The question from the first row holds to 00:05 and goes out. Captions start on her first word.",
    "voice": {
     "who": "Kimmy",
     "quote": "A Watsi partnership isn't something we set up once and walk away from. We work with on-the-ground medical organizations that already know their communities and are providing care there.",
-    "src": "C5065 00:03–00:13"
+    "src": "20260922_C5065.MP4 00:03.0 to 00:13.7"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "<span class=\"none\">No music.</span>"
+   "music": "Same as the approved master. Do not add or remove anything.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "A"
+    }
+   ]
   },
   {
    "tc": "00:13–00:40",
    "beat": "HUMAN",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Reframe the approved 16:9 master at this point to 9:16 on Kimmy. Same cut, same timing. Punch in where you have to; never crop her face at the chin or forehead.",
-   "motion": "Captions only. The transcript writes “WSFP relies”. The script says “Watsi relies”. Listen and caption Watsi. <b>Name super</b> “Kimmy” at <span class=\"mono\">00:14–00:16</span>, lower left, above the captions, <b>large</b>. First name only.",
+   "visual": "Reframe the approved 16:9 master at this point to 9:16 on Kimmy: she sits on a couch in a black Watsi shirt, a yellow pillow and a window with the city behind her (visual.json). Same cut, same timing. Crop centred on her face; punch in where you have to, never crop her face at the chin or forehead. Source: <a href=\"https://drive.google.com/file/d/1PQ9DlA-IEz0iJi63Kv5TFvRq4iTWjOvN/view\">20260922_C5066.MP4</a>.",
+   "motion": "<b>Name super</b> “Kimmy” at 00:14–00:16, lower left, above the captions and above the bottom 400 px, <b>large</b>. First name only. Caption Watsi relies where the transcript writes WSFP relies.",
    "voice": {
     "who": "Kimmy",
     "quote": "But the day-to-day relationship is much more human than that sounds. There are people on the partner team who are meeting patients and families, helping determine who needs financial support, gathering information for patient profiles, and staying with that patient through treatment. They're also working directly with hospital teams around the care itself and the cost of that care. Watsi relies on that local knowledge because we're not in the room making those decisions ourselves.",
-    "src": "C5066 00:06–00:33"
+    "src": "20260922_C5066.MP4 00:06.0 to 00:33.7"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "<span class=\"none\">No music.</span>"
+   "music": "Same as the approved master. Do not add or remove anything.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "But"
+    }
+   ]
   },
   {
    "tc": "00:40–01:10",
    "beat": "ROWELA",
    "kind": "turn",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Reframe the approved 16:9 master at this point to 9:16 on Kimmy. Same cut, same timing. Punch in where you have to; never crop her face at the chin or forehead.",
+   "visual": "Reframe the approved 16:9 master at this point to 9:16 on Kimmy: she sits on a couch in a black Watsi shirt, a yellow pillow and a window with the city behind her (visual.json). Same cut, same timing. Crop centred on her face; punch in where you have to, never crop her face at the chin or forehead. Source: <a href=\"https://drive.google.com/file/d/1PQ9DlA-IEz0iJi63Kv5TFvRq4iTWjOvN/view\">20260922_C5066.MP4</a>.",
    "motion": "Captions only. One caption beat: “Rowela · World Surgical Foundation Philippines”.",
    "voice": {
     "who": "Kimmy",
     "quote": "I saw what that looks like when I was in the Philippines. I visited Rowela at home after her surgery, alongside a team at World Surgical Foundation Philippines. And getting to spend time with them in that setting made that partnership feel very real to me. WSFP wasn't just the organization submitting her profile to Watsi. They were the people who knew where she was in her care, what she had been through, and what she needed next.",
-    "src": "C5066 00:38–01:08"
+    "src": "20260922_C5066.MP4 00:38.0 to 01:08.6"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "<span class=\"none\">No music.</span>"
+   "music": "Same as the approved master. Do not add or remove anything.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "I"
+    }
+   ]
   },
   {
    "tc": "01:10–01:33",
    "beat": "THE GUARANTEE",
    "kind": "turn",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Reframe the approved 16:9 master at this point to 9:16 on Kimmy. Same cut, same timing. Punch in where you have to; never crop her face at the chin or forehead.",
+   "visual": "Reframe the approved 16:9 master at this point to 9:16 on Kimmy: she sits on a couch in a black Watsi shirt, a yellow pillow and a window with the city behind her (visual.json). Same cut, same timing. Crop centred on her face; punch in where you have to, never crop her face at the chin or forehead. Source: <a href=\"https://drive.google.com/file/d/1PQ9DlA-IEz0iJi63Kv5TFvRq4iTWjOvN/view\">20260922_C5066.MP4</a>.",
    "motion": "Captions only.",
    "voice": {
     "who": "Kimmy",
     "quote": "And sometimes the relationship matters most when things don't go exactly to plan. A patient may need care before their profile has finished fundraising, for example. In those cases, our partners can provide treatment under Watsi's guarantee that will cover the approved cost of care. Afterward, they send us an update confirming what happened, and we transfer the funds once that update has been reviewed and approved.",
-    "src": "C5066 02:06–02:35 (cut the 6 s pause after “to plan”)"
+    "src": "20260922_C5066.MP4 02:06.2 to 02:11.0 and 02:16.5 to 02:35.7 (the 5.5 s pause after “to plan” is cut)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "<span class=\"none\">No music.</span>"
+   "music": "Same as the approved master. Do not add or remove anything.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "And"
+    }
+   ]
   },
   {
    "tc": "01:33–01:52",
    "beat": "BUTTON",
    "kind": "turn",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Reframe the approved 16:9 master at this point to 9:16 on Kimmy. Same cut, same timing. Punch in where you have to; never crop her face at the chin or forehead.",
+   "visual": "Reframe the approved 16:9 master at this point to 9:16 on Kimmy: she sits on a couch in a black Watsi shirt, a yellow pillow and a window with the city behind her (visual.json). Same cut, same timing. Crop centred on her face; punch in where you have to, never crop her face at the chin or forehead. Source: <a href=\"https://drive.google.com/file/d/1ZdxVBFeX7O_pQ58O5BJ3lapKgoFTQcwD/view\">20260922_C5067.MP4</a>.",
    "motion": "Captions only.",
    "voice": {
     "who": "Kimmy",
     "quote": "So, when I think about a Watsi medical partnership, I don't really think about a contract or a logo on a partner page. I think about the people who are there in that community, knowing the patients, understanding the healthcare system, and staying with the work. That ongoing relationship is a huge part of what makes Watsi work.",
-    "src": "C5067 00:03–00:22 (the clean take; C5066 breaks at 02:57)"
+    "src": "20260922_C5067.MP4 00:03.5 to 00:22.6 (the clean take; C5066 breaks at 02:57)"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "<span class=\"none\">No music.</span>"
+   "music": "Same as the approved master. Do not add or remove anything.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "So,"
+    }
+   ]
   },
   {
    "tc": "01:52–01:55",
@@ -167,11 +203,12 @@
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Clean end card. Light cyan <span class=\"mono\">#D3EDFA</span> background. Navy is never a background. Same end card on every FAQ cut from this shoot.",
+   "visual": "Clean end card, the same as the master's. Light cyan <span class=\"mono\">#D3EDFA</span> background. Navy is never a background. Keep the line inside the story-safe area.",
    "motion": "<b>watsi.org</b>, all lowercase, Lato, navy <span class=\"mono\">#2E2844</span>. One line. Nothing under it. Optional: one small LOTUS illustration inside the frame. That is the only brand element.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "<span class=\"none\">No music.</span>"
+   "music": "Same as the approved master. Do not add or remove anything.",
+   "shots": []
   }
  ],
  "frames": {},
@@ -193,26 +230,38 @@
    "<a href=\"https://bothappyproductions.github.io/editor-blueprints/#i13132978216\">Kimmy · How a Partnership Works</a> (the master's plan)"
   ],
   [
-   "Brand",
-   "<a href=\"https://drive.google.com/drive/folders/1my9RNjTawX8JeQO2eQDHSphWP8KTg09r\">LOTUS illustrations pack</a> · <a href=\"https://drive.google.com/file/d/1u8R2iKmydBN2xF_h0wIE6X-NZo0mslXs/view\">Brand guide</a> · <a href=\"https://drive.google.com/drive/folders/1T7bIehcX3_l6F-CXUu-LHCyPE58nq9df\">September Spirit</a> + Lato for campaign lines"
+   "Clips",
+   "<a href=\"https://drive.google.com/file/d/1MiIcUgTBOmzdROSWgW-fDQ8D8cUPSVuy/view\">C5065</a> · <a href=\"https://drive.google.com/file/d/1PQ9DlA-IEz0iJi63Kv5TFvRq4iTWjOvN/view\">C5066</a> · <a href=\"https://drive.google.com/file/d/1ZdxVBFeX7O_pQ58O5BJ3lapKgoFTQcwD/view\">C5067</a> (all 20260922_…MP4, 1920×1080, 59.94 fps)"
+  ],
+  [
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/11kGNAQuZUyufthRlVSyXSF0A8IGPFntdAXQII9Npl1Q/edit\">Transcripts - Prompter Content</a> · <a href=\"https://drive.google.com/file/d/18hlID2QNM4jYCELTPUlApT0uQ-DdkrpN/view\">transcript.json (word times)</a> · <a href=\"https://drive.google.com/file/d/1CPR9IKUr94dzuRzYiEqkZSC23G7UcGtk/view\">visual.json</a> (shoot level)"
+  ],
+  [
+   "Clips",
+   "<a href=\"https://drive.google.com/file/d/1MiIcUgTBOmzdROSWgW-fDQ8D8cUPSVuy/view\">C5065</a> · <a href=\"https://drive.google.com/file/d/1PQ9DlA-IEz0iJi63Kv5TFvRq4iTWjOvN/view\">C5066</a> · <a href=\"https://drive.google.com/file/d/1ZdxVBFeX7O_pQ58O5BJ3lapKgoFTQcwD/view\">C5067</a> (all 20260922_…MP4, 1920×1080, 59.94 fps)"
   ]
  ],
  "tech": [
   [
    "Source",
-   "The approved 16:9 master (and the NYC raw if you need resolution for the reframe)."
+   "The approved 16:9 master. The raw takes C5065 to C5067 are 1920×1080, 59.94 fps (visual.json)."
   ],
   [
    "Timeline",
    "1080×1920, same frame rate as the master."
   ],
   [
+   "Crop",
+   "A 9:16 crop of 1080p is 608×1080, so the vertical is a 1.78× upscale. Keep any extra punch-in at 105% or less. Use the raw clips only for a cleaner frame; the cut stays identical."
+  ],
+  [
    "Safe area",
-   "Top 250 px and bottom 400 px stay clear (Instagram story UI)."
+   "Top 250 px and bottom 400 px stay clear (Instagram story UI). The question sits below 250 px, the captions and the name super above the bottom 400 px."
   ],
   [
    "Captions",
-   "Burned in. Lato Bold, Watsi design system."
+   "Burned in. Lato Bold, white, soft shadow, large, word by word, one line at a time (Watsi design system). The caption clips are in the Captions section of this page."
   ],
   [
    "Loudness",
@@ -225,11 +274,13 @@
  ],
  "checklist": [
   "Same bites, order, music and length as the approved master.",
-  "The question is on screen, stacked or moved up if needed.",
+  "The question is on screen from frame 1, stacked or moved up if needed, below the top 250 px.",
   "Nothing important in the top 250 px or bottom 400 px.",
   "No face cropped at chin or forehead.",
-  "Watsi with a capital W only. watsi.org lowercase.",
-  "Captions in Lato Bold."
+  "Name super “Kimmy” is large, first name only, at 00:14.",
+  "Watsi with a capital W only (never WSFP where she says Watsi). watsi.org lowercase.",
+  "Rowela and World Surgical Foundation Philippines spelled exactly like this.",
+  "Captions in Lato Bold, never dropping out."
  ],
  "decisions": [],
  "client_note": "<b>Why this matters:</b> Sonam asked for it herself and named what she likes. Watsi runs this set from World Kindness Day (13 Nov) into Thanksgiving.",
@@ -239,5 +290,170 @@
   "What is the safe area?",
   "Which captions style?"
  ],
- "transcript": "Auto-transcript of Kimmy's Script 2 takes (Prompter Content, Brooklyn office, 22 Sep 2026). Times are mm:ss in each file. The auto-transcript writes WOTC or WSFP where she says Watsi; Watsi is restored below where the script doc has it. Names follow the script doc (Rowela, World Surgical Foundation Philippines = WSFP).\n\n20260922_C5065.MP4\n[00:03] A Watsi partnership isn't something we set up once and walk away from.\n[00:07] We work with on-the-ground medical organizations that already know their communities and are providing care there.\n[00:14] Before we partner, we look at things like how long they've been providing healthcare, their reputation in the medical community, or whether they're providing safe and ethical care and whether they have the systems in place to work with us.\n[00:29] And then we keep doing that due diligence over time.\n[00:38] But the day-to-day relationship is much more human than that sounds. (first take, retaken in C5066)\n\n20260922_C5066.MP4\n[00:00] Okay, is that speed better for you? Yes. Okay, awesome. Thank you.\n[00:06] But the day-to-day relationship is much more human than that sounds.\n[00:09] There are people on the partner team who are meeting patients and families, helping determine who needs financial support, gathering information for patient profiles, and staying with that patient through treatment.\n[00:21] They're also working directly with hospital teams around the care itself and the cost of that care.\n[00:28] Watsi relies on that local knowledge because we're not in the room making those decisions ourselves. (transcript: \"WSFP relies\")\n[00:38] I saw what that looks like when I was in the Philippines.\n[00:43] I visited Rowela at home after her surgery, alongside a team at World Surgical Foundation Philippines.\n[00:50] And getting to spend time with them in that setting made that partnership feel very real to me.\n[00:57] WSFP wasn't just the organization submitting her profile to Watsi. (transcript: \"to WSFP\")\n[01:02] They were the people who knew where she was in her care, what she had been through, and what she needed next.\n[01:12] And that's really the point.\n[01:13] Watsi isn't sitting somewhere far away deciding which patient in a community should receive care. (transcript: \"WSFP isn't\")\n[01:20] We rely on partners who have the local knowledge and medical relationships to do that well.\n[01:27] Our role is to review the cases against our criteria, work with a partner on the cost of care, fund the treatment, and stay in communication through the process.\n[01:42] Even the cost of treatment is something we work out together.\n[01:45] When we begin funding a treatment with a partner, they provide a line item breakdown of what that care actually costs, and those figures are documented and reviewed.\n[01:55] That includes things like medical staff, supplies, diagnostics, transportation, food, lodging, and follow-up, depending on the treatment and the setting.\n[02:06] And sometimes the relationship matters most when things don't go exactly to plan.\n[02:16] A patient may need care before their profile has finished fundraising, for example.\n[02:20] In those cases, our partners can provide treatment under Watsi's guarantee that will cover the approved cost of care.\n[02:27] Afterward, they send us an update confirming what happened, and we transfer the funds once that update has been reviewed and approved.\n[02:41] So when I think about a Watsi medical partnership, I don't really think about a contract or a logo on a partner page. (breaks at 02:57)\n[02:57] That ongoing relationship is a huge part of what my, what my, sorry. No worries.\n\n20260922_C5067.MP4\n[00:03] So, when I think about a Watsi medical partnership, I don't really think about a contract or a logo on a partner page.\n[00:09] I think about the people who are there in that community, knowing the patients, understanding the healthcare system, and staying with the work.\n[00:18] That ongoing relationship is a huge part of what makes Watsi work.\n"
+ "transcript": "Auto-transcript of Kimmy's Script 2 takes (Prompter Content, Brooklyn office, 22 Sep 2026). Times are mm:ss.s in each file, from the word timings in the Prompter Content transcript.json. Fixed by hand from the script doc: Watsi (transcript: WOTC or WSFP where she says Watsi), Rowela (transcript: Ruela). World Surgical Foundation Philippines = WSFP.\n\n--- 20260922_C5065.MP4 ---\n[00:03.0] A Watsi partnership isn't something we set up once and walk away from.\n[00:07.2] We work with on-the-ground medical organizations that already know their communities and are providing care there.\n[00:14.8] Before we partner, we look at things like how long they've been providing healthcare, their reputation in the medical community, or whether they're providing safe and ethical care and whether they have the systems in place to work with us.\n[00:29.7] And then we keep doing that due diligence over time.\n[00:38.0] But the day-to-day relationship is much more human than that sounds. [do not use: first take of this block; the master uses the C5066 retake]\n[00:41.9] There are people on the partner team who are meeting patients and families, helping determine who needs financial support, gathering information for a patient profile, and staying with that patient through the treatment. [do not use: first take of this block; the master uses the C5066 retake]\n[00:55.8] We're also working directly with hospital teams around care. [do not use: first take of this block; the master uses the C5066 retake]\n\n--- 20260922_C5066.MP4 ---\n[00:00.1] Okay, is that speed better for you? [do not use: prompter chat]\n[00:03.7] Yes. [do not use: prompter chat]\n[00:04.4] Okay, awesome. [do not use: prompter chat]\n[00:04.6] Thank you. [do not use: prompter chat]\n[00:06.0] But the day-to-day relationship is much more human than that sounds.\n[00:09.2] There are people on the partner team who are meeting patients and families, helping determine who needs financial support, gathering information for patient profiles, and staying with that patient through treatment.\n[00:21.9] They're also working directly with hospital teams around the care itself and the cost of that care.\n[00:28.5] Watsi relies on that local knowledge because we're not in the room making those decisions ourselves.\n[00:38.0] I saw what that looks like when I was in the Philippines.\n[00:43.2] I visited Rowela at home after her surgery, alongside a team at World Surgical Foundation Philippines.\n[00:50.8] And getting to spend time with them in that setting made that partnership feel very real to me.\n[00:57.5] WSFP wasn't just the organization submitting her profile to Watsi.\n[01:02.3] They were the people who knew where she was in her care, what she had been through, and what she needed next.\n[01:12.3] And that's really the point.\n[01:13.9] Watsi isn't sitting somewhere far away deciding which patient in a community should receive care.\n[01:20.2] We rely on partners who have the local knowledge and medical relationships to do that well.\n[01:27.7] Our role is to review the cases against our criteria, work with a partner on the cost of care, fund the treatment, and stay in communication through the process.\n[01:42.8] Even the cost of treatment is something we work out together.\n[01:45.4] When we begin funding a treatment with a partner, they provide a line item breakdown of what that care actually costs, and those figures are documented and reviewed.\n[01:55.6] That includes things like medical staff, supplies, diagnostics, transportation, food, lodging, and follow-up, depending on the treatment and the setting.\n[02:06.2] And sometimes the relationship matters most when things don't go exactly to plan.\n[02:16.5] A patient may need care before their profile has finished fundraising, for example.\n[02:20.7] In those cases, our partners can provide treatment under Watsi's guarantee that will cover the approved cost of care.\n[02:27.9] Afterward, they send us an update confirming what happened, and we transfer the funds once that update has been reviewed and approved.\n[02:41.6] So when I think about a Watsi medical partnership, I don't really think about a contract or a logo on a partner page.\n[02:47.8] I think about the people who are there in that community, knowing the patients, understanding the healthcare system, and staying with the work.\n[02:57.3] That ongoing relationship is a huge part of what my, what my, sorry. [do not use: stumble, take breaks here]\n[03:03.0] No worries. [do not use: stumble, take breaks here]\n\n--- 20260922_C5067.MP4 ---\n[00:03.5] So, when I think about a Watsi medical partnership, I don't really think about a contract or a logo on a partner page.\n[00:09.7] I think about the people who are there in that community, knowing the patients, understanding the healthcare system, and staying with the work.\n[00:18.1] That ongoing relationship is a huge part of what makes Watsi work.",
+ "alts": {
+  "bite:1": [
+   {
+    "quote": "And then we keep doing that due diligence over time.",
+    "who": "Kimmy",
+    "file": "20260922_C5065.MP4",
+    "why": "Due diligence, one line."
+   },
+   {
+    "quote": "Before we partner, we look at things like how long they've been providing healthcare, their reputation in the medical community, or whether they're providing safe and ethical care and whether they have the systems in place to work with us.",
+    "who": "Kimmy",
+    "file": "20260922_C5065.MP4",
+    "why": "How Watsi picks partners."
+   },
+   {
+    "quote": "But the day-to-day relationship is much more human than that sounds.",
+    "who": "Kimmy",
+    "file": "20260922_C5066.MP4",
+    "why": "Straight to the human side."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "And that's really the point.",
+    "who": "Kimmy",
+    "file": "20260922_C5066.MP4",
+    "why": "Short turn line."
+   },
+   {
+    "quote": "We rely on partners who have the local knowledge and medical relationships to do that well.",
+    "who": "Kimmy",
+    "file": "20260922_C5066.MP4",
+    "why": "Local knowledge, one line."
+   },
+   {
+    "quote": "Watsi isn't sitting somewhere far away deciding which patient in a community should receive care.",
+    "who": "Kimmy",
+    "file": "20260922_C5066.MP4",
+    "why": "Watsi is not deciding from far away."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "I saw what that looks like when I was in the Philippines.",
+    "who": "Kimmy",
+    "file": "20260922_C5066.MP4",
+    "why": "Shorter way into Rowela."
+   },
+   {
+    "quote": "And getting to spend time with them in that setting made that partnership feel very real to me.",
+    "who": "Kimmy",
+    "file": "20260922_C5066.MP4",
+    "why": "The partnership felt real."
+   },
+   {
+    "quote": "They were the people who knew where she was in her care, what she had been through, and what she needed next.",
+    "who": "Kimmy",
+    "file": "20260922_C5066.MP4",
+    "why": "Who the partner team is."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "And sometimes the relationship matters most when things don't go exactly to plan.",
+    "who": "Kimmy",
+    "file": "20260922_C5066.MP4",
+    "why": "The turn line on its own."
+   },
+   {
+    "quote": "We rely on partners who have the local knowledge and medical relationships to do that well.",
+    "who": "Kimmy",
+    "file": "20260922_C5066.MP4",
+    "why": "Local knowledge, one line."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "I think about the people who are there in that community, knowing the patients, understanding the healthcare system, and staying with the work.",
+    "who": "Kimmy",
+    "file": "20260922_C5067.MP4",
+    "why": "The people, staying with the work."
+   },
+   {
+    "quote": "That ongoing relationship is a huge part of what makes Watsi work.",
+    "who": "Kimmy",
+    "file": "20260922_C5067.MP4",
+    "why": "The last line on its own."
+   },
+   {
+    "quote": "And that's really the point.",
+    "who": "Kimmy",
+    "file": "20260922_C5066.MP4",
+    "why": "Short closer."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "How does a Watsi partnership work?",
+    "line": "A Watsi partnership isn't something we set up once and walk away from.",
+    "why": "The approved master's question."
+   },
+   {
+    "text": "Much more human than it sounds",
+    "line": "But the day-to-day relationship is much more human than that sounds.",
+    "why": "Her own surprise line."
+   },
+   {
+    "text": "Staying with the work",
+    "line": "I think about the people who are there in that community, knowing the patients, understanding the healthcare system, and staying with the work.",
+    "why": "The heart of her answer."
+   },
+   {
+    "text": "What makes Watsi work",
+    "line": "That ongoing relationship is a huge part of what makes Watsi work.",
+    "why": "Her last line as a hook."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "Watsi: one brand element at a time, never slapped on. The reel keeps the master's question, one name super, captions and the watsi.org card. Optional: one small LOTUS illustration on the end card. A reframe: no new B-roll.",
+  "devices": [
+   {
+    "row": "00:00–00:03",
+    "device": "Question text, on from frame 1, below the top 250 px",
+    "asset": "highlight_callout (MG library)",
+    "source": "Approved master; script"
+   },
+   {
+    "row": "00:13–00:40",
+    "device": "Name super Kimmy",
+    "asset": "tag_label (MG library)",
+    "source": "Approved master; script"
+   },
+   {
+    "row": "01:52–01:55",
+    "device": "End card",
+    "asset": "watsi.org on light cyan (optional small LOTUS illustration)",
+    "source": "endcards/index.json (Watsi lines, 6 Oct 2026); LOTUS pack"
+   }
+  ],
+  "broll_pool": [],
+  "elements": [
+   {
+    "name": "Watsi end card (watsi.org on light cyan)",
+    "kind": "end_card",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   },
+   {
+    "name": "LOTUS illustration (optional, end card only)",
+    "kind": "illustration",
+    "file": null,
+    "url": "https://drive.google.com/drive/folders/1my9RNjTawX8JeQO2eQDHSphWP8KTg09r",
+    "local": null,
+    "alpha": true,
+    "size": null,
+    "fps": null
+   }
+  ],
+  "new_elements": []
+ }
 }

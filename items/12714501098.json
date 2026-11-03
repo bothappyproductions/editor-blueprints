@@ -8,7 +8,7 @@
  "editor": "Bleron",
  "due": "2026-09-28",
  "format": "9:16 only · 1080×1920",
- "length": "about 52 s",
+ "length": "about 54 s",
  "edit_key": "WATSIThanksSachs001",
  "headline": "A personal thank-you to Clayton and the Sachs family from the clinic floor: two boys going into surgery today, two girls back a year later and doing what they love.",
  "story": [
@@ -23,11 +23,11 @@
   "Simple"
  ],
  "do": [
-  "Use the single take, start to finish.",
-  "Keep captions on for the whole message.",
-  "Caption Clínica Noel with the accent.",
-  "Out after “Thanks. Ciao.”",
-  "Light end card only: watsi.org."
+  "Use the single take, start to finish. Cut in at 00:02.2.",
+  "Captions on for the whole message, from the first word.",
+  "Caption Clínica Noel with the accent and Sachs as written here.",
+  "Caption “The transformation is amazing.” with no “And”, and keep “and I can't thank”.",
+  "Out after “Thanks. Ciao.”, then the light watsi.org card."
  ],
  "dont": [
   "No name super, no title, no logo at the start.",
@@ -50,114 +50,145 @@
   "footage": {
    "title": "Watsi Medellín raw + transcripts",
    "url": "https://drive.google.com/drive/folders/1TH290hIMOFFstl2eTMEi0La20EI13xTL",
-   "note": "Interviews &amp; Mackinnon Scripts › Mincho5119.MP4 (about 0:52, one take)."
+   "note": "Interviews &amp; Mackinnon Scripts › Mincho5119.MP4 (0:56, one take)."
   }
  },
- "bp_intro": "All source times are in <span class=\"mono\">Mincho5119.MP4</span> (one camera, Mackinnon only). Times come from the transcript and are accurate to about 1 s. Line 00:32 is her, though the transcript labels it “Interviewer”.",
+ "bp_intro": "All source times are in <span class=\"mono\">Mincho5119.MP4</span> (one camera, Mackinnon only, 0:56). Times are mm:ss.s in the file, from the word timings in the shoot's transcript.json. Single take: the output time is the source time minus 2.2 s. The transcript labels some of her lines “Interviewer” and “Clayton”: every line is her.",
  "rows": [
   {
-   "tc": "00:00–00:07",
+   "tc": "00:00–00:06",
    "beat": "HELLO",
    "kind": "hook",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Start on frame 1: she is already talking to the lens.",
-   "motion": "Captions from the first word. “Clínica Noel” with the accent (transcript: Clinic Unwell). “Sachs” (transcript: SACS). No name super: they know her.",
+   "visual": "Mackinnon on camera, <a href=\"https://drive.google.com/file/d/1oQ2-qPe2_6sbgQh3TDn1gxvDzQEwZo1i/view\">Mincho5119.MP4</a>. Cut in at <span class=\"mono\">00:02.2</span>, just before <q>Hola Clayton</q>, so she is already talking on frame 1. Keep her face in the middle of the 9:16 frame. Single take from here to <q>Ciao.</q>",
+   "motion": "Captions from the first word. The first caption, Hola Clayton, shows from frame 1: it is the hook. Write Clínica Noel with the accent (the transcript says Clinic Unwell) and Sachs (the transcript says SACS). No name super, no title card, no logo: they know her.",
    "voice": {
     "who": "Mackinnon",
     "quote": "Hola Clayton. Hi Sachs family. I'm here at Clínica Noel in Colombia.",
-    "src": "C5119 00:02–00:09"
+    "src": "Mincho5119.MP4 00:02.4 to 00:07.7"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "<span class=\"none\">No music.</span>"
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Hola"
+    }
+   ]
   },
   {
-   "tc": "00:07–00:21",
+   "tc": "00:06–00:21",
    "beat": "THE DAY",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Same take. No cuts: it should feel like a phone call.",
+   "visual": "Same take, Mackinnon to the lens. No cuts: it should feel like a phone call. Her face is the strongest picture here, so no B-roll.",
    "motion": "Captions only.",
    "voice": {
     "who": "Mackinnon",
     "quote": "We're having the most amazing day meeting patients, hearing their stories. We've met two young boys who are going in for surgery today and two chicas, two girls who came back from having surgery last year so we could see how they're doing",
-    "src": "C5119 00:09–00:23"
+    "src": "Mincho5119.MP4 00:08.3 to 00:22.6"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "<span class=\"none\">No music.</span>"
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "We're"
+    }
+   ]
   },
   {
-   "tc": "00:21–00:34",
+   "tc": "00:21–00:35",
    "beat": "TRANSFORMATION",
    "kind": "turn",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Same take.",
-   "motion": "Captions only.",
+   "visual": "Same take, Mackinnon to the lens. No cuts: it should feel like a phone call. Her face is the strongest picture here, so no B-roll. She says <q>and</q> just before <q>the transformation</q> (<span class=\"mono\">00:22.6</span>): it stays in the audio, the caption starts at <q>The transformation</q>.",
+   "motion": "Captions only. The caption starts “The transformation is amazing.” with no “And”.",
    "voice": {
     "who": "Mackinnon",
-    "quote": "and the transformation is amazing. They're going from, you know, kids who had a lot of pain and weren't able to do things that they love to do to now being able to do whatever their heart wants and just really be a kid and dream big about what's ahead.",
-    "src": "C5119 00:23–00:36"
+    "quote": "The transformation is amazing. They're going from, you know, kids who had a lot of pain and weren't able to do things that they love to do to now being able to do whatever their heart wants and just really be a kid and dream big about what's ahead.",
+    "src": "Mincho5119.MP4 00:23.0 to 00:36.8"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "<span class=\"none\">No music.</span>"
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "the transformation"
+    }
+   ]
   },
   {
-   "tc": "00:34–00:44",
+   "tc": "00:35–00:44",
    "beat": "THANK YOU",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Same take.",
-   "motion": "Captions only. “Watsi” with a capital W (transcript: WOTC).",
+   "visual": "Same take, Mackinnon to the lens. No cuts: it should feel like a phone call. Her face is the strongest picture here, so no B-roll.",
+   "motion": "Captions only. Watsi with a capital W (the transcript says WOTC). The caption keeps her “and” in “and I can't thank you enough”.",
    "voice": {
     "who": "Mackinnon",
     "quote": "So I want to thank you from the bottom of my heart. It's been so cool to get to know you over the last year and I can't thank you enough for showing up for Watsi and making all of this possible.",
-    "src": "C5119 00:36–00:46"
+    "src": "Mincho5119.MP4 00:37.1 to 00:45.9"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "<span class=\"none\">No music.</span>"
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "So I want"
+    }
+   ]
   },
   {
-   "tc": "00:44–00:50",
+   "tc": "00:44–00:51",
    "beat": "COME WITH ME",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Same take. Out after “Ciao.”",
+   "visual": "Same take, Mackinnon to the lens. No cuts: it should feel like a phone call. Her face is the strongest picture here, so no B-roll. Out right after <q>Ciao.</q> (about <span class=\"mono\">00:53.0</span>).",
    "motion": "Captions only.",
    "voice": {
     "who": "Mackinnon",
     "quote": "It'll be fun to come with me someday, so let's talk about that next time I see you. Thanks. Ciao.",
-    "src": "C5119 00:46–00:52"
+    "src": "Mincho5119.MP4 00:46.4 to 00:52.6"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "<span class=\"none\">No music.</span>"
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "It'll"
+    }
+   ]
   },
   {
-   "tc": "00:50–00:53",
+   "tc": "00:51–00:54",
    "beat": "END CARD",
    "kind": "end",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Light end card. Light cyan <span class=\"mono\">#D3EDFA</span> background.",
+   "visual": "Light end card. Light cyan <span class=\"mono\">#D3EDFA</span> background. No logo lockup.",
    "motion": "<b>watsi.org</b>, all lowercase, Lato, navy <span class=\"mono\">#2E2844</span>. Nothing else.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "<span class=\"none\">No music.</span>"
+   "music": "<span class=\"none\">No music.</span>",
+   "shots": []
   }
  ],
  "frames": {},
@@ -167,22 +198,34 @@
    "<a href=\"https://docs.google.com/document/d/1gGIrzWhlp1uzF2PwEGM3DLqgH9LuvLu9J2Mpt2b5uII/edit\">Watsi Medellín — Edit Scripts from the Footage</a> (Nick, 4 Aug) · Bucket 3, V12"
   ],
   [
+   "Reference",
+   "<a href=\"https://www.facebook.com/ads/library/?id=4677437162533348\">charity: water, Scott Harrison founder ad</a> (chosen by Atdhe for the Medellín Mackinnon pieces)"
+  ],
+  [
    "Shoot folder",
    "<a href=\"https://drive.google.com/drive/folders/1TH290hIMOFFstl2eTMEi0La20EI13xTL\">Watsi Medellín</a>"
   ],
   [
    "Clip",
-   "<a href=\"https://drive.google.com/file/d/1oQ2-qPe2_6sbgQh3TDn1gxvDzQEwZo1i/view\">Mincho5119.MP4</a> · In 0:00 · Out after “Ciao.”"
+   "<a href=\"https://drive.google.com/file/d/1oQ2-qPe2_6sbgQh3TDn1gxvDzQEwZo1i/view\">Mincho5119.MP4</a> · 0:56 · in 00:02.2 · out after “Ciao.”"
   ],
   [
    "Transcript",
-   "<a href=\"https://docs.google.com/document/d/10v-mHNaOrdTTRdKsHFCn-hYyG_mBNayU4Ef34wYUurg/edit\">Transcripts - Interviews &amp; Mackinnon Scripts</a>. It writes Watsi as “WOTC” and Clínica Noel as “Clinic Unwell”."
+   "<a href=\"https://docs.google.com/document/d/10v-mHNaOrdTTRdKsHFCn-hYyG_mBNayU4Ef34wYUurg/edit\">Transcripts - Interviews &amp; Mackinnon Scripts</a> · <a href=\"https://drive.google.com/file/d/1WfzgxvxnuYH46DRBCRGqzEwKbVCZd83g/view\">transcript.json (word times)</a>. It writes Watsi as “WOTC”, Clínica Noel as “Clinic Unwell” and Sachs as “SACS”."
+  ],
+  [
+   "Brand graphics package",
+   "Watsi package: Drive <span class=\"mono\">deliverables/graphics-packages/Watsi</span>. This cut uses none of it: captions and the end card only."
+  ],
+  [
+   "Brand",
+   "Lato. Light cyan <span class=\"mono\">#D3EDFA</span> end card, navy <span class=\"mono\">#2E2844</span> text only (navy is never a background)."
   ]
  ],
  "tech": [
   [
    "Source",
-   "One camera, 2-ch audio recorded into the camera. Mincho5118 from the same run is vertical with a rotation flag; check 5119 on import."
+   "Mincho5119.MP4, one camera, 2-ch audio recorded into the camera, 0:56. Mincho5118 from the same run is vertical with a rotation flag: check 5119 on import."
   ],
   [
    "Timeline",
@@ -190,11 +233,11 @@
   ],
   [
    "Crop",
-   "If it plays vertical: none, scale to 1080×1920. If it plays 16:9: crop 9:16 centered on her."
+   "If it plays vertical: no crop, scale to 1080×1920. If it plays 16:9: crop 9:16 centred on her face."
   ],
   [
    "Audio",
-   "2 channels in the camera file. Pick the live channel on the waveform and map it to both sides. (Not measured: the Drive download limit stopped the audio check.)"
+   "2 channels in the camera file. Pick the live channel on the waveform and map it to both sides."
   ],
   [
    "Loudness",
@@ -202,7 +245,7 @@
   ],
   [
    "Captions",
-   "Lato Bold, white, soft shadow, large. Pop word by word. No highlight box, no shading block. One line at a time. Always on screen, also in pauses. Keep the bottom 20% clear for app buttons."
+   "Lato Bold, white, soft shadow, large. Pop word by word. No highlight box, no shading block. One line at a time. Always on, also in pauses. Keep the bottom 20% clear for app buttons. The caption clips are in the Captions section of this page."
   ],
   [
    "Export",
@@ -210,29 +253,155 @@
   ]
  ],
  "checklist": [
-  "Read every caption against the audio.",
+  "Frame 1 is Mackinnon already talking, with the first caption up. No name super, title or logo.",
   "Clayton and Sachs are spelled exactly like this.",
   "Clínica Noel has the accent on the í.",
+  "The caption reads “The transformation is amazing.” with no “And”.",
+  "The caption reads “and I can't thank you enough”, with the “and”.",
   "Watsi has a capital W only. watsi.org is lowercase.",
   "Captions never drop out.",
-  "The message ends after “Ciao.”",
+  "The message ends after “Ciao.”, then the light watsi.org card.",
   "No music and no extra branding."
  ],
  "decisions": [
   {
-   "t": "Revision notes",
-   "b": "This item is in Needs Revisions. Read the Frame.io notes first; this page is the plan for everything they don't change."
+   "t": "Music",
+   "b": "The plan has no music: it is a personal send. The delivered cut carries a low bed under her voice. Nick decides if it stays; if it stays, keep it about 15 dB under her."
+  },
+  {
+   "t": "Which thank-you Sonam cleared on 2 Oct",
+   "b": "Sonam wrote “Thank you video is good to be used” in #only_watsi, but the link had no version, so it is not proven that she meant this one. Nick confirms. If it is this one, it leaves Needs Revisions once the two caption fixes are in."
   },
   {
    "t": "Family name",
-   "b": "Nick's script and the Monday item write Sachs. The transcript writes SACS. Caption Sachs."
+   "b": "Nick's script and the Monday item write Sachs (the transcript writes SACS). Caption Sachs. Sonam has not confirmed the spelling in writing."
   }
  ],
  "client_note": "<b>Why this matters:</b> this goes straight to a donor family Mackinnon knows. It must feel personal and correct. One typo in their name ruins it.",
  "ask_examples": [
   "How do I spell the family name?",
-  "Is the clip vertical?",
-  "Can I add music?",
+  "Does the caption start with “And” at “the transformation”?",
+  "Is there music?",
   "Where is the out-point?"
- ]
+ ],
+ "transcript": "Auto-transcript of Mincho5119.MP4 (Medellín, Clínica Noel, 28 Jul 2026), Mackinnon's thank-you to Clayton and the Sachs family. Times are mm:ss.s in the file, from the word timings. Fixed by hand: Watsi (transcript: WOTC), Clínica Noel (transcript: Clinic Unwell), Sachs (transcript: SACS).\n\n--- Mincho5119.MP4 ---\n[00:02.4] Hola Clayton.\n[00:03.8] Hi Sachs family.\n[00:05.1] I'm here at Clínica Noel in Colombia.\n[00:08.3] We're having the most amazing day meeting patients, hearing their stories.\n[00:12.6] We've met two young boys who are going in for surgery today and two chicas, two girls who came back from having surgery last year so we could see how they're doing and the transformation is amazing.\n[00:25.2] They're going from you know kids who had a lot of pain and weren't able to do things that they love to do to now being able to do whatever their heart wants and just really be a kid and dream big about what's ahead.\n[00:37.1] So I want to thank you from the bottom of my heart.\n[00:39.3] It's been so cool to get to know you over the last year and I can't thank you enough for showing up for Watsi and making all of this possible.\n[00:46.4] It'll be fun to come with me someday so let's talk about that next time I see you.\n[00:51.9] Thanks.\n[00:52.5] Ciao.",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "Hola Clayton.",
+    "who": "Mackinnon",
+    "file": "Mincho5119.MP4",
+    "why": "Just the greeting, if the open must be shorter."
+   },
+   {
+    "quote": "I'm here at Clínica Noel in Colombia.",
+    "who": "Mackinnon",
+    "file": "Mincho5119.MP4",
+    "why": "Where she is, on its own."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "We're having the most amazing day meeting patients, hearing their stories.",
+    "who": "Mackinnon",
+    "file": "Mincho5119.MP4",
+    "why": "The day in one line, shorter."
+   },
+   {
+    "quote": "We've met two young boys who are going in for surgery today and two chicas, two girls who came back from having surgery last year so we could see how they're doing and the transformation is amazing.",
+    "who": "Mackinnon",
+    "file": "Mincho5119.MP4",
+    "why": "The boys and the girls, one sentence."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "They're going from you know kids who had a lot of pain and weren't able to do things that they love to do to now being able to do whatever their heart wants and just really be a kid and dream big about what's ahead.",
+    "who": "Mackinnon",
+    "file": "Mincho5119.MP4",
+    "why": "The change in the kids, without the opening words."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "So I want to thank you from the bottom of my heart.",
+    "who": "Mackinnon",
+    "file": "Mincho5119.MP4",
+    "why": "The thank-you on its own, short."
+   },
+   {
+    "quote": "It's been so cool to get to know you over the last year and I can't thank you enough for showing up for Watsi and making all of this possible.",
+    "who": "Mackinnon",
+    "file": "Mincho5119.MP4",
+    "why": "The year together and the thanks."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "It'll be fun to come with me someday so let's talk about that next time I see you.",
+    "who": "Mackinnon",
+    "file": "Mincho5119.MP4",
+    "why": "The invitation without the goodbye."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "Hola Clayton!",
+    "line": "Hola Clayton.",
+    "why": "Her first words. The greeting is the hook."
+   },
+   {
+    "text": "From the bottom of my heart",
+    "line": "So I want to thank you from the bottom of my heart.",
+    "why": "The point of the message."
+   },
+   {
+    "text": "Two girls, one year later",
+    "line": "We've met two young boys who are going in for surgery today and two chicas, two girls who came back from having surgery last year so we could see how they're doing and the transformation is amazing.",
+    "why": "The proof they came to see."
+   },
+   {
+    "text": "Just really be a kid",
+    "line": "They're going from you know kids who had a lot of pain and weren't able to do things that they love to do to now being able to do whatever their heart wants and just really be a kid and dream big about what's ahead.",
+    "why": "The hopeful change, in her words."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "Watsi: one brand element at a time, never slapped on. This personal thank-you uses none on picture: her face, the captions and the light watsi.org card.",
+  "devices": [
+   {
+    "row": "00:00–00:06",
+    "device": "Face, captions from the first word (the first caption is the hook)",
+    "asset": "Mincho5119.MP4 00:02.2",
+    "source": "Medellín raw"
+   },
+   {
+    "row": "00:06–00:21 to 00:44–00:51",
+    "device": "Same take, face, captions only",
+    "asset": "Mincho5119.MP4",
+    "source": "Medellín raw"
+   },
+   {
+    "row": "00:51–00:54",
+    "device": "End card",
+    "asset": "watsi.org on light cyan",
+    "source": "endcards/index.json (Watsi lines, 6 Oct 2026)"
+   }
+  ],
+  "broll_pool": [],
+  "elements": [
+   {
+    "name": "Watsi end card (watsi.org on light cyan)",
+    "kind": "end_card",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
 }

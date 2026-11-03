@@ -1,0 +1,358 @@
+{
+ "item": "12997735317",
+ "client": "watsi",
+ "style": {
+  "font": {
+   "css": "\"Lato\"",
+   "w": 700
+  },
+  "size": 78,
+  "y": 1360,
+  "max_lines": 1,
+  "reveal": "word",
+  "fg": "#FFFFFF",
+  "shadow": true
+ },
+ "note": "Who Gives pop-up words in Lato Bold, word by word, one line at a time (Watsi style, no box, no highlight). Timed from the word timings in output.json. Watsi is written by hand (the transcript says WOTC). The last clip ends on “people's lives.”",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Hook",
+   "rows": [
+    "00:00–00:03"
+   ],
+   "clip": "Audio Note_David",
+   "start": 5.55,
+   "src": "Audio Note_David 00:05.5",
+   "dur": 2.9,
+   "words": [
+    {
+     "w": "I",
+     "t0": 0.15,
+     "t1": 0.27,
+     "e": 0
+    },
+    {
+     "w": "give",
+     "t0": 0.27,
+     "t1": 0.41,
+     "e": 0
+    },
+    {
+     "w": "because",
+     "t0": 0.45,
+     "t1": 0.63,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 0.63,
+     "t1": 1.19,
+     "e": 0
+    },
+    {
+     "w": "love",
+     "t0": 1.19,
+     "t1": 1.75,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 1.75,
+     "t1": 1.91,
+     "e": 0
+    },
+    {
+     "w": "level",
+     "t0": 1.91,
+     "t1": 2.07,
+     "e": 0
+    },
+    {
+     "w": "of",
+     "t0": 2.07,
+     "t1": 2.31,
+     "e": 0
+    },
+    {
+     "w": "transparency,",
+     "t0": 2.31,
+     "t1": 2.45,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 1.7,
+     "lines": [
+      [
+       0,
+       4
+      ]
+     ]
+    },
+    {
+     "t0": 1.7,
+     "t1": 2.02,
+     "lines": [
+      [
+       5,
+       6
+      ]
+     ]
+    },
+    {
+     "t0": 2.02,
+     "t1": 2.8,
+     "lines": [
+      [
+       7,
+       8
+      ]
+     ]
+    }
+   ],
+   "text": "I give because I love the level of transparency,",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 2,
+   "title": "Who Gives",
+   "rows": [
+    "00:03–00:06"
+   ],
+   "clip": "Audio Note_David",
+   "start": 8.59,
+   "src": "Audio Note_David 00:08.6",
+   "dur": 3.8,
+   "words": [
+    {
+     "w": "I",
+     "t0": 0.15,
+     "t1": 0.27,
+     "e": 0
+    },
+    {
+     "w": "trust",
+     "t0": 0.27,
+     "t1": 0.87,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 0.87,
+     "t1": 1.33,
+     "e": 0
+    },
+    {
+     "w": "lean",
+     "t0": 1.33,
+     "t1": 2.01,
+     "e": 0
+    },
+    {
+     "w": "and",
+     "t0": 2.01,
+     "t1": 2.27,
+     "e": 0
+    },
+    {
+     "w": "effective",
+     "t0": 2.27,
+     "t1": 2.47,
+     "e": 0
+    },
+    {
+     "w": "Watsi",
+     "t0": 2.47,
+     "t1": 3.17,
+     "e": 0
+    },
+    {
+     "w": "team",
+     "t0": 3.17,
+     "t1": 3.35,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 1.96,
+     "lines": [
+      [
+       0,
+       3
+      ]
+     ]
+    },
+    {
+     "t0": 1.96,
+     "t1": 3.7,
+     "lines": [
+      [
+       4,
+       7
+      ]
+     ]
+    }
+   ],
+   "text": "I trust the lean and effective Watsi team",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  },
+  {
+   "n": 3,
+   "title": "Direct Impact",
+   "rows": [
+    "00:06–00:10"
+   ],
+   "clip": "Audio Note_David",
+   "start": 11.93,
+   "src": "Audio Note_David 00:11.9",
+   "dur": 4.44,
+   "words": [
+    {
+     "w": "and",
+     "t0": 0.15,
+     "t1": 0.27,
+     "e": 0
+    },
+    {
+     "w": "I",
+     "t0": 0.27,
+     "t1": 0.37,
+     "e": 0
+    },
+    {
+     "w": "really",
+     "t0": 0.37,
+     "t1": 0.51,
+     "e": 0
+    },
+    {
+     "w": "appreciate",
+     "t0": 0.51,
+     "t1": 0.83,
+     "e": 0
+    },
+    {
+     "w": "the",
+     "t0": 0.83,
+     "t1": 1.25,
+     "e": 0
+    },
+    {
+     "w": "ability",
+     "t0": 1.25,
+     "t1": 1.43,
+     "e": 0
+    },
+    {
+     "w": "to",
+     "t0": 1.43,
+     "t1": 1.77,
+     "e": 0
+    },
+    {
+     "w": "make",
+     "t0": 1.77,
+     "t1": 1.89,
+     "e": 0
+    },
+    {
+     "w": "such",
+     "t0": 1.89,
+     "t1": 2.11,
+     "e": 0
+    },
+    {
+     "w": "a",
+     "t0": 2.11,
+     "t1": 2.31,
+     "e": 0
+    },
+    {
+     "w": "direct",
+     "t0": 2.31,
+     "t1": 2.85,
+     "e": 0
+    },
+    {
+     "w": "impact",
+     "t0": 2.85,
+     "t1": 3.27,
+     "e": 0
+    },
+    {
+     "w": "in",
+     "t0": 3.27,
+     "t1": 3.59,
+     "e": 0
+    },
+    {
+     "w": "people's",
+     "t0": 3.59,
+     "t1": 3.85,
+     "e": 0
+    },
+    {
+     "w": "lives.",
+     "t0": 3.85,
+     "t1": 3.99,
+     "e": 0
+    }
+   ],
+   "pages": [
+    {
+     "t0": 0.1,
+     "t1": 0.78,
+     "lines": [
+      [
+       0,
+       3
+      ]
+     ]
+    },
+    {
+     "t0": 0.78,
+     "t1": 2.06,
+     "lines": [
+      [
+       4,
+       8
+      ]
+     ]
+    },
+    {
+     "t0": 2.06,
+     "t1": 3.22,
+     "lines": [
+      [
+       9,
+       11
+      ]
+     ]
+    },
+    {
+     "t0": 3.22,
+     "t1": 4.34,
+     "lines": [
+      [
+       12,
+       14
+      ]
+     ]
+    }
+   ],
+   "text": "and I really appreciate the ability to make such a direct impact in people's lives.",
+   "timing": "words",
+   "matched": 1.0,
+   "lang": "en"
+  }
+ ]
+}

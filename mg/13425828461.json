@@ -1,0 +1,60 @@
+{
+ "item": "13425828461",
+ "client": "watsi",
+ "note": "The script asks for two graphics: the question from frame 1 and the Kimmy name super, as in the approved master. Then the watsi.org end card.",
+ "mg": [
+  {
+   "n": 1,
+   "title": "The question",
+   "tpl": "highlight_callout",
+   "dur": 5,
+   "pos": "top",
+   "text": {
+    "main": "How does a Watsi partnership work?"
+   },
+   "cue": "Keep the on-screen question from frame 1: How does a Watsi partnership work?",
+   "src": "Script, row 00:00–00:03, Motion graphics & type.",
+   "rows": [
+    "00:00–00:03"
+   ],
+   "use": "Start the clip at frame 0045 (fully on) and hold it until 00:05. Keep it below the top 250 px (story UI). Match the master's look."
+  },
+  {
+   "n": 2,
+   "title": "Name super",
+   "tpl": "tag_label",
+   "dur": 2,
+   "pos": "center",
+   "text": {
+    "main": "Kimmy"
+   },
+   "cue": "Name super “Kimmy” at 00:14–00:16",
+   "src": "Script, row 00:13–00:40, Motion graphics & type.",
+   "rows": [
+    "00:13–00:40"
+   ],
+   "use": "Put it on at 00:14 for 2 s. Move it lower left, above the captions and above the bottom 400 px. Make it large. First name only."
+  },
+  {
+   "n": 3,
+   "title": "End card",
+   "tpl": "end_card",
+   "rows": [
+    "01:52–01:55"
+   ],
+   "cue": "watsi.org, all lowercase, Lato, navy #2E2844. One line. Nothing under it.",
+   "src": "Watsi's own end card words from the script (endcards/index.json, Watsi lines, 6 Oct 2026). Watsi's scripts say no logo lockup.",
+   "c": {
+    "bg": "#D3EDFA",
+    "fg": "#2E2844"
+   },
+   "text": {
+    "lines": [
+     "watsi.org"
+    ]
+   },
+   "dur": 3.0,
+   "use": "This is the end card. Put it right after “what makes Watsi work.” and hold it to the end. One small LOTUS illustration inside the frame is allowed; nothing else."
+  }
+ ]
+}

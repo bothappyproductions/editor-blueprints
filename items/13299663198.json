@@ -8,13 +8,13 @@
  "editor": "Bleron",
  "due": "2026-11-06",
  "format": "9:16 only · 1080×1920",
- "length": "about 75 s",
+ "length": "about 78 s",
  "edit_key": "WATSIColOctBoardPrompts001",
  "headline": "Three Watsi board members stand in the hospital and say, in the moment, what Watsi is and what seeing it in person changed.",
  "story": [
   "Tiffany sums up the day in three words: inspirational, heartwarming, and fun. Margaret calls Watsi clickable joy. Raj and Tiffany say what it is in plain words.",
-  "Seeing it in person: Margaret's pride is in the organization caring for families here; Tiffany sees that surgery changes the whole family.",
-  "As Watsi grows, the human connection is what could be lost. Margaret says it never will, and Raj thanks the donors."
+  "Seeing it in person: Margaret's pride is in the organization here caring for families and kids; Tiffany sees that surgery changes the whole family.",
+  "<b>Loops:</b> L1 “Three words for what?” opens at 0:00 and closes in Margaret's “clickable joy”. L2 “What happens when they see it in person?” closes in the button. <b>Stakes:</b> as Watsi grows, the human connection is what could be lost. Margaret says it never will, and Raj thanks the donors."
  ],
  "feel": [
   "Real",
@@ -25,16 +25,16 @@
  "do": [
   "Open cold on Tiffany's three words with the hook text.",
   "Cut on the idea, not on the name.",
-  "Keep the handheld bounce. Don't stabilise it flat.",
-  "Fresh B-roll from the board's hospital day.",
-  "Captions on the whole time, no flash gaps."
+  "Name supers above the captions, no box, sized like WhatInspiredYouAboutWatsi.",
+  "Fresh B-roll from the Oct 20 hospital day, only the shots named here.",
+  "Captions on the whole time, no flash gaps. Same look as the Sonam FAQ series."
  ],
  "dont": [
   "Not a board-meeting recap, a list of titles, or trip logistics.",
   "Don't use Raj 7661 02:07–03:38 or Tiffany 7719 01:49–02:58. Saved for standalone cuts.",
-  "No patient face without a release. Never name the CSC hospital.",
+  "No patient face without a release. Never name the CSC hospital. No Smile Train logo in frame.",
   "Don't reuse the burned hospital entrance and patient sequence from the Dr Ana Maria, Caldwell and Mackinnon cuts.",
-  "No logo or name at 0:00."
+  "No logo or name at 0:00. No boxes around the supers."
  ],
  "links": {
   "brief": {
@@ -53,183 +53,306 @@
    "note": "Interviews in VIDEOS › INTERVIEWS (Mincho7659, 7660, 7661, 7719), B-roll in VIDEOS › BROLL. Audio recorded into the camera."
   }
  },
- "bp_intro": "Four clips from VIDEOS › INTERVIEWS: Margaret <span class=\"mono\">Mincho7659</span>, Raj <span class=\"mono\">Mincho7660</span> and <span class=\"mono\">Mincho7661</span>, Tiffany <span class=\"mono\">Mincho7719</span>. Times are mm:ss from each clip's transcript. Ranges are the brief's; each row trims to its best sentence. Tracy Young and Leslie Francisco are not in the 131 transcribed clips, so the reel is three voices.",
+ "bp_intro": "Four clips from VIDEOS › INTERVIEWS: Margaret <span class=\"mono\">Mincho7659</span>, Raj <span class=\"mono\">Mincho7660</span> and <span class=\"mono\">Mincho7661</span>, Tiffany <span class=\"mono\">Mincho7719</span> (all 4K 16:9, 23.976 fps). Times are mm:ss.s in each file, from the word timings in the shoot's output.json. B-roll is from VIDEOS › BROLL, picked from visual.json (not yet checked on frames). Tracy Young and Leslie Francisco are not in the transcribed clips, so the reel is three voices.",
  "rows": [
   {
-   "tc": "00:00–00:04",
+   "tc": "00:00–00:05",
    "beat": "HOOK",
    "kind": "hook",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Tiffany on camera, standing, handheld. Start on “inspirational”. Use the retake, not the 03:28 take (“exciting”).",
-   "motion": "Hook text on <b>frame 1</b>: <q>Three words for today</q>. Does not animate on. No logo, no name.",
+   "visual": "Tiffany on camera, <a href=\"https://drive.google.com/file/d/1Lo-pwy42cP4AdTwZyBhhbOZJ4AQ9w_y_/view\">Mincho7719.MP4</a>, in a white cap, standing in front of a white wall with Spanish text, wide (visual.json). Crop 9:16 on her from the 4K frame. Start on <q>inspirational</q> (<span class=\"mono\">03:42.9</span>), in the 03:42 retake. Never the 03:27 take (<q>exciting</q>). Trim the pauses between the three words to about 0.4 s. Her face is the hook picture, so no B-roll.",
+   "motion": "Hook text on <b>frame 1</b>: <q>Three words for today</q>. Already on screen at 0:00, does not animate on. Top third, the Sonam FAQ series hook look. No logo, no name.",
    "voice": {
     "who": "Tiffany",
     "quote": "inspirational, heartwarming, and fun.",
-    "src": "Mincho7719 03:42–03:47 (the 03:38 retake)"
+    "src": "Mincho7719.MP4 03:42.9 to 03:48.8"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Light bed on frame 1."
+   "music": "Light bed starts on frame 1, well under her voice.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "inspirational"
+    }
+   ]
   },
   {
-   "tc": "00:04–00:14",
+   "tc": "00:05–00:16",
    "beat": "CLICKABLE JOY",
    "kind": "turn",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Margaret on camera, walking toward the lens.",
-   "motion": "Hook text off. Super from 0:04, above the captions: “Margaret Cornelius · Board Chair”. Caption Watsi (transcript: WOTC).",
+   "visual": "Margaret on camera, <a href=\"https://drive.google.com/file/d/1EOMgORVoyT0UqELnG3UVD0dg4kuRqQlD/view\">Mincho7659.MP4</a>, standing in front of a wall with Spanish text, wide (visual.json). Crop 9:16 on her from the 4K frame. Cut on the idea: start on <q>when I think of Watsi</q> (<span class=\"mono\">00:42.2</span>). Her face carries her own description of Watsi.",
+   "motion": "Hook text out at 00:05. Name super from 00:06 for 2 s, above the captions, no box: “Margaret Cornelius · Board Chair”. Caption Watsi (transcript: WOTC).",
    "voice": {
     "who": "Margaret",
     "quote": "when I think of Watsi, I think of clickable joy for anyone who wants to try to get off the website without funding a patient, it's not possible.",
-    "src": "Mincho7659 00:42–00:52"
+    "src": "Mincho7659.MP4 00:42.2 to 00:53.4"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady, well under the voices.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "when"
+    }
+   ]
   },
   {
-   "tc": "00:14–00:26",
+   "tc": "00:16–00:27",
    "beat": "WHAT IT IS",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Raj on camera. Trim from “a person that might live” to “gets done”.",
-   "motion": "Super: “Raj Malik · Board Member”.",
+   "visual": "Raj on camera, <a href=\"https://drive.google.com/file/d/18VJr_NqfmimDpxr6fM1S10nvP_klo4-k/view\">Mincho7660.MP4</a>, standing in front of the Odontología mural with a fish picture, black polo, wide (visual.json). Crop 9:16 on him from the 4K frame. Trim from <q>a person that might live</q> (<span class=\"mono\">00:47.4</span>) to <q>gets done</q> (<span class=\"mono\">00:58.6</span>).",
+   "motion": "Name super at 00:16 for 2 s, above the captions, no box: “Raj Malik · Board Member”.",
    "voice": {
     "who": "Raj",
     "quote": "a person that might live in another country that could see somebody else that needs an important medical procedure that they can actually help fund so that medical procedure gets done",
-    "src": "Mincho7660 00:43–00:58"
+    "src": "Mincho7660.MP4 00:47.4 to 00:58.6"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady, well under the voices.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "a person"
+    }
+   ]
   },
   {
-   "tc": "00:26–00:32",
+   "tc": "00:27–00:34",
    "beat": "WHAT IT IS",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Tiffany on camera.",
-   "motion": "Super: “Tiffany · Board Member”. First name only.",
+   "visual": "Tiffany on camera, <a href=\"https://drive.google.com/file/d/1Lo-pwy42cP4AdTwZyBhhbOZJ4AQ9w_y_/view\">Mincho7719.MP4</a>, in a white cap, standing in front of a white wall with Spanish text, wide (visual.json). Crop 9:16 on her from the 4K frame. From <q>Watsi is a peer to peer</q> (<span class=\"mono\">00:46.1</span>).",
+   "motion": "Name super at 00:27 for 2 s, above the captions, no box: “Dr. Tiffany · Board Member”. First name and title only. Caption Watsi (transcript: WOTC).",
    "voice": {
     "who": "Tiffany",
     "quote": "Watsi is a peer to peer crowdfunding platform for funding operations in low resource settings.",
-    "src": "Mincho7719 00:46–00:58"
+    "src": "Mincho7719.MP4 00:46.1 to 00:53.2"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady, well under the voices.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "Watsi"
+    }
+   ]
   },
   {
-   "tc": "00:32–00:41",
+   "tc": "00:34–00:46",
    "beat": "IN PERSON",
-   "kind": "",
+   "kind": "turn",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Cover with fresh BROLL from the board's hospital day (clips on scrub). No patient face without a release.",
-   "motion": "Captions only. Caption “Medellín”.",
+   "visual": "Margaret's face on <q>it's about this amazing organization</q>. On <q>here in Medellín</q> cut to <a href=\"https://drive.google.com/file/d/1VNCGbwAHvEjbuJOt13zSNJtdF97WEDeH/view\">Mincho7637.MP4</a> <span class=\"mono\">00:00.0</span> to <span class=\"mono\">00:03.0</span>: three people at the <q>Fundación Clínica Noel</q> wall with the heart (crop centre). On <q>caring for so many families</q>: <a href=\"https://drive.google.com/file/d/15DlLcZsDn9SZchyZPL2C1A8R6950plEg/view\">Mincho7612.MP4</a> <span class=\"mono\">00:02.0</span> to <span class=\"mono\">00:05.0</span>, two healthcare workers in scrubs talk in a hospital corridor (crop centre). The B-roll hides the lift after <q>so many kids</q> (the cut words are “and has been doing it for so long. And”). Back to her face for <q>such a privilege</q>. No Smile Train logo in frame, no patient face without a release: check both on scrub.",
+   "motion": "Captions only. Caption Medellín with the accent.",
    "voice": {
     "who": "Margaret",
-    "quote": "it's about this amazing organization here in Medellin that is caring for so many families and so many kids … To just be able to be here is just such a privilege.",
-    "src": "Mincho7659 01:43–02:00"
+    "quote": "it's about this amazing organization here in Medellín that is caring for so many families and so many kids … To just be able to be here is just such a privilege.",
+    "src": "Mincho7659.MP4 01:46.4 to 01:54.3 and 01:57.0 to 02:00.1"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady, well under the voices.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "it's about"
+    },
+    {
+     "clip": "Mincho7637.MP4",
+     "at": 0.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "VIDEOS/BROLL/Mincho7637.MP4",
+     "drive": "1VNCGbwAHvEjbuJOt13zSNJtdF97WEDeH",
+     "layout": "full",
+     "what": "three people at the Fundación Clínica Noel wall sign with a heart"
+    },
+    {
+     "clip": "Mincho7612.MP4",
+     "at": 2.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "VIDEOS/BROLL/Mincho7612.MP4",
+     "drive": "15DlLcZsDn9SZchyZPL2C1A8R6950plEg",
+     "layout": "full",
+     "what": "two healthcare workers in scrubs talk in a hospital corridor"
+    },
+    {
+     "face": true,
+     "from_word": "To just be able"
+    }
+   ]
   },
   {
-   "tc": "00:41–00:53",
+   "tc": "00:46–00:57",
    "beat": "THE WHOLE FAMILY",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "BROLL: the board group with families (no patient face without a release). Back to Tiffany for the end of the line.",
+   "visual": "Tiffany's voice over the art activity after lunch, then her face. <a href=\"https://drive.google.com/file/d/1cmZbFKRlvCrZQ2lJU91UDfVeGtmItXmO/view\">Mincho7668.MP4</a> <span class=\"mono\">00:00.5</span> to <span class=\"mono\">00:03.0</span>: a boy works on a box at a table while two Watsi visitors (pink shirt, red vest) watch and one takes a photo. <a href=\"https://drive.google.com/file/d/1lfSSs3Or9RA1QfSQHc59s-I8qb20MHEg/view\">Mincho7690.MP4</a> <span class=\"mono\">00:01.0</span> to <span class=\"mono\">00:04.0</span>: a woman helps a young girl make a bracelet. <a href=\"https://drive.google.com/file/d/1cvZP520UTNdRwJ6eUN9dY3A77q2bJdsK/view\">Mincho7691.MP4</a> <span class=\"mono\">00:05.0</span> to <span class=\"mono\">00:07.5</span>: a child's hands build colourful Lego (hands only). Back to Tiffany on <q>it really affects the whole family</q>. No patient face without a release: if a child's face is clear and no release is on file, keep that child out of frame or use the hands-only shot.",
    "motion": "Captions only.",
    "voice": {
     "who": "Tiffany",
     "quote": "It was also really wonderful to meet the families of these kids. Obviously the kids need the operations, but we've found that, you know, it really affects the whole family.",
-    "src": "Mincho7719 01:24–01:36"
+    "src": "Mincho7719.MP4 01:24.1 to 01:35.2"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady, well under the voices.",
+   "shots": [
+    {
+     "clip": "Mincho7668.MP4",
+     "at": 0.5,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "VIDEOS/BROLL/Mincho7668.MP4",
+     "drive": "1cmZbFKRlvCrZQ2lJU91UDfVeGtmItXmO",
+     "layout": "full",
+     "what": "a boy works on a box while Watsi visitors watch, one takes a photo"
+    },
+    {
+     "clip": "Mincho7690.MP4",
+     "at": 1.0,
+     "dur": 3.0,
+     "cx": 0.5,
+     "path": "VIDEOS/BROLL/Mincho7690.MP4",
+     "drive": "1lfSSs3Or9RA1QfSQHc59s-I8qb20MHEg",
+     "layout": "full",
+     "what": "a woman helps a young girl make a bracelet"
+    },
+    {
+     "clip": "Mincho7691.MP4",
+     "at": 5.0,
+     "dur": 2.5,
+     "cx": 0.5,
+     "path": "VIDEOS/BROLL/Mincho7691.MP4",
+     "drive": "1cvZP520UTNdRwJ6eUN9dY3A77q2bJdsK",
+     "layout": "full",
+     "what": "a child's hands build colourful Lego"
+    },
+    {
+     "face": true,
+     "from_word": "it really affects"
+    }
+   ]
   },
   {
-   "tc": "00:53–01:02",
+   "tc": "00:57–01:06",
    "beat": "THE STAKES",
-   "kind": "",
+   "kind": "turn",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Margaret on camera.",
+   "visual": "Margaret on camera, <a href=\"https://drive.google.com/file/d/1EOMgORVoyT0UqELnG3UVD0dg4kuRqQlD/view\">Mincho7659.MP4</a>, standing in front of a wall with Spanish text, wide (visual.json). Crop 9:16 on her from the 4K frame. Hide the lift after <q>its authenticity</q> (the cut words are “and its tremendous effort to make sure that”) with a short cutaway: <a href=\"https://drive.google.com/file/d/1Wtu8QAqfhtcwfWwmXHl0h-OZgolb1_-Z/view\">Mincho7681.MP4</a> <span class=\"mono\">00:22.5</span> to <span class=\"mono\">00:24.0</span>, a hand paints a white piece pink and purple (hands only). Back on her face for <q>the human part of Watsi</q>.",
    "motion": "Captions only.",
    "voice": {
     "who": "Margaret",
     "quote": "what Watsi has always kept as it has grown is its authenticity … the human part of Watsi is always front and center.",
-    "src": "Mincho7659 02:28–02:44"
+    "src": "Mincho7659.MP4 02:29.3 to 02:34.4 and 02:38.9 to 02:42.5"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed lifts."
+   "music": "Bed lifts a little.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "what Watsi"
+    },
+    {
+     "clip": "Mincho7681.MP4",
+     "at": 22.5,
+     "dur": 1.5,
+     "cx": 0.5,
+     "path": "VIDEOS/BROLL/Mincho7681.MP4",
+     "drive": "1Wtu8QAqfhtcwfWwmXHl0h-OZgolb1_-Z",
+     "layout": "full",
+     "what": "a hand paints a white piece pink and purple"
+    },
+    {
+     "face": true,
+     "from_word": "the human part"
+    }
+   ]
   },
   {
-   "tc": "01:02–01:06",
+   "tc": "01:06–01:09",
    "beat": "BUTTON",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Margaret on camera. Hold a beat after “connection”.",
+   "visual": "Margaret on camera, <a href=\"https://drive.google.com/file/d/1EOMgORVoyT0UqELnG3UVD0dg4kuRqQlD/view\">Mincho7659.MP4</a>, standing in front of a wall with Spanish text, wide (visual.json). Crop 9:16 on her from the 4K frame. Hold a beat after <q>connection</q>. Her face is the strongest picture for the promise.",
    "motion": "Captions only.",
    "voice": {
     "who": "Margaret",
     "quote": "And I know that Watsi will never lose that human connection.",
-    "src": "Mincho7659 03:07–03:11"
+    "src": "Mincho7659.MP4 03:07.3 to 03:09.5"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Bed steady."
+   "music": "Bed steady, well under the voices.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "And I know"
+    }
+   ]
   },
   {
-   "tc": "01:06–01:12",
+   "tc": "01:09–01:15",
    "beat": "THANK YOU",
    "kind": "",
    "frame": null,
-   "crop": "none",
+   "crop": "c",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "Raj on camera. The shortest clean sentence from his Diwali thank-you (05:20–06:53).",
-   "motion": "Captions only.",
+   "visual": "Raj on camera, <a href=\"https://drive.google.com/file/d/1Im66hha1tRo0d_kpECb4SLQVZwWNN4kX/view\">Mincho7661.MP4</a>, standing in front of the Odontología mural, black shirt, wide (visual.json). Crop 9:16 on him from the 4K frame. The shortest clean sentence from his Diwali thank-you: <q>So I have a tremendous amount of gratitude</q> (<span class=\"mono\">06:17.4</span>) to <q>supporting Watsi</q> (<span class=\"mono\">06:23.0</span>). Cut before <q>and hopefully</q>.",
+   "motion": "Captions only. Caption Watsi (transcript: WOTC).",
    "voice": {
     "who": "Raj",
     "quote": "So I have a tremendous amount of gratitude for the folks that are out there supporting Watsi",
-    "src": "Mincho7661 06:17–06:22"
+    "src": "Mincho7661.MP4 06:17.4 to 06:23.0"
    },
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Resolve."
+   "music": "Resolve under the last line.",
+   "shots": [
+    {
+     "face": true,
+     "from_word": "So I have"
+    }
+   ]
   },
   {
-   "tc": "01:12–01:15",
+   "tc": "01:15–01:18",
    "beat": "END CARD",
    "kind": "end",
    "frame": null,
    "crop": "none",
    "frame_tag": null,
    "frame_alt": null,
-   "visual": "watsi.org card.",
-   "motion": "watsi.org, all lowercase.",
+   "visual": "Clean end card, the same as the Sonam FAQ series. Light cyan <span class=\"mono\">#D3EDFA</span> background. No logo lockup.",
+   "motion": "<b>watsi.org</b>, all lowercase, Lato, navy <span class=\"mono\">#2E2844</span>. Nothing else.",
    "voice": "<span class=\"none\">No voice.</span>",
    "sfx": "<span class=\"none\">None.</span>",
-   "music": "Out."
+   "music": "Out.",
+   "shots": []
   }
  ],
  "frames": {},
@@ -237,6 +360,10 @@
   [
    "Editing brief",
    "<a href=\"https://docs.google.com/document/d/19YSypZDn_WoK8WrDg56QzvC6tW00Tb-h1ZSPw70a8Us/edit\">pulse.13299663198</a> (Google Doc). This page is built from it."
+  ],
+  [
+   "Production brief",
+   "<a href=\"https://docs.google.com/document/d/14hF29qXD3LHqk0KzcuUsgWyBPRrlSmr7C_KEF_kWvuI/edit\">Watsi x Clinica Noel Production Brief - Oct 20 Board Visit</a>"
   ],
   [
    "Reference",
@@ -247,58 +374,58 @@
    "<a href=\"https://drive.google.com/drive/folders/1kf3g1xLxYOxcCdFU_A3Z-JhzzW5b9-8X\">Watsi Colombia Oct 20 RAW</a> · VIDEOS › INTERVIEWS and VIDEOS › BROLL · shot by Alejo (Fora Visual)"
   ],
   [
-   "Clip",
-   "<a href=\"https://drive.google.com/file/d/1EOMgORVoyT0UqELnG3UVD0dg4kuRqQlD/view\">Mincho7659.MP4</a> · Margaret Cornelius · <a href=\"https://docs.google.com/document/d/1Jzzbb5T1AndLOlK2TOmxeOa_1M0cYf3WpM2eXRBkXQ8/edit\">transcript</a>"
+   "Clips",
+   "<a href=\"https://drive.google.com/file/d/1EOMgORVoyT0UqELnG3UVD0dg4kuRqQlD/view\">Mincho7659.MP4</a> (Margaret) · <a href=\"https://drive.google.com/file/d/18VJr_NqfmimDpxr6fM1S10nvP_klo4-k/view\">Mincho7660.MP4</a> (Raj) · <a href=\"https://drive.google.com/file/d/1Im66hha1tRo0d_kpECb4SLQVZwWNN4kX/view\">Mincho7661.MP4</a> (Raj) · <a href=\"https://drive.google.com/file/d/1Lo-pwy42cP4AdTwZyBhhbOZJ4AQ9w_y_/view\">Mincho7719.MP4</a> (Tiffany)"
   ],
   [
-   "Clip",
-   "<a href=\"https://drive.google.com/file/d/18VJr_NqfmimDpxr6fM1S10nvP_klo4-k/view\">Mincho7660.MP4</a> · Raj Malik · <a href=\"https://docs.google.com/document/d/1QeO1u02XsuZ6CrlUvmLT-64Go4IJheeBw9QSWwStuPc/edit\">transcript</a>"
-  ],
-  [
-   "Clip",
-   "<a href=\"https://drive.google.com/file/d/1Im66hha1tRo0d_kpECb4SLQVZwWNN4kX/view\">Mincho7661.MP4</a> · Raj Malik · <a href=\"https://docs.google.com/document/d/1WYTZvKqzt-d18nirhV1NOt31sdUJZQyxIguxB-MuHow/edit\">transcript</a>"
-  ],
-  [
-   "Clip",
-   "<a href=\"https://drive.google.com/file/d/1Lo-pwy42cP4AdTwZyBhhbOZJ4AQ9w_y_/view\">Mincho7719.MP4</a> · Tiffany · <a href=\"https://docs.google.com/document/d/1eLfUwGhCujOFO8TftYUX-9dZ3qkoIlPNhNbGpR2wajk/edit\">transcript</a>"
-  ],
-  [
-   "Transcripts",
-   "EditingResources › EditTranscripts (SRT per clip, Keybites, All SRTs). The transcript writes Watsi as WOTC, Whatsy or WotC: always write Watsi."
+   "Transcript",
+   "<a href=\"https://docs.google.com/document/d/1mANw4hUQWRhGZvcjgm8F6OYpvXnh23lf9ntX2DrC72U/edit\">Transcripts - Watsi Colombia Oct 20 2026</a> · <a href=\"https://drive.google.com/file/d/1jt2kV0FPOBE2SbOlmrxztwJUil4wLZ_l/view\">output.json</a> (word times). The transcript writes Watsi as WOTC: always write Watsi."
   ],
   [
    "visual.json",
-   "Yes: EditingResources › EditTranscripts."
+   "<a href=\"https://drive.google.com/file/d/1MnEAU_2ZM7ogqeYS9rZAitCY7PvI8Xd6/view\">visual.json</a> (shoot level, Erin's shot index). The B-roll picks come from it and still need a look on scrub."
   ],
   [
-   "Client prompts",
-   "“Prompts for Board_Colombia Visit_Oct 2026” (client doc). Sonam asked from behind the lens, standing."
+   "B-roll picks",
+   "<a href=\"https://drive.google.com/file/d/1VNCGbwAHvEjbuJOt13zSNJtdF97WEDeH/view\">Mincho7637.MP4</a> 0:00 to 0:03 · <a href=\"https://drive.google.com/file/d/15DlLcZsDn9SZchyZPL2C1A8R6950plEg/view\">Mincho7612.MP4</a> 0:02 to 0:05 · <a href=\"https://drive.google.com/file/d/1cmZbFKRlvCrZQ2lJU91UDfVeGtmItXmO/view\">Mincho7668.MP4</a> 0:00.5 to 0:03 · <a href=\"https://drive.google.com/file/d/1lfSSs3Or9RA1QfSQHc59s-I8qb20MHEg/view\">Mincho7690.MP4</a> 0:01 to 0:04 · <a href=\"https://drive.google.com/file/d/1cvZP520UTNdRwJ6eUN9dY3A77q2bJdsK/view\">Mincho7691.MP4</a> 0:05 to 0:07.5 · <a href=\"https://drive.google.com/file/d/1Wtu8QAqfhtcwfWwmXHl0h-OZgolb1_-Z/view\">Mincho7681.MP4</a> 0:22.5 to 0:24"
+  ],
+  [
+   "Brand",
+   "<a href=\"https://drive.google.com/drive/folders/1my9RNjTawX8JeQO2eQDHSphWP8KTg09r\">LOTUS illustrations</a> · <a href=\"https://drive.google.com/file/d/1u8R2iKmydBN2xF_h0wIE6X-NZo0mslXs/view\">Brand guide</a> · <a href=\"https://drive.google.com/drive/folders/1T7bIehcX3_l6F-CXUu-LHCyPE58nq9df\">September Spirit</a> + Lato for campaign lines. Elements integrated, one illustration at a time."
+  ],
+  [
+   "Brand graphics package",
+   "Watsi package: Drive <span class=\"mono\">deliverables/graphics-packages/Watsi</span>. Organic shapes only, no boxes around the supers."
   ],
   [
    "End card",
-   "watsi.org, lowercase."
+   "watsi.org, lowercase, the same as the Sonam FAQ series."
   ]
  ],
  "tech": [
   [
    "Source",
-   "Handheld, recorded into the camera (Alejo, Fora Visual). Probe the MP4s on import: frame size and rate are not on the item."
+   "Interviews: 3840×2160, 23.976 fps, recorded into the camera (visual.json). Most B-roll picks are 3840×2160 at 59.94 fps."
   ],
   [
    "Timeline",
-   "1080×1920. Frame rate = the interview clips'."
+   "1080×1920 at <b>23.976 fps</b>. Conform the 59.94 fps B-roll (gentle slow motion is fine) or play it at speed."
   ],
   [
    "Crop",
-   "Keep the handheld movement. Don't stabilise it flat."
+   "All clips are 16:9 4K: a 9:16 crop is 1215×2160, sharper than 1080×1920, so punch-ins up to 112% stay native. visual.json logs the interviews as wide, locked-off standing shots: if a clip has handheld movement, keep it (don't stabilise it flat)."
+  ],
+  [
+   "Audio",
+   "Recorded into the camera. Raj's audio needs work (Sonam, 27 Oct): clean and enhance it, then level it to Margaret and Tiffany so no viewer reaches for the volume. Music well under the voices."
   ],
   [
    "Loudness",
-   "−14 LUFS integrated, −1 dBTP peak. Music well under the voices."
+   "−14 LUFS integrated, −1 dBTP peak."
   ],
   [
    "Captions",
-   "Continuous, no flash gaps. One text element at a time. Supers above the captions, sized like WhatInspiredYouAboutWatsi."
+   "Match the Sonam FAQ series: Lato Bold, white, soft shadow, large, word by word, one line at a time. Continuous, no flash gaps. One text element at a time. Supers above the captions, sized like WhatInspiredYouAboutWatsi. The caption clips are in the Captions section of this page."
   ],
   [
    "Export",
@@ -307,21 +434,26 @@
  ],
  "checklist": [
   "Watsi with a capital W only. Never WATSI, WOTC or Whatsy in a caption.",
-  "watsi.org all lowercase. Universal Fund with both words capitalised.",
+  "watsi.org all lowercase. Medellín and Clínica Noel with the accents.",
   "Frame 1 is Tiffany with “Three words for today”. No logo, no name.",
-  "No patient face without a release. The CSC hospital is never named.",
-  "No B-roll from the burned entrance and patient sequence.",
-  "Tiffany is first name only on screen.",
+  "Supers: “Margaret Cornelius · Board Chair”, “Raj Malik · Board Member”, “Dr. Tiffany · Board Member”. No boxes.",
+  "No patient face without a release. The CSC hospital is never named. No Smile Train logo in frame.",
+  "No B-roll from the burned entrance and patient sequence; only the Oct 20 shots named here.",
+  "Raj's audio is cleaned and level with the others.",
   "Raj 7661 02:07–03:38 and Tiffany 7719 01:49–02:58 are not in the reel."
  ],
  "decisions": [
   {
    "t": "Tiffany's surname",
-   "b": "She says “Dr. Tiffany Chow” on camera (7719 00:30), but the transcript spells by ear and Production Planning writes Chao. First name only until someone confirms."
+   "b": "She says “Dr. Tiffany Chow” on camera (7719 00:30), the transcript spells by ear and Production Planning writes Chao. The super stays “Dr. Tiffany · Board Member” until someone confirms from Watsi's Meet page."
   },
   {
    "t": "Tracy Young and Leslie Francisco",
-   "b": "Not in the 131 transcribed clips. Either not filmed or still on another device. The reel is three voices until that is answered."
+   "b": "Not in the transcribed clips. Either not filmed or still on another device. The reel is three voices until that is answered."
+  },
+  {
+   "t": "Visual reference",
+   "b": "Production Planning 13052130421 has no reference link. Sonam's steer: the Daniel interview Mackinnon shot in his office, same energy, but standing. Nick owns it."
   }
  ],
  "client_note": "<b>Why this matters:</b> Watsi is direct human connection and radical transparency. Board members who fund it from far away saying what changed in person is that message, in their own words.",
@@ -331,5 +463,309 @@
   "How do I spell Tiffany's name?",
   "Which B-roll can I use?"
  ],
- "transcript": "Per-clip transcripts are linked in Files (Mincho7659, 7660, 7661, 7719). Speaker labels are often wrong."
+ "transcript": "Auto-transcript of the four board interviews (Watsi Colombia Oct 20 2026, Clínica Noel, Medellín): Margaret Cornelius Mincho7659, Raj Malik Mincho7660 and Mincho7661, Dr. Tiffany Mincho7719. Times are mm:ss.s in each file, from the word timings in output.json. Fixed by hand: Watsi (transcript: WOTC), Medellín, Clínica Noel, Colombia. Speaker labels in the transcript are often wrong; Sonam asks the questions from behind the lens.\n\n--- Mincho7659.MP4 ---\n[00:01.6] Okay, so can you introduce yourself so you can start with like your name, where you're coming from, and you can just say something like I'm a Watsi Board Chair, so just like a quick introduction. [do not use: interviewer set-up]\n[00:16.9] Great. [do not use: interviewer set-up]\n[00:17.9] So my name is Margaret Cornelius, I live right outside of Washington DC with my family, and I've been working with Watsi as a board member for over five years.\n[00:27.9] I'm also currently the chair of the board, and it's a true privilege to be working alongside Watsi and all of the team and all of the board members.\n[00:38.1] How would you describe Watsi in your own words? [do not use: interviewer question]\n[00:42.2] So when I think of Watsi, I think of clickable joy for anyone who wants to try to get off the website without funding a patient, it's not possible.\n[00:55.2] Even myself as a longtime supporter of Watsi and member of the Universal Fund, if I ever find myself on the Watsi website, I absolutely have to close out some of the patients and fully fund them, I can't get away from it.\n[01:10.2] It's a real place where anybody can support anyone in the world for anything that they need.\n[01:16.8] And I just think that the power of that funding model for healthcare is just tremendously impactful.\n[01:24.2] How does it feel to see this working person today? [do not use: interviewer question]\n[01:28.5] So, I feel a great deal of pride, and also, to a certain extent, I don't need to see anything.\n[01:38.2] I already know how powerful Watsi is and how much work they do.\n[01:42.5] And really, for me, it's not so much about Watsi today, it's about this amazing organization here in Medellín that is caring for so many families and so many kids and has been doing it for so long.\n[01:56.5] And to just be able to be here is just such a privilege.\n[02:00.7] I really can't put words to it.\n[02:06.3] This is coming off the cuff right now, but what do you hope Watsi doesn't lose as it grows? [do not use: interviewer question]\n[02:14.3] So, of course, as the chair of the board, I want to see nothing but Watsi growing.\n[02:21.5] And I've been able to actually see Watsi grow since it started over 10 years ago.\n[02:28.3] And I know that what Watsi has always kept as it has grown is its authenticity and its tremendous effort to make sure that the human part of Watsi is always front and center.\n[02:43.5] In healthcare, you often hear people say things like patient-centered or patients are the center of everything we do, but I really think that Watsi lives this in everything it does.\n[02:55.3] And no matter where you are or who you're talking to, you can always pull up a patient and know immediately how that person's life has been changed in the tiny way that Watsi is able to support.\n[03:07.3] And I know that Watsi will never lose that human connection.\n[03:11.3] Next, probably the last question, Margaret. [do not use: interviewer question]\n[03:13.1] A little broad though, so if you don't mind. [do not use: interviewer question]\n[03:15.3] It's okay. [do not use: interviewer question]\n[03:16.3] But something that's been on our head is we are living through a very strange time in health and in philanthropy. [do not use: interviewer question]\n[03:25.0] What do you feel when you see the world right now? [do not use: interviewer question]\n[03:29.9] What do I feel when I see the world in terms of the health sector and global health? [do not use: interviewer question]\n[03:36.3] So I guess because I do come from financing and health financing, there's never enough to pay for everything that we want people to have. [do not use: money talk]\n[03:49.3] And organizations and models that allow us to get the most out of what we do have to patients as quickly as possible are what I believe the future will look like. [do not use: money talk]\n[04:04.8] And interestingly enough, Watsi is a very simple premise, it's making sure that resources that are in one place can get to a very difficult place or a place that needs more resources.\n[04:17.5] And Watsi does it in such an efficient, powerful way.\n[04:21.7] I would love to see more of that kind of model where it doesn't really matter where you are or what country you live in or what healthcare you do or do not have access to.\n[04:31.5] With technology and with information, and hopefully more Watsi in the world, we will see more patients get access to care in more places because we will simply be able to get them resources more quickly and more transparently.\n[04:47.4] Probably the last thing I'd like to ask you, any message of gratitude you'd like to share? [do not use: interviewer question]\n[04:52.4] Messages of gratitude?\n[04:55.4] Oh, I mean, infinite.\n[04:56.9] Every time I think about or am told about a donor through Mackinnon or through a story we hear from somewhere else, just understanding what motivates people to come to Watsi, to come back to Watsi.\n[05:13.4] I hope that you'll stay.\n[05:15.1] I hope that you'll continue to partner and contribute and give us feedback on what we can do better and how we can reach you and reach your family and reach your own community.\n[05:26.4] But I just hope you continue to come back to whatever it is that brings you joy, which brings you to Watsi.\n[05:32.9] We're just so grateful for everything you do.\n[05:35.6] You're welcome. [do not use: chat after the take]\n[05:40.8] That means so much. [do not use: chat after the take]\n[05:42.6] My pleasure. [do not use: chat after the take]\n\n--- Mincho7660.MP4 ---\n[00:03.7] So let's start with you just introducing yourself so you can say your name, where you're coming from, and you can say what's your role. [do not use: interviewer set-up]\n[00:17.4] Hi, my name is Raj Malik.\n[00:19.5] I came from the United States, Columbus, Ohio.\n[00:23.7] I've been a board member now for almost three years.\n[00:28.9] How would you describe Watsi in your own words to a fan? [do not use: interviewer question]\n[00:33.9] So I can start with at least first the mission.\n[00:37.4] The mission is trying to bring healthcare to more people that are needing it around the world.\n[00:43.1] And so through a real community aspect where you have a person that might live in another country that could see somebody else that needs an important medical procedure that they can actually help fund so that medical procedure gets done and the person that needs it can live a healthier, better life.\n[01:02.9] That's sort of the mission.\n[01:05.0] What it means for me and why I'm so excited by Watsi is, frankly, when you were here in Colombia now and the time that I've spent here on site has been just overwhelming to some extent.\n[01:20.1] It's been incredible.\n[01:21.7] The work that's done here, the care that it's done with, and the impact on people's lives, it's phenomenal just to see and to see the real tangible impact that someone who might come in here with great need for some medical care can get it done, can get through, be helped, and then ultimately be able to live a much healthier, better life.\n\n--- Mincho7661.MP4 ---\n[00:00.0] I know you talked a little bit about being here and seeing the world, but could you share a little more about how do you feel after seeing the world in action today? [do not use: interviewer question]\n[00:13.2] So, today has been, we've seen patients, we've seen surgeries, we've met surgeons, we've met staff as well too.\n[00:24.4] And most importantly, we've seen patients and families.\n[00:28.4] And to see sort of the whole experience, to go from a patient that literally we're seeing in the waiting room, see us first and be a little surprised at who are these folks that are coming here, obviously on behalf of Watson.\n[00:43.6] But to be able to see that patient, a little child, have tears in their eyes because they're scared.\n[00:52.6] They have no idea.\n[00:53.6] They're being pulled by their parents.\n[00:55.4] They'll be alright.\n[00:56.4] They're being reassured by a physician.\n[00:59.6] But to walk in the shoes of a little child at 95, 6, 7, 8 years old, getting hopefully life-changing medical treatment is phenomenal.\n[01:15.6] To actually be able to go into the operating room and actually see the surgeon in there operating, not just with one doctor, multiple doctors that are in there and the whole staff.\n[01:30.6] And then at the end to be able to see the patient come out of there and in recovery, super powerful.\n[01:39.6] And then obviously the parent, the mother, the father that's there that's worrying throughout the whole process of getting the care, seeing the actual procedure get done, and then seeing the smile on the face of that young patient is just incredible.\n[02:00.6] After seeing the work here, what are you most excited for, what's it to figure out next? [do not use: interviewer question]\n[02:07.4] I say this to Mackinnon and as a board member, I say it to the board a lot. [do not use: saved for a standalone cut (02:07 to 03:38)]\n[02:12.4] I think it is our mission and it should be one of our missions too. [do not use: saved for a standalone cut (02:07 to 03:38)]\n[02:18.8] This needs to be in every place. [do not use: saved for a standalone cut (02:07 to 03:38)]\n[02:21.8] Watsi, Watsi-sponsored medical facilities needs to be in every place around the world for patients who need care. [do not use: saved for a standalone cut (02:07 to 03:38)]\n[02:30.8] Because unfortunately, there's an unending number of patients around the world that need this care. [do not use: saved for a standalone cut (02:07 to 03:38)]\n[02:38.3] And one thing we were just talking about today is there's a lot of folks, a lot of folks who just don't get that care, they don't have access. [do not use: saved for a standalone cut (02:07 to 03:38)]\n[02:46.8] We literally heard about a person today who ended up taking a first abort to go get to a bus, to go get to a metro station, and then a train to be able to go. [do not use: saved for a standalone cut (02:07 to 03:38)]\n[03:00.8] There's people who just can't make the destination, make the trip to a medical facility, not just in Colombia, but all around the world. [do not use: saved for a standalone cut (02:07 to 03:38)]\n[03:11.5] So my further belief is that Watsi for the future, I hope, we can only spread this like peanut butter around the world. [do not use: saved for a standalone cut (02:07 to 03:38)]\n[03:22.5] So more these little kids, even adults as well too, who really, really need care can actually get the care they need and live productive lives. [do not use: saved for a standalone cut (02:07 to 03:38)]\n[03:32.5] Because but for that or without that, they're in pain, they're hurting, their families are in pain as well too. [do not use: saved for a standalone cut (02:07 to 03:38)]\n[03:38.5] And we can all do something to change that. [do not use: saved for a standalone cut (02:07 to 03:38)]\n[03:49.4] So India, from what I've seen, what I've heard, it's the very first medical clinic that has been set up there. [do not use: restart and crew talk]\n[03:58.5] And one, sorry, let's start that over again. [do not use: restart and crew talk]\n[04:05.5] Okay, I can answer that. [do not use: restart and crew talk]\n[04:07.4] Or do you want me to do that one again or do you want to... [do not use: restart and crew talk]\n[04:10.5] Let me answer the question. [do not use: restart and crew talk]\n[04:12.1] Okay, sure. [do not use: restart and crew talk]\n[04:12.4] Yeah, and then let's beat it. [do not use: restart and crew talk]\n[04:14.4] So what I want you to share is what excites you most about Watsi? [do not use: restart and crew talk]\n[04:24.9] So India is in such need for medical infrastructure and medical care to be provided because there's, again, such a major need with such a large population.\n[04:39.3] So the ability for Watsi to be able to go not just where it's at one point and to be able to go beyond that, it could be transformational for the Indian health care system.\n[04:54.3] That's not something that's a model that has really been known and not accepted.\n[04:59.3] So I hope for Watsi to be able to actually have, for the first time, be able to go there, be aligned with an incredibly, incredibly well-known physician, and be able to hopefully spread the Watsi brand throughout.\n[05:18.3] Last question. [do not use: interviewer question]\n[05:20.3] We are approaching the end of the day now. [do not use: interviewer question]\n[05:22.6] Any note of gratitude you would like to share with the Watsi community? [do not use: interviewer question]\n[05:26.9] And Diwali is also coming up, so you can also wish for Diwali, but any thank you message or that kind of message you want to share with us? [do not use: interviewer question]\n[05:34.9] So I tell McKenna this, I tell Sona this, I tell the team, I tell the board this consistently.\n[05:41.2] Watsi is an organization that I wake up every morning thinking about how can I actually help spread the word to more people.\n[05:50.4] On the flip side of that, I want to specifically say with gratitude that I want to convey to everybody, to all the donors around the world that helped make Watsi possible.\n[06:04.4] Two, medical procedures allowed them to be able to perform, and three, what everybody is doing on a daily basis to be able to support the mission of Watsi.\n[06:17.4] So I have a tremendous amount of gratitude for the folks that are out there supporting Watsi, and hopefully those individuals can tell more individuals so we can grow this community, be able to grow the Watsi community with a greater impact in the world.\n[06:34.4] And so as we look towards the tail end of the year, going into the holidays, going into Diwali, among the other holidays, I really, truly hope that we can end this year on a high note and go into 2027 with a greater approach as well too, so we can make even a larger impact.\n[06:53.8] Yeah, okay. [do not use: crew talk]\n[06:55.4] Can you say cut? [do not use: crew talk]\n\n--- Mincho7719.MP4 ---\n[00:00.0] Okay, so let's start with you introducing yourself so you can say like, I'm Dr. [do not use: interviewer set-up]\n[00:13.1] Tiffany and I do this and I'm joining from this place. [do not use: interviewer set-up]\n[00:17.4] I am a Watsi board member. [do not use: interviewer set-up]\n[00:22.1] My name is Dr. [do not use: false start]\n[00:23.5] Tiffany Chow. [do not use: false start]\n[00:24.4] I am a Watsi board member, and I'm a, let me start over. [do not use: false start]\n[00:30.0] My name is Dr.\n[00:33.1] Tiffany Chow.\n[00:34.0] I am a general and trauma surgeon from California, and I am a Watsi board member.\n[00:46.1] Watsi is a peer to peer crowdfunding platform for funding operations in low resource settings.\n[01:01.0] I know you've already built, you've already seen the work in Kenya and now seeing it in Colombia. [do not use: interviewer question]\n[01:07.2] Just like, how do you feel about that? [do not use: interviewer question]\n[01:11.2] Visiting Clínica Noel has been amazing.\n[01:13.0] The surgeons here and the staff have been so welcoming.\n[01:17.0] You know, they are extremely talented and it's so wonderful to see the outstanding care they're providing for these children.\n[01:24.1] It was also really wonderful to meet the families of these kids.\n[01:29.2] Obviously the kids need the operations, but we've found that, you know, it really affects the whole family.\n[01:35.7] So it's not just the kids that are happy, it's the families have been very grateful.\n[01:40.1] So that's been really, really nice to see.\n[01:42.0] What do you wish more people knew about what surgery can do in someone's life? [do not use: interviewer question]\n[01:45.7] What's the transformation that surgery can do? [do not use: interviewer question]\n[01:49.3] I think that surgery can save lives. [do not use: saved for a standalone cut (01:49 to 02:58)]\n[01:54.1] People who need surgery are often really debilitated by these different problems they have. [do not use: saved for a standalone cut (01:49 to 02:58)]\n[02:02.3] You know, it can, even if they're not dying from a problem, it's something that can affect their wellness, affect their quality of life. [do not use: saved for a standalone cut (01:49 to 02:58)]\n[02:10.3] And surgical problems actually are, you know, for me as a surgeon, I think they're fun to treat because you can actually fix a problem. [do not use: saved for a standalone cut (01:49 to 02:58)]\n[02:17.3] There are a lot of problems in this world and a lot of problems in health that you can't just fix. [do not use: saved for a standalone cut (01:49 to 02:58)]\n[02:22.3] But surgical treatments really can be life changing and it's something you can do in a few hours. [do not use: saved for a standalone cut (01:49 to 02:58)]\n[02:31.4] A very similar question, and I know we've been talking about cost effectiveness. [do not use: saved for a standalone cut (01:49 to 02:58)]\n[02:35.0] When people talk about cost effectiveness in global health, when is surgery better? [do not use: saved for a standalone cut (01:49 to 02:58)]\n[02:41.1] So people used to think of surgery as not particularly cost effective compared to public health interventions. [do not use: saved for a standalone cut (01:49 to 02:58)]\n[02:47.1] That's definitely not true. [do not use: saved for a standalone cut (01:49 to 02:58)]\n[02:49.4] There's been a lot of data that suggests that surgery can be extremely cost effective on par with things like bed nets for malaria or even vaccines. [do not use: saved for a standalone cut (01:49 to 02:58)]\n[02:58.1] So I think that developing surgical infrastructure is really important. [do not use: saved for a standalone cut (01:49 to 02:58)]\n[03:03.1] Not only can you provide not only effective but cost effective care, but also you can do what's called diagonal development, where you really strengthen not just surgical services, but all sort of perioperative services and other medical services within the same health system. [do not use: cost talk]\n[03:21.1] If you had to describe today in three words, what would you say? [do not use: interviewer question]\n[03:27.7] I'd say inspirational, heartwarming, and exciting. [do not use: first take: use the 03:42 retake]\n[03:35.8] Amazing. [do not use: chat before the retake]\n[03:36.1] Oh wait, let me do that again. [do not use: chat before the retake]\n[03:38.1] Okay, if you had to describe today in three words, what would you say? [do not use: chat before the retake]\n[03:42.1] Okay, I would say inspirational, heartwarming, and fun.\n[03:55.1] That's it. [do not use: chat after the take]\n[03:56.1] Oh man, I don't know if fun was the right word. [do not use: chat after the take]\n[03:58.1] No, fun is the best. [do not use: chat after the take]\n[04:00.1] Okay. [do not use: chat after the take]\n[04:01.1] Thank you. [do not use: chat after the take]\n[04:04.7] I'll catch you outside. [do not use: chat after the take]",
+ "alts": {
+  "bite:0": [
+   {
+    "quote": "Visiting Clínica Noel has been amazing.",
+    "who": "Tiffany",
+    "file": "Mincho7719.MP4",
+    "why": "Her first reaction to the day."
+   },
+   {
+    "quote": "So it's not just the kids that are happy, it's the families have been very grateful.",
+    "who": "Tiffany",
+    "file": "Mincho7719.MP4",
+    "why": "Joy for the whole family."
+   }
+  ],
+  "bite:1": [
+   {
+    "quote": "It's a real place where anybody can support anyone in the world for anything that they need.",
+    "who": "Margaret",
+    "file": "Mincho7659.MP4",
+    "why": "Watsi in one plain line."
+   },
+   {
+    "quote": "Even myself as a longtime supporter of Watsi and member of the Universal Fund, if I ever find myself on the Watsi website, I absolutely have to close out some of the patients and fully fund them, I can't get away from it.",
+    "who": "Margaret",
+    "file": "Mincho7659.MP4",
+    "why": "She can't leave the site either."
+   },
+   {
+    "quote": "I already know how powerful Watsi is and how much work they do.",
+    "who": "Margaret",
+    "file": "Mincho7659.MP4",
+    "why": "Pride, short."
+   }
+  ],
+  "bite:2": [
+   {
+    "quote": "The mission is trying to bring healthcare to more people that are needing it around the world.",
+    "who": "Raj",
+    "file": "Mincho7660.MP4",
+    "why": "The mission in one line."
+   },
+   {
+    "quote": "It's been incredible.",
+    "who": "Raj",
+    "file": "Mincho7660.MP4",
+    "why": "Short and warm."
+   }
+  ],
+  "bite:3": [
+   {
+    "quote": "I am a general and trauma surgeon from California, and I am a Watsi board member.",
+    "who": "Tiffany",
+    "file": "Mincho7719.MP4",
+    "why": "Who she is, if the reel needs it."
+   },
+   {
+    "quote": "Visiting Clínica Noel has been amazing.",
+    "who": "Tiffany",
+    "file": "Mincho7719.MP4",
+    "why": "The visit in one line."
+   }
+  ],
+  "bite:4": [
+   {
+    "quote": "And to just be able to be here is just such a privilege.",
+    "who": "Margaret",
+    "file": "Mincho7659.MP4",
+    "why": "The privilege line on its own."
+   },
+   {
+    "quote": "So, I feel a great deal of pride, and also, to a certain extent, I don't need to see anything.",
+    "who": "Margaret",
+    "file": "Mincho7659.MP4",
+    "why": "Pride in person."
+   }
+  ],
+  "bite:5": [
+   {
+    "quote": "So it's not just the kids that are happy, it's the families have been very grateful.",
+    "who": "Tiffany",
+    "file": "Mincho7719.MP4",
+    "why": "The families are grateful too."
+   },
+   {
+    "quote": "The surgeons here and the staff have been so welcoming.",
+    "who": "Tiffany",
+    "file": "Mincho7719.MP4",
+    "why": "The clinic team."
+   }
+  ],
+  "bite:6": [
+   {
+    "quote": "In healthcare, you often hear people say things like patient-centered or patients are the center of everything we do, but I really think that Watsi lives this in everything it does.",
+    "who": "Margaret",
+    "file": "Mincho7659.MP4",
+    "why": "Watsi lives patient-centred care."
+   },
+   {
+    "quote": "And no matter where you are or who you're talking to, you can always pull up a patient and know immediately how that person's life has been changed in the tiny way that Watsi is able to support.",
+    "who": "Margaret",
+    "file": "Mincho7659.MP4",
+    "why": "Every patient's change, on the site."
+   }
+  ],
+  "bite:7": [
+   {
+    "quote": "We're just so grateful for everything you do.",
+    "who": "Margaret",
+    "file": "Mincho7659.MP4",
+    "why": "A thank-you close."
+   },
+   {
+    "quote": "I hope that you'll stay.",
+    "who": "Margaret",
+    "file": "Mincho7659.MP4",
+    "why": "Short ask to donors."
+   }
+  ],
+  "bite:8": [
+   {
+    "quote": "And most importantly, we've seen patients and families.",
+    "who": "Raj",
+    "file": "Mincho7661.MP4",
+    "why": "What they saw today."
+   },
+   {
+    "quote": "Watsi is an organization that I wake up every morning thinking about how can I actually help spread the word to more people.",
+    "who": "Raj",
+    "file": "Mincho7661.MP4",
+    "why": "What Watsi means to him."
+   }
+  ],
+  "hook:0": [
+   {
+    "text": "Three words for today",
+    "line": "Okay, I would say inspirational, heartwarming, and fun.",
+    "why": "The brief's hook: her three words."
+   },
+   {
+    "text": "Clickable joy",
+    "line": "So when I think of Watsi, I think of clickable joy for anyone who wants to try to get off the website without funding a patient, it's not possible.",
+    "why": "Margaret's best phrase."
+   },
+   {
+    "text": "Watsi will never lose this",
+    "line": "And I know that Watsi will never lose that human connection.",
+    "why": "The promise, as a hook."
+   },
+   {
+    "text": "It affects the whole family",
+    "line": "Obviously the kids need the operations, but we've found that, you know, it really affects the whole family.",
+    "why": "The in-person discovery."
+   }
+  ]
+ },
+ "visual_pack": {
+  "amount": "Watsi: one brand element at a time, never slapped on; organic shapes, no boxes. This reel: the hook text, three name supers, two B-roll pods from the Oct 20 day, one cutaway over a lift, and the watsi.org card.",
+  "devices": [
+   {
+    "row": "00:00–00:05",
+    "device": "Hook text, static, top third",
+    "asset": "highlight_callout (MG library)",
+    "source": "Script"
+   },
+   {
+    "row": "00:05–00:16",
+    "device": "Name super Margaret Cornelius · Board Chair",
+    "asset": "tag_label (MG library), no box",
+    "source": "Script"
+   },
+   {
+    "row": "00:16–00:27",
+    "device": "Name super Raj Malik · Board Member",
+    "asset": "tag_label (MG library), no box",
+    "source": "Script"
+   },
+   {
+    "row": "00:27–00:34",
+    "device": "Name super Dr. Tiffany · Board Member",
+    "asset": "tag_label (MG library), no box",
+    "source": "Script"
+   },
+   {
+    "row": "00:34–00:46",
+    "device": "B-roll pod: clinic sign, staff in the corridor",
+    "asset": "Mincho7637 0:00, Mincho7612 0:02",
+    "source": "Watsi Colombia Oct 20 RAW, VIDEOS/BROLL"
+   },
+   {
+    "row": "00:46–00:57",
+    "device": "B-roll pod: the art activity with families",
+    "asset": "Mincho7668 0:00.5, Mincho7690 0:01, Mincho7691 0:05",
+    "source": "Watsi Colombia Oct 20 RAW, VIDEOS/BROLL"
+   },
+   {
+    "row": "00:57–01:06",
+    "device": "Cutaway over the lift",
+    "asset": "Mincho7681 0:22.5",
+    "source": "Watsi Colombia Oct 20 RAW, VIDEOS/BROLL"
+   },
+   {
+    "row": "01:15–01:18",
+    "device": "End card",
+    "asset": "watsi.org on light cyan",
+    "source": "endcards/index.json (Watsi lines, 6 Oct 2026)"
+   }
+  ],
+  "broll_pool": [
+   {
+    "clip": "Mincho7669.MP4",
+    "path": "VIDEOS/BROLL/Mincho7669.MP4",
+    "drive": "1cm_yVBprQ_8aMXHZ1oYtavkDOZCBO7Kf",
+    "at": 7.0,
+    "dur": 2.5,
+    "cx": 0.5,
+    "what": "A hand paints a white piece pink (hands only)",
+    "frame": null
+   },
+   {
+    "clip": "Mincho7684.MP4",
+    "path": "VIDEOS/BROLL/Mincho7684.MP4",
+    "drive": "1FQ9wakasGp4W2SH8lCnusVfWcowOmQv3",
+    "at": 14.0,
+    "dur": 2.5,
+    "cx": 0.5,
+    "what": "Someone writes with a marker among art supplies (hands)",
+    "frame": null
+   },
+   {
+    "clip": "Mincho7693.MP4",
+    "path": "VIDEOS/BROLL/Mincho7693.MP4",
+    "drive": "1kF94LKMF7R6uXlMdv79dWck5zYLYoaEp",
+    "at": 5.0,
+    "dur": 2.5,
+    "cx": 0.5,
+    "what": "A child holds a red piece near a white heart at the craft table (child partly hidden)",
+    "frame": null
+   },
+   {
+    "clip": "Mincho7674.MP4",
+    "path": "VIDEOS/BROLL/Mincho7674.MP4",
+    "drive": "1fdCbUMudW5orUwSUlxs-R49Ji4qvtaw8",
+    "at": 20.0,
+    "dur": 2.5,
+    "cx": 0.5,
+    "what": "A boy holds a Lego set, a woman behind him films on a phone (child: release needed)",
+    "frame": null
+   },
+   {
+    "clip": "Mincho7678.MP4",
+    "path": "VIDEOS/BROLL/Mincho7678.MP4",
+    "drive": "1sgCxhoX-tlPBzrjqyM3NNtQSYEr4W1Zy",
+    "at": 7.0,
+    "dur": 2.5,
+    "cx": 0.5,
+    "what": "A young girl draws at a table (child: release needed)",
+    "frame": null
+   },
+   {
+    "clip": "Mincho7664.MP4",
+    "path": "VIDEOS/BROLL/Mincho7664.MP4",
+    "drive": "1EDzhHF2z-oNigjDdYcFDm_Ncvl2QJVK4",
+    "at": 8.0,
+    "dur": 2.5,
+    "cx": 0.5,
+    "what": "A young girl eats ice cream at a table (child: release needed)",
+    "frame": null
+   },
+   {
+    "clip": "Mincho7639.MP4",
+    "path": "VIDEOS/BROLL/Mincho7639.MP4",
+    "drive": "1c0ixu2chsYwMuW-K2sQrKgdQGcGgCSPK",
+    "at": 4.0,
+    "dur": 2.5,
+    "cx": 0.5,
+    "what": "Women at a lunch table, Fundación Clínica Noel logo on the wall (a woman in a white cap: not under Tiffany's lines)",
+    "frame": null
+   }
+  ],
+  "elements": [
+   {
+    "name": "Watsi name super, text only, no box",
+    "kind": "lower third",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": true,
+    "size": "1080x1920",
+    "fps": 30
+   },
+   {
+    "name": "Watsi end card (watsi.org on light cyan)",
+    "kind": "end_card",
+    "file": null,
+    "url": null,
+    "local": null,
+    "alpha": false,
+    "size": "1080x1920",
+    "fps": 30
+   }
+  ],
+  "new_elements": []
+ }
 }
