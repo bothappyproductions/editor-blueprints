@@ -927,6 +927,11 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     if(/water|utilit|stormwater|ms4|councils of gov/.test(c) || /stormwater/.test(r.sectorPage || "")) return "your own crews and staff";
     if(/funder/.test(c)) return "your grantees' own navigators and outreach staff";
     if(/paid leave/.test(c)) return "your own staff";
+    if(/training & ta/.test(c)) return "your own trainers and the people in your field";
+    if(/education-first/.test(c)) return "your own facilitators, students and families";
+    if(/federations/.test(c)) return "your own members and volunteers";
+    if(/highway safety/.test(c)) return "real drivers and families from your state";
+    if(/relief/.test(c)) return "your own field staff and the families you serve";
     return "your own navigators and community health workers";
   }
   const coverageLead = (r) => /health-coverage-outreach|\/for\/funders/.test(r.sectorPage || "");
