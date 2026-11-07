@@ -1,5 +1,5 @@
 {
-"synced": "2026-11-07T04:20:21Z",
+"synced": "2026-11-07T05:20:23Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
@@ -196,14 +196,14 @@
 "v": "V2"
 },
 "13075073600": {
-"st": "client",
-"label": "With client",
-"v": "V1"
+"st": "review",
+"label": "In review",
+"v": "V2"
 },
 "13075111194": {
 "st": "client",
 "label": "With client",
-"v": "V1"
+"v": "V2"
 },
 "13075121503": {
 "st": "client",
@@ -211,9 +211,9 @@
 "v": "V1"
 },
 "13077200422": {
-"st": "client",
-"label": "With client",
-"v": "V1"
+"st": "review",
+"label": "In review",
+"v": "V2"
 },
 "13077226650": {
 "st": "revise",
@@ -588,7 +588,7 @@
 "st": "review",
 "label": "In review",
 "due": "2026-10-28",
-"v": "V3"
+"v": "V4"
 },
 "13225617796": {
 "st": "revise",
@@ -870,9 +870,9 @@
 "v": "V1"
 },
 "13354354718": {
-"st": "client",
-"label": "With client",
-"v": "V1"
+"st": "review",
+"label": "In review",
+"v": "V2"
 },
 "13354315549": {
 "st": "client",
@@ -1463,7 +1463,7 @@
 "st": "review",
 "label": "In review",
 "due": "2026-10-30",
-"v": "V1"
+"v": "V2"
 },
 "18231033514": {
 "st": "revise",
@@ -1492,8 +1492,8 @@
 "v": "V2"
 },
 "12918935079": {
-"st": "review",
-"label": "In review",
+"st": "client",
+"label": "With client",
 "v": "V8"
 },
 "12936997958": {
@@ -1692,7 +1692,7 @@
 "st": "review",
 "label": "In review",
 "due": "2026-10-05",
-"v": "V4"
+"v": "V5"
 },
 "13123147560": {
 "st": "client",
