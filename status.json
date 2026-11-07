@@ -1,5 +1,5 @@
 {
-"synced": "2026-11-05T03:14:44Z",
+"synced": "2026-11-07T00:20:39Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
@@ -11,10 +11,12 @@
 "12489939555": {
 "st": "edit",
 "label": "To edit",
-"due": "2026-11-05"
+"due": "2026-11-11"
 },
 "12489941840": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V4"
 },
 "12489943399": {
 "st": "revise",
@@ -23,7 +25,9 @@
 "v": "V4"
 },
 "12489943997": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V4"
 },
 "12489944961": {
 "st": "revise",
@@ -34,15 +38,17 @@
 "12489945635": {
 "st": "edit",
 "label": "To edit",
-"due": "2026-11-05"
+"due": "2026-11-11"
 },
 "12489946143": {
 "st": "edit",
 "label": "To edit",
-"due": "2026-11-05"
+"due": "2026-11-11"
 },
 "12489946791": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V1"
 },
 "12489952450": {
 "st": "edit",
@@ -66,48 +72,61 @@
 "label": "Archived"
 },
 "12489965961": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V5"
 },
 "12489995917": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "12489996519": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "12714476557": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-10-29",
-"v": "V1"
+"v": "V2"
 },
 "12714477152": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-10-29",
-"v": "V1"
+"v": "V2"
 },
 "12714477153": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-10-30"
+"st": "closed",
+"label": "Removed from Monday",
+"due": "2026-11-05"
 },
 "12714500969": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-10-29"
+"st": "review",
+"label": "In review",
+"due": "2026-11-05",
+"v": "V1"
 },
 "12714501068": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V1"
 },
 "12767076650": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "12767095388": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "12937236883": {
-"st": "revise",
-"label": "Needs revisions"
+"st": "closed",
+"label": "Archived"
 },
 "12937287827": {
 "st": "review",
@@ -122,27 +141,39 @@
 "v": "V1"
 },
 "12954642569": {
-"st": "review",
-"label": "In review",
-"v": "V3"
+"st": "client",
+"label": "With client",
+"v": "V5"
 },
 "12954675017": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V5"
 },
 "12980639114": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V4"
 },
 "12980639118": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "12980667583": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "12980684418": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V4"
 },
 "12980704816": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V4"
 },
 "13013928660": {
 "st": "revise",
@@ -151,22 +182,18 @@
 "v": "V3"
 },
 "13066526110": {
-"st": "revise",
-"label": "Needs revisions",
-"due": "2026-11-04",
-"v": "V1"
+"st": "closed",
+"label": "Archived"
 },
 "13066532855": {
-"st": "revise",
-"label": "Needs revisions",
-"due": "2026-11-04",
-"v": "V1"
+"st": "closed",
+"label": "Archived"
 },
 "13066544716": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-11-10",
-"v": "V1"
+"v": "V2"
 },
 "13075073600": {
 "st": "client",
@@ -195,7 +222,9 @@
 "v": "V1"
 },
 "13083743550": {
-"st": "missing"
+"st": "revise",
+"label": "Needs revisions",
+"v": "V1"
 },
 "13083743932": {
 "st": "edit",
@@ -203,12 +232,14 @@
 "due": "2026-11-06"
 },
 "13083743948": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V1"
 },
 "13083747867": {
 "st": "edit",
 "label": "To edit",
-"due": "2026-11-02"
+"due": "2026-11-06"
 },
 "13083748147": {
 "st": "review",
@@ -217,28 +248,44 @@
 "v": "V1"
 },
 "13083751073": {
-"st": "missing"
+"st": "revise",
+"label": "Needs revisions",
+"v": "V1"
 },
 "13083751249": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13083759789": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13083760124": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13099641527": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V1"
 },
 "13099648104": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V1"
 },
 "13099655867": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V1"
 },
 "13099658250": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V4"
 },
 "13111807657": {
 "st": "review",
@@ -247,10 +294,14 @@
 "v": "V1"
 },
 "13111812730": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "13123142900": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13123153432": {
 "st": "edit",
@@ -268,13 +319,19 @@
 "label": "Archived"
 },
 "13131311134": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V1"
 },
 "13131364955": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "13132978216": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V5"
 },
 "13132979764": {
 "st": "review",
@@ -283,22 +340,34 @@
 "v": "V1"
 },
 "13132980256": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13146888847": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13149174314": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13149197494": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13149227094": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13150023822": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "13153550055": {
 "st": "edit",
@@ -311,18 +380,20 @@
 "due": "2026-11-11"
 },
 "13153585107": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-11-03",
-"v": "V1"
+"v": "V2"
 },
 "13188076855": {
 "st": "edit",
 "label": "To edit",
-"due": "2026-11-02"
+"due": "2026-11-12"
 },
 "13188114401": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V1"
 },
 "13190021330": {
 "st": "edit",
@@ -330,7 +401,9 @@
 "due": "2026-11-16"
 },
 "13190022271": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V1"
 },
 "13190024713": {
 "st": "edit",
@@ -338,7 +411,9 @@
 "due": "2026-11-06"
 },
 "13190047726": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V1"
 },
 "13191615863": {
 "st": "client",
@@ -346,43 +421,52 @@
 "v": "V2"
 },
 "13197359938": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V4"
 },
 "13198233018": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "13198233020": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V4"
 },
 "13199657199": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "13199685854": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13203611596": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-10-28",
-"v": "V1"
+"v": "V2"
 },
 "13203622763": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-10-28",
-"v": "V1"
+"v": "V2"
 },
 "13203624501": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-10-28",
-"v": "V1"
+"v": "V2"
 },
 "13212354694": {
-"st": "revise",
-"label": "Needs revisions",
-"due": "2026-10-20",
-"v": "V2"
+"st": "client",
+"label": "With client",
+"v": "V4"
 },
 "13212946207": {
 "st": "edit",
@@ -481,22 +565,30 @@
 "v": "V1"
 },
 "13223691536": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V1"
 },
 "13223691678": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V1"
 },
 "13223729121": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13223729137": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V1"
 },
 "13223850425": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-10-28",
-"v": "V2"
+"v": "V3"
 },
 "13225617796": {
 "st": "revise",
@@ -518,10 +610,14 @@
 "v": "V1"
 },
 "13225633452": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "13225675447": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13225675455": {
 "st": "revise",
@@ -534,7 +630,9 @@
 "label": "Archived"
 },
 "13233483774": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V4"
 },
 "13234110389": {
 "st": "closed",
@@ -547,10 +645,14 @@
 "v": "V3"
 },
 "13235848908": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13239698729": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13243618207": {
 "st": "client",
@@ -558,22 +660,24 @@
 "v": "V1"
 },
 "13243618256": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-10"
+"st": "client",
+"label": "With client",
+"v": "V1"
 },
 "13243662168": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-11"
+"st": "client",
+"label": "With client",
+"v": "V1"
 },
 "13243674656": {
-"st": "review",
-"label": "In review",
-"v": "V9"
+"st": "client",
+"label": "With client",
+"v": "V10"
 },
 "13243711594": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13243711760": {
 "st": "closed",
@@ -615,13 +719,19 @@
 "label": "Archived"
 },
 "13277146397": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13277142181": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "13277142333": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13277510841": {
 "st": "closed",
@@ -636,7 +746,9 @@
 "v": "V3"
 },
 "13277903336": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13278118435": {
 "st": "closed",
@@ -699,8 +811,8 @@
 "v": "V1"
 },
 "13306143719": {
-"st": "edit",
-"label": "To edit",
+"st": "review",
+"label": "In review",
 "due": "2026-11-06",
 "v": "V1"
 },
@@ -713,7 +825,7 @@
 "13306142977": {
 "st": "edit",
 "label": "To edit",
-"due": "2026-11-18",
+"due": "2026-11-16",
 "v": "V1"
 },
 "13308121961": {
@@ -735,12 +847,14 @@
 "v": "V1"
 },
 "13310892647": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V7"
 },
 "13316071232": {
 "st": "edit",
 "label": "To edit",
-"due": "2026-11-09",
+"due": "2026-11-12",
 "v": "V1"
 },
 "13316041364": {
@@ -834,7 +948,7 @@
 "13319123571": {
 "st": "edit",
 "label": "To edit",
-"due": "2026-11-05",
+"due": "2026-11-13",
 "v": "V1"
 },
 "13319113476": {
@@ -852,7 +966,7 @@
 "13319733848": {
 "st": "edit",
 "label": "To edit",
-"due": "2026-11-20",
+"due": "2026-11-17",
 "v": "V1"
 },
 "13319733895": {
@@ -865,45 +979,53 @@
 "st": "missing"
 },
 "13338322871": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V6"
 },
 "13329249350": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13386670463": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V1"
 },
 "13405209420": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V1"
 },
 "13305757419": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V1"
 },
 "13275410585": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-11-04",
-"v": "V1"
+"v": "V2"
 },
 "13339301834": {
 "st": "closed",
 "label": "Archived"
 },
 "13339292799": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-02",
+"st": "client",
+"label": "With client",
 "v": "V1"
 },
 "13339313493": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-02",
+"st": "client",
+"label": "With client",
 "v": "V1"
 },
 "13326046753": {
-"st": "review",
-"label": "In review",
+"st": "revise",
+"label": "Needs revisions",
 "due": "2026-11-02",
 "v": "V1"
 },
@@ -911,19 +1033,19 @@
 "st": "review",
 "label": "In review",
 "due": "2026-11-16",
-"v": "V2"
+"v": "V3"
 },
 "13326048023": {
 "st": "review",
 "label": "In review",
 "due": "2026-11-19",
-"v": "V2"
+"v": "V3"
 },
 "13326047873": {
 "st": "review",
 "label": "In review",
 "due": "2026-11-19",
-"v": "V2"
+"v": "V3"
 },
 "13326050021": {
 "st": "review",
@@ -935,13 +1057,13 @@
 "st": "review",
 "label": "In review",
 "due": "2026-11-13",
-"v": "V2"
+"v": "V3"
 },
 "13326061750": {
 "st": "review",
 "label": "In review",
 "due": "2026-11-16",
-"v": "V2"
+"v": "V3"
 },
 "13326049694": {
 "st": "review",
@@ -953,36 +1075,36 @@
 "st": "review",
 "label": "In review",
 "due": "2026-11-19",
-"v": "V2"
+"v": "V3"
 },
 "13326048081": {
 "st": "review",
 "label": "In review",
 "due": "2026-11-10",
-"v": "V2"
+"v": "V3"
 },
 "13326049333": {
 "st": "review",
 "label": "In review",
 "due": "2026-11-10",
-"v": "V2"
+"v": "V3"
 },
 "13326062143": {
 "st": "review",
 "label": "In review",
 "due": "2026-11-10",
-"v": "V2"
+"v": "V3"
 },
 "13386733130": {
-"st": "edit",
-"label": "To edit",
+"st": "review",
+"label": "In review",
 "due": "2026-11-06",
 "v": "V1"
 },
 "13326048339": {
 "st": "edit",
 "label": "To edit",
-"due": "2026-11-02",
+"due": "2026-11-06",
 "v": "V1"
 },
 "13326048850": {
@@ -1040,27 +1162,27 @@
 "v": "V1"
 },
 "13389717120": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-04",
+"st": "review",
+"label": "In review",
+"due": "2026-11-05",
 "v": "V1"
 },
 "13389717678": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-04",
+"st": "review",
+"label": "In review",
+"due": "2026-11-05",
 "v": "V1"
 },
 "13389738807": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-04",
+"st": "review",
+"label": "In review",
+"due": "2026-11-05",
 "v": "V1"
 },
 "13389691157": {
 "st": "edit",
 "label": "To edit",
-"due": "2026-11-05",
+"due": "2026-11-13",
 "v": "V1"
 },
 "13302082978": {
@@ -1071,7 +1193,7 @@
 },
 "13302111821": {
 "st": "edit",
-"label": "To edit",
+"label": "Editing",
 "due": "2026-11-10",
 "v": "V1"
 },
@@ -1088,46 +1210,44 @@
 "v": "V1"
 },
 "13412186309": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-04",
+"st": "client",
+"label": "With client",
 "v": "V1"
 },
 "13328799358": {
 "st": "edit",
 "label": "To edit",
-"due": "2026-11-05"
+"due": "2026-11-10"
 },
 "13328821336": {
 "st": "edit",
 "label": "To edit",
-"due": "2026-11-12"
+"due": "2026-11-09"
 },
 "13391050680": {
 "st": "edit",
 "label": "To edit",
-"due": "2026-11-20",
+"due": "2026-11-17",
 "v": "V1"
 },
 "13424278387": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-09",
+"st": "client",
+"label": "With client",
 "v": "V1"
 },
 "13339295003": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-11"
+"st": "client",
+"label": "With client",
+"v": "V1"
 },
 "13339295522": {
 "st": "closed",
 "label": "Archived"
 },
 "13299663198": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-06",
+"st": "review",
+"label": "In review",
+"due": "2026-11-05",
 "v": "V1"
 },
 "12937236907": {
@@ -1137,14 +1257,14 @@
 "v": "V1"
 },
 "13361159279": {
-"st": "edit",
-"label": "To edit",
+"st": "review",
+"label": "In review",
 "due": "2026-11-09",
 "v": "V1"
 },
 "13425828461": {
-"st": "edit",
-"label": "To edit",
+"st": "review",
+"label": "In review",
 "due": "2026-11-09",
 "v": "V1"
 },
@@ -1155,33 +1275,29 @@
 "v": "V1"
 },
 "13330680112": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-11",
-"v": "V1"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "13330679608": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-11",
-"v": "V1"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "13330663787": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-11",
-"v": "V1"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "13330680505": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-12",
-"v": "V1"
+"st": "client",
+"label": "With client",
+"v": "V4"
 },
 "13330664171": {
 "st": "edit",
 "label": "To edit",
-"due": "2026-11-18",
+"due": "2026-11-16",
 "v": "V1"
 },
 "13330680725": {
@@ -1199,7 +1315,7 @@
 "13330680014": {
 "st": "edit",
 "label": "To edit",
-"due": "2026-11-18",
+"due": "2026-11-16",
 "v": "V1"
 },
 "13328830224": {
@@ -1246,14 +1362,14 @@
 "v": "V1"
 },
 "12891354431": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "hold",
+"label": "On hold",
 "due": "2026-11-04",
 "v": "V1"
 },
 "12891341937": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "hold",
+"label": "On hold",
 "due": "2026-10-09",
 "v": "V1"
 },
@@ -1301,9 +1417,9 @@
 "ed": "Bleron"
 },
 "12714476457": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V3"
+"st": "review",
+"label": "In review",
+"v": "V4"
 },
 "13386485946": {
 "st": "review",
@@ -1339,7 +1455,9 @@
 "due": "2026-09-09"
 },
 "13305757514": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "13402557235": {
 "st": "review",
@@ -1353,9 +1471,8 @@
 "v": "V4"
 },
 "13412205523": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-04",
+"st": "client",
+"label": "With client",
 "v": "V1"
 },
 "13304671686": {
@@ -1365,18 +1482,24 @@
 "v": "V1"
 },
 "12937285887": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V1"
 },
 "12937251195": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "12918935079": {
-"st": "review",
-"label": "In review",
+"st": "client",
+"label": "With client",
 "v": "V7"
 },
 "12936997958": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V5"
 },
 "12727625149": {
 "st": "revise",
@@ -1413,10 +1536,10 @@
 "due": "2026-11-09"
 },
 "12727618241": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-09-08",
-"v": "V3"
+"v": "V4"
 },
 "12731596620": {
 "st": "revise",
@@ -1444,9 +1567,8 @@
 "v": "V4"
 },
 "13287615260": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-03",
+"st": "client",
+"label": "With client",
 "v": "V1"
 },
 "12489952052": {
@@ -1468,21 +1590,23 @@
 "v": "V3"
 },
 "12396130190": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-09-01",
-"v": "V3"
+"v": "V4"
 },
 "12758007252": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "13419818860": {
 "st": "closed",
 "label": "Archived"
 },
 "12891377964": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-10-12",
 "v": "V1"
 },
@@ -1492,23 +1616,25 @@
 "v": "V5"
 },
 "12489813219": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "v": "V2"
 },
 "12489846602": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "v": "V1"
 },
 "13412102343": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-10-30",
 "v": "V2"
 },
 "12767071313": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V4"
 },
 "12867196117": {
 "st": "revise",
@@ -1558,21 +1684,25 @@
 "v": "V5"
 },
 "13237902846": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V2"
-},
-"12714476534": {
-"st": "revise",
-"label": "Needs revisions",
-"due": "2026-10-05",
+"st": "review",
+"label": "In review",
 "v": "V3"
 },
+"12714476534": {
+"st": "review",
+"label": "In review",
+"due": "2026-10-05",
+"v": "V4"
+},
 "13123147560": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13386517059": {
-"st": "missing"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "13351764240": {
 "st": "revise",
@@ -1614,6 +1744,25 @@
 "client": "Family Reach",
 "title": "Giving Tuesday 2026: 50 State Challenge + 30 Years / 30 Minute Blitz tile TikToks (9:16, end card to familyreach.org/holidays)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13466560569"
+},
+"13348422725": {
+"st": "review",
+"label": "In review",
+"v": "V5",
+"ed": "Bleron",
+"client": "Worldreader",
+"title": "US (English) Reel: Global Families Shell (9:16, 25-30s)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13348422725"
+},
+"13310242599": {
+"st": "review",
+"label": "In review",
+"due": "2026-10-21",
+"v": "V2",
+"ed": "Bleron",
+"client": "MHA",
+"title": "MHABarbaraSchmidEditorChoice001.mp4 (Batch #1 - 2026)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13310242599"
 },
 "18231012695": {
 "st": "revise",
@@ -1670,26 +1819,6 @@
 "title": "S4SShoesOnCarTrend002.mp4",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/12777897545"
 },
-"12947954368": {
-"st": "revise",
-"label": "Needs revisions",
-"due": "2026-10-14",
-"v": "V1",
-"ed": "Qendrim",
-"client": "SFCG",
-"title": "Giving Tuesday: $50K Match CTA",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12947954368"
-},
-"13310242599": {
-"st": "revise",
-"label": "Needs revisions",
-"due": "2026-10-21",
-"v": "V1",
-"ed": "Bleron",
-"client": "MHA",
-"title": "MHABarbaraSchmidEditorChoice001.mp4 (Batch #1 - 2026)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13310242599"
-},
 "12592125644": {
 "st": "revise",
 "label": "Needs revisions",
@@ -1698,15 +1827,6 @@
 "client": "S4S",
 "title": "The Renaissance Girl: Thrifted Shoes + AYH",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/12592125644"
-},
-"13348422725": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V3",
-"ed": "Bleron",
-"client": "Worldreader",
-"title": "US (English) Reel: Global Families Shell (9:16, 25-30s)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13348422725"
 },
 "13462484451": {
 "st": "revise",
@@ -1725,6 +1845,69 @@
 "client": "The Freedom to Choose Project",
 "title": "90_Traditional_FREEDOMTOCHOOSENowWhat001-4.mp4 — duplicate link on Ana Maria's stack (Dani clip repeated)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13467230438"
+},
+"13083760120": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V2",
+"ed": "Bleron",
+"client": "MHA",
+"title": "Story of Hope: Morgan Witherspoon & Adrian — \"Hope Is a Way Out\" (Sept 2026 shoot, Day 1)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13083760120"
+},
+"13487877716": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V2",
+"ed": "Qendrim",
+"client": "Americans for Immigrant Justice",
+"title": "PaulFearlessGalaVideo2.mp4 (Batch #2 - 2026)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13487877716"
+},
+"13140305749": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V4",
+"ed": "Qendrim",
+"client": "Family Reach",
+"title": "Queue Management Emails: Intro + Zip Code Search Tool + Closing (client clips, captions + start/end card)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13140305749"
+},
+"13149966262": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V3",
+"ed": "Qendrim",
+"client": "Family Reach",
+"title": "Kristen & Paisley: vertical social cut (9:16, ≤1:30, from FRBostonKristenPaisley001)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13149966262"
+},
+"13491242304": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V1",
+"ed": "Bleron",
+"client": "NOV",
+"title": "Giving ShoesDay 2026: Pie Video 3 ALT - Missed-goal version (post 2 Dec if goal is missed, 9:16, ~22s)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13491242304"
+},
+"12489947133": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V7",
+"ed": "Bleron",
+"client": "Lions International",
+"title": "United Kingdom Lion (Traditional)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12489947133"
+},
+"12489947070": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V8",
+"ed": "Bleron",
+"client": "Lions International",
+"title": "Connecticut Lion (Traditional)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12489947070"
 },
 "10584081993": {
 "st": "edit",
@@ -1802,7 +1985,7 @@
 "13457142216": {
 "st": "edit",
 "label": "To edit",
-"due": "2026-11-05",
+"due": "2026-11-10",
 "v": "V1",
 "ed": "Ardit",
 "client": "Learn Fresh",
@@ -1812,7 +1995,7 @@
 "13457100521": {
 "st": "edit",
 "label": "To edit",
-"due": "2026-11-05",
+"due": "2026-11-10",
 "v": "V1",
 "ed": "Ardit",
 "client": "Learn Fresh",
