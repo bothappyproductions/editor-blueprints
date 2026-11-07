@@ -1,5 +1,5 @@
 {
-"synced": "2026-11-07T05:20:23Z",
+"synced": "2026-11-07T06:20:33Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
@@ -196,8 +196,8 @@
 "v": "V2"
 },
 "13075073600": {
-"st": "review",
-"label": "In review",
+"st": "client",
+"label": "With client",
 "v": "V2"
 },
 "13075111194": {
@@ -211,8 +211,8 @@
 "v": "V1"
 },
 "13077200422": {
-"st": "review",
-"label": "In review",
+"st": "client",
+"label": "With client",
 "v": "V2"
 },
 "13077226650": {
@@ -222,9 +222,9 @@
 "v": "V1"
 },
 "13083743550": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V1"
+"st": "review",
+"label": "In review",
+"v": "V2"
 },
 "13083743932": {
 "st": "edit",
@@ -870,8 +870,8 @@
 "v": "V1"
 },
 "13354354718": {
-"st": "review",
-"label": "In review",
+"st": "client",
+"label": "With client",
 "v": "V2"
 },
 "13354315549": {
@@ -1404,10 +1404,10 @@
 "v": "V1"
 },
 "12804928189": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-08-24",
-"v": "V2"
+"v": "V3"
 },
 "12666660159": {
 "st": "revise",
@@ -1460,9 +1460,8 @@
 "v": "V3"
 },
 "13402557235": {
-"st": "review",
-"label": "In review",
-"due": "2026-10-30",
+"st": "client",
+"label": "With client",
 "v": "V2"
 },
 "18231033514": {
@@ -1764,6 +1763,24 @@
 "title": "MHABarbaraSchmidEditorChoice001.mp4 (Batch #1 - 2026)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13310242599"
 },
+"13487877716": {
+"st": "review",
+"label": "In review",
+"v": "V3",
+"ed": "Qendrim",
+"client": "Americans for Immigrant Justice",
+"title": "PaulFearlessGalaVideo2.mp4 (Batch #2 - 2026)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13487877716"
+},
+"13083760120": {
+"st": "review",
+"label": "In review",
+"v": "V3",
+"ed": "Bleron",
+"client": "MHA",
+"title": "Story of Hope: Morgan Witherspoon & Adrian — \"Hope Is a Way Out\" (Sept 2026 shoot, Day 1)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13083760120"
+},
 "18231012695": {
 "st": "revise",
 "label": "Needs revisions",
@@ -1845,24 +1862,6 @@
 "client": "The Freedom to Choose Project",
 "title": "90_Traditional_FREEDOMTOCHOOSENowWhat001-4.mp4 — duplicate link on Ana Maria's stack (Dani clip repeated)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13467230438"
-},
-"13083760120": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V2",
-"ed": "Bleron",
-"client": "MHA",
-"title": "Story of Hope: Morgan Witherspoon & Adrian — \"Hope Is a Way Out\" (Sept 2026 shoot, Day 1)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13083760120"
-},
-"13487877716": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V2",
-"ed": "Qendrim",
-"client": "Americans for Immigrant Justice",
-"title": "PaulFearlessGalaVideo2.mp4 (Batch #2 - 2026)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13487877716"
 },
 "13140305749": {
 "st": "revise",
