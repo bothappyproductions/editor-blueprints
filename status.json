@@ -1,5 +1,5 @@
 {
-"synced": "2026-11-07T06:20:33Z",
+"synced": "2026-11-07T07:20:06Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
@@ -206,9 +206,9 @@
 "v": "V2"
 },
 "13075121503": {
-"st": "client",
-"label": "With client",
-"v": "V1"
+"st": "review",
+"label": "In review",
+"v": "V2"
 },
 "13077200422": {
 "st": "client",
@@ -1747,8 +1747,8 @@
 "13348422725": {
 "st": "review",
 "label": "In review",
-"v": "V5",
-"ed": "Bleron",
+"v": "V6",
+"ed": "Claire",
 "client": "Worldreader",
 "title": "US (English) Reel: Global Families Shell (9:16, 25-30s)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13348422725"
@@ -1780,6 +1780,24 @@
 "client": "MHA",
 "title": "Story of Hope: Morgan Witherspoon & Adrian — \"Hope Is a Way Out\" (Sept 2026 shoot, Day 1)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13083760120"
+},
+"12489947070": {
+"st": "review",
+"label": "In review",
+"v": "V9",
+"ed": "Bleron",
+"client": "Lions International",
+"title": "Connecticut Lion (Traditional)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12489947070"
+},
+"12489947133": {
+"st": "review",
+"label": "In review",
+"v": "V8",
+"ed": "Claire",
+"client": "Lions International",
+"title": "United Kingdom Lion (Traditional)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12489947133"
 },
 "18231012695": {
 "st": "revise",
@@ -1889,24 +1907,6 @@
 "client": "NOV",
 "title": "Giving ShoesDay 2026: Pie Video 3 ALT - Missed-goal version (post 2 Dec if goal is missed, 9:16, ~22s)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13491242304"
-},
-"12489947133": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V7",
-"ed": "Bleron",
-"client": "Lions International",
-"title": "United Kingdom Lion (Traditional)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12489947133"
-},
-"12489947070": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V8",
-"ed": "Bleron",
-"client": "Lions International",
-"title": "Connecticut Lion (Traditional)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12489947070"
 },
 "10584081993": {
 "st": "edit",
