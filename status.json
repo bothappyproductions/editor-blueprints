@@ -1,12 +1,13 @@
 {
-"synced": "2026-11-07T20:20:41Z",
+"synced": "2026-11-07T21:20:27Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-11-04",
-"v": "V2"
+"v": "V3",
+"ed": "Claire"
 },
 "12489939555": {
 "st": "edit",
@@ -591,11 +592,11 @@
 "v": "V4"
 },
 "13225617796": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-11-06",
-"v": "V1",
-"ed": "Ardit"
+"v": "V3",
+"ed": "Claire"
 },
 "13225631908": {
 "st": "review",
@@ -605,10 +606,11 @@
 "ed": "Claire"
 },
 "13225631990": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-11-05",
-"v": "V1"
+"v": "V2",
+"ed": "Claire"
 },
 "13225633452": {
 "st": "client",
@@ -1510,10 +1512,11 @@
 "v": "V1"
 },
 "12727618238": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-09-08",
-"v": "V3"
+"v": "V4",
+"ed": "Claire"
 },
 "12727618253": {
 "st": "revise",
@@ -1576,10 +1579,11 @@
 "v": "V3"
 },
 "12489915356": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-11-03",
-"v": "V10"
+"v": "V11",
+"ed": "Claire"
 },
 "12396146684": {
 "st": "revise",
@@ -1635,10 +1639,11 @@
 "v": "V4"
 },
 "12867196117": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-10-27",
-"v": "V4"
+"v": "V5",
+"ed": "Claire"
 },
 "12925038428": {
 "st": "review",
@@ -1663,14 +1668,16 @@
 "v": "V4"
 },
 "12925052298": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V4"
+"st": "review",
+"label": "In review",
+"v": "V5",
+"ed": "Claire"
 },
 "12767085287": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V4"
+"st": "review",
+"label": "In review",
+"v": "V5",
+"ed": "Claire"
 },
 "12767044920": {
 "st": "revise",
@@ -1961,6 +1968,24 @@
 "client": "Homes For All South",
 "title": "Homes For All South | Profile: Día de los Muertos on the Westside",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13496353505"
+},
+"13420131719": {
+"st": "review",
+"label": "In review",
+"v": "V3",
+"ed": "Claire",
+"client": "Momcozy",
+"title": "MOMCOZYStreetMotherhoodTiming001.mp4",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13420131719"
+},
+"13420140261": {
+"st": "review",
+"label": "In review",
+"v": "V3",
+"ed": "Claire",
+"client": "Momcozy",
+"title": "MOMCOZYStreetDoubleStandards001.mp4",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13420140261"
 },
 "18231012695": {
 "st": "revise",
