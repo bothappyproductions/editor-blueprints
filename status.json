@@ -1,5 +1,5 @@
 {
-"synced": "2026-11-07T13:20:15Z",
+"synced": "2026-11-07T16:20:45Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
@@ -1491,9 +1491,10 @@
 "v": "V2"
 },
 "12918935079": {
-"st": "client",
-"label": "With client",
-"v": "V8"
+"st": "review",
+"label": "In review",
+"due": "2026-11-07",
+"v": "V9"
 },
 "12936997958": {
 "st": "client",
@@ -1828,6 +1829,15 @@
 "client": "The Freedom to Choose Project",
 "title": "90_Traditional_FREEDOMTOCHOOSENowWhat001-4.mp4",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13467230438"
+},
+"13494879297": {
+"st": "review",
+"label": "In review",
+"v": "V2",
+"ed": "Claire",
+"client": "AIJ",
+"title": "30th Gala: Gala Hope Video 3.5",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13494879297"
 },
 "18231012695": {
 "st": "revise",
