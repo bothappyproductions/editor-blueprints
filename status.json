@@ -1,12 +1,12 @@
 {
-"synced": "2026-11-08T05:20:28Z",
+"synced": "2026-11-08T07:20:45Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-11-04",
-"v": "V3",
+"v": "V4",
 "ed": "Claire"
 },
 "12489939555": {
@@ -136,10 +136,11 @@
 "v": "V1"
 },
 "12937295775": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-11-06",
-"v": "V1"
+"v": "V3",
+"ed": "Claire"
 },
 "12954642569": {
 "st": "client",
@@ -1215,9 +1216,11 @@
 "due": "2026-11-10"
 },
 "13328821336": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-09"
+"st": "review",
+"label": "In review",
+"due": "2026-11-09",
+"v": "V1",
+"ed": "Claire"
 },
 "13391050680": {
 "st": "edit",
@@ -1314,14 +1317,18 @@
 "v": "V1"
 },
 "13328830224": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-09"
+"st": "review",
+"label": "In review",
+"due": "2026-11-09",
+"v": "V1",
+"ed": "Claire"
 },
 "13328830173": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-09"
+"st": "review",
+"label": "In review",
+"due": "2026-11-09",
+"v": "V1",
+"ed": "Claire"
 },
 "13328821364": {
 "st": "edit",
@@ -1329,9 +1336,11 @@
 "due": "2026-11-10"
 },
 "13328811856": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-10"
+"st": "review",
+"label": "In review",
+"due": "2026-11-10",
+"v": "V1",
+"ed": "Claire"
 },
 "13328811898": {
 "st": "edit",
@@ -1359,11 +1368,9 @@
 "ed": "Claire"
 },
 "12891354431": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-04",
-"v": "V2",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "12891341937": {
 "st": "revise",
@@ -1580,10 +1587,11 @@
 "v": "V1"
 },
 "12489952052": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-11-05",
-"v": "V3"
+"v": "V9",
+"ed": "Claire"
 },
 "12489915356": {
 "st": "review",
@@ -1660,10 +1668,10 @@
 "ed": "Claire"
 },
 "12767095358": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-08-27",
-"v": "V5",
+"v": "V6",
 "ed": "Claire"
 },
 "12767071335": {
@@ -1697,9 +1705,10 @@
 "ed": "Claire"
 },
 "12767085390": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V5"
+"st": "review",
+"label": "In review",
+"v": "V6",
+"ed": "Claire"
 },
 "13237902846": {
 "st": "review",
@@ -1728,9 +1737,10 @@
 "v": "V1"
 },
 "12997728247": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V4"
+"st": "review",
+"label": "In review",
+"v": "V5",
+"ed": "Claire"
 }
 },
 "extra": {
@@ -2047,6 +2057,15 @@
 "client": "Soles4Souls",
 "title": "NationalGeographicS4S Part 2 Marketing.mp4",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13497395526"
+},
+"13443434018": {
+"st": "review",
+"label": "In review",
+"v": "V3",
+"ed": "Claire",
+"client": "Dream Center Dallas",
+"title": "Ethan: \"Serving People\" (Faces of the Dream Center, 9:16 reel)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13443434018"
 },
 "12638008987": {
 "st": "hold",
