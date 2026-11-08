@@ -1,5 +1,5 @@
 {
-"synced": "2026-11-08T03:20:53Z",
+"synced": "2026-11-08T04:20:27Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
@@ -64,8 +64,8 @@
 "v": "V2"
 },
 "12489953000": {
-"st": "client",
-"label": "With client",
+"st": "revise",
+"label": "Needs revisions",
 "v": "V3"
 },
 "12489959941": {
@@ -1366,10 +1366,11 @@
 "ed": "Claire"
 },
 "12891341937": {
-"st": "hold",
-"label": "On hold",
+"st": "review",
+"label": "In review",
 "due": "2026-10-09",
-"v": "V1"
+"v": "V2",
+"ed": "Claire"
 },
 "12997735317": {
 "st": "revise",
@@ -1392,10 +1393,11 @@
 "ed": "Claire"
 },
 "12714476488": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-09-07",
-"v": "V4"
+"v": "V6",
+"ed": "Claire"
 },
 "12714501098": {
 "st": "revise",
@@ -1509,10 +1511,11 @@
 "ed": "Claire"
 },
 "13385185147": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-11-04",
-"v": "V1"
+"v": "V3",
+"ed": "Claire"
 },
 "12727618238": {
 "st": "review",
@@ -1660,7 +1663,7 @@
 "st": "review",
 "label": "In review",
 "due": "2026-08-27",
-"v": "V4",
+"v": "V5",
 "ed": "Claire"
 },
 "12767071335": {
@@ -2026,6 +2029,25 @@
 "title": "D8 Bottle Washer with Dad",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13178055297"
 },
+"11427495496": {
+"st": "review",
+"label": "In review",
+"v": "V12",
+"ed": "Claire",
+"client": "Soles4Souls",
+"title": "NationalGeographicS4S.mp4",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/11427495496"
+},
+"13497395526": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-10",
+"v": "V1",
+"ed": "Claire",
+"client": "Soles4Souls",
+"title": "NationalGeographicS4S Part 2 Marketing.mp4",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13497395526"
+},
 "12638008987": {
 "st": "hold",
 "label": "On hold",
@@ -2035,15 +2057,6 @@
 "client": "Central Arizona Shelter Services",
 "title": "CASS Captioned Video Recut (Zsirai 7/25)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/12638008987"
-},
-"11427495496": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V11",
-"ed": "Ardit",
-"client": "Soles4Souls",
-"title": "NationalGeographicS4S.mp4",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/11427495496"
 },
 "12624620383": {
 "st": "revise",
