@@ -1,10 +1,10 @@
 {
-"synced": "2026-11-08T01:20:37Z",
+"synced": "2026-11-08T03:20:53Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
-"st": "review",
-"label": "In review",
+"st": "revise",
+"label": "Needs revisions",
 "due": "2026-11-04",
 "v": "V3",
 "ed": "Claire"
@@ -1264,8 +1264,8 @@
 "v": "V1"
 },
 "13361239430": {
-"st": "review",
-"label": "In review",
+"st": "revise",
+"label": "Needs revisions",
 "v": "V2",
 "ed": "Claire"
 },
@@ -1359,10 +1359,11 @@
 "ed": "Claire"
 },
 "12891354431": {
-"st": "hold",
-"label": "On hold",
+"st": "review",
+"label": "In review",
 "due": "2026-11-04",
-"v": "V1"
+"v": "V2",
+"ed": "Claire"
 },
 "12891341937": {
 "st": "hold",
@@ -1501,10 +1502,11 @@
 "v": "V5"
 },
 "12727625149": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-09-01",
-"v": "V4"
+"v": "V4",
+"ed": "Claire"
 },
 "13385185147": {
 "st": "revise",
@@ -1588,10 +1590,11 @@
 "ed": "Claire"
 },
 "12396146684": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-08-19",
-"v": "V3"
+"v": "V4",
+"ed": "Claire"
 },
 "12396130190": {
 "st": "review",
@@ -1661,9 +1664,9 @@
 "ed": "Claire"
 },
 "12767071335": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V3",
+"st": "review",
+"label": "In review",
+"v": "V4",
 "ed": "Claire"
 },
 "12925071020": {
@@ -1975,24 +1978,6 @@
 "title": "Homes For All South | Profile: Día de los Muertos on the Westside",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13496353505"
 },
-"13420131719": {
-"st": "review",
-"label": "In review",
-"v": "V3",
-"ed": "Claire",
-"client": "Momcozy",
-"title": "MOMCOZYStreetMotherhoodTiming001.mp4",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13420131719"
-},
-"13420140261": {
-"st": "review",
-"label": "In review",
-"v": "V3",
-"ed": "Claire",
-"client": "Momcozy",
-"title": "MOMCOZYStreetDoubleStandards001.mp4",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13420140261"
-},
 "13425801283": {
 "st": "review",
 "label": "In review",
@@ -2001,24 +1986,6 @@
 "client": "Sonam",
 "title": "Start A Campaign - Vertical",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13425801283"
-},
-"13420115975": {
-"st": "review",
-"label": "In review",
-"v": "V3",
-"ed": "Claire",
-"client": "Momcozy",
-"title": "MOMCOZYStreetCareerOrKids001.mp4",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13420115975"
-},
-"18231012695": {
-"st": "review",
-"label": "In review",
-"v": "V5",
-"ed": "Claire",
-"client": "CGLA | Search for Common Ground",
-"title": "2025)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/18231012695"
 },
 "13421798655": {
 "st": "review",
@@ -2039,6 +2006,25 @@
 "client": "Family Reach",
 "title": "Reach Athletes: Craig Gilliam NYC Marathon photo cut (9:16)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13497163654"
+},
+"13421783285": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-04",
+"v": "V4",
+"ed": "Claire",
+"client": "Watsi",
+"title": "NYC Sept 22 Bryant Park · Gift card: Isha — \"I'll Just Pick the First One\" (9:16, joy of giving)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13421783285"
+},
+"13178055297": {
+"st": "review",
+"label": "In review",
+"v": "V2",
+"ed": "Claire",
+"client": "Video 7",
+"title": "D8 Bottle Washer with Dad",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13178055297"
 },
 "12638008987": {
 "st": "hold",
