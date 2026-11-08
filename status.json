@@ -1,5 +1,5 @@
 {
-"synced": "2026-11-08T16:21:03Z",
+"synced": "2026-11-08T17:20:34Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
@@ -218,10 +218,11 @@
 "v": "V2"
 },
 "13077226650": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-11-12",
-"v": "V1"
+"v": "V2",
+"ed": "Claire"
 },
 "13083743550": {
 "st": "review",
@@ -981,10 +982,11 @@
 "v": "V1"
 },
 "13319733848": {
-"st": "edit",
-"label": "To edit",
+"st": "review",
+"label": "In review",
 "due": "2026-11-17",
-"v": "V1"
+"v": "V1",
+"ed": "Claire"
 },
 "13319733895": {
 "st": "revise",
@@ -1765,9 +1767,10 @@
 "v": "V3"
 },
 "13351764240": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V1"
+"st": "review",
+"label": "In review",
+"v": "V2",
+"ed": "Claire"
 },
 "12997728247": {
 "st": "review",
@@ -2180,6 +2183,24 @@
 "client": "Lions International",
 "title": "Shenzhen Friend (Traditional)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13434495110"
+},
+"13434494742": {
+"st": "review",
+"label": "In review",
+"v": "V2",
+"ed": "Claire",
+"client": "Lions International",
+"title": "Thailand Family (Traditional)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13434494742"
+},
+"13389061560": {
+"st": "review",
+"label": "In review",
+"v": "V5",
+"ed": "Claire",
+"client": "The Freedom to Choose Project",
+"title": "90_Traditional_FREEDOMTOCHOOSEHolidayLetters001-3.mp4",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13389061560"
 },
 "12638008987": {
 "st": "hold",
