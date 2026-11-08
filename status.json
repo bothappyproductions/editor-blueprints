@@ -1,5 +1,5 @@
 {
-"synced": "2026-11-08T15:20:20Z",
+"synced": "2026-11-08T16:21:03Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
@@ -178,10 +178,11 @@
 "v": "V4"
 },
 "13013928660": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-10-13",
-"v": "V3"
+"v": "V4",
+"ed": "Claire"
 },
 "13066526110": {
 "st": "closed",
@@ -636,10 +637,11 @@
 "v": "V2"
 },
 "13225675455": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-11-05",
-"v": "V1"
+"v": "V2",
+"ed": "Claire"
 },
 "13227287585": {
 "st": "closed",
@@ -1319,10 +1321,11 @@
 "v": "V1"
 },
 "13330680725": {
-"st": "edit",
-"label": "To edit",
+"st": "review",
+"label": "In review",
 "due": "2026-11-17",
-"v": "V1"
+"v": "V1",
+"ed": "Claire"
 },
 "13330680341": {
 "st": "edit",
@@ -1331,10 +1334,11 @@
 "v": "V1"
 },
 "13330680014": {
-"st": "edit",
-"label": "To edit",
+"st": "review",
+"label": "In review",
 "due": "2026-11-16",
-"v": "V1"
+"v": "V1",
+"ed": "Claire"
 },
 "13328830224": {
 "st": "review",
@@ -1372,10 +1376,11 @@
 "ed": "Claire"
 },
 "13153576741": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-11-03",
-"v": "V1"
+"v": "V2",
+"ed": "Claire"
 },
 "13083750636": {
 "st": "review",
@@ -1432,10 +1437,11 @@
 "ed": "Claire"
 },
 "12714501098": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-09-28",
-"v": "V1"
+"v": "V3",
+"ed": "Claire"
 },
 "12804928189": {
 "st": "review",
@@ -1591,9 +1597,10 @@
 "ed": "Claire"
 },
 "13252336435": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V1"
+"st": "review",
+"label": "In review",
+"v": "V2",
+"ed": "Claire"
 },
 "12727601019": {
 "st": "review",
