@@ -562,7 +562,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     let prev = null;
     for(const r of shown){
       keep.add(r.id);
-      const sig = JSON.stringify([r, readOnly, APOLLO[r.id] || null]);
+      const sig = JSON.stringify([r, readOnly, apolloEntry(r)]);
       let c = cards.get(r.id);
       const editing = c && c.el.contains(active) && active.tagName === "TEXTAREA";
       if(!c){
@@ -636,9 +636,16 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
   let APOLLO = {};
   const APOLLO_TAB = "hp-apollo";
   const AID = /^[a-f0-9]{24}$/;
-  function apolloFor(r){ const a = APOLLO[r.id]; return a && AID.test(a.c || "") ? a : null; }
+  // apollo.json = {leads: {<lead id>: {c|a|o, n, t}}, domains: {<website domain>: {o}}}. A lead entry wins;
+  // otherwise the lead's website domain picks the company Claude matched in Apollo.
+  const hostOf = (u) => String(u || "").replace(/^https?:\/\/(www\.)?/i, "").replace(/[\/?#].*$/, "").toLowerCase();
+  function apolloEntry(r){
+    const L = (APOLLO.leads || {})[r.id]; if(L) return L;
+    return (APOLLO.domains || {})[hostOf(r.website)] || {};
+  }
+  function apolloFor(r){ const a = apolloEntry(r); return AID.test(a.c || "") ? a : null; }
   function apolloLink(r){
-    const a = APOLLO[r.id] || {};
+    const a = apolloEntry(r);
     if(AID.test(a.c || "")) return {url: "https://app.apollo.io/#/contacts/" + a.c, kind: "contact", who: [a.n, a.t].filter(Boolean).join(" · ")};
     if(AID.test(a.a || "")) return {url: "https://app.apollo.io/#/accounts/" + a.a, kind: "company"};
     if(AID.test(a.o || "")) return {url: "https://app.apollo.io/#/organizations/" + a.o, kind: "company"};

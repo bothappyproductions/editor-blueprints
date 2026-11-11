@@ -5,18 +5,20 @@ The green **Call in Apollo** button on every Call Desk lead opens Apollo in one 
 1. **Contact page** when the lead has a contact in Apollo, so Rubik hits the phone icon and rings.
 2. **Company page** (account, else organization) when there's no contact, so he can call the company lines
    or pick the right person from the company's people.
-3. **Apollo company search by name** when the lead isn't mapped yet. Works with no setup.
+3. **Apollo company search by name** only for leads not matched yet (no website, or not found in Apollo).
 
 The script sheet opens on the Call Desk at the same time.
 
 ## The map: `call-desk/apollo.json`
 ```json
 {
-  "<lead id>": {"c": "<apollo contact id>", "n": "Full Name", "t": "Title"},
-  "<lead id>": {"a": "<apollo account id>"},
-  "<lead id>": {"o": "<apollo organization id>"}
+  "leads":   {"<lead id>": {"c": "<apollo contact id>", "n": "Full Name", "t": "Title"}},
+  "domains": {"<lead website domain>": {"o": "<apollo organization id>"}}
 }
 ```
+A `leads` entry wins; otherwise the lead's website domain picks its company. Company ids come from Apollo's free
+organization lookup by domain (`apollo_organizations_lookup` with `q_organization_domains_list`, 100 per call).
+Skip matches that point at a different body (a school district, police department or whole state government).
 Only Apollo ids, names and titles. **Never phone numbers or emails** — the repo is public.
 
 ## Building the map (Apollo only, no credits)
