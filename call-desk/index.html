@@ -92,6 +92,11 @@ header{display:flex;flex-direction:column;gap:6px}
 .contact .title{color:var(--muted);font-size:12.5px;margin-top:-4px}
 .line{display:flex;gap:6px;align-items:center;min-width:0}
 .line span{font-family:var(--mono);font-size:12px;overflow-wrap:anywhere;user-select:all}
+/* Nov 11: "Call in Apollo" opens the lead's Apollo contact (Rubik's dialer) in one reused tab. */
+.apollo{display:inline-flex;align-items:center;gap:6px;font:inherit;font-size:12px;font-weight:600;border:0;border-radius:999px;padding:5px 12px;background:#1f8a4c;color:#fff;cursor:pointer;text-decoration:none;white-space:nowrap}
+.apollo:hover{filter:brightness(1.08)}
+.apollo small{font-weight:500;opacity:.85}
+.rtree{font-size:11px;color:var(--muted)}
 .copy{flex:none;font:inherit;font-size:11px;border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:6px;padding:1px 7px;cursor:pointer}
 .missing{color:var(--muted);font-size:12.5px;font-style:italic}
 .work{display:flex;flex-direction:column;gap:8px}
@@ -482,11 +487,13 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     return `<div class="line"><b class="rlab">Page to send</b><span>${esc(r.sectorPage)}</span><button class="copy" type="button" data-copy="${esc(r.sectorPage)}" aria-label="Copy page link">Copy</button></div>`;
   }
   function dialHtml(r, S){
-    const rs = Array.isArray(S.routes) ? S.routes.filter(x => x && x.number) : [];
+    const raw = Array.isArray(S.routes) ? S.routes.filter(x => x && x.number) : [];
+    const rs = raw.filter(x => !isTree(x)).concat(raw.filter(isTree).map(x => Object.assign({}, x, {tree: true})));
     const mail = S.bestEmail || r.email;
-    if(!rs.length) return lineHtml(r.phone, "phone") + lineHtml(mail, "email") + pageLine(r);
-    return `<ol class="routes" aria-label="Dial plan, best first">${rs.map(x =>
-      `<li><span class="rlab">${esc(x.label || "Phone")}</span><span class="rnum">${esc(x.number)}</span><button class="copy" type="button" data-copy="${esc(x.number)}" aria-label="Copy number">Copy</button>${x.ext ? `<span class="rext">ext ${esc(x.ext)}</span>` : ""}${x.ask ? `<span class="rask">${esc(x.ask)}</span>` : ""}</li>`).join("")}</ol>` +
+    const ap = apolloBtn(r, true) ? `<div class="line">${apolloBtn(r, true)}</div>` : "";
+    if(!rs.length) return ap + lineHtml(r.phone, "phone") + lineHtml(mail, "email") + pageLine(r);
+    return ap + `<ol class="routes" aria-label="Dial plan, best first">${rs.map(x =>
+      `<li><span class="rlab">${esc(x.label || "Phone")}</span><span class="rnum">${esc(x.number)}</span><button class="copy" type="button" data-copy="${esc(x.number)}" aria-label="Copy number">Copy</button>${x.ext ? `<span class="rext">ext ${esc(x.ext)}</span>` : ""}${x.ask ? `<span class="rask">${esc(x.ask)}</span>` : ""}${x.tree ? `<span class="rtree">phone tree, last resort</span>` : ""}</li>`).join("")}</ol>` +
       lineHtml(mail, "email") + pageLine(r);
   }
 
@@ -517,10 +524,11 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
         ${r.replySummary ? `<div class="reply">${esc(r.replySummary)}</div>` : ""}
       </div>
       <div class="contact">
-        ${r.contactName ? `<div class="who">${esc(r.contactName)}</div>` : `<div class="missing">No named contact yet</div>`}
+        ${r.contactName ? `<div class="who">${esc(r.contactName)}</div>` : apolloFor(r) && apolloFor(r).n ? `<div class="who">${esc(apolloFor(r).n)}</div>` : `<div class="missing">No named contact yet</div>`}
         ${r.contactTitle ? `<div class="title">${esc(r.contactTitle)}</div>` : ""}
         ${lineHtml(r.email, "email")}
         ${lineHtml(r.phone, "phone")}
+        ${apolloBtn(r, false)}
         ${!r.email && !r.phone ? `<div class="missing">No published email or phone</div>` : ""}
         ${web ? `<a href="${esc(web)}" target="_blank" rel="noopener">${esc(new URL(web).hostname.replace(/^www\./,""))}</a>` : ""}
       </div>
@@ -554,7 +562,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     let prev = null;
     for(const r of shown){
       keep.add(r.id);
-      const sig = JSON.stringify([r, readOnly]);
+      const sig = JSON.stringify([r, readOnly, APOLLO[r.id] || null]);
       let c = cards.get(r.id);
       const editing = c && c.el.contains(active) && active.tagName === "TEXTAREA";
       if(!c){
@@ -599,6 +607,9 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
   });
   listEl.addEventListener("focusout", (ev) => { if(ev.target.tagName === "TEXTAREA") setTimeout(render, 0); });
   listEl.addEventListener("click", (ev) => {
+    // The Apollo link opens in its own tab; also open the script here so it's ready by the time they pick up.
+    const ap = ev.target.closest('[data-act="apollo"]');
+    if(ap){ const card = ap.closest("article"); if(card) openScript(card.dataset.id); return; }
     const sb = ev.target.closest('[data-act="script"]'); if(!sb) return;
     const card = sb.closest("article"); if(card) openScript(card.dataset.id);
   });
@@ -618,6 +629,20 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
   // ---------- Call script ----------
   const sheet = $("sheet"), sheetBody = $("sheet-body");
   const scriptCache = new Map();
+  // Nov 11: call-desk/apollo.json maps a lead id to the person to call and their Apollo contact. Built by the
+  // enrichment run (see call-desk/ENRICH.md): Moltsets finds the right person and a validated mobile, Apollo holds the
+  // number under Rubik. Only ids, names and titles live in this public file; phone numbers stay inside Apollo.
+  let APOLLO = {};
+  const APOLLO_TAB = "hp-apollo";
+  function apolloFor(r){ const a = APOLLO[r.id]; return a && /^[a-f0-9]{24}$/.test(a.c || "") ? a : null; }
+  function apolloBtn(r, big){
+    const a = apolloFor(r); if(!a) return "";
+    const who = [a.n, a.t].filter(Boolean).join(" · ");
+    return `<a class="apollo" href="https://app.apollo.io/#/contacts/${a.c}" target="${APOLLO_TAB}" rel="noopener" data-act="apollo" title="Opens ${esc(a.n || "this lead")} in Apollo. Hit the phone icon there to ring.">Call in Apollo${big && who ? ` <small>${esc(who)}${a.m ? " · mobile" : ""}</small>` : (a.m ? " <small>mobile</small>" : "")}</a>`;
+  }
+  // Office lines and switchboards end in phone trees; keep them, but after any direct or mobile route.
+  const TREE = /\b(main|office|front ?desk|reception|switchboard|general|org line|hotline|toll)\b/i;
+  function isTree(x){ return TREE.test(String(x.label || "")) || /press|menu|dial[- ]by[- ]name/i.test(String(x.ask || "")); }
   let repName = "Esat", openId = null;
   const DAYS = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   function bizDays(offset, n){
@@ -1104,7 +1129,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     $("sheet-eyebrow").textContent = [r.category, [r.town, r.state].filter(Boolean).join(", ")].filter(Boolean).join(" · ") || "Call script";
     $("sheet-title").textContent = r.org;
     $("sheet-who").textContent = [r.contactName, r.contactTitle].filter(Boolean).join(" · ") || "No named contact";
-    $("sheet-dial").innerHTML = lineHtml(r.phone, "phone") + lineHtml(r.email, "email");
+    $("sheet-dial").innerHTML = (apolloBtn(r, true) ? `<div class="line">${apolloBtn(r, true)}</div>` : "") + lineHtml(r.phone, "phone") + lineHtml(r.email, "email");
     $("sheet-notes").value = r.notes || "";
     $("sheet-notes").disabled = readOnly;
     $("sheet-outcomes").querySelectorAll("button").forEach(b => { b.disabled = readOnly || !db; });
@@ -1204,6 +1229,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
       render();
     }, (e) => { emptyEl.textContent = "The list stopped updating (" + ((e && e.code) || "error") + "). Reload the page."; });
   }
+  fetch("apollo.json", {cache: "no-cache"}).then(x => x.ok ? x.json() : {}).then(m => { APOLLO = m && typeof m === "object" ? m : {}; render(); }).catch(() => {});
   render();
   boot();
 })();
