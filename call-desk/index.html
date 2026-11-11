@@ -629,16 +629,29 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
   // ---------- Call script ----------
   const sheet = $("sheet"), sheetBody = $("sheet-body");
   const scriptCache = new Map();
-  // Nov 11: call-desk/apollo.json maps a lead id to the person to call and their Apollo contact. Built by the
-  // enrichment run (see call-desk/ENRICH.md): Moltsets finds the right person and a validated mobile, Apollo holds the
-  // number under Rubik. Only ids, names and titles live in this public file; phone numbers stay inside Apollo.
+  // Nov 11: "Call in Apollo" takes Rubik to the right place in Apollo to start calling.
+  // call-desk/apollo.json maps a lead id to {c: contact id, n: name, t: title} when we have a person,
+  // or {a: account id} / {o: organization id} for the company. With no entry, it falls back to an Apollo
+  // company search by the org's name. Only ids, names and titles live in this public file, never numbers.
   let APOLLO = {};
   const APOLLO_TAB = "hp-apollo";
-  function apolloFor(r){ const a = APOLLO[r.id]; return a && /^[a-f0-9]{24}$/.test(a.c || "") ? a : null; }
+  const AID = /^[a-f0-9]{24}$/;
+  function apolloFor(r){ const a = APOLLO[r.id]; return a && AID.test(a.c || "") ? a : null; }
+  function apolloLink(r){
+    const a = APOLLO[r.id] || {};
+    if(AID.test(a.c || "")) return {url: "https://app.apollo.io/#/contacts/" + a.c, kind: "contact", who: [a.n, a.t].filter(Boolean).join(" · ")};
+    if(AID.test(a.a || "")) return {url: "https://app.apollo.io/#/accounts/" + a.a, kind: "company"};
+    if(AID.test(a.o || "")) return {url: "https://app.apollo.io/#/organizations/" + a.o, kind: "company"};
+    if(!r.org) return null;
+    return {url: "https://app.apollo.io/#/companies?qOrganizationName=" + encodeURIComponent(r.org), kind: "search"};
+  }
   function apolloBtn(r, big){
-    const a = apolloFor(r); if(!a) return "";
-    const who = [a.n, a.t].filter(Boolean).join(" · ");
-    return `<a class="apollo" href="https://app.apollo.io/#/contacts/${a.c}" target="${APOLLO_TAB}" rel="noopener" data-act="apollo" title="Opens ${esc(a.n || "this lead")} in Apollo. Hit the phone icon there to ring.">Call in Apollo${big && who ? ` <small>${esc(who)}${a.m ? " · mobile" : ""}</small>` : (a.m ? " <small>mobile</small>" : "")}</a>`;
+    const L = apolloLink(r); if(!L) return "";
+    const tip = L.kind === "contact" ? `Opens ${L.who || "the contact"} in Apollo. Hit the phone icon there to ring.`
+      : L.kind === "company" ? "Opens the company in Apollo: call its lines or pick the right person from its people."
+      : "Searches Apollo for this company: open it, then call its lines or pick the right person.";
+    const sub = L.kind === "contact" ? (big && L.who ? L.who : "") : L.kind === "company" ? "company" : "find company";
+    return `<a class="apollo" href="${esc(L.url)}" target="${APOLLO_TAB}" rel="noopener" data-act="apollo" title="${esc(tip)}">Call in Apollo${sub ? ` <small>${esc(sub)}</small>` : ""}</a>`;
   }
   // Office lines and switchboards end in phone trees; keep them, but after any direct or mobile route.
   const TREE = /\b(main|office|front ?desk|reception|switchboard|general|org line|hotline|toll)\b/i;
