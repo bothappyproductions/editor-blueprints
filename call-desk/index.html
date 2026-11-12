@@ -1135,7 +1135,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
       say(`Gotcha... so from what I'm seeing, the goal for you is ${mk(goal)}.`) +
       say("Is that about right?") + cue(`Pause. Let ${first || "them"} respond.`) +
       say("We recently made Coverage at Risk, a documentary for Connecticut's Commission on Racial Equity in Public Health, helping bring an important public health issue to life through real people's stories.") +
-      say(`And for you guys, my idea was to create ${mk(lc1(offer))}${langs}${filmed ? "" : `... featuring ${esc(faces(r))}`}... real people your community already trusts.`) +
+      say(`And for you guys, my idea was to create ${mk(lc1(offer))}${langs}${filmed ? "" : `... featuring ${esc(faces(r))}`}${/trust/i.test(offer) ? "." : "... real people your community already trusts."}`) +
       (S.guarantee ? say(mk(S.guarantee)) : "") +
       say(`But I'm curious${first ? ", " + mk(first) : ""}... do you think this is something worth exploring more for y'all?`) +
       cue(`Pause. Let ${first || "them"} respond.`) +
