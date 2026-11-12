@@ -1163,6 +1163,18 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     return h;
   }
 
+  // Nov 12: rewritten script lines (program, clock, cost, promise, offer) live in Scripts records
+  // "zz-script-lines-1", "-2", ... as one {leadId: {...}} map each, laid over the lead's own script.
+  let LINES = null;
+  async function loadLines(){
+    if(LINES) return LINES;
+    const all = {};
+    for(let n = 1; n <= 20 && db; n++){
+      try{ const snap = await db.doc("scripts/zz-script-lines-" + n).get(); if(!snap.exists) break; Object.assign(all, snap.data() || {}); }
+      catch{ break; }
+    }
+    return (LINES = all);
+  }
   async function openScript(id){
     const r = rows.find(x => x.id === id); if(!r) return;
     openId = id;
@@ -1182,7 +1194,9 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
       try{ const snap = await db.doc("scripts/" + id).get(); if(snap.exists){ S = snap.data(); scriptCache.set(id, S); } }catch{}
     }
     if(openId !== id) return;
-    const SS = Object.assign(fallback(r), S || {});
+    let L = {}; try{ L = (await loadLines())[id] || {}; }catch{}
+    if(openId !== id) return;
+    const SS = Object.assign(fallback(r), S || {}, L);
     $("sheet-dial").innerHTML = dialHtml(r, SS);
     sheetBody.innerHTML = buildScript(r, SS);
     try{ linkTerms(sheetBody); }catch{}
