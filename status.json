@@ -1,5 +1,5 @@
 {
-"synced": "2026-11-14T00:20:30Z",
+"synced": "2026-11-14T02:20:25Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
@@ -79,14 +79,14 @@
 "v": "V3"
 },
 "12714476557": {
-"st": "review",
-"label": "In review",
+"st": "revise",
+"label": "Needs revisions",
 "due": "2026-10-29",
 "v": "V2"
 },
 "12714477152": {
-"st": "review",
-"label": "In review",
+"st": "revise",
+"label": "Needs revisions",
 "due": "2026-10-29",
 "v": "V2"
 },
@@ -96,8 +96,8 @@
 "due": "2026-11-05"
 },
 "12714500969": {
-"st": "review",
-"label": "In review",
+"st": "revise",
+"label": "Needs revisions",
 "due": "2026-11-05",
 "v": "V1"
 },
@@ -224,8 +224,8 @@
 "v": "V1"
 },
 "13083747867": {
-"st": "review",
-"label": "In review",
+"st": "revise",
+"label": "Needs revisions",
 "due": "2026-11-10",
 "v": "V1"
 },
@@ -319,10 +319,8 @@
 "v": "V5"
 },
 "13132979764": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-05",
-"v": "V1"
+"st": "closed",
+"label": "Archived"
 },
 "13132980256": {
 "st": "client",
@@ -391,8 +389,8 @@
 "v": "V1"
 },
 "13190024713": {
-"st": "review",
-"label": "In review",
+"st": "revise",
+"label": "Needs revisions",
 "due": "2026-11-10",
 "v": "V1"
 },
@@ -442,8 +440,8 @@
 "v": "V4"
 },
 "13203624501": {
-"st": "review",
-"label": "In review",
+"st": "revise",
+"label": "Needs revisions",
 "due": "2026-10-28",
 "v": "V4",
 "ed": "Claire"
@@ -1004,11 +1002,8 @@
 "v": "V3"
 },
 "13326050021": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-02",
-"v": "V2",
-"ed": "Claire"
+"st": "closed",
+"label": "Archived"
 },
 "13326046754": {
 "st": "client",
@@ -1021,11 +1016,8 @@
 "v": "V3"
 },
 "13326049694": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-02",
-"v": "V2",
-"ed": "Claire"
+"st": "closed",
+"label": "Archived"
 },
 "13326033763": {
 "st": "client",
@@ -1048,11 +1040,8 @@
 "v": "V3"
 },
 "13386733130": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-06",
-"v": "V2",
-"ed": "Claire"
+"st": "closed",
+"label": "Archived"
 },
 "13326048339": {
 "st": "revise",
@@ -1060,15 +1049,15 @@
 "v": "V2"
 },
 "13326048850": {
-"st": "review",
-"label": "In review",
+"st": "revise",
+"label": "Needs revisions",
 "due": "2026-11-16",
 "v": "V3",
 "ed": "Claire"
 },
 "13347176856": {
-"st": "review",
-"label": "In review",
+"st": "revise",
+"label": "Needs revisions",
 "due": "2026-11-03",
 "v": "V2"
 },
@@ -1191,8 +1180,8 @@
 "label": "Archived"
 },
 "13299663198": {
-"st": "review",
-"label": "In review",
+"st": "revise",
+"label": "Needs revisions",
 "due": "2026-11-05",
 "v": "V1"
 },
@@ -1209,10 +1198,8 @@
 "ed": "Claire"
 },
 "13425828461": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-09",
-"v": "V1"
+"st": "closed",
+"label": "Archived"
 },
 "13361239430": {
 "st": "client",
@@ -1346,21 +1333,17 @@
 "v": "V7"
 },
 "12714476457": {
-"st": "review",
-"label": "In review",
+"st": "revise",
+"label": "Needs revisions",
 "v": "V4"
 },
 "13386485946": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-06",
-"v": "V1"
+"st": "closed",
+"label": "Archived"
 },
 "13386500443": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-05",
-"v": "V1"
+"st": "closed",
+"label": "Archived"
 },
 "13432382072": {
 "st": "closed",
@@ -1589,8 +1572,8 @@
 "v": "V6"
 },
 "13237902846": {
-"st": "review",
-"label": "In review",
+"st": "revise",
+"label": "Needs revisions",
 "v": "V3"
 },
 "12714476534": {
@@ -1620,16 +1603,6 @@
 }
 },
 "extra": {
-"13531564888": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-19",
-"v": "V2",
-"ed": "Qendrim",
-"client": "Lions Seymour",
-"title": "Lions Traditional: Lion James — \"Two Years In\"",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531564888"
-},
 "13496353505": {
 "st": "review",
 "label": "In review",
@@ -1700,115 +1673,6 @@
 "title": "WSMO Nov 5: Kylie Priscilla, KP Made Me (9:16)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13520916635"
 },
-"13531565067": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-18",
-"v": "V3",
-"ed": "Qendrim",
-"client": "Lions Seymour",
-"title": "Lions Traditional: Lion Colleen — \"17 Years of Family\"",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531565067"
-},
-"13531576817": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-18",
-"v": "V3",
-"ed": "Qendrim",
-"client": "Lions Seymour",
-"title": "Lions Traditional: Lion Betsy — \"The Camaraderie of the Group\"",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531576817"
-},
-"13521945832": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-13",
-"v": "V2",
-"ed": "Qendrim",
-"client": "Lions Seymour",
-"title": "AYH Traditional: The Lion in the Lion Suit — \"Of Course I'm Happy\"",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13521945832"
-},
-"13531479376": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-13",
-"v": "V1",
-"ed": "Qendrim",
-"client": "Lions International",
-"title": "AYH Journey: \"The Dragon Show\" (Austria Leo)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531479376"
-},
-"13531482452": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-16",
-"v": "V1",
-"ed": "Qendrim",
-"client": "Lions International",
-"title": "AYH Journey: \"Small World\" (Bitola and Debar)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531482452"
-},
-"13531493057": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-16",
-"v": "V2",
-"ed": "Qendrim",
-"client": "Lions International",
-"title": "AYH Journey: \"Thai Snacks\" (Thailand Lion)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531493057"
-},
-"13531479379": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-16",
-"v": "V2",
-"ed": "Qendrim",
-"client": "Lions International",
-"title": "AYH Journey: \"One Message to the World\"",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531479379"
-},
-"13531553055": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-17",
-"v": "V2",
-"ed": "Qendrim",
-"client": "Lions Seymour",
-"title": "Journey 2: \"Lions' Choice\" (the 1968 Pontiac Safari Wagon)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531553055"
-},
-"13531575719": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-17",
-"v": "V1",
-"ed": "Qendrim",
-"client": "Lions Seymour",
-"title": "Journey 3: \"Car Show Friends\" (member compilation)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531575719"
-},
-"13457142216": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-10",
-"v": "V2",
-"ed": "Ardit",
-"client": "Learn Fresh",
-"title": "End-of-Year Reel 1: \"Make Every Hour Count\" (9:16, about 30s)",
-"link": "https://docs.google.com/document/d/14OaAKp6fWNbbK6Fayhn8SacsnhB9cZ4XzjNilZ_gEWc/edit"
-},
-"12592125644": {
-"st": "review",
-"label": "In review",
-"v": "V5",
-"ed": "Ardit",
-"client": "S4S",
-"title": "The Renaissance Girl: Thrifted Shoes + AYH",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12592125644"
-},
 "13535019642": {
 "st": "review",
 "label": "In review",
@@ -1868,6 +1732,26 @@
 "client": "Momcozy",
 "title": "Cozy Season: Alysse - While the Baby Naps, Baby Monitor (9:16)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13549039551"
+},
+"13549632287": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-16",
+"v": "V1",
+"ed": "Claire",
+"client": "Momcozy",
+"title": "Holiday: Karoline - The Quietest Gift, Air Purifier (9:16)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13549632287"
+},
+"13549774056": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-16",
+"v": "V1",
+"ed": "Claire",
+"client": "Momcozy",
+"title": "Holiday: Jess C - His Own Seat at the Table, DinerPal High Chair (9:16)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13549774056"
 },
 "12638008987": {
 "st": "hold",
@@ -2037,6 +1921,45 @@
 "title": "Nila & Jennifer Patient Story",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/12936986428"
 },
+"13531479376": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-13",
+"v": "V1",
+"ed": "Qendrim",
+"client": "Lions International",
+"title": "AYH Journey: \"The Dragon Show\" (Austria Leo)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531479376"
+},
+"12592125644": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V5",
+"ed": "Ardit",
+"client": "S4S",
+"title": "The Renaissance Girl: Thrifted Shoes + AYH",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12592125644"
+},
+"13457142216": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-10",
+"v": "V2",
+"ed": "Ardit",
+"client": "Learn Fresh",
+"title": "End-of-Year Reel 1: \"Make Every Hour Count\" (9:16, about 30s)",
+"link": "https://docs.google.com/document/d/14OaAKp6fWNbbK6Fayhn8SacsnhB9cZ4XzjNilZ_gEWc/edit"
+},
+"13531564888": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-19",
+"v": "V2",
+"ed": "Qendrim",
+"client": "Lions Seymour",
+"title": "Lions Traditional: Lion James — \"Two Years In\"",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531564888"
+},
 "10584081993": {
 "st": "edit",
 "label": "To edit",
@@ -2130,6 +2053,15 @@
 "client": "Momcozy",
 "title": "Holiday: Shannon - Air 1 The Gift I Asked For (9:16)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13549079396"
+},
+"13549702123": {
+"st": "edit",
+"label": "To edit",
+"due": "2026-11-16",
+"ed": "Claire",
+"client": "Momcozy",
+"title": "Everyday: Crystal - Five Minutes Alone, Baby Monitor (9:16)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13549702123"
 }
 }
 }
