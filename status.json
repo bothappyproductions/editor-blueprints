@@ -1,5 +1,5 @@
 {
-"synced": "2026-11-14T03:20:37Z",
+"synced": "2026-11-14T04:20:14Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
@@ -79,16 +79,16 @@
 "v": "V3"
 },
 "12714476557": {
-"st": "revise",
-"label": "Needs revisions",
-"due": "2026-10-29",
-"v": "V2"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "12714477152": {
 "st": "revise",
 "label": "Needs revisions",
 "due": "2026-10-29",
-"v": "V2"
+"v": "V3",
+"ed": "Claire"
 },
 "12714477153": {
 "st": "closed",
@@ -96,10 +96,11 @@
 "due": "2026-11-05"
 },
 "12714500969": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-11-05",
-"v": "V1"
+"v": "V2",
+"ed": "Claire"
 },
 "12714501068": {
 "st": "client",
@@ -440,11 +441,9 @@
 "v": "V4"
 },
 "13203624501": {
-"st": "review",
-"label": "In review",
-"due": "2026-10-28",
-"v": "V5",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V5"
 },
 "13212354694": {
 "st": "client",
@@ -1081,11 +1080,9 @@
 "v": "V2"
 },
 "13347156407": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-03",
-"v": "V3",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "13347176315": {
 "st": "client",
@@ -1159,11 +1156,9 @@
 "v": "V3"
 },
 "13391050680": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-12",
-"v": "V2",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13424278387": {
 "st": "client",
@@ -1603,156 +1598,6 @@
 }
 },
 "extra": {
-"13496353505": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-10",
-"v": "V2",
-"ed": "Claire",
-"client": "Homes For All South",
-"title": "Homes For All South | Profile: Día de los Muertos on the Westside",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13496353505"
-},
-"13521036274": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-12",
-"v": "V2",
-"ed": "Claire",
-"client": "WNY",
-"title": "WSMO Nov 5: Carrie, attendee (9:16)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13521036274"
-},
-"13520845856": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-12",
-"v": "V2",
-"ed": "Claire",
-"client": "WNY",
-"title": "WSMO Nov 5: Mara Hoffman, keynote speaker (9:16)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13520845856"
-},
-"13521141619": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-12",
-"v": "V2",
-"ed": "Claire",
-"client": "WNY",
-"title": "WSMO Nov 5 Interview: Siobhan Taylor, Ms Eye Candy (9:16)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13521141619"
-},
-"13520867744": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-12",
-"v": "V3",
-"ed": "Claire",
-"client": "WNY",
-"title": "WSMO Nov 5: Arlene Kaukus & Mara Hoffman, relationship story (9:16)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13520867744"
-},
-"13521165809": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-12",
-"v": "V2",
-"ed": "Claire",
-"client": "WNY",
-"title": "WSMO Nov 5: Kate Glaser, Master of Ceremonies (9:16)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13521165809"
-},
-"13520916635": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-12",
-"v": "V3",
-"ed": "Claire",
-"client": "WNY",
-"title": "WSMO Nov 5: Kylie Priscilla, KP Made Me (9:16)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13520916635"
-},
-"13535019642": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-17",
-"v": "V2",
-"ed": "Claire",
-"client": "S4S",
-"title": "Belize Orange Walk: Flourish31 store profile (16:9)",
-"link": "https://docs.google.com/document/d/12xEP_aXb-k2tA4YaT4eakoEdVNUmKb7bX8rR9LGYmAg/edit"
-},
-"13546259931": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-16",
-"v": "V1",
-"ed": "Claire",
-"client": "Momcozy",
-"title": "Holiday: Carolina - Air 1 Holiday To-Do List (9:16)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13546259931"
-},
-"13548749573": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-16",
-"v": "V1",
-"ed": "Claire",
-"client": "Momcozy",
-"title": "Sniffles Season: Marlene - Electric Nasal Aspirator (9:16)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13548749573"
-},
-"13546365523": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-16",
-"v": "V1",
-"ed": "Claire",
-"client": "Momcozy",
-"title": "Cold Season: Gabrielle - Wearable Thermometer (9:16)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13546365523"
-},
-"13548776501": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-16",
-"v": "V1",
-"ed": "Claire",
-"client": "Momcozy",
-"title": "Cozy Season: Salome - M5 Cozy Night In (9:16)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13548776501"
-},
-"13549039551": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-16",
-"v": "V1",
-"ed": "Claire",
-"client": "Momcozy",
-"title": "Cozy Season: Alysse - While the Baby Naps, Baby Monitor (9:16)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13549039551"
-},
-"13549632287": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-16",
-"v": "V1",
-"ed": "Claire",
-"client": "Momcozy",
-"title": "Holiday: Karoline - The Quietest Gift, Air Purifier (9:16)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13549632287"
-},
-"13549774056": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-16",
-"v": "V1",
-"ed": "Claire",
-"client": "Momcozy",
-"title": "Holiday: Jess C - His Own Seat at the Table, DinerPal High Chair (9:16)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13549774056"
-},
 "12638008987": {
 "st": "hold",
 "label": "On hold",
@@ -1921,16 +1766,6 @@
 "title": "Nila & Jennifer Patient Story",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/12936986428"
 },
-"13531479376": {
-"st": "revise",
-"label": "Needs revisions",
-"due": "2026-11-13",
-"v": "V1",
-"ed": "Qendrim",
-"client": "Lions International",
-"title": "AYH Journey: \"The Dragon Show\" (Austria Leo)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531479376"
-},
 "12592125644": {
 "st": "revise",
 "label": "Needs revisions",
@@ -1959,6 +1794,26 @@
 "client": "Lions Seymour",
 "title": "Lions Traditional: Lion James — \"Two Years In\"",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531564888"
+},
+"13535019642": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-17",
+"v": "V2",
+"ed": "Claire",
+"client": "S4S",
+"title": "Belize Orange Walk: Flourish31 store profile (16:9)",
+"link": "https://docs.google.com/document/d/12xEP_aXb-k2tA4YaT4eakoEdVNUmKb7bX8rR9LGYmAg/edit"
+},
+"13496353505": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-10",
+"v": "V2",
+"ed": "Claire",
+"client": "Homes For All South",
+"title": "Homes For All South | Profile: Día de los Muertos on the Westside",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13496353505"
 },
 "10584081993": {
 "st": "edit",
