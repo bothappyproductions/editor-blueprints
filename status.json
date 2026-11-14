@@ -1,5 +1,5 @@
 {
-"synced": "2026-11-14T10:20:18Z",
+"synced": "2026-11-14T12:20:05Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
@@ -453,9 +453,9 @@
 "v": "V4"
 },
 "13212946207": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V2"
+"st": "review",
+"label": "In review",
+"v": "V3"
 },
 "13212955499": {
 "st": "client",
@@ -463,9 +463,9 @@
 "v": "V2"
 },
 "13212965611": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V3"
+"st": "review",
+"label": "In review",
+"v": "V4"
 },
 "13214701919": {
 "st": "client",
@@ -599,9 +599,9 @@
 "v": "V2"
 },
 "13225675455": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V3"
+"st": "review",
+"label": "In review",
+"v": "V4"
 },
 "13227287585": {
 "st": "closed",
@@ -794,9 +794,9 @@
 "v": "V2"
 },
 "13306142977": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V3"
+"st": "review",
+"label": "In review",
+"v": "V4"
 },
 "13308121961": {
 "st": "client",
@@ -1071,10 +1071,10 @@
 "ed": "Claire"
 },
 "13347152365": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-11-04",
-"v": "V2",
+"v": "V3",
 "ed": "Claire"
 },
 "13347156222": {
@@ -1738,6 +1738,34 @@
 "client": "WNY",
 "title": "WSMO Nov 5 Interview: Kaylee Starkweather, House of Kay (9:16)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13521163144"
+},
+"11710551157": {
+"st": "review",
+"label": "In review",
+"v": "V5",
+"ed": "Claire",
+"client": "Freedom Reads",
+"title": "SanQuentinPerformanceSizzleHORIZONTAL.mp4 (Batch #7 - 2026)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/11710551157"
+},
+"11710545658": {
+"st": "review",
+"label": "In review",
+"v": "V4",
+"ed": "Claire",
+"client": "Freedom Reads",
+"title": "SanQuentinPerformanceSizzleVERTICAL.mp4 (Batch #7 - 2026)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/11710545658"
+},
+"13550681761": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-17",
+"v": "V1",
+"ed": "Claire",
+"client": "Family Reach",
+"title": "Reach Athletes: Thomas Roberts Indianapolis Marathon photo cut (9:16)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13550681761"
 },
 "12638008987": {
 "st": "hold",
