@@ -1,5 +1,5 @@
 {
-"synced": "2026-11-14T04:20:14Z",
+"synced": "2026-11-14T05:20:10Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
@@ -84,10 +84,10 @@
 "v": "V3"
 },
 "12714477152": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-10-29",
-"v": "V3",
+"v": "V4",
 "ed": "Claire"
 },
 "12714477153": {
@@ -1178,7 +1178,8 @@
 "st": "revise",
 "label": "Needs revisions",
 "due": "2026-11-05",
-"v": "V1"
+"v": "V2",
+"ed": "Claire"
 },
 "12937236907": {
 "st": "client",
@@ -1598,6 +1599,16 @@
 }
 },
 "extra": {
+"13535019642": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-17",
+"v": "V3",
+"ed": "Claire",
+"client": "S4S",
+"title": "Belize Orange Walk: Flourish31 store profile (16:9)",
+"link": "https://docs.google.com/document/d/12xEP_aXb-k2tA4YaT4eakoEdVNUmKb7bX8rR9LGYmAg/edit"
+},
 "12638008987": {
 "st": "hold",
 "label": "On hold",
@@ -1794,16 +1805,6 @@
 "client": "Lions Seymour",
 "title": "Lions Traditional: Lion James — \"Two Years In\"",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531564888"
-},
-"13535019642": {
-"st": "revise",
-"label": "Needs revisions",
-"due": "2026-11-17",
-"v": "V2",
-"ed": "Claire",
-"client": "S4S",
-"title": "Belize Orange Walk: Flourish31 store profile (16:9)",
-"link": "https://docs.google.com/document/d/12xEP_aXb-k2tA4YaT4eakoEdVNUmKb7bX8rR9LGYmAg/edit"
 },
 "13496353505": {
 "st": "revise",
