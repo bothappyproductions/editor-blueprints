@@ -1,5 +1,5 @@
 {
-"synced": "2026-11-14T13:20:18Z",
+"synced": "2026-11-14T15:20:02Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
@@ -283,9 +283,10 @@
 "ed": "Claire"
 },
 "13111812730": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V3"
+"st": "review",
+"label": "In review",
+"v": "V4",
+"ed": "Claire"
 },
 "13123142900": {
 "st": "client",
@@ -785,9 +786,10 @@
 "v": "V1"
 },
 "13306143719": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V2"
+"st": "review",
+"label": "In review",
+"v": "V3",
+"ed": "Claire"
 },
 "13306096838": {
 "st": "client",
@@ -1405,9 +1407,10 @@
 "v": "V9"
 },
 "12936997958": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V5"
+"st": "review",
+"label": "In review",
+"v": "V6",
+"ed": "Claire"
 },
 "12727625149": {
 "st": "client",
@@ -1777,6 +1780,15 @@
 "title": "FRBostonCarlaFRC002.mp4 (Batch #1 - 2026)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13133672940"
 },
+"13110106533": {
+"st": "review",
+"label": "In review",
+"v": "V3",
+"ed": "Claire",
+"client": "Family Reach",
+"title": "Side Effects · MEDICAL DEBT: \"Maria Never Missed a Bill\" (Bess, scripted short)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13110106533"
+},
 "12638008987": {
 "st": "hold",
 "label": "On hold",
@@ -1850,15 +1862,6 @@
 "client": "Family Reach",
 "title": "Side Effects · HOUSING: \"Her Family's First Home\" (Jazz, scripted short)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13111803288"
-},
-"13110106533": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V2",
-"ed": "Qendrim",
-"client": "Family Reach",
-"title": "Side Effects · MEDICAL DEBT: \"Maria Never Missed a Bill\" (Bess, scripted short)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13110106533"
 },
 "13110144020": {
 "st": "revise",
