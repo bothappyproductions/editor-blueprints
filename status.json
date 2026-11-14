@@ -1,5 +1,5 @@
 {
-"synced": "2026-11-14T19:20:28Z",
+"synced": "2026-11-14T21:20:00Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
@@ -356,10 +356,10 @@
 "v": "V2"
 },
 "13153580945": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-11-11",
-"v": "V2",
+"v": "V3",
 "ed": "Claire"
 },
 "13153585107": {
@@ -1637,6 +1637,15 @@
 "title": "V2 Logan \"Certain Stereotypes\" (Marty)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/12766970766"
 },
+"13111803288": {
+"st": "review",
+"label": "In review",
+"v": "V6",
+"ed": "Claire",
+"client": "Family Reach",
+"title": "Side Effects · HOUSING: \"Her Family's First Home\" (Jazz, scripted short)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13111803288"
+},
 "12638008987": {
 "st": "hold",
 "label": "On hold",
@@ -1664,15 +1673,6 @@
 "client": "Dream Center Dallas",
 "title": "Ethan: \"Serving People\" (Faces of the Dream Center, 9:16 reel)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13443434018"
-},
-"13111803288": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V5",
-"ed": "Claire",
-"client": "Family Reach",
-"title": "Side Effects · HOUSING: \"Her Family's First Home\" (Jazz, scripted short)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13111803288"
 },
 "10584081993": {
 "st": "edit",
