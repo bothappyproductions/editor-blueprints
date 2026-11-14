@@ -1,5 +1,5 @@
 {
-"synced": "2026-11-14T17:20:03Z",
+"synced": "2026-11-14T18:20:26Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
@@ -359,7 +359,7 @@
 "st": "revise",
 "label": "Needs revisions",
 "due": "2026-11-11",
-"v": "V1",
+"v": "V2",
 "ed": "Claire"
 },
 "13153585107": {
@@ -651,10 +651,7 @@
 "v": "V2"
 },
 "13243711760": {
-"st": "closed",
-"label": "Removed from Monday",
-"due": "2026-10-12",
-"v": "V1"
+"st": "missing"
 },
 "13243711781": {
 "st": "closed",
@@ -1041,7 +1038,7 @@
 "13326048339": {
 "st": "revise",
 "label": "Needs revisions",
-"v": "V3"
+"v": "V4"
 },
 "13326048850": {
 "st": "revise",
@@ -1634,6 +1631,52 @@
 "title": "WSMO Nov 5: Kristen Barrett, attendee (9:16)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13520816247"
 },
+"13111803288": {
+"st": "review",
+"label": "In review",
+"v": "V5",
+"ed": "Claire",
+"client": "Family Reach",
+"title": "Side Effects · HOUSING: \"Her Family's First Home\" (Jazz, scripted short)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13111803288"
+},
+"13457142216": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-10",
+"v": "V4",
+"ed": "Claire",
+"client": "Learn Fresh",
+"title": "End-of-Year Reel 1: \"Make Every Hour Count\" (9:16, about 30s)",
+"link": "https://docs.google.com/document/d/14OaAKp6fWNbbK6Fayhn8SacsnhB9cZ4XzjNilZ_gEWc/edit"
+},
+"13457100521": {
+"st": "review",
+"label": "In review",
+"v": "V3",
+"ed": "Claire",
+"client": "Learn Fresh",
+"title": "End-of-Year Reel 2: \"Everybody Should Try It\" (9:16, about 30s)",
+"link": "https://docs.google.com/document/d/14OaAKp6fWNbbK6Fayhn8SacsnhB9cZ4XzjNilZ_gEWc/edit"
+},
+"12767064531": {
+"st": "review",
+"label": "In review",
+"v": "V4",
+"ed": "Claire",
+"client": "Freedom Reads",
+"title": "V1 Logan \"Somewhere Better\" (Marty)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12767064531"
+},
+"12767064208": {
+"st": "review",
+"label": "In review",
+"v": "V2",
+"ed": "Claire",
+"client": "Freedom Reads",
+"title": "V4 Shawnee \"He Don't Even Have a Name\" (Book Censor's Library)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12767064208"
+},
 "12638008987": {
 "st": "hold",
 "label": "On hold",
@@ -1662,42 +1705,23 @@
 "title": "Ethan: \"Serving People\" (Faces of the Dream Center, 9:16 reel)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13443434018"
 },
-"13111803288": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V4",
-"ed": "Claire",
-"client": "Family Reach",
-"title": "Side Effects · HOUSING: \"Her Family's First Home\" (Jazz, scripted short)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13111803288"
-},
-"13457142216": {
-"st": "revise",
-"label": "Needs revisions",
-"due": "2026-11-10",
-"v": "V3",
-"ed": "Claire",
-"client": "Learn Fresh",
-"title": "End-of-Year Reel 1: \"Make Every Hour Count\" (9:16, about 30s)",
-"link": "https://docs.google.com/document/d/14OaAKp6fWNbbK6Fayhn8SacsnhB9cZ4XzjNilZ_gEWc/edit"
-},
-"13469559892": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V3",
-"ed": "Claire",
-"client": "Learn Fresh",
-"title": "LEARNFRESHLilahInterview002.mp4 (Batch #1 - 2026)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13469559892"
-},
-"13457100521": {
+"12766970766": {
 "st": "revise",
 "label": "Needs revisions",
 "v": "V2",
-"ed": "Claire",
-"client": "Learn Fresh",
-"title": "End-of-Year Reel 2: \"Everybody Should Try It\" (9:16, about 30s)",
-"link": "https://docs.google.com/document/d/14OaAKp6fWNbbK6Fayhn8SacsnhB9cZ4XzjNilZ_gEWc/edit"
+"ed": "Qendrim",
+"client": "Freedom Reads",
+"title": "V2 Logan \"Certain Stereotypes\" (Marty)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12766970766"
+},
+"12766948176": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V3",
+"ed": "Qendrim",
+"client": "Freedom Reads",
+"title": "V3 Shawnee \"Different Shades of Masculinity\" (Martyr!)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12766948176"
 },
 "10584081993": {
 "st": "edit",
