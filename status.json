@@ -1,5 +1,5 @@
 {
-"synced": "2026-11-14T15:20:02Z",
+"synced": "2026-11-14T16:20:09Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
@@ -277,16 +277,14 @@
 "v": "V4"
 },
 "13111807657": {
-"st": "review",
-"label": "In review",
-"v": "V2",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13111812730": {
-"st": "review",
-"label": "In review",
-"v": "V4",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V4"
 },
 "13123142900": {
 "st": "client",
@@ -435,8 +433,8 @@
 "v": "V2"
 },
 "13203611596": {
-"st": "review",
-"label": "In review",
+"st": "client",
+"label": "With client",
 "v": "V6"
 },
 "13203622763": {
@@ -455,8 +453,8 @@
 "v": "V4"
 },
 "13212946207": {
-"st": "review",
-"label": "In review",
+"st": "client",
+"label": "With client",
 "v": "V3"
 },
 "13212955499": {
@@ -465,8 +463,8 @@
 "v": "V2"
 },
 "13212965611": {
-"st": "review",
-"label": "In review",
+"st": "client",
+"label": "With client",
 "v": "V4"
 },
 "13214701919": {
@@ -475,8 +473,8 @@
 "v": "V2"
 },
 "13214701936": {
-"st": "review",
-"label": "In review",
+"st": "client",
+"label": "With client",
 "v": "V4"
 },
 "13214742981": {
@@ -601,8 +599,8 @@
 "v": "V2"
 },
 "13225675455": {
-"st": "review",
-"label": "In review",
+"st": "client",
+"label": "With client",
 "v": "V4"
 },
 "13227287585": {
@@ -786,10 +784,9 @@
 "v": "V1"
 },
 "13306143719": {
-"st": "review",
-"label": "In review",
-"v": "V3",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "13306096838": {
 "st": "client",
@@ -797,8 +794,8 @@
 "v": "V2"
 },
 "13306142977": {
-"st": "review",
-"label": "In review",
+"st": "client",
+"label": "With client",
 "v": "V4"
 },
 "13308121961": {
@@ -1048,8 +1045,8 @@
 "label": "Archived"
 },
 "13326048339": {
-"st": "review",
-"label": "In review",
+"st": "revise",
+"label": "Needs revisions",
 "v": "V3"
 },
 "13326048850": {
@@ -1096,8 +1093,8 @@
 "v": "V1"
 },
 "13347176627": {
-"st": "review",
-"label": "In review",
+"st": "client",
+"label": "With client",
 "v": "V4"
 },
 "13370128575": {
@@ -1407,10 +1404,9 @@
 "v": "V9"
 },
 "12936997958": {
-"st": "review",
-"label": "In review",
-"v": "V6",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V6"
 },
 "12727625149": {
 "st": "client",
@@ -1771,24 +1767,6 @@
 "title": "Reach Athletes: Thomas Roberts Indianapolis Marathon photo cut (9:16)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13550681761"
 },
-"13133672940": {
-"st": "review",
-"label": "In review",
-"v": "V5",
-"ed": "Claire",
-"client": "Family Reach",
-"title": "FRBostonCarlaFRC002.mp4 (Batch #1 - 2026)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13133672940"
-},
-"13110106533": {
-"st": "review",
-"label": "In review",
-"v": "V3",
-"ed": "Claire",
-"client": "Family Reach",
-"title": "Side Effects · MEDICAL DEBT: \"Maria Never Missed a Bill\" (Bess, scripted short)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13110106533"
-},
 "12638008987": {
 "st": "hold",
 "label": "On hold",
@@ -1854,42 +1832,6 @@
 "title": "FRSideEffectsTransportationSundayDrives002.mp4 (Batch #2 - 2026)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13308948399"
 },
-"13111803288": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V3",
-"ed": "Qendrim",
-"client": "Family Reach",
-"title": "Side Effects · HOUSING: \"Her Family's First Home\" (Jazz, scripted short)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13111803288"
-},
-"13110144020": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V2",
-"ed": "Qendrim",
-"client": "Family Reach",
-"title": "Side Effects · FOOD ACCESS: \"Saturday Pancakes\" (Paul & Violet, scripted short)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13110144020"
-},
-"13110196695": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V6",
-"ed": "Qendrim",
-"client": "Family Reach",
-"title": "Side Effects · UTILITIES: \"Emma's Drawing\" (Dana & Goldie, scripted short)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13110196695"
-},
-"12937035418": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V6",
-"ed": "Qendrim",
-"client": "Family Reach",
-"title": "Amiyah & Lisa Patient Story",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12937035418"
-},
 "12936986428": {
 "st": "revise",
 "label": "Needs revisions",
@@ -1898,6 +1840,15 @@
 "client": "Family Reach",
 "title": "Nila & Jennifer Patient Story",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/12936986428"
+},
+"13111803288": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V4",
+"ed": "Claire",
+"client": "Family Reach",
+"title": "Side Effects · HOUSING: \"Her Family's First Home\" (Jazz, scripted short)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13111803288"
 },
 "10584081993": {
 "st": "edit",
