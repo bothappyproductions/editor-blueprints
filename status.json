@@ -1,18 +1,15 @@
 {
-"synced": "2026-11-08T21:20:35Z",
+"synced": "2026-11-14T00:20:30Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-04",
-"v": "V4",
-"ed": "Claire"
+"st": "closed",
+"label": "Archived"
 },
 "12489939555": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-11"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "12489941840": {
 "st": "client",
@@ -20,11 +17,9 @@
 "v": "V4"
 },
 "12489943399": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-02",
-"v": "V5",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V6"
 },
 "12489943997": {
 "st": "client",
@@ -32,21 +27,18 @@
 "v": "V4"
 },
 "12489944961": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-05",
-"v": "V3",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "12489945635": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-11"
+"st": "client",
+"label": "With client",
+"v": "V1"
 },
 "12489946143": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-11"
+"st": "closed",
+"label": "Archived"
 },
 "12489946791": {
 "st": "client",
@@ -54,9 +46,8 @@
 "v": "V1"
 },
 "12489952450": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-12"
+"st": "closed",
+"label": "Archived"
 },
 "12489952938": {
 "st": "client",
@@ -64,8 +55,8 @@
 "v": "V2"
 },
 "12489953000": {
-"st": "review",
-"label": "In review",
+"st": "client",
+"label": "With client",
 "v": "V5"
 },
 "12489959941": {
@@ -130,17 +121,14 @@
 "label": "Archived"
 },
 "12937287827": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-06",
+"st": "client",
+"label": "With client",
 "v": "V1"
 },
 "12937295775": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-06",
-"v": "V3",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "12954642569": {
 "st": "client",
@@ -178,11 +166,9 @@
 "v": "V4"
 },
 "13013928660": {
-"st": "review",
-"label": "In review",
-"due": "2026-10-13",
-"v": "V4",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V5"
 },
 "13066526110": {
 "st": "closed",
@@ -218,21 +204,19 @@
 "v": "V2"
 },
 "13077226650": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-12",
-"v": "V2",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13083743550": {
-"st": "review",
-"label": "In review",
+"st": "client",
+"label": "With client",
 "v": "V2"
 },
 "13083743932": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-06"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13083743948": {
 "st": "client",
@@ -240,19 +224,19 @@
 "v": "V1"
 },
 "13083747867": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-06"
-},
-"13083748147": {
 "st": "review",
 "label": "In review",
-"due": "2026-11-02",
+"due": "2026-11-10",
+"v": "V1"
+},
+"13083748147": {
+"st": "client",
+"label": "With client",
 "v": "V1"
 },
 "13083751073": {
-"st": "review",
-"label": "In review",
+"st": "client",
+"label": "With client",
 "v": "V2"
 },
 "13083751249": {
@@ -291,14 +275,13 @@
 "v": "V4"
 },
 "13111807657": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-05",
+"st": "revise",
+"label": "Needs revisions",
 "v": "V1"
 },
 "13111812730": {
-"st": "client",
-"label": "With client",
+"st": "revise",
+"label": "Needs revisions",
 "v": "V3"
 },
 "13123142900": {
@@ -307,18 +290,14 @@
 "v": "V2"
 },
 "13123153432": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-10",
-"v": "V1",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V1"
 },
 "13123153540": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-03",
-"v": "V2",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13123155328": {
 "st": "closed",
@@ -376,25 +355,25 @@
 "v": "V3"
 },
 "13153550055": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-11"
-},
-"13153580945": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-11"
-},
-"13153585107": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-03",
+"st": "client",
+"label": "With client",
 "v": "V2"
 },
+"13153580945": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-11",
+"v": "V1",
+"ed": "Claire"
+},
+"13153585107": {
+"st": "closed",
+"label": "Archived"
+},
 "13188076855": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-12"
+"st": "client",
+"label": "With client",
+"v": "V1"
 },
 "13188114401": {
 "st": "client",
@@ -402,9 +381,9 @@
 "v": "V1"
 },
 "13190021330": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-16"
+"st": "client",
+"label": "With client",
+"v": "V1"
 },
 "13190022271": {
 "st": "client",
@@ -412,9 +391,10 @@
 "v": "V1"
 },
 "13190024713": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-06"
+"st": "review",
+"label": "In review",
+"due": "2026-11-10",
+"v": "V1"
 },
 "13190047726": {
 "st": "client",
@@ -452,22 +432,21 @@
 "v": "V2"
 },
 "13203611596": {
-"st": "review",
-"label": "In review",
-"due": "2026-10-28",
-"v": "V2"
+"st": "revise",
+"label": "Needs revisions",
+"v": "V5"
 },
 "13203622763": {
-"st": "review",
-"label": "In review",
-"due": "2026-10-28",
-"v": "V2"
+"st": "client",
+"label": "With client",
+"v": "V4"
 },
 "13203624501": {
 "st": "review",
 "label": "In review",
 "due": "2026-10-28",
-"v": "V2"
+"v": "V4",
+"ed": "Claire"
 },
 "13212354694": {
 "st": "client",
@@ -475,44 +454,34 @@
 "v": "V4"
 },
 "13212946207": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-17"
+"st": "revise",
+"label": "Needs revisions",
+"v": "V2"
 },
 "13212955499": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-17",
-"v": "V1",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13212965611": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-16",
-"v": "V1",
-"ed": "Claire"
+"st": "revise",
+"label": "Needs revisions",
+"v": "V3"
 },
 "13214701919": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-13",
-"v": "V1",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13214701936": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-13",
-"v": "V1",
-"ed": "Claire"
+"st": "revise",
+"label": "Needs revisions",
+"v": "V3"
 },
 "13214742981": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-13",
-"v": "V1",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "13221764296": {
 "st": "closed",
@@ -601,31 +570,24 @@
 "v": "V1"
 },
 "13223850425": {
-"st": "review",
-"label": "In review",
-"due": "2026-10-28",
+"st": "client",
+"label": "With client",
 "v": "V4"
 },
 "13225617796": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-06",
-"v": "V3",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V4"
 },
 "13225631908": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-05",
-"v": "V2",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "13225631990": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-05",
-"v": "V2",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "13225633452": {
 "st": "client",
@@ -638,11 +600,9 @@
 "v": "V2"
 },
 "13225675455": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-05",
-"v": "V2",
-"ed": "Claire"
+"st": "revise",
+"label": "Needs revisions",
+"v": "V3"
 },
 "13227287585": {
 "st": "closed",
@@ -658,11 +618,9 @@
 "label": "Archived"
 },
 "13234122479": {
-"st": "review",
-"label": "In review",
-"due": "2026-10-13",
-"v": "V4",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V6"
 },
 "13235848908": {
 "st": "client",
@@ -682,7 +640,7 @@
 "13243618256": {
 "st": "client",
 "label": "With client",
-"v": "V1"
+"v": "V2"
 },
 "13243662168": {
 "st": "client",
@@ -783,20 +741,19 @@
 "v": "V3"
 },
 "13282770568": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-02",
+"st": "client",
+"label": "With client",
 "v": "V2"
 },
 "13282794183": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "closed",
+"label": "Closed",
 "due": "2026-11-03",
 "v": "V1"
 },
 "13282742368": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "closed",
+"label": "Closed",
 "due": "2026-11-17",
 "v": "V1"
 },
@@ -828,22 +785,19 @@
 "v": "V1"
 },
 "13306143719": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-06",
-"v": "V1"
+"st": "revise",
+"label": "Needs revisions",
+"v": "V2"
 },
 "13306096838": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-12",
-"v": "V1"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13306142977": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-16",
-"v": "V1"
+"st": "revise",
+"label": "Needs revisions",
+"v": "V3"
 },
 "13308121961": {
 "st": "client",
@@ -851,10 +805,9 @@
 "v": "V1"
 },
 "13308129747": {
-"st": "review",
-"label": "In review",
-"due": "2026-10-29",
-"v": "V1"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13308111116": {
 "st": "client",
@@ -867,21 +820,18 @@
 "v": "V7"
 },
 "13316071232": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-12",
-"v": "V1"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "13316041364": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-12",
-"v": "V1",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "13316053939": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "closed",
+"label": "Closed",
 "due": "2026-11-03",
 "v": "V1"
 },
@@ -898,12 +848,12 @@
 "13354368479": {
 "st": "client",
 "label": "With client",
-"v": "V3"
+"v": "V4"
 },
 "13354303437": {
 "st": "client",
 "label": "With client",
-"v": "V2"
+"v": "V6"
 },
 "13354317681": {
 "st": "client",
@@ -938,59 +888,51 @@
 "v": "V1"
 },
 "13317239011": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "closed",
+"label": "Closed",
 "due": "2026-11-03",
 "v": "V1"
 },
 "13317236086": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "closed",
+"label": "Closed",
 "due": "2026-11-13",
 "v": "V1"
 },
 "13317220344": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-11",
-"v": "V1",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "13319125222": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-13",
-"v": "V1"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13319123571": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-13",
-"v": "V1",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13319113476": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "closed",
+"label": "Closed",
 "due": "2026-11-06",
 "v": "V1"
 },
 "13319733606": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-09",
-"v": "V1"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13319733848": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-17",
-"v": "V1",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13319733895": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "closed",
+"label": "Closed",
 "due": "2026-11-17",
 "v": "V1"
 },
@@ -1023,10 +965,9 @@
 "v": "V1"
 },
 "13275410585": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-04",
-"v": "V2"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "13339301834": {
 "st": "closed",
@@ -1043,165 +984,154 @@
 "v": "V1"
 },
 "13326046753": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-02",
-"v": "V2"
+"st": "client",
+"label": "With client",
+"v": "V4"
 },
 "13326076877": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-16",
+"st": "client",
+"label": "With client",
 "v": "V3"
 },
 "13326048023": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-19",
+"st": "client",
+"label": "With client",
 "v": "V3"
 },
 "13326047873": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-19",
+"st": "client",
+"label": "With client",
 "v": "V3"
 },
 "13326050021": {
 "st": "review",
 "label": "In review",
 "due": "2026-11-02",
-"v": "V1"
+"v": "V2",
+"ed": "Claire"
 },
 "13326046754": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-13",
+"st": "client",
+"label": "With client",
 "v": "V3"
 },
 "13326061750": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-16",
+"st": "client",
+"label": "With client",
 "v": "V3"
 },
 "13326049694": {
 "st": "review",
 "label": "In review",
 "due": "2026-11-02",
-"v": "V1"
+"v": "V2",
+"ed": "Claire"
 },
 "13326033763": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-19",
+"st": "client",
+"label": "With client",
 "v": "V3"
 },
 "13326048081": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-10",
+"st": "client",
+"label": "With client",
 "v": "V3"
 },
 "13326049333": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-10",
+"st": "client",
+"label": "With client",
 "v": "V3"
 },
 "13326062143": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-10",
+"st": "client",
+"label": "With client",
 "v": "V3"
 },
 "13386733130": {
 "st": "review",
 "label": "In review",
 "due": "2026-11-06",
-"v": "V1"
+"v": "V2",
+"ed": "Claire"
 },
 "13326048339": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-06",
-"v": "V1"
+"st": "revise",
+"label": "Needs revisions",
+"v": "V2"
 },
 "13326048850": {
 "st": "review",
 "label": "In review",
 "due": "2026-11-16",
-"v": "V2"
+"v": "V3",
+"ed": "Claire"
 },
 "13347176856": {
 "st": "review",
 "label": "In review",
 "due": "2026-11-03",
-"v": "V1"
+"v": "V2"
 },
 "13347156665": {
-"st": "review",
-"label": "In review",
+"st": "revise",
+"label": "Needs revisions",
 "due": "2026-11-04",
-"v": "V1"
+"v": "V2",
+"ed": "Claire"
 },
 "13347152365": {
-"st": "review",
-"label": "In review",
+"st": "revise",
+"label": "Needs revisions",
 "due": "2026-11-04",
-"v": "V1"
+"v": "V2",
+"ed": "Claire"
 },
 "13347156222": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-04",
-"v": "V1"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13347156407": {
-"st": "review",
-"label": "In review",
+"st": "revise",
+"label": "Needs revisions",
 "due": "2026-11-03",
-"v": "V1"
+"v": "V2",
+"ed": "Claire"
 },
 "13347176315": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-03",
+"st": "client",
+"label": "With client",
 "v": "V1"
 },
 "13347176627": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-12",
-"v": "V1",
-"ed": "Claire"
+"st": "revise",
+"label": "Needs revisions",
+"v": "V3"
 },
 "13370128575": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-17",
-"v": "V1"
+"st": "revise",
+"label": "Needs revisions",
+"v": "V2"
 },
 "13389717120": {
 "st": "client",
 "label": "With client",
-"v": "V1"
+"v": "V2"
 },
 "13389717678": {
 "st": "client",
 "label": "With client",
-"v": "V1"
+"v": "V2"
 },
 "13389738807": {
 "st": "client",
 "label": "With client",
-"v": "V1"
+"v": "V2"
 },
 "13389691157": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-13",
-"v": "V1",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13302082978": {
 "st": "closed",
@@ -1210,21 +1140,18 @@
 "v": "V1"
 },
 "13302111821": {
-"st": "edit",
-"label": "Editing",
-"due": "2026-11-10",
+"st": "client",
+"label": "With client",
 "v": "V1"
 },
 "13353134260": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-13",
+"st": "client",
+"label": "With client",
 "v": "V1"
 },
 "13353116822": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-13",
+"st": "client",
+"label": "With client",
 "v": "V1"
 },
 "13412186309": {
@@ -1233,24 +1160,21 @@
 "v": "V1"
 },
 "13328799358": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-10",
-"v": "V1",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "13328821336": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-09",
-"v": "V1",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "13391050680": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-17",
-"v": "V1"
+"st": "review",
+"label": "In review",
+"due": "2026-11-12",
+"v": "V2",
+"ed": "Claire"
 },
 "13424278387": {
 "st": "client",
@@ -1273,16 +1197,16 @@
 "v": "V1"
 },
 "12937236907": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-06",
+"st": "client",
+"label": "With client",
 "v": "V1"
 },
 "13361159279": {
-"st": "review",
-"label": "In review",
+"st": "revise",
+"label": "Needs revisions",
 "due": "2026-11-09",
-"v": "V1"
+"v": "V3",
+"ed": "Claire"
 },
 "13425828461": {
 "st": "review",
@@ -1291,10 +1215,9 @@
 "v": "V1"
 },
 "13361239430": {
-"st": "review",
-"label": "In review",
-"v": "V4",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V6"
 },
 "13330680112": {
 "st": "client",
@@ -1317,146 +1240,110 @@
 "v": "V4"
 },
 "13330664171": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-16",
-"v": "V1"
+"st": "closed",
+"label": "Archived"
 },
 "13330680725": {
-"st": "review",
-"label": "In review",
+"st": "revise",
+"label": "Needs revisions",
 "due": "2026-11-17",
 "v": "V1",
 "ed": "Claire"
 },
 "13330680341": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-12-15",
+"st": "client",
+"label": "With client",
 "v": "V1"
 },
 "13330680014": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-16",
-"v": "V1",
-"ed": "Claire"
-},
-"13328830224": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-09",
-"v": "V1",
-"ed": "Claire"
-},
-"13328830173": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-09",
-"v": "V1",
-"ed": "Claire"
-},
-"13328821364": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-10",
-"v": "V1",
-"ed": "Claire"
-},
-"13328811856": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-10",
-"v": "V1",
-"ed": "Claire"
-},
-"13328811898": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-18",
-"v": "V1",
-"ed": "Claire"
-},
-"13153576741": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-03",
-"v": "V2",
-"ed": "Claire"
-},
-"13083750636": {
-"st": "review",
-"label": "In review",
-"due": "2026-10-28",
-"v": "V2",
-"ed": "Claire"
-},
-"13083753003": {
-"st": "review",
-"label": "In review",
-"due": "2026-10-28",
-"v": "V2",
-"ed": "Claire"
-},
-"12891354431": {
 "st": "client",
 "label": "With client",
 "v": "V2"
 },
-"12891341937": {
-"st": "revise",
-"label": "Needs revisions",
-"due": "2026-10-09",
-"v": "V2",
-"ed": "Claire"
+"13328830224": {
+"st": "client",
+"label": "With client",
+"v": "V4"
 },
-"12997735317": {
-"st": "review",
-"label": "In review",
-"due": "2026-10-07",
-"v": "V2",
-"ed": "Claire"
-},
-"12767069937": {
-"st": "review",
-"label": "In review",
-"due": "2026-09-07",
-"v": "V5",
-"ed": "Claire"
-},
-"12767086747": {
-"st": "review",
-"label": "In review",
-"due": "2026-10-26",
-"v": "V3",
-"ed": "Claire"
-},
-"12714476488": {
-"st": "review",
-"label": "In review",
-"due": "2026-09-07",
-"v": "V6",
-"ed": "Claire"
-},
-"12714501098": {
-"st": "review",
-"label": "In review",
-"due": "2026-09-28",
-"v": "V3",
-"ed": "Claire"
-},
-"12804928189": {
-"st": "review",
-"label": "In review",
-"due": "2026-08-24",
+"13328830173": {
+"st": "client",
+"label": "With client",
 "v": "V3"
 },
+"13328821364": {
+"st": "client",
+"label": "With client",
+"v": "V4"
+},
+"13328811856": {
+"st": "client",
+"label": "With client",
+"v": "V4"
+},
+"13328811898": {
+"st": "client",
+"label": "With client",
+"v": "V3"
+},
+"13153576741": {
+"st": "client",
+"label": "With client",
+"v": "V4"
+},
+"13083750636": {
+"st": "client",
+"label": "With client",
+"v": "V2"
+},
+"13083753003": {
+"st": "client",
+"label": "With client",
+"v": "V2"
+},
+"12891354431": {
+"st": "client",
+"label": "With client",
+"v": "V4"
+},
+"12891341937": {
+"st": "client",
+"label": "With client",
+"v": "V5"
+},
+"12997735317": {
+"st": "client",
+"label": "With client",
+"v": "V3"
+},
+"12767069937": {
+"st": "client",
+"label": "With client",
+"v": "V6"
+},
+"12767086747": {
+"st": "client",
+"label": "With client",
+"v": "V6"
+},
+"12714476488": {
+"st": "client",
+"label": "With client",
+"v": "V7"
+},
+"12714501098": {
+"st": "client",
+"label": "With client",
+"v": "V3"
+},
+"12804928189": {
+"st": "client",
+"label": "With client",
+"v": "V7"
+},
 "12666660159": {
-"st": "review",
-"label": "In review",
-"due": "2026-09-23",
-"v": "V5",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V7"
 },
 "12714476457": {
 "st": "review",
@@ -1476,10 +1363,8 @@
 "v": "V1"
 },
 "13432382072": {
-"st": "review",
-"label": "In review",
-"due": "2026-10-30",
-"v": "V1"
+"st": "closed",
+"label": "Archived"
 },
 "12950146109": {
 "st": "edit",
@@ -1507,10 +1392,9 @@
 "v": "V2"
 },
 "18231033514": {
-"st": "review",
-"label": "In review",
-"v": "V5",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V5"
 },
 "13412205523": {
 "st": "client",
@@ -1518,10 +1402,9 @@
 "v": "V1"
 },
 "13304671686": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-09",
-"v": "V1"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "12937285887": {
 "st": "client",
@@ -1539,37 +1422,29 @@
 "v": "V9"
 },
 "12936997958": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V5"
+},
+"12727625149": {
 "st": "client",
 "label": "With client",
 "v": "V5"
 },
-"12727625149": {
-"st": "review",
-"label": "In review",
-"due": "2026-09-01",
-"v": "V4",
-"ed": "Claire"
-},
 "13385185147": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-04",
-"v": "V3",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V5"
 },
 "12727618238": {
-"st": "review",
-"label": "In review",
-"due": "2026-09-08",
-"v": "V4",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V5"
 },
 "12727618253": {
-"st": "review",
-"label": "In review",
-"due": "2026-09-24",
-"v": "V3",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V7"
 },
 "13073098439": {
 "st": "hold",
@@ -1577,14 +1452,13 @@
 "note": "Staff 'one word job description' footage"
 },
 "13336213936": {
-"st": "edit",
-"label": "To edit",
-"due": "2026-11-09"
+"st": "client",
+"label": "With client",
+"v": "V4"
 },
 "12727618241": {
-"st": "review",
-"label": "In review",
-"due": "2026-09-08",
+"st": "client",
+"label": "With client",
 "v": "V4"
 },
 "12731596620": {
@@ -1593,26 +1467,23 @@
 "v": "V4"
 },
 "13252339711": {
-"st": "review",
-"label": "In review",
-"v": "V2",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V2"
 },
 "13252336435": {
-"st": "review",
-"label": "In review",
-"v": "V2",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V4"
 },
 "12727601019": {
-"st": "review",
-"label": "In review",
-"v": "V7",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V8"
 },
 "12489939504": {
-"st": "review",
-"label": "In review",
+"st": "client",
+"label": "With client",
 "v": "V4"
 },
 "13287615260": {
@@ -1621,31 +1492,21 @@
 "v": "V1"
 },
 "12489952052": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-05",
-"v": "V9",
-"ed": "Claire"
+"st": "closed",
+"label": "Archived"
 },
 "12489915356": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-03",
-"v": "V11",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V11"
 },
 "12396146684": {
-"st": "review",
-"label": "In review",
-"due": "2026-08-19",
-"v": "V4",
-"ed": "Claire"
+"st": "closed",
+"label": "Archived"
 },
 "12396130190": {
-"st": "review",
-"label": "In review",
-"due": "2026-09-01",
-"v": "V4"
+"st": "closed",
+"label": "Archived"
 },
 "12758007252": {
 "st": "client",
@@ -1657,32 +1518,26 @@
 "label": "Archived"
 },
 "12891377964": {
-"st": "review",
-"label": "In review",
-"due": "2026-10-12",
-"v": "V1"
+"st": "closed",
+"label": "Archived"
 },
 "12396605627": {
-"st": "review",
-"label": "In review",
-"v": "V6",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V7"
 },
 "12489813219": {
-"st": "review",
-"label": "In review",
-"v": "V2"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "12489846602": {
-"st": "review",
-"label": "In review",
-"v": "V1"
+"st": "closed",
+"label": "Archived"
 },
 "13412102343": {
-"st": "review",
-"label": "In review",
-"due": "2026-10-30",
-"v": "V2"
+"st": "closed",
+"label": "Archived"
 },
 "12767071313": {
 "st": "client",
@@ -1690,60 +1545,48 @@
 "v": "V4"
 },
 "12867196117": {
-"st": "review",
-"label": "In review",
-"due": "2026-10-27",
-"v": "V5",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V6"
 },
 "12925038428": {
-"st": "review",
-"label": "In review",
-"v": "V3",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "12767095358": {
-"st": "review",
-"label": "In review",
-"due": "2026-08-27",
-"v": "V6",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V6"
 },
 "12767071335": {
-"st": "review",
-"label": "In review",
-"v": "V4",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V4"
 },
 "12925071020": {
-"st": "review",
-"label": "In review",
-"v": "V5",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V5"
 },
 "12925052298": {
-"st": "review",
-"label": "In review",
-"v": "V5",
-"ed": "Claire"
+"st": "closed",
+"label": "Archived"
 },
 "12767085287": {
-"st": "review",
-"label": "In review",
-"v": "V5",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V6"
 },
 "12767044920": {
-"st": "review",
-"label": "In review",
-"v": "V5",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V6"
 },
 "12767085390": {
-"st": "review",
-"label": "In review",
-"v": "V6",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V6"
 },
 "13237902846": {
 "st": "review",
@@ -1751,10 +1594,9 @@
 "v": "V3"
 },
 "12714476534": {
-"st": "review",
-"label": "In review",
-"due": "2026-10-05",
-"v": "V5"
+"st": "client",
+"label": "With client",
+"v": "V6"
 },
 "13123147560": {
 "st": "client",
@@ -1767,449 +1609,265 @@
 "v": "V3"
 },
 "13351764240": {
-"st": "review",
-"label": "In review",
-"v": "V2",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V3"
 },
 "12997728247": {
-"st": "review",
-"label": "In review",
-"v": "V5",
-"ed": "Claire"
+"st": "client",
+"label": "With client",
+"v": "V7"
 }
 },
 "extra": {
-"13133672940": {
+"13531564888": {
 "st": "review",
 "label": "In review",
-"v": "V4",
-"ed": "Qendrim",
-"client": "Family Reach",
-"title": "FRBostonCarlaFRC002.mp4 (Batch #1 - 2026)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13133672940"
-},
-"13466632750": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-12",
-"v": "V1",
-"ed": "Atdhe",
-"client": "Family Reach",
-"title": "Hope for the Holidays: tile TikToks (patient tile + H4H brand/quote-stat tiles, 9:16, end card to familyreach.org/holidays)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13466632750"
-},
-"13466560569": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-20",
-"v": "V1",
-"ed": "Atdhe",
-"client": "Family Reach",
-"title": "Giving Tuesday 2026: 50 State Challenge + 30 Years / 30 Minute Blitz tile TikToks (9:16, end card to familyreach.org/holidays)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13466560569"
-},
-"13348422725": {
-"st": "review",
-"label": "In review",
-"v": "V6",
-"ed": "Claire",
-"client": "Worldreader",
-"title": "US (English) Reel: Global Families Shell (9:16, 25-30s)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13348422725"
-},
-"13310242599": {
-"st": "review",
-"label": "In review",
-"due": "2026-10-21",
+"due": "2026-11-19",
 "v": "V2",
-"ed": "Bleron",
-"client": "MHA",
-"title": "MHABarbaraSchmidEditorChoice001.mp4 (Batch #1 - 2026)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13310242599"
-},
-"13487877716": {
-"st": "review",
-"label": "In review",
-"v": "V3",
 "ed": "Qendrim",
-"client": "Americans for Immigrant Justice",
-"title": "PaulFearlessGalaVideo2.mp4 (Batch #2 - 2026)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13487877716"
-},
-"13083760120": {
-"st": "review",
-"label": "In review",
-"v": "V3",
-"ed": "Bleron",
-"client": "MHA",
-"title": "Story of Hope: Morgan Witherspoon & Adrian — \"Hope Is a Way Out\" (Sept 2026 shoot, Day 1)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13083760120"
-},
-"12489947070": {
-"st": "review",
-"label": "In review",
-"v": "V9",
-"ed": "Bleron",
-"client": "Lions International",
-"title": "Connecticut Lion (Traditional)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12489947070"
-},
-"13149966262": {
-"st": "review",
-"label": "In review",
-"v": "V4",
-"ed": "Claire",
-"client": "Family Reach",
-"title": "Kristen & Paisley: vertical social cut (9:16, ≤1:30, from FRBostonKristenPaisley001)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13149966262"
-},
-"13140305749": {
-"st": "review",
-"label": "In review",
-"v": "V5",
-"ed": "Claire",
-"client": "Family Reach",
-"title": "Queue Management Emails: Intro + Zip Code Search Tool + Closing (client clips, captions + start/end card)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13140305749"
-},
-"13496290370": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-10",
-"v": "V1",
-"ed": "Claire",
-"client": "Family Reach",
-"title": "Carla Tardif FRC: vertical social snippets (3x 9:16)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13496290370"
-},
-"13467230438": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-09",
-"v": "V5",
-"ed": "Claire",
-"client": "The Freedom to Choose Project",
-"title": "90_Traditional_FREEDOMTOCHOOSENowWhat001-5.mp4",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13467230438"
-},
-"13389092296": {
-"st": "review",
-"label": "In review",
-"v": "V4",
-"ed": "Claire",
-"client": "The Freedom to Choose Project",
-"title": "90_Traditional_FREEDOMTOCHOOSEAlumniNow001-4.mp4",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13389092296"
-},
-"13496431872": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-10",
-"v": "V1",
-"ed": "Claire",
-"client": "Homes For All South",
-"title": "Homes For All South | I Love Public Housing: Richard Aguilar (9:16)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13496431872"
-},
-"12441576221": {
-"st": "review",
-"label": "In review",
-"v": "V4",
-"ed": "Claire",
-"client": "MHA",
-"title": "MHAHouseDocumentaryConcept.mp4",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12441576221"
-},
-"13496416301": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-10",
-"v": "V1",
-"ed": "Claire",
-"client": "Homes For All South",
-"title": "Homes For All South | Día de los Muertos Recap (60-90 s, 9:16)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13496416301"
-},
-"13496404017": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-10",
-"v": "V1",
-"ed": "Claire",
-"client": "Homes For All South",
-"title": "Homes For All South | Mujer Artes: Culture Piece",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13496404017"
-},
-"13496444797": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-10",
-"v": "V1",
-"ed": "Claire",
-"client": "Homes For All South",
-"title": "Homes For All South | Museo del Westside: Culture Piece (9:16)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13496444797"
-},
-"13447455494": {
-"st": "review",
-"label": "In review",
-"v": "V4",
-"ed": "Claire",
-"client": "Dream Center Dallas",
-"title": "DreamCenterDallasThanksgivingGive50001.mp4 (Batch #1 - 2026)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13447455494"
-},
-"13447433742": {
-"st": "review",
-"label": "In review",
-"v": "V3",
-"ed": "Claire",
-"client": "Dream Center Dallas",
-"title": "DreamCenterDallasDidYouKnowShareSave001.mp4 (Batch #1 - 2026)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13447433742"
-},
-"13447457673": {
-"st": "review",
-"label": "In review",
-"v": "V3",
-"ed": "Claire",
-"client": "Dream Center Dallas",
-"title": "DreamCenterDallasThanksgivingRecap001.mp4 (Batch #1 - 2026)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13447457673"
-},
-"13496553836": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-10",
-"v": "V1",
-"ed": "Claire",
-"client": "Homes For All South",
-"title": "Homes For All South | Know Your Rights: Tenants & ICE (9:16)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13496553836"
-},
-"13447441312": {
-"st": "review",
-"label": "In review",
-"v": "V3",
-"ed": "Claire",
-"client": "Dream Center Dallas",
-"title": "DreamCenterDallasWhyWeDo001.mp4 (Batch #1 - 2026)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13447441312"
-},
-"13496650364": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-10",
-"v": "V1",
-"ed": "Claire",
-"client": "Homes For All South",
-"title": "Homes For All South | Are You Happy Collab (9:16)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13496650364"
-},
-"13495387737": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-07",
-"v": "V2",
-"ed": "Claire",
-"client": "Happy Productions",
-"title": "New England Dairy spec sample: The Breakfast Gap (animated, 9:16)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13495387737"
+"client": "Lions Seymour",
+"title": "Lions Traditional: Lion James — \"Two Years In\"",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531564888"
 },
 "13496353505": {
 "st": "review",
 "label": "In review",
 "due": "2026-11-10",
-"v": "V1",
+"v": "V2",
 "ed": "Claire",
 "client": "Homes For All South",
 "title": "Homes For All South | Profile: Día de los Muertos on the Westside",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13496353505"
 },
-"13425801283": {
+"13521036274": {
 "st": "review",
 "label": "In review",
-"v": "V3",
+"due": "2026-11-12",
+"v": "V2",
 "ed": "Claire",
-"client": "Sonam",
-"title": "Start A Campaign - Vertical",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13425801283"
+"client": "WNY",
+"title": "WSMO Nov 5: Carrie, attendee (9:16)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13521036274"
 },
-"13421798655": {
+"13520845856": {
 "st": "review",
 "label": "In review",
-"due": "2026-11-04",
+"due": "2026-11-12",
+"v": "V2",
+"ed": "Claire",
+"client": "WNY",
+"title": "WSMO Nov 5: Mara Hoffman, keynote speaker (9:16)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13520845856"
+},
+"13521141619": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-12",
+"v": "V2",
+"ed": "Claire",
+"client": "WNY",
+"title": "WSMO Nov 5 Interview: Siobhan Taylor, Ms Eye Candy (9:16)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13521141619"
+},
+"13520867744": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-12",
 "v": "V3",
 "ed": "Claire",
-"client": "Watsi",
-"title": "NYC Sept 22 Bryant Park · Gift card: Jai & Josephine — \"New York Wi-Fi\" (9:16, joy of giving)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13421798655"
+"client": "WNY",
+"title": "WSMO Nov 5: Arlene Kaukus & Mara Hoffman, relationship story (9:16)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13520867744"
 },
-"13497163654": {
+"13521165809": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-12",
+"v": "V2",
+"ed": "Claire",
+"client": "WNY",
+"title": "WSMO Nov 5: Kate Glaser, Master of Ceremonies (9:16)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13521165809"
+},
+"13520916635": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-12",
+"v": "V3",
+"ed": "Claire",
+"client": "WNY",
+"title": "WSMO Nov 5: Kylie Priscilla, KP Made Me (9:16)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13520916635"
+},
+"13531565067": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-18",
+"v": "V3",
+"ed": "Qendrim",
+"client": "Lions Seymour",
+"title": "Lions Traditional: Lion Colleen — \"17 Years of Family\"",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531565067"
+},
+"13531576817": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-18",
+"v": "V3",
+"ed": "Qendrim",
+"client": "Lions Seymour",
+"title": "Lions Traditional: Lion Betsy — \"The Camaraderie of the Group\"",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531576817"
+},
+"13521945832": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-13",
+"v": "V2",
+"ed": "Qendrim",
+"client": "Lions Seymour",
+"title": "AYH Traditional: The Lion in the Lion Suit — \"Of Course I'm Happy\"",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13521945832"
+},
+"13531479376": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-13",
+"v": "V1",
+"ed": "Qendrim",
+"client": "Lions International",
+"title": "AYH Journey: \"The Dragon Show\" (Austria Leo)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531479376"
+},
+"13531482452": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-16",
+"v": "V1",
+"ed": "Qendrim",
+"client": "Lions International",
+"title": "AYH Journey: \"Small World\" (Bitola and Debar)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531482452"
+},
+"13531493057": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-16",
+"v": "V2",
+"ed": "Qendrim",
+"client": "Lions International",
+"title": "AYH Journey: \"Thai Snacks\" (Thailand Lion)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531493057"
+},
+"13531479379": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-16",
+"v": "V2",
+"ed": "Qendrim",
+"client": "Lions International",
+"title": "AYH Journey: \"One Message to the World\"",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531479379"
+},
+"13531553055": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-17",
+"v": "V2",
+"ed": "Qendrim",
+"client": "Lions Seymour",
+"title": "Journey 2: \"Lions' Choice\" (the 1968 Pontiac Safari Wagon)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531553055"
+},
+"13531575719": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-17",
+"v": "V1",
+"ed": "Qendrim",
+"client": "Lions Seymour",
+"title": "Journey 3: \"Car Show Friends\" (member compilation)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531575719"
+},
+"13457142216": {
 "st": "review",
 "label": "In review",
 "due": "2026-11-10",
+"v": "V2",
+"ed": "Ardit",
+"client": "Learn Fresh",
+"title": "End-of-Year Reel 1: \"Make Every Hour Count\" (9:16, about 30s)",
+"link": "https://docs.google.com/document/d/14OaAKp6fWNbbK6Fayhn8SacsnhB9cZ4XzjNilZ_gEWc/edit"
+},
+"12592125644": {
+"st": "review",
+"label": "In review",
+"v": "V5",
+"ed": "Ardit",
+"client": "S4S",
+"title": "The Renaissance Girl: Thrifted Shoes + AYH",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12592125644"
+},
+"13535019642": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-17",
+"v": "V2",
+"ed": "Claire",
+"client": "S4S",
+"title": "Belize Orange Walk: Flourish31 store profile (16:9)",
+"link": "https://docs.google.com/document/d/12xEP_aXb-k2tA4YaT4eakoEdVNUmKb7bX8rR9LGYmAg/edit"
+},
+"13546259931": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-16",
 "v": "V1",
 "ed": "Claire",
-"client": "Family Reach",
-"title": "Reach Athletes: Craig Gilliam NYC Marathon photo cut (9:16)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13497163654"
+"client": "Momcozy",
+"title": "Holiday: Carolina - Air 1 Holiday To-Do List (9:16)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13546259931"
 },
-"13421783285": {
+"13548749573": {
 "st": "review",
 "label": "In review",
-"due": "2026-11-04",
-"v": "V4",
-"ed": "Claire",
-"client": "Watsi",
-"title": "NYC Sept 22 Bryant Park · Gift card: Isha — \"I'll Just Pick the First One\" (9:16, joy of giving)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13421783285"
-},
-"13178055297": {
-"st": "review",
-"label": "In review",
-"v": "V2",
-"ed": "Claire",
-"client": "Video 7",
-"title": "D8 Bottle Washer with Dad",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13178055297"
-},
-"11427495496": {
-"st": "review",
-"label": "In review",
-"v": "V12",
-"ed": "Claire",
-"client": "Soles4Souls",
-"title": "NationalGeographicS4S.mp4",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/11427495496"
-},
-"13497395526": {
-"st": "review",
-"label": "In review",
-"due": "2026-11-10",
+"due": "2026-11-16",
 "v": "V1",
 "ed": "Claire",
-"client": "Soles4Souls",
-"title": "NationalGeographicS4S Part 2 Marketing.mp4",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13497395526"
+"client": "Momcozy",
+"title": "Sniffles Season: Marlene - Electric Nasal Aspirator (9:16)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13548749573"
 },
-"13443434018": {
+"13546365523": {
 "st": "review",
 "label": "In review",
-"v": "V3",
+"due": "2026-11-16",
+"v": "V1",
 "ed": "Claire",
-"client": "Dream Center Dallas",
-"title": "Ethan: \"Serving People\" (Faces of the Dream Center, 9:16 reel)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13443434018"
+"client": "Momcozy",
+"title": "Cold Season: Gabrielle - Wearable Thermometer (9:16)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13546365523"
 },
-"13389037097": {
+"13548776501": {
 "st": "review",
 "label": "In review",
-"v": "V4",
+"due": "2026-11-16",
+"v": "V1",
 "ed": "Claire",
-"client": "The Freedom to Choose Project",
-"title": "90_Traditional_FREEDOMTOCHOOSEVolunteerHoliday001-4.mp4",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13389037097"
+"client": "Momcozy",
+"title": "Cozy Season: Salome - M5 Cozy Night In (9:16)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13548776501"
 },
-"13389060607": {
+"13549039551": {
 "st": "review",
 "label": "In review",
-"v": "V5",
+"due": "2026-11-16",
+"v": "V1",
 "ed": "Claire",
-"client": "The Freedom to Choose Project",
-"title": "90_Traditional_FREEDOMTOCHOOSEFutureWorthInvesting001-5.mp4",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13389060607"
-},
-"13389067350": {
-"st": "review",
-"label": "In review",
-"v": "V5",
-"ed": "Claire",
-"client": "The Freedom to Choose Project",
-"title": "90_Traditional_FREEDOMTOCHOOSEFirstTimeHeard001-5.mp4",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13389067350"
-},
-"13389081968": {
-"st": "review",
-"label": "In review",
-"v": "V3",
-"ed": "Claire",
-"client": "The Freedom to Choose Project",
-"title": "90_Traditional_FREEDOMTOCHOOSEYearInReview001-3.mp4",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13389081968"
-},
-"13389060018": {
-"st": "review",
-"label": "In review",
-"v": "V4",
-"ed": "Claire",
-"client": "The Freedom to Choose Project",
-"title": "90_Traditional_FREEDOMTOCHOOSEWhereYourDollarsGo002-4.mp4",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13389060018"
-},
-"13389061582": {
-"st": "review",
-"label": "In review",
-"v": "V4",
-"ed": "Claire",
-"client": "The Freedom to Choose Project",
-"title": "90_Traditional_FREEDOMTOCHOOSEFreshStart001-4.mp4",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13389061582"
-},
-"13389060549": {
-"st": "review",
-"label": "In review",
-"v": "V6",
-"ed": "Claire",
-"client": "The Freedom to Choose Project",
-"title": "90_Traditional_FREEDOMTOCHOOSETwentyTwoYears001-4.mp4",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13389060549"
-},
-"13389060858": {
-"st": "review",
-"label": "In review",
-"v": "V4",
-"ed": "Claire",
-"client": "The Freedom to Choose Project",
-"title": "90_Traditional_FREEDOMTOCHOOSEVolunteerVoices001-4.mp4",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13389060858"
-},
-"13434495110": {
-"st": "review",
-"label": "In review",
-"v": "V2",
-"ed": "Claire",
-"client": "Lions International",
-"title": "Shenzhen Friend (Traditional)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13434495110"
-},
-"13434494742": {
-"st": "review",
-"label": "In review",
-"v": "V2",
-"ed": "Claire",
-"client": "Lions International",
-"title": "Thailand Family (Traditional)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13434494742"
-},
-"13389061560": {
-"st": "review",
-"label": "In review",
-"v": "V5",
-"ed": "Claire",
-"client": "The Freedom to Choose Project",
-"title": "90_Traditional_FREEDOMTOCHOOSEHolidayLetters001-3.mp4",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13389061560"
-},
-"13389059613": {
-"st": "review",
-"label": "In review",
-"v": "V5",
-"ed": "Claire",
-"client": "The Freedom to Choose Project",
-"title": "90_Traditional_FREEDOMTOCHOOSEInsideIAG001-3.mp4",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13389059613"
+"client": "Momcozy",
+"title": "Cozy Season: Alysse - While the Baby Naps, Baby Monitor (9:16)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13549039551"
 },
 "12638008987": {
 "st": "hold",
@@ -2221,42 +1879,6 @@
 "title": "CASS Captioned Video Recut (Zsirai 7/25)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/12638008987"
 },
-"12624620383": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V3",
-"ed": "Ardit",
-"client": "Soles4Souls",
-"title": "S4S Shoes On Car Trend Video",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12624620383"
-},
-"12777897545": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V2",
-"ed": "Ardit",
-"client": "Soles4Souls",
-"title": "S4SShoesOnCarTrend002.mp4",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12777897545"
-},
-"12592125644": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V3",
-"ed": "Ardit",
-"client": "S4S",
-"title": "The Renaissance Girl: Thrifted Shoes + AYH",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12592125644"
-},
-"13462484451": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V3",
-"ed": "Bleron",
-"client": "CASS",
-"title": "Narcan Info: add end-screen VO (\"When in Doubt, Administer Narcan\")",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13462484451"
-},
 "13491242304": {
 "st": "revise",
 "label": "Needs revisions",
@@ -2265,6 +1887,155 @@
 "client": "NOV",
 "title": "Giving ShoesDay 2026: Pie Video 3 ALT - Missed-goal version (post 2 Dec if goal is missed, 9:16, ~22s)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13491242304"
+},
+"13443434018": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V3",
+"ed": "Claire",
+"client": "Dream Center Dallas",
+"title": "Ethan: \"Serving People\" (Faces of the Dream Center, 9:16 reel)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13443434018"
+},
+"13520816247": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-12",
+"v": "V1",
+"ed": "Claire",
+"client": "WNY",
+"title": "WSMO Nov 5: Kristen Barrett, attendee (9:16)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13520816247"
+},
+"13521163144": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-11",
+"v": "V1",
+"ed": "Claire",
+"client": "WNY",
+"title": "WSMO Nov 5 Interview: Kaylee Starkweather, House of Kay (9:16)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13521163144"
+},
+"13531249454": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-18",
+"v": "V1",
+"ed": "Claire",
+"client": "Baitulmaal",
+"title": "Somalia: A Teacher on Teaching Orphans (9:16)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531249454"
+},
+"13520873698": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-12",
+"v": "V2",
+"ed": "Claire",
+"client": "WNY",
+"title": "WSMO Nov 5: Jennifer Bronstein, Half & Half (9:16)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13520873698"
+},
+"13545905474": {
+"st": "revise",
+"label": "Needs revisions",
+"due": "2026-11-17",
+"v": "V1",
+"ed": "Claire",
+"client": "One Love",
+"title": "Love Labyrinth: social trailer (9:16)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13545905474"
+},
+"13133672940": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V4",
+"ed": "Qendrim",
+"client": "Family Reach",
+"title": "FRBostonCarlaFRC002.mp4 (Batch #1 - 2026)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13133672940"
+},
+"13384909036": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V5",
+"ed": "Qendrim",
+"client": "Family Reach",
+"title": "Side Effects · FOOD ACCESS: \"Saturday Pancakes\" :60 CTV cut (16:9, extended B-roll, from FRSideEffectsFoodAccessPancakes001)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13384909036"
+},
+"13328799923": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V4",
+"ed": "Qendrim",
+"client": "Family Reach",
+"title": "Side Effects · UTILITIES: \"Lights Out\" (Brandon & Gavin, scripted short)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13328799923"
+},
+"13308948399": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V2",
+"ed": "Qendrim",
+"client": "Family Reach",
+"title": "FRSideEffectsTransportationSundayDrives002.mp4 (Batch #2 - 2026)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13308948399"
+},
+"13111803288": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V3",
+"ed": "Qendrim",
+"client": "Family Reach",
+"title": "Side Effects · HOUSING: \"Her Family's First Home\" (Jazz, scripted short)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13111803288"
+},
+"13110106533": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V2",
+"ed": "Qendrim",
+"client": "Family Reach",
+"title": "Side Effects · MEDICAL DEBT: \"Maria Never Missed a Bill\" (Bess, scripted short)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13110106533"
+},
+"13110144020": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V2",
+"ed": "Qendrim",
+"client": "Family Reach",
+"title": "Side Effects · FOOD ACCESS: \"Saturday Pancakes\" (Paul & Violet, scripted short)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13110144020"
+},
+"13110196695": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V6",
+"ed": "Qendrim",
+"client": "Family Reach",
+"title": "Side Effects · UTILITIES: \"Emma's Drawing\" (Dana & Goldie, scripted short)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13110196695"
+},
+"12937035418": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V6",
+"ed": "Qendrim",
+"client": "Family Reach",
+"title": "Amiyah & Lisa Patient Story",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12937035418"
+},
+"12936986428": {
+"st": "revise",
+"label": "Needs revisions",
+"v": "V6",
+"ed": "Qendrim",
+"client": "Family Reach",
+"title": "Nila & Jennifer Patient Story",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/12936986428"
 },
 "10584081993": {
 "st": "edit",
@@ -2285,6 +2056,7 @@
 "13188788568": {
 "st": "edit",
 "label": "To edit",
+"due": "2026-11-16",
 "ed": "Ardit",
 "client": "YCDIF",
 "title": "ARA donor-event short-forms (from $2,500 credit, 10–15 total edits)",
@@ -2293,6 +2065,7 @@
 "13188802174": {
 "st": "edit",
 "label": "To edit",
+"due": "2026-11-16",
 "ed": "Ardit",
 "client": "YCDIF",
 "title": "OCEF campaign short-forms (from $2,500 credit, 10–15 total edits)",
@@ -2301,6 +2074,7 @@
 "13188811487": {
 "st": "edit",
 "label": "To edit",
+"due": "2026-11-13",
 "ed": "Ardit",
 "client": "YCDIF",
 "title": "Podcast short-forms (from $2,500 credit, 10–15 total edits)",
@@ -2339,25 +2113,23 @@
 "title": "Colombia Oct 20: Mackinnon thank-you — Universal Fund community (off the cuff)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13299701519"
 },
-"13457142216": {
+"13534993972": {
 "st": "edit",
 "label": "To edit",
-"due": "2026-11-10",
-"v": "V1",
+"due": "2026-11-19",
 "ed": "Ardit",
-"client": "Learn Fresh",
-"title": "End-of-Year Reel 1: \"Make Every Hour Count\" (9:16, about 30s)",
-"link": "https://docs.google.com/document/d/14OaAKp6fWNbbK6Fayhn8SacsnhB9cZ4XzjNilZ_gEWc/edit"
+"client": "S4S",
+"title": "Belize Orange Walk: Swifeet store profile (16:9)",
+"link": "https://docs.google.com/document/d/1xdNMRgcUAiSwGOCW9jYn9clsXctfb6Uxueui0nOBPN4/edit"
 },
-"13457100521": {
+"13549079396": {
 "st": "edit",
 "label": "To edit",
-"due": "2026-11-10",
-"v": "V1",
-"ed": "Ardit",
-"client": "Learn Fresh",
-"title": "End-of-Year Reel 2: \"Everybody Should Try It\" (9:16, about 30s)",
-"link": "https://docs.google.com/document/d/14OaAKp6fWNbbK6Fayhn8SacsnhB9cZ4XzjNilZ_gEWc/edit"
+"due": "2026-11-16",
+"ed": "Claire",
+"client": "Momcozy",
+"title": "Holiday: Shannon - Air 1 The Gift I Asked For (9:16)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13549079396"
 }
 }
 }
