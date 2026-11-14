@@ -1,5 +1,5 @@
 {
-"synced": "2026-11-14T05:20:10Z",
+"synced": "2026-11-14T06:20:21Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
@@ -225,10 +225,11 @@
 "v": "V1"
 },
 "13083747867": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-11-10",
-"v": "V1"
+"v": "V2",
+"ed": "Claire"
 },
 "13083748147": {
 "st": "client",
@@ -1175,10 +1176,10 @@
 "label": "Archived"
 },
 "13299663198": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-11-05",
-"v": "V2",
+"v": "V3",
 "ed": "Claire"
 },
 "12937236907": {
@@ -1227,10 +1228,10 @@
 "label": "Archived"
 },
 "13330680725": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-11-17",
-"v": "V1",
+"v": "V2",
 "ed": "Claire"
 },
 "13330680341": {
@@ -1609,6 +1610,16 @@
 "title": "Belize Orange Walk: Flourish31 store profile (16:9)",
 "link": "https://docs.google.com/document/d/12xEP_aXb-k2tA4YaT4eakoEdVNUmKb7bX8rR9LGYmAg/edit"
 },
+"13531564888": {
+"st": "review",
+"label": "In review",
+"due": "2026-11-19",
+"v": "V3",
+"ed": "Claire",
+"client": "Lions Seymour",
+"title": "Lions Traditional: Lion James — \"Two Years In\"",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531564888"
+},
 "12638008987": {
 "st": "hold",
 "label": "On hold",
@@ -1795,16 +1806,6 @@
 "client": "Learn Fresh",
 "title": "End-of-Year Reel 1: \"Make Every Hour Count\" (9:16, about 30s)",
 "link": "https://docs.google.com/document/d/14OaAKp6fWNbbK6Fayhn8SacsnhB9cZ4XzjNilZ_gEWc/edit"
-},
-"13531564888": {
-"st": "revise",
-"label": "Needs revisions",
-"due": "2026-11-19",
-"v": "V2",
-"ed": "Qendrim",
-"client": "Lions Seymour",
-"title": "Lions Traditional: Lion James — \"Two Years In\"",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13531564888"
 },
 "13496353505": {
 "st": "revise",
