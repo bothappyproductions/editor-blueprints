@@ -1,5 +1,5 @@
 {
-"synced": "2026-11-15T17:20:46Z",
+"synced": "2026-11-15T18:20:48Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
@@ -356,10 +356,10 @@
 "v": "V2"
 },
 "13153580945": {
-"st": "revise",
-"label": "Needs revisions",
+"st": "review",
+"label": "In review",
 "due": "2026-11-11",
-"v": "V4",
+"v": "V5",
 "ed": "Claire"
 },
 "13153585107": {
@@ -1620,6 +1620,26 @@
 "title": "4Relief Tanzania - Off-Site Family Healing Care (RED footage)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/11893126510"
 },
+"11893140913": {
+"st": "review",
+"label": "In review",
+"due": "2026-07-01",
+"v": "V2",
+"ed": "Claire",
+"client": "S4S",
+"title": "4Relief Tanzania - Kids Receive Shoes at School (RED footage)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/11893140913"
+},
+"11893135970": {
+"st": "review",
+"label": "In review",
+"due": "2026-07-01",
+"v": "V2",
+"ed": "Claire",
+"client": "S4S",
+"title": "4Relief Tanzania - Hospital Recipients (RED footage)",
+"link": "https://happyproductions.monday.com/boards/2135456123/pulses/11893135970"
+},
 "12638008987": {
 "st": "hold",
 "label": "On hold",
@@ -1647,26 +1667,6 @@
 "client": "Dream Center Dallas",
 "title": "Ethan: \"Serving People\" (Faces of the Dream Center, 9:16 reel)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/13443434018"
-},
-"11893135970": {
-"st": "revise",
-"label": "Needs revisions",
-"due": "2026-07-01",
-"v": "V1",
-"ed": "Claire",
-"client": "S4S",
-"title": "4Relief Tanzania - Hospital Recipients (RED footage)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/11893135970"
-},
-"11893140913": {
-"st": "revise",
-"label": "Needs revisions",
-"due": "2026-07-01",
-"v": "V1",
-"ed": "Claire",
-"client": "S4S",
-"title": "4Relief Tanzania - Kids Receive Shoes at School (RED footage)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/11893140913"
 },
 "10584081993": {
 "st": "edit",
