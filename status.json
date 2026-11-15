@@ -1,5 +1,5 @@
 {
-"synced": "2026-11-15T02:20:32Z",
+"synced": "2026-11-15T05:20:00Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
@@ -356,8 +356,8 @@
 "v": "V2"
 },
 "13153580945": {
-"st": "review",
-"label": "In review",
+"st": "revise",
+"label": "Needs revisions",
 "due": "2026-11-11",
 "v": "V3",
 "ed": "Claire"
@@ -1015,9 +1015,9 @@
 "label": "Archived"
 },
 "13326048339": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V4"
+"st": "client",
+"label": "With client",
+"v": "V5"
 },
 "13326048850": {
 "st": "review",
@@ -1618,15 +1618,6 @@
 "client": "Freedom Reads",
 "title": "V2 Logan \"Certain Stereotypes\" (Marty)",
 "link": "https://happyproductions.monday.com/boards/2135456123/pulses/12766970766"
-},
-"13111803288": {
-"st": "review",
-"label": "In review",
-"v": "V6",
-"ed": "Claire",
-"client": "Family Reach",
-"title": "Side Effects · HOUSING: \"Her Family's First Home\" (Jazz, scripted short)",
-"link": "https://happyproductions.monday.com/boards/2135456123/pulses/13111803288"
 },
 "12638008987": {
 "st": "hold",
