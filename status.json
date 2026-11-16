@@ -1,5 +1,5 @@
 {
-"synced": "2026-11-16T22:20:37Z",
+"synced": "2026-11-16T23:20:51Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
@@ -1096,12 +1096,12 @@
 "13353134260": {
 "st": "review",
 "label": "In review",
-"v": "V1"
+"v": "V2"
 },
 "13353116822": {
 "st": "review",
 "label": "In review",
-"v": "V1"
+"v": "V2"
 },
 "13412186309": {
 "st": "client",
@@ -1216,13 +1216,13 @@
 "v": "V4"
 },
 "13328811856": {
-"st": "client",
-"label": "With client",
+"st": "revise",
+"label": "Needs revisions",
 "v": "V4"
 },
 "13328811898": {
-"st": "client",
-"label": "With client",
+"st": "revise",
+"label": "Needs revisions",
 "v": "V3"
 },
 "13153576741": {
@@ -1389,8 +1389,8 @@
 "note": "Staff 'one word job description' footage"
 },
 "13336213936": {
-"st": "client",
-"label": "With client",
+"st": "revise",
+"label": "Needs revisions",
 "v": "V4"
 },
 "12727618241": {
