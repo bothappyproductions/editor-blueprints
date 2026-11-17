@@ -221,10 +221,31 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
   const desk = DESKS.includes(DESK.toLowerCase()) ? DESK.toLowerCase() : "";
   window.__cdDesk = desk;
   window.__cdBase = desk ? "../" : "";
-  const deskRows = (all) => (all || []).filter(r => {
+  /* Nov 17: territories. Open leads ("To contact") go to the rep who owns their state, so each rep has about the same
+     number of open leads and a mix of time zones. A lead someone has already worked stays with whoever last logged it
+     (Last Updated By); anything else stays with its original desk (Lead ID prefix, otherwise Rubik). */
+  const TERRITORY = {
+    rubik:  ["CT","RI","ME","VT","NH","CA","OR","NV","WA","AK","HI","ID"],
+    armin:  ["NY","NJ","DC","VA","TX","OK","AR","LA","TN","GA","AZ","NM","AL","FL"],
+    stefan: ["MA","PA","OH","MI","IL","IN","MO","KS","NE","SD","MN","WI","CO","UT","SC","NC","KY","MS","IA","ND","MT","WY","WV","MD","DE"]
+  };
+  const STATE_DESK = {};
+  Object.keys(TERRITORY).forEach(d => TERRITORY[d].forEach(st => { STATE_DESK[st] = d; }));
+  const REP_DESK = {rubik: "rubik", nick: "rubik", armin: "armin", stefan: "stefan"};
+  const homeDesk = (r) => {
     const id = String(r && r.id || "").toLowerCase();
-    return desk ? id.startsWith(desk + "-") : !DESKS.some(d => id.startsWith(d + "-"));
-  });
+    return DESKS.find(d => id.startsWith(d + "-")) || "rubik";
+  };
+  const ownerOf = (r) => {
+    const st = String(r.status || "new").toLowerCase();
+    const state = String(r.state || "").trim().toUpperCase();
+    if ((st === "new" || st === "to contact") && STATE_DESK[state]) return STATE_DESK[state];
+    const by = String(r.updatedBy || "").trim().split(/\s+/)[0].toLowerCase();
+    if (REP_DESK[by]) return REP_DESK[by];
+    return homeDesk(r);
+  };
+  window.__cdOwnerOf = ownerOf;
+  const deskRows = (all) => (all || []).filter(r => r && ownerOf(r) === (desk || "rubik"));
   if (desk) document.title = "Messaging Prospects \u00b7 " + desk[0].toUpperCase() + desk.slice(1);
   const store = (k, v) => { try { if (v === undefined) return localStorage.getItem(k); if (v === null) localStorage.removeItem(k); else localStorage.setItem(k, v); } catch (e) { return null; } return null; };
   let pass = "", name = "";
