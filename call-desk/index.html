@@ -722,6 +722,54 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
       deadline: "", objection: null, caution: ""
     };
   }
+  // Nov 17: list-sourced leads (CMS Navigator partners, state-funded prevention coalitions, Paid Leave grantees) have no
+  // Airtable script. This builds one from the lead's category, program and the fact on its card (Requirement).
+  const STATE_NAME = {AL:"Alabama",AK:"Alaska",AZ:"Arizona",AR:"Arkansas",CA:"California",CO:"Colorado",CT:"Connecticut",DE:"Delaware",DC:"DC",FL:"Florida",GA:"Georgia",HI:"Hawaii",ID:"Idaho",IL:"Illinois",IN:"Indiana",IA:"Iowa",KS:"Kansas",KY:"Kentucky",LA:"Louisiana",ME:"Maine",MD:"Maryland",MA:"Massachusetts",MI:"Michigan",MN:"Minnesota",MS:"Mississippi",MO:"Missouri",MT:"Montana",NE:"Nebraska",NV:"Nevada",NH:"New Hampshire",NJ:"New Jersey",NM:"New Mexico",NY:"New York",NC:"North Carolina",ND:"North Dakota",OH:"Ohio",OK:"Oklahoma",OR:"Oregon",PA:"Pennsylvania",RI:"Rhode Island",SC:"South Carolina",SD:"South Dakota",TN:"Tennessee",TX:"Texas",UT:"Utah",VT:"Vermont",VA:"Virginia",WA:"Washington",WV:"West Virginia",WI:"Wisconsin",WY:"Wyoming"};
+  function templ(r){
+    const cat = String(r.category || "").toLowerCase();
+    const stName = STATE_NAME[String(r.state || "").toUpperCase()] || "your state";
+    const area = /county/i.test(r.town || "") ? `${r.town}, ${stName}` : stName;
+    const reach = /county/i.test(r.town || "") ? "5,000" : "10,000";
+    const base = {
+      proof: r.hook || "", foundVia: `We found you on ${/navigator/.test(cat) ? "CMS's list of funded Navigator programs and their partners" : /prevention/.test(cat) ? "the state's list of funded prevention coalitions" : /paid leave/.test(cat) ? "the state's list of Paid Leave outreach grantees" : "a public list of groups funded to do outreach"}... so we reached out.`,
+      source: r.sourceUrl ? {label: /cms\.gov/.test(r.sourceUrl) ? "CMS: Navigator awardee summaries (plan year 2025)" : /tn\.gov/.test(r.sourceUrl) ? "Tennessee DMHSAS: funded prevention coalition contacts" : /mn\.gov/.test(r.sourceUrl) ? "Minnesota DEED: Paid Leave Public Outreach Grant recipients" : "Where we found them", url: r.sourceUrl} : null,
+      area, result: `We're a video studio serving ${area}, and we help groups like yours get their message to the people who don't read letters... with short videos they actually finish.`,
+      resultHow: "We film your own staff and the people you serve, then cut short explainers and posts in their languages, with a delivery log you can attach to your grant report.",
+      guarantee: `We guarantee it reaches ${reach} people in ${area} within 30 days... or we keep it running free until it does.`,
+      whyFlag: r.contactName ? "" : "No named contact on the list: ask the front desk who runs outreach, or use Call in Apollo to find them."
+    };
+    if (/navigator/.test(cat)) return Object.assign(base, {
+      askFor: "whoever runs your navigator or outreach program",
+      clock: `I'm calling because you're part of the federally funded Navigator program in ${stName}... and coverage rules are changing for a lot of people this winter.`,
+      cost: "When people miss a notice or a renewal, they lose coverage even if they still qualify.",
+      ask: "How are you getting the word out beyond the people who already walk in?",
+      msgFor: "your navigator outreach", planFor: "your navigator outreach this winter",
+      offer: "Short explainers on getting and keeping coverage, in your community's languages, each ending with your help line, plus a delivery log for your grant report.",
+      discovery: ["What do people ask your navigators most right now?", "Who is hardest to reach?", "What does your grant ask you to report on outreach?"],
+      objection: {they: "We already do outreach in person.", you: "Keep that... the videos reach people who never come in, and the delivery log helps your grant report."}
+    });
+    if (/prevention/.test(cat)) return Object.assign(base, {
+      askFor: "your coalition director or coordinator",
+      clock: `I'm calling because your coalition carries the prevention message for ${area}.`,
+      cost: "Teens and parents scroll past flyers, so the message only lands if it feels real to them.",
+      ask: "What's the next campaign or event you're trying to get the word out about?",
+      msgFor: "your prevention message", planFor: "your next prevention campaign",
+      offer: "Short videos with your own youth and parents on vaping, fentanyl and alcohol, cut for social, schools and events.",
+      discovery: ["Which issue is your coalition focused on this year?", "How do you reach parents and teens today?", "Is there a media or outreach line in your grants?"],
+      objection: {they: "We're a small coalition.", you: "That's why... you show up for one shoot, and you get videos you can use all year."}
+    });
+    if (/paid leave/.test(cat)) return Object.assign(base, {
+      askFor: "whoever runs your Paid Leave outreach grant",
+      clock: "I'm calling because you're one of the 20 Minnesota Paid Leave outreach grantees.",
+      cost: "Workers still don't know they can use Paid Leave, especially the people the grant is meant to reach.",
+      ask: "How is the Paid Leave outreach going so far?",
+      msgFor: "your Paid Leave outreach", planFor: "your Paid Leave outreach",
+      offer: "Short Paid Leave explainers with your own community, in their languages, plus a delivery log for your DEED report.",
+      discovery: ["Who are you trying to reach with the grant?", "What do workers ask most?", "What does DEED want you to report?"],
+      objection: {they: "DEED already runs a campaign.", you: "Right... ours is the version with your own community in it, which is the point of the grant."}
+    });
+    return {};
+  }
   const mk = (s) => `<mark>${esc(s)}</mark>`;
   const say = (html) => `<p class="say">${html}</p>`;
   const cue = (t) => `<p class="cue">${esc(t)}</p>`;
@@ -1237,7 +1285,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     if(openId !== id) return;
     let L = {}; try{ L = (await loadLines())[id] || {}; }catch{}
     if(openId !== id) return;
-    const SS = Object.assign(fallback(r), S || {}, L);
+    const SS = Object.assign(fallback(r), S ? {} : templ(r), S || {}, L);
     $("sheet-dial").innerHTML = dialHtml(r, SS);
     sheetBody.innerHTML = buildScript(r, SS);
     try{ linkTerms(sheetBody); }catch{}
