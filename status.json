@@ -1,5 +1,5 @@
 {
-"synced": "2026-11-17T16:20:00Z",
+"synced": "2026-11-17T17:20:02Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
@@ -444,9 +444,9 @@
 "v": "V4"
 },
 "13212946207": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V3"
+"st": "review",
+"label": "In review",
+"v": "V4"
 },
 "13212955499": {
 "st": "client",
@@ -751,9 +751,9 @@
 "v": "V1"
 },
 "13306143719": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V3"
+"st": "review",
+"label": "In review",
+"v": "V4"
 },
 "13306096838": {
 "st": "client",
@@ -1017,8 +1017,8 @@
 "v": "V5"
 },
 "13326048850": {
-"st": "review",
-"label": "In review",
+"st": "revise",
+"label": "Needs revisions",
 "due": "2026-11-16",
 "v": "V5"
 },
@@ -1043,9 +1043,9 @@
 "v": "V2"
 },
 "13347156407": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V3"
+"st": "review",
+"label": "In review",
+"v": "V4"
 },
 "13347176315": {
 "st": "client",
@@ -1058,9 +1058,9 @@
 "v": "V4"
 },
 "13370128575": {
-"st": "revise",
-"label": "Needs revisions",
-"v": "V3"
+"st": "review",
+"label": "In review",
+"v": "V4"
 },
 "13389717120": {
 "st": "client",
