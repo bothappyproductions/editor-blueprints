@@ -214,6 +214,18 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
 (function(){
   const API = "https://call-desk.happyproductions-hooks.workers.dev";
   window.__callDesk = true;
+  /* Nov 17: one page, three desks. call-desk/ is Rubik's list; call-desk/armin/ and call-desk/stefan/ show only
+     leads whose Lead ID starts with "armin-" or "stefan-". All desks share the same Airtable base and passcode. */
+  const DESKS = ["armin", "stefan"];
+  const DESK = (location.pathname.match(/\/call-desk\/([a-z]+)\/?/i) || [])[1] || "";
+  const desk = DESKS.includes(DESK.toLowerCase()) ? DESK.toLowerCase() : "";
+  window.__cdDesk = desk;
+  window.__cdBase = desk ? "../" : "";
+  const deskRows = (all) => (all || []).filter(r => {
+    const id = String(r && r.id || "").toLowerCase();
+    return desk ? id.startsWith(desk + "-") : !DESKS.some(d => id.startsWith(d + "-"));
+  });
+  if (desk) document.title = "Messaging Prospects \u00b7 " + desk[0].toUpperCase() + desk.slice(1);
   const store = (k, v) => { try { if (v === undefined) return localStorage.getItem(k); if (v === null) localStorage.removeItem(k); else localStorage.setItem(k, v); } catch (e) { return null; } return null; };
   let pass = "", name = "";
   const h = new URLSearchParams(location.hash.slice(1));
@@ -235,7 +247,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
   let rows = null; const subs = new Set();
   const snap = () => ({docs: rows.map(r => ({id: r.id, exists: true, data: () => r}))});
   const emit = () => subs.forEach(s => { try { s.cb(snap()); } catch (e) {} });
-  async function refresh() { try { rows = (await call("/prospects")).rows; emit(); } catch (e) { subs.forEach(s => s.err && s.err(e)); } }
+  async function refresh() { try { rows = deskRows((await call("/prospects")).rows); emit(); } catch (e) { subs.forEach(s => s.err && s.err(e)); } }
   setInterval(() => { if (document.visibilityState === "visible" && subs.size) refresh(); }, 60000);
   document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && subs.size) refresh(); });
 
@@ -280,25 +292,25 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
   }
   function gate(msg) {
     const wrap = document.createElement("div"); wrap.className = "cd-gate";
-    wrap.innerHTML = '<form class="cd-card"><p class="eyebrow">Happy Productions \u00b7 Call desk</p><h2>Messaging prospects</h2>' +
+    wrap.innerHTML = '<form class="cd-card"><p class="eyebrow">Happy Productions \u00b7 Call desk</p><h2>Messaging prospects' + (desk ? ' \u00b7 ' + desk[0].toUpperCase() + desk.slice(1) : '') + '</h2>' +
       '<label>Your first name<input name="n" autocomplete="given-name" required></label>' +
       '<label>Passcode<input name="p" type="password" autocomplete="current-password" required></label>' +
       '<p class="cd-err" role="alert"></p><button class="btn" type="submit">Open the call list</button></form>';
     document.body.appendChild(wrap);
     const f = wrap.querySelector("form"), err = wrap.querySelector(".cd-err");
-    f.n.value = name; f.p.value = pass; err.textContent = msg || "";
+    f.n.value = name || (desk ? desk[0].toUpperCase() + desk.slice(1) : ""); f.p.value = pass; err.textContent = msg || "";
     (name ? f.p : f.n).focus();
     f.addEventListener("submit", async (ev) => {
       ev.preventDefault();
       name = f.n.value.trim().split(/\s+/)[0]; pass = f.p.value.trim();
       err.textContent = "Checking\u2026";
-      try { rows = (await call("/prospects")).rows; store("cd_pass", pass); store("cd_name", name); wrap.remove(); pill(); open(); }
+      try { rows = deskRows((await call("/prospects")).rows); store("cd_pass", pass); store("cd_name", name); wrap.remove(); pill(); open(); }
       catch (e) { err.textContent = e.code === "wrong passcode" ? "That passcode didn't work. Check it with Atdhe." : "Couldn't reach the list (" + e.code + "). Check your connection and try again."; }
     });
   }
   document.addEventListener("DOMContentLoaded", async () => {
     if (pass && name) {
-      try { rows = (await call("/prospects")).rows; pill(); open(); return; }
+      try { rows = deskRows((await call("/prospects")).rows); pill(); open(); return; }
       catch (e) { gate(e.code === "wrong passcode" ? "That passcode didn't work. Check it with Atdhe." : ""); return; }
     }
     gate("");
@@ -321,7 +333,8 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
 <div class="wrap">
   <header>
     <div class="eyebrow">Happy Productions · Sales</div>
-    <h1>Messaging Prospects</h1>
+    <h1>Messaging Prospects<span id="cd-desk-name"></span></h1>
+    <script>if(window.__cdDesk){document.getElementById("cd-desk-name").textContent=" \u00b7 "+window.__cdDesk[0].toUpperCase()+window.__cdDesk.slice(1);}</script>
     <p class="lede">Nonprofits, coalitions, towns and utilities whose grant, permit or contract already requires them to inform the public. Most have no comms staff. We make that messaging for them: short videos in their community's languages, matching flyers and posts, and a delivery log for their report.</p>
   </header>
 
@@ -1171,7 +1184,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     if(LINES) return LINES;
     try{
       const pass = localStorage.getItem("cd_pass") || "";
-      const f = await fetch("lines.enc.json", {cache: "no-cache"}).then(x => x.json());
+      const f = await fetch((window.__cdBase || "") + "lines.enc.json", {cache: "no-cache"}).then(x => x.json());
       const b = (t) => Uint8Array.from(atob(t), ch => ch.charCodeAt(0));
       const base = await crypto.subtle.importKey("raw", new TextEncoder().encode(pass), "PBKDF2", false, ["deriveKey"]);
       const key = await crypto.subtle.deriveKey({name: "PBKDF2", salt: b(f.s), iterations: 200000, hash: "SHA-256"}, base, {name: "AES-GCM", length: 256}, false, ["decrypt"]);
@@ -1288,7 +1301,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
       render();
     }, (e) => { emptyEl.textContent = "The list stopped updating (" + ((e && e.code) || "error") + "). Reload the page."; });
   }
-  fetch("apollo.json", {cache: "no-cache"}).then(x => x.ok ? x.json() : {}).then(m => { APOLLO = m && typeof m === "object" ? m : {}; render(); }).catch(() => {});
+  fetch((window.__cdBase || "") + "apollo.json", {cache: "no-cache"}).then(x => x.ok ? x.json() : {}).then(m => { APOLLO = m && typeof m === "object" ? m : {}; render(); }).catch(() => {});
   render();
   boot();
 })();
