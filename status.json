@@ -1,5 +1,5 @@
 {
-"synced": "2026-11-17T22:20:01Z",
+"synced": "2026-11-17T23:20:04Z",
 "source": "Monday Post Production board 2135456123 (tools/queue_status.py)",
 "items": {
 "12489938131": {
@@ -97,7 +97,7 @@
 "st": "review",
 "label": "In review",
 "due": "2026-11-05",
-"v": "V2"
+"v": "V3"
 },
 "12714501068": {
 "st": "client",
@@ -272,8 +272,8 @@
 "v": "V4"
 },
 "13111807657": {
-"st": "review",
-"label": "In review",
+"st": "revise",
+"label": "Needs revisions",
 "v": "V3"
 },
 "13111812730": {
@@ -1157,8 +1157,8 @@
 "label": "Archived"
 },
 "13361239430": {
-"st": "client",
-"label": "With client",
+"st": "revise",
+"label": "Needs revisions",
 "v": "V6"
 },
 "13330680112": {
@@ -1286,8 +1286,8 @@
 "v": "V7"
 },
 "12714476457": {
-"st": "review",
-"label": "In review",
+"st": "revise",
+"label": "Needs revisions",
 "v": "V5"
 },
 "13386485946": {
