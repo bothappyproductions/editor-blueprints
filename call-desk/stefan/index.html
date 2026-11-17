@@ -729,13 +729,10 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     const cat = String(r.category || "").toLowerCase();
     const stName = STATE_NAME[String(r.state || "").toUpperCase()] || "your state";
     const area = /county/i.test(r.town || "") ? `${r.town}, ${stName}` : stName;
-    const reach = /county/i.test(r.town || "") ? "5,000" : "10,000";
     const base = {
       proof: r.hook || "", foundVia: `We found you on ${/navigator/.test(cat) ? "CMS's list of funded Navigator programs and their partners" : /prevention/.test(cat) ? "the state's list of funded prevention coalitions" : /paid leave/.test(cat) ? "the state's list of Paid Leave outreach grantees" : "a public list of groups funded to do outreach"}... so we reached out.`,
       source: r.sourceUrl ? {label: /cms\.gov/.test(r.sourceUrl) ? "CMS: Navigator awardee summaries (plan year 2025)" : /tn\.gov/.test(r.sourceUrl) ? "Tennessee DMHSAS: funded prevention coalition contacts" : /mn\.gov/.test(r.sourceUrl) ? "Minnesota DEED: Paid Leave Public Outreach Grant recipients" : "Where we found them", url: r.sourceUrl} : null,
-      area, result: `We're a video studio serving ${area}, and we help groups like yours get their message to the people who don't read letters... with short videos they actually finish.`,
-      resultHow: "We film your own staff and the people you serve, then cut short explainers and posts in their languages, with a delivery log you can attach to your grant report.",
-      guarantee: `We guarantee it reaches ${reach} people in ${area} within 30 days... or we keep it running free until it does.`,
+      area,
       whyFlag: r.contactName ? "" : "No named contact on the list: ask the front desk who runs outreach, or use Call in Apollo to find them."
     };
     if (/navigator/.test(cat)) return Object.assign(base, {
@@ -770,6 +767,9 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     });
     return {};
   }
+  // Nov 17: researched scripts for list-sourced leads (no phones or emails here; those stay in Airtable).
+  let factsP = null;
+  const loadFacts = () => factsP || (factsP = fetch((window.__cdBase || "") + "leadscripts.json", {cache: "no-cache"}).then(x => x.ok ? x.json() : {}).catch(() => ({})));
   const mk = (s) => `<mark>${esc(s)}</mark>`;
   const say = (html) => `<p class="say">${html}</p>`;
   const cue = (t) => `<p class="cue">${esc(t)}</p>`;
@@ -1285,7 +1285,9 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
     if(openId !== id) return;
     let L = {}; try{ L = (await loadLines())[id] || {}; }catch{}
     if(openId !== id) return;
-    const SS = Object.assign(fallback(r), S ? {} : templ(r), S || {}, L);
+    let F = null; if(!S){ try{ F = (await loadFacts())[id] || null; }catch{} }
+    if(openId !== id) return;
+    const SS = Object.assign(fallback(r), S || F ? {} : templ(r), F || {}, S || {}, L);
     $("sheet-dial").innerHTML = dialHtml(r, SS);
     sheetBody.innerHTML = buildScript(r, SS);
     try{ linkTerms(sheetBody); }catch{}
