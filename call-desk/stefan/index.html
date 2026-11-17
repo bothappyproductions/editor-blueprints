@@ -221,13 +221,15 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
   const desk = DESKS.includes(DESK.toLowerCase()) ? DESK.toLowerCase() : "";
   window.__cdDesk = desk;
   window.__cdBase = desk ? "../" : "";
-  /* Nov 17: territories. Open leads ("To contact") go to the rep who owns their state, so each rep has about the same
-     number of open leads and a mix of time zones. A lead someone has already worked stays with whoever last logged it
+  /* Nov 17: territories. Open leads ("To contact") go to the rep who owns their state: Rubik has the richest states,
+     Armin and Stefan split the rest evenly. A lead someone has already worked stays with whoever last logged it
      (Last Updated By); anything else stays with its original desk (Lead ID prefix, otherwise Rubik). */
   const TERRITORY = {
-    rubik:  ["CT","RI","ME","VT","NH","CA","OR","NV","WA","AK","HI","ID"],
-    armin:  ["NY","NJ","DC","VA","TX","OK","AR","LA","TN","GA","AZ","NM","AL","FL"],
-    stefan: ["MA","PA","OH","MI","IL","IN","MO","KS","NE","SD","MN","WI","CO","UT","SC","NC","KY","MS","IA","ND","MT","WY","WV","MD","DE"]
+    // Rubik: the highest-income states (most funders and the biggest outreach budgets).
+    rubik:  ["NY","MA","NJ","CT","DC","MD","VA","NH","RI","CA","WA","HI","AK","CO","UT"],
+    // Armin and Stefan split the rest evenly by open leads.
+    armin:  ["PA","DE","WV","TX","OK","AR","LA","TN","GA","AL","FL","AZ","NM"],
+    stefan: ["ME","VT","OH","MI","IL","IN","MO","KS","NE","SD","ND","MN","WI","IA","KY","SC","NC","MS","NV","OR","ID","MT","WY"]
   };
   const STATE_DESK = {};
   Object.keys(TERRITORY).forEach(d => TERRITORY[d].forEach(st => { STATE_DESK[st] = d; }));
