@@ -289,7 +289,7 @@ footer{color:var(--muted);font-size:12.5px}
   async function stamps(){
     const els = [...listEl.querySelectorAll(".stamp")];
     const ids = [...new Set(els.map(e => e.dataset.who).filter(Boolean))];
-    els.forEach(e => { const at = ago(e.dataset.at); e.textContent = at ? `Updated${e.dataset.who ? " by " + e.dataset.who : ""}, ${at} (this browser)` : ""; });
+    els.forEach(e => { const at = ago(e.dataset.at); e.textContent = at ? `Updated${e.dataset.who ? " by " + e.dataset.who : ""}, ${at} ` : ""; });
   }
 
   function render(){
@@ -305,13 +305,56 @@ footer{color:var(--muted);font-size:12.5px}
   }
 
   const LS_KEY = "go_calls_v1";
+  // Shared logging: the Call Desk worker writes to Airtable "General Outreach Calls" (one row per Person ID).
+  // Uses the same passcode the main call desk stores on this site (cd_pass), so reps who use the main desk aren't asked again.
+  const API = "https://call-desk.happyproductions-hooks.workers.dev";
+  const store = (k, v) => { try{ if(v === undefined) return localStorage.getItem(k); if(v === null) localStorage.removeItem(k); else localStorage.setItem(k, v); }catch{} return null; };
+  { const h = new URLSearchParams(location.hash.slice(1)); if(h.get("k")){ store("cd_pass", h.get("k")); try{ history.replaceState(null, "", location.pathname + location.search); }catch{} } }
+  const pass = () => store("cd_pass") || "";
+  async function api(path, init){
+    init = init || {}; const headers = {"X-Pass": pass()}; if(init.body) headers["Content-Type"] = "application/json";
+    const r = await fetch(API + path, Object.assign({}, init, {headers}));
+    const d = await r.json().catch(() => ({}));
+    if(r.status === 401){ const e = new Error("bad_pass"); e.code = "bad_pass"; throw e; }
+    if(!r.ok){ const e = new Error(d.error || "error"); e.code = d.error || ("status " + r.status); throw e; }
+    return d;
+  }
+  function askPass(){
+    const k = prompt("Enter the call desk passcode (same one as the main call desk) so your calls save for the team:");
+    if(k){ store("cd_pass", k.trim()); return true; } return false;
+  }
+  function askName(){
+    if(repName) return;
+    const n = (prompt("Who's calling? (Armin, Stefan or Nick)") || "").trim();
+    if(n){ repName = n; store("cd_name", n); $("cd-who").textContent = "Calling as " + repName; }
+  }
   function saveLocal(){ try{ localStorage.setItem(LS_KEY, JSON.stringify(calls)); }catch{} }
   async function write(id, patch, log){
+    askName();
     const prev = calls[id] || {};
     const body = Object.assign({}, prev, patch, {at: new Date().toISOString(), by: repName || ""});
-    if(log){ body.log = [log].concat(Array.isArray(prev.log) ? prev.log : []).slice(0, 20); }
-    calls[id] = body; saveLocal(); return true;
+    if(log){ log.by = repName || ""; body.log = [log].concat(Array.isArray(prev.log) ? prev.log : []).slice(0, 20); }
+    calls[id] = body; saveLocal();
+    const send = () => api("/go/call", {method: "POST", body: JSON.stringify({id, status: body.status || "new", notes: body.notes || "", log: body.log || [], rep: repName || ""})});
+    const p = (writeChain.get(id) || Promise.resolve()).then(send).catch(async e => {
+      if(e.code === "bad_pass" && askPass()){ try{ await send(); return true; }catch(e2){ e = e2; } }
+      note(e.code === "bad_pass" ? "Saved on this computer only: the passcode didn't work. Log the call in Apollo too." : "Saved on this computer only (" + (e.code || "offline") + "). It will sync on your next change.", true);
+      return false;
+    }).then(v => { if(v !== false){ note("", false); } return v !== false; });
+    writeChain.set(id, p); return p;
   }
+  async function pull(){
+    if(!pass()) return;
+    try{
+      const d = await api("/go/calls");
+      const rows = d.calls || d.rows || {};
+      const list = Array.isArray(rows) ? rows : Object.keys(rows).map(k => Object.assign({id: k}, rows[k]));
+      list.forEach(r => { const id = r.id || r.personId; if(!id) return; const mine = calls[id];
+        if(!mine || !mine.at || (r.at && r.at >= mine.at)) calls[id] = {status: r.status, notes: r.notes, log: r.log || [], by: r.by || r.rep || "", at: r.at || ""}; });
+      saveLocal(); render();
+    }catch(e){ if(e.code === "bad_pass") store("cd_pass", null); }
+  }
+  setInterval(() => { if(document.visibilityState === "visible") pull(); }, 60000);
 
   listEl.addEventListener("change", (ev) => {
     const t = ev.target, card = t.closest("article"); if(!card) return;
@@ -337,83 +380,100 @@ footer{color:var(--muted);font-size:12.5px}
   const obj = (they, you, tag) => `<details class="obj"><summary>"${esc(they)}"${tag ? `<small>${esc(tag)}</small>` : ""}</summary>${you}</details>`;
   const firstName = (n) => String(n || "").split(/\s+/)[0] || "";
 
-  // Persona lines: value, proof, the one question if the account hook has none, and the meeting purpose.
+  // v7 template (mirrors script_v7.py): v6 + old-style opener, outreach-relevant "why them", service-tied question,
+  // and objection loops: acknowledge, dig (real blocker or smokescreen?), reframe, ask for the meeting again.
   const PER = {
-    exec: {
-      value: (a) => `We help groups like ${a.short} tell one story big enough for your board, your biggest donors and your sponsors... and then we put it in front of millions of people who've never heard of you.`,
-      proof: "DKMS got 1,000 new stem-cell donors from one of these. Lions Clubs got 2 million views off a single video.",
-      q: "Is there a big moment coming up, an anniversary, a campaign, a gala, that you want a lot more people to see?",
+    exec: {label: "Executive", value: (sh) => `We help groups like ${sh} tell one story big enough for your board, your biggest donors and your sponsors... and then we put it in front of a lot of people who've never heard of you.`,
+      q: "Do you have a story on video right now that you'd put in front of your board and biggest donors?",
+      dig: "If that story reached a few hundred thousand new people this year, what would that do for you?",
       meet: "map the one story we'd tell and where it would run",
-      care: "Talk outcomes, donors, board and sponsors. Skip cameras and formats. Keep it short."
-    },
-    marketing: {
-      value: (a) => `One shoot gives you a hero film plus the cutdowns for social, email and the site... and AreYouHappy puts it in front of an audience you can't reach organically.`,
-      proof: "Lions Clubs got 2 million views off one video. DKMS turned viewers into 1,000 new stem-cell donors.",
-      q: "How are you making video right now... in-house, freelancers, phones?",
+      tip: "Talk outcomes, donors, board and sponsors. Skip cameras and formats. Keep it short.", qk: "q_exec"},
+    marketing: {label: "Marketing & comms", value: () => "One shoot gives you a hero film plus the cutdowns for social, email and the site... and AreYouHappy puts it in front of an audience you can't reach organically.",
+      q: "How are you making video right now... in-house, freelancers, phones? And what never gets made?",
+      dig: "What's the one story you'd film tomorrow if someone else handled the shoot and the edit?",
       meet: "look at your next quarter's calendar and where one shoot would fill it",
-      care: "Never imply their content is weak. Connect reach to new donors, not just views."
-    },
-    development: {
-      value: (a) => `We make the videos gift officers send before a big ask, the thank-you that brings first-time donors back, and the film that plays before the paddle raise.`,
-      proof: "DKMS got 1,000 new donors from one campaign. Only about 1 in 5 first-time donors gives again, so the thank-you video is where it pays back.",
+      tip: "Never imply their content is weak. Tie reach to new supporters and donors, not just views.", qk: "q_mkt"},
+    development: {label: "Development", value: () => "We make the videos gift officers send before a big ask, the thank-you that brings first-time donors back, and the film that plays before the paddle raise.",
       q: "When someone gives to you for the first time, what do they actually see next?",
+      dig: "How many first-time donors give a second time? Is that a number you're trying to move?",
       meet: "look at your year-end and gala and where a film would move the number",
-      care: "Talk donors, retention, the ask and the renewal. Never lead with views or 'going viral'."
-    }
+      tip: "Talk donors, retention, the ask and the renewal. Never lead with views or going viral.", qk: "q_dev"}
   };
-
+  const lc = (s) => s ? s[0].toLowerCase() + s.slice(1) : s;
+  const q = (s) => say("“" + esc(s) + "”");
+  const ASK = "Tuesday or Wednesday... morning or afternoon?";
   function scriptHtml(p){
-    const a = acct[p.a] || {}, P = PER[p.per] || PER.exec, cn = firstName(p.name);
+    const a = acct[p.a] || {}, S = PER[p.per] || PER.exec, fn = firstName(p.name), sh = a.short || a.org;
     const rep = repName || "[your name]";
-    const myQ = p.per === "exec" ? a.q_exec : p.per === "marketing" ? a.q_mkt : a.q_dev;
     const others = people.filter(x => x.a === p.a && x.id !== p.id);
+    const myQ = a[S.qk] || S.q;
+    const caseName = a.case || "Lions Clubs International", caseLine = lc((a.case_line || "one video reached 5.6M+ views").replace(/\.$/, ""));
     let h = "";
     h += step(0, "Before you dial (20 seconds)",
-      cue(`Score ${a.score}/10 · ${[a.hq, a.reach, money(a.rev)].filter(Boolean).join(" · ")} · ${a.size || ""} org`) +
+      cue(`Score ${a.score}/10 · ${[a.hq, a.reach, money(a.rev)].filter(Boolean).join(" · ")}`) +
       `<p class="cue">${esc(a.reason || "")}</p>` +
-      (a.care ? `<p class="warnbox"><b>Handle with care:</b> ${esc(a.care)}</p>` : "") +
-      cue(P.care) +
-      (p.li ? `<p class="cue">Not sure they're still there? <a href="${esc(p.li)}" target="_blank" rel="noopener">Check LinkedIn</a> first. About 1 in 4 recorded calls reached the wrong person or someone who had moved on.</p>` : "") +
-      (others.length ? cue("Also at this org: " + others.map(o => `${o.name} (${o.title})`).join("; ")) : ""));
+      (a.care ? `<p class="warnbox"><b>Handle with care:</b> ${esc(a.care)}</p>` : "") + cue(S.tip) +
+      (p.li ? `<p class="cue">Check <a href="${esc(p.li)}" target="_blank" rel="noopener">LinkedIn</a> they're still there: about 1 in 4 recorded calls hit the wrong person.</p>` : "") +
+      (others.length ? cue("Also here: " + others.map(o => `${o.name} (${o.title})`).join("; ")) : ""));
     h += step(1, "If someone else picks up",
-      say(`Hi, this is ${esc(rep)} with Happy Productions, I'm trying to reach ${mk(p.name)}. It's about ${esc(a.short)}.`) +
-      cue("Call screener or voicemail bot: give your name and \"for a possible feature for " + (a.short||"") + "\". That got through 4 of 4 times.") +
-      cue("Contact gone? \"Who runs " + (p.per === "development" ? "development" : p.per === "marketing" ? "marketing and communications" : "the organization") + " now, and what's the best line for them?\" Then log Referred."));
+      q(`Hi, this is ${rep} with Happy Productions, trying to reach ${p.name}. It's about ${sh}.`) +
+      cue(`Screener bot: “${rep}, for a possible feature for ${sh}.” That got through 4 of 4 times.`) +
+      cue("Contact gone? “Who runs that area now, and what's their best line?” Then log Referred."));
     h += step(2, "Open",
-      say(`Hi ${mk(cn)}, it's ${esc(rep)} with Happy Productions. We run AreYouHappy... about 15 million people watch it every month. I'm calling about ${esc(a.short)}. Did I catch you at a bad time?`) +
-      cue("Bad time? \"When's better... tomorrow morning or afternoon?\" Lock a slot and hang up. Don't pitch into it.") +
-      cue("Not sure of the role? \"I had you down as " + (p.title||"") + " at " + (a.short||"") + "... still right?\""));
-    h += step(3, "Why them, in one breath",
-      say(esc(a.why || "")) +
-      say(esc(P.value(a))));
-    h += step(4, "Ask one question, then listen",
-      say(esc(myQ || P.q)) +
-      cue("Let them talk. Ask one follow-up about what they just said before you say anything about us.") +
+      q(`Hey ${fn}, it's ${rep} with Happy Productions... we run AreYouHappy, about 4 million people watch it every month. I'm calling about ${sh}... did I catch you at a bad time?`) +
+      cue("Bad time? “No problem, tomorrow morning or afternoon?” Lock a slot and hang up.") +
+      q("I know I'm calling out of the blue... would it be ridiculous to ask for half a minute to tell you why I'm calling, and you tell me if it's relevant?"));
+    h += step(3, "Why them", q(a.noticed || "") + q(a.standout || "") + q(S.value(sh)));
+    h += step(4, "Ask one question, then dig",
+      q(myQ) + cue("Let them talk. Then go one level deeper before you say anything about us:") + q(S.dig) +
+      cue("You're listening for the real need: a date (gala, campaign, anniversary), a gap (no one to film, no audience), or a number (donors, retention).") +
       (a.story ? cue("The story we could tell for them: " + a.story) : ""));
     h += step(5, "Proof, only if they lean in",
-      say(esc(P.proof)) +
-      cue("Use 15 million a month. Never other reach numbers, never \"200 million\"."));
-    h += step(6, "Ask for the meeting once",
-      say(`Worth 20 minutes with our strategist? They'd ${esc(P.meet)} for ${esc(a.short)}. If we can't help, they'll tell you. Does Tuesday or Thursday work better... morning or afternoon?`) +
-      cue("Let them pick the time. Both recorded meetings in the first window were booked that way.") +
-      say("Who else would want a say in something like this? Should we invite them too?"));
-    h += step(7, "If they push back",
-      (a.obj ? obj(a.obj, say(esc(a.ans || "")), "likely for this org") : "") +
-      obj("Just send me an email.", say("Sure... what's the best email?") + say("So it's not generic, what should I put in it... examples like yours, pricing, or how it works?") + cue("Write down their answer. Confirm when you'll follow up. Don't ask for the meeting again."), "came up 75 times") +
-      obj("We already do video in-house.", say(`Great, keep them. You already know video works. What we add is the audience... AreYouHappy puts the film in front of about 15 million people a month who don't know ${esc(a.short)} yet. Your team keeps the cutdowns.`) + cue("Don't say \"extra pair of hands\". Offer to cut footage they already have."), "came up 59 times") +
-      obj("We don't have budget for this.", say("Fair. Projects usually start around a thousand a month for editing with unlimited videos, and bigger campaigns run more. When does next year's budget get set?") + cue("Give the number plainly: dodging price lost every buyer who asked. Development can also ask one donor or sponsor to underwrite it. Confirm current pricing with Esat."), "came up 58 times") +
-      obj("That's not me.", say(`No problem. Who handles video and storytelling at ${esc(a.short)}, and what's their best line?`) + cue("Get a name and a number, then log Referred."), "came up 55+ times") +
-      obj("Not interested.", say("Understood. Can I ask what you're focused on this year? If it's not a fit, I'll leave you alone.") + cue("One try. If it's still no, thank them and log it."), "came up 48+ times") +
-      obj("Who is this? How did you get my number?", say("Happy Productions... we make videos for nonprofits and run AreYouHappy. Your details came from a business directory. I can take you off our list right now if you'd like.") + cue("Never say \"I bought your number\". If it's a personal cell, apologize and offer to call the office."), "came up 36 times") +
-      obj("What's the catch? Nothing is free.", say("No catch. The strategy call is free, the work is paid. Most projects start around a thousand a month. The call is to see if it's worth it for you.")) +
-      obj("The board or my ED decides.", say("Makes sense. Who should be on the call so you don't have to retell it? I can send a one-pager written for them."))
-    );
-    h += step(8, "Before you hang up", say("Thanks, " + esc(cn) + ". I'll send that today.") + cue("Log the outcome below. Note any date they gave you: galas, anniversaries, budget season, a new comms hire."));
+      q(`We did this for ${caseName}: ${caseLine}.`) + cue("Use about 4 million people. Never any other reach number."));
+    h += step(6, "Ask for the meeting",
+      q(`Would you be opposed to 25 minutes with our strategist? They'd ${S.meet} for ${sh}, and you'd walk away with a video content plan you can use no matter what you decide. If we can't help, they'll tell you. ${ASK}`) +
+      q("Who else would want a say in this? Should we invite them too?") +
+      cue("Let them pick the time. Confirm timezone and email, and send the invite while you're on the phone."));
+    h += step(7, "Every objection: acknowledge, dig, reframe, ask again",
+      `<p class="warnbox"><b>The loop.</b> 1. Agree with them (never argue). 2. Ask one question to find out if it's a real blocker or a brush-off. 3. Tie their answer back to what the meeting gets them. 4. Ask for the meeting again with two times. Up to three asks. After the third no, lock a follow-up date or a referral, thank them, and stop.</p>` +
+      cue("Smokescreen signs: it comes instantly, before they've heard what you do, or it changes when you answer it. Real blocker: it's specific (a date, a person, a contract) and it stays the same when you dig.") +
+      (a.obj ? obj(a.obj, q(a.ans || "") + q(`That's what the 25 minutes is for. ${ASK}`), "likely for this org") : "") +
+      obj("Just send me an email.",
+        q("Happy to. What's the best email?") +
+        q("So I send the right thing... is it that now's a bad moment, or that video isn't really on your radar this year?") +
+        q(`Here's what I'll do so it's not one more email you skim: I'll send it with a calendar invite for 25 minutes with our strategist, with examples like ${sh} and what they'd plan for you. If it doesn't look worth it when you read it, just decline. ${ASK}`) +
+        cue("Still no? “Fair. When I follow up Thursday, morning or afternoon better?” Get a call-back slot, send the email today, and log it with the date."), "came up 75 times") +
+      obj("We already do video in-house.",
+        q("Great, keep them. Can I ask what doesn't get made... the bigger story films, or getting it seen beyond the people who already follow you?") +
+        q(`That's the part we add: about 4 million people who don't know ${sh} yet, and we can turn footage you already have into finished videos. The strategist can look at what your team makes now and where that fits. ${ASK}`) +
+        cue("Don't say “extra pair of hands” (0 meetings in the recordings). Lead with the audience."), "came up 59 times") +
+      obj("We don't have budget for this.",
+        q("Totally fair, most nonprofits we talk to don't have a line for this. Can I ask... is this year's budget already set, or is video just not a priority right now?") +
+        cue("If it's set: “When does next year's budget get planned?” Then: “That's exactly why the call helps now: you'd go into budget season with a plan and a real number, not a guess.” Development can also have one donor or sponsor underwrite it.") +
+        cue("If it's not a priority: “What is the priority this year?” Listen, then tie it back. If it's fundraising or awareness, that's what the videos are for.") +
+        q(`If you'd walk away with a plan either way, would 25 minutes be worth it? ${ASK}`) +
+        cue("Asked the price? “Projects usually start around a thousand a month for editing with unlimited videos; bigger campaigns run more.” Say it plainly. Confirm current pricing with Esat."), "came up 58 times") +
+      obj("That's not me.",
+        q(`No problem. Who handles video and storytelling at ${sh}, and what's their best line?`) +
+        q(`Would you want to join that call with them for 25 minutes, or should I tell them you pointed me over? ${ASK}`) +
+        cue("Get a name and a number, then log Referred."), "came up 55+ times") +
+      obj("Not interested.",
+        q("Understood, I'm a stranger calling out of the blue. Is it video in general, or just the timing? What are you focused on this year?") +
+        q(`That's exactly what we'd build the plan around. If it's not a fit, our strategist will tell you in the first five minutes. ${ASK}`) +
+        cue("Second hard no: thank them, ask if there's a better person or a better month, and log it."), "came up 48+ times") +
+      obj("Call me back later / We're slammed right now.",
+        q("Totally get it. Is it this week that's busy, or is it the season, like the gala or year-end?") +
+        q(`Then let's put 25 minutes on the calendar after that, so it's done and not one more thing to remember. Would the week after work... morning or afternoon?`) +
+        cue("Lock a real date. “Call me later” with no date is a brush-off. A date is a lead."), "") +
+      obj("Who is this? How did you get my number?",
+        q("Happy Productions... we make videos for nonprofits and run AreYouHappy. Your details came from a business directory. I can take you off our list right now if you'd like.") +
+        cue("If they don't ask to be removed, go back to the half-minute ask. Never say “I bought your number”."), "came up 36 times"));
+    h += step(8, "Before you hang up", q(`Thanks, ${fn}. I'll send that today.`) + cue("Log the outcome below. Note any date they gave you: galas, anniversaries, budget season, a new comms hire, a call-back slot."));
     h += `<section class="step"><span class="num">!</span><h3>House rules from the recordings</h3><ul class="rules">
-      <li>One company name: Happy Productions, we run AreYouHappy</li><li>One reach number: about 15 million a month</li>
-      <li>Reason before asking for time</li><li>One question before any proof</li>
-      <li>One meeting ask; after a no, stop</li><li>Give the price when asked</li>
-      <li>Never "I bought your number"</li><li>Kill: "donor treadmill", "extra pair of hands", "would it be ridiculous"</li></ul></section>`;
+      <li>One company name: Happy Productions, we run AreYouHappy</li><li>One reach number: about 4 million people</li>
+      <li>Reason before the pitch</li><li>One question, one deeper question, then the offer</li>
+      <li>Ask for the meeting after every objection, up to three times</li><li>Relentless, not pushy: agree first, then ask</li>
+      <li>Give the price when asked</li><li>Never "I bought your number" · Kill: "extra pair of hands"</li></ul></section>`;
     return h;
   }
 
@@ -448,7 +508,8 @@ footer{color:var(--muted);font-size:12.5px}
     data.accounts.forEach(a => acct[a.id] = a); people = data.people;
     try{ calls = JSON.parse(localStorage.getItem(LS_KEY) || "{}") || {}; }catch{ calls = {}; }
     $("cd-who").textContent = repName ? "Calling as " + repName : "";
-    note("Log every call in Apollo (Call in Apollo opens the contact and dialer). Statuses and notes here save in this browser only.", false);
+    note(pass() ? "Outcomes and notes you log here save for the whole team. Still log the call in Apollo." : "To save outcomes for the team, log a call and enter the call desk passcode once. Still log the call in Apollo.", false);
+    pull();
     render();
     try{ const n = localStorage.getItem("cd_rep_filter"); if(n){ f.rep = n; $("f-rep").value = n; render(); } }catch{}
     $("f-rep").addEventListener("change", (e) => { try{ localStorage.setItem("cd_rep_filter", e.target.value); }catch{} });
