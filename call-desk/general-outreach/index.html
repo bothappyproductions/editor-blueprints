@@ -1,3 +1,559 @@
-<!doctype html><meta charset="utf-8"><title>Storytelling Call Desk</title>
-<meta http-equiv="refresh" content="0; url=https://claude.ai/artifact/BQpVPjfSyMdaZtikNNaR4Z">
-<a href="https://claude.ai/artifact/BQpVPjfSyMdaZtikNNaR4Z">Open the Storytelling Call Desk</a>
+<!doctype html>
+<meta charset="utf-8">
+<title>Storytelling Call Desk</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Poppins:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: same family as the messaging call desk. Header + playbook strip, filter bar, then one row per leader:
+   org + why we're calling | the person | how to reach them | where it stands. The script opens in a sheet. */
+:root{
+  --bg:#f7f8f6; --surface:#ffffff; --surface-2:#eef3f1; --ink:#14201d; --muted:#56635f; --line:#dde5e2;
+  --accent:#0f6b5c; --accent-ink:#ffffff; --sun:#ffd166; --sun-ink:#3d2e00; --mint:#d6efe8; --rose:#ffd9d2;
+  --ok:#1f7a4d; --ok-bg:#d9f2e4; --warn-bg:#fff1bf; --warn:#7a5a00; --off:#7d8783; --off-bg:#eceeed;
+  --exec:#5b3fd1; --exec-bg:#e7e1fb; --mkt:#a86a00; --mkt-bg:#fdefd0; --dev:#0f6b5c; --dev-bg:#d6efe8;
+  --display:"Bricolage Grotesque","Avenir Next","Segoe UI",system-ui,sans-serif;
+  --body:"Poppins","Segoe UI",system-ui,-apple-system,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f1513; --surface:#18201d; --surface-2:#1f2a26; --ink:#e9f1ee; --muted:#9fb0aa; --line:#2b3833;
+    --accent:#6fd3bd; --accent-ink:#0b1714; --sun:#5c4710; --sun-ink:#ffe7a3; --mint:#1d3a33; --rose:#4a2a24;
+    --ok:#7fdcaa; --ok-bg:#183a2a; --warn-bg:#46390f; --warn:#ffe08a; --off:#8a9893; --off-bg:#26302c;
+    --exec:#b9a6ff; --exec-bg:#2f2650; --mkt:#ffcf6e; --mkt-bg:#40300c; --dev:#6fd3bd; --dev-bg:#173a32;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0f1513; --surface:#18201d; --surface-2:#1f2a26; --ink:#e9f1ee; --muted:#9fb0aa; --line:#2b3833;
+  --accent:#6fd3bd; --accent-ink:#0b1714; --sun:#5c4710; --sun-ink:#ffe7a3; --mint:#1d3a33; --rose:#4a2a24;
+  --ok:#7fdcaa; --ok-bg:#183a2a; --warn-bg:#46390f; --warn:#ffe08a; --off:#8a9893; --off-bg:#26302c;
+  --exec:#b9a6ff; --exec-bg:#2f2650; --mkt:#ffcf6e; --mkt-bg:#40300c; --dev:#6fd3bd; --dev-bg:#173a32;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:14px;line-height:1.55;margin:0;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 64px}
+.wrap{max-width:1200px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
+a{color:var(--accent);text-underline-offset:2px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0}
+h1{font-size:clamp(28px,5vw,44px);font-weight:800;letter-spacing:-.02em;line-height:1.05}
+.eyebrow{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.lede{max-width:72ch;color:var(--muted);margin:8px 0 0;font-size:15px}
+header{display:flex;flex-direction:column;gap:6px}
+.pitch{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.pitch div{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.pitch b{font-family:var(--display);font-size:15px}
+.pitch p{margin:0;color:var(--muted);font-size:13px}
+.pitch div:first-child{background:var(--mint);border-color:transparent}
+.pitch div:first-child p{color:var(--ink)}
+.tally{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.tally button{font:inherit;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:6px 12px;cursor:pointer;display:flex;gap:8px;align-items:center}
+.tally button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.tally .n{font-variant-numeric:tabular-nums;font-weight:600}
+.tally .total{margin-left:auto;color:var(--muted);font-size:13px}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:10px}
+.bar input,.bar select{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:8px 10px;min-width:0}
+.bar input{flex:1 1 220px}
+.note{margin:0;padding:10px 14px;border-radius:10px;background:var(--surface-2);font-size:13px}
+.note.warn{background:var(--warn-bg);color:var(--warn)}
+.list{display:flex;flex-direction:column;gap:10px}
+.empty{padding:28px;text-align:center;color:var(--muted);background:var(--surface);border:1px dashed var(--line);border-radius:14px}
+article.row{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr) minmax(0,1fr) minmax(0,.9fr);gap:16px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+article.row.s-meeting{border-color:var(--ok)}
+article.row.s-not_fit,article.row.s-wrong{opacity:.62}
+.org h3{font-size:17px;font-weight:600;line-height:1.25}
+.org-top{display:flex;gap:8px;align-items:flex-start}
+.score{flex:none;font-family:var(--mono);font-size:12px;border-radius:7px;padding:2px 6px;background:var(--surface-2);color:var(--muted);margin-top:2px}
+.score.hi{background:var(--sun);color:var(--sun-ink)}
+.place{color:var(--muted);font-size:12.5px}
+.why{margin:6px 0 0;font-size:13.5px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.chip{font-size:11.5px;border-radius:999px;padding:2px 9px;background:var(--surface-2);color:var(--muted);border:0}
+.chip.first{background:var(--sun);color:var(--sun-ink);font-weight:600}
+.chip.care{background:var(--rose);color:var(--ink)}
+.per{font-size:11.5px;font-weight:600;border-radius:6px;padding:1px 7px;display:inline-block}
+.per.exec{background:var(--exec-bg);color:var(--exec)} .per.marketing{background:var(--mkt-bg);color:var(--mkt)} .per.development{background:var(--dev-bg);color:var(--dev)}
+.who{font-weight:600;font-size:15px}
+.title{color:var(--muted);font-size:12.5px}
+.line{display:flex;gap:6px;align-items:center;min-width:0;font-family:var(--mono);font-size:12.5px}
+.line span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.copy{font:inherit;font-family:var(--body);font-size:11px;border:1px solid var(--line);background:var(--surface);color:var(--muted);border-radius:7px;padding:1px 7px;cursor:pointer;flex:none}
+.missing{color:var(--off);font-size:12.5px}
+.contact{display:flex;flex-direction:column;gap:4px;min-width:0}
+.contact a{font-size:12.5px}
+.work{display:flex;flex-direction:column;gap:6px;min-width:0}
+.work select,.work textarea{font:inherit;font-size:13px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:6px 8px;width:100%}
+.work textarea{min-height:54px;resize:vertical}
+.btn{font:inherit;font-weight:600;border:0;border-radius:10px;padding:9px 14px;background:var(--accent);color:var(--accent-ink);cursor:pointer;display:inline-flex;gap:8px;align-items:center;justify-content:center}
+.btn.quiet{background:var(--surface-2);color:var(--ink)}
+.btn svg{width:16px;height:16px}
+.stamp{font-size:11.5px;color:var(--muted)}
+.more{align-self:center}
+dialog{border:0;padding:0;border-radius:18px;max-width:760px;width:calc(100% - 24px);max-height:calc(100% - 24px);background:var(--surface);color:var(--ink)}
+dialog::backdrop{background:rgba(10,20,18,.45)}
+.sheet{display:flex;flex-direction:column;max-height:calc(100vh - 24px)}
+.sheet-head{display:flex;justify-content:space-between;gap:12px;padding:18px 20px 12px;border-bottom:1px solid var(--line)}
+.sheet-head h2{font-size:22px;font-weight:800}
+.x{font:inherit;font-size:24px;line-height:1;border:0;background:transparent;color:var(--muted);cursor:pointer;padding:4px 8px}
+.sheet-body{overflow:auto;padding:16px 20px;display:flex;flex-direction:column;gap:14px}
+.sheet-foot{border-top:1px solid var(--line);padding:12px 20px 16px;display:flex;flex-direction:column;gap:8px;background:var(--surface-2)}
+.step{display:grid;grid-template-columns:28px minmax(0,1fr);gap:4px 10px}
+.step .num{grid-row:span 2;width:26px;height:26px;border-radius:50%;background:var(--ink);color:var(--bg);display:grid;place-items:center;font-family:var(--mono);font-size:12px}
+.step h3{font-size:15px;font-weight:600;align-self:center}
+.lines{display:flex;flex-direction:column;gap:6px;min-width:0}
+.say{margin:0;padding:8px 12px;border-left:3px solid var(--accent);background:var(--surface-2);border-radius:0 10px 10px 0}
+.say mark{background:var(--sun);color:var(--sun-ink);border-radius:4px;padding:0 3px}
+.cue{margin:0;color:var(--muted);font-size:12.5px}
+.warnbox{margin:0;padding:8px 12px;border-radius:10px;background:var(--warn-bg);color:var(--warn);font-size:13px}
+details.obj{border:1px solid var(--line);border-radius:10px;padding:6px 10px;background:var(--surface)}
+details.obj summary{cursor:pointer;font-weight:500}
+details.obj summary small{color:var(--muted);font-weight:400;margin-left:6px}
+details.obj .say{margin-top:6px}
+.qs{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:3px}
+.outcomes{display:flex;flex-wrap:wrap;gap:6px}
+.outcomes button{font:inherit;font-size:12.5px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:5px 11px;cursor:pointer}
+.outcomes button.win{border-color:var(--ok);color:var(--ok)}
+.outcomes button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+#sheet-notes{font:inherit;font-size:13px;width:100%;min-height:60px;border:1px solid var(--line);border-radius:10px;padding:8px;background:var(--surface);color:var(--ink)}
+.saved{font-size:12px;color:var(--muted);min-height:16px}
+.rules{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 18px;margin:0;padding:0;list-style:none;font-size:13px}
+.rules li::before{content:"·";color:var(--accent);font-weight:700;margin-right:6px}
+footer{color:var(--muted);font-size:12.5px}
+@media (max-width:900px){.pitch{grid-template-columns:repeat(2,minmax(0,1fr))} article.row{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+@media (max-width:560px){.pitch,.rules{grid-template-columns:minmax(0,1fr)} article.row{grid-template-columns:minmax(0,1fr)} .tally .total{margin-left:0}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Happy Productions · Sales</div>
+    <h1>Storytelling Call Desk</h1>
+    <p class="lede">Nonprofit leaders at the accounts we cleared for outreach: executive directors, marketing and comms heads, development heads. Each card has a script written for that person, built from 325 recorded calls (Aug 18 to Nov 18) and the buyer personas.</p>
+  </header>
+
+  <section class="pitch" aria-label="How to pitch">
+    <div><b>Who we are, one way</b><p>"Happy Productions. We run AreYouHappy, about 15 million people a month." Same name, same number, every call.</p></div>
+    <div><b>Reason, then one question</b><p>One sentence on why them, then ask. Monologues before a question cut calls short in every window of recordings.</p></div>
+    <div><b>Lead with reach</b><p>"Keep your team, we add an audience you don't have." "Extra pair of hands" never booked a meeting; reach made people lean in.</p></div>
+    <div><b>One ask after a no</b><p>Asking again after a clear no never worked: 0 for 18 in November alone. Take the email, ask what to put in it, set the follow-up.</p></div>
+  </section>
+
+  <div class="tally" id="tally" role="group" aria-label="Filter by status"></div>
+
+  <div class="bar">
+    <input id="q" type="search" placeholder="Search organization, person, title or state" aria-label="Search">
+    <select id="f-rep" aria-label="Rep"><option value="">All reps</option><option>Armin</option><option>Stefan</option><option>Nick</option><option value="Stefan/Armin">Stefan or Armin</option></select>
+    <select id="f-per" aria-label="Persona"><option value="">All personas</option><option value="exec">Executive</option><option value="development">Development</option><option value="marketing">Marketing and comms</option></select>
+    <select id="f-mail" aria-label="Email"><option value="">Email or not</option><option value="yes">Has email</option><option value="no">No email yet</option></select>
+    <select id="f-first" aria-label="Call order"><option value="">Everyone</option><option value="first">Call-first contact only</option></select>
+  </div>
+  <p class="note" id="msg" hidden></p>
+
+  <div class="list" id="list"><div class="empty" id="empty">Loading the call list…</div></div>
+  <button class="btn quiet more" id="more" type="button" hidden>Show more</button>
+
+  <footer>Statuses and notes are shared: everyone on this desk sees the same view. Scores (1 to 10) and revenue come from the account research; "Call first" follows the persona guide (small orgs: the ED, mid-size: development, large: marketing).</footer>
+</div>
+
+<dialog id="sheet" aria-labelledby="sheet-title">
+  <div class="sheet">
+    <div class="sheet-head">
+      <div>
+        <div class="eyebrow" id="sheet-eyebrow">Call script</div>
+        <h2 id="sheet-title">Call script</h2>
+        <div class="title" id="sheet-who"></div>
+      </div>
+      <button class="x" type="button" id="sheet-close" aria-label="Close script">&times;</button>
+    </div>
+    <div class="sheet-body" id="sheet-body"></div>
+    <div class="sheet-foot">
+      <div class="eyebrow">Log this call</div>
+      <div class="outcomes" id="sheet-outcomes">
+        <button type="button" data-out="No answer">No answer</button>
+        <button type="button" data-out="Left voicemail">Left voicemail</button>
+        <button type="button" data-out="Gatekeeper">Gatekeeper</button>
+        <button type="button" data-out="Call back">Call back</button>
+        <button type="button" data-out="Wants an email">Wants an email</button>
+        <button type="button" data-out="Meeting set" class="win">Meeting set</button>
+        <button type="button" data-out="Referred">Referred</button>
+        <button type="button" data-out="Wrong person">Wrong person / left</button>
+        <button type="button" data-out="Not interested">Not interested</button>
+      </div>
+      <textarea id="sheet-notes" aria-label="Call notes" placeholder="Who you spoke to, what they said, next step and date"></textarea>
+      <div class="saved" id="sheet-saved"></div>
+    </div>
+  </div>
+</dialog>
+
+<script>
+// GitHub Pages adapter: same window.claude surface the desk was written against, backed by the Call Desk worker.
+// People (names, emails) come from the worker (/go/people, Airtable "General Outreach People"), never from this repo.
+(() => {
+  const API = "https://call-desk.happyproductions-hooks.workers.dev";
+  const store = (k, v) => { try { if (v === undefined) return localStorage.getItem(k); if (v === null) localStorage.removeItem(k); else localStorage.setItem(k, v); } catch (e) { return null; } return null; };
+  let pass = "", name = "";
+  const h = new URLSearchParams(location.hash.slice(1));
+  if (h.get("k")) { pass = h.get("k"); store("cd_pass", pass); try { history.replaceState(null, "", location.pathname + location.search); } catch (e) {} }
+  pass = pass || store("cd_pass") || ""; name = store("cd_name") || "";
+
+  async function call(path, init) {
+    init = init || {};
+    const headers = {"X-Pass": pass}; if (init.body) headers["Content-Type"] = "application/json";
+    let r;
+    try { r = await fetch(API + path, Object.assign({}, init, {headers})); }
+    catch (e) { const err = new Error("offline"); err.code = "offline"; throw err; }
+    const d = await r.json().catch(() => ({}));
+    if (r.status === 401) { store("cd_pass", null); const err = new Error("bad_pass"); err.code = "wrong passcode"; throw err; }
+    if (!r.ok) { const err = new Error(d.error || "error"); err.code = d.error || ("status " + r.status); throw err; }
+    return d;
+  }
+
+  let people = null, open;
+  const unlocked = new Promise(r => open = r);
+  window.__goPeople = async () => { await unlocked; return people; };
+
+  let calls = null; const subs = new Set();
+  const snap = () => ({metadata: {fromCache: false}, docs: Object.keys(calls).map(id => ({id, exists: true, data: () => calls[id]}))});
+  const emit = () => subs.forEach(s => { try { s.cb(snap()); } catch (e) {} });
+  async function refresh() { try { calls = (await call("/go/calls")).calls || {}; emit(); } catch (e) { subs.forEach(s => s.err && s.err(e)); } }
+  setInterval(() => { if (document.visibilityState === "visible" && subs.size) refresh(); }, 60000);
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && subs.size) refresh(); });
+
+  const db = {
+    collection: () => ({ onSnapshot: (cb, err) => { const s = {cb, err}; subs.add(s); if (calls) setTimeout(() => cb(snap()), 0); else refresh(); return () => subs.delete(s); } }),
+    doc: (path) => {
+      const id = path.split("/")[1];
+      return { set: async (body) => {
+        const d = await call("/go/call", {method: "POST", body: JSON.stringify({id, rep: name, status: body.status, notes: body.notes, log: body.log})});
+        if (calls && d.call) calls[id] = d.call;
+      } };
+    }
+  };
+  const user = {
+    id: async () => name, me: async () => ({name}), can: async () => true,
+    profiles: async (ids) => Object.fromEntries(ids.map(i => [i, {name: i}]))
+  };
+  window.claude = { use: async (n) => { await unlocked; return n === "db" ? db : n === "user" ? user : null; } };
+
+  async function load() { people = (await call("/go/people")).people || []; }
+  function pill() {
+    const b = document.createElement("button"); b.type = "button"; b.className = "cd-pill";
+    b.textContent = "Calling as " + name + " · change"; b.title = "Change the name on your call notes";
+    b.addEventListener("click", () => { store("cd_name", null); location.reload(); });
+    document.body.appendChild(b);
+  }
+  const why = (e) => e.code === "wrong passcode" ? "That passcode didn't work. Check it with Atdhe." : "Couldn't reach the list (" + e.code + "). Check your connection and try again.";
+  function gate(msg) {
+    const wrap = document.createElement("div"); wrap.className = "cd-gate";
+    wrap.innerHTML = '<form class="cd-card"><p class="eyebrow">Happy Productions · Call desk</p><h2>Storytelling call desk</h2>' +
+      '<label>Your first name<input name="n" autocomplete="given-name" required></label>' +
+      '<label>Passcode<input name="p" type="password" autocomplete="current-password" required></label>' +
+      '<p class="cd-err" role="alert"></p><button class="btn" type="submit">Open the call list</button></form>';
+    document.body.appendChild(wrap);
+    const f = wrap.querySelector("form"), err = wrap.querySelector(".cd-err");
+    f.n.value = name; f.p.value = pass; err.textContent = msg || "";
+    (name ? f.p : f.n).focus();
+    f.addEventListener("submit", async (ev) => {
+      ev.preventDefault();
+      name = f.n.value.trim().split(/\s+/)[0]; pass = f.p.value.trim();
+      err.textContent = "Checking…";
+      try { await load(); store("cd_pass", pass); store("cd_name", name); wrap.remove(); pill(); open(); }
+      catch (e) { err.textContent = why(e); }
+    });
+  }
+  document.addEventListener("DOMContentLoaded", async () => {
+    if (pass && name) {
+      try { await load(); pill(); open(); return; }
+      catch (e) { gate(e.code === "wrong passcode" ? why(e) : ""); return; }
+    }
+    gate("");
+  });
+})();
+</script>
+<style>
+.cd-gate{position:fixed;inset:0;z-index:50;background:var(--bg);display:grid;place-items:center;padding:16px}
+.cd-card{width:min(380px,100%);background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px;display:flex;flex-direction:column;gap:12px}
+.cd-card h2{font-size:24px}
+.cd-card label{display:flex;flex-direction:column;gap:4px;font-size:13px;font-weight:500}
+.cd-card input{font:inherit;font-size:15px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:9px 11px}
+.cd-err{margin:0;font-size:13px;color:var(--warn);min-height:1em}
+.cd-pill{position:fixed;left:max(12px,env(safe-area-inset-left,0px));bottom:max(12px,env(safe-area-inset-bottom,0px));z-index:5;font:inherit;font-size:12px;border:1px solid var(--line);background:var(--surface);color:var(--muted);border-radius:999px;padding:5px 11px;cursor:pointer}
+</style>
+<script>
+(() => {
+  const STATUS = [
+    {k:"new", label:"To call"}, {k:"called", label:"Called"}, {k:"callback", label:"Call back"},
+    {k:"email", label:"Wants email"}, {k:"meeting", label:"Meeting set"}, {k:"wrong", label:"Wrong person"}, {k:"not_fit", label:"Not interested"}
+  ];
+  const OUT_STATUS = {"No answer":"called","Left voicemail":"called","Gatekeeper":"called","Call back":"callback","Wants an email":"email","Meeting set":"meeting","Referred":"called","Wrong person":"wrong","Not interested":"not_fit"};
+  const PAGE = 60;
+  const $ = (id) => document.getElementById(id);
+  const listEl = $("list"), emptyEl = $("empty"), msgEl = $("msg"), moreEl = $("more");
+  const f = {q:"", status:"", rep:"", per:"", mail:"", first:""};
+  let people = [], acct = {}, calls = {}, db = null, user = null, myId = null, readOnly = false, shown = PAGE, repName = "";
+  const writeChain = new Map();
+
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const okUrl = (u) => /^https?:\/\//i.test(String(u || ""));
+  function note(t, warn){ msgEl.textContent = t; msgEl.className = "note" + (warn ? " warn" : ""); msgEl.hidden = !t; }
+  function ago(iso){ if(!iso) return ""; const t = Date.parse(iso); if(isNaN(t)) return ""; const m = Math.round((Date.now()-t)/60000);
+    if(m < 1) return "just now"; if(m < 60) return m + " min ago"; const h = Math.round(m/60); if(h < 24) return h + " h ago";
+    return new Date(t).toLocaleDateString(undefined,{month:"short",day:"numeric"}); }
+  const statusOf = (p) => (calls[p.id] && calls[p.id].status) || "new";
+  const money = (n) => !n ? "" : n >= 1e9 ? "$" + (n/1e9).toFixed(1) + "B" : n >= 1e6 ? "$" + (n/1e6).toFixed(n >= 1e7 ? 0 : 1) + "M" : "$" + Math.round(n/1e3) + "K";
+  const PER_LABEL = {exec:"Executive", marketing:"Marketing & comms", development:"Development"};
+
+  function matches(p){
+    const a = acct[p.a] || {};
+    if(f.status && statusOf(p) !== f.status) return false;
+    if(f.rep && a.owner !== f.rep && !(f.rep === "Stefan/Armin" && /Stefan|Armin/.test(a.owner))) return false;
+    if(f.per && p.per !== f.per) return false;
+    if(f.mail === "yes" && !p.email) return false;
+    if(f.mail === "no" && p.email) return false;
+    if(f.first && !p.first) return false;
+    if(f.q){ const hay = [a.org, a.short, a.hq, p.name, p.title, p.email].join(" ").toLowerCase(); if(!hay.includes(f.q)) return false; }
+    return true;
+  }
+  const SORD = {callback:0, new:1, email:2, called:3, meeting:4, wrong:5, not_fit:6};
+  function sortP(x, y){
+    const ax = acct[x.a] || {}, ay = acct[y.a] || {};
+    return (SORD[statusOf(x)] - SORD[statusOf(y)]) || ((ay.score||0) - (ax.score||0)) || String(ax.org).localeCompare(String(ay.org)) || ((y.first?1:0) - (x.first?1:0));
+  }
+
+  function renderTally(){
+    const c = {}; STATUS.forEach(s => c[s.k] = 0); people.forEach(p => c[statusOf(p)]++);
+    const t = $("tally"); t.innerHTML = "";
+    const mk = (label, n, on, fn) => { const b = document.createElement("button"); b.type = "button"; b.setAttribute("aria-pressed", String(on)); b.innerHTML = `${esc(label)} <span class="n">${n}</span>`; b.onclick = fn; t.appendChild(b); };
+    mk("All", people.length, !f.status, () => { f.status = ""; shown = PAGE; render(); });
+    STATUS.forEach(s => mk(s.label, c[s.k], f.status === s.k, () => { f.status = f.status === s.k ? "" : s.k; shown = PAGE; render(); }));
+    const tot = document.createElement("span"); tot.className = "total"; tot.textContent = `Showing ${Math.min(shown, people.filter(matches).length)} of ${people.filter(matches).length}`; t.appendChild(tot);
+  }
+  const copyLine = (v, kind) => v ? `<div class="line"><span>${esc(v)}</span><button class="copy" type="button" data-copy="${esc(v)}" aria-label="Copy ${kind}">Copy</button></div>` : "";
+
+  function cardHtml(p){
+    const a = acct[p.a] || {}, c = calls[p.id] || {}, st = statusOf(p);
+    const opts = STATUS.map(s => `<option value="${s.k}"${s.k===st?" selected":""}>${esc(s.label)}</option>`).join("");
+    const web = okUrl("https://" + a.domain) ? "https://" + a.domain : "";
+    return `
+      <div class="org">
+        <div class="org-top"><span class="score${a.score>=8?" hi":""}" title="Fit score 1 to 10">${esc(a.score)}</span><h3>${esc(a.org)}</h3></div>
+        <div class="place">${esc([a.hq, a.reach, money(a.rev)].filter(Boolean).join(" · "))}</div>
+        <p class="why">${esc(a.why || "")}</p>
+        <div class="chips">
+          ${p.first ? `<span class="chip first" title="Persona guide: who to call first at an org this size">Call first</span>` : ""}
+          <span class="chip">${esc(a.owner || "")}</span>
+          ${a.care ? `<span class="chip care" title="${esc(a.care)}">Handle with care</span>` : ""}
+        </div>
+      </div>
+      <div class="contact">
+        <span class="per ${esc(p.per)}">${esc(PER_LABEL[p.per]||"")}</span>
+        <div class="who">${esc(p.name)}</div>
+        <div class="title">${esc(p.title)}</div>
+      </div>
+      <div class="contact">
+        ${p.email ? copyLine(p.email, "email") : `<div class="missing">No email in Apollo yet</div>`}
+        ${p.li ? `<a href="${esc(p.li)}" target="_blank" rel="noopener">LinkedIn: check they're still there</a>` : ""}
+        ${p.cid ? `<a href="https://app.apollo.io/#/contacts/${esc(p.cid)}" target="hp-apollo" rel="noopener">Call in Apollo</a>` : `<a href="https://app.apollo.io/#/people/${esc(p.id)}" target="hp-apollo" rel="noopener">Open in Apollo</a>`}
+        ${web ? `<a href="${esc(web)}" target="_blank" rel="noopener">${esc(a.domain)}</a>` : ""}
+      </div>
+      <div class="work">
+        <button class="btn" type="button" data-act="script"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>Call script</button>
+        <label class="eyebrow" for="st-${esc(p.id)}">Status</label>
+        <select id="st-${esc(p.id)}" data-act="status"${readOnly?" disabled":""}>${opts}</select>
+        <textarea id="nt-${esc(p.id)}" data-act="notes" placeholder="${readOnly?"View only":"Notes, next step, date"}" aria-label="Notes for ${esc(p.name)}"${readOnly?" disabled":""}>${esc(c.notes||"")}</textarea>
+        <div class="stamp" data-who="${esc(c.by||"")}" data-at="${esc(c.at||"")}"></div>
+      </div>`;
+  }
+
+  async function stamps(){
+    const els = [...listEl.querySelectorAll(".stamp")];
+    const ids = [...new Set(els.map(e => e.dataset.who).filter(Boolean))];
+    let ps = {}; if(user && ids.length){ try{ ps = await user.profiles(ids); }catch{} }
+    els.forEach(e => { const at = ago(e.dataset.at); e.textContent = at ? `Updated by ${(ps[e.dataset.who] && ps[e.dataset.who].name) || "Someone"}, ${at}` : ""; });
+  }
+
+  function render(){
+    renderTally();
+    const all = people.filter(matches).sort(sortP), vis = all.slice(0, shown);
+    const active = document.activeElement;
+    if(active && active.tagName === "TEXTAREA" && listEl.contains(active)) return; // don't redraw under someone typing
+    listEl.innerHTML = "";
+    vis.forEach(p => { const el = document.createElement("article"); el.className = "row s-" + statusOf(p); el.dataset.id = p.id; el.innerHTML = cardHtml(p); listEl.appendChild(el); });
+    if(!vis.length){ emptyEl.textContent = people.length ? "No one matches these filters." : emptyEl.textContent; listEl.appendChild(emptyEl); }
+    moreEl.hidden = all.length <= shown;
+    stamps();
+  }
+
+  async function write(id, patch, log){
+    if(!db || readOnly) return false;
+    const prev = calls[id] || {};
+    const body = Object.assign({}, prev, patch, {at: new Date().toISOString()});
+    if(myId) body.by = myId;
+    if(log){ body.log = [log].concat(Array.isArray(prev.log) ? prev.log : []).slice(0, 20); }
+    calls[id] = body;
+    const p = (writeChain.get(id) || Promise.resolve()).then(() => db.doc("calls/" + id).set(body)).then(() => true).catch(e => {
+      if(e && e.code === "invalid_argument"){ readOnly = true; note("This view is read only. Check the passcode with Atdhe to log calls.", true); render(); }
+      else note("That change didn't save (" + ((e && e.code) || "error") + "). Try again in a moment.", true);
+      return false;
+    });
+    writeChain.set(id, p); return p;
+  }
+
+  listEl.addEventListener("change", (ev) => {
+    const t = ev.target, card = t.closest("article"); if(!card) return;
+    const id = card.dataset.id, c = calls[id] || {};
+    if(t.dataset.act === "status" && t.value !== (c.status || "new")) write(id, {status: t.value});
+    if(t.dataset.act === "notes" && t.value !== (c.notes || "")) write(id, {notes: t.value});
+  });
+  listEl.addEventListener("focusout", (ev) => { if(ev.target.tagName === "TEXTAREA") setTimeout(render, 0); });
+  listEl.addEventListener("click", (ev) => { const b = ev.target.closest('[data-act="script"]'); if(b) openScript(b.closest("article").dataset.id); });
+  document.addEventListener("click", async (ev) => {
+    const b = ev.target.closest(".copy"); if(!b) return;
+    try{ await navigator.clipboard.writeText(b.dataset.copy); b.textContent = "Copied"; }
+    catch{ const s = b.previousElementSibling; const r = document.createRange(); r.selectNodeContents(s); const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r); b.textContent = "Selected"; }
+    setTimeout(() => { b.textContent = "Copy"; }, 1400);
+  });
+  moreEl.onclick = () => { shown += PAGE; render(); };
+  $("q").addEventListener("input", (e) => { f.q = e.target.value.trim().toLowerCase(); shown = PAGE; render(); });
+  [["f-rep","rep"],["f-per","per"],["f-mail","mail"],["f-first","first"]].forEach(([id,k]) => $(id).addEventListener("change", (e) => { f[k] = e.target.value; shown = PAGE; render(); }));
+
+  // ---------------- The script ----------------
+  const say = (h) => `<p class="say">${h}</p>`, cue = (t) => `<p class="cue">${esc(t)}</p>`, mk = (s) => `<mark>${esc(s)}</mark>`;
+  const step = (n, title, inner) => `<section class="step"><span class="num">${n}</span><h3>${esc(title)}</h3><div class="lines">${inner}</div></section>`;
+  const obj = (they, you, tag) => `<details class="obj"><summary>"${esc(they)}"${tag ? `<small>${esc(tag)}</small>` : ""}</summary>${you}</details>`;
+  const firstName = (n) => String(n || "").split(/\s+/)[0] || "";
+
+  // Persona lines: value, proof, the one question if the account hook has none, and the meeting purpose.
+  const PER = {
+    exec: {
+      value: (a) => `We help groups like ${a.short} tell one story big enough for your board, your biggest donors and your sponsors... and then we put it in front of millions of people who've never heard of you.`,
+      proof: "DKMS got 1,000 new stem-cell donors from one of these. Lions Clubs got 2 million views off a single video.",
+      q: "Is there a big moment coming up, an anniversary, a campaign, a gala, that you want a lot more people to see?",
+      meet: "map the one story we'd tell and where it would run",
+      care: "Talk outcomes, donors, board and sponsors. Skip cameras and formats. Keep it short."
+    },
+    marketing: {
+      value: (a) => `One shoot gives you a hero film plus the cutdowns for social, email and the site... and AreYouHappy puts it in front of an audience you can't reach organically.`,
+      proof: "Lions Clubs got 2 million views off one video. DKMS turned viewers into 1,000 new stem-cell donors.",
+      q: "How are you making video right now... in-house, freelancers, phones?",
+      meet: "look at your next quarter's calendar and where one shoot would fill it",
+      care: "Never imply their content is weak. Connect reach to new donors, not just views."
+    },
+    development: {
+      value: (a) => `We make the videos gift officers send before a big ask, the thank-you that brings first-time donors back, and the film that plays before the paddle raise.`,
+      proof: "DKMS got 1,000 new donors from one campaign. Only about 1 in 5 first-time donors gives again, so the thank-you video is where it pays back.",
+      q: "When someone gives to you for the first time, what do they actually see next?",
+      meet: "look at your year-end and gala and where a film would move the number",
+      care: "Talk donors, retention, the ask and the renewal. Never lead with views or 'going viral'."
+    }
+  };
+
+  function scriptHtml(p){
+    const a = acct[p.a] || {}, P = PER[p.per] || PER.exec, cn = firstName(p.name);
+    const rep = repName || "[your name]";
+    const myQ = p.per === "exec" ? a.q_exec : p.per === "marketing" ? a.q_mkt : a.q_dev;
+    const others = people.filter(x => x.a === p.a && x.id !== p.id);
+    let h = "";
+    h += step(0, "Before you dial (20 seconds)",
+      cue(`Score ${a.score}/10 · ${[a.hq, a.reach, money(a.rev)].filter(Boolean).join(" · ")} · ${a.size || ""} org`) +
+      `<p class="cue">${esc(a.reason || "")}</p>` +
+      (a.care ? `<p class="warnbox"><b>Handle with care:</b> ${esc(a.care)}</p>` : "") +
+      cue(P.care) +
+      (p.li ? `<p class="cue">Not sure they're still there? <a href="${esc(p.li)}" target="_blank" rel="noopener">Check LinkedIn</a> first. About 1 in 4 recorded calls reached the wrong person or someone who had moved on.</p>` : "") +
+      (others.length ? cue("Also at this org: " + others.map(o => `${o.name} (${o.title})`).join("; ")) : ""));
+    h += step(1, "If someone else picks up",
+      say(`Hi, this is ${esc(rep)} with Happy Productions, I'm trying to reach ${mk(p.name)}. It's about ${esc(a.short)}.`) +
+      cue("Call screener or voicemail bot: give your name and \"for a possible feature for " + (a.short||"") + "\". That got through 4 of 4 times.") +
+      cue("Contact gone? \"Who runs " + (p.per === "development" ? "development" : p.per === "marketing" ? "marketing and communications" : "the organization") + " now, and what's the best line for them?\" Then log Referred."));
+    h += step(2, "Open",
+      say(`Hi ${mk(cn)}, it's ${esc(rep)} with Happy Productions. We run AreYouHappy... about 15 million people watch it every month. I'm calling about ${esc(a.short)}. Did I catch you at a bad time?`) +
+      cue("Bad time? \"When's better... tomorrow morning or afternoon?\" Lock a slot and hang up. Don't pitch into it.") +
+      cue("Not sure of the role? \"I had you down as " + (p.title||"") + " at " + (a.short||"") + "... still right?\""));
+    h += step(3, "Why them, in one breath",
+      say(esc(a.why || "")) +
+      say(esc(P.value(a))));
+    h += step(4, "Ask one question, then listen",
+      say(esc(myQ || P.q)) +
+      cue("Let them talk. Ask one follow-up about what they just said before you say anything about us.") +
+      (a.story ? cue("The story we could tell for them: " + a.story) : ""));
+    h += step(5, "Proof, only if they lean in",
+      say(esc(P.proof)) +
+      cue("Use 15 million a month. Never other reach numbers, never \"200 million\"."));
+    h += step(6, "Ask for the meeting once",
+      say(`Worth 20 minutes with our strategist? They'd ${esc(P.meet)} for ${esc(a.short)}. If we can't help, they'll tell you. Does Tuesday or Thursday work better... morning or afternoon?`) +
+      cue("Let them pick the time. Both recorded meetings in the first window were booked that way.") +
+      say("Who else would want a say in something like this? Should we invite them too?"));
+    h += step(7, "If they push back",
+      (a.obj ? obj(a.obj, say(esc(a.ans || "")), "likely for this org") : "") +
+      obj("Just send me an email.", say("Sure... what's the best email?") + say("So it's not generic, what should I put in it... examples like yours, pricing, or how it works?") + cue("Write down their answer. Confirm when you'll follow up. Don't ask for the meeting again."), "came up 75 times") +
+      obj("We already do video in-house.", say(`Great, keep them. You already know video works. What we add is the audience... AreYouHappy puts the film in front of about 15 million people a month who don't know ${esc(a.short)} yet. Your team keeps the cutdowns.`) + cue("Don't say \"extra pair of hands\". Offer to cut footage they already have."), "came up 59 times") +
+      obj("We don't have budget for this.", say("Fair. Projects usually start around a thousand a month for editing with unlimited videos, and bigger campaigns run more. When does next year's budget get set?") + cue("Give the number plainly: dodging price lost every buyer who asked. Development can also ask one donor or sponsor to underwrite it. Confirm current pricing with Esat."), "came up 58 times") +
+      obj("That's not me.", say(`No problem. Who handles video and storytelling at ${esc(a.short)}, and what's their best line?`) + cue("Get a name and a number, then log Referred."), "came up 55+ times") +
+      obj("Not interested.", say("Understood. Can I ask what you're focused on this year? If it's not a fit, I'll leave you alone.") + cue("One try. If it's still no, thank them and log it."), "came up 48+ times") +
+      obj("Who is this? How did you get my number?", say("Happy Productions... we make videos for nonprofits and run AreYouHappy. Your details came from a business directory. I can take you off our list right now if you'd like.") + cue("Never say \"I bought your number\". If it's a personal cell, apologize and offer to call the office."), "came up 36 times") +
+      obj("What's the catch? Nothing is free.", say("No catch. The strategy call is free, the work is paid. Most projects start around a thousand a month. The call is to see if it's worth it for you.")) +
+      obj("The board or my ED decides.", say("Makes sense. Who should be on the call so you don't have to retell it? I can send a one-pager written for them."))
+    );
+    h += step(8, "Before you hang up", say("Thanks, " + esc(cn) + ". I'll send that today.") + cue("Log the outcome below. Note any date they gave you: galas, anniversaries, budget season, a new comms hire."));
+    h += `<section class="step"><span class="num">!</span><h3>House rules from the recordings</h3><ul class="rules">
+      <li>One company name: Happy Productions, we run AreYouHappy</li><li>One reach number: about 15 million a month</li>
+      <li>Reason before asking for time</li><li>One question before any proof</li>
+      <li>One meeting ask; after a no, stop</li><li>Give the price when asked</li>
+      <li>Never "I bought your number"</li><li>Kill: "donor treadmill", "extra pair of hands", "would it be ridiculous"</li></ul></section>`;
+    return h;
+  }
+
+  const sheet = $("sheet"), body = $("sheet-body"); let openId = null;
+  function openScript(id){
+    const p = people.find(x => x.id === id); if(!p) return; openId = id;
+    const a = acct[p.a] || {};
+    $("sheet-eyebrow").textContent = (PER_LABEL[p.per] || "") + " · " + (a.org || "");
+    $("sheet-title").textContent = p.name;
+    $("sheet-who").textContent = p.title + (p.email ? " · " + p.email : "");
+    body.innerHTML = scriptHtml(p);
+    $("sheet-notes").value = (calls[id] && calls[id].notes) || "";
+    $("sheet-notes").disabled = readOnly;
+    $("sheet-outcomes").querySelectorAll("button").forEach(b => { b.disabled = readOnly; b.setAttribute("aria-pressed", "false"); });
+    $("sheet-saved").textContent = calls[id] && calls[id].log && calls[id].log[0] ? "Last: " + calls[id].log[0].o + ", " + ago(calls[id].log[0].t) : "";
+    body.scrollTop = 0;
+    if(typeof sheet.showModal === "function") sheet.showModal(); else sheet.setAttribute("open", "");
+  }
+  $("sheet-close").onclick = () => sheet.close();
+  sheet.addEventListener("click", (e) => { if(e.target === sheet) sheet.close(); });
+  sheet.addEventListener("close", () => { const id = openId; openId = null; if(!id) return; const v = $("sheet-notes").value; if(v !== ((calls[id] && calls[id].notes) || "")) write(id, {notes: v}).then(render); else render(); });
+  $("sheet-outcomes").addEventListener("click", async (e) => {
+    const b = e.target.closest("button"); if(!b || !openId) return;
+    b.parentElement.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+    const o = b.dataset.out, notes = $("sheet-notes").value;
+    const ok = await write(openId, {status: OUT_STATUS[o] || "called", notes}, {o, t: new Date().toISOString(), by: myId || ""});
+    $("sheet-saved").textContent = ok ? `Logged "${o}".` : "";
+  });
+
+  // ---------------- Data ----------------
+  async function boot(){
+    try{
+      const [ac, pp] = await Promise.all([fetch("accounts.json", {cache: "no-cache"}).then(r => r.json()), window.__goPeople()]);
+      ac.forEach(a => acct[a.id] = a); people = pp;
+    }catch(e){ emptyEl.textContent = "Couldn't load the call list. Reload the page."; return; }
+    render();
+    try{ const n = localStorage.getItem("cd_rep_filter"); if(n){ f.rep = n; $("f-rep").value = n; render(); } }catch{}
+    $("f-rep").addEventListener("change", (e) => { try{ localStorage.setItem("cd_rep_filter", e.target.value); }catch{} });
+    if(!window.claude || !window.claude.use){ note("Statuses can't be shared in this view.", false); return; }
+    try{ user = await window.claude.use("user"); }catch{ user = null; }
+    if(user){ try{ myId = await user.id(); const me = await user.me(); repName = (me && me.name ? me.name.split(/\s+/)[0] : "") || ""; }catch{} }
+    try{ db = await window.claude.use("db"); }catch{ db = null; }
+    if(!db){ note("Sign in to log calls. You can still read every script.", false); return; }
+    if(user){ try{ const can = await user.can("data.write"); if(can === false){ readOnly = true; note("View only: check the passcode with Atdhe to log calls.", false); } }catch{} }
+    const timer = setTimeout(() => note("Call statuses are slow to load. Scripts work; statuses may be out of date.", true), 10000);
+    db.collection("calls").onSnapshot((snap) => {
+      if(!snap.metadata.fromCache){ clearTimeout(timer); if(/slow to load/.test(msgEl.textContent)) note(""); }
+      const next = {}; snap.docs.forEach(d => { next[d.id] = d.data(); }); calls = next; render();
+    }, (e) => { clearTimeout(timer); note("Call statuses stopped updating (" + (e && e.code) + "). Reload to reconnect.", true); });
+  }
+  boot();
+})();
+</script>
