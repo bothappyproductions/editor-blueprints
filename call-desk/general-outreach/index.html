@@ -138,10 +138,6 @@ footer{color:var(--muted);font-size:12.5px}
 </style>
 </head>
 <body>
-<div class="gate" id="gate" hidden><form id="gate-form"><p class="eyebrow">Happy Productions · Call desk</p><h2>Storytelling Call Desk</h2>
-<label>Your first name<input name="n" autocomplete="given-name" required></label>
-<label>Passcode<input name="p" type="password" autocomplete="current-password" required></label>
-<p class="err" id="gate-err" role="alert"></p><button class="btn" type="submit">Open the call list</button></form></div>
 
 <div class="wrap">
   <header>
@@ -163,7 +159,7 @@ footer{color:var(--muted);font-size:12.5px}
     <input id="q" type="search" placeholder="Search organization, person, title or state" aria-label="Search">
     <select id="f-rep" aria-label="Rep"><option value="">All reps</option><option>Armin</option><option>Stefan</option><option>Nick</option><option value="Stefan/Armin">Stefan or Armin</option></select>
     <select id="f-per" aria-label="Persona"><option value="">All personas</option><option value="exec">Executive</option><option value="development">Development</option><option value="marketing">Marketing and comms</option></select>
-    <select id="f-mail" aria-label="Email"><option value="">Email or not</option><option value="yes">Has email</option><option value="no">No email yet</option></select>
+    <select id="f-mail" aria-label="Email"><option value="">Email or not</option><option value="yes">Has email in Apollo</option><option value="no">No email in Apollo</option></select>
     <select id="f-first" aria-label="Call order"><option value="">Everyone</option><option value="first">Call-first contact only</option></select>
   </div>
   <p class="note" id="msg" hidden></p>
@@ -233,10 +229,10 @@ footer{color:var(--muted);font-size:12.5px}
     if(f.status && statusOf(p) !== f.status) return false;
     if(f.rep && a.owner !== f.rep && !(f.rep === "Stefan/Armin" && /Stefan|Armin/.test(a.owner))) return false;
     if(f.per && p.per !== f.per) return false;
-    if(f.mail === "yes" && !p.email) return false;
-    if(f.mail === "no" && p.email) return false;
+    if(f.mail === "yes" && !p.hasEmail) return false;
+    if(f.mail === "no" && p.hasEmail) return false;
     if(f.first && !p.first) return false;
-    if(f.q){ const hay = [a.org, a.short, a.hq, p.name, p.title, p.email].join(" ").toLowerCase(); if(!hay.includes(f.q)) return false; }
+    if(f.q){ const hay = [a.org, a.short, a.hq, p.name, p.title].join(" ").toLowerCase(); if(!hay.includes(f.q)) return false; }
     return true;
   }
   const SORD = {callback:0, new:1, email:2, called:3, meeting:4, wrong:5, not_fit:6};
@@ -276,7 +272,7 @@ footer{color:var(--muted);font-size:12.5px}
         <div class="title">${esc(p.title)}</div>
       </div>
       <div class="contact">
-        ${p.email ? copyLine(p.email, "email") : `<div class="missing">No email in Apollo yet</div>`}
+        <div class="missing">Email and phone: open in Apollo</div>
         ${p.li ? `<a href="${esc(p.li)}" target="_blank" rel="noopener">LinkedIn: check they're still there</a>` : ""}
         ${p.cid ? `<a href="https://app.apollo.io/#/contacts/${esc(p.cid)}" target="hp-apollo" rel="noopener">Call in Apollo</a>` : `<a href="https://app.apollo.io/#/people/${esc(p.id)}" target="hp-apollo" rel="noopener">Open in Apollo</a>`}
         ${web ? `<a href="${esc(web)}" target="_blank" rel="noopener">${esc(a.domain)}</a>` : ""}
@@ -427,7 +423,7 @@ footer{color:var(--muted);font-size:12.5px}
     const a = acct[p.a] || {};
     $("sheet-eyebrow").textContent = (PER_LABEL[p.per] || "") + " · " + (a.org || "");
     $("sheet-title").textContent = p.name;
-    $("sheet-who").textContent = p.title + (p.email ? " · " + p.email : "");
+    $("sheet-who").textContent = p.title;
     body.innerHTML = scriptHtml(p);
     $("sheet-notes").value = (calls[id] && calls[id].notes) || "";
     $("sheet-notes").disabled = readOnly;
@@ -448,16 +444,6 @@ footer{color:var(--muted);font-size:12.5px}
   });
 
   // ---------------- Data ----------------
-  // Data ships encrypted (AES-GCM, key from the passcode via PBKDF2) so names and emails never sit in the public repo.
-  const b64 = (s) => Uint8Array.from(atob(s), c => c.charCodeAt(0));
-  async function decrypt(pass){
-    const env = await fetch("data.enc.json", {cache: "no-cache"}).then(r => r.json());
-    const base = await crypto.subtle.importKey("raw", new TextEncoder().encode(pass), "PBKDF2", false, ["deriveKey"]);
-    const key = await crypto.subtle.deriveKey({name: "PBKDF2", salt: b64(env.salt), iterations: env.iter, hash: "SHA-256"}, base, {name: "AES-GCM", length: 256}, false, ["decrypt"]);
-    const plain = await crypto.subtle.decrypt({name: "AES-GCM", iv: b64(env.iv)}, key, b64(env.ct));
-    const txt = await new Response(new Blob([plain]).stream().pipeThrough(new DecompressionStream("gzip"))).text();
-    return JSON.parse(txt);
-  }
   function load(data){
     data.accounts.forEach(a => acct[a.id] = a); people = data.people;
     try{ calls = JSON.parse(localStorage.getItem(LS_KEY) || "{}") || {}; }catch{ calls = {}; }
@@ -468,21 +454,9 @@ footer{color:var(--muted);font-size:12.5px}
     $("f-rep").addEventListener("change", (e) => { try{ localStorage.setItem("cd_rep_filter", e.target.value); }catch{} });
   }
   async function boot(){
-    let pass = "", name = "";
-    try{ pass = sessionStorage.getItem("go_pass") || ""; name = localStorage.getItem("cd_name") || ""; }catch{}
-    if(pass){ try{ repName = name; load(await decrypt(pass)); return; }catch{} }
-    const gate = $("gate"), form = $("gate-form"), err = $("gate-err");
-    gate.hidden = false; emptyEl.textContent = "Enter the passcode to open the call list.";
-    form.n.value = name;
-    form.addEventListener("submit", async (ev) => {
-      ev.preventDefault(); err.textContent = "Unlocking…";
-      try{
-        const data = await decrypt(form.p.value.trim());
-        repName = form.n.value.trim().split(/\s+/)[0] || "";
-        try{ sessionStorage.setItem("go_pass", form.p.value.trim()); localStorage.setItem("cd_name", repName); }catch{}
-        gate.hidden = true; load(data);
-      }catch(e){ err.textContent = "That passcode didn't work. Check it with Esat."; }
-    });
+    try{ repName = localStorage.getItem("cd_name") || ""; }catch{}
+    try{ load(await fetch("data.json", {cache: "no-cache"}).then(r => r.json())); }
+    catch(e){ emptyEl.textContent = "Couldn't load the call list. Reload the page."; }
   }
   boot();
 })();
