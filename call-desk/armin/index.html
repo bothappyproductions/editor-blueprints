@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<script>/* Nov 18: Rubik's desk lives at /call-desk/rubik/ like Armin's and Stefan's. The old /call-desk/ link forwards there, keeping any #k= passcode. */
+(function(){var p=location.pathname;if(/\/call-desk\/(index\.html)?$/.test(p))location.replace(p.replace(/index\.html$/,"")+"rubik/"+location.search+location.hash);})();</script>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex,nofollow">
 <title>Messaging Prospects</title>
@@ -216,7 +218,7 @@ dialog#sheet::backdrop{background:rgba(19,15,30,.5)}
   window.__callDesk = true;
   /* Nov 17: one page, three desks. call-desk/ is Rubik's list; call-desk/armin/ and call-desk/stefan/ show only
      leads whose Lead ID starts with "armin-" or "stefan-". All desks share the same Airtable base and passcode. */
-  const DESKS = ["armin", "stefan"];
+  const DESKS = ["rubik", "armin", "stefan"];
   const DESK = (location.pathname.match(/\/call-desk\/([a-z]+)\/?/i) || [])[1] || "";
   const desk = DESKS.includes(DESK.toLowerCase()) ? DESK.toLowerCase() : "";
   window.__cdDesk = desk;
