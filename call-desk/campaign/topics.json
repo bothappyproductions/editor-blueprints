@@ -38,12 +38,12 @@
  {
   "topic": "Michigan MDHHS community navigator network (Healthy Michigan Plan + SNAP)",
   "category": "Health coverage / Food assistance",
-  "why": "About $12.25M grant (MCNP-2027) for a nonprofit-led statewide navigator network for residents affected by H.R. 1; applications were due Sept 30, 2026, awards not yet announced (still no awardee list on the MDHHS release as of Nov 24, 2026). Watch for grantees and secondary partners.",
+  "why": "About $12.25M grant (MCNP-2027) for a nonprofit-led statewide navigator network for residents affected by H.R. 1; applications were due Sept 30, 2026, awards not yet announced (no award announcement found in a Nov 25, 2026 search). Watch for grantees and secondary partners.",
   "sources": [
    "https://www.michigan.gov/mdhhs/inside-mdhhs/newsroom/2026/09/15/community-navigator"
   ],
   "firstSeen": "2026-11-18",
-  "lastChecked": "2026-11-24",
+  "lastChecked": "2026-11-25",
   "status": "active"
  },
  {
@@ -106,13 +106,13 @@
  {
   "topic": "ONDCP FY2026 CARA Local Drug Crisis grants (September 2026)",
   "category": "Prevention and awareness",
-  "why": "ONDCP's Sept. 22, 2026 release: about $3.8 million in CARA Local Drug Crisis grants to 50 coalitions for primary prevention focused on youth use of opioids, methamphetamine and prescription drug misuse (alongside about $66 million in DFC awards). Award list PDF not yet read; mine it on a later run.",
+  "why": "ONDCP's Sept. 22, 2026 release: about $3.8 million in CARA Local Drug Crisis grants to 50 coalitions for primary prevention focused on youth use of opioids, methamphetamine and prescription drug misuse (alongside about $66 million in DFC awards). Award list PDF not yet read; mine it on a later run. Nov 25, 2026: award list PDF still could not be fetched (fetch permission prompt went unanswered).",
   "sources": [
    "https://www.whitehouse.gov/releases/2026/09/ondcp-announces-fy-2026-drug-free-communities-dfc-cara-local-drug-crisis-grant-awards-to-prevent-youth-substance-abuse-across-the-nation/",
    "https://www.whitehouse.gov/wp-content/uploads/2025/03/ONDCP-SC00414_Tab_F_FY_2026_CARA_Awards_Web_Spreadsheet_N_50_.pdf"
   ],
   "firstSeen": "2026-11-24",
-  "lastChecked": "2026-11-24",
+  "lastChecked": "2026-11-25",
   "status": "active"
  },
  {
@@ -124,6 +124,29 @@
   ],
   "firstSeen": "2026-11-24",
   "lastChecked": "2026-11-24",
+  "status": "active"
+ },
+ {
+  "topic": "Kentucky Opioid Abatement Advisory Commission 2026-27 prevention grants (fifth round)",
+  "category": "Prevention and awareness",
+  "why": "AG Russell Coleman announced Apr. 23, 2026 nearly $34 million to more than 100 Kentucky organizations; the full list has a 'PREVENTION GRANT AWARDS 2026-27' block (58 awardees, 1- or 2-year awards) including coalitions and awareness groups. 8 added to Stefan's desk Nov 25, 2026; remaining prevention awardees are mostly youth clubs, schools, health departments and providers.",
+  "sources": [
+   "https://www.ag.ky.gov/Press%20Release%20Attachments/Grant%20Awards-%20ALL%201.pdf",
+   "https://kaco.org/articles/nearly-34-million-in-grants-awarded-to-fight-drug-epidemic/"
+  ],
+  "firstSeen": "2026-11-25",
+  "lastChecked": "2026-11-25",
+  "status": "active"
+ },
+ {
+  "topic": "Texas Opioid Abatement Fund Council long-term CORE grants (June 2026)",
+  "category": "Prevention and awareness",
+  "why": "80 grants totaling $48.9 million (June 25, 2026) for three-year projects, but the stated categories are treatment, care coordination and recovery support, not prevention or public information; award list page not readable today. Low fit; recheck only if a prevention round opens.",
+  "sources": [
+   "https://comptroller.texas.gov/about/media-center/news/20260625-texas-opioid-abatement-fund-council-awards-489-million-in-community-focused-opioid-response-grants-1782159956326"
+  ],
+  "firstSeen": "2026-11-25",
+  "lastChecked": "2026-11-25",
   "status": "active"
  }
 ]
